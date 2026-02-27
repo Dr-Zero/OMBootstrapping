@@ -1098,7 +1098,7 @@ extern struct record_description NFBackendExtension_Distribution_DISTRIBUTION__d
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NFBackendExtension_Annotations_ANNOTATIONS__desc_added
 #define NFBackendExtension_Annotations_ANNOTATIONS__desc_added
-ADD_METARECORD_DEFINITIONS const char* NFBackendExtension_Annotations_ANNOTATIONS__desc__fields[2] = {"hideResult","resizable"};
+ADD_METARECORD_DEFINITIONS const char* NFBackendExtension_Annotations_ANNOTATIONS__desc__fields[4] = {"hideResult","resizable","optimizable","optimizerExpression"};
 ADD_METARECORD_DEFINITIONS struct record_description NFBackendExtension_Annotations_ANNOTATIONS__desc = {
   "NFBackendExtension_Annotations_ANNOTATIONS",
   "NFBackendExtension.Annotations.ANNOTATIONS",
@@ -1111,7 +1111,7 @@ extern struct record_description NFBackendExtension_Annotations_ANNOTATIONS__des
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NFBackendExtension_Annotations_ANNOTATIONS__desc_added
 #define NFBackendExtension_Annotations_ANNOTATIONS__desc_added
-ADD_METARECORD_DEFINITIONS const char* NFBackendExtension_Annotations_ANNOTATIONS__desc__fields[2] = {"hideResult","resizable"};
+ADD_METARECORD_DEFINITIONS const char* NFBackendExtension_Annotations_ANNOTATIONS__desc__fields[4] = {"hideResult","resizable","optimizable","optimizerExpression"};
 ADD_METARECORD_DEFINITIONS struct record_description NFBackendExtension_Annotations_ANNOTATIONS__desc = {
   "NFBackendExtension_Annotations_ANNOTATIONS",
   "NFBackendExtension.Annotations.ANNOTATIONS",

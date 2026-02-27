@@ -136,8 +136,6 @@ extern struct record_description NFExpression_REAL__desc;
 
 extern struct record_description NFExpression_RELATION__desc;
 
-extern struct record_description NFFlatten_FunctionTreeImpl_Tree_EMPTY__desc;
-
 extern struct record_description NFFunction_Function_FUNCTION__desc;
 
 extern struct record_description NFInstNode_InstNode_COMPONENT__NODE__desc;
@@ -365,7 +363,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_EquationPointers_mapRemovePt
 
 
 DLLDirection
-modelica_metatype omc_NBEquation_EquationPointers_mapExp(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fequations, modelica_fnptr _funcExp, modelica_metatype _funcCrefOpt);
+modelica_metatype omc_NBEquation_EquationPointers_mapExp(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fequations, modelica_fnptr _funcExp, modelica_metatype _funcCrefOpt, modelica_fnptr _mapFunc);
 #define boxptr_NBEquation_EquationPointers_mapExp omc_NBEquation_EquationPointers_mapExp
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_EquationPointers_mapExp,2,0) {(void*) boxptr_NBEquation_EquationPointers_mapExp,0}};
 #define boxvar_NBEquation_EquationPointers_mapExp MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_EquationPointers_mapExp)
@@ -492,9 +490,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_convertEquationKind,2,0) {(v
 
 
 DLLDirection
-modelica_metatype omc_NBEquation_default(threadData_t *threadData, modelica_integer _kind, modelica_boolean _exclusively_initial, modelica_metatype _clock_idx);
+modelica_metatype omc_NBEquation_default(threadData_t *threadData, modelica_integer _kind, modelica_boolean _exclusively_initial, modelica_metatype _clock_idx, modelica_metatype _optimizerExpression);
 DLLDirection
-modelica_metatype boxptr_NBEquation_default(threadData_t *threadData, modelica_metatype _kind, modelica_metatype _exclusively_initial, modelica_metatype _clock_idx);
+modelica_metatype boxptr_NBEquation_default(threadData_t *threadData, modelica_metatype _kind, modelica_metatype _exclusively_initial, modelica_metatype _clock_idx, modelica_metatype _optimizerExpression);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_default,2,0) {(void*) boxptr_NBEquation_default,0}};
 #define boxvar_NBEquation_default MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_default)
 
@@ -779,8 +777,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_IfEquationBody_inline,2,0) {
 
 
 DLLDirection
-modelica_metatype omc_NBEquation_IfEquationBody_createResidual(threadData_t *threadData, modelica_metatype _body, modelica_metatype _res);
-#define boxptr_NBEquation_IfEquationBody_createResidual omc_NBEquation_IfEquationBody_createResidual
+modelica_metatype omc_NBEquation_IfEquationBody_createResidual(threadData_t *threadData, modelica_metatype _body, modelica_metatype _res, modelica_boolean _new, modelica_boolean _allowFail);
+DLLDirection
+modelica_metatype boxptr_NBEquation_IfEquationBody_createResidual(threadData_t *threadData, modelica_metatype _body, modelica_metatype _res, modelica_metatype _new, modelica_metatype _allowFail);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_IfEquationBody_createResidual,2,0) {(void*) boxptr_NBEquation_IfEquationBody_createResidual,0}};
 #define boxvar_NBEquation_IfEquationBody_createResidual MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_IfEquationBody_createResidual)
 
@@ -866,9 +865,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Equation_toStatement,2,0) {(
 
 
 DLLDirection
-modelica_metatype omc_NBEquation_Equation_singleSlice(threadData_t *threadData, modelica_metatype _eqn_ptr, modelica_integer _scal_idx, modelica_metatype _sizes, modelica_metatype _cref_to_solve, modelica_metatype _replacements, modelica_metatype __omcQ_24in_5FfuncTree, modelica_metatype *out_funcTree, modelica_integer *out_solve_status);
+modelica_metatype omc_NBEquation_Equation_singleSlice(threadData_t *threadData, modelica_metatype _eqn_ptr, modelica_integer _scal_idx, modelica_metatype _sizes, modelica_metatype _cref_to_solve, modelica_metatype _replacements, modelica_metatype _funcMap, modelica_integer *out_solve_status);
 DLLDirection
-modelica_metatype boxptr_NBEquation_Equation_singleSlice(threadData_t *threadData, modelica_metatype _eqn_ptr, modelica_metatype _scal_idx, modelica_metatype _sizes, modelica_metatype _cref_to_solve, modelica_metatype _replacements, modelica_metatype __omcQ_24in_5FfuncTree, modelica_metatype *out_funcTree, modelica_metatype *out_solve_status);
+modelica_metatype boxptr_NBEquation_Equation_singleSlice(threadData_t *threadData, modelica_metatype _eqn_ptr, modelica_metatype _scal_idx, modelica_metatype _sizes, modelica_metatype _cref_to_solve, modelica_metatype _replacements, modelica_metatype _funcMap, modelica_metatype *out_solve_status);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Equation_singleSlice,2,0) {(void*) boxptr_NBEquation_Equation_singleSlice,0}};
 #define boxvar_NBEquation_Equation_singleSlice MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_Equation_singleSlice)
 
@@ -939,6 +938,22 @@ modelica_metatype omc_NBEquation_Equation_expIsParamOrConst(threadData_t *thread
 #define boxptr_NBEquation_Equation_expIsParamOrConst omc_NBEquation_Equation_expIsParamOrConst
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Equation_expIsParamOrConst,2,0) {(void*) boxptr_NBEquation_Equation_expIsParamOrConst,0}};
 #define boxvar_NBEquation_Equation_expIsParamOrConst MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_Equation_expIsParamOrConst)
+
+
+DLLDirection
+modelica_boolean omc_NBEquation_Equation_isResizable(threadData_t *threadData, modelica_metatype _eqn_ptr);
+DLLDirection
+modelica_metatype boxptr_NBEquation_Equation_isResizable(threadData_t *threadData, modelica_metatype _eqn_ptr);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Equation_isResizable,2,0) {(void*) boxptr_NBEquation_Equation_isResizable,0}};
+#define boxvar_NBEquation_Equation_isResizable MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_Equation_isResizable)
+
+
+DLLDirection
+modelica_boolean omc_NBEquation_Equation_isCompound(threadData_t *threadData, modelica_metatype _eqn_ptr);
+DLLDirection
+modelica_metatype boxptr_NBEquation_Equation_isCompound(threadData_t *threadData, modelica_metatype _eqn_ptr);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Equation_isCompound,2,0) {(void*) boxptr_NBEquation_Equation_isCompound,0}};
+#define boxvar_NBEquation_Equation_isCompound MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_Equation_isCompound)
 
 
 DLLDirection
@@ -1030,6 +1045,22 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Equation_isInitial,2,0) {(vo
 
 
 DLLDirection
+modelica_boolean omc_NBEquation_Equation_isContinousRecordAware(threadData_t *threadData, modelica_metatype _eqn_ptr);
+DLLDirection
+modelica_metatype boxptr_NBEquation_Equation_isContinousRecordAware(threadData_t *threadData, modelica_metatype _eqn_ptr);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Equation_isContinousRecordAware,2,0) {(void*) boxptr_NBEquation_Equation_isContinousRecordAware,0}};
+#define boxvar_NBEquation_Equation_isContinousRecordAware MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_Equation_isContinousRecordAware)
+
+
+DLLDirection
+modelica_boolean omc_NBEquation_Equation_isDiscontinuous(threadData_t *threadData, modelica_metatype _eqn_ptr);
+DLLDirection
+modelica_metatype boxptr_NBEquation_Equation_isDiscontinuous(threadData_t *threadData, modelica_metatype _eqn_ptr);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Equation_isDiscontinuous,2,0) {(void*) boxptr_NBEquation_Equation_isDiscontinuous,0}};
+#define boxvar_NBEquation_Equation_isDiscontinuous MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_Equation_isDiscontinuous)
+
+
+DLLDirection
 modelica_boolean omc_NBEquation_Equation_isContinuous(threadData_t *threadData, modelica_metatype _eqn_ptr);
 DLLDirection
 modelica_metatype boxptr_NBEquation_Equation_isContinuous(threadData_t *threadData, modelica_metatype _eqn_ptr);
@@ -1091,16 +1122,17 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Equation_getType,2,0) {(void
 
 
 DLLDirection
-modelica_metatype omc_NBEquation_Equation_getResidualExp(threadData_t *threadData, modelica_metatype _eqn);
-#define boxptr_NBEquation_Equation_getResidualExp omc_NBEquation_Equation_getResidualExp
+modelica_metatype omc_NBEquation_Equation_getResidualExp(threadData_t *threadData, modelica_metatype _eqn, modelica_boolean _throwOnFail);
+DLLDirection
+modelica_metatype boxptr_NBEquation_Equation_getResidualExp(threadData_t *threadData, modelica_metatype _eqn, modelica_metatype _throwOnFail);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Equation_getResidualExp,2,0) {(void*) boxptr_NBEquation_Equation_getResidualExp,0}};
 #define boxvar_NBEquation_Equation_getResidualExp MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_Equation_getResidualExp)
 
 
 DLLDirection
-modelica_metatype omc_NBEquation_Equation_createResidual(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqn_5Fptr, modelica_boolean _new);
+modelica_metatype omc_NBEquation_Equation_createResidual(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqn_5Fptr, modelica_metatype _residualCref_opt, modelica_boolean _new, modelica_boolean _allowFail);
 DLLDirection
-modelica_metatype boxptr_NBEquation_Equation_createResidual(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqn_5Fptr, modelica_metatype _new);
+modelica_metatype boxptr_NBEquation_Equation_createResidual(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqn_5Fptr, modelica_metatype _residualCref_opt, modelica_metatype _new, modelica_metatype _allowFail);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Equation_createResidual,2,0) {(void*) boxptr_NBEquation_Equation_createResidual,0}};
 #define boxvar_NBEquation_Equation_createResidual MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_Equation_createResidual)
 
@@ -1460,28 +1492,28 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Iterator_simplifyRangeCondit
 
 
 DLLDirection
-modelica_metatype omc_NBEquation_Iterator_normalizedSubscript(threadData_t *threadData, modelica_metatype _iter_name, modelica_metatype _range);
+modelica_metatype omc_NBEquation_Iterator_normalizedSubscript(threadData_t *threadData, modelica_metatype _iter_name, modelica_metatype _range, modelica_metatype _iter_map);
 #define boxptr_NBEquation_Iterator_normalizedSubscript omc_NBEquation_Iterator_normalizedSubscript
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Iterator_normalizedSubscript,2,0) {(void*) boxptr_NBEquation_Iterator_normalizedSubscript,0}};
 #define boxvar_NBEquation_Iterator_normalizedSubscript MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_Iterator_normalizedSubscript)
 
 
 DLLDirection
-modelica_metatype omc_NBEquation_Iterator_normalizedSubscripts(threadData_t *threadData, modelica_metatype _iter);
+modelica_metatype omc_NBEquation_Iterator_normalizedSubscripts(threadData_t *threadData, modelica_metatype _iter, modelica_metatype _iter_map);
 #define boxptr_NBEquation_Iterator_normalizedSubscripts omc_NBEquation_Iterator_normalizedSubscripts
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Iterator_normalizedSubscripts,2,0) {(void*) boxptr_NBEquation_Iterator_normalizedSubscripts,0}};
 #define boxvar_NBEquation_Iterator_normalizedSubscripts MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_Iterator_normalizedSubscripts)
 
 
 DLLDirection
-modelica_metatype omc_NBEquation_Iterator_extractFromCall(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype __omcQ_24in_5Fiter, modelica_metatype _replacements, modelica_metatype _new_iters, modelica_metatype *out_iter);
+modelica_metatype omc_NBEquation_Iterator_extractFromCall(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype __omcQ_24in_5Fiter, modelica_metatype _replacements, modelica_metatype _new_iters, modelica_metatype _dims_map, modelica_metatype *out_iter);
 #define boxptr_NBEquation_Iterator_extractFromCall omc_NBEquation_Iterator_extractFromCall
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Iterator_extractFromCall,2,0) {(void*) boxptr_NBEquation_Iterator_extractFromCall,0}};
 #define boxvar_NBEquation_Iterator_extractFromCall MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_Iterator_extractFromCall)
 
 
 DLLDirection
-modelica_metatype omc_NBEquation_Iterator_extract(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype _new_iters, modelica_metatype *out_exp);
+modelica_metatype omc_NBEquation_Iterator_extract(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype _new_iters, modelica_metatype _dims_map, modelica_metatype *out_exp);
 #define boxptr_NBEquation_Iterator_extract omc_NBEquation_Iterator_extract
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Iterator_extract,2,0) {(void*) boxptr_NBEquation_Iterator_extract,0}};
 #define boxvar_NBEquation_Iterator_extract MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_Iterator_extract)
@@ -1585,6 +1617,14 @@ modelica_metatype omc_NBEquation_Iterator_intersect(threadData_t *threadData, mo
 #define boxptr_NBEquation_Iterator_intersect omc_NBEquation_Iterator_intersect
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Iterator_intersect,2,0) {(void*) boxptr_NBEquation_Iterator_intersect,0}};
 #define boxvar_NBEquation_Iterator_intersect MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_Iterator_intersect)
+
+
+DLLDirection
+modelica_boolean omc_NBEquation_Iterator_isResizable(threadData_t *threadData, modelica_metatype _iter);
+DLLDirection
+modelica_metatype boxptr_NBEquation_Iterator_isResizable(threadData_t *threadData, modelica_metatype _iter);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Iterator_isResizable,2,0) {(void*) boxptr_NBEquation_Iterator_isResizable,0}};
+#define boxvar_NBEquation_Iterator_isResizable MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_Iterator_isResizable)
 
 
 DLLDirection

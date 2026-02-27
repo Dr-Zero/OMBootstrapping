@@ -32,6 +32,7 @@ modelica_integer omc_OMSimulatorExt_oms__terminate(threadData_t *threadData, mod
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_terminate(MMC_STRINGDATA(_cref));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -51,7 +52,7 @@ modelica_integer omc_OMSimulatorExt_oms__stepUntil(threadData_t *threadData, mod
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
-  _stopTime_ext = (double)_stopTime;
+  _stopTime_ext = (double) _stopTime;
   _status_ext = OMSimulator_oms_stepUntil(MMC_STRINGDATA(_cref), _stopTime_ext);
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -72,6 +73,7 @@ modelica_integer omc_OMSimulatorExt_oms__simulate(threadData_t *threadData, mode
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_simulate(MMC_STRINGDATA(_cref));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -90,6 +92,7 @@ modelica_integer omc_OMSimulatorExt_oms__setWorkingDirectory(threadData_t *threa
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_setWorkingDirectory(MMC_STRINGDATA(_newWorkingDir));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -111,9 +114,9 @@ modelica_integer omc_OMSimulatorExt_oms__setVariableStepSize(threadData_t *threa
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
-  _initialStepSize_ext = (double)_initialStepSize;
-  _minimumStepSize_ext = (double)_minimumStepSize;
-  _maximumStepSize_ext = (double)_maximumStepSize;
+  _initialStepSize_ext = (double) _initialStepSize;
+  _minimumStepSize_ext = (double) _minimumStepSize;
+  _maximumStepSize_ext = (double) _maximumStepSize;
   _status_ext = OMSimulator_oms_setVariableStepSize(MMC_STRINGDATA(_cref), _initialStepSize_ext, _minimumStepSize_ext, _maximumStepSize_ext);
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -140,8 +143,8 @@ modelica_integer omc_OMSimulatorExt_oms__setTolerance(threadData_t *threadData, 
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
-  _absoluteTolerance_ext = (double)_absoluteTolerance;
-  _relativeTolerance_ext = (double)_relativeTolerance;
+  _absoluteTolerance_ext = (double) _absoluteTolerance;
+  _relativeTolerance_ext = (double) _relativeTolerance;
   _status_ext = OMSimulator_oms_setTolerance(MMC_STRINGDATA(_cref), _absoluteTolerance_ext, _relativeTolerance_ext);
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -166,8 +169,8 @@ modelica_integer omc_OMSimulatorExt_oms__setTLMSocketData(threadData_t *threadDa
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
-  _managerPort_ext = (int)_managerPort;
-  _monitorPort_ext = (int)_monitorPort;
+  _managerPort_ext = (int) _managerPort;
+  _monitorPort_ext = (int) _monitorPort;
   _status_ext = OMSimulator_oms_setTLMSocketData(MMC_STRINGDATA(_cref), MMC_STRINGDATA(_address), _managerPort_ext, _monitorPort_ext);
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -202,18 +205,18 @@ modelica_integer omc_OMSimulatorExt_oms__setTLMPositionAndOrientation(threadData
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
-  _x1_ext = (double)_x1;
-  _x2_ext = (double)_x2;
-  _x3_ext = (double)_x3;
-  _A11_ext = (double)_A11;
-  _A12_ext = (double)_A12;
-  _A13_ext = (double)_A13;
-  _A21_ext = (double)_A21;
-  _A22_ext = (double)_A22;
-  _A23_ext = (double)_A23;
-  _A31_ext = (double)_A31;
-  _A32_ext = (double)_A32;
-  _A33_ext = (double)_A33;
+  _x1_ext = (double) _x1;
+  _x2_ext = (double) _x2;
+  _x3_ext = (double) _x3;
+  _A11_ext = (double) _A11;
+  _A12_ext = (double) _A12;
+  _A13_ext = (double) _A13;
+  _A21_ext = (double) _A21;
+  _A22_ext = (double) _A22;
+  _A23_ext = (double) _A23;
+  _A31_ext = (double) _A31;
+  _A32_ext = (double) _A32;
+  _A33_ext = (double) _A33;
   _status_ext = OMSimulator_oms_setTLMPositionAndOrientation(MMC_STRINGDATA(_cref), _x1_ext, _x2_ext, _x3_ext, _A11_ext, _A12_ext, _A13_ext, _A21_ext, _A22_ext, _A23_ext, _A31_ext, _A32_ext, _A33_ext);
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -256,6 +259,7 @@ modelica_integer omc_OMSimulatorExt_oms__setTempDirectory(threadData_t *threadDa
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_setTempDirectory(MMC_STRINGDATA(_newTempDir));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -275,7 +279,7 @@ modelica_integer omc_OMSimulatorExt_oms__setStopTime(threadData_t *threadData, m
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
-  _stopTime_ext = (double)_stopTime;
+  _stopTime_ext = (double) _stopTime;
   _status_ext = OMSimulator_oms_setStopTime(MMC_STRINGDATA(_cref), _stopTime_ext);
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -297,7 +301,7 @@ modelica_integer omc_OMSimulatorExt_oms__setStartTime(threadData_t *threadData, 
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
-  _startTime_ext = (double)_startTime;
+  _startTime_ext = (double) _startTime;
   _status_ext = OMSimulator_oms_setStartTime(MMC_STRINGDATA(_cref), _startTime_ext);
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -319,7 +323,7 @@ modelica_integer omc_OMSimulatorExt_oms__setSolver(threadData_t *threadData, mod
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
-  _solver_ext = (int)_solver;
+  _solver_ext = (int) _solver;
   _status_ext = OMSimulator_oms_setSolver(MMC_STRINGDATA(_cref), _solver_ext);
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -340,6 +344,7 @@ modelica_integer omc_OMSimulatorExt_oms__setSignalFilter(threadData_t *threadDat
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_setSignalFilter(MMC_STRINGDATA(_cref), MMC_STRINGDATA(_regex));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -359,7 +364,7 @@ modelica_integer omc_OMSimulatorExt_oms__setResultFile(threadData_t *threadData,
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
-  _bufferSize_ext = (int)_bufferSize;
+  _bufferSize_ext = (int) _bufferSize;
   _status_ext = OMSimulator_oms_setResultFile(MMC_STRINGDATA(_cref), MMC_STRINGDATA(_filename), _bufferSize_ext);
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -381,7 +386,7 @@ modelica_integer omc_OMSimulatorExt_oms__setRealInputDerivative(threadData_t *th
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
-  _value_ext = (double)_value;
+  _value_ext = (double) _value;
   _status_ext = OMSimulator_oms_setRealInputDerivative(MMC_STRINGDATA(_cref), _value_ext);
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -403,7 +408,7 @@ modelica_integer omc_OMSimulatorExt_oms__setReal(threadData_t *threadData, model
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
-  _value_ext = (double)_value;
+  _value_ext = (double) _value;
   _status_ext = OMSimulator_oms_setReal(MMC_STRINGDATA(_cref), _value_ext);
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -425,7 +430,7 @@ modelica_integer omc_OMSimulatorExt_oms__setLoggingLevel(threadData_t *threadDat
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
-  _logLevel_ext = (int)_logLevel;
+  _logLevel_ext = (int) _logLevel;
   _status_ext = OMSimulator_oms_setLoggingLevel(_logLevel_ext);
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -447,7 +452,7 @@ modelica_integer omc_OMSimulatorExt_oms__setLoggingInterval(threadData_t *thread
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
-  _loggingInterval_ext = (double)_loggingInterval;
+  _loggingInterval_ext = (double) _loggingInterval;
   _status_ext = OMSimulator_oms_setLoggingInterval(MMC_STRINGDATA(_cref), _loggingInterval_ext);
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -468,6 +473,7 @@ modelica_integer omc_OMSimulatorExt_oms__setLogFile(threadData_t *threadData, mo
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_setLogFile(MMC_STRINGDATA(_filename));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -487,7 +493,7 @@ modelica_integer omc_OMSimulatorExt_oms__setInteger(threadData_t *threadData, mo
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
-  _value_ext = (int)_value;
+  _value_ext = (int) _value;
   _status_ext = OMSimulator_oms_setInteger(MMC_STRINGDATA(_cref), _value_ext);
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -509,7 +515,7 @@ modelica_integer omc_OMSimulatorExt_oms__setFixedStepSize(threadData_t *threadDa
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
-  _stepSize_ext = (double)_stepSize;
+  _stepSize_ext = (double) _stepSize;
   _status_ext = OMSimulator_oms_setFixedStepSize(MMC_STRINGDATA(_cref), _stepSize_ext);
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -530,6 +536,7 @@ modelica_integer omc_OMSimulatorExt_oms__setCommandLineOption(threadData_t *thre
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_setCommandLineOption(MMC_STRINGDATA(_cmd));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -549,7 +556,7 @@ modelica_integer omc_OMSimulatorExt_oms__setBoolean(threadData_t *threadData, mo
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
-  _value_ext = (int)_value;
+  _value_ext = (int) _value;
   _status_ext = OMSimulator_oms_setBoolean(MMC_STRINGDATA(_cref), _value_ext);
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -570,6 +577,7 @@ modelica_integer omc_OMSimulatorExt_oms__RunFile(threadData_t *threadData, model
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_RunFile(MMC_STRINGDATA(_filename));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -588,6 +596,7 @@ modelica_integer omc_OMSimulatorExt_oms__reset(threadData_t *threadData, modelic
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_reset(MMC_STRINGDATA(_cref));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -606,6 +615,7 @@ modelica_integer omc_OMSimulatorExt_oms__rename(threadData_t *threadData, modeli
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_rename(MMC_STRINGDATA(_cref), MMC_STRINGDATA(_newCref));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -624,6 +634,7 @@ modelica_integer omc_OMSimulatorExt_oms__removeSignalsFromResults(threadData_t *
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_removeSignalsFromResults(MMC_STRINGDATA(_cref), MMC_STRINGDATA(_regex));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -642,6 +653,7 @@ modelica_integer omc_OMSimulatorExt_oms__newModel(threadData_t *threadData, mode
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_newModel(MMC_STRINGDATA(_cref));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -663,6 +675,7 @@ modelica_string omc_OMSimulatorExt_oms__loadSnapshot(threadData_t *threadData, m
   modelica_integer _status;
   // _newCref has no default value.
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_loadSnapshot(MMC_STRINGDATA(_cref), MMC_STRINGDATA(_snapshot), &_newCref_ext);
   _newCref = (modelica_string)mmc_mk_scon(_newCref_ext);
   _status = (modelica_integer)_status_ext;
@@ -687,6 +700,7 @@ modelica_string omc_OMSimulatorExt_oms__listUnconnectedConnectors(threadData_t *
   modelica_integer _status;
   // _contents has no default value.
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_listUnconnectedConnectors(MMC_STRINGDATA(_cref), &_contents_ext);
   _contents = (modelica_string)mmc_mk_scon(_contents_ext);
   _status = (modelica_integer)_status_ext;
@@ -711,6 +725,7 @@ modelica_string omc_OMSimulatorExt_oms__list(threadData_t *threadData, modelica_
   modelica_integer _status;
   // _contents has no default value.
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_list(MMC_STRINGDATA(_cref), &_contents_ext);
   _contents = (modelica_string)mmc_mk_scon(_contents_ext);
   _status = (modelica_integer)_status_ext;
@@ -732,6 +747,7 @@ modelica_integer omc_OMSimulatorExt_oms__instantiate(threadData_t *threadData, m
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_instantiate(MMC_STRINGDATA(_cref));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -750,6 +766,7 @@ modelica_integer omc_OMSimulatorExt_oms__initialize(threadData_t *threadData, mo
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_initialize(MMC_STRINGDATA(_cref));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -768,6 +785,7 @@ modelica_integer omc_OMSimulatorExt_oms__importSnapshot(threadData_t *threadData
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_importSnapshot(MMC_STRINGDATA(_cref), MMC_STRINGDATA(_snapshot));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -789,6 +807,7 @@ modelica_string omc_OMSimulatorExt_oms__importFile(threadData_t *threadData, mod
   modelica_integer _status;
   // _cref has no default value.
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_importFile(MMC_STRINGDATA(_filename), &_cref_ext);
   _cref = (modelica_string)mmc_mk_scon(_cref_ext);
   _status = (modelica_integer)_status_ext;
@@ -812,8 +831,8 @@ modelica_integer omc_OMSimulatorExt_oms__faultInjection(threadData_t *threadData
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
-  _faultType_ext = (int)_faultType;
-  _faultValue_ext = (double)_faultValue;
+  _faultType_ext = (int) _faultType;
+  _faultValue_ext = (double) _faultValue;
   _status_ext = OMSimulator_oms_faultInjection(MMC_STRINGDATA(_signal), _faultType_ext, _faultValue_ext);
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -845,6 +864,7 @@ modelica_real omc_OMSimulatorExt_oms__getVariableStepSize(threadData_t *threadDa
   // _minimumStepSize has no default value.
   // _maximumStepSize has no default value.
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_getVariableStepSize(MMC_STRINGDATA(_cref), &_initialStepSize_ext, &_minimumStepSize_ext, &_maximumStepSize_ext);
   _initialStepSize = (modelica_real)_initialStepSize_ext;
   _minimumStepSize = (modelica_real)_minimumStepSize_ext;
@@ -881,6 +901,7 @@ modelica_real omc_OMSimulatorExt_oms__getTolerance(threadData_t *threadData, mod
   // _absoluteTolerance has no default value.
   // _relativeTolerance has no default value.
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_getTolerance(MMC_STRINGDATA(_cref), &_absoluteTolerance_ext, &_relativeTolerance_ext);
   _absoluteTolerance = (modelica_real)_absoluteTolerance_ext;
   _relativeTolerance = (modelica_real)_relativeTolerance_ext;
@@ -910,6 +931,7 @@ modelica_integer omc_OMSimulatorExt_oms__getSystemType(threadData_t *threadData,
   modelica_integer _status;
   // _type_ has no default value.
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_getSystemType(MMC_STRINGDATA(_cref), &_type__ext);
   _type_ = (modelica_integer)_type__ext;
   _status = (modelica_integer)_status_ext;
@@ -935,6 +957,7 @@ modelica_string omc_OMSimulatorExt_oms__getSubModelPath(threadData_t *threadData
   modelica_integer _status;
   // _path has no default value.
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_getSubModelPath(MMC_STRINGDATA(_cref), &_path_ext);
   _path = (modelica_string)mmc_mk_scon(_path_ext);
   _status = (modelica_integer)_status_ext;
@@ -959,6 +982,7 @@ modelica_real omc_OMSimulatorExt_oms__getStopTime(threadData_t *threadData, mode
   modelica_integer _status;
   // _stopTime has no default value.
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_getStopTime(MMC_STRINGDATA(_cref), &_stopTime_ext);
   _stopTime = (modelica_real)_stopTime_ext;
   _status = (modelica_integer)_status_ext;
@@ -984,6 +1008,7 @@ modelica_real omc_OMSimulatorExt_oms__getStartTime(threadData_t *threadData, mod
   modelica_integer _status;
   // _startTime has no default value.
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_getStartTime(MMC_STRINGDATA(_cref), &_startTime_ext);
   _startTime = (modelica_real)_startTime_ext;
   _status = (modelica_integer)_status_ext;
@@ -1009,6 +1034,7 @@ modelica_integer omc_OMSimulatorExt_oms__getSolver(threadData_t *threadData, mod
   modelica_integer _status;
   // _solver has no default value.
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_getSolver(MMC_STRINGDATA(_cref), &_solver_ext);
   _solver = (modelica_integer)_solver_ext;
   _status = (modelica_integer)_status_ext;
@@ -1034,6 +1060,7 @@ modelica_real omc_OMSimulatorExt_oms__getReal(threadData_t *threadData, modelica
   modelica_integer _status;
   // _value has no default value.
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_getReal(MMC_STRINGDATA(_cref), &_value_ext);
   _value = (modelica_real)_value_ext;
   _status = (modelica_integer)_status_ext;
@@ -1059,6 +1086,7 @@ modelica_integer omc_OMSimulatorExt_oms__getModelState(threadData_t *threadData,
   modelica_integer _status;
   // _modelState has no default value.
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_getModelState(MMC_STRINGDATA(_cref), &_modelState_ext);
   _modelState = (modelica_integer)_modelState_ext;
   _status = (modelica_integer)_status_ext;
@@ -1084,6 +1112,7 @@ modelica_integer omc_OMSimulatorExt_oms__getInteger(threadData_t *threadData, mo
   modelica_integer _status;
   // _value has no default value.
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_getInteger(MMC_STRINGDATA(_cref), &_value_ext);
   _value = (modelica_integer)_value_ext;
   _status = (modelica_integer)_status_ext;
@@ -1109,6 +1138,7 @@ modelica_real omc_OMSimulatorExt_oms__getFixedStepSize(threadData_t *threadData,
   modelica_integer _status;
   // _stepSize has no default value.
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_getFixedStepSize(MMC_STRINGDATA(_cref), &_stepSize_ext);
   _stepSize = (modelica_real)_stepSize_ext;
   _status = (modelica_integer)_status_ext;
@@ -1134,6 +1164,7 @@ modelica_boolean omc_OMSimulatorExt_oms__getBoolean(threadData_t *threadData, mo
   modelica_integer _status;
   // _value has no default value.
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_getBoolean(MMC_STRINGDATA(_cref), &_value_ext);
   _value = (modelica_boolean)_value_ext;
   _status = (modelica_integer)_status_ext;
@@ -1159,6 +1190,7 @@ modelica_integer omc_OMSimulatorExt_oms__extractFMIKind(threadData_t *threadData
   modelica_integer _status;
   // _kind has no default value.
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_extractFMIKind(MMC_STRINGDATA(_filename), &_kind_ext);
   _kind = (modelica_integer)_kind_ext;
   _status = (modelica_integer)_status_ext;
@@ -1184,6 +1216,7 @@ modelica_string omc_OMSimulatorExt_oms__exportSnapshot(threadData_t *threadData,
   modelica_integer _status;
   // _contents has no default value.
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_exportSnapshot(MMC_STRINGDATA(_cref), &_contents_ext);
   _contents = (modelica_string)mmc_mk_scon(_contents_ext);
   _status = (modelica_integer)_status_ext;
@@ -1205,6 +1238,7 @@ modelica_integer omc_OMSimulatorExt_oms__exportDependencyGraphs(threadData_t *th
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_exportDependencyGraphs(MMC_STRINGDATA(_cref), MMC_STRINGDATA(_initialization), MMC_STRINGDATA(_event), MMC_STRINGDATA(_simulation));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -1223,6 +1257,7 @@ modelica_integer omc_OMSimulatorExt_oms__export(threadData_t *threadData, modeli
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_export(MMC_STRINGDATA(_cref), MMC_STRINGDATA(_filename));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -1241,6 +1276,7 @@ modelica_integer omc_OMSimulatorExt_oms__deleteConnectorFromTLMBus(threadData_t 
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_deleteConnectorFromTLMBus(MMC_STRINGDATA(_busCref), MMC_STRINGDATA(_connectorCref));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -1259,6 +1295,7 @@ modelica_integer omc_OMSimulatorExt_oms__deleteConnectorFromBus(threadData_t *th
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_deleteConnectorFromBus(MMC_STRINGDATA(_busCref), MMC_STRINGDATA(_connectorCref));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -1277,6 +1314,7 @@ modelica_integer omc_OMSimulatorExt_oms__deleteConnection(threadData_t *threadDa
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_deleteConnection(MMC_STRINGDATA(_crefA), MMC_STRINGDATA(_crefB));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -1295,6 +1333,7 @@ modelica_integer omc_OMSimulatorExt_oms__delete(threadData_t *threadData, modeli
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_delete(MMC_STRINGDATA(_cref));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -1313,6 +1352,7 @@ modelica_integer omc_OMSimulatorExt_oms__copySystem(threadData_t *threadData, mo
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_copySystem(MMC_STRINGDATA(_source), MMC_STRINGDATA(_target));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -1333,8 +1373,8 @@ modelica_integer omc_OMSimulatorExt_oms__compareSimulationResults(threadData_t *
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
-  _relTol_ext = (double)_relTol;
-  _absTol_ext = (double)_absTol;
+  _relTol_ext = (double) _relTol;
+  _absTol_ext = (double) _absTol;
   _status_ext = OMSimulator_oms_compareSimulationResults(MMC_STRINGDATA(_filenameA), MMC_STRINGDATA(_filenameB), MMC_STRINGDATA(_var), _relTol_ext, _absTol_ext);
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -1361,10 +1401,10 @@ modelica_integer omc_OMSimulatorExt_oms__addTLMConnection(threadData_t *threadDa
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
-  _delay_ext = (double)_delay;
-  _alpha_ext = (double)_alpha;
-  _linearimpedance_ext = (double)_linearimpedance;
-  _angularimpedance_ext = (double)_angularimpedance;
+  _delay_ext = (double) _delay;
+  _alpha_ext = (double) _alpha;
+  _linearimpedance_ext = (double) _linearimpedance;
+  _angularimpedance_ext = (double) _angularimpedance;
   _status_ext = OMSimulator_oms_addTLMConnection(MMC_STRINGDATA(_crefA), MMC_STRINGDATA(_crefB), _delay_ext, _alpha_ext, _linearimpedance_ext, _angularimpedance_ext);
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -1394,9 +1434,9 @@ modelica_integer omc_OMSimulatorExt_oms__addTLMBus(threadData_t *threadData, mod
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
-  _domain_ext = (int)_domain;
-  _dimensions_ext = (int)_dimensions;
-  _interpolation_ext = (int)_interpolation;
+  _domain_ext = (int) _domain;
+  _dimensions_ext = (int) _dimensions;
+  _interpolation_ext = (int) _interpolation;
   _status_ext = OMSimulator_oms_addTLMBus(MMC_STRINGDATA(_cref), _domain_ext, _dimensions_ext, _interpolation_ext);
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -1421,6 +1461,7 @@ modelica_integer omc_OMSimulatorExt_oms__addTimeIndicator(threadData_t *threadDa
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_addTimeIndicator(MMC_STRINGDATA(_signal));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -1440,7 +1481,7 @@ modelica_integer omc_OMSimulatorExt_oms__addSystem(threadData_t *threadData, mod
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
-  _type__ext = (int)_type_;
+  _type__ext = (int) _type_;
   _status_ext = OMSimulator_oms_addSystem(MMC_STRINGDATA(_cref), _type__ext);
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -1461,6 +1502,7 @@ modelica_integer omc_OMSimulatorExt_oms__addSubModel(threadData_t *threadData, m
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_addSubModel(MMC_STRINGDATA(_cref), MMC_STRINGDATA(_fmuPath));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -1482,9 +1524,9 @@ modelica_integer omc_OMSimulatorExt_oms__addStaticValueIndicator(threadData_t *t
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
-  _lower_ext = (double)_lower;
-  _upper_ext = (double)_upper;
-  _stepSize_ext = (double)_stepSize;
+  _lower_ext = (double) _lower;
+  _upper_ext = (double) _upper;
+  _stepSize_ext = (double) _stepSize;
   _status_ext = OMSimulator_oms_addStaticValueIndicator(MMC_STRINGDATA(_signal), _lower_ext, _upper_ext, _stepSize_ext);
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -1509,6 +1551,7 @@ modelica_integer omc_OMSimulatorExt_oms__addSignalsToResults(threadData_t *threa
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_addSignalsToResults(MMC_STRINGDATA(_cref), MMC_STRINGDATA(_regex));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -1527,6 +1570,7 @@ modelica_integer omc_OMSimulatorExt_oms__addExternalModel(threadData_t *threadDa
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_addExternalModel(MMC_STRINGDATA(_cref), MMC_STRINGDATA(_path), MMC_STRINGDATA(_startscript));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -1545,6 +1589,7 @@ modelica_integer omc_OMSimulatorExt_oms__addEventIndicator(threadData_t *threadD
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_addEventIndicator(MMC_STRINGDATA(_signal));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -1564,7 +1609,7 @@ modelica_integer omc_OMSimulatorExt_oms__addDynamicValueIndicator(threadData_t *
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
-  _stepSize_ext = (double)_stepSize;
+  _stepSize_ext = (double) _stepSize;
   _status_ext = OMSimulator_oms_addDynamicValueIndicator(MMC_STRINGDATA(_signal), MMC_STRINGDATA(_lower), MMC_STRINGDATA(_upper), _stepSize_ext);
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -1585,6 +1630,7 @@ modelica_integer omc_OMSimulatorExt_oms__addConnectorToTLMBus(threadData_t *thre
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_addConnectorToTLMBus(MMC_STRINGDATA(_busCref), MMC_STRINGDATA(_connectorCref), MMC_STRINGDATA(_type_));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -1603,6 +1649,7 @@ modelica_integer omc_OMSimulatorExt_oms__addConnectorToBus(threadData_t *threadD
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_addConnectorToBus(MMC_STRINGDATA(_busCref), MMC_STRINGDATA(_connectorCref));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -1623,8 +1670,8 @@ modelica_integer omc_OMSimulatorExt_oms__addConnector(threadData_t *threadData, 
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
-  _causality_ext = (int)_causality;
-  _type__ext = (int)_type_;
+  _causality_ext = (int) _causality;
+  _type__ext = (int) _type_;
   _status_ext = OMSimulator_oms_addConnector(MMC_STRINGDATA(_cref), _causality_ext, _type__ext);
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -1647,6 +1694,7 @@ modelica_integer omc_OMSimulatorExt_oms__addConnection(threadData_t *threadData,
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_addConnection(MMC_STRINGDATA(_crefA), MMC_STRINGDATA(_crefB));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -1665,6 +1713,7 @@ modelica_integer omc_OMSimulatorExt_oms__addBus(threadData_t *threadData, modeli
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_oms_addBus(MMC_STRINGDATA(_cref));
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -1683,6 +1732,7 @@ modelica_string omc_OMSimulatorExt_oms__getVersion(threadData_t *threadData)
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
+
   _outString_ext = OMSimulator_oms_getVersion();
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;
@@ -1693,6 +1743,7 @@ modelica_integer omc_OMSimulatorExt_unloadOMSimulator(threadData_t *threadData)
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_unloadDLL();
   _status = (modelica_integer)_status_ext;
   return _status;
@@ -1711,6 +1762,7 @@ modelica_integer omc_OMSimulatorExt_loadOMSimulator(threadData_t *threadData)
   int _status_ext;
   modelica_integer _status;
   // _status has no default value.
+
   _status_ext = OMSimulator_loadDLL();
   _status = (modelica_integer)_status_ext;
   return _status;

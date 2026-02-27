@@ -54,8 +54,6 @@ extern struct record_description NBEquation_WhenEquationBody_WHEN__EQUATION__BOD
 
 extern struct record_description NBEquation_WhenStatement_ASSIGN__desc;
 
-extern struct record_description NBSlice_SLICE__desc;
-
 extern struct record_description NBStrongComponent_ALGEBRAIC__LOOP__desc;
 
 extern struct record_description NBStrongComponent_GENERIC__COMPONENT__desc;
@@ -88,6 +86,8 @@ extern struct record_description NFComponent_COMPONENT__desc;
 
 extern struct record_description NFComponentRef_EMPTY__desc;
 
+extern struct record_description NFExpression_ARRAY__desc;
+
 extern struct record_description NFExpression_BINARY__desc;
 
 extern struct record_description NFExpression_BOOLEAN__desc;
@@ -97,6 +97,10 @@ extern struct record_description NFExpression_BOX__desc;
 extern struct record_description NFExpression_CALL__desc;
 
 extern struct record_description NFExpression_CAST__desc;
+
+extern struct record_description NFExpression_EMPTY__desc;
+
+extern struct record_description NFExpression_END__desc;
 
 extern struct record_description NFExpression_IF__desc;
 
@@ -126,8 +130,6 @@ extern struct record_description NFExpression_UNARY__desc;
 
 extern struct record_description NFExpression_UNBOX__desc;
 
-extern struct record_description NFFlatten_FunctionTreeImpl_Tree_EMPTY__desc;
-
 extern struct record_description NFFunction_Function_FUNCTION__desc;
 
 extern struct record_description NFFunctionDerivative_FUNCTION__DER__desc;
@@ -144,7 +146,11 @@ extern struct record_description NFPrefixes_Replaceable_NOT__REPLACEABLE__desc;
 
 extern struct record_description NFSubscript_INDEX__desc;
 
+extern struct record_description NFSubscript_WHOLE__desc;
+
 extern struct record_description NFType_ANY__desc;
+
+extern struct record_description NFType_ARRAY__desc;
 
 extern struct record_description NFType_INTEGER__desc;
 
@@ -157,6 +163,27 @@ extern struct record_description NFVariable_VARIABLE__desc;
 extern struct record_description SCode_Comment_COMMENT__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
+
+
+#define boxptr_NBDifferentiate_buildMultiHotVectorAdjoint omc_NBDifferentiate_buildMultiHotVectorAdjoint
+
+
+#define boxptr_NBDifferentiate_updateAdjointList omc_NBDifferentiate_updateAdjointList
+
+
+#define boxptr_NBDifferentiate_dbg omc_NBDifferentiate_dbg
+
+
+#define boxptr_NBDifferentiate_dropLastDimIndex1 omc_NBDifferentiate_dropLastDimIndex1
+
+
+#define boxptr_NBDifferentiate_typeSumCall omc_NBDifferentiate_typeSumCall
+
+
+#define boxptr_NBDifferentiate_typeTransposeCall omc_NBDifferentiate_typeTransposeCall
+
+
+#define boxptr_NBDifferentiate_makeMulFromOperator omc_NBDifferentiate_makeMulFromOperator
 
 
 #define boxptr_NBDifferentiate_expLog omc_NBDifferentiate_expLog
@@ -215,7 +242,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBDifferentiate_differentiateAlgorithm,
 
 
 DLLDirection
-modelica_metatype omc_NBDifferentiate_resolvePartialDerivatives(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ffunc, modelica_metatype __omcQ_24in_5FfuncTree, modelica_metatype *out_funcTree);
+modelica_metatype omc_NBDifferentiate_resolvePartialDerivatives(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ffunc, modelica_metatype _funcMap);
 #define boxptr_NBDifferentiate_resolvePartialDerivatives omc_NBDifferentiate_resolvePartialDerivatives
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBDifferentiate_resolvePartialDerivatives,2,0) {(void*) boxptr_NBDifferentiate_resolvePartialDerivatives,0}};
 #define boxvar_NBDifferentiate_resolvePartialDerivatives MMC_REFSTRUCTLIT(boxvar_lit_NBDifferentiate_resolvePartialDerivatives)
@@ -303,10 +330,24 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBDifferentiate_differentiateVariablePo
 
 
 DLLDirection
+modelica_metatype omc_NBDifferentiate_differentiateComponentRefNoCollect(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype __omcQ_24in_5FdiffArguments, modelica_metatype *out_diffArguments);
+#define boxptr_NBDifferentiate_differentiateComponentRefNoCollect omc_NBDifferentiate_differentiateComponentRefNoCollect
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBDifferentiate_differentiateComponentRefNoCollect,2,0) {(void*) boxptr_NBDifferentiate_differentiateComponentRefNoCollect,0}};
+#define boxvar_NBDifferentiate_differentiateComponentRefNoCollect MMC_REFSTRUCTLIT(boxvar_lit_NBDifferentiate_differentiateComponentRefNoCollect)
+
+
+DLLDirection
 modelica_metatype omc_NBDifferentiate_differentiateComponentRef(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype __omcQ_24in_5FdiffArguments, modelica_metatype *out_diffArguments);
 #define boxptr_NBDifferentiate_differentiateComponentRef omc_NBDifferentiate_differentiateComponentRef
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBDifferentiate_differentiateComponentRef,2,0) {(void*) boxptr_NBDifferentiate_differentiateComponentRef,0}};
 #define boxvar_NBDifferentiate_differentiateComponentRef MMC_REFSTRUCTLIT(boxvar_lit_NBDifferentiate_differentiateComponentRef)
+
+
+DLLDirection
+modelica_metatype omc_NBDifferentiate_differentiateExpressionNoCollect(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexpr, modelica_metatype __omcQ_24in_5FdiffArguments, modelica_metatype *out_diffArguments);
+#define boxptr_NBDifferentiate_differentiateExpressionNoCollect omc_NBDifferentiate_differentiateExpressionNoCollect
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBDifferentiate_differentiateExpressionNoCollect,2,0) {(void*) boxptr_NBDifferentiate_differentiateExpressionNoCollect,0}};
+#define boxvar_NBDifferentiate_differentiateExpressionNoCollect MMC_REFSTRUCTLIT(boxvar_lit_NBDifferentiate_differentiateExpressionNoCollect)
 
 
 DLLDirection
@@ -380,6 +421,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBDifferentiate_differentiateStrongComp
 
 
 DLLDirection
+modelica_metatype omc_NBDifferentiate_differentiateStrongComponentListAdjoint(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fcomps, modelica_metatype __omcQ_24in_5FdiffArguments, modelica_metatype _idx, modelica_string _context, modelica_string _name, modelica_metatype *out_diffArguments);
+#define boxptr_NBDifferentiate_differentiateStrongComponentListAdjoint omc_NBDifferentiate_differentiateStrongComponentListAdjoint
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBDifferentiate_differentiateStrongComponentListAdjoint,2,0) {(void*) boxptr_NBDifferentiate_differentiateStrongComponentListAdjoint,0}};
+#define boxvar_NBDifferentiate_differentiateStrongComponentListAdjoint MMC_REFSTRUCTLIT(boxvar_lit_NBDifferentiate_differentiateStrongComponentListAdjoint)
+
+
+DLLDirection
 modelica_metatype omc_NBDifferentiate_differentiateStrongComponentList(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fcomps, modelica_metatype __omcQ_24in_5FdiffArguments, modelica_metatype _idx, modelica_string _context, modelica_string _name, modelica_metatype *out_diffArguments);
 #define boxptr_NBDifferentiate_differentiateStrongComponentList omc_NBDifferentiate_differentiateStrongComponentList
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBDifferentiate_differentiateStrongComponentList,2,0) {(void*) boxptr_NBDifferentiate_differentiateStrongComponentList,0}};
@@ -402,16 +450,16 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBDifferentiate_DifferentiationArgument
 
 
 DLLDirection
-modelica_metatype omc_NBDifferentiate_DifferentiationArguments_simpleCref(threadData_t *threadData, modelica_metatype _cref, modelica_metatype _funcTree);
+modelica_metatype omc_NBDifferentiate_DifferentiationArguments_simpleCref(threadData_t *threadData, modelica_metatype _cref, modelica_metatype _funcMap);
 #define boxptr_NBDifferentiate_DifferentiationArguments_simpleCref omc_NBDifferentiate_DifferentiationArguments_simpleCref
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBDifferentiate_DifferentiationArguments_simpleCref,2,0) {(void*) boxptr_NBDifferentiate_DifferentiationArguments_simpleCref,0}};
 #define boxvar_NBDifferentiate_DifferentiationArguments_simpleCref MMC_REFSTRUCTLIT(boxvar_lit_NBDifferentiate_DifferentiationArguments_simpleCref)
 
 
 DLLDirection
-modelica_metatype omc_NBDifferentiate_DifferentiationArguments_default(threadData_t *threadData, modelica_integer _ty, modelica_metatype _funcTree);
+modelica_metatype omc_NBDifferentiate_DifferentiationArguments_default(threadData_t *threadData, modelica_integer _ty, modelica_metatype _funcMap);
 DLLDirection
-modelica_metatype boxptr_NBDifferentiate_DifferentiationArguments_default(threadData_t *threadData, modelica_metatype _ty, modelica_metatype _funcTree);
+modelica_metatype boxptr_NBDifferentiate_DifferentiationArguments_default(threadData_t *threadData, modelica_metatype _ty, modelica_metatype _funcMap);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBDifferentiate_DifferentiationArguments_default,2,0) {(void*) boxptr_NBDifferentiate_DifferentiationArguments_default,0}};
 #define boxvar_NBDifferentiate_DifferentiationArguments_default MMC_REFSTRUCTLIT(boxvar_lit_NBDifferentiate_DifferentiationArguments_default)
 

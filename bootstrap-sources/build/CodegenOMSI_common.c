@@ -1189,8 +1189,8 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT485,7,_OMC_LIT485_data);
 #define _OMC_LIT485 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT485)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT486,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT275}};
 #define _OMC_LIT486 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT486)
-#define _OMC_LIT487_data "_allEqns(omsi_function_t* simulation, omsi_values* model_vars_and_params, void* data);"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT487,86,_OMC_LIT487_data);
+#define _OMC_LIT487_data "_allEqns(struct omsi_function_t* simulation, const omsi_values* model_vars_and_params, void* data);"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT487,99,_OMC_LIT487_data);
 #define _OMC_LIT487 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT487)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT488,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT487}};
 #define _OMC_LIT488 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT488)
@@ -1236,13 +1236,13 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT506,2,1) {_OMC_LIT98,_OMC_LIT505}};
 #define _OMC_LIT506 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT506)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT507,3,6) {&Tpl_StringToken_ST__STRING__LIST__desc,_OMC_LIT506,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */))}};
 #define _OMC_LIT507 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT507)
-#define _OMC_LIT508_data "_allEqns(omsi_function_t* "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT508,26,_OMC_LIT508_data);
+#define _OMC_LIT508_data "_allEqns(struct omsi_function_t* "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT508,33,_OMC_LIT508_data);
 #define _OMC_LIT508 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT508)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT509,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT508}};
 #define _OMC_LIT509 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT509)
-#define _OMC_LIT510_data ", omsi_values* model_vars_and_params, void* data){\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT510,51,_OMC_LIT510_data);
+#define _OMC_LIT510_data ", const omsi_values* model_vars_and_params, void* data){\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT510,57,_OMC_LIT510_data);
 #define _OMC_LIT510 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT510)
 #define _OMC_LIT511_data "  omsi_status status, new_status;\n"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT511,34,_OMC_LIT511_data);

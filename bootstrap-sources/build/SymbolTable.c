@@ -66,7 +66,7 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT28,2,4) {&Absyn_Path_IDENT__desc,_O
 #define _OMC_LIT28 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT28)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT29,3,3) {&Absyn_TypeSpec_TPATH__desc,_OMC_LIT28,MMC_REFSTRUCTLIT(mmc_none)}};
 #define _OMC_LIT29 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT29)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT30,1,5) {&SCode_Mod_NOMOD__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT30,1,7) {&SCode_Mod_NOMOD__desc,}};
 #define _OMC_LIT30 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT30)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT31,3,3) {&SCode_Comment_COMMENT__desc,MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none)}};
 #define _OMC_LIT31 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT31)
@@ -208,17 +208,17 @@ PROTECTED_FUNCTION_STATIC void omc_SymbolTable_updateUriMapping(threadData_t *th
                 if(omc_AvlTreeStringString_hasKey(threadData, _tree, _name))
                 {
                   {
-                    modelica_metatype __omcQ_24tmpVar1;
+                    modelica_metatype __omcQ_24tmpVar3;
                     modelica_metatype* tmp12;
                     modelica_metatype tmpMeta13;
-                    modelica_metatype __omcQ_24tmpVar0;
+                    modelica_metatype __omcQ_24tmpVar2;
                     modelica_integer tmp14;
                     modelica_metatype _cl_loopVar = 0;
                     modelica_metatype _cl;
                     _cl_loopVar = _classes;
                     tmpMeta13 = MMC_REFSTRUCTLIT(mmc_nil);
-                    __omcQ_24tmpVar1 = tmpMeta13; /* defaultValue */
-                    tmp12 = &__omcQ_24tmpVar1;
+                    __omcQ_24tmpVar3 = tmpMeta13; /* defaultValue */
+                    tmp12 = &__omcQ_24tmpVar3;
                     while(1) {
                       tmp14 = 1;
                       if (!listEmpty(_cl_loopVar)) {
@@ -227,8 +227,8 @@ PROTECTED_FUNCTION_STATIC void omc_SymbolTable_updateUriMapping(threadData_t *th
                         tmp14--;
                       }
                       if (tmp14 == 0) {
-                        __omcQ_24tmpVar0 = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_cl), 11)));
-                        *tmp12 = mmc_mk_cons(__omcQ_24tmpVar0,0);
+                        __omcQ_24tmpVar2 = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_cl), 11)));
+                        *tmp12 = mmc_mk_cons(__omcQ_24tmpVar2,0);
                         tmp12 = &MMC_CDR(*tmp12);
                       } else if (tmp14 == 1) {
                         break;
@@ -237,7 +237,7 @@ PROTECTED_FUNCTION_STATIC void omc_SymbolTable_updateUriMapping(threadData_t *th
                       }
                     }
                     *tmp12 = mmc_mk_nil();
-                    tmpMeta11 = __omcQ_24tmpVar1;
+                    tmpMeta11 = __omcQ_24tmpVar3;
                   }
                   _infos = tmpMeta11;
 

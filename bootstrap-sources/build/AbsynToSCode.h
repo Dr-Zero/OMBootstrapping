@@ -10,10 +10,6 @@
 extern "C" {
 #endif
 
-extern struct record_description Absyn_ClassPart_PROTECTED__desc;
-
-extern struct record_description Absyn_ClassPart_PUBLIC__desc;
-
 extern struct record_description Absyn_ComponentRef_CREF__FULLYQUALIFIED__desc;
 
 extern struct record_description Absyn_ComponentRef_CREF__IDENT__desc;
@@ -57,6 +53,8 @@ extern struct record_description ErrorTypes_MessageType_TRANSLATION__desc;
 extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
 extern struct record_description ErrorTypes_Severity_NOTIFICATION__desc;
+
+extern struct record_description ErrorTypes_Severity_WARNING__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
@@ -145,6 +143,10 @@ extern struct record_description SCode_FunctionRestriction_FR__NORMAL__FUNCTION_
 extern struct record_description SCode_FunctionRestriction_FR__OPERATOR__FUNCTION__desc;
 
 extern struct record_description SCode_FunctionRestriction_FR__PARALLEL__FUNCTION__desc;
+
+extern struct record_description SCode_Mod_BREAK__COMPONENT__desc;
+
+extern struct record_description SCode_Mod_BREAK__CONNECT__desc;
 
 extern struct record_description SCode_Mod_MOD__desc;
 
@@ -388,9 +390,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_AbsynToSCode_translateClassdefElements,
 
 
 #define boxptr_AbsynToSCode_translateEnumlist omc_AbsynToSCode_translateEnumlist
-
-
-#define boxptr_AbsynToSCode_mergeSCodeAnnotationsFromParts omc_AbsynToSCode_mergeSCodeAnnotationsFromParts
 
 
 #define boxptr_AbsynToSCode_translateAlternativeExternalAnnotation omc_AbsynToSCode_translateAlternativeExternalAnnotation

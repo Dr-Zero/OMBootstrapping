@@ -68,6 +68,12 @@ extern struct record_description ErrorTypes_MessageType_TRANSLATION__desc;
 
 extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
+extern struct record_description Flags_ConfigFlag_CONFIG__FLAG__desc;
+
+extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
+
+extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
+
 extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
 extern struct record_description NSimVar_Alias_ALIAS__desc;
@@ -283,6 +289,14 @@ DLLDirection
 modelica_metatype boxptr_NSimVar_SimVar_size(threadData_t *threadData, modelica_metatype _var);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NSimVar_SimVar_size,2,0) {(void*) boxptr_NSimVar_SimVar_size,0}};
 #define boxvar_NSimVar_SimVar_size MMC_REFSTRUCTLIT(boxvar_lit_NSimVar_SimVar_size)
+
+
+DLLDirection
+modelica_metatype omc_NSimVar_SimVar_createFromResidualComponent(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fcomp, modelica_metatype _acc, modelica_metatype _indices_ptr, modelica_integer _varType);
+DLLDirection
+modelica_metatype boxptr_NSimVar_SimVar_createFromResidualComponent(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fcomp, modelica_metatype _acc, modelica_metatype _indices_ptr, modelica_metatype _varType);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NSimVar_SimVar_createFromResidualComponent,2,0) {(void*) boxptr_NSimVar_SimVar_createFromResidualComponent,0}};
+#define boxvar_NSimVar_SimVar_createFromResidualComponent MMC_REFSTRUCTLIT(boxvar_lit_NSimVar_SimVar_createFromResidualComponent)
 
 
 DLLDirection

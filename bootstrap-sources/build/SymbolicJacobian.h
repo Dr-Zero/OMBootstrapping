@@ -172,9 +172,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SymbolicJacobian_LinearJacobian_resolve
 #define boxvar_SymbolicJacobian_LinearJacobian_resolveASSC MMC_REFSTRUCTLIT(boxvar_lit_SymbolicJacobian_LinearJacobian_resolveASSC)
 
 
-#define boxptr_SymbolicJacobian_LinearJacobian_getPivot omc_SymbolicJacobian_LinearJacobian_getPivot
-
-
 DLLDirection
 void omc_SymbolicJacobian_LinearJacobian_updatePivotRow(threadData_t *threadData, modelica_metatype _pivot_row, modelica_real _piv_value);
 DLLDirection

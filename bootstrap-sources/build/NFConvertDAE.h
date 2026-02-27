@@ -350,6 +350,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConvertDAE_convertStatements,2,0) {(v
 
 
 DLLDirection
+modelica_metatype omc_NFConvertDAE_convertModel(threadData_t *threadData, modelica_metatype _flatModel);
+#define boxptr_NFConvertDAE_convertModel omc_NFConvertDAE_convertModel
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConvertDAE_convertModel,2,0) {(void*) boxptr_NFConvertDAE_convertModel,0}};
+#define boxvar_NFConvertDAE_convertModel MMC_REFSTRUCTLIT(boxvar_lit_NFConvertDAE_convertModel)
+
+
+DLLDirection
 modelica_metatype omc_NFConvertDAE_convert(threadData_t *threadData, modelica_metatype _flatModel, modelica_metatype _functions, modelica_metatype *out_daeFunctions);
 #define boxptr_NFConvertDAE_convert omc_NFConvertDAE_convert
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConvertDAE_convert,2,0) {(void*) boxptr_NFConvertDAE_convert,0}};

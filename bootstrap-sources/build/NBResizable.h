@@ -48,8 +48,6 @@ extern struct record_description NFExpression_INTEGER__desc;
 
 extern struct record_description NFExpression_MULTARY__desc;
 
-extern struct record_description NFFlatten_FunctionTreeImpl_Tree_EMPTY__desc;
-
 extern struct record_description NFFunction_Function_FUNCTION__desc;
 
 extern struct record_description NFInstNode_InstNode_COMPONENT__NODE__desc;
@@ -103,6 +101,9 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 #define boxptr_NBResizable_getInitialValues omc_NBResizable_getInitialValues
 
 
+#define boxptr_NBResizable_addRangeConstraints omc_NBResizable_addRangeConstraints
+
+
 #define boxptr_NBResizable_addConstraint omc_NBResizable_addConstraint
 
 
@@ -110,6 +111,9 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
 #define boxptr_NBResizable_getShift omc_NBResizable_getShift
+
+
+#define boxptr_NBResizable_getRangeConstraint omc_NBResizable_getRangeConstraint
 
 
 #define boxptr_NBResizable_findOptimalValue omc_NBResizable_findOptimalValue

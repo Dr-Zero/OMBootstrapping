@@ -209,8 +209,8 @@ modelica_boolean omc_FNode_scopePathEq(threadData_t *threadData, modelica_metaty
   _tailrecursive: OMC_LABEL_UNUSED
   // _eq has no default value.
   {
-    modelica_boolean __omcQ_24tmpVar1;
-    modelica_boolean __omcQ_24tmpVar0;
+    modelica_boolean __omcQ_24tmpVar3;
+    modelica_boolean __omcQ_24tmpVar2;
     modelica_integer tmp2;
     modelica_metatype _r1_loopVar = 0;
     modelica_metatype _r1;
@@ -218,7 +218,7 @@ modelica_boolean omc_FNode_scopePathEq(threadData_t *threadData, modelica_metaty
     modelica_metatype _r2;
     _r1_loopVar = _scope1;
     _r2_loopVar = _scope2;
-    __omcQ_24tmpVar1 = 1 /* true */; /* defaultValue */
+    __omcQ_24tmpVar3 = 1 /* true */; /* defaultValue */
     while(1) {
       tmp2 = 2;
       if (!listEmpty(_r1_loopVar)) {
@@ -231,15 +231,15 @@ modelica_boolean omc_FNode_scopePathEq(threadData_t *threadData, modelica_metaty
         tmp2--;
       }
       if (tmp2 == 0) {
-        __omcQ_24tmpVar0 = (stringEqual(omc_FNode_refName(threadData, _r1), omc_FNode_refName(threadData, _r2)));
-        __omcQ_24tmpVar1 = (__omcQ_24tmpVar0 && __omcQ_24tmpVar1);
+        __omcQ_24tmpVar2 = (stringEqual(omc_FNode_refName(threadData, _r1), omc_FNode_refName(threadData, _r2)));
+        __omcQ_24tmpVar3 = (__omcQ_24tmpVar2 && __omcQ_24tmpVar3);
       } else if (tmp2 == 2) {
         break;
       } else {
         MMC_THROW_INTERNAL();
       }
     }
-    tmp1 = __omcQ_24tmpVar1;
+    tmp1 = __omcQ_24tmpVar3;
   }
   _eq = tmp1;
   _return: OMC_LABEL_UNUSED

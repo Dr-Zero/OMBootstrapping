@@ -69,17 +69,17 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT25,10,3) {&NFAttributes_ATTRIBUTES_
 #define _OMC_LIT26_data "NFClass.mergeModifier got non-modifiable class"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT26,46,_OMC_LIT26_data);
 #define _OMC_LIT26 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT26)
-#define _OMC_LIT27_data "/home/adrpo33/OpenModelica/OMCompiler/Compiler/NFFrontEnd/NFClass.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT27,68,_OMC_LIT27_data);
+#define _OMC_LIT27_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/NFFrontEnd/NFClass.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT27,74,_OMC_LIT27_data);
 #define _OMC_LIT27 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT27)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT28_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT28_6,1.770032059e9);
 #define _OMC_LIT28_6 MMC_REFREALLIT(_OMC_LIT_STRUCT28_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT28,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT27,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(469)),MMC_IMMEDIATE(MMC_TAGFIXNUM(11)),MMC_IMMEDIATE(MMC_TAGFIXNUM(469)),MMC_IMMEDIATE(MMC_TAGFIXNUM(96)),_OMC_LIT28_6}};
 #define _OMC_LIT28 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT28)
 #define _OMC_LIT29_data "NFClass.setModifier got non-modifiable class"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT29,44,_OMC_LIT29_data);
 #define _OMC_LIT29 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT29)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT30_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT30_6,1.770032059e9);
 #define _OMC_LIT30_6 MMC_REFREALLIT(_OMC_LIT_STRUCT30_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT30,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT27,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(436)),MMC_IMMEDIATE(MMC_TAGFIXNUM(11)),MMC_IMMEDIATE(MMC_TAGFIXNUM(436)),MMC_IMMEDIATE(MMC_TAGFIXNUM(96)),_OMC_LIT30_6}};
 #define _OMC_LIT30 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT30)
@@ -279,10 +279,10 @@ modelica_metatype omc_NFClass_makeRecordExp(threadData_t *threadData, modelica_m
   if(_typed)
   {
     {
-      modelica_metatype __omcQ_24tmpVar1;
+      modelica_metatype __omcQ_24tmpVar3;
       modelica_metatype* tmp5;
       modelica_metatype tmpMeta6;
-      modelica_metatype __omcQ_24tmpVar0;
+      modelica_metatype __omcQ_24tmpVar2;
       modelica_integer tmp7;
       modelica_metatype _c_loopVar = 0;
       modelica_integer tmp8;
@@ -290,8 +290,8 @@ modelica_metatype omc_NFClass_makeRecordExp(threadData_t *threadData, modelica_m
       _c_loopVar = _comps;
       tmp8 = 1;
       tmpMeta6 = MMC_REFSTRUCTLIT(mmc_nil);
-      __omcQ_24tmpVar1 = tmpMeta6; /* defaultValue */
-      tmp5 = &__omcQ_24tmpVar1;
+      __omcQ_24tmpVar3 = tmpMeta6; /* defaultValue */
+      tmp5 = &__omcQ_24tmpVar3;
       while(1) {
         tmp7 = 1;
         if (tmp8 <= arrayLength(_c_loopVar)) {
@@ -299,8 +299,8 @@ modelica_metatype omc_NFClass_makeRecordExp(threadData_t *threadData, modelica_m
           tmp7--;
         }
         if (tmp7 == 0) {
-          __omcQ_24tmpVar0 = omc_NFBinding_getExp(threadData, omc_NFComponent_getImplicitBinding(threadData, omc_NFInstNode_InstNode_component(threadData, _c), _scope));
-          *tmp5 = mmc_mk_cons(__omcQ_24tmpVar0,0);
+          __omcQ_24tmpVar2 = omc_NFBinding_getExp(threadData, omc_NFComponent_getImplicitBinding(threadData, omc_NFInstNode_InstNode_component(threadData, _c), _scope));
+          *tmp5 = mmc_mk_cons(__omcQ_24tmpVar2,0);
           tmp5 = &MMC_CDR(*tmp5);
         } else if (tmp7 == 1) {
           break;
@@ -309,7 +309,7 @@ modelica_metatype omc_NFClass_makeRecordExp(threadData_t *threadData, modelica_m
         }
       }
       *tmp5 = mmc_mk_nil();
-      tmpMeta4 = __omcQ_24tmpVar1;
+      tmpMeta4 = __omcQ_24tmpVar3;
     }
     _args = tmpMeta4;
 
@@ -470,7 +470,7 @@ modelica_metatype omc_NFClass_constrainingClassPath(threadData_t *threadData, mo
         case 1: {
           
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_NFInstNode_InstNode_enclosingScopePath(threadData, _cls_node, 0 /* false */);
+          tmpMeta1 = omc_NFInstNode_InstNode_enclosingScopePath(threadData, _cls_node, 0 /* false */, 0 /* false */);
           goto tmp3_done;
         }
         }

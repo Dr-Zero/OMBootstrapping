@@ -143,6 +143,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ZeroCrossings_ZeroCrossingTree_addList,
 #define boxvar_ZeroCrossings_ZeroCrossingTree_addList MMC_REFSTRUCTLIT(boxvar_lit_ZeroCrossings_ZeroCrossingTree_addList)
 
 
+DLLDirection
+modelica_metatype omc_ZeroCrossings_ZeroCrossingTree_addUpdate(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftree, modelica_metatype _key, modelica_fnptr _fn);
+#define boxptr_ZeroCrossings_ZeroCrossingTree_addUpdate omc_ZeroCrossings_ZeroCrossingTree_addUpdate
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ZeroCrossings_ZeroCrossingTree_addUpdate,2,0) {(void*) boxptr_ZeroCrossings_ZeroCrossingTree_addUpdate,0}};
+#define boxvar_ZeroCrossings_ZeroCrossingTree_addUpdate MMC_REFSTRUCTLIT(boxvar_lit_ZeroCrossings_ZeroCrossingTree_addUpdate)
+
+
 #define boxptr_ZeroCrossings_ZeroCrossingTree_balance omc_ZeroCrossings_ZeroCrossingTree_balance
 
 
@@ -241,7 +248,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ZeroCrossings_ZeroCrossingTree_keyStr,2
 
 
 DLLDirection
-modelica_metatype omc_ZeroCrossings_ZeroCrossingTree_listKeys(threadData_t *threadData, modelica_metatype _inTree, modelica_metatype __omcQ_24in_5Flst);
+modelica_metatype omc_ZeroCrossings_ZeroCrossingTree_listKeys(threadData_t *threadData, modelica_metatype _tree, modelica_metatype __omcQ_24in_5Flst);
 #define boxptr_ZeroCrossings_ZeroCrossingTree_listKeys omc_ZeroCrossings_ZeroCrossingTree_listKeys
 static const MMC_DEFSTRUCTLIT(boxvar_lit_ZeroCrossings_ZeroCrossingTree_listKeys,2,0) {(void*) boxptr_ZeroCrossings_ZeroCrossingTree_listKeys,0}};
 #define boxvar_ZeroCrossings_ZeroCrossingTree_listKeys MMC_REFSTRUCTLIT(boxvar_lit_ZeroCrossings_ZeroCrossingTree_listKeys)

@@ -8,6 +8,7 @@
 
 void omc_Socket_cleanup(threadData_t *threadData)
 {
+
   Socket_cleanup();
   return;
 }
@@ -15,7 +16,7 @@ void omc_Socket_cleanup(threadData_t *threadData)
 void omc_Socket_close(threadData_t *threadData, modelica_integer _inInteger)
 {
   int _inInteger_ext;
-  _inInteger_ext = (int)_inInteger;
+  _inInteger_ext = (int) _inInteger;
   Socket_close(_inInteger_ext);
   return;
 }
@@ -30,7 +31,7 @@ void boxptr_Socket_close(threadData_t *threadData, modelica_metatype _inInteger)
 void omc_Socket_sendreply(threadData_t *threadData, modelica_integer _inInteger, modelica_string _inString)
 {
   int _inInteger_ext;
-  _inInteger_ext = (int)_inInteger;
+  _inInteger_ext = (int) _inInteger;
   Socket_sendreply(_inInteger_ext, MMC_STRINGDATA(_inString));
   return;
 }
@@ -48,7 +49,7 @@ modelica_string omc_Socket_handlerequest(threadData_t *threadData, modelica_inte
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
-  _inInteger_ext = (int)_inInteger;
+  _inInteger_ext = (int) _inInteger;
   _outString_ext = Socket_handlerequest(_inInteger_ext);
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;
@@ -69,7 +70,7 @@ modelica_integer omc_Socket_waitforconnect(threadData_t *threadData, modelica_in
   int _outInteger_ext;
   modelica_integer _outInteger;
   // _outInteger has no default value.
-  _inInteger_ext = (int)_inInteger;
+  _inInteger_ext = (int) _inInteger;
   _outInteger_ext = Socket_waitforconnect(_inInteger_ext);
   _outInteger = (modelica_integer)_outInteger_ext;
   return _outInteger;

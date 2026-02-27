@@ -12,7 +12,7 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT0,13,_OMC_LIT0_data);
 void omc_ParserExt_stopLibraryVendorExecutable(threadData_t *threadData, modelica_metatype _lveInstance)
 {
   modelica_metatype _lveInstance_ext;
-  _lveInstance_ext = (modelica_metatype)_lveInstance;
+  _lveInstance_ext = (modelica_metatype) _lveInstance;
   ParserExt_stopLibraryVendorExecutable(_lveInstance_ext);
   return;
 }
@@ -23,7 +23,7 @@ modelica_boolean omc_ParserExt_checkLVEToolFeature(threadData_t *threadData, mod
   int _status_ext;
   modelica_boolean _status;
   // _status has no default value.
-  _lveInstance_ext = (modelica_metatype)_lveInstance;
+  _lveInstance_ext = (modelica_metatype) _lveInstance;
   _status_ext = ParserExt_checkLVEToolFeature(_lveInstance_ext, MMC_STRINGDATA(_feature));
   _status = (modelica_boolean)_status_ext;
   return _status;
@@ -43,7 +43,7 @@ modelica_boolean omc_ParserExt_checkLVEToolLicense(threadData_t *threadData, mod
   int _status_ext;
   modelica_boolean _status;
   // _status has no default value.
-  _lveInstance_ext = (modelica_metatype)_lveInstance;
+  _lveInstance_ext = (modelica_metatype) _lveInstance;
   _status_ext = ParserExt_checkLVEToolLicense(_lveInstance_ext, MMC_STRINGDATA(_packageName));
   _status = (modelica_boolean)_status_ext;
   return _status;
@@ -65,6 +65,7 @@ modelica_boolean omc_ParserExt_startLibraryVendorExecutable(threadData_t *thread
   modelica_metatype _lveInstance = NULL;
   // _success has no default value.
   // _lveInstance has no default value.
+
   _success_ext = ParserExt_startLibraryVendorExecutable(MMC_STRINGDATA(_lvePath), &_lveInstance_ext);
   _lveInstance = (modelica_metatype)_lveInstance_ext;
   _success = (modelica_boolean)_success_ext;
@@ -89,9 +90,9 @@ modelica_metatype omc_ParserExt_stringMod(threadData_t *threadData, modelica_str
   modelica_metatype _cref_ext;
   modelica_metatype _cref = NULL;
   // _cref has no default value.
-  _acceptedGram_ext = (int)_acceptedGram;
-  _languageStandardInt_ext = (int)_languageStandardInt;
-  _runningTestsuite_ext = (int)_runningTestsuite;
+  _acceptedGram_ext = (int) _acceptedGram;
+  _languageStandardInt_ext = (int) _languageStandardInt;
+  _runningTestsuite_ext = (int) _runningTestsuite;
   _cref_ext = ParserExt_stringMod(MMC_STRINGDATA(_str), MMC_STRINGDATA(_infoFilename), _acceptedGram_ext, _languageStandardInt_ext, _runningTestsuite_ext);
   _cref = (modelica_metatype)_cref_ext;
   return _cref;
@@ -118,9 +119,9 @@ modelica_metatype omc_ParserExt_stringCref(threadData_t *threadData, modelica_st
   modelica_metatype _cref_ext;
   modelica_metatype _cref = NULL;
   // _cref has no default value.
-  _acceptedGram_ext = (int)_acceptedGram;
-  _languageStandardInt_ext = (int)_languageStandardInt;
-  _runningTestsuite_ext = (int)_runningTestsuite;
+  _acceptedGram_ext = (int) _acceptedGram;
+  _languageStandardInt_ext = (int) _languageStandardInt;
+  _runningTestsuite_ext = (int) _runningTestsuite;
   _cref_ext = ParserExt_stringCref(MMC_STRINGDATA(_str), MMC_STRINGDATA(_infoFilename), _acceptedGram_ext, _languageStandardInt_ext, _runningTestsuite_ext);
   _cref = (modelica_metatype)_cref_ext;
   return _cref;
@@ -147,9 +148,9 @@ modelica_metatype omc_ParserExt_stringPath(threadData_t *threadData, modelica_st
   modelica_metatype _path_ext;
   modelica_metatype _path = NULL;
   // _path has no default value.
-  _acceptedGram_ext = (int)_acceptedGram;
-  _languageStandardInt_ext = (int)_languageStandardInt;
-  _runningTestsuite_ext = (int)_runningTestsuite;
+  _acceptedGram_ext = (int) _acceptedGram;
+  _languageStandardInt_ext = (int) _languageStandardInt;
+  _runningTestsuite_ext = (int) _runningTestsuite;
   _path_ext = ParserExt_stringPath(MMC_STRINGDATA(_str), MMC_STRINGDATA(_infoFilename), _acceptedGram_ext, _languageStandardInt_ext, _runningTestsuite_ext);
   _path = (modelica_metatype)_path_ext;
   return _path;
@@ -176,9 +177,9 @@ modelica_metatype omc_ParserExt_parsestringexp(threadData_t *threadData, modelic
   modelica_metatype _outStatements_ext;
   modelica_metatype _outStatements = NULL;
   // _outStatements has no default value.
-  _acceptedGram_ext = (int)_acceptedGram;
-  _languageStandardInt_ext = (int)_languageStandardInt;
-  _runningTestsuite_ext = (int)_runningTestsuite;
+  _acceptedGram_ext = (int) _acceptedGram;
+  _languageStandardInt_ext = (int) _languageStandardInt;
+  _runningTestsuite_ext = (int) _runningTestsuite;
   _outStatements_ext = ParserExt_parsestringexp(MMC_STRINGDATA(_str), MMC_STRINGDATA(_infoFilename), _acceptedGram_ext, _languageStandardInt_ext, _runningTestsuite_ext);
   _outStatements = (modelica_metatype)_outStatements_ext;
   return _outStatements;
@@ -206,10 +207,10 @@ modelica_metatype omc_ParserExt_parsestring(threadData_t *threadData, modelica_s
   modelica_metatype _outProgram_ext;
   modelica_metatype _outProgram = NULL;
   // _outProgram has no default value.
-  _acceptedGram_ext = (int)_acceptedGram;
-  _languageStandardInt_ext = (int)_languageStandardInt;
-  _strict_ext = (int)_strict;
-  _runningTestsuite_ext = (int)_runningTestsuite;
+  _acceptedGram_ext = (int) _acceptedGram;
+  _languageStandardInt_ext = (int) _languageStandardInt;
+  _strict_ext = (int) _strict;
+  _runningTestsuite_ext = (int) _runningTestsuite;
   _outProgram_ext = ParserExt_parsestring(MMC_STRINGDATA(_str), MMC_STRINGDATA(_infoFilename), _acceptedGram_ext, _languageStandardInt_ext, _strict_ext, _runningTestsuite_ext);
   _outProgram = (modelica_metatype)_outProgram_ext;
   return _outProgram;
@@ -238,9 +239,9 @@ modelica_metatype omc_ParserExt_parseexp(threadData_t *threadData, modelica_stri
   modelica_metatype _outStatements_ext;
   modelica_metatype _outStatements = NULL;
   // _outStatements has no default value.
-  _acceptedGram_ext = (int)_acceptedGram;
-  _languageStandardInt_ext = (int)_languageStandardInt;
-  _runningTestsuite_ext = (int)_runningTestsuite;
+  _acceptedGram_ext = (int) _acceptedGram;
+  _languageStandardInt_ext = (int) _languageStandardInt;
+  _runningTestsuite_ext = (int) _runningTestsuite;
   _outStatements_ext = ParserExt_parseexp(MMC_STRINGDATA(_filename), MMC_STRINGDATA(_infoFilename), _acceptedGram_ext, _languageStandardInt_ext, _runningTestsuite_ext);
   _outStatements = (modelica_metatype)_outStatements_ext;
   return _outStatements;
@@ -269,11 +270,11 @@ modelica_metatype omc_ParserExt_parse(threadData_t *threadData, modelica_string 
   modelica_metatype _outProgram_ext;
   modelica_metatype _outProgram = NULL;
   // _outProgram has no default value.
-  _acceptedGram_ext = (int)_acceptedGram;
-  _languageStandardInt_ext = (int)_languageStandardInt;
-  _strict_ext = (int)_strict;
-  _runningTestsuite_ext = (int)_runningTestsuite;
-  _lveInstance_ext = (modelica_metatype)_lveInstance;
+  _acceptedGram_ext = (int) _acceptedGram;
+  _languageStandardInt_ext = (int) _languageStandardInt;
+  _strict_ext = (int) _strict;
+  _runningTestsuite_ext = (int) _runningTestsuite;
+  _lveInstance_ext = (modelica_metatype) _lveInstance;
   _outProgram_ext = ParserExt_parse(MMC_STRINGDATA(_filename), MMC_STRINGDATA(_infoFilename), _acceptedGram_ext, _languageStandardInt_ext, _strict_ext, MMC_STRINGDATA(_encoding), _runningTestsuite_ext, MMC_STRINGDATA(_libraryPath), _lveInstance_ext);
   _outProgram = (modelica_metatype)_outProgram_ext;
   return _outProgram;

@@ -132,7 +132,11 @@ extern struct record_description DAE_Statement_STMT__WHILE__desc;
 
 extern struct record_description DAE_Type_T__BOOL__desc;
 
+extern struct record_description DAE_Type_T__ENUMERATION__desc;
+
 extern struct record_description DAE_Type_T__INTEGER__desc;
+
+extern struct record_description DAE_Type_T__METABOXED__desc;
 
 extern struct record_description DAE_Type_T__METALIST__desc;
 
@@ -217,6 +221,9 @@ extern struct record_description UnitAbsyn_InstStore_NOSTORE__desc;
 extern struct record_description Util_Status_FAILURE__desc;
 
 extern struct record_description Util_Status_SUCCESS__desc;
+
+
+#define boxptr_Patternm_unboxSwitchType omc_Patternm_unboxSwitchType
 
 
 #define boxptr_Patternm_convertExpToPatterns omc_Patternm_convertExpToPatterns

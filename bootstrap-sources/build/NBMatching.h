@@ -64,9 +64,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBMatching_continue__,2,0) {(void*) box
 
 
 DLLDirection
-modelica_metatype omc_NBMatching_singular(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fmatching, modelica_metatype __omcQ_24in_5Fadj, modelica_metatype __omcQ_24in_5Ffull, modelica_metatype __omcQ_24in_5Fvars, modelica_metatype __omcQ_24in_5Feqns, modelica_metatype __omcQ_24in_5FfuncTree, modelica_metatype __omcQ_24in_5FvarData, modelica_metatype __omcQ_24in_5FeqData, modelica_integer _Kind, modelica_boolean _transposed, modelica_boolean _clear, modelica_metatype *out_adj, modelica_metatype *out_full, modelica_metatype *out_vars, modelica_metatype *out_eqns, modelica_metatype *out_funcTree, modelica_metatype *out_varData, modelica_metatype *out_eqData);
+modelica_metatype omc_NBMatching_singular(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fmatching, modelica_metatype __omcQ_24in_5Fadj, modelica_metatype __omcQ_24in_5Ffull, modelica_metatype __omcQ_24in_5Fvars, modelica_metatype __omcQ_24in_5Feqns, modelica_metatype _funcMap, modelica_metatype __omcQ_24in_5FvarData, modelica_metatype __omcQ_24in_5FeqData, modelica_integer _kind, modelica_boolean _transposed, modelica_boolean _clear, modelica_metatype *out_adj, modelica_metatype *out_full, modelica_metatype *out_vars, modelica_metatype *out_eqns, modelica_metatype *out_varData, modelica_metatype *out_eqData);
 DLLDirection
-modelica_metatype boxptr_NBMatching_singular(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fmatching, modelica_metatype __omcQ_24in_5Fadj, modelica_metatype __omcQ_24in_5Ffull, modelica_metatype __omcQ_24in_5Fvars, modelica_metatype __omcQ_24in_5Feqns, modelica_metatype __omcQ_24in_5FfuncTree, modelica_metatype __omcQ_24in_5FvarData, modelica_metatype __omcQ_24in_5FeqData, modelica_metatype _Kind, modelica_metatype _transposed, modelica_metatype _clear, modelica_metatype *out_adj, modelica_metatype *out_full, modelica_metatype *out_vars, modelica_metatype *out_eqns, modelica_metatype *out_funcTree, modelica_metatype *out_varData, modelica_metatype *out_eqData);
+modelica_metatype boxptr_NBMatching_singular(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fmatching, modelica_metatype __omcQ_24in_5Fadj, modelica_metatype __omcQ_24in_5Ffull, modelica_metatype __omcQ_24in_5Fvars, modelica_metatype __omcQ_24in_5Feqns, modelica_metatype _funcMap, modelica_metatype __omcQ_24in_5FvarData, modelica_metatype __omcQ_24in_5FeqData, modelica_metatype _kind, modelica_metatype _transposed, modelica_metatype _clear, modelica_metatype *out_adj, modelica_metatype *out_full, modelica_metatype *out_vars, modelica_metatype *out_eqns, modelica_metatype *out_varData, modelica_metatype *out_eqData);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBMatching_singular,2,0) {(void*) boxptr_NBMatching_singular,0}};
 #define boxvar_NBMatching_singular MMC_REFSTRUCTLIT(boxvar_lit_NBMatching_singular)
 
@@ -77,6 +77,14 @@ DLLDirection
 modelica_metatype boxptr_NBMatching_regular(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fmatching, modelica_metatype _adj, modelica_metatype _transposed, modelica_metatype _partially, modelica_metatype _clear);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBMatching_regular,2,0) {(void*) boxptr_NBMatching_regular,0}};
 #define boxvar_NBMatching_regular MMC_REFSTRUCTLIT(boxvar_lit_NBMatching_regular)
+
+
+DLLDirection
+modelica_metatype omc_NBMatching_trivial(threadData_t *threadData, modelica_integer _n);
+DLLDirection
+modelica_metatype boxptr_NBMatching_trivial(threadData_t *threadData, modelica_metatype _n);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBMatching_trivial,2,0) {(void*) boxptr_NBMatching_trivial,0}};
+#define boxvar_NBMatching_trivial MMC_REFSTRUCTLIT(boxvar_lit_NBMatching_trivial)
 
 
 DLLDirection

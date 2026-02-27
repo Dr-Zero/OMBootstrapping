@@ -928,6 +928,24 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_System_removeFile,2,0) {(void*) boxptr_
 extern int SystemImpl__removeFile(const char* /*_fileName*/);
 
 DLLDirection
+modelica_boolean omc_System_regularFileWritable(threadData_t *threadData, modelica_string _inString);
+DLLDirection
+modelica_metatype boxptr_System_regularFileWritable(threadData_t *threadData, modelica_metatype _inString);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_System_regularFileWritable,2,0) {(void*) boxptr_System_regularFileWritable,0}};
+#define boxvar_System_regularFileWritable MMC_REFSTRUCTLIT(boxvar_lit_System_regularFileWritable)
+
+extern int SystemImpl__regularFileWritable(const char* /*_inString*/);
+
+DLLDirection
+modelica_boolean omc_System_regularFileReadable(threadData_t *threadData, modelica_string _inString);
+DLLDirection
+modelica_metatype boxptr_System_regularFileReadable(threadData_t *threadData, modelica_metatype _inString);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_System_regularFileReadable,2,0) {(void*) boxptr_System_regularFileReadable,0}};
+#define boxvar_System_regularFileReadable MMC_REFSTRUCTLIT(boxvar_lit_System_regularFileReadable)
+
+extern int SystemImpl__regularFileReadable(const char* /*_inString*/);
+
+DLLDirection
 modelica_boolean omc_System_regularFileExists(threadData_t *threadData, modelica_string _inString);
 DLLDirection
 modelica_metatype boxptr_System_regularFileExists(threadData_t *threadData, modelica_metatype _inString);

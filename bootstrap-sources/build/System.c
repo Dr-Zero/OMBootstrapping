@@ -9,12 +9,12 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT1,2,_OMC_LIT1_data);
 #define _OMC_LIT2_data "System.realpath failed for "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT2,27,_OMC_LIT2_data);
 #define _OMC_LIT2 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT2)
-#define _OMC_LIT3_data "/home/adrpo33/OpenModelica/OMCompiler/Compiler/Util/System.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT3,61,_OMC_LIT3_data);
+#define _OMC_LIT3_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/Util/System.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT3,67,_OMC_LIT3_data);
 #define _OMC_LIT3 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT3)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT4_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT4_6,1.770631566e9);
 #define _OMC_LIT4_6 MMC_REFREALLIT(_OMC_LIT_STRUCT4_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT4,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT3,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1194)),MMC_IMMEDIATE(MMC_TAGFIXNUM(5)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1194)),MMC_IMMEDIATE(MMC_TAGFIXNUM(84)),_OMC_LIT4_6}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT4,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT3,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1206)),MMC_IMMEDIATE(MMC_TAGFIXNUM(5)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1206)),MMC_IMMEDIATE(MMC_TAGFIXNUM(84)),_OMC_LIT4_6}};
 #define _OMC_LIT4 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT4)
 #define _OMC_LIT5_data ""
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT5,0,_OMC_LIT5_data);
@@ -51,6 +51,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_System_winGetSystemDirectoryA,2,0) {(vo
 
 void omc_System_waitForInput(threadData_t *threadData)
 {
+
   SystemImpl__waitForInput();
   return;
 }
@@ -61,7 +62,7 @@ modelica_integer omc_System_fputs(threadData_t *threadData, modelica_string _str
   int _res_ext;
   modelica_integer _res;
   // _res has no default value.
-  _streamType_ext = (int)_streamType;
+  _streamType_ext = (int) _streamType;
   _res_ext = SystemImpl__fputs(MMC_STRINGDATA(_str), _streamType_ext);
   _res = (modelica_integer)_res_ext;
   return _res;
@@ -89,7 +90,7 @@ modelica_real omc_System_getSizeOfData(threadData_t *threadData, modelica_metaty
   // _sz has no default value.
   // _raw_sz has no default value.
   // _nonSharedStringSize has no default value.
-  _data_ext = (modelica_metatype)_data;
+  _data_ext = (modelica_metatype) _data;
   _sz_ext = SystemImpl__getSizeOfData(_data_ext, &_raw_sz_ext, &_nonSharedStringSize_ext);
   _raw_sz = (modelica_real)_raw_sz_ext;
   _nonSharedStringSize = (modelica_real)_nonSharedStringSize_ext;
@@ -114,13 +115,14 @@ modelica_metatype boxptr_System_getSizeOfData(threadData_t *threadData, modelica
 void omc_System_updateUriMapping(threadData_t *threadData, modelica_metatype _namesAndDirs)
 {
   modelica_metatype _namesAndDirs_ext;
-  _namesAndDirs_ext = (modelica_metatype)_namesAndDirs;
+  _namesAndDirs_ext = (modelica_metatype) _namesAndDirs;
   OpenModelica_updateUriMapping(threadData, _namesAndDirs_ext);
   return;
 }
 
 void omc_System_fflush(threadData_t *threadData)
 {
+
   SystemImpl__fflush();
   return;
 }
@@ -131,7 +133,7 @@ modelica_boolean omc_System_relocateFunctions(threadData_t *threadData, modelica
   int _res_ext;
   modelica_boolean _res;
   // _res has no default value.
-  _names_ext = (modelica_metatype)_names;
+  _names_ext = (modelica_metatype) _names;
   _res_ext = SystemImpl__relocateFunctions(MMC_STRINGDATA(_fileName), _names_ext);
   _res = (modelica_boolean)_res_ext;
   return _res;
@@ -151,7 +153,7 @@ modelica_metatype omc_System_stringAllocatorResult(threadData_t *threadData, mod
   modelica_metatype _res_ext;
   modelica_metatype _res = NULL;
   // _res has no default value.
-  _sa_ext = (void *)_sa;
+  _sa_ext = (void *) _sa;
   _res_ext = om_stringAllocatorResult(_sa_ext);
   _res = (modelica_metatype)_res_ext;
   return _res;
@@ -168,8 +170,8 @@ void omc_System_stringAllocatorStringCopy(threadData_t *threadData, modelica_com
 {
   void * _dest_ext;
   int _destOffset_ext;
-  _dest_ext = (void *)_dest;
-  _destOffset_ext = (int)_destOffset;
+  _dest_ext = (void *) _dest;
+  _destOffset_ext = (int) _destOffset;
   om_stringAllocatorStringCopy(_dest_ext, MMC_STRINGDATA(_source), _destOffset_ext);
   return;
 }
@@ -187,7 +189,7 @@ modelica_complex omc_System_StringAllocator_constructor(threadData_t *threadData
   void * _str_ext;
   modelica_complex _str;
   // _str has no default value.
-  _sz_ext = (int)_sz;
+  _sz_ext = (int) _sz;
   _str_ext = StringAllocator_constructor(_sz_ext);
   _str = (modelica_complex)_str_ext;
   return _str;
@@ -225,7 +227,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_System_dladdr___dladdr(threadData_
   modelica_string _name = NULL;
   // _file has no default value.
   // _name has no default value.
-  _symbol_ext = (modelica_metatype)_symbol;
+  _symbol_ext = (modelica_metatype) _symbol;
   SystemImpl__dladdr(_symbol_ext, &_file_ext, &_name_ext);
   _file = (modelica_string)mmc_mk_scon(_file_ext);
   _name = (modelica_string)mmc_mk_scon(_name_ext);
@@ -262,6 +264,7 @@ modelica_boolean omc_System_covertTextFileToCLiteral(threadData_t *threadData, m
   int _success_ext;
   modelica_boolean _success;
   // _success has no default value.
+
   _success_ext = SystemImpl__covertTextFileToCLiteral(MMC_STRINGDATA(_textFile), MMC_STRINGDATA(_outFile), MMC_STRINGDATA(_target));
   _success = (modelica_boolean)_success_ext;
   return _success;
@@ -281,7 +284,7 @@ modelica_integer omc_System_alarm(threadData_t *threadData, modelica_integer _se
   int _previousAlarm_ext;
   modelica_integer _previousAlarm;
   // _previousAlarm has no default value.
-  _seconds_ext = (int)_seconds;
+  _seconds_ext = (int) _seconds;
   _previousAlarm_ext = SystemImpl__alarm(_seconds_ext);
   _previousAlarm = (modelica_integer)_previousAlarm_ext;
   return _previousAlarm;
@@ -311,6 +314,7 @@ modelica_boolean omc_System_stat(threadData_t *threadData, modelica_string _file
   // _st_size has no default value.
   // _st_mtime has no default value.
   // _fileType has no default value.
+
   _success_ext = SystemImpl__stat(MMC_STRINGDATA(_filename), &_st_size_ext, &_st_mtime_ext, &_fileType_ext);
   _st_size = (modelica_real)_st_size_ext;
   _st_mtime = (modelica_real)_st_mtime_ext;
@@ -342,7 +346,7 @@ modelica_string omc_System_ctime(threadData_t *threadData, modelica_real _t)
   const char* _str_ext;
   modelica_string _str = NULL;
   // _str has no default value.
-  _t_ext = (double)_t;
+  _t_ext = (double) _t;
   _str_ext = SystemImpl__ctime(_t_ext);
   _str = (modelica_string)mmc_mk_scon(_str_ext);
   return _str;
@@ -359,6 +363,7 @@ modelica_metatype boxptr_System_ctime(threadData_t *threadData, modelica_metatyp
 
 void omc_System_initGarbageCollector(threadData_t *threadData)
 {
+
   System_initGarbageCollector();
   return;
 }
@@ -368,6 +373,7 @@ modelica_real omc_System_getMemorySize(threadData_t *threadData)
   double _memory_ext;
   modelica_real _memory;
   // _memory has no default value.
+
   _memory_ext = System_getMemorySize();
   _memory = (modelica_real)_memory_ext;
   return _memory;
@@ -383,6 +389,7 @@ modelica_metatype boxptr_System_getMemorySize(threadData_t *threadData)
 
 void omc_System_threadWorkFailed(threadData_t *threadData)
 {
+
   System_threadFail(threadData);
   return;
 }
@@ -390,7 +397,7 @@ void omc_System_threadWorkFailed(threadData_t *threadData)
 void omc_System_exit(threadData_t *threadData, modelica_integer _status)
 {
   int _status_ext;
-  _status_ext = (int)_status;
+  _status_ext = (int) _status;
   exit(_status_ext);
   return;
 }
@@ -410,8 +417,8 @@ modelica_metatype omc_System_launchParallelTasks(threadData_t *threadData, model
   modelica_metatype _result_ext;
   modelica_metatype _result = NULL;
   // _result has no default value.
-  _numThreads_ext = (int)_numThreads;
-  _inData_ext = (modelica_metatype)_inData;
+  _numThreads_ext = (int) _numThreads;
+  _inData_ext = (modelica_metatype) _inData;
   if (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_func), 2))) {
     MMC_THROW_INTERNAL() /* The FFI does not allow closures */
   }
@@ -435,6 +442,7 @@ modelica_integer omc_System_numProcessors(threadData_t *threadData)
   int _result_ext;
   modelica_integer _result;
   // _result has no default value.
+
   _result_ext = System_numProcessors();
   _result = (modelica_integer)_result_ext;
   return _result;
@@ -453,6 +461,7 @@ modelica_boolean omc_System_rename(threadData_t *threadData, modelica_string _so
   int _result_ext;
   modelica_boolean _result;
   // _result has no default value.
+
   _result_ext = SystemImpl__rename(MMC_STRINGDATA(_source), MMC_STRINGDATA(_dest));
   _result = (modelica_boolean)_result_ext;
   return _result;
@@ -471,6 +480,7 @@ modelica_boolean omc_System_fileContentsEqual(threadData_t *threadData, modelica
   int _result_ext;
   modelica_boolean _result;
   // _result has no default value.
+
   _result_ext = SystemImpl__fileContentsEqual(MMC_STRINGDATA(_file1), MMC_STRINGDATA(_file2));
   _result = (modelica_boolean)_result_ext;
   return _result;
@@ -489,6 +499,7 @@ modelica_boolean omc_System_fileIsNewerThan(threadData_t *threadData, modelica_s
   int _result_ext;
   modelica_boolean _result;
   // _result has no default value.
+
   _result_ext = System_fileIsNewerThan(MMC_STRINGDATA(_file1), MMC_STRINGDATA(_file2));
   _result = (modelica_boolean)_result_ext;
   return _result;
@@ -507,6 +518,7 @@ modelica_integer omc_System_getTerminalWidth(threadData_t *threadData)
   int _width_ext;
   modelica_integer _width;
   // _width has no default value.
+
   _width_ext = System_getTerminalWidth();
   _width = (modelica_integer)_width_ext;
   return _width;
@@ -527,8 +539,8 @@ modelica_string omc_System_getSimulationHelpText(threadData_t *threadData, model
   const char* _text_ext;
   modelica_string _text = NULL;
   // _text has no default value.
-  _detailed_ext = (int)_detailed;
-  _sphinx_ext = (int)_sphinx;
+  _detailed_ext = (int) _detailed;
+  _sphinx_ext = (int) _sphinx;
   _text_ext = System_getSimulationHelpTextSphinx(_detailed_ext, _sphinx_ext);
   _text = (modelica_string)mmc_mk_scon(_text_ext);
   return _text;
@@ -550,6 +562,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_System_realpath_system__realpath(t
   const char* _fullpath_ext;
   modelica_string _fullpath = NULL;
   // _fullpath has no default value.
+
   _fullpath_ext = System_realpath(MMC_STRINGDATA(_path));
   _fullpath = (modelica_string)mmc_mk_scon(_fullpath_ext);
   return _fullpath;
@@ -614,6 +627,7 @@ modelica_integer omc_System_numBits(threadData_t *threadData)
   int _n_ext;
   modelica_integer _n;
   // _n has no default value.
+
   _n_ext = architecture_numbits();
   _n = (modelica_integer)_n_ext;
   return _n;
@@ -633,7 +647,7 @@ modelica_string omc_System_anyStringCode(threadData_t *threadData, modelica_meta
   const char* _str_ext;
   modelica_string _str = NULL;
   // _str has no default value.
-  _any_ext = (modelica_metatype)_any;
+  _any_ext = (modelica_metatype) _any;
   _str_ext = anyStringCode(_any_ext);
   _str = (modelica_string)mmc_mk_scon(_str_ext);
   return _str;
@@ -644,6 +658,7 @@ modelica_string omc_System_gettext(threadData_t *threadData, modelica_string _ms
   const char* _msgstr_ext;
   modelica_string _msgstr = NULL;
   // _msgstr has no default value.
+
   _msgstr_ext = SystemImpl__gettext(MMC_STRINGDATA(_msgid));
   _msgstr = (modelica_string)mmc_mk_scon(_msgstr_ext);
   return _msgstr;
@@ -651,6 +666,7 @@ modelica_string omc_System_gettext(threadData_t *threadData, modelica_string _ms
 
 void omc_System_gettextInit(threadData_t *threadData, modelica_string _locale)
 {
+
   SystemImpl__gettextInit(MMC_STRINGDATA(_locale));
   return;
 }
@@ -660,6 +676,7 @@ PROTECTED_FUNCTION_STATIC modelica_integer omc_System_intRandom0(threadData_t *t
   int _ret_ext;
   modelica_integer _ret;
   // _ret has no default value.
+
   _ret_ext = rand();
   _ret = (modelica_integer)_ret_ext;
   return _ret;
@@ -722,6 +739,7 @@ modelica_real omc_System_realRand(threadData_t *threadData)
   double _r_ext;
   modelica_real _r;
   // _r has no default value.
+
   _r_ext = SystemImpl__realRand();
   _r = (modelica_real)_r_ext;
   return _r;
@@ -741,7 +759,7 @@ modelica_string omc_System_sprintff(threadData_t *threadData, modelica_string _f
   const char* _str_ext;
   modelica_string _str = NULL;
   // _str has no default value.
-  _val_ext = (double)_val;
+  _val_ext = (double) _val;
   _str_ext = System_sprintff(MMC_STRINGDATA(_format), _val_ext);
   _str = (modelica_string)mmc_mk_scon(_str_ext);
   return _str;
@@ -763,8 +781,8 @@ modelica_string omc_System_snprintff(threadData_t *threadData, modelica_string _
   const char* _str_ext;
   modelica_string _str = NULL;
   // _str has no default value.
-  _maxlen_ext = (int)_maxlen;
-  _val_ext = (double)_val;
+  _maxlen_ext = (int) _maxlen;
+  _val_ext = (double) _val;
   _str_ext = System_snprintff(MMC_STRINGDATA(_format), _maxlen_ext, _val_ext);
   _str = (modelica_string)mmc_mk_scon(_str_ext);
   return _str;
@@ -786,6 +804,7 @@ modelica_string omc_System_iconv(threadData_t *threadData, modelica_string _stri
   const char* _result_ext;
   modelica_string _result = NULL;
   // _result has no default value.
+
   _result_ext = SystemImpl__iconv(MMC_STRINGDATA(_string), MMC_STRINGDATA(_from), MMC_STRINGDATA(_to), 1 /* true */);
   _result = (modelica_string)mmc_mk_scon(_result_ext);
   return _result;
@@ -797,7 +816,7 @@ modelica_boolean omc_System_reopenStandardStream(threadData_t *threadData, model
   int _success_ext;
   modelica_boolean _success;
   // _success has no default value.
-  __stream_ext = (int)__stream;
+  __stream_ext = (int) __stream;
   _success_ext = SystemImpl__reopenStandardStream(__stream_ext, MMC_STRINGDATA(_filename));
   _success = (modelica_boolean)_success_ext;
   return _success;
@@ -823,8 +842,8 @@ modelica_metatype omc_System_dgesv(threadData_t *threadData, modelica_metatype _
   modelica_integer _info;
   // _X has no default value.
   // _info has no default value.
-  _A_ext = (modelica_metatype)_A;
-  _B_ext = (modelica_metatype)_B;
+  _A_ext = (modelica_metatype) _A;
+  _B_ext = (modelica_metatype) _B;
   _info_ext = SystemImpl__dgesv(_A_ext, _B_ext, &_X_ext);
   _X = (modelica_metatype)_X_ext;
   _info = (modelica_integer)_info_ext;
@@ -846,6 +865,7 @@ modelica_string omc_System_gccVersion(threadData_t *threadData)
   const char* _version_ext;
   modelica_string _version = NULL;
   // _version has no default value.
+
   _version_ext = System_gccVersion();
   _version = (modelica_string)mmc_mk_scon(_version_ext);
   return _version;
@@ -856,6 +876,7 @@ modelica_string omc_System_gccDumpMachine(threadData_t *threadData)
   const char* _machine_ext;
   modelica_string _machine = NULL;
   // _machine has no default value.
+
   _machine_ext = System_gccDumpMachine();
   _machine = (modelica_string)mmc_mk_scon(_machine_ext);
   return _machine;
@@ -866,6 +887,7 @@ modelica_string omc_System_openModelicaPlatformAlternative(threadData_t *threadD
   const char* _platform_ext;
   modelica_string _platform = NULL;
   // _platform has no default value.
+
   _platform_ext = System_openModelicaPlatformAlternative();
   _platform = (modelica_string)mmc_mk_scon(_platform_ext);
   return _platform;
@@ -876,6 +898,7 @@ modelica_string omc_System_openModelicaPlatform(threadData_t *threadData)
   const char* _platform_ext;
   modelica_string _platform = NULL;
   // _platform has no default value.
+
   _platform_ext = System_openModelicaPlatform();
   _platform = (modelica_string)mmc_mk_scon(_platform_ext);
   return _platform;
@@ -886,6 +909,7 @@ modelica_string omc_System_modelicaPlatform(threadData_t *threadData)
   const char* _platform_ext;
   modelica_string _platform = NULL;
   // _platform has no default value.
+
   _platform_ext = System_modelicaPlatform();
   _platform = (modelica_string)mmc_mk_scon(_platform_ext);
   return _platform;
@@ -902,6 +926,7 @@ modelica_string omc_System_uriToClassAndPath(threadData_t *threadData, modelica_
   // _scheme has no default value.
   // _classname has no default value.
   // _pathname has no default value.
+
   System_uriToClassAndPath(MMC_STRINGDATA(_uri), &_scheme_ext, &_classname_ext, &_pathname_ext);
   _scheme = (modelica_string)mmc_mk_scon(_scheme_ext);
   _classname = (modelica_string)mmc_mk_scon(_classname_ext);
@@ -916,6 +941,7 @@ modelica_real omc_System_realMaxLit(threadData_t *threadData)
   double _outReal_ext;
   modelica_real _outReal;
   // _outReal has no default value.
+
   _outReal_ext = realMaxLit();
   _outReal = (modelica_real)_outReal_ext;
   return _outReal;
@@ -934,6 +960,7 @@ modelica_integer omc_System_intMaxLit(threadData_t *threadData)
   int _outInt_ext;
   modelica_integer _outInt;
   // _outInt has no default value.
+
   _outInt_ext = intMaxLit();
   _outInt = (modelica_integer)_outInt_ext;
   return _outInt;
@@ -952,6 +979,7 @@ modelica_string omc_System_unquoteIdentifier(threadData_t *threadData, modelica_
   const char* _outStr_ext;
   modelica_string _outStr = NULL;
   // _outStr has no default value.
+
   _outStr_ext = System_unquoteIdentifier(MMC_STRINGDATA(_str));
   _outStr = (modelica_string)mmc_mk_scon(_outStr_ext);
   return _outStr;
@@ -962,6 +990,7 @@ modelica_integer omc_System_unescapedStringLength(threadData_t *threadData, mode
   int _length_ext;
   modelica_integer _length;
   // _length has no default value.
+
   _length_ext = SystemImpl__unescapedStringLength(MMC_STRINGDATA(_unescapedString));
   _length = (modelica_integer)_length_ext;
   return _length;
@@ -980,6 +1009,7 @@ modelica_string omc_System_unescapedString(threadData_t *threadData, modelica_st
   const char* _unescapedString_ext;
   modelica_string _unescapedString = NULL;
   // _unescapedString has no default value.
+
   _unescapedString_ext = System_unescapedString(MMC_STRINGDATA(_escapedString));
   _unescapedString = (modelica_string)mmc_mk_scon(_unescapedString_ext);
   return _unescapedString;
@@ -991,7 +1021,7 @@ modelica_string omc_System_escapedString(threadData_t *threadData, modelica_stri
   const char* _escapedString_ext;
   modelica_string _escapedString = NULL;
   // _escapedString has no default value.
-  _unescapeNewline_ext = (int)_unescapeNewline;
+  _unescapeNewline_ext = (int) _unescapeNewline;
   _escapedString_ext = System_escapedString(MMC_STRINGDATA(_unescapedString), _unescapeNewline_ext);
   _escapedString = (modelica_string)mmc_mk_scon(_escapedString_ext);
   return _escapedString;
@@ -1011,6 +1041,7 @@ modelica_string omc_System_dirname(threadData_t *threadData, modelica_string _fi
   const char* _base_ext;
   modelica_string _base = NULL;
   // _base has no default value.
+
   _base_ext = System_dirname(MMC_STRINGDATA(_filename));
   _base = (modelica_string)mmc_mk_scon(_base_ext);
   return _base;
@@ -1021,6 +1052,7 @@ modelica_string omc_System_basename(threadData_t *threadData, modelica_string _f
   const char* _base_ext;
   modelica_string _base = NULL;
   // _base has no default value.
+
   _base_ext = System_basename(MMC_STRINGDATA(_filename));
   _base = (modelica_string)mmc_mk_scon(_base_ext);
   return _base;
@@ -1031,6 +1063,7 @@ modelica_string omc_System_getUUIDStr(threadData_t *threadData)
   const char* _uuidStr_ext;
   modelica_string _uuidStr = NULL;
   // _uuidStr has no default value.
+
   _uuidStr_ext = System_getUUIDStr();
   _uuidStr = (modelica_string)mmc_mk_scon(_uuidStr_ext);
   return _uuidStr;
@@ -1041,6 +1074,7 @@ modelica_integer omc_System_getTimerStackIndex(threadData_t *threadData)
   int _stackIndex_ext;
   modelica_integer _stackIndex;
   // _stackIndex has no default value.
+
   _stackIndex_ext = System_getTimerStackIndex();
   _stackIndex = (modelica_integer)_stackIndex_ext;
   return _stackIndex;
@@ -1059,6 +1093,7 @@ modelica_real omc_System_getTimerElapsedTime(threadData_t *threadData)
   double _timerElapsedTime_ext;
   modelica_real _timerElapsedTime;
   // _timerElapsedTime has no default value.
+
   _timerElapsedTime_ext = System_getTimerElapsedTime();
   _timerElapsedTime = (modelica_real)_timerElapsedTime_ext;
   return _timerElapsedTime;
@@ -1077,6 +1112,7 @@ modelica_real omc_System_getTimerCummulatedTime(threadData_t *threadData)
   double _timerCummulatedTime_ext;
   modelica_real _timerCummulatedTime;
   // _timerCummulatedTime has no default value.
+
   _timerCummulatedTime_ext = System_getTimerCummulatedTime();
   _timerCummulatedTime = (modelica_real)_timerCummulatedTime_ext;
   return _timerCummulatedTime;
@@ -1095,6 +1131,7 @@ modelica_real omc_System_getTimerIntervalTime(threadData_t *threadData)
   double _timerIntervalTime_ext;
   modelica_real _timerIntervalTime;
   // _timerIntervalTime has no default value.
+
   _timerIntervalTime_ext = System_getTimerIntervalTime();
   _timerIntervalTime = (modelica_real)_timerIntervalTime_ext;
   return _timerIntervalTime;
@@ -1110,18 +1147,21 @@ modelica_metatype boxptr_System_getTimerIntervalTime(threadData_t *threadData)
 
 void omc_System_stopTimer(threadData_t *threadData)
 {
+
   System_stopTimer();
   return;
 }
 
 void omc_System_startTimer(threadData_t *threadData)
 {
+
   System_startTimer();
   return;
 }
 
 void omc_System_resetTimer(threadData_t *threadData)
 {
+
   System_resetTimer();
   return;
 }
@@ -1132,7 +1172,7 @@ modelica_integer omc_System_realtimeNtick(threadData_t *threadData, modelica_int
   int _n_ext;
   modelica_integer _n;
   // _n has no default value.
-  _clockIndex_ext = (int)_clockIndex;
+  _clockIndex_ext = (int) _clockIndex;
   _n_ext = System_realtimeNtick(_clockIndex_ext);
   _n = (modelica_integer)_n_ext;
   return _n;
@@ -1154,7 +1194,7 @@ modelica_real omc_System_realtimeAccumulated(threadData_t *threadData, modelica_
   double _outTime_ext;
   modelica_real _outTime;
   // _outTime has no default value.
-  _clockIndex_ext = (int)_clockIndex;
+  _clockIndex_ext = (int) _clockIndex;
   _outTime_ext = System_realtimeAccumulated(_clockIndex_ext);
   _outTime = (modelica_real)_outTime_ext;
   return _outTime;
@@ -1176,7 +1216,7 @@ modelica_real omc_System_realtimeAccumulate(threadData_t *threadData, modelica_i
   double _outTime_ext;
   modelica_real _outTime;
   // _outTime has no default value.
-  _clockIndex_ext = (int)_clockIndex;
+  _clockIndex_ext = (int) _clockIndex;
   _outTime_ext = System_realtimeAccumulate(_clockIndex_ext);
   _outTime = (modelica_real)_outTime_ext;
   return _outTime;
@@ -1195,7 +1235,7 @@ modelica_metatype boxptr_System_realtimeAccumulate(threadData_t *threadData, mod
 void omc_System_realtimeClear(threadData_t *threadData, modelica_integer _clockIndex)
 {
   int _clockIndex_ext;
-  _clockIndex_ext = (int)_clockIndex;
+  _clockIndex_ext = (int) _clockIndex;
   System_realtimeClear(_clockIndex_ext);
   return;
 }
@@ -1213,7 +1253,7 @@ modelica_real omc_System_realtimeTock(threadData_t *threadData, modelica_integer
   double _outTime_ext;
   modelica_real _outTime;
   // _outTime has no default value.
-  _clockIndex_ext = (int)_clockIndex;
+  _clockIndex_ext = (int) _clockIndex;
   _outTime_ext = System_realtimeTock(_clockIndex_ext);
   _outTime = (modelica_real)_outTime_ext;
   return _outTime;
@@ -1232,7 +1272,7 @@ modelica_metatype boxptr_System_realtimeTock(threadData_t *threadData, modelica_
 void omc_System_realtimeTick(threadData_t *threadData, modelica_integer _clockIndex)
 {
   int _clockIndex_ext;
-  _clockIndex_ext = (int)_clockIndex;
+  _clockIndex_ext = (int) _clockIndex;
   System_realtimeTick(_clockIndex_ext);
   return;
 }
@@ -1249,6 +1289,7 @@ modelica_integer omc_System_getuid(threadData_t *threadData)
   int _uid_ext;
   modelica_integer _uid;
   // _uid has no default value.
+
   _uid_ext = System_getuid();
   _uid = (modelica_integer)_uid_ext;
   return _uid;
@@ -1267,6 +1308,7 @@ modelica_boolean omc_System_userIsRoot(threadData_t *threadData)
   int _isRoot_ext;
   modelica_boolean _isRoot;
   // _isRoot has no default value.
+
   _isRoot_ext = System_userIsRoot();
   _isRoot = (modelica_boolean)_isRoot_ext;
   return _isRoot;
@@ -1286,7 +1328,7 @@ modelica_integer omc_System_tmpTickMaximum(threadData_t *threadData, modelica_in
   int _maxIndex_ext;
   modelica_integer _maxIndex;
   // _maxIndex has no default value.
-  _index_ext = (int)_index;
+  _index_ext = (int) _index;
   _maxIndex_ext = SystemImpl_tmpTickMaximum(threadData, _index_ext);
   _maxIndex = (modelica_integer)_maxIndex_ext;
   return _maxIndex;
@@ -1306,8 +1348,8 @@ void omc_System_tmpTickSetIndex(threadData_t *threadData, modelica_integer _star
 {
   int _start_ext;
   int _index_ext;
-  _start_ext = (int)_start;
-  _index_ext = (int)_index;
+  _start_ext = (int) _start;
+  _index_ext = (int) _index;
   SystemImpl_tmpTickSetIndex(threadData, _start_ext, _index_ext);
   return;
 }
@@ -1325,8 +1367,8 @@ void omc_System_tmpTickResetIndex(threadData_t *threadData, modelica_integer _st
 {
   int _start_ext;
   int _index_ext;
-  _start_ext = (int)_start;
-  _index_ext = (int)_index;
+  _start_ext = (int) _start;
+  _index_ext = (int) _index;
   SystemImpl_tmpTickResetIndex(threadData, _start_ext, _index_ext);
   return;
 }
@@ -1347,8 +1389,8 @@ modelica_integer omc_System_tmpTickIndexReserve(threadData_t *threadData, modeli
   int _tickNo_ext;
   modelica_integer _tickNo;
   // _tickNo has no default value.
-  _index_ext = (int)_index;
-  _reserve_ext = (int)_reserve;
+  _index_ext = (int) _index;
+  _reserve_ext = (int) _reserve;
   _tickNo_ext = SystemImpl_tmpTickIndexReserve(threadData, _index_ext, _reserve_ext);
   _tickNo = (modelica_integer)_tickNo_ext;
   return _tickNo;
@@ -1372,7 +1414,7 @@ modelica_integer omc_System_tmpTickIndex(threadData_t *threadData, modelica_inte
   int _tickNo_ext;
   modelica_integer _tickNo;
   // _tickNo has no default value.
-  _index_ext = (int)_index;
+  _index_ext = (int) _index;
   _tickNo_ext = SystemImpl_tmpTickIndex(threadData, _index_ext);
   _tickNo = (modelica_integer)_tickNo_ext;
   return _tickNo;
@@ -1391,7 +1433,7 @@ modelica_metatype boxptr_System_tmpTickIndex(threadData_t *threadData, modelica_
 void omc_System_tmpTickReset(threadData_t *threadData, modelica_integer _start)
 {
   int _start_ext;
-  _start_ext = (int)_start;
+  _start_ext = (int) _start;
   SystemImpl_tmpTickReset(threadData, _start_ext);
   return;
 }
@@ -1428,6 +1470,7 @@ modelica_boolean omc_System_getHasInnerOuterDefinitions(threadData_t *threadData
   int _hasInnerOuterDefinitions_ext;
   modelica_boolean _hasInnerOuterDefinitions;
   // _hasInnerOuterDefinitions has no default value.
+
   _hasInnerOuterDefinitions_ext = System_getHasInnerOuterDefinitions();
   _hasInnerOuterDefinitions = (modelica_boolean)_hasInnerOuterDefinitions_ext;
   return _hasInnerOuterDefinitions;
@@ -1444,7 +1487,7 @@ modelica_metatype boxptr_System_getHasInnerOuterDefinitions(threadData_t *thread
 void omc_System_setHasInnerOuterDefinitions(threadData_t *threadData, modelica_boolean _hasInnerOuterDefinitions)
 {
   int _hasInnerOuterDefinitions_ext;
-  _hasInnerOuterDefinitions_ext = (int)_hasInnerOuterDefinitions;
+  _hasInnerOuterDefinitions_ext = (int) _hasInnerOuterDefinitions;
   System_setHasInnerOuterDefinitions(_hasInnerOuterDefinitions_ext);
   return;
 }
@@ -1461,6 +1504,7 @@ modelica_boolean omc_System_getUsesCardinality(threadData_t *threadData)
   int _outUses_ext;
   modelica_boolean _outUses;
   // _outUses has no default value.
+
   _outUses_ext = System_getUsesCardinality();
   _outUses = (modelica_boolean)_outUses_ext;
   return _outUses;
@@ -1477,7 +1521,7 @@ modelica_metatype boxptr_System_getUsesCardinality(threadData_t *threadData)
 void omc_System_setUsesCardinality(threadData_t *threadData, modelica_boolean _inUses)
 {
   int _inUses_ext;
-  _inUses_ext = (int)_inUses;
+  _inUses_ext = (int) _inUses;
   System_setUsesCardinality(_inUses_ext);
   return;
 }
@@ -1494,6 +1538,7 @@ modelica_boolean omc_System_getHasStreamConnectors(threadData_t *threadData)
   int _hasStream_ext;
   modelica_boolean _hasStream;
   // _hasStream has no default value.
+
   _hasStream_ext = System_getHasStreamConnectors();
   _hasStream = (modelica_boolean)_hasStream_ext;
   return _hasStream;
@@ -1510,7 +1555,7 @@ modelica_metatype boxptr_System_getHasStreamConnectors(threadData_t *threadData)
 void omc_System_setHasStreamConnectors(threadData_t *threadData, modelica_boolean _hasStream)
 {
   int _hasStream_ext;
-  _hasStream_ext = (int)_hasStream;
+  _hasStream_ext = (int) _hasStream;
   System_setHasStreamConnectors(_hasStream_ext);
   return;
 }
@@ -1527,6 +1572,7 @@ modelica_boolean omc_System_getPartialInstantiation(threadData_t *threadData)
   int _isPartialInstantiation_ext;
   modelica_boolean _isPartialInstantiation;
   // _isPartialInstantiation has no default value.
+
   _isPartialInstantiation_ext = System_getPartialInstantiation();
   _isPartialInstantiation = (modelica_boolean)_isPartialInstantiation_ext;
   return _isPartialInstantiation;
@@ -1543,7 +1589,7 @@ modelica_metatype boxptr_System_getPartialInstantiation(threadData_t *threadData
 void omc_System_setPartialInstantiation(threadData_t *threadData, modelica_boolean _isPartialInstantiation)
 {
   int _isPartialInstantiation_ext;
-  _isPartialInstantiation_ext = (int)_isPartialInstantiation;
+  _isPartialInstantiation_ext = (int) _isPartialInstantiation;
   System_setPartialInstantiation(_isPartialInstantiation_ext);
   return;
 }
@@ -1560,6 +1606,7 @@ modelica_boolean omc_System_getHasOverconstrainedConnectors(threadData_t *thread
   int _hasOverconstrained_ext;
   modelica_boolean _hasOverconstrained;
   // _hasOverconstrained has no default value.
+
   _hasOverconstrained_ext = System_getHasOverconstrainedConnectors();
   _hasOverconstrained = (modelica_boolean)_hasOverconstrained_ext;
   return _hasOverconstrained;
@@ -1576,7 +1623,7 @@ modelica_metatype boxptr_System_getHasOverconstrainedConnectors(threadData_t *th
 void omc_System_setHasOverconstrainedConnectors(threadData_t *threadData, modelica_boolean _hasOverconstrained)
 {
   int _hasOverconstrained_ext;
-  _hasOverconstrained_ext = (int)_hasOverconstrained;
+  _hasOverconstrained_ext = (int) _hasOverconstrained;
   System_setHasOverconstrainedConnectors(_hasOverconstrained_ext);
   return;
 }
@@ -1593,6 +1640,7 @@ modelica_boolean omc_System_getHasExpandableConnectors(threadData_t *threadData)
   int _hasExpandable_ext;
   modelica_boolean _hasExpandable;
   // _hasExpandable has no default value.
+
   _hasExpandable_ext = System_getHasExpandableConnectors();
   _hasExpandable = (modelica_boolean)_hasExpandable_ext;
   return _hasExpandable;
@@ -1609,7 +1657,7 @@ modelica_metatype boxptr_System_getHasExpandableConnectors(threadData_t *threadD
 void omc_System_setHasExpandableConnectors(threadData_t *threadData, modelica_boolean _hasExpandable)
 {
   int _hasExpandable_ext;
-  _hasExpandable_ext = (int)_hasExpandable;
+  _hasExpandable_ext = (int) _hasExpandable;
   System_setHasExpandableConnectors(_hasExpandable_ext);
   return;
 }
@@ -1626,6 +1674,7 @@ modelica_string omc_System_getCurrentTimeStr(threadData_t *threadData)
   const char* _timeStr_ext;
   modelica_string _timeStr = NULL;
   // _timeStr has no default value.
+
   _timeStr_ext = System_getCurrentTimeStr();
   _timeStr = (modelica_string)mmc_mk_scon(_timeStr_ext);
   return _timeStr;
@@ -1651,6 +1700,7 @@ modelica_integer omc_System_getCurrentDateTime(threadData_t *threadData, modelic
   // _mday has no default value.
   // _mon has no default value.
   // _year has no default value.
+
   System_getCurrentDateTime(&_sec_ext, &_min_ext, &_hour_ext, &_mday_ext, &_mon_ext, &_year_ext);
   _sec = (modelica_integer)_sec_ext;
   _min = (modelica_integer)_min_ext;
@@ -1689,6 +1739,7 @@ modelica_real omc_System_getCurrentTime(threadData_t *threadData)
   double _outValue_ext;
   modelica_real _outValue;
   // _outValue has no default value.
+
   _outValue_ext = SystemImpl__getCurrentTime();
   _outValue = (modelica_real)_outValue_ext;
   return _outValue;
@@ -1707,6 +1758,7 @@ modelica_metatype omc_System_getFileModificationTime(threadData_t *threadData, m
   modelica_metatype _outValue_ext;
   modelica_metatype _outValue = NULL;
   // _outValue has no default value.
+
   _outValue_ext = System_getFileModificationTime(MMC_STRINGDATA(_fileName));
   _outValue = (modelica_metatype)_outValue_ext;
   return _outValue;
@@ -1720,9 +1772,9 @@ modelica_real omc_System_getVariableValue(threadData_t *threadData, modelica_rea
   double _outValue_ext;
   modelica_real _outValue;
   // _outValue has no default value.
-  _timeStamp_ext = (double)_timeStamp;
-  _timeValues_ext = (modelica_metatype)_timeValues;
-  _varValues_ext = (modelica_metatype)_varValues;
+  _timeStamp_ext = (double) _timeStamp;
+  _timeValues_ext = (modelica_metatype) _timeValues;
+  _varValues_ext = (modelica_metatype) _varValues;
   _outValue_ext = System_getVariableValue(_timeStamp_ext, _timeValues_ext, _varValues_ext);
   _outValue = (modelica_real)_outValue_ext;
   return _outValue;
@@ -1740,6 +1792,7 @@ modelica_metatype boxptr_System_getVariableValue(threadData_t *threadData, model
 
 void omc_System_setClassnamesForSimulation(threadData_t *threadData, modelica_string _inString)
 {
+
   System_setClassnamesForSimulation(MMC_STRINGDATA(_inString));
   return;
 }
@@ -1749,6 +1802,7 @@ modelica_string omc_System_getClassnamesForSimulation(threadData_t *threadData)
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
+
   _outString_ext = System_getClassnamesForSimulation();
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;
@@ -1759,6 +1813,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_System_removeDirectory__dispatch(
   int _outBool_ext;
   modelica_boolean _outBool;
   // _outBool has no default value.
+
   _outBool_ext = SystemImpl__removeDirectory(MMC_STRINGDATA(_inString));
   _outBool = (modelica_boolean)_outBool_ext;
   return _outBool;
@@ -1801,6 +1856,7 @@ modelica_boolean omc_System_copyFile(threadData_t *threadData, modelica_string _
   int _outBool_ext;
   modelica_boolean _outBool;
   // _outBool has no default value.
+
   _outBool_ext = SystemImpl__copyFile(MMC_STRINGDATA(_source), MMC_STRINGDATA(_destination));
   _outBool = (modelica_boolean)_outBool_ext;
   return _outBool;
@@ -1819,6 +1875,7 @@ modelica_boolean omc_System_directoryExists(threadData_t *threadData, modelica_s
   int _outBool_ext;
   modelica_boolean _outBool;
   // _outBool has no default value.
+
   _outBool_ext = SystemImpl__directoryExists(MMC_STRINGDATA(_inString));
   _outBool = (modelica_boolean)_outBool_ext;
   return _outBool;
@@ -1837,6 +1894,7 @@ modelica_integer omc_System_removeFile(threadData_t *threadData, modelica_string
   int _res_ext;
   modelica_integer _res;
   // _res has no default value.
+
   _res_ext = SystemImpl__removeFile(MMC_STRINGDATA(_fileName));
   _res = (modelica_integer)_res_ext;
   return _res;
@@ -1850,11 +1908,50 @@ modelica_metatype boxptr_System_removeFile(threadData_t *threadData, modelica_me
   return out_res;
 }
 
+modelica_boolean omc_System_regularFileWritable(threadData_t *threadData, modelica_string _inString)
+{
+  int _outBool_ext;
+  modelica_boolean _outBool;
+  // _outBool has no default value.
+
+  _outBool_ext = SystemImpl__regularFileWritable(MMC_STRINGDATA(_inString));
+  _outBool = (modelica_boolean)_outBool_ext;
+  return _outBool;
+}
+modelica_metatype boxptr_System_regularFileWritable(threadData_t *threadData, modelica_metatype _inString)
+{
+  modelica_boolean _outBool;
+  modelica_metatype out_outBool;
+  _outBool = omc_System_regularFileWritable(threadData, _inString);
+  out_outBool = mmc_mk_icon(_outBool);
+  return out_outBool;
+}
+
+modelica_boolean omc_System_regularFileReadable(threadData_t *threadData, modelica_string _inString)
+{
+  int _outBool_ext;
+  modelica_boolean _outBool;
+  // _outBool has no default value.
+
+  _outBool_ext = SystemImpl__regularFileReadable(MMC_STRINGDATA(_inString));
+  _outBool = (modelica_boolean)_outBool_ext;
+  return _outBool;
+}
+modelica_metatype boxptr_System_regularFileReadable(threadData_t *threadData, modelica_metatype _inString)
+{
+  modelica_boolean _outBool;
+  modelica_metatype out_outBool;
+  _outBool = omc_System_regularFileReadable(threadData, _inString);
+  out_outBool = mmc_mk_icon(_outBool);
+  return out_outBool;
+}
+
 modelica_boolean omc_System_regularFileExists(threadData_t *threadData, modelica_string _inString)
 {
   int _outBool_ext;
   modelica_boolean _outBool;
   // _outBool has no default value.
+
   _outBool_ext = SystemImpl__regularFileExists(MMC_STRINGDATA(_inString));
   _outBool = (modelica_boolean)_outBool_ext;
   return _outBool;
@@ -1873,6 +1970,7 @@ modelica_real omc_System_time(threadData_t *threadData)
   double _outReal_ext;
   modelica_real _outReal;
   // _outReal has no default value.
+
   _outReal_ext = SystemImpl__time();
   _outReal = (modelica_real)_outReal_ext;
   return _outReal;
@@ -1900,9 +1998,9 @@ modelica_string omc_System_getLoadModelPath(threadData_t *threadData, modelica_s
   // _dir has no default value.
   // _name has no default value.
   // _isDir has no default value.
-  _prios_ext = (modelica_metatype)_prios;
-  _mps_ext = (modelica_metatype)_mps;
-  _requireExactVersion_ext = (int)_requireExactVersion;
+  _prios_ext = (modelica_metatype) _prios;
+  _mps_ext = (modelica_metatype) _mps;
+  _requireExactVersion_ext = (int) _requireExactVersion;
   System_getLoadModelPath(MMC_STRINGDATA(_className), _prios_ext, _mps_ext, _requireExactVersion_ext, &_dir_ext, &_name_ext, &_isDir_ext);
   _dir = (modelica_string)mmc_mk_scon(_dir_ext);
   _name = (modelica_string)mmc_mk_scon(_name_ext);
@@ -1929,6 +2027,7 @@ modelica_metatype omc_System_mocFiles(threadData_t *threadData, modelica_string 
   modelica_metatype _outStringLst_ext;
   modelica_metatype _outStringLst = NULL;
   // _outStringLst has no default value.
+
   _outStringLst_ext = System_mocFiles(MMC_STRINGDATA(_inString));
   _outStringLst = (modelica_metatype)_outStringLst_ext;
   return _outStringLst;
@@ -1939,6 +2038,7 @@ modelica_metatype omc_System_moFiles(threadData_t *threadData, modelica_string _
   modelica_metatype _outStringLst_ext;
   modelica_metatype _outStringLst = NULL;
   // _outStringLst has no default value.
+
   _outStringLst_ext = System_moFiles(MMC_STRINGDATA(_inString));
   _outStringLst = (modelica_metatype)_outStringLst_ext;
   return _outStringLst;
@@ -1949,6 +2049,7 @@ modelica_metatype omc_System_subDirectories(threadData_t *threadData, modelica_s
   modelica_metatype _outStringLst_ext;
   modelica_metatype _outStringLst = NULL;
   // _outStringLst has no default value.
+
   _outStringLst_ext = System_subDirectories(MMC_STRINGDATA(_inString));
   _outStringLst = (modelica_metatype)_outStringLst_ext;
   return _outStringLst;
@@ -1960,7 +2061,7 @@ modelica_integer omc_System_setEnv(threadData_t *threadData, modelica_string _va
   int _outInteger_ext;
   modelica_integer _outInteger;
   // _outInteger has no default value.
-  _overwrite_ext = (int)_overwrite;
+  _overwrite_ext = (int) _overwrite;
   _outInteger_ext = setenv(MMC_STRINGDATA(_varName), MMC_STRINGDATA(_value), _overwrite_ext);
   _outInteger = (modelica_integer)_outInteger_ext;
   return _outInteger;
@@ -1981,6 +2082,7 @@ modelica_string omc_System_readEnv(threadData_t *threadData, modelica_string _in
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
+
   _outString_ext = System_readEnv(MMC_STRINGDATA(_inString));
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;
@@ -1991,6 +2093,7 @@ modelica_string omc_System_pwd(threadData_t *threadData)
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
+
   _outString_ext = SystemImpl__pwd();
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;
@@ -2001,6 +2104,7 @@ modelica_string omc_System_createTemporaryDirectory(threadData_t *threadData, mo
   const char* _outName_ext;
   modelica_string _outName = NULL;
   // _outName has no default value.
+
   _outName_ext = SystemImpl__createTemporaryDirectory(MMC_STRINGDATA(_inPrefix));
   _outName = (modelica_string)mmc_mk_scon(_outName_ext);
   return _outName;
@@ -2011,6 +2115,7 @@ modelica_boolean omc_System_createDirectory(threadData_t *threadData, modelica_s
   int _outBool_ext;
   modelica_boolean _outBool;
   // _outBool has no default value.
+
   _outBool_ext = SystemImpl__createDirectory(MMC_STRINGDATA(_inString));
   _outBool = (modelica_boolean)_outBool_ext;
   return _outBool;
@@ -2029,6 +2134,7 @@ modelica_integer omc_System_cd(threadData_t *threadData, modelica_string _inStri
   int _outInteger_ext;
   modelica_integer _outInteger;
   // _outInteger has no default value.
+
   _outInteger_ext = SystemImpl__chdir(MMC_STRINGDATA(_inString));
   _outInteger = (modelica_integer)_outInteger_ext;
   return _outInteger;
@@ -2044,6 +2150,7 @@ modelica_metatype boxptr_System_cd(threadData_t *threadData, modelica_metatype _
 
 void omc_System_loadModelCallBack(threadData_t *threadData, modelica_string _modelName)
 {
+
   SystemImpl__loadModelCallBack(threadData, MMC_STRINGDATA(_modelName));
   return;
 }
@@ -2053,6 +2160,7 @@ modelica_boolean omc_System_loadModelCallBackDefined(threadData_t *threadData)
   int _isDefined_ext;
   modelica_boolean _isDefined;
   // _isDefined has no default value.
+
   _isDefined_ext = SystemImpl__loadModelCallBackDefined(threadData);
   _isDefined = (modelica_boolean)_isDefined_ext;
   return _isDefined;
@@ -2069,7 +2177,7 @@ modelica_metatype boxptr_System_loadModelCallBackDefined(threadData_t *threadDat
 void omc_System_plotCallBack(threadData_t *threadData, modelica_boolean _externalWindow, modelica_string _filename, modelica_string _title, modelica_string _grid, modelica_string _plotType, modelica_string _logX, modelica_string _logY, modelica_string _xLabel, modelica_string _yLabel, modelica_string _x1, modelica_string _x2, modelica_string _y1, modelica_string _y2, modelica_string _curveWidth, modelica_string _curveStyle, modelica_string _legendPosition, modelica_string _footer, modelica_string _autoScale, modelica_string _variables)
 {
   int _externalWindow_ext;
-  _externalWindow_ext = (int)_externalWindow;
+  _externalWindow_ext = (int) _externalWindow;
   SystemImpl__plotCallBack(threadData, _externalWindow_ext, MMC_STRINGDATA(_filename), MMC_STRINGDATA(_title), MMC_STRINGDATA(_grid), MMC_STRINGDATA(_plotType), MMC_STRINGDATA(_logX), MMC_STRINGDATA(_logY), MMC_STRINGDATA(_xLabel), MMC_STRINGDATA(_yLabel), MMC_STRINGDATA(_x1), MMC_STRINGDATA(_x2), MMC_STRINGDATA(_y1), MMC_STRINGDATA(_y2), MMC_STRINGDATA(_curveWidth), MMC_STRINGDATA(_curveStyle), MMC_STRINGDATA(_legendPosition), MMC_STRINGDATA(_footer), MMC_STRINGDATA(_autoScale), MMC_STRINGDATA(_variables));
   return;
 }
@@ -2086,6 +2194,7 @@ modelica_boolean omc_System_plotCallBackDefined(threadData_t *threadData)
   int _outBoolean_ext;
   modelica_boolean _outBoolean;
   // _outBoolean has no default value.
+
   _outBoolean_ext = SystemImpl__plotCallBackDefined(threadData);
   _outBoolean = (modelica_boolean)_outBoolean_ext;
   return _outBoolean;
@@ -2104,6 +2213,7 @@ modelica_integer omc_System_spawnCall(threadData_t *threadData, modelica_string 
   int _outInteger_ext;
   modelica_integer _outInteger;
   // _outInteger has no default value.
+
   _outInteger_ext = SystemImpl__spawnCall(MMC_STRINGDATA(_path), MMC_STRINGDATA(_str));
   _outInteger = (modelica_integer)_outInteger_ext;
   return _outInteger;
@@ -2124,8 +2234,8 @@ modelica_metatype omc_System_systemCallParallel(threadData_t *threadData, modeli
   modelica_metatype _outIntegers_ext;
   modelica_metatype _outIntegers = NULL;
   // _outIntegers has no default value.
-  _inStrings_ext = (modelica_metatype)_inStrings;
-  _numThreads_ext = (int)_numThreads;
+  _inStrings_ext = (modelica_metatype) _inStrings;
+  _numThreads_ext = (int) _numThreads;
   _outIntegers_ext = SystemImpl__systemCallParallel(_inStrings_ext, _numThreads_ext);
   _outIntegers = (modelica_metatype)_outIntegers_ext;
   return _outIntegers;
@@ -2148,6 +2258,7 @@ modelica_string omc_System_popen(threadData_t *threadData, modelica_string _comm
   modelica_integer _status;
   // _contents has no default value.
   // _status has no default value.
+
   _contents_ext = System_popen(threadData, MMC_STRINGDATA(_command), &_status_ext);
   _status = (modelica_integer)_status_ext;
   _contents = (modelica_string)mmc_mk_scon(_contents_ext);
@@ -2169,6 +2280,7 @@ modelica_integer omc_System_systemCall(threadData_t *threadData, modelica_string
   int _outInteger_ext;
   modelica_integer _outInteger;
   // _outInteger has no default value.
+
   _outInteger_ext = SystemImpl__systemCall(MMC_STRINGDATA(_command), MMC_STRINGDATA(_outFile));
   _outInteger = (modelica_integer)_outInteger_ext;
   return _outInteger;
@@ -2187,6 +2299,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_System_winGetSystemDirectoryA(thre
   const char* _str_ext;
   modelica_string _str = NULL;
   // _str has no default value.
+
   _str_ext = SystemImpl__winGetSystemDirectoryA();
   _str = (modelica_string)mmc_mk_scon(_str_ext);
   return _str;
@@ -2241,6 +2354,7 @@ modelica_string omc_System_readFile(threadData_t *threadData, modelica_string _i
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
+
   _outString_ext = System_readFile(MMC_STRINGDATA(_inString));
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;
@@ -2248,12 +2362,14 @@ modelica_string omc_System_readFile(threadData_t *threadData, modelica_string _i
 
 void omc_System_appendFile(threadData_t *threadData, modelica_string _file, modelica_string _data)
 {
+
   System_appendFile(MMC_STRINGDATA(_file), MMC_STRINGDATA(_data));
   return;
 }
 
 void omc_System_writeFile(threadData_t *threadData, modelica_string _fileNameToWrite, modelica_string _stringToBeWritten)
 {
+
   System_writeFile(MMC_STRINGDATA(_fileNameToWrite), MMC_STRINGDATA(_stringToBeWritten));
   return;
 }
@@ -2262,8 +2378,8 @@ void omc_System_freeLibrary(threadData_t *threadData, modelica_integer _inLibHan
 {
   int _inLibHandle_ext;
   int _inPrintDebug_ext;
-  _inLibHandle_ext = (int)_inLibHandle;
-  _inPrintDebug_ext = (int)_inPrintDebug;
+  _inLibHandle_ext = (int) _inLibHandle;
+  _inPrintDebug_ext = (int) _inPrintDebug;
   System_freeLibrary(_inLibHandle_ext, _inPrintDebug_ext);
   return;
 }
@@ -2281,8 +2397,8 @@ void omc_System_freeFunction(threadData_t *threadData, modelica_integer _inFuncH
 {
   int _inFuncHandle_ext;
   int _inPrintDebug_ext;
-  _inFuncHandle_ext = (int)_inFuncHandle;
-  _inPrintDebug_ext = (int)_inPrintDebug;
+  _inFuncHandle_ext = (int) _inFuncHandle;
+  _inPrintDebug_ext = (int) _inPrintDebug;
   System_freeFunction(_inFuncHandle_ext, _inPrintDebug_ext);
   return;
 }
@@ -2302,7 +2418,7 @@ modelica_integer omc_System_lookupFunction(threadData_t *threadData, modelica_in
   int _outFuncHandle_ext;
   modelica_integer _outFuncHandle;
   // _outFuncHandle has no default value.
-  _inLibHandle_ext = (int)_inLibHandle;
+  _inLibHandle_ext = (int) _inLibHandle;
   _outFuncHandle_ext = System_lookupFunction(_inLibHandle_ext, MMC_STRINGDATA(_inFunc));
   _outFuncHandle = (modelica_integer)_outFuncHandle_ext;
   return _outFuncHandle;
@@ -2325,8 +2441,8 @@ modelica_integer omc_System_loadLibrary(threadData_t *threadData, modelica_strin
   int _outLibHandle_ext;
   modelica_integer _outLibHandle;
   // _outLibHandle has no default value.
-  _relativePath_ext = (int)_relativePath;
-  _printDebug_ext = (int)_printDebug;
+  _relativePath_ext = (int) _relativePath;
+  _printDebug_ext = (int) _printDebug;
   _outLibHandle_ext = System_loadLibrary(MMC_STRINGDATA(_inLib), _relativePath_ext, _printDebug_ext);
   _outLibHandle = (modelica_integer)_outLibHandle_ext;
   return _outLibHandle;
@@ -2349,6 +2465,7 @@ modelica_string omc_System_getLDFlags(threadData_t *threadData)
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
+
   _outString_ext = System_getLDFlags();
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;
@@ -2356,6 +2473,7 @@ modelica_string omc_System_getLDFlags(threadData_t *threadData)
 
 void omc_System_setLDFlags(threadData_t *threadData, modelica_string _inString)
 {
+
   SystemImpl__setLDFlags(MMC_STRINGDATA(_inString));
   return;
 }
@@ -2365,6 +2483,7 @@ modelica_string omc_System_getLinker(threadData_t *threadData)
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
+
   _outString_ext = System_getLinker();
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;
@@ -2372,6 +2491,7 @@ modelica_string omc_System_getLinker(threadData_t *threadData)
 
 void omc_System_setLinker(threadData_t *threadData, modelica_string _inString)
 {
+
   SystemImpl__setLinker(MMC_STRINGDATA(_inString));
   return;
 }
@@ -2381,6 +2501,7 @@ modelica_string omc_System_getOMPCCompiler(threadData_t *threadData)
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
+
   _outString_ext = System_getOMPCCompiler();
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;
@@ -2391,6 +2512,7 @@ modelica_string omc_System_getCXXCompiler(threadData_t *threadData)
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
+
   _outString_ext = System_getCXXCompiler();
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;
@@ -2398,6 +2520,7 @@ modelica_string omc_System_getCXXCompiler(threadData_t *threadData)
 
 void omc_System_setCXXCompiler(threadData_t *threadData, modelica_string _inString)
 {
+
   SystemImpl__setCXXCompiler(MMC_STRINGDATA(_inString));
   return;
 }
@@ -2407,6 +2530,7 @@ modelica_string omc_System_getCFlags(threadData_t *threadData)
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
+
   _outString_ext = System_getCFlags();
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;
@@ -2414,6 +2538,7 @@ modelica_string omc_System_getCFlags(threadData_t *threadData)
 
 void omc_System_setCFlags(threadData_t *threadData, modelica_string _inString)
 {
+
   SystemImpl__setCFlags(MMC_STRINGDATA(_inString));
   return;
 }
@@ -2423,6 +2548,7 @@ modelica_string omc_System_getCCompiler(threadData_t *threadData)
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
+
   _outString_ext = System_getCCompiler();
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;
@@ -2430,6 +2556,7 @@ modelica_string omc_System_getCCompiler(threadData_t *threadData)
 
 void omc_System_setCCompiler(threadData_t *threadData, modelica_string _inString)
 {
+
   SystemImpl__setCCompiler(MMC_STRINGDATA(_inString));
   return;
 }
@@ -2440,7 +2567,7 @@ modelica_metatype omc_System_splitOnNewline(threadData_t *threadData, modelica_s
   modelica_metatype _strings_ext;
   modelica_metatype _strings = NULL;
   // _strings has no default value.
-  _includeDelimiter_ext = (int)_includeDelimiter;
+  _includeDelimiter_ext = (int) _includeDelimiter;
   _strings_ext = System_splitOnNewline(MMC_STRINGDATA(_str), _includeDelimiter_ext);
   _strings = (modelica_metatype)_strings_ext;
   return _strings;
@@ -2460,6 +2587,7 @@ modelica_metatype omc_System_strtokIncludingDelimiters(threadData_t *threadData,
   modelica_metatype _strings_ext;
   modelica_metatype _strings = NULL;
   // _strings has no default value.
+
   _strings_ext = System_strtokIncludingDelimiters(MMC_STRINGDATA(_string), MMC_STRINGDATA(_token));
   _strings = (modelica_metatype)_strings_ext;
   return _strings;
@@ -2470,6 +2598,7 @@ modelica_metatype omc_System_strtok(threadData_t *threadData, modelica_string _s
   modelica_metatype _strings_ext;
   modelica_metatype _strings = NULL;
   // _strings has no default value.
+
   _strings_ext = System_strtok(MMC_STRINGDATA(_string), MMC_STRINGDATA(_token));
   _strings = (modelica_metatype)_strings_ext;
   return _strings;
@@ -2480,6 +2609,7 @@ modelica_string omc_System_tolower(threadData_t *threadData, modelica_string _in
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
+
   _outString_ext = System_tolower(MMC_STRINGDATA(_inString));
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;
@@ -2490,6 +2620,7 @@ modelica_string omc_System_toupper(threadData_t *threadData, modelica_string _in
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
+
   _outString_ext = System_toupper(MMC_STRINGDATA(_inString));
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;
@@ -2500,6 +2631,7 @@ modelica_string omc_System_makeC89Identifier(threadData_t *threadData, modelica_
   const char* _res_ext;
   modelica_string _res = NULL;
   // _res has no default value.
+
   _res_ext = System_makeC89Identifier(MMC_STRINGDATA(_str));
   _res = (modelica_string)mmc_mk_scon(_res_ext);
   return _res;
@@ -2510,6 +2642,7 @@ modelica_string omc_System_stringReplace(threadData_t *threadData, modelica_stri
   const char* _res_ext;
   modelica_string _res = NULL;
   // _res has no default value.
+
   _res_ext = System_stringReplace(MMC_STRINGDATA(_str), MMC_STRINGDATA(_source), MMC_STRINGDATA(_target));
   _res = (modelica_string)mmc_mk_scon(_res_ext);
   return _res;
@@ -2521,7 +2654,7 @@ modelica_integer omc_System_strncmp(threadData_t *threadData, modelica_string _i
   int _outInteger_ext;
   modelica_integer _outInteger;
   // _outInteger has no default value.
-  _len_ext = (int)_len;
+  _len_ext = (int) _len;
   _outInteger_ext = System_strncmp(MMC_STRINGDATA(_inString1), MMC_STRINGDATA(_inString2), _len_ext);
   _outInteger = (modelica_integer)_outInteger_ext;
   return _outInteger;
@@ -2548,9 +2681,9 @@ modelica_integer omc_System_regex(threadData_t *threadData, modelica_string _str
   modelica_metatype _strs = NULL;
   // _numMatches has no default value.
   // _strs has no default value.
-  _maxMatches_ext = (int)_maxMatches;
-  _extended_ext = (int)_extended;
-  _ignoreCase_ext = (int)_ignoreCase;
+  _maxMatches_ext = (int) _maxMatches;
+  _extended_ext = (int) _extended;
+  _ignoreCase_ext = (int) _ignoreCase;
   _strs_ext = System_regex(MMC_STRINGDATA(_str), MMC_STRINGDATA(_re), _maxMatches_ext, _extended_ext, _ignoreCase_ext, &_numMatches_ext);
   _numMatches = (modelica_integer)_numMatches_ext;
   _strs = (modelica_metatype)_strs_ext;
@@ -2578,6 +2711,7 @@ modelica_string omc_System_stringFindString(threadData_t *threadData, modelica_s
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
+
   _outString_ext = System_stringFindString(MMC_STRINGDATA(_str), MMC_STRINGDATA(_searchStr));
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;
@@ -2588,6 +2722,7 @@ modelica_integer omc_System_stringFind(threadData_t *threadData, modelica_string
   int _outInteger_ext;
   modelica_integer _outInteger;
   // _outInteger has no default value.
+
   _outInteger_ext = System_stringFind(MMC_STRINGDATA(_str), MMC_STRINGDATA(_searchStr));
   _outInteger = (modelica_integer)_outInteger_ext;
   return _outInteger;
@@ -2610,10 +2745,10 @@ modelica_integer omc_System_strcmp__offset(threadData_t *threadData, modelica_st
   int _outInteger_ext;
   modelica_integer _outInteger;
   // _outInteger has no default value.
-  _offset1_ext = (int)_offset1;
-  _length1_ext = (int)_length1;
-  _offset2_ext = (int)_offset2;
-  _length2_ext = (int)_length2;
+  _offset1_ext = (int) _offset1;
+  _length1_ext = (int) _length1;
+  _offset2_ext = (int) _offset2;
+  _length2_ext = (int) _length2;
   _outInteger_ext = System_strcmp_offset(MMC_STRINGDATA(_string1), _offset1_ext, _length1_ext, MMC_STRINGDATA(_string2), _offset2_ext, _length2_ext);
   _outInteger = (modelica_integer)_outInteger_ext;
   return _outInteger;
@@ -2640,6 +2775,7 @@ modelica_integer omc_System_strcmp(threadData_t *threadData, modelica_string _in
   int _outInteger_ext;
   modelica_integer _outInteger;
   // _outInteger has no default value.
+
   _outInteger_ext = System_strcmp(MMC_STRINGDATA(_inString1), MMC_STRINGDATA(_inString2));
   _outInteger = (modelica_integer)_outInteger_ext;
   return _outInteger;
@@ -2658,6 +2794,7 @@ modelica_string omc_System_trimChar(threadData_t *threadData, modelica_string _i
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
+
   _outString_ext = System_trimChar(MMC_STRINGDATA(_inString1), MMC_STRINGDATA(_inString2));
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;
@@ -2680,6 +2817,7 @@ modelica_string omc_System_trim(threadData_t *threadData, modelica_string _inStr
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
+
   _outString_ext = System_trim(MMC_STRINGDATA(_inString), MMC_STRINGDATA(_charsToRemove));
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;

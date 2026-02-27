@@ -2636,7 +2636,7 @@ modelica_metatype omc_FGraphBuildEnv_mkModNode(threadData_t *threadData, modelic
       for (; tmp4 < 6; tmp4++) {
         switch (MMC_SWITCH_CAST(tmp4)) {
         case 0: {
-          if (mmc__uniontype__metarecord__typedef__equal(tmp4_2,2,0) == 0) goto tmp3_end;
+          if (mmc__uniontype__metarecord__typedef__equal(tmp4_2,4,0) == 0) goto tmp3_end;
           
           _g = tmp4_3;
           tmp4 += 4; /* Pattern matching succeeded; we may skip some cases if we fail */

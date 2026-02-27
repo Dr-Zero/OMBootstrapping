@@ -30,6 +30,8 @@ extern struct record_description NBSlice_SLICE__desc;
 
 extern struct record_description NFExpression_INTEGER__desc;
 
+extern struct record_description NFExpression_MULTARY__desc;
+
 extern struct record_description NFSubscript_INDEX__desc;
 
 extern struct record_description NFType_INTEGER__desc;
@@ -44,6 +46,12 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
 #define boxptr_NBInline_createInlinedEquation omc_NBInline_createInlinedEquation
+
+
+#define boxptr_NBInline_inlineCatCall omc_NBInline_inlineCatCall
+
+
+#define boxptr_NBInline_inlinePromoteCall omc_NBInline_inlinePromoteCall
 
 
 #define boxptr_NBInline_inlineArrayConstructor omc_NBInline_inlineArrayConstructor
@@ -61,9 +69,6 @@ DLLDirection
 modelica_metatype boxptr_NBInline_inlineRecordTupleArrayEquation(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqn, modelica_metatype _iter, modelica_metatype _variables, modelica_metatype _new_eqns, modelica_metatype _set, modelica_metatype _index, modelica_metatype _inlineSimple);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBInline_inlineRecordTupleArrayEquation,2,0) {(void*) boxptr_NBInline_inlineRecordTupleArrayEquation,0}};
 #define boxvar_NBInline_inlineRecordTupleArrayEquation MMC_REFSTRUCTLIT(boxvar_lit_NBInline_inlineRecordTupleArrayEquation)
-
-
-#define boxptr_NBInline_collectInlineFunctions omc_NBInline_collectInlineFunctions
 
 
 DLLDirection

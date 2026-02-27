@@ -406,6 +406,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_Conversion_ImportTreeImpl_addList,2,0) 
 #define boxvar_Conversion_ImportTreeImpl_addList MMC_REFSTRUCTLIT(boxvar_lit_Conversion_ImportTreeImpl_addList)
 
 
+DLLDirection
+modelica_metatype omc_Conversion_ImportTreeImpl_addUpdate(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftree, modelica_string _key, modelica_fnptr _fn);
+#define boxptr_Conversion_ImportTreeImpl_addUpdate omc_Conversion_ImportTreeImpl_addUpdate
+static const MMC_DEFSTRUCTLIT(boxvar_lit_Conversion_ImportTreeImpl_addUpdate,2,0) {(void*) boxptr_Conversion_ImportTreeImpl_addUpdate,0}};
+#define boxvar_Conversion_ImportTreeImpl_addUpdate MMC_REFSTRUCTLIT(boxvar_lit_Conversion_ImportTreeImpl_addUpdate)
+
+
 #define boxptr_Conversion_ImportTreeImpl_balance omc_Conversion_ImportTreeImpl_balance
 
 
@@ -504,7 +511,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_Conversion_ImportTreeImpl_keyStr,2,0) {
 
 
 DLLDirection
-modelica_metatype omc_Conversion_ImportTreeImpl_listKeys(threadData_t *threadData, modelica_metatype _inTree, modelica_metatype __omcQ_24in_5Flst);
+modelica_metatype omc_Conversion_ImportTreeImpl_listKeys(threadData_t *threadData, modelica_metatype _tree, modelica_metatype __omcQ_24in_5Flst);
 #define boxptr_Conversion_ImportTreeImpl_listKeys omc_Conversion_ImportTreeImpl_listKeys
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Conversion_ImportTreeImpl_listKeys,2,0) {(void*) boxptr_Conversion_ImportTreeImpl_listKeys,0}};
 #define boxvar_Conversion_ImportTreeImpl_listKeys MMC_REFSTRUCTLIT(boxvar_lit_Conversion_ImportTreeImpl_listKeys)

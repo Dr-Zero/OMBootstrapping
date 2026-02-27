@@ -8959,25 +8959,23 @@ modelica_metatype omc_Uncertainties_dumpMatching(threadData_t *threadData, model
 {
   modelica_metatype _eqvarlist = NULL;
   modelica_metatype tmpMeta1;
-  modelica_metatype _var = NULL;
   modelica_integer _count;
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
   modelica_metatype tmpMeta4;
   modelica_metatype tmpMeta5;
+  modelica_integer tmp6;
+  modelica_integer tmp7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   tmpMeta1 = MMC_REFSTRUCTLIT(mmc_nil);
   _eqvarlist = tmpMeta1;
-  // _var has no default value.
   _count = ((modelica_integer) 1);
-  _var = arrayList(_v);
-
   {
     modelica_metatype _i;
-    for (tmpMeta2 = _var; !listEmpty(tmpMeta2); tmpMeta2=MMC_CDR(tmpMeta2))
+    for (tmpMeta2 = _v, tmp7 = arrayLength(tmpMeta2), tmp6 = 1; tmp6 <= tmp7; tmp6++)
     {
-      _i = MMC_CAR(tmpMeta2);
+      _i = arrayGet(tmpMeta2,tmp6);
       tmpMeta4 = mmc_mk_box2(0, _i, mmc_mk_integer(_count));
       tmpMeta3 = mmc_mk_cons(tmpMeta4, _eqvarlist);
       _eqvarlist = tmpMeta3;
@@ -8990,10 +8988,9 @@ modelica_metatype omc_Uncertainties_dumpMatching(threadData_t *threadData, model
 }
 
 DLLDirection
-modelica_metatype omc_Uncertainties_getSolvedEquationNumber(threadData_t *threadData, modelica_integer _varnumber, modelica_metatype _inlist)
+modelica_integer omc_Uncertainties_getSolvedEquationNumber(threadData_t *threadData, modelica_integer _varnumber, modelica_metatype _inlist)
 {
-  modelica_metatype _mappedEqVar = NULL;
-  modelica_integer _eq;
+  modelica_integer _solvedeq;
   modelica_integer _solvedvar;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
@@ -9002,11 +8999,9 @@ modelica_metatype omc_Uncertainties_getSolvedEquationNumber(threadData_t *thread
   modelica_metatype tmpMeta5;
   modelica_integer tmp6;
   modelica_metatype tmpMeta7;
-  modelica_metatype tmpMeta8;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _mappedEqVar has no default value.
-  // _eq has no default value.
+  // _solvedeq has no default value.
   // _solvedvar has no default value.
   {
     modelica_metatype _var;
@@ -9019,37 +9014,34 @@ modelica_metatype omc_Uncertainties_getSolvedEquationNumber(threadData_t *thread
       tmp4 = mmc_unbox_integer(tmpMeta3);
       tmpMeta5 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta2), 2));
       tmp6 = mmc_unbox_integer(tmpMeta5);
-      _eq = tmp4  /* pattern as ty=Integer */;
+      _solvedeq = tmp4  /* pattern as ty=Integer */;
       _solvedvar = tmp6  /* pattern as ty=Integer */;
 
       if((_varnumber == _solvedvar))
       {
-        tmpMeta7 = mmc_mk_box2(0, mmc_mk_integer(_eq), mmc_mk_integer(_solvedvar));
-        _mappedEqVar = tmpMeta7;
-
         goto _return;
       }
     }
   }
   _return: OMC_LABEL_UNUSED
-  return _mappedEqVar;
+  return _solvedeq;
 }
 modelica_metatype boxptr_Uncertainties_getSolvedEquationNumber(threadData_t *threadData, modelica_metatype _varnumber, modelica_metatype _inlist)
 {
   modelica_integer tmp1;
-  modelica_metatype _mappedEqVar = NULL;
+  modelica_integer _solvedeq;
+  modelica_metatype out_solvedeq;
   tmp1 = mmc_unbox_integer(_varnumber);
-  _mappedEqVar = omc_Uncertainties_getSolvedEquationNumber(threadData, tmp1, _inlist);
-  /* skip box _mappedEqVar; tuple<#Integer, #Integer> */
-  return _mappedEqVar;
+  _solvedeq = omc_Uncertainties_getSolvedEquationNumber(threadData, tmp1, _inlist);
+  out_solvedeq = mmc_mk_icon(_solvedeq);
+  return out_solvedeq;
 }
 
 DLLDirection
-modelica_metatype omc_Uncertainties_getSolvedVariableNumber(threadData_t *threadData, modelica_integer _eqnumber, modelica_metatype _inlist)
+modelica_integer omc_Uncertainties_getSolvedVariableNumber(threadData_t *threadData, modelica_integer _eqnumber, modelica_metatype _inlist)
 {
-  modelica_metatype _mappedEqVar = NULL;
-  modelica_integer _eq;
   modelica_integer _solvedvar;
+  modelica_integer _solvedeq;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
@@ -9057,12 +9049,10 @@ modelica_metatype omc_Uncertainties_getSolvedVariableNumber(threadData_t *thread
   modelica_metatype tmpMeta5;
   modelica_integer tmp6;
   modelica_metatype tmpMeta7;
-  modelica_metatype tmpMeta8;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _mappedEqVar has no default value.
-  // _eq has no default value.
   // _solvedvar has no default value.
+  // _solvedeq has no default value.
   {
     modelica_metatype _var;
     for (tmpMeta1 = _inlist; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
@@ -9074,29 +9064,27 @@ modelica_metatype omc_Uncertainties_getSolvedVariableNumber(threadData_t *thread
       tmp4 = mmc_unbox_integer(tmpMeta3);
       tmpMeta5 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta2), 2));
       tmp6 = mmc_unbox_integer(tmpMeta5);
-      _eq = tmp4  /* pattern as ty=Integer */;
+      _solvedeq = tmp4  /* pattern as ty=Integer */;
       _solvedvar = tmp6  /* pattern as ty=Integer */;
 
-      if((_eqnumber == _eq))
+      if((_eqnumber == _solvedeq))
       {
-        tmpMeta7 = mmc_mk_box2(0, mmc_mk_integer(_eqnumber), mmc_mk_integer(_solvedvar));
-        _mappedEqVar = tmpMeta7;
-
         goto _return;
       }
     }
   }
   _return: OMC_LABEL_UNUSED
-  return _mappedEqVar;
+  return _solvedvar;
 }
 modelica_metatype boxptr_Uncertainties_getSolvedVariableNumber(threadData_t *threadData, modelica_metatype _eqnumber, modelica_metatype _inlist)
 {
   modelica_integer tmp1;
-  modelica_metatype _mappedEqVar = NULL;
+  modelica_integer _solvedvar;
+  modelica_metatype out_solvedvar;
   tmp1 = mmc_unbox_integer(_eqnumber);
-  _mappedEqVar = omc_Uncertainties_getSolvedVariableNumber(threadData, tmp1, _inlist);
-  /* skip box _mappedEqVar; tuple<#Integer, #Integer> */
-  return _mappedEqVar;
+  _solvedvar = omc_Uncertainties_getSolvedVariableNumber(threadData, tmp1, _inlist);
+  out_solvedvar = mmc_mk_icon(_solvedvar);
+  return out_solvedvar;
 }
 
 DLLDirection
@@ -9107,7 +9095,6 @@ modelica_metatype omc_Uncertainties_checkBlueOrRedSquareBlocks(threadData_t *thr
   modelica_metatype _outstring = NULL;
   modelica_metatype tmpMeta2;
   modelica_integer _count;
-  modelica_integer _eqnumber;
   modelica_integer _varnumber;
   modelica_boolean _b1;
   modelica_boolean _b2;
@@ -9116,16 +9103,11 @@ modelica_metatype omc_Uncertainties_checkBlueOrRedSquareBlocks(threadData_t *thr
   modelica_metatype tmpMeta3;
   modelica_metatype tmpMeta4;
   modelica_metatype tmpMeta5;
-  modelica_integer tmp6;
+  modelica_metatype tmpMeta6;
   modelica_metatype tmpMeta7;
-  modelica_integer tmp8;
+  modelica_metatype tmpMeta8;
   modelica_metatype tmpMeta9;
   modelica_metatype tmpMeta10;
-  modelica_metatype tmpMeta11;
-  modelica_metatype tmpMeta12;
-  modelica_metatype tmpMeta13;
-  modelica_metatype tmpMeta14;
-  modelica_metatype tmpMeta15;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   tmpMeta1 = MMC_REFSTRUCTLIT(mmc_nil);
@@ -9133,7 +9115,6 @@ modelica_metatype omc_Uncertainties_checkBlueOrRedSquareBlocks(threadData_t *thr
   tmpMeta2 = MMC_REFSTRUCTLIT(mmc_nil);
   _outstring = tmpMeta2;
   _count = ((modelica_integer) 1);
-  // _eqnumber has no default value.
   // _varnumber has no default value.
   // _b1 has no default value.
   // _b2 has no default value.
@@ -9144,14 +9125,7 @@ modelica_metatype omc_Uncertainties_checkBlueOrRedSquareBlocks(threadData_t *thr
     for (tmpMeta3 = _inlist; !listEmpty(tmpMeta3); tmpMeta3=MMC_CDR(tmpMeta3))
     {
       _i = MMC_CAR(tmpMeta3);
-      /* Pattern-matching assignment */
-      tmpMeta4 = omc_Uncertainties_getSolvedVariableNumber(threadData, mmc_unbox_integer(_i), _solvedvar);
-      tmpMeta5 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta4), 1));
-      tmp6 = mmc_unbox_integer(tmpMeta5);
-      tmpMeta7 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta4), 2));
-      tmp8 = mmc_unbox_integer(tmpMeta7);
-      _eqnumber = tmp6  /* pattern as ty=Integer */;
-      _varnumber = tmp8  /* pattern as ty=Integer */;
+      _varnumber = omc_Uncertainties_getSolvedVariableNumber(threadData, mmc_unbox_integer(_i), _solvedvar);
 
       _b1 = listMember(mmc_mk_integer(_varnumber), _knowns);
 
@@ -9163,33 +9137,33 @@ modelica_metatype omc_Uncertainties_checkBlueOrRedSquareBlocks(threadData_t *thr
       {
         _s1 = _OMC_LIT67;
 
-        tmpMeta9 = mmc_mk_cons(_s1, _outstring);
-        _outstring = tmpMeta9;
+        tmpMeta4 = mmc_mk_cons(_s1, _outstring);
+        _outstring = tmpMeta4;
 
-        tmpMeta10 = mmc_mk_cons(_i, _outlist);
-        _outlist = tmpMeta10;
+        tmpMeta5 = mmc_mk_cons(_i, _outlist);
+        _outlist = tmpMeta5;
       }
 
       if(((!_b1 == !1 /* true */) && (!_b2 == !0 /* false */)))
       {
         _s1 = _OMC_LIT68;
 
-        tmpMeta11 = mmc_mk_cons(_s1, _outstring);
-        _outstring = tmpMeta11;
+        tmpMeta6 = mmc_mk_cons(_s1, _outstring);
+        _outstring = tmpMeta6;
 
-        tmpMeta12 = mmc_mk_cons(_i, _outlist);
-        _outlist = tmpMeta12;
+        tmpMeta7 = mmc_mk_cons(_i, _outlist);
+        _outlist = tmpMeta7;
       }
 
       if(((!_b1 == !0 /* false */) && (!_b2 == !0 /* false */)))
       {
         _s1 = _OMC_LIT67;
 
-        tmpMeta13 = mmc_mk_cons(_s1, _outstring);
-        _outstring = tmpMeta13;
+        tmpMeta8 = mmc_mk_cons(_s1, _outstring);
+        _outstring = tmpMeta8;
 
-        tmpMeta14 = mmc_mk_cons(_i, _outlist);
-        _outlist = tmpMeta14;
+        tmpMeta9 = mmc_mk_cons(_i, _outlist);
+        _outlist = tmpMeta9;
       }
 
       _count = ((modelica_integer) 1) + _count;
@@ -9325,51 +9299,37 @@ modelica_metatype omc_Uncertainties_getDependencyequation(threadData_t *threadDa
   modelica_metatype _t = NULL;
   modelica_metatype tmpMeta1;
   modelica_metatype _nonsq = NULL;
-  modelica_integer _eqnumber;
   modelica_integer _varnumber;
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
   modelica_metatype tmpMeta4;
-  modelica_integer tmp5;
+  modelica_metatype tmpMeta5;
   modelica_metatype tmpMeta6;
-  modelica_integer tmp7;
-  modelica_metatype tmpMeta8;
-  modelica_metatype tmpMeta9;
-  modelica_metatype tmpMeta10;
-  modelica_metatype tmpMeta11;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outinteger has no default value.
   tmpMeta1 = MMC_REFSTRUCTLIT(mmc_nil);
   _t = tmpMeta1;
   // _nonsq has no default value.
-  // _eqnumber has no default value.
   // _varnumber has no default value.
   {
-    modelica_metatype _i;
+    modelica_metatype _eqnumber;
     for (tmpMeta2 = _inlist; !listEmpty(tmpMeta2); tmpMeta2=MMC_CDR(tmpMeta2))
     {
-      _i = MMC_CAR(tmpMeta2);
-      /* Pattern-matching assignment */
-      tmpMeta3 = omc_Uncertainties_getSolvedVariableNumber(threadData, mmc_unbox_integer(_i), _solvedvariables);
-      tmpMeta4 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta3), 1));
-      tmp5 = mmc_unbox_integer(tmpMeta4);
-      tmpMeta6 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta3), 2));
-      tmp7 = mmc_unbox_integer(tmpMeta6);
-      _eqnumber = tmp5  /* pattern as ty=Integer */;
-      _varnumber = tmp7  /* pattern as ty=Integer */;
+      _eqnumber = MMC_CAR(tmpMeta2);
+      _varnumber = omc_Uncertainties_getSolvedVariableNumber(threadData, mmc_unbox_integer(_eqnumber), _solvedvariables);
 
-      _nonsq = omc_Uncertainties_getdirectOccurrencesinEquation(threadData, _m, _eqnumber, _varnumber);
+      _nonsq = omc_Uncertainties_getdirectOccurrencesinEquation(threadData, _m, mmc_unbox_integer(_eqnumber), _varnumber);
 
       {
         modelica_metatype _lst;
-        for (tmpMeta8 = _nonsq; !listEmpty(tmpMeta8); tmpMeta8=MMC_CDR(tmpMeta8))
+        for (tmpMeta3 = _nonsq; !listEmpty(tmpMeta3); tmpMeta3=MMC_CDR(tmpMeta3))
         {
-          _lst = MMC_CAR(tmpMeta8);
+          _lst = MMC_CAR(tmpMeta3);
           if((!listMember(_lst, _inlist)))
           {
-            tmpMeta9 = mmc_mk_cons(_lst, _t);
-            _t = tmpMeta9;
+            tmpMeta4 = mmc_mk_cons(_lst, _t);
+            _t = tmpMeta4;
           }
         }
       }
@@ -9573,33 +9533,24 @@ modelica_metatype omc_Uncertainties_getRemovedEquationSolvedVariables(threadData
 {
   modelica_metatype _outvarlist = NULL;
   modelica_metatype tmpMeta1;
-  modelica_integer _eqnumber;
   modelica_integer _varnumber;
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
   modelica_metatype tmpMeta4;
-  modelica_integer tmp5;
-  modelica_metatype tmpMeta6;
-  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   tmpMeta1 = MMC_REFSTRUCTLIT(mmc_nil);
   _outvarlist = tmpMeta1;
-  // _eqnumber has no default value.
   // _varnumber has no default value.
   {
     modelica_metatype _i;
     for (tmpMeta2 = _inlist; !listEmpty(tmpMeta2); tmpMeta2=MMC_CDR(tmpMeta2))
     {
       _i = MMC_CAR(tmpMeta2);
-      /* Pattern-matching assignment */
-      tmpMeta3 = omc_Uncertainties_getSolvedVariableNumber(threadData, mmc_unbox_integer(_i), _solvedvar);
-      tmpMeta4 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta3), 2));
-      tmp5 = mmc_unbox_integer(tmpMeta4);
-      _varnumber = tmp5  /* pattern as ty=Integer */;
+      _varnumber = omc_Uncertainties_getSolvedVariableNumber(threadData, mmc_unbox_integer(_i), _solvedvar);
 
-      tmpMeta6 = mmc_mk_cons(mmc_mk_integer(_varnumber), _outvarlist);
-      _outvarlist = tmpMeta6;
+      tmpMeta3 = mmc_mk_cons(mmc_mk_integer(_varnumber), _outvarlist);
+      _outvarlist = tmpMeta3;
     }
   }
   _return: OMC_LABEL_UNUSED
@@ -9917,7 +9868,7 @@ modelica_metatype omc_Uncertainties_ExtractEquationsfromPredecessorBlocks(thread
   tmpMeta4 = MMC_REFSTRUCTLIT(mmc_nil);
   _outlist1 = tmpMeta4;
   // _tmppredecessortargetinfo has no default value.
-  _tmpcount = ((modelica_integer) 0);
+  _tmpcount = ((modelica_integer) 1);
 
   tmpMeta5 = MMC_REFSTRUCTLIT(mmc_nil);
   _usedblocks = tmpMeta5;
@@ -11439,16 +11390,10 @@ modelica_metatype omc_Uncertainties_BuildSquareSubSetHelper1(threadData_t *threa
   modelica_metatype _tempeqs = NULL;
   modelica_metatype tmpMeta2;
   modelica_integer _eqnumber;
-  modelica_integer _varnumber;
   modelica_metatype tmpMeta3;
   modelica_metatype tmpMeta4;
   modelica_metatype tmpMeta5;
-  modelica_integer tmp6;
-  modelica_metatype tmpMeta7;
-  modelica_integer tmp8;
-  modelica_metatype tmpMeta9;
-  modelica_metatype tmpMeta10;
-  modelica_metatype tmpMeta11;
+  modelica_metatype tmpMeta6;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   tmpMeta1 = MMC_REFSTRUCTLIT(mmc_nil);
@@ -11456,28 +11401,20 @@ modelica_metatype omc_Uncertainties_BuildSquareSubSetHelper1(threadData_t *threa
   tmpMeta2 = MMC_REFSTRUCTLIT(mmc_nil);
   _tempeqs = tmpMeta2;
   // _eqnumber has no default value.
-  // _varnumber has no default value.
   {
-    modelica_metatype _k;
+    modelica_metatype _varnumber;
     for (tmpMeta3 = _inlist1; !listEmpty(tmpMeta3); tmpMeta3=MMC_CDR(tmpMeta3))
     {
-      _k = MMC_CAR(tmpMeta3);
-      /* Pattern-matching assignment */
-      tmpMeta4 = omc_Uncertainties_getSolvedEquationNumber(threadData, mmc_unbox_integer(_k), _solvedeqvar);
-      tmpMeta5 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta4), 1));
-      tmp6 = mmc_unbox_integer(tmpMeta5);
-      tmpMeta7 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta4), 2));
-      tmp8 = mmc_unbox_integer(tmpMeta7);
-      _eqnumber = tmp6  /* pattern as ty=Integer */;
-      _varnumber = tmp8  /* pattern as ty=Integer */;
+      _varnumber = MMC_CAR(tmpMeta3);
+      _eqnumber = omc_Uncertainties_getSolvedEquationNumber(threadData, mmc_unbox_integer(_varnumber), _solvedeqvar);
 
       if((!listMember(mmc_mk_integer(_eqnumber), _solvedeqs)))
       {
-        tmpMeta9 = mmc_mk_cons(mmc_mk_integer(_eqnumber), _tempeqs);
-        _tempeqs = tmpMeta9;
+        tmpMeta4 = mmc_mk_cons(mmc_mk_integer(_eqnumber), _tempeqs);
+        _tempeqs = tmpMeta4;
 
-        tmpMeta10 = mmc_mk_cons(mmc_mk_integer(_eqnumber), _tempsolvedeqs);
-        _tempsolvedeqs = tmpMeta10;
+        tmpMeta5 = mmc_mk_cons(mmc_mk_integer(_eqnumber), _tempsolvedeqs);
+        _tempsolvedeqs = tmpMeta5;
       }
     }
   }
@@ -12011,16 +11948,10 @@ modelica_metatype omc_Uncertainties_getSolvedDependentEquationAndVars(threadData
   modelica_metatype _sets_vars = NULL;
   modelica_metatype tmpMeta2;
   modelica_integer _eqnumber;
-  modelica_integer _varnumber;
   modelica_metatype tmpMeta3;
   modelica_metatype tmpMeta4;
   modelica_metatype tmpMeta5;
-  modelica_integer tmp6;
-  modelica_metatype tmpMeta7;
-  modelica_integer tmp8;
-  modelica_metatype tmpMeta9;
-  modelica_metatype tmpMeta10;
-  modelica_metatype tmpMeta11;
+  modelica_metatype tmpMeta6;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   tmpMeta1 = MMC_REFSTRUCTLIT(mmc_nil);
@@ -12028,26 +11959,18 @@ modelica_metatype omc_Uncertainties_getSolvedDependentEquationAndVars(threadData
   tmpMeta2 = MMC_REFSTRUCTLIT(mmc_nil);
   _sets_vars = tmpMeta2;
   // _eqnumber has no default value.
-  // _varnumber has no default value.
   {
-    modelica_metatype _i;
+    modelica_metatype _varnumber;
     for (tmpMeta3 = _inlist; !listEmpty(tmpMeta3); tmpMeta3=MMC_CDR(tmpMeta3))
     {
-      _i = MMC_CAR(tmpMeta3);
-      /* Pattern-matching assignment */
-      tmpMeta4 = omc_Uncertainties_getSolvedEquationNumber(threadData, mmc_unbox_integer(_i), _solvedvar);
-      tmpMeta5 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta4), 1));
-      tmp6 = mmc_unbox_integer(tmpMeta5);
-      tmpMeta7 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta4), 2));
-      tmp8 = mmc_unbox_integer(tmpMeta7);
-      _eqnumber = tmp6  /* pattern as ty=Integer */;
-      _varnumber = tmp8  /* pattern as ty=Integer */;
+      _varnumber = MMC_CAR(tmpMeta3);
+      _eqnumber = omc_Uncertainties_getSolvedEquationNumber(threadData, mmc_unbox_integer(_varnumber), _solvedvar);
 
-      tmpMeta9 = mmc_mk_cons(mmc_mk_integer(_eqnumber), _sets_eqs);
-      _sets_eqs = tmpMeta9;
+      tmpMeta4 = mmc_mk_cons(mmc_mk_integer(_eqnumber), _sets_eqs);
+      _sets_eqs = tmpMeta4;
 
-      tmpMeta10 = mmc_mk_cons(mmc_mk_integer(_varnumber), _sets_vars);
-      _sets_vars = tmpMeta10;
+      tmpMeta5 = mmc_mk_cons(_varnumber, _sets_vars);
+      _sets_vars = tmpMeta5;
     }
   }
   _return: OMC_LABEL_UNUSED
@@ -12149,58 +12072,44 @@ modelica_metatype omc_Uncertainties_createInnerEquations(threadData_t *threadDat
 {
   modelica_metatype _outequations = NULL;
   modelica_metatype tmpMeta1;
-  modelica_integer _eqnumber;
   modelica_integer _varnumber;
   modelica_integer _count;
   modelica_integer _inpcount;
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
   modelica_metatype tmpMeta4;
-  modelica_integer tmp5;
+  modelica_metatype tmpMeta5;
   modelica_metatype tmpMeta6;
-  modelica_integer tmp7;
+  modelica_metatype tmpMeta7;
   modelica_metatype tmpMeta8;
   modelica_metatype tmpMeta9;
-  modelica_metatype tmpMeta10;
-  modelica_metatype tmpMeta11;
-  modelica_metatype tmpMeta12;
-  modelica_metatype tmpMeta13;
-  modelica_metatype tmpMeta14;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   tmpMeta1 = MMC_REFSTRUCTLIT(mmc_nil);
   _outequations = tmpMeta1;
-  // _eqnumber has no default value.
   // _varnumber has no default value.
   _count = ((modelica_integer) 1);
   _inpcount = ((modelica_integer) 1);
   {
-    modelica_metatype _i;
+    modelica_metatype _eqnumber;
     for (tmpMeta2 = _tempsets; !listEmpty(tmpMeta2); tmpMeta2=MMC_CDR(tmpMeta2))
     {
-      _i = MMC_CAR(tmpMeta2);
-      /* Pattern-matching assignment */
-      tmpMeta3 = omc_Uncertainties_getSolvedVariableNumber(threadData, mmc_unbox_integer(_i), _solvedeqvar);
-      tmpMeta4 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta3), 1));
-      tmp5 = mmc_unbox_integer(tmpMeta4);
-      tmpMeta6 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta3), 2));
-      tmp7 = mmc_unbox_integer(tmpMeta6);
-      _eqnumber = tmp5  /* pattern as ty=Integer */;
-      _varnumber = tmp7  /* pattern as ty=Integer */;
+      _eqnumber = MMC_CAR(tmpMeta2);
+      _varnumber = omc_Uncertainties_getSolvedVariableNumber(threadData, mmc_unbox_integer(_eqnumber), _solvedeqvar);
 
       if((!listMember(mmc_mk_integer(_varnumber), _knowns)))
       {
-        tmpMeta9 = mmc_mk_cons(mmc_mk_integer(_varnumber), MMC_REFSTRUCTLIT(mmc_nil));
-        tmpMeta10 = mmc_mk_box3(3, &BackendDAE_InnerEquation_INNEREQUATION__desc, listGet(_sets, _count), tmpMeta9);
-        tmpMeta8 = mmc_mk_cons(tmpMeta10, _outequations);
-        _outequations = tmpMeta8;
+        tmpMeta4 = mmc_mk_cons(mmc_mk_integer(_varnumber), MMC_REFSTRUCTLIT(mmc_nil));
+        tmpMeta5 = mmc_mk_box3(3, &BackendDAE_InnerEquation_INNEREQUATION__desc, listGet(_sets, _count), tmpMeta4);
+        tmpMeta3 = mmc_mk_cons(tmpMeta5, _outequations);
+        _outequations = tmpMeta3;
       }
       else
       {
-        tmpMeta12 = mmc_mk_cons(listGet(_inputlist, _inpcount), MMC_REFSTRUCTLIT(mmc_nil));
-        tmpMeta13 = mmc_mk_box3(3, &BackendDAE_InnerEquation_INNEREQUATION__desc, listGet(_sets, _count), tmpMeta12);
-        tmpMeta11 = mmc_mk_cons(tmpMeta13, _outequations);
-        _outequations = tmpMeta11;
+        tmpMeta7 = mmc_mk_cons(listGet(_inputlist, _inpcount), MMC_REFSTRUCTLIT(mmc_nil));
+        tmpMeta8 = mmc_mk_box3(3, &BackendDAE_InnerEquation_INNEREQUATION__desc, listGet(_sets, _count), tmpMeta7);
+        tmpMeta6 = mmc_mk_cons(tmpMeta8, _outequations);
+        _outequations = tmpMeta6;
 
         _inpcount = ((modelica_integer) 1) + _inpcount;
       }
@@ -12841,7 +12750,7 @@ modelica_metatype omc_Uncertainties_modelEquationsUC(threadData_t *threadData, m
 
           _description = omc_DAEUtil_daeDescription(threadData, _dae);
 
-          tmpMeta12 = mmc_mk_box3(3, &BackendDAE_ExtraInfo_EXTRA__INFO__desc, _description, _outputFile);
+          tmpMeta12 = mmc_mk_box4(3, &BackendDAE_ExtraInfo_EXTRA__INFO__desc, _description, _outputFile, mmc_mk_none());
           _dlow = omc_BackendDAECreate_lower(threadData, _dae, _cache, _graph, tmpMeta12);
 
           omc_FlagsUtil_setConfigBool(threadData, _OMC_LIT160, 0 /* false */);

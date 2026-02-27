@@ -461,7 +461,7 @@ extern struct record_description SimCodeFunction_Context_ALGLOOP__CONTEXT__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef SimCodeFunction_Context_JACOBIAN__CONTEXT__desc_added
 #define SimCodeFunction_Context_JACOBIAN__CONTEXT__desc_added
-ADD_METARECORD_DEFINITIONS const char* SimCodeFunction_Context_JACOBIAN__CONTEXT__desc__fields[1] = {"jacHT"};
+ADD_METARECORD_DEFINITIONS const char* SimCodeFunction_Context_JACOBIAN__CONTEXT__desc__fields[2] = {"name","jacHT"};
 ADD_METARECORD_DEFINITIONS struct record_description SimCodeFunction_Context_JACOBIAN__CONTEXT__desc = {
   "SimCodeFunction_Context_JACOBIAN__CONTEXT",
   "SimCodeFunction.Context.JACOBIAN_CONTEXT",
@@ -630,7 +630,7 @@ extern struct record_description SimCodeFunction_Context_OTHER__CONTEXT__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef SimCodeFunction_Context_JACOBIAN__CONTEXT__desc_added
 #define SimCodeFunction_Context_JACOBIAN__CONTEXT__desc_added
-ADD_METARECORD_DEFINITIONS const char* SimCodeFunction_Context_JACOBIAN__CONTEXT__desc__fields[1] = {"jacHT"};
+ADD_METARECORD_DEFINITIONS const char* SimCodeFunction_Context_JACOBIAN__CONTEXT__desc__fields[2] = {"name","jacHT"};
 ADD_METARECORD_DEFINITIONS struct record_description SimCodeFunction_Context_JACOBIAN__CONTEXT__desc = {
   "SimCodeFunction_Context_JACOBIAN__CONTEXT",
   "SimCodeFunction.Context.JACOBIAN_CONTEXT",

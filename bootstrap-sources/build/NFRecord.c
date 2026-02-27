@@ -3,10 +3,10 @@
 #define _OMC_LIT0_data "NFRecord.collectRecordParams got non-instantiated function"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT0,58,_OMC_LIT0_data);
 #define _OMC_LIT0 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT0)
-#define _OMC_LIT1_data "/home/adrpo33/OpenModelica/OMCompiler/Compiler/NFFrontEnd/NFRecord.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT1,69,_OMC_LIT1_data);
+#define _OMC_LIT1_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/NFFrontEnd/NFRecord.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT1,75,_OMC_LIT1_data);
 #define _OMC_LIT1 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT1)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT2_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT2_6,1.770759947e9);
 #define _OMC_LIT2_6 MMC_REFREALLIT(_OMC_LIT_STRUCT2_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT2,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT1,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(250)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(250)),MMC_IMMEDIATE(MMC_TAGFIXNUM(99)),_OMC_LIT2_6}};
 #define _OMC_LIT2 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT2)
@@ -585,7 +585,6 @@ modelica_metatype omc_NFRecord_instRecord(threadData_t *threadData, modelica_met
 {
   modelica_metatype _recordNode = NULL;
   modelica_integer _next_context;
-  modelica_metatype tmpMeta6;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _recordNode has no default value.
@@ -639,12 +638,11 @@ modelica_metatype omc_NFRecord_instRecord(threadData_t *threadData, modelica_met
 
   _next_context = omc_NFInstContext_set(threadData, _next_context, ((modelica_integer) 16));
 
-  tmpMeta6 = mmc_mk_box2(8, &NFInstNode_InstNodeType_ROOT__CLASS__desc, omc_NFInstNode_InstNode_parent(threadData, _node));
-  _recordNode = omc_NFInstNode_InstNode_setNodeType(threadData, tmpMeta6, _recordNode);
+  _recordNode = omc_NFInstNode_InstNode_makeRootClass(threadData, _recordNode, omc_NFInstNode_InstNode_parent(threadData, _node), mmc_mk_none());
 
   _recordNode = omc_NFInst_instantiate(threadData, _recordNode, _OMC_LIT23, _OMC_LIT24, _next_context, 0 /* false */);
 
-  omc_NFInst_instExpressions(threadData, _recordNode, _recordNode, _OMC_LIT25, _next_context, omc_NFInst_InstSettings_create(threadData));
+  omc_NFInst_instExpressions(threadData, _recordNode, _recordNode, _OMC_LIT25, omc_NFConnectBreakTree_new(threadData), _next_context, omc_NFInst_InstSettings_create(threadData));
   _return: OMC_LABEL_UNUSED
   return _recordNode;
 }

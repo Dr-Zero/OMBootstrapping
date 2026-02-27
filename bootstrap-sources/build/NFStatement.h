@@ -85,6 +85,22 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStatement_replaceIteratorList,2,0) {(
 
 
 DLLDirection
+modelica_boolean omc_NFStatement_containsList(threadData_t *threadData, modelica_metatype _eql, modelica_fnptr _func);
+DLLDirection
+modelica_metatype boxptr_NFStatement_containsList(threadData_t *threadData, modelica_metatype _eql, modelica_fnptr _func);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStatement_containsList,2,0) {(void*) boxptr_NFStatement_containsList,0}};
+#define boxvar_NFStatement_containsList MMC_REFSTRUCTLIT(boxvar_lit_NFStatement_containsList)
+
+
+DLLDirection
+modelica_boolean omc_NFStatement_contains(threadData_t *threadData, modelica_metatype _stmt, modelica_fnptr _fn);
+DLLDirection
+modelica_metatype boxptr_NFStatement_contains(threadData_t *threadData, modelica_metatype _stmt, modelica_fnptr _fn);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStatement_contains,2,0) {(void*) boxptr_NFStatement_contains,0}};
+#define boxvar_NFStatement_contains MMC_REFSTRUCTLIT(boxvar_lit_NFStatement_contains)
+
+
+DLLDirection
 modelica_metatype omc_NFStatement_foldExp(threadData_t *threadData, modelica_metatype _stmt, modelica_fnptr _func, modelica_metatype __omcQ_24in_5Farg);
 #define boxptr_NFStatement_foldExp omc_NFStatement_foldExp
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStatement_foldExp,2,0) {(void*) boxptr_NFStatement_foldExp,0}};
@@ -183,11 +199,11 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStatement_makeIf,2,0) {(void*) boxptr
 
 
 DLLDirection
-modelica_boolean omc_NFStatement_isWhen(threadData_t *threadData, modelica_metatype _stmt);
+modelica_boolean omc_NFStatement_isFor(threadData_t *threadData, modelica_metatype _stmt);
 DLLDirection
-modelica_metatype boxptr_NFStatement_isWhen(threadData_t *threadData, modelica_metatype _stmt);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStatement_isWhen,2,0) {(void*) boxptr_NFStatement_isWhen,0}};
-#define boxvar_NFStatement_isWhen MMC_REFSTRUCTLIT(boxvar_lit_NFStatement_isWhen)
+modelica_metatype boxptr_NFStatement_isFor(threadData_t *threadData, modelica_metatype _stmt);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStatement_isFor,2,0) {(void*) boxptr_NFStatement_isFor,0}};
+#define boxvar_NFStatement_isFor MMC_REFSTRUCTLIT(boxvar_lit_NFStatement_isFor)
 
 
 DLLDirection

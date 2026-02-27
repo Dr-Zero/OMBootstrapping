@@ -8,10 +8,9 @@ extern "C" {
 #include "NBCausalize.h"
 #include "NBDAEMode.h"
 #include "NBEquation.h"
-#include "NBInline.h"
 #include "NBPartition.h"
+#include "NBStrongComponent.h"
 #include "NBVariable.h"
-#include "Pointer.h"
 #include "UnorderedSet.h"
 #ifdef __cplusplus
 }

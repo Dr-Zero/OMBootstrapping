@@ -18,7 +18,6 @@ extern "C" {
 #include "HpcOmSchedulerExt.h"
 #include "HpcOmTaskGraph.h"
 #include "List.h"
-#include "SimCodeFunctionUtil.h"
 #include "SimCodeUtil.h"
 #include "System.h"
 #include "Util.h"

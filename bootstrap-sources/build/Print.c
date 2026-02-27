@@ -11,6 +11,7 @@ modelica_boolean omc_Print_hasBufNewLineAtEnd(threadData_t *threadData)
   int _outHasNewLineAtEnd_ext;
   modelica_boolean _outHasNewLineAtEnd;
   // _outHasNewLineAtEnd has no default value.
+
   _outHasNewLineAtEnd_ext = Print_hasBufNewLineAtEnd(threadData);
   _outHasNewLineAtEnd = (modelica_boolean)_outHasNewLineAtEnd_ext;
   return _outHasNewLineAtEnd;
@@ -26,6 +27,7 @@ modelica_metatype boxptr_Print_hasBufNewLineAtEnd(threadData_t *threadData)
 
 void omc_Print_printBufNewLine(threadData_t *threadData)
 {
+
   Print_printBufNewLine(threadData);
   return;
 }
@@ -33,7 +35,7 @@ void omc_Print_printBufNewLine(threadData_t *threadData)
 void omc_Print_printBufSpace(threadData_t *threadData, modelica_integer _inNumOfSpaces)
 {
   int _inNumOfSpaces_ext;
-  _inNumOfSpaces_ext = (int)_inNumOfSpaces;
+  _inNumOfSpaces_ext = (int) _inNumOfSpaces;
   Print_printBufSpace(threadData, _inNumOfSpaces_ext);
   return;
 }
@@ -50,6 +52,7 @@ modelica_integer omc_Print_getBufLength(threadData_t *threadData)
   int _outBufFilledLength_ext;
   modelica_integer _outBufFilledLength;
   // _outBufFilledLength has no default value.
+
   _outBufFilledLength_ext = Print_getBufLength(threadData);
   _outBufFilledLength = (modelica_integer)_outBufFilledLength_ext;
   return _outBufFilledLength;
@@ -65,12 +68,14 @@ modelica_metatype boxptr_Print_getBufLength(threadData_t *threadData)
 
 void omc_Print_writeBufConvertLines(threadData_t *threadData, modelica_string _filename)
 {
+
   Print_writeBufConvertLines(threadData, MMC_STRINGDATA(_filename));
   return;
 }
 
 void omc_Print_writeBuf(threadData_t *threadData, modelica_string _filename)
 {
+
   Print_writeBuf(threadData, MMC_STRINGDATA(_filename));
   return;
 }
@@ -80,6 +85,7 @@ modelica_string omc_Print_getString(threadData_t *threadData)
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
+
   _outString_ext = Print_getString(threadData);
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;
@@ -87,12 +93,14 @@ modelica_string omc_Print_getString(threadData_t *threadData)
 
 void omc_Print_clearBuf(threadData_t *threadData)
 {
+
   Print_clearBuf(threadData);
   return;
 }
 
 void omc_Print_printBuf(threadData_t *threadData, modelica_string _inString)
 {
+
   Print_printBufLen(threadData, MMC_STRINGDATA(_inString), stringLength(_inString));
   return;
 }
@@ -102,6 +110,7 @@ modelica_string omc_Print_getErrorString(threadData_t *threadData)
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
+
   _outString_ext = Print_getErrorString(threadData);
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;
@@ -109,12 +118,14 @@ modelica_string omc_Print_getErrorString(threadData_t *threadData)
 
 void omc_Print_clearErrorBuf(threadData_t *threadData)
 {
+
   Print_clearErrorBuf(threadData);
   return;
 }
 
 void omc_Print_printErrorBuf(threadData_t *threadData, modelica_string _inString)
 {
+
   Print_printErrorBuf(threadData, MMC_STRINGDATA(_inString));
   return;
 }
@@ -122,7 +133,7 @@ void omc_Print_printErrorBuf(threadData_t *threadData, modelica_string _inString
 void omc_Print_restoreBuf(threadData_t *threadData, modelica_integer _handle)
 {
   int _handle_ext;
-  _handle_ext = (int)_handle;
+  _handle_ext = (int) _handle;
   Print_restoreBuf(threadData, _handle_ext);
   return;
 }
@@ -139,6 +150,7 @@ modelica_integer omc_Print_saveAndClearBuf(threadData_t *threadData)
   int _handle_ext;
   modelica_integer _handle;
   // _handle has no default value.
+
   _handle_ext = Print_saveAndClearBuf(threadData);
   _handle = (modelica_integer)_handle_ext;
   return _handle;

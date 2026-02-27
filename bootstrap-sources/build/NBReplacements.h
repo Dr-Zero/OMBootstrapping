@@ -24,8 +24,6 @@ extern struct record_description NFComponentRef_WILD__desc;
 
 extern struct record_description NFExpression_CREF__desc;
 
-extern struct record_description NFFlatten_FunctionTreeImpl_Tree_EMPTY__desc;
-
 extern struct record_description NFType_UNKNOWN__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;

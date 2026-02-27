@@ -253,7 +253,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEvents_StateEvent_create,2,0) {(void*
 
 
 DLLDirection
-modelica_metatype omc_NBEvents_StateEvent_fromStatement(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fstmt, modelica_metatype _bucket_ptr, modelica_metatype _eqn, modelica_metatype _variables, modelica_metatype _funcTree, modelica_metatype _frames);
+modelica_metatype omc_NBEvents_StateEvent_fromStatement(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fstmt, modelica_metatype _bucket_ptr, modelica_metatype _eqn, modelica_metatype _variables, modelica_metatype _funcMap, modelica_metatype _frames);
 #define boxptr_NBEvents_StateEvent_fromStatement omc_NBEvents_StateEvent_fromStatement
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEvents_StateEvent_fromStatement,2,0) {(void*) boxptr_NBEvents_StateEvent_fromStatement,0}};
 #define boxvar_NBEvents_StateEvent_fromStatement MMC_REFSTRUCTLIT(boxvar_lit_NBEvents_StateEvent_fromStatement)
@@ -320,17 +320,17 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEvents_TimeEvent_createSample,2,0) {(
 
 
 DLLDirection
-modelica_metatype omc_NBEvents_TimeEvent_createSingleOrSample(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype __omcQ_24in_5Fbucket, modelica_metatype _iter, modelica_metatype _eqn, modelica_metatype _funcTree, modelica_metatype *out_bucket, modelica_boolean *out_failed);
+modelica_metatype omc_NBEvents_TimeEvent_createSingleOrSample(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype __omcQ_24in_5Fbucket, modelica_metatype _iter, modelica_metatype _eqn, modelica_metatype _funcMap, modelica_metatype *out_bucket, modelica_boolean *out_failed);
 DLLDirection
-modelica_metatype boxptr_NBEvents_TimeEvent_createSingleOrSample(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype __omcQ_24in_5Fbucket, modelica_metatype _iter, modelica_metatype _eqn, modelica_metatype _funcTree, modelica_metatype *out_bucket, modelica_metatype *out_failed);
+modelica_metatype boxptr_NBEvents_TimeEvent_createSingleOrSample(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype __omcQ_24in_5Fbucket, modelica_metatype _iter, modelica_metatype _eqn, modelica_metatype _funcMap, modelica_metatype *out_bucket, modelica_metatype *out_failed);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEvents_TimeEvent_createSingleOrSample,2,0) {(void*) boxptr_NBEvents_TimeEvent_createSingleOrSample,0}};
 #define boxvar_NBEvents_TimeEvent_createSingleOrSample MMC_REFSTRUCTLIT(boxvar_lit_NBEvents_TimeEvent_createSingleOrSample)
 
 
 DLLDirection
-modelica_metatype omc_NBEvents_TimeEvent_create(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype __omcQ_24in_5Fbucket, modelica_metatype _iter, modelica_metatype _eqn, modelica_metatype _funcTree, modelica_boolean _createEqn, modelica_metatype *out_bucket, modelica_boolean *out_failed);
+modelica_metatype omc_NBEvents_TimeEvent_create(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype __omcQ_24in_5Fbucket, modelica_metatype _iter, modelica_metatype _eqn, modelica_metatype _funcMap, modelica_boolean _createEqn, modelica_metatype *out_bucket, modelica_boolean *out_failed);
 DLLDirection
-modelica_metatype boxptr_NBEvents_TimeEvent_create(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype __omcQ_24in_5Fbucket, modelica_metatype _iter, modelica_metatype _eqn, modelica_metatype _funcTree, modelica_metatype _createEqn, modelica_metatype *out_bucket, modelica_metatype *out_failed);
+modelica_metatype boxptr_NBEvents_TimeEvent_create(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype __omcQ_24in_5Fbucket, modelica_metatype _iter, modelica_metatype _eqn, modelica_metatype _funcMap, modelica_metatype _createEqn, modelica_metatype *out_bucket, modelica_metatype *out_failed);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEvents_TimeEvent_create,2,0) {(void*) boxptr_NBEvents_TimeEvent_create,0}};
 #define boxvar_NBEvents_TimeEvent_create MMC_REFSTRUCTLIT(boxvar_lit_NBEvents_TimeEvent_create)
 

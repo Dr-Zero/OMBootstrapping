@@ -35,15 +35,15 @@ modelica_metatype omc_Lapack_dhseqr(threadData_t *threadData, modelica_string _i
   // _outZ has no default value.
   // _outWORK has no default value.
   // _outINFO has no default value.
-  _inN_ext = (int)_inN;
-  _inILO_ext = (int)_inILO;
-  _inIHI_ext = (int)_inIHI;
-  _inH_ext = (modelica_metatype)_inH;
-  _inLDH_ext = (int)_inLDH;
-  _inZ_ext = (modelica_metatype)_inZ;
-  _inLDZ_ext = (int)_inLDZ;
-  _inWORK_ext = (modelica_metatype)_inWORK;
-  _inLWORK_ext = (int)_inLWORK;
+  _inN_ext = (int) _inN;
+  _inILO_ext = (int) _inILO;
+  _inIHI_ext = (int) _inIHI;
+  _inH_ext = (modelica_metatype) _inH;
+  _inLDH_ext = (int) _inLDH;
+  _inZ_ext = (modelica_metatype) _inZ;
+  _inLDZ_ext = (int) _inLDZ;
+  _inWORK_ext = (modelica_metatype) _inWORK;
+  _inLWORK_ext = (int) _inLWORK;
   LapackImpl__dhseqr(MMC_STRINGDATA(_inJOB), MMC_STRINGDATA(_inCOMPZ), _inN_ext, _inILO_ext, _inIHI_ext, _inH_ext, _inLDH_ext, _inZ_ext, _inLDZ_ext, _inWORK_ext, _inLWORK_ext, &_outH_ext, &_outWR_ext, &_outWI_ext, &_outZ_ext, &_outWORK_ext, &_outINFO_ext);
   _outH = (modelica_metatype)_outH_ext;
   _outWR = (modelica_metatype)_outWR_ext;
@@ -103,14 +103,14 @@ modelica_metatype omc_Lapack_dorgqr(threadData_t *threadData, modelica_integer _
   // _outA has no default value.
   // _outWORK has no default value.
   // _outINFO has no default value.
-  _inM_ext = (int)_inM;
-  _inN_ext = (int)_inN;
-  _inK_ext = (int)_inK;
-  _inA_ext = (modelica_metatype)_inA;
-  _inLDA_ext = (int)_inLDA;
-  _inTAU_ext = (modelica_metatype)_inTAU;
-  _inWORK_ext = (modelica_metatype)_inWORK;
-  _inLWORK_ext = (int)_inLWORK;
+  _inM_ext = (int) _inM;
+  _inN_ext = (int) _inN;
+  _inK_ext = (int) _inK;
+  _inA_ext = (modelica_metatype) _inA;
+  _inLDA_ext = (int) _inLDA;
+  _inTAU_ext = (modelica_metatype) _inTAU;
+  _inWORK_ext = (modelica_metatype) _inWORK;
+  _inLWORK_ext = (int) _inLWORK;
   LapackImpl__dorgqr(_inM_ext, _inN_ext, _inK_ext, _inA_ext, _inLDA_ext, _inTAU_ext, _inWORK_ext, _inLWORK_ext, &_outA_ext, &_outWORK_ext, &_outINFO_ext);
   _outA = (modelica_metatype)_outA_ext;
   _outWORK = (modelica_metatype)_outWORK_ext;
@@ -160,12 +160,12 @@ modelica_metatype omc_Lapack_dgeqpf(threadData_t *threadData, modelica_integer _
   // _outJPVT has no default value.
   // _outTAU has no default value.
   // _outINFO has no default value.
-  _inM_ext = (int)_inM;
-  _inN_ext = (int)_inN;
-  _inA_ext = (modelica_metatype)_inA;
-  _inLDA_ext = (int)_inLDA;
-  _inJPVT_ext = (modelica_metatype)_inJPVT;
-  _inWORK_ext = (modelica_metatype)_inWORK;
+  _inM_ext = (int) _inM;
+  _inN_ext = (int) _inN;
+  _inA_ext = (modelica_metatype) _inA;
+  _inLDA_ext = (int) _inLDA;
+  _inJPVT_ext = (modelica_metatype) _inJPVT;
+  _inWORK_ext = (modelica_metatype) _inWORK;
   LapackImpl__dgeqpf(_inM_ext, _inN_ext, _inA_ext, _inLDA_ext, _inJPVT_ext, _inWORK_ext, &_outA_ext, &_outJPVT_ext, &_outTAU_ext, &_outINFO_ext);
   _outA = (modelica_metatype)_outA_ext;
   _outJPVT = (modelica_metatype)_outJPVT_ext;
@@ -211,12 +211,12 @@ modelica_metatype omc_Lapack_dgetri(threadData_t *threadData, modelica_integer _
   // _outA has no default value.
   // _outWORK has no default value.
   // _outINFO has no default value.
-  _inN_ext = (int)_inN;
-  _inA_ext = (modelica_metatype)_inA;
-  _inLDA_ext = (int)_inLDA;
-  _inIPIV_ext = (modelica_metatype)_inIPIV;
-  _inWORK_ext = (modelica_metatype)_inWORK;
-  _inLWORK_ext = (int)_inLWORK;
+  _inN_ext = (int) _inN;
+  _inA_ext = (modelica_metatype) _inA;
+  _inLDA_ext = (int) _inLDA;
+  _inIPIV_ext = (modelica_metatype) _inIPIV;
+  _inWORK_ext = (modelica_metatype) _inWORK;
+  _inLWORK_ext = (int) _inLWORK;
   LapackImpl__dgetri(_inN_ext, _inA_ext, _inLDA_ext, _inIPIV_ext, _inWORK_ext, _inLWORK_ext, &_outA_ext, &_outWORK_ext, &_outINFO_ext);
   _outA = (modelica_metatype)_outA_ext;
   _outWORK = (modelica_metatype)_outWORK_ext;
@@ -257,13 +257,13 @@ modelica_metatype omc_Lapack_dgetrs(threadData_t *threadData, modelica_string _i
   modelica_integer _outINFO;
   // _outB has no default value.
   // _outINFO has no default value.
-  _inN_ext = (int)_inN;
-  _inNRHS_ext = (int)_inNRHS;
-  _inA_ext = (modelica_metatype)_inA;
-  _inLDA_ext = (int)_inLDA;
-  _inIPIV_ext = (modelica_metatype)_inIPIV;
-  _inB_ext = (modelica_metatype)_inB;
-  _inLDB_ext = (int)_inLDB;
+  _inN_ext = (int) _inN;
+  _inNRHS_ext = (int) _inNRHS;
+  _inA_ext = (modelica_metatype) _inA;
+  _inLDA_ext = (int) _inLDA;
+  _inIPIV_ext = (modelica_metatype) _inIPIV;
+  _inB_ext = (modelica_metatype) _inB;
+  _inLDB_ext = (int) _inLDB;
   LapackImpl__dgetrs(MMC_STRINGDATA(_inTRANS), _inN_ext, _inNRHS_ext, _inA_ext, _inLDA_ext, _inIPIV_ext, _inB_ext, _inLDB_ext, &_outB_ext, &_outINFO_ext);
   _outB = (modelica_metatype)_outB_ext;
   _outINFO = (modelica_integer)_outINFO_ext;
@@ -303,10 +303,10 @@ modelica_metatype omc_Lapack_dgetrf(threadData_t *threadData, modelica_integer _
   // _outA has no default value.
   // _outIPIV has no default value.
   // _outINFO has no default value.
-  _inM_ext = (int)_inM;
-  _inN_ext = (int)_inN;
-  _inA_ext = (modelica_metatype)_inA;
-  _inLDA_ext = (int)_inLDA;
+  _inM_ext = (int) _inM;
+  _inN_ext = (int) _inN;
+  _inA_ext = (modelica_metatype) _inA;
+  _inLDA_ext = (int) _inLDA;
   LapackImpl__dgetrf(_inM_ext, _inN_ext, _inA_ext, _inLDA_ext, &_outA_ext, &_outIPIV_ext, &_outINFO_ext);
   _outA = (modelica_metatype)_outA_ext;
   _outIPIV = (modelica_metatype)_outIPIV_ext;
@@ -360,14 +360,14 @@ modelica_metatype omc_Lapack_dgesvd(threadData_t *threadData, modelica_string _i
   // _outVT has no default value.
   // _outWORK has no default value.
   // _outINFO has no default value.
-  _inM_ext = (int)_inM;
-  _inN_ext = (int)_inN;
-  _inA_ext = (modelica_metatype)_inA;
-  _inLDA_ext = (int)_inLDA;
-  _inLDU_ext = (int)_inLDU;
-  _inLDVT_ext = (int)_inLDVT;
-  _inWORK_ext = (modelica_metatype)_inWORK;
-  _inLWORK_ext = (int)_inLWORK;
+  _inM_ext = (int) _inM;
+  _inN_ext = (int) _inN;
+  _inA_ext = (modelica_metatype) _inA;
+  _inLDA_ext = (int) _inLDA;
+  _inLDU_ext = (int) _inLDU;
+  _inLDVT_ext = (int) _inLDVT;
+  _inWORK_ext = (modelica_metatype) _inWORK;
+  _inLWORK_ext = (int) _inLWORK;
   LapackImpl__dgesvd(MMC_STRINGDATA(_inJOBU), MMC_STRINGDATA(_inJOBVT), _inM_ext, _inN_ext, _inA_ext, _inLDA_ext, _inLDU_ext, _inLDVT_ext, _inWORK_ext, _inLWORK_ext, &_outA_ext, &_outS_ext, &_outU_ext, &_outVT_ext, &_outWORK_ext, &_outINFO_ext);
   _outA = (modelica_metatype)_outA_ext;
   _outS = (modelica_metatype)_outS_ext;
@@ -430,14 +430,14 @@ modelica_metatype omc_Lapack_dgbsv(threadData_t *threadData, modelica_integer _i
   // _outIPIV has no default value.
   // _outB has no default value.
   // _outINFO has no default value.
-  _inN_ext = (int)_inN;
-  _inKL_ext = (int)_inKL;
-  _inKU_ext = (int)_inKU;
-  _inNRHS_ext = (int)_inNRHS;
-  _inAB_ext = (modelica_metatype)_inAB;
-  _inLDAB_ext = (int)_inLDAB;
-  _inB_ext = (modelica_metatype)_inB;
-  _inLDB_ext = (int)_inLDB;
+  _inN_ext = (int) _inN;
+  _inKL_ext = (int) _inKL;
+  _inKU_ext = (int) _inKU;
+  _inNRHS_ext = (int) _inNRHS;
+  _inAB_ext = (modelica_metatype) _inAB;
+  _inLDAB_ext = (int) _inLDAB;
+  _inB_ext = (modelica_metatype) _inB;
+  _inLDB_ext = (int) _inLDB;
   LapackImpl__dgbsv(_inN_ext, _inKL_ext, _inKU_ext, _inNRHS_ext, _inAB_ext, _inLDAB_ext, _inB_ext, _inLDB_ext, &_outAB_ext, &_outIPIV_ext, &_outB_ext, &_outINFO_ext);
   _outAB = (modelica_metatype)_outAB_ext;
   _outIPIV = (modelica_metatype)_outIPIV_ext;
@@ -496,13 +496,13 @@ modelica_metatype omc_Lapack_dgtsv(threadData_t *threadData, modelica_integer _i
   // _outDU has no default value.
   // _outB has no default value.
   // _outINFO has no default value.
-  _inN_ext = (int)_inN;
-  _inNRHS_ext = (int)_inNRHS;
-  _inDL_ext = (modelica_metatype)_inDL;
-  _inD_ext = (modelica_metatype)_inD;
-  _inDU_ext = (modelica_metatype)_inDU;
-  _inB_ext = (modelica_metatype)_inB;
-  _inLDB_ext = (int)_inLDB;
+  _inN_ext = (int) _inN;
+  _inNRHS_ext = (int) _inNRHS;
+  _inDL_ext = (modelica_metatype) _inDL;
+  _inD_ext = (modelica_metatype) _inD;
+  _inDU_ext = (modelica_metatype) _inDU;
+  _inB_ext = (modelica_metatype) _inB;
+  _inLDB_ext = (int) _inLDB;
   LapackImpl__dgtsv(_inN_ext, _inNRHS_ext, _inDL_ext, _inD_ext, _inDU_ext, _inB_ext, _inLDB_ext, &_outDL_ext, &_outD_ext, &_outDU_ext, &_outB_ext, &_outINFO_ext);
   _outDL = (modelica_metatype)_outDL_ext;
   _outD = (modelica_metatype)_outD_ext;
@@ -568,17 +568,17 @@ modelica_metatype omc_Lapack_dgglse(threadData_t *threadData, modelica_integer _
   // _outX has no default value.
   // _outWORK has no default value.
   // _outINFO has no default value.
-  _inM_ext = (int)_inM;
-  _inN_ext = (int)_inN;
-  _inP_ext = (int)_inP;
-  _inA_ext = (modelica_metatype)_inA;
-  _inLDA_ext = (int)_inLDA;
-  _inB_ext = (modelica_metatype)_inB;
-  _inLDB_ext = (int)_inLDB;
-  _inC_ext = (modelica_metatype)_inC;
-  _inD_ext = (modelica_metatype)_inD;
-  _inWORK_ext = (modelica_metatype)_inWORK;
-  _inLWORK_ext = (int)_inLWORK;
+  _inM_ext = (int) _inM;
+  _inN_ext = (int) _inN;
+  _inP_ext = (int) _inP;
+  _inA_ext = (modelica_metatype) _inA;
+  _inLDA_ext = (int) _inLDA;
+  _inB_ext = (modelica_metatype) _inB;
+  _inLDB_ext = (int) _inLDB;
+  _inC_ext = (modelica_metatype) _inC;
+  _inD_ext = (modelica_metatype) _inD;
+  _inWORK_ext = (modelica_metatype) _inWORK;
+  _inLWORK_ext = (int) _inLWORK;
   LapackImpl__dgglse(_inM_ext, _inN_ext, _inP_ext, _inA_ext, _inLDA_ext, _inB_ext, _inLDB_ext, _inC_ext, _inD_ext, _inWORK_ext, _inLWORK_ext, &_outA_ext, &_outB_ext, &_outC_ext, &_outD_ext, &_outX_ext, &_outWORK_ext, &_outINFO_ext);
   _outA = (modelica_metatype)_outA_ext;
   _outB = (modelica_metatype)_outB_ext;
@@ -642,12 +642,12 @@ modelica_metatype omc_Lapack_dgesv(threadData_t *threadData, modelica_integer _i
   // _outIPIV has no default value.
   // _outB has no default value.
   // _outINFO has no default value.
-  _inN_ext = (int)_inN;
-  _inNRHS_ext = (int)_inNRHS;
-  _inA_ext = (modelica_metatype)_inA;
-  _inLDA_ext = (int)_inLDA;
-  _inB_ext = (modelica_metatype)_inB;
-  _inLDB_ext = (int)_inLDB;
+  _inN_ext = (int) _inN;
+  _inNRHS_ext = (int) _inNRHS;
+  _inA_ext = (modelica_metatype) _inA;
+  _inLDA_ext = (int) _inLDA;
+  _inB_ext = (modelica_metatype) _inB;
+  _inLDB_ext = (int) _inLDB;
   LapackImpl__dgesv(_inN_ext, _inNRHS_ext, _inA_ext, _inLDA_ext, _inB_ext, _inLDB_ext, &_outA_ext, &_outIPIV_ext, &_outB_ext, &_outINFO_ext);
   _outA = (modelica_metatype)_outA_ext;
   _outIPIV = (modelica_metatype)_outIPIV_ext;
@@ -709,17 +709,17 @@ modelica_metatype omc_Lapack_dgelsy(threadData_t *threadData, modelica_integer _
   // _outRANK has no default value.
   // _outWORK has no default value.
   // _outINFO has no default value.
-  _inM_ext = (int)_inM;
-  _inN_ext = (int)_inN;
-  _inNRHS_ext = (int)_inNRHS;
-  _inA_ext = (modelica_metatype)_inA;
-  _inLDA_ext = (int)_inLDA;
-  _inB_ext = (modelica_metatype)_inB;
-  _inLDB_ext = (int)_inLDB;
-  _inJPVT_ext = (modelica_metatype)_inJPVT;
-  _inRCOND_ext = (double)_inRCOND;
-  _inWORK_ext = (modelica_metatype)_inWORK;
-  _inLWORK_ext = (int)_inLWORK;
+  _inM_ext = (int) _inM;
+  _inN_ext = (int) _inN;
+  _inNRHS_ext = (int) _inNRHS;
+  _inA_ext = (modelica_metatype) _inA;
+  _inLDA_ext = (int) _inLDA;
+  _inB_ext = (modelica_metatype) _inB;
+  _inLDB_ext = (int) _inLDB;
+  _inJPVT_ext = (modelica_metatype) _inJPVT;
+  _inRCOND_ext = (double) _inRCOND;
+  _inWORK_ext = (modelica_metatype) _inWORK;
+  _inLWORK_ext = (int) _inLWORK;
   LapackImpl__dgelsy(_inM_ext, _inN_ext, _inNRHS_ext, _inA_ext, _inLDA_ext, _inB_ext, _inLDB_ext, _inJPVT_ext, _inRCOND_ext, _inWORK_ext, _inLWORK_ext, &_outA_ext, &_outB_ext, &_outJPVT_ext, &_outRANK_ext, &_outWORK_ext, &_outINFO_ext);
   _outA = (modelica_metatype)_outA_ext;
   _outB = (modelica_metatype)_outB_ext;
@@ -790,16 +790,16 @@ modelica_metatype omc_Lapack_dgelsx(threadData_t *threadData, modelica_integer _
   // _outJPVT has no default value.
   // _outRANK has no default value.
   // _outINFO has no default value.
-  _inM_ext = (int)_inM;
-  _inN_ext = (int)_inN;
-  _inNRHS_ext = (int)_inNRHS;
-  _inA_ext = (modelica_metatype)_inA;
-  _inLDA_ext = (int)_inLDA;
-  _inB_ext = (modelica_metatype)_inB;
-  _inLDB_ext = (int)_inLDB;
-  _inJPVT_ext = (modelica_metatype)_inJPVT;
-  _inRCOND_ext = (double)_inRCOND;
-  _inWORK_ext = (modelica_metatype)_inWORK;
+  _inM_ext = (int) _inM;
+  _inN_ext = (int) _inN;
+  _inNRHS_ext = (int) _inNRHS;
+  _inA_ext = (modelica_metatype) _inA;
+  _inLDA_ext = (int) _inLDA;
+  _inB_ext = (modelica_metatype) _inB;
+  _inLDB_ext = (int) _inLDB;
+  _inJPVT_ext = (modelica_metatype) _inJPVT;
+  _inRCOND_ext = (double) _inRCOND;
+  _inWORK_ext = (modelica_metatype) _inWORK;
   LapackImpl__dgelsx(_inM_ext, _inN_ext, _inNRHS_ext, _inA_ext, _inLDA_ext, _inB_ext, _inLDB_ext, _inJPVT_ext, _inRCOND_ext, _inWORK_ext, &_outA_ext, &_outB_ext, &_outJPVT_ext, &_outRANK_ext, &_outINFO_ext);
   _outA = (modelica_metatype)_outA_ext;
   _outB = (modelica_metatype)_outB_ext;
@@ -861,15 +861,15 @@ modelica_metatype omc_Lapack_dgels(threadData_t *threadData, modelica_string _in
   // _outB has no default value.
   // _outWORK has no default value.
   // _outINFO has no default value.
-  _inM_ext = (int)_inM;
-  _inN_ext = (int)_inN;
-  _inNRHS_ext = (int)_inNRHS;
-  _inA_ext = (modelica_metatype)_inA;
-  _inLDA_ext = (int)_inLDA;
-  _inB_ext = (modelica_metatype)_inB;
-  _inLDB_ext = (int)_inLDB;
-  _inWORK_ext = (modelica_metatype)_inWORK;
-  _inLWORK_ext = (int)_inLWORK;
+  _inM_ext = (int) _inM;
+  _inN_ext = (int) _inN;
+  _inNRHS_ext = (int) _inNRHS;
+  _inA_ext = (modelica_metatype) _inA;
+  _inLDA_ext = (int) _inLDA;
+  _inB_ext = (modelica_metatype) _inB;
+  _inLDB_ext = (int) _inLDB;
+  _inWORK_ext = (modelica_metatype) _inWORK;
+  _inLWORK_ext = (int) _inLWORK;
   LapackImpl__dgels(MMC_STRINGDATA(_inTRANS), _inM_ext, _inN_ext, _inNRHS_ext, _inA_ext, _inLDA_ext, _inB_ext, _inLDB_ext, _inWORK_ext, _inLWORK_ext, &_outA_ext, &_outB_ext, &_outWORK_ext, &_outINFO_ext);
   _outA = (modelica_metatype)_outA_ext;
   _outB = (modelica_metatype)_outB_ext;
@@ -936,15 +936,15 @@ modelica_metatype omc_Lapack_dgegv(threadData_t *threadData, modelica_string _in
   // _outVR has no default value.
   // _outWORK has no default value.
   // _outINFO has no default value.
-  _inN_ext = (int)_inN;
-  _inA_ext = (modelica_metatype)_inA;
-  _inLDA_ext = (int)_inLDA;
-  _inB_ext = (modelica_metatype)_inB;
-  _inLDB_ext = (int)_inLDB;
-  _inLDVL_ext = (int)_inLDVL;
-  _inLDVR_ext = (int)_inLDVR;
-  _inWORK_ext = (modelica_metatype)_inWORK;
-  _inLWORK_ext = (int)_inLWORK;
+  _inN_ext = (int) _inN;
+  _inA_ext = (modelica_metatype) _inA;
+  _inLDA_ext = (int) _inLDA;
+  _inB_ext = (modelica_metatype) _inB;
+  _inLDB_ext = (int) _inLDB;
+  _inLDVL_ext = (int) _inLDVL;
+  _inLDVR_ext = (int) _inLDVR;
+  _inWORK_ext = (modelica_metatype) _inWORK;
+  _inLWORK_ext = (int) _inLWORK;
   LapackImpl__dgegv(MMC_STRINGDATA(_inJOBVL), MMC_STRINGDATA(_inJOBVR), _inN_ext, _inA_ext, _inLDA_ext, _inB_ext, _inLDB_ext, _inLDVL_ext, _inLDVR_ext, _inWORK_ext, _inLWORK_ext, &_outALPHAR_ext, &_outALPHAI_ext, &_outBETA_ext, &_outVL_ext, &_outVR_ext, &_outWORK_ext, &_outINFO_ext);
   _outALPHAR = (modelica_metatype)_outALPHAR_ext;
   _outALPHAI = (modelica_metatype)_outALPHAI_ext;
@@ -1018,13 +1018,13 @@ modelica_metatype omc_Lapack_dgeev(threadData_t *threadData, modelica_string _in
   // _outVR has no default value.
   // _outWORK has no default value.
   // _outINFO has no default value.
-  _inN_ext = (int)_inN;
-  _inA_ext = (modelica_metatype)_inA;
-  _inLDA_ext = (int)_inLDA;
-  _inLDVL_ext = (int)_inLDVL;
-  _inLDVR_ext = (int)_inLDVR;
-  _inWORK_ext = (modelica_metatype)_inWORK;
-  _inLWORK_ext = (int)_inLWORK;
+  _inN_ext = (int) _inN;
+  _inA_ext = (modelica_metatype) _inA;
+  _inLDA_ext = (int) _inLDA;
+  _inLDVL_ext = (int) _inLDVL;
+  _inLDVR_ext = (int) _inLDVR;
+  _inWORK_ext = (modelica_metatype) _inWORK;
+  _inLWORK_ext = (int) _inLWORK;
   LapackImpl__dgeev(MMC_STRINGDATA(_inJOBVL), MMC_STRINGDATA(_inJOBVR), _inN_ext, _inA_ext, _inLDA_ext, _inLDVL_ext, _inLDVR_ext, _inWORK_ext, _inLWORK_ext, &_outA_ext, &_outWR_ext, &_outWI_ext, &_outVL_ext, &_outVR_ext, &_outWORK_ext, &_outINFO_ext);
   _outA = (modelica_metatype)_outA_ext;
   _outWR = (modelica_metatype)_outWR_ext;

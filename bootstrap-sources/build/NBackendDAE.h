@@ -96,6 +96,8 @@ extern struct record_description NFBackendExtension_VariableKind_ALGEBRAIC__desc
 
 extern struct record_description NFBackendExtension_VariableKind_CLOCK__desc;
 
+extern struct record_description NFBackendExtension_VariableKind_CLOCKED__desc;
+
 extern struct record_description NFBackendExtension_VariableKind_CONSTANT__desc;
 
 extern struct record_description NFBackendExtension_VariableKind_DISCRETE__desc;
@@ -123,6 +125,8 @@ extern struct record_description NFInstNode_InstNode_EMPTY__NODE__desc;
 extern struct record_description NFInstNode_InstNode_VAR__NODE__desc;
 
 extern struct record_description NFPrefixes_Replaceable_NOT__REPLACEABLE__desc;
+
+extern struct record_description NFStatement_ASSERT__desc;
 
 extern struct record_description NFStatement_NORETCALL__desc;
 
@@ -194,7 +198,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBackendDAE_backenddaeinfo,2,0) {(void*
 
 
 DLLDirection
-modelica_metatype omc_NBackendDAE_lowerFunctions(threadData_t *threadData, modelica_metatype __omcQ_24in_5FfuncTree);
+modelica_metatype omc_NBackendDAE_lowerFunctions(threadData_t *threadData, modelica_metatype __omcQ_24in_5FfuncMap);
 #define boxptr_NBackendDAE_lowerFunctions omc_NBackendDAE_lowerFunctions
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBackendDAE_lowerFunctions,2,0) {(void*) boxptr_NBackendDAE_lowerFunctions,0}};
 #define boxvar_NBackendDAE_lowerFunctions MMC_REFSTRUCTLIT(boxvar_lit_NBackendDAE_lowerFunctions)
@@ -242,9 +246,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBackendDAE_lowerComponentReferenceInst
 
 
 #define boxptr_NBackendDAE_collectIterators omc_NBackendDAE_collectIterators
-
-
-#define boxptr_NBackendDAE_lowerDimension omc_NBackendDAE_lowerDimension
 
 
 DLLDirection
@@ -357,7 +358,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBackendDAE_main,2,0) {(void*) boxptr_N
 
 
 DLLDirection
-modelica_metatype omc_NBackendDAE_lower(threadData_t *threadData, modelica_metatype _flatModel, modelica_metatype _funcTree);
+modelica_metatype omc_NBackendDAE_lower(threadData_t *threadData, modelica_metatype _flatModel, modelica_metatype _funcMap);
 #define boxptr_NBackendDAE_lower omc_NBackendDAE_lower
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBackendDAE_lower,2,0) {(void*) boxptr_NBackendDAE_lower,0}};
 #define boxvar_NBackendDAE_lower MMC_REFSTRUCTLIT(boxvar_lit_NBackendDAE_lower)
@@ -371,10 +372,18 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBackendDAE_sizes,2,0) {(void*) boxptr_
 
 
 DLLDirection
-modelica_metatype omc_NBackendDAE_getFunctionTree(threadData_t *threadData, modelica_metatype _bdae);
-#define boxptr_NBackendDAE_getFunctionTree omc_NBackendDAE_getFunctionTree
-static const MMC_DEFSTRUCTLIT(boxvar_lit_NBackendDAE_getFunctionTree,2,0) {(void*) boxptr_NBackendDAE_getFunctionTree,0}};
-#define boxvar_NBackendDAE_getFunctionTree MMC_REFSTRUCTLIT(boxvar_lit_NBackendDAE_getFunctionTree)
+modelica_metatype omc_NBackendDAE_getFunctionMap(threadData_t *threadData, modelica_metatype _bdae);
+#define boxptr_NBackendDAE_getFunctionMap omc_NBackendDAE_getFunctionMap
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBackendDAE_getFunctionMap,2,0) {(void*) boxptr_NBackendDAE_getFunctionMap,0}};
+#define boxvar_NBackendDAE_getFunctionMap MMC_REFSTRUCTLIT(boxvar_lit_NBackendDAE_getFunctionMap)
+
+
+DLLDirection
+modelica_boolean omc_NBackendDAE_getIsAdjoint(threadData_t *threadData, modelica_metatype _bdae);
+DLLDirection
+modelica_metatype boxptr_NBackendDAE_getIsAdjoint(threadData_t *threadData, modelica_metatype _bdae);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBackendDAE_getIsAdjoint,2,0) {(void*) boxptr_NBackendDAE_getIsAdjoint,0}};
+#define boxvar_NBackendDAE_getIsAdjoint MMC_REFSTRUCTLIT(boxvar_lit_NBackendDAE_getIsAdjoint)
 
 
 DLLDirection

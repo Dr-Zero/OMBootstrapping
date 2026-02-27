@@ -19,10 +19,10 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT7,2,17) {&NFLookupState_LookupState
 #define _OMC_LIT8_data "NFLookupState.LookupState.next2 failed on unknown transition for element "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT8,73,_OMC_LIT8_data);
 #define _OMC_LIT8 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT8)
-#define _OMC_LIT9_data "/home/adrpo33/OpenModelica/OMCompiler/Compiler/NFFrontEnd/NFLookupState.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT9,74,_OMC_LIT9_data);
+#define _OMC_LIT9_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/NFFrontEnd/NFLookupState.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT9,80,_OMC_LIT9_data);
 #define _OMC_LIT9 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT9)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT10_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT10_6,1.770631566e9);
 #define _OMC_LIT10_6 MMC_REFREALLIT(_OMC_LIT_STRUCT10_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT10,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT9,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(577)),MMC_IMMEDIATE(MMC_TAGFIXNUM(11)),MMC_IMMEDIATE(MMC_TAGFIXNUM(577)),MMC_IMMEDIATE(MMC_TAGFIXNUM(135)),_OMC_LIT10_6}};
 #define _OMC_LIT10 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT10)
@@ -35,7 +35,7 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT13,1,9) {&NFLookupState_LookupState
 #define _OMC_LIT14_data "NFLookupState.LookupState.elementState got unknown element."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT14,59,_OMC_LIT14_data);
 #define _OMC_LIT14 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT14)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT15_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT15_6,1.770631566e9);
 #define _OMC_LIT15_6 MMC_REFREALLIT(_OMC_LIT_STRUCT15_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT15,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT9,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(491)),MMC_IMMEDIATE(MMC_TAGFIXNUM(11)),MMC_IMMEDIATE(MMC_TAGFIXNUM(491)),MMC_IMMEDIATE(MMC_TAGFIXNUM(92)),_OMC_LIT15_6}};
 #define _OMC_LIT15 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT15)
@@ -147,139 +147,163 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT58,2,3) {&Gettext_TranslatableConte
 #define _OMC_LIT58 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT58)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT59,2,0) {_OMC_LIT56,_OMC_LIT58}};
 #define _OMC_LIT59 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT59)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT60,2,1) {_OMC_LIT59,MMC_REFSTRUCTLIT(mmc_nil)}};
-#define _OMC_LIT60 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT60)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT61,2,1) {_OMC_LIT55,_OMC_LIT60}};
-#define _OMC_LIT61 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT61)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT62,2,1) {_OMC_LIT51,_OMC_LIT61}};
+#define _OMC_LIT60_data "initialSimplified"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT60,17,_OMC_LIT60_data);
+#define _OMC_LIT60 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT60)
+#define _OMC_LIT61_data "Allow use of experimental operator `initialSimplified()`"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT61,56,_OMC_LIT61_data);
+#define _OMC_LIT61 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT61)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT62,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT61}};
 #define _OMC_LIT62 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT62)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT63,2,1) {_OMC_LIT47,_OMC_LIT62}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT63,2,0) {_OMC_LIT60,_OMC_LIT62}};
 #define _OMC_LIT63 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT63)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT64,2,1) {_OMC_LIT43,_OMC_LIT63}};
-#define _OMC_LIT64 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT64)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT65,2,1) {_OMC_LIT39,_OMC_LIT64}};
-#define _OMC_LIT65 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT65)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT66,2,1) {_OMC_LIT35,_OMC_LIT65}};
+#define _OMC_LIT64_data "illegalConditionalContext"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT64,25,_OMC_LIT64_data);
+#define _OMC_LIT64 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT64)
+#define _OMC_LIT65_data "Allow use of components with false conditions in illegal contexts"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT65,65,_OMC_LIT65_data);
+#define _OMC_LIT65 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT65)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT66,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT65}};
 #define _OMC_LIT66 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT66)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT67,2,1) {_OMC_LIT31,_OMC_LIT66}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT67,2,0) {_OMC_LIT64,_OMC_LIT66}};
 #define _OMC_LIT67 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT67)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT68,2,1) {_OMC_LIT27,_OMC_LIT67}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT68,2,1) {_OMC_LIT67,MMC_REFSTRUCTLIT(mmc_nil)}};
 #define _OMC_LIT68 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT68)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT69,2,4) {&Flags_ValidOptions_STRING__DESC__OPTION__desc,_OMC_LIT68}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT69,2,1) {_OMC_LIT63,_OMC_LIT68}};
 #define _OMC_LIT69 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT69)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT70,1,1) {_OMC_LIT69}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT70,2,1) {_OMC_LIT59,_OMC_LIT69}};
 #define _OMC_LIT70 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT70)
-#define _OMC_LIT71_data "Flags to allow non-standard Modelica."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT71,37,_OMC_LIT71_data);
-#define _OMC_LIT71 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT71)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT72,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT71}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT71,2,1) {_OMC_LIT55,_OMC_LIT70}};
+#define _OMC_LIT71 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT71)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT72,2,1) {_OMC_LIT51,_OMC_LIT71}};
 #define _OMC_LIT72 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT72)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT73,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(143)),_OMC_LIT21,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT22,_OMC_LIT23,_OMC_LIT70,_OMC_LIT72}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT73,2,1) {_OMC_LIT47,_OMC_LIT72}};
 #define _OMC_LIT73 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT73)
-#define _OMC_LIT74_data "Expected %s to be a %s, but found %s instead."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT74,45,_OMC_LIT74_data);
-#define _OMC_LIT74 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT74)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT75,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT74}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT74,2,1) {_OMC_LIT43,_OMC_LIT73}};
+#define _OMC_LIT74 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT74)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT75,2,1) {_OMC_LIT39,_OMC_LIT74}};
 #define _OMC_LIT75 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT75)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT76,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(143)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT75}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT76,2,1) {_OMC_LIT35,_OMC_LIT75}};
 #define _OMC_LIT76 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT76)
-#define _OMC_LIT77_data "<begin>"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT77,7,_OMC_LIT77_data);
-#define _OMC_LIT77 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT77)
-#define _OMC_LIT78_data "component"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT78,9,_OMC_LIT78_data);
-#define _OMC_LIT78 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT78)
-#define _OMC_LIT79_data "class"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT79,5,_OMC_LIT79_data);
-#define _OMC_LIT79 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT79)
-#define _OMC_LIT80_data "function"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT80,8,_OMC_LIT80_data);
-#define _OMC_LIT80 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT80)
-#define _OMC_LIT81_data "package"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT81,7,_OMC_LIT81_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT77,2,1) {_OMC_LIT31,_OMC_LIT76}};
+#define _OMC_LIT77 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT77)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT78,2,1) {_OMC_LIT27,_OMC_LIT77}};
+#define _OMC_LIT78 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT78)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT79,2,4) {&Flags_ValidOptions_STRING__DESC__OPTION__desc,_OMC_LIT78}};
+#define _OMC_LIT79 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT79)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT80,1,1) {_OMC_LIT79}};
+#define _OMC_LIT80 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT80)
+#define _OMC_LIT81_data "Flags to allow non-standard Modelica."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT81,37,_OMC_LIT81_data);
 #define _OMC_LIT81 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT81)
-#define _OMC_LIT82_data "Found function %s by name lookup via component, but this is only valid when the name is used as a function call."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT82,112,_OMC_LIT82_data);
-#define _OMC_LIT82 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT82)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT83,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT82}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT82,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT81}};
+#define _OMC_LIT82 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT82)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT83,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(143)),_OMC_LIT21,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT22,_OMC_LIT23,_OMC_LIT80,_OMC_LIT82}};
 #define _OMC_LIT83 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT83)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT84,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(102)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT83}};
-#define _OMC_LIT84 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT84)
-#define _OMC_LIT85_data "Class name '%s' was found via a component (only component and function call names may be accessed in this way)."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT85,111,_OMC_LIT85_data);
-#define _OMC_LIT85 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT85)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT86,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT85}};
+#define _OMC_LIT84_data "Expected %s to be a %s, but found %s instead."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT84,45,_OMC_LIT84_data);
+#define _OMC_LIT84 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT84)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT85,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT84}};
+#define _OMC_LIT85 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT85)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT86,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(143)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT85}};
 #define _OMC_LIT86 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT86)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT87,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(101)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT86}};
-#define _OMC_LIT87 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT87)
-#define _OMC_LIT88_data "Found non-class %s while looking for function via component. The only valid form is c1..cN.C1..CN.f where c1..cN are scalar components and C1..CN are classes."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT88,158,_OMC_LIT88_data);
+#define _OMC_LIT87_data "<begin>"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT87,7,_OMC_LIT87_data);
+#define _OMC_LIT87 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT87)
+#define _OMC_LIT88_data "component"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT88,9,_OMC_LIT88_data);
 #define _OMC_LIT88 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT88)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT89,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT88}};
-#define _OMC_LIT89 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT89)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT90,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(94)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT89}};
-#define _OMC_LIT90 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT90)
-#define _OMC_LIT91_data "Found component '%s' in composite name '%s', expected class."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT91,60,_OMC_LIT91_data);
+#define _OMC_LIT89_data "class"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT89,5,_OMC_LIT89_data);
+#define _OMC_LIT89 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT89)
+#define _OMC_LIT90_data "function"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT90,8,_OMC_LIT90_data);
+#define _OMC_LIT90 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT90)
+#define _OMC_LIT91_data "package"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT91,7,_OMC_LIT91_data);
 #define _OMC_LIT91 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT91)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT92,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT91}};
-#define _OMC_LIT92 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT92)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT93,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(395)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT92}};
+#define _OMC_LIT92_data "Found function %s by name lookup via component, but this is only valid when the name is used as a function call."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT92,112,_OMC_LIT92_data);
+#define _OMC_LIT92 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT92)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT93,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT92}};
 #define _OMC_LIT93 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT93)
-#define _OMC_LIT94_data "Illegal access of class '%s' via a component when looking for '%s'."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT94,67,_OMC_LIT94_data);
-#define _OMC_LIT94 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT94)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT95,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT94}};
-#define _OMC_LIT95 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT95)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT96,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(112)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT95}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT94,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(102)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT93}};
+#define _OMC_LIT94 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT94)
+#define _OMC_LIT95_data "Class name '%s' was found via a component (only component and function call names may be accessed in this way)."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT95,111,_OMC_LIT95_data);
+#define _OMC_LIT95 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT95)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT96,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT95}};
 #define _OMC_LIT96 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT96)
-#define _OMC_LIT97_data "Found class %s during lookup of composite component name '%s', expected component."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT97,82,_OMC_LIT97_data);
-#define _OMC_LIT97 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT97)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT98,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT97}};
-#define _OMC_LIT98 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT98)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT99,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(96)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT98}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT97,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(101)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT96}};
+#define _OMC_LIT97 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT97)
+#define _OMC_LIT98_data "Found non-class %s while looking for function via component. The only valid form is c1..cN.C1..CN.f where c1..cN are scalar components and C1..CN are classes."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT98,158,_OMC_LIT98_data);
+#define _OMC_LIT98 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT98)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT99,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT98}};
 #define _OMC_LIT99 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT99)
-#define _OMC_LIT100_data "Found imported name '%s' while looking up composite name '%s'."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT100,62,_OMC_LIT100_data);
-#define _OMC_LIT100 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT100)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT101,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT100}};
-#define _OMC_LIT101 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT101)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT102,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(359)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT101}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT100,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(94)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT99}};
+#define _OMC_LIT100 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT100)
+#define _OMC_LIT101_data "Found component '%s' in composite name '%s', expected class."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT101,60,_OMC_LIT101_data);
+#define _OMC_LIT101 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT101)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT102,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT101}};
 #define _OMC_LIT102 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT102)
-#define _OMC_LIT103_data "%s is partial, name lookup is not allowed in partial classes."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT103,61,_OMC_LIT103_data);
-#define _OMC_LIT103 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT103)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT104,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT103}};
-#define _OMC_LIT104 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT104)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT105,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(107)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT104}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT103,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(395)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT102}};
+#define _OMC_LIT103 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT103)
+#define _OMC_LIT104_data "Illegal access of class '%s' via a component when looking for '%s'."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT104,67,_OMC_LIT104_data);
+#define _OMC_LIT104 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT104)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT105,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT104}};
 #define _OMC_LIT105 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT105)
-#define _OMC_LIT106_data "component %s contains the definition of a partial class %s.\nPlease redeclare it to any package compatible with %s."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT106,114,_OMC_LIT106_data);
-#define _OMC_LIT106 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT106)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT107,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT106}};
-#define _OMC_LIT107 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT107)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT108,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(285)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT107}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT106,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(112)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT105}};
+#define _OMC_LIT106 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT106)
+#define _OMC_LIT107_data "Found class %s during lookup of composite component name '%s', expected component."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT107,82,_OMC_LIT107_data);
+#define _OMC_LIT107 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT107)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT108,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT107}};
 #define _OMC_LIT108 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT108)
-#define _OMC_LIT109_data "."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT109,1,_OMC_LIT109_data);
-#define _OMC_LIT109 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT109)
-#define _OMC_LIT110_data "Component '%s' was found in an enclosing scope but is not a constant."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT110,69,_OMC_LIT110_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT109,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(96)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT108}};
+#define _OMC_LIT109 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT109)
+#define _OMC_LIT110_data "Found imported name '%s' while looking up composite name '%s'."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT110,62,_OMC_LIT110_data);
 #define _OMC_LIT110 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT110)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT111,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT110}};
 #define _OMC_LIT111 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT111)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT112,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(403)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT111}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT112,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(359)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT111}};
 #define _OMC_LIT112 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT112)
-#define _OMC_LIT113_data "Class %s does not satisfy the requirements for a package. Lookup is therefore restricted to encapsulated elements, but %s is not encapsulated."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT113,142,_OMC_LIT113_data);
+#define _OMC_LIT113_data "%s is partial, name lookup is not allowed in partial classes."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT113,61,_OMC_LIT113_data);
 #define _OMC_LIT113 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT113)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT114,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT113}};
 #define _OMC_LIT114 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT114)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT115,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(86)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT114}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT115,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(107)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT114}};
 #define _OMC_LIT115 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT115)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT116,1,13) {&NFLookupState_LookupState_IMPORT__desc,}};
-#define _OMC_LIT116 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT116)
+#define _OMC_LIT116_data "component %s contains the definition of a partial class %s.\nPlease redeclare it to any package compatible with %s."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT116,114,_OMC_LIT116_data);
+#define _OMC_LIT116 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT116)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT117,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT116}};
+#define _OMC_LIT117 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT117)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT118,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(285)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT117}};
+#define _OMC_LIT118 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT118)
+#define _OMC_LIT119_data "."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT119,1,_OMC_LIT119_data);
+#define _OMC_LIT119 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT119)
+#define _OMC_LIT120_data "Component '%s' was found in an enclosing scope but is not a constant."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT120,69,_OMC_LIT120_data);
+#define _OMC_LIT120 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT120)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT121,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT120}};
+#define _OMC_LIT121 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT121)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT122,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(403)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT121}};
+#define _OMC_LIT122 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT122)
+#define _OMC_LIT123_data "Class %s does not satisfy the requirements for a package. Lookup is therefore restricted to encapsulated elements, but %s is not encapsulated."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT123,142,_OMC_LIT123_data);
+#define _OMC_LIT123 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT123)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT124,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT123}};
+#define _OMC_LIT124 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT124)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT125,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(86)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT124}};
+#define _OMC_LIT125 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT125)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT126,1,13) {&NFLookupState_LookupState_IMPORT__desc,}};
+#define _OMC_LIT126 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT126)
 #include "util/modelica.h"
 
 #include "NFLookupState_includes.h"
@@ -594,7 +618,7 @@ modelica_metatype omc_NFLookupState_LookupState_nodeState(threadData_t *threadDa
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _state has no default value.
-  if((omc_NFInstNode_InstNode_isComponent(threadData, _node) || omc_NFInstNode_InstNode_isName(threadData, _node)))
+  if(((omc_NFInstNode_InstNode_isComponent(threadData, _node) || omc_NFInstNode_InstNode_isName(threadData, _node)) || omc_NFInstNode_InstNode_isEmpty(threadData, _node)))
   {
     _state = _OMC_LIT2;
   }
@@ -629,7 +653,7 @@ void omc_NFLookupState_LookupState_checkProtection(threadData_t *threadData, mod
           modelica_metatype tmpMeta5;
           
           /* Pattern matching succeeded */
-          if((omc_NFInstNode_InstNode_isProtected(threadData, _node) && (!omc_Flags_isConfigFlagSet(threadData, _OMC_LIT73, _OMC_LIT44))))
+          if((omc_NFInstNode_InstNode_isProtected(threadData, _node) && (!omc_Flags_isConfigFlagSet(threadData, _OMC_LIT83, _OMC_LIT44))))
           {
             tmpMeta5 = mmc_mk_cons(omc_NFInstNode_InstNode_name(threadData, _node), MMC_REFSTRUCTLIT(mmc_nil));
             omc_Error_addSourceMessage(threadData, _OMC_LIT20, tmpMeta5, omc_NFInstNode_InstNode_info(threadData, _node));
@@ -707,7 +731,7 @@ void omc_NFLookupState_LookupState_printFoundWrongTypeError(threadData_t *thread
   _expected_str = omc_NFLookupState_LookupState_lookupStateString(threadData, _expectedState);
 
   tmpMeta1 = mmc_mk_cons(_name_str, mmc_mk_cons(_expected_str, mmc_mk_cons(_found_str, MMC_REFSTRUCTLIT(mmc_nil))));
-  omc_Error_addSourceMessage(threadData, _OMC_LIT76, tmpMeta1, _info);
+  omc_Error_addSourceMessage(threadData, _OMC_LIT86, tmpMeta1, _info);
   _return: OMC_LABEL_UNUSED
   return;
 }
@@ -730,61 +754,61 @@ modelica_string omc_NFLookupState_LookupState_lookupStateString(threadData_t *th
         case 3: {
           
           /* Pattern matching succeeded */
-          tmp1 = _OMC_LIT77;
+          tmp1 = _OMC_LIT87;
           goto tmp3_done;
         }
         case 4: {
           
           /* Pattern matching succeeded */
-          tmp1 = omc_System_gettext(threadData, _OMC_LIT78);
+          tmp1 = omc_System_gettext(threadData, _OMC_LIT88);
           goto tmp3_done;
         }
         case 5: {
           
           /* Pattern matching succeeded */
-          tmp1 = omc_System_gettext(threadData, _OMC_LIT78);
+          tmp1 = omc_System_gettext(threadData, _OMC_LIT88);
           goto tmp3_done;
         }
         case 6: {
           
           /* Pattern matching succeeded */
-          tmp1 = omc_System_gettext(threadData, _OMC_LIT79);
+          tmp1 = omc_System_gettext(threadData, _OMC_LIT89);
           goto tmp3_done;
         }
         case 7: {
           
           /* Pattern matching succeeded */
-          tmp1 = omc_System_gettext(threadData, _OMC_LIT80);
+          tmp1 = omc_System_gettext(threadData, _OMC_LIT90);
           goto tmp3_done;
         }
         case 8: {
           
           /* Pattern matching succeeded */
-          tmp1 = omc_System_gettext(threadData, _OMC_LIT81);
+          tmp1 = omc_System_gettext(threadData, _OMC_LIT91);
           goto tmp3_done;
         }
         case 9: {
           
           /* Pattern matching succeeded */
-          tmp1 = omc_System_gettext(threadData, _OMC_LIT79);
+          tmp1 = omc_System_gettext(threadData, _OMC_LIT89);
           goto tmp3_done;
         }
         case 10: {
           
           /* Pattern matching succeeded */
-          tmp1 = omc_System_gettext(threadData, _OMC_LIT80);
+          tmp1 = omc_System_gettext(threadData, _OMC_LIT90);
           goto tmp3_done;
         }
         case 11: {
           
           /* Pattern matching succeeded */
-          tmp1 = omc_System_gettext(threadData, _OMC_LIT78);
+          tmp1 = omc_System_gettext(threadData, _OMC_LIT88);
           goto tmp3_done;
         }
         case 12: {
           
           /* Pattern matching succeeded */
-          tmp1 = omc_System_gettext(threadData, _OMC_LIT79);
+          tmp1 = omc_System_gettext(threadData, _OMC_LIT89);
           goto tmp3_done;
         }
         }
@@ -976,7 +1000,7 @@ void omc_NFLookupState_LookupState_assertState(threadData_t *threadData, modelic
           _name_str = omc_NFLookupState_LookupStateName_toString(threadData, _name);
 
           tmpMeta5 = mmc_mk_cons(_name_str, MMC_REFSTRUCTLIT(mmc_nil));
-          omc_Error_addSourceMessage(threadData, _OMC_LIT84, tmpMeta5, _info);
+          omc_Error_addSourceMessage(threadData, _OMC_LIT94, tmpMeta5, _info);
           goto goto_1;
           goto tmp2_done;
         }
@@ -986,7 +1010,7 @@ void omc_NFLookupState_LookupState_assertState(threadData_t *threadData, modelic
           
           /* Pattern matching succeeded */
           tmpMeta6 = mmc_mk_cons(omc_NFLookupState_LookupStateName_toString(threadData, _name), MMC_REFSTRUCTLIT(mmc_nil));
-          omc_Error_addSourceMessage(threadData, _OMC_LIT87, tmpMeta6, _info);
+          omc_Error_addSourceMessage(threadData, _OMC_LIT97, tmpMeta6, _info);
           goto goto_1;
           goto tmp2_done;
         }
@@ -1003,7 +1027,7 @@ void omc_NFLookupState_LookupState_assertState(threadData_t *threadData, modelic
           _info2 = omc_NFInstNode_InstNode_info(threadData, _node);
 
           tmpMeta8 = mmc_mk_cons(_name_str, MMC_REFSTRUCTLIT(mmc_nil));
-          omc_Error_addSourceMessage(threadData, _OMC_LIT90, tmpMeta8, _info2);
+          omc_Error_addSourceMessage(threadData, _OMC_LIT100, tmpMeta8, _info2);
           goto goto_1;
           goto tmp2_done;
         }
@@ -1018,7 +1042,7 @@ void omc_NFLookupState_LookupState_assertState(threadData_t *threadData, modelic
           _name_str = omc_NFInstNode_InstNode_name(threadData, _node);
 
           tmpMeta10 = mmc_mk_cons(_name_str, mmc_mk_cons(omc_NFLookupState_LookupStateName_toString(threadData, _name), MMC_REFSTRUCTLIT(mmc_nil)));
-          omc_Error_addSourceMessage(threadData, _OMC_LIT93, tmpMeta10, _info);
+          omc_Error_addSourceMessage(threadData, _OMC_LIT103, tmpMeta10, _info);
           goto goto_1;
           goto tmp2_done;
         }
@@ -1033,7 +1057,7 @@ void omc_NFLookupState_LookupState_assertState(threadData_t *threadData, modelic
           _name_str = omc_NFInstNode_InstNode_name(threadData, _node);
 
           tmpMeta12 = mmc_mk_cons(_name_str, mmc_mk_cons(omc_NFLookupState_LookupStateName_toString(threadData, _name), MMC_REFSTRUCTLIT(mmc_nil)));
-          omc_Error_addSourceMessage(threadData, _OMC_LIT96, tmpMeta12, _info);
+          omc_Error_addSourceMessage(threadData, _OMC_LIT106, tmpMeta12, _info);
           goto goto_1;
           goto tmp2_done;
         }
@@ -1048,7 +1072,7 @@ void omc_NFLookupState_LookupState_assertState(threadData_t *threadData, modelic
           _name_str = omc_NFInstNode_InstNode_name(threadData, _node);
 
           tmpMeta14 = mmc_mk_cons(_name_str, mmc_mk_cons(omc_NFLookupState_LookupStateName_toString(threadData, _name), MMC_REFSTRUCTLIT(mmc_nil)));
-          omc_Error_addSourceMessage(threadData, _OMC_LIT99, tmpMeta14, _info);
+          omc_Error_addSourceMessage(threadData, _OMC_LIT109, tmpMeta14, _info);
           goto goto_1;
           goto tmp2_done;
         }
@@ -1063,7 +1087,7 @@ void omc_NFLookupState_LookupState_assertState(threadData_t *threadData, modelic
           _name_str = omc_NFInstNode_InstNode_name(threadData, _node);
 
           tmpMeta16 = mmc_mk_cons(_name_str, mmc_mk_cons(omc_NFLookupState_LookupStateName_toString(threadData, _name), MMC_REFSTRUCTLIT(mmc_nil)));
-          omc_Error_addSourceMessage(threadData, _OMC_LIT96, tmpMeta16, _info);
+          omc_Error_addSourceMessage(threadData, _OMC_LIT106, tmpMeta16, _info);
           goto goto_1;
           goto tmp2_done;
         }
@@ -1078,7 +1102,7 @@ void omc_NFLookupState_LookupState_assertState(threadData_t *threadData, modelic
           _name_str = omc_NFInstNode_InstNode_name(threadData, _node);
 
           tmpMeta18 = mmc_mk_cons(_name_str, mmc_mk_cons(omc_NFLookupState_LookupStateName_toString(threadData, _name), MMC_REFSTRUCTLIT(mmc_nil)));
-          omc_Error_addSourceMessage(threadData, _OMC_LIT102, tmpMeta18, _info);
+          omc_Error_addSourceMessage(threadData, _OMC_LIT112, tmpMeta18, _info);
           goto goto_1;
           goto tmp2_done;
         }
@@ -1100,14 +1124,14 @@ void omc_NFLookupState_LookupState_assertState(threadData_t *threadData, modelic
 
             if(omc_NFInstNode_InstNode_isComponent(threadData, _node2))
             {
-              tmpMeta21 = mmc_mk_cons(omc_NFInstNode_InstNode_name(threadData, _node2), mmc_mk_cons(omc_NFInstNode_InstNode_name(threadData, _node), mmc_mk_cons(omc_AbsynUtil_pathString(threadData, omc_NFClass_constrainingClassPath(threadData, _node), _OMC_LIT109, 1 /* true */, 0 /* false */), MMC_REFSTRUCTLIT(mmc_nil))));
+              tmpMeta21 = mmc_mk_cons(omc_NFInstNode_InstNode_name(threadData, _node2), mmc_mk_cons(omc_NFInstNode_InstNode_name(threadData, _node), mmc_mk_cons(omc_AbsynUtil_pathString(threadData, omc_NFClass_constrainingClassPath(threadData, _node), _OMC_LIT119, 1 /* true */, 0 /* false */), MMC_REFSTRUCTLIT(mmc_nil))));
               tmpMeta22 = mmc_mk_cons(omc_NFInstNode_InstNode_info(threadData, _node), mmc_mk_cons(omc_NFInstNode_InstNode_info(threadData, _node2), MMC_REFSTRUCTLIT(mmc_nil)));
-              omc_Error_addMultiSourceMessage(threadData, _OMC_LIT108, tmpMeta21, tmpMeta22);
+              omc_Error_addMultiSourceMessage(threadData, _OMC_LIT118, tmpMeta21, tmpMeta22);
             }
             else
             {
               tmpMeta23 = mmc_mk_cons(omc_NFInstNode_InstNode_name(threadData, _node), MMC_REFSTRUCTLIT(mmc_nil));
-              omc_Error_addSourceMessage(threadData, _OMC_LIT105, tmpMeta23, _info);
+              omc_Error_addSourceMessage(threadData, _OMC_LIT115, tmpMeta23, _info);
             }
 
             goto goto_1;
@@ -1125,7 +1149,7 @@ void omc_NFLookupState_LookupState_assertState(threadData_t *threadData, modelic
           /* Pattern matching succeeded */
           tmpMeta25 = mmc_mk_cons(omc_NFInstNode_InstNode_name(threadData, _node), MMC_REFSTRUCTLIT(mmc_nil));
           tmpMeta26 = mmc_mk_cons(omc_NFInstNode_InstNode_info(threadData, _node), mmc_mk_cons(_info, MMC_REFSTRUCTLIT(mmc_nil)));
-          omc_Error_addMultiSourceMessage(threadData, _OMC_LIT112, tmpMeta25, tmpMeta26);
+          omc_Error_addMultiSourceMessage(threadData, _OMC_LIT122, tmpMeta25, tmpMeta26);
           goto goto_1;
           goto tmp2_done;
         }
@@ -1140,7 +1164,7 @@ void omc_NFLookupState_LookupState_assertState(threadData_t *threadData, modelic
           /* Pattern matching succeeded */
           tmpMeta28 = mmc_mk_cons(omc_NFInstNode_InstNode_name(threadData, omc_NFInstNode_InstNode_parent(threadData, _node)), mmc_mk_cons(omc_NFInstNode_InstNode_name(threadData, _node), MMC_REFSTRUCTLIT(mmc_nil)));
           tmpMeta29 = mmc_mk_cons(omc_NFInstNode_InstNode_info(threadData, _node), mmc_mk_cons(_info, MMC_REFSTRUCTLIT(mmc_nil)));
-          omc_Error_addMultiSourceMessage(threadData, _OMC_LIT115, tmpMeta28, tmpMeta29);
+          omc_Error_addMultiSourceMessage(threadData, _OMC_LIT125, tmpMeta28, tmpMeta29);
           goto goto_1;
           goto tmp2_done;
         }
@@ -1428,7 +1452,7 @@ void omc_NFLookupState_LookupState_assertImport(threadData_t *threadData, modeli
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   tmpMeta1 = mmc_mk_box2(3, &NFLookupState_LookupStateName_PATH__desc, _name);
-  omc_NFLookupState_LookupState_assertState(threadData, _endState, _OMC_LIT116, _node, tmpMeta1, ((modelica_integer) 0), _info);
+  omc_NFLookupState_LookupState_assertState(threadData, _endState, _OMC_LIT126, _node, tmpMeta1, ((modelica_integer) 0), _info);
   _return: OMC_LABEL_UNUSED
   return;
 }
@@ -1605,7 +1629,7 @@ modelica_string omc_NFLookupState_LookupStateName_toString(threadData_t *threadD
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,0,1) == 0) goto tmp3_end;
           
           /* Pattern matching succeeded */
-          tmp1 = omc_AbsynUtil_pathString(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_name), 2))), _OMC_LIT109, 1 /* true */, 0 /* false */);
+          tmp1 = omc_AbsynUtil_pathString(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_name), 2))), _OMC_LIT119, 1 /* true */, 0 /* false */);
           goto tmp3_done;
         }
         case 1: {

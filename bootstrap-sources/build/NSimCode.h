@@ -32,6 +32,12 @@ extern struct record_description ErrorTypes_MessageType_TRANSLATION__desc;
 
 extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
+extern struct record_description Flags_ConfigFlag_CONFIG__FLAG__desc;
+
+extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
+
+extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
+
 extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
 extern struct record_description HpcOmSimCode_HpcOmData_HPCOMDATA__desc;
@@ -172,7 +178,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NSimCode_SimCode_convert,2,0) {(void*) 
 
 
 DLLDirection
-modelica_metatype omc_NSimCode_SimCode_create(threadData_t *threadData, modelica_metatype _bdae, modelica_metatype _name, modelica_string _fileNamePrefix, modelica_metatype _simSettingsOpt);
+modelica_metatype omc_NSimCode_SimCode_create(threadData_t *threadData, modelica_metatype _bdae, modelica_metatype _name, modelica_string _fileNamePrefix, modelica_metatype _simSettingsOpt, modelica_metatype *out_oldFunctionTree);
 #define boxptr_NSimCode_SimCode_create omc_NSimCode_SimCode_create
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NSimCode_SimCode_create,2,0) {(void*) boxptr_NSimCode_SimCode_create,0}};
 #define boxvar_NSimCode_SimCode_create MMC_REFSTRUCTLIT(boxvar_lit_NSimCode_SimCode_create)

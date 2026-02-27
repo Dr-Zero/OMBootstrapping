@@ -677,6 +677,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFSCodeEnv_EnvTree_addList,2,0) {(void*
 #define boxvar_NFSCodeEnv_EnvTree_addList MMC_REFSTRUCTLIT(boxvar_lit_NFSCodeEnv_EnvTree_addList)
 
 
+DLLDirection
+modelica_metatype omc_NFSCodeEnv_EnvTree_addUpdate(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftree, modelica_string _key, modelica_fnptr _fn);
+#define boxptr_NFSCodeEnv_EnvTree_addUpdate omc_NFSCodeEnv_EnvTree_addUpdate
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFSCodeEnv_EnvTree_addUpdate,2,0) {(void*) boxptr_NFSCodeEnv_EnvTree_addUpdate,0}};
+#define boxvar_NFSCodeEnv_EnvTree_addUpdate MMC_REFSTRUCTLIT(boxvar_lit_NFSCodeEnv_EnvTree_addUpdate)
+
+
 #define boxptr_NFSCodeEnv_EnvTree_balance omc_NFSCodeEnv_EnvTree_balance
 
 
@@ -775,7 +782,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFSCodeEnv_EnvTree_keyStr,2,0) {(void*)
 
 
 DLLDirection
-modelica_metatype omc_NFSCodeEnv_EnvTree_listKeys(threadData_t *threadData, modelica_metatype _inTree, modelica_metatype __omcQ_24in_5Flst);
+modelica_metatype omc_NFSCodeEnv_EnvTree_listKeys(threadData_t *threadData, modelica_metatype _tree, modelica_metatype __omcQ_24in_5Flst);
 #define boxptr_NFSCodeEnv_EnvTree_listKeys omc_NFSCodeEnv_EnvTree_listKeys
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFSCodeEnv_EnvTree_listKeys,2,0) {(void*) boxptr_NFSCodeEnv_EnvTree_listKeys,0}};
 #define boxvar_NFSCodeEnv_EnvTree_listKeys MMC_REFSTRUCTLIT(boxvar_lit_NFSCodeEnv_EnvTree_listKeys)

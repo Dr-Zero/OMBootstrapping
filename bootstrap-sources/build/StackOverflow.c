@@ -65,6 +65,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_StackOverflow_unmangle,2,0) {(void*) bo
 
 void omc_StackOverflow_clearStacktraceMessages(threadData_t *threadData)
 {
+
   mmc_clearStacktraceMessages(threadData);
   return;
 }
@@ -74,6 +75,7 @@ modelica_boolean omc_StackOverflow_hasStacktraceMessages(threadData_t *threadDat
   int _b_ext;
   modelica_boolean _b;
   // _b has no default value.
+
   _b_ext = mmc_hasStacktraceMessages(threadData);
   _b = (modelica_boolean)_b_ext;
   return _b;
@@ -91,8 +93,8 @@ void omc_StackOverflow_setStacktraceMessages(threadData_t *threadData, modelica_
 {
   int _numSkip_ext;
   int _numFrames_ext;
-  _numSkip_ext = (int)_numSkip;
-  _numFrames_ext = (int)_numFrames;
+  _numSkip_ext = (int) _numSkip;
+  _numFrames_ext = (int) _numFrames;
   mmc_setStacktraceMessages_threadData(threadData, _numSkip_ext, _numFrames_ext);
   return;
 }
@@ -111,6 +113,7 @@ modelica_metatype omc_StackOverflow_getStacktraceMessages(threadData_t *threadDa
   modelica_metatype _symbols_ext;
   modelica_metatype _symbols = NULL;
   // _symbols has no default value.
+
   _symbols_ext = mmc_getStacktraceMessages_threadData(threadData);
   _symbols = (modelica_metatype)_symbols_ext;
   return _symbols;
@@ -162,17 +165,17 @@ modelica_metatype omc_StackOverflow_readableStacktraceMessages(threadData_t *thr
   }
 
   {
-    modelica_metatype __omcQ_24tmpVar1;
+    modelica_metatype __omcQ_24tmpVar3;
     modelica_metatype* tmp15;
     modelica_metatype tmpMeta16;
-    modelica_string __omcQ_24tmpVar0;
+    modelica_string __omcQ_24tmpVar2;
     modelica_integer tmp17;
     modelica_metatype _s_loopVar = 0;
     modelica_metatype _s;
     _s_loopVar = omc_StackOverflow_getStacktraceMessages(threadData);
     tmpMeta16 = MMC_REFSTRUCTLIT(mmc_nil);
-    __omcQ_24tmpVar1 = tmpMeta16; /* defaultValue */
-    tmp15 = &__omcQ_24tmpVar1;
+    __omcQ_24tmpVar3 = tmpMeta16; /* defaultValue */
+    tmp15 = &__omcQ_24tmpVar3;
     while(1) {
       tmp17 = 1;
       if (!listEmpty(_s_loopVar)) {
@@ -181,8 +184,8 @@ modelica_metatype omc_StackOverflow_readableStacktraceMessages(threadData_t *thr
         tmp17--;
       }
       if (tmp17 == 0) {
-        __omcQ_24tmpVar0 = omc_StackOverflow_stripAddresses(threadData, _s);
-        *tmp15 = mmc_mk_cons(__omcQ_24tmpVar0,0);
+        __omcQ_24tmpVar2 = omc_StackOverflow_stripAddresses(threadData, _s);
+        *tmp15 = mmc_mk_cons(__omcQ_24tmpVar2,0);
         tmp15 = &MMC_CDR(*tmp15);
       } else if (tmp17 == 1) {
         break;
@@ -191,7 +194,7 @@ modelica_metatype omc_StackOverflow_readableStacktraceMessages(threadData_t *thr
       }
     }
     *tmp15 = mmc_mk_nil();
-    tmpMeta14 = __omcQ_24tmpVar1;
+    tmpMeta14 = __omcQ_24tmpVar3;
   }
   {
     modelica_metatype _symbol;
@@ -301,6 +304,7 @@ modelica_metatype boxptr_StackOverflow_generateReadableMessage(threadData_t *thr
 
 void omc_StackOverflow_triggerStackOverflow(threadData_t *threadData)
 {
+
   mmc_do_stackoverflow(threadData);
   return;
 }

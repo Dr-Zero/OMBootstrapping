@@ -2150,9 +2150,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_OpenModelicaScriptingAPI_convertPackage
 
 
 DLLDirection
-modelica_string omc_OpenModelicaScriptingAPI_getModelInstance(threadData_t *threadData, modelica_string _className, modelica_string _modifier, modelica_boolean _prettyPrint);
+modelica_string omc_OpenModelicaScriptingAPI_getModelInstance(threadData_t *threadData, modelica_string _className, modelica_string _context, modelica_string _modifier, modelica_boolean _prettyPrint);
 DLLDirection
-modelica_metatype boxptr_OpenModelicaScriptingAPI_getModelInstance(threadData_t *threadData, modelica_metatype _className, modelica_metatype _modifier, modelica_metatype _prettyPrint);
+modelica_metatype boxptr_OpenModelicaScriptingAPI_getModelInstance(threadData_t *threadData, modelica_metatype _className, modelica_metatype _context, modelica_metatype _modifier, modelica_metatype _prettyPrint);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_OpenModelicaScriptingAPI_getModelInstance,2,0) {(void*) boxptr_OpenModelicaScriptingAPI_getModelInstance,0}};
 #define boxvar_OpenModelicaScriptingAPI_getModelInstance MMC_REFSTRUCTLIT(boxvar_lit_OpenModelicaScriptingAPI_getModelInstance)
 
@@ -2202,6 +2202,14 @@ DLLDirection
 modelica_metatype boxptr_OpenModelicaScriptingAPI_getDefinitions(threadData_t *threadData, modelica_metatype _addFunctions);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_OpenModelicaScriptingAPI_getDefinitions,2,0) {(void*) boxptr_OpenModelicaScriptingAPI_getDefinitions,0}};
 #define boxvar_OpenModelicaScriptingAPI_getDefinitions MMC_REFSTRUCTLIT(boxvar_lit_OpenModelicaScriptingAPI_getDefinitions)
+
+
+DLLDirection
+modelica_string omc_OpenModelicaScriptingAPI_reverseLookup(threadData_t *threadData, modelica_string _name, modelica_string _scope, modelica_boolean _exactMatch, modelica_boolean _prettyPrint);
+DLLDirection
+modelica_metatype boxptr_OpenModelicaScriptingAPI_reverseLookup(threadData_t *threadData, modelica_metatype _name, modelica_metatype _scope, modelica_metatype _exactMatch, modelica_metatype _prettyPrint);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_OpenModelicaScriptingAPI_reverseLookup,2,0) {(void*) boxptr_OpenModelicaScriptingAPI_reverseLookup,0}};
+#define boxvar_OpenModelicaScriptingAPI_reverseLookup MMC_REFSTRUCTLIT(boxvar_lit_OpenModelicaScriptingAPI_reverseLookup)
 
 
 DLLDirection

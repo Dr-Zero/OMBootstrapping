@@ -132,7 +132,7 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT56,7,3) {&SCode_Attributes_ATTR__de
 #define _OMC_LIT56 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT56)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT57,3,3) {&Absyn_TypeSpec_TPATH__desc,_OMC_LIT27,MMC_REFSTRUCTLIT(mmc_none)}};
 #define _OMC_LIT57 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT57)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT58,1,5) {&SCode_Mod_NOMOD__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT58,1,7) {&SCode_Mod_NOMOD__desc,}};
 #define _OMC_LIT58 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT58)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT59,3,3) {&SCode_Comment_COMMENT__desc,MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none)}};
 #define _OMC_LIT59 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT59)
@@ -495,7 +495,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_optimizeExpTravers
     {
       modelica_metatype _cref = NULL;
       modelica_metatype _ety = NULL;
-      modelica_metatype _sub_exps = NULL;
       modelica_metatype _subs = NULL;
       modelica_metatype _env = NULL;
       modelica_metatype _exp = NULL;
@@ -503,7 +502,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_optimizeExpTravers
       int tmp5;
       // _cref has no default value.
       // _ety has no default value.
-      // _sub_exps has no default value.
       // _subs has no default value.
       // _env has no default value.
       // _exp has no default value.
@@ -524,11 +522,9 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_optimizeExpTravers
           
           _cref = tmpMeta7;
           _ety = tmpMeta8;
-          _sub_exps = tmpMeta9;
+          _subs = tmpMeta9;
           _env = tmp4_2;
           /* Pattern matching succeeded */
-          _subs = omc_List_map(threadData, _sub_exps, boxvar_Expression_makeIndexSubscript);
-
           _cref = omc_ComponentReference_subscriptCref(threadData, _cref, _subs);
 
           _exp = omc_Expression_makeCrefExp(threadData, _cref, _ety);

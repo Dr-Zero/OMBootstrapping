@@ -61,7 +61,21 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFDuplicateTree_addList,2,0) {(void*) b
 #define boxvar_NFDuplicateTree_addList MMC_REFSTRUCTLIT(boxvar_lit_NFDuplicateTree_addList)
 
 
+DLLDirection
+modelica_metatype omc_NFDuplicateTree_addUpdate(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftree, modelica_string _key, modelica_fnptr _fn);
+#define boxptr_NFDuplicateTree_addUpdate omc_NFDuplicateTree_addUpdate
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFDuplicateTree_addUpdate,2,0) {(void*) boxptr_NFDuplicateTree_addUpdate,0}};
+#define boxvar_NFDuplicateTree_addUpdate MMC_REFSTRUCTLIT(boxvar_lit_NFDuplicateTree_addUpdate)
+
+
 #define boxptr_NFDuplicateTree_balance omc_NFDuplicateTree_balance
+
+
+DLLDirection
+modelica_metatype omc_NFDuplicateTree_entryToList(threadData_t *threadData, modelica_metatype _entry);
+#define boxptr_NFDuplicateTree_entryToList omc_NFDuplicateTree_entryToList
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFDuplicateTree_entryToList,2,0) {(void*) boxptr_NFDuplicateTree_entryToList,0}};
+#define boxvar_NFDuplicateTree_entryToList MMC_REFSTRUCTLIT(boxvar_lit_NFDuplicateTree_entryToList)
 
 
 DLLDirection
@@ -104,6 +118,13 @@ modelica_metatype omc_NFDuplicateTree_get(threadData_t *threadData, modelica_met
 #define boxptr_NFDuplicateTree_get omc_NFDuplicateTree_get
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFDuplicateTree_get,2,0) {(void*) boxptr_NFDuplicateTree_get,0}};
 #define boxvar_NFDuplicateTree_get MMC_REFSTRUCTLIT(boxvar_lit_NFDuplicateTree_get)
+
+
+DLLDirection
+modelica_metatype omc_NFDuplicateTree_getLookupEntries(threadData_t *threadData, modelica_metatype _entry);
+#define boxptr_NFDuplicateTree_getLookupEntries omc_NFDuplicateTree_getLookupEntries
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFDuplicateTree_getLookupEntries,2,0) {(void*) boxptr_NFDuplicateTree_getLookupEntries,0}};
+#define boxvar_NFDuplicateTree_getLookupEntries MMC_REFSTRUCTLIT(boxvar_lit_NFDuplicateTree_getLookupEntries)
 
 
 DLLDirection
@@ -167,7 +188,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFDuplicateTree_keyStr,2,0) {(void*) bo
 
 
 DLLDirection
-modelica_metatype omc_NFDuplicateTree_listKeys(threadData_t *threadData, modelica_metatype _inTree, modelica_metatype __omcQ_24in_5Flst);
+modelica_metatype omc_NFDuplicateTree_listKeys(threadData_t *threadData, modelica_metatype _tree, modelica_metatype __omcQ_24in_5Flst);
 #define boxptr_NFDuplicateTree_listKeys omc_NFDuplicateTree_listKeys
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFDuplicateTree_listKeys,2,0) {(void*) boxptr_NFDuplicateTree_listKeys,0}};
 #define boxvar_NFDuplicateTree_listKeys MMC_REFSTRUCTLIT(boxvar_lit_NFDuplicateTree_listKeys)

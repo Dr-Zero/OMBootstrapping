@@ -260,6 +260,7 @@ modelica_integer omc_NFCheckModel_countVariableSize(threadData_t *threadData, mo
   modelica_metatype _ty = NULL;
   modelica_metatype _binding = NULL;
   modelica_metatype _attr = NULL;
+  modelica_integer _var_size;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
@@ -271,6 +272,7 @@ modelica_integer omc_NFCheckModel_countVariableSize(threadData_t *threadData, mo
   // _ty has no default value.
   // _binding has no default value.
   // _attr has no default value.
+  // _var_size has no default value.
   /* Pattern-matching assignment */
   tmpMeta1 = _var;
   if (mmc__uniontype__metarecord__typedef__equal(tmpMeta1,0,10) == 0) MMC_THROW_INTERNAL();
@@ -291,12 +293,18 @@ modelica_integer omc_NFCheckModel_countVariableSize(threadData_t *threadData, mo
     goto _return;
   }
 
-  if((!omc_NFVariable_isTopLevelInput(threadData, _var)))
-  {
-    _variables = _variables + omc_NFType_sizeOf(threadData, _ty, 0 /* false */);
-  }
+  _var_size = omc_NFType_sizeOf(threadData, _ty, 0 /* false */);
 
-  _equations = _equations + omc_NFType_sizeOf(threadData, omc_NFBinding_getType(threadData, _binding), 0 /* false */);
+  _variables = _variables + _var_size;
+
+  if(omc_NFVariable_isTopLevelInput(threadData, _var))
+  {
+    _equations = _equations + _var_size;
+  }
+  else
+  {
+    _equations = _equations + omc_NFType_sizeOf(threadData, omc_NFBinding_getType(threadData, _binding), 0 /* false */);
+  }
   _return: OMC_LABEL_UNUSED
   if (out_equations) { *out_equations = _equations; }
   return _variables;

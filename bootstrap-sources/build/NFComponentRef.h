@@ -26,6 +26,14 @@ extern struct record_description DAE_ComponentRef_CREF__QUAL__desc;
 
 extern struct record_description DAE_ComponentRef_WILD__desc;
 
+extern struct record_description Flags_ConfigFlag_CONFIG__FLAG__desc;
+
+extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
+
+extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
+
+extern struct record_description Gettext_TranslatableContent_gettext__desc;
+
 extern struct record_description NFCeval_EvalTarget_EVAL__TARGET__desc;
 
 extern struct record_description NFComponentRef_CREF__desc;
@@ -37,8 +45,6 @@ extern struct record_description NFComponentRef_WILD__desc;
 extern struct record_description NFExpression_CREF__desc;
 
 extern struct record_description NFExpression_INTEGER__desc;
-
-extern struct record_description NFExpression_RANGE__desc;
 
 extern struct record_description NFInstNode_InstNode_NAME__NODE__desc;
 
@@ -111,11 +117,11 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFComponentRef_removeOuterCrefPrefix,2,
 
 
 DLLDirection
-modelica_boolean omc_NFComponentRef_listHasDiscrete(threadData_t *threadData, modelica_metatype _cref_lst);
+modelica_boolean omc_NFComponentRef_isDiscrete(threadData_t *threadData, modelica_metatype _cref);
 DLLDirection
-modelica_metatype boxptr_NFComponentRef_listHasDiscrete(threadData_t *threadData, modelica_metatype _cref_lst);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_NFComponentRef_listHasDiscrete,2,0) {(void*) boxptr_NFComponentRef_listHasDiscrete,0}};
-#define boxvar_NFComponentRef_listHasDiscrete MMC_REFSTRUCTLIT(boxvar_lit_NFComponentRef_listHasDiscrete)
+modelica_metatype boxptr_NFComponentRef_isDiscrete(threadData_t *threadData, modelica_metatype _cref);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFComponentRef_isDiscrete,2,0) {(void*) boxptr_NFComponentRef_isDiscrete,0}};
+#define boxvar_NFComponentRef_isDiscrete MMC_REFSTRUCTLIT(boxvar_lit_NFComponentRef_isDiscrete)
 
 
 DLLDirection
@@ -244,6 +250,14 @@ DLLDirection
 modelica_metatype boxptr_NFComponentRef_sizeKnown(threadData_t *threadData, modelica_metatype _cref);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFComponentRef_sizeKnown,2,0) {(void*) boxptr_NFComponentRef_sizeKnown,0}};
 #define boxvar_NFComponentRef_sizeKnown MMC_REFSTRUCTLIT(boxvar_lit_NFComponentRef_sizeKnown)
+
+
+DLLDirection
+modelica_metatype omc_NFComponentRef_sizes__local__exp(threadData_t *threadData, modelica_metatype _cref, modelica_boolean _withComplex);
+DLLDirection
+modelica_metatype boxptr_NFComponentRef_sizes__local__exp(threadData_t *threadData, modelica_metatype _cref, modelica_metatype _withComplex);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFComponentRef_sizes__local__exp,2,0) {(void*) boxptr_NFComponentRef_sizes__local__exp,0}};
+#define boxvar_NFComponentRef_sizes__local__exp MMC_REFSTRUCTLIT(boxvar_lit_NFComponentRef_sizes__local__exp)
 
 
 DLLDirection
@@ -430,6 +444,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFComponentRef_hash,2,0) {(void*) boxpt
 
 
 DLLDirection
+modelica_metatype omc_NFComponentRef_toJSON__context(threadData_t *threadData, modelica_metatype _node, modelica_metatype __omcQ_24in_5Faccum);
+#define boxptr_NFComponentRef_toJSON__context omc_NFComponentRef_toJSON__context
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFComponentRef_toJSON__context,2,0) {(void*) boxptr_NFComponentRef_toJSON__context,0}};
+#define boxvar_NFComponentRef_toJSON__context MMC_REFSTRUCTLIT(boxvar_lit_NFComponentRef_toJSON__context)
+
+
+DLLDirection
 modelica_metatype omc_NFComponentRef_toJSON__impl(threadData_t *threadData, modelica_metatype _cref, modelica_metatype _accum);
 #define boxptr_NFComponentRef_toJSON__impl omc_NFComponentRef_toJSON__impl
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFComponentRef_toJSON__impl,2,0) {(void*) boxptr_NFComponentRef_toJSON__impl,0}};
@@ -497,14 +518,6 @@ modelica_metatype omc_NFComponentRef_toAbsyn(threadData_t *threadData, modelica_
 #define boxptr_NFComponentRef_toAbsyn omc_NFComponentRef_toAbsyn
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFComponentRef_toAbsyn,2,0) {(void*) boxptr_NFComponentRef_toAbsyn,0}};
 #define boxvar_NFComponentRef_toAbsyn MMC_REFSTRUCTLIT(boxvar_lit_NFComponentRef_toAbsyn)
-
-
-DLLDirection
-modelica_boolean omc_NFComponentRef_backendCref(threadData_t *threadData, modelica_metatype _cref);
-DLLDirection
-modelica_metatype boxptr_NFComponentRef_backendCref(threadData_t *threadData, modelica_metatype _cref);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_NFComponentRef_backendCref,2,0) {(void*) boxptr_NFComponentRef_backendCref,0}};
-#define boxvar_NFComponentRef_backendCref MMC_REFSTRUCTLIT(boxvar_lit_NFComponentRef_backendCref)
 
 
 DLLDirection
@@ -716,18 +729,28 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFComponentRef_hasSubscripts,2,0) {(voi
 #define boxvar_NFComponentRef_hasSubscripts MMC_REFSTRUCTLIT(boxvar_lit_NFComponentRef_hasSubscripts)
 
 
+#define boxptr_NFComponentRef_mergeSubscriptsMapped_checkLocalDimensions omc_NFComponentRef_mergeSubscriptsMapped_checkLocalDimensions
+
+
 DLLDirection
-modelica_metatype omc_NFComponentRef_mergeSubscripts2(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fsubscripts, modelica_metatype __omcQ_24in_5Fcref, modelica_boolean _applyToScope, modelica_boolean _backend, modelica_metatype *out_cref);
+modelica_metatype omc_NFComponentRef_mergeSubscriptsMapped(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fcref, modelica_metatype _dims_map, modelica_metatype _iter_map);
+#define boxptr_NFComponentRef_mergeSubscriptsMapped omc_NFComponentRef_mergeSubscriptsMapped
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFComponentRef_mergeSubscriptsMapped,2,0) {(void*) boxptr_NFComponentRef_mergeSubscriptsMapped,0}};
+#define boxvar_NFComponentRef_mergeSubscriptsMapped MMC_REFSTRUCTLIT(boxvar_lit_NFComponentRef_mergeSubscriptsMapped)
+
+
 DLLDirection
-modelica_metatype boxptr_NFComponentRef_mergeSubscripts2(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fsubscripts, modelica_metatype __omcQ_24in_5Fcref, modelica_metatype _applyToScope, modelica_metatype _backend, modelica_metatype *out_cref);
+modelica_metatype omc_NFComponentRef_mergeSubscripts2(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fsubscripts, modelica_metatype __omcQ_24in_5Fcref, modelica_boolean _applyToScope, modelica_boolean _backend, modelica_boolean _reverse, modelica_metatype *out_cref);
+DLLDirection
+modelica_metatype boxptr_NFComponentRef_mergeSubscripts2(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fsubscripts, modelica_metatype __omcQ_24in_5Fcref, modelica_metatype _applyToScope, modelica_metatype _backend, modelica_metatype _reverse, modelica_metatype *out_cref);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFComponentRef_mergeSubscripts2,2,0) {(void*) boxptr_NFComponentRef_mergeSubscripts2,0}};
 #define boxvar_NFComponentRef_mergeSubscripts2 MMC_REFSTRUCTLIT(boxvar_lit_NFComponentRef_mergeSubscripts2)
 
 
 DLLDirection
-modelica_metatype omc_NFComponentRef_mergeSubscripts(threadData_t *threadData, modelica_metatype _subscripts, modelica_metatype __omcQ_24in_5Fcref, modelica_boolean _applyToScope, modelica_boolean _backend);
+modelica_metatype omc_NFComponentRef_mergeSubscripts(threadData_t *threadData, modelica_metatype _subscripts, modelica_metatype __omcQ_24in_5Fcref, modelica_boolean _applyToScope, modelica_boolean _backend, modelica_boolean _reverse);
 DLLDirection
-modelica_metatype boxptr_NFComponentRef_mergeSubscripts(threadData_t *threadData, modelica_metatype _subscripts, modelica_metatype __omcQ_24in_5Fcref, modelica_metatype _applyToScope, modelica_metatype _backend);
+modelica_metatype boxptr_NFComponentRef_mergeSubscripts(threadData_t *threadData, modelica_metatype _subscripts, modelica_metatype __omcQ_24in_5Fcref, modelica_metatype _applyToScope, modelica_metatype _backend, modelica_metatype _reverse);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFComponentRef_mergeSubscripts,2,0) {(void*) boxptr_NFComponentRef_mergeSubscripts,0}};
 #define boxvar_NFComponentRef_mergeSubscripts MMC_REFSTRUCTLIT(boxvar_lit_NFComponentRef_mergeSubscripts)
 

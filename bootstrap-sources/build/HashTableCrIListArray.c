@@ -45,7 +45,7 @@ modelica_string omc_HashTableCrIListArray_printIntListArrayStr(threadData_t *thr
 
   tmpMeta4 = stringAppend(_OMC_LIT0,stringDelimitList(omc_List_map(threadData, _iList, boxvar_intString), _OMC_LIT1));
   tmpMeta5 = stringAppend(tmpMeta4,_OMC_LIT2);
-  tmpMeta6 = stringAppend(tmpMeta5,stringDelimitList(omc_List_map(threadData, arrayList(_iArray), boxvar_intString), _OMC_LIT1));
+  tmpMeta6 = stringAppend(tmpMeta5,stringDelimitList(omc_List_mapArray(threadData, _iArray, boxvar_intString), _OMC_LIT1));
   tmpMeta7 = stringAppend(tmpMeta6,_OMC_LIT3);
   _res = tmpMeta7;
   _return: OMC_LABEL_UNUSED

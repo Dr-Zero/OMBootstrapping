@@ -2846,7 +2846,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_Figaro_foMod1(threadData_t *thread
           goto tmp3_done;
         }
         case 1: {
-          if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,2,0) == 0) goto tmp3_end;
+          if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,4,0) == 0) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT22;
           goto tmp3_done;
@@ -3485,7 +3485,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_Figaro_fcMod1(threadData_t *thread
           goto tmp3_done;
         }
         case 1: {
-          if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,2,0) == 0) goto tmp3_end;
+          if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,4,0) == 0) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT22;
           goto tmp3_done;

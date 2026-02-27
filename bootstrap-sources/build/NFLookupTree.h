@@ -83,6 +83,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFLookupTree_addList,2,0) {(void*) boxp
 #define boxvar_NFLookupTree_addList MMC_REFSTRUCTLIT(boxvar_lit_NFLookupTree_addList)
 
 
+DLLDirection
+modelica_metatype omc_NFLookupTree_addUpdate(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftree, modelica_string _key, modelica_fnptr _fn);
+#define boxptr_NFLookupTree_addUpdate omc_NFLookupTree_addUpdate
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFLookupTree_addUpdate,2,0) {(void*) boxptr_NFLookupTree_addUpdate,0}};
+#define boxvar_NFLookupTree_addUpdate MMC_REFSTRUCTLIT(boxvar_lit_NFLookupTree_addUpdate)
+
+
 #define boxptr_NFLookupTree_balance omc_NFLookupTree_balance
 
 
@@ -181,7 +188,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFLookupTree_keyStr,2,0) {(void*) boxpt
 
 
 DLLDirection
-modelica_metatype omc_NFLookupTree_listKeys(threadData_t *threadData, modelica_metatype _inTree, modelica_metatype __omcQ_24in_5Flst);
+modelica_metatype omc_NFLookupTree_listKeys(threadData_t *threadData, modelica_metatype _tree, modelica_metatype __omcQ_24in_5Flst);
 #define boxptr_NFLookupTree_listKeys omc_NFLookupTree_listKeys
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFLookupTree_listKeys,2,0) {(void*) boxptr_NFLookupTree_listKeys,0}};
 #define boxvar_NFLookupTree_listKeys MMC_REFSTRUCTLIT(boxvar_lit_NFLookupTree_listKeys)

@@ -28,7 +28,7 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT11,1,35) {&NFBackendExtension_Varia
 #define _OMC_LIT11 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT11)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT12,17,3) {&NFBackendExtension_VariableAttributes_VAR__ATTR__REAL__desc,MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none)}};
 #define _OMC_LIT12 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT12)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT13,3,3) {&NFBackendExtension_Annotations_ANNOTATIONS__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */))}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT13,5,3) {&NFBackendExtension_Annotations_ANNOTATIONS__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_REFSTRUCTLIT(mmc_none)}};
 #define _OMC_LIT13 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT13)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT14,8,3) {&NFBackendExtension_BackendInfo_BACKEND__INFO__desc,_OMC_LIT11,_OMC_LIT12,_OMC_LIT13,MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none)}};
 #define _OMC_LIT14 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT14)
@@ -40,10 +40,10 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT16,1,11) {&NFInstNode_InstNode_EMPT
 #define _OMC_LIT17_data "NFExpandableConnectors.augmentExpandableConnector got non-component element"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT17,75,_OMC_LIT17_data);
 #define _OMC_LIT17 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT17)
-#define _OMC_LIT18_data "/home/adrpo33/OpenModelica/OMCompiler/Compiler/NFFrontEnd/NFExpandableConnectors.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT18,83,_OMC_LIT18_data);
+#define _OMC_LIT18_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/NFFrontEnd/NFExpandableConnectors.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT18,89,_OMC_LIT18_data);
 #define _OMC_LIT18 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT18)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT19_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT19_6,1.77098641e9);
 #define _OMC_LIT19_6 MMC_REFREALLIT(_OMC_LIT_STRUCT19_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT19,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT18,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(408)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(408)),MMC_IMMEDIATE(MMC_TAGFIXNUM(95)),_OMC_LIT19_6}};
 #define _OMC_LIT19 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT19)
@@ -1035,17 +1035,17 @@ modelica_metatype omc_NFExpandableConnectors_elaborate(threadData_t *threadData,
   _connections = tmpMeta5;
 
   {
-    modelica_metatype __omcQ_24tmpVar1;
+    modelica_metatype __omcQ_24tmpVar3;
     modelica_metatype* tmp7;
     modelica_metatype tmpMeta8;
-    modelica_metatype __omcQ_24tmpVar0;
+    modelica_metatype __omcQ_24tmpVar2;
     modelica_integer tmp9;
     modelica_metatype _v_loopVar = 0;
     modelica_metatype _v;
     _v_loopVar = _vars;
     tmpMeta8 = MMC_REFSTRUCTLIT(mmc_nil);
-    __omcQ_24tmpVar1 = tmpMeta8; /* defaultValue */
-    tmp7 = &__omcQ_24tmpVar1;
+    __omcQ_24tmpVar3 = tmpMeta8; /* defaultValue */
+    tmp7 = &__omcQ_24tmpVar3;
     while(1) {
       tmp9 = 1;
       if (!listEmpty(_v_loopVar)) {
@@ -1054,8 +1054,8 @@ modelica_metatype omc_NFExpandableConnectors_elaborate(threadData_t *threadData,
         tmp9--;
       }
       if (tmp9 == 0) {
-        __omcQ_24tmpVar0 = omc_NFExpandableConnectors_updatePotentiallyPresentVariable(threadData, _v);
-        *tmp7 = mmc_mk_cons(__omcQ_24tmpVar0,0);
+        __omcQ_24tmpVar2 = omc_NFExpandableConnectors_updatePotentiallyPresentVariable(threadData, _v);
+        *tmp7 = mmc_mk_cons(__omcQ_24tmpVar2,0);
         tmp7 = &MMC_CDR(*tmp7);
       } else if (tmp9 == 1) {
         break;
@@ -1064,7 +1064,7 @@ modelica_metatype omc_NFExpandableConnectors_elaborate(threadData_t *threadData,
       }
     }
     *tmp7 = mmc_mk_nil();
-    tmpMeta6 = __omcQ_24tmpVar1;
+    tmpMeta6 = __omcQ_24tmpVar3;
   }
   _vars = tmpMeta6;
 

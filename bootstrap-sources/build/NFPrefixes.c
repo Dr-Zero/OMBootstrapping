@@ -709,30 +709,29 @@ modelica_string omc_NFPrefixes_unparseInnerOuter(threadData_t *threadData, model
     modelica_integer tmp4_1;
     tmp4_1 = (modelica_integer)_io;
     {
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      tmp4 = 0;
-      for (; tmp4 < 4; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
+      int tmp4;
+      {
+        switch (MMC_SWITCH_CAST(tmp4_1)) {
+        case 2: {
           if (2 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT32;
           goto tmp3_done;
         }
-        case 1: {
+        case 3: {
           if (3 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT33;
           goto tmp3_done;
         }
-        case 2: {
+        case 4: {
           if (4 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT34;
           goto tmp3_done;
         }
-        case 3: {
+        default:
+        tmp3_default: OMC_LABEL_UNUSED; {
           
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT23;
@@ -775,30 +774,29 @@ modelica_string omc_NFPrefixes_innerOuterString(threadData_t *threadData, modeli
     modelica_integer tmp4_1;
     tmp4_1 = (modelica_integer)_io;
     {
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      tmp4 = 0;
-      for (; tmp4 < 4; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
+      int tmp4;
+      {
+        switch (MMC_SWITCH_CAST(tmp4_1)) {
+        case 2: {
           if (2 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT35;
           goto tmp3_done;
         }
-        case 1: {
+        case 3: {
           if (3 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT36;
           goto tmp3_done;
         }
-        case 2: {
+        case 4: {
           if (4 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT37;
           goto tmp3_done;
         }
-        case 3: {
+        default:
+        tmp3_default: OMC_LABEL_UNUSED; {
           
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT23;
@@ -841,30 +839,28 @@ modelica_metatype omc_NFPrefixes_innerOuterToAbsyn(threadData_t *threadData, mod
     modelica_integer tmp4_1;
     tmp4_1 = (modelica_integer)_inIO;
     {
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      tmp4 = 0;
-      for (; tmp4 < 4; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
+      int tmp4;
+      {
+        switch (MMC_SWITCH_CAST(tmp4_1)) {
+        case 1: {
           if (1 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT38;
           goto tmp3_done;
         }
-        case 1: {
+        case 2: {
           if (2 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT39;
           goto tmp3_done;
         }
-        case 2: {
+        case 3: {
           if (3 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT40;
           goto tmp3_done;
         }
-        case 3: {
+        case 4: {
           if (4 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT41;
@@ -1017,24 +1013,23 @@ modelica_string omc_NFPrefixes_unparseDirection(threadData_t *threadData, modeli
     modelica_integer tmp4_1;
     tmp4_1 = (modelica_integer)_dir;
     {
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      tmp4 = 0;
-      for (; tmp4 < 3; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
+      int tmp4;
+      {
+        switch (MMC_SWITCH_CAST(tmp4_1)) {
+        case 2: {
           if (2 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT42;
           goto tmp3_done;
         }
-        case 1: {
+        case 3: {
           if (3 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT43;
           goto tmp3_done;
         }
-        case 2: {
+        default:
+        tmp3_default: OMC_LABEL_UNUSED; {
           
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT23;
@@ -1077,24 +1072,23 @@ modelica_string omc_NFPrefixes_directionString(threadData_t *threadData, modelic
     modelica_integer tmp4_1;
     tmp4_1 = (modelica_integer)_dir;
     {
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      tmp4 = 0;
-      for (; tmp4 < 3; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
+      int tmp4;
+      {
+        switch (MMC_SWITCH_CAST(tmp4_1)) {
+        case 2: {
           if (2 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT44;
           goto tmp3_done;
         }
-        case 1: {
+        case 3: {
           if (3 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT45;
           goto tmp3_done;
         }
-        case 2: {
+        default:
+        tmp3_default: OMC_LABEL_UNUSED; {
           
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT23;
@@ -1137,24 +1131,23 @@ modelica_metatype omc_NFPrefixes_directionToAbsyn(threadData_t *threadData, mode
     modelica_integer tmp4_1;
     tmp4_1 = (modelica_integer)_dir;
     {
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      tmp4 = 0;
-      for (; tmp4 < 3; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
+      int tmp4;
+      {
+        switch (MMC_SWITCH_CAST(tmp4_1)) {
+        case 2: {
           if (2 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT46;
           goto tmp3_done;
         }
-        case 1: {
+        case 3: {
           if (3 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT47;
           goto tmp3_done;
         }
-        case 2: {
+        default:
+        tmp3_default: OMC_LABEL_UNUSED; {
           
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT48;
@@ -1197,24 +1190,23 @@ modelica_metatype omc_NFPrefixes_directionToDAE(threadData_t *threadData, modeli
     modelica_integer tmp4_1;
     tmp4_1 = (modelica_integer)_dir;
     {
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      tmp4 = 0;
-      for (; tmp4 < 3; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
+      int tmp4;
+      {
+        switch (MMC_SWITCH_CAST(tmp4_1)) {
+        case 2: {
           if (2 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT49;
           goto tmp3_done;
         }
-        case 1: {
+        case 3: {
           if (3 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT50;
           goto tmp3_done;
         }
-        case 2: {
+        default:
+        tmp3_default: OMC_LABEL_UNUSED; {
           
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT51;
@@ -1392,30 +1384,29 @@ modelica_integer omc_NFPrefixes_effectiveVariability(threadData_t *threadData, m
     modelica_integer tmp4_1;
     tmp4_1 = (modelica_integer)_inVar;
     {
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      tmp4 = 0;
-      for (; tmp4 < 4; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
+      int tmp4;
+      {
+        switch (MMC_SWITCH_CAST(tmp4_1)) {
+        case 2: {
           if (2 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = 3;
           goto tmp3_done;
         }
-        case 1: {
+        case 4: {
           if (4 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = 3;
           goto tmp3_done;
         }
-        case 2: {
+        case 6: {
           if (6 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = 5;
           goto tmp3_done;
         }
-        case 3: {
+        default:
+        tmp3_default: OMC_LABEL_UNUSED; {
           
           /* Pattern matching succeeded */
           tmp1 = (modelica_integer)_inVar;
@@ -1505,42 +1496,41 @@ modelica_string omc_NFPrefixes_unparseVariability(threadData_t *threadData, mode
     modelica_integer tmp4_1;
     tmp4_1 = (modelica_integer)_var;
     {
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      tmp4 = 0;
-      for (; tmp4 < 6; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
+      int tmp4;
+      {
+        switch (MMC_SWITCH_CAST(tmp4_1)) {
+        case 1: {
           if (1 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT54;
           goto tmp3_done;
         }
-        case 1: {
+        case 2: {
           if (2 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT55;
           goto tmp3_done;
         }
-        case 2: {
+        case 3: {
           if (3 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT55;
           goto tmp3_done;
         }
-        case 3: {
+        case 4: {
           if (4 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT55;
           goto tmp3_done;
         }
-        case 4: {
+        case 5: {
           if (5 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = (omc_NFType_isDiscrete(threadData, _ty)?_OMC_LIT23:_OMC_LIT56);
           goto tmp3_done;
         }
-        case 5: {
+        default:
+        tmp3_default: OMC_LABEL_UNUSED; {
           
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT23;
@@ -1583,48 +1573,46 @@ modelica_string omc_NFPrefixes_variabilityString(threadData_t *threadData, model
     modelica_integer tmp4_1;
     tmp4_1 = (modelica_integer)_var;
     {
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      tmp4 = 0;
-      for (; tmp4 < 7; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
+      int tmp4;
+      {
+        switch (MMC_SWITCH_CAST(tmp4_1)) {
+        case 1: {
           if (1 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT57;
           goto tmp3_done;
         }
-        case 1: {
+        case 2: {
           if (2 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT58;
           goto tmp3_done;
         }
-        case 2: {
+        case 3: {
           if (3 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT58;
           goto tmp3_done;
         }
-        case 3: {
+        case 4: {
           if (4 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT58;
           goto tmp3_done;
         }
-        case 4: {
+        case 5: {
           if (5 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT59;
           goto tmp3_done;
         }
-        case 5: {
+        case 6: {
           if (6 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT59;
           goto tmp3_done;
         }
-        case 6: {
+        case 7: {
           if (7 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT60;
@@ -1667,36 +1655,35 @@ modelica_metatype omc_NFPrefixes_variabilityToDAEConst(threadData_t *threadData,
     modelica_integer tmp4_1;
     tmp4_1 = (modelica_integer)_var;
     {
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      tmp4 = 0;
-      for (; tmp4 < 5; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
+      int tmp4;
+      {
+        switch (MMC_SWITCH_CAST(tmp4_1)) {
+        case 1: {
           if (1 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT61;
           goto tmp3_done;
         }
-        case 1: {
+        case 2: {
           if (2 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT62;
           goto tmp3_done;
         }
-        case 2: {
+        case 3: {
           if (3 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT62;
           goto tmp3_done;
         }
-        case 3: {
+        case 4: {
           if (4 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT62;
           goto tmp3_done;
         }
-        case 4: {
+        default:
+        tmp3_default: OMC_LABEL_UNUSED; {
           
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT63;
@@ -1739,42 +1726,41 @@ modelica_metatype omc_NFPrefixes_variabilityToDAE(threadData_t *threadData, mode
     modelica_integer tmp4_1;
     tmp4_1 = (modelica_integer)_var;
     {
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      tmp4 = 0;
-      for (; tmp4 < 6; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
+      int tmp4;
+      {
+        switch (MMC_SWITCH_CAST(tmp4_1)) {
+        case 1: {
           if (1 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT64;
           goto tmp3_done;
         }
-        case 1: {
+        case 2: {
           if (2 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT65;
           goto tmp3_done;
         }
-        case 2: {
+        case 3: {
           if (3 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT65;
           goto tmp3_done;
         }
-        case 3: {
+        case 4: {
           if (4 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT65;
           goto tmp3_done;
         }
-        case 4: {
+        case 5: {
           if (5 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT66;
           goto tmp3_done;
         }
-        case 5: {
+        default:
+        tmp3_default: OMC_LABEL_UNUSED; {
           
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT67;
@@ -1817,42 +1803,41 @@ modelica_metatype omc_NFPrefixes_variabilityToSCode(threadData_t *threadData, mo
     modelica_integer tmp4_1;
     tmp4_1 = (modelica_integer)_var;
     {
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      tmp4 = 0;
-      for (; tmp4 < 6; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
+      int tmp4;
+      {
+        switch (MMC_SWITCH_CAST(tmp4_1)) {
+        case 1: {
           if (1 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT68;
           goto tmp3_done;
         }
-        case 1: {
+        case 2: {
           if (2 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT69;
           goto tmp3_done;
         }
-        case 2: {
+        case 3: {
           if (3 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT69;
           goto tmp3_done;
         }
-        case 3: {
+        case 4: {
           if (4 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT69;
           goto tmp3_done;
         }
-        case 4: {
+        case 5: {
           if (5 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT70;
           goto tmp3_done;
         }
-        case 5: {
+        default:
+        tmp3_default: OMC_LABEL_UNUSED; {
           
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT71;
@@ -2003,24 +1988,23 @@ modelica_string omc_NFPrefixes_unparseParallelism(threadData_t *threadData, mode
     modelica_integer tmp4_1;
     tmp4_1 = (modelica_integer)_par;
     {
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      tmp4 = 0;
-      for (; tmp4 < 3; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
+      int tmp4;
+      {
+        switch (MMC_SWITCH_CAST(tmp4_1)) {
+        case 2: {
           if (2 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT72;
           goto tmp3_done;
         }
-        case 1: {
+        case 3: {
           if (3 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT73;
           goto tmp3_done;
         }
-        case 2: {
+        default:
+        tmp3_default: OMC_LABEL_UNUSED; {
           
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT23;
@@ -2063,24 +2047,23 @@ modelica_string omc_NFPrefixes_parallelismString(threadData_t *threadData, model
     modelica_integer tmp4_1;
     tmp4_1 = (modelica_integer)_par;
     {
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      tmp4 = 0;
-      for (; tmp4 < 3; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
+      int tmp4;
+      {
+        switch (MMC_SWITCH_CAST(tmp4_1)) {
+        case 2: {
           if (2 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT74;
           goto tmp3_done;
         }
-        case 1: {
+        case 3: {
           if (3 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT75;
           goto tmp3_done;
         }
-        case 2: {
+        default:
+        tmp3_default: OMC_LABEL_UNUSED; {
           
           /* Pattern matching succeeded */
           tmp1 = _OMC_LIT23;
@@ -2123,24 +2106,22 @@ modelica_metatype omc_NFPrefixes_parallelismToDAE(threadData_t *threadData, mode
     modelica_integer tmp4_1;
     tmp4_1 = (modelica_integer)_par;
     {
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      tmp4 = 0;
-      for (; tmp4 < 3; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
+      int tmp4;
+      {
+        switch (MMC_SWITCH_CAST(tmp4_1)) {
+        case 2: {
           if (2 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT76;
           goto tmp3_done;
         }
-        case 1: {
+        case 3: {
           if (3 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT77;
           goto tmp3_done;
         }
-        case 2: {
+        case 1: {
           if (1 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT78;
@@ -2183,24 +2164,22 @@ modelica_metatype omc_NFPrefixes_parallelismToSCode(threadData_t *threadData, mo
     modelica_integer tmp4_1;
     tmp4_1 = (modelica_integer)_par;
     {
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      tmp4 = 0;
-      for (; tmp4 < 3; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
+      int tmp4;
+      {
+        switch (MMC_SWITCH_CAST(tmp4_1)) {
+        case 2: {
           if (2 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT79;
           goto tmp3_done;
         }
-        case 1: {
+        case 3: {
           if (3 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT80;
           goto tmp3_done;
         }
-        case 2: {
+        case 1: {
           if (1 != tmp4_1) goto tmp3_end;
           /* Pattern matching succeeded */
           tmpMeta1 = _OMC_LIT81;

@@ -6,7 +6,7 @@ extern "C" {
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NBPartition_Association_CONTINUOUS__desc_added
 #define NBPartition_Association_CONTINUOUS__desc_added
-ADD_METARECORD_DEFINITIONS const char* NBPartition_Association_CONTINUOUS__desc__fields[2] = {"kind","jacobian"};
+ADD_METARECORD_DEFINITIONS const char* NBPartition_Association_CONTINUOUS__desc__fields[6] = {"kind","jacobian","jacobianAdjoint","LFG_jacobian","MRF_jacobian","R0_jacobian"};
 ADD_METARECORD_DEFINITIONS struct record_description NBPartition_Association_CONTINUOUS__desc = {
   "NBPartition_Association_CONTINUOUS",
   "NBPartition.Association.CONTINUOUS",
@@ -19,7 +19,7 @@ extern struct record_description NBPartition_Association_CONTINUOUS__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NBPartition_Association_CLOCKED__desc_added
 #define NBPartition_Association_CLOCKED__desc_added
-ADD_METARECORD_DEFINITIONS const char* NBPartition_Association_CLOCKED__desc__fields[3] = {"clock","baseClock","holdEvents"};
+ADD_METARECORD_DEFINITIONS const char* NBPartition_Association_CLOCKED__desc__fields[4] = {"clock","baseClock","clock_deps","holdEvents"};
 ADD_METARECORD_DEFINITIONS struct record_description NBPartition_Association_CLOCKED__desc = {
   "NBPartition_Association_CLOCKED",
   "NBPartition.Association.CLOCKED",
@@ -32,7 +32,7 @@ extern struct record_description NBPartition_Association_CLOCKED__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NBPartition_Association_CLOCKED__desc_added
 #define NBPartition_Association_CLOCKED__desc_added
-ADD_METARECORD_DEFINITIONS const char* NBPartition_Association_CLOCKED__desc__fields[3] = {"clock","baseClock","holdEvents"};
+ADD_METARECORD_DEFINITIONS const char* NBPartition_Association_CLOCKED__desc__fields[4] = {"clock","baseClock","clock_deps","holdEvents"};
 ADD_METARECORD_DEFINITIONS struct record_description NBPartition_Association_CLOCKED__desc = {
   "NBPartition_Association_CLOCKED",
   "NBPartition.Association.CLOCKED",
@@ -45,7 +45,7 @@ extern struct record_description NBPartition_Association_CLOCKED__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NBPartition_Association_CONTINUOUS__desc_added
 #define NBPartition_Association_CONTINUOUS__desc_added
-ADD_METARECORD_DEFINITIONS const char* NBPartition_Association_CONTINUOUS__desc__fields[2] = {"kind","jacobian"};
+ADD_METARECORD_DEFINITIONS const char* NBPartition_Association_CONTINUOUS__desc__fields[6] = {"kind","jacobian","jacobianAdjoint","LFG_jacobian","MRF_jacobian","R0_jacobian"};
 ADD_METARECORD_DEFINITIONS struct record_description NBPartition_Association_CONTINUOUS__desc = {
   "NBPartition_Association_CONTINUOUS",
   "NBPartition.Association.CONTINUOUS",

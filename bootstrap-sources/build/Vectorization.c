@@ -2018,10 +2018,12 @@ modelica_boolean omc_Vectorization_expEqualNoCrefSubs(threadData_t *threadData, 
       modelica_metatype _e2 = NULL;
       modelica_metatype _oe = NULL;
       modelica_metatype _expl = NULL;
+      modelica_metatype _expl2 = NULL;
       modelica_metatype _mexpl = NULL;
       modelica_metatype _op = NULL;
       modelica_metatype _cr = NULL;
       modelica_metatype _ty = NULL;
+      modelica_metatype _subs = NULL;
       int tmp4;
       // _i has no default value.
       // _r has no default value.
@@ -2033,10 +2035,12 @@ modelica_boolean omc_Vectorization_expEqualNoCrefSubs(threadData_t *threadData, 
       // _e2 has no default value.
       // _oe has no default value.
       // _expl has no default value.
+      // _expl2 has no default value.
       // _mexpl has no default value.
       // _op has no default value.
       // _cr has no default value.
       // _ty has no default value.
+      // _subs has no default value.
       {
         switch (MMC_SWITCH_CAST(valueConstructor(tmp4_1))) {
         case 3: {
@@ -2361,33 +2365,103 @@ modelica_boolean omc_Vectorization_expEqualNoCrefSubs(threadData_t *threadData, 
         }
         case 24: {
           modelica_metatype tmpMeta66;
-          modelica_metatype tmpMeta67;
-          modelica_metatype tmpMeta68;
+          modelica_metatype tmpMeta70;
+          modelica_metatype tmpMeta71;
+          modelica_metatype tmpMeta72;
+          modelica_metatype tmpMeta73;
           
           /* Pattern matching succeeded */
+          {
+            modelica_metatype __omcQ_24tmpVar3;
+            modelica_metatype* tmp67;
+            modelica_metatype tmpMeta68;
+            modelica_metatype __omcQ_24tmpVar2;
+            modelica_integer tmp69;
+            modelica_metatype _sub_loopVar = 0;
+            modelica_metatype _sub;
+            _sub_loopVar = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inExp1), 3)));
+            tmpMeta68 = MMC_REFSTRUCTLIT(mmc_nil);
+            __omcQ_24tmpVar3 = tmpMeta68; /* defaultValue */
+            tmp67 = &__omcQ_24tmpVar3;
+            while(1) {
+              tmp69 = 1;
+              if (!listEmpty(_sub_loopVar)) {
+                _sub = MMC_CAR(_sub_loopVar);
+                _sub_loopVar = MMC_CDR(_sub_loopVar);
+                tmp69--;
+              }
+              if (tmp69 == 0) {
+                __omcQ_24tmpVar2 = omc_Expression_getSubscriptExp(threadData, _sub);
+                *tmp67 = mmc_mk_cons(__omcQ_24tmpVar2,0);
+                tmp67 = &MMC_CDR(*tmp67);
+              } else if (tmp69 == 1) {
+                break;
+              } else {
+                goto goto_2;
+              }
+            }
+            *tmp67 = mmc_mk_nil();
+            tmpMeta66 = __omcQ_24tmpVar3;
+          }
+          _expl = tmpMeta66;
+
           /* Pattern-matching assignment */
-          tmpMeta66 = _inExp2;
-          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta66,21,2) == 0) goto goto_2;
-          tmpMeta67 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta66), 2));
-          tmpMeta68 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta66), 3));
-          _e = tmpMeta67;
-          _expl = tmpMeta68;
-          tmp1 = (omc_Vectorization_expEqualNoCrefSubs(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inExp1), 2))), _e) && omc_Vectorization_expEqualNoCrefSubsList(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inExp1), 3))), _expl));
+          tmpMeta70 = _inExp2;
+          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta70,21,2) == 0) goto goto_2;
+          tmpMeta71 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta70), 2));
+          tmpMeta72 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta70), 3));
+          _e = tmpMeta71;
+          _subs = tmpMeta72;
+
+          {
+            modelica_metatype __omcQ_24tmpVar5;
+            modelica_metatype* tmp74;
+            modelica_metatype tmpMeta75;
+            modelica_metatype __omcQ_24tmpVar4;
+            modelica_integer tmp76;
+            modelica_metatype _sub_loopVar = 0;
+            modelica_metatype _sub;
+            _sub_loopVar = _subs;
+            tmpMeta75 = MMC_REFSTRUCTLIT(mmc_nil);
+            __omcQ_24tmpVar5 = tmpMeta75; /* defaultValue */
+            tmp74 = &__omcQ_24tmpVar5;
+            while(1) {
+              tmp76 = 1;
+              if (!listEmpty(_sub_loopVar)) {
+                _sub = MMC_CAR(_sub_loopVar);
+                _sub_loopVar = MMC_CDR(_sub_loopVar);
+                tmp76--;
+              }
+              if (tmp76 == 0) {
+                __omcQ_24tmpVar4 = omc_Expression_getSubscriptExp(threadData, _sub);
+                *tmp74 = mmc_mk_cons(__omcQ_24tmpVar4,0);
+                tmp74 = &MMC_CDR(*tmp74);
+              } else if (tmp76 == 1) {
+                break;
+              } else {
+                goto goto_2;
+              }
+            }
+            *tmp74 = mmc_mk_nil();
+            tmpMeta73 = __omcQ_24tmpVar5;
+          }
+          _expl2 = tmpMeta73;
+          tmp1 = (omc_Vectorization_expEqualNoCrefSubs(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inExp1), 2))), _e) && omc_Vectorization_expEqualNoCrefSubsList(threadData, _expl, _expl2));
           goto tmp3_done;
         }
         case 27: {
-          modelica_metatype tmpMeta69;
-          modelica_metatype tmpMeta70;
-          modelica_metatype tmpMeta71;
+          modelica_metatype tmpMeta77;
+          modelica_metatype tmpMeta78;
+          modelica_metatype tmpMeta79;
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmpMeta69 = _inExp2;
-          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta69,24,2) == 0) goto goto_2;
-          tmpMeta70 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta69), 2));
-          tmpMeta71 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta69), 3));
-          _e = tmpMeta70;
-          _oe = tmpMeta71;
+          tmpMeta77 = _inExp2;
+          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta77,24,2) == 0) goto goto_2;
+          tmpMeta78 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta77), 2));
+          tmpMeta79 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta77), 3));
+          _e = tmpMeta78;
+          _oe = tmpMeta79;
           tmp1 = (omc_Vectorization_expEqualNoCrefSubs(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inExp1), 2))), _e) && omc_Vectorization_expEqualNoCrefSubsOpt(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inExp1), 3))), _oe));
           goto tmp3_done;
         }
@@ -2398,73 +2472,73 @@ modelica_boolean omc_Vectorization_expEqualNoCrefSubs(threadData_t *threadData, 
           goto tmp3_done;
         }
         case 31: {
-          modelica_metatype tmpMeta72;
-          modelica_metatype tmpMeta73;
+          modelica_metatype tmpMeta80;
+          modelica_metatype tmpMeta81;
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmpMeta72 = _inExp2;
-          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta72,28,1) == 0) goto goto_2;
-          tmpMeta73 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta72), 2));
-          _expl = tmpMeta73;
+          tmpMeta80 = _inExp2;
+          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta80,28,1) == 0) goto goto_2;
+          tmpMeta81 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta80), 2));
+          _expl = tmpMeta81;
           tmp1 = omc_Vectorization_expEqualNoCrefSubsList(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inExp1), 2))), _expl);
           goto tmp3_done;
         }
         case 32: {
-          modelica_metatype tmpMeta74;
-          modelica_metatype tmpMeta75;
-          modelica_metatype tmpMeta76;
+          modelica_metatype tmpMeta82;
+          modelica_metatype tmpMeta83;
+          modelica_metatype tmpMeta84;
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmpMeta74 = _inExp2;
-          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta74,29,2) == 0) goto goto_2;
-          tmpMeta75 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta74), 2));
-          tmpMeta76 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta74), 3));
-          _e1 = tmpMeta75;
-          _e2 = tmpMeta76;
+          tmpMeta82 = _inExp2;
+          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta82,29,2) == 0) goto goto_2;
+          tmpMeta83 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta82), 2));
+          tmpMeta84 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta82), 3));
+          _e1 = tmpMeta83;
+          _e2 = tmpMeta84;
           tmp1 = (omc_Vectorization_expEqualNoCrefSubs(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inExp1), 2))), _e1) && omc_Vectorization_expEqualNoCrefSubs(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inExp1), 3))), _e2));
           goto tmp3_done;
         }
         case 33: {
-          modelica_metatype tmpMeta77;
-          modelica_metatype tmpMeta78;
+          modelica_metatype tmpMeta85;
+          modelica_metatype tmpMeta86;
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmpMeta77 = _inExp2;
-          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta77,30,1) == 0) goto goto_2;
-          tmpMeta78 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta77), 2));
-          _expl = tmpMeta78;
+          tmpMeta85 = _inExp2;
+          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta85,30,1) == 0) goto goto_2;
+          tmpMeta86 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta85), 2));
+          _expl = tmpMeta86;
           tmp1 = omc_Vectorization_expEqualNoCrefSubsList(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inExp1), 2))), _expl);
           goto tmp3_done;
         }
         case 34: {
-          modelica_metatype tmpMeta79;
-          modelica_metatype tmpMeta80;
+          modelica_metatype tmpMeta87;
+          modelica_metatype tmpMeta88;
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmpMeta79 = _inExp2;
-          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta79,31,1) == 0) goto goto_2;
-          tmpMeta80 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta79), 2));
-          _oe = tmpMeta80;
+          tmpMeta87 = _inExp2;
+          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta87,31,1) == 0) goto goto_2;
+          tmpMeta88 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta87), 2));
+          _oe = tmpMeta88;
           tmp1 = omc_Vectorization_expEqualNoCrefSubsOpt(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inExp1), 2))), _oe);
           goto tmp3_done;
         }
         case 35: {
-          modelica_metatype tmpMeta81;
-          modelica_metatype tmpMeta82;
-          modelica_metatype tmpMeta83;
+          modelica_metatype tmpMeta89;
+          modelica_metatype tmpMeta90;
+          modelica_metatype tmpMeta91;
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmpMeta81 = _inExp2;
-          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta81,32,5) == 0) goto goto_2;
-          tmpMeta82 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta81), 2));
-          tmpMeta83 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta81), 3));
-          _p = tmpMeta82;
-          _expl = tmpMeta83;
+          tmpMeta89 = _inExp2;
+          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta89,32,5) == 0) goto goto_2;
+          tmpMeta90 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta89), 2));
+          tmpMeta91 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta89), 3));
+          _p = tmpMeta90;
+          _expl = tmpMeta91;
           tmp1 = (omc_AbsynUtil_pathEqual(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inExp1), 2))), _p) && omc_Vectorization_expEqualNoCrefSubsList(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inExp1), 3))), _expl));
           goto tmp3_done;
         }
@@ -2475,15 +2549,15 @@ modelica_boolean omc_Vectorization_expEqualNoCrefSubs(threadData_t *threadData, 
           goto tmp3_done;
         }
         case 37: {
-          modelica_metatype tmpMeta84;
-          modelica_metatype tmpMeta85;
+          modelica_metatype tmpMeta92;
+          modelica_metatype tmpMeta93;
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmpMeta84 = _inExp2;
-          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta84,34,1) == 0) goto goto_2;
-          tmpMeta85 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta84), 2));
-          _e = tmpMeta85;
+          tmpMeta92 = _inExp2;
+          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta92,34,1) == 0) goto goto_2;
+          tmpMeta93 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta92), 2));
+          _e = tmpMeta93;
           /* Tail recursive call */
           _inExp1 = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inExp1), 2)));
           _inExp2 = _e;
@@ -2492,15 +2566,15 @@ modelica_boolean omc_Vectorization_expEqualNoCrefSubs(threadData_t *threadData, 
           goto tmp3_done;
         }
         case 38: {
-          modelica_metatype tmpMeta86;
-          modelica_metatype tmpMeta87;
+          modelica_metatype tmpMeta94;
+          modelica_metatype tmpMeta95;
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmpMeta86 = _inExp2;
-          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta86,35,2) == 0) goto goto_2;
-          tmpMeta87 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta86), 2));
-          _e = tmpMeta87;
+          tmpMeta94 = _inExp2;
+          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta94,35,2) == 0) goto goto_2;
+          tmpMeta95 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta94), 2));
+          _e = tmpMeta95;
           /* Tail recursive call */
           _inExp1 = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inExp1), 2)));
           _inExp2 = _e;
@@ -2509,17 +2583,17 @@ modelica_boolean omc_Vectorization_expEqualNoCrefSubs(threadData_t *threadData, 
           goto tmp3_done;
         }
         case 39: {
-          modelica_metatype tmpMeta88;
-          modelica_metatype tmpMeta89;
-          modelica_integer tmp90;
+          modelica_metatype tmpMeta96;
+          modelica_metatype tmpMeta97;
+          modelica_integer tmp98;
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmpMeta88 = _inExp2;
-          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta88,36,2) == 0) goto goto_2;
-          tmpMeta89 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta88), 2));
-          tmp90 = mmc_unbox_integer(tmpMeta89);
-          _i = tmp90  /* pattern as ty=Integer */;
+          tmpMeta96 = _inExp2;
+          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta96,36,2) == 0) goto goto_2;
+          tmpMeta97 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta96), 2));
+          tmp98 = mmc_unbox_integer(tmpMeta97);
+          _i = tmp98  /* pattern as ty=Integer */;
           tmp1 = (mmc_unbox_integer((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inExp1), 2)))) == _i);
           goto tmp3_done;
         }

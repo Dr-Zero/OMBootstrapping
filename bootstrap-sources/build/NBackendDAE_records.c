@@ -6,7 +6,7 @@ extern "C" {
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NBackendDAE_MAIN__desc_added
 #define NBackendDAE_MAIN__desc_added
-ADD_METARECORD_DEFINITIONS const char* NBackendDAE_MAIN__desc__fields[13] = {"ode","algebraic","ode_event","alg_event","clocked","init","init_0","dae","varData","eqData","eventInfo","clockedInfo","funcTree"};
+ADD_METARECORD_DEFINITIONS const char* NBackendDAE_MAIN__desc__fields[13] = {"ode","algebraic","ode_event","alg_event","clocked","init","init_0","dae","varData","eqData","eventInfo","clockedInfo","funcMap"};
 ADD_METARECORD_DEFINITIONS struct record_description NBackendDAE_MAIN__desc = {
   "NBackendDAE_MAIN",
   "NBackendDAE.MAIN",
@@ -19,7 +19,7 @@ extern struct record_description NBackendDAE_MAIN__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NBackendDAE_JACOBIAN__desc_added
 #define NBackendDAE_JACOBIAN__desc_added
-ADD_METARECORD_DEFINITIONS const char* NBackendDAE_JACOBIAN__desc__fields[6] = {"name","jacType","varData","comps","sparsityPattern","sparsityColoring"};
+ADD_METARECORD_DEFINITIONS const char* NBackendDAE_JACOBIAN__desc__fields[7] = {"name","jacType","varData","comps","sparsityPattern","sparsityColoring","isAdjoint"};
 ADD_METARECORD_DEFINITIONS struct record_description NBackendDAE_JACOBIAN__desc = {
   "NBackendDAE_JACOBIAN",
   "NBackendDAE.JACOBIAN",

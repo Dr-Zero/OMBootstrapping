@@ -4,11 +4,13 @@ extern "C" {
 #include "openmodelica.h"       // Defines OPENMODELICA_H_ for libraris to test if called from OpenModelica.
 #include "ModelicaUtilities.h"  // Make Modelica C util functions available for external includes.
 
+#include "AbsynUtil.h"
 #include "Error.h"
 #include "Flags.h"
 #include "List.h"
 #include "NBEquation.h"
 #include "NBReplacements.h"
+#include "NBSlice.h"
 #include "NBSolve.h"
 #include "NBStrongComponent.h"
 #include "NBVariable.h"
@@ -19,7 +21,6 @@ extern "C" {
 #include "NFInstNode.h"
 #include "NFSimplifyExp.h"
 #include "NFStatement.h"
-#include "NFSubscript.h"
 #include "NFTyping.h"
 #include "Pointer.h"
 #include "StringUtil.h"

@@ -43,6 +43,19 @@ ADD_METARECORD_DEFINITIONS struct record_description JSON_ARRAY__desc = {
 extern struct record_description JSON_ARRAY__desc;
 #endif
 #ifdef ADD_METARECORD_DEFINITIONS
+#ifndef JSON_LIST__desc_added
+#define JSON_LIST__desc_added
+ADD_METARECORD_DEFINITIONS const char* JSON_LIST__desc__fields[1] = {"values"};
+ADD_METARECORD_DEFINITIONS struct record_description JSON_LIST__desc = {
+  "JSON_LIST",
+  "JSON.LIST",
+  JSON_LIST__desc__fields
+};
+#endif
+#else /* Only use the file as a header */
+extern struct record_description JSON_LIST__desc;
+#endif
+#ifdef ADD_METARECORD_DEFINITIONS
 #ifndef JSON_STRING__desc_added
 #define JSON_STRING__desc_added
 ADD_METARECORD_DEFINITIONS const char* JSON_STRING__desc__fields[1] = {"str"};

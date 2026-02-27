@@ -8,24 +8,28 @@
 
 void omc_UnitParserExt_commit(threadData_t *threadData)
 {
+
   UnitParserExtImpl__commit();
   return;
 }
 
 void omc_UnitParserExt_clear(threadData_t *threadData)
 {
+
   UnitParserExtImpl__clear();
   return;
 }
 
 void omc_UnitParserExt_rollback(threadData_t *threadData)
 {
+
   UnitParserExtImpl__rollback();
   return;
 }
 
 void omc_UnitParserExt_checkpoint(threadData_t *threadData)
 {
+
   UnitParserExtImpl__checkpoint();
   return;
 }
@@ -33,7 +37,7 @@ void omc_UnitParserExt_checkpoint(threadData_t *threadData)
 void omc_UnitParserExt_addDerivedWeight(threadData_t *threadData, modelica_string _name, modelica_string _exp, modelica_real _weight)
 {
   double _weight_ext;
-  _weight_ext = (double)_weight;
+  _weight_ext = (double) _weight;
   UnitParserExtImpl__addDerivedWeight(MMC_STRINGDATA(_name), MMC_STRINGDATA(_exp), _weight_ext);
   return;
 }
@@ -47,6 +51,7 @@ void boxptr_UnitParserExt_addDerivedWeight(threadData_t *threadData, modelica_me
 
 void omc_UnitParserExt_addDerived(threadData_t *threadData, modelica_string _name, modelica_string _exp)
 {
+
   UnitParserExtImpl__addDerived(MMC_STRINGDATA(_name), MMC_STRINGDATA(_exp));
   return;
 }
@@ -54,7 +59,7 @@ void omc_UnitParserExt_addDerived(threadData_t *threadData, modelica_string _nam
 void omc_UnitParserExt_registerWeight(threadData_t *threadData, modelica_string _name, modelica_real _weight)
 {
   double _weight_ext;
-  _weight_ext = (double)_weight;
+  _weight_ext = (double) _weight;
   UnitParserExtImpl__registerWeight(MMC_STRINGDATA(_name), _weight_ext);
   return;
 }
@@ -68,6 +73,7 @@ void boxptr_UnitParserExt_registerWeight(threadData_t *threadData, modelica_meta
 
 void omc_UnitParserExt_addBase(threadData_t *threadData, modelica_string _name)
 {
+
   UnitParserExtImpl__addBase(MMC_STRINGDATA(_name));
   return;
 }
@@ -77,6 +83,7 @@ modelica_metatype omc_UnitParserExt_allUnitSymbols(threadData_t *threadData)
   modelica_metatype _unitSymbols_ext;
   modelica_metatype _unitSymbols = NULL;
   // _unitSymbols has no default value.
+
   _unitSymbols_ext = UnitParserExtImpl__allUnitSymbols();
   _unitSymbols = (modelica_metatype)_unitSymbols_ext;
   return _unitSymbols;
@@ -105,6 +112,7 @@ modelica_metatype omc_UnitParserExt_str2unit(threadData_t *threadData, modelica_
   // _tpstrs has no default value.
   // _scaleFactor has no default value.
   // _offset has no default value.
+
   UnitParserExt_str2unit(MMC_STRINGDATA(_res), &_noms_ext, &_denoms_ext, &_tpnoms_ext, &_tpdenoms_ext, &_tpstrs_ext, &_scaleFactor_ext, &_offset_ext);
   _noms = (modelica_metatype)_noms_ext;
   _denoms = (modelica_metatype)_denoms_ext;
@@ -149,13 +157,13 @@ modelica_string omc_UnitParserExt_unit2str(threadData_t *threadData, modelica_me
   const char* _res_ext;
   modelica_string _res = NULL;
   // _res has no default value.
-  _noms_ext = (modelica_metatype)_noms;
-  _denoms_ext = (modelica_metatype)_denoms;
-  _tpnoms_ext = (modelica_metatype)_tpnoms;
-  _tpdenoms_ext = (modelica_metatype)_tpdenoms;
-  _tpstrs_ext = (modelica_metatype)_tpstrs;
-  _scaleFactor_ext = (double)_scaleFactor;
-  _offset_ext = (double)_offset;
+  _noms_ext = (modelica_metatype) _noms;
+  _denoms_ext = (modelica_metatype) _denoms;
+  _tpnoms_ext = (modelica_metatype) _tpnoms;
+  _tpdenoms_ext = (modelica_metatype) _tpdenoms;
+  _tpstrs_ext = (modelica_metatype) _tpstrs;
+  _scaleFactor_ext = (double) _scaleFactor;
+  _offset_ext = (double) _offset;
   _res_ext = UnitParserExt_unit2str(_noms_ext, _denoms_ext, _tpnoms_ext, _tpdenoms_ext, _tpstrs_ext, _scaleFactor_ext, _offset_ext);
   _res = (modelica_string)mmc_mk_scon(_res_ext);
   return _res;
@@ -174,6 +182,7 @@ modelica_metatype boxptr_UnitParserExt_unit2str(threadData_t *threadData, modeli
 
 void omc_UnitParserExt_initSIUnits(threadData_t *threadData)
 {
+
   UnitParserExtImpl__initSIUnits();
   return;
 }

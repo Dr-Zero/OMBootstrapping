@@ -84,7 +84,7 @@ extern struct record_description NBStrongComponent_RESIZABLE__COMPONENT__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NBStrongComponent_GENERIC__COMPONENT__desc_added
 #define NBStrongComponent_GENERIC__COMPONENT__desc_added
-ADD_METARECORD_DEFINITIONS const char* NBStrongComponent_GENERIC__COMPONENT__desc__fields[2] = {"var_cref","eqn"};
+ADD_METARECORD_DEFINITIONS const char* NBStrongComponent_GENERIC__COMPONENT__desc__fields[3] = {"var_cref","var","eqn"};
 ADD_METARECORD_DEFINITIONS struct record_description NBStrongComponent_GENERIC__COMPONENT__desc = {
   "NBStrongComponent_GENERIC__COMPONENT",
   "NBStrongComponent.GENERIC_COMPONENT",

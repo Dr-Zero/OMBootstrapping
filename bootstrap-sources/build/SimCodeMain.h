@@ -147,9 +147,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeMain_generateModelCode,2,0) {(vo
 
 
 DLLDirection
-modelica_metatype omc_SimCodeMain_createSimulationSettings(threadData_t *threadData, modelica_real _startTime, modelica_real _stopTime, modelica_integer _inumberOfIntervals, modelica_real _tolerance, modelica_string _method, modelica_string _options, modelica_string _outputFormat, modelica_string _variableFilter, modelica_string _cflags);
+modelica_metatype omc_SimCodeMain_createSimulationSettings(threadData_t *threadData, modelica_real _startTime, modelica_real _stopTime, modelica_integer _inumberOfIntervals, modelica_real _tolerance, modelica_string _method, modelica_string _options, modelica_string _outputFormat, modelica_string _variableFilter, modelica_string _cflags, modelica_string _simflags);
 DLLDirection
-modelica_metatype boxptr_SimCodeMain_createSimulationSettings(threadData_t *threadData, modelica_metatype _startTime, modelica_metatype _stopTime, modelica_metatype _inumberOfIntervals, modelica_metatype _tolerance, modelica_metatype _method, modelica_metatype _options, modelica_metatype _outputFormat, modelica_metatype _variableFilter, modelica_metatype _cflags);
+modelica_metatype boxptr_SimCodeMain_createSimulationSettings(threadData_t *threadData, modelica_metatype _startTime, modelica_metatype _stopTime, modelica_metatype _inumberOfIntervals, modelica_metatype _tolerance, modelica_metatype _method, modelica_metatype _options, modelica_metatype _outputFormat, modelica_metatype _variableFilter, modelica_metatype _cflags, modelica_metatype _simflags);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeMain_createSimulationSettings,2,0) {(void*) boxptr_SimCodeMain_createSimulationSettings,0}};
 #define boxvar_SimCodeMain_createSimulationSettings MMC_REFSTRUCTLIT(boxvar_lit_SimCodeMain_createSimulationSettings)
 

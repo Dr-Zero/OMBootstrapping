@@ -6,7 +6,7 @@ extern "C" {
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NFUnit_Unit_UNIT__desc_added
 #define NFUnit_Unit_UNIT__desc_added
-ADD_METARECORD_DEFINITIONS const char* NFUnit_Unit_UNIT__desc__fields[8] = {"factor","mol","cd","m","s","A","K","g"};
+ADD_METARECORD_DEFINITIONS const char* NFUnit_Unit_UNIT__desc__fields[8] = {"s","m","g","A","K","mol","cd","factor"};
 ADD_METARECORD_DEFINITIONS struct record_description NFUnit_Unit_UNIT__desc = {
   "NFUnit_Unit_UNIT",
   "NFUnit.Unit.UNIT",
@@ -71,7 +71,7 @@ extern struct record_description NFUnit_Unit_MASTER__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NFUnit_Unit_UNIT__desc_added
 #define NFUnit_Unit_UNIT__desc_added
-ADD_METARECORD_DEFINITIONS const char* NFUnit_Unit_UNIT__desc__fields[8] = {"factor","mol","cd","m","s","A","K","g"};
+ADD_METARECORD_DEFINITIONS const char* NFUnit_Unit_UNIT__desc__fields[8] = {"s","m","g","A","K","mol","cd","factor"};
 ADD_METARECORD_DEFINITIONS struct record_description NFUnit_Unit_UNIT__desc = {
   "NFUnit_Unit_UNIT",
   "NFUnit.Unit.UNIT",

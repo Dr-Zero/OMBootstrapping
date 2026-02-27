@@ -34,8 +34,6 @@ extern struct record_description NFBackendExtension_BackendInfo_BACKEND__INFO__d
 
 extern struct record_description NFBackendExtension_VariableAttributes_VAR__ATTR__REAL__desc;
 
-extern struct record_description NFBackendExtension_VariableKind_ALGEBRAIC__desc;
-
 extern struct record_description NFBackendExtension_VariableKind_ALG__STATE__desc;
 
 extern struct record_description NFBackendExtension_VariableKind_CLOCK__desc;
@@ -88,8 +86,6 @@ extern struct record_description NFComponentRef_EMPTY__desc;
 
 extern struct record_description NFDuplicateTree_Tree_EMPTY__desc;
 
-extern struct record_description NFExpression_INTEGER__desc;
-
 extern struct record_description NFInstNode_CachedData_FUNCTION__desc;
 
 extern struct record_description NFInstNode_InstNode_CLASS__NODE__desc;
@@ -117,8 +113,6 @@ extern struct record_description NFModifier_Modifier_NOMOD__desc;
 extern struct record_description NFPrefixes_Replaceable_NOT__REPLACEABLE__desc;
 
 extern struct record_description NFRestriction_TYPE__desc;
-
-extern struct record_description NFSubscript_INDEX__desc;
 
 extern struct record_description NFType_ANY__desc;
 
@@ -266,8 +260,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBVariable_VariablePointers_getMarkedVa
 
 
 DLLDirection
-modelica_metatype omc_NBVariable_VariablePointers_getScalarVarNames(threadData_t *threadData, modelica_metatype _variables);
-#define boxptr_NBVariable_VariablePointers_getScalarVarNames omc_NBVariable_VariablePointers_getScalarVarNames
+modelica_metatype omc_NBVariable_VariablePointers_getScalarVarNames(threadData_t *threadData, modelica_metatype _variables, modelica_boolean _resize);
+DLLDirection
+modelica_metatype boxptr_NBVariable_VariablePointers_getScalarVarNames(threadData_t *threadData, modelica_metatype _variables, modelica_metatype _resize);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBVariable_VariablePointers_getScalarVarNames,2,0) {(void*) boxptr_NBVariable_VariablePointers_getScalarVarNames,0}};
 #define boxvar_NBVariable_VariablePointers_getScalarVarNames MMC_REFSTRUCTLIT(boxvar_lit_NBVariable_VariablePointers_getScalarVarNames)
 
@@ -502,16 +497,17 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBVariable_getStartAttribute,2,0) {(voi
 
 
 DLLDirection
-modelica_metatype omc_NBVariable_setBindingAsStartAndFix(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fvar_5Fptr, modelica_boolean _b);
+modelica_metatype omc_NBVariable_setBindingAsStartAndFix(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fvar_5Fptr, modelica_boolean _b, modelica_boolean _overwrite);
 DLLDirection
-modelica_metatype boxptr_NBVariable_setBindingAsStartAndFix(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fvar_5Fptr, modelica_metatype _b);
+modelica_metatype boxptr_NBVariable_setBindingAsStartAndFix(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fvar_5Fptr, modelica_metatype _b, modelica_metatype _overwrite);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBVariable_setBindingAsStartAndFix,2,0) {(void*) boxptr_NBVariable_setBindingAsStartAndFix,0}};
 #define boxvar_NBVariable_setBindingAsStartAndFix MMC_REFSTRUCTLIT(boxvar_lit_NBVariable_setBindingAsStartAndFix)
 
 
 DLLDirection
-void omc_NBVariable_setBindingAsStart(threadData_t *threadData, modelica_metatype _var_ptr);
-#define boxptr_NBVariable_setBindingAsStart omc_NBVariable_setBindingAsStart
+void omc_NBVariable_setBindingAsStart(threadData_t *threadData, modelica_metatype _var_ptr, modelica_boolean _overwrite);
+DLLDirection
+void boxptr_NBVariable_setBindingAsStart(threadData_t *threadData, modelica_metatype _var_ptr, modelica_metatype _overwrite);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBVariable_setBindingAsStart,2,0) {(void*) boxptr_NBVariable_setBindingAsStart,0}};
 #define boxvar_NBVariable_setBindingAsStart MMC_REFSTRUCTLIT(boxvar_lit_NBVariable_setBindingAsStart)
 
@@ -770,6 +766,14 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBVariable_setVarKind,2,0) {(void*) box
 
 
 DLLDirection
+modelica_integer omc_NBVariable_getTearingSelect(threadData_t *threadData, modelica_metatype _varPointer);
+DLLDirection
+modelica_metatype boxptr_NBVariable_getTearingSelect(threadData_t *threadData, modelica_metatype _varPointer);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBVariable_getTearingSelect,2,0) {(void*) boxptr_NBVariable_getTearingSelect,0}};
+#define boxvar_NBVariable_getTearingSelect MMC_REFSTRUCTLIT(boxvar_lit_NBVariable_getTearingSelect)
+
+
+DLLDirection
 modelica_metatype omc_NBVariable_setTearingSelect(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fvar, modelica_integer _tearingSelect_val, modelica_boolean _overwrite);
 DLLDirection
 modelica_metatype boxptr_NBVariable_setTearingSelect(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fvar, modelica_metatype _tearingSelect_val, modelica_metatype _overwrite);
@@ -904,6 +908,62 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBVariable_isResizable,2,0) {(void*) bo
 
 
 DLLDirection
+modelica_boolean omc_NBVariable_isStateOrOptimizable(threadData_t *threadData, modelica_metatype _var_ptr);
+DLLDirection
+modelica_metatype boxptr_NBVariable_isStateOrOptimizable(threadData_t *threadData, modelica_metatype _var_ptr);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBVariable_isStateOrOptimizable,2,0) {(void*) boxptr_NBVariable_isStateOrOptimizable,0}};
+#define boxvar_NBVariable_isStateOrOptimizable MMC_REFSTRUCTLIT(boxvar_lit_NBVariable_isStateOrOptimizable)
+
+
+DLLDirection
+modelica_boolean omc_NBVariable_isInitialConstraint(threadData_t *threadData, modelica_metatype _var_ptr);
+DLLDirection
+modelica_metatype boxptr_NBVariable_isInitialConstraint(threadData_t *threadData, modelica_metatype _var_ptr);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBVariable_isInitialConstraint,2,0) {(void*) boxptr_NBVariable_isInitialConstraint,0}};
+#define boxvar_NBVariable_isInitialConstraint MMC_REFSTRUCTLIT(boxvar_lit_NBVariable_isInitialConstraint)
+
+
+DLLDirection
+modelica_boolean omc_NBVariable_isMayerOrFinalConstraint(threadData_t *threadData, modelica_metatype _var_ptr);
+DLLDirection
+modelica_metatype boxptr_NBVariable_isMayerOrFinalConstraint(threadData_t *threadData, modelica_metatype _var_ptr);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBVariable_isMayerOrFinalConstraint,2,0) {(void*) boxptr_NBVariable_isMayerOrFinalConstraint,0}};
+#define boxvar_NBVariable_isMayerOrFinalConstraint MMC_REFSTRUCTLIT(boxvar_lit_NBVariable_isMayerOrFinalConstraint)
+
+
+DLLDirection
+modelica_boolean omc_NBVariable_isLagrangeOrPathConstraint(threadData_t *threadData, modelica_metatype _var_ptr);
+DLLDirection
+modelica_metatype boxptr_NBVariable_isLagrangeOrPathConstraint(threadData_t *threadData, modelica_metatype _var_ptr);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBVariable_isLagrangeOrPathConstraint,2,0) {(void*) boxptr_NBVariable_isLagrangeOrPathConstraint,0}};
+#define boxvar_NBVariable_isLagrangeOrPathConstraint MMC_REFSTRUCTLIT(boxvar_lit_NBVariable_isLagrangeOrPathConstraint)
+
+
+DLLDirection
+modelica_boolean omc_NBVariable_isFinalTime(threadData_t *threadData, modelica_metatype _var_ptr);
+DLLDirection
+modelica_metatype boxptr_NBVariable_isFinalTime(threadData_t *threadData, modelica_metatype _var_ptr);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBVariable_isFinalTime,2,0) {(void*) boxptr_NBVariable_isFinalTime,0}};
+#define boxvar_NBVariable_isFinalTime MMC_REFSTRUCTLIT(boxvar_lit_NBVariable_isFinalTime)
+
+
+DLLDirection
+modelica_boolean omc_NBVariable_isInitialTime(threadData_t *threadData, modelica_metatype _var_ptr);
+DLLDirection
+modelica_metatype boxptr_NBVariable_isInitialTime(threadData_t *threadData, modelica_metatype _var_ptr);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBVariable_isInitialTime,2,0) {(void*) boxptr_NBVariable_isInitialTime,0}};
+#define boxvar_NBVariable_isInitialTime MMC_REFSTRUCTLIT(boxvar_lit_NBVariable_isInitialTime)
+
+
+DLLDirection
+modelica_boolean omc_NBVariable_isOptimizable(threadData_t *threadData, modelica_metatype _var_ptr);
+DLLDirection
+modelica_metatype boxptr_NBVariable_isOptimizable(threadData_t *threadData, modelica_metatype _var_ptr);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBVariable_isOptimizable,2,0) {(void*) boxptr_NBVariable_isOptimizable,0}};
+#define boxvar_NBVariable_isOptimizable MMC_REFSTRUCTLIT(boxvar_lit_NBVariable_isOptimizable)
+
+
+DLLDirection
 modelica_boolean omc_NBVariable_isKnown(threadData_t *threadData, modelica_metatype _var_ptr);
 DLLDirection
 modelica_metatype boxptr_NBVariable_isKnown(threadData_t *threadData, modelica_metatype _var_ptr);
@@ -941,6 +1001,22 @@ DLLDirection
 modelica_metatype boxptr_NBVariable_isDummyState(threadData_t *threadData, modelica_metatype _var_ptr);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBVariable_isDummyState,2,0) {(void*) boxptr_NBVariable_isDummyState,0}};
 #define boxvar_NBVariable_isDummyState MMC_REFSTRUCTLIT(boxvar_lit_NBVariable_isDummyState)
+
+
+DLLDirection
+modelica_boolean omc_NBVariable_isJacobianResultVarPDer(threadData_t *threadData, modelica_metatype _var_ptr);
+DLLDirection
+modelica_metatype boxptr_NBVariable_isJacobianResultVarPDer(threadData_t *threadData, modelica_metatype _var_ptr);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBVariable_isJacobianResultVarPDer,2,0) {(void*) boxptr_NBVariable_isJacobianResultVarPDer,0}};
+#define boxvar_NBVariable_isJacobianResultVarPDer MMC_REFSTRUCTLIT(boxvar_lit_NBVariable_isJacobianResultVarPDer)
+
+
+DLLDirection
+modelica_boolean omc_NBVariable_isJacobianResultVar(threadData_t *threadData, modelica_metatype _var_ptr);
+DLLDirection
+modelica_metatype boxptr_NBVariable_isJacobianResultVar(threadData_t *threadData, modelica_metatype _var_ptr);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBVariable_isJacobianResultVar,2,0) {(void*) boxptr_NBVariable_isJacobianResultVar,0}};
+#define boxvar_NBVariable_isJacobianResultVar MMC_REFSTRUCTLIT(boxvar_lit_NBVariable_isJacobianResultVar)
 
 
 DLLDirection
@@ -1010,11 +1086,35 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBVariable_getVarPre,2,0) {(void*) boxp
 
 
 DLLDirection
+modelica_boolean omc_NBVariable_hasTearingSelect(threadData_t *threadData, modelica_metatype _varPointer, modelica_integer _compareTS, modelica_fnptr _func);
+DLLDirection
+modelica_metatype boxptr_NBVariable_hasTearingSelect(threadData_t *threadData, modelica_metatype _varPointer, modelica_metatype _compareTS, modelica_fnptr _func);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBVariable_hasTearingSelect,2,0) {(void*) boxptr_NBVariable_hasTearingSelect,0}};
+#define boxvar_NBVariable_hasTearingSelect MMC_REFSTRUCTLIT(boxvar_lit_NBVariable_hasTearingSelect)
+
+
+DLLDirection
+modelica_boolean omc_NBVariable_isPDer(threadData_t *threadData, modelica_metatype _var_ptr);
+DLLDirection
+modelica_metatype boxptr_NBVariable_isPDer(threadData_t *threadData, modelica_metatype _var_ptr);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBVariable_isPDer,2,0) {(void*) boxptr_NBVariable_isPDer,0}};
+#define boxvar_NBVariable_isPDer MMC_REFSTRUCTLIT(boxvar_lit_NBVariable_isPDer)
+
+
+DLLDirection
 modelica_boolean omc_NBVariable_isIterator(threadData_t *threadData, modelica_metatype _var_ptr);
 DLLDirection
 modelica_metatype boxptr_NBVariable_isIterator(threadData_t *threadData, modelica_metatype _var_ptr);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBVariable_isIterator,2,0) {(void*) boxptr_NBVariable_isIterator,0}};
 #define boxvar_NBVariable_isIterator MMC_REFSTRUCTLIT(boxvar_lit_NBVariable_isIterator)
+
+
+DLLDirection
+modelica_boolean omc_NBVariable_isClockOrClocked(threadData_t *threadData, modelica_metatype _var_ptr);
+DLLDirection
+modelica_metatype boxptr_NBVariable_isClockOrClocked(threadData_t *threadData, modelica_metatype _var_ptr);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBVariable_isClockOrClocked,2,0) {(void*) boxptr_NBVariable_isClockOrClocked,0}};
+#define boxvar_NBVariable_isClockOrClocked MMC_REFSTRUCTLIT(boxvar_lit_NBVariable_isClockOrClocked)
 
 
 DLLDirection
@@ -1079,6 +1179,22 @@ DLLDirection
 modelica_metatype boxptr_NBVariable_isDiscreteState(threadData_t *threadData, modelica_metatype _var_ptr);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBVariable_isDiscreteState,2,0) {(void*) boxptr_NBVariable_isDiscreteState,0}};
 #define boxvar_NBVariable_isDiscreteState MMC_REFSTRUCTLIT(boxvar_lit_NBVariable_isDiscreteState)
+
+
+DLLDirection
+modelica_boolean omc_NBVariable_isContinuousRecordAware(threadData_t *threadData, modelica_metatype _var_ptr, modelica_boolean _init);
+DLLDirection
+modelica_metatype boxptr_NBVariable_isContinuousRecordAware(threadData_t *threadData, modelica_metatype _var_ptr, modelica_metatype _init);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBVariable_isContinuousRecordAware,2,0) {(void*) boxptr_NBVariable_isContinuousRecordAware,0}};
+#define boxvar_NBVariable_isContinuousRecordAware MMC_REFSTRUCTLIT(boxvar_lit_NBVariable_isContinuousRecordAware)
+
+
+DLLDirection
+modelica_boolean omc_NBVariable_isDiscontinuous(threadData_t *threadData, modelica_metatype _var_ptr, modelica_boolean _init);
+DLLDirection
+modelica_metatype boxptr_NBVariable_isDiscontinuous(threadData_t *threadData, modelica_metatype _var_ptr, modelica_metatype _init);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBVariable_isDiscontinuous,2,0) {(void*) boxptr_NBVariable_isDiscontinuous,0}};
+#define boxvar_NBVariable_isDiscontinuous MMC_REFSTRUCTLIT(boxvar_lit_NBVariable_isDiscontinuous)
 
 
 DLLDirection

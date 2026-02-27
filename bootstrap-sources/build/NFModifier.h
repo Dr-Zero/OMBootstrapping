@@ -323,6 +323,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFModifier_ModTable_addList,2,0) {(void
 #define boxvar_NFModifier_ModTable_addList MMC_REFSTRUCTLIT(boxvar_lit_NFModifier_ModTable_addList)
 
 
+DLLDirection
+modelica_metatype omc_NFModifier_ModTable_addUpdate(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftree, modelica_string _key, modelica_fnptr _fn);
+#define boxptr_NFModifier_ModTable_addUpdate omc_NFModifier_ModTable_addUpdate
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFModifier_ModTable_addUpdate,2,0) {(void*) boxptr_NFModifier_ModTable_addUpdate,0}};
+#define boxvar_NFModifier_ModTable_addUpdate MMC_REFSTRUCTLIT(boxvar_lit_NFModifier_ModTable_addUpdate)
+
+
 #define boxptr_NFModifier_ModTable_balance omc_NFModifier_ModTable_balance
 
 
@@ -421,7 +428,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFModifier_ModTable_keyStr,2,0) {(void*
 
 
 DLLDirection
-modelica_metatype omc_NFModifier_ModTable_listKeys(threadData_t *threadData, modelica_metatype _inTree, modelica_metatype __omcQ_24in_5Flst);
+modelica_metatype omc_NFModifier_ModTable_listKeys(threadData_t *threadData, modelica_metatype _tree, modelica_metatype __omcQ_24in_5Flst);
 #define boxptr_NFModifier_ModTable_listKeys omc_NFModifier_ModTable_listKeys
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFModifier_ModTable_listKeys,2,0) {(void*) boxptr_NFModifier_ModTable_listKeys,0}};
 #define boxvar_NFModifier_ModTable_listKeys MMC_REFSTRUCTLIT(boxvar_lit_NFModifier_ModTable_listKeys)

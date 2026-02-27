@@ -28,6 +28,9 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 #define boxptr_SerializeModelInfo_getWhenUses omc_SerializeModelInfo_getWhenUses
 
 
+#define boxptr_SerializeModelInfo_varKindString omc_SerializeModelInfo_varKindString
+
+
 DLLDirection
 modelica_string omc_SerializeModelInfo_serialize(threadData_t *threadData, modelica_metatype _code, modelica_boolean _withOperations);
 DLLDirection

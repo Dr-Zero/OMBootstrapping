@@ -45,7 +45,7 @@ extern struct record_description NBVariable_VarData_VAR__DATA__SIM__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NBVariable_VarData_VAR__DATA__JAC__desc_added
 #define NBVariable_VarData_VAR__DATA__JAC__desc_added
-ADD_METARECORD_DEFINITIONS const char* NBVariable_VarData_VAR__DATA__JAC__desc__fields[10] = {"variables","unknowns","knowns","auxiliaries","aliasVars","diffVars","dependencies","resultVars","tmpVars","seedVars"};
+ADD_METARECORD_DEFINITIONS const char* NBVariable_VarData_VAR__DATA__JAC__desc__fields[9] = {"variables","unknowns","auxiliaries","aliasVars","diffVars","dependencies","resultVars","tmpVars","seedVars"};
 ADD_METARECORD_DEFINITIONS struct record_description NBVariable_VarData_VAR__DATA__JAC__desc = {
   "NBVariable_VarData_VAR__DATA__JAC",
   "NBVariable.VarData.VAR_DATA_JAC",
@@ -110,7 +110,7 @@ extern struct record_description NBVariable_VarData_VAR__DATA__HES__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NBVariable_VarData_VAR__DATA__JAC__desc_added
 #define NBVariable_VarData_VAR__DATA__JAC__desc_added
-ADD_METARECORD_DEFINITIONS const char* NBVariable_VarData_VAR__DATA__JAC__desc__fields[10] = {"variables","unknowns","knowns","auxiliaries","aliasVars","diffVars","dependencies","resultVars","tmpVars","seedVars"};
+ADD_METARECORD_DEFINITIONS const char* NBVariable_VarData_VAR__DATA__JAC__desc__fields[9] = {"variables","unknowns","auxiliaries","aliasVars","diffVars","dependencies","resultVars","tmpVars","seedVars"};
 ADD_METARECORD_DEFINITIONS struct record_description NBVariable_VarData_VAR__DATA__JAC__desc = {
   "NBVariable_VarData_VAR__DATA__JAC",
   "NBVariable.VarData.VAR_DATA_JAC",

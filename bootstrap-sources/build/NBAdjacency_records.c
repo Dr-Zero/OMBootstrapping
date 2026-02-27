@@ -95,6 +95,32 @@ ADD_METARECORD_DEFINITIONS struct record_description NBAdjacency_Matrix_FINAL__d
 extern struct record_description NBAdjacency_Matrix_FINAL__desc;
 #endif
 #ifdef ADD_METARECORD_DEFINITIONS
+#ifndef NBAdjacency_Matrix_SPARSITY__desc_added
+#define NBAdjacency_Matrix_SPARSITY__desc_added
+ADD_METARECORD_DEFINITIONS const char* NBAdjacency_Matrix_SPARSITY__desc__fields[4] = {"equation_names","dependencies","repetitions","solved_variables"};
+ADD_METARECORD_DEFINITIONS struct record_description NBAdjacency_Matrix_SPARSITY__desc = {
+  "NBAdjacency_Matrix_SPARSITY",
+  "NBAdjacency.Matrix.SPARSITY",
+  NBAdjacency_Matrix_SPARSITY__desc__fields
+};
+#endif
+#else /* Only use the file as a header */
+extern struct record_description NBAdjacency_Matrix_SPARSITY__desc;
+#endif
+#ifdef ADD_METARECORD_DEFINITIONS
+#ifndef NBAdjacency_Matrix_SPARSITY__desc_added
+#define NBAdjacency_Matrix_SPARSITY__desc_added
+ADD_METARECORD_DEFINITIONS const char* NBAdjacency_Matrix_SPARSITY__desc__fields[4] = {"equation_names","dependencies","repetitions","solved_variables"};
+ADD_METARECORD_DEFINITIONS struct record_description NBAdjacency_Matrix_SPARSITY__desc = {
+  "NBAdjacency_Matrix_SPARSITY",
+  "NBAdjacency.Matrix.SPARSITY",
+  NBAdjacency_Matrix_SPARSITY__desc__fields
+};
+#endif
+#else /* Only use the file as a header */
+extern struct record_description NBAdjacency_Matrix_SPARSITY__desc;
+#endif
+#ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NBAdjacency_Matrix_FINAL__desc_added
 #define NBAdjacency_Matrix_FINAL__desc_added
 ADD_METARECORD_DEFINITIONS const char* NBAdjacency_Matrix_FINAL__desc__fields[5] = {"m","mT","mapping","modes","st"};

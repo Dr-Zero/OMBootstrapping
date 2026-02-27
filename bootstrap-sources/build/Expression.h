@@ -428,6 +428,14 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_isScalar,2,0) {(void*) boxpt
 
 
 DLLDirection
+modelica_boolean omc_Expression_isScalarSubscript(threadData_t *threadData, modelica_metatype _sub);
+DLLDirection
+modelica_metatype boxptr_Expression_isScalarSubscript(threadData_t *threadData, modelica_metatype _sub);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_isScalarSubscript,2,0) {(void*) boxptr_Expression_isScalarSubscript,0}};
+#define boxvar_Expression_isScalarSubscript MMC_REFSTRUCTLIT(boxvar_lit_Expression_isScalarSubscript)
+
+
+DLLDirection
 modelica_metatype omc_Expression_expandRange(threadData_t *threadData, modelica_metatype _inRange);
 #define boxptr_Expression_expandRange omc_Expression_expandRange
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_expandRange,2,0) {(void*) boxptr_Expression_expandRange,0}};
@@ -931,6 +939,14 @@ DLLDirection
 modelica_metatype boxptr_Expression_subscriptConstants(threadData_t *threadData, modelica_metatype _inSubs);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_subscriptConstants,2,0) {(void*) boxptr_Expression_subscriptConstants,0}};
 #define boxvar_Expression_subscriptConstants MMC_REFSTRUCTLIT(boxvar_lit_Expression_subscriptConstants)
+
+
+DLLDirection
+modelica_boolean omc_Expression_subscriptConstant(threadData_t *threadData, modelica_metatype _sub);
+DLLDirection
+modelica_metatype boxptr_Expression_subscriptConstant(threadData_t *threadData, modelica_metatype _sub);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_subscriptConstant,2,0) {(void*) boxptr_Expression_subscriptConstant,0}};
+#define boxvar_Expression_subscriptConstant MMC_REFSTRUCTLIT(boxvar_lit_Expression_subscriptConstant)
 
 
 DLLDirection
@@ -2040,7 +2056,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_extractCrefsStatment,2,0) {(
 
 
 DLLDirection
-modelica_metatype omc_Expression_extractUniqueCrefsFromStatmentS(threadData_t *threadData, modelica_metatype _inStmts);
+modelica_metatype omc_Expression_extractUniqueCrefsFromStatmentS(threadData_t *threadData, modelica_metatype _inStmts, modelica_metatype *out_orhscrefs);
 #define boxptr_Expression_extractUniqueCrefsFromStatmentS omc_Expression_extractUniqueCrefsFromStatmentS
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_extractUniqueCrefsFromStatmentS,2,0) {(void*) boxptr_Expression_extractUniqueCrefsFromStatmentS,0}};
 #define boxvar_Expression_extractUniqueCrefsFromStatmentS MMC_REFSTRUCTLIT(boxvar_lit_Expression_extractUniqueCrefsFromStatmentS)
@@ -2232,8 +2248,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_expressionCollector,2,0) {(v
 
 
 DLLDirection
-modelica_metatype omc_Expression_replaceExp(threadData_t *threadData, modelica_metatype _inExp, modelica_metatype _inSourceExp, modelica_metatype _inTargetExp);
-#define boxptr_Expression_replaceExp omc_Expression_replaceExp
+modelica_metatype omc_Expression_replaceExp(threadData_t *threadData, modelica_metatype _inExp, modelica_metatype _inSourceExp, modelica_metatype _inTargetExp, modelica_integer *out_i);
+DLLDirection
+modelica_metatype boxptr_Expression_replaceExp(threadData_t *threadData, modelica_metatype _inExp, modelica_metatype _inSourceExp, modelica_metatype _inTargetExp, modelica_metatype *out_i);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_replaceExp,2,0) {(void*) boxptr_Expression_replaceExp,0}};
 #define boxvar_Expression_replaceExp MMC_REFSTRUCTLIT(boxvar_lit_Expression_replaceExp)
 
@@ -2257,13 +2274,6 @@ modelica_metatype omc_Expression_dimensionsAdd(threadData_t *threadData, modelic
 #define boxptr_Expression_dimensionsAdd omc_Expression_dimensionsAdd
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_dimensionsAdd,2,0) {(void*) boxptr_Expression_dimensionsAdd,0}};
 #define boxvar_Expression_dimensionsAdd MMC_REFSTRUCTLIT(boxvar_lit_Expression_dimensionsAdd)
-
-
-DLLDirection
-modelica_metatype omc_Expression_dimensionsMult(threadData_t *threadData, modelica_metatype _dim1, modelica_metatype _dim2);
-#define boxptr_Expression_dimensionsMult omc_Expression_dimensionsMult
-static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_dimensionsMult,2,0) {(void*) boxptr_Expression_dimensionsMult,0}};
-#define boxvar_Expression_dimensionsMult MMC_REFSTRUCTLIT(boxvar_lit_Expression_dimensionsMult)
 
 
 DLLDirection
@@ -2977,6 +2987,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_getComplexContents,2,0) {(vo
 
 
 #define boxptr_Expression_makeASUBsForDimension omc_Expression_makeASUBsForDimension
+
+
+DLLDirection
+modelica_metatype omc_Expression_expandArray(threadData_t *threadData, modelica_metatype _exp);
+#define boxptr_Expression_expandArray omc_Expression_expandArray
+static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_expandArray,2,0) {(void*) boxptr_Expression_expandArray,0}};
+#define boxvar_Expression_expandArray MMC_REFSTRUCTLIT(boxvar_lit_Expression_expandArray)
 
 
 DLLDirection

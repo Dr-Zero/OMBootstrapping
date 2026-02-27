@@ -35,10 +35,10 @@ modelica_string omc_SBMultiInterval_toString(threadData_t *threadData, modelica_
   else
   {
     {
-      modelica_metatype __omcQ_24tmpVar1;
+      modelica_metatype __omcQ_24tmpVar3;
       modelica_metatype* tmp2;
       modelica_metatype tmpMeta3;
-      modelica_string __omcQ_24tmpVar0;
+      modelica_string __omcQ_24tmpVar2;
       modelica_integer tmp4;
       modelica_metatype _i_loopVar = 0;
       modelica_integer tmp5;
@@ -46,8 +46,8 @@ modelica_string omc_SBMultiInterval_toString(threadData_t *threadData, modelica_
       _i_loopVar = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_mi), 2)));
       tmp5 = 1;
       tmpMeta3 = MMC_REFSTRUCTLIT(mmc_nil);
-      __omcQ_24tmpVar1 = tmpMeta3; /* defaultValue */
-      tmp2 = &__omcQ_24tmpVar1;
+      __omcQ_24tmpVar3 = tmpMeta3; /* defaultValue */
+      tmp2 = &__omcQ_24tmpVar3;
       while(1) {
         tmp4 = 1;
         if (tmp5 <= arrayLength(_i_loopVar)) {
@@ -55,8 +55,8 @@ modelica_string omc_SBMultiInterval_toString(threadData_t *threadData, modelica_
           tmp4--;
         }
         if (tmp4 == 0) {
-          __omcQ_24tmpVar0 = omc_SBInterval_toString(threadData, _i);
-          *tmp2 = mmc_mk_cons(__omcQ_24tmpVar0,0);
+          __omcQ_24tmpVar2 = omc_SBInterval_toString(threadData, _i);
+          *tmp2 = mmc_mk_cons(__omcQ_24tmpVar2,0);
           tmp2 = &MMC_CDR(*tmp2);
         } else if (tmp4 == 1) {
           break;
@@ -65,7 +65,7 @@ modelica_string omc_SBMultiInterval_toString(threadData_t *threadData, modelica_
         }
       }
       *tmp2 = mmc_mk_nil();
-      tmpMeta1 = __omcQ_24tmpVar1;
+      tmpMeta1 = __omcQ_24tmpVar3;
     }
     _str = stringDelimitList(tmpMeta1, _OMC_LIT0);
   }

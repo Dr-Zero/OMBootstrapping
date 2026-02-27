@@ -192,6 +192,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_Util_intLstString,2,0) {(void*) boxptr_
 
 
 DLLDirection
+modelica_string omc_Util_hashFileNamePrefix(threadData_t *threadData, modelica_string _inFileNamePrefix);
+#define boxptr_Util_hashFileNamePrefix omc_Util_hashFileNamePrefix
+static const MMC_DEFSTRUCTLIT(boxvar_lit_Util_hashFileNamePrefix,2,0) {(void*) boxptr_Util_hashFileNamePrefix,0}};
+#define boxvar_Util_hashFileNamePrefix MMC_REFSTRUCTLIT(boxvar_lit_Util_hashFileNamePrefix)
+
+
+DLLDirection
 modelica_string omc_Util_absoluteOrRelative(threadData_t *threadData, modelica_string _inFileName);
 #define boxptr_Util_absoluteOrRelative omc_Util_absoluteOrRelative
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Util_absoluteOrRelative,2,0) {(void*) boxptr_Util_absoluteOrRelative,0}};
@@ -425,6 +432,14 @@ modelica_string omc_Util_stringAppendReverse(threadData_t *threadData, modelica_
 #define boxptr_Util_stringAppendReverse omc_Util_stringAppendReverse
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Util_stringAppendReverse,2,0) {(void*) boxptr_Util_stringAppendReverse,0}};
 #define boxvar_Util_stringAppendReverse MMC_REFSTRUCTLIT(boxvar_lit_Util_stringAppendReverse)
+
+
+DLLDirection
+modelica_boolean omc_Util_strcmpNoCaseBool(threadData_t *threadData, modelica_string _s1, modelica_string _s2);
+DLLDirection
+modelica_metatype boxptr_Util_strcmpNoCaseBool(threadData_t *threadData, modelica_metatype _s1, modelica_metatype _s2);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_Util_strcmpNoCaseBool,2,0) {(void*) boxptr_Util_strcmpNoCaseBool,0}};
+#define boxvar_Util_strcmpNoCaseBool MMC_REFSTRUCTLIT(boxvar_lit_Util_strcmpNoCaseBool)
 
 
 DLLDirection

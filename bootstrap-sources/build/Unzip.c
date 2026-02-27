@@ -11,6 +11,7 @@ modelica_boolean omc_Unzip_unzipPath(threadData_t *threadData, modelica_string _
   int _success_ext;
   modelica_boolean _success;
   // _success has no default value.
+
   _success_ext = om_unzip(MMC_STRINGDATA(_fileName), MMC_STRINGDATA(_pathToExtract), MMC_STRINGDATA(_destinationPath));
   _success = (modelica_boolean)_success_ext;
   return _success;

@@ -1591,6 +1591,22 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_AbsynUtil_isPackageRestriction,2,0) {(v
 
 
 DLLDirection
+modelica_integer omc_AbsynUtil_subscriptCompare(threadData_t *threadData, modelica_metatype _sub1, modelica_metatype _sub2);
+DLLDirection
+modelica_metatype boxptr_AbsynUtil_subscriptCompare(threadData_t *threadData, modelica_metatype _sub1, modelica_metatype _sub2);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_AbsynUtil_subscriptCompare,2,0) {(void*) boxptr_AbsynUtil_subscriptCompare,0}};
+#define boxvar_AbsynUtil_subscriptCompare MMC_REFSTRUCTLIT(boxvar_lit_AbsynUtil_subscriptCompare)
+
+
+DLLDirection
+modelica_integer omc_AbsynUtil_crefCompare(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
+DLLDirection
+modelica_metatype boxptr_AbsynUtil_crefCompare(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_AbsynUtil_crefCompare,2,0) {(void*) boxptr_AbsynUtil_crefCompare,0}};
+#define boxvar_AbsynUtil_crefCompare MMC_REFSTRUCTLIT(boxvar_lit_AbsynUtil_crefCompare)
+
+
+DLLDirection
 modelica_boolean omc_AbsynUtil_crefEqualNoSubs(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
 DLLDirection
 modelica_metatype boxptr_AbsynUtil_crefEqualNoSubs(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
@@ -2025,7 +2041,11 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_AbsynUtil_addSubscriptsLast,2,0) {(void
 #define boxvar_AbsynUtil_addSubscriptsLast MMC_REFSTRUCTLIT(boxvar_lit_AbsynUtil_addSubscriptsLast)
 
 
-#define boxptr_AbsynUtil_pathToStringListWork omc_AbsynUtil_pathToStringListWork
+DLLDirection
+modelica_metatype omc_AbsynUtil_pathToStringListReverse(threadData_t *threadData, modelica_metatype _path, modelica_metatype _acc);
+#define boxptr_AbsynUtil_pathToStringListReverse omc_AbsynUtil_pathToStringListReverse
+static const MMC_DEFSTRUCTLIT(boxvar_lit_AbsynUtil_pathToStringListReverse,2,0) {(void*) boxptr_AbsynUtil_pathToStringListReverse,0}};
+#define boxvar_AbsynUtil_pathToStringListReverse MMC_REFSTRUCTLIT(boxvar_lit_AbsynUtil_pathToStringListReverse)
 
 
 DLLDirection

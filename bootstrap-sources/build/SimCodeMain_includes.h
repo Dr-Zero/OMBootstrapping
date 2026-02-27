@@ -49,6 +49,7 @@ extern "C" {
 #include "List.h"
 #include "NBackendDAE.h"
 #include "NFConvertDAE.h"
+#include "NFFlatten.h"
 #include "NSimCode.h"
 #include "SemanticVersion.h"
 #include "SerializeInitXML.h"
@@ -66,6 +67,7 @@ extern "C" {
 #include "System.h"
 #include "Testsuite.h"
 #include "Tpl.h"
+#include "UnorderedMap.h"
 #include "Util.h"
 #include "ZeroCrossings.h"
 #ifdef __cplusplus

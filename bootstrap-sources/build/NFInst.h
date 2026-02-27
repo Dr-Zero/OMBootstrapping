@@ -228,8 +228,6 @@ extern struct record_description NFInstNode_InstNodeType_REDECLARED__CLASS__desc
 
 extern struct record_description NFInstNode_InstNodeType_REDECLARED__COMP__desc;
 
-extern struct record_description NFInstNode_InstNodeType_ROOT__CLASS__desc;
-
 extern struct record_description NFInstNode_InstNodeType_TOP__SCOPE__desc;
 
 extern struct record_description NFLookupTree_Entry_COMPONENT__desc;
@@ -535,9 +533,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInst_instConnectorCref,2,0) {(void*) 
 
 
 DLLDirection
-modelica_metatype omc_NFInst_instEquation(threadData_t *threadData, modelica_metatype _scodeEq, modelica_metatype _scope, modelica_integer _context);
+modelica_metatype omc_NFInst_instEquation(threadData_t *threadData, modelica_metatype _scodeEq, modelica_metatype _scope, modelica_metatype _connectBreaks, modelica_integer _context, modelica_metatype __omcQ_24in_5Fequations);
 DLLDirection
-modelica_metatype boxptr_NFInst_instEquation(threadData_t *threadData, modelica_metatype _scodeEq, modelica_metatype _scope, modelica_metatype _context);
+modelica_metatype boxptr_NFInst_instEquation(threadData_t *threadData, modelica_metatype _scodeEq, modelica_metatype _scope, modelica_metatype _connectBreaks, modelica_metatype _context, modelica_metatype __omcQ_24in_5Fequations);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInst_instEquation,2,0) {(void*) boxptr_NFInst_instEquation,0}};
 #define boxvar_NFInst_instEquation MMC_REFSTRUCTLIT(boxvar_lit_NFInst_instEquation)
 
@@ -550,9 +548,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInst_filterInstanceAPIEquations,2,0) 
 
 
 DLLDirection
-modelica_metatype omc_NFInst_instEquations(threadData_t *threadData, modelica_metatype _scodeEql, modelica_metatype _scope, modelica_integer _context);
+modelica_metatype omc_NFInst_instEquations(threadData_t *threadData, modelica_metatype _scodeEql, modelica_metatype _scope, modelica_metatype _connectBreaks, modelica_integer _context);
 DLLDirection
-modelica_metatype boxptr_NFInst_instEquations(threadData_t *threadData, modelica_metatype _scodeEql, modelica_metatype _scope, modelica_metatype _context);
+modelica_metatype boxptr_NFInst_instEquations(threadData_t *threadData, modelica_metatype _scodeEql, modelica_metatype _scope, modelica_metatype _connectBreaks, modelica_metatype _context);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInst_instEquations,2,0) {(void*) boxptr_NFInst_instEquations,0}};
 #define boxvar_NFInst_instEquations MMC_REFSTRUCTLIT(boxvar_lit_NFInst_instEquations)
 
@@ -573,17 +571,17 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInst_instExternalDecl,2,0) {(void*) b
 
 
 DLLDirection
-modelica_metatype omc_NFInst_instSections2(threadData_t *threadData, modelica_metatype _parts, modelica_metatype _scope, modelica_integer _context, modelica_metatype __omcQ_24in_5Fsections);
+modelica_metatype omc_NFInst_instSections2(threadData_t *threadData, modelica_metatype _parts, modelica_metatype _scope, modelica_metatype _connectBreaks, modelica_integer _context, modelica_metatype __omcQ_24in_5Fsections);
 DLLDirection
-modelica_metatype boxptr_NFInst_instSections2(threadData_t *threadData, modelica_metatype _parts, modelica_metatype _scope, modelica_metatype _context, modelica_metatype __omcQ_24in_5Fsections);
+modelica_metatype boxptr_NFInst_instSections2(threadData_t *threadData, modelica_metatype _parts, modelica_metatype _scope, modelica_metatype _connectBreaks, modelica_metatype _context, modelica_metatype __omcQ_24in_5Fsections);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInst_instSections2,2,0) {(void*) boxptr_NFInst_instSections2,0}};
 #define boxvar_NFInst_instSections2 MMC_REFSTRUCTLIT(boxvar_lit_NFInst_instSections2)
 
 
 DLLDirection
-modelica_metatype omc_NFInst_instSections(threadData_t *threadData, modelica_metatype _node, modelica_metatype _scope, modelica_integer _context, modelica_metatype __omcQ_24in_5Fsections);
+modelica_metatype omc_NFInst_instSections(threadData_t *threadData, modelica_metatype _node, modelica_metatype _scope, modelica_metatype _connectBreaks, modelica_integer _context, modelica_metatype __omcQ_24in_5Fsections);
 DLLDirection
-modelica_metatype boxptr_NFInst_instSections(threadData_t *threadData, modelica_metatype _node, modelica_metatype _scope, modelica_metatype _context, modelica_metatype __omcQ_24in_5Fsections);
+modelica_metatype boxptr_NFInst_instSections(threadData_t *threadData, modelica_metatype _node, modelica_metatype _scope, modelica_metatype _connectBreaks, modelica_metatype _context, modelica_metatype __omcQ_24in_5Fsections);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInst_instSections,2,0) {(void*) boxptr_NFInst_instSections,0}};
 #define boxvar_NFInst_instSections MMC_REFSTRUCTLIT(boxvar_lit_NFInst_instSections)
 
@@ -720,9 +718,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInst_makeComplexType,2,0) {(void*) bo
 
 
 DLLDirection
-modelica_metatype omc_NFInst_instExpressions(threadData_t *threadData, modelica_metatype _node, modelica_metatype _scope, modelica_metatype __omcQ_24in_5Fsections, modelica_integer _context, modelica_metatype _settings);
+modelica_metatype omc_NFInst_instExpressions(threadData_t *threadData, modelica_metatype _node, modelica_metatype _scope, modelica_metatype __omcQ_24in_5Fsections, modelica_metatype _connectBreaks, modelica_integer _context, modelica_metatype _settings);
 DLLDirection
-modelica_metatype boxptr_NFInst_instExpressions(threadData_t *threadData, modelica_metatype _node, modelica_metatype _scope, modelica_metatype __omcQ_24in_5Fsections, modelica_metatype _context, modelica_metatype _settings);
+modelica_metatype boxptr_NFInst_instExpressions(threadData_t *threadData, modelica_metatype _node, modelica_metatype _scope, modelica_metatype __omcQ_24in_5Fsections, modelica_metatype _connectBreaks, modelica_metatype _context, modelica_metatype _settings);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInst_instExpressions,2,0) {(void*) boxptr_NFInst_instExpressions,0}};
 #define boxvar_NFInst_instExpressions MMC_REFSTRUCTLIT(boxvar_lit_NFInst_instExpressions)
 
@@ -767,8 +765,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInst_instTypeSpec,2,0) {(void*) boxpt
 
 
 DLLDirection
-void omc_NFInst_checkOuterComponentMod(threadData_t *threadData, modelica_metatype _node);
-#define boxptr_NFInst_checkOuterComponentMod omc_NFInst_checkOuterComponentMod
+void omc_NFInst_checkOuterComponentMod(threadData_t *threadData, modelica_metatype _node, modelica_integer _context);
+DLLDirection
+void boxptr_NFInst_checkOuterComponentMod(threadData_t *threadData, modelica_metatype _node, modelica_metatype _context);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInst_checkOuterComponentMod,2,0) {(void*) boxptr_NFInst_checkOuterComponentMod,0}};
 #define boxvar_NFInst_checkOuterComponentMod MMC_REFSTRUCTLIT(boxvar_lit_NFInst_checkOuterComponentMod)
 

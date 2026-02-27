@@ -55,38 +55,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenUtil_dotPath,2,0) {(void*) boxpt
 
 
 DLLDirection
-modelica_metatype omc_CodegenUtil_unitString(threadData_t *threadData, modelica_metatype _in_txt, modelica_string _in_a_unit, modelica_string _in_a_attr__name);
-#define boxptr_CodegenUtil_unitString omc_CodegenUtil_unitString
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenUtil_unitString,2,0) {(void*) boxptr_CodegenUtil_unitString,0}};
-#define boxvar_CodegenUtil_unitString MMC_REFSTRUCTLIT(boxvar_lit_CodegenUtil_unitString)
-
-
-DLLDirection
-modelica_metatype omc_CodegenUtil_attributeOptionString(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_exp__opt, modelica_string _in_a_attr__name);
-#define boxptr_CodegenUtil_attributeOptionString omc_CodegenUtil_attributeOptionString
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenUtil_attributeOptionString,2,0) {(void*) boxptr_CodegenUtil_attributeOptionString,0}};
-#define boxvar_CodegenUtil_attributeOptionString MMC_REFSTRUCTLIT(boxvar_lit_CodegenUtil_attributeOptionString)
-
-
-DLLDirection
-modelica_metatype omc_CodegenUtil_attributeString(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_exp, modelica_string _in_a_attr__name);
-#define boxptr_CodegenUtil_attributeString omc_CodegenUtil_attributeString
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenUtil_attributeString,2,0) {(void*) boxptr_CodegenUtil_attributeString,0}};
-#define boxvar_CodegenUtil_attributeString MMC_REFSTRUCTLIT(boxvar_lit_CodegenUtil_attributeString)
-
-
-#define boxptr_CodegenUtil_lm__68 omc_CodegenUtil_lm__68
-
-
-DLLDirection
-modelica_metatype omc_CodegenUtil_ScalarVariableType(threadData_t *threadData, modelica_metatype _txt, modelica_string _a_unit, modelica_string _a_displayUnit, modelica_metatype _a_minValue, modelica_metatype _a_maxValue, modelica_metatype _a_startValue, modelica_metatype _a_nominalValue, modelica_boolean _a_isFixed, modelica_metatype _a_type__);
-DLLDirection
-modelica_metatype boxptr_CodegenUtil_ScalarVariableType(threadData_t *threadData, modelica_metatype _txt, modelica_metatype _a_unit, modelica_metatype _a_displayUnit, modelica_metatype _a_minValue, modelica_metatype _a_maxValue, modelica_metatype _a_startValue, modelica_metatype _a_nominalValue, modelica_metatype _a_isFixed, modelica_metatype _a_type__);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenUtil_ScalarVariableType,2,0) {(void*) boxptr_CodegenUtil_ScalarVariableType,0}};
-#define boxvar_CodegenUtil_ScalarVariableType MMC_REFSTRUCTLIT(boxvar_lit_CodegenUtil_ScalarVariableType)
-
-
-DLLDirection
 modelica_metatype omc_CodegenUtil_getAliasVar(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_aliasvar);
 #define boxptr_CodegenUtil_getAliasVar omc_CodegenUtil_getAliasVar
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenUtil_getAliasVar,2,0) {(void*) boxptr_CodegenUtil_getAliasVar,0}};
@@ -108,10 +76,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenUtil_getVariablity,2,0) {(void*)
 
 
 DLLDirection
-modelica_metatype omc_CodegenUtil_initValXml(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_exp);
+modelica_metatype omc_CodegenUtil_initValXml(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_exp, modelica_string _in_a_stringQuotes);
 #define boxptr_CodegenUtil_initValXml omc_CodegenUtil_initValXml
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenUtil_initValXml,2,0) {(void*) boxptr_CodegenUtil_initValXml,0}};
 #define boxvar_CodegenUtil_initValXml MMC_REFSTRUCTLIT(boxvar_lit_CodegenUtil_initValXml)
+
+
+#define boxptr_CodegenUtil_lm__61 omc_CodegenUtil_lm__61
 
 
 DLLDirection

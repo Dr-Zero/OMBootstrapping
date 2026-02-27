@@ -52,14 +52,9 @@ modelica_metatype omc_HashTable5_emptyHashTable(threadData_t *threadData)
 PROTECTED_FUNCTION_STATIC modelica_integer omc_HashTable5_hashFunc(threadData_t *threadData, modelica_metatype _cr)
 {
   modelica_integer _res;
-  modelica_string _crstr = NULL;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _res has no default value.
-  // _crstr has no default value.
-  _crstr = omc_Dump_printComponentRefStr(threadData, _cr);
-
-  _res = stringHashDjb2(_crstr);
+  _res = stringHashDjb2(omc_Dump_printComponentRefStr(threadData, _cr));
   _return: OMC_LABEL_UNUSED
   return _res;
 }

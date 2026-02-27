@@ -344,7 +344,7 @@ extern struct record_description BackendDAE_PartitionsInfo_PARTITIONS__INFO__des
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef BackendDAE_ExtraInfo_EXTRA__INFO__desc_added
 #define BackendDAE_ExtraInfo_EXTRA__INFO__desc_added
-ADD_METARECORD_DEFINITIONS const char* BackendDAE_ExtraInfo_EXTRA__INFO__desc__fields[2] = {"description","fileNamePrefix"};
+ADD_METARECORD_DEFINITIONS const char* BackendDAE_ExtraInfo_EXTRA__INFO__desc__fields[3] = {"description","fileNamePrefix","simSettingsOption"};
 ADD_METARECORD_DEFINITIONS struct record_description BackendDAE_ExtraInfo_EXTRA__INFO__desc = {
   "BackendDAE_ExtraInfo_EXTRA__INFO",
   "BackendDAE.ExtraInfo.EXTRA_INFO",
@@ -357,7 +357,7 @@ extern struct record_description BackendDAE_ExtraInfo_EXTRA__INFO__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef BackendDAE_ExtraInfo_EXTRA__INFO__desc_added
 #define BackendDAE_ExtraInfo_EXTRA__INFO__desc_added
-ADD_METARECORD_DEFINITIONS const char* BackendDAE_ExtraInfo_EXTRA__INFO__desc__fields[2] = {"description","fileNamePrefix"};
+ADD_METARECORD_DEFINITIONS const char* BackendDAE_ExtraInfo_EXTRA__INFO__desc__fields[3] = {"description","fileNamePrefix","simSettingsOption"};
 ADD_METARECORD_DEFINITIONS struct record_description BackendDAE_ExtraInfo_EXTRA__INFO__desc = {
   "BackendDAE_ExtraInfo_EXTRA__INFO",
   "BackendDAE.ExtraInfo.EXTRA_INFO",

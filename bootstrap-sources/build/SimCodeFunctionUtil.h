@@ -157,13 +157,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeFunctionUtil_isParallelFunctionC
 
 
 DLLDirection
-modelica_metatype omc_SimCodeFunctionUtil_varName(threadData_t *threadData, modelica_metatype _var);
-#define boxptr_SimCodeFunctionUtil_varName omc_SimCodeFunctionUtil_varName
-static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeFunctionUtil_varName,2,0) {(void*) boxptr_SimCodeFunctionUtil_varName,0}};
-#define boxvar_SimCodeFunctionUtil_varName MMC_REFSTRUCTLIT(boxvar_lit_SimCodeFunctionUtil_varName)
-
-
-DLLDirection
 modelica_integer omc_SimCodeFunctionUtil_varIndex(threadData_t *threadData, modelica_metatype _var);
 DLLDirection
 modelica_metatype boxptr_SimCodeFunctionUtil_varIndex(threadData_t *threadData, modelica_metatype _var);
@@ -494,6 +487,13 @@ DLLDirection
 modelica_metatype boxptr_SimCodeFunctionUtil_incrementInt(threadData_t *threadData, modelica_metatype _inInt, modelica_metatype _increment);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeFunctionUtil_incrementInt,2,0) {(void*) boxptr_SimCodeFunctionUtil_incrementInt,0}};
 #define boxvar_SimCodeFunctionUtil_incrementInt MMC_REFSTRUCTLIT(boxvar_lit_SimCodeFunctionUtil_incrementInt)
+
+
+DLLDirection
+modelica_metatype omc_SimCodeFunctionUtil_buildCrefExpFromSubs(threadData_t *threadData, modelica_metatype _cref, modelica_metatype _subs);
+#define boxptr_SimCodeFunctionUtil_buildCrefExpFromSubs omc_SimCodeFunctionUtil_buildCrefExpFromSubs
+static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeFunctionUtil_buildCrefExpFromSubs,2,0) {(void*) boxptr_SimCodeFunctionUtil_buildCrefExpFromSubs,0}};
+#define boxvar_SimCodeFunctionUtil_buildCrefExpFromSubs MMC_REFSTRUCTLIT(boxvar_lit_SimCodeFunctionUtil_buildCrefExpFromSubs)
 
 
 DLLDirection

@@ -125,6 +125,20 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFVariable_mapExp,2,0) {(void*) boxptr_
 
 
 DLLDirection
+void omc_NFVariable_applyExpShallow(threadData_t *threadData, modelica_metatype _var, modelica_fnptr _fn);
+#define boxptr_NFVariable_applyExpShallow omc_NFVariable_applyExpShallow
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFVariable_applyExpShallow,2,0) {(void*) boxptr_NFVariable_applyExpShallow,0}};
+#define boxvar_NFVariable_applyExpShallow MMC_REFSTRUCTLIT(boxvar_lit_NFVariable_applyExpShallow)
+
+
+DLLDirection
+void omc_NFVariable_applyExp(threadData_t *threadData, modelica_metatype _var, modelica_fnptr _fn);
+#define boxptr_NFVariable_applyExp omc_NFVariable_applyExp
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFVariable_applyExp,2,0) {(void*) boxptr_NFVariable_applyExp,0}};
+#define boxvar_NFVariable_applyExp MMC_REFSTRUCTLIT(boxvar_lit_NFVariable_applyExp)
+
+
+DLLDirection
 modelica_metatype omc_NFVariable_removeNonTopLevelDirection(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fvar);
 #define boxptr_NFVariable_removeNonTopLevelDirection omc_NFVariable_removeNonTopLevelDirection
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFVariable_removeNonTopLevelDirection,2,0) {(void*) boxptr_NFVariable_removeNonTopLevelDirection,0}};

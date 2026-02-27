@@ -120,6 +120,8 @@ extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
 extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
+extern struct record_description JSON_STRING__desc;
+
 extern struct record_description NFOperator_OPERATOR__desc;
 
 extern struct record_description NFType_UNKNOWN__desc;
@@ -426,6 +428,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFOperator_makeDiv,2,0) {(void*) boxptr
 
 
 DLLDirection
+modelica_metatype omc_NFOperator_makeScalarProduct(threadData_t *threadData, modelica_metatype _ty);
+#define boxptr_NFOperator_makeScalarProduct omc_NFOperator_makeScalarProduct
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFOperator_makeScalarProduct,2,0) {(void*) boxptr_NFOperator_makeScalarProduct,0}};
+#define boxvar_NFOperator_makeScalarProduct MMC_REFSTRUCTLIT(boxvar_lit_NFOperator_makeScalarProduct)
+
+
+DLLDirection
 modelica_metatype omc_NFOperator_makeMul(threadData_t *threadData, modelica_metatype _ty);
 #define boxptr_NFOperator_makeMul omc_NFOperator_makeMul
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFOperator_makeMul,2,0) {(void*) boxptr_NFOperator_makeMul,0}};
@@ -468,6 +477,13 @@ DLLDirection
 modelica_metatype boxptr_NFOperator_priority(threadData_t *threadData, modelica_metatype _op, modelica_metatype _lhs);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFOperator_priority,2,0) {(void*) boxptr_NFOperator_priority,0}};
 #define boxvar_NFOperator_priority MMC_REFSTRUCTLIT(boxvar_lit_NFOperator_priority)
+
+
+DLLDirection
+modelica_metatype omc_NFOperator_toJSON(threadData_t *threadData, modelica_metatype _operator);
+#define boxptr_NFOperator_toJSON omc_NFOperator_toJSON
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFOperator_toJSON,2,0) {(void*) boxptr_NFOperator_toJSON,0}};
+#define boxvar_NFOperator_toJSON MMC_REFSTRUCTLIT(boxvar_lit_NFOperator_toJSON)
 
 
 DLLDirection

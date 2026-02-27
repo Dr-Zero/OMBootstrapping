@@ -10,6 +10,7 @@ extern "C" {
 #include "NFClass.h"
 #include "NFClassTree.h"
 #include "NFComponent.h"
+#include "NFConnectBreakTree.h"
 #include "NFEvalConstants.h"
 #include "NFFunction.h"
 #include "NFInst.h"

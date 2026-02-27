@@ -16,7 +16,6 @@ extern "C" {
 #include "PrefixUtil.h"
 #include "SCodeDump.h"
 #include "SerializeModelInfo.h"
-#include "SimCodeFunctionUtil.h"
 #include "SimCodeUtil.h"
 #include "System.h"
 #include "UnorderedSet.h"

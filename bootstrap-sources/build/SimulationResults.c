@@ -23,10 +23,10 @@ modelica_boolean omc_SimulationResults_filterSimulationResults(threadData_t *thr
   int _result_ext;
   modelica_boolean _result;
   // _result has no default value.
-  _vars_ext = (modelica_metatype)_vars;
-  _numberOfIntervals_ext = (int)_numberOfIntervals;
-  _removeDescription_ext = (int)_removeDescription;
-  _hintReadAllVars_ext = (int)_hintReadAllVars;
+  _vars_ext = (modelica_metatype) _vars;
+  _numberOfIntervals_ext = (int) _numberOfIntervals;
+  _removeDescription_ext = (int) _removeDescription;
+  _hintReadAllVars_ext = (int) _hintReadAllVars;
   _result_ext = SimulationResults_filterSimulationResults(MMC_STRINGDATA(_inFile), MMC_STRINGDATA(_outFile), _vars_ext, _numberOfIntervals_ext, _removeDescription_ext, _hintReadAllVars_ext);
   _result = (modelica_boolean)_result_ext;
   return _result;
@@ -55,10 +55,10 @@ modelica_string omc_SimulationResults_diffSimulationResultsHtml(threadData_t *th
   const char* _html_ext;
   modelica_string _html = NULL;
   // _html has no default value.
-  _runningTestsuite_ext = (int)_runningTestsuite;
-  _refTol_ext = (double)_refTol;
-  _relTolDiffMaxMin_ext = (double)_relTolDiffMaxMin;
-  _rangeDelta_ext = (double)_rangeDelta;
+  _runningTestsuite_ext = (int) _runningTestsuite;
+  _refTol_ext = (double) _refTol;
+  _relTolDiffMaxMin_ext = (double) _relTolDiffMaxMin;
+  _rangeDelta_ext = (double) _rangeDelta;
   _html_ext = SimulationResults_diffSimulationResultsHtml(_runningTestsuite_ext, MMC_STRINGDATA(_var), MMC_STRINGDATA(_filename), MMC_STRINGDATA(_reffilename), _refTol_ext, _relTolDiffMaxMin_ext, _rangeDelta_ext);
   _html = (modelica_string)mmc_mk_scon(_html_ext);
   return _html;
@@ -93,12 +93,12 @@ modelica_boolean omc_SimulationResults_diffSimulationResults(threadData_t *threa
   modelica_metatype _res = NULL;
   // _success has no default value.
   // _res has no default value.
-  _runningTestsuite_ext = (int)_runningTestsuite;
-  _refTol_ext = (double)_refTol;
-  _relTolDiffMaxMin_ext = (double)_relTolDiffMaxMin;
-  _rangeDelta_ext = (double)_rangeDelta;
-  _vars_ext = (modelica_metatype)_vars;
-  _keepEqualResults_ext = (int)_keepEqualResults;
+  _runningTestsuite_ext = (int) _runningTestsuite;
+  _refTol_ext = (double) _refTol;
+  _relTolDiffMaxMin_ext = (double) _relTolDiffMaxMin;
+  _rangeDelta_ext = (double) _rangeDelta;
+  _vars_ext = (modelica_metatype) _vars;
+  _keepEqualResults_ext = (int) _keepEqualResults;
   _res_ext = SimulationResults_diffSimulationResults(_runningTestsuite_ext, MMC_STRINGDATA(_filename), MMC_STRINGDATA(_reffilename), MMC_STRINGDATA(_prefix), _refTol_ext, _relTolDiffMaxMin_ext, _rangeDelta_ext, _vars_ext, _keepEqualResults_ext, &_success_ext);
   _success = (modelica_boolean)_success_ext;
   _res = (modelica_metatype)_res_ext;
@@ -131,7 +131,7 @@ modelica_real omc_SimulationResults_deltaSimulationResults(threadData_t *threadD
   double _res_ext;
   modelica_real _res;
   // _res has no default value.
-  _vars_ext = (modelica_metatype)_vars;
+  _vars_ext = (modelica_metatype) _vars;
   _res_ext = SimulationResults_deltaSimulationResults(MMC_STRINGDATA(_filename), MMC_STRINGDATA(_reffilename), MMC_STRINGDATA(_method), _vars_ext);
   _res = (modelica_real)_res_ext;
   return _res;
@@ -154,10 +154,10 @@ modelica_metatype omc_SimulationResults_cmpSimulationResults(threadData_t *threa
   modelica_metatype _res_ext;
   modelica_metatype _res = NULL;
   // _res has no default value.
-  _runningTestsuite_ext = (int)_runningTestsuite;
-  _refTol_ext = (double)_refTol;
-  _absTol_ext = (double)_absTol;
-  _vars_ext = (modelica_metatype)_vars;
+  _runningTestsuite_ext = (int) _runningTestsuite;
+  _refTol_ext = (double) _refTol;
+  _absTol_ext = (double) _absTol;
+  _vars_ext = (modelica_metatype) _vars;
   _res_ext = SimulationResults_cmpSimulationResults(_runningTestsuite_ext, MMC_STRINGDATA(_filename), MMC_STRINGDATA(_reffilename), MMC_STRINGDATA(_logfilename), _refTol_ext, _absTol_ext, _vars_ext);
   _res = (modelica_metatype)_res_ext;
   return _res;
@@ -178,6 +178,7 @@ modelica_metatype boxptr_SimulationResults_cmpSimulationResults(threadData_t *th
 
 void omc_SimulationResults_close(threadData_t *threadData)
 {
+
   SimulationResults_close();
   return;
 }
@@ -187,6 +188,7 @@ modelica_integer omc_SimulationResults_readSimulationResultSize(threadData_t *th
   int _size_ext;
   modelica_integer _size;
   // _size has no default value.
+
   _size_ext = SimulationResults_readSimulationResultSize(MMC_STRINGDATA(_filename));
   _size = (modelica_integer)_size_ext;
   return _size;
@@ -207,8 +209,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_SimulationResults_readDataset_re
   modelica_metatype _outMatrix_ext;
   modelica_metatype _outMatrix = NULL;
   // _outMatrix has no default value.
-  _vars_ext = (modelica_metatype)_vars;
-  _dimsize_ext = (int)_dimsize;
+  _vars_ext = (modelica_metatype) _vars;
+  _dimsize_ext = (int) _dimsize;
   _outMatrix_ext = SimulationResults_readDataset(MMC_STRINGDATA(_filename), _vars_ext, _dimsize_ext);
   _outMatrix = (modelica_metatype)_outMatrix_ext;
   return _outMatrix;
@@ -263,8 +265,8 @@ modelica_metatype omc_SimulationResults_readVariables(threadData_t *threadData, 
   modelica_metatype _vars_ext;
   modelica_metatype _vars = NULL;
   // _vars has no default value.
-  _readParameters_ext = (int)_readParameters;
-  _openmodelicaStyle_ext = (int)_openmodelicaStyle;
+  _readParameters_ext = (int) _readParameters;
+  _openmodelicaStyle_ext = (int) _openmodelicaStyle;
   _vars_ext = SimulationResults_readVariables(MMC_STRINGDATA(_filename), _readParameters_ext, _openmodelicaStyle_ext);
   _vars = (modelica_metatype)_vars_ext;
   return _vars;
@@ -287,7 +289,7 @@ modelica_real omc_SimulationResults_val(threadData_t *threadData, modelica_strin
   double _val_ext;
   modelica_real _val;
   // _val has no default value.
-  _timeStamp_ext = (double)_timeStamp;
+  _timeStamp_ext = (double) _timeStamp;
   _val_ext = SimulationResults_val(MMC_STRINGDATA(_filename), MMC_STRINGDATA(_varname), _timeStamp_ext);
   _val = (modelica_real)_val_ext;
   return _val;

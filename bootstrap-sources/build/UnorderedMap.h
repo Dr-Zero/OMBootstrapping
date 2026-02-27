@@ -297,6 +297,14 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_UnorderedMap_remove,2,0) {(void*) boxpt
 
 
 DLLDirection
+modelica_boolean omc_UnorderedMap_tryAddUpdate(threadData_t *threadData, modelica_metatype _key, modelica_fnptr _fn, modelica_metatype _map);
+DLLDirection
+modelica_metatype boxptr_UnorderedMap_tryAddUpdate(threadData_t *threadData, modelica_metatype _key, modelica_fnptr _fn, modelica_metatype _map);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_UnorderedMap_tryAddUpdate,2,0) {(void*) boxptr_UnorderedMap_tryAddUpdate,0}};
+#define boxvar_UnorderedMap_tryAddUpdate MMC_REFSTRUCTLIT(boxvar_lit_UnorderedMap_tryAddUpdate)
+
+
+DLLDirection
 modelica_metatype omc_UnorderedMap_addUpdate(threadData_t *threadData, modelica_metatype _key, modelica_fnptr _fn, modelica_metatype _map);
 #define boxptr_UnorderedMap_addUpdate omc_UnorderedMap_addUpdate
 static const MMC_DEFSTRUCTLIT(boxvar_lit_UnorderedMap_addUpdate,2,0) {(void*) boxptr_UnorderedMap_addUpdate,0}};

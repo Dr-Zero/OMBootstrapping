@@ -11,9 +11,9 @@ void omc_FMIExt_releaseFMIImport(threadData_t *threadData, modelica_metatype _in
   modelica_metatype _inFMIModelVariablesInstance_ext;
   modelica_metatype _inFMIInstance_ext;
   modelica_metatype _inFMIContext_ext;
-  _inFMIModelVariablesInstance_ext = (modelica_metatype)_inFMIModelVariablesInstance;
-  _inFMIInstance_ext = (modelica_metatype)_inFMIInstance;
-  _inFMIContext_ext = (modelica_metatype)_inFMIContext;
+  _inFMIModelVariablesInstance_ext = (modelica_metatype) _inFMIModelVariablesInstance;
+  _inFMIInstance_ext = (modelica_metatype) _inFMIInstance;
+  _inFMIContext_ext = (modelica_metatype) _inFMIContext;
   FMIImpl__releaseFMIImport(_inFMIModelVariablesInstance_ext, _inFMIInstance_ext, _inFMIContext_ext, MMC_STRINGDATA(_inFMIVersion));
   return;
 }
@@ -48,10 +48,10 @@ modelica_boolean omc_FMIExt_initializeFMIImport(threadData_t *threadData, modeli
   // _outExperimentAnnotation has no default value.
   // _outModelVariablesInstance has no default value.
   // _outModelVariablesList has no default value.
-  _inFMILogLevel_ext = (int)_inFMILogLevel;
-  _inInputConnectors_ext = (int)_inInputConnectors;
-  _inOutputConnectors_ext = (int)_inOutputConnectors;
-  _inIsModelDescriptionImport_ext = (int)_inIsModelDescriptionImport;
+  _inFMILogLevel_ext = (int) _inFMILogLevel;
+  _inInputConnectors_ext = (int) _inInputConnectors;
+  _inOutputConnectors_ext = (int) _inOutputConnectors;
+  _inIsModelDescriptionImport_ext = (int) _inIsModelDescriptionImport;
   _result_ext = FMIImpl__initializeFMIImport(MMC_STRINGDATA(_inFileName), MMC_STRINGDATA(_inWorkingDirectory), _inFMILogLevel_ext, _inInputConnectors_ext, _inOutputConnectors_ext, _inIsModelDescriptionImport_ext, &_outFMIContext_ext, &_outFMIInstance_ext, &_outFMIInfo_ext, &_outTypeDefinitionsList_ext, &_outExperimentAnnotation_ext, &_outModelVariablesInstance_ext, &_outModelVariablesList_ext);
   _outFMIContext = (modelica_metatype)_outFMIContext_ext;
   _outFMIInstance = (modelica_metatype)_outFMIInstance_ext;

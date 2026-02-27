@@ -456,6 +456,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFSimplifyExp_simplifySemiLinear,2,0) {
 
 
 DLLDirection
+modelica_metatype omc_NFSimplifyExp_simplifyCat(threadData_t *threadData, modelica_metatype _args, modelica_metatype _call);
+#define boxptr_NFSimplifyExp_simplifyCat omc_NFSimplifyExp_simplifyCat
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFSimplifyExp_simplifyCat,2,0) {(void*) boxptr_NFSimplifyExp_simplifyCat,0}};
+#define boxvar_NFSimplifyExp_simplifyCat MMC_REFSTRUCTLIT(boxvar_lit_NFSimplifyExp_simplifyCat)
+
+
+DLLDirection
 modelica_metatype omc_NFSimplifyExp_simplifyBuiltinCall(threadData_t *threadData, modelica_metatype _name, modelica_metatype _args, modelica_metatype _call, modelica_boolean _expand);
 DLLDirection
 modelica_metatype boxptr_NFSimplifyExp_simplifyBuiltinCall(threadData_t *threadData, modelica_metatype _name, modelica_metatype _args, modelica_metatype _call, modelica_metatype _expand);

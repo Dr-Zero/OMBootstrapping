@@ -218,7 +218,7 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT84,20,_OMC_LIT84_data);
 #define _OMC_LIT84 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT84)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT85,1,3) {&Flags_FlagVisibility_INTERNAL__desc,}};
 #define _OMC_LIT85 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT85)
-#define _OMC_LIT86_data "Disable adding extra label into the whole experssion with more than one term and +,- operations."
+#define _OMC_LIT86_data "Disable adding extra label into the whole expression with more than one term and +,- operations."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT86,96,_OMC_LIT86_data);
 #define _OMC_LIT86 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT86)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT87,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT86}};
@@ -693,17 +693,17 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_ReduceDAE_StringDelimit2Int(thre
           /* Pattern matching succeeded */
           _lst = omc_Util_stringSplitAtChar(threadData, _v, _delim);
           {
-            modelica_metatype __omcQ_24tmpVar1;
+            modelica_metatype __omcQ_24tmpVar3;
             modelica_metatype* tmp7;
             modelica_metatype tmpMeta8;
-            modelica_metatype __omcQ_24tmpVar0;
+            modelica_metatype __omcQ_24tmpVar2;
             modelica_integer tmp9;
             modelica_metatype _s_loopVar = 0;
             modelica_metatype _s;
             _s_loopVar = _lst;
             tmpMeta8 = MMC_REFSTRUCTLIT(mmc_nil);
-            __omcQ_24tmpVar1 = tmpMeta8; /* defaultValue */
-            tmp7 = &__omcQ_24tmpVar1;
+            __omcQ_24tmpVar3 = tmpMeta8; /* defaultValue */
+            tmp7 = &__omcQ_24tmpVar3;
             while(1) {
               tmp9 = 1;
               if (!listEmpty(_s_loopVar)) {
@@ -712,8 +712,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_ReduceDAE_StringDelimit2Int(thre
                 tmp9--;
               }
               if (tmp9 == 0) {
-                __omcQ_24tmpVar0 = mmc_mk_integer(stringInt(_s));
-                *tmp7 = mmc_mk_cons(__omcQ_24tmpVar0,0);
+                __omcQ_24tmpVar2 = mmc_mk_integer(stringInt(_s));
+                *tmp7 = mmc_mk_cons(__omcQ_24tmpVar2,0);
                 tmp7 = &MMC_CDR(*tmp7);
               } else if (tmp9 == 1) {
                 break;
@@ -722,7 +722,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_ReduceDAE_StringDelimit2Int(thre
               }
             }
             *tmp7 = mmc_mk_nil();
-            tmpMeta6 = __omcQ_24tmpVar1;
+            tmpMeta6 = __omcQ_24tmpVar3;
           }
           tmpMeta1 = tmpMeta6;
           goto tmp3_done;
@@ -2183,12 +2183,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_ReduceDAE_linearizeExp(threadDat
         switch (MMC_SWITCH_CAST(tmp4)) {
         case 0: {
           modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          modelica_metatype tmpMeta8;
-          modelica_metatype tmpMeta9;
-          modelica_metatype tmpMeta10;
-          modelica_metatype tmpMeta11;
-          modelica_metatype tmpMeta12;
           
           _e1 = tmp4_1;
           _e2 = tmp4_2;
@@ -2196,27 +2190,18 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_ReduceDAE_linearizeExp(threadDat
           /* Pattern matching succeeded */
           _replExp = omc_BackendVarTransform_replaceExp(threadData, _e2, _repl, mmc_mk_none(), NULL);
 
-          /* Pattern-matching assignment */
-          tmpMeta6 = omc_Expression_replaceExp(threadData, _e1, _e2, _replExp);
-          tmpMeta7 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta6), 1));
-          _e = tmpMeta7;
+          _e = omc_Expression_replaceExp(threadData, _e1, _e2, _replExp, NULL);
 
-          tmpMeta8 = MMC_REFSTRUCTLIT(mmc_nil);
-          _tmp = omc_ComponentReference_makeCrefIdent(threadData, _OMC_LIT63, _OMC_LIT64, tmpMeta8);
+          tmpMeta6 = MMC_REFSTRUCTLIT(mmc_nil);
+          _tmp = omc_ComponentReference_makeCrefIdent(threadData, _OMC_LIT63, _OMC_LIT64, tmpMeta6);
 
           _tmpExp = omc_Expression_crefExp(threadData, _tmp);
 
-          /* Pattern-matching assignment */
-          tmpMeta9 = omc_Expression_replaceExp(threadData, _e1, _e2, _tmpExp);
-          tmpMeta10 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta9), 1));
-          _e3 = tmpMeta10;
+          _e3 = omc_Expression_replaceExp(threadData, _e1, _e2, _tmpExp, NULL);
 
           _e4 = omc_Differentiate_differentiateExpSolve(threadData, _e3, _tmp, mmc_mk_none());
 
-          /* Pattern-matching assignment */
-          tmpMeta11 = omc_Expression_replaceExp(threadData, _e4, _tmpExp, _replExp);
-          tmpMeta12 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta11), 1));
-          _e5 = tmpMeta12;
+          _e5 = omc_Expression_replaceExp(threadData, _e4, _tmpExp, _replExp, NULL);
           tmpMeta1 = omc_Expression_expAdd(threadData, _e, omc_Expression_expMul(threadData, _e5, omc_Expression_expSub(threadData, _e2, _replExp)));
           goto tmp3_done;
         }

@@ -20,6 +20,7 @@ extern "C" {
 #include "NFRestriction.h"
 #include "SCodeDump.h"
 #include "SCodeUtil.h"
+#include "Util.h"
 #ifdef __cplusplus
 }
 #endif

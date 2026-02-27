@@ -517,7 +517,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeUtil_localCref2SimVar,2,0) {(voi
 
 
 DLLDirection
-modelica_metatype omc_SimCodeUtil_createJacContext(threadData_t *threadData, modelica_metatype _jacHT);
+modelica_metatype omc_SimCodeUtil_createJacContext(threadData_t *threadData, modelica_string _name, modelica_metatype _jacHT);
 #define boxptr_SimCodeUtil_createJacContext omc_SimCodeUtil_createJacContext
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeUtil_createJacContext,2,0) {(void*) boxptr_SimCodeUtil_createJacContext,0}};
 #define boxvar_SimCodeUtil_createJacContext MMC_REFSTRUCTLIT(boxvar_lit_SimCodeUtil_createJacContext)
