@@ -114,26 +114,34 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFUnit_printListCr,2,0) {(void*) boxptr
 
 
 DLLDirection
-modelica_string omc_NFUnit_unit2string(threadData_t *threadData, modelica_metatype _inUnit);
+modelica_string omc_NFUnit_unit2string(threadData_t *threadData, modelica_metatype _unit);
 #define boxptr_NFUnit_unit2string omc_NFUnit_unit2string
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFUnit_unit2string,2,0) {(void*) boxptr_NFUnit_unit2string,0}};
 #define boxvar_NFUnit_unit2string MMC_REFSTRUCTLIT(boxvar_lit_NFUnit_unit2string)
 
 
 DLLDirection
-modelica_boolean omc_NFUnit_unitEqual(threadData_t *threadData, modelica_metatype _inKey, modelica_metatype _inKey2);
+modelica_boolean omc_NFUnit_isEqual(threadData_t *threadData, modelica_metatype _unit1, modelica_metatype _unit2);
 DLLDirection
-modelica_metatype boxptr_NFUnit_unitEqual(threadData_t *threadData, modelica_metatype _inKey, modelica_metatype _inKey2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_NFUnit_unitEqual,2,0) {(void*) boxptr_NFUnit_unitEqual,0}};
-#define boxvar_NFUnit_unitEqual MMC_REFSTRUCTLIT(boxvar_lit_NFUnit_unitEqual)
+modelica_metatype boxptr_NFUnit_isEqual(threadData_t *threadData, modelica_metatype _unit1, modelica_metatype _unit2);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFUnit_isEqual,2,0) {(void*) boxptr_NFUnit_isEqual,0}};
+#define boxvar_NFUnit_isEqual MMC_REFSTRUCTLIT(boxvar_lit_NFUnit_isEqual)
 
 
 DLLDirection
-modelica_integer omc_NFUnit_hashUnit(threadData_t *threadData, modelica_metatype _inKey);
+modelica_boolean omc_NFUnit_realAlmostEqRel(threadData_t *threadData, modelica_real _a, modelica_real _b, modelica_real _relTol);
 DLLDirection
-modelica_metatype boxptr_NFUnit_hashUnit(threadData_t *threadData, modelica_metatype _inKey);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_NFUnit_hashUnit,2,0) {(void*) boxptr_NFUnit_hashUnit,0}};
-#define boxvar_NFUnit_hashUnit MMC_REFSTRUCTLIT(boxvar_lit_NFUnit_hashUnit)
+modelica_metatype boxptr_NFUnit_realAlmostEqRel(threadData_t *threadData, modelica_metatype _a, modelica_metatype _b, modelica_metatype _relTol);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFUnit_realAlmostEqRel,2,0) {(void*) boxptr_NFUnit_realAlmostEqRel,0}};
+#define boxvar_NFUnit_realAlmostEqRel MMC_REFSTRUCTLIT(boxvar_lit_NFUnit_realAlmostEqRel)
+
+
+DLLDirection
+modelica_integer omc_NFUnit_hash(threadData_t *threadData, modelica_metatype _inKey);
+DLLDirection
+modelica_metatype boxptr_NFUnit_hash(threadData_t *threadData, modelica_metatype _inKey);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFUnit_hash,2,0) {(void*) boxptr_NFUnit_hash,0}};
+#define boxvar_NFUnit_hash MMC_REFSTRUCTLIT(boxvar_lit_NFUnit_hash)
 
 
 DLLDirection

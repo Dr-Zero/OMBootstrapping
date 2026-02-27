@@ -26,12 +26,14 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT8,2,1) {MMC_IMMEDIATE(MMC_TAGFIXNUM
 
 void omc_NBASSC_printMatrix(threadData_t *threadData)
 {
+
   ASSC_printMatrix();
   return;
 }
 
 void omc_NBASSC_freeMatrix(threadData_t *threadData)
 {
+
   ASSC_freeMatrix();
   return;
 }
@@ -43,11 +45,11 @@ void omc_NBASSC_setMatrix(threadData_t *threadData, modelica_integer _nv, modeli
   int _nz_ext;
   modelica_metatype _adj_ext;
   modelica_metatype _val_ext;
-  _nv_ext = (int)_nv;
-  _ne_ext = (int)_ne;
-  _nz_ext = (int)_nz;
-  _adj_ext = (modelica_metatype)_adj;
-  _val_ext = (modelica_metatype)_val;
+  _nv_ext = (int) _nv;
+  _ne_ext = (int) _ne;
+  _nz_ext = (int) _nz;
+  _adj_ext = (modelica_metatype) _adj;
+  _val_ext = (modelica_metatype) _val;
   ASSC_setMatrix(_nv_ext, _ne_ext, _nz_ext, _adj_ext, _val_ext);
   return;
 }

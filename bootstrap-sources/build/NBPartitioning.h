@@ -34,6 +34,10 @@ extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
 extern struct record_description NBBackendUtil_Rational_RATIONAL__desc;
 
+extern struct record_description NBEquation_Iterator_EMPTY__desc;
+
+extern struct record_description NBPartition_Association_CLOCKED__desc;
+
 extern struct record_description NBPartition_Association_CONTINUOUS__desc;
 
 extern struct record_description NBPartition_Partition_PARTITION__desc;
@@ -60,8 +64,6 @@ extern struct record_description NFExpression_CALL__desc;
 
 extern struct record_description NFExpression_CLKCONST__desc;
 
-extern struct record_description NFExpression_EMPTY__desc;
-
 extern struct record_description NFFunction_Function_FUNCTION__desc;
 
 extern struct record_description NFInstNode_InstNode_COMPONENT__NODE__desc;
@@ -73,6 +75,8 @@ extern struct record_description NFInstNode_InstNodeType_NORMAL__COMP__desc;
 extern struct record_description NFPrefixes_Replaceable_NOT__REPLACEABLE__desc;
 
 extern struct record_description NFType_BOOLEAN__desc;
+
+extern struct record_description NFType_CLOCK__desc;
 
 extern struct record_description NFType_INTEGER__desc;
 
@@ -89,6 +93,14 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 #define boxptr_NBPartitioning_replaceClockedFunctionExp omc_NBPartitioning_replaceClockedFunctionExp
 
 
+DLLDirection
+modelica_metatype omc_NBPartitioning_replaceClockedFunctions_replaceSample(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype _call, modelica_boolean _basic);
+DLLDirection
+modelica_metatype boxptr_NBPartitioning_replaceClockedFunctions_replaceSample(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype _call, modelica_metatype _basic);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBPartitioning_replaceClockedFunctions_replaceSample,2,0) {(void*) boxptr_NBPartitioning_replaceClockedFunctions_replaceSample,0}};
+#define boxvar_NBPartitioning_replaceClockedFunctions_replaceSample MMC_REFSTRUCTLIT(boxvar_lit_NBPartitioning_replaceClockedFunctions_replaceSample)
+
+
 #define boxptr_NBPartitioning_replaceClockedFunctions omc_NBPartitioning_replaceClockedFunctions
 
 
@@ -96,6 +108,12 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
 #define boxptr_NBPartitioning_collectPartitioningCrefs omc_NBPartitioning_collectPartitioningCrefs
+
+
+#define boxptr_NBPartitioning_sortClockedPartitions omc_NBPartitioning_sortClockedPartitions
+
+
+#define boxptr_NBPartitioning_sortAndMergeClockedPartitions omc_NBPartitioning_sortAndMergeClockedPartitions
 
 
 DLLDirection
@@ -123,11 +141,21 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBPartitioning_DisjointSetForest_new,2,
 
 
 DLLDirection
-modelica_metatype omc_NBPartitioning_Cluster_toPartition(threadData_t *threadData, modelica_metatype _cluster, modelica_metatype _variables, modelica_metatype _equations, modelica_integer _kind, modelica_metatype _info, modelica_metatype _held_crefs, modelica_metatype _index);
+modelica_metatype omc_NBPartitioning_Cluster_toPartition(threadData_t *threadData, modelica_metatype _cluster, modelica_metatype _variables, modelica_metatype _equations, modelica_integer _kind, modelica_metatype _info, modelica_metatype _held_crefs);
 DLLDirection
-modelica_metatype boxptr_NBPartitioning_Cluster_toPartition(threadData_t *threadData, modelica_metatype _cluster, modelica_metatype _variables, modelica_metatype _equations, modelica_metatype _kind, modelica_metatype _info, modelica_metatype _held_crefs, modelica_metatype _index);
+modelica_metatype boxptr_NBPartitioning_Cluster_toPartition(threadData_t *threadData, modelica_metatype _cluster, modelica_metatype _variables, modelica_metatype _equations, modelica_metatype _kind, modelica_metatype _info, modelica_metatype _held_crefs);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBPartitioning_Cluster_toPartition,2,0) {(void*) boxptr_NBPartitioning_Cluster_toPartition,0}};
 #define boxvar_NBPartitioning_Cluster_toPartition MMC_REFSTRUCTLIT(boxvar_lit_NBPartitioning_Cluster_toPartition)
+
+
+#define boxptr_NBPartitioning_Cluster_addToClockMap_findClock omc_NBPartitioning_Cluster_addToClockMap_findClock
+
+
+DLLDirection
+void omc_NBPartitioning_Cluster_addToClockMap(threadData_t *threadData, modelica_metatype _cluster, modelica_metatype _equations, modelica_metatype _info, modelica_metatype _clock_map);
+#define boxptr_NBPartitioning_Cluster_addToClockMap omc_NBPartitioning_Cluster_addToClockMap
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBPartitioning_Cluster_addToClockMap,2,0) {(void*) boxptr_NBPartitioning_Cluster_addToClockMap,0}};
+#define boxvar_NBPartitioning_Cluster_addToClockMap MMC_REFSTRUCTLIT(boxvar_lit_NBPartitioning_Cluster_addToClockMap)
 
 
 DLLDirection
@@ -180,8 +208,27 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBPartitioning_main,2,0) {(void*) boxpt
 #define boxptr_NBPartitioning_ClockedInfo_resolveSubClock omc_NBPartitioning_ClockedInfo_resolveSubClock
 
 
+#define boxptr_NBPartitioning_ClockedInfo_resolveImplicitSubClock omc_NBPartitioning_ClockedInfo_resolveImplicitSubClock
+
+
 DLLDirection
-void omc_NBPartitioning_ClockedInfo_resolveSubClocks(threadData_t *threadData, modelica_metatype _info);
+modelica_integer omc_NBPartitioning_ClockedInfo_subClockCount(threadData_t *threadData, modelica_metatype _info);
+DLLDirection
+modelica_metatype boxptr_NBPartitioning_ClockedInfo_subClockCount(threadData_t *threadData, modelica_metatype _info);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBPartitioning_ClockedInfo_subClockCount,2,0) {(void*) boxptr_NBPartitioning_ClockedInfo_subClockCount,0}};
+#define boxvar_NBPartitioning_ClockedInfo_subClockCount MMC_REFSTRUCTLIT(boxvar_lit_NBPartitioning_ClockedInfo_subClockCount)
+
+
+DLLDirection
+modelica_integer omc_NBPartitioning_ClockedInfo_baseClockCount(threadData_t *threadData, modelica_metatype _info, modelica_boolean _countInferred);
+DLLDirection
+modelica_metatype boxptr_NBPartitioning_ClockedInfo_baseClockCount(threadData_t *threadData, modelica_metatype _info, modelica_metatype _countInferred);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBPartitioning_ClockedInfo_baseClockCount,2,0) {(void*) boxptr_NBPartitioning_ClockedInfo_baseClockCount,0}};
+#define boxvar_NBPartitioning_ClockedInfo_baseClockCount MMC_REFSTRUCTLIT(boxvar_lit_NBPartitioning_ClockedInfo_baseClockCount)
+
+
+DLLDirection
+void omc_NBPartitioning_ClockedInfo_resolveSubClocks(threadData_t *threadData, modelica_metatype _info, modelica_metatype _clock_map);
 #define boxptr_NBPartitioning_ClockedInfo_resolveSubClocks omc_NBPartitioning_ClockedInfo_resolveSubClocks
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBPartitioning_ClockedInfo_resolveSubClocks,2,0) {(void*) boxptr_NBPartitioning_ClockedInfo_resolveSubClocks,0}};
 #define boxvar_NBPartitioning_ClockedInfo_resolveSubClocks MMC_REFSTRUCTLIT(boxvar_lit_NBPartitioning_ClockedInfo_resolveSubClocks)
@@ -245,6 +292,14 @@ DLLDirection
 modelica_metatype boxptr_NBPartitioning_BClock_isEventClock(threadData_t *threadData, modelica_metatype _clock);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBPartitioning_BClock_isEventClock,2,0) {(void*) boxptr_NBPartitioning_BClock_isEventClock,0}};
 #define boxvar_NBPartitioning_BClock_isEventClock MMC_REFSTRUCTLIT(boxvar_lit_NBPartitioning_BClock_isEventClock)
+
+
+DLLDirection
+modelica_boolean omc_NBPartitioning_BClock_isInferredClock(threadData_t *threadData, modelica_metatype _clock);
+DLLDirection
+modelica_metatype boxptr_NBPartitioning_BClock_isInferredClock(threadData_t *threadData, modelica_metatype _clock);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBPartitioning_BClock_isInferredClock,2,0) {(void*) boxptr_NBPartitioning_BClock_isInferredClock,0}};
+#define boxvar_NBPartitioning_BClock_isInferredClock MMC_REFSTRUCTLIT(boxvar_lit_NBPartitioning_BClock_isInferredClock)
 
 
 DLLDirection

@@ -146,8 +146,6 @@ extern struct record_description NFInstNode_CachedData_FUNCTION__desc;
 
 extern struct record_description NFInstNode_InstNode_EMPTY__NODE__desc;
 
-extern struct record_description NFInstNode_InstNodeType_ROOT__CLASS__desc;
-
 extern struct record_description NFModifier_Modifier_NOMOD__desc;
 
 extern struct record_description NFSections_EMPTY__desc;

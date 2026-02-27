@@ -213,6 +213,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSlice_filterExp,2,0) {(void*) boxptr_
 
 
 DLLDirection
+modelica_metatype omc_NBSlice_check(threadData_t *threadData, modelica_metatype _slice, modelica_fnptr _func);
+#define boxptr_NBSlice_check omc_NBSlice_check
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSlice_check,2,0) {(void*) boxptr_NBSlice_check,0}};
+#define boxvar_NBSlice_check MMC_REFSTRUCTLIT(boxvar_lit_NBSlice_check)
+
+
+DLLDirection
 void omc_NBSlice_applyMutable(threadData_t *threadData, modelica_metatype _slice, modelica_fnptr _func);
 #define boxptr_NBSlice_applyMutable omc_NBSlice_applyMutable
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSlice_applyMutable,2,0) {(void*) boxptr_NBSlice_applyMutable,0}};
@@ -293,6 +300,14 @@ DLLDirection
 modelica_metatype boxptr_NBSlice_isEqual(threadData_t *threadData, modelica_metatype _slice1, modelica_metatype _slice2, modelica_fnptr _func);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSlice_isEqual,2,0) {(void*) boxptr_NBSlice_isEqual,0}};
 #define boxvar_NBSlice_isEqual MMC_REFSTRUCTLIT(boxvar_lit_NBSlice_isEqual)
+
+
+DLLDirection
+modelica_integer omc_NBSlice_hash(threadData_t *threadData, modelica_metatype _slice, modelica_fnptr _func);
+DLLDirection
+modelica_metatype boxptr_NBSlice_hash(threadData_t *threadData, modelica_metatype _slice, modelica_fnptr _func);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSlice_hash,2,0) {(void*) boxptr_NBSlice_hash,0}};
+#define boxvar_NBSlice_hash MMC_REFSTRUCTLIT(boxvar_lit_NBSlice_hash)
 
 
 DLLDirection

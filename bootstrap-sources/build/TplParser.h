@@ -1133,6 +1133,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_TplParser_CacheTree_addList,2,0) {(void
 #define boxvar_TplParser_CacheTree_addList MMC_REFSTRUCTLIT(boxvar_lit_TplParser_CacheTree_addList)
 
 
+DLLDirection
+modelica_metatype omc_TplParser_CacheTree_addUpdate(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftree, modelica_string _key, modelica_fnptr _fn);
+#define boxptr_TplParser_CacheTree_addUpdate omc_TplParser_CacheTree_addUpdate
+static const MMC_DEFSTRUCTLIT(boxvar_lit_TplParser_CacheTree_addUpdate,2,0) {(void*) boxptr_TplParser_CacheTree_addUpdate,0}};
+#define boxvar_TplParser_CacheTree_addUpdate MMC_REFSTRUCTLIT(boxvar_lit_TplParser_CacheTree_addUpdate)
+
+
 #define boxptr_TplParser_CacheTree_balance omc_TplParser_CacheTree_balance
 
 
@@ -1231,7 +1238,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_TplParser_CacheTree_keyStr,2,0) {(void*
 
 
 DLLDirection
-modelica_metatype omc_TplParser_CacheTree_listKeys(threadData_t *threadData, modelica_metatype _inTree, modelica_metatype __omcQ_24in_5Flst);
+modelica_metatype omc_TplParser_CacheTree_listKeys(threadData_t *threadData, modelica_metatype _tree, modelica_metatype __omcQ_24in_5Flst);
 #define boxptr_TplParser_CacheTree_listKeys omc_TplParser_CacheTree_listKeys
 static const MMC_DEFSTRUCTLIT(boxvar_lit_TplParser_CacheTree_listKeys,2,0) {(void*) boxptr_TplParser_CacheTree_listKeys,0}};
 #define boxvar_TplParser_CacheTree_listKeys MMC_REFSTRUCTLIT(boxvar_lit_TplParser_CacheTree_listKeys)

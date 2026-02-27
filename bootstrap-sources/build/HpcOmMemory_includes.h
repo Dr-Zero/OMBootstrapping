@@ -22,7 +22,6 @@ extern "C" {
 #include "HpcOmScheduler.h"
 #include "HpcOmTaskGraph.h"
 #include "List.h"
-#include "SimCodeFunctionUtil.h"
 #include "SimCodeUtil.h"
 #include "Util.h"
 #ifdef __cplusplus

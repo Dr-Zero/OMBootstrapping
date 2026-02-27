@@ -898,7 +898,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFSCodeFlattenImports_flattenMod
           tmpMeta1 = tmpMeta15;
           goto tmp3_done;
         }
-        case 5: {
+        case 7: {
           
           /* Pattern matching succeeded */
           tmpMeta1 = _inMod;

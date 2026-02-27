@@ -687,7 +687,7 @@ void omc_HpcOmSimCodeMain_outputTimeBenchmark(threadData_t *threadData, modelica
   tmpMeta5 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta4), 8));
   _exeCosts = tmpMeta5;
 
-  _numCycles = omc_List_map(threadData, arrayList(_exeCosts), boxvar_Util_tuple22);
+  _numCycles = omc_List_mapArray(threadData, _exeCosts, boxvar_Util_tuple22);
 
   fputs(MMC_STRINGDATA(_OMC_LIT4),stdout);
 
@@ -2444,8 +2444,8 @@ modelica_metatype omc_HpcOmSimCodeMain_createSimCode(threadData_t *threadData, m
 
           _partData = omc_HpcOmTaskGraph_multirate__partitioning(threadData, _taskGraphOde, _taskGraphDataOde, _inBackendDAE, _simCode, _sccSimEqMapping);
 
-          tmpMeta18 = MMC_TAGPTR(mmc_alloc_words(53));
-          memcpy(MMC_UNTAGPTR(tmpMeta18), MMC_UNTAGPTR(_simCode), 53*sizeof(modelica_metatype));
+          tmpMeta18 = MMC_TAGPTR(mmc_alloc_words(54));
+          memcpy(MMC_UNTAGPTR(tmpMeta18), MMC_UNTAGPTR(_simCode), 54*sizeof(modelica_metatype));
           ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta18))[49] = _partData;
           _simCode = tmpMeta18;
           tmpMeta1 = _simCode;
@@ -2734,20 +2734,20 @@ modelica_metatype omc_HpcOmSimCodeMain_createSimCode(threadData_t *threadData, m
 
           omc_ExecStat_execStat(threadData, _OMC_LIT150);
 
-          tmpMeta66 = MMC_TAGPTR(mmc_alloc_words(53));
-          memcpy(MMC_UNTAGPTR(tmpMeta66), MMC_UNTAGPTR(_simCode), 53*sizeof(modelica_metatype));
+          tmpMeta66 = MMC_TAGPTR(mmc_alloc_words(54));
+          memcpy(MMC_UNTAGPTR(tmpMeta66), MMC_UNTAGPTR(_simCode), 54*sizeof(modelica_metatype));
           ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta66))[42] = _varToArrayIndexMapping;
           _simCode = tmpMeta66;
 
-          tmpMeta67 = MMC_TAGPTR(mmc_alloc_words(53));
-          memcpy(MMC_UNTAGPTR(tmpMeta67), MMC_UNTAGPTR(_simCode), 53*sizeof(modelica_metatype));
+          tmpMeta67 = MMC_TAGPTR(mmc_alloc_words(54));
+          memcpy(MMC_UNTAGPTR(tmpMeta67), MMC_UNTAGPTR(_simCode), 54*sizeof(modelica_metatype));
           ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta67))[43] = _varToIndexMapping;
           _simCode = tmpMeta67;
 
           tmpMeta69 = mmc_mk_box3(0, _scheduleOde, _scheduleDae, _scheduleZeroFunc);
           tmpMeta70 = mmc_mk_box3(3, &HpcOmSimCode_HpcOmData_HPCOMDATA__desc, mmc_mk_some(tmpMeta69), _optTmpMemoryMap);
-          tmpMeta68 = MMC_TAGPTR(mmc_alloc_words(53));
-          memcpy(MMC_UNTAGPTR(tmpMeta68), MMC_UNTAGPTR(_simCode), 53*sizeof(modelica_metatype));
+          tmpMeta68 = MMC_TAGPTR(mmc_alloc_words(54));
+          memcpy(MMC_UNTAGPTR(tmpMeta68), MMC_UNTAGPTR(_simCode), 54*sizeof(modelica_metatype));
           ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta68))[40] = tmpMeta70;
           _simCode = tmpMeta68;
 

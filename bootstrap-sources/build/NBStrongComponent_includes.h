@@ -8,6 +8,7 @@ extern "C" {
 #include "List.h"
 #include "NBEquation.h"
 #include "NBInitialization.h"
+#include "NBInline.h"
 #include "NBPartition.h"
 #include "NBResizable.h"
 #include "NBSlice.h"

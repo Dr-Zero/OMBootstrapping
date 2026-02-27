@@ -30,12 +30,10 @@ modelica_string omc_NFInstDump_dumpUntypedComponentDims(threadData_t *threadData
     modelica_metatype tmp4_1;
     tmp4_1 = _inComponent;
     {
-      modelica_metatype _adims = NULL;
-      modelica_metatype _ldims = NULL;
+      modelica_metatype _dims = NULL;
       volatile mmc_switch_type tmp4;
       int tmp5;
-      // _adims has no default value.
-      // _ldims has no default value.
+      // _dims has no default value.
       tmp4 = 0;
       for (; tmp4 < 1; tmp4++) {
         switch (MMC_SWITCH_CAST(tmp4)) {
@@ -44,10 +42,9 @@ modelica_string omc_NFInstDump_dumpUntypedComponentDims(threadData_t *threadData
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,0,7) == 0) goto tmp3_end;
           tmpMeta6 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 4));
           
-          _adims = tmpMeta6;
+          _dims = tmpMeta6;
           /* Pattern matching succeeded */
-          _ldims = arrayList(_adims);
-          tmp1 = omc_List_toString(threadData, _ldims, boxvar_NFInstDump_dimensionStr, _OMC_LIT0, _OMC_LIT1, _OMC_LIT2, _OMC_LIT3, 0 /* false */, ((modelica_integer) 0));
+          tmp1 = omc_Array_toString(threadData, _dims, boxvar_NFInstDump_dimensionStr, _OMC_LIT0, _OMC_LIT1, _OMC_LIT2, _OMC_LIT3, 0 /* false */, ((modelica_integer) 0));
           goto tmp3_done;
         }
         }

@@ -296,6 +296,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CevalScript_cevalInteractiveFunctions,2
 #define boxvar_CevalScript_cevalInteractiveFunctions MMC_REFSTRUCTLIT(boxvar_lit_CevalScript_cevalInteractiveFunctions)
 
 
+#define boxptr_CevalScript_checkPatchedModelicaServices omc_CevalScript_checkPatchedModelicaServices
+
+
 #define boxptr_CevalScript_checkValidVersion omc_CevalScript_checkValidVersion
 
 
@@ -311,9 +314,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CevalScript_loadModel,2,0) {(void*) box
 
 
 DLLDirection
-modelica_metatype omc_CevalScript_loadFile(threadData_t *threadData, modelica_string _name, modelica_string _encoding, modelica_metatype _p, modelica_boolean _checkUses, modelica_boolean _notifyLoad, modelica_boolean _requireExactVersion, modelica_boolean _allowWithin);
+modelica_metatype omc_CevalScript_loadFile(threadData_t *threadData, modelica_string _inName, modelica_string _encoding, modelica_metatype _p, modelica_boolean _checkUses, modelica_boolean _notifyLoad, modelica_boolean _requireExactVersion, modelica_boolean _allowWithin);
 DLLDirection
-modelica_metatype boxptr_CevalScript_loadFile(threadData_t *threadData, modelica_metatype _name, modelica_metatype _encoding, modelica_metatype _p, modelica_metatype _checkUses, modelica_metatype _notifyLoad, modelica_metatype _requireExactVersion, modelica_metatype _allowWithin);
+modelica_metatype boxptr_CevalScript_loadFile(threadData_t *threadData, modelica_metatype _inName, modelica_metatype _encoding, modelica_metatype _p, modelica_metatype _checkUses, modelica_metatype _notifyLoad, modelica_metatype _requireExactVersion, modelica_metatype _allowWithin);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CevalScript_loadFile,2,0) {(void*) boxptr_CevalScript_loadFile,0}};
 #define boxvar_CevalScript_loadFile MMC_REFSTRUCTLIT(boxvar_lit_CevalScript_loadFile)
 

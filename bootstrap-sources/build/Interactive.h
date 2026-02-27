@@ -250,7 +250,17 @@ extern struct record_description ErrorTypes_Severity_WARNING__desc;
 
 extern struct record_description FCore_Graph_EG__desc;
 
+extern struct record_description Flags_ConfigFlag_CONFIG__FLAG__desc;
+
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
+
+extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
+
+extern struct record_description Flags_FlagData_ENUM__FLAG__desc;
+
+extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
+
+extern struct record_description Flags_ValidOptions_STRING__OPTION__desc;
 
 extern struct record_description Gettext_TranslatableContent_gettext__desc;
 

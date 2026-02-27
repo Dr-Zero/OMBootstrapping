@@ -56,8 +56,8 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT21,2,4) {&Tpl_StringToken_ST__STRIN
 #define _OMC_LIT22_data "\""
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT22,1,_OMC_LIT22_data);
 #define _OMC_LIT22 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT22)
-#define _OMC_LIT23_data "CodegenEmbeddedC.tpl"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT23,20,_OMC_LIT23_data);
+#define _OMC_LIT23_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/Template/CodegenEmbeddedC.tpl"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT23,82,_OMC_LIT23_data);
 #define _OMC_LIT23 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT23)
 #define _OMC_LIT24_data "Not VARIABLE(__)"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT24,16,_OMC_LIT24_data);

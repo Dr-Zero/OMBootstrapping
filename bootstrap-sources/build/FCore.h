@@ -220,6 +220,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_FCore_RefTree_addList,2,0) {(void*) box
 #define boxvar_FCore_RefTree_addList MMC_REFSTRUCTLIT(boxvar_lit_FCore_RefTree_addList)
 
 
+DLLDirection
+modelica_metatype omc_FCore_RefTree_addUpdate(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftree, modelica_string _key, modelica_fnptr _fn);
+#define boxptr_FCore_RefTree_addUpdate omc_FCore_RefTree_addUpdate
+static const MMC_DEFSTRUCTLIT(boxvar_lit_FCore_RefTree_addUpdate,2,0) {(void*) boxptr_FCore_RefTree_addUpdate,0}};
+#define boxvar_FCore_RefTree_addUpdate MMC_REFSTRUCTLIT(boxvar_lit_FCore_RefTree_addUpdate)
+
+
 #define boxptr_FCore_RefTree_balance omc_FCore_RefTree_balance
 
 
@@ -318,7 +325,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_FCore_RefTree_keyStr,2,0) {(void*) boxp
 
 
 DLLDirection
-modelica_metatype omc_FCore_RefTree_listKeys(threadData_t *threadData, modelica_metatype _inTree, modelica_metatype __omcQ_24in_5Flst);
+modelica_metatype omc_FCore_RefTree_listKeys(threadData_t *threadData, modelica_metatype _tree, modelica_metatype __omcQ_24in_5Flst);
 #define boxptr_FCore_RefTree_listKeys omc_FCore_RefTree_listKeys
 static const MMC_DEFSTRUCTLIT(boxvar_lit_FCore_RefTree_listKeys,2,0) {(void*) boxptr_FCore_RefTree_listKeys,0}};
 #define boxvar_FCore_RefTree_listKeys MMC_REFSTRUCTLIT(boxvar_lit_FCore_RefTree_listKeys)

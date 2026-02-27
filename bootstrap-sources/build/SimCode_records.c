@@ -32,7 +32,7 @@ extern struct record_description SimCode_JacobianColumn_JAC__COLUMN__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef SimCode_JacobianMatrix_JAC__MATRIX__desc_added
 #define SimCode_JacobianMatrix_JAC__MATRIX__desc_added
-ADD_METARECORD_DEFINITIONS const char* SimCode_JacobianMatrix_JAC__MATRIX__desc__fields[13] = {"columns","seedVars","matrixName","sparsity","sparsityT","nonlinear","nonlinearT","coloredCols","maxColorCols","jacobianIndex","partitionIndex","generic_loop_calls","crefsHT"};
+ADD_METARECORD_DEFINITIONS const char* SimCode_JacobianMatrix_JAC__MATRIX__desc__fields[15] = {"columns","seedVars","matrixName","sparsity","sparsityT","nonlinear","nonlinearT","coloredCols","coloredRows","maxColorCols","jacobianIndex","partitionIndex","generic_loop_calls","crefsHT","isAdjoint"};
 ADD_METARECORD_DEFINITIONS struct record_description SimCode_JacobianMatrix_JAC__MATRIX__desc = {
   "SimCode_JacobianMatrix_JAC__MATRIX",
   "SimCode.JacobianMatrix.JAC_MATRIX",
@@ -45,7 +45,7 @@ extern struct record_description SimCode_JacobianMatrix_JAC__MATRIX__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef SimCode_JacobianMatrix_JAC__MATRIX__desc_added
 #define SimCode_JacobianMatrix_JAC__MATRIX__desc_added
-ADD_METARECORD_DEFINITIONS const char* SimCode_JacobianMatrix_JAC__MATRIX__desc__fields[13] = {"columns","seedVars","matrixName","sparsity","sparsityT","nonlinear","nonlinearT","coloredCols","maxColorCols","jacobianIndex","partitionIndex","generic_loop_calls","crefsHT"};
+ADD_METARECORD_DEFINITIONS const char* SimCode_JacobianMatrix_JAC__MATRIX__desc__fields[15] = {"columns","seedVars","matrixName","sparsity","sparsityT","nonlinear","nonlinearT","coloredCols","coloredRows","maxColorCols","jacobianIndex","partitionIndex","generic_loop_calls","crefsHT","isAdjoint"};
 ADD_METARECORD_DEFINITIONS struct record_description SimCode_JacobianMatrix_JAC__MATRIX__desc = {
   "SimCode_JacobianMatrix_JAC__MATRIX",
   "SimCode.JacobianMatrix.JAC_MATRIX",
@@ -58,7 +58,7 @@ extern struct record_description SimCode_JacobianMatrix_JAC__MATRIX__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef SimCode_SimCode_SIMCODE__desc_added
 #define SimCode_SimCode_SIMCODE__desc_added
-ADD_METARECORD_DEFINITIONS const char* SimCode_SimCode_SIMCODE__desc__fields[51] = {"modelInfo","literals","recordDecls","externalFunctionIncludes","generic_loop_calls","localKnownVars","allEquations","odeEquations","algebraicEquations","clockedPartitions","initialEquations","initialEquations_lambda0","removedInitialEquations","startValueEquations","nominalValueEquations","minValueEquations","maxValueEquations","parameterEquations","removedEquations","algorithmAndEquationAsserts","equationsForZeroCrossings","jacobianEquations","stateSets","constraints","classAttributes","zeroCrossings","relations","timeEvents","discreteModelVars","extObjInfo","makefileParams","delayedExps","spatialInfo","jacobianMatrices","simulationSettingsOpt","fileNamePrefix","fullPathPrefix","fmuTargetName","hpcomData","valueReferences","varToArrayIndexMapping","varToIndexMapping","crefToSimVarHT","crefToClockIndexHT","backendMapping","modelStructure","fmiSimulationFlags","partitionData","daeModeData","inlineEquations","omsiData"};
+ADD_METARECORD_DEFINITIONS const char* SimCode_SimCode_SIMCODE__desc__fields[52] = {"modelInfo","literals","recordDecls","externalFunctionIncludes","generic_loop_calls","localKnownVars","allEquations","odeEquations","algebraicEquations","clockedPartitions","initialEquations","initialEquations_lambda0","removedInitialEquations","startValueEquations","nominalValueEquations","minValueEquations","maxValueEquations","parameterEquations","removedEquations","algorithmAndEquationAsserts","equationsForZeroCrossings","jacobianEquations","stateSets","constraints","classAttributes","zeroCrossings","relations","timeEvents","discreteModelVars","extObjInfo","makefileParams","delayedExps","spatialInfo","jacobianMatrices","simulationSettingsOpt","fileNamePrefix","fullPathPrefix","fmuTargetName","hpcomData","valueReferences","varToArrayIndexMapping","varToIndexMapping","crefToSimVarHT","crefToClockIndexHT","backendMapping","modelStructure","fmiSimulationFlags","partitionData","daeModeData","inlineEquations","omsiData","scalarized"};
 ADD_METARECORD_DEFINITIONS struct record_description SimCode_SimCode_SIMCODE__desc = {
   "SimCode_SimCode_SIMCODE",
   "SimCode.SimCode.SIMCODE",
@@ -71,7 +71,7 @@ extern struct record_description SimCode_SimCode_SIMCODE__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef SimCode_SimCode_SIMCODE__desc_added
 #define SimCode_SimCode_SIMCODE__desc_added
-ADD_METARECORD_DEFINITIONS const char* SimCode_SimCode_SIMCODE__desc__fields[51] = {"modelInfo","literals","recordDecls","externalFunctionIncludes","generic_loop_calls","localKnownVars","allEquations","odeEquations","algebraicEquations","clockedPartitions","initialEquations","initialEquations_lambda0","removedInitialEquations","startValueEquations","nominalValueEquations","minValueEquations","maxValueEquations","parameterEquations","removedEquations","algorithmAndEquationAsserts","equationsForZeroCrossings","jacobianEquations","stateSets","constraints","classAttributes","zeroCrossings","relations","timeEvents","discreteModelVars","extObjInfo","makefileParams","delayedExps","spatialInfo","jacobianMatrices","simulationSettingsOpt","fileNamePrefix","fullPathPrefix","fmuTargetName","hpcomData","valueReferences","varToArrayIndexMapping","varToIndexMapping","crefToSimVarHT","crefToClockIndexHT","backendMapping","modelStructure","fmiSimulationFlags","partitionData","daeModeData","inlineEquations","omsiData"};
+ADD_METARECORD_DEFINITIONS const char* SimCode_SimCode_SIMCODE__desc__fields[52] = {"modelInfo","literals","recordDecls","externalFunctionIncludes","generic_loop_calls","localKnownVars","allEquations","odeEquations","algebraicEquations","clockedPartitions","initialEquations","initialEquations_lambda0","removedInitialEquations","startValueEquations","nominalValueEquations","minValueEquations","maxValueEquations","parameterEquations","removedEquations","algorithmAndEquationAsserts","equationsForZeroCrossings","jacobianEquations","stateSets","constraints","classAttributes","zeroCrossings","relations","timeEvents","discreteModelVars","extObjInfo","makefileParams","delayedExps","spatialInfo","jacobianMatrices","simulationSettingsOpt","fileNamePrefix","fullPathPrefix","fmuTargetName","hpcomData","valueReferences","varToArrayIndexMapping","varToIndexMapping","crefToSimVarHT","crefToClockIndexHT","backendMapping","modelStructure","fmiSimulationFlags","partitionData","daeModeData","inlineEquations","omsiData","scalarized"};
 ADD_METARECORD_DEFINITIONS struct record_description SimCode_SimCode_SIMCODE__desc = {
   "SimCode_SimCode_SIMCODE",
   "SimCode.SimCode.SIMCODE",
@@ -318,7 +318,7 @@ extern struct record_description SimCode_UnitDefinition_UNITDEFINITION__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef SimCode_BaseUnit_BASEUNIT__desc_added
 #define SimCode_BaseUnit_BASEUNIT__desc_added
-ADD_METARECORD_DEFINITIONS const char* SimCode_BaseUnit_BASEUNIT__desc__fields[9] = {"mol","cd","m","s","A","K","kg","factor","offset"};
+ADD_METARECORD_DEFINITIONS const char* SimCode_BaseUnit_BASEUNIT__desc__fields[9] = {"s","m","kg","A","K","mol","cd","factor","offset"};
 ADD_METARECORD_DEFINITIONS struct record_description SimCode_BaseUnit_BASEUNIT__desc = {
   "SimCode_BaseUnit_BASEUNIT",
   "SimCode.BaseUnit.BASEUNIT",
@@ -357,7 +357,7 @@ extern struct record_description SimCode_BaseUnit_NOBASEUNIT__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef SimCode_BaseUnit_BASEUNIT__desc_added
 #define SimCode_BaseUnit_BASEUNIT__desc_added
-ADD_METARECORD_DEFINITIONS const char* SimCode_BaseUnit_BASEUNIT__desc__fields[9] = {"mol","cd","m","s","A","K","kg","factor","offset"};
+ADD_METARECORD_DEFINITIONS const char* SimCode_BaseUnit_BASEUNIT__desc__fields[9] = {"s","m","kg","A","K","mol","cd","factor","offset"};
 ADD_METARECORD_DEFINITIONS struct record_description SimCode_BaseUnit_BASEUNIT__desc = {
   "SimCode_BaseUnit_BASEUNIT",
   "SimCode.BaseUnit.BASEUNIT",
@@ -1358,7 +1358,7 @@ extern struct record_description SimCode_ExtObjInfo_EXTOBJINFO__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef SimCode_SimulationSettings_SIMULATION__SETTINGS__desc_added
 #define SimCode_SimulationSettings_SIMULATION__SETTINGS__desc_added
-ADD_METARECORD_DEFINITIONS const char* SimCode_SimulationSettings_SIMULATION__SETTINGS__desc__fields[10] = {"startTime","stopTime","numberOfIntervals","stepSize","tolerance","method","options","outputFormat","variableFilter","cflags"};
+ADD_METARECORD_DEFINITIONS const char* SimCode_SimulationSettings_SIMULATION__SETTINGS__desc__fields[11] = {"startTime","stopTime","numberOfIntervals","stepSize","tolerance","method","options","outputFormat","variableFilter","cflags","simflags"};
 ADD_METARECORD_DEFINITIONS struct record_description SimCode_SimulationSettings_SIMULATION__SETTINGS__desc = {
   "SimCode_SimulationSettings_SIMULATION__SETTINGS",
   "SimCode.SimulationSettings.SIMULATION_SETTINGS",
@@ -1371,7 +1371,7 @@ extern struct record_description SimCode_SimulationSettings_SIMULATION__SETTINGS
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef SimCode_SimulationSettings_SIMULATION__SETTINGS__desc_added
 #define SimCode_SimulationSettings_SIMULATION__SETTINGS__desc_added
-ADD_METARECORD_DEFINITIONS const char* SimCode_SimulationSettings_SIMULATION__SETTINGS__desc__fields[10] = {"startTime","stopTime","numberOfIntervals","stepSize","tolerance","method","options","outputFormat","variableFilter","cflags"};
+ADD_METARECORD_DEFINITIONS const char* SimCode_SimulationSettings_SIMULATION__SETTINGS__desc__fields[11] = {"startTime","stopTime","numberOfIntervals","stepSize","tolerance","method","options","outputFormat","variableFilter","cflags","simflags"};
 ADD_METARECORD_DEFINITIONS struct record_description SimCode_SimulationSettings_SIMULATION__SETTINGS__desc = {
   "SimCode_SimulationSettings_SIMULATION__SETTINGS",
   "SimCode.SimulationSettings.SIMULATION_SETTINGS",

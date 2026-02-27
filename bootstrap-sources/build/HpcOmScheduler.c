@@ -167,321 +167,319 @@ static const MMC_DEFREALLIT(_OMC_LIT_STRUCT56,-1.0);
 #define _OMC_LIT57_data "computeGraphValuesBottomUp2 failed!\n"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT57,36,_OMC_LIT57_data);
 #define _OMC_LIT57 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT57)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT58,2,0) {MMC_REFSTRUCTLIT(mmc_nil),MMC_IMMEDIATE(MMC_TAGFIXNUM(0))}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT58,2,1) {MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),MMC_REFSTRUCTLIT(mmc_nil)}};
 #define _OMC_LIT58 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT58)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT59,2,1) {MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),MMC_REFSTRUCTLIT(mmc_nil)}};
-#define _OMC_LIT59 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT59)
-#define _OMC_LIT60_data "createSchedulerFromAssignments failed.implement this!\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT60,54,_OMC_LIT60_data);
+#define _OMC_LIT59_data "createSchedulerFromAssignments failed.implement this!\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT59,54,_OMC_LIT59_data);
+#define _OMC_LIT59 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT59)
+#define _OMC_LIT60_data "this is not a thread schedule!\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT60,31,_OMC_LIT60_data);
 #define _OMC_LIT60 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT60)
-#define _OMC_LIT61_data "this is not a thread schedule!\n"
+#define _OMC_LIT61_data "MCP_getTaskAssignment1 failed!\n"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT61,31,_OMC_LIT61_data);
 #define _OMC_LIT61 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT61)
-#define _OMC_LIT62_data "MCP_getTaskAssignment1 failed!\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT62,31,_OMC_LIT62_data);
+#define _OMC_LIT62_data "number of removed superfluous locks: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT62,37,_OMC_LIT62_data);
 #define _OMC_LIT62 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT62)
-#define _OMC_LIT63_data "number of removed superfluous locks: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT63,37,_OMC_LIT63_data);
-#define _OMC_LIT63 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT63)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT64,2,1) {MMC_IMMEDIATE(MMC_TAGFIXNUM(2)),MMC_REFSTRUCTLIT(mmc_nil)}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT63,2,1) {MMC_IMMEDIATE(MMC_TAGFIXNUM(2)),MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT63 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT63)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT64,2,1) {MMC_IMMEDIATE(MMC_TAGFIXNUM(16)),_OMC_LIT63}};
 #define _OMC_LIT64 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT64)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT65,2,1) {MMC_IMMEDIATE(MMC_TAGFIXNUM(16)),_OMC_LIT64}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT65,2,1) {MMC_IMMEDIATE(MMC_TAGFIXNUM(15)),_OMC_LIT64}};
 #define _OMC_LIT65 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT65)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT66,2,1) {MMC_IMMEDIATE(MMC_TAGFIXNUM(15)),_OMC_LIT65}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT66,2,1) {MMC_IMMEDIATE(MMC_TAGFIXNUM(7)),_OMC_LIT65}};
 #define _OMC_LIT66 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT66)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT67,2,1) {MMC_IMMEDIATE(MMC_TAGFIXNUM(7)),_OMC_LIT66}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT67,2,1) {MMC_IMMEDIATE(MMC_TAGFIXNUM(20)),_OMC_LIT66}};
 #define _OMC_LIT67 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT67)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT68,2,1) {MMC_IMMEDIATE(MMC_TAGFIXNUM(20)),_OMC_LIT67}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT68,2,3) {&HpcOmSimCode_TaskList_PARALLELTASKLIST__desc,MMC_REFSTRUCTLIT(mmc_nil)}};
 #define _OMC_LIT68 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT68)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT69,2,3) {&HpcOmSimCode_TaskList_PARALLELTASKLIST__desc,MMC_REFSTRUCTLIT(mmc_nil)}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT69,2,6) {&HpcOmSimCode_Schedule_EMPTYSCHEDULE__desc,_OMC_LIT68}};
 #define _OMC_LIT69 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT69)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT70,2,6) {&HpcOmSimCode_Schedule_EMPTYSCHEDULE__desc,_OMC_LIT69}};
-#define _OMC_LIT70 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT70)
-#define _OMC_LIT71_data "HpcOmScheduler.createPartSchedule failed\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT71,41,_OMC_LIT71_data);
+#define _OMC_LIT70_data "HpcOmScheduler.createPartSchedule failed\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT70,41,_OMC_LIT70_data);
+#define _OMC_LIT70 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT70)
+#define _OMC_LIT71_data "failtrace"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT71,9,_OMC_LIT71_data);
 #define _OMC_LIT71 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT71)
-#define _OMC_LIT72_data "failtrace"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT72,9,_OMC_LIT72_data);
+#define _OMC_LIT72_data "Sets whether to print a failtrace or not."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT72,41,_OMC_LIT72_data);
 #define _OMC_LIT72 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT72)
-#define _OMC_LIT73_data "Sets whether to print a failtrace or not."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT73,41,_OMC_LIT73_data);
-#define _OMC_LIT73 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT73)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT74,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT73}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT73,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT72}};
+#define _OMC_LIT73 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT73)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT74,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT71,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT73}};
 #define _OMC_LIT74 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT74)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT75,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT72,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT74}};
-#define _OMC_LIT75 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT75)
-#define _OMC_LIT76_data "TDS_InitialCluster1 failed\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT76,27,_OMC_LIT76_data);
-#define _OMC_LIT76 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT76)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT77,2,1) {MMC_REFSTRUCTLIT(mmc_nil),MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT75_data "TDS_InitialCluster1 failed\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT75,27,_OMC_LIT75_data);
+#define _OMC_LIT75 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT75)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT76,2,1) {MMC_REFSTRUCTLIT(mmc_nil),MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT76 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT76)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT77,1,11) {&DAE_Type_T__UNKNOWN__desc,}};
 #define _OMC_LIT77 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT77)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT78,1,11) {&DAE_Type_T__UNKNOWN__desc,}};
-#define _OMC_LIT78 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT78)
-#define _OMC_LIT79_data "implement Jacobian replacement for SES_NONLINEAR in HpcOmScheduler.replaceExpsInSimEqSystems!\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT79,94,_OMC_LIT79_data);
+#define _OMC_LIT78_data "implement Jacobian replacement for SES_NONLINEAR in HpcOmScheduler.replaceExpsInSimEqSystems!\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT78,94,_OMC_LIT78_data);
+#define _OMC_LIT78 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT78)
+#define _OMC_LIT79_data "replaceExpsInSimEqSystem failed\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT79,32,_OMC_LIT79_data);
 #define _OMC_LIT79 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT79)
-#define _OMC_LIT80_data "replaceExpsInSimEqSystem failed\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT80,32,_OMC_LIT80_data);
-#define _OMC_LIT80 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT80)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT81,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT50,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),_OMC_LIT21}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT80,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT50,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),_OMC_LIT21}};
+#define _OMC_LIT80 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT80)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT81,1,4) {&DAE_ComponentPrefix_NOCOMPPRE__desc,}};
 #define _OMC_LIT81 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT81)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT82,1,4) {&DAE_ComponentPrefix_NOCOMPPRE__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT82,8,3) {&DAE_ElementSource_SOURCE__desc,_OMC_LIT80,MMC_REFSTRUCTLIT(mmc_nil),_OMC_LIT81,MMC_REFSTRUCTLIT(mmc_nil),MMC_REFSTRUCTLIT(mmc_nil),MMC_REFSTRUCTLIT(mmc_nil),MMC_REFSTRUCTLIT(mmc_nil)}};
 #define _OMC_LIT82 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT82)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT83,8,3) {&DAE_ElementSource_SOURCE__desc,_OMC_LIT81,MMC_REFSTRUCTLIT(mmc_nil),_OMC_LIT82,MMC_REFSTRUCTLIT(mmc_nil),MMC_REFSTRUCTLIT(mmc_nil),MMC_REFSTRUCTLIT(mmc_nil),MMC_REFSTRUCTLIT(mmc_nil)}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT83,1,9) {&BackendDAE_EquationKind_UNKNOWN__EQUATION__KIND__desc,}};
 #define _OMC_LIT83 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT83)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT84,1,9) {&BackendDAE_EquationKind_UNKNOWN__EQUATION__KIND__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT84,5,3) {&BackendDAE_EvaluationStages_EVALUATION__STAGES__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */))}};
 #define _OMC_LIT84 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT84)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT85,5,3) {&BackendDAE_EvaluationStages_EVALUATION__STAGES__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */))}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT85,4,3) {&BackendDAE_EquationAttributes_EQUATION__ATTRIBUTES__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT83,_OMC_LIT84}};
 #define _OMC_LIT85 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT85)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT86,4,3) {&BackendDAE_EquationAttributes_EQUATION__ATTRIBUTES__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT84,_OMC_LIT85}};
-#define _OMC_LIT86 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT86)
-#define _OMC_LIT87_data "_thr"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT87,4,_OMC_LIT87_data);
+#define _OMC_LIT86_data "_thr"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT86,4,_OMC_LIT86_data);
+#define _OMC_LIT86 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT86)
+#define _OMC_LIT87_data "There are less initial clusters than processors. we need duplication, but since this is a rare case, it is not done. Less processors are used.\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT87,143,_OMC_LIT87_data);
 #define _OMC_LIT87 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT87)
-#define _OMC_LIT88_data "There are less initial clusters than processors. we need duplication, but since this is a rare case, it is not done. Less processors are used.\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT88,143,_OMC_LIT88_data);
+#define _OMC_LIT88_data "numProcs"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT88,8,_OMC_LIT88_data);
 #define _OMC_LIT88 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT88)
-#define _OMC_LIT89_data "numProcs"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT89,8,_OMC_LIT89_data);
+#define _OMC_LIT89_data "n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT89,1,_OMC_LIT89_data);
 #define _OMC_LIT89 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT89)
-#define _OMC_LIT90_data "n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT90,1,_OMC_LIT90_data);
-#define _OMC_LIT90 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT90)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT91,1,1) {_OMC_LIT90}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT90,1,1) {_OMC_LIT89}};
+#define _OMC_LIT90 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT90)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT91,1,4) {&Flags_FlagVisibility_EXTERNAL__desc,}};
 #define _OMC_LIT91 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT91)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT92,1,4) {&Flags_FlagVisibility_EXTERNAL__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT92,2,5) {&Flags_FlagData_INT__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0))}};
 #define _OMC_LIT92 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT92)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT93,2,5) {&Flags_FlagData_INT__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0))}};
-#define _OMC_LIT93 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT93)
-#define _OMC_LIT94_data "Sets the number of processors to use (0=default=auto)."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT94,54,_OMC_LIT94_data);
-#define _OMC_LIT94 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT94)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT95,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT94}};
+#define _OMC_LIT93_data "Sets the number of processors to use (0=default=auto)."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT93,54,_OMC_LIT93_data);
+#define _OMC_LIT93 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT93)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT94,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT93}};
+#define _OMC_LIT94 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT94)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT95,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(24)),_OMC_LIT88,_OMC_LIT90,_OMC_LIT91,_OMC_LIT92,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT94}};
 #define _OMC_LIT95 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT95)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT96,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(24)),_OMC_LIT89,_OMC_LIT91,_OMC_LIT92,_OMC_LIT93,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT95}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT96,2,0) {_OMC_LIT18,MMC_IMMEDIATE(MMC_TAGFIXNUM(0))}};
 #define _OMC_LIT96 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT96)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT97,2,0) {_OMC_LIT18,MMC_IMMEDIATE(MMC_TAGFIXNUM(0))}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT97,3,0) {MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0))}};
 #define _OMC_LIT97 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT97)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT98,3,0) {MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0))}};
-#define _OMC_LIT98 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT98)
-#define _OMC_LIT99_data "duplicated"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT99,10,_OMC_LIT99_data);
-#define _OMC_LIT99 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT99)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT100,1.0);
-#define _OMC_LIT100 MMC_REFREALLIT(_OMC_LIT_STRUCT100)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT101,2,0) {MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT100}};
-#define _OMC_LIT101 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT101)
-#define _OMC_LIT102_data "TDS_schedule1 failed!\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT102,22,_OMC_LIT102_data);
-#define _OMC_LIT102 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT102)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT103,2,0) {MMC_REFSTRUCTLIT(mmc_nil),MMC_REFSTRUCTLIT(mmc_nil)}};
-#define _OMC_LIT103 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT103)
-#define _OMC_LIT104_data "HpcOmScheduler.createExtSchedule1 failed. Tasks in List:\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT104,57,_OMC_LIT104_data);
+#define _OMC_LIT98_data "duplicated"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT98,10,_OMC_LIT98_data);
+#define _OMC_LIT98 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT98)
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT99,1.0);
+#define _OMC_LIT99 MMC_REFREALLIT(_OMC_LIT_STRUCT99)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT100,2,0) {MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT99}};
+#define _OMC_LIT100 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT100)
+#define _OMC_LIT101_data "TDS_schedule1 failed!\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT101,22,_OMC_LIT101_data);
+#define _OMC_LIT101 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT101)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT102,2,0) {MMC_REFSTRUCTLIT(mmc_nil),MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT102 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT102)
+#define _OMC_LIT103_data "HpcOmScheduler.createExtSchedule1 failed. Tasks in List:\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT103,57,_OMC_LIT103_data);
+#define _OMC_LIT103 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT103)
+#define _OMC_LIT104_data "HpcOmScheduler.createExtSchedule not every node has a scheduler-info.\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT104,70,_OMC_LIT104_data);
 #define _OMC_LIT104 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT104)
-#define _OMC_LIT105_data "HpcOmScheduler.createExtSchedule not every node has a scheduler-info.\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT105,70,_OMC_LIT105_data);
-#define _OMC_LIT105 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT105)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT106,2,1) {MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),MMC_REFSTRUCTLIT(mmc_nil)}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT105,2,1) {MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT105 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT105)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT106,5,0) {MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),_OMC_LIT105,MMC_REFSTRUCTLIT(mmc_nil),MMC_REFSTRUCTLIT(mmc_nil)}};
 #define _OMC_LIT106 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT106)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT107,5,0) {MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),_OMC_LIT106,MMC_REFSTRUCTLIT(mmc_nil),MMC_REFSTRUCTLIT(mmc_nil)}};
-#define _OMC_LIT107 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT107)
-#define _OMC_LIT108_data "Diagnostic length: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT108,19,_OMC_LIT108_data);
+#define _OMC_LIT107_data "Diagnostic length: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT107,19,_OMC_LIT107_data);
+#define _OMC_LIT107 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT107)
+#define _OMC_LIT108_data " "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT108,1,_OMC_LIT108_data);
 #define _OMC_LIT108 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT108)
-#define _OMC_LIT109_data " "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT109,1,_OMC_LIT109_data);
+#define _OMC_LIT109_data "l_eint length:"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT109,14,_OMC_LIT109_data);
 #define _OMC_LIT109 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT109)
-#define _OMC_LIT110_data "l_eint length:"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT110,14,_OMC_LIT110_data);
-#define _OMC_LIT110 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT110)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT111,2,0) {MMC_REFSTRUCTLIT(mmc_nil),MMC_IMMEDIATE(MMC_TAGFIXNUM(1))}};
-#define _OMC_LIT111 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT111)
-#define _OMC_LIT112_data "Funktionsaufruf!"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT112,16,_OMC_LIT112_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT110,2,0) {MMC_REFSTRUCTLIT(mmc_nil),MMC_IMMEDIATE(MMC_TAGFIXNUM(1))}};
+#define _OMC_LIT110 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT110)
+#define _OMC_LIT111_data "Funktionsaufruf!"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT111,16,_OMC_LIT111_data);
+#define _OMC_LIT111 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT111)
+#define _OMC_LIT112_data "Hier geht MetaModelica los!\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT112,28,_OMC_LIT112_data);
 #define _OMC_LIT112 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT112)
-#define _OMC_LIT113_data "Hier geht MetaModelica los!\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT113,28,_OMC_LIT113_data);
+#define _OMC_LIT113_data "External scheduling info: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT113,26,_OMC_LIT113_data);
 #define _OMC_LIT113 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT113)
-#define _OMC_LIT114_data "External scheduling info: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT114,26,_OMC_LIT114_data);
+#define _OMC_LIT114_data ","
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT114,1,_OMC_LIT114_data);
 #define _OMC_LIT114 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT114)
-#define _OMC_LIT115_data ","
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT115,1,_OMC_LIT115_data);
+#define _OMC_LIT115_data "HpcOmScheduler.createHMetisSchedule not every node has a scheduler-info.\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT115,73,_OMC_LIT115_data);
 #define _OMC_LIT115 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT115)
-#define _OMC_LIT116_data "HpcOmScheduler.createHMetisSchedule not every node has a scheduler-info.\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT116,73,_OMC_LIT116_data);
+#define _OMC_LIT116_data "HpcOmScheduler.createMetisSchedule not every node has a scheduler-info.\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT116,72,_OMC_LIT116_data);
 #define _OMC_LIT116 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT116)
-#define _OMC_LIT117_data "HpcOmScheduler.createMetisSchedule not every node has a scheduler-info.\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT117,72,_OMC_LIT117_data);
-#define _OMC_LIT117 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT117)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT118,2,0) {MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),MMC_REFSTRUCTLIT(mmc_nil)}};
-#define _OMC_LIT118 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT118)
-#define _OMC_LIT119_data "HpcOmScheduler.createTaskDepSchedule failed.\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT119,45,_OMC_LIT119_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT117,2,0) {MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT117 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT117)
+#define _OMC_LIT118_data "HpcOmScheduler.createTaskDepSchedule failed.\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT118,45,_OMC_LIT118_data);
+#define _OMC_LIT118 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT118)
+#define _OMC_LIT119_data "getFirstReadyThread0 failed\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT119,28,_OMC_LIT119_data);
 #define _OMC_LIT119 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT119)
-#define _OMC_LIT120_data "getFirstReadyThread0 failed\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT120,28,_OMC_LIT120_data);
-#define _OMC_LIT120 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT120)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT121,3,0) {MMC_IMMEDIATE(MMC_TAGFIXNUM(-1)),_OMC_LIT56,MMC_IMMEDIATE(MMC_TAGFIXNUM(1))}};
-#define _OMC_LIT121 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT121)
-#define _OMC_LIT122_data "Parallel Level "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT122,15,_OMC_LIT122_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT120,3,0) {MMC_IMMEDIATE(MMC_TAGFIXNUM(-1)),_OMC_LIT56,MMC_IMMEDIATE(MMC_TAGFIXNUM(1))}};
+#define _OMC_LIT120 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT120)
+#define _OMC_LIT121_data "Parallel Level "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT121,15,_OMC_LIT121_data);
+#define _OMC_LIT121 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT121)
+#define _OMC_LIT122_data ":\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT122,2,_OMC_LIT122_data);
 #define _OMC_LIT122 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT122)
-#define _OMC_LIT123_data ":\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT123,2,_OMC_LIT123_data);
+#define _OMC_LIT123_data "Serial Level "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT123,13,_OMC_LIT123_data);
 #define _OMC_LIT123 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT123)
-#define _OMC_LIT124_data "Serial Level "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT124,13,_OMC_LIT124_data);
+#define _OMC_LIT124_data "printLevelSchedule failed!\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT124,27,_OMC_LIT124_data);
 #define _OMC_LIT124 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT124)
-#define _OMC_LIT125_data "printLevelSchedule failed!\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT125,27,_OMC_LIT125_data);
+#define _OMC_LIT125_data "BLS_mergeToTargetSize failed!"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT125,29,_OMC_LIT125_data);
 #define _OMC_LIT125 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT125)
-#define _OMC_LIT126_data "BLS_mergeToTargetSize failed!"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT126,29,_OMC_LIT126_data);
+#define _OMC_LIT126_data "BLS_getDependentGroups failed!\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT126,31,_OMC_LIT126_data);
 #define _OMC_LIT126 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT126)
-#define _OMC_LIT127_data "BLS_getDependentGroups failed!\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT127,31,_OMC_LIT127_data);
+#define _OMC_LIT127_data "convertScheduleStrucToInfoLevel failed\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT127,39,_OMC_LIT127_data);
 #define _OMC_LIT127 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT127)
-#define _OMC_LIT128_data "convertScheduleStrucToInfoLevel failed\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT128,39,_OMC_LIT128_data);
+#define _OMC_LIT128_data "HpcOmScheduler.convertScheduleStrucToInfo1 failed. Unknown Task-Type.\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT128,70,_OMC_LIT128_data);
 #define _OMC_LIT128 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT128)
-#define _OMC_LIT129_data "HpcOmScheduler.convertScheduleStrucToInfo1 failed. Unknown Task-Type.\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT129,70,_OMC_LIT129_data);
-#define _OMC_LIT129 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT129)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT130,3,0) {MMC_IMMEDIATE(MMC_TAGFIXNUM(-1)),MMC_IMMEDIATE(MMC_TAGFIXNUM(-1)),_OMC_LIT56}};
-#define _OMC_LIT130 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT130)
-#define _OMC_LIT131_data "HpcOmScheduler.convertScheduleStrucToInfo unknown Schedule-Type.\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT131,65,_OMC_LIT131_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT129,3,0) {MMC_IMMEDIATE(MMC_TAGFIXNUM(-1)),MMC_IMMEDIATE(MMC_TAGFIXNUM(-1)),_OMC_LIT56}};
+#define _OMC_LIT129 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT129)
+#define _OMC_LIT130_data "HpcOmScheduler.convertScheduleStrucToInfo unknown Schedule-Type.\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT130,65,_OMC_LIT130_data);
+#define _OMC_LIT130 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT130)
+#define _OMC_LIT131_data "Scheduled Task (comp: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT131,22,_OMC_LIT131_data);
 #define _OMC_LIT131 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT131)
-#define _OMC_LIT132_data "Scheduled Task (comp: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT132,22,_OMC_LIT132_data);
+#define _OMC_LIT132_data ", numThreads: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT132,14,_OMC_LIT132_data);
 #define _OMC_LIT132 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT132)
-#define _OMC_LIT133_data ", numThreads: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT133,14,_OMC_LIT133_data);
+#define _OMC_LIT133_data "):\n------------------------------------------------------\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT133,58,_OMC_LIT133_data);
 #define _OMC_LIT133 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT133)
-#define _OMC_LIT134_data "):\n------------------------------------------------------\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT134,58,_OMC_LIT134_data);
+#define _OMC_LIT134_data "	"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT134,1,_OMC_LIT134_data);
 #define _OMC_LIT134 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT134)
-#define _OMC_LIT135_data "	"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT135,1,_OMC_LIT135_data);
+#define _OMC_LIT135_data "\n	"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT135,2,_OMC_LIT135_data);
 #define _OMC_LIT135 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT135)
-#define _OMC_LIT136_data "\n	"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT136,2,_OMC_LIT136_data);
+#define _OMC_LIT136_data "------------------------------------------------------\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT136,55,_OMC_LIT136_data);
 #define _OMC_LIT136 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT136)
-#define _OMC_LIT137_data "------------------------------------------------------\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT137,55,_OMC_LIT137_data);
+#define _OMC_LIT137_data "Calculation task with index "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT137,28,_OMC_LIT137_data);
 #define _OMC_LIT137 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT137)
-#define _OMC_LIT138_data "Calculation task with index "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT138,28,_OMC_LIT138_data);
+#define _OMC_LIT138_data " including the equations: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT138,26,_OMC_LIT138_data);
 #define _OMC_LIT138 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT138)
-#define _OMC_LIT139_data " including the equations: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT139,26,_OMC_LIT139_data);
+#define _OMC_LIT139_data ", "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT139,2,_OMC_LIT139_data);
 #define _OMC_LIT139 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT139)
-#define _OMC_LIT140_data ", "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT140,2,_OMC_LIT140_data);
+#define _OMC_LIT140_data " is finished at  "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT140,17,_OMC_LIT140_data);
 #define _OMC_LIT140 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT140)
-#define _OMC_LIT141_data " is finished at  "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT141,17,_OMC_LIT141_data);
+#define _OMC_LIT141_data "Calculation task ("
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT141,18,_OMC_LIT141_data);
 #define _OMC_LIT141 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT141)
-#define _OMC_LIT142_data "Calculation task ("
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT142,18,_OMC_LIT142_data);
+#define _OMC_LIT142_data ") including the equations: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT142,27,_OMC_LIT142_data);
 #define _OMC_LIT142 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT142)
-#define _OMC_LIT143_data ") including the equations: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT143,27,_OMC_LIT143_data);
+#define _OMC_LIT143_data " by thread "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT143,11,_OMC_LIT143_data);
 #define _OMC_LIT143 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT143)
-#define _OMC_LIT144_data " by thread "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT144,11,_OMC_LIT144_data);
+#define _OMC_LIT144_data "Dependency task "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT144,16,_OMC_LIT144_data);
 #define _OMC_LIT144 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT144)
-#define _OMC_LIT145_data "Dependency task "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT145,16,_OMC_LIT145_data);
+#define _OMC_LIT145_data "(outgoing)"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT145,10,_OMC_LIT145_data);
 #define _OMC_LIT145 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT145)
-#define _OMC_LIT146_data "(outgoing)"
+#define _OMC_LIT146_data "(incoming)"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT146,10,_OMC_LIT146_data);
 #define _OMC_LIT146 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT146)
-#define _OMC_LIT147_data "(incoming)"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT147,10,_OMC_LIT147_data);
+#define _OMC_LIT147_data " between "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT147,9,_OMC_LIT147_data);
 #define _OMC_LIT147 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT147)
-#define _OMC_LIT148_data " between "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT148,9,_OMC_LIT148_data);
+#define _OMC_LIT148_data " and "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT148,5,_OMC_LIT148_data);
 #define _OMC_LIT148 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT148)
-#define _OMC_LIT149_data " and "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT149,5,_OMC_LIT149_data);
+#define _OMC_LIT149_data "empty task\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT149,11,_OMC_LIT149_data);
 #define _OMC_LIT149 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT149)
-#define _OMC_LIT150_data "empty task\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT150,11,_OMC_LIT150_data);
+#define _OMC_LIT150_data "HpcOmScheduler.dumpTask failed\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT150,31,_OMC_LIT150_data);
 #define _OMC_LIT150 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT150)
-#define _OMC_LIT151_data "HpcOmScheduler.dumpTask failed\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT151,31,_OMC_LIT151_data);
+#define _OMC_LIT151_data "Task: \n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT151,7,_OMC_LIT151_data);
 #define _OMC_LIT151 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT151)
-#define _OMC_LIT152_data "Task: \n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT152,7,_OMC_LIT152_data);
+#define _OMC_LIT152_data "-> Parents: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT152,12,_OMC_LIT152_data);
 #define _OMC_LIT152 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT152)
-#define _OMC_LIT153_data "-> Parents: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT153,12,_OMC_LIT153_data);
+#define _OMC_LIT153_data "---------------------\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT153,22,_OMC_LIT153_data);
 #define _OMC_LIT153 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT153)
-#define _OMC_LIT154_data "---------------------\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT154,22,_OMC_LIT154_data);
+#define _OMC_LIT154_data "--------------\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT154,15,_OMC_LIT154_data);
 #define _OMC_LIT154 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT154)
-#define _OMC_LIT155_data "--------------\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT155,15,_OMC_LIT155_data);
+#define _OMC_LIT155_data "Thread "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT155,7,_OMC_LIT155_data);
 #define _OMC_LIT155 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT155)
-#define _OMC_LIT156_data "Thread "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT156,7,_OMC_LIT156_data);
+#define _OMC_LIT156_data "HpcOmScheduler.compareTaskWithThreadIdx can only compare CALCTASKs!\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT156,68,_OMC_LIT156_data);
 #define _OMC_LIT156 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT156)
-#define _OMC_LIT157_data "HpcOmScheduler.compareTaskWithThreadIdx can only compare CALCTASKs!\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT157,68,_OMC_LIT157_data);
-#define _OMC_LIT157 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT157)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT158,1,5) {&ErrorTypes_MessageType_TRANSLATION__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT157,1,5) {&ErrorTypes_MessageType_TRANSLATION__desc,}};
+#define _OMC_LIT157 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT157)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT158,1,4) {&ErrorTypes_Severity_ERROR__desc,}};
 #define _OMC_LIT158 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT158)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT159,1,4) {&ErrorTypes_Severity_ERROR__desc,}};
-#define _OMC_LIT159 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT159)
-#define _OMC_LIT160_data "Internal error %s"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT160,17,_OMC_LIT160_data);
-#define _OMC_LIT160 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT160)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT161,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT160}};
+#define _OMC_LIT159_data "Internal error %s"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT159,17,_OMC_LIT159_data);
+#define _OMC_LIT159 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT159)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT160,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT159}};
+#define _OMC_LIT160 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT160)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT161,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(63)),_OMC_LIT157,_OMC_LIT158,_OMC_LIT160}};
 #define _OMC_LIT161 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT161)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT162,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(63)),_OMC_LIT158,_OMC_LIT159,_OMC_LIT161}};
-#define _OMC_LIT162 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT162)
-#define _OMC_LIT163_data "HpcOmScheduler.compareTasksByEqIdc can only compare CALCTASKs with at least one equation index! Task 1 has type "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT163,112,_OMC_LIT163_data);
+#define _OMC_LIT162_data "HpcOmScheduler.compareTasksByEqIdc can only compare CALCTASKs with at least one equation index! Task 1 has type "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT162,112,_OMC_LIT162_data);
+#define _OMC_LIT162 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT162)
+#define _OMC_LIT163_data " and task 2 has type "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT163,21,_OMC_LIT163_data);
 #define _OMC_LIT163 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT163)
-#define _OMC_LIT164_data " and task 2 has type "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT164,21,_OMC_LIT164_data);
+#define _OMC_LIT164_data "HpcOmScheduler.compareTasksByWeighting can only compare CALCTASKs! Task 1 has type "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT164,83,_OMC_LIT164_data);
 #define _OMC_LIT164 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT164)
-#define _OMC_LIT165_data "HpcOmScheduler.compareTasksByWeighting can only compare CALCTASKs! Task 1 has type "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT165,83,_OMC_LIT165_data);
+#define _OMC_LIT165_data "HpcOmScheduler.getSuccessorsByTask can only handle CALCTASKs."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT165,61,_OMC_LIT165_data);
 #define _OMC_LIT165 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT165)
-#define _OMC_LIT166_data "HpcOmScheduler.getSuccessorsByTask can only handle CALCTASKs."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT166,61,_OMC_LIT166_data);
+#define _OMC_LIT166_data "HpcOmScheduler.getMaxCommCostsByTaskList2 failed\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT166,49,_OMC_LIT166_data);
 #define _OMC_LIT166 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT166)
-#define _OMC_LIT167_data "HpcOmScheduler.getMaxCommCostsByTaskList2 failed\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT167,49,_OMC_LIT167_data);
+#define _OMC_LIT167_data "HpcOmScheduler.calculateFinishTimeByThreadId can only handle CALCTASKs\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT167,71,_OMC_LIT167_data);
 #define _OMC_LIT167 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT167)
-#define _OMC_LIT168_data "HpcOmScheduler.calculateFinishTimeByThreadId can only handle CALCTASKs\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT168,71,_OMC_LIT168_data);
+#define _OMC_LIT168_data "HpcOmScheduler.convertNodeToTask failed!\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT168,41,_OMC_LIT168_data);
 #define _OMC_LIT168 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT168)
-#define _OMC_LIT169_data "HpcOmScheduler.convertNodeToTask failed!\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT169,41,_OMC_LIT169_data);
+#define _OMC_LIT169_data "HpcOmScheduler.getTaskWithHighestFinishTime failed!\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT169,52,_OMC_LIT169_data);
 #define _OMC_LIT169 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT169)
-#define _OMC_LIT170_data "HpcOmScheduler.getTaskWithHighestFinishTime failed!\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT170,52,_OMC_LIT170_data);
+#define _OMC_LIT170_data "CreateDepTaskAndCommunicationInfo failed!\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT170,42,_OMC_LIT170_data);
 #define _OMC_LIT170 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT170)
-#define _OMC_LIT171_data "CreateDepTaskAndCommunicationInfo failed!\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT171,42,_OMC_LIT171_data);
+#define _OMC_LIT171_data "HpcOmScheduler.addReleaseLocksToSchedule0 failed\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT171,49,_OMC_LIT171_data);
 #define _OMC_LIT171 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT171)
-#define _OMC_LIT172_data "HpcOmScheduler.addReleaseLocksToSchedule0 failed\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT172,49,_OMC_LIT172_data);
+#define _OMC_LIT172_data "HpcOmScheduler.addReleaseLocksToSchedule failed\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT172,48,_OMC_LIT172_data);
 #define _OMC_LIT172 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT172)
-#define _OMC_LIT173_data "HpcOmScheduler.addReleaseLocksToSchedule failed\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT173,48,_OMC_LIT173_data);
+#define _OMC_LIT173_data "HpcOmScheduler.createRandomSchedule1 failed\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT173,44,_OMC_LIT173_data);
 #define _OMC_LIT173 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT173)
-#define _OMC_LIT174_data "HpcOmScheduler.createRandomSchedule1 failed\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT174,44,_OMC_LIT174_data);
+#define _OMC_LIT174_data "HpcOmScheduler.createListSchedule1 failed\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT174,42,_OMC_LIT174_data);
 #define _OMC_LIT174 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT174)
-#define _OMC_LIT175_data "HpcOmScheduler.createListSchedule1 failed\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT175,42,_OMC_LIT175_data);
-#define _OMC_LIT175 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT175)
 #include "util/modelica.h"
 
 #include "HpcOmScheduler_includes.h"
@@ -672,8 +670,8 @@ PROTECTED_FUNCTION_STATIC modelica_real omc_HpcOmScheduler_getMemberOnTrueWithId
 PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_HpcOmScheduler_getMemberOnTrueWithIdx(threadData_t *threadData, modelica_metatype _inValue, modelica_metatype _inList, modelica_fnptr _inCompFunc, modelica_metatype *out_outIdx, modelica_metatype *out_found);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_HpcOmScheduler_getMemberOnTrueWithIdx,2,0) {(void*) boxptr_HpcOmScheduler_getMemberOnTrueWithIdx,0}};
 #define boxvar_HpcOmScheduler_getMemberOnTrueWithIdx MMC_REFSTRUCTLIT(boxvar_lit_HpcOmScheduler_getMemberOnTrueWithIdx)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_getNextPivot(threadData_t *threadData, modelica_metatype _lstIn, modelica_metatype _markedLstIn, modelica_integer _pivotIdx);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_HpcOmScheduler_getNextPivot(threadData_t *threadData, modelica_metatype _lstIn, modelica_metatype _markedLstIn, modelica_metatype _pivotIdx);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_getNextPivot(threadData_t *threadData, modelica_metatype _lstIn, modelica_metatype _markedLstIn, modelica_integer _pivotIdx, modelica_integer *out_newIdx);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_HpcOmScheduler_getNextPivot(threadData_t *threadData, modelica_metatype _lstIn, modelica_metatype _markedLstIn, modelica_metatype _pivotIdx, modelica_metatype *out_newIdx);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_HpcOmScheduler_getNextPivot,2,0) {(void*) boxptr_HpcOmScheduler_getNextPivot,0}};
 #define boxvar_HpcOmScheduler_getNextPivot MMC_REFSTRUCTLIT(boxvar_lit_HpcOmScheduler_getNextPivot)
 PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_quicksortWithOrder1(threadData_t *threadData, modelica_metatype _lstIn, modelica_metatype _orderIn, modelica_integer _pivotIdx, modelica_metatype _markedIn, modelica_integer _size, modelica_metatype *out_orderOut);
@@ -4987,17 +4985,17 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_computeGraphValue
     else
     {
       {
-        modelica_metatype __omcQ_24tmpVar1;
+        modelica_metatype __omcQ_24tmpVar3;
         modelica_metatype* tmp7;
         modelica_metatype tmpMeta8;
-        modelica_metatype __omcQ_24tmpVar0;
+        modelica_metatype __omcQ_24tmpVar2;
         modelica_integer tmp9;
         modelica_metatype _n_loopVar = 0;
         modelica_metatype _n;
         _n_loopVar = _childNodes;
         tmpMeta8 = MMC_REFSTRUCTLIT(mmc_nil);
-        __omcQ_24tmpVar1 = tmpMeta8; /* defaultValue */
-        tmp7 = &__omcQ_24tmpVar1;
+        __omcQ_24tmpVar3 = tmpMeta8; /* defaultValue */
+        tmp7 = &__omcQ_24tmpVar3;
         while(1) {
           tmp9 = 1;
           if (!listEmpty(_n_loopVar)) {
@@ -5006,8 +5004,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_computeGraphValue
             tmp9--;
           }
           if (tmp9 == 0) {
-            __omcQ_24tmpVar0 = mmc_mk_real(omc_HpcOmTaskGraph_getCommCostTimeBetweenNodes(threadData, _nodeIdx, mmc_unbox_integer(_n), _iTaskGraphMeta));
-            *tmp7 = mmc_mk_cons(__omcQ_24tmpVar0,0);
+            __omcQ_24tmpVar2 = mmc_mk_real(omc_HpcOmTaskGraph_getCommCostTimeBetweenNodes(threadData, _nodeIdx, mmc_unbox_integer(_n), _iTaskGraphMeta));
+            *tmp7 = mmc_mk_cons(__omcQ_24tmpVar2,0);
             tmp7 = &MMC_CDR(*tmp7);
           } else if (tmp9 == 1) {
             break;
@@ -5016,7 +5014,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_computeGraphValue
           }
         }
         *tmp7 = mmc_mk_nil();
-        tmpMeta6 = __omcQ_24tmpVar1;
+        tmpMeta6 = __omcQ_24tmpVar3;
       }
       _commCostsToChilds = tmpMeta6;
 
@@ -5667,55 +5665,58 @@ PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_HpcOmScheduler_getMemberOnTru
   return out_outElement;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_getNextPivot(threadData_t *threadData, modelica_metatype _lstIn, modelica_metatype _markedLstIn, modelica_integer _pivotIdx)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_getNextPivot(threadData_t *threadData, modelica_metatype _lstIn, modelica_metatype _markedLstIn, modelica_integer _pivotIdx, modelica_integer *out_newIdx)
 {
-  modelica_metatype _tplOut = NULL;
-  modelica_metatype tmpMeta1;
+  modelica_metatype _marked = NULL;
+  modelica_integer _newIdx;
+  modelica_integer tmp1_c1 __attribute__((unused)) = 0;
+  modelica_metatype tmpMeta[2] __attribute__((unused)) = {0};
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _tplOut has no default value.
+  // _marked has no default value.
+  // _newIdx has no default value.
+  
+  
   { /* match expression */
     modelica_metatype tmp4_1;
     tmp4_1 = _markedLstIn;
     {
-      modelica_integer _newIdx;
       modelica_integer _midIdx;
       modelica_real _pivotElement;
       modelica_real _r1;
       modelica_real _r2;
       modelica_real _r3;
-      modelica_metatype _marked = NULL;
       volatile mmc_switch_type tmp4;
       int tmp5;
-      // _newIdx has no default value.
       // _midIdx has no default value.
       // _pivotElement has no default value.
       // _r1 has no default value.
       // _r2 has no default value.
       // _r3 has no default value.
-      // _marked has no default value.
       tmp4 = 0;
       for (; tmp4 < 2; tmp4++) {
         switch (MMC_SWITCH_CAST(tmp4)) {
         case 0: {
           modelica_metatype tmpMeta6;
           modelica_metatype tmpMeta7;
+          modelica_metatype tmpMeta8;
           if (listEmpty(tmp4_1)) goto tmp3_end;
           tmpMeta6 = MMC_CAR(tmp4_1);
           tmpMeta7 = MMC_CDR(tmp4_1);
           if (!listEmpty(tmpMeta7)) goto tmp3_end;
           /* Pattern matching succeeded */
-          tmpMeta1 = _OMC_LIT58;
+          tmpMeta8 = MMC_REFSTRUCTLIT(mmc_nil);
+          tmpMeta[0+0] = tmpMeta8;
+          tmp1_c1 = ((modelica_integer) 0);
           goto tmp3_done;
         }
         case 1: {
-          modelica_metatype tmpMeta8;
           modelica_metatype tmpMeta9;
-          modelica_integer tmp10;
-          modelica_metatype tmpMeta11;
+          modelica_metatype tmpMeta10;
+          modelica_integer tmp11;
           if (listEmpty(tmp4_1)) goto tmp3_end;
-          tmpMeta8 = MMC_CAR(tmp4_1);
-          tmpMeta9 = MMC_CDR(tmp4_1);
+          tmpMeta9 = MMC_CAR(tmp4_1);
+          tmpMeta10 = MMC_CDR(tmp4_1);
           /* Pattern matching succeeded */
           _pivotElement = mmc_unbox_real(listGet(_lstIn, _pivotIdx));
 
@@ -5725,9 +5726,9 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_getNextPivot(thre
 
           _r2 = mmc_unbox_real(omc_List_last(threadData, _marked));
 
-          tmp10 = ((modelica_integer) 2);
-          if (tmp10 == 0) {goto goto_2;}
-          _midIdx = modelica_div_integer(listLength(_marked),tmp10).quot;
+          tmp11 = ((modelica_integer) 2);
+          if (tmp11 == 0) {goto goto_2;}
+          _midIdx = modelica_div_integer(listLength(_marked),tmp11).quot;
 
           _midIdx = ((_midIdx == ((modelica_integer) 0))?((modelica_integer) 1):_midIdx);
 
@@ -5736,8 +5737,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_getNextPivot(thre
           _pivotElement = omc_HpcOmScheduler_getMedian3(threadData, _r1, _r2, _r3, NULL);
 
           _newIdx = omc_List_position(threadData, mmc_mk_real(_pivotElement), _lstIn);
-          tmpMeta11 = mmc_mk_box2(0, _marked, mmc_mk_integer(_newIdx));
-          tmpMeta1 = tmpMeta11;
+          tmpMeta[0+0] = _marked;
+          tmp1_c1 = _newIdx;
           goto tmp3_done;
         }
         }
@@ -5751,18 +5752,22 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_getNextPivot(thre
       tmp3_done:;
     }
   }
-  _tplOut = tmpMeta1;
+  _marked = tmpMeta[0+0];
+  _newIdx = tmp1_c1;
   _return: OMC_LABEL_UNUSED
-  return _tplOut;
+  if (out_newIdx) { *out_newIdx = _newIdx; }
+  return _marked;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_HpcOmScheduler_getNextPivot(threadData_t *threadData, modelica_metatype _lstIn, modelica_metatype _markedLstIn, modelica_metatype _pivotIdx)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_HpcOmScheduler_getNextPivot(threadData_t *threadData, modelica_metatype _lstIn, modelica_metatype _markedLstIn, modelica_metatype _pivotIdx, modelica_metatype *out_newIdx)
 {
   modelica_integer tmp1;
-  modelica_metatype _tplOut = NULL;
+  modelica_integer _newIdx;
+  modelica_metatype _marked = NULL;
   tmp1 = mmc_unbox_integer(_pivotIdx);
-  _tplOut = omc_HpcOmScheduler_getNextPivot(threadData, _lstIn, _markedLstIn, tmp1);
-  /* skip box _tplOut; tuple<list<#Real>, #Integer> */
-  return _tplOut;
+  _marked = omc_HpcOmScheduler_getNextPivot(threadData, _lstIn, _markedLstIn, tmp1, &_newIdx);
+  /* skip box _marked; list<#Real> */
+  if (out_newIdx) { *out_newIdx = mmc_mk_icon(_newIdx); }
+  return _marked;
 }
 
 PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_quicksortWithOrder1(threadData_t *threadData, modelica_metatype _lstIn, modelica_metatype _orderIn, modelica_integer _pivotIdx, modelica_metatype _markedIn, modelica_integer _size, modelica_metatype *out_orderOut)
@@ -5783,7 +5788,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_quicksortWithOrde
     {
       modelica_boolean _b1;
       modelica_boolean _b2;
-      modelica_boolean _b3;
       modelica_integer _lIdx;
       modelica_integer _rIdx;
       modelica_integer _pivot;
@@ -5798,7 +5802,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_quicksortWithOrde
       int tmp5;
       // _b1 has no default value.
       // _b2 has no default value.
-      // _b3 has no default value.
       // _lIdx has no default value.
       // _rIdx has no default value.
       // _pivot has no default value.
@@ -5839,7 +5842,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_quicksortWithOrde
           /* Pattern matching succeeded */
           tmpMeta11 = mmc_mk_cons(mmc_mk_real(_e), MMC_REFSTRUCTLIT(mmc_nil));
           tmpMeta[0+0] = tmpMeta11;
-          tmpMeta[0+1] = _OMC_LIT59;
+          tmpMeta[0+1] = _OMC_LIT58;
           goto tmp3_done;
         }
         case 2: {
@@ -5851,13 +5854,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_quicksortWithOrde
           goto tmp3_done;
         }
         case 3: {
-          modelica_metatype tmpMeta12;
-          modelica_boolean tmp13;
-          modelica_metatype tmpMeta14;
-          modelica_metatype tmpMeta15;
-          modelica_metatype tmpMeta16;
-          modelica_metatype tmpMeta17;
-          modelica_integer tmp18;
           
           /* Pattern matching succeeded */
           _p = mmc_unbox_real(listGet(_lstIn, _pivotIdx));
@@ -5880,25 +5876,16 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_quicksortWithOrde
 
           _orderTmp = (_b2?omc_HpcOmScheduler_swapEntriesInList(threadData, _pivotIdx, _rIdx, _orderTmp):_orderTmp);
 
-          _b3 = ((!_b1) && (!_b2));
-
-          /* Pattern-matching assignment */
-          tmp13 = (modelica_boolean)_b3;
-          if(tmp13)
+          if(((!_b1) && (!_b2)))
           {
-            tmpMeta14 = omc_HpcOmScheduler_getNextPivot(threadData, _lstTmp, _markedIn, _pivotIdx);
+            _marked = omc_HpcOmScheduler_getNextPivot(threadData, _lstTmp, _markedIn, _pivotIdx ,&_pivot);
           }
           else
           {
-            tmpMeta12 = mmc_mk_box2(0, _markedIn, mmc_mk_integer(_pivotIdx));
-            tmpMeta14 = tmpMeta12;
+            _marked = _markedIn;
+
+            _pivot = _pivotIdx;
           }
-          tmpMeta15 = tmpMeta14;
-          tmpMeta16 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta15), 1));
-          tmpMeta17 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta15), 2));
-          tmp18 = mmc_unbox_integer(tmpMeta17);
-          _marked = tmpMeta16;
-          _pivot = tmp18  /* pattern as ty=Integer */;
           /* Tail recursive call */
           _lstIn = _lstTmp;
           _orderIn = _orderTmp;
@@ -6012,7 +5999,7 @@ modelica_metatype omc_HpcOmScheduler_quicksortWithOrder(threadData_t *threadData
           tmp4 += 1; /* Pattern matching succeeded; we may skip some cases if we fail */
           tmpMeta10 = mmc_mk_cons(mmc_mk_real(_r1), MMC_REFSTRUCTLIT(mmc_nil));
           tmpMeta[0+0] = tmpMeta10;
-          tmpMeta[0+1] = _OMC_LIT59;
+          tmpMeta[0+1] = _OMC_LIT58;
           goto tmp3_done;
         }
         case 2: {
@@ -6766,7 +6753,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_createScheduleFro
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_3,1,4) == 0) goto tmp3_end;
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT60),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT59),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -6901,7 +6888,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_updateLockIdcsInT
         case 1: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT61),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT60),stdout);
           tmpMeta1 = _scheduleIn;
           goto tmp3_done;
         }
@@ -7014,7 +7001,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_MCP__getTaskAssig
         case 2: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT62),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT61),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -7089,7 +7076,6 @@ modelica_metatype omc_HpcOmScheduler_createMCPschedule(threadData_t *threadData,
   modelica_integer _numSfLocks;
   modelica_metatype _taskGraphT = NULL;
   modelica_metatype _alapArray = NULL;
-  modelica_metatype _alapLst = NULL;
   modelica_metatype _alapSorted = NULL;
   modelica_metatype _priorityLst = NULL;
   modelica_metatype _order = NULL;
@@ -7120,7 +7106,6 @@ modelica_metatype omc_HpcOmScheduler_createMCPschedule(threadData_t *threadData,
   // _numSfLocks has no default value.
   // _taskGraphT has no default value.
   // _alapArray has no default value.
-  // _alapLst has no default value.
   // _alapSorted has no default value.
   // _priorityLst has no default value.
   // _order has no default value.
@@ -7146,9 +7131,7 @@ modelica_metatype omc_HpcOmScheduler_createMCPschedule(threadData_t *threadData,
 
   _alapArray = omc_HpcOmScheduler_computeGraphValuesTopDown(threadData, _iTaskGraph, _iTaskGraphMeta, NULL, NULL, NULL);
 
-  _alapLst = arrayList(_alapArray);
-
-  _priorityLst = omc_HpcOmScheduler_quicksortWithOrder(threadData, _alapLst ,&_order);
+  _priorityLst = omc_HpcOmScheduler_quicksortWithOrder(threadData, arrayList(_alapArray) ,&_order);
 
   _taskAss = omc_HpcOmScheduler_MCP__getTaskAssignment(threadData, _order, _alapArray, _numProc, _iTaskGraph, _iTaskGraphMeta ,&_procAss);
 
@@ -7173,7 +7156,7 @@ modelica_metatype omc_HpcOmScheduler_createMCPschedule(threadData_t *threadData,
 
   if(omc_Flags_isSet(threadData, _OMC_LIT30))
   {
-    tmpMeta10 = stringAppend(_OMC_LIT63,intString(_numSfLocks));
+    tmpMeta10 = stringAppend(_OMC_LIT62,intString(_numSfLocks));
     tmpMeta11 = stringAppend(tmpMeta10,_OMC_LIT6);
     fputs(MMC_STRINGDATA(tmpMeta11),stdout);
   }
@@ -7472,10 +7455,12 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_distributePartiti
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
   modelica_metatype tmpMeta4;
-  modelica_metatype tmpMeta5;
+  modelica_integer tmp5;
   modelica_integer tmp6;
-  modelica_integer tmp7;
+  modelica_metatype tmpMeta7;
   modelica_integer tmp8;
+  modelica_integer tmp9;
+  modelica_integer tmp10;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _taskMapOut has no default value.
@@ -7488,9 +7473,9 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_distributePartiti
   _partCosts = tmpMeta1;
   {
     modelica_metatype _part;
-    for (tmpMeta2 = arrayList(_partMap); !listEmpty(tmpMeta2); tmpMeta2=MMC_CDR(tmpMeta2))
+    for (tmpMeta2 = _partMap, tmp6 = arrayLength(tmpMeta2), tmp5 = 1; tmp5 <= tmp6; tmp5++)
     {
-      _part = MMC_CAR(tmpMeta2);
+      _part = arrayGet(tmpMeta2,tmp5);
       _costs = mmc_unbox_real(omc_List_fold(threadData, omc_List_map1(threadData, _part, boxvar_HpcOmTaskGraph_getExeCostReqCycles, _metaIn), boxvar_realAdd, _OMC_LIT21));
 
       tmpMeta3 = mmc_mk_cons(mmc_mk_real(_costs), _partCosts);
@@ -7502,18 +7487,18 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_distributePartiti
 
   _partitions = omc_HpcOmTaskGraph_distributeToClusters(threadData, omc_List_intRange(threadData, arrayLength(_partMap)), _partCosts, _n, NULL);
 
-  tmp6 = ((modelica_integer) 1); tmp7 = 1; tmp8 = _n;
-  if(!(((tmp7 > 0) && (tmp6 > tmp8)) || ((tmp7 < 0) && (tmp6 < tmp8))))
+  tmp8 = ((modelica_integer) 1); tmp9 = 1; tmp10 = _n;
+  if(!(((tmp9 > 0) && (tmp8 > tmp10)) || ((tmp9 < 0) && (tmp8 < tmp10))))
   {
     modelica_integer _partIdx;
-    for(_partIdx = ((modelica_integer) 1); in_range_integer(_partIdx, tmp6, tmp8); _partIdx += tmp7)
+    for(_partIdx = ((modelica_integer) 1); in_range_integer(_partIdx, tmp8, tmp10); _partIdx += tmp9)
     {
       _part = arrayGet(_partitions, _partIdx);
 
       _clusters = omc_List_map1(threadData, _part, boxvar_Array_getIndexFirst, _partMap);
 
-      tmpMeta5 = MMC_REFSTRUCTLIT(mmc_nil);
-      _part = omc_List_fold(threadData, _clusters, boxvar_listAppend, tmpMeta5);
+      tmpMeta7 = MMC_REFSTRUCTLIT(mmc_nil);
+      _part = omc_List_fold(threadData, _clusters, boxvar_listAppend, tmpMeta7);
 
       _partitions = arrayUpdate(_partitions, _partIdx, _part);
 
@@ -7634,7 +7619,7 @@ modelica_metatype omc_HpcOmScheduler_createPartSchedule(threadData_t *threadData
 
           _order = omc_List_flatten(threadData, omc_HpcOmTaskGraph_getLevelNodes(threadData, _iTaskGraph));
 
-          if(omc_List_isEqual(threadData, arrayGet(_partitions, ((modelica_integer) 1)), _OMC_LIT68, 1 /* true */))
+          if(omc_List_isEqual(threadData, arrayGet(_partitions, ((modelica_integer) 1)), _OMC_LIT67, 1 /* true */))
           {
             _order = listReverse(_order);
           }
@@ -7649,15 +7634,15 @@ modelica_metatype omc_HpcOmScheduler_createPartSchedule(threadData_t *threadData
           /* Pattern-matching assignment */
           tmp18 = (arrayLength(_iTaskGraph) == ((modelica_integer) 0));
           if (1 /* true */ != tmp18) goto goto_2;
-          tmpMeta1 = _OMC_LIT70;
+          tmpMeta1 = _OMC_LIT69;
           goto tmp3_done;
         }
         case 2: {
           
           /* Pattern matching succeeded */
-          if(omc_Flags_isSet(threadData, _OMC_LIT75))
+          if(omc_Flags_isSet(threadData, _OMC_LIT74))
           {
-            fputs(MMC_STRINGDATA(_OMC_LIT71),stdout);
+            fputs(MMC_STRINGDATA(_OMC_LIT70),stdout);
           }
           goto goto_2;
           goto tmp3_done;
@@ -8028,7 +8013,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__InitialClust
         case 4: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT76),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT75),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -8078,7 +8063,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__InitialClust
 
   _rootNodes = omc_HpcOmTaskGraph_getRootNodes(threadData, _iTaskGraph);
 
-  _clustersOut = omc_HpcOmScheduler_TDS__InitialCluster1(threadData, _iTaskGraph, _iTaskGraphT, _iTaskGraphMeta, _lastArrayIn, _lactArrayIn, _fpredArrayIn, _rootNodes, _taskAssignments, ((modelica_integer) 1), _queue, _OMC_LIT77);
+  _clustersOut = omc_HpcOmScheduler_TDS__InitialCluster1(threadData, _iTaskGraph, _iTaskGraphT, _iTaskGraphMeta, _lastArrayIn, _lactArrayIn, _fpredArrayIn, _rootNodes, _taskAssignments, ((modelica_integer) 1), _queue, _OMC_LIT76);
   _return: OMC_LABEL_UNUSED
   return _clustersOut;
 }
@@ -8446,7 +8431,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_replaceExpsInSimE
           }
           else
           {
-            tmpMeta9 = mmc_mk_box3(9, &DAE_Exp_CREF__desc, _cref, _OMC_LIT78);
+            tmpMeta9 = mmc_mk_box3(9, &DAE_Exp_CREF__desc, _cref, _OMC_LIT77);
             tmpMeta11 = tmpMeta9;
           }
           tmpMeta12 = tmpMeta11;
@@ -8497,7 +8482,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_replaceExpsInSimE
           }
           else
           {
-            tmpMeta18 = mmc_mk_box3(9, &DAE_Exp_CREF__desc, _cref, _OMC_LIT78);
+            tmpMeta18 = mmc_mk_box3(9, &DAE_Exp_CREF__desc, _cref, _OMC_LIT77);
             tmpMeta20 = tmpMeta18;
           }
           tmpMeta21 = tmpMeta20;
@@ -8547,7 +8532,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_replaceExpsInSimE
           }
           else
           {
-            tmpMeta27 = mmc_mk_box3(9, &DAE_Exp_CREF__desc, _cref, _OMC_LIT78);
+            tmpMeta27 = mmc_mk_box3(9, &DAE_Exp_CREF__desc, _cref, _OMC_LIT77);
             tmpMeta29 = tmpMeta27;
           }
           _lhs = tmpMeta29;
@@ -8692,7 +8677,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_replaceExpsInSimE
 
           _changed = (_changed || mmc_unbox_boolean(omc_List_fold(threadData, _bLst, boxvar_boolOr, mmc_mk_boolean(0 /* false */))));
 
-          fputs(MMC_STRINGDATA(_OMC_LIT79),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT78),stdout);
 
           tmpMeta45 = MMC_TAGPTR(mmc_alloc_words(12));
           memcpy(MMC_UNTAGPTR(tmpMeta45), MMC_UNTAGPTR(_nlSystem), 12*sizeof(modelica_metatype));
@@ -8893,7 +8878,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_replaceExpsInSimE
         case 11: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT80),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT79),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -9204,7 +9189,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_makeSEScrefAssign
   _ty = omc_ComponentReference_crefType(threadData, _rhs);
 
   tmpMeta1 = mmc_mk_box3(9, &DAE_Exp_CREF__desc, _rhs, _ty);
-  tmpMeta2 = mmc_mk_box6(6, &SimCode_SimEqSystem_SES__SIMPLE__ASSIGN__desc, mmc_mk_integer(_idx), _lhs, tmpMeta1, _OMC_LIT83, _OMC_LIT86);
+  tmpMeta2 = mmc_mk_box6(6, &SimCode_SimEqSystem_SES__SIMPLE__ASSIGN__desc, mmc_mk_integer(_idx), _lhs, tmpMeta1, _OMC_LIT82, _OMC_LIT85);
   _sesOut = tmpMeta2;
   _return: OMC_LABEL_UNUSED
   return _sesOut;
@@ -9608,7 +9593,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__duplicateTas
 
   _simVarSysIdcs2 = omc_List_intRange2(threadData, _simVarIdx, ((modelica_integer) -1) + _simVarIdx + _numVars);
 
-  tmpMeta25 = stringAppend(_OMC_LIT87,intString(_threadIdx));
+  tmpMeta25 = stringAppend(_OMC_LIT86,intString(_threadIdx));
   _crefAppend = tmpMeta25;
 
   _crefsDupl = omc_List_map1r(threadData, _crefs, boxvar_ComponentReference_appendStringLastIdent, _crefAppend);
@@ -10358,8 +10343,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__updateModelI
   ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta12))[10] = _varInfo;
   _modelInfo = tmpMeta12;
 
-  tmpMeta13 = MMC_TAGPTR(mmc_alloc_words(53));
-  memcpy(MMC_UNTAGPTR(tmpMeta13), MMC_UNTAGPTR(_simCodeOut), 53*sizeof(modelica_metatype));
+  tmpMeta13 = MMC_TAGPTR(mmc_alloc_words(54));
+  memcpy(MMC_UNTAGPTR(tmpMeta13), MMC_UNTAGPTR(_simCodeOut), 54*sizeof(modelica_metatype));
   ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta13))[2] = _modelInfo;
   _simCodeOut = tmpMeta13;
   _return: OMC_LABEL_UNUSED
@@ -10410,8 +10395,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__replaceSimEq
           
           _jacMatrix = tmpMeta6;
           /* Pattern matching succeeded */
-          tmpMeta7 = MMC_TAGPTR(mmc_alloc_words(15));
-          memcpy(MMC_UNTAGPTR(tmpMeta7), MMC_UNTAGPTR(_jacMatrix), 15*sizeof(modelica_metatype));
+          tmpMeta7 = MMC_TAGPTR(mmc_alloc_words(17));
+          memcpy(MMC_UNTAGPTR(tmpMeta7), MMC_UNTAGPTR(_jacMatrix), 17*sizeof(modelica_metatype));
           ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta7))[2] = omc_List_map1(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_jacMatrix), 2))), boxvar_HpcOmScheduler_TDS__replaceSimEqSysIdxInJacobianColumn, _assIn);
           _jacMatrix = tmpMeta7;
           tmpMeta1 = mmc_mk_some(_jacMatrix);
@@ -10588,8 +10573,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__replaceSimEq
       modelica_metatype _nonlinearPat = NULL;
       modelica_metatype _nonlinearPatT = NULL;
       modelica_metatype _colCols = NULL;
+      modelica_metatype _colRows = NULL;
       modelica_metatype _ass = NULL;
       modelica_integer _newIdx;
+      modelica_boolean _isAdj;
       modelica_metatype _crefToSimVarHTJacobian = NULL;
       volatile mmc_switch_type tmp4;
       int tmp5;
@@ -10604,8 +10591,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__replaceSimEq
       // _nonlinearPat has no default value.
       // _nonlinearPatT has no default value.
       // _colCols has no default value.
+      // _colRows has no default value.
       // _ass has no default value.
       // _newIdx has no default value.
+      // _isAdj has no default value.
       // _crefToSimVarHTJacobian has no default value.
       tmp4 = 0;
       MMC_TRY_INTERNAL(mmc_jumper)
@@ -10624,25 +10613,28 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__replaceSimEq
           modelica_metatype tmpMeta13;
           modelica_metatype tmpMeta14;
           modelica_metatype tmpMeta15;
-          modelica_integer tmp16;
-          modelica_metatype tmpMeta17;
-          modelica_integer tmp18;
-          modelica_metatype tmpMeta19;
-          modelica_integer tmp20;
-          modelica_metatype tmpMeta21;
+          modelica_metatype tmpMeta16;
+          modelica_integer tmp17;
+          modelica_metatype tmpMeta18;
+          modelica_integer tmp19;
+          modelica_metatype tmpMeta20;
+          modelica_integer tmp21;
           modelica_metatype tmpMeta22;
           modelica_metatype tmpMeta23;
-          modelica_integer tmp24;
-          modelica_metatype tmpMeta25;
+          modelica_metatype tmpMeta24;
+          modelica_integer tmp25;
           modelica_metatype tmpMeta26;
-          modelica_metatype tmpMeta27;
-          modelica_integer tmp28;
+          modelica_integer tmp27;
+          modelica_metatype tmpMeta28;
           modelica_metatype tmpMeta29;
           modelica_metatype tmpMeta30;
-          modelica_metatype tmpMeta31;
+          modelica_integer tmp31;
           modelica_metatype tmpMeta32;
           modelica_metatype tmpMeta33;
           modelica_metatype tmpMeta34;
+          modelica_metatype tmpMeta35;
+          modelica_metatype tmpMeta36;
+          modelica_metatype tmpMeta37;
           if (optionNone(tmp4_1)) goto tmp3_end;
           tmpMeta6 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 1));
           tmpMeta7 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta6), 2));
@@ -10654,17 +10646,20 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__replaceSimEq
           tmpMeta13 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta6), 8));
           tmpMeta14 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta6), 9));
           tmpMeta15 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta6), 10));
-          tmp16 = mmc_unbox_integer(tmpMeta15);
-          tmpMeta17 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta6), 11));
-          tmp18 = mmc_unbox_integer(tmpMeta17);
-          tmpMeta19 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta6), 12));
-          tmp20 = mmc_unbox_integer(tmpMeta19);
-          tmpMeta21 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta6), 13));
-          if (!listEmpty(tmpMeta21)) goto tmp3_end;
+          tmpMeta16 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta6), 11));
+          tmp17 = mmc_unbox_integer(tmpMeta16);
+          tmpMeta18 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta6), 12));
+          tmp19 = mmc_unbox_integer(tmpMeta18);
+          tmpMeta20 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta6), 13));
+          tmp21 = mmc_unbox_integer(tmpMeta20);
           tmpMeta22 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta6), 14));
-          tmpMeta23 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_2), 1));
-          tmp24 = mmc_unbox_integer(tmpMeta23);
-          tmpMeta25 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_2), 2));
+          if (!listEmpty(tmpMeta22)) goto tmp3_end;
+          tmpMeta23 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta6), 15));
+          tmpMeta24 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta6), 16));
+          tmp25 = mmc_unbox_integer(tmpMeta24);
+          tmpMeta26 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_2), 1));
+          tmp27 = mmc_unbox_integer(tmpMeta26);
+          tmpMeta28 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_2), 2));
           _jacCols = tmpMeta7;
           _vars = tmpMeta8;
           _name = tmpMeta9;
@@ -10673,27 +10668,29 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__replaceSimEq
           _nonlinearPat = tmpMeta12;
           _nonlinearPatT = tmpMeta13;
           _colCols = tmpMeta14;
-          _maxCol = tmp16  /* pattern as ty=Integer */;
-          _jacIdx = tmp18  /* pattern as ty=Integer */;
-          _partIdx = tmp20  /* pattern as ty=Integer */;
-          _crefToSimVarHTJacobian = tmpMeta22;
-          _newIdx = tmp24  /* pattern as ty=Integer */;
-          _ass = tmpMeta25;
+          _colRows = tmpMeta15;
+          _maxCol = tmp17  /* pattern as ty=Integer */;
+          _jacIdx = tmp19  /* pattern as ty=Integer */;
+          _partIdx = tmp21  /* pattern as ty=Integer */;
+          _crefToSimVarHTJacobian = tmpMeta23;
+          _isAdj = tmp25  /* pattern as ty=Boolean */;
+          _newIdx = tmp27  /* pattern as ty=Integer */;
+          _ass = tmpMeta28;
           /* Pattern matching succeeded */
           /* Pattern-matching tuple assignment */
-          tmpMeta30 = mmc_mk_box2(0, mmc_mk_integer(_newIdx), _ass);
-          tmpMeta31 = omc_List_mapFold(threadData, _jacCols, boxvar_HpcOmScheduler_TDS__replaceSimEqSysIdxInJacobianColumnWithUpdate, tmpMeta30, &tmpMeta26);
-          _jacCols = tmpMeta31;
-          tmpMeta27 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta26), 1));
-          tmp28 = mmc_unbox_integer(tmpMeta27);
-          tmpMeta29 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta26), 2));
-          _newIdx = tmp28  /* pattern as ty=Integer */;
-          _ass = tmpMeta29;
-          tmpMeta32 = MMC_REFSTRUCTLIT(mmc_nil);
-          tmpMeta33 = mmc_mk_box14(3, &SimCode_JacobianMatrix_JAC__MATRIX__desc, _jacCols, _vars, _name, _sparsity, _sparsityT, _nonlinearPat, _nonlinearPatT, _colCols, mmc_mk_integer(_maxCol), mmc_mk_integer(_jacIdx), mmc_mk_integer(_partIdx), tmpMeta32, _crefToSimVarHTJacobian);
-          tmpMeta34 = mmc_mk_box2(0, mmc_mk_integer(_newIdx), _ass);
-          tmpMeta[0+0] = mmc_mk_some(tmpMeta33);
-          tmpMeta[0+1] = tmpMeta34;
+          tmpMeta33 = mmc_mk_box2(0, mmc_mk_integer(_newIdx), _ass);
+          tmpMeta34 = omc_List_mapFold(threadData, _jacCols, boxvar_HpcOmScheduler_TDS__replaceSimEqSysIdxInJacobianColumnWithUpdate, tmpMeta33, &tmpMeta29);
+          _jacCols = tmpMeta34;
+          tmpMeta30 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta29), 1));
+          tmp31 = mmc_unbox_integer(tmpMeta30);
+          tmpMeta32 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta29), 2));
+          _newIdx = tmp31  /* pattern as ty=Integer */;
+          _ass = tmpMeta32;
+          tmpMeta35 = MMC_REFSTRUCTLIT(mmc_nil);
+          tmpMeta36 = mmc_mk_box16(3, &SimCode_JacobianMatrix_JAC__MATRIX__desc, _jacCols, _vars, _name, _sparsity, _sparsityT, _nonlinearPat, _nonlinearPatT, _colCols, _colRows, mmc_mk_integer(_maxCol), mmc_mk_integer(_jacIdx), mmc_mk_integer(_partIdx), tmpMeta35, _crefToSimVarHTJacobian, mmc_mk_boolean(_isAdj));
+          tmpMeta37 = mmc_mk_box2(0, mmc_mk_integer(_newIdx), _ass);
+          tmpMeta[0+0] = mmc_mk_some(tmpMeta36);
+          tmpMeta[0+1] = tmpMeta37;
           goto tmp3_done;
         }
         case 1: {
@@ -11326,8 +11323,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__assignNewSim
   _idx = tmp3  /* pattern as ty=Integer */;
   _ass = tmpMeta4;
 
-  tmpMeta7 = MMC_TAGPTR(mmc_alloc_words(53));
-  memcpy(MMC_UNTAGPTR(tmpMeta7), MMC_UNTAGPTR(_simCodeOut), 53*sizeof(modelica_metatype));
+  tmpMeta7 = MMC_TAGPTR(mmc_alloc_words(54));
+  memcpy(MMC_UNTAGPTR(tmpMeta7), MMC_UNTAGPTR(_simCodeOut), 54*sizeof(modelica_metatype));
   ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta7))[12] = _eqs;
   _simCodeOut = tmpMeta7;
 
@@ -11341,8 +11338,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__assignNewSim
   _idx = tmp10  /* pattern as ty=Integer */;
   _ass = tmpMeta11;
 
-  tmpMeta14 = MMC_TAGPTR(mmc_alloc_words(53));
-  memcpy(MMC_UNTAGPTR(tmpMeta14), MMC_UNTAGPTR(_simCodeOut), 53*sizeof(modelica_metatype));
+  tmpMeta14 = MMC_TAGPTR(mmc_alloc_words(54));
+  memcpy(MMC_UNTAGPTR(tmpMeta14), MMC_UNTAGPTR(_simCodeOut), 54*sizeof(modelica_metatype));
   ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta14))[8] = _eqs;
   _simCodeOut = tmpMeta14;
 
@@ -11356,8 +11353,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__assignNewSim
   _idx = tmp17  /* pattern as ty=Integer */;
   _ass = tmpMeta18;
 
-  tmpMeta21 = MMC_TAGPTR(mmc_alloc_words(53));
-  memcpy(MMC_UNTAGPTR(tmpMeta21), MMC_UNTAGPTR(_simCodeOut), 53*sizeof(modelica_metatype));
+  tmpMeta21 = MMC_TAGPTR(mmc_alloc_words(54));
+  memcpy(MMC_UNTAGPTR(tmpMeta21), MMC_UNTAGPTR(_simCodeOut), 54*sizeof(modelica_metatype));
   ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta21))[15] = _eqs;
   _simCodeOut = tmpMeta21;
 
@@ -11371,8 +11368,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__assignNewSim
   _idx = tmp24  /* pattern as ty=Integer */;
   _ass = tmpMeta25;
 
-  tmpMeta28 = MMC_TAGPTR(mmc_alloc_words(53));
-  memcpy(MMC_UNTAGPTR(tmpMeta28), MMC_UNTAGPTR(_simCodeOut), 53*sizeof(modelica_metatype));
+  tmpMeta28 = MMC_TAGPTR(mmc_alloc_words(54));
+  memcpy(MMC_UNTAGPTR(tmpMeta28), MMC_UNTAGPTR(_simCodeOut), 54*sizeof(modelica_metatype));
   ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta28))[16] = _eqs;
   _simCodeOut = tmpMeta28;
 
@@ -11386,8 +11383,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__assignNewSim
   _idx = tmp31  /* pattern as ty=Integer */;
   _ass = tmpMeta32;
 
-  tmpMeta35 = MMC_TAGPTR(mmc_alloc_words(53));
-  memcpy(MMC_UNTAGPTR(tmpMeta35), MMC_UNTAGPTR(_simCodeOut), 53*sizeof(modelica_metatype));
+  tmpMeta35 = MMC_TAGPTR(mmc_alloc_words(54));
+  memcpy(MMC_UNTAGPTR(tmpMeta35), MMC_UNTAGPTR(_simCodeOut), 54*sizeof(modelica_metatype));
   ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta35))[17] = _eqs;
   _simCodeOut = tmpMeta35;
 
@@ -11401,8 +11398,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__assignNewSim
   _idx = tmp38  /* pattern as ty=Integer */;
   _ass = tmpMeta39;
 
-  tmpMeta42 = MMC_TAGPTR(mmc_alloc_words(53));
-  memcpy(MMC_UNTAGPTR(tmpMeta42), MMC_UNTAGPTR(_simCodeOut), 53*sizeof(modelica_metatype));
+  tmpMeta42 = MMC_TAGPTR(mmc_alloc_words(54));
+  memcpy(MMC_UNTAGPTR(tmpMeta42), MMC_UNTAGPTR(_simCodeOut), 54*sizeof(modelica_metatype));
   ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta42))[18] = _eqs;
   _simCodeOut = tmpMeta42;
 
@@ -11416,8 +11413,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__assignNewSim
   _idx = tmp45  /* pattern as ty=Integer */;
   _ass = tmpMeta46;
 
-  tmpMeta49 = MMC_TAGPTR(mmc_alloc_words(53));
-  memcpy(MMC_UNTAGPTR(tmpMeta49), MMC_UNTAGPTR(_simCodeOut), 53*sizeof(modelica_metatype));
+  tmpMeta49 = MMC_TAGPTR(mmc_alloc_words(54));
+  memcpy(MMC_UNTAGPTR(tmpMeta49), MMC_UNTAGPTR(_simCodeOut), 54*sizeof(modelica_metatype));
   ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta49))[19] = _eqs;
   _simCodeOut = tmpMeta49;
 
@@ -11431,23 +11428,23 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__assignNewSim
   _idx = tmp52  /* pattern as ty=Integer */;
   _ass = tmpMeta53;
 
-  tmpMeta56 = MMC_TAGPTR(mmc_alloc_words(53));
-  memcpy(MMC_UNTAGPTR(tmpMeta56), MMC_UNTAGPTR(_simCodeOut), 53*sizeof(modelica_metatype));
+  tmpMeta56 = MMC_TAGPTR(mmc_alloc_words(54));
+  memcpy(MMC_UNTAGPTR(tmpMeta56), MMC_UNTAGPTR(_simCodeOut), 54*sizeof(modelica_metatype));
   ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta56))[21] = _eqs;
   _simCodeOut = tmpMeta56;
 
-  tmpMeta57 = MMC_TAGPTR(mmc_alloc_words(53));
-  memcpy(MMC_UNTAGPTR(tmpMeta57), MMC_UNTAGPTR(_simCodeOut), 53*sizeof(modelica_metatype));
+  tmpMeta57 = MMC_TAGPTR(mmc_alloc_words(54));
+  memcpy(MMC_UNTAGPTR(tmpMeta57), MMC_UNTAGPTR(_simCodeOut), 54*sizeof(modelica_metatype));
   ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta57))[9] = omc_List_map1List(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_simCodeOut), 9))), boxvar_HpcOmScheduler_TDS__replaceSimEqSysIndex, _ass);
   _simCodeOut = tmpMeta57;
 
-  tmpMeta58 = MMC_TAGPTR(mmc_alloc_words(53));
-  memcpy(MMC_UNTAGPTR(tmpMeta58), MMC_UNTAGPTR(_simCodeOut), 53*sizeof(modelica_metatype));
+  tmpMeta58 = MMC_TAGPTR(mmc_alloc_words(54));
+  memcpy(MMC_UNTAGPTR(tmpMeta58), MMC_UNTAGPTR(_simCodeOut), 54*sizeof(modelica_metatype));
   ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta58))[10] = omc_List_map1List(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_simCodeOut), 10))), boxvar_HpcOmScheduler_TDS__replaceSimEqSysIndex, _ass);
   _simCodeOut = tmpMeta58;
 
-  tmpMeta59 = MMC_TAGPTR(mmc_alloc_words(53));
-  memcpy(MMC_UNTAGPTR(tmpMeta59), MMC_UNTAGPTR(_simCodeOut), 53*sizeof(modelica_metatype));
+  tmpMeta59 = MMC_TAGPTR(mmc_alloc_words(54));
+  memcpy(MMC_UNTAGPTR(tmpMeta59), MMC_UNTAGPTR(_simCodeOut), 54*sizeof(modelica_metatype));
   ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta59))[22] = omc_List_map1(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_simCodeOut), 22))), boxvar_HpcOmScheduler_TDS__replaceSimEqSysIndex, _ass);
   _simCodeOut = tmpMeta59;
 
@@ -11455,8 +11452,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__assignNewSim
 
   _jacObts = omc_List_map1(threadData, _jacObts, boxvar_HpcOmScheduler_TDS__replaceSimEqSysIdxInJacobianMatrix, _ass);
 
-  tmpMeta60 = MMC_TAGPTR(mmc_alloc_words(53));
-  memcpy(MMC_UNTAGPTR(tmpMeta60), MMC_UNTAGPTR(_simCodeOut), 53*sizeof(modelica_metatype));
+  tmpMeta60 = MMC_TAGPTR(mmc_alloc_words(54));
+  memcpy(MMC_UNTAGPTR(tmpMeta60), MMC_UNTAGPTR(_simCodeOut), 54*sizeof(modelica_metatype));
   ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta60))[35] = omc_List_map(threadData, _jacObts, boxvar_Util_getOption);
   _simCodeOut = tmpMeta60;
 
@@ -11470,8 +11467,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__assignNewSim
   ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta62))[10] = _varInfo;
   _modelInfo = tmpMeta62;
 
-  tmpMeta63 = MMC_TAGPTR(mmc_alloc_words(53));
-  memcpy(MMC_UNTAGPTR(tmpMeta63), MMC_UNTAGPTR(_simCodeOut), 53*sizeof(modelica_metatype));
+  tmpMeta63 = MMC_TAGPTR(mmc_alloc_words(54));
+  memcpy(MMC_UNTAGPTR(tmpMeta63), MMC_UNTAGPTR(_simCodeOut), 54*sizeof(modelica_metatype));
   ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta63))[2] = _modelInfo;
   _simCodeOut = tmpMeta63;
 
@@ -11769,11 +11766,11 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__schedule1(th
           tmp6 = (listLength(_clustersIn) < _numProc);
           if (1 /* true */ != tmp6) goto goto_2;
 
-          fputs(MMC_STRINGDATA(_OMC_LIT88),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT87),stdout);
 
           _clusters = omc_List_map(threadData, _clustersIn, boxvar_listReverse);
 
-          omc_FlagsUtil_setConfigInt(threadData, _OMC_LIT96, listLength(_clustersIn));
+          omc_FlagsUtil_setConfigInt(threadData, _OMC_LIT95, listLength(_clustersIn));
           tmpMeta[0+0] = omc_HpcOmScheduler_TDS__schedule1(threadData, _clusters, _iTaskGraph, _iTaskGraphT, _iTaskGraphMeta, _TDSLevel, listLength(_clustersIn), _iSccSimEqMapping, _iSimCode, _iCommCosts, _iCompTaskMapping, _iSimVarMapping, &tmpMeta[0+1], &tmpMeta[0+2], &tmpMeta[0+3], &tmpMeta[0+4]);
           goto tmp3_done;
         }
@@ -11815,9 +11812,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__schedule1(th
           modelica_metatype tmpMeta31;
           modelica_metatype tmpMeta32;
           modelica_metatype tmpMeta33;
-          modelica_metatype tmpMeta34;
-          modelica_metatype tmpMeta35;
+          modelica_integer tmp34;
           modelica_metatype tmpMeta36;
+          modelica_metatype tmpMeta37;
+          modelica_metatype tmpMeta38;
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
           tmp8 = (listLength(_clustersIn) == _numProc);
@@ -11876,7 +11874,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__schedule1(th
           tmpMeta28 = MMC_REFSTRUCTLIT(mmc_nil);
           _threadTask = arrayCreate(_numProc, tmpMeta28);
 
-          _allCalcTasks = arrayCreate(_sizeTasks, _OMC_LIT97);
+          _allCalcTasks = arrayCreate(_sizeTasks, _OMC_LIT96);
 
           tmpMeta29 = MMC_REFSTRUCTLIT(mmc_nil);
           tmpMeta30 = MMC_REFSTRUCTLIT(mmc_nil);
@@ -11895,7 +11893,33 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__schedule1(th
 
           _taskIdx = ((modelica_integer) 1) + arrayLength(_iTaskGraph);
 
-          _simVarIdx = ((modelica_integer) 1) + mmc_unbox_integer(omc_List_fold(threadData, omc_List_map(threadData, _algVars, boxvar_SimCodeFunctionUtil_varIndex), boxvar_intMax, mmc_mk_integer(((modelica_integer) 0))));
+          {
+            modelica_integer __omcQ_24tmpVar5;
+            modelica_integer __omcQ_24tmpVar4;
+            modelica_integer tmp35;
+            modelica_metatype _v_loopVar = 0;
+            modelica_metatype _v;
+            _v_loopVar = _algVars;
+            __omcQ_24tmpVar5 = ((modelica_integer) -4611686018427387903); /* defaultValue */
+            while(1) {
+              tmp35 = 1;
+              if (!listEmpty(_v_loopVar)) {
+                _v = MMC_CAR(_v_loopVar);
+                _v_loopVar = MMC_CDR(_v_loopVar);
+                tmp35--;
+              }
+              if (tmp35 == 0) {
+                __omcQ_24tmpVar4 = mmc_unbox_integer((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_v), 7))));
+                __omcQ_24tmpVar5 = modelica_integer_max((modelica_integer)(__omcQ_24tmpVar4),(modelica_integer)(__omcQ_24tmpVar5));
+              } else if (tmp35 == 1) {
+                break;
+              } else {
+                goto goto_2;
+              }
+            }
+            tmp34 = __omcQ_24tmpVar5;
+          }
+          _simVarIdx = ((modelica_integer) 1) + tmp34;
 
           _simEqSysIdx = ((modelica_integer) 1) + omc_SimCodeUtil_getMaxSimEqSystemIndex(threadData, _iSimCode);
 
@@ -11905,8 +11929,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__schedule1(th
 
           _mIdx = ((modelica_integer) 1) + mmc_unbox_integer(omc_List_fold(threadData, omc_List_map(threadData, omc_List_flatten(threadData, _odes), boxvar_SimCodeUtil_getMixedindex), boxvar_intMax, mmc_mk_integer(((modelica_integer) 0))));
 
-          tmpMeta34 = mmc_mk_box8(0, mmc_mk_integer(_threadIdx), mmc_mk_integer(_taskIdx), mmc_mk_integer(_compIdx), mmc_mk_integer(_simVarIdx), mmc_mk_integer(_simEqSysIdx), mmc_mk_integer(_lsIdx), mmc_mk_integer(_nlsIdx), mmc_mk_integer(_mIdx));
-          _taskAss = omc_HpcOmScheduler_TDS__duplicateTasks(threadData, _clusters, _taskAss, _procAss, tmpMeta34, _iTaskGraph, _iTaskGraphT, _taskGraph, _taskDuplAss, _iTaskGraphMeta, _iSimCode, _schedule, _iSccSimEqMapping, _duplSccSimEqMap, _duplComps ,&_procAss ,&_taskGraph ,&_taskDuplAss ,&_idcs ,&_simCode ,&_schedule ,&_duplSccSimEqMap ,&_duplComps);
+          tmpMeta36 = mmc_mk_box8(0, mmc_mk_integer(_threadIdx), mmc_mk_integer(_taskIdx), mmc_mk_integer(_compIdx), mmc_mk_integer(_simVarIdx), mmc_mk_integer(_simEqSysIdx), mmc_mk_integer(_lsIdx), mmc_mk_integer(_nlsIdx), mmc_mk_integer(_mIdx));
+          _taskAss = omc_HpcOmScheduler_TDS__duplicateTasks(threadData, _clusters, _taskAss, _procAss, tmpMeta36, _iTaskGraph, _iTaskGraphT, _taskGraph, _taskDuplAss, _iTaskGraphMeta, _iSimCode, _schedule, _iSccSimEqMapping, _duplSccSimEqMap, _duplComps ,&_procAss ,&_taskGraph ,&_taskDuplAss ,&_idcs ,&_simCode ,&_schedule ,&_duplSccSimEqMap ,&_duplComps);
 
           _simCode = omc_HpcOmScheduler_TDS__updateModelInfo(threadData, _simCode, _idcs);
 
@@ -11918,23 +11942,23 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__schedule1(th
 
           _comps = arrayAppend(_inComps, listArray(listReverse(_duplComps)));
 
-          _varCompMapping = arrayAppend(_varCompMapping, arrayCreate(_numDupl, _OMC_LIT98));
+          _varCompMapping = arrayAppend(_varCompMapping, arrayCreate(_numDupl, _OMC_LIT97));
 
-          _eqCompMapping = arrayAppend(_eqCompMapping, arrayCreate(_numDupl, _OMC_LIT98));
+          _eqCompMapping = arrayAppend(_eqCompMapping, arrayCreate(_numDupl, _OMC_LIT97));
 
-          tmpMeta35 = MMC_REFSTRUCTLIT(mmc_nil);
-          _compParamMapping = arrayAppend(_compParamMapping, arrayCreate(_numDupl, tmpMeta35));
+          tmpMeta37 = MMC_REFSTRUCTLIT(mmc_nil);
+          _compParamMapping = arrayAppend(_compParamMapping, arrayCreate(_numDupl, tmpMeta37));
 
-          _compNames = arrayAppend(_compNames, arrayCreate(_numDupl, _OMC_LIT99));
+          _compNames = arrayAppend(_compNames, arrayCreate(_numDupl, _OMC_LIT98));
 
-          _compDescs = arrayAppend(_compDescs, arrayCreate(_numDupl, _OMC_LIT99));
+          _compDescs = arrayAppend(_compDescs, arrayCreate(_numDupl, _OMC_LIT98));
 
-          _exeCosts = arrayAppend(_exeCosts, arrayCreate(_numDupl, _OMC_LIT101));
+          _exeCosts = arrayAppend(_exeCosts, arrayCreate(_numDupl, _OMC_LIT100));
 
           _nodeMark = arrayAppend(_nodeMark, arrayCreate(_numDupl, mmc_mk_integer(((modelica_integer) -1))));
 
-          tmpMeta36 = mmc_mk_box11(3, &HpcOmTaskGraph_TaskGraphMeta_TASKGRAPHMETA__desc, _comps, _varCompMapping, _eqCompMapping, _compParamMapping, _compNames, _compDescs, _exeCosts, _commCosts, _nodeMark, _compInformations);
-          _meta = tmpMeta36;
+          tmpMeta38 = mmc_mk_box11(3, &HpcOmTaskGraph_TaskGraphMeta_TASKGRAPHMETA__desc, _comps, _varCompMapping, _eqCompMapping, _compParamMapping, _compNames, _compDescs, _exeCosts, _commCosts, _nodeMark, _compInformations);
+          _meta = tmpMeta38;
 
           _newIdxAss = arrayCreate(omc_SimCodeUtil_getMaxSimEqSystemIndex(threadData, _simCode), mmc_mk_integer(((modelica_integer) -1)));
 
@@ -11954,7 +11978,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_TDS__schedule1(th
         }
         case 3: {
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT102),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT101),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -12247,7 +12271,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_insertLocksInSche
   tmpMeta5 = mmc_mk_box2(0, _iTaskGraph, _iTaskGraphT);
   tmpMeta6 = mmc_mk_box2(0, _taskAss, _procAss);
   tmpMeta4 = mmc_mk_box6(0, tmpMeta5, tmpMeta6, _allCalcTasks, _iCommCosts, _iCompTaskMapping, _iSimVarMapping);
-  tmpMeta7 = omc_List_fold(threadData, _threads, (modelica_fnptr) mmc_mk_box2(0,closure9_HpcOmScheduler_insertLocksInSchedule1,tmpMeta4), _OMC_LIT103);
+  tmpMeta7 = omc_List_fold(threadData, _threads, (modelica_fnptr) mmc_mk_box2(0,closure9_HpcOmScheduler_insertLocksInSchedule1,tmpMeta4), _OMC_LIT102);
   tmpMeta8 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta7), 1));
   tmpMeta9 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta7), 2));
   _threads = tmpMeta8;
@@ -12636,7 +12660,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_createExtSchedule
         case 3: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT104),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT103),stdout);
 
           omc_HpcOmScheduler_printTaskList(threadData, _iNodeList);
           goto goto_2;
@@ -12756,7 +12780,7 @@ modelica_metatype omc_HpcOmScheduler_createExtSchedule(threadData_t *threadData,
         case 1: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT105),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT104),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -12828,7 +12852,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_preparehMetis(thr
   // _result has no default value.
   _n = arrayLength(_iTaskGraph);
 
-  _result = omc_List_fold(threadData, arrayList(_iTaskGraph), boxvar_HpcOmScheduler_getHedge, _OMC_LIT107);
+  _result = omc_Array_fold(threadData, _iTaskGraph, boxvar_HpcOmScheduler_getHedge, _OMC_LIT106);
 
   /* Pattern-matching assignment */
   tmpMeta1 = _result;
@@ -12839,8 +12863,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_preparehMetis(thr
   _l_eint = tmpMeta3;
   _l_hewgts = tmpMeta4;
 
-  tmpMeta5 = stringAppend(_OMC_LIT108,intString(listLength(_l_eptr)));
-  tmpMeta6 = stringAppend(tmpMeta5,_OMC_LIT109);
+  tmpMeta5 = stringAppend(_OMC_LIT107,intString(listLength(_l_eptr)));
+  tmpMeta6 = stringAppend(tmpMeta5,_OMC_LIT108);
   tmpMeta7 = stringAppend(tmpMeta6,intString(listLength(_l_eint)));
   tmpMeta8 = stringAppend(tmpMeta7,_OMC_LIT6);
   fputs(MMC_STRINGDATA(tmpMeta8),stdout);
@@ -12986,7 +13010,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_listNodes(threadD
   tmpMeta1 = mmc_mk_cons(mmc_mk_integer(_actnode), MMC_REFSTRUCTLIT(mmc_nil));
   _l_eint_out = listAppend(_l_eint, tmpMeta1);
 
-  tmpMeta2 = stringAppend(_OMC_LIT110,intString(listLength(_l_eint_out)));
+  tmpMeta2 = stringAppend(_OMC_LIT109,intString(listLength(_l_eint_out)));
   tmpMeta3 = stringAppend(tmpMeta2,_OMC_LIT6);
   fputs(MMC_STRINGDATA(tmpMeta3),stdout);
   _return: OMC_LABEL_UNUSED
@@ -13002,6 +13026,11 @@ PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_HpcOmScheduler_listNodes(thre
   return _l_eint_out;
 }
 
+static modelica_metatype closure10_HpcOmScheduler_getRelations(threadData_t *thData, modelica_metatype closure, modelica_metatype edges, modelica_metatype irelations)
+{
+  modelica_metatype iTaskGraphMeta = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),1));
+  return boxptr_HpcOmScheduler_getRelations(thData, edges, iTaskGraphMeta, irelations);
+}
 PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_prepareMetis(threadData_t *threadData, modelica_metatype _iTaskGraph, modelica_metatype _iTaskGraphMeta, modelica_metatype *out_adjncy, modelica_metatype *out_vwgt, modelica_metatype *out_adjwgt)
 {
   modelica_metatype _xadj = NULL;
@@ -13017,6 +13046,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_prepareMetis(thre
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
+  modelica_metatype tmpMeta4;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _xadj has no default value.
@@ -13036,16 +13066,17 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_prepareMetis(thre
 
   _xadj = arrayCreate(((modelica_integer) 1) + _n, mmc_mk_integer(((modelica_integer) 0)));
 
-  _m = mmc_unbox_integer(omc_List_fold(threadData, arrayList(_iTaskGraph), boxvar_HpcOmScheduler_sumEdge, mmc_mk_integer(((modelica_integer) 0))));
+  _m = mmc_unbox_integer(omc_Array_fold(threadData, _iTaskGraph, boxvar_HpcOmScheduler_sumEdge, mmc_mk_integer(((modelica_integer) 0))));
 
   _adjwgt = arrayCreate((((modelica_integer) 2)) * (_m), mmc_mk_integer(((modelica_integer) 0)));
 
-  _adjundirected = omc_List_fold1(threadData, arrayList(_iTaskGraph), boxvar_HpcOmScheduler_getRelations, _iTaskGraphMeta, _OMC_LIT111);
+  tmpMeta2 = mmc_mk_box1(0, _iTaskGraphMeta);
+  _adjundirected = omc_Array_fold(threadData, _iTaskGraph, (modelica_fnptr) mmc_mk_box2(0,closure10_HpcOmScheduler_getRelations,tmpMeta2), _OMC_LIT110);
 
   /* Pattern-matching assignment */
-  tmpMeta2 = _adjundirected;
-  tmpMeta3 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta2), 1));
-  _help = tmpMeta3;
+  tmpMeta3 = _adjundirected;
+  tmpMeta4 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta3), 1));
+  _help = tmpMeta4;
 
   _allTheNodes = omc_List_intRange(threadData, _n);
 
@@ -13373,7 +13404,7 @@ modelica_metatype omc_HpcOmScheduler_createHMetisSchedule(threadData_t *threadDa
           _inComps = tmpMeta6;
           _commCosts = tmpMeta7;
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT112),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT111),stdout);
 
           _xadj = omc_HpcOmScheduler_preparehMetis(threadData, _iTaskGraph, _iTaskGraphMeta ,&_adjncy ,&_vwgt ,&_adjwgt);
 
@@ -13381,9 +13412,9 @@ modelica_metatype omc_HpcOmScheduler_createHMetisSchedule(threadData_t *threadDa
 
           _extInfoArr = listArray(_extInfo);
 
-          fputs(MMC_STRINGDATA(_OMC_LIT113),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT112),stdout);
 
-          tmpMeta8 = stringAppend(_OMC_LIT114,stringDelimitList(omc_List_map(threadData, _extInfo, boxvar_intString), _OMC_LIT115));
+          tmpMeta8 = stringAppend(_OMC_LIT113,stringDelimitList(omc_List_map(threadData, _extInfo, boxvar_intString), _OMC_LIT114));
           tmpMeta9 = stringAppend(tmpMeta8,_OMC_LIT6);
           fputs(MMC_STRINGDATA(tmpMeta9),stdout);
 
@@ -13420,7 +13451,7 @@ modelica_metatype omc_HpcOmScheduler_createHMetisSchedule(threadData_t *threadDa
         case 1: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT116),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT115),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -13853,7 +13884,7 @@ modelica_metatype omc_HpcOmScheduler_createMetisSchedule(threadData_t *threadDat
           {
             tmp17 = ((modelica_integer) 2);
             if (tmp17 == 0) {goto goto_2;}
-            tmpMeta18 = stringAppend(_OMC_LIT63,intString(modelica_div_integer(listLength(_removeLocks),tmp17).quot));
+            tmpMeta18 = stringAppend(_OMC_LIT62,intString(modelica_div_integer(listLength(_removeLocks),tmp17).quot));
             tmpMeta19 = stringAppend(tmpMeta18,_OMC_LIT6);
             fputs(MMC_STRINGDATA(tmpMeta19),stdout);
           }
@@ -13867,7 +13898,7 @@ modelica_metatype omc_HpcOmScheduler_createMetisSchedule(threadData_t *threadDat
         case 1: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT117),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT116),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -14034,7 +14065,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_createNodeLevelMa
   return _oNodeInfo;
 }
 
-static modelica_metatype closure10_HpcOmScheduler_createNodeLevelMapping(threadData_t *thData, modelica_metatype closure, modelica_metatype iNodeDependenciesT, modelica_metatype iNodeInfo)
+static modelica_metatype closure11_HpcOmScheduler_createNodeLevelMapping(threadData_t *thData, modelica_metatype closure, modelica_metatype iNodeDependenciesT, modelica_metatype iNodeInfo)
 {
   modelica_metatype nodeMarks = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),1));
   modelica_metatype inComps = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),2));
@@ -14090,7 +14121,7 @@ modelica_metatype omc_HpcOmScheduler_createTaskDepSchedule(threadData_t *threadD
 
           /* Pattern-matching assignment */
           tmpMeta8 = mmc_mk_box3(0, _nodeMark, _inComps, _iSccSimEqMapping);
-          tmpMeta9 = omc_Array_fold(threadData, _taskGraphT, (modelica_fnptr) mmc_mk_box2(0,closure10_HpcOmScheduler_createNodeLevelMapping,tmpMeta8), _OMC_LIT118);
+          tmpMeta9 = omc_Array_fold(threadData, _taskGraphT, (modelica_fnptr) mmc_mk_box2(0,closure11_HpcOmScheduler_createNodeLevelMapping,tmpMeta8), _OMC_LIT117);
           tmpMeta10 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta9), 2));
           _nodeLevelMap = tmpMeta10;
 
@@ -14106,7 +14137,7 @@ modelica_metatype omc_HpcOmScheduler_createTaskDepSchedule(threadData_t *threadD
         case 1: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT119),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT118),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -14204,7 +14235,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_getFirstReadyThre
         case 2: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT120),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT119),stdout);
           tmpMeta1 = _iFirstReadyThread;
           goto tmp3_done;
         }
@@ -14243,7 +14274,7 @@ PROTECTED_FUNCTION_STATIC modelica_integer omc_HpcOmScheduler_getFirstReadyThrea
   _tailrecursive: OMC_LABEL_UNUSED
   // _oFirstReadyThreadIdx has no default value.
   /* Pattern-matching assignment */
-  tmpMeta1 = omc_Array_fold(threadData, _iThreadReadyList, boxvar_HpcOmScheduler_getFirstReadyThread0, _OMC_LIT121);
+  tmpMeta1 = omc_Array_fold(threadData, _iThreadReadyList, boxvar_HpcOmScheduler_getFirstReadyThread0, _OMC_LIT120);
   tmpMeta2 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta1), 1));
   tmp3 = mmc_unbox_integer(tmpMeta2);
   _oFirstReadyThreadIdx = tmp3  /* pattern as ty=Integer */;
@@ -14718,13 +14749,13 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_createFixedLevelS
   return _oIdxTaskList;
 }
 
-static modelica_metatype closure11_HpcOmTaskGraph_compareTasksByExecTime(threadData_t *thData, modelica_metatype closure, modelica_metatype iTask1, modelica_metatype iTask2)
+static modelica_metatype closure12_HpcOmTaskGraph_compareTasksByExecTime(threadData_t *thData, modelica_metatype closure, modelica_metatype iTask1, modelica_metatype iTask2)
 {
   modelica_metatype iTaskComps = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),1));
   modelica_metatype iExeCosts = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),2));
   modelica_metatype iDescending = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),3));
   return boxptr_HpcOmTaskGraph_compareTasksByExecTime(thData, iTask1, iTask2, iTaskComps, iExeCosts, iDescending);
-}static modelica_metatype closure12_HpcOmScheduler_createFixedLevelScheduleForTask(threadData_t *thData, modelica_metatype closure, modelica_metatype iTaskIdx, modelica_metatype iThreadTasks)
+}static modelica_metatype closure13_HpcOmScheduler_createFixedLevelScheduleForTask(threadData_t *thData, modelica_metatype closure, modelica_metatype iTaskIdx, modelica_metatype iThreadTasks)
 {
   modelica_metatype iLevelExecCosts = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),1));
   modelica_metatype iAdviceList = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),2));
@@ -14732,7 +14763,7 @@ static modelica_metatype closure11_HpcOmTaskGraph_compareTasksByExecTime(threadD
   modelica_metatype iGraph = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),4));
   modelica_metatype iMeta = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),5));
   return boxptr_HpcOmScheduler_createFixedLevelScheduleForTask(thData, iTaskIdx, iLevelExecCosts, iAdviceList, iThreadReadyList, iGraph, iMeta, iThreadTasks);
-}static modelica_metatype closure13_HpcOmScheduler_createFixedLevelScheduleForLevel0(threadData_t *thData, modelica_metatype closure, modelica_metatype iTaskList, modelica_metatype iIdxTaskList)
+}static modelica_metatype closure14_HpcOmScheduler_createFixedLevelScheduleForLevel0(threadData_t *thData, modelica_metatype closure, modelica_metatype iTaskList, modelica_metatype iIdxTaskList)
 {
   modelica_metatype iComps = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),1));
   modelica_metatype iSccSimEqMapping = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),2));
@@ -14786,16 +14817,16 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_createFixedLevelS
   _threadTaskList = arrayCreate(_iNumberOfThreads, tmpMeta4);
 
   tmpMeta5 = mmc_mk_box3(0, _inComps, _exeCosts, mmc_mk_boolean(1 /* true */));
-  _sortedTasksOfLevel = omc_List_sort(threadData, _iTasksOfLevel, (modelica_fnptr) mmc_mk_box2(0,closure11_HpcOmTaskGraph_compareTasksByExecTime,tmpMeta5));
+  _sortedTasksOfLevel = omc_List_sort(threadData, _iTasksOfLevel, (modelica_fnptr) mmc_mk_box2(0,closure12_HpcOmTaskGraph_compareTasksByExecTime,tmpMeta5));
 
   tmpMeta6 = mmc_mk_box5(0, mmc_mk_real(_levelExecCosts), _iAdviceList, _threadReadyList, _iGraph, _iMeta);
-  omc_List_fold(threadData, _sortedTasksOfLevel, (modelica_fnptr) mmc_mk_box2(0,closure12_HpcOmScheduler_createFixedLevelScheduleForTask,tmpMeta6), _threadTaskList);
+  omc_List_fold(threadData, _sortedTasksOfLevel, (modelica_fnptr) mmc_mk_box2(0,closure13_HpcOmScheduler_createFixedLevelScheduleForTask,tmpMeta6), _threadTaskList);
 
   _threadTaskList = omc_Array_map(threadData, _threadTaskList, boxvar_listReverse);
 
   /* Pattern-matching assignment */
   tmpMeta7 = mmc_mk_box2(0, _inComps, _iSccSimEqMapping);
-  tmpMeta8 = omc_Array_fold(threadData, _threadTaskList, (modelica_fnptr) mmc_mk_box2(0,closure13_HpcOmScheduler_createFixedLevelScheduleForLevel0,tmpMeta7), _OMC_LIT118);
+  tmpMeta8 = omc_Array_fold(threadData, _threadTaskList, (modelica_fnptr) mmc_mk_box2(0,closure14_HpcOmScheduler_createFixedLevelScheduleForLevel0,tmpMeta7), _OMC_LIT117);
   tmpMeta9 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta8), 2));
   _tasksOfLevel = tmpMeta9;
 
@@ -14817,7 +14848,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_HpcOmScheduler_createFixedLev
   return _oLevelTaskLists;
 }
 
-static modelica_metatype closure14_HpcOmScheduler_createFixedLevelScheduleForLevel(threadData_t *thData, modelica_metatype closure, modelica_metatype iTasksOfLevel, modelica_metatype iLevelTaskLists)
+static modelica_metatype closure15_HpcOmScheduler_createFixedLevelScheduleForLevel(threadData_t *thData, modelica_metatype closure, modelica_metatype iTasksOfLevel, modelica_metatype iLevelTaskLists)
 {
   modelica_metatype iAdviceList = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),1));
   modelica_metatype iGraph = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),2));
@@ -14854,7 +14885,7 @@ modelica_metatype omc_HpcOmScheduler_createFixedLevelSchedule(threadData_t *thre
 
   tmpMeta2 = mmc_mk_box5(0, _adviceLists, _iGraph, _iMeta, mmc_mk_integer(_iNumberOfThreads), _iSccSimEqMapping);
   tmpMeta3 = MMC_REFSTRUCTLIT(mmc_nil);
-  _levelTaskLists = omc_List_fold(threadData, _levelTasks, (modelica_fnptr) mmc_mk_box2(0,closure14_HpcOmScheduler_createFixedLevelScheduleForLevel,tmpMeta2), tmpMeta3);
+  _levelTaskLists = omc_List_fold(threadData, _levelTasks, (modelica_fnptr) mmc_mk_box2(0,closure15_HpcOmScheduler_createFixedLevelScheduleForLevel,tmpMeta2), tmpMeta3);
 
   _levelTaskLists = listReverse(_levelTaskLists);
 
@@ -14910,8 +14941,8 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_HpcOmScheduler_dumpLevelSchedule(t
           tmpMeta5 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 2));
           _tasks = tmpMeta5;
           /* Pattern matching succeeded */
-          tmpMeta6 = stringAppend(_OMC_LIT122,intString(_iLevel));
-          tmpMeta7 = stringAppend(tmpMeta6,_OMC_LIT123);
+          tmpMeta6 = stringAppend(_OMC_LIT121,intString(_iLevel));
+          tmpMeta7 = stringAppend(tmpMeta6,_OMC_LIT122);
           _s = tmpMeta7;
 
           tmpMeta8 = stringAppend(_s,omc_HpcOmScheduler_dumpTaskList(threadData, _tasks));
@@ -14930,8 +14961,8 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_HpcOmScheduler_dumpLevelSchedule(t
           
           _tasks = tmpMeta9;
           /* Pattern matching succeeded */
-          tmpMeta10 = stringAppend(_OMC_LIT124,intString(_iLevel));
-          tmpMeta11 = stringAppend(tmpMeta10,_OMC_LIT123);
+          tmpMeta10 = stringAppend(_OMC_LIT123,intString(_iLevel));
+          tmpMeta11 = stringAppend(tmpMeta10,_OMC_LIT122);
           _s = tmpMeta11;
 
           tmpMeta12 = stringAppend(_s,omc_HpcOmScheduler_dumpTaskList(threadData, _tasks));
@@ -14944,7 +14975,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_HpcOmScheduler_dumpLevelSchedule(t
         tmp3_default: OMC_LABEL_UNUSED; {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT125),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT124),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -15006,7 +15037,7 @@ modelica_metatype omc_HpcOmScheduler_makeCalcTask(threadData_t *threadData, mode
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _taskOut has no default value.
-  tmpMeta1 = mmc_mk_box7(4, &HpcOmSimCode_Task_CALCTASK__desc, mmc_mk_integer(((modelica_integer) 0)), mmc_mk_integer(_node), _OMC_LIT100, _OMC_LIT100, mmc_mk_integer(_threadIdx), _simEqs);
+  tmpMeta1 = mmc_mk_box7(4, &HpcOmSimCode_Task_CALCTASK__desc, mmc_mk_integer(((modelica_integer) 0)), mmc_mk_integer(_node), _OMC_LIT99, _OMC_LIT99, mmc_mk_integer(_threadIdx), _simEqs);
   _taskOut = tmpMeta1;
   _return: OMC_LABEL_UNUSED
   return _taskOut;
@@ -15066,7 +15097,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_makeCalcTaskLevel
   return _oTask;
 }
 
-static modelica_metatype closure15_HpcOmScheduler_makeCalcTaskLevel(threadData_t *thData, modelica_metatype closure, modelica_metatype iNodeIdc)
+static modelica_metatype closure16_HpcOmScheduler_makeCalcTaskLevel(threadData_t *thData, modelica_metatype closure, modelica_metatype iNodeIdc)
 {
   modelica_metatype iNodeSccMapping = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),1));
   modelica_metatype iSccSimEqMapping = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),2));
@@ -15083,7 +15114,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_makeCalcLevelParT
   // _oTasks has no default value.
   // _tmpList has no default value.
   tmpMeta1 = mmc_mk_box2(0, _iNodeSccMapping, _iSccSimEqMapping);
-  _tmpList = omc_List_map(threadData, _iNodeIdc, (modelica_fnptr) mmc_mk_box2(0,closure15_HpcOmScheduler_makeCalcTaskLevel,tmpMeta1));
+  _tmpList = omc_List_map(threadData, _iNodeIdc, (modelica_fnptr) mmc_mk_box2(0,closure16_HpcOmScheduler_makeCalcTaskLevel,tmpMeta1));
 
   tmpMeta2 = mmc_mk_box2(3, &HpcOmSimCode_TaskList_PARALLELTASKLIST__desc, _tmpList);
   _oTasks = tmpMeta2;
@@ -15191,7 +15222,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_createLevelSchedu
   return _oLevelTaskLists;
 }
 
-static modelica_metatype closure16_HpcOmScheduler_createLevelScheduleForLevel(threadData_t *thData, modelica_metatype closure, modelica_metatype iTasksOfLevel, modelica_metatype iLevelTaskLists)
+static modelica_metatype closure17_HpcOmScheduler_createLevelScheduleForLevel(threadData_t *thData, modelica_metatype closure, modelica_metatype iTasksOfLevel, modelica_metatype iLevelTaskLists)
 {
   modelica_metatype iGraph = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),1));
   modelica_metatype iMeta = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),2));
@@ -15220,7 +15251,7 @@ modelica_metatype omc_HpcOmScheduler_createLevelSchedule(threadData_t *threadDat
 
   tmpMeta1 = mmc_mk_box3(0, _iGraph, _iMeta, _iSccSimEqMapping);
   tmpMeta2 = MMC_REFSTRUCTLIT(mmc_nil);
-  _levelTaskLists = omc_List_fold(threadData, _levelTasks, (modelica_fnptr) mmc_mk_box2(0,closure16_HpcOmScheduler_createLevelScheduleForLevel,tmpMeta1), tmpMeta2);
+  _levelTaskLists = omc_List_fold(threadData, _levelTasks, (modelica_fnptr) mmc_mk_box2(0,closure17_HpcOmScheduler_createLevelScheduleForLevel,tmpMeta1), tmpMeta2);
 
   _levelTaskLists = listReverse(_levelTaskLists);
 
@@ -15499,7 +15530,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_BLS__mergeToTarge
         case 5: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT126),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT125),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -15607,7 +15638,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_BLS__getDependent
         case 2: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT127),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT126),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -15879,7 +15910,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_BLS__fillParallel
           tmp23 = (_critPathCost >= _targetCosts);
           if (1 /* true */ != tmp23) goto goto_2;
 
-          omc_Flags_getConfigInt(threadData, _OMC_LIT96);
+          omc_Flags_getConfigInt(threadData, _OMC_LIT95);
 
           _levelNodes = omc_List_flatten(threadData, omc_List_map1(threadData, omc_List_intRange2(threadData, _levelIdx, _critNodeLevel), boxvar_List_getIndexFirst, _levelIn));
 
@@ -16414,7 +16445,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_convertScheduleSt
         case 3: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT128),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT127),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -16521,7 +16552,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_convertScheduleSt
         case 2: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT129),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT128),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -16594,7 +16625,7 @@ modelica_metatype omc_HpcOmScheduler_convertScheduleStrucToInfo(threadData_t *th
           
           _allTasks = tmpMeta7;
           /* Pattern matching succeeded */
-          _tmpScheduleInfo = arrayCreate(_iTaskCount, _OMC_LIT130);
+          _tmpScheduleInfo = arrayCreate(_iTaskCount, _OMC_LIT129);
 
           _threadTasks = arrayCreate(((modelica_integer) 1), _allTasks);
           tmpMeta1 = omc_Array_fold(threadData, _threadTasks, boxvar_HpcOmScheduler_convertScheduleStrucToInfo0, _tmpScheduleInfo);
@@ -16607,7 +16638,7 @@ modelica_metatype omc_HpcOmScheduler_convertScheduleStrucToInfo(threadData_t *th
           
           _threadTasks = tmpMeta8;
           /* Pattern matching succeeded */
-          _tmpScheduleInfo = arrayCreate(_iTaskCount, _OMC_LIT130);
+          _tmpScheduleInfo = arrayCreate(_iTaskCount, _OMC_LIT129);
           tmpMeta1 = omc_Array_fold(threadData, _threadTasks, boxvar_HpcOmScheduler_convertScheduleStrucToInfo0, _tmpScheduleInfo);
           goto tmp3_done;
         }
@@ -16618,7 +16649,7 @@ modelica_metatype omc_HpcOmScheduler_convertScheduleStrucToInfo(threadData_t *th
           
           _tasksOfLevels = tmpMeta9;
           /* Pattern matching succeeded */
-          _tmpScheduleInfo = arrayCreate(_iTaskCount, _OMC_LIT130);
+          _tmpScheduleInfo = arrayCreate(_iTaskCount, _OMC_LIT129);
           tmpMeta1 = omc_HpcOmScheduler_convertScheduleStrucToInfoLevel(threadData, _tasksOfLevels, ((modelica_integer) 1), _tmpScheduleInfo);
           goto tmp3_done;
         }
@@ -16626,13 +16657,13 @@ modelica_metatype omc_HpcOmScheduler_convertScheduleStrucToInfo(threadData_t *th
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,2,1) == 0) goto tmp3_end;
           
           /* Pattern matching succeeded */
-          tmpMeta1 = arrayCreate(_iTaskCount, _OMC_LIT130);
+          tmpMeta1 = arrayCreate(_iTaskCount, _OMC_LIT129);
           goto tmp3_done;
         }
         case 4: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT131),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT130),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -16740,16 +16771,16 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_HpcOmScheduler_dumpTask(threadData
           _numThreads = tmp9  /* pattern as ty=Integer */;
           _taskSchedule = tmpMeta10;
           /* Pattern matching succeeded */
-          tmpMeta11 = stringAppend(_OMC_LIT132,intString(_compIdx));
-          tmpMeta12 = stringAppend(tmpMeta11,_OMC_LIT133);
+          tmpMeta11 = stringAppend(_OMC_LIT131,intString(_compIdx));
+          tmpMeta12 = stringAppend(tmpMeta11,_OMC_LIT132);
           tmpMeta13 = stringAppend(tmpMeta12,intString(_numThreads));
-          tmpMeta14 = stringAppend(tmpMeta13,_OMC_LIT134);
+          tmpMeta14 = stringAppend(tmpMeta13,_OMC_LIT133);
           _s = tmpMeta14;
 
-          tmpMeta15 = stringAppend(_s,_OMC_LIT135);
-          tmpMeta16 = stringAppend(tmpMeta15,omc_System_stringReplace(threadData, omc_HpcOmScheduler_dumpSchedule(threadData, _taskSchedule), _OMC_LIT6, _OMC_LIT136));
+          tmpMeta15 = stringAppend(_s,_OMC_LIT134);
+          tmpMeta16 = stringAppend(tmpMeta15,omc_System_stringReplace(threadData, omc_HpcOmScheduler_dumpSchedule(threadData, _taskSchedule), _OMC_LIT6, _OMC_LIT135));
           _s = tmpMeta16;
-          tmpMeta17 = stringAppend(_s,_OMC_LIT137);
+          tmpMeta17 = stringAppend(_s,_OMC_LIT136);
           tmp1 = tmpMeta17;
           goto tmp3_done;
         }
@@ -16780,10 +16811,10 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_HpcOmScheduler_dumpTask(threadData
           _timeFinished = tmp23  /* pattern as ty=Real */;
           _eqIdc = tmpMeta24;
           /* Pattern matching succeeded */
-          tmpMeta25 = stringAppend(_OMC_LIT138,intString(_index));
-          tmpMeta26 = stringAppend(tmpMeta25,_OMC_LIT139);
-          tmpMeta27 = stringAppend(tmpMeta26,stringDelimitList(omc_List_map(threadData, _eqIdc, boxvar_intString), _OMC_LIT140));
-          tmpMeta28 = stringAppend(tmpMeta27,_OMC_LIT141);
+          tmpMeta25 = stringAppend(_OMC_LIT137,intString(_index));
+          tmpMeta26 = stringAppend(tmpMeta25,_OMC_LIT138);
+          tmpMeta27 = stringAppend(tmpMeta26,stringDelimitList(omc_List_map(threadData, _eqIdc, boxvar_intString), _OMC_LIT139));
+          tmpMeta28 = stringAppend(tmpMeta27,_OMC_LIT140);
           tmpMeta29 = stringAppend(tmpMeta28,realString(_timeFinished));
           tmpMeta30 = stringAppend(tmpMeta29,_OMC_LIT6);
           tmp1 = tmpMeta30;
@@ -16805,9 +16836,9 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_HpcOmScheduler_dumpTask(threadData
           _eqIdc = tmpMeta31;
           _nodeIdc = tmpMeta32;
           /* Pattern matching succeeded */
-          tmpMeta34 = stringAppend(_OMC_LIT142,stringDelimitList(omc_List_map(threadData, _nodeIdc, boxvar_intString), _OMC_LIT140));
-          tmpMeta35 = stringAppend(tmpMeta34,_OMC_LIT143);
-          tmpMeta36 = stringAppend(tmpMeta35,stringDelimitList(omc_List_map(threadData, _eqIdc, boxvar_intString), _OMC_LIT140));
+          tmpMeta34 = stringAppend(_OMC_LIT141,stringDelimitList(omc_List_map(threadData, _nodeIdc, boxvar_intString), _OMC_LIT139));
+          tmpMeta35 = stringAppend(tmpMeta34,_OMC_LIT142);
+          tmpMeta36 = stringAppend(tmpMeta35,stringDelimitList(omc_List_map(threadData, _eqIdc, boxvar_intString), _OMC_LIT139));
           tmpMeta37 = stringAppend(tmpMeta36,_OMC_LIT6);
           tmp1 = tmpMeta37;
           goto tmp3_done;
@@ -16835,10 +16866,10 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_HpcOmScheduler_dumpTask(threadData
           _nodeIdc = tmpMeta39;
           _threadIdx = tmp42  /* pattern as ty=Integer */;
           /* Pattern matching succeeded */
-          tmpMeta43 = stringAppend(_OMC_LIT142,stringDelimitList(omc_List_map(threadData, _nodeIdc, boxvar_intString), _OMC_LIT140));
-          tmpMeta44 = stringAppend(tmpMeta43,_OMC_LIT143);
-          tmpMeta45 = stringAppend(tmpMeta44,stringDelimitList(omc_List_map(threadData, _eqIdc, boxvar_intString), _OMC_LIT140));
-          tmpMeta46 = stringAppend(tmpMeta45,_OMC_LIT144);
+          tmpMeta43 = stringAppend(_OMC_LIT141,stringDelimitList(omc_List_map(threadData, _nodeIdc, boxvar_intString), _OMC_LIT139));
+          tmpMeta44 = stringAppend(tmpMeta43,_OMC_LIT142);
+          tmpMeta45 = stringAppend(tmpMeta44,stringDelimitList(omc_List_map(threadData, _eqIdc, boxvar_intString), _OMC_LIT139));
+          tmpMeta46 = stringAppend(tmpMeta45,_OMC_LIT143);
           tmpMeta47 = stringAppend(tmpMeta46,intString(_threadIdx));
           tmpMeta48 = stringAppend(tmpMeta47,_OMC_LIT6);
           tmp1 = tmpMeta48;
@@ -16875,13 +16906,13 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_HpcOmScheduler_dumpTask(threadData
           _targetIndex = tmp54  /* pattern as ty=Integer */;
           _outgoing = tmp56  /* pattern as ty=Boolean */;
           /* Pattern matching succeeded */
-          _s = _OMC_LIT145;
+          _s = _OMC_LIT144;
 
-          tmpMeta57 = stringAppend(_s,(_outgoing?_OMC_LIT146:_OMC_LIT147));
+          tmpMeta57 = stringAppend(_s,(_outgoing?_OMC_LIT145:_OMC_LIT146));
           _s = tmpMeta57;
-          tmpMeta58 = stringAppend(_s,_OMC_LIT148);
+          tmpMeta58 = stringAppend(_s,_OMC_LIT147);
           tmpMeta59 = stringAppend(tmpMeta58,intString(_sourceIndex));
-          tmpMeta60 = stringAppend(tmpMeta59,_OMC_LIT149);
+          tmpMeta60 = stringAppend(tmpMeta59,_OMC_LIT148);
           tmpMeta61 = stringAppend(tmpMeta60,intString(_targetIndex));
           tmpMeta62 = stringAppend(tmpMeta61,_OMC_LIT6);
           tmp1 = tmpMeta62;
@@ -16890,13 +16921,13 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_HpcOmScheduler_dumpTask(threadData
         case 5: {
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,5,0) == 0) goto tmp3_end;
           /* Pattern matching succeeded */
-          tmp1 = _OMC_LIT150;
+          tmp1 = _OMC_LIT149;
           goto tmp3_done;
         }
         case 6: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT151),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT150),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -16964,18 +16995,18 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_HpcOmScheduler_dumpTaskDepSchedule
   _iTask = tmpMeta2;
   _iDependencies = tmpMeta3;
 
-  _s = _OMC_LIT152;
+  _s = _OMC_LIT151;
 
   tmpMeta4 = stringAppend(_s,omc_HpcOmScheduler_dumpTask(threadData, _iTask));
   tmpMeta5 = stringAppend(tmpMeta4,_OMC_LIT6);
   _s = tmpMeta5;
 
-  tmpMeta6 = stringAppend(_s,_OMC_LIT153);
-  tmpMeta7 = stringAppend(tmpMeta6,stringDelimitList(omc_List_map(threadData, _iDependencies, boxvar_intString), _OMC_LIT115));
+  tmpMeta6 = stringAppend(_s,_OMC_LIT152);
+  tmpMeta7 = stringAppend(tmpMeta6,stringDelimitList(omc_List_map(threadData, _iDependencies, boxvar_intString), _OMC_LIT114));
   tmpMeta8 = stringAppend(tmpMeta7,_OMC_LIT6);
   _s = tmpMeta8;
 
-  tmpMeta9 = stringAppend(_s,_OMC_LIT154);
+  tmpMeta9 = stringAppend(_s,_OMC_LIT153);
   _str = tmpMeta9;
   _return: OMC_LABEL_UNUSED
   return _str;
@@ -16994,14 +17025,14 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_HpcOmScheduler_dumpThreadSchedule(
   _tailrecursive: OMC_LABEL_UNUSED
   // _str has no default value.
   // _oThreadIdx has no default value.
-  _str = _OMC_LIT155;
+  _str = _OMC_LIT154;
 
-  tmpMeta1 = stringAppend(_str,_OMC_LIT156);
+  tmpMeta1 = stringAppend(_str,_OMC_LIT155);
   tmpMeta2 = stringAppend(tmpMeta1,intString(_iThreadIdx));
   tmpMeta3 = stringAppend(tmpMeta2,_OMC_LIT6);
   _str = tmpMeta3;
 
-  tmpMeta4 = stringAppend(_str,_OMC_LIT155);
+  tmpMeta4 = stringAppend(_str,_OMC_LIT154);
   _str = tmpMeta4;
 
   tmpMeta5 = stringAppend(_str,omc_HpcOmScheduler_dumpTaskList(threadData, _iTaskList));
@@ -17059,7 +17090,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_HpcOmScheduler_compareTaskWithThr
         case 1: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT157),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT156),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -17130,11 +17161,11 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_HpcOmScheduler_compareTasksByEqId
           modelica_metatype tmpMeta11;
           
           /* Pattern matching succeeded */
-          tmpMeta9 = stringAppend(_OMC_LIT163,omc_HpcOmScheduler_getTaskTypeString(threadData, _iTask1));
-          tmpMeta10 = stringAppend(tmpMeta9,_OMC_LIT164);
+          tmpMeta9 = stringAppend(_OMC_LIT162,omc_HpcOmScheduler_getTaskTypeString(threadData, _iTask1));
+          tmpMeta10 = stringAppend(tmpMeta9,_OMC_LIT163);
           tmpMeta11 = stringAppend(tmpMeta10,omc_HpcOmScheduler_getTaskTypeString(threadData, _iTask2));
           tmpMeta8 = mmc_mk_cons(tmpMeta11, MMC_REFSTRUCTLIT(mmc_nil));
-          omc_Error_addMessage(threadData, _OMC_LIT162, tmpMeta8);
+          omc_Error_addMessage(threadData, _OMC_LIT161, tmpMeta8);
           goto goto_2;
           goto tmp3_done;
         }
@@ -17208,11 +17239,11 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_HpcOmScheduler_compareTasksByWeig
           modelica_metatype tmpMeta13;
           
           /* Pattern matching succeeded */
-          tmpMeta11 = stringAppend(_OMC_LIT165,omc_HpcOmScheduler_getTaskTypeString(threadData, _iTask1));
-          tmpMeta12 = stringAppend(tmpMeta11,_OMC_LIT164);
+          tmpMeta11 = stringAppend(_OMC_LIT164,omc_HpcOmScheduler_getTaskTypeString(threadData, _iTask1));
+          tmpMeta12 = stringAppend(tmpMeta11,_OMC_LIT163);
           tmpMeta13 = stringAppend(tmpMeta12,omc_HpcOmScheduler_getTaskTypeString(threadData, _iTask2));
           tmpMeta10 = mmc_mk_cons(tmpMeta13, MMC_REFSTRUCTLIT(mmc_nil));
-          omc_Error_addMessage(threadData, _OMC_LIT162, tmpMeta10);
+          omc_Error_addMessage(threadData, _OMC_LIT161, tmpMeta10);
           goto goto_2;
           goto tmp3_done;
         }
@@ -17289,7 +17320,7 @@ modelica_metatype omc_HpcOmScheduler_getSuccessorsByTask(threadData_t *threadDat
         case 1: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT166),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT165),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -17399,7 +17430,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_getMaxCommCostsBy
         case 2: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT167),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT166),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -17602,7 +17633,7 @@ PROTECTED_FUNCTION_STATIC modelica_real omc_HpcOmScheduler_calculateFinishTimeBy
         case 1: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT168),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT167),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -17805,7 +17836,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_convertNodeToTask
         case 1: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT169),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT168),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -17898,7 +17929,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_convertNodeToTask
         case 1: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT169),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT168),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -18020,7 +18051,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_convertTaskGraphT
   // _oTasks has no default value.
   // _tmpTaskArray has no default value.
   // _inComps has no default value.
-  _tmpTaskArray = arrayCreate(arrayLength(_iTaskGraphT), _OMC_LIT97);
+  _tmpTaskArray = arrayCreate(arrayLength(_iTaskGraphT), _OMC_LIT96);
 
   _oTasks = omc_HpcOmScheduler_convertTaskGraphToTasks1(threadData, _iTaskGraphMeta, _iTaskGraphT, ((modelica_integer) 1), ((modelica_fnptr) _iConverterFunc), _tmpTaskArray);
   _return: OMC_LABEL_UNUSED
@@ -18136,7 +18167,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_getTaskWithHighes
         case 4: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT170),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT169),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -18489,7 +18520,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_createDepTaskAndC
         case 1: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT171),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT170),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -18778,7 +18809,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_getCommunicationO
   return _oCommunication;
 }
 
-static modelica_metatype closure17_HpcOmScheduler_getCommunicationObjBetweenMergedTasks1(threadData_t *thData, modelica_metatype closure, modelica_metatype parentCommCost, modelica_metatype iCommunication)
+static modelica_metatype closure18_HpcOmScheduler_getCommunicationObjBetweenMergedTasks1(threadData_t *thData, modelica_metatype closure, modelica_metatype parentCommCost, modelica_metatype iCommunication)
 {
   modelica_metatype tasks = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),1));
   return boxptr_HpcOmScheduler_getCommunicationObjBetweenMergedTasks1(thData, parentCommCost, tasks, iCommunication);
@@ -18817,7 +18848,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_getCommunicationO
   _edgesFromParents = omc_List_flatten(threadData, omc_List_map1(threadData, _parentTasks, boxvar_Array_getIndexFirst, _inCommCosts));
 
   tmpMeta6 = mmc_mk_box1(0, _nodeTasks);
-  _oCommunication = omc_List_fold(threadData, _edgesFromParents, (modelica_fnptr) mmc_mk_box2(0,closure17_HpcOmScheduler_getCommunicationObjBetweenMergedTasks1,tmpMeta6), _commFold);
+  _oCommunication = omc_List_fold(threadData, _edgesFromParents, (modelica_fnptr) mmc_mk_box2(0,closure18_HpcOmScheduler_getCommunicationObjBetweenMergedTasks1,tmpMeta6), _commFold);
   _return: OMC_LABEL_UNUSED
   return _oCommunication;
 }
@@ -18928,7 +18959,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_HpcOmScheduler_getLockTasksBy
   return _oLockTasks;
 }
 
-static modelica_metatype closure18_HpcOmScheduler_getLockTasksByPredecessorListReverse0(threadData_t *thData, modelica_metatype closure, modelica_metatype iPredecessorTask, modelica_metatype iLockTasks)
+static modelica_metatype closure19_HpcOmScheduler_getLockTasksByPredecessorListReverse0(threadData_t *thData, modelica_metatype closure, modelica_metatype iPredecessorTask, modelica_metatype iLockTasks)
 {
   modelica_metatype iTask = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),1));
   modelica_metatype iThreadIdx = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),2));
@@ -18949,7 +18980,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_getLockTasksByPre
   // _oOutgoingDepTasks has no default value.
   tmpMeta1 = mmc_mk_box5(0, _iTask, mmc_mk_integer(_iThreadIdx), _iCommCosts, _iCompTaskMapping, _iSimVarMapping);
   tmpMeta2 = MMC_REFSTRUCTLIT(mmc_nil);
-  _oLockTasks = omc_List_fold(threadData, _iPredecessorList, (modelica_fnptr) mmc_mk_box2(0,closure18_HpcOmScheduler_getLockTasksByPredecessorListReverse0,tmpMeta1), tmpMeta2);
+  _oLockTasks = omc_List_fold(threadData, _iPredecessorList, (modelica_fnptr) mmc_mk_box2(0,closure19_HpcOmScheduler_getLockTasksByPredecessorListReverse0,tmpMeta1), tmpMeta2);
 
   _oOutgoingDepTasks = _oLockTasks;
   _return: OMC_LABEL_UNUSED
@@ -19073,7 +19104,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_HpcOmScheduler_getLockTasksBy
   return _oLockTasks;
 }
 
-static modelica_metatype closure19_HpcOmScheduler_getLockTasksByPredecessorList(threadData_t *thData, modelica_metatype closure, modelica_metatype iPredecessorTask, modelica_metatype iLockTasks)
+static modelica_metatype closure20_HpcOmScheduler_getLockTasksByPredecessorList(threadData_t *thData, modelica_metatype closure, modelica_metatype iPredecessorTask, modelica_metatype iLockTasks)
 {
   modelica_metatype iTask = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),1));
   modelica_metatype iThreadIdx = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),2));
@@ -19096,7 +19127,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_getLocksByPredece
   // _tmpTaskList has no default value.
   tmpMeta1 = mmc_mk_box5(0, _iTask, mmc_mk_integer(_iThreadIdx), _iCommCosts, _iCompTaskMapping, _iSimVarMapping);
   tmpMeta2 = MMC_REFSTRUCTLIT(mmc_nil);
-  _oLockTasks = omc_List_fold(threadData, _iPredecessorList, (modelica_fnptr) mmc_mk_box2(0,closure19_HpcOmScheduler_getLockTasksByPredecessorList,tmpMeta1), tmpMeta2);
+  _oLockTasks = omc_List_fold(threadData, _iPredecessorList, (modelica_fnptr) mmc_mk_box2(0,closure20_HpcOmScheduler_getLockTasksByPredecessorList,tmpMeta1), tmpMeta2);
 
   _oOutgoingDepTasks = _oLockTasks;
   _return: OMC_LABEL_UNUSED
@@ -19297,7 +19328,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_addSuccessorLocks
         case 2: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT172),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT171),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -19317,7 +19348,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_addSuccessorLocks
   return _oThreadTasks;
 }
 
-static modelica_metatype closure20_HpcOmScheduler_addSuccessorLocksToSchedule1(threadData_t *thData, modelica_metatype closure, modelica_metatype iTask, modelica_metatype iThreadTasks)
+static modelica_metatype closure21_HpcOmScheduler_addSuccessorLocksToSchedule1(threadData_t *thData, modelica_metatype closure, modelica_metatype iTask, modelica_metatype iThreadTasks)
 {
   modelica_metatype iTaskGraph = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),1));
   modelica_metatype iAllCalcTasks = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),2));
@@ -19358,7 +19389,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_addSuccessorLocks
   tmpMeta6 = mmc_mk_box2(0, mmc_mk_integer(_threadId), ((modelica_fnptr) _iCreateLockFunction));
   tmpMeta5 = mmc_mk_box6(0, _iTaskGraph, _iAllCalcTasks, _iSimVarMapping, _iCommCosts, _iCompTaskMapping, tmpMeta6);
   tmpMeta7 = MMC_REFSTRUCTLIT(mmc_nil);
-  _threadTasks = omc_List_fold(threadData, _iThreadTaskList, (modelica_fnptr) mmc_mk_box2(0,closure20_HpcOmScheduler_addSuccessorLocksToSchedule1,tmpMeta5), tmpMeta7);
+  _threadTasks = omc_List_fold(threadData, _iThreadTaskList, (modelica_fnptr) mmc_mk_box2(0,closure21_HpcOmScheduler_addSuccessorLocksToSchedule1,tmpMeta5), tmpMeta7);
 
   _allThreadTasks = arrayUpdate(_allThreadTasks, _threadId, _threadTasks);
 
@@ -19368,7 +19399,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_addSuccessorLocks
   return _oThreadTasks;
 }
 
-static modelica_metatype closure21_HpcOmScheduler_addSuccessorLocksToSchedule0(threadData_t *thData, modelica_metatype closure, modelica_metatype iThreadTaskList, modelica_metatype iThreadTasks)
+static modelica_metatype closure22_HpcOmScheduler_addSuccessorLocksToSchedule0(threadData_t *thData, modelica_metatype closure, modelica_metatype iThreadTaskList, modelica_metatype iThreadTasks)
 {
   modelica_metatype iTaskGraph = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),1));
   modelica_metatype iAllCalcTasks = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),2));
@@ -19423,7 +19454,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_addSuccessorLocks
           /* Pattern-matching assignment */
           tmpMeta9 = mmc_mk_box6(0, _iTaskGraph, _allCalcTasks, _iSimVarMapping, _iCommCosts, _iCompTaskMapping, ((modelica_fnptr) _iCreateLockFunction));
           tmpMeta10 = mmc_mk_box2(0, _allThreadTasks, mmc_mk_integer(((modelica_integer) 1)));
-          tmpMeta11 = omc_Array_fold(threadData, _allThreadTasks, (modelica_fnptr) mmc_mk_box2(0,closure21_HpcOmScheduler_addSuccessorLocksToSchedule0,tmpMeta9), tmpMeta10);
+          tmpMeta11 = omc_Array_fold(threadData, _allThreadTasks, (modelica_fnptr) mmc_mk_box2(0,closure22_HpcOmScheduler_addSuccessorLocksToSchedule0,tmpMeta9), tmpMeta10);
           tmpMeta12 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta11), 1));
           _allThreadTasks = tmpMeta12;
           tmpMeta13 = MMC_REFSTRUCTLIT(mmc_nil);
@@ -19434,7 +19465,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_addSuccessorLocks
         case 1: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT173),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT172),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -19858,7 +19889,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_createRandomSched
         case 3: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT174),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT173),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -20210,7 +20241,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmScheduler_createListSchedul
         case 2: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT175),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT174),stdout);
           tmpMeta[0+0] = _iSchedule;
           tmpMeta[0+1] = _iThreadReadyTimes;
           goto tmp3_done;

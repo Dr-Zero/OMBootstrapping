@@ -8,6 +8,7 @@ extern "C" {
 #include "Flags.h"
 #include "IOStream.h"
 #include "NFAttributes.h"
+#include "NFClass.h"
 #include "NFInstContext.h"
 #include "NFInstNode.h"
 #include "NFPrefixes.h"

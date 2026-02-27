@@ -271,8 +271,8 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT111,13,_OMC_LIT111_data);
 #define _OMC_LIT111 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT111)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT112,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT111}};
 #define _OMC_LIT112 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT112)
-#define _OMC_LIT113_data "CodegenUtilSimulation.tpl"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT113,25,_OMC_LIT113_data);
+#define _OMC_LIT113_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/Template/CodegenUtilSimulation.tpl"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT113,87,_OMC_LIT113_data);
 #define _OMC_LIT113 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT113)
 #define _OMC_LIT114_data "dumpEqs: Unknown equation"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT114,25,_OMC_LIT114_data);
@@ -500,19 +500,34 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT205,19,_OMC_LIT205_data);
 #define _OMC_LIT205 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT205)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT206,2,5) {&Tpl_StringToken_ST__LINE__desc,_OMC_LIT205}};
 #define _OMC_LIT206 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT206)
-#define _OMC_LIT207_data "<discrete index=\""
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT207,17,_OMC_LIT207_data);
+#define _OMC_LIT207_data "type: ALIAS\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT207,12,_OMC_LIT207_data);
 #define _OMC_LIT207 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT207)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT208,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT207}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT208,2,5) {&Tpl_StringToken_ST__LINE__desc,_OMC_LIT207}};
 #define _OMC_LIT208 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT208)
-#define _OMC_LIT209_data "\" />"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT209,4,_OMC_LIT209_data);
+#define _OMC_LIT209_data "alias of "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT209,9,_OMC_LIT209_data);
 #define _OMC_LIT209 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT209)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT210,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT209}};
 #define _OMC_LIT210 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT210)
-#define _OMC_LIT211_data "equationIndex failed"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT211,20,_OMC_LIT211_data);
+#define _OMC_LIT211_data "type: ENTWINED_ASSIGN\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT211,22,_OMC_LIT211_data);
 #define _OMC_LIT211 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT211)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT212,2,5) {&Tpl_StringToken_ST__LINE__desc,_OMC_LIT211}};
+#define _OMC_LIT212 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT212)
+#define _OMC_LIT213_data "<discrete index=\""
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT213,17,_OMC_LIT213_data);
+#define _OMC_LIT213 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT213)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT214,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT213}};
+#define _OMC_LIT214 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT214)
+#define _OMC_LIT215_data "\" />"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT215,4,_OMC_LIT215_data);
+#define _OMC_LIT215 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT215)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT216,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT215}};
+#define _OMC_LIT216 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT216)
+#define _OMC_LIT217_data "equationIndex failed"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT217,20,_OMC_LIT217_data);
+#define _OMC_LIT217 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT217)
 #include "util/modelica.h"
 
 #include "CodegenUtilSimulation_includes.h"
@@ -1692,7 +1707,7 @@ modelica_metatype omc_CodegenUtilSimulation_dumpWhenOps(threadData_t *threadData
           
           _txt = tmp4_1;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT113, ((modelica_integer) 396), ((modelica_integer) 14)), _OMC_LIT114);
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT113, ((modelica_integer) 408), ((modelica_integer) 14)), _OMC_LIT114);
           goto tmp3_done;
         }
         }
@@ -2301,6 +2316,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenUtilSimulation_fun__62(th
     tmp4_2 = _in_a_eq;
     {
       modelica_metatype _txt = NULL;
+      modelica_metatype _i_e_single__calls = NULL;
+      modelica_integer _i_e_aliasOf;
       modelica_metatype _i_e_body = NULL;
       modelica_metatype _i_e_endIt = NULL;
       modelica_metatype _i_e_startIt = NULL;
@@ -2356,6 +2373,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenUtilSimulation_fun__62(th
       volatile mmc_switch_type tmp4;
       int tmp5;
       // _txt has no default value.
+      // _i_e_single__calls has no default value.
+      // _i_e_aliasOf has no default value.
       // _i_e_body has no default value.
       // _i_e_endIt has no default value.
       // _i_e_startIt has no default value.
@@ -2409,7 +2428,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenUtilSimulation_fun__62(th
       // _txt_1 has no default value.
       // _txt_0 has no default value.
       tmp4 = 0;
-      for (; tmp4 < 20; tmp4++) {
+      for (; tmp4 < 22; tmp4++) {
         switch (MMC_SWITCH_CAST(tmp4)) {
         case 0: {
           modelica_metatype tmpMeta6;
@@ -3111,6 +3130,56 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenUtilSimulation_fun__62(th
           goto tmp3_done;
         }
         case 19: {
+          modelica_metatype tmpMeta58;
+          modelica_integer tmp59;
+          if (mmc__uniontype__metarecord__typedef__equal(tmp4_2,18,2) == 0) goto tmp3_end;
+          tmpMeta58 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_2), 3));
+          tmp59 = mmc_unbox_integer(tmpMeta58);
+          
+          _i_e = tmp4_2;
+          _i_e_aliasOf = tmp59  /* pattern as ty=Integer */;
+          _txt = tmp4_1;
+          /* Pattern matching succeeded */
+          _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT1);
+
+          _txt = omc_CodegenUtilSimulation_equationIndex(threadData, _txt, _i_e);
+
+          _txt = omc_Tpl_softNewLine(threadData, _txt);
+
+          _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT208);
+
+          _txt = omc_Tpl_pushBlock(threadData, _txt, _OMC_LIT12);
+
+          _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT210);
+
+          _txt = omc_Tpl_writeStr(threadData, _txt, intString(_i_e_aliasOf));
+          tmpMeta1 = omc_Tpl_popBlock(threadData, _txt);
+          goto tmp3_done;
+        }
+        case 20: {
+          modelica_metatype tmpMeta60;
+          if (mmc__uniontype__metarecord__typedef__equal(tmp4_2,8,5) == 0) goto tmp3_end;
+          tmpMeta60 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_2), 4));
+          
+          _i_e = tmp4_2;
+          _i_e_single__calls = tmpMeta60;
+          _txt = tmp4_1;
+          /* Pattern matching succeeded */
+          _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT1);
+
+          _txt = omc_CodegenUtilSimulation_equationIndex(threadData, _txt, _i_e);
+
+          _txt = omc_Tpl_softNewLine(threadData, _txt);
+
+          _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT212);
+
+          _txt = omc_Tpl_pushBlock(threadData, _txt, _OMC_LIT12);
+
+          _txt = omc_CodegenUtilSimulation_dumpEqs(threadData, _txt, _i_e_single__calls);
+          tmpMeta1 = omc_Tpl_popBlock(threadData, _txt);
+          goto tmp3_done;
+        }
+        case 21: {
           
           _txt = tmp4_1;
           /* Pattern matching succeeded */
@@ -3383,11 +3452,11 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenUtilSimulation_lm__58(thr
           _rest = tmpMeta7;
           _txt = tmp4_1;
           /* Pattern matching succeeded */
-          _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT208);
+          _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT214);
 
           _txt = omc_CodegenUtilSimulation_equationIndex(threadData, _txt, _i_eq);
 
-          _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT210);
+          _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT216);
           /* Tail recursive call */
           _in_txt = _txt;
           _in_items = _rest;
@@ -4675,7 +4744,7 @@ modelica_metatype omc_CodegenUtilSimulation_equationIndex(threadData_t *threadDa
           
           _txt = tmp4_1;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT113, ((modelica_integer) 103), ((modelica_integer) 14)), _OMC_LIT211);
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT113, ((modelica_integer) 103), ((modelica_integer) 14)), _OMC_LIT217);
           goto tmp3_done;
         }
         }

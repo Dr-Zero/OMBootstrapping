@@ -20,6 +20,8 @@ extern struct record_description Flags_ConfigFlag_CONFIG__FLAG__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
+extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
+
 extern struct record_description Flags_FlagData_STRING__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
@@ -30,11 +32,23 @@ extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
 extern struct record_description NBDifferentiate_DifferentiationArguments_DIFFERENTIATION__ARGUMENTS__desc;
 
+extern struct record_description NBEquation_Iterator_EMPTY__desc;
+
 extern struct record_description NBJacobian_SparsityColoring_SPARSITY__COLORING__desc;
 
 extern struct record_description NBJacobian_SparsityPattern_SPARSITY__PATTERN__desc;
 
 extern struct record_description NBPartition_Association_CONTINUOUS__desc;
+
+extern struct record_description NBSlice_SLICE__desc;
+
+extern struct record_description NBStrongComponent_ALGEBRAIC__LOOP__desc;
+
+extern struct record_description NBStrongComponent_SINGLE__COMPONENT__desc;
+
+extern struct record_description NBStrongComponent_SLICED__COMPONENT__desc;
+
+extern struct record_description NBTearing_TEARING__SET__desc;
 
 extern struct record_description NBVariable_VarData_VAR__DATA__JAC__desc;
 
@@ -42,10 +56,64 @@ extern struct record_description NBackendDAE_JACOBIAN__desc;
 
 extern struct record_description NFComponentRef_EMPTY__desc;
 
+extern struct record_description NFExpression_EMPTY__desc;
+
+extern struct record_description NFExpression_MULTARY__desc;
+
+extern struct record_description NFType_REAL__desc;
+
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
+#define boxptr_NBJacobian_diffMapToString omc_NBJacobian_diffMapToString
+
+
+#define boxptr_NBJacobian_adjointMapToString_valueToString omc_NBJacobian_adjointMapToString_valueToString
+
+
+#define boxptr_NBJacobian_adjointMapToString omc_NBJacobian_adjointMapToString
+
+
+#define boxptr_NBJacobian_getAllAlgVars omc_NBJacobian_getAllAlgVars
+
+
+#define boxptr_NBJacobian_populateDiffMap omc_NBJacobian_populateDiffMap
+
+
+#define boxptr_NBJacobian_addEntryToLPAMap omc_NBJacobian_addEntryToLPAMap
+
+
+#define boxptr_NBJacobian_buildAdjointRhs omc_NBJacobian_buildAdjointRhs
+
+
 #define boxptr_NBJacobian_partJacobian omc_NBJacobian_partJacobian
+
+
+#define boxptr_NBJacobian_partJacobianDynamicOptimization omc_NBJacobian_partJacobianDynamicOptimization
+
+
+#define boxptr_NBJacobian_getR0PartialCandidates omc_NBJacobian_getR0PartialCandidates
+
+
+#define boxptr_NBJacobian_getMrfPartialCandidates omc_NBJacobian_getMrfPartialCandidates
+
+
+#define boxptr_NBJacobian_getLfgPartialCandidates omc_NBJacobian_getLfgPartialCandidates
+
+
+#define boxptr_NBJacobian_getSeedCandidatesDynamicOptimization omc_NBJacobian_getSeedCandidatesDynamicOptimization
+
+
+#define boxptr_NBJacobian_getInitialEquations omc_NBJacobian_getInitialEquations
+
+
+#define boxptr_NBJacobian_getMayerFinalEquations omc_NBJacobian_getMayerFinalEquations
+
+
+#define boxptr_NBJacobian_getLagrangePathEquations omc_NBJacobian_getLagrangePathEquations
+
+
+#define boxptr_NBJacobian_getOptimizableVars omc_NBJacobian_getOptimizableVars
 
 
 DLLDirection
@@ -60,6 +128,23 @@ modelica_metatype omc_NBJacobian_SparsityColoring_PartialD2ColoringAlg(threadDat
 #define boxptr_NBJacobian_SparsityColoring_PartialD2ColoringAlg omc_NBJacobian_SparsityColoring_PartialD2ColoringAlg
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBJacobian_SparsityColoring_PartialD2ColoringAlg,2,0) {(void*) boxptr_NBJacobian_SparsityColoring_PartialD2ColoringAlg,0}};
 #define boxvar_NBJacobian_SparsityColoring_PartialD2ColoringAlg MMC_REFSTRUCTLIT(boxvar_lit_NBJacobian_SparsityColoring_PartialD2ColoringAlg)
+
+
+DLLDirection
+modelica_metatype omc_NBJacobian_SparsityColoring_GreedyPartialD2Color(threadData_t *threadData, modelica_metatype _nodes, modelica_metatype _map);
+#define boxptr_NBJacobian_SparsityColoring_GreedyPartialD2Color omc_NBJacobian_SparsityColoring_GreedyPartialD2Color
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBJacobian_SparsityColoring_GreedyPartialD2Color,2,0) {(void*) boxptr_NBJacobian_SparsityColoring_GreedyPartialD2Color,0}};
+#define boxvar_NBJacobian_SparsityColoring_GreedyPartialD2Color MMC_REFSTRUCTLIT(boxvar_lit_NBJacobian_SparsityColoring_GreedyPartialD2Color)
+
+
+DLLDirection
+modelica_metatype omc_NBJacobian_SparsityColoring_PartialD2ColoringAlgColumnAndRow(threadData_t *threadData, modelica_metatype _sparsityPattern, modelica_metatype _map);
+#define boxptr_NBJacobian_SparsityColoring_PartialD2ColoringAlgColumnAndRow omc_NBJacobian_SparsityColoring_PartialD2ColoringAlgColumnAndRow
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBJacobian_SparsityColoring_PartialD2ColoringAlgColumnAndRow,2,0) {(void*) boxptr_NBJacobian_SparsityColoring_PartialD2ColoringAlgColumnAndRow,0}};
+#define boxvar_NBJacobian_SparsityColoring_PartialD2ColoringAlgColumnAndRow MMC_REFSTRUCTLIT(boxvar_lit_NBJacobian_SparsityColoring_PartialD2ColoringAlgColumnAndRow)
+
+
+#define boxptr_NBJacobian_SparsityColoring_PartialD2ColoringAlgC_getIndices omc_NBJacobian_SparsityColoring_PartialD2ColoringAlgC_getIndices
 
 
 DLLDirection
@@ -97,6 +182,13 @@ DLLDirection
 modelica_metatype boxptr_NBJacobian_SparsityPattern_create(threadData_t *threadData, modelica_metatype _seedCandidates, modelica_metatype _partialCandidates, modelica_metatype _strongComponents, modelica_metatype _jacType, modelica_metatype *out_sparsityColoring);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBJacobian_SparsityPattern_create,2,0) {(void*) boxptr_NBJacobian_SparsityPattern_create,0}};
 #define boxvar_NBJacobian_SparsityPattern_create MMC_REFSTRUCTLIT(boxvar_lit_NBJacobian_SparsityPattern_create)
+
+
+DLLDirection
+modelica_string omc_NBJacobian_SparsityPattern_adjacencyMapToString(threadData_t *threadData, modelica_metatype _map);
+#define boxptr_NBJacobian_SparsityPattern_adjacencyMapToString omc_NBJacobian_SparsityPattern_adjacencyMapToString
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBJacobian_SparsityPattern_adjacencyMapToString,2,0) {(void*) boxptr_NBJacobian_SparsityPattern_adjacencyMapToString,0}};
+#define boxvar_NBJacobian_SparsityPattern_adjacencyMapToString MMC_REFSTRUCTLIT(boxvar_lit_NBJacobian_SparsityPattern_adjacencyMapToString)
 
 
 DLLDirection
@@ -144,11 +236,18 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBJacobian_combine,2,0) {(void*) boxptr
 
 
 DLLDirection
-modelica_metatype omc_NBJacobian_nonlinear(threadData_t *threadData, modelica_metatype _variables, modelica_metatype _equations, modelica_metatype _comps, modelica_metatype __omcQ_24in_5FfuncTree, modelica_string _name, modelica_boolean _init, modelica_metatype *out_funcTree);
+modelica_metatype omc_NBJacobian_nonlinear(threadData_t *threadData, modelica_metatype _seedCandidates, modelica_metatype _partialCandidates, modelica_metatype _equations, modelica_metatype _comps, modelica_metatype _full, modelica_metatype _funcMap, modelica_string _name, modelica_boolean _init);
 DLLDirection
-modelica_metatype boxptr_NBJacobian_nonlinear(threadData_t *threadData, modelica_metatype _variables, modelica_metatype _equations, modelica_metatype _comps, modelica_metatype __omcQ_24in_5FfuncTree, modelica_metatype _name, modelica_metatype _init, modelica_metatype *out_funcTree);
+modelica_metatype boxptr_NBJacobian_nonlinear(threadData_t *threadData, modelica_metatype _seedCandidates, modelica_metatype _partialCandidates, modelica_metatype _equations, modelica_metatype _comps, modelica_metatype _full, modelica_metatype _funcMap, modelica_metatype _name, modelica_metatype _init);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBJacobian_nonlinear,2,0) {(void*) boxptr_NBJacobian_nonlinear,0}};
 #define boxvar_NBJacobian_nonlinear MMC_REFSTRUCTLIT(boxvar_lit_NBJacobian_nonlinear)
+
+
+DLLDirection
+modelica_metatype omc_NBJacobian_applyToPartitions(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fpartitions, modelica_metatype __omcQ_24in_5FfuncMap, modelica_metatype _knowns, modelica_string _name, modelica_fnptr _func, modelica_metatype *out_funcMap);
+#define boxptr_NBJacobian_applyToPartitions omc_NBJacobian_applyToPartitions
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBJacobian_applyToPartitions,2,0) {(void*) boxptr_NBJacobian_applyToPartitions,0}};
+#define boxvar_NBJacobian_applyToPartitions MMC_REFSTRUCTLIT(boxvar_lit_NBJacobian_applyToPartitions)
 
 
 DLLDirection

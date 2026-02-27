@@ -109,6 +109,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NSimPartition_listToString,2,0) {(void*
 
 
 DLLDirection
+modelica_metatype omc_NSimPartition_getClock(threadData_t *threadData, modelica_metatype _part);
+#define boxptr_NSimPartition_getClock omc_NSimPartition_getClock
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NSimPartition_getClock,2,0) {(void*) boxptr_NSimPartition_getClock,0}};
+#define boxvar_NSimPartition_getClock MMC_REFSTRUCTLIT(boxvar_lit_NSimPartition_getClock)
+
+
+DLLDirection
 modelica_metatype omc_NSimPartition_createBasePartitions(threadData_t *threadData, modelica_metatype _clock_collector, modelica_metatype __omcQ_24in_5FsimCodeIndices, modelica_metatype *out_eventClocks, modelica_metatype *out_simCodeIndices);
 #define boxptr_NSimPartition_createBasePartitions omc_NSimPartition_createBasePartitions
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NSimPartition_createBasePartitions,2,0) {(void*) boxptr_NSimPartition_createBasePartitions,0}};

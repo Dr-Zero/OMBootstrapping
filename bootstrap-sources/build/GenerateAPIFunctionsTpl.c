@@ -318,8 +318,8 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT128,32,_OMC_LIT128_data);
 #define _OMC_LIT128 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT128)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT129,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT128}};
 #define _OMC_LIT129 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT129)
-#define _OMC_LIT130_data "GenerateAPIFunctionsTpl.tpl"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT130,27,_OMC_LIT130_data);
+#define _OMC_LIT130_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/Template/GenerateAPIFunctionsTpl.tpl"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT130,89,_OMC_LIT130_data);
 #define _OMC_LIT130 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT130)
 #define _OMC_LIT131_data " = MMC_STRINGDATA("
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT131,18,_OMC_LIT131_data);

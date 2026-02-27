@@ -1904,6 +1904,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEUtil_getBoundStartEquation,2,0) {(vo
 
 
 DLLDirection
+modelica_metatype omc_DAEUtil_getEmptyVarAttr(threadData_t *threadData, modelica_metatype _ty);
+#define boxptr_DAEUtil_getEmptyVarAttr omc_DAEUtil_getEmptyVarAttr
+static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEUtil_getEmptyVarAttr,2,0) {(void*) boxptr_DAEUtil_getEmptyVarAttr,0}};
+#define boxvar_DAEUtil_getEmptyVarAttr MMC_REFSTRUCTLIT(boxvar_lit_DAEUtil_getEmptyVarAttr)
+
+
+DLLDirection
 modelica_metatype omc_DAEUtil_getClassList(threadData_t *threadData, modelica_metatype _v);
 #define boxptr_DAEUtil_getClassList omc_DAEUtil_getClassList
 static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEUtil_getClassList,2,0) {(void*) boxptr_DAEUtil_getClassList,0}};

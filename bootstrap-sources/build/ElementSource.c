@@ -793,17 +793,17 @@ modelica_metatype omc_ElementSource_addSymbolicTransformationSolve(threadData_t 
   }
 
   {
-    modelica_metatype __omcQ_24tmpVar1;
+    modelica_metatype __omcQ_24tmpVar3;
     modelica_metatype* tmp2;
     modelica_metatype tmpMeta3;
-    modelica_metatype __omcQ_24tmpVar0;
+    modelica_metatype __omcQ_24tmpVar2;
     modelica_integer tmp4;
     modelica_metatype _ass_loopVar = 0;
     modelica_metatype _ass;
     _ass_loopVar = _asserts;
     tmpMeta3 = MMC_REFSTRUCTLIT(mmc_nil);
-    __omcQ_24tmpVar1 = tmpMeta3; /* defaultValue */
-    tmp2 = &__omcQ_24tmpVar1;
+    __omcQ_24tmpVar3 = tmpMeta3; /* defaultValue */
+    tmp2 = &__omcQ_24tmpVar3;
     while(1) {
       tmp4 = 1;
       if (!listEmpty(_ass_loopVar)) {
@@ -812,8 +812,8 @@ modelica_metatype omc_ElementSource_addSymbolicTransformationSolve(threadData_t 
         tmp4--;
       }
       if (tmp4 == 0) {
-        __omcQ_24tmpVar0 = omc_Algorithm_getAssertCond(threadData, _ass);
-        *tmp2 = mmc_mk_cons(__omcQ_24tmpVar0,0);
+        __omcQ_24tmpVar2 = omc_Algorithm_getAssertCond(threadData, _ass);
+        *tmp2 = mmc_mk_cons(__omcQ_24tmpVar2,0);
         tmp2 = &MMC_CDR(*tmp2);
       } else if (tmp4 == 1) {
         break;
@@ -822,7 +822,7 @@ modelica_metatype omc_ElementSource_addSymbolicTransformationSolve(threadData_t 
       }
     }
     *tmp2 = mmc_mk_nil();
-    tmpMeta1 = __omcQ_24tmpVar1;
+    tmpMeta1 = __omcQ_24tmpVar3;
   }
   tmpMeta5 = mmc_mk_box6(9, &DAE_SymbolicOperation_SOLVE__desc, _cr, _exp1, _exp2, _exp, tmpMeta1);
   _op1 = tmpMeta5;

@@ -150,7 +150,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFScalarize_scalarizeComplexVariable,2,
 
 
 DLLDirection
-modelica_metatype omc_NFScalarize_scalarizeBackendVariable(threadData_t *threadData, modelica_metatype _var, modelica_metatype _indices, modelica_metatype __omcQ_24in_5Fvars);
+modelica_metatype omc_NFScalarize_scalarizeBackendVariable(threadData_t *threadData, modelica_metatype _var, modelica_metatype _indices);
 #define boxptr_NFScalarize_scalarizeBackendVariable omc_NFScalarize_scalarizeBackendVariable
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFScalarize_scalarizeBackendVariable,2,0) {(void*) boxptr_NFScalarize_scalarizeBackendVariable,0}};
 #define boxvar_NFScalarize_scalarizeBackendVariable MMC_REFSTRUCTLIT(boxvar_lit_NFScalarize_scalarizeBackendVariable)

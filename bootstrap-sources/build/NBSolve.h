@@ -177,71 +177,79 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSolve_solveSimple,2,0) {(void*) boxpt
 
 
 DLLDirection
-modelica_metatype omc_NBSolve_solveIfBody(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fbody, modelica_metatype _vars, modelica_metatype __omcQ_24in_5FfuncTree, modelica_integer _kind, modelica_integer __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _iter, modelica_metatype _varData, modelica_metatype _eqData, modelica_metatype *out_funcTree, modelica_integer *out_status, modelica_integer *out_implicit_index);
+modelica_metatype omc_NBSolve_solveIfBody(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fbody, modelica_metatype _vars, modelica_metatype _funcMap, modelica_integer _kind, modelica_integer __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _iter, modelica_metatype _varData, modelica_metatype _eqData, modelica_integer *out_status, modelica_integer *out_implicit_index);
 DLLDirection
-modelica_metatype boxptr_NBSolve_solveIfBody(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fbody, modelica_metatype _vars, modelica_metatype __omcQ_24in_5FfuncTree, modelica_metatype _kind, modelica_metatype __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _iter, modelica_metatype _varData, modelica_metatype _eqData, modelica_metatype *out_funcTree, modelica_metatype *out_status, modelica_metatype *out_implicit_index);
+modelica_metatype boxptr_NBSolve_solveIfBody(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fbody, modelica_metatype _vars, modelica_metatype _funcMap, modelica_metatype _kind, modelica_metatype __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _iter, modelica_metatype _varData, modelica_metatype _eqData, modelica_metatype *out_status, modelica_metatype *out_implicit_index);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSolve_solveIfBody,2,0) {(void*) boxptr_NBSolve_solveIfBody,0}};
 #define boxvar_NBSolve_solveIfBody MMC_REFSTRUCTLIT(boxvar_lit_NBSolve_solveIfBody)
 
 
 DLLDirection
-modelica_metatype omc_NBSolve_solveBody(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqn, modelica_metatype _cref, modelica_metatype __omcQ_24in_5FfuncTree, modelica_metatype *out_funcTree, modelica_integer *out_status, modelica_integer *out_invertRelation);
+modelica_metatype omc_NBSolve_solveBody(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqn, modelica_metatype _cref, modelica_metatype _funcMap, modelica_integer *out_status, modelica_integer *out_invertRelation);
 DLLDirection
-modelica_metatype boxptr_NBSolve_solveBody(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqn, modelica_metatype _cref, modelica_metatype __omcQ_24in_5FfuncTree, modelica_metatype *out_funcTree, modelica_metatype *out_status, modelica_metatype *out_invertRelation);
+modelica_metatype boxptr_NBSolve_solveBody(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqn, modelica_metatype _cref, modelica_metatype _funcMap, modelica_metatype *out_status, modelica_metatype *out_invertRelation);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSolve_solveBody,2,0) {(void*) boxptr_NBSolve_solveBody,0}};
 #define boxvar_NBSolve_solveBody MMC_REFSTRUCTLIT(boxvar_lit_NBSolve_solveBody)
 
 
 DLLDirection
-modelica_metatype omc_NBSolve_solveEquation(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqn, modelica_metatype _cref, modelica_metatype __omcQ_24in_5FfuncTree, modelica_integer _kind, modelica_integer __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _varData, modelica_metatype _eqData, modelica_metatype *out_funcTree, modelica_integer *out_status, modelica_integer *out_implicit_index, modelica_integer *out_invertRelation);
+modelica_metatype omc_NBSolve_solveEquation(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqn, modelica_metatype _cref, modelica_metatype _funcMap, modelica_integer _kind, modelica_integer __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _varData, modelica_metatype _eqData, modelica_integer *out_status, modelica_integer *out_implicit_index, modelica_integer *out_invertRelation);
 DLLDirection
-modelica_metatype boxptr_NBSolve_solveEquation(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqn, modelica_metatype _cref, modelica_metatype __omcQ_24in_5FfuncTree, modelica_metatype _kind, modelica_metatype __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _varData, modelica_metatype _eqData, modelica_metatype *out_funcTree, modelica_metatype *out_status, modelica_metatype *out_implicit_index, modelica_metatype *out_invertRelation);
+modelica_metatype boxptr_NBSolve_solveEquation(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqn, modelica_metatype _cref, modelica_metatype _funcMap, modelica_metatype _kind, modelica_metatype __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _varData, modelica_metatype _eqData, modelica_metatype *out_status, modelica_metatype *out_implicit_index, modelica_metatype *out_invertRelation);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSolve_solveEquation,2,0) {(void*) boxptr_NBSolve_solveEquation,0}};
 #define boxvar_NBSolve_solveEquation MMC_REFSTRUCTLIT(boxvar_lit_NBSolve_solveEquation)
 
 
 DLLDirection
-modelica_metatype omc_NBSolve_solveMultiStrongComponent(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqn_5Fslice, modelica_metatype _var_slices, modelica_metatype __omcQ_24in_5FfuncTree, modelica_integer _kind, modelica_integer __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _iter, modelica_metatype _varData, modelica_metatype _eqData, modelica_metatype *out_funcTree, modelica_integer *out_status, modelica_integer *out_implicit_index);
+modelica_metatype omc_NBSolve_solveMultiRecordStrongComponent(threadData_t *threadData, modelica_metatype _eqn, modelica_metatype _var_slices, modelica_metatype _funcMap, modelica_integer *out_status);
 DLLDirection
-modelica_metatype boxptr_NBSolve_solveMultiStrongComponent(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqn_5Fslice, modelica_metatype _var_slices, modelica_metatype __omcQ_24in_5FfuncTree, modelica_metatype _kind, modelica_metatype __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _iter, modelica_metatype _varData, modelica_metatype _eqData, modelica_metatype *out_funcTree, modelica_metatype *out_status, modelica_metatype *out_implicit_index);
+modelica_metatype boxptr_NBSolve_solveMultiRecordStrongComponent(threadData_t *threadData, modelica_metatype _eqn, modelica_metatype _var_slices, modelica_metatype _funcMap, modelica_metatype *out_status);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSolve_solveMultiRecordStrongComponent,2,0) {(void*) boxptr_NBSolve_solveMultiRecordStrongComponent,0}};
+#define boxvar_NBSolve_solveMultiRecordStrongComponent MMC_REFSTRUCTLIT(boxvar_lit_NBSolve_solveMultiRecordStrongComponent)
+
+
+DLLDirection
+modelica_metatype omc_NBSolve_solveMultiStrongComponent(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqn_5Fslice, modelica_metatype _var_slices, modelica_metatype _funcMap, modelica_integer _kind, modelica_integer __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _iter, modelica_metatype _varData, modelica_metatype _eqData, modelica_integer *out_status, modelica_integer *out_implicit_index);
+DLLDirection
+modelica_metatype boxptr_NBSolve_solveMultiStrongComponent(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqn_5Fslice, modelica_metatype _var_slices, modelica_metatype _funcMap, modelica_metatype _kind, modelica_metatype __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _iter, modelica_metatype _varData, modelica_metatype _eqData, modelica_metatype *out_status, modelica_metatype *out_implicit_index);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSolve_solveMultiStrongComponent,2,0) {(void*) boxptr_NBSolve_solveMultiStrongComponent,0}};
 #define boxvar_NBSolve_solveMultiStrongComponent MMC_REFSTRUCTLIT(boxvar_lit_NBSolve_solveMultiStrongComponent)
 
 
 DLLDirection
-modelica_metatype omc_NBSolve_solveSingleStrongComponent(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqn, modelica_metatype _var, modelica_metatype __omcQ_24in_5FfuncTree, modelica_integer _kind, modelica_integer __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _varData, modelica_metatype _eqData, modelica_metatype *out_funcTree, modelica_integer *out_status, modelica_integer *out_implicit_index);
+modelica_metatype omc_NBSolve_solveSingleStrongComponent(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqn, modelica_metatype _var, modelica_metatype _funcMap, modelica_integer _kind, modelica_integer __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _varData, modelica_metatype _eqData, modelica_integer *out_status, modelica_integer *out_implicit_index);
 DLLDirection
-modelica_metatype boxptr_NBSolve_solveSingleStrongComponent(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqn, modelica_metatype _var, modelica_metatype __omcQ_24in_5FfuncTree, modelica_metatype _kind, modelica_metatype __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _varData, modelica_metatype _eqData, modelica_metatype *out_funcTree, modelica_metatype *out_status, modelica_metatype *out_implicit_index);
+modelica_metatype boxptr_NBSolve_solveSingleStrongComponent(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqn, modelica_metatype _var, modelica_metatype _funcMap, modelica_metatype _kind, modelica_metatype __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _varData, modelica_metatype _eqData, modelica_metatype *out_status, modelica_metatype *out_implicit_index);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSolve_solveSingleStrongComponent,2,0) {(void*) boxptr_NBSolve_solveSingleStrongComponent,0}};
 #define boxvar_NBSolve_solveSingleStrongComponent MMC_REFSTRUCTLIT(boxvar_lit_NBSolve_solveSingleStrongComponent)
 
 
 DLLDirection
-modelica_metatype omc_NBSolve_solveGenericEquationSlice(threadData_t *threadData, modelica_metatype _var_slice, modelica_metatype _eqn_slice, modelica_metatype _cref, modelica_metatype __omcQ_24in_5FfuncTree, modelica_integer _kind, modelica_integer __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _varData, modelica_metatype _eqData, modelica_integer *out_solve_status, modelica_metatype *out_funcTree, modelica_integer *out_implicit_index);
+modelica_metatype omc_NBSolve_solveGenericEquationSlice(threadData_t *threadData, modelica_metatype _var_slice, modelica_metatype _eqn_slice, modelica_metatype _cref, modelica_metatype _functions, modelica_integer _kind, modelica_integer __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _varData, modelica_metatype _eqData, modelica_integer *out_solve_status, modelica_integer *out_implicit_index);
 DLLDirection
-modelica_metatype boxptr_NBSolve_solveGenericEquationSlice(threadData_t *threadData, modelica_metatype _var_slice, modelica_metatype _eqn_slice, modelica_metatype _cref, modelica_metatype __omcQ_24in_5FfuncTree, modelica_metatype _kind, modelica_metatype __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _varData, modelica_metatype _eqData, modelica_metatype *out_solve_status, modelica_metatype *out_funcTree, modelica_metatype *out_implicit_index);
+modelica_metatype boxptr_NBSolve_solveGenericEquationSlice(threadData_t *threadData, modelica_metatype _var_slice, modelica_metatype _eqn_slice, modelica_metatype _cref, modelica_metatype _functions, modelica_metatype _kind, modelica_metatype __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _varData, modelica_metatype _eqData, modelica_metatype *out_solve_status, modelica_metatype *out_implicit_index);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSolve_solveGenericEquationSlice,2,0) {(void*) boxptr_NBSolve_solveGenericEquationSlice,0}};
 #define boxvar_NBSolve_solveGenericEquationSlice MMC_REFSTRUCTLIT(boxvar_lit_NBSolve_solveGenericEquationSlice)
 
 
 DLLDirection
-modelica_metatype omc_NBSolve_solveGenericEquation(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fcomp, modelica_metatype __omcQ_24in_5FfuncTree, modelica_integer _kind, modelica_integer __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _varData, modelica_metatype _eqData, modelica_metatype *out_funcTree, modelica_integer *out_solve_status, modelica_integer *out_implicit_index);
+modelica_metatype omc_NBSolve_solveGenericEquation(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fcomp, modelica_metatype _funcMap, modelica_integer _kind, modelica_integer __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _varData, modelica_metatype _eqData, modelica_integer *out_solve_status, modelica_integer *out_implicit_index);
 DLLDirection
-modelica_metatype boxptr_NBSolve_solveGenericEquation(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fcomp, modelica_metatype __omcQ_24in_5FfuncTree, modelica_metatype _kind, modelica_metatype __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _varData, modelica_metatype _eqData, modelica_metatype *out_funcTree, modelica_metatype *out_solve_status, modelica_metatype *out_implicit_index);
+modelica_metatype boxptr_NBSolve_solveGenericEquation(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fcomp, modelica_metatype _funcMap, modelica_metatype _kind, modelica_metatype __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _varData, modelica_metatype _eqData, modelica_metatype *out_solve_status, modelica_metatype *out_implicit_index);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSolve_solveGenericEquation,2,0) {(void*) boxptr_NBSolve_solveGenericEquation,0}};
 #define boxvar_NBSolve_solveGenericEquation MMC_REFSTRUCTLIT(boxvar_lit_NBSolve_solveGenericEquation)
 
 
 DLLDirection
-modelica_metatype omc_NBSolve_solveStrongComponent(threadData_t *threadData, modelica_metatype _comp, modelica_metatype __omcQ_24in_5FfuncTree, modelica_integer _kind, modelica_integer __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _varData, modelica_metatype _eqData, modelica_metatype *out_funcTree, modelica_integer *out_implicit_index);
+modelica_metatype omc_NBSolve_solveStrongComponent(threadData_t *threadData, modelica_metatype _comp, modelica_metatype _funcMap, modelica_integer _kind, modelica_integer __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _varData, modelica_metatype _eqData, modelica_integer *out_implicit_index);
 DLLDirection
-modelica_metatype boxptr_NBSolve_solveStrongComponent(threadData_t *threadData, modelica_metatype _comp, modelica_metatype __omcQ_24in_5FfuncTree, modelica_metatype _kind, modelica_metatype __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _varData, modelica_metatype _eqData, modelica_metatype *out_funcTree, modelica_metatype *out_implicit_index);
+modelica_metatype boxptr_NBSolve_solveStrongComponent(threadData_t *threadData, modelica_metatype _comp, modelica_metatype _funcMap, modelica_metatype _kind, modelica_metatype __omcQ_24in_5Fimplicit_5Findex, modelica_metatype _slicing_map, modelica_metatype _varData, modelica_metatype _eqData, modelica_metatype *out_implicit_index);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSolve_solveStrongComponent,2,0) {(void*) boxptr_NBSolve_solveStrongComponent,0}};
 #define boxvar_NBSolve_solveStrongComponent MMC_REFSTRUCTLIT(boxvar_lit_NBSolve_solveStrongComponent)
 
 
 DLLDirection
-modelica_metatype omc_NBSolve_solvePartition(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fpartition, modelica_metatype _funcTree_ptr, modelica_metatype _implicit_index_ptr, modelica_metatype _duplicate_map, modelica_metatype _varData, modelica_metatype _eqData);
+modelica_metatype omc_NBSolve_solvePartition(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fpartition, modelica_metatype _funcMap, modelica_metatype _implicit_index_ptr, modelica_metatype _duplicate_map, modelica_metatype _varData, modelica_metatype _eqData);
 #define boxptr_NBSolve_solvePartition omc_NBSolve_solvePartition
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSolve_solvePartition,2,0) {(void*) boxptr_NBSolve_solvePartition,0}};
 #define boxvar_NBSolve_solvePartition MMC_REFSTRUCTLIT(boxvar_lit_NBSolve_solvePartition)

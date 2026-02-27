@@ -9,18 +9,18 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT1,5,_OMC_LIT1_data);
 #define _OMC_LIT2_data "_"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT2,1,_OMC_LIT2_data);
 #define _OMC_LIT2 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT2)
-#define _OMC_LIT3_data "/home/adrpo33/OpenModelica/OMCompiler/Compiler/NBackEnd/Util/NBBackendUtil.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT3,77,_OMC_LIT3_data);
+#define _OMC_LIT3_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/NBackEnd/Util/NBBackendUtil.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT3,83,_OMC_LIT3_data);
 #define _OMC_LIT3 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT3)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT4_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT4_6,1.770032059e9);
 #define _OMC_LIT4_6 MMC_REFREALLIT(_OMC_LIT_STRUCT4_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT4,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT3,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(301)),MMC_IMMEDIATE(MMC_TAGFIXNUM(32)),MMC_IMMEDIATE(MMC_TAGFIXNUM(302)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),_OMC_LIT4_6}};
 #define _OMC_LIT4 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT4)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT5_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT5_6,1.770032059e9);
 #define _OMC_LIT5_6 MMC_REFREALLIT(_OMC_LIT_STRUCT5_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT5,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT3,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(280)),MMC_IMMEDIATE(MMC_TAGFIXNUM(32)),MMC_IMMEDIATE(MMC_TAGFIXNUM(281)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),_OMC_LIT5_6}};
 #define _OMC_LIT5 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT5)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT6_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT6_6,1.770032059e9);
 #define _OMC_LIT6_6 MMC_REFREALLIT(_OMC_LIT_STRUCT6_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT6,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT3,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(169)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(169)),MMC_IMMEDIATE(MMC_TAGFIXNUM(56)),_OMC_LIT6_6}};
 #define _OMC_LIT6 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT6)
@@ -680,28 +680,27 @@ modelica_integer omc_NBBackendUtil_noNameHashExp(threadData_t *threadData, model
             modelica_metatype tmp47_1;
             tmp47_1 = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_exp), 3)))), 3)));
             {
-              volatile mmc_switch_type tmp47;
-              int tmp48;
-              tmp47 = 0;
-              for (; tmp47 < 3; tmp47++) {
-                switch (MMC_SWITCH_CAST(tmp47)) {
-                case 0: {
-                  modelica_integer tmp49;
-                  tmp49 = mmc_unbox_integer(tmp47_1);
-                  if (27 != tmp49) goto tmp46_end;
+              int tmp47;
+              {
+                switch (MMC_SWITCH_CAST(mmc_unbox_integer(tmp47_1))) {
+                case 27: {
+                  modelica_integer tmp48;
+                  tmp48 = mmc_unbox_integer(tmp47_1);
+                  if (27 != tmp48) goto tmp46_end;
                   /* Pattern matching succeeded */
                   tmp44 = _hash1 + _hash2;
                   goto tmp46_done;
                 }
-                case 1: {
-                  modelica_integer tmp50;
-                  tmp50 = mmc_unbox_integer(tmp47_1);
-                  if (28 != tmp50) goto tmp46_end;
+                case 28: {
+                  modelica_integer tmp49;
+                  tmp49 = mmc_unbox_integer(tmp47_1);
+                  if (28 != tmp49) goto tmp46_end;
                   /* Pattern matching succeeded */
                   tmp44 = _hash1 - _hash2;
                   goto tmp46_done;
                 }
-                case 2: {
+                default:
+                tmp46_default: OMC_LABEL_UNUSED; {
                   
                   /* Pattern matching succeeded */
                   tmp44 = _hash2 - _hash1;
@@ -727,142 +726,141 @@ modelica_integer omc_NBBackendUtil_noNameHashExp(threadData_t *threadData, model
           goto tmp3_done;
         }
         case 23: {
-          modelica_integer tmp51 = 0;
+          modelica_integer tmp50 = 0;
           
           /* Pattern matching succeeded */
           _hash1 = omc_NBBackendUtil_noNameHashExp(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_exp), 2))), _mod);
 
           _hash2 = omc_NBBackendUtil_noNameHashExp(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_exp), 4))), _mod);
           { /* match expression */
-            modelica_metatype tmp54_1;
-            tmp54_1 = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_exp), 3)))), 3)));
+            modelica_metatype tmp53_1;
+            tmp53_1 = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_exp), 3)))), 3)));
             {
-              volatile mmc_switch_type tmp54;
-              int tmp55;
-              tmp54 = 0;
-              for (; tmp54 < 7; tmp54++) {
-                switch (MMC_SWITCH_CAST(tmp54)) {
-                case 0: {
+              int tmp53;
+              {
+                switch (MMC_SWITCH_CAST(mmc_unbox_integer(tmp53_1))) {
+                case 30: {
+                  modelica_integer tmp54;
+                  tmp54 = mmc_unbox_integer(tmp53_1);
+                  if (30 != tmp54) goto tmp52_end;
+                  /* Pattern matching succeeded */
+                  tmp50 = _hash1 + _hash2;
+                  goto tmp52_done;
+                }
+                case 31: {
+                  modelica_integer tmp55;
+                  tmp55 = mmc_unbox_integer(tmp53_1);
+                  if (31 != tmp55) goto tmp52_end;
+                  /* Pattern matching succeeded */
+                  tmp50 = (-_hash1) - _hash2;
+                  goto tmp52_done;
+                }
+                case 32: {
                   modelica_integer tmp56;
-                  tmp56 = mmc_unbox_integer(tmp54_1);
-                  if (30 != tmp56) goto tmp53_end;
+                  tmp56 = mmc_unbox_integer(tmp53_1);
+                  if (32 != tmp56) goto tmp52_end;
                   /* Pattern matching succeeded */
-                  tmp51 = _hash1 + _hash2;
-                  goto tmp53_done;
+                  tmp50 = _hash1 - _hash2;
+                  goto tmp52_done;
                 }
-                case 1: {
+                case 33: {
                   modelica_integer tmp57;
-                  tmp57 = mmc_unbox_integer(tmp54_1);
-                  if (31 != tmp57) goto tmp53_end;
+                  tmp57 = mmc_unbox_integer(tmp53_1);
+                  if (33 != tmp57) goto tmp52_end;
                   /* Pattern matching succeeded */
-                  tmp51 = (-_hash1) - _hash2;
-                  goto tmp53_done;
+                  tmp50 = _hash2 - _hash1;
+                  goto tmp52_done;
                 }
-                case 2: {
+                case 34: {
                   modelica_integer tmp58;
-                  tmp58 = mmc_unbox_integer(tmp54_1);
-                  if (32 != tmp58) goto tmp53_end;
+                  tmp58 = mmc_unbox_integer(tmp53_1);
+                  if (34 != tmp58) goto tmp52_end;
                   /* Pattern matching succeeded */
-                  tmp51 = _hash1 - _hash2;
-                  goto tmp53_done;
+                  tmp50 = (_hash1) * (_hash2);
+                  goto tmp52_done;
                 }
-                case 3: {
+                case 35: {
                   modelica_integer tmp59;
-                  tmp59 = mmc_unbox_integer(tmp54_1);
-                  if (33 != tmp59) goto tmp53_end;
-                  /* Pattern matching succeeded */
-                  tmp51 = _hash2 - _hash1;
-                  goto tmp53_done;
-                }
-                case 4: {
-                  modelica_integer tmp60;
-                  tmp60 = mmc_unbox_integer(tmp54_1);
-                  if (34 != tmp60) goto tmp53_end;
-                  /* Pattern matching succeeded */
-                  tmp51 = (_hash1) * (_hash2);
-                  goto tmp53_done;
-                }
-                case 5: {
-                  modelica_integer tmp61;
+                  modelica_real tmp60;
+                  modelica_real tmp61;
                   modelica_real tmp62;
                   modelica_real tmp63;
                   modelica_real tmp64;
                   modelica_real tmp65;
                   modelica_real tmp66;
-                  modelica_real tmp67;
-                  modelica_real tmp68;
-                  tmp61 = mmc_unbox_integer(tmp54_1);
-                  if (35 != tmp61) goto tmp53_end;
+                  tmp59 = mmc_unbox_integer(tmp53_1);
+                  if (35 != tmp59) goto tmp52_end;
                   /* Pattern matching succeeded */
-                  tmp62 = ((modelica_real)_hash1);
-                  tmp63 = ((modelica_real)_hash2);
-                  if(tmp62 < 0.0 && tmp63 != 0.0)
+                  tmp60 = ((modelica_real)_hash1);
+                  tmp61 = ((modelica_real)_hash2);
+                  if(tmp60 < 0.0 && tmp61 != 0.0)
                   {
-                    tmp65 = modf(tmp63, &tmp66);
+                    tmp63 = modf(tmp61, &tmp64);
                     
-                    if(tmp65 > 0.5)
+                    if(tmp63 > 0.5)
                     {
-                      tmp65 -= 1.0;
-                      tmp66 += 1.0;
+                      tmp63 -= 1.0;
+                      tmp64 += 1.0;
                     }
-                    else if(tmp65 < -0.5)
+                    else if(tmp63 < -0.5)
                     {
-                      tmp65 += 1.0;
-                      tmp66 -= 1.0;
+                      tmp63 += 1.0;
+                      tmp64 -= 1.0;
                     }
                     
-                    if(fabs(tmp65) < 1e-10)
-                      tmp64 = pow(tmp62, tmp66);
+                    if(fabs(tmp63) < 1e-10)
+                      tmp62 = pow(tmp60, tmp64);
                     else
                     {
-                      tmp68 = modf(1.0/tmp63, &tmp67);
-                      if(tmp68 > 0.5)
+                      tmp66 = modf(1.0/tmp61, &tmp65);
+                      if(tmp66 > 0.5)
                       {
-                        tmp68 -= 1.0;
-                        tmp67 += 1.0;
+                        tmp66 -= 1.0;
+                        tmp65 += 1.0;
                       }
-                      else if(tmp68 < -0.5)
+                      else if(tmp66 < -0.5)
                       {
-                        tmp68 += 1.0;
-                        tmp67 -= 1.0;
+                        tmp66 += 1.0;
+                        tmp65 -= 1.0;
                       }
-                      if(fabs(tmp68) < 1e-10 && ((unsigned long)tmp67 & 1))
+                      if(fabs(tmp66) < 1e-10 && ((unsigned long)tmp65 & 1))
                       {
-                        tmp64 = -pow(-tmp62, tmp65)*pow(tmp62, tmp66);
+                        tmp62 = -pow(-tmp60, tmp63)*pow(tmp60, tmp64);
                       }
                       else
                       {
-                        goto goto_52;
+                        goto goto_51;
                       }
                     }
                   }
                   else
                   {
-                    tmp64 = pow(tmp62, tmp63);
+                    tmp62 = pow(tmp60, tmp61);
                   }
-                  if(isnan(tmp64) || isinf(tmp64))
+                  if(isnan(tmp62) || isinf(tmp62))
                   {
-                    goto goto_52;
-                  }tmp51 = ((modelica_integer)floor(tmp64));
-                  goto tmp53_done;
+                    goto goto_51;
+                  }tmp50 = ((modelica_integer)floor(tmp62));
+                  goto tmp52_done;
                 }
-                case 6: {
+                default:
+                tmp52_default: OMC_LABEL_UNUSED; {
                   
                   /* Pattern matching succeeded */
-                  tmp51 = _hash2 - _hash1;
-                  goto tmp53_done;
+                  tmp50 = _hash2 - _hash1;
+                  goto tmp52_done;
                 }
                 }
-                goto tmp53_end;
-                tmp53_end: ;
+                goto tmp52_end;
+                tmp52_end: ;
               }
-              goto goto_52;
-              goto_52:;
+              goto goto_51;
+              goto_51:;
               goto goto_2;
-              goto tmp53_done;
-              tmp53_done:;
+              goto tmp52_done;
+              tmp52_done:;
             }
-          }tmp1 = tmp51;
+          }tmp1 = tmp50;
           goto tmp3_done;
         }
         case 25: {
@@ -920,15 +918,15 @@ modelica_integer omc_NBBackendUtil_noNameHashExp(threadData_t *threadData, model
           goto tmp3_done;
         }
         case 34: {
-          modelica_metatype tmpMeta69;
-          modelica_metatype tmpMeta70;
+          modelica_metatype tmpMeta67;
+          modelica_metatype tmpMeta68;
           
           /* Pattern matching succeeded */
           {
             modelica_metatype _arg;
-            for (tmpMeta69 = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_exp), 3))); !listEmpty(tmpMeta69); tmpMeta69=MMC_CDR(tmpMeta69))
+            for (tmpMeta67 = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_exp), 3))); !listEmpty(tmpMeta67); tmpMeta67=MMC_CDR(tmpMeta67))
             {
-              _arg = MMC_CAR(tmpMeta69);
+              _arg = MMC_CAR(tmpMeta67);
               _hash = _hash + omc_NBBackendUtil_noNameHashExp(threadData, _arg, _mod);
             }
           }
@@ -977,7 +975,7 @@ modelica_integer omc_NBBackendUtil_noNameHashEq(threadData_t *threadData, modeli
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _hash has no default value.
-  _hash = omc_NBBackendUtil_noNameHashExp(threadData, omc_NBEquation_Equation_getResidualExp(threadData, _eq), _mod);
+  _hash = omc_NBBackendUtil_noNameHashExp(threadData, omc_NBEquation_Equation_getResidualExp(threadData, _eq, 1 /* true */), _mod);
   _return: OMC_LABEL_UNUSED
   return _hash;
 }
@@ -1042,15 +1040,15 @@ modelica_integer omc_NBBackendUtil_countElem(threadData_t *threadData, modelica_
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   {
-    modelica_integer __omcQ_24tmpVar1;
-    modelica_integer __omcQ_24tmpVar0;
+    modelica_integer __omcQ_24tmpVar3;
+    modelica_integer __omcQ_24tmpVar2;
     modelica_integer tmp2;
     modelica_metatype _lst_loopVar = 0;
     modelica_integer tmp3;
     modelica_metatype _lst;
     _lst_loopVar = _m;
     tmp3 = 1;
-    __omcQ_24tmpVar1 = ((modelica_integer) 0); /* defaultValue */
+    __omcQ_24tmpVar3 = ((modelica_integer) 0); /* defaultValue */
     while(1) {
       tmp2 = 1;
       if (tmp3 <= arrayLength(_lst_loopVar)) {
@@ -1058,15 +1056,15 @@ modelica_integer omc_NBBackendUtil_countElem(threadData_t *threadData, modelica_
         tmp2--;
       }
       if (tmp2 == 0) {
-        __omcQ_24tmpVar0 = listLength(_lst);
-        __omcQ_24tmpVar1 = __omcQ_24tmpVar1 + __omcQ_24tmpVar0;
+        __omcQ_24tmpVar2 = listLength(_lst);
+        __omcQ_24tmpVar3 = __omcQ_24tmpVar3 + __omcQ_24tmpVar2;
       } else if (tmp2 == 1) {
         break;
       } else {
         MMC_THROW_INTERNAL();
       }
     }
-    tmp1 = __omcQ_24tmpVar1;
+    tmp1 = __omcQ_24tmpVar3;
   }
   _count = tmp1;
   _return: OMC_LABEL_UNUSED
@@ -1090,10 +1088,10 @@ modelica_metatype omc_NBBackendUtil_findTrueIndices(threadData_t *threadData, mo
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   {
-    modelica_metatype __omcQ_24tmpVar3;
+    modelica_metatype __omcQ_24tmpVar5;
     modelica_metatype* tmp2;
     modelica_metatype tmpMeta3;
-    modelica_metatype __omcQ_24tmpVar2;
+    modelica_metatype __omcQ_24tmpVar4;
     modelica_integer tmp4;
     modelica_integer tmp5;
     modelica_integer tmp6;
@@ -1103,8 +1101,8 @@ modelica_metatype omc_NBBackendUtil_findTrueIndices(threadData_t *threadData, mo
     _i = arrayLength(_arr) /* Range start-value */;
     _i = (arrayLength(_arr) /* Range start-value */)-tmp5;
     tmpMeta3 = MMC_REFSTRUCTLIT(mmc_nil);
-    __omcQ_24tmpVar3 = tmpMeta3; /* defaultValue */
-    tmp2 = &__omcQ_24tmpVar3;
+    __omcQ_24tmpVar5 = tmpMeta3; /* defaultValue */
+    tmp2 = &__omcQ_24tmpVar5;
     while(1) {
       tmp4 = 1;
       while (tmp5 > 0 ? _i+tmp5 <= tmp6 : _i+tmp5 >= tmp6) {
@@ -1115,8 +1113,8 @@ modelica_metatype omc_NBBackendUtil_findTrueIndices(threadData_t *threadData, mo
         }
       }
       if (tmp4 == 0) {
-        __omcQ_24tmpVar2 = mmc_mk_integer(_i);
-        *tmp2 = mmc_mk_cons(__omcQ_24tmpVar2,0);
+        __omcQ_24tmpVar4 = mmc_mk_integer(_i);
+        *tmp2 = mmc_mk_cons(__omcQ_24tmpVar4,0);
         tmp2 = &MMC_CDR(*tmp2);
       } else if (tmp4 == 1) {
         break;
@@ -1125,7 +1123,7 @@ modelica_metatype omc_NBBackendUtil_findTrueIndices(threadData_t *threadData, mo
       }
     }
     *tmp2 = mmc_mk_nil();
-    tmpMeta1 = __omcQ_24tmpVar3;
+    tmpMeta1 = __omcQ_24tmpVar5;
   }
   _indices = tmpMeta1;
   _return: OMC_LABEL_UNUSED

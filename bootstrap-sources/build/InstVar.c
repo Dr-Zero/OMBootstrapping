@@ -3202,17 +3202,17 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InstVar_liftUserTypeMod(threadDa
             _outMod = tmpMeta6;
 
             {
-              modelica_metatype __omcQ_24tmpVar1;
+              modelica_metatype __omcQ_24tmpVar3;
               modelica_metatype* tmp9;
               modelica_metatype tmpMeta10;
-              modelica_metatype __omcQ_24tmpVar0;
+              modelica_metatype __omcQ_24tmpVar2;
               modelica_integer tmp11;
               modelica_metatype _s_loopVar = 0;
               modelica_metatype _s;
               _s_loopVar = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_outMod), 4)));
               tmpMeta10 = MMC_REFSTRUCTLIT(mmc_nil);
-              __omcQ_24tmpVar1 = tmpMeta10; /* defaultValue */
-              tmp9 = &__omcQ_24tmpVar1;
+              __omcQ_24tmpVar3 = tmpMeta10; /* defaultValue */
+              tmp9 = &__omcQ_24tmpVar3;
               while(1) {
                 tmp11 = 1;
                 if (!listEmpty(_s_loopVar)) {
@@ -3221,8 +3221,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InstVar_liftUserTypeMod(threadDa
                   tmp11--;
                 }
                 if (tmp11 == 0) {
-                  __omcQ_24tmpVar0 = omc_InstVar_liftUserTypeSubMod(threadData, _s, _inDims);
-                  *tmp9 = mmc_mk_cons(__omcQ_24tmpVar0,0);
+                  __omcQ_24tmpVar2 = omc_InstVar_liftUserTypeSubMod(threadData, _s, _inDims);
+                  *tmp9 = mmc_mk_cons(__omcQ_24tmpVar2,0);
                   tmp9 = &MMC_CDR(*tmp9);
                 } else if (tmp11 == 1) {
                   break;
@@ -3231,7 +3231,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InstVar_liftUserTypeMod(threadDa
                 }
               }
               *tmp9 = mmc_mk_nil();
-              tmpMeta8 = __omcQ_24tmpVar1;
+              tmpMeta8 = __omcQ_24tmpVar3;
             }
             tmpMeta7 = MMC_TAGPTR(mmc_alloc_words(7));
             memcpy(MMC_UNTAGPTR(tmpMeta7), MMC_UNTAGPTR(_outMod), 7*sizeof(modelica_metatype));

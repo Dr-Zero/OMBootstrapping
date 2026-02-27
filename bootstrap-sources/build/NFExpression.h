@@ -142,6 +142,8 @@ extern struct record_description Flags_ValidOptions_STRING__DESC__OPTION__desc;
 
 extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
+extern struct record_description JSON_STRING__desc;
+
 extern struct record_description NFAttributes_ATTRIBUTES__desc;
 
 extern struct record_description NFBinding_UNBOUND__desc;
@@ -265,7 +267,25 @@ extern struct record_description Values_Value_RECORD__desc;
 extern struct record_description Values_Value_STRING__desc;
 
 
-#define boxptr_NFExpression_replaceResizableParameter_replaceWithBinding omc_NFExpression_replaceResizableParameter_replaceWithBinding
+DLLDirection
+modelica_metatype omc_NFExpression_productOfListExceptSelf(threadData_t *threadData, modelica_metatype _arguments, modelica_metatype _mulOp);
+#define boxptr_NFExpression_productOfListExceptSelf omc_NFExpression_productOfListExceptSelf
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpression_productOfListExceptSelf,2,0) {(void*) boxptr_NFExpression_productOfListExceptSelf,0}};
+#define boxvar_NFExpression_productOfListExceptSelf MMC_REFSTRUCTLIT(boxvar_lit_NFExpression_productOfListExceptSelf)
+
+
+DLLDirection
+modelica_metatype omc_NFExpression_mmul(threadData_t *threadData, modelica_metatype _lhs, modelica_metatype _rhs, modelica_metatype _baseOp);
+#define boxptr_NFExpression_mmul omc_NFExpression_mmul
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpression_mmul,2,0) {(void*) boxptr_NFExpression_mmul,0}};
+#define boxvar_NFExpression_mmul MMC_REFSTRUCTLIT(boxvar_lit_NFExpression_mmul)
+
+
+DLLDirection
+modelica_metatype omc_NFExpression_mulResultType(threadData_t *threadData, modelica_metatype _tl, modelica_metatype _tr);
+#define boxptr_NFExpression_mulResultType omc_NFExpression_mulResultType
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpression_mulResultType,2,0) {(void*) boxptr_NFExpression_mulResultType,0}};
+#define boxvar_NFExpression_mulResultType MMC_REFSTRUCTLIT(boxvar_lit_NFExpression_mulResultType)
 
 
 DLLDirection
@@ -273,6 +293,20 @@ modelica_metatype omc_NFExpression_replaceResizableParameter(threadData_t *threa
 #define boxptr_NFExpression_replaceResizableParameter omc_NFExpression_replaceResizableParameter
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpression_replaceResizableParameter,2,0) {(void*) boxptr_NFExpression_replaceResizableParameter,0}};
 #define boxvar_NFExpression_replaceResizableParameter MMC_REFSTRUCTLIT(boxvar_lit_NFExpression_replaceResizableParameter)
+
+
+DLLDirection
+modelica_metatype omc_NFExpression_replaceResizableParameterWithOriginal(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp);
+#define boxptr_NFExpression_replaceResizableParameterWithOriginal omc_NFExpression_replaceResizableParameterWithOriginal
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpression_replaceResizableParameterWithOriginal,2,0) {(void*) boxptr_NFExpression_replaceResizableParameterWithOriginal,0}};
+#define boxvar_NFExpression_replaceResizableParameterWithOriginal MMC_REFSTRUCTLIT(boxvar_lit_NFExpression_replaceResizableParameterWithOriginal)
+
+
+DLLDirection
+modelica_metatype omc_NFExpression_replaceCrefWithBinding(threadData_t *threadData, modelica_metatype _cref, modelica_metatype __omcQ_24in_5Fexp, modelica_fnptr _func);
+#define boxptr_NFExpression_replaceCrefWithBinding omc_NFExpression_replaceCrefWithBinding
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpression_replaceCrefWithBinding,2,0) {(void*) boxptr_NFExpression_replaceCrefWithBinding,0}};
+#define boxvar_NFExpression_replaceCrefWithBinding MMC_REFSTRUCTLIT(boxvar_lit_NFExpression_replaceCrefWithBinding)
 
 
 DLLDirection
@@ -351,6 +385,14 @@ DLLDirection
 modelica_metatype boxptr_NFExpression_isConnector(threadData_t *threadData, modelica_metatype _exp);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpression_isConnector,2,0) {(void*) boxptr_NFExpression_isConnector,0}};
 #define boxvar_NFExpression_isConnector MMC_REFSTRUCTLIT(boxvar_lit_NFExpression_isConnector)
+
+
+DLLDirection
+modelica_boolean omc_NFExpression_isClockOrSampleFunction(threadData_t *threadData, modelica_metatype _exp);
+DLLDirection
+modelica_metatype boxptr_NFExpression_isClockOrSampleFunction(threadData_t *threadData, modelica_metatype _exp);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpression_isClockOrSampleFunction,2,0) {(void*) boxptr_NFExpression_isClockOrSampleFunction,0}};
+#define boxvar_NFExpression_isClockOrSampleFunction MMC_REFSTRUCTLIT(boxvar_lit_NFExpression_isClockOrSampleFunction)
 
 
 DLLDirection
@@ -684,6 +726,14 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpression_promote,2,0) {(void*) boxp
 
 
 DLLDirection
+modelica_metatype omc_NFExpression_makeTriuMask(threadData_t *threadData, modelica_integer _n, modelica_metatype _elTy);
+DLLDirection
+modelica_metatype boxptr_NFExpression_makeTriuMask(threadData_t *threadData, modelica_metatype _n, modelica_metatype _elTy);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpression_makeTriuMask,2,0) {(void*) boxptr_NFExpression_makeTriuMask,0}};
+#define boxvar_NFExpression_makeTriuMask MMC_REFSTRUCTLIT(boxvar_lit_NFExpression_makeTriuMask)
+
+
+DLLDirection
 modelica_metatype omc_NFExpression_makeIdentityMatrix(threadData_t *threadData, modelica_integer _n, modelica_metatype _elementType);
 DLLDirection
 modelica_metatype boxptr_NFExpression_makeIdentityMatrix(threadData_t *threadData, modelica_metatype _n, modelica_metatype _elementType);
@@ -964,6 +1014,14 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpression_isLiteralReplace,2,0) {(vo
 
 
 DLLDirection
+modelica_boolean omc_NFExpression_isLiteralXML(threadData_t *threadData, modelica_metatype _exp);
+DLLDirection
+modelica_metatype boxptr_NFExpression_isLiteralXML(threadData_t *threadData, modelica_metatype _exp);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpression_isLiteralXML,2,0) {(void*) boxptr_NFExpression_isLiteralXML,0}};
+#define boxvar_NFExpression_isLiteralXML MMC_REFSTRUCTLIT(boxvar_lit_NFExpression_isLiteralXML)
+
+
+DLLDirection
 modelica_boolean omc_NFExpression_isLiteral(threadData_t *threadData, modelica_metatype _exp);
 DLLDirection
 modelica_metatype boxptr_NFExpression_isLiteral(threadData_t *threadData, modelica_metatype _exp);
@@ -985,6 +1043,14 @@ DLLDirection
 modelica_metatype boxptr_NFExpression_isScalar(threadData_t *threadData, modelica_metatype _exp);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpression_isScalar,2,0) {(void*) boxptr_NFExpression_isScalar,0}};
 #define boxvar_NFExpression_isScalar MMC_REFSTRUCTLIT(boxvar_lit_NFExpression_isScalar)
+
+
+DLLDirection
+modelica_boolean omc_NFExpression_hasArrayType(threadData_t *threadData, modelica_metatype _exp);
+DLLDirection
+modelica_metatype boxptr_NFExpression_hasArrayType(threadData_t *threadData, modelica_metatype _exp);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpression_hasArrayType,2,0) {(void*) boxptr_NFExpression_hasArrayType,0}};
+#define boxvar_NFExpression_hasArrayType MMC_REFSTRUCTLIT(boxvar_lit_NFExpression_hasArrayType)
 
 
 DLLDirection
@@ -1397,20 +1463,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpression_toDAERecord,2,0) {(void*) 
 
 
 DLLDirection
-modelica_metatype omc_NFExpression_toDAEMultaryArgs(threadData_t *threadData, modelica_metatype _arguments, modelica_metatype _operator);
-#define boxptr_NFExpression_toDAEMultaryArgs omc_NFExpression_toDAEMultaryArgs
-static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpression_toDAEMultaryArgs,2,0) {(void*) boxptr_NFExpression_toDAEMultaryArgs,0}};
-#define boxvar_NFExpression_toDAEMultaryArgs MMC_REFSTRUCTLIT(boxvar_lit_NFExpression_toDAEMultaryArgs)
-
-
-DLLDirection
-modelica_metatype omc_NFExpression_toDAEMultary(threadData_t *threadData, modelica_metatype _arguments, modelica_metatype _inv_arguments, modelica_metatype _operator);
-#define boxptr_NFExpression_toDAEMultary omc_NFExpression_toDAEMultary
-static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpression_toDAEMultary,2,0) {(void*) boxptr_NFExpression_toDAEMultary,0}};
-#define boxvar_NFExpression_toDAEMultary MMC_REFSTRUCTLIT(boxvar_lit_NFExpression_toDAEMultary)
-
-
-DLLDirection
 modelica_metatype omc_NFExpression_toDAE(threadData_t *threadData, modelica_metatype _exp);
 #define boxptr_NFExpression_toDAE omc_NFExpression_toDAE
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpression_toDAE,2,0) {(void*) boxptr_NFExpression_toDAE,0}};
@@ -1725,6 +1777,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpression_applySubscripts,2,0) {(voi
 
 
 DLLDirection
+modelica_metatype omc_NFExpression_rangeSizeExp(threadData_t *threadData, modelica_metatype _range);
+#define boxptr_NFExpression_rangeSizeExp omc_NFExpression_rangeSizeExp
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpression_rangeSizeExp,2,0) {(void*) boxptr_NFExpression_rangeSizeExp,0}};
+#define boxvar_NFExpression_rangeSizeExp MMC_REFSTRUCTLIT(boxvar_lit_NFExpression_rangeSizeExp)
+
+
+DLLDirection
 modelica_integer omc_NFExpression_rangeSize(threadData_t *threadData, modelica_metatype _range, modelica_boolean _resize);
 DLLDirection
 modelica_metatype boxptr_NFExpression_rangeSize(threadData_t *threadData, modelica_metatype _range, modelica_metatype _resize);
@@ -1919,6 +1978,22 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpression_setType,2,0) {(void*) boxp
 
 
 DLLDirection
+modelica_boolean omc_NFExpression_sizeZero(threadData_t *threadData, modelica_metatype _exp);
+DLLDirection
+modelica_metatype boxptr_NFExpression_sizeZero(threadData_t *threadData, modelica_metatype _exp);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpression_sizeZero,2,0) {(void*) boxptr_NFExpression_sizeZero,0}};
+#define boxvar_NFExpression_sizeZero MMC_REFSTRUCTLIT(boxvar_lit_NFExpression_sizeZero)
+
+
+DLLDirection
+modelica_integer omc_NFExpression_sizeOf(threadData_t *threadData, modelica_metatype _exp);
+DLLDirection
+modelica_metatype boxptr_NFExpression_sizeOf(threadData_t *threadData, modelica_metatype _exp);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpression_sizeOf,2,0) {(void*) boxptr_NFExpression_sizeOf,0}};
+#define boxvar_NFExpression_sizeOf MMC_REFSTRUCTLIT(boxvar_lit_NFExpression_sizeOf)
+
+
+DLLDirection
 modelica_metatype omc_NFExpression_typeOf(threadData_t *threadData, modelica_metatype _exp);
 #define boxptr_NFExpression_typeOf omc_NFExpression_typeOf
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpression_typeOf,2,0) {(void*) boxptr_NFExpression_typeOf,0}};
@@ -1995,6 +2070,14 @@ DLLDirection
 modelica_metatype boxptr_NFExpression_isTrue(threadData_t *threadData, modelica_metatype _exp);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpression_isTrue,2,0) {(void*) boxptr_NFExpression_isTrue,0}};
 #define boxvar_NFExpression_isTrue MMC_REFSTRUCTLIT(boxvar_lit_NFExpression_isTrue)
+
+
+DLLDirection
+modelica_boolean omc_NFExpression_isConnectionCall(threadData_t *threadData, modelica_metatype _exp);
+DLLDirection
+modelica_metatype boxptr_NFExpression_isConnectionCall(threadData_t *threadData, modelica_metatype _exp);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpression_isConnectionCall,2,0) {(void*) boxptr_NFExpression_isConnectionCall,0}};
+#define boxvar_NFExpression_isConnectionCall MMC_REFSTRUCTLIT(boxvar_lit_NFExpression_isConnectionCall)
 
 
 DLLDirection

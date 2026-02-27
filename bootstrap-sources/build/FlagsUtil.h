@@ -58,6 +58,13 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
 DLLDirection
+modelica_metatype omc_FlagsUtil_splitCSV(threadData_t *threadData, modelica_string _value);
+#define boxptr_FlagsUtil_splitCSV omc_FlagsUtil_splitCSV
+static const MMC_DEFSTRUCTLIT(boxvar_lit_FlagsUtil_splitCSV,2,0) {(void*) boxptr_FlagsUtil_splitCSV,0}};
+#define boxvar_FlagsUtil_splitCSV MMC_REFSTRUCTLIT(boxvar_lit_FlagsUtil_splitCSV)
+
+
+DLLDirection
 modelica_metatype omc_FlagsUtil_unparseFlags(threadData_t *threadData);
 #define boxptr_FlagsUtil_unparseFlags omc_FlagsUtil_unparseFlags
 static const MMC_DEFSTRUCTLIT(boxvar_lit_FlagsUtil_unparseFlags,2,0) {(void*) boxptr_FlagsUtil_unparseFlags,0}};
@@ -244,10 +251,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_FlagsUtil_setConfigValue,2,0) {(void*) 
 #define boxptr_FlagsUtil_lookupConfigFlag omc_FlagsUtil_lookupConfigFlag
 
 
-#define boxptr_FlagsUtil_parseConfigFlag omc_FlagsUtil_parseConfigFlag
-
-
 #define boxptr_FlagsUtil_parseFlag omc_FlagsUtil_parseFlag
+
+
+#define boxptr_FlagsUtil_readArg omc_FlagsUtil_readArg
 
 
 DLLDirection

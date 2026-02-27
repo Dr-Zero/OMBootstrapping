@@ -46,8 +46,6 @@ extern struct record_description NFBinding_UNBOUND__desc;
 
 extern struct record_description NFComponentRef_EMPTY__desc;
 
-extern struct record_description NFFlatten_FunctionTreeImpl_Tree_EMPTY__desc;
-
 extern struct record_description NFPrefixes_Replaceable_NOT__REPLACEABLE__desc;
 
 extern struct record_description NFType_ANY__desc;

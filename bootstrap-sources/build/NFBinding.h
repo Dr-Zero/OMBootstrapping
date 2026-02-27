@@ -46,6 +46,14 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
 DLLDirection
+modelica_boolean omc_NFBinding_isClockOrSampleFunction(threadData_t *threadData, modelica_metatype _binding);
+DLLDirection
+modelica_metatype boxptr_NFBinding_isClockOrSampleFunction(threadData_t *threadData, modelica_metatype _binding);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFBinding_isClockOrSampleFunction,2,0) {(void*) boxptr_NFBinding_isClockOrSampleFunction,0}};
+#define boxvar_NFBinding_isClockOrSampleFunction MMC_REFSTRUCTLIT(boxvar_lit_NFBinding_isClockOrSampleFunction)
+
+
+DLLDirection
 modelica_metatype omc_NFBinding_expandEach(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fbinding, modelica_metatype _node);
 #define boxptr_NFBinding_expandEach omc_NFBinding_expandEach
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFBinding_expandEach,2,0) {(void*) boxptr_NFBinding_expandEach,0}};
@@ -155,6 +163,20 @@ modelica_metatype omc_NFBinding_mapExp(threadData_t *threadData, modelica_metaty
 #define boxptr_NFBinding_mapExp omc_NFBinding_mapExp
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFBinding_mapExp,2,0) {(void*) boxptr_NFBinding_mapExp,0}};
 #define boxvar_NFBinding_mapExp MMC_REFSTRUCTLIT(boxvar_lit_NFBinding_mapExp)
+
+
+DLLDirection
+void omc_NFBinding_applyExpShallow(threadData_t *threadData, modelica_metatype _binding, modelica_fnptr _fn);
+#define boxptr_NFBinding_applyExpShallow omc_NFBinding_applyExpShallow
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFBinding_applyExpShallow,2,0) {(void*) boxptr_NFBinding_applyExpShallow,0}};
+#define boxvar_NFBinding_applyExpShallow MMC_REFSTRUCTLIT(boxvar_lit_NFBinding_applyExpShallow)
+
+
+DLLDirection
+void omc_NFBinding_applyExp(threadData_t *threadData, modelica_metatype _binding, modelica_fnptr _fn);
+#define boxptr_NFBinding_applyExp omc_NFBinding_applyExp
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFBinding_applyExp,2,0) {(void*) boxptr_NFBinding_applyExp,0}};
+#define boxvar_NFBinding_applyExp MMC_REFSTRUCTLIT(boxvar_lit_NFBinding_applyExp)
 
 
 DLLDirection
@@ -332,13 +354,6 @@ modelica_metatype omc_NFBinding_typedExp(threadData_t *threadData, modelica_meta
 #define boxptr_NFBinding_typedExp omc_NFBinding_typedExp
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFBinding_typedExp,2,0) {(void*) boxptr_NFBinding_typedExp,0}};
 #define boxvar_NFBinding_typedExp MMC_REFSTRUCTLIT(boxvar_lit_NFBinding_typedExp)
-
-
-DLLDirection
-modelica_metatype omc_NFBinding_untypedExp(threadData_t *threadData, modelica_metatype _binding);
-#define boxptr_NFBinding_untypedExp omc_NFBinding_untypedExp
-static const MMC_DEFSTRUCTLIT(boxvar_lit_NFBinding_untypedExp,2,0) {(void*) boxptr_NFBinding_untypedExp,0}};
-#define boxvar_NFBinding_untypedExp MMC_REFSTRUCTLIT(boxvar_lit_NFBinding_untypedExp)
 
 
 DLLDirection

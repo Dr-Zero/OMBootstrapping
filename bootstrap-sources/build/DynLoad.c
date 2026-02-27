@@ -6,10 +6,10 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT0,41,_OMC_LIT0_data);
 #define _OMC_LIT1_data "\n"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT1,1,_OMC_LIT1_data);
 #define _OMC_LIT1 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT1)
-#define _OMC_LIT2_data "/home/adrpo33/OpenModelica/OMCompiler/Compiler/Util/DynLoad.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT2,62,_OMC_LIT2_data);
+#define _OMC_LIT2_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/Util/DynLoad.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT2,68,_OMC_LIT2_data);
 #define _OMC_LIT2 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT2)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT3_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT3_6,1.770032059e9);
 #define _OMC_LIT3_6 MMC_REFREALLIT(_OMC_LIT_STRUCT3_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT3,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT2,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(70)),MMC_IMMEDIATE(MMC_TAGFIXNUM(5)),MMC_IMMEDIATE(MMC_TAGFIXNUM(70)),MMC_IMMEDIATE(MMC_TAGFIXNUM(156)),_OMC_LIT3_6}};
 #define _OMC_LIT3 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT3)
@@ -35,9 +35,9 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_DynLoad_executeFunction_executeF
   modelica_metatype _outVal_ext;
   modelica_metatype _outVal = NULL;
   // _outVal has no default value.
-  _handle_ext = (int)_handle;
-  _values_ext = (modelica_metatype)_values;
-  _debug_ext = (int)_debug;
+  _handle_ext = (int) _handle;
+  _values_ext = (modelica_metatype) _values;
+  _debug_ext = (int) _debug;
   _outVal_ext = DynLoad_executeFunction(threadData, _handle_ext, _values_ext, _debug_ext);
   _outVal = (modelica_metatype)_outVal_ext;
   return _outVal;

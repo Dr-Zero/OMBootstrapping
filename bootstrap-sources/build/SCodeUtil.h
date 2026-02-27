@@ -811,6 +811,30 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_componentMod,2,0) {(void*) bo
 
 
 DLLDirection
+modelica_boolean omc_SCodeUtil_isBreakConnectSubMod(threadData_t *threadData, modelica_metatype _subMod);
+DLLDirection
+modelica_metatype boxptr_SCodeUtil_isBreakConnectSubMod(threadData_t *threadData, modelica_metatype _subMod);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_isBreakConnectSubMod,2,0) {(void*) boxptr_SCodeUtil_isBreakConnectSubMod,0}};
+#define boxvar_SCodeUtil_isBreakConnectSubMod MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_isBreakConnectSubMod)
+
+
+DLLDirection
+modelica_boolean omc_SCodeUtil_isBreakComponentSubMod(threadData_t *threadData, modelica_metatype _subMod);
+DLLDirection
+modelica_metatype boxptr_SCodeUtil_isBreakComponentSubMod(threadData_t *threadData, modelica_metatype _subMod);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_isBreakComponentSubMod,2,0) {(void*) boxptr_SCodeUtil_isBreakComponentSubMod,0}};
+#define boxvar_SCodeUtil_isBreakComponentSubMod MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_isBreakComponentSubMod)
+
+
+DLLDirection
+modelica_boolean omc_SCodeUtil_isBreakSubMod(threadData_t *threadData, modelica_metatype _subMod);
+DLLDirection
+modelica_metatype boxptr_SCodeUtil_isBreakSubMod(threadData_t *threadData, modelica_metatype _subMod);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_isBreakSubMod,2,0) {(void*) boxptr_SCodeUtil_isBreakSubMod,0}};
+#define boxvar_SCodeUtil_isBreakSubMod MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_isBreakSubMod)
+
+
+DLLDirection
 modelica_boolean omc_SCodeUtil_isRedeclareSubMod(threadData_t *threadData, modelica_metatype _inSubMod);
 DLLDirection
 modelica_metatype boxptr_SCodeUtil_isRedeclareSubMod(threadData_t *threadData, modelica_metatype _inSubMod);
@@ -969,6 +993,13 @@ modelica_metatype omc_SCodeUtil_setBaseClassPath(threadData_t *threadData, model
 #define boxptr_SCodeUtil_setBaseClassPath omc_SCodeUtil_setBaseClassPath
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_setBaseClassPath,2,0) {(void*) boxptr_SCodeUtil_setBaseClassPath,0}};
 #define boxvar_SCodeUtil_setBaseClassPath MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_setBaseClassPath)
+
+
+DLLDirection
+modelica_metatype omc_SCodeUtil_getElementTypePath(threadData_t *threadData, modelica_metatype _element);
+#define boxptr_SCodeUtil_getElementTypePath omc_SCodeUtil_getElementTypePath
+static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_getElementTypePath,2,0) {(void*) boxptr_SCodeUtil_getElementTypePath,0}};
+#define boxvar_SCodeUtil_getElementTypePath MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_getElementTypePath)
 
 
 DLLDirection

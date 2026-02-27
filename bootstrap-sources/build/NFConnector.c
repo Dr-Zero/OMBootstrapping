@@ -9,10 +9,10 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT1,7,_OMC_LIT1_data);
 #define _OMC_LIT2_data "NFConnector.fromExp got unknown expression "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT2,43,_OMC_LIT2_data);
 #define _OMC_LIT2 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT2)
-#define _OMC_LIT3_data "/home/adrpo33/OpenModelica/OMCompiler/Compiler/NFFrontEnd/NFConnector.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT3,72,_OMC_LIT3_data);
+#define _OMC_LIT3_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/NFFrontEnd/NFConnector.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT3,78,_OMC_LIT3_data);
 #define _OMC_LIT3 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT3)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT4_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT4_6,1.770032059e9);
 #define _OMC_LIT4_6 MMC_REFREALLIT(_OMC_LIT_STRUCT4_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT4,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT3,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(116)),MMC_IMMEDIATE(MMC_TAGFIXNUM(11)),MMC_IMMEDIATE(MMC_TAGFIXNUM(117)),MMC_IMMEDIATE(MMC_TAGFIXNUM(52)),_OMC_LIT4_6}};
 #define _OMC_LIT4 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT4)
@@ -262,7 +262,7 @@ modelica_metatype omc_NFConnector_addSubscripts(threadData_t *threadData, modeli
   _conn = __omcQ_24in_5Fconn;
   tmpMeta1 = MMC_TAGPTR(mmc_alloc_words(7));
   memcpy(MMC_UNTAGPTR(tmpMeta1), MMC_UNTAGPTR(_conn), 7*sizeof(modelica_metatype));
-  ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta1))[2] = omc_NFComponentRef_mergeSubscripts(threadData, _subscripts, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_conn), 2))), 1 /* true */, 0 /* false */);
+  ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta1))[2] = omc_NFComponentRef_mergeSubscripts(threadData, _subscripts, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_conn), 2))), 1 /* true */, 0 /* false */, 0 /* false */);
   _conn = tmpMeta1;
 
   tmpMeta2 = MMC_TAGPTR(mmc_alloc_words(7));

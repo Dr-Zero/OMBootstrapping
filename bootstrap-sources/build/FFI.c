@@ -18,10 +18,10 @@ modelica_metatype omc_FFI_callFunction(threadData_t *threadData, modelica_intege
   modelica_metatype _outputArgs = NULL;
   // _returnValue has no default value.
   // _outputArgs has no default value.
-  _fnHandle_ext = (int)_fnHandle;
-  _args_ext = (modelica_metatype)_args;
-  _specs_ext = (modelica_metatype)_specs;
-  _returnType_ext = (modelica_metatype)_returnType;
+  _fnHandle_ext = (int) _fnHandle;
+  _args_ext = (modelica_metatype) _args;
+  _specs_ext = (modelica_metatype) _specs;
+  _returnType_ext = (modelica_metatype) _returnType;
   _returnValue_ext = FFI_callFunction(_fnHandle_ext, _args_ext, _specs_ext, _returnType_ext, &_outputArgs_ext);
   _outputArgs = (modelica_metatype)_outputArgs_ext;
   _returnValue = (modelica_metatype)_returnValue_ext;

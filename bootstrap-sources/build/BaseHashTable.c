@@ -12,10 +12,10 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT2,9,_OMC_LIT2_data);
 #define _OMC_LIT3_data " failed\n"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT3,8,_OMC_LIT3_data);
 #define _OMC_LIT3 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT3)
-#define _OMC_LIT4_data "/home/adrpo33/OpenModelica/OMCompiler/Compiler/Util/BaseHashTable.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT4,68,_OMC_LIT4_data);
+#define _OMC_LIT4_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/Util/BaseHashTable.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT4,74,_OMC_LIT4_data);
 #define _OMC_LIT4 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT4)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT5_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT5_6,1.770032059e9);
 #define _OMC_LIT5_6 MMC_REFREALLIT(_OMC_LIT_STRUCT5_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT5,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT4,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(602)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(602)),MMC_IMMEDIATE(MMC_TAGFIXNUM(161)),_OMC_LIT5_6}};
 #define _OMC_LIT5 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT5)
@@ -1829,10 +1829,10 @@ void omc_BaseHashTable_dumpHashTableStatistics(threadData_t *threadData, modelic
           fputs(MMC_STRINGDATA(_OMC_LIT26),stdout);
 
           {
-            modelica_metatype __omcQ_24tmpVar1;
+            modelica_metatype __omcQ_24tmpVar3;
             modelica_metatype* tmp7;
             modelica_metatype tmpMeta8;
-            modelica_string __omcQ_24tmpVar0;
+            modelica_string __omcQ_24tmpVar2;
             modelica_integer tmp9;
             modelica_metatype _l_loopVar = 0;
             modelica_integer tmp10;
@@ -1840,8 +1840,8 @@ void omc_BaseHashTable_dumpHashTableStatistics(threadData_t *threadData, modelic
             _l_loopVar = _hvec;
             tmp10 = 1;
             tmpMeta8 = MMC_REFSTRUCTLIT(mmc_nil);
-            __omcQ_24tmpVar1 = tmpMeta8; /* defaultValue */
-            tmp7 = &__omcQ_24tmpVar1;
+            __omcQ_24tmpVar3 = tmpMeta8; /* defaultValue */
+            tmp7 = &__omcQ_24tmpVar3;
             while(1) {
               tmp9 = 1;
               if (tmp10 <= arrayLength(_l_loopVar)) {
@@ -1849,8 +1849,8 @@ void omc_BaseHashTable_dumpHashTableStatistics(threadData_t *threadData, modelic
                 tmp9--;
               }
               if (tmp9 == 0) {
-                __omcQ_24tmpVar0 = intString(listLength(_l));
-                *tmp7 = mmc_mk_cons(__omcQ_24tmpVar0,0);
+                __omcQ_24tmpVar2 = intString(listLength(_l));
+                *tmp7 = mmc_mk_cons(__omcQ_24tmpVar2,0);
                 tmp7 = &MMC_CDR(*tmp7);
               } else if (tmp9 == 1) {
                 break;
@@ -1859,22 +1859,22 @@ void omc_BaseHashTable_dumpHashTableStatistics(threadData_t *threadData, modelic
               }
             }
             *tmp7 = mmc_mk_nil();
-            tmpMeta6 = __omcQ_24tmpVar1;
+            tmpMeta6 = __omcQ_24tmpVar3;
           }
           fputs(MMC_STRINGDATA(stringDelimitList(tmpMeta6, _OMC_LIT27)),stdout);
 
           fputs(MMC_STRINGDATA(_OMC_LIT12),stdout);
 
           {
-            modelica_integer __omcQ_24tmpVar7;
-            modelica_integer __omcQ_24tmpVar6;
+            modelica_integer __omcQ_24tmpVar9;
+            modelica_integer __omcQ_24tmpVar8;
             modelica_integer tmp13;
             modelica_metatype _l_loopVar = 0;
             modelica_integer tmp14;
             modelica_metatype _l;
             _l_loopVar = _hvec;
             tmp14 = 1;
-            __omcQ_24tmpVar7 = ((modelica_integer) 0); /* defaultValue */
+            __omcQ_24tmpVar9 = ((modelica_integer) 0); /* defaultValue */
             while(1) {
               tmp13 = 1;
               while (tmp14 <= arrayLength(_l_loopVar)) {
@@ -1885,15 +1885,15 @@ void omc_BaseHashTable_dumpHashTableStatistics(threadData_t *threadData, modelic
                 }
               }
               if (tmp13 == 0) {
-                __omcQ_24tmpVar6 = ((modelica_integer) 1);
-                __omcQ_24tmpVar7 = __omcQ_24tmpVar7 + __omcQ_24tmpVar6;
+                __omcQ_24tmpVar8 = ((modelica_integer) 1);
+                __omcQ_24tmpVar9 = __omcQ_24tmpVar9 + __omcQ_24tmpVar8;
               } else if (tmp13 == 1) {
                 break;
               } else {
                 goto goto_1;
               }
             }
-            tmp12 = __omcQ_24tmpVar7;
+            tmp12 = __omcQ_24tmpVar9;
           }
           tmp11 = modelica_integer_to_modelica_string(tmp12, ((modelica_integer) 0), 1 /* true */);
           tmpMeta15 = stringAppend(_OMC_LIT28,tmp11);
@@ -1904,15 +1904,15 @@ void omc_BaseHashTable_dumpHashTableStatistics(threadData_t *threadData, modelic
           fputs(MMC_STRINGDATA(tmpMeta19),stdout);
 
           {
-            modelica_integer __omcQ_24tmpVar13;
-            modelica_integer __omcQ_24tmpVar12;
+            modelica_integer __omcQ_24tmpVar15;
+            modelica_integer __omcQ_24tmpVar14;
             modelica_integer tmp22;
             modelica_metatype _l_loopVar = 0;
             modelica_integer tmp23;
             modelica_metatype _l;
             _l_loopVar = _hvec;
             tmp23 = 1;
-            __omcQ_24tmpVar13 = ((modelica_integer) -4611686018427387903); /* defaultValue */
+            __omcQ_24tmpVar15 = ((modelica_integer) -4611686018427387903); /* defaultValue */
             while(1) {
               tmp22 = 1;
               if (tmp23 <= arrayLength(_l_loopVar)) {
@@ -1920,15 +1920,15 @@ void omc_BaseHashTable_dumpHashTableStatistics(threadData_t *threadData, modelic
                 tmp22--;
               }
               if (tmp22 == 0) {
-                __omcQ_24tmpVar12 = listLength(_l);
-                __omcQ_24tmpVar13 = modelica_integer_max((modelica_integer)(__omcQ_24tmpVar12),(modelica_integer)(__omcQ_24tmpVar13));
+                __omcQ_24tmpVar14 = listLength(_l);
+                __omcQ_24tmpVar15 = modelica_integer_max((modelica_integer)(__omcQ_24tmpVar14),(modelica_integer)(__omcQ_24tmpVar15));
               } else if (tmp22 == 1) {
                 break;
               } else {
                 goto goto_1;
               }
             }
-            tmp21 = __omcQ_24tmpVar13;
+            tmp21 = __omcQ_24tmpVar15;
           }
           tmp20 = modelica_integer_to_modelica_string(tmp21, ((modelica_integer) 0), 1 /* true */);
           tmpMeta24 = stringAppend(_OMC_LIT30,tmp20);
@@ -1936,15 +1936,15 @@ void omc_BaseHashTable_dumpHashTableStatistics(threadData_t *threadData, modelic
           fputs(MMC_STRINGDATA(tmpMeta25),stdout);
 
           {
-            modelica_integer __omcQ_24tmpVar19;
-            modelica_integer __omcQ_24tmpVar18;
+            modelica_integer __omcQ_24tmpVar21;
+            modelica_integer __omcQ_24tmpVar20;
             modelica_integer tmp28;
             modelica_metatype _l_loopVar = 0;
             modelica_integer tmp29;
             modelica_metatype _l;
             _l_loopVar = _hvec;
             tmp29 = 1;
-            __omcQ_24tmpVar19 = ((modelica_integer) 0); /* defaultValue */
+            __omcQ_24tmpVar21 = ((modelica_integer) 0); /* defaultValue */
             while(1) {
               tmp28 = 1;
               if (tmp29 <= arrayLength(_l_loopVar)) {
@@ -1952,15 +1952,15 @@ void omc_BaseHashTable_dumpHashTableStatistics(threadData_t *threadData, modelic
                 tmp28--;
               }
               if (tmp28 == 0) {
-                __omcQ_24tmpVar18 = listLength(_l);
-                __omcQ_24tmpVar19 = __omcQ_24tmpVar19 + __omcQ_24tmpVar18;
+                __omcQ_24tmpVar20 = listLength(_l);
+                __omcQ_24tmpVar21 = __omcQ_24tmpVar21 + __omcQ_24tmpVar20;
               } else if (tmp28 == 1) {
                 break;
               } else {
                 goto goto_1;
               }
             }
-            tmp27 = __omcQ_24tmpVar19;
+            tmp27 = __omcQ_24tmpVar21;
           }
           tmp26 = modelica_integer_to_modelica_string(tmp27, ((modelica_integer) 0), 1 /* true */);
           tmpMeta30 = stringAppend(_OMC_LIT31,tmp26);

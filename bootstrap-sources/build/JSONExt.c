@@ -76,8 +76,8 @@ modelica_metatype omc_JSONExt_getListElement(threadData_t *threadData, modelica_
   modelica_metatype _oany_ext;
   modelica_metatype _oany = NULL;
   // _oany has no default value.
-  _iany_ext = (modelica_metatype)_iany;
-  _offset_ext = (int)_offset;
+  _iany_ext = (modelica_metatype) _iany;
+  _offset_ext = (int) _offset;
   _oany_ext = omc_get_list_element(_iany_ext, _offset_ext);
   _oany = (modelica_metatype)_oany_ext;
   return _oany;
@@ -98,7 +98,7 @@ modelica_metatype omc_JSONExt_getList(threadData_t *threadData, modelica_metatyp
   modelica_metatype _oany_ext;
   modelica_metatype _oany = NULL;
   // _oany has no default value.
-  _iany_ext = (modelica_metatype)_iany;
+  _iany_ext = (modelica_metatype) _iany;
   _oany_ext = omc_get_list(_iany_ext);
   _oany = (modelica_metatype)_oany_ext;
   return _oany;
@@ -110,7 +110,7 @@ modelica_integer omc_JSONExt_getTupleSize(threadData_t *threadData, modelica_met
   int _sz_ext;
   modelica_integer _sz;
   // _sz has no default value.
-  _any_ext = (modelica_metatype)_any;
+  _any_ext = (modelica_metatype) _any;
   _sz_ext = omc_get_tuple_size(_any_ext);
   _sz = (modelica_integer)_sz_ext;
   return _sz;
@@ -130,7 +130,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_JSONExt_getSome(threadData_t *th
   modelica_metatype _o_ext;
   modelica_metatype _o = NULL;
   // _o has no default value.
-  _a_ext = (modelica_metatype)_a;
+  _a_ext = (modelica_metatype) _a;
   _o_ext = omc_get_some(_a_ext);
   _o = (modelica_metatype)_o_ext;
   return _o;
@@ -142,7 +142,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_JSONExt_getString(threadData_t *th
   const char* _s_ext;
   modelica_string _s = NULL;
   // _s has no default value.
-  _a_ext = (modelica_metatype)_a;
+  _a_ext = (modelica_metatype) _a;
   _s_ext = omc_cast_string(_a_ext);
   _s = (modelica_string)mmc_mk_scon(_s_ext);
   return _s;
@@ -154,7 +154,7 @@ PROTECTED_FUNCTION_STATIC modelica_real omc_JSONExt_getReal(threadData_t *thread
   double _r_ext;
   modelica_real _r;
   // _r has no default value.
-  _a_ext = (modelica_metatype)_a;
+  _a_ext = (modelica_metatype) _a;
   _r_ext = omc_cast_real(_a_ext);
   _r = (modelica_real)_r_ext;
   return _r;
@@ -174,7 +174,7 @@ PROTECTED_FUNCTION_STATIC modelica_integer omc_JSONExt_getInteger(threadData_t *
   int _i_ext;
   modelica_integer _i;
   // _i has no default value.
-  _a_ext = (modelica_metatype)_a;
+  _a_ext = (modelica_metatype) _a;
   _i_ext = omc_cast_int(_a_ext);
   _i = (modelica_integer)_i_ext;
   return _i;
@@ -195,8 +195,8 @@ modelica_metatype omc_JSONExt_getRecordComponent(threadData_t *threadData, model
   modelica_metatype _oany_ext;
   modelica_metatype _oany = NULL;
   // _oany has no default value.
-  _iany_ext = (modelica_metatype)_iany;
-  _offset_ext = (int)_offset;
+  _iany_ext = (modelica_metatype) _iany;
+  _offset_ext = (int) _offset;
   _oany_ext = omc_get_record_component(_iany_ext, _offset_ext);
   _oany = (modelica_metatype)_oany_ext;
   return _oany;
@@ -217,7 +217,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_JSONExt_getRecordNamesHelper(thr
   modelica_metatype _nameAndComponentsNames_ext;
   modelica_metatype _nameAndComponentsNames = NULL;
   // _nameAndComponentsNames has no default value.
-  _any_ext = (modelica_metatype)_any;
+  _any_ext = (modelica_metatype) _any;
   _nameAndComponentsNames_ext = omc_get_record_names(_any_ext);
   _nameAndComponentsNames = (modelica_metatype)_nameAndComponentsNames_ext;
   return _nameAndComponentsNames;
@@ -240,7 +240,7 @@ modelica_boolean omc_JSONExt_isCons(threadData_t *threadData, modelica_metatype 
   int _b_ext;
   modelica_boolean _b;
   // _b has no default value.
-  _any_ext = (modelica_metatype)_any;
+  _any_ext = (modelica_metatype) _any;
   _b_ext = omc_is_cons(_any_ext);
   _b = (modelica_boolean)_b_ext;
   return _b;
@@ -260,7 +260,7 @@ modelica_boolean omc_JSONExt_isNil(threadData_t *threadData, modelica_metatype _
   int _b_ext;
   modelica_boolean _b;
   // _b has no default value.
-  _any_ext = (modelica_metatype)_any;
+  _any_ext = (modelica_metatype) _any;
   _b_ext = omc_is_nil(_any_ext);
   _b = (modelica_boolean)_b_ext;
   return _b;
@@ -280,7 +280,7 @@ modelica_boolean omc_JSONExt_isSOME(threadData_t *threadData, modelica_metatype 
   int _b_ext;
   modelica_boolean _b;
   // _b has no default value.
-  _any_ext = (modelica_metatype)_any;
+  _any_ext = (modelica_metatype) _any;
   _b_ext = omc_is_some(_any_ext);
   _b = (modelica_boolean)_b_ext;
   return _b;
@@ -300,7 +300,7 @@ modelica_boolean omc_JSONExt_isNONE(threadData_t *threadData, modelica_metatype 
   int _b_ext;
   modelica_boolean _b;
   // _b has no default value.
-  _any_ext = (modelica_metatype)_any;
+  _any_ext = (modelica_metatype) _any;
   _b_ext = omc_is_none(_any_ext);
   _b = (modelica_boolean)_b_ext;
   return _b;
@@ -320,7 +320,7 @@ modelica_boolean omc_JSONExt_isTuple(threadData_t *threadData, modelica_metatype
   int _b_ext;
   modelica_boolean _b;
   // _b has no default value.
-  _any_ext = (modelica_metatype)_any;
+  _any_ext = (modelica_metatype) _any;
   _b_ext = omc_is_tuple(_any_ext);
   _b = (modelica_boolean)_b_ext;
   return _b;
@@ -340,7 +340,7 @@ modelica_boolean omc_JSONExt_isRecord(threadData_t *threadData, modelica_metatyp
   int _b_ext;
   modelica_boolean _b;
   // _b has no default value.
-  _any_ext = (modelica_metatype)_any;
+  _any_ext = (modelica_metatype) _any;
   _b_ext = omc_is_record(_any_ext);
   _b = (modelica_boolean)_b_ext;
   return _b;
@@ -360,7 +360,7 @@ modelica_boolean omc_JSONExt_isArray(threadData_t *threadData, modelica_metatype
   int _b_ext;
   modelica_boolean _b;
   // _b has no default value.
-  _any_ext = (modelica_metatype)_any;
+  _any_ext = (modelica_metatype) _any;
   _b_ext = omc_is_array(_any_ext);
   _b = (modelica_boolean)_b_ext;
   return _b;
@@ -380,7 +380,7 @@ modelica_boolean omc_JSONExt_isString(threadData_t *threadData, modelica_metatyp
   int _b_ext;
   modelica_boolean _b;
   // _b has no default value.
-  _any_ext = (modelica_metatype)_any;
+  _any_ext = (modelica_metatype) _any;
   _b_ext = omc_is_string(_any_ext);
   _b = (modelica_boolean)_b_ext;
   return _b;
@@ -400,7 +400,7 @@ modelica_boolean omc_JSONExt_isReal(threadData_t *threadData, modelica_metatype 
   int _b_ext;
   modelica_boolean _b;
   // _b has no default value.
-  _any_ext = (modelica_metatype)_any;
+  _any_ext = (modelica_metatype) _any;
   _b_ext = omc_is_real(_any_ext);
   _b = (modelica_boolean)_b_ext;
   return _b;
@@ -420,7 +420,7 @@ modelica_boolean omc_JSONExt_isInteger(threadData_t *threadData, modelica_metaty
   int _b_ext;
   modelica_boolean _b;
   // _b has no default value.
-  _any_ext = (modelica_metatype)_any;
+  _any_ext = (modelica_metatype) _any;
   _b_ext = omc_is_integer(_any_ext);
   _b = (modelica_boolean)_b_ext;
   return _b;

@@ -97,10 +97,10 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT35,5,3) {&Flags_DebugFlag_DEBUG__FL
 #define _OMC_LIT36_data "FUnitCheck.foldEquation2 failed on: "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT36,36,_OMC_LIT36_data);
 #define _OMC_LIT36 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT36)
-#define _OMC_LIT37_data "/home/adrpo33/OpenModelica/OMCompiler/Compiler/FrontEnd/FUnitCheck.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT37,69,_OMC_LIT37_data);
+#define _OMC_LIT37_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/FrontEnd/FUnitCheck.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT37,75,_OMC_LIT37_data);
 #define _OMC_LIT37 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT37)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT38_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT38_6,1.770032059e9);
 #define _OMC_LIT38_6 MMC_REFREALLIT(_OMC_LIT_STRUCT38_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT38,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT37,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(533)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(534)),MMC_IMMEDIATE(MMC_TAGFIXNUM(53)),_OMC_LIT38_6}};
 #define _OMC_LIT38 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT38)
@@ -167,7 +167,7 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT63,38,_OMC_LIT63_data);
 #define _OMC_LIT64_data "FUnitCheck.checkUnits: unit check module failed"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT64,47,_OMC_LIT64_data);
 #define _OMC_LIT64 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT64)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT65_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT65_6,1.770032059e9);
 #define _OMC_LIT65_6 MMC_REFREALLIT(_OMC_LIT_STRUCT65_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT65,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT37,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(88)),MMC_IMMEDIATE(MMC_TAGFIXNUM(5)),MMC_IMMEDIATE(MMC_TAGFIXNUM(88)),MMC_IMMEDIATE(MMC_TAGFIXNUM(91)),_OMC_LIT65_6}};
 #define _OMC_LIT65 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT65)
@@ -5875,7 +5875,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_FUnitCheck_notification2(threadDat
   _i6 = ((modelica_integer) 0);
   _i7 = ((modelica_integer) 0);
   {
-    modelica_metatype __omcQ_24tmpVar1;
+    modelica_metatype __omcQ_24tmpVar3;
     modelica_metatype* tmp2;
     modelica_metatype tmpMeta3;
     modelica_metatype tmpMeta4;
@@ -5883,15 +5883,15 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_FUnitCheck_notification2(threadDat
     modelica_metatype tmpMeta6;
     modelica_metatype tmpMeta7;
     modelica_metatype tmpMeta8;
-    modelica_string __omcQ_24tmpVar0;
+    modelica_string __omcQ_24tmpVar2;
     modelica_integer tmp9;
     modelica_metatype _t1_loopVar = 0;
     modelica_boolean tmp10 = 0;
     modelica_metatype _t1;
     _t1_loopVar = _inLt1;
     tmpMeta3 = MMC_REFSTRUCTLIT(mmc_nil);
-    __omcQ_24tmpVar1 = tmpMeta3; /* defaultValue */
-    tmp2 = &__omcQ_24tmpVar1;
+    __omcQ_24tmpVar3 = tmpMeta3; /* defaultValue */
+    tmp2 = &__omcQ_24tmpVar3;
     while(1) {
       tmp9 = 1;
       while (!listEmpty(_t1_loopVar)) {
@@ -6033,8 +6033,8 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_FUnitCheck_notification2(threadDat
         tmpMeta6 = mmc_mk_box9(3, &FUnit_Unit_UNIT__desc, mmc_mk_real(_factor1), mmc_mk_integer(_i1), mmc_mk_integer(_i2), mmc_mk_integer(_i3), mmc_mk_integer(_i4), mmc_mk_integer(_i5), mmc_mk_integer(_i6), mmc_mk_integer(_i7));
         tmpMeta7 = stringAppend(tmpMeta5,omc_FUnit_unitString(threadData, tmpMeta6, _inHtU2S));
         tmpMeta8 = stringAppend(tmpMeta7,_OMC_LIT9);
-        __omcQ_24tmpVar0 = tmpMeta8;
-        *tmp2 = mmc_mk_cons(__omcQ_24tmpVar0,0);
+        __omcQ_24tmpVar2 = tmpMeta8;
+        *tmp2 = mmc_mk_cons(__omcQ_24tmpVar2,0);
         tmp2 = &MMC_CDR(*tmp2);
       } else if (tmp9 == 1) {
         break;
@@ -6043,7 +6043,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_FUnitCheck_notification2(threadDat
       }
     }
     *tmp2 = mmc_mk_nil();
-    tmpMeta1 = __omcQ_24tmpVar1;
+    tmpMeta1 = __omcQ_24tmpVar3;
   }
   _outS = stringAppendList(tmpMeta1);
   _return: OMC_LABEL_UNUSED

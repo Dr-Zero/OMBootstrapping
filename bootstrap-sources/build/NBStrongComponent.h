@@ -18,6 +18,8 @@ extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
 extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
+extern struct record_description NBEquation_Iterator_EMPTY__desc;
+
 extern struct record_description NBSlice_SLICE__desc;
 
 extern struct record_description NBStrongComponent_ALGEBRAIC__LOOP__desc;
@@ -63,7 +65,7 @@ extern struct record_description SCode_Comment_COMMENT__desc;
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
-#define boxptr_NBStrongComponent_prepareDependencies_addStateDependencies omc_NBStrongComponent_prepareDependencies_addStateDependencies
+#define boxptr_NBStrongComponent_prepareDependencies_addSubDependencies omc_NBStrongComponent_prepareDependencies_addSubDependencies
 
 
 #define boxptr_NBStrongComponent_updateDependencyMap omc_NBStrongComponent_updateDependencyMap
@@ -84,6 +86,22 @@ modelica_metatype omc_NBStrongComponent_createPseudoScalar(threadData_t *threadD
 #define boxptr_NBStrongComponent_createPseudoScalar omc_NBStrongComponent_createPseudoScalar
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBStrongComponent_createPseudoScalar,2,0) {(void*) boxptr_NBStrongComponent_createPseudoScalar,0}};
 #define boxvar_NBStrongComponent_createPseudoScalar MMC_REFSTRUCTLIT(boxvar_lit_NBStrongComponent_createPseudoScalar)
+
+
+DLLDirection
+modelica_boolean omc_NBStrongComponent_isAlgebraicLoop(threadData_t *threadData, modelica_metatype _comp);
+DLLDirection
+modelica_metatype boxptr_NBStrongComponent_isAlgebraicLoop(threadData_t *threadData, modelica_metatype _comp);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBStrongComponent_isAlgebraicLoop,2,0) {(void*) boxptr_NBStrongComponent_isAlgebraicLoop,0}};
+#define boxvar_NBStrongComponent_isAlgebraicLoop MMC_REFSTRUCTLIT(boxvar_lit_NBStrongComponent_isAlgebraicLoop)
+
+
+DLLDirection
+modelica_boolean omc_NBStrongComponent_isSingleComponent(threadData_t *threadData, modelica_metatype _comp);
+DLLDirection
+modelica_metatype boxptr_NBStrongComponent_isSingleComponent(threadData_t *threadData, modelica_metatype _comp);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBStrongComponent_isSingleComponent,2,0) {(void*) boxptr_NBStrongComponent_isSingleComponent,0}};
+#define boxvar_NBStrongComponent_isSingleComponent MMC_REFSTRUCTLIT(boxvar_lit_NBStrongComponent_isSingleComponent)
 
 
 DLLDirection
@@ -108,6 +126,28 @@ DLLDirection
 modelica_metatype boxptr_NBStrongComponent_isDiscrete(threadData_t *threadData, modelica_metatype _comp);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBStrongComponent_isDiscrete,2,0) {(void*) boxptr_NBStrongComponent_isDiscrete,0}};
 #define boxvar_NBStrongComponent_isDiscrete MMC_REFSTRUCTLIT(boxvar_lit_NBStrongComponent_isDiscrete)
+
+
+DLLDirection
+modelica_integer omc_NBStrongComponent_getSolveStatus(threadData_t *threadData, modelica_metatype _comp);
+DLLDirection
+modelica_metatype boxptr_NBStrongComponent_getSolveStatus(threadData_t *threadData, modelica_metatype _comp);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBStrongComponent_getSolveStatus,2,0) {(void*) boxptr_NBStrongComponent_getSolveStatus,0}};
+#define boxvar_NBStrongComponent_getSolveStatus MMC_REFSTRUCTLIT(boxvar_lit_NBStrongComponent_getSolveStatus)
+
+
+DLLDirection
+modelica_metatype omc_NBStrongComponent_getEquations(threadData_t *threadData, modelica_metatype _comp);
+#define boxptr_NBStrongComponent_getEquations omc_NBStrongComponent_getEquations
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBStrongComponent_getEquations,2,0) {(void*) boxptr_NBStrongComponent_getEquations,0}};
+#define boxvar_NBStrongComponent_getEquations MMC_REFSTRUCTLIT(boxvar_lit_NBStrongComponent_getEquations)
+
+
+DLLDirection
+modelica_metatype omc_NBStrongComponent_getVarCref(threadData_t *threadData, modelica_metatype _comp);
+#define boxptr_NBStrongComponent_getVarCref omc_NBStrongComponent_getVarCref
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBStrongComponent_getVarCref,2,0) {(void*) boxptr_NBStrongComponent_getVarCref,0}};
+#define boxvar_NBStrongComponent_getVarCref MMC_REFSTRUCTLIT(boxvar_lit_NBStrongComponent_getVarCref)
 
 
 DLLDirection
@@ -170,10 +210,41 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBStrongComponent_fromSolvedEquationSli
 
 
 DLLDirection
-modelica_metatype omc_NBStrongComponent_makeDAEModeResidualTraverse(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feq_5Fptr, modelica_metatype _acc);
-#define boxptr_NBStrongComponent_makeDAEModeResidualTraverse omc_NBStrongComponent_makeDAEModeResidualTraverse
-static const MMC_DEFSTRUCTLIT(boxvar_lit_NBStrongComponent_makeDAEModeResidualTraverse,2,0) {(void*) boxptr_NBStrongComponent_makeDAEModeResidualTraverse,0}};
-#define boxvar_NBStrongComponent_makeDAEModeResidualTraverse MMC_REFSTRUCTLIT(boxvar_lit_NBStrongComponent_makeDAEModeResidualTraverse)
+modelica_metatype omc_NBStrongComponent_inlinedDAEModeComponent(threadData_t *threadData, modelica_metatype _eqns, modelica_integer *out_dae_type);
+DLLDirection
+modelica_metatype boxptr_NBStrongComponent_inlinedDAEModeComponent(threadData_t *threadData, modelica_metatype _eqns, modelica_metatype *out_dae_type);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBStrongComponent_inlinedDAEModeComponent,2,0) {(void*) boxptr_NBStrongComponent_inlinedDAEModeComponent,0}};
+#define boxvar_NBStrongComponent_inlinedDAEModeComponent MMC_REFSTRUCTLIT(boxvar_lit_NBStrongComponent_inlinedDAEModeComponent)
+
+
+DLLDirection
+modelica_metatype omc_NBStrongComponent_singleDAEModeComponent(threadData_t *threadData, modelica_metatype _eqn_ptr, modelica_metatype _variables, modelica_metatype _uniqueIndex, modelica_integer *out_dae_type);
+DLLDirection
+modelica_metatype boxptr_NBStrongComponent_singleDAEModeComponent(threadData_t *threadData, modelica_metatype _eqn_ptr, modelica_metatype _variables, modelica_metatype _uniqueIndex, modelica_metatype *out_dae_type);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBStrongComponent_singleDAEModeComponent,2,0) {(void*) boxptr_NBStrongComponent_singleDAEModeComponent,0}};
+#define boxvar_NBStrongComponent_singleDAEModeComponent MMC_REFSTRUCTLIT(boxvar_lit_NBStrongComponent_singleDAEModeComponent)
+
+
+DLLDirection
+modelica_metatype omc_NBStrongComponent_slicedDAEModeComponent(threadData_t *threadData, modelica_metatype _var_slices, modelica_metatype _eqn_slices, modelica_metatype _variables, modelica_metatype _uniqueIndex, modelica_metatype _slice_set, modelica_integer *out_dae_type);
+DLLDirection
+modelica_metatype boxptr_NBStrongComponent_slicedDAEModeComponent(threadData_t *threadData, modelica_metatype _var_slices, modelica_metatype _eqn_slices, modelica_metatype _variables, modelica_metatype _uniqueIndex, modelica_metatype _slice_set, modelica_metatype *out_dae_type);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBStrongComponent_slicedDAEModeComponent,2,0) {(void*) boxptr_NBStrongComponent_slicedDAEModeComponent,0}};
+#define boxvar_NBStrongComponent_slicedDAEModeComponent MMC_REFSTRUCTLIT(boxvar_lit_NBStrongComponent_slicedDAEModeComponent)
+
+
+DLLDirection
+modelica_metatype omc_NBStrongComponent_sortDAEModeComponent(threadData_t *threadData, modelica_metatype _comp, modelica_metatype __omcQ_24in_5Fresiduals, modelica_metatype __omcQ_24in_5Finners, modelica_metatype _variables, modelica_metatype _uniqueIndex, modelica_metatype _slice_set, modelica_metatype *out_inners);
+#define boxptr_NBStrongComponent_sortDAEModeComponent omc_NBStrongComponent_sortDAEModeComponent
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBStrongComponent_sortDAEModeComponent,2,0) {(void*) boxptr_NBStrongComponent_sortDAEModeComponent,0}};
+#define boxvar_NBStrongComponent_sortDAEModeComponent MMC_REFSTRUCTLIT(boxvar_lit_NBStrongComponent_sortDAEModeComponent)
+
+
+DLLDirection
+modelica_metatype omc_NBStrongComponent_sortDAEModeComponents(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fcomps, modelica_metatype _variables, modelica_metatype _uniqueIndex);
+#define boxptr_NBStrongComponent_sortDAEModeComponents omc_NBStrongComponent_sortDAEModeComponents
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBStrongComponent_sortDAEModeComponents,2,0) {(void*) boxptr_NBStrongComponent_sortDAEModeComponents,0}};
+#define boxvar_NBStrongComponent_sortDAEModeComponents MMC_REFSTRUCTLIT(boxvar_lit_NBStrongComponent_sortDAEModeComponents)
 
 
 DLLDirection
@@ -211,6 +282,14 @@ modelica_metatype omc_NBStrongComponent_removeAlias(threadData_t *threadData, mo
 #define boxptr_NBStrongComponent_removeAlias omc_NBStrongComponent_removeAlias
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBStrongComponent_removeAlias,2,0) {(void*) boxptr_NBStrongComponent_removeAlias,0}};
 #define boxvar_NBStrongComponent_removeAlias MMC_REFSTRUCTLIT(boxvar_lit_NBStrongComponent_removeAlias)
+
+
+DLLDirection
+modelica_integer omc_NBStrongComponent_size(threadData_t *threadData, modelica_metatype _comp, modelica_boolean _resize);
+DLLDirection
+modelica_metatype boxptr_NBStrongComponent_size(threadData_t *threadData, modelica_metatype _comp, modelica_metatype _resize);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBStrongComponent_size,2,0) {(void*) boxptr_NBStrongComponent_size,0}};
+#define boxvar_NBStrongComponent_size MMC_REFSTRUCTLIT(boxvar_lit_NBStrongComponent_size)
 
 
 DLLDirection

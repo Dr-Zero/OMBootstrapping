@@ -59,6 +59,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_AvlTreeStringString_addList,2,0) {(void
 #define boxvar_AvlTreeStringString_addList MMC_REFSTRUCTLIT(boxvar_lit_AvlTreeStringString_addList)
 
 
+DLLDirection
+modelica_metatype omc_AvlTreeStringString_addUpdate(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftree, modelica_string _key, modelica_fnptr _fn);
+#define boxptr_AvlTreeStringString_addUpdate omc_AvlTreeStringString_addUpdate
+static const MMC_DEFSTRUCTLIT(boxvar_lit_AvlTreeStringString_addUpdate,2,0) {(void*) boxptr_AvlTreeStringString_addUpdate,0}};
+#define boxvar_AvlTreeStringString_addUpdate MMC_REFSTRUCTLIT(boxvar_lit_AvlTreeStringString_addUpdate)
+
+
 #define boxptr_AvlTreeStringString_balance omc_AvlTreeStringString_balance
 
 
@@ -157,7 +164,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_AvlTreeStringString_keyStr,2,0) {(void*
 
 
 DLLDirection
-modelica_metatype omc_AvlTreeStringString_listKeys(threadData_t *threadData, modelica_metatype _inTree, modelica_metatype __omcQ_24in_5Flst);
+modelica_metatype omc_AvlTreeStringString_listKeys(threadData_t *threadData, modelica_metatype _tree, modelica_metatype __omcQ_24in_5Flst);
 #define boxptr_AvlTreeStringString_listKeys omc_AvlTreeStringString_listKeys
 static const MMC_DEFSTRUCTLIT(boxvar_lit_AvlTreeStringString_listKeys,2,0) {(void*) boxptr_AvlTreeStringString_listKeys,0}};
 #define boxvar_AvlTreeStringString_listKeys MMC_REFSTRUCTLIT(boxvar_lit_AvlTreeStringString_listKeys)

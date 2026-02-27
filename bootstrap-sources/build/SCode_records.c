@@ -680,6 +680,32 @@ ADD_METARECORD_DEFINITIONS struct record_description SCode_Mod_REDECL__desc = {
 extern struct record_description SCode_Mod_REDECL__desc;
 #endif
 #ifdef ADD_METARECORD_DEFINITIONS
+#ifndef SCode_Mod_BREAK__COMPONENT__desc_added
+#define SCode_Mod_BREAK__COMPONENT__desc_added
+ADD_METARECORD_DEFINITIONS const char* SCode_Mod_BREAK__COMPONENT__desc__fields[1] = {"info"};
+ADD_METARECORD_DEFINITIONS struct record_description SCode_Mod_BREAK__COMPONENT__desc = {
+  "SCode_Mod_BREAK__COMPONENT",
+  "SCode.Mod.BREAK_COMPONENT",
+  SCode_Mod_BREAK__COMPONENT__desc__fields
+};
+#endif
+#else /* Only use the file as a header */
+extern struct record_description SCode_Mod_BREAK__COMPONENT__desc;
+#endif
+#ifdef ADD_METARECORD_DEFINITIONS
+#ifndef SCode_Mod_BREAK__CONNECT__desc_added
+#define SCode_Mod_BREAK__CONNECT__desc_added
+ADD_METARECORD_DEFINITIONS const char* SCode_Mod_BREAK__CONNECT__desc__fields[3] = {"lhs","rhs","info"};
+ADD_METARECORD_DEFINITIONS struct record_description SCode_Mod_BREAK__CONNECT__desc = {
+  "SCode_Mod_BREAK__CONNECT",
+  "SCode.Mod.BREAK_CONNECT",
+  SCode_Mod_BREAK__CONNECT__desc__fields
+};
+#endif
+#else /* Only use the file as a header */
+extern struct record_description SCode_Mod_BREAK__CONNECT__desc;
+#endif
+#ifdef ADD_METARECORD_DEFINITIONS
 #ifndef SCode_Mod_NOMOD__desc_added
 #define SCode_Mod_NOMOD__desc_added
 ADD_METARECORD_DEFINITIONS const char* SCode_Mod_NOMOD__desc__fields[1] = {"no fields"};
@@ -704,6 +730,32 @@ ADD_METARECORD_DEFINITIONS struct record_description SCode_Mod_NOMOD__desc = {
 #endif
 #else /* Only use the file as a header */
 extern struct record_description SCode_Mod_NOMOD__desc;
+#endif
+#ifdef ADD_METARECORD_DEFINITIONS
+#ifndef SCode_Mod_BREAK__CONNECT__desc_added
+#define SCode_Mod_BREAK__CONNECT__desc_added
+ADD_METARECORD_DEFINITIONS const char* SCode_Mod_BREAK__CONNECT__desc__fields[3] = {"lhs","rhs","info"};
+ADD_METARECORD_DEFINITIONS struct record_description SCode_Mod_BREAK__CONNECT__desc = {
+  "SCode_Mod_BREAK__CONNECT",
+  "SCode.Mod.BREAK_CONNECT",
+  SCode_Mod_BREAK__CONNECT__desc__fields
+};
+#endif
+#else /* Only use the file as a header */
+extern struct record_description SCode_Mod_BREAK__CONNECT__desc;
+#endif
+#ifdef ADD_METARECORD_DEFINITIONS
+#ifndef SCode_Mod_BREAK__COMPONENT__desc_added
+#define SCode_Mod_BREAK__COMPONENT__desc_added
+ADD_METARECORD_DEFINITIONS const char* SCode_Mod_BREAK__COMPONENT__desc__fields[1] = {"info"};
+ADD_METARECORD_DEFINITIONS struct record_description SCode_Mod_BREAK__COMPONENT__desc = {
+  "SCode_Mod_BREAK__COMPONENT",
+  "SCode.Mod.BREAK_COMPONENT",
+  SCode_Mod_BREAK__COMPONENT__desc__fields
+};
+#endif
+#else /* Only use the file as a header */
+extern struct record_description SCode_Mod_BREAK__COMPONENT__desc;
 #endif
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef SCode_Mod_REDECL__desc_added

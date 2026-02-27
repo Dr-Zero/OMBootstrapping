@@ -938,8 +938,8 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT378,3,6) {&Tpl_StringToken_ST__STRI
 #define _OMC_LIT379_data "Unknown operation"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT379,17,_OMC_LIT379_data);
 #define _OMC_LIT379 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT379)
-#define _OMC_LIT380_data "AbsynDumpTpl.tpl"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT380,16,_OMC_LIT380_data);
+#define _OMC_LIT380_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/Template/AbsynDumpTpl.tpl"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT380,78,_OMC_LIT380_data);
 #define _OMC_LIT380 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT380)
 #include "util/modelica.h"
 

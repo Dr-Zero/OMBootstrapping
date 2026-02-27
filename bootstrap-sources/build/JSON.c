@@ -60,11 +60,11 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT21,8,_OMC_LIT21_data);
 #define _OMC_LIT22_data ""
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT22,0,_OMC_LIT22_data);
 #define _OMC_LIT22 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT22)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT23,1,9) {&JSON_TRUE__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT23,1,10) {&JSON_TRUE__desc,}};
 #define _OMC_LIT23 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT23)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT24,1,10) {&JSON_FALSE__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT24,1,11) {&JSON_FALSE__desc,}};
 #define _OMC_LIT24 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT24)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT25,1,11) {&JSON_NULL__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT25,1,12) {&JSON_NULL__desc,}};
 #define _OMC_LIT25 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT25)
 #define _OMC_LIT26_data "a value"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT26,7,_OMC_LIT26_data);
@@ -418,7 +418,7 @@ modelica_metatype omc_JSON_parse__object(threadData_t *threadData, modelica_meta
     if(!_cont) break;
     /* Pattern-matching tuple assignment */
     tmpMeta2 = omc_JSON_parse__string(threadData, _tokens, &tmpMeta1);
-    if (mmc__uniontype__metarecord__typedef__equal(tmpMeta2,3,1) == 0) MMC_THROW_INTERNAL();
+    if (mmc__uniontype__metarecord__typedef__equal(tmpMeta2,4,1) == 0) MMC_THROW_INTERNAL();
     tmpMeta3 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta2), 2));
     _key = tmpMeta3;
     _tokens = tmpMeta1;
@@ -522,7 +522,7 @@ modelica_metatype omc_JSON_parse__number(threadData_t *threadData, modelica_meta
 
   _content = omc_LexerJSON_tokenContent(threadData, _tok);
 
-  tmpMeta5 = mmc_mk_box2(8, &JSON_NUMBER__desc, mmc_mk_real(stringReal(_content)));
+  tmpMeta5 = mmc_mk_box2(9, &JSON_NUMBER__desc, mmc_mk_real(stringReal(_content)));
   _value = tmpMeta5;
   _return: OMC_LABEL_UNUSED
   if (out_tokens) { *out_tokens = _tokens; }
@@ -569,7 +569,7 @@ modelica_metatype omc_JSON_parse__integer(threadData_t *threadData, modelica_met
 
   _content = omc_LexerJSON_tokenContent(threadData, _tok);
 
-  tmpMeta5 = mmc_mk_box2(7, &JSON_INTEGER__desc, mmc_mk_integer(stringInt(_content)));
+  tmpMeta5 = mmc_mk_box2(8, &JSON_INTEGER__desc, mmc_mk_integer(stringInt(_content)));
   _value = tmpMeta5;
   _return: OMC_LABEL_UNUSED
   if (out_tokens) { *out_tokens = _tokens; }
@@ -625,7 +625,7 @@ modelica_metatype omc_JSON_parse__string(threadData_t *threadData, modelica_meta
     _content = omc_System_unescapedString(threadData, substring(_content, ((modelica_integer) 2), ((modelica_integer) -1) + stringLength(_content)));
   }
 
-  tmpMeta5 = mmc_mk_box2(6, &JSON_STRING__desc, _content);
+  tmpMeta5 = mmc_mk_box2(7, &JSON_STRING__desc, _content);
   _value = tmpMeta5;
   _return: OMC_LABEL_UNUSED
   if (out_tokens) { *out_tokens = _tokens; }
@@ -663,79 +663,78 @@ modelica_metatype omc_JSON_parse__value(threadData_t *threadData, modelica_metat
     modelica_metatype tmp7_1;
     tmp7_1 = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tok), 3)));
     {
-      volatile mmc_switch_type tmp7;
-      int tmp8;
-      tmp7 = 0;
-      for (; tmp7 < 9; tmp7++) {
-        switch (MMC_SWITCH_CAST(tmp7)) {
-        case 0: {
-          modelica_integer tmp9;
-          tmp9 = mmc_unbox_integer(tmp7_1);
-          if (12 != tmp9) goto tmp6_end;
+      int tmp7;
+      {
+        switch (MMC_SWITCH_CAST(mmc_unbox_integer(tmp7_1))) {
+        case 12: {
+          modelica_integer tmp8;
+          tmp8 = mmc_unbox_integer(tmp7_1);
+          if (12 != tmp8) goto tmp6_end;
           /* Pattern matching succeeded */
           tmpMeta[0+0] = omc_JSON_parse__string(threadData, _inTokens, &tmpMeta[0+1]);
           goto tmp6_done;
         }
-        case 1: {
-          modelica_integer tmp10;
-          tmp10 = mmc_unbox_integer(tmp7_1);
-          if (7 != tmp10) goto tmp6_end;
+        case 7: {
+          modelica_integer tmp9;
+          tmp9 = mmc_unbox_integer(tmp7_1);
+          if (7 != tmp9) goto tmp6_end;
           /* Pattern matching succeeded */
           tmpMeta[0+0] = omc_JSON_parse__integer(threadData, _inTokens, &tmpMeta[0+1]);
           goto tmp6_done;
         }
-        case 2: {
-          modelica_integer tmp11;
-          tmp11 = mmc_unbox_integer(tmp7_1);
-          if (9 != tmp11) goto tmp6_end;
+        case 9: {
+          modelica_integer tmp10;
+          tmp10 = mmc_unbox_integer(tmp7_1);
+          if (9 != tmp10) goto tmp6_end;
           /* Pattern matching succeeded */
           tmpMeta[0+0] = omc_JSON_parse__number(threadData, _inTokens, &tmpMeta[0+1]);
           goto tmp6_done;
         }
-        case 3: {
-          modelica_integer tmp12;
-          tmp12 = mmc_unbox_integer(tmp7_1);
-          if (10 != tmp12) goto tmp6_end;
+        case 10: {
+          modelica_integer tmp11;
+          tmp11 = mmc_unbox_integer(tmp7_1);
+          if (10 != tmp11) goto tmp6_end;
           /* Pattern matching succeeded */
           tmpMeta[0+0] = omc_JSON_parse__object(threadData, _inTokens, &tmpMeta[0+1]);
           goto tmp6_done;
         }
-        case 4: {
-          modelica_integer tmp13;
-          tmp13 = mmc_unbox_integer(tmp7_1);
-          if (2 != tmp13) goto tmp6_end;
+        case 2: {
+          modelica_integer tmp12;
+          tmp12 = mmc_unbox_integer(tmp7_1);
+          if (2 != tmp12) goto tmp6_end;
           /* Pattern matching succeeded */
           tmpMeta[0+0] = omc_JSON_parse__array(threadData, _inTokens, &tmpMeta[0+1]);
           goto tmp6_done;
         }
-        case 5: {
-          modelica_integer tmp14;
-          tmp14 = mmc_unbox_integer(tmp7_1);
-          if (13 != tmp14) goto tmp6_end;
+        case 13: {
+          modelica_integer tmp13;
+          tmp13 = mmc_unbox_integer(tmp7_1);
+          if (13 != tmp13) goto tmp6_end;
           /* Pattern matching succeeded */
           tmpMeta[0+0] = _OMC_LIT23;
           tmpMeta[0+1] = _tokens;
           goto tmp6_done;
         }
         case 6: {
-          modelica_integer tmp15;
-          tmp15 = mmc_unbox_integer(tmp7_1);
-          if (6 != tmp15) goto tmp6_end;
+          modelica_integer tmp14;
+          tmp14 = mmc_unbox_integer(tmp7_1);
+          if (6 != tmp14) goto tmp6_end;
           /* Pattern matching succeeded */
           tmpMeta[0+0] = _OMC_LIT24;
           tmpMeta[0+1] = _tokens;
           goto tmp6_done;
         }
-        case 7: {
-          modelica_integer tmp16;
-          tmp16 = mmc_unbox_integer(tmp7_1);
-          if (8 != tmp16) goto tmp6_end;
+        case 8: {
+          modelica_integer tmp15;
+          tmp15 = mmc_unbox_integer(tmp7_1);
+          if (8 != tmp15) goto tmp6_end;
           /* Pattern matching succeeded */
           tmpMeta[0+0] = _OMC_LIT25;
           tmpMeta[0+1] = _tokens;
           goto tmp6_done;
         }
-        case 8: {
+        default:
+        tmp6_default: OMC_LABEL_UNUSED; {
           
           /* Pattern matching succeeded */
           omc_JSON_errorExpected(threadData, _OMC_LIT26, _tok);
@@ -829,6 +828,12 @@ modelica_integer omc_JSON_size(threadData_t *threadData, modelica_metatype _obj)
           tmp1 = omc_Vector_size(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_obj), 2))));
           goto tmp3_done;
         }
+        case 6: {
+          
+          /* Pattern matching succeeded */
+          tmp1 = listLength((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_obj), 2))));
+          goto tmp3_done;
+        }
         default:
         tmp3_default: OMC_LABEL_UNUSED; {
           
@@ -878,13 +883,13 @@ modelica_boolean omc_JSON_getBoolean(threadData_t *threadData, modelica_metatype
       for (; tmp4 < 2; tmp4++) {
         switch (MMC_SWITCH_CAST(tmp4)) {
         case 0: {
-          if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,6,0) == 0) goto tmp3_end;
+          if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,7,0) == 0) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = 1 /* true */;
           goto tmp3_done;
         }
         case 1: {
-          if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,7,0) == 0) goto tmp3_end;
+          if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,8,0) == 0) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = 0 /* false */;
           goto tmp3_done;
@@ -943,15 +948,15 @@ modelica_metatype omc_JSON_getKeys(threadData_t *threadData, modelica_metatype _
           
           /* Pattern matching succeeded */
           {
-            modelica_metatype __omcQ_24tmpVar1;
+            modelica_metatype __omcQ_24tmpVar3;
             modelica_metatype tmpMeta7;
-            modelica_string __omcQ_24tmpVar0;
+            modelica_string __omcQ_24tmpVar2;
             modelica_integer tmp8;
             modelica_metatype _e_loopVar = 0;
             modelica_metatype _e;
             _e_loopVar = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_obj), 2)));
             tmpMeta7 = MMC_REFSTRUCTLIT(mmc_nil);
-            __omcQ_24tmpVar1 = tmpMeta7; /* defaultValue */
+            __omcQ_24tmpVar3 = tmpMeta7; /* defaultValue */
             while(1) {
               tmp8 = 1;
               if (!listEmpty(_e_loopVar)) {
@@ -960,15 +965,15 @@ modelica_metatype omc_JSON_getKeys(threadData_t *threadData, modelica_metatype _
                 tmp8--;
               }
               if (tmp8 == 0) {
-                __omcQ_24tmpVar0 = omc_Util_tuple21(threadData, _e);
-                __omcQ_24tmpVar1 = mmc_mk_cons(__omcQ_24tmpVar0,__omcQ_24tmpVar1);
+                __omcQ_24tmpVar2 = omc_Util_tuple21(threadData, _e);
+                __omcQ_24tmpVar3 = mmc_mk_cons(__omcQ_24tmpVar2,__omcQ_24tmpVar3);
               } else if (tmp8 == 1) {
                 break;
               } else {
                 goto goto_2;
               }
             }
-            tmpMeta6 = __omcQ_24tmpVar1;
+            tmpMeta6 = __omcQ_24tmpVar3;
           }
           tmpMeta1 = tmpMeta6;
           goto tmp3_done;
@@ -1009,17 +1014,17 @@ modelica_metatype omc_JSON_getStringList(threadData_t *threadData, modelica_meta
           
           /* Pattern matching succeeded */
           {
-            modelica_metatype __omcQ_24tmpVar3;
+            modelica_metatype __omcQ_24tmpVar5;
             modelica_metatype* tmp6;
             modelica_metatype tmpMeta7;
-            modelica_string __omcQ_24tmpVar2;
+            modelica_string __omcQ_24tmpVar4;
             modelica_integer tmp8;
             modelica_metatype _v_loopVar = 0;
             modelica_metatype _v;
             _v_loopVar = omc_UnorderedMap_valueList(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_obj), 2))));
             tmpMeta7 = MMC_REFSTRUCTLIT(mmc_nil);
-            __omcQ_24tmpVar3 = tmpMeta7; /* defaultValue */
-            tmp6 = &__omcQ_24tmpVar3;
+            __omcQ_24tmpVar5 = tmpMeta7; /* defaultValue */
+            tmp6 = &__omcQ_24tmpVar5;
             while(1) {
               tmp8 = 1;
               if (!listEmpty(_v_loopVar)) {
@@ -1028,8 +1033,8 @@ modelica_metatype omc_JSON_getStringList(threadData_t *threadData, modelica_meta
                 tmp8--;
               }
               if (tmp8 == 0) {
-                __omcQ_24tmpVar2 = omc_JSON_getString(threadData, _v);
-                *tmp6 = mmc_mk_cons(__omcQ_24tmpVar2,0);
+                __omcQ_24tmpVar4 = omc_JSON_getString(threadData, _v);
+                *tmp6 = mmc_mk_cons(__omcQ_24tmpVar4,0);
                 tmp6 = &MMC_CDR(*tmp6);
               } else if (tmp8 == 1) {
                 break;
@@ -1038,7 +1043,7 @@ modelica_metatype omc_JSON_getStringList(threadData_t *threadData, modelica_meta
               }
             }
             *tmp6 = mmc_mk_nil();
-            tmpMeta5 = __omcQ_24tmpVar3;
+            tmpMeta5 = __omcQ_24tmpVar5;
           }
           tmpMeta1 = tmpMeta5;
           goto tmp3_done;
@@ -1048,15 +1053,15 @@ modelica_metatype omc_JSON_getStringList(threadData_t *threadData, modelica_meta
           
           /* Pattern matching succeeded */
           {
-            modelica_metatype __omcQ_24tmpVar5;
+            modelica_metatype __omcQ_24tmpVar7;
             modelica_metatype tmpMeta10;
-            modelica_string __omcQ_24tmpVar4;
+            modelica_string __omcQ_24tmpVar6;
             modelica_integer tmp11;
             modelica_metatype _v_loopVar = 0;
             modelica_metatype _v;
             _v_loopVar = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_obj), 2)));
             tmpMeta10 = MMC_REFSTRUCTLIT(mmc_nil);
-            __omcQ_24tmpVar5 = tmpMeta10; /* defaultValue */
+            __omcQ_24tmpVar7 = tmpMeta10; /* defaultValue */
             while(1) {
               tmp11 = 1;
               if (!listEmpty(_v_loopVar)) {
@@ -1065,15 +1070,15 @@ modelica_metatype omc_JSON_getStringList(threadData_t *threadData, modelica_meta
                 tmp11--;
               }
               if (tmp11 == 0) {
-                __omcQ_24tmpVar4 = omc_JSON_getString(threadData, omc_Util_tuple22(threadData, _v));
-                __omcQ_24tmpVar5 = mmc_mk_cons(__omcQ_24tmpVar4,__omcQ_24tmpVar5);
+                __omcQ_24tmpVar6 = omc_JSON_getString(threadData, omc_Util_tuple22(threadData, _v));
+                __omcQ_24tmpVar7 = mmc_mk_cons(__omcQ_24tmpVar6,__omcQ_24tmpVar7);
               } else if (tmp11 == 1) {
                 break;
               } else {
                 goto goto_2;
               }
             }
-            tmpMeta9 = __omcQ_24tmpVar5;
+            tmpMeta9 = __omcQ_24tmpVar7;
           }
           tmpMeta1 = tmpMeta9;
           goto tmp3_done;
@@ -1082,6 +1087,45 @@ modelica_metatype omc_JSON_getStringList(threadData_t *threadData, modelica_meta
           
           /* Pattern matching succeeded */
           tmpMeta1 = omc_Vector_mapToList(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_obj), 2))), boxvar_JSON_getString);
+          goto tmp3_done;
+        }
+        case 6: {
+          modelica_metatype tmpMeta12;
+          
+          /* Pattern matching succeeded */
+          {
+            modelica_metatype __omcQ_24tmpVar9;
+            modelica_metatype* tmp13;
+            modelica_metatype tmpMeta14;
+            modelica_string __omcQ_24tmpVar8;
+            modelica_integer tmp15;
+            modelica_metatype _v_loopVar = 0;
+            modelica_metatype _v;
+            _v_loopVar = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_obj), 2)));
+            tmpMeta14 = MMC_REFSTRUCTLIT(mmc_nil);
+            __omcQ_24tmpVar9 = tmpMeta14; /* defaultValue */
+            tmp13 = &__omcQ_24tmpVar9;
+            while(1) {
+              tmp15 = 1;
+              if (!listEmpty(_v_loopVar)) {
+                _v = MMC_CAR(_v_loopVar);
+                _v_loopVar = MMC_CDR(_v_loopVar);
+                tmp15--;
+              }
+              if (tmp15 == 0) {
+                __omcQ_24tmpVar8 = omc_JSON_getString(threadData, _v);
+                *tmp13 = mmc_mk_cons(__omcQ_24tmpVar8,0);
+                tmp13 = &MMC_CDR(*tmp13);
+              } else if (tmp15 == 1) {
+                break;
+              } else {
+                goto goto_2;
+              }
+            }
+            *tmp13 = mmc_mk_nil();
+            tmpMeta12 = __omcQ_24tmpVar9;
+          }
+          tmpMeta1 = tmpMeta12;
           goto tmp3_done;
         }
         }
@@ -1111,7 +1155,7 @@ modelica_string omc_JSON_getString(threadData_t *threadData, modelica_metatype _
   // _str has no default value.
   /* Pattern-matching assignment */
   tmpMeta1 = _obj;
-  if (mmc__uniontype__metarecord__typedef__equal(tmpMeta1,3,1) == 0) MMC_THROW_INTERNAL();
+  if (mmc__uniontype__metarecord__typedef__equal(tmpMeta1,4,1) == 0) MMC_THROW_INTERNAL();
   tmpMeta2 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta1), 2));
   _str = tmpMeta2;
   _return: OMC_LABEL_UNUSED
@@ -1492,6 +1536,50 @@ void omc_JSON_toStringPP__object(threadData_t *threadData, modelica_metatype _ma
 }
 
 DLLDirection
+void omc_JSON_toStringPP__list(threadData_t *threadData, modelica_metatype _values, modelica_string _indent)
+{
+  modelica_string _next_indent = NULL;
+  modelica_metatype tmpMeta1;
+  modelica_boolean _first;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta3;
+  MMC_SO();
+  _tailrecursive: OMC_LABEL_UNUSED
+  tmpMeta1 = stringAppend(_indent,_OMC_LIT28);
+  _next_indent = tmpMeta1;
+  _first = 1 /* true */;
+  omc_Print_printBuf(threadData, _OMC_LIT36);
+
+  {
+    modelica_metatype _v;
+    for (tmpMeta2 = _values; !listEmpty(tmpMeta2); tmpMeta2=MMC_CDR(tmpMeta2))
+    {
+      _v = MMC_CAR(tmpMeta2);
+      if(_first)
+      {
+        _first = 0 /* false */;
+      }
+      else
+      {
+        omc_Print_printBuf(threadData, _OMC_LIT30);
+      }
+
+      omc_Print_printBuf(threadData, _next_indent);
+
+      omc_JSON_toStringPP__work(threadData, _v, _next_indent);
+    }
+  }
+
+  omc_Print_printBuf(threadData, _OMC_LIT33);
+
+  omc_Print_printBuf(threadData, _indent);
+
+  omc_Print_printBuf(threadData, _OMC_LIT37);
+  _return: OMC_LABEL_UNUSED
+  return;
+}
+
+DLLDirection
 void omc_JSON_toStringPP__array(threadData_t *threadData, modelica_metatype _values, modelica_string _indent)
 {
   modelica_string _next_indent = NULL;
@@ -1543,7 +1631,7 @@ void omc_JSON_toStringPP__work(threadData_t *threadData, modelica_metatype _valu
       int tmp3;
       {
         switch (MMC_SWITCH_CAST(valueConstructor(tmp3_1))) {
-        case 6: {
+        case 7: {
           
           /* Pattern matching succeeded */
           omc_Print_printBuf(threadData, _OMC_LIT31);
@@ -1553,25 +1641,25 @@ void omc_JSON_toStringPP__work(threadData_t *threadData, modelica_metatype _valu
           omc_Print_printBuf(threadData, _OMC_LIT31);
           goto tmp2_done;
         }
-        case 9: {
+        case 10: {
           
           /* Pattern matching succeeded */
           omc_Print_printBuf(threadData, _OMC_LIT38);
           goto tmp2_done;
         }
-        case 10: {
+        case 11: {
           
           /* Pattern matching succeeded */
           omc_Print_printBuf(threadData, _OMC_LIT39);
           goto tmp2_done;
         }
-        case 11: {
+        case 12: {
           
           /* Pattern matching succeeded */
           omc_Print_printBuf(threadData, _OMC_LIT40);
           goto tmp2_done;
         }
-        case 7: {
+        case 8: {
           modelica_string tmp4;
           
           /* Pattern matching succeeded */
@@ -1579,7 +1667,7 @@ void omc_JSON_toStringPP__work(threadData_t *threadData, modelica_metatype _valu
           omc_Print_printBuf(threadData, tmp4);
           goto tmp2_done;
         }
-        case 8: {
+        case 9: {
           modelica_string tmp5;
           
           /* Pattern matching succeeded */
@@ -1591,6 +1679,12 @@ void omc_JSON_toStringPP__work(threadData_t *threadData, modelica_metatype _valu
           
           /* Pattern matching succeeded */
           omc_JSON_toStringPP__array(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_value), 2))), _indent);
+          goto tmp2_done;
+        }
+        case 6: {
+          
+          /* Pattern matching succeeded */
+          omc_JSON_toStringPP__list(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_value), 2))), _indent);
           goto tmp2_done;
         }
         case 3: {
@@ -1718,6 +1812,40 @@ void omc_JSON_toString__object(threadData_t *threadData, modelica_metatype _map)
 }
 
 DLLDirection
+void omc_JSON_toString__list(threadData_t *threadData, modelica_metatype _values)
+{
+  modelica_boolean _first;
+  modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  MMC_SO();
+  _tailrecursive: OMC_LABEL_UNUSED
+  _first = 1 /* true */;
+  omc_Print_printBuf(threadData, _OMC_LIT43);
+
+  {
+    modelica_metatype _v;
+    for (tmpMeta1 = _values; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
+    {
+      _v = MMC_CAR(tmpMeta1);
+      if(_first)
+      {
+        _first = 0 /* false */;
+      }
+      else
+      {
+        omc_Print_printBuf(threadData, _OMC_LIT41);
+      }
+
+      omc_JSON_toString__work(threadData, _v);
+    }
+  }
+
+  omc_Print_printBuf(threadData, _OMC_LIT37);
+  _return: OMC_LABEL_UNUSED
+  return;
+}
+
+DLLDirection
 void omc_JSON_toString__array(threadData_t *threadData, modelica_metatype _values)
 {
   modelica_integer tmp1;
@@ -1759,7 +1887,7 @@ void omc_JSON_toString__work(threadData_t *threadData, modelica_metatype _value)
       int tmp3;
       {
         switch (MMC_SWITCH_CAST(valueConstructor(tmp3_1))) {
-        case 6: {
+        case 7: {
           
           /* Pattern matching succeeded */
           omc_Print_printBuf(threadData, _OMC_LIT31);
@@ -1769,25 +1897,25 @@ void omc_JSON_toString__work(threadData_t *threadData, modelica_metatype _value)
           omc_Print_printBuf(threadData, _OMC_LIT31);
           goto tmp2_done;
         }
-        case 9: {
+        case 10: {
           
           /* Pattern matching succeeded */
           omc_Print_printBuf(threadData, _OMC_LIT38);
           goto tmp2_done;
         }
-        case 10: {
+        case 11: {
           
           /* Pattern matching succeeded */
           omc_Print_printBuf(threadData, _OMC_LIT39);
           goto tmp2_done;
         }
-        case 11: {
+        case 12: {
           
           /* Pattern matching succeeded */
           omc_Print_printBuf(threadData, _OMC_LIT40);
           goto tmp2_done;
         }
-        case 7: {
+        case 8: {
           modelica_string tmp4;
           
           /* Pattern matching succeeded */
@@ -1795,7 +1923,7 @@ void omc_JSON_toString__work(threadData_t *threadData, modelica_metatype _value)
           omc_Print_printBuf(threadData, tmp4);
           goto tmp2_done;
         }
-        case 8: {
+        case 9: {
           modelica_string tmp5;
           
           /* Pattern matching succeeded */
@@ -1807,6 +1935,12 @@ void omc_JSON_toString__work(threadData_t *threadData, modelica_metatype _value)
           
           /* Pattern matching succeeded */
           omc_JSON_toString__array(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_value), 2))));
+          goto tmp2_done;
+        }
+        case 6: {
+          
+          /* Pattern matching succeeded */
+          omc_JSON_toString__list(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_value), 2))));
           goto tmp2_done;
         }
         case 3: {
@@ -1925,7 +2059,7 @@ modelica_metatype omc_JSON_addPair(threadData_t *threadData, modelica_string _ke
           tmpMeta1 = tmpMeta7;
           goto tmp3_done;
         }
-        case 11: {
+        case 12: {
           
           /* Pattern matching succeeded */
           /* Tail recursive call */
@@ -1988,7 +2122,7 @@ modelica_metatype omc_JSON_addElement(threadData_t *threadData, modelica_metatyp
           goto tmp3_done;
         }
         case 1: {
-          if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,8,0) == 0) goto tmp3_end;
+          if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,9,0) == 0) goto tmp3_end;
           /* Pattern matching succeeded */
           /* Tail recursive call */
           _obj = omc_JSON_emptyArray(threadData, ((modelica_integer) 0));
@@ -2030,7 +2164,7 @@ modelica_boolean omc_JSON_isNull(threadData_t *threadData, modelica_metatype _ob
       for (; tmp4 < 2; tmp4++) {
         switch (MMC_SWITCH_CAST(tmp4)) {
         case 0: {
-          if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,8,0) == 0) goto tmp3_end;
+          if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,9,0) == 0) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = 1 /* true */;
           goto tmp3_done;
@@ -2103,7 +2237,7 @@ modelica_metatype omc_JSON_makeNumber(threadData_t *threadData, modelica_real _r
   modelica_metatype tmpMeta1;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  tmpMeta1 = mmc_mk_box2(8, &JSON_NUMBER__desc, mmc_mk_real(_r));
+  tmpMeta1 = mmc_mk_box2(9, &JSON_NUMBER__desc, mmc_mk_real(_r));
   _obj = tmpMeta1;
   _return: OMC_LABEL_UNUSED
   return _obj;
@@ -2126,7 +2260,7 @@ modelica_metatype omc_JSON_makeInteger(threadData_t *threadData, modelica_intege
   modelica_metatype tmpMeta1;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  tmpMeta1 = mmc_mk_box2(7, &JSON_INTEGER__desc, mmc_mk_integer(_i));
+  tmpMeta1 = mmc_mk_box2(8, &JSON_INTEGER__desc, mmc_mk_integer(_i));
   _obj = tmpMeta1;
   _return: OMC_LABEL_UNUSED
   return _obj;
@@ -2149,7 +2283,20 @@ modelica_metatype omc_JSON_makeString(threadData_t *threadData, modelica_string 
   modelica_metatype tmpMeta1;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  tmpMeta1 = mmc_mk_box2(6, &JSON_STRING__desc, _str);
+  tmpMeta1 = mmc_mk_box2(7, &JSON_STRING__desc, _str);
+  _obj = tmpMeta1;
+  _return: OMC_LABEL_UNUSED
+  return _obj;
+}
+
+DLLDirection
+modelica_metatype omc_JSON_makeList(threadData_t *threadData, modelica_metatype _elements)
+{
+  modelica_metatype _obj = NULL;
+  modelica_metatype tmpMeta1;
+  MMC_SO();
+  _tailrecursive: OMC_LABEL_UNUSED
+  tmpMeta1 = mmc_mk_box2(6, &JSON_LIST__desc, _elements);
   _obj = tmpMeta1;
   _return: OMC_LABEL_UNUSED
   return _obj;

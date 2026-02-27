@@ -46,6 +46,14 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
 DLLDirection
+modelica_metatype omc_NFSubscript_fillWithWholeLeft(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fsubs, modelica_integer _targetLength);
+DLLDirection
+modelica_metatype boxptr_NFSubscript_fillWithWholeLeft(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fsubs, modelica_metatype _targetLength);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFSubscript_fillWithWholeLeft,2,0) {(void*) boxptr_NFSubscript_fillWithWholeLeft,0}};
+#define boxvar_NFSubscript_fillWithWholeLeft MMC_REFSTRUCTLIT(boxvar_lit_NFSubscript_fillWithWholeLeft)
+
+
+DLLDirection
 modelica_boolean omc_NFSubscript_isLiteral(threadData_t *threadData, modelica_metatype _sub);
 DLLDirection
 modelica_metatype boxptr_NFSubscript_isLiteral(threadData_t *threadData, modelica_metatype _sub);
@@ -108,10 +116,26 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFSubscript_isSplit,2,0) {(void*) boxpt
 
 
 DLLDirection
+modelica_boolean omc_NFSubscript_isFirst(threadData_t *threadData, modelica_metatype _sub);
+DLLDirection
+modelica_metatype boxptr_NFSubscript_isFirst(threadData_t *threadData, modelica_metatype _sub);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFSubscript_isFirst,2,0) {(void*) boxptr_NFSubscript_isFirst,0}};
+#define boxvar_NFSubscript_isFirst MMC_REFSTRUCTLIT(boxvar_lit_NFSubscript_isFirst)
+
+
+DLLDirection
 modelica_metatype omc_NFSubscript_first(threadData_t *threadData, modelica_metatype _dim);
 #define boxptr_NFSubscript_first omc_NFSubscript_first
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFSubscript_first,2,0) {(void*) boxptr_NFSubscript_first,0}};
 #define boxvar_NFSubscript_first MMC_REFSTRUCTLIT(boxvar_lit_NFSubscript_first)
+
+
+DLLDirection
+modelica_metatype omc_NFSubscript_nth(threadData_t *threadData, modelica_metatype _dim, modelica_integer _i);
+DLLDirection
+modelica_metatype boxptr_NFSubscript_nth(threadData_t *threadData, modelica_metatype _dim, modelica_metatype _i);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFSubscript_nth,2,0) {(void*) boxptr_NFSubscript_nth,0}};
+#define boxvar_NFSubscript_nth MMC_REFSTRUCTLIT(boxvar_lit_NFSubscript_nth)
 
 
 DLLDirection
@@ -277,13 +301,6 @@ modelica_string omc_NFSubscript_toString(threadData_t *threadData, modelica_meta
 #define boxptr_NFSubscript_toString omc_NFSubscript_toString
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFSubscript_toString,2,0) {(void*) boxptr_NFSubscript_toString,0}};
 #define boxvar_NFSubscript_toString MMC_REFSTRUCTLIT(boxvar_lit_NFSubscript_toString)
-
-
-DLLDirection
-modelica_metatype omc_NFSubscript_toDAEExp(threadData_t *threadData, modelica_metatype _subscript);
-#define boxptr_NFSubscript_toDAEExp omc_NFSubscript_toDAEExp
-static const MMC_DEFSTRUCTLIT(boxvar_lit_NFSubscript_toDAEExp,2,0) {(void*) boxptr_NFSubscript_toDAEExp,0}};
-#define boxvar_NFSubscript_toDAEExp MMC_REFSTRUCTLIT(boxvar_lit_NFSubscript_toDAEExp)
 
 
 DLLDirection
@@ -508,9 +525,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFSubscript_makeIndex,2,0) {(void*) box
 
 
 DLLDirection
-modelica_metatype omc_NFSubscript_toIndexList(threadData_t *threadData, modelica_metatype _subscript, modelica_integer _length, modelica_boolean _baseZero);
+modelica_metatype omc_NFSubscript_toIndexList(threadData_t *threadData, modelica_metatype _subscript, modelica_integer _length);
 DLLDirection
-modelica_metatype boxptr_NFSubscript_toIndexList(threadData_t *threadData, modelica_metatype _subscript, modelica_metatype _length, modelica_metatype _baseZero);
+modelica_metatype boxptr_NFSubscript_toIndexList(threadData_t *threadData, modelica_metatype _subscript, modelica_metatype _length);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFSubscript_toIndexList,2,0) {(void*) boxptr_NFSubscript_toIndexList,0}};
 #define boxvar_NFSubscript_toIndexList MMC_REFSTRUCTLIT(boxvar_lit_NFSubscript_toIndexList)
 

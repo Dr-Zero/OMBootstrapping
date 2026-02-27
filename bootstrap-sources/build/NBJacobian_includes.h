@@ -4,6 +4,7 @@ extern "C" {
 #include "openmodelica.h"       // Defines OPENMODELICA_H_ for libraris to test if called from OpenModelica.
 #include "ModelicaUtilities.h"  // Make Modelica C util functions available for external includes.
 
+#include "Array.h"
 #include "Error.h"
 #include "Flags.h"
 #include "List.h"
@@ -12,10 +13,16 @@ extern "C" {
 #include "NBEquation.h"
 #include "NBJacobian.h"
 #include "NBPartition.h"
+#include "NBSlice.h"
 #include "NBStrongComponent.h"
+#include "NBTearing.h"
 #include "NBVariable.h"
 #include "NBackendDAE.h"
 #include "NFComponentRef.h"
+#include "NFExpression.h"
+#include "NFOperator.h"
+#include "NFSimplifyExp.h"
+#include "NFType.h"
 #include "Pointer.h"
 #include "StringUtil.h"
 #include "SymbolicJacobian.h"

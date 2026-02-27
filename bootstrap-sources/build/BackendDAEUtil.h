@@ -1155,7 +1155,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_BackendDAEUtil_solvabilityWights,2,0) {
 
 
 DLLDirection
-modelica_metatype omc_BackendDAEUtil_getEqnAndVarsFromInnerEquationLst(threadData_t *threadData, modelica_metatype _innerEquations);
+modelica_metatype omc_BackendDAEUtil_getEqnAndVarsFromInnerEquationLst(threadData_t *threadData, modelica_metatype _innerEquations, modelica_metatype *out_allVars, modelica_metatype *out_allConstraints);
 #define boxptr_BackendDAEUtil_getEqnAndVarsFromInnerEquationLst omc_BackendDAEUtil_getEqnAndVarsFromInnerEquationLst
 static const MMC_DEFSTRUCTLIT(boxvar_lit_BackendDAEUtil_getEqnAndVarsFromInnerEquationLst,2,0) {(void*) boxptr_BackendDAEUtil_getEqnAndVarsFromInnerEquationLst,0}};
 #define boxvar_BackendDAEUtil_getEqnAndVarsFromInnerEquationLst MMC_REFSTRUCTLIT(boxvar_lit_BackendDAEUtil_getEqnAndVarsFromInnerEquationLst)
@@ -1506,23 +1506,25 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_BackendDAEUtil_introduceOutputRealDeriv
 
 
 DLLDirection
-modelica_metatype omc_BackendDAEUtil_reduceEqSystem(threadData_t *threadData, modelica_metatype _iSyst, modelica_metatype _shared, modelica_metatype _iVarlst);
-#define boxptr_BackendDAEUtil_reduceEqSystem omc_BackendDAEUtil_reduceEqSystem
+modelica_metatype omc_BackendDAEUtil_reduceEqSystem(threadData_t *threadData, modelica_metatype _iSyst, modelica_metatype _shared, modelica_metatype _iVarlst, modelica_boolean _filterDiscretes);
+DLLDirection
+modelica_metatype boxptr_BackendDAEUtil_reduceEqSystem(threadData_t *threadData, modelica_metatype _iSyst, modelica_metatype _shared, modelica_metatype _iVarlst, modelica_metatype _filterDiscretes);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_BackendDAEUtil_reduceEqSystem,2,0) {(void*) boxptr_BackendDAEUtil_reduceEqSystem,0}};
 #define boxvar_BackendDAEUtil_reduceEqSystem MMC_REFSTRUCTLIT(boxvar_lit_BackendDAEUtil_reduceEqSystem)
 
 
 DLLDirection
-modelica_metatype omc_BackendDAEUtil_tryReduceEqSystem(threadData_t *threadData, modelica_metatype _iSyst, modelica_metatype _shared, modelica_metatype _iVarlst);
-#define boxptr_BackendDAEUtil_tryReduceEqSystem omc_BackendDAEUtil_tryReduceEqSystem
+modelica_metatype omc_BackendDAEUtil_tryReduceEqSystem(threadData_t *threadData, modelica_metatype _iSyst, modelica_metatype _shared, modelica_metatype _iVarlst, modelica_boolean _filterDiscretes);
+DLLDirection
+modelica_metatype boxptr_BackendDAEUtil_tryReduceEqSystem(threadData_t *threadData, modelica_metatype _iSyst, modelica_metatype _shared, modelica_metatype _iVarlst, modelica_metatype _filterDiscretes);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_BackendDAEUtil_tryReduceEqSystem,2,0) {(void*) boxptr_BackendDAEUtil_tryReduceEqSystem,0}};
 #define boxvar_BackendDAEUtil_tryReduceEqSystem MMC_REFSTRUCTLIT(boxvar_lit_BackendDAEUtil_tryReduceEqSystem)
 
 
 DLLDirection
-modelica_metatype omc_BackendDAEUtil_reduceEqSystemsInDAE(threadData_t *threadData, modelica_metatype _inDAE, modelica_metatype _iVarlst, modelica_boolean _makeMatching);
+modelica_metatype omc_BackendDAEUtil_reduceEqSystemsInDAE(threadData_t *threadData, modelica_metatype _inDAE, modelica_metatype _iVarlst, modelica_boolean _makeMatching, modelica_boolean _filterDiscretes);
 DLLDirection
-modelica_metatype boxptr_BackendDAEUtil_reduceEqSystemsInDAE(threadData_t *threadData, modelica_metatype _inDAE, modelica_metatype _iVarlst, modelica_metatype _makeMatching);
+modelica_metatype boxptr_BackendDAEUtil_reduceEqSystemsInDAE(threadData_t *threadData, modelica_metatype _inDAE, modelica_metatype _iVarlst, modelica_metatype _makeMatching, modelica_metatype _filterDiscretes);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_BackendDAEUtil_reduceEqSystemsInDAE,2,0) {(void*) boxptr_BackendDAEUtil_reduceEqSystemsInDAE,0}};
 #define boxvar_BackendDAEUtil_reduceEqSystemsInDAE MMC_REFSTRUCTLIT(boxvar_lit_BackendDAEUtil_reduceEqSystemsInDAE)
 

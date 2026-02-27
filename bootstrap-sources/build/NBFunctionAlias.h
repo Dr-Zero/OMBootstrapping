@@ -42,9 +42,6 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 #define boxptr_NBFunctionAlias_filterFrames omc_NBFunctionAlias_filterFrames
 
 
-#define boxptr_NBFunctionAlias_functionAliasDefault omc_NBFunctionAlias_functionAliasDefault
-
-
 DLLDirection
 modelica_metatype omc_NBFunctionAlias_Call__Aux_createName(threadData_t *threadData, modelica_metatype _ty, modelica_metatype _iter, modelica_metatype _aux_index, modelica_boolean _init);
 DLLDirection
@@ -101,8 +98,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBFunctionAlias_getModule,2,0) {(void*)
 
 
 DLLDirection
-modelica_metatype omc_NBFunctionAlias_main(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fbdae);
-#define boxptr_NBFunctionAlias_main omc_NBFunctionAlias_main
+modelica_metatype omc_NBFunctionAlias_main(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fbdae, modelica_integer _kind);
+DLLDirection
+modelica_metatype boxptr_NBFunctionAlias_main(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fbdae, modelica_metatype _kind);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBFunctionAlias_main,2,0) {(void*) boxptr_NBFunctionAlias_main,0}};
 #define boxvar_NBFunctionAlias_main MMC_REFSTRUCTLIT(boxvar_lit_NBFunctionAlias_main)
 

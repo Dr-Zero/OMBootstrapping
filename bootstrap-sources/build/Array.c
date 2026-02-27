@@ -48,15 +48,15 @@ modelica_metatype omc_Array_filter(threadData_t *threadData, modelica_metatype _
   _dummy = _dummy;
   _index = ((modelica_integer) 1);
   {
-    modelica_integer __omcQ_24tmpVar1;
-    modelica_integer __omcQ_24tmpVar0;
+    modelica_integer __omcQ_24tmpVar3;
+    modelica_integer __omcQ_24tmpVar2;
     modelica_integer tmp2;
     modelica_metatype _e_loopVar = 0;
     modelica_integer tmp3;
     modelica_metatype _e;
     _e_loopVar = _arr;
     tmp3 = 1;
-    __omcQ_24tmpVar1 = ((modelica_integer) 0); /* defaultValue */
+    __omcQ_24tmpVar3 = ((modelica_integer) 0); /* defaultValue */
     while(1) {
       tmp2 = 1;
       while (tmp3 <= arrayLength(_e_loopVar)) {
@@ -67,15 +67,15 @@ modelica_metatype omc_Array_filter(threadData_t *threadData, modelica_metatype _
         }
       }
       if (tmp2 == 0) {
-        __omcQ_24tmpVar0 = ((modelica_integer) 1);
-        __omcQ_24tmpVar1 = __omcQ_24tmpVar1 + __omcQ_24tmpVar0;
+        __omcQ_24tmpVar2 = ((modelica_integer) 1);
+        __omcQ_24tmpVar3 = __omcQ_24tmpVar3 + __omcQ_24tmpVar2;
       } else if (tmp2 == 1) {
         break;
       } else {
         MMC_THROW_INTERNAL();
       }
     }
-    tmp1 = __omcQ_24tmpVar1;
+    tmp1 = __omcQ_24tmpVar3;
   }
   _new_size = arrayLength(_arr) - (tmp1);
 

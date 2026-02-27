@@ -12,7 +12,8 @@ extern "C" {
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 
-extern struct record_description Tpl_Text_MEM__TEXT__desc;
+
+#define boxptr_SerializeInitXML_expString omc_SerializeInitXML_expString
 
 
 #define boxptr_SerializeInitXML_getVariablity omc_SerializeInitXML_getVariablity

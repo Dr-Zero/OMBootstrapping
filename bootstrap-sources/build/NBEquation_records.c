@@ -500,7 +500,7 @@ extern struct record_description NBEquation_WhenStatement_ASSIGN__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NBEquation_EquationAttributes_EQUATION__ATTRIBUTES__desc_added
 #define NBEquation_EquationAttributes_EQUATION__ATTRIBUTES__desc_added
-ADD_METARECORD_DEFINITIONS const char* NBEquation_EquationAttributes_EQUATION__ATTRIBUTES__desc__fields[7] = {"derivative","residualVar","clock_idx","residual","exclusively_initial","evalStages","kind"};
+ADD_METARECORD_DEFINITIONS const char* NBEquation_EquationAttributes_EQUATION__ATTRIBUTES__desc__fields[8] = {"derivative","residualVar","clock_idx","residual","exclusively_initial","evalStages","kind","optimizerExpression"};
 ADD_METARECORD_DEFINITIONS struct record_description NBEquation_EquationAttributes_EQUATION__ATTRIBUTES__desc = {
   "NBEquation_EquationAttributes_EQUATION__ATTRIBUTES",
   "NBEquation.EquationAttributes.EQUATION_ATTRIBUTES",
@@ -513,7 +513,7 @@ extern struct record_description NBEquation_EquationAttributes_EQUATION__ATTRIBU
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NBEquation_EquationAttributes_EQUATION__ATTRIBUTES__desc_added
 #define NBEquation_EquationAttributes_EQUATION__ATTRIBUTES__desc_added
-ADD_METARECORD_DEFINITIONS const char* NBEquation_EquationAttributes_EQUATION__ATTRIBUTES__desc__fields[7] = {"derivative","residualVar","clock_idx","residual","exclusively_initial","evalStages","kind"};
+ADD_METARECORD_DEFINITIONS const char* NBEquation_EquationAttributes_EQUATION__ATTRIBUTES__desc__fields[8] = {"derivative","residualVar","clock_idx","residual","exclusively_initial","evalStages","kind","optimizerExpression"};
 ADD_METARECORD_DEFINITIONS struct record_description NBEquation_EquationAttributes_EQUATION__ATTRIBUTES__desc = {
   "NBEquation_EquationAttributes_EQUATION__ATTRIBUTES",
   "NBEquation.EquationAttributes.EQUATION_ATTRIBUTES",

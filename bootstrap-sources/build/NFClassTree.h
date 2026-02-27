@@ -66,18 +66,26 @@ extern struct record_description NFType_BOOLEAN__desc;
 
 extern struct record_description NFType_STRING__desc;
 
+extern struct record_description SCode_Restriction_R__CLASS__desc;
+
 extern struct record_description SCodeDump_SCodeDumpOptions_OPTIONS__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
+
+
+#define boxptr_NFClassTree_ClassTree_checkIsBreakable omc_NFClassTree_ClassTree_checkIsBreakable
+
+
+#define boxptr_NFClassTree_ClassTree_breakComponents omc_NFClassTree_ClassTree_breakComponents
+
+
+#define boxptr_NFClassTree_ClassTree_getBreakModsInExtend omc_NFClassTree_ClassTree_getBreakModsInExtend
 
 
 #define boxptr_NFClassTree_ClassTree_checkOuterClass omc_NFClassTree_ClassTree_checkOuterClass
 
 
 #define boxptr_NFClassTree_ClassTree_linkInnerOuter omc_NFClassTree_ClassTree_linkInnerOuter
-
-
-#define boxptr_NFClassTree_ClassTree_replaceDuplicates4 omc_NFClassTree_ClassTree_replaceDuplicates4
 
 
 #define boxptr_NFClassTree_ClassTree_replaceDuplicates3 omc_NFClassTree_ClassTree_replaceDuplicates3
@@ -135,6 +143,9 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
 #define boxptr_NFClassTree_ClassTree_addLocalElement omc_NFClassTree_ClassTree_addLocalElement
+
+
+#define boxptr_NFClassTree_ClassTree_setLookupTree omc_NFClassTree_ClassTree_setLookupTree
 
 
 #define boxptr_NFClassTree_ClassTree_lookupTree omc_NFClassTree_ClassTree_lookupTree

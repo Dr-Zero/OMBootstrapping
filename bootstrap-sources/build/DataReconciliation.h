@@ -62,6 +62,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_DataReconciliation_dumpNonReconciledVar
 
 
 DLLDirection
+modelica_string omc_DataReconciliation_dumpCorrelationVarsToCsv(threadData_t *threadData, modelica_metatype _invar);
+#define boxptr_DataReconciliation_dumpCorrelationVarsToCsv omc_DataReconciliation_dumpCorrelationVarsToCsv
+static const MMC_DEFSTRUCTLIT(boxvar_lit_DataReconciliation_dumpCorrelationVarsToCsv,2,0) {(void*) boxptr_DataReconciliation_dumpCorrelationVarsToCsv,0}};
+#define boxvar_DataReconciliation_dumpCorrelationVarsToCsv MMC_REFSTRUCTLIT(boxvar_lit_DataReconciliation_dumpCorrelationVarsToCsv)
+
+
+DLLDirection
 modelica_string omc_DataReconciliation_dumpToCsv(threadData_t *threadData, modelica_string _instring, modelica_metatype _invar);
 #define boxptr_DataReconciliation_dumpToCsv omc_DataReconciliation_dumpToCsv
 static const MMC_DEFSTRUCTLIT(boxvar_lit_DataReconciliation_dumpToCsv,2,0) {(void*) boxptr_DataReconciliation_dumpToCsv,0}};
@@ -202,7 +209,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_DataReconciliation_getSolvedEquationAnd
 
 
 DLLDirection
-modelica_metatype omc_DataReconciliation_getSolvedEquationNumber(threadData_t *threadData, modelica_integer _varnumber, modelica_metatype _inlist);
+modelica_integer omc_DataReconciliation_getSolvedEquationNumber(threadData_t *threadData, modelica_integer _varnumber, modelica_metatype _inlist);
 DLLDirection
 modelica_metatype boxptr_DataReconciliation_getSolvedEquationNumber(threadData_t *threadData, modelica_metatype _varnumber, modelica_metatype _inlist);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_DataReconciliation_getSolvedEquationNumber,2,0) {(void*) boxptr_DataReconciliation_getSolvedEquationNumber,0}};
@@ -210,7 +217,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_DataReconciliation_getSolvedEquationNum
 
 
 DLLDirection
-modelica_metatype omc_DataReconciliation_getSolvedVariableNumber(threadData_t *threadData, modelica_integer _eqnumber, modelica_metatype _inlist);
+modelica_integer omc_DataReconciliation_getSolvedVariableNumber(threadData_t *threadData, modelica_integer _eqnumber, modelica_metatype _inlist);
 DLLDirection
 modelica_metatype boxptr_DataReconciliation_getSolvedVariableNumber(threadData_t *threadData, modelica_metatype _eqnumber, modelica_metatype _inlist);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_DataReconciliation_getSolvedVariableNumber,2,0) {(void*) boxptr_DataReconciliation_getSolvedVariableNumber,0}};
@@ -366,6 +373,19 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_DataReconciliation_extractBoundaryCondi
 
 
 #define boxptr_DataReconciliation_dumpRelatedBoundaryConditionsEquations omc_DataReconciliation_dumpRelatedBoundaryConditionsEquations
+
+
+#define boxptr_DataReconciliation_setStartValuesToMeasurements omc_DataReconciliation_setStartValuesToMeasurements
+
+
+#define boxptr_DataReconciliation_readMeasurementsFromCSV omc_DataReconciliation_readMeasurementsFromCSV
+
+
+DLLDirection
+modelica_string omc_DataReconciliation_extractSxPath(threadData_t *threadData, modelica_string _simflags);
+#define boxptr_DataReconciliation_extractSxPath omc_DataReconciliation_extractSxPath
+static const MMC_DEFSTRUCTLIT(boxvar_lit_DataReconciliation_extractSxPath,2,0) {(void*) boxptr_DataReconciliation_extractSxPath,0}};
+#define boxvar_DataReconciliation_extractSxPath MMC_REFSTRUCTLIT(boxvar_lit_DataReconciliation_extractSxPath)
 
 
 DLLDirection

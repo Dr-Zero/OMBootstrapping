@@ -3043,7 +3043,7 @@ PROTECTED_FUNCTION_STATIC void omc_NFSCodeDependency_analyseModifier(threadData_
       // _bind_exp has no default value.
       {
         switch (MMC_SWITCH_CAST(valueConstructor(tmp3_1))) {
-        case 5: {
+        case 7: {
           
           /* Pattern matching succeeded */
           goto tmp2_done;

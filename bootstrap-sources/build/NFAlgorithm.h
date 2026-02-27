@@ -35,6 +35,14 @@ extern struct record_description Gettext_TranslatableContent_notrans__desc;
 
 
 DLLDirection
+modelica_boolean omc_NFAlgorithm_isDiscrete(threadData_t *threadData, modelica_metatype _alg);
+DLLDirection
+modelica_metatype boxptr_NFAlgorithm_isDiscrete(threadData_t *threadData, modelica_metatype _alg);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFAlgorithm_isDiscrete,2,0) {(void*) boxptr_NFAlgorithm_isDiscrete,0}};
+#define boxvar_NFAlgorithm_isDiscrete MMC_REFSTRUCTLIT(boxvar_lit_NFAlgorithm_isDiscrete)
+
+
+DLLDirection
 modelica_boolean omc_NFAlgorithm_isEmpty(threadData_t *threadData, modelica_metatype _alg);
 DLLDirection
 modelica_metatype boxptr_NFAlgorithm_isEmpty(threadData_t *threadData, modelica_metatype _alg);
@@ -97,6 +105,13 @@ modelica_metatype omc_NFAlgorithm_mapExp(threadData_t *threadData, modelica_meta
 #define boxptr_NFAlgorithm_mapExp omc_NFAlgorithm_mapExp
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFAlgorithm_mapExp,2,0) {(void*) boxptr_NFAlgorithm_mapExp,0}};
 #define boxvar_NFAlgorithm_mapExp MMC_REFSTRUCTLIT(boxvar_lit_NFAlgorithm_mapExp)
+
+
+DLLDirection
+modelica_metatype omc_NFAlgorithm_map(threadData_t *threadData, modelica_metatype __omcQ_24in_5Falg, modelica_fnptr _fn);
+#define boxptr_NFAlgorithm_map omc_NFAlgorithm_map
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFAlgorithm_map,2,0) {(void*) boxptr_NFAlgorithm_map,0}};
+#define boxvar_NFAlgorithm_map MMC_REFSTRUCTLIT(boxvar_lit_NFAlgorithm_map)
 
 
 DLLDirection

@@ -59,6 +59,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFCallParameterTree_addList,2,0) {(void
 #define boxvar_NFCallParameterTree_addList MMC_REFSTRUCTLIT(boxvar_lit_NFCallParameterTree_addList)
 
 
+DLLDirection
+modelica_metatype omc_NFCallParameterTree_addUpdate(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftree, modelica_string _key, modelica_fnptr _fn);
+#define boxptr_NFCallParameterTree_addUpdate omc_NFCallParameterTree_addUpdate
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFCallParameterTree_addUpdate,2,0) {(void*) boxptr_NFCallParameterTree_addUpdate,0}};
+#define boxvar_NFCallParameterTree_addUpdate MMC_REFSTRUCTLIT(boxvar_lit_NFCallParameterTree_addUpdate)
+
+
 #define boxptr_NFCallParameterTree_balance omc_NFCallParameterTree_balance
 
 
@@ -157,7 +164,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFCallParameterTree_keyStr,2,0) {(void*
 
 
 DLLDirection
-modelica_metatype omc_NFCallParameterTree_listKeys(threadData_t *threadData, modelica_metatype _inTree, modelica_metatype __omcQ_24in_5Flst);
+modelica_metatype omc_NFCallParameterTree_listKeys(threadData_t *threadData, modelica_metatype _tree, modelica_metatype __omcQ_24in_5Flst);
 #define boxptr_NFCallParameterTree_listKeys omc_NFCallParameterTree_listKeys
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFCallParameterTree_listKeys,2,0) {(void*) boxptr_NFCallParameterTree_listKeys,0}};
 #define boxvar_NFCallParameterTree_listKeys MMC_REFSTRUCTLIT(boxvar_lit_NFCallParameterTree_listKeys)

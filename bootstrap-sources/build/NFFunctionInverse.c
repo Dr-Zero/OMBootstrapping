@@ -31,12 +31,12 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT11,7,_OMC_LIT11_data);
 #define _OMC_LIT12_data "NFFunctionInverse.instInverseMod got invalid modifier"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT12,53,_OMC_LIT12_data);
 #define _OMC_LIT12 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT12)
-#define _OMC_LIT13_data "/home/adrpo33/OpenModelica/OMCompiler/Compiler/NFFrontEnd/NFFunctionInverse.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT13,78,_OMC_LIT13_data);
+#define _OMC_LIT13_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/NFFrontEnd/NFFunctionInverse.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT13,84,_OMC_LIT13_data);
 #define _OMC_LIT13 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT13)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT14_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT14_6,1.771514395e9);
 #define _OMC_LIT14_6 MMC_REFREALLIT(_OMC_LIT_STRUCT14_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT14,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT13,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(145)),MMC_IMMEDIATE(MMC_TAGFIXNUM(11)),MMC_IMMEDIATE(MMC_TAGFIXNUM(145)),MMC_IMMEDIATE(MMC_TAGFIXNUM(92)),_OMC_LIT14_6}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT14,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT13,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(141)),MMC_IMMEDIATE(MMC_TAGFIXNUM(11)),MMC_IMMEDIATE(MMC_TAGFIXNUM(141)),MMC_IMMEDIATE(MMC_TAGFIXNUM(92)),_OMC_LIT14_6}};
 #define _OMC_LIT14 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT14)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT15,1,4) {&SCode_Final_NOT__FINAL__desc,}};
 #define _OMC_LIT15 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT15)
@@ -275,50 +275,29 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFFunctionInverse_getInverseAnno
       int tmp5;
       // _ann has no default value.
       tmp4 = 0;
-      for (; tmp4 < 3; tmp4++) {
+      for (; tmp4 < 2; tmp4++) {
         switch (MMC_SWITCH_CAST(tmp4)) {
         case 0: {
           modelica_metatype tmpMeta6;
           modelica_metatype tmpMeta7;
           modelica_metatype tmpMeta8;
-          modelica_metatype tmpMeta9;
-          modelica_metatype tmpMeta10;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,2,8) == 0) goto tmp3_end;
-          tmpMeta6 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 7));
-          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta6,0,8) == 0) goto tmp3_end;
-          tmpMeta7 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta6), 9));
+          tmpMeta6 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 8));
+          tmpMeta7 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta6), 2));
           if (optionNone(tmpMeta7)) goto tmp3_end;
           tmpMeta8 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta7), 1));
-          tmpMeta9 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta8), 6));
-          if (optionNone(tmpMeta9)) goto tmp3_end;
-          tmpMeta10 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta9), 1));
           
-          _ann = tmpMeta10;
+          _ann = tmpMeta8;
           /* Pattern matching succeeded */
           tmpMeta1 = omc_SCodeUtil_lookupAnnotations(threadData, _ann, _OMC_LIT11);
           goto tmp3_done;
         }
         case 1: {
-          modelica_metatype tmpMeta11;
-          modelica_metatype tmpMeta12;
-          modelica_metatype tmpMeta13;
-          if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,2,8) == 0) goto tmp3_end;
-          tmpMeta11 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 8));
-          tmpMeta12 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta11), 2));
-          if (optionNone(tmpMeta12)) goto tmp3_end;
-          tmpMeta13 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta12), 1));
-          
-          _ann = tmpMeta13;
-          /* Pattern matching succeeded */
-          tmpMeta1 = omc_SCodeUtil_lookupAnnotations(threadData, _ann, _OMC_LIT11);
-          goto tmp3_done;
-        }
-        case 2: {
-          modelica_metatype tmpMeta14;
+          modelica_metatype tmpMeta9;
           
           /* Pattern matching succeeded */
-          tmpMeta14 = MMC_REFSTRUCTLIT(mmc_nil);
-          tmpMeta1 = tmpMeta14;
+          tmpMeta9 = MMC_REFSTRUCTLIT(mmc_nil);
+          tmpMeta1 = tmpMeta9;
           goto tmp3_done;
         }
         }

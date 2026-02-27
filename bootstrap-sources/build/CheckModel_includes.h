@@ -17,6 +17,7 @@ extern "C" {
 #include "HashSet.h"
 #include "List.h"
 #include "PrefixUtil.h"
+#include "Util.h"
 #ifdef __cplusplus
 }
 #endif

@@ -275,9 +275,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFLookup_lookupLocalName,2,0) {(void*) 
 
 
 DLLDirection
-modelica_metatype omc_NFLookup_lookupFirstIdent(threadData_t *threadData, modelica_string _name, modelica_metatype _scope, modelica_integer _context, modelica_metatype *out_state);
+modelica_metatype omc_NFLookup_lookupFirstIdent(threadData_t *threadData, modelica_string _name, modelica_metatype _scope, modelica_integer _context, modelica_metatype *out_state, modelica_boolean *out_selfReference);
 DLLDirection
-modelica_metatype boxptr_NFLookup_lookupFirstIdent(threadData_t *threadData, modelica_metatype _name, modelica_metatype _scope, modelica_metatype _context, modelica_metatype *out_state);
+modelica_metatype boxptr_NFLookup_lookupFirstIdent(threadData_t *threadData, modelica_metatype _name, modelica_metatype _scope, modelica_metatype _context, modelica_metatype *out_state, modelica_metatype *out_selfReference);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFLookup_lookupFirstIdent,2,0) {(void*) boxptr_NFLookup_lookupFirstIdent,0}};
 #define boxvar_NFLookup_lookupFirstIdent MMC_REFSTRUCTLIT(boxvar_lit_NFLookup_lookupFirstIdent)
 
@@ -288,14 +288,6 @@ DLLDirection
 modelica_metatype boxptr_NFLookup_lookupNames(threadData_t *threadData, modelica_metatype _name, modelica_metatype _scope, modelica_metatype _context, modelica_metatype *out_state);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFLookup_lookupNames,2,0) {(void*) boxptr_NFLookup_lookupNames,0}};
 #define boxvar_NFLookup_lookupNames MMC_REFSTRUCTLIT(boxvar_lit_NFLookup_lookupNames)
-
-
-DLLDirection
-modelica_boolean omc_NFLookup_isSelfReference(threadData_t *threadData, modelica_metatype _node, modelica_metatype _scope);
-DLLDirection
-modelica_metatype boxptr_NFLookup_isSelfReference(threadData_t *threadData, modelica_metatype _node, modelica_metatype _scope);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_NFLookup_isSelfReference,2,0) {(void*) boxptr_NFLookup_isSelfReference,0}};
-#define boxvar_NFLookup_isSelfReference MMC_REFSTRUCTLIT(boxvar_lit_NFLookup_isSelfReference)
 
 
 DLLDirection
@@ -323,9 +315,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFLookup_lookupSimpleNameRootPath,2,0) 
 
 
 DLLDirection
-modelica_metatype omc_NFLookup_lookupSimpleName(threadData_t *threadData, modelica_string _name, modelica_metatype _scope, modelica_integer _context);
+modelica_metatype omc_NFLookup_lookupSimpleName(threadData_t *threadData, modelica_string _name, modelica_metatype _scope, modelica_integer _context, modelica_boolean *out_selfReference);
 DLLDirection
-modelica_metatype boxptr_NFLookup_lookupSimpleName(threadData_t *threadData, modelica_metatype _name, modelica_metatype _scope, modelica_metatype _context);
+modelica_metatype boxptr_NFLookup_lookupSimpleName(threadData_t *threadData, modelica_metatype _name, modelica_metatype _scope, modelica_metatype _context, modelica_metatype *out_selfReference);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFLookup_lookupSimpleName,2,0) {(void*) boxptr_NFLookup_lookupSimpleName,0}};
 #define boxvar_NFLookup_lookupSimpleName MMC_REFSTRUCTLIT(boxvar_lit_NFLookup_lookupSimpleName)
 

@@ -197,7 +197,7 @@ void omc_NFStructural_markComponent(threadData_t *threadData, modelica_metatype 
 
   omc_NFInstNode_InstNode_updateComponent(threadData, _comp, _node);
 
-  _binding = omc_NFBinding_untypedExp(threadData, omc_NFComponent_getBinding(threadData, _comp));
+  _binding = omc_NFBinding_getExpOpt(threadData, omc_NFComponent_getBinding(threadData, _comp));
 
   if(isSome(_binding))
   {

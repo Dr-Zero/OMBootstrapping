@@ -1100,8 +1100,6 @@ modelica_metatype omc_FResolve_ty__one(threadData_t *threadData, modelica_string
           modelica_metatype tmpMeta9;
           modelica_metatype tmpMeta10;
           modelica_metatype tmpMeta11;
-          modelica_metatype tmpMeta12;
-          modelica_metatype tmpMeta13;
           
           _r = tmp4_1;
           _g = tmp4_2;
@@ -1116,65 +1114,55 @@ modelica_metatype omc_FResolve_ty__one(threadData_t *threadData, modelica_string
           tmpMeta10 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta9), 2));
           _e = tmpMeta10;
 
-          /* Pattern-matching assignment */
-          tmpMeta11 = omc_SCodeUtil_getComponentTypeSpec(threadData, _e);
-          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta11,0,2) == 0) goto goto_2;
-          tmpMeta12 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta11), 2));
-          _p = tmpMeta12;
+          _p = omc_SCodeUtil_getElementTypePath(threadData, _e);
 
           _g = omc_FLookup_name(threadData, _g, _r, _p, _OMC_LIT10, mmc_mk_none() ,&_rr);
-          tmpMeta13 = mmc_mk_cons(_rr, MMC_REFSTRUCTLIT(mmc_nil));
-          tmpMeta1 = omc_FGraphBuild_mkRefNode(threadData, _OMC_LIT1, tmpMeta13, _r, _g);
+          tmpMeta11 = mmc_mk_cons(_rr, MMC_REFSTRUCTLIT(mmc_nil));
+          tmpMeta1 = omc_FGraphBuild_mkRefNode(threadData, _OMC_LIT1, tmpMeta11, _r, _g);
           goto tmp3_done;
         }
         case 2: {
-          modelica_boolean tmp14;
-          modelica_metatype tmpMeta15;
-          modelica_metatype tmpMeta16;
+          modelica_boolean tmp12;
+          modelica_metatype tmpMeta13;
+          modelica_metatype tmpMeta14;
+          modelica_boolean tmp15;
           modelica_metatype tmpMeta17;
           modelica_metatype tmpMeta18;
-          modelica_boolean tmp19;
+          modelica_metatype tmpMeta19;
+          modelica_metatype tmpMeta20;
           modelica_metatype tmpMeta21;
-          modelica_metatype tmpMeta22;
-          modelica_metatype tmpMeta23;
-          modelica_metatype tmpMeta24;
-          modelica_metatype tmpMeta25;
           
           _r = tmp4_1;
           _g = tmp4_2;
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp14 = omc_FNode_isRefComponent(threadData, _r);
-          if (1 /* true */ != tmp14) goto goto_2;
+          tmp12 = omc_FNode_isRefComponent(threadData, _r);
+          if (1 /* true */ != tmp12) goto goto_2;
 
           /* Pattern-matching assignment */
-          tmpMeta15 = omc_FNode_refData(threadData, _r);
-          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta15,4,4) == 0) goto goto_2;
-          tmpMeta16 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta15), 2));
-          _e = tmpMeta16;
+          tmpMeta13 = omc_FNode_refData(threadData, _r);
+          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta13,4,4) == 0) goto goto_2;
+          tmpMeta14 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta13), 2));
+          _e = tmpMeta14;
 
-          /* Pattern-matching assignment */
-          tmpMeta17 = omc_SCodeUtil_getComponentTypeSpec(threadData, _e);
-          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta17,0,2) == 0) goto goto_2;
-          tmpMeta18 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta17), 2));
-          _p = tmpMeta18;
+          _p = omc_SCodeUtil_getElementTypePath(threadData, _e);
 
-          tmp19 = 0; /* begin failure */
+          tmp15 = 0; /* begin failure */
           MMC_TRY_INTERNAL(mmc_jumper)
             omc_FLookup_name(threadData, _g, _r, _p, _OMC_LIT10, mmc_mk_none(), NULL);
-            tmp19 = 1;
-          goto goto_20;
-          goto_20:;
+            tmp15 = 1;
+          goto goto_16;
+          goto_16:;
           MMC_CATCH_INTERNAL(mmc_jumper)
-          if (tmp19) {goto goto_2;} /* end failure */
+          if (tmp15) {goto goto_2;} /* end failure */
 
-          tmpMeta21 = stringAppend(_OMC_LIT18,omc_AbsynUtil_pathString(threadData, _p, _OMC_LIT17, 1 /* true */, 0 /* false */));
-          tmpMeta22 = stringAppend(tmpMeta21,_OMC_LIT12);
-          tmpMeta23 = stringAppend(tmpMeta22,omc_FNode_toPathStr(threadData, omc_FNode_fromRef(threadData, _r)));
-          tmpMeta24 = stringAppend(tmpMeta23,_OMC_LIT13);
-          fputs(MMC_STRINGDATA(tmpMeta24),stdout);
-          tmpMeta25 = MMC_REFSTRUCTLIT(mmc_nil);
-          tmpMeta1 = omc_FGraphBuild_mkRefNode(threadData, _OMC_LIT1, tmpMeta25, _r, _g);
+          tmpMeta17 = stringAppend(_OMC_LIT18,omc_AbsynUtil_pathString(threadData, _p, _OMC_LIT17, 1 /* true */, 0 /* false */));
+          tmpMeta18 = stringAppend(tmpMeta17,_OMC_LIT12);
+          tmpMeta19 = stringAppend(tmpMeta18,omc_FNode_toPathStr(threadData, omc_FNode_fromRef(threadData, _r)));
+          tmpMeta20 = stringAppend(tmpMeta19,_OMC_LIT13);
+          fputs(MMC_STRINGDATA(tmpMeta20),stdout);
+          tmpMeta21 = MMC_REFSTRUCTLIT(mmc_nil);
+          tmpMeta1 = omc_FGraphBuild_mkRefNode(threadData, _OMC_LIT1, tmpMeta21, _r, _g);
           goto tmp3_done;
         }
         case 3: {

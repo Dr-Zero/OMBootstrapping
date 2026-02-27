@@ -21,6 +21,7 @@ extern "C" {
 #include "NFClassTree.h"
 #include "NFComponent.h"
 #include "NFComponentRef.h"
+#include "NFConnectBreakTree.h"
 #include "NFDimension.h"
 #include "NFExpression.h"
 #include "NFFlatModelicaUtil.h"

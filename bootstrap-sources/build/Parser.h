@@ -146,14 +146,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_Parser_parsestringexp,2,0) {(void*) box
 
 
 DLLDirection
-modelica_metatype omc_Parser_parsebuiltin(threadData_t *threadData, modelica_string _filename, modelica_string _encoding, modelica_string _libraryPath, modelica_metatype _lveInstance, modelica_integer _acceptedGram, modelica_integer _languageStandardInt, modelica_boolean _strict);
-DLLDirection
-modelica_metatype boxptr_Parser_parsebuiltin(threadData_t *threadData, modelica_metatype _filename, modelica_metatype _encoding, modelica_metatype _libraryPath, modelica_metatype _lveInstance, modelica_metatype _acceptedGram, modelica_metatype _languageStandardInt, modelica_metatype _strict);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_Parser_parsebuiltin,2,0) {(void*) boxptr_Parser_parsebuiltin,0}};
-#define boxvar_Parser_parsebuiltin MMC_REFSTRUCTLIT(boxvar_lit_Parser_parsebuiltin)
-
-
-DLLDirection
 modelica_metatype omc_Parser_parsestring(threadData_t *threadData, modelica_string _str, modelica_string _infoFilename, modelica_integer _grammar, modelica_integer _languageStd, modelica_boolean _strict);
 DLLDirection
 modelica_metatype boxptr_Parser_parsestring(threadData_t *threadData, modelica_metatype _str, modelica_metatype _infoFilename, modelica_metatype _grammar, modelica_metatype _languageStd, modelica_metatype _strict);
@@ -169,8 +161,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_Parser_parseexp,2,0) {(void*) boxptr_Pa
 
 
 DLLDirection
-modelica_metatype omc_Parser_parse(threadData_t *threadData, modelica_string _filename, modelica_string _encoding, modelica_string _libraryPath, modelica_metatype _lveInstance);
-#define boxptr_Parser_parse omc_Parser_parse
+modelica_metatype omc_Parser_parse(threadData_t *threadData, modelica_string _filename, modelica_string _encoding, modelica_string _libraryPath, modelica_metatype _lveInstance, modelica_integer _acceptedGram, modelica_integer _languageStandardInt, modelica_boolean _strict);
+DLLDirection
+modelica_metatype boxptr_Parser_parse(threadData_t *threadData, modelica_metatype _filename, modelica_metatype _encoding, modelica_metatype _libraryPath, modelica_metatype _lveInstance, modelica_metatype _acceptedGram, modelica_metatype _languageStandardInt, modelica_metatype _strict);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Parser_parse,2,0) {(void*) boxptr_Parser_parse,0}};
 #define boxvar_Parser_parse MMC_REFSTRUCTLIT(boxvar_lit_Parser_parse)
 

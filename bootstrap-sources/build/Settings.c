@@ -9,7 +9,7 @@
 void omc_Settings_setEcho(threadData_t *threadData, modelica_integer _echo)
 {
   int _echo_ext;
-  _echo_ext = (int)_echo;
+  _echo_ext = (int) _echo;
   Settings_setEcho(_echo_ext);
   return;
 }
@@ -26,6 +26,7 @@ modelica_integer omc_Settings_getEcho(threadData_t *threadData)
   int _echo_ext;
   modelica_integer _echo;
   // _echo has no default value.
+
   _echo_ext = Settings_getEcho();
   _echo = (modelica_integer)_echo_ext;
   return _echo;
@@ -45,7 +46,7 @@ modelica_string omc_Settings_getHomeDir(threadData_t *threadData, modelica_boole
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
-  _runningTestsuite_ext = (int)_runningTestsuite;
+  _runningTestsuite_ext = (int) _runningTestsuite;
   _outString_ext = Settings_getHomeDir(_runningTestsuite_ext);
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;
@@ -66,7 +67,7 @@ modelica_string omc_Settings_getModelicaPath(threadData_t *threadData, modelica_
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
-  _runningTestsuite_ext = (int)_runningTestsuite;
+  _runningTestsuite_ext = (int) _runningTestsuite;
   _outString_ext = Settings_getModelicaPath(_runningTestsuite_ext);
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;
@@ -83,6 +84,7 @@ modelica_metatype boxptr_Settings_getModelicaPath(threadData_t *threadData, mode
 
 void omc_Settings_setModelicaPath(threadData_t *threadData, modelica_string _inString)
 {
+
   SettingsImpl__setModelicaPath(MMC_STRINGDATA(_inString));
   return;
 }
@@ -92,6 +94,7 @@ modelica_string omc_Settings_getInstallationDirectoryPath(threadData_t *threadDa
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
+
   _outString_ext = Settings_getInstallationDirectoryPath();
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;
@@ -99,6 +102,7 @@ modelica_string omc_Settings_getInstallationDirectoryPath(threadData_t *threadDa
 
 void omc_Settings_setInstallationDirectoryPath(threadData_t *threadData, modelica_string _inString)
 {
+
   SettingsImpl__setInstallationDirectoryPath(MMC_STRINGDATA(_inString));
   return;
 }
@@ -108,6 +112,7 @@ modelica_string omc_Settings_getTempDirectoryPath(threadData_t *threadData)
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
+
   _outString_ext = Settings_getTempDirectoryPath();
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;
@@ -115,6 +120,7 @@ modelica_string omc_Settings_getTempDirectoryPath(threadData_t *threadData)
 
 void omc_Settings_setTempDirectoryPath(threadData_t *threadData, modelica_string _inString)
 {
+
   SettingsImpl__setTempDirectoryPath(MMC_STRINGDATA(_inString));
   return;
 }
@@ -124,6 +130,7 @@ modelica_string omc_Settings_getVersionNr(threadData_t *threadData)
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
+
   _outString_ext = Settings_getVersionNr();
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;

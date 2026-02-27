@@ -17,8 +17,8 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT5,16,_OMC_LIT5_data);
 #define _OMC_LIT5 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT5)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT6,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT5}};
 #define _OMC_LIT6 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT6)
-#define _OMC_LIT7_data "CodegenOMSIC.tpl"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,16,_OMC_LIT7_data);
+#define _OMC_LIT7_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/Template/CodegenOMSIC.tpl"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,78,_OMC_LIT7_data);
 #define _OMC_LIT7 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT7)
 #define _OMC_LIT8_data "msvc"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT8,4,_OMC_LIT8_data);

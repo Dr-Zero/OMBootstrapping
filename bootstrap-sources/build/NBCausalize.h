@@ -51,9 +51,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBCausalize_getModule,2,0) {(void*) box
 
 
 DLLDirection
-modelica_metatype omc_NBCausalize_simple(threadData_t *threadData, modelica_metatype _vars, modelica_metatype _eqns, modelica_integer _st, modelica_metatype _iter, modelica_metatype *out_comps);
+modelica_metatype omc_NBCausalize_simple(threadData_t *threadData, modelica_metatype _vars, modelica_metatype _eqns, modelica_integer _kind, modelica_integer _st, modelica_metatype _iter, modelica_metatype *out_comps);
 DLLDirection
-modelica_metatype boxptr_NBCausalize_simple(threadData_t *threadData, modelica_metatype _vars, modelica_metatype _eqns, modelica_metatype _st, modelica_metatype _iter, modelica_metatype *out_comps);
+modelica_metatype boxptr_NBCausalize_simple(threadData_t *threadData, modelica_metatype _vars, modelica_metatype _eqns, modelica_metatype _kind, modelica_metatype _st, modelica_metatype _iter, modelica_metatype *out_comps);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBCausalize_simple,2,0) {(void*) boxptr_NBCausalize_simple,0}};
 #define boxvar_NBCausalize_simple MMC_REFSTRUCTLIT(boxvar_lit_NBCausalize_simple)
 
@@ -67,9 +67,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBCausalize_checkSystemVariabilities,2,
 
 
 DLLDirection
-modelica_metatype omc_NBCausalize_applyModule(threadData_t *threadData, modelica_metatype _partitions, modelica_integer _kind, modelica_metatype __omcQ_24in_5FvarData, modelica_metatype __omcQ_24in_5FeqData, modelica_metatype __omcQ_24in_5FfuncTree, modelica_fnptr _func, modelica_metatype *out_varData, modelica_metatype *out_eqData, modelica_metatype *out_funcTree);
+modelica_metatype omc_NBCausalize_applyModule(threadData_t *threadData, modelica_metatype _partitions, modelica_integer _kind, modelica_metatype __omcQ_24in_5FvarData, modelica_metatype __omcQ_24in_5FeqData, modelica_metatype _funcMap, modelica_fnptr _func, modelica_metatype *out_varData, modelica_metatype *out_eqData);
 DLLDirection
-modelica_metatype boxptr_NBCausalize_applyModule(threadData_t *threadData, modelica_metatype _partitions, modelica_metatype _kind, modelica_metatype __omcQ_24in_5FvarData, modelica_metatype __omcQ_24in_5FeqData, modelica_metatype __omcQ_24in_5FfuncTree, modelica_fnptr _func, modelica_metatype *out_varData, modelica_metatype *out_eqData, modelica_metatype *out_funcTree);
+modelica_metatype boxptr_NBCausalize_applyModule(threadData_t *threadData, modelica_metatype _partitions, modelica_metatype _kind, modelica_metatype __omcQ_24in_5FvarData, modelica_metatype __omcQ_24in_5FeqData, modelica_metatype _funcMap, modelica_fnptr _func, modelica_metatype *out_varData, modelica_metatype *out_eqData);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBCausalize_applyModule,2,0) {(void*) boxptr_NBCausalize_applyModule,0}};
 #define boxvar_NBCausalize_applyModule MMC_REFSTRUCTLIT(boxvar_lit_NBCausalize_applyModule)
 

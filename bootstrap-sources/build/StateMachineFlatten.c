@@ -6216,7 +6216,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_StateMachineFlatten_flatSmToData
     if(!listEmpty(_otherLst4))
     {
       {
-        FILE_INFO info = {"/home/adrpo33/OpenModelica/OMCompiler/Compiler/FrontEnd/StateMachineFlatten.mo",197,3,197,102,0};
+        FILE_INFO info = {"/home/per/workspace/OpenModelica/OMCompiler/Compiler/FrontEnd/StateMachineFlatten.mo",197,3,197,102,0};
         omc_assert(threadData, info, MMC_STRINGDATA(_OMC_LIT134));
       }
     }
@@ -6435,7 +6435,7 @@ modelica_metatype omc_StateMachineFlatten_stateMachineToDataFlow(threadData_t *t
     if(!(listLength(_elementLst) == ((modelica_integer) 1)))
     {
       {
-        FILE_INFO info = {"/home/adrpo33/OpenModelica/OMCompiler/Compiler/FrontEnd/StateMachineFlatten.mo",115,3,115,110,0};
+        FILE_INFO info = {"/home/per/workspace/OpenModelica/OMCompiler/Compiler/FrontEnd/StateMachineFlatten.mo",115,3,115,110,0};
         omc_assert(threadData, info, MMC_STRINGDATA(_OMC_LIT135));
       }
     }

@@ -306,8 +306,8 @@ modelica_integer omc_Util_referenceCompare(threadData_t *threadData, modelica_me
   int _result_ext;
   modelica_integer _result;
   // _result has no default value.
-  _ref1_ext = (modelica_metatype)_ref1;
-  _ref2_ext = (modelica_metatype)_ref2;
+  _ref1_ext = (modelica_metatype) _ref1;
+  _ref2_ext = (modelica_metatype) _ref2;
   _result_ext = referenceCompareExt(_ref1_ext, _ref2_ext);
   _result = (modelica_integer)_result_ext;
   return _result;
@@ -781,6 +781,17 @@ modelica_string omc_Util_intLstString(threadData_t *threadData, modelica_metatyp
   _s = stringDelimitList(omc_List_map(threadData, _lst, boxvar_intString), _OMC_LIT7);
   _return: OMC_LABEL_UNUSED
   return _s;
+}
+
+DLLDirection
+modelica_string omc_Util_hashFileNamePrefix(threadData_t *threadData, modelica_string _inFileNamePrefix)
+{
+  modelica_string _hashStr = NULL;
+  MMC_SO();
+  _tailrecursive: OMC_LABEL_UNUSED
+  _hashStr = substring(intString(stringHashDjb2(_inFileNamePrefix)), ((modelica_integer) 1), ((modelica_integer) 3));
+  _return: OMC_LABEL_UNUSED
+  return _hashStr;
 }
 
 DLLDirection
@@ -1387,10 +1398,10 @@ modelica_string omc_Util_stringPadLeft(threadData_t *threadData, modelica_string
   if((_pad_length > ((modelica_integer) 0)))
   {
     {
-      modelica_metatype __omcQ_24tmpVar1;
+      modelica_metatype __omcQ_24tmpVar3;
       modelica_metatype* tmp2;
       modelica_metatype tmpMeta3;
-      modelica_string __omcQ_24tmpVar0;
+      modelica_string __omcQ_24tmpVar2;
       modelica_integer tmp4;
       modelica_integer tmp5;
       modelica_integer tmp6;
@@ -1400,8 +1411,8 @@ modelica_string omc_Util_stringPadLeft(threadData_t *threadData, modelica_string
       _i = ((modelica_integer) 1) /* Range start-value */;
       _i = (((modelica_integer) 1) /* Range start-value */)-tmp5;
       tmpMeta3 = MMC_REFSTRUCTLIT(mmc_nil);
-      __omcQ_24tmpVar1 = tmpMeta3; /* defaultValue */
-      tmp2 = &__omcQ_24tmpVar1;
+      __omcQ_24tmpVar3 = tmpMeta3; /* defaultValue */
+      tmp2 = &__omcQ_24tmpVar3;
       while(1) {
         tmp4 = 1;
         if (tmp5 > 0 ? _i+tmp5 <= tmp6 : _i+tmp5 >= tmp6) {
@@ -1409,8 +1420,8 @@ modelica_string omc_Util_stringPadLeft(threadData_t *threadData, modelica_string
           tmp4--;
         }
         if (tmp4 == 0) {
-          __omcQ_24tmpVar0 = _inPadString;
-          *tmp2 = mmc_mk_cons(__omcQ_24tmpVar0,0);
+          __omcQ_24tmpVar2 = _inPadString;
+          *tmp2 = mmc_mk_cons(__omcQ_24tmpVar2,0);
           tmp2 = &MMC_CDR(*tmp2);
         } else if (tmp4 == 1) {
           break;
@@ -1419,7 +1430,7 @@ modelica_string omc_Util_stringPadLeft(threadData_t *threadData, modelica_string
         }
       }
       *tmp2 = mmc_mk_nil();
-      tmpMeta1 = __omcQ_24tmpVar1;
+      tmpMeta1 = __omcQ_24tmpVar3;
     }
     _pad_str = stringAppendList(tmpMeta1);
 
@@ -1461,10 +1472,10 @@ modelica_string omc_Util_stringPadRight(threadData_t *threadData, modelica_strin
   if((_pad_length > ((modelica_integer) 0)))
   {
     {
-      modelica_metatype __omcQ_24tmpVar3;
+      modelica_metatype __omcQ_24tmpVar5;
       modelica_metatype* tmp2;
       modelica_metatype tmpMeta3;
-      modelica_string __omcQ_24tmpVar2;
+      modelica_string __omcQ_24tmpVar4;
       modelica_integer tmp4;
       modelica_integer tmp5;
       modelica_integer tmp6;
@@ -1474,8 +1485,8 @@ modelica_string omc_Util_stringPadRight(threadData_t *threadData, modelica_strin
       _i = ((modelica_integer) 1) /* Range start-value */;
       _i = (((modelica_integer) 1) /* Range start-value */)-tmp5;
       tmpMeta3 = MMC_REFSTRUCTLIT(mmc_nil);
-      __omcQ_24tmpVar3 = tmpMeta3; /* defaultValue */
-      tmp2 = &__omcQ_24tmpVar3;
+      __omcQ_24tmpVar5 = tmpMeta3; /* defaultValue */
+      tmp2 = &__omcQ_24tmpVar5;
       while(1) {
         tmp4 = 1;
         if (tmp5 > 0 ? _i+tmp5 <= tmp6 : _i+tmp5 >= tmp6) {
@@ -1483,8 +1494,8 @@ modelica_string omc_Util_stringPadRight(threadData_t *threadData, modelica_strin
           tmp4--;
         }
         if (tmp4 == 0) {
-          __omcQ_24tmpVar2 = _inPadString;
-          *tmp2 = mmc_mk_cons(__omcQ_24tmpVar2,0);
+          __omcQ_24tmpVar4 = _inPadString;
+          *tmp2 = mmc_mk_cons(__omcQ_24tmpVar4,0);
           tmp2 = &MMC_CDR(*tmp2);
         } else if (tmp4 == 1) {
           break;
@@ -1493,7 +1504,7 @@ modelica_string omc_Util_stringPadRight(threadData_t *threadData, modelica_strin
         }
       }
       *tmp2 = mmc_mk_nil();
-      tmpMeta1 = __omcQ_24tmpVar3;
+      tmpMeta1 = __omcQ_24tmpVar5;
     }
     _pad_str = stringAppendList(tmpMeta1);
 
@@ -1959,6 +1970,25 @@ modelica_string omc_Util_stringAppendReverse(threadData_t *threadData, modelica_
   _str = tmpMeta1;
   _return: OMC_LABEL_UNUSED
   return _str;
+}
+
+DLLDirection
+modelica_boolean omc_Util_strcmpNoCaseBool(threadData_t *threadData, modelica_string _s1, modelica_string _s2)
+{
+  modelica_boolean _b;
+  MMC_SO();
+  _tailrecursive: OMC_LABEL_UNUSED
+  _b = (stringCompare(omc_System_tolower(threadData, _s1), omc_System_tolower(threadData, _s2)) > ((modelica_integer) 0));
+  _return: OMC_LABEL_UNUSED
+  return _b;
+}
+modelica_metatype boxptr_Util_strcmpNoCaseBool(threadData_t *threadData, modelica_metatype _s1, modelica_metatype _s2)
+{
+  modelica_boolean _b;
+  modelica_metatype out_b;
+  _b = omc_Util_strcmpNoCaseBool(threadData, _s1, _s2);
+  out_b = mmc_mk_icon(_b);
+  return out_b;
 }
 
 DLLDirection

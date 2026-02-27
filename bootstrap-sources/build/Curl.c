@@ -13,8 +13,8 @@ modelica_boolean omc_Curl_multiDownload(threadData_t *threadData, modelica_metat
   int _success_ext;
   modelica_boolean _success;
   // _success has no default value.
-  _urlFileList_ext = (modelica_metatype)_urlFileList;
-  _maxParallel_ext = (int)_maxParallel;
+  _urlFileList_ext = (modelica_metatype) _urlFileList;
+  _maxParallel_ext = (int) _maxParallel;
   _success_ext = om_curl_multi_download(_urlFileList_ext, _maxParallel_ext);
   _success = (modelica_boolean)_success_ext;
   return _success;

@@ -8,12 +8,14 @@
 
 void omc_ErrorExt_initAssertionFunctions(threadData_t *threadData)
 {
+
   Error_initAssertionFunctions();
   return;
 }
 
 void omc_ErrorExt_moveMessagesToParentThread(threadData_t *threadData)
 {
+
   Error_moveMessagesToParentThread(threadData);
   return;
 }
@@ -21,7 +23,7 @@ void omc_ErrorExt_moveMessagesToParentThread(threadData_t *threadData)
 void omc_ErrorExt_setShowErrorMessages(threadData_t *threadData, modelica_boolean _inShow)
 {
   int _inShow_ext;
-  _inShow_ext = (int)_inShow;
+  _inShow_ext = (int) _inShow;
   Error_setShowErrorMessages(threadData, _inShow_ext);
   return;
 }
@@ -38,6 +40,7 @@ modelica_boolean omc_ErrorExt_isTopCheckpoint(threadData_t *threadData, modelica
   int _isThere_ext;
   modelica_boolean _isThere;
   // _isThere has no default value.
+
   _isThere_ext = ErrorImpl__isTopCheckpoint(threadData, MMC_STRINGDATA(_id));
   _isThere = (modelica_boolean)_isThere_ext;
   return _isThere;
@@ -54,7 +57,7 @@ modelica_metatype boxptr_ErrorExt_isTopCheckpoint(threadData_t *threadData, mode
 void omc_ErrorExt_freeMessages(threadData_t *threadData, modelica_metatype _handles)
 {
   modelica_metatype _handles_ext;
-  _handles_ext = (modelica_metatype)_handles;
+  _handles_ext = (modelica_metatype) _handles;
   ErrorImpl__freeMessages(threadData, _handles_ext);
   return;
 }
@@ -62,7 +65,7 @@ void omc_ErrorExt_freeMessages(threadData_t *threadData, modelica_metatype _hand
 void omc_ErrorExt_pushMessages(threadData_t *threadData, modelica_metatype _handles)
 {
   modelica_metatype _handles_ext;
-  _handles_ext = (modelica_metatype)_handles;
+  _handles_ext = (modelica_metatype) _handles;
   ErrorImpl__pushMessages(threadData, _handles_ext);
   return;
 }
@@ -72,6 +75,7 @@ modelica_metatype omc_ErrorExt_popCheckPoint(threadData_t *threadData, modelica_
   modelica_metatype _handles_ext;
   modelica_metatype _handles = NULL;
   // _handles has no default value.
+
   _handles_ext = ErrorImpl__pop(threadData, MMC_STRINGDATA(_id));
   _handles = (modelica_metatype)_handles_ext;
   return _handles;
@@ -79,6 +83,7 @@ modelica_metatype omc_ErrorExt_popCheckPoint(threadData_t *threadData, modelica_
 
 void omc_ErrorExt_rollBack(threadData_t *threadData, modelica_string _id)
 {
+
   ErrorImpl__rollBack(threadData, MMC_STRINGDATA(_id));
   return;
 }
@@ -88,6 +93,7 @@ modelica_string omc_ErrorExt_printErrorsNoWarning(threadData_t *threadData)
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
+
   _outString_ext = Error_printErrorsNoWarning(threadData);
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;
@@ -95,12 +101,14 @@ modelica_string omc_ErrorExt_printErrorsNoWarning(threadData_t *threadData)
 
 void omc_ErrorExt_delCheckpoint(threadData_t *threadData, modelica_string _id)
 {
+
   ErrorImpl__delCheckpoint(threadData, MMC_STRINGDATA(_id));
   return;
 }
 
 void omc_ErrorExt_setCheckpoint(threadData_t *threadData, modelica_string _id)
 {
+
   ErrorImpl__setCheckpoint(threadData, MMC_STRINGDATA(_id));
   return;
 }
@@ -108,7 +116,7 @@ void omc_ErrorExt_setCheckpoint(threadData_t *threadData, modelica_string _id)
 void omc_ErrorExt_deleteNumCheckpoints(threadData_t *threadData, modelica_integer _n)
 {
   int _n_ext;
-  _n_ext = (int)_n;
+  _n_ext = (int) _n;
   ErrorImpl__deleteNumCheckpoints(threadData, _n_ext);
   return;
 }
@@ -123,7 +131,7 @@ void boxptr_ErrorExt_deleteNumCheckpoints(threadData_t *threadData, modelica_met
 void omc_ErrorExt_rollbackNumCheckpoints(threadData_t *threadData, modelica_integer _n)
 {
   int _n_ext;
-  _n_ext = (int)_n;
+  _n_ext = (int) _n;
   ErrorImpl__rollbackNumCheckpoints(threadData, _n_ext);
   return;
 }
@@ -140,6 +148,7 @@ modelica_integer omc_ErrorExt_getNumCheckpoints(threadData_t *threadData)
   int _n_ext;
   modelica_integer _n;
   // _n has no default value.
+
   _n_ext = ErrorImpl__getNumCheckpoints(threadData);
   _n = (modelica_integer)_n_ext;
   return _n;
@@ -155,6 +164,7 @@ modelica_metatype boxptr_ErrorExt_getNumCheckpoints(threadData_t *threadData)
 
 void omc_ErrorExt_clearMessages(threadData_t *threadData)
 {
+
   ErrorImpl__clearMessages(threadData);
   return;
 }
@@ -164,6 +174,7 @@ modelica_metatype omc_ErrorExt_getCheckpointMessages(threadData_t *threadData)
   modelica_metatype _res_ext;
   modelica_metatype _res = NULL;
   // _res has no default value.
+
   _res_ext = ErrorImpl__getCheckpointMessages(threadData);
   _res = (modelica_metatype)_res_ext;
   return _res;
@@ -174,6 +185,7 @@ modelica_metatype omc_ErrorExt_getMessages(threadData_t *threadData)
   modelica_metatype _res_ext;
   modelica_metatype _res = NULL;
   // _res has no default value.
+
   _res_ext = Error_getMessages(threadData);
   _res = (modelica_metatype)_res_ext;
   return _res;
@@ -184,6 +196,7 @@ modelica_integer omc_ErrorExt_getNumWarningMessages(threadData_t *threadData)
   int _num_ext;
   modelica_integer _num;
   // _num has no default value.
+
   _num_ext = ErrorImpl__getNumWarningMessages(threadData);
   _num = (modelica_integer)_num_ext;
   return _num;
@@ -202,6 +215,7 @@ modelica_integer omc_ErrorExt_getNumErrorMessages(threadData_t *threadData)
   int _num_ext;
   modelica_integer _num;
   // _num has no default value.
+
   _num_ext = ErrorImpl__getNumErrorMessages(threadData);
   _num = (modelica_integer)_num_ext;
   return _num;
@@ -220,6 +234,7 @@ modelica_integer omc_ErrorExt_getNumMessages(threadData_t *threadData)
   int _num_ext;
   modelica_integer _num;
   // _num has no default value.
+
   _num_ext = Error_getNumMessages(threadData);
   _num = (modelica_integer)_num_ext;
   return _num;
@@ -239,7 +254,7 @@ modelica_string omc_ErrorExt_printCheckpointMessagesStr(threadData_t *threadData
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
-  _warningsAsErrors_ext = (int)_warningsAsErrors;
+  _warningsAsErrors_ext = (int) _warningsAsErrors;
   _outString_ext = Error_printCheckpointMessagesStr(threadData, _warningsAsErrors_ext);
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;
@@ -260,7 +275,7 @@ modelica_string omc_ErrorExt_printMessagesStr(threadData_t *threadData, modelica
   const char* _outString_ext;
   modelica_string _outString = NULL;
   // _outString has no default value.
-  _warningsAsErrors_ext = (int)_warningsAsErrors;
+  _warningsAsErrors_ext = (int) _warningsAsErrors;
   _outString_ext = Error_printMessagesStr(threadData, _warningsAsErrors_ext);
   _outString = (modelica_string)mmc_mk_scon(_outString_ext);
   return _outString;
@@ -286,15 +301,15 @@ void omc_ErrorExt_addSourceMessage(threadData_t *threadData, modelica_integer _i
   int _ecol_ext;
   int _read_only_ext;
   modelica_metatype _tokens_ext;
-  _id_ext = (int)_id;
-  _msg_type_ext = (modelica_metatype)_msg_type;
-  _msg_severity_ext = (modelica_metatype)_msg_severity;
-  _sline_ext = (int)_sline;
-  _scol_ext = (int)_scol;
-  _eline_ext = (int)_eline;
-  _ecol_ext = (int)_ecol;
-  _read_only_ext = (int)_read_only;
-  _tokens_ext = (modelica_metatype)_tokens;
+  _id_ext = (int) _id;
+  _msg_type_ext = (modelica_metatype) _msg_type;
+  _msg_severity_ext = (modelica_metatype) _msg_severity;
+  _sline_ext = (int) _sline;
+  _scol_ext = (int) _scol;
+  _eline_ext = (int) _eline;
+  _ecol_ext = (int) _ecol;
+  _read_only_ext = (int) _read_only;
+  _tokens_ext = (modelica_metatype) _tokens;
   Error_addSourceMessage(threadData, _id_ext, _msg_type_ext, _msg_severity_ext, _sline_ext, _scol_ext, _eline_ext, _ecol_ext, _read_only_ext, MMC_STRINGDATA(_filename), MMC_STRINGDATA(_msg), _tokens_ext);
   return;
 }
@@ -318,6 +333,7 @@ void boxptr_ErrorExt_addSourceMessage(threadData_t *threadData, modelica_metatyp
 
 void omc_ErrorExt_registerModelicaFormatError(threadData_t *threadData)
 {
+
   Error_registerModelicaFormatError();
   return;
 }

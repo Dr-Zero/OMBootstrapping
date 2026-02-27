@@ -3,16 +3,16 @@
 #define _OMC_LIT0_data "NFSBGraphUtil.linearMapFromIntervals got incompatible connect"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT0,61,_OMC_LIT0_data);
 #define _OMC_LIT0 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT0)
-#define _OMC_LIT1_data "/home/adrpo33/OpenModelica/OMCompiler/Compiler/NFFrontEnd/NFSBGraphUtil.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT1,74,_OMC_LIT1_data);
+#define _OMC_LIT1_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/NFFrontEnd/NFSBGraphUtil.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT1,80,_OMC_LIT1_data);
 #define _OMC_LIT1 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT1)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT2_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT2_6,1.770032059e9);
 #define _OMC_LIT2_6 MMC_REFREALLIT(_OMC_LIT_STRUCT2_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT2,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT1,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(303)),MMC_IMMEDIATE(MMC_TAGFIXNUM(7)),MMC_IMMEDIATE(MMC_TAGFIXNUM(303)),MMC_IMMEDIATE(MMC_TAGFIXNUM(92)),_OMC_LIT2_6}};
 #define _OMC_LIT2 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT2)
 static const MMC_DEFREALLIT(_OMC_LIT_STRUCT3,0.0);
 #define _OMC_LIT3 MMC_REFREALLIT(_OMC_LIT_STRUCT3)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT4_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT4_6,1.770032059e9);
 #define _OMC_LIT4_6 MMC_REFREALLIT(_OMC_LIT_STRUCT4_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT4,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT1,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(319)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(319)),MMC_IMMEDIATE(MMC_TAGFIXNUM(94)),_OMC_LIT4_6}};
 #define _OMC_LIT4 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT4)
@@ -25,7 +25,7 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT6,59,_OMC_LIT6_data);
 #define _OMC_LIT7_data "\n"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,1,_OMC_LIT7_data);
 #define _OMC_LIT7 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT7)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT8_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT8_6,1.770032059e9);
 #define _OMC_LIT8_6 MMC_REFREALLIT(_OMC_LIT_STRUCT8_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT8,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT1,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(241)),MMC_IMMEDIATE(MMC_TAGFIXNUM(7)),MMC_IMMEDIATE(MMC_TAGFIXNUM(242)),MMC_IMMEDIATE(MMC_TAGFIXNUM(83)),_OMC_LIT8_6}};
 #define _OMC_LIT8 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT8)
@@ -35,7 +35,7 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT9,57,_OMC_LIT9_data);
 #define _OMC_LIT10_data " "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT10,1,_OMC_LIT10_data);
 #define _OMC_LIT10 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT10)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT11_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT11_6,1.770032059e9);
 #define _OMC_LIT11_6 MMC_REFREALLIT(_OMC_LIT_STRUCT11_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT11,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT1,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(235)),MMC_IMMEDIATE(MMC_TAGFIXNUM(13)),MMC_IMMEDIATE(MMC_TAGFIXNUM(236)),MMC_IMMEDIATE(MMC_TAGFIXNUM(76)),_OMC_LIT11_6}};
 #define _OMC_LIT11 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT11)
@@ -49,14 +49,14 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT14,4,3) {&NFCeval_EvalTarget_EVAL__
 #define _OMC_LIT15_data "NFSBGraphUtil.intervalFromExp got unknown expression "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT15,53,_OMC_LIT15_data);
 #define _OMC_LIT15 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT15)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT16_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT16_6,1.770032059e9);
 #define _OMC_LIT16_6 MMC_REFREALLIT(_OMC_LIT_STRUCT16_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT16,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT1,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(194)),MMC_IMMEDIATE(MMC_TAGFIXNUM(11)),MMC_IMMEDIATE(MMC_TAGFIXNUM(195)),MMC_IMMEDIATE(MMC_TAGFIXNUM(71)),_OMC_LIT16_6}};
 #define _OMC_LIT16 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT16)
 #define _OMC_LIT17_data "NFSBGraphUtil.multiIntervalFromDimensions: unknown dimension "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT17,61,_OMC_LIT17_data);
 #define _OMC_LIT17 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT17)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT18_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT18_6,1.770032059e9);
 #define _OMC_LIT18_6 MMC_REFREALLIT(_OMC_LIT_STRUCT18_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT18,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT1,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(78)),MMC_IMMEDIATE(MMC_TAGFIXNUM(11)),MMC_IMMEDIATE(MMC_TAGFIXNUM(79)),MMC_IMMEDIATE(MMC_TAGFIXNUM(47)),_OMC_LIT18_6}};
 #define _OMC_LIT18 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT18)
@@ -348,9 +348,9 @@ modelica_metatype omc_NFSBGraphUtil_intervalFromBinaryExp(threadData_t *threadDa
   modelica_metatype tmpMeta4;
   modelica_integer tmp5;
   modelica_metatype tmpMeta6;
+  modelica_metatype tmpMeta14;
   modelica_metatype tmpMeta15;
   modelica_metatype tmpMeta16;
-  modelica_metatype tmpMeta17;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _i has no default value.
@@ -403,41 +403,40 @@ modelica_metatype omc_NFSBGraphUtil_intervalFromBinaryExp(threadData_t *threadDa
         modelica_metatype tmp9_1;
         tmp9_1 = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_op), 3)));
         {
-          volatile mmc_switch_type tmp9;
-          int tmp10;
-          tmp9 = 0;
-          for (; tmp9 < 4; tmp9++) {
-            switch (MMC_SWITCH_CAST(tmp9)) {
-            case 0: {
-              modelica_integer tmp11;
-              tmp11 = mmc_unbox_integer(tmp9_1);
-              if (1 != tmp11) goto tmp8_end;
+          int tmp9;
+          {
+            switch (MMC_SWITCH_CAST(mmc_unbox_integer(tmp9_1))) {
+            case 1: {
+              modelica_integer tmp10;
+              tmp10 = mmc_unbox_integer(tmp9_1);
+              if (1 != tmp10) goto tmp8_end;
               /* Pattern matching succeeded */
               tmpMeta6 = omc_SBInterval_new(threadData, _llo + _rlo, _step, _lhi + _rhi);
               goto tmp8_done;
             }
-            case 1: {
-              modelica_integer tmp12;
-              tmp12 = mmc_unbox_integer(tmp9_1);
-              if (2 != tmp12) goto tmp8_end;
+            case 2: {
+              modelica_integer tmp11;
+              tmp11 = mmc_unbox_integer(tmp9_1);
+              if (2 != tmp11) goto tmp8_end;
               /* Pattern matching succeeded */
               tmpMeta6 = omc_SBInterval_new(threadData, _llo - _rlo, _step, _lhi - _rhi);
               goto tmp8_done;
             }
-            case 2: {
-              modelica_integer tmp13;
-              tmp13 = mmc_unbox_integer(tmp9_1);
-              if (3 != tmp13) goto tmp8_end;
+            case 3: {
+              modelica_integer tmp12;
+              tmp12 = mmc_unbox_integer(tmp9_1);
+              if (3 != tmp12) goto tmp8_end;
               /* Pattern matching succeeded */
               tmpMeta6 = omc_SBInterval_new(threadData, (_llo) * (_rlo), (_llo) * (_step), (_lhi) * (_rhi));
               goto tmp8_done;
             }
-            case 3: {
-              modelica_metatype tmpMeta14;
+            default:
+            tmp8_default: OMC_LABEL_UNUSED; {
+              modelica_metatype tmpMeta13;
               
               /* Pattern matching succeeded */
-              tmpMeta14 = stringAppend(_OMC_LIT9,omc_NFOperator_symbol(threadData, _op, _OMC_LIT10));
-              omc_Error_assertion(threadData, 0 /* false */, tmpMeta14, _OMC_LIT11);
+              tmpMeta13 = stringAppend(_OMC_LIT9,omc_NFOperator_symbol(threadData, _op, _OMC_LIT10));
+              omc_Error_assertion(threadData, 0 /* false */, tmpMeta13, _OMC_LIT11);
               goto goto_7;
               goto tmp8_done;
             }
@@ -456,10 +455,10 @@ modelica_metatype omc_NFSBGraphUtil_intervalFromBinaryExp(threadData_t *threadDa
     }
     else
     {
-      tmpMeta15 = mmc_mk_box4(19, &NFExpression_BINARY__desc, _lhs, _op, _rhs);
-      tmpMeta16 = stringAppend(_OMC_LIT6,omc_NFExpression_toString(threadData, tmpMeta15));
-      tmpMeta17 = stringAppend(tmpMeta16,_OMC_LIT7);
-      omc_Error_assertion(threadData, 0 /* false */, tmpMeta17, _OMC_LIT8);
+      tmpMeta14 = mmc_mk_box4(19, &NFExpression_BINARY__desc, _lhs, _op, _rhs);
+      tmpMeta15 = stringAppend(_OMC_LIT6,omc_NFExpression_toString(threadData, tmpMeta14));
+      tmpMeta16 = stringAppend(tmpMeta15,_OMC_LIT7);
+      omc_Error_assertion(threadData, 0 /* false */, tmpMeta16, _OMC_LIT8);
     }
   }
   _return: OMC_LABEL_UNUSED

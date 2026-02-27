@@ -64,6 +64,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_AvlTreeCRToInt_addList,2,0) {(void*) bo
 #define boxvar_AvlTreeCRToInt_addList MMC_REFSTRUCTLIT(boxvar_lit_AvlTreeCRToInt_addList)
 
 
+DLLDirection
+modelica_metatype omc_AvlTreeCRToInt_addUpdate(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftree, modelica_metatype _key, modelica_fnptr _fn);
+#define boxptr_AvlTreeCRToInt_addUpdate omc_AvlTreeCRToInt_addUpdate
+static const MMC_DEFSTRUCTLIT(boxvar_lit_AvlTreeCRToInt_addUpdate,2,0) {(void*) boxptr_AvlTreeCRToInt_addUpdate,0}};
+#define boxvar_AvlTreeCRToInt_addUpdate MMC_REFSTRUCTLIT(boxvar_lit_AvlTreeCRToInt_addUpdate)
+
+
 #define boxptr_AvlTreeCRToInt_balance omc_AvlTreeCRToInt_balance
 
 
@@ -163,7 +170,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_AvlTreeCRToInt_keyStr,2,0) {(void*) box
 
 
 DLLDirection
-modelica_metatype omc_AvlTreeCRToInt_listKeys(threadData_t *threadData, modelica_metatype _inTree, modelica_metatype __omcQ_24in_5Flst);
+modelica_metatype omc_AvlTreeCRToInt_listKeys(threadData_t *threadData, modelica_metatype _tree, modelica_metatype __omcQ_24in_5Flst);
 #define boxptr_AvlTreeCRToInt_listKeys omc_AvlTreeCRToInt_listKeys
 static const MMC_DEFSTRUCTLIT(boxvar_lit_AvlTreeCRToInt_listKeys,2,0) {(void*) boxptr_AvlTreeCRToInt_listKeys,0}};
 #define boxvar_AvlTreeCRToInt_listKeys MMC_REFSTRUCTLIT(boxvar_lit_AvlTreeCRToInt_listKeys)

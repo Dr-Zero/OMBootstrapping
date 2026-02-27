@@ -19,6 +19,7 @@ extern "C" {
 #include "NFDimension.h"
 #include "NFExpression.h"
 #include "NFFunction.h"
+#include "NFSubscript.h"
 #include "NFType.h"
 #include "NFVariable.h"
 #include "Pointer.h"

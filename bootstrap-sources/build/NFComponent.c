@@ -793,18 +793,18 @@ modelica_metatype omc_NFComponent_toFlatStream(threadData_t *threadData, modelic
           _s = omc_IOStream_append(threadData, _s, omc_Util_makeQuotedIdentifier(threadData, _name));
 
           {
-            modelica_metatype __omcQ_24tmpVar1;
+            modelica_metatype __omcQ_24tmpVar3;
             modelica_metatype* tmp6;
             modelica_metatype tmpMeta7;
             modelica_metatype tmpMeta8;
-            modelica_metatype __omcQ_24tmpVar0;
+            modelica_metatype __omcQ_24tmpVar2;
             modelica_integer tmp9;
             modelica_metatype _a_loopVar = 0;
             modelica_metatype _a;
             _a_loopVar = omc_NFClass_getTypeAttributes(threadData, omc_NFInstNode_InstNode_getClass(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_component), 2)))));
             tmpMeta7 = MMC_REFSTRUCTLIT(mmc_nil);
-            __omcQ_24tmpVar1 = tmpMeta7; /* defaultValue */
-            tmp6 = &__omcQ_24tmpVar1;
+            __omcQ_24tmpVar3 = tmpMeta7; /* defaultValue */
+            tmp6 = &__omcQ_24tmpVar3;
             while(1) {
               tmp9 = 1;
               if (!listEmpty(_a_loopVar)) {
@@ -814,8 +814,8 @@ modelica_metatype omc_NFComponent_toFlatStream(threadData_t *threadData, modelic
               }
               if (tmp9 == 0) {
                 tmpMeta8 = mmc_mk_box2(0, omc_NFModifier_Modifier_name(threadData, _a), omc_NFModifier_Modifier_binding(threadData, _a));
-                __omcQ_24tmpVar0 = tmpMeta8;
-                *tmp6 = mmc_mk_cons(__omcQ_24tmpVar0,0);
+                __omcQ_24tmpVar2 = tmpMeta8;
+                *tmp6 = mmc_mk_cons(__omcQ_24tmpVar2,0);
                 tmp6 = &MMC_CDR(*tmp6);
               } else if (tmp9 == 1) {
                 break;
@@ -824,7 +824,7 @@ modelica_metatype omc_NFComponent_toFlatStream(threadData_t *threadData, modelic
               }
             }
             *tmp6 = mmc_mk_nil();
-            tmpMeta5 = __omcQ_24tmpVar1;
+            tmpMeta5 = __omcQ_24tmpVar3;
           }
           _ty_attrs = tmpMeta5;
 

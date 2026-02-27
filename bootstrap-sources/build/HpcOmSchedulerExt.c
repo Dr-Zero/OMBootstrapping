@@ -16,11 +16,11 @@ modelica_metatype omc_HpcOmSchedulerExt_schedulehMetis(threadData_t *threadData,
   modelica_metatype _res_ext;
   modelica_metatype _res = NULL;
   // _res has no default value.
-  _vwgts_ext = (modelica_metatype)_vwgts;
-  _eptr_ext = (modelica_metatype)_eptr;
-  _eint_ext = (modelica_metatype)_eint;
-  _hewgts_ext = (modelica_metatype)_hewgts;
-  _nparts_ext = (int)_nparts;
+  _vwgts_ext = (modelica_metatype) _vwgts;
+  _eptr_ext = (modelica_metatype) _eptr;
+  _eint_ext = (modelica_metatype) _eint;
+  _hewgts_ext = (modelica_metatype) _hewgts;
+  _nparts_ext = (int) _nparts;
   _res_ext = HpcOmSchedulerExt_schedulehMetis(_vwgts_ext, _eptr_ext, _eint_ext, _hewgts_ext, _nparts_ext);
   _res = (modelica_metatype)_res_ext;
   return _res;
@@ -45,11 +45,11 @@ modelica_metatype omc_HpcOmSchedulerExt_scheduleMetis(threadData_t *threadData, 
   modelica_metatype _res_ext;
   modelica_metatype _res = NULL;
   // _res has no default value.
-  _xadj_ext = (modelica_metatype)_xadj;
-  _adjncy_ext = (modelica_metatype)_adjncy;
-  _vwgt_ext = (modelica_metatype)_vwgt;
-  _adjwgt_ext = (modelica_metatype)_adjwgt;
-  _nparts_ext = (int)_nparts;
+  _xadj_ext = (modelica_metatype) _xadj;
+  _adjncy_ext = (modelica_metatype) _adjncy;
+  _vwgt_ext = (modelica_metatype) _vwgt;
+  _adjwgt_ext = (modelica_metatype) _adjwgt;
+  _nparts_ext = (int) _nparts;
   _res_ext = HpcOmSchedulerExt_scheduleMetis(_xadj_ext, _adjncy_ext, _vwgt_ext, _adjwgt_ext, _nparts_ext);
   _res = (modelica_metatype)_res_ext;
   return _res;
@@ -69,6 +69,7 @@ modelica_metatype omc_HpcOmSchedulerExt_readScheduleFromGraphMl(threadData_t *th
   modelica_metatype _res_ext;
   modelica_metatype _res = NULL;
   // _res has no default value.
+
   _res_ext = HpcOmSchedulerExt_readScheduleFromGraphMl(MMC_STRINGDATA(_filename));
   _res = (modelica_metatype)_res_ext;
   return _res;

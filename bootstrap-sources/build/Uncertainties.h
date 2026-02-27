@@ -380,7 +380,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_Uncertainties_dumpMatching,2,0) {(void*
 
 
 DLLDirection
-modelica_metatype omc_Uncertainties_getSolvedEquationNumber(threadData_t *threadData, modelica_integer _varnumber, modelica_metatype _inlist);
+modelica_integer omc_Uncertainties_getSolvedEquationNumber(threadData_t *threadData, modelica_integer _varnumber, modelica_metatype _inlist);
 DLLDirection
 modelica_metatype boxptr_Uncertainties_getSolvedEquationNumber(threadData_t *threadData, modelica_metatype _varnumber, modelica_metatype _inlist);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Uncertainties_getSolvedEquationNumber,2,0) {(void*) boxptr_Uncertainties_getSolvedEquationNumber,0}};
@@ -388,7 +388,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_Uncertainties_getSolvedEquationNumber,2
 
 
 DLLDirection
-modelica_metatype omc_Uncertainties_getSolvedVariableNumber(threadData_t *threadData, modelica_integer _eqnumber, modelica_metatype _inlist);
+modelica_integer omc_Uncertainties_getSolvedVariableNumber(threadData_t *threadData, modelica_integer _eqnumber, modelica_metatype _inlist);
 DLLDirection
 modelica_metatype boxptr_Uncertainties_getSolvedVariableNumber(threadData_t *threadData, modelica_metatype _eqnumber, modelica_metatype _inlist);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Uncertainties_getSolvedVariableNumber,2,0) {(void*) boxptr_Uncertainties_getSolvedVariableNumber,0}};

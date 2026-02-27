@@ -6,6 +6,7 @@ extern "C" {
 
 #include "DoubleEnded.h"
 #include "Error.h"
+#include "Flags.h"
 #include "NBAdjacency.h"
 #include "NBEquation.h"
 #include "NBJacobian.h"
@@ -14,8 +15,8 @@ extern "C" {
 #include "NBPartitioning.h"
 #include "NBStrongComponent.h"
 #include "NBVariable.h"
+#include "NFComponentRef.h"
 #include "NFExpression.h"
-#include "NFType.h"
 #include "Pointer.h"
 #include "StringUtil.h"
 #include "UnorderedMap.h"

@@ -62,8 +62,6 @@ extern struct record_description NFExpression_CALL__desc;
 
 extern struct record_description NFExpression_REAL__desc;
 
-extern struct record_description NFFlatten_FunctionTreeImpl_Tree_EMPTY__desc;
-
 extern struct record_description NFFunction_Function_FUNCTION__desc;
 
 extern struct record_description NFInstNode_InstNode_COMPONENT__NODE__desc;
@@ -135,28 +133,19 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBAlias_AttributeCollector_toString,2,0
 #define boxptr_NBAlias_setNewAttributes omc_NBAlias_setNewAttributes
 
 
-#define boxptr_NBAlias_createReplacementRules omc_NBAlias_createReplacementRules
-
-
 #define boxptr_NBAlias_findCrefs omc_NBAlias_findCrefs
-
-
-#define boxptr_NBAlias_aliasCausalize omc_NBAlias_aliasCausalize
-
-
-#define boxptr_NBAlias_aliasClocks omc_NBAlias_aliasClocks
 
 
 #define boxptr_NBAlias_dumpReplacements omc_NBAlias_dumpReplacements
 
 
-#define boxptr_NBAlias_filterPre omc_NBAlias_filterPre
+#define boxptr_NBAlias_filterExceptions omc_NBAlias_filterExceptions
+
+
+#define boxptr_NBAlias_filterExceptionsEquation omc_NBAlias_filterExceptionsEquation
 
 
 #define boxptr_NBAlias_checkReplacements omc_NBAlias_checkReplacements
-
-
-#define boxptr_NBAlias_aliasDefault omc_NBAlias_aliasDefault
 
 
 DLLDirection
@@ -174,8 +163,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBAlias_getModule,2,0) {(void*) boxptr_
 
 
 DLLDirection
-modelica_metatype omc_NBAlias_main(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fbdae);
-#define boxptr_NBAlias_main omc_NBAlias_main
+modelica_metatype omc_NBAlias_main(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fbdae, modelica_integer _kind);
+DLLDirection
+modelica_metatype boxptr_NBAlias_main(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fbdae, modelica_metatype _kind);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBAlias_main,2,0) {(void*) boxptr_NBAlias_main,0}};
 #define boxvar_NBAlias_main MMC_REFSTRUCTLIT(boxvar_lit_NBAlias_main)
 

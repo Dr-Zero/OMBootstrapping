@@ -1,0 +1,549 @@
+#ifndef NFConnectBreakTree__H
+#define NFConnectBreakTree__H
+#include "meta/meta_modelica.h"
+#include "util/modelica.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <errno.h>
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+extern struct record_description ErrorTypes_Message_MESSAGE__desc;
+
+extern struct record_description ErrorTypes_MessageType_TRANSLATION__desc;
+
+extern struct record_description ErrorTypes_Severity_ERROR__desc;
+
+extern struct record_description Gettext_TranslatableContent_gettext__desc;
+
+extern struct record_description NFConnectBreakTree_Entry_ENTRY__desc;
+
+extern struct record_description NFConnectBreakTree_EntryTree_Tree_EMPTY__desc;
+
+extern struct record_description NFConnectBreakTree_EntryTree_Tree_LEAF__desc;
+
+extern struct record_description NFConnectBreakTree_EntryTree_Tree_NODE__desc;
+
+extern struct record_description NFConnectBreakTree_Tree_EMPTY__desc;
+
+extern struct record_description NFConnectBreakTree_Tree_LEAF__desc;
+
+extern struct record_description NFConnectBreakTree_Tree_NODE__desc;
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_EntryTree_add(threadData_t *threadData, modelica_metatype _inTree, modelica_metatype _inKey, modelica_metatype _inValue, modelica_fnptr _conflictFunc);
+#define boxptr_NFConnectBreakTree_EntryTree_add omc_NFConnectBreakTree_EntryTree_add
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_add,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_add,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_add MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_add)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_EntryTree_addConflictDefault(threadData_t *threadData, modelica_metatype _newValue, modelica_metatype _oldValue, modelica_metatype _key);
+#define boxptr_NFConnectBreakTree_EntryTree_addConflictDefault omc_NFConnectBreakTree_EntryTree_addConflictDefault
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_addConflictDefault,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_addConflictDefault,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_addConflictDefault MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_addConflictDefault)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_EntryTree_addConflictFail(threadData_t *threadData, modelica_metatype _newValue, modelica_metatype _oldValue, modelica_metatype _key);
+#define boxptr_NFConnectBreakTree_EntryTree_addConflictFail omc_NFConnectBreakTree_EntryTree_addConflictFail
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_addConflictFail,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_addConflictFail,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_addConflictFail MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_addConflictFail)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_EntryTree_addConflictKeep(threadData_t *threadData, modelica_metatype _newValue, modelica_metatype _oldValue, modelica_metatype _key);
+#define boxptr_NFConnectBreakTree_EntryTree_addConflictKeep omc_NFConnectBreakTree_EntryTree_addConflictKeep
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_addConflictKeep,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_addConflictKeep,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_addConflictKeep MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_addConflictKeep)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_EntryTree_addConflictReplace(threadData_t *threadData, modelica_metatype _newValue, modelica_metatype _oldValue, modelica_metatype _key);
+#define boxptr_NFConnectBreakTree_EntryTree_addConflictReplace omc_NFConnectBreakTree_EntryTree_addConflictReplace
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_addConflictReplace,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_addConflictReplace,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_addConflictReplace MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_addConflictReplace)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_EntryTree_addList(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftree, modelica_metatype _inValues, modelica_fnptr _conflictFunc);
+#define boxptr_NFConnectBreakTree_EntryTree_addList omc_NFConnectBreakTree_EntryTree_addList
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_addList,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_addList,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_addList MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_addList)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_EntryTree_addUpdate(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftree, modelica_metatype _key, modelica_fnptr _fn);
+#define boxptr_NFConnectBreakTree_EntryTree_addUpdate omc_NFConnectBreakTree_EntryTree_addUpdate
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_addUpdate,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_addUpdate,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_addUpdate MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_addUpdate)
+
+
+#define boxptr_NFConnectBreakTree_EntryTree_balance omc_NFConnectBreakTree_EntryTree_balance
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_EntryTree_fold(threadData_t *threadData, modelica_metatype _inTree, modelica_fnptr _inFunc, modelica_metatype _inStartValue);
+#define boxptr_NFConnectBreakTree_EntryTree_fold omc_NFConnectBreakTree_EntryTree_fold
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_fold,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_fold,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_fold MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_fold)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_EntryTree_foldCond(threadData_t *threadData, modelica_metatype _tree, modelica_fnptr _foldFunc, modelica_metatype __omcQ_24in_5Fvalue);
+#define boxptr_NFConnectBreakTree_EntryTree_foldCond omc_NFConnectBreakTree_EntryTree_foldCond
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_foldCond,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_foldCond,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_foldCond MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_foldCond)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_EntryTree_fold__2(threadData_t *threadData, modelica_metatype _tree, modelica_fnptr _foldFunc, modelica_metatype __omcQ_24in_5FfoldArg1, modelica_metatype __omcQ_24in_5FfoldArg2, modelica_metatype *out_foldArg2);
+#define boxptr_NFConnectBreakTree_EntryTree_fold__2 omc_NFConnectBreakTree_EntryTree_fold__2
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_fold__2,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_fold__2,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_fold__2 MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_fold__2)
+
+
+DLLDirection
+void omc_NFConnectBreakTree_EntryTree_forEach(threadData_t *threadData, modelica_metatype _tree, modelica_fnptr _func);
+#define boxptr_NFConnectBreakTree_EntryTree_forEach omc_NFConnectBreakTree_EntryTree_forEach
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_forEach,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_forEach,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_forEach MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_forEach)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_EntryTree_fromList(threadData_t *threadData, modelica_metatype _inValues, modelica_fnptr _conflictFunc);
+#define boxptr_NFConnectBreakTree_EntryTree_fromList omc_NFConnectBreakTree_EntryTree_fromList
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_fromList,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_fromList,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_fromList MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_fromList)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_EntryTree_get(threadData_t *threadData, modelica_metatype _tree, modelica_metatype _key);
+#define boxptr_NFConnectBreakTree_EntryTree_get omc_NFConnectBreakTree_EntryTree_get
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_get,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_get,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_get MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_get)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_EntryTree_getOpt(threadData_t *threadData, modelica_metatype _tree, modelica_metatype _key);
+#define boxptr_NFConnectBreakTree_EntryTree_getOpt omc_NFConnectBreakTree_EntryTree_getOpt
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_getOpt,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_getOpt,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_getOpt MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_getOpt)
+
+
+DLLDirection
+modelica_boolean omc_NFConnectBreakTree_EntryTree_hasKey(threadData_t *threadData, modelica_metatype _inTree, modelica_metatype _inKey);
+DLLDirection
+modelica_metatype boxptr_NFConnectBreakTree_EntryTree_hasKey(threadData_t *threadData, modelica_metatype _inTree, modelica_metatype _inKey);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_hasKey,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_hasKey,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_hasKey MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_hasKey)
+
+
+DLLDirection
+void omc_NFConnectBreakTree_EntryTree_intersection(threadData_t *threadData);
+#define boxptr_NFConnectBreakTree_EntryTree_intersection omc_NFConnectBreakTree_EntryTree_intersection
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_intersection,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_intersection,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_intersection MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_intersection)
+
+
+DLLDirection
+modelica_boolean omc_NFConnectBreakTree_EntryTree_isEmpty(threadData_t *threadData, modelica_metatype _tree);
+DLLDirection
+modelica_metatype boxptr_NFConnectBreakTree_EntryTree_isEmpty(threadData_t *threadData, modelica_metatype _tree);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_isEmpty,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_isEmpty,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_isEmpty MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_isEmpty)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_EntryTree_join(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftree, modelica_metatype _treeToJoin, modelica_fnptr _conflictFunc);
+#define boxptr_NFConnectBreakTree_EntryTree_join omc_NFConnectBreakTree_EntryTree_join
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_join,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_join,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_join MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_join)
+
+
+DLLDirection
+modelica_integer omc_NFConnectBreakTree_EntryTree_keyCompare(threadData_t *threadData, modelica_metatype _inKey1, modelica_metatype _inKey2);
+DLLDirection
+modelica_metatype boxptr_NFConnectBreakTree_EntryTree_keyCompare(threadData_t *threadData, modelica_metatype _inKey1, modelica_metatype _inKey2);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_keyCompare,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_keyCompare,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_keyCompare MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_keyCompare)
+
+
+DLLDirection
+modelica_string omc_NFConnectBreakTree_EntryTree_keyStr(threadData_t *threadData, modelica_metatype _inKey);
+#define boxptr_NFConnectBreakTree_EntryTree_keyStr omc_NFConnectBreakTree_EntryTree_keyStr
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_keyStr,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_keyStr,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_keyStr MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_keyStr)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_EntryTree_listKeys(threadData_t *threadData, modelica_metatype _tree, modelica_metatype __omcQ_24in_5Flst);
+#define boxptr_NFConnectBreakTree_EntryTree_listKeys omc_NFConnectBreakTree_EntryTree_listKeys
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_listKeys,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_listKeys,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_listKeys MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_listKeys)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_EntryTree_listKeysReverse(threadData_t *threadData, modelica_metatype _inTree, modelica_metatype __omcQ_24in_5Flst);
+#define boxptr_NFConnectBreakTree_EntryTree_listKeysReverse omc_NFConnectBreakTree_EntryTree_listKeysReverse
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_listKeysReverse,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_listKeysReverse,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_listKeysReverse MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_listKeysReverse)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_EntryTree_listValues(threadData_t *threadData, modelica_metatype _tree, modelica_metatype __omcQ_24in_5Flst);
+#define boxptr_NFConnectBreakTree_EntryTree_listValues omc_NFConnectBreakTree_EntryTree_listValues
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_listValues,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_listValues,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_listValues MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_listValues)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_EntryTree_map(threadData_t *threadData, modelica_metatype _inTree, modelica_fnptr _inFunc);
+#define boxptr_NFConnectBreakTree_EntryTree_map omc_NFConnectBreakTree_EntryTree_map
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_map,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_map,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_map MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_map)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_EntryTree_mapFold(threadData_t *threadData, modelica_metatype _inTree, modelica_fnptr _inFunc, modelica_metatype _inStartValue, modelica_metatype *out_outResult);
+#define boxptr_NFConnectBreakTree_EntryTree_mapFold omc_NFConnectBreakTree_EntryTree_mapFold
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_mapFold,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_mapFold,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_mapFold MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_mapFold)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_EntryTree_new(threadData_t *threadData);
+#define boxptr_NFConnectBreakTree_EntryTree_new omc_NFConnectBreakTree_EntryTree_new
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_new,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_new,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_new MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_new)
+
+
+DLLDirection
+modelica_string omc_NFConnectBreakTree_EntryTree_printNodeStr(threadData_t *threadData, modelica_metatype _inNode);
+#define boxptr_NFConnectBreakTree_EntryTree_printNodeStr omc_NFConnectBreakTree_EntryTree_printNodeStr
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_printNodeStr,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_printNodeStr,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_printNodeStr MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_printNodeStr)
+
+
+DLLDirection
+modelica_string omc_NFConnectBreakTree_EntryTree_printTreeStr(threadData_t *threadData, modelica_metatype _inTree);
+#define boxptr_NFConnectBreakTree_EntryTree_printTreeStr omc_NFConnectBreakTree_EntryTree_printTreeStr
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_printTreeStr,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_printTreeStr,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_printTreeStr MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_printTreeStr)
+
+
+#define boxptr_NFConnectBreakTree_EntryTree_rotateLeft omc_NFConnectBreakTree_EntryTree_rotateLeft
+
+
+#define boxptr_NFConnectBreakTree_EntryTree_rotateRight omc_NFConnectBreakTree_EntryTree_rotateRight
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_EntryTree_setTreeLeftRight(threadData_t *threadData, modelica_metatype _orig, modelica_metatype _left, modelica_metatype _right);
+#define boxptr_NFConnectBreakTree_EntryTree_setTreeLeftRight omc_NFConnectBreakTree_EntryTree_setTreeLeftRight
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_setTreeLeftRight,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_setTreeLeftRight,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_setTreeLeftRight MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_setTreeLeftRight)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_EntryTree_smallestKey(threadData_t *threadData, modelica_metatype _tree);
+#define boxptr_NFConnectBreakTree_EntryTree_smallestKey omc_NFConnectBreakTree_EntryTree_smallestKey
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_smallestKey,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_smallestKey,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_smallestKey MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_smallestKey)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_EntryTree_toList(threadData_t *threadData, modelica_metatype _inTree, modelica_metatype __omcQ_24in_5Flst);
+#define boxptr_NFConnectBreakTree_EntryTree_toList omc_NFConnectBreakTree_EntryTree_toList
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_toList,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_toList,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_toList MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_toList)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_EntryTree_update(threadData_t *threadData, modelica_metatype _tree, modelica_metatype _key, modelica_metatype _value);
+#define boxptr_NFConnectBreakTree_EntryTree_update omc_NFConnectBreakTree_EntryTree_update
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_update,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_update,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_update MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_update)
+
+
+DLLDirection
+modelica_string omc_NFConnectBreakTree_EntryTree_valueStr(threadData_t *threadData, modelica_metatype _inValue);
+#define boxptr_NFConnectBreakTree_EntryTree_valueStr omc_NFConnectBreakTree_EntryTree_valueStr
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_valueStr,2,0) {(void*) boxptr_NFConnectBreakTree_EntryTree_valueStr,0}};
+#define boxvar_NFConnectBreakTree_EntryTree_valueStr MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_EntryTree_valueStr)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_add(threadData_t *threadData, modelica_metatype _inTree, modelica_metatype _inKey, modelica_metatype _inValue, modelica_fnptr _conflictFunc);
+#define boxptr_NFConnectBreakTree_add omc_NFConnectBreakTree_add
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_add,2,0) {(void*) boxptr_NFConnectBreakTree_add,0}};
+#define boxvar_NFConnectBreakTree_add MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_add)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_addConflictDefault(threadData_t *threadData, modelica_metatype _newValue, modelica_metatype _oldValue, modelica_metatype _key);
+#define boxptr_NFConnectBreakTree_addConflictDefault omc_NFConnectBreakTree_addConflictDefault
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_addConflictDefault,2,0) {(void*) boxptr_NFConnectBreakTree_addConflictDefault,0}};
+#define boxvar_NFConnectBreakTree_addConflictDefault MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_addConflictDefault)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_addConflictFail(threadData_t *threadData, modelica_metatype _newValue, modelica_metatype _oldValue, modelica_metatype _key);
+#define boxptr_NFConnectBreakTree_addConflictFail omc_NFConnectBreakTree_addConflictFail
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_addConflictFail,2,0) {(void*) boxptr_NFConnectBreakTree_addConflictFail,0}};
+#define boxvar_NFConnectBreakTree_addConflictFail MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_addConflictFail)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_addConflictKeep(threadData_t *threadData, modelica_metatype _newValue, modelica_metatype _oldValue, modelica_metatype _key);
+#define boxptr_NFConnectBreakTree_addConflictKeep omc_NFConnectBreakTree_addConflictKeep
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_addConflictKeep,2,0) {(void*) boxptr_NFConnectBreakTree_addConflictKeep,0}};
+#define boxvar_NFConnectBreakTree_addConflictKeep MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_addConflictKeep)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_addConflictReplace(threadData_t *threadData, modelica_metatype _newValue, modelica_metatype _oldValue, modelica_metatype _key);
+#define boxptr_NFConnectBreakTree_addConflictReplace omc_NFConnectBreakTree_addConflictReplace
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_addConflictReplace,2,0) {(void*) boxptr_NFConnectBreakTree_addConflictReplace,0}};
+#define boxvar_NFConnectBreakTree_addConflictReplace MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_addConflictReplace)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_addList(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftree, modelica_metatype _inValues, modelica_fnptr _conflictFunc);
+#define boxptr_NFConnectBreakTree_addList omc_NFConnectBreakTree_addList
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_addList,2,0) {(void*) boxptr_NFConnectBreakTree_addList,0}};
+#define boxvar_NFConnectBreakTree_addList MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_addList)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_addUpdate(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftree, modelica_metatype _key, modelica_fnptr _fn);
+#define boxptr_NFConnectBreakTree_addUpdate omc_NFConnectBreakTree_addUpdate
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_addUpdate,2,0) {(void*) boxptr_NFConnectBreakTree_addUpdate,0}};
+#define boxvar_NFConnectBreakTree_addUpdate MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_addUpdate)
+
+
+#define boxptr_NFConnectBreakTree_appendBreaksInNode_add__entry omc_NFConnectBreakTree_appendBreaksInNode_add__entry
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_appendBreaksInNode(threadData_t *threadData, modelica_metatype _node, modelica_metatype __omcQ_24in_5Ftree, modelica_metatype *out_newEntries);
+#define boxptr_NFConnectBreakTree_appendBreaksInNode omc_NFConnectBreakTree_appendBreaksInNode
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_appendBreaksInNode,2,0) {(void*) boxptr_NFConnectBreakTree_appendBreaksInNode,0}};
+#define boxvar_NFConnectBreakTree_appendBreaksInNode MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_appendBreaksInNode)
+
+
+#define boxptr_NFConnectBreakTree_balance omc_NFConnectBreakTree_balance
+
+
+DLLDirection
+void omc_NFConnectBreakTree_checkUnmatchedBreaks(threadData_t *threadData, modelica_metatype _entries);
+#define boxptr_NFConnectBreakTree_checkUnmatchedBreaks omc_NFConnectBreakTree_checkUnmatchedBreaks
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_checkUnmatchedBreaks,2,0) {(void*) boxptr_NFConnectBreakTree_checkUnmatchedBreaks,0}};
+#define boxvar_NFConnectBreakTree_checkUnmatchedBreaks MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_checkUnmatchedBreaks)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_fold(threadData_t *threadData, modelica_metatype _inTree, modelica_fnptr _inFunc, modelica_metatype _inStartValue);
+#define boxptr_NFConnectBreakTree_fold omc_NFConnectBreakTree_fold
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_fold,2,0) {(void*) boxptr_NFConnectBreakTree_fold,0}};
+#define boxvar_NFConnectBreakTree_fold MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_fold)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_foldCond(threadData_t *threadData, modelica_metatype _tree, modelica_fnptr _foldFunc, modelica_metatype __omcQ_24in_5Fvalue);
+#define boxptr_NFConnectBreakTree_foldCond omc_NFConnectBreakTree_foldCond
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_foldCond,2,0) {(void*) boxptr_NFConnectBreakTree_foldCond,0}};
+#define boxvar_NFConnectBreakTree_foldCond MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_foldCond)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_fold__2(threadData_t *threadData, modelica_metatype _tree, modelica_fnptr _foldFunc, modelica_metatype __omcQ_24in_5FfoldArg1, modelica_metatype __omcQ_24in_5FfoldArg2, modelica_metatype *out_foldArg2);
+#define boxptr_NFConnectBreakTree_fold__2 omc_NFConnectBreakTree_fold__2
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_fold__2,2,0) {(void*) boxptr_NFConnectBreakTree_fold__2,0}};
+#define boxvar_NFConnectBreakTree_fold__2 MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_fold__2)
+
+
+DLLDirection
+void omc_NFConnectBreakTree_forEach(threadData_t *threadData, modelica_metatype _tree, modelica_fnptr _func);
+#define boxptr_NFConnectBreakTree_forEach omc_NFConnectBreakTree_forEach
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_forEach,2,0) {(void*) boxptr_NFConnectBreakTree_forEach,0}};
+#define boxvar_NFConnectBreakTree_forEach MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_forEach)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_fromList(threadData_t *threadData, modelica_metatype _inValues, modelica_fnptr _conflictFunc);
+#define boxptr_NFConnectBreakTree_fromList omc_NFConnectBreakTree_fromList
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_fromList,2,0) {(void*) boxptr_NFConnectBreakTree_fromList,0}};
+#define boxvar_NFConnectBreakTree_fromList MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_fromList)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_get(threadData_t *threadData, modelica_metatype _tree, modelica_metatype _key);
+#define boxptr_NFConnectBreakTree_get omc_NFConnectBreakTree_get
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_get,2,0) {(void*) boxptr_NFConnectBreakTree_get,0}};
+#define boxvar_NFConnectBreakTree_get MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_get)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_getOpt(threadData_t *threadData, modelica_metatype _tree, modelica_metatype _key);
+#define boxptr_NFConnectBreakTree_getOpt omc_NFConnectBreakTree_getOpt
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_getOpt,2,0) {(void*) boxptr_NFConnectBreakTree_getOpt,0}};
+#define boxvar_NFConnectBreakTree_getOpt MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_getOpt)
+
+
+DLLDirection
+modelica_boolean omc_NFConnectBreakTree_hasKey(threadData_t *threadData, modelica_metatype _inTree, modelica_metatype _inKey);
+DLLDirection
+modelica_metatype boxptr_NFConnectBreakTree_hasKey(threadData_t *threadData, modelica_metatype _inTree, modelica_metatype _inKey);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_hasKey,2,0) {(void*) boxptr_NFConnectBreakTree_hasKey,0}};
+#define boxvar_NFConnectBreakTree_hasKey MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_hasKey)
+
+
+DLLDirection
+void omc_NFConnectBreakTree_intersection(threadData_t *threadData);
+#define boxptr_NFConnectBreakTree_intersection omc_NFConnectBreakTree_intersection
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_intersection,2,0) {(void*) boxptr_NFConnectBreakTree_intersection,0}};
+#define boxvar_NFConnectBreakTree_intersection MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_intersection)
+
+
+DLLDirection
+modelica_boolean omc_NFConnectBreakTree_isConnectBroken(threadData_t *threadData, modelica_metatype _lhs, modelica_metatype _rhs, modelica_metatype _scope, modelica_metatype _connectBreaks);
+DLLDirection
+modelica_metatype boxptr_NFConnectBreakTree_isConnectBroken(threadData_t *threadData, modelica_metatype _lhs, modelica_metatype _rhs, modelica_metatype _scope, modelica_metatype _connectBreaks);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_isConnectBroken,2,0) {(void*) boxptr_NFConnectBreakTree_isConnectBroken,0}};
+#define boxvar_NFConnectBreakTree_isConnectBroken MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_isConnectBroken)
+
+
+DLLDirection
+modelica_boolean omc_NFConnectBreakTree_isEmpty(threadData_t *threadData, modelica_metatype _tree);
+DLLDirection
+modelica_metatype boxptr_NFConnectBreakTree_isEmpty(threadData_t *threadData, modelica_metatype _tree);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_isEmpty,2,0) {(void*) boxptr_NFConnectBreakTree_isEmpty,0}};
+#define boxvar_NFConnectBreakTree_isEmpty MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_isEmpty)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_join(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftree, modelica_metatype _treeToJoin, modelica_fnptr _conflictFunc);
+#define boxptr_NFConnectBreakTree_join omc_NFConnectBreakTree_join
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_join,2,0) {(void*) boxptr_NFConnectBreakTree_join,0}};
+#define boxvar_NFConnectBreakTree_join MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_join)
+
+
+DLLDirection
+modelica_integer omc_NFConnectBreakTree_keyCompare(threadData_t *threadData, modelica_metatype _inKey1, modelica_metatype _inKey2);
+DLLDirection
+modelica_metatype boxptr_NFConnectBreakTree_keyCompare(threadData_t *threadData, modelica_metatype _inKey1, modelica_metatype _inKey2);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_keyCompare,2,0) {(void*) boxptr_NFConnectBreakTree_keyCompare,0}};
+#define boxvar_NFConnectBreakTree_keyCompare MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_keyCompare)
+
+
+DLLDirection
+modelica_string omc_NFConnectBreakTree_keyStr(threadData_t *threadData, modelica_metatype _inKey);
+#define boxptr_NFConnectBreakTree_keyStr omc_NFConnectBreakTree_keyStr
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_keyStr,2,0) {(void*) boxptr_NFConnectBreakTree_keyStr,0}};
+#define boxvar_NFConnectBreakTree_keyStr MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_keyStr)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_listKeys(threadData_t *threadData, modelica_metatype _tree, modelica_metatype __omcQ_24in_5Flst);
+#define boxptr_NFConnectBreakTree_listKeys omc_NFConnectBreakTree_listKeys
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_listKeys,2,0) {(void*) boxptr_NFConnectBreakTree_listKeys,0}};
+#define boxvar_NFConnectBreakTree_listKeys MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_listKeys)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_listKeysReverse(threadData_t *threadData, modelica_metatype _inTree, modelica_metatype __omcQ_24in_5Flst);
+#define boxptr_NFConnectBreakTree_listKeysReverse omc_NFConnectBreakTree_listKeysReverse
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_listKeysReverse,2,0) {(void*) boxptr_NFConnectBreakTree_listKeysReverse,0}};
+#define boxvar_NFConnectBreakTree_listKeysReverse MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_listKeysReverse)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_listValues(threadData_t *threadData, modelica_metatype _tree, modelica_metatype __omcQ_24in_5Flst);
+#define boxptr_NFConnectBreakTree_listValues omc_NFConnectBreakTree_listValues
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_listValues,2,0) {(void*) boxptr_NFConnectBreakTree_listValues,0}};
+#define boxvar_NFConnectBreakTree_listValues MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_listValues)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_map(threadData_t *threadData, modelica_metatype _inTree, modelica_fnptr _inFunc);
+#define boxptr_NFConnectBreakTree_map omc_NFConnectBreakTree_map
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_map,2,0) {(void*) boxptr_NFConnectBreakTree_map,0}};
+#define boxvar_NFConnectBreakTree_map MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_map)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_mapFold(threadData_t *threadData, modelica_metatype _inTree, modelica_fnptr _inFunc, modelica_metatype _inStartValue, modelica_metatype *out_outResult);
+#define boxptr_NFConnectBreakTree_mapFold omc_NFConnectBreakTree_mapFold
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_mapFold,2,0) {(void*) boxptr_NFConnectBreakTree_mapFold,0}};
+#define boxvar_NFConnectBreakTree_mapFold MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_mapFold)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_new(threadData_t *threadData);
+#define boxptr_NFConnectBreakTree_new omc_NFConnectBreakTree_new
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_new,2,0) {(void*) boxptr_NFConnectBreakTree_new,0}};
+#define boxvar_NFConnectBreakTree_new MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_new)
+
+
+DLLDirection
+modelica_string omc_NFConnectBreakTree_printNodeStr(threadData_t *threadData, modelica_metatype _inNode);
+#define boxptr_NFConnectBreakTree_printNodeStr omc_NFConnectBreakTree_printNodeStr
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_printNodeStr,2,0) {(void*) boxptr_NFConnectBreakTree_printNodeStr,0}};
+#define boxvar_NFConnectBreakTree_printNodeStr MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_printNodeStr)
+
+
+DLLDirection
+modelica_string omc_NFConnectBreakTree_printTreeStr(threadData_t *threadData, modelica_metatype _inTree);
+#define boxptr_NFConnectBreakTree_printTreeStr omc_NFConnectBreakTree_printTreeStr
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_printTreeStr,2,0) {(void*) boxptr_NFConnectBreakTree_printTreeStr,0}};
+#define boxvar_NFConnectBreakTree_printTreeStr MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_printTreeStr)
+
+
+#define boxptr_NFConnectBreakTree_rotateLeft omc_NFConnectBreakTree_rotateLeft
+
+
+#define boxptr_NFConnectBreakTree_rotateRight omc_NFConnectBreakTree_rotateRight
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_setTreeLeftRight(threadData_t *threadData, modelica_metatype _orig, modelica_metatype _left, modelica_metatype _right);
+#define boxptr_NFConnectBreakTree_setTreeLeftRight omc_NFConnectBreakTree_setTreeLeftRight
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_setTreeLeftRight,2,0) {(void*) boxptr_NFConnectBreakTree_setTreeLeftRight,0}};
+#define boxvar_NFConnectBreakTree_setTreeLeftRight MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_setTreeLeftRight)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_smallestKey(threadData_t *threadData, modelica_metatype _tree);
+#define boxptr_NFConnectBreakTree_smallestKey omc_NFConnectBreakTree_smallestKey
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_smallestKey,2,0) {(void*) boxptr_NFConnectBreakTree_smallestKey,0}};
+#define boxvar_NFConnectBreakTree_smallestKey MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_smallestKey)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_toList(threadData_t *threadData, modelica_metatype _inTree, modelica_metatype __omcQ_24in_5Flst);
+#define boxptr_NFConnectBreakTree_toList omc_NFConnectBreakTree_toList
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_toList,2,0) {(void*) boxptr_NFConnectBreakTree_toList,0}};
+#define boxvar_NFConnectBreakTree_toList MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_toList)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectBreakTree_update(threadData_t *threadData, modelica_metatype _tree, modelica_metatype _key, modelica_metatype _value);
+#define boxptr_NFConnectBreakTree_update omc_NFConnectBreakTree_update
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_update,2,0) {(void*) boxptr_NFConnectBreakTree_update,0}};
+#define boxvar_NFConnectBreakTree_update MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_update)
+
+
+DLLDirection
+modelica_string omc_NFConnectBreakTree_valueStr(threadData_t *threadData, modelica_metatype _inValue);
+#define boxptr_NFConnectBreakTree_valueStr omc_NFConnectBreakTree_valueStr
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_valueStr,2,0) {(void*) boxptr_NFConnectBreakTree_valueStr,0}};
+#define boxvar_NFConnectBreakTree_valueStr MMC_REFSTRUCTLIT(boxvar_lit_NFConnectBreakTree_valueStr)
+
+#ifdef __cplusplus
+}
+#endif
+#endif

@@ -3,17 +3,17 @@
 #define _OMC_LIT0_data "NFRangeIterator.hasNext got invalid range "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT0,42,_OMC_LIT0_data);
 #define _OMC_LIT0 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT0)
-#define _OMC_LIT1_data "/home/adrpo33/OpenModelica/OMCompiler/Compiler/NFFrontEnd/NFRangeIterator.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT1,76,_OMC_LIT1_data);
+#define _OMC_LIT1_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/NFFrontEnd/NFRangeIterator.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT1,82,_OMC_LIT1_data);
 #define _OMC_LIT1 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT1)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT2_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT2_6,1.770032059e9);
 #define _OMC_LIT2_6 MMC_REFREALLIT(_OMC_LIT_STRUCT2_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT2,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT1,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(248)),MMC_IMMEDIATE(MMC_TAGFIXNUM(11)),MMC_IMMEDIATE(MMC_TAGFIXNUM(249)),MMC_IMMEDIATE(MMC_TAGFIXNUM(61)),_OMC_LIT2_6}};
 #define _OMC_LIT2 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT2)
 #define _OMC_LIT3_data "NFRangeIterator.next got invalid range "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT3,39,_OMC_LIT3_data);
 #define _OMC_LIT3 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT3)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT4_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT4_6,1.770032059e9);
 #define _OMC_LIT4_6 MMC_REFREALLIT(_OMC_LIT_STRUCT4_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT4,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT1,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(229)),MMC_IMMEDIATE(MMC_TAGFIXNUM(11)),MMC_IMMEDIATE(MMC_TAGFIXNUM(230)),MMC_IMMEDIATE(MMC_TAGFIXNUM(61)),_OMC_LIT4_6}};
 #define _OMC_LIT4 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT4)
@@ -28,7 +28,7 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT8,2,1) {_OMC_LIT5,_OMC_LIT7}};
 #define _OMC_LIT9_data "NFRangeIterator.fromDim got unknown dim"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT9,39,_OMC_LIT9_data);
 #define _OMC_LIT9 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT9)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT10_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT10_6,1.770032059e9);
 #define _OMC_LIT10_6 MMC_REFREALLIT(_OMC_LIT_STRUCT10_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT10,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT1,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(187)),MMC_IMMEDIATE(MMC_TAGFIXNUM(11)),MMC_IMMEDIATE(MMC_TAGFIXNUM(187)),MMC_IMMEDIATE(MMC_TAGFIXNUM(87)),_OMC_LIT10_6}};
 #define _OMC_LIT10 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT10)
@@ -591,11 +591,11 @@ modelica_metatype omc_NFRangeIterator_fromExp(threadData_t *threadData, modelica
           _bstop = tmp50  /* pattern as ty=Boolean */;
           /* Pattern matching succeeded */
           {
-            modelica_metatype __omcQ_24tmpVar1;
+            modelica_metatype __omcQ_24tmpVar3;
             modelica_metatype* tmp52;
             modelica_metatype tmpMeta53;
             modelica_metatype tmpMeta54;
-            modelica_metatype __omcQ_24tmpVar0;
+            modelica_metatype __omcQ_24tmpVar2;
             modelica_integer tmp55;
             modelica_boolean tmp56;
             modelica_boolean tmp57;
@@ -605,8 +605,8 @@ modelica_metatype omc_NFRangeIterator_fromExp(threadData_t *threadData, modelica
             _b = _bstart /* Range start-value */;
             _b = (_bstart /* Range start-value */)-tmp56;
             tmpMeta53 = MMC_REFSTRUCTLIT(mmc_nil);
-            __omcQ_24tmpVar1 = tmpMeta53; /* defaultValue */
-            tmp52 = &__omcQ_24tmpVar1;
+            __omcQ_24tmpVar3 = tmpMeta53; /* defaultValue */
+            tmp52 = &__omcQ_24tmpVar3;
             while(1) {
               tmp55 = 1;
               if (tmp56 > 0 ? _b+tmp56 <= tmp57 : _b+tmp56 >= tmp57) {
@@ -615,8 +615,8 @@ modelica_metatype omc_NFRangeIterator_fromExp(threadData_t *threadData, modelica
               }
               if (tmp55 == 0) {
                 tmpMeta54 = mmc_mk_box2(6, &NFExpression_BOOLEAN__desc, mmc_mk_boolean(_b));
-                __omcQ_24tmpVar0 = tmpMeta54;
-                *tmp52 = mmc_mk_cons(__omcQ_24tmpVar0,0);
+                __omcQ_24tmpVar2 = tmpMeta54;
+                *tmp52 = mmc_mk_cons(__omcQ_24tmpVar2,0);
                 tmp52 = &MMC_CDR(*tmp52);
               } else if (tmp55 == 1) {
                 break;
@@ -625,7 +625,7 @@ modelica_metatype omc_NFRangeIterator_fromExp(threadData_t *threadData, modelica
               }
             }
             *tmp52 = mmc_mk_nil();
-            tmpMeta51 = __omcQ_24tmpVar1;
+            tmpMeta51 = __omcQ_24tmpVar3;
           }
           tmpMeta58 = mmc_mk_box3(6, &NFRangeIterator_ARRAY__RANGE__desc, listArray(tmpMeta51), mmc_mk_integer(((modelica_integer) 1)));
           tmpMeta1 = tmpMeta58;

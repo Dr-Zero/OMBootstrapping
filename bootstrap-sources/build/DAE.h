@@ -59,6 +59,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_DAE_AvlTreePathFunction_addList,2,0) {(
 #define boxvar_DAE_AvlTreePathFunction_addList MMC_REFSTRUCTLIT(boxvar_lit_DAE_AvlTreePathFunction_addList)
 
 
+DLLDirection
+modelica_metatype omc_DAE_AvlTreePathFunction_addUpdate(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftree, modelica_metatype _key, modelica_fnptr _fn);
+#define boxptr_DAE_AvlTreePathFunction_addUpdate omc_DAE_AvlTreePathFunction_addUpdate
+static const MMC_DEFSTRUCTLIT(boxvar_lit_DAE_AvlTreePathFunction_addUpdate,2,0) {(void*) boxptr_DAE_AvlTreePathFunction_addUpdate,0}};
+#define boxvar_DAE_AvlTreePathFunction_addUpdate MMC_REFSTRUCTLIT(boxvar_lit_DAE_AvlTreePathFunction_addUpdate)
+
+
 #define boxptr_DAE_AvlTreePathFunction_balance omc_DAE_AvlTreePathFunction_balance
 
 
@@ -157,7 +164,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_DAE_AvlTreePathFunction_keyStr,2,0) {(v
 
 
 DLLDirection
-modelica_metatype omc_DAE_AvlTreePathFunction_listKeys(threadData_t *threadData, modelica_metatype _inTree, modelica_metatype __omcQ_24in_5Flst);
+modelica_metatype omc_DAE_AvlTreePathFunction_listKeys(threadData_t *threadData, modelica_metatype _tree, modelica_metatype __omcQ_24in_5Flst);
 #define boxptr_DAE_AvlTreePathFunction_listKeys omc_DAE_AvlTreePathFunction_listKeys
 static const MMC_DEFSTRUCTLIT(boxvar_lit_DAE_AvlTreePathFunction_listKeys,2,0) {(void*) boxptr_DAE_AvlTreePathFunction_listKeys,0}};
 #define boxvar_DAE_AvlTreePathFunction_listKeys MMC_REFSTRUCTLIT(boxvar_lit_DAE_AvlTreePathFunction_listKeys)

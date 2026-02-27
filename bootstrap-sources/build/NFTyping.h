@@ -504,17 +504,17 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFTyping_checkSubscriptType,2,0) {(void
 
 
 DLLDirection
-modelica_metatype omc_NFTyping_typeSubscript(threadData_t *threadData, modelica_metatype _subscript, modelica_metatype _dimension, modelica_metatype _subscriptedExp, modelica_integer _index, modelica_integer _context, modelica_metatype _info, modelica_integer *out_variability);
+modelica_metatype omc_NFTyping_typeSubscript(threadData_t *threadData, modelica_metatype _subscript, modelica_metatype _dimension, modelica_metatype _subscriptedExp, modelica_integer _index, modelica_integer _context, modelica_metatype _info, modelica_boolean _checkSubscript, modelica_integer *out_variability);
 DLLDirection
-modelica_metatype boxptr_NFTyping_typeSubscript(threadData_t *threadData, modelica_metatype _subscript, modelica_metatype _dimension, modelica_metatype _subscriptedExp, modelica_metatype _index, modelica_metatype _context, modelica_metatype _info, modelica_metatype *out_variability);
+modelica_metatype boxptr_NFTyping_typeSubscript(threadData_t *threadData, modelica_metatype _subscript, modelica_metatype _dimension, modelica_metatype _subscriptedExp, modelica_metatype _index, modelica_metatype _context, modelica_metatype _info, modelica_metatype _checkSubscript, modelica_metatype *out_variability);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFTyping_typeSubscript,2,0) {(void*) boxptr_NFTyping_typeSubscript,0}};
 #define boxvar_NFTyping_typeSubscript MMC_REFSTRUCTLIT(boxvar_lit_NFTyping_typeSubscript)
 
 
 DLLDirection
-modelica_metatype omc_NFTyping_typeSubscripts(threadData_t *threadData, modelica_metatype _subscripts, modelica_metatype _crefType, modelica_metatype _subscriptedExp, modelica_integer _context, modelica_metatype _info, modelica_integer *out_variability);
+modelica_metatype omc_NFTyping_typeSubscripts(threadData_t *threadData, modelica_metatype _subscripts, modelica_metatype _crefType, modelica_metatype _subscriptedExp, modelica_integer _context, modelica_metatype _info, modelica_boolean _checkSubscripts, modelica_integer *out_variability);
 DLLDirection
-modelica_metatype boxptr_NFTyping_typeSubscripts(threadData_t *threadData, modelica_metatype _subscripts, modelica_metatype _crefType, modelica_metatype _subscriptedExp, modelica_metatype _context, modelica_metatype _info, modelica_metatype *out_variability);
+modelica_metatype boxptr_NFTyping_typeSubscripts(threadData_t *threadData, modelica_metatype _subscripts, modelica_metatype _crefType, modelica_metatype _subscriptedExp, modelica_metatype _context, modelica_metatype _info, modelica_metatype _checkSubscripts, modelica_metatype *out_variability);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFTyping_typeSubscripts,2,0) {(void*) boxptr_NFTyping_typeSubscripts,0}};
 #define boxvar_NFTyping_typeSubscripts MMC_REFSTRUCTLIT(boxvar_lit_NFTyping_typeSubscripts)
 

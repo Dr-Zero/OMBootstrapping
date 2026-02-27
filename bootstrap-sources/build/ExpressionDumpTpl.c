@@ -1643,18 +1643,14 @@ modelica_metatype omc_ExpressionDumpTpl_dumpExpCrefs(threadData_t *threadData, m
 
           _l_exp__str = omc_ExpressionDumpTpl_dumpExp(threadData, _OMC_LIT10, _i_exp, _a_stringDelimiter);
 
-          _l_sub__str = omc_ExpressionDumpTpl_dumpExpList(threadData, _OMC_LIT10, _i_sub, _a_stringDelimiter, _OMC_LIT0);
+          _l_sub__str = omc_ExpressionDumpTpl_dumpSubscripts(threadData, _OMC_LIT10, _i_sub);
 
           _txt = omc_Tpl_writeText(threadData, _txt, _l_lparen);
 
           _txt = omc_Tpl_writeText(threadData, _txt, _l_exp__str);
 
           _txt = omc_Tpl_writeText(threadData, _txt, _l_rparen);
-
-          _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT34);
-
-          _txt = omc_Tpl_writeText(threadData, _txt, _l_sub__str);
-          tmpMeta1 = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT36);
+          tmpMeta1 = omc_Tpl_writeText(threadData, _txt, _l_sub__str);
           goto tmp3_done;
         }
         case 22: {
@@ -7216,7 +7212,7 @@ modelica_metatype omc_ExpressionDumpTpl_dumpExp(threadData_t *threadData, modeli
 
           _l_exp__str = omc_ExpressionDumpTpl_dumpExp(threadData, _OMC_LIT10, _i_exp, _a_stringDelimiter);
 
-          _l_sub__str = omc_ExpressionDumpTpl_dumpExpList(threadData, _OMC_LIT10, _i_sub, _a_stringDelimiter, _OMC_LIT0);
+          _l_sub__str = omc_ExpressionDumpTpl_dumpSubscripts(threadData, _OMC_LIT10, _i_sub);
 
           _txt = omc_Tpl_writeText(threadData, _txt, _l_lparen);
 
@@ -7227,11 +7223,7 @@ modelica_metatype omc_ExpressionDumpTpl_dumpExp(threadData_t *threadData, modeli
           _ret_28 = omc_Config_typeinfo(threadData);
 
           _txt = omc_ExpressionDumpTpl_fun__25(threadData, _txt, _ret_28);
-
-          _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT34);
-
-          _txt = omc_Tpl_writeText(threadData, _txt, _l_sub__str);
-          tmpMeta1 = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT36);
+          tmpMeta1 = omc_Tpl_writeText(threadData, _txt, _l_sub__str);
           goto tmp3_done;
         }
         case 24: {

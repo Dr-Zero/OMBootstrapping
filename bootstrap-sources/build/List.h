@@ -262,29 +262,33 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_List_replaceAt,2,0) {(void*) boxptr_Lis
 
 
 DLLDirection
-modelica_metatype omc_List_keepPositionsSorted(threadData_t *threadData, modelica_metatype _inList, modelica_metatype _inPositions);
-#define boxptr_List_keepPositionsSorted omc_List_keepPositionsSorted
+modelica_metatype omc_List_keepPositionsSorted(threadData_t *threadData, modelica_metatype _inList, modelica_metatype _inPositions, modelica_boolean _zeroBased);
+DLLDirection
+modelica_metatype boxptr_List_keepPositionsSorted(threadData_t *threadData, modelica_metatype _inList, modelica_metatype _inPositions, modelica_metatype _zeroBased);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_List_keepPositionsSorted,2,0) {(void*) boxptr_List_keepPositionsSorted,0}};
 #define boxvar_List_keepPositionsSorted MMC_REFSTRUCTLIT(boxvar_lit_List_keepPositionsSorted)
 
 
 DLLDirection
-modelica_metatype omc_List_keepPositions(threadData_t *threadData, modelica_metatype _inList, modelica_metatype _inPositions);
-#define boxptr_List_keepPositions omc_List_keepPositions
+modelica_metatype omc_List_keepPositions(threadData_t *threadData, modelica_metatype _inList, modelica_metatype _inPositions, modelica_boolean _zeroBased);
+DLLDirection
+modelica_metatype boxptr_List_keepPositions(threadData_t *threadData, modelica_metatype _inList, modelica_metatype _inPositions, modelica_metatype _zeroBased);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_List_keepPositions,2,0) {(void*) boxptr_List_keepPositions,0}};
 #define boxvar_List_keepPositions MMC_REFSTRUCTLIT(boxvar_lit_List_keepPositions)
 
 
 DLLDirection
-modelica_metatype omc_List_deletePositionsSorted(threadData_t *threadData, modelica_metatype _inList, modelica_metatype _inPositions);
-#define boxptr_List_deletePositionsSorted omc_List_deletePositionsSorted
+modelica_metatype omc_List_deletePositionsSorted(threadData_t *threadData, modelica_metatype _inList, modelica_metatype _inPositions, modelica_boolean _zeroBased);
+DLLDirection
+modelica_metatype boxptr_List_deletePositionsSorted(threadData_t *threadData, modelica_metatype _inList, modelica_metatype _inPositions, modelica_metatype _zeroBased);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_List_deletePositionsSorted,2,0) {(void*) boxptr_List_deletePositionsSorted,0}};
 #define boxvar_List_deletePositionsSorted MMC_REFSTRUCTLIT(boxvar_lit_List_deletePositionsSorted)
 
 
 DLLDirection
-modelica_metatype omc_List_deletePositions(threadData_t *threadData, modelica_metatype _inList, modelica_metatype _inPositions);
-#define boxptr_List_deletePositions omc_List_deletePositions
+modelica_metatype omc_List_deletePositions(threadData_t *threadData, modelica_metatype _inList, modelica_metatype _inPositions, modelica_boolean _zeroBased);
+DLLDirection
+modelica_metatype boxptr_List_deletePositions(threadData_t *threadData, modelica_metatype _inList, modelica_metatype _inPositions, modelica_metatype _zeroBased);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_List_deletePositions,2,0) {(void*) boxptr_List_deletePositions,0}};
 #define boxvar_List_deletePositions MMC_REFSTRUCTLIT(boxvar_lit_List_deletePositions)
 
@@ -1085,6 +1089,13 @@ modelica_metatype omc_List_mapCheckReferenceEq(threadData_t *threadData, modelic
 #define boxptr_List_mapCheckReferenceEq omc_List_mapCheckReferenceEq
 static const MMC_DEFSTRUCTLIT(boxvar_lit_List_mapCheckReferenceEq,2,0) {(void*) boxptr_List_mapCheckReferenceEq,0}};
 #define boxvar_List_mapCheckReferenceEq MMC_REFSTRUCTLIT(boxvar_lit_List_mapCheckReferenceEq)
+
+
+DLLDirection
+modelica_metatype omc_List_mapArray(threadData_t *threadData, modelica_metatype _inArray, modelica_fnptr _inFunc);
+#define boxptr_List_mapArray omc_List_mapArray
+static const MMC_DEFSTRUCTLIT(boxvar_lit_List_mapArray,2,0) {(void*) boxptr_List_mapArray,0}};
+#define boxvar_List_mapArray MMC_REFSTRUCTLIT(boxvar_lit_List_mapArray)
 
 
 DLLDirection

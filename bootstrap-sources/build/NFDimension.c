@@ -68,10 +68,10 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT26,1,7) {&DAE_Dimension_DIM__UNKNOW
 #define _OMC_LIT27_data "NFDimension.fromRange got non-range expression: "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT27,48,_OMC_LIT27_data);
 #define _OMC_LIT27 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT27)
-#define _OMC_LIT28_data "/home/adrpo33/OpenModelica/OMCompiler/Compiler/NFFrontEnd/NFDimension.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT28,72,_OMC_LIT28_data);
+#define _OMC_LIT28_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/NFFrontEnd/NFDimension.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT28,78,_OMC_LIT28_data);
 #define _OMC_LIT28 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT28)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT29_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT29_6,1.770631566e9);
 #define _OMC_LIT29_6 MMC_REFREALLIT(_OMC_LIT_STRUCT29_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT29,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT28,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(161)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(161)),MMC_IMMEDIATE(MMC_TAGFIXNUM(125)),_OMC_LIT29_6}};
 #define _OMC_LIT29 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT29)
@@ -80,7 +80,7 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT30,1,6) {&NFDimension_BOOLEAN__desc
 #define _OMC_LIT31_data "NFDimension.fromExp got invalid typename"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT31,40,_OMC_LIT31_data);
 #define _OMC_LIT31 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT31)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT32_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT32_6,1.770631566e9);
 #define _OMC_LIT32_6 MMC_REFREALLIT(_OMC_LIT_STRUCT32_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT32,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT28,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(114)),MMC_IMMEDIATE(MMC_TAGFIXNUM(17)),MMC_IMMEDIATE(MMC_TAGFIXNUM(114)),MMC_IMMEDIATE(MMC_TAGFIXNUM(98)),_OMC_LIT32_6}};
 #define _OMC_LIT32 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT32)
@@ -1069,17 +1069,17 @@ modelica_string omc_NFDimension_toStringList(threadData_t *threadData, modelica_
   _tailrecursive: OMC_LABEL_UNUSED
   // _str has no default value.
   {
-    modelica_metatype __omcQ_24tmpVar1;
+    modelica_metatype __omcQ_24tmpVar3;
     modelica_metatype* tmp2;
     modelica_metatype tmpMeta3;
-    modelica_string __omcQ_24tmpVar0;
+    modelica_string __omcQ_24tmpVar2;
     modelica_integer tmp4;
     modelica_metatype _d_loopVar = 0;
     modelica_metatype _d;
     _d_loopVar = _dims;
     tmpMeta3 = MMC_REFSTRUCTLIT(mmc_nil);
-    __omcQ_24tmpVar1 = tmpMeta3; /* defaultValue */
-    tmp2 = &__omcQ_24tmpVar1;
+    __omcQ_24tmpVar3 = tmpMeta3; /* defaultValue */
+    tmp2 = &__omcQ_24tmpVar3;
     while(1) {
       tmp4 = 1;
       if (!listEmpty(_d_loopVar)) {
@@ -1088,8 +1088,8 @@ modelica_string omc_NFDimension_toStringList(threadData_t *threadData, modelica_
         tmp4--;
       }
       if (tmp4 == 0) {
-        __omcQ_24tmpVar0 = omc_NFDimension_toString(threadData, _d);
-        *tmp2 = mmc_mk_cons(__omcQ_24tmpVar0,0);
+        __omcQ_24tmpVar2 = omc_NFDimension_toString(threadData, _d);
+        *tmp2 = mmc_mk_cons(__omcQ_24tmpVar2,0);
         tmp2 = &MMC_CDR(*tmp2);
       } else if (tmp4 == 1) {
         break;
@@ -1098,7 +1098,7 @@ modelica_string omc_NFDimension_toStringList(threadData_t *threadData, modelica_
       }
     }
     *tmp2 = mmc_mk_nil();
-    tmpMeta1 = __omcQ_24tmpVar1;
+    tmpMeta1 = __omcQ_24tmpVar3;
   }
   _str = stringDelimitList(tmpMeta1, _OMC_LIT14);
 
@@ -1119,6 +1119,35 @@ modelica_metatype boxptr_NFDimension_toStringList(threadData_t *threadData, mode
   _str = omc_NFDimension_toStringList(threadData, _dims, tmp1);
   /* skip box _str; String */
   return _str;
+}
+
+DLLDirection
+modelica_integer omc_NFDimension_hashList(threadData_t *threadData, modelica_metatype _dims)
+{
+  modelica_integer _hash;
+  modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  MMC_SO();
+  _tailrecursive: OMC_LABEL_UNUSED
+  _hash = ((modelica_integer) 5381);
+  {
+    modelica_metatype _dim;
+    for (tmpMeta1 = _dims; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
+    {
+      _dim = MMC_CAR(tmpMeta1);
+      _hash = stringHashDjb2Continue(omc_NFDimension_toString(threadData, _dim), _hash);
+    }
+  }
+  _return: OMC_LABEL_UNUSED
+  return _hash;
+}
+modelica_metatype boxptr_NFDimension_hashList(threadData_t *threadData, modelica_metatype _dims)
+{
+  modelica_integer _hash;
+  modelica_metatype out_hash;
+  _hash = omc_NFDimension_hashList(threadData, _dims);
+  out_hash = mmc_mk_icon(_hash);
+  return out_hash;
 }
 
 DLLDirection
@@ -1958,19 +1987,36 @@ DLLDirection
 modelica_integer omc_NFDimension_sizesProduct(threadData_t *threadData, modelica_metatype _dims, modelica_boolean _resize)
 {
   modelica_integer _outSize;
-  modelica_metatype tmpMeta1;
-  modelica_metatype tmpMeta2;
+  modelica_integer tmp1;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  _outSize = ((modelica_integer) 1);
   {
-    modelica_metatype _dim;
-    for (tmpMeta1 = _dims; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
-    {
-      _dim = MMC_CAR(tmpMeta1);
-      _outSize = (_outSize) * (omc_NFDimension_size(threadData, _dim, _resize));
+    modelica_integer __omcQ_24tmpVar5;
+    modelica_integer __omcQ_24tmpVar4;
+    modelica_integer tmp2;
+    modelica_metatype _d_loopVar = 0;
+    modelica_metatype _d;
+    _d_loopVar = _dims;
+    __omcQ_24tmpVar5 = ((modelica_integer) 1); /* defaultValue */
+    while(1) {
+      tmp2 = 1;
+      if (!listEmpty(_d_loopVar)) {
+        _d = MMC_CAR(_d_loopVar);
+        _d_loopVar = MMC_CDR(_d_loopVar);
+        tmp2--;
+      }
+      if (tmp2 == 0) {
+        __omcQ_24tmpVar4 = omc_NFDimension_size(threadData, _d, _resize);
+        __omcQ_24tmpVar5 = (__omcQ_24tmpVar5) * (__omcQ_24tmpVar4);
+      } else if (tmp2 == 1) {
+        break;
+      } else {
+        MMC_THROW_INTERNAL();
+      }
     }
+    tmp1 = __omcQ_24tmpVar5;
   }
+  _outSize = tmp1;
   _return: OMC_LABEL_UNUSED
   return _outSize;
 }
@@ -1978,11 +2024,66 @@ modelica_metatype boxptr_NFDimension_sizesProduct(threadData_t *threadData, mode
 {
   modelica_integer tmp1;
   modelica_integer _outSize;
+  modelica_integer tmp2;
   modelica_metatype out_outSize;
   tmp1 = mmc_unbox_integer(_resize);
   _outSize = omc_NFDimension_sizesProduct(threadData, _dims, tmp1);
   out_outSize = mmc_mk_icon(_outSize);
   return out_outSize;
+}
+
+DLLDirection
+modelica_metatype omc_NFDimension_sizes(threadData_t *threadData, modelica_metatype _dims, modelica_boolean _resize)
+{
+  modelica_metatype _outSizes = NULL;
+  modelica_metatype tmpMeta1;
+  MMC_SO();
+  _tailrecursive: OMC_LABEL_UNUSED
+  {
+    modelica_metatype __omcQ_24tmpVar7;
+    modelica_metatype* tmp2;
+    modelica_metatype tmpMeta3;
+    modelica_metatype __omcQ_24tmpVar6;
+    modelica_integer tmp4;
+    modelica_metatype _d_loopVar = 0;
+    modelica_metatype _d;
+    _d_loopVar = _dims;
+    tmpMeta3 = MMC_REFSTRUCTLIT(mmc_nil);
+    __omcQ_24tmpVar7 = tmpMeta3; /* defaultValue */
+    tmp2 = &__omcQ_24tmpVar7;
+    while(1) {
+      tmp4 = 1;
+      if (!listEmpty(_d_loopVar)) {
+        _d = MMC_CAR(_d_loopVar);
+        _d_loopVar = MMC_CDR(_d_loopVar);
+        tmp4--;
+      }
+      if (tmp4 == 0) {
+        __omcQ_24tmpVar6 = mmc_mk_integer(omc_NFDimension_size(threadData, _d, _resize));
+        *tmp2 = mmc_mk_cons(__omcQ_24tmpVar6,0);
+        tmp2 = &MMC_CDR(*tmp2);
+      } else if (tmp4 == 1) {
+        break;
+      } else {
+        MMC_THROW_INTERNAL();
+      }
+    }
+    *tmp2 = mmc_mk_nil();
+    tmpMeta1 = __omcQ_24tmpVar7;
+  }
+  _outSizes = tmpMeta1;
+  _return: OMC_LABEL_UNUSED
+  return _outSizes;
+}
+modelica_metatype boxptr_NFDimension_sizes(threadData_t *threadData, modelica_metatype _dims, modelica_metatype _resize)
+{
+  modelica_integer tmp1;
+  modelica_metatype _outSizes = NULL;
+  modelica_metatype tmpMeta2;
+  tmp1 = mmc_unbox_integer(_resize);
+  _outSizes = omc_NFDimension_sizes(threadData, _dims, tmp1);
+  /* skip box _outSizes; list<#Integer> */
+  return _outSizes;
 }
 
 DLLDirection
@@ -2454,7 +2555,7 @@ modelica_metatype omc_NFDimension_fromRange(threadData_t *threadData, modelica_m
   modelica_integer tmp1_c0 __attribute__((unused)) = 0;
   modelica_integer tmp1_c1 __attribute__((unused)) = 0;
   modelica_integer tmp1_c2 __attribute__((unused)) = 0;
-  modelica_real tmp24;
+  modelica_integer tmp24;
   modelica_metatype tmpMeta25;
   modelica_metatype tmpMeta[3] __attribute__((unused)) = {0};
   MMC_SO();
@@ -2561,9 +2662,9 @@ modelica_metatype omc_NFDimension_fromRange(threadData_t *threadData, modelica_m
   _step = tmp1_c1;
   _stop = tmp1_c2;
 
-  tmp24 = ((modelica_real)_step);
+  tmp24 = _step;
   if (tmp24 == 0) {MMC_THROW_INTERNAL();}
-  tmpMeta25 = mmc_mk_box3(5, &NFDimension_INTEGER__desc, mmc_mk_integer(((modelica_integer)floor(1.0 + (((modelica_real)_stop - _start)) / tmp24))), mmc_mk_integer(1));
+  tmpMeta25 = mmc_mk_box3(5, &NFDimension_INTEGER__desc, mmc_mk_integer(((modelica_integer) 1) + modelica_div_integer(_stop - _start,tmp24).quot), mmc_mk_integer(1));
   _dim = tmpMeta25;
   _return: OMC_LABEL_UNUSED
   return _dim;

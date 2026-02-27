@@ -46,7 +46,7 @@ void boxptr_File_writeSpace(threadData_t *threadData, modelica_metatype _file, m
 void omc_File_releaseReference(threadData_t *threadData, modelica_complex _file)
 {
   void * _file_ext;
-  _file_ext = (void *)_file;
+  _file_ext = (void *) _file;
   om_file_release_reference(_file_ext);
   return;
 }
@@ -62,7 +62,7 @@ modelica_metatype omc_File_getReference(threadData_t *threadData, modelica_compl
   modelica_metatype _reference_ext;
   modelica_metatype _reference = NULL;
   // _reference has no default value.
-  _file_ext = (void *)_file;
+  _file_ext = (void *) _file;
   _reference_ext = om_file_get_reference(_file_ext);
   _reference = (modelica_metatype)_reference_ext;
   return _reference;
@@ -80,6 +80,7 @@ modelica_metatype omc_File_noReference(threadData_t *threadData)
   modelica_metatype _reference_ext;
   modelica_metatype _reference = NULL;
   // _reference has no default value.
+
   _reference_ext = om_file_no_reference();
   _reference = (modelica_metatype)_reference_ext;
   return _reference;
@@ -91,7 +92,7 @@ modelica_string omc_File_getFilename(threadData_t *threadData, modelica_metatype
   const char* _fileName2_ext;
   modelica_string _fileName2 = NULL;
   // _fileName2 has no default value.
-  _file_ext = (modelica_metatype)_file;
+  _file_ext = (modelica_metatype) _file;
   _fileName2_ext = om_file_get_filename(_file_ext);
   _fileName2 = (modelica_string)mmc_mk_scon(_fileName2_ext);
   return _fileName2;
@@ -103,7 +104,7 @@ modelica_integer omc_File_tell(threadData_t *threadData, modelica_complex _file)
   int _pos_ext;
   modelica_integer _pos;
   // _pos has no default value.
-  _file_ext = (void *)_file;
+  _file_ext = (void *) _file;
   _pos_ext = om_file_tell(_file_ext);
   _pos = (modelica_integer)_pos_ext;
   return _pos;
@@ -125,9 +126,9 @@ modelica_boolean omc_File_seek(threadData_t *threadData, modelica_complex _file,
   int _success_ext;
   modelica_boolean _success;
   // _success has no default value.
-  _file_ext = (void *)_file;
-  _offset_ext = (int)_offset;
-  _whence_ext = (int)_whence;
+  _file_ext = (void *) _file;
+  _offset_ext = (int) _offset;
+  _whence_ext = (int) _whence;
   _success_ext = om_file_seek(_file_ext, _offset_ext, _whence_ext);
   _success = (modelica_boolean)_success_ext;
   return _success;
@@ -149,8 +150,8 @@ void omc_File_writeEscape(threadData_t *threadData, modelica_complex _file, mode
 {
   void * _file_ext;
   int _escape_ext;
-  _file_ext = (void *)_file;
-  _escape_ext = (int)_escape;
+  _file_ext = (void *) _file;
+  _escape_ext = (int) _escape;
   om_file_write_escape(_file_ext, MMC_STRINGDATA(_data), _escape_ext);
   return;
 }
@@ -166,8 +167,8 @@ void omc_File_writeReal(threadData_t *threadData, modelica_complex _file, modeli
 {
   void * _file_ext;
   double _data_ext;
-  _file_ext = (void *)_file;
-  _data_ext = (double)_data;
+  _file_ext = (void *) _file;
+  _data_ext = (double) _data;
   om_file_write_real(_file_ext, _data_ext, MMC_STRINGDATA(_format));
   return;
 }
@@ -183,8 +184,8 @@ void omc_File_writeInt(threadData_t *threadData, modelica_complex _file, modelic
 {
   void * _file_ext;
   int _data_ext;
-  _file_ext = (void *)_file;
-  _data_ext = (int)_data;
+  _file_ext = (void *) _file;
+  _data_ext = (int) _data;
   om_file_write_int(_file_ext, _data_ext, MMC_STRINGDATA(_format));
   return;
 }
@@ -199,7 +200,7 @@ void boxptr_File_writeInt(threadData_t *threadData, modelica_metatype _file, mod
 void omc_File_write(threadData_t *threadData, modelica_complex _file, modelica_string _data)
 {
   void * _file_ext;
-  _file_ext = (void *)_file;
+  _file_ext = (void *) _file;
   om_file_write(_file_ext, MMC_STRINGDATA(_data));
   return;
 }
@@ -213,8 +214,8 @@ void omc_File_open(threadData_t *threadData, modelica_complex _file, modelica_st
 {
   void * _file_ext;
   int _mode_ext;
-  _file_ext = (void *)_file;
-  _mode_ext = (int)_mode;
+  _file_ext = (void *) _file;
+  _mode_ext = (int) _mode;
   om_file_open(_file_ext, MMC_STRINGDATA(_filename), _mode_ext);
   return;
 }
@@ -232,7 +233,7 @@ modelica_complex omc_File_File_constructor(threadData_t *threadData, modelica_me
   void * _file_ext;
   modelica_complex _file;
   // _file has no default value.
-  _fromID_ext = (modelica_metatype)_fromID;
+  _fromID_ext = (modelica_metatype) _fromID;
   _file_ext = om_file_new(_fromID_ext);
   _file = (modelica_complex)_file_ext;
   return _file;
@@ -248,7 +249,7 @@ modelica_metatype boxptr_File_File_constructor(threadData_t *threadData, modelic
 void omc_File_File_destructor(threadData_t *threadData, modelica_complex _file)
 {
   void * _file_ext;
-  _file_ext = (void *)_file;
+  _file_ext = (void *) _file;
   om_file_free(_file_ext);
   return;
 }

@@ -22,6 +22,7 @@ extern "C" {
 #include "NFExpression.h"
 #include "NFFlatModel.h"
 #include "NFFlatModelicaUtil.h"
+#include "NFFlatten.h"
 #include "NFFunction.h"
 #include "NFInstNode.h"
 #include "NFLookup.h"

@@ -313,17 +313,17 @@ modelica_metatype omc_AdjacencyMatrix_getOtherEqSysAdjacencyMatrix(threadData_t 
           /* Check guard condition after assignments */
           if (!(mmc_unbox_integer(arrayGet(_skip,_index) /* DAE.ASUB */) > ((modelica_integer) 0))) goto tmp3_end;
           {
-            modelica_metatype __omcQ_24tmpVar1;
+            modelica_metatype __omcQ_24tmpVar3;
             modelica_metatype* tmp7;
             modelica_metatype tmpMeta8;
-            modelica_metatype __omcQ_24tmpVar0;
+            modelica_metatype __omcQ_24tmpVar2;
             modelica_integer tmp9;
             modelica_metatype _r_loopVar = 0;
             modelica_metatype _r;
             _r_loopVar = arrayGet(_m,_index) /* DAE.ASUB */;
             tmpMeta8 = MMC_REFSTRUCTLIT(mmc_nil);
-            __omcQ_24tmpVar1 = tmpMeta8; /* defaultValue */
-            tmp7 = &__omcQ_24tmpVar1;
+            __omcQ_24tmpVar3 = tmpMeta8; /* defaultValue */
+            tmp7 = &__omcQ_24tmpVar3;
             while(1) {
               tmp9 = 1;
               while (!listEmpty(_r_loopVar)) {
@@ -335,8 +335,8 @@ modelica_metatype omc_AdjacencyMatrix_getOtherEqSysAdjacencyMatrix(threadData_t 
                 }
               }
               if (tmp9 == 0) {
-                __omcQ_24tmpVar0 = _r;
-                *tmp7 = mmc_mk_cons(__omcQ_24tmpVar0,0);
+                __omcQ_24tmpVar2 = _r;
+                *tmp7 = mmc_mk_cons(__omcQ_24tmpVar2,0);
                 tmp7 = &MMC_CDR(*tmp7);
               } else if (tmp9 == 1) {
                 break;
@@ -345,7 +345,7 @@ modelica_metatype omc_AdjacencyMatrix_getOtherEqSysAdjacencyMatrix(threadData_t 
               }
             }
             *tmp7 = mmc_mk_nil();
-            tmpMeta6 = __omcQ_24tmpVar1;
+            tmpMeta6 = __omcQ_24tmpVar3;
           }
           _row = tmpMeta6;
 

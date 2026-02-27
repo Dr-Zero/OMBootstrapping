@@ -39,28 +39,28 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT14,1,3) {&Absyn_InnerOuter_INNER__d
 #define _OMC_LIT15_data "NFLookup.makeInnerNode got unknown component"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT15,44,_OMC_LIT15_data);
 #define _OMC_LIT15 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT15)
-#define _OMC_LIT16_data "/home/adrpo33/OpenModelica/OMCompiler/Compiler/NFFrontEnd/NFLookup.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT16,69,_OMC_LIT16_data);
+#define _OMC_LIT16_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/NFFrontEnd/NFLookup.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT16,75,_OMC_LIT16_data);
 #define _OMC_LIT16 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT16)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT17_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT17_6,1.771363262e9);
 #define _OMC_LIT17_6 MMC_REFREALLIT(_OMC_LIT_STRUCT17_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT17,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT16,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1147)),MMC_IMMEDIATE(MMC_TAGFIXNUM(17)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1147)),MMC_IMMEDIATE(MMC_TAGFIXNUM(99)),_OMC_LIT17_6}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT17,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT16,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1140)),MMC_IMMEDIATE(MMC_TAGFIXNUM(17)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1140)),MMC_IMMEDIATE(MMC_TAGFIXNUM(99)),_OMC_LIT17_6}};
 #define _OMC_LIT17 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT17)
 #define _OMC_LIT18_data "NFLookup.makeInnerNode got unknown node"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT18,39,_OMC_LIT18_data);
 #define _OMC_LIT18 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT18)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT19_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT19_6,1.771363262e9);
 #define _OMC_LIT19_6 MMC_REFREALLIT(_OMC_LIT_STRUCT19_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT19,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT16,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1156)),MMC_IMMEDIATE(MMC_TAGFIXNUM(11)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1156)),MMC_IMMEDIATE(MMC_TAGFIXNUM(88)),_OMC_LIT19_6}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT19,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT16,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1149)),MMC_IMMEDIATE(MMC_TAGFIXNUM(11)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1149)),MMC_IMMEDIATE(MMC_TAGFIXNUM(88)),_OMC_LIT19_6}};
 #define _OMC_LIT19 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT19)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT20,1,12) {&NFInstNode_InstNodeType_GENERATED__INNER__desc,}};
 #define _OMC_LIT20 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT20)
 #define _OMC_LIT21_data "NFLookup.generateInner got invalid top node"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT21,43,_OMC_LIT21_data);
 #define _OMC_LIT21 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT21)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT22_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT22_6,1.771363262e9);
 #define _OMC_LIT22_6 MMC_REFREALLIT(_OMC_LIT_STRUCT22_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT22,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT16,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1106)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1106)),MMC_IMMEDIATE(MMC_TAGFIXNUM(90)),_OMC_LIT22_6}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT22,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT16,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1099)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1099)),MMC_IMMEDIATE(MMC_TAGFIXNUM(90)),_OMC_LIT22_6}};
 #define _OMC_LIT22 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT22)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT23,1,4) {&NFPrefixes_Replaceable_NOT__REPLACEABLE__desc,}};
 #define _OMC_LIT23 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT23)
@@ -664,16 +664,16 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT300,23,_OMC_LIT300_data);
 #define _OMC_LIT301_data "NFLookup.lookupLocalNames was called with an invalid path."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT301,58,_OMC_LIT301_data);
 #define _OMC_LIT301 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT301)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT302_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT302_6,1.771363262e9);
 #define _OMC_LIT302_6 MMC_REFREALLIT(_OMC_LIT_STRUCT302_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT302,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT16,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(797)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(797)),MMC_IMMEDIATE(MMC_TAGFIXNUM(102)),_OMC_LIT302_6}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT302,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT16,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(790)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(790)),MMC_IMMEDIATE(MMC_TAGFIXNUM(102)),_OMC_LIT302_6}};
 #define _OMC_LIT302 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT302)
 #define _OMC_LIT303_data "NFLookup.lookupLocalName was called with an invalid path."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT303,57,_OMC_LIT303_data);
 #define _OMC_LIT303 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT303)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT304_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT304_6,1.771363262e9);
 #define _OMC_LIT304_6 MMC_REFREALLIT(_OMC_LIT_STRUCT304_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT304,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT16,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(738)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(738)),MMC_IMMEDIATE(MMC_TAGFIXNUM(102)),_OMC_LIT304_6}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT304,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT16,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(731)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(731)),MMC_IMMEDIATE(MMC_TAGFIXNUM(102)),_OMC_LIT304_6}};
 #define _OMC_LIT304 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT304)
 #define _OMC_LIT305_data "."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT305,1,_OMC_LIT305_data);
@@ -1243,7 +1243,7 @@ modelica_metatype omc_NFLookup_lookupCrefInNode(threadData_t *threadData, modeli
   // _cls has no default value.
   // _is_import has no default value.
   // _scope_is_class has no default value.
-  if(omc_NFLookupState_LookupState_isError(threadData, _state))
+  if((omc_NFLookupState_LookupState_isError(threadData, _state) || (omc_NFInstContext_inConnect(threadData, _context) && omc_NFInstNode_InstNode_isEmpty(threadData, _node))))
   {
     goto _return;
   }
@@ -2054,18 +2054,18 @@ modelica_metatype omc_NFLookup_lookupSimpleBuiltinCref(threadData_t *threadData,
   if((!listEmpty(_subs)))
   {
     {
-      modelica_metatype __omcQ_24tmpVar1;
+      modelica_metatype __omcQ_24tmpVar3;
       modelica_metatype* tmp117;
       modelica_metatype tmpMeta118;
       modelica_metatype tmpMeta119;
-      modelica_metatype __omcQ_24tmpVar0;
+      modelica_metatype __omcQ_24tmpVar2;
       modelica_integer tmp120;
       modelica_metatype _s_loopVar = 0;
       modelica_metatype _s;
       _s_loopVar = _subs;
       tmpMeta118 = MMC_REFSTRUCTLIT(mmc_nil);
-      __omcQ_24tmpVar1 = tmpMeta118; /* defaultValue */
-      tmp117 = &__omcQ_24tmpVar1;
+      __omcQ_24tmpVar3 = tmpMeta118; /* defaultValue */
+      tmp117 = &__omcQ_24tmpVar3;
       while(1) {
         tmp120 = 1;
         if (!listEmpty(_s_loopVar)) {
@@ -2075,8 +2075,8 @@ modelica_metatype omc_NFLookup_lookupSimpleBuiltinCref(threadData_t *threadData,
         }
         if (tmp120 == 0) {
           tmpMeta119 = mmc_mk_box2(3, &NFSubscript_RAW__SUBSCRIPT__desc, _s);
-          __omcQ_24tmpVar0 = tmpMeta119;
-          *tmp117 = mmc_mk_cons(__omcQ_24tmpVar0,0);
+          __omcQ_24tmpVar2 = tmpMeta119;
+          *tmp117 = mmc_mk_cons(__omcQ_24tmpVar2,0);
           tmp117 = &MMC_CDR(*tmp117);
         } else if (tmp120 == 1) {
           break;
@@ -2085,7 +2085,7 @@ modelica_metatype omc_NFLookup_lookupSimpleBuiltinCref(threadData_t *threadData,
         }
       }
       *tmp117 = mmc_mk_nil();
-      tmpMeta116 = __omcQ_24tmpVar1;
+      tmpMeta116 = __omcQ_24tmpVar3;
     }
     _cref = omc_NFComponentRef_setSubscripts(threadData, tmpMeta116, _cref);
   }
@@ -2409,14 +2409,16 @@ modelica_metatype boxptr_NFLookup_lookupLocalName(threadData_t *threadData, mode
 }
 
 DLLDirection
-modelica_metatype omc_NFLookup_lookupFirstIdent(threadData_t *threadData, modelica_string _name, modelica_metatype _scope, modelica_integer _context, modelica_metatype *out_state)
+modelica_metatype omc_NFLookup_lookupFirstIdent(threadData_t *threadData, modelica_string _name, modelica_metatype _scope, modelica_integer _context, modelica_metatype *out_state, modelica_boolean *out_selfReference)
 {
   modelica_metatype _node = NULL;
   modelica_metatype _state = NULL;
+  modelica_boolean _selfReference;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _node has no default value.
   // _state has no default value.
+  // _selfReference has no default value.
   { /* matchcontinue expression */
     {
       volatile mmc_switch_type tmp3;
@@ -2432,11 +2434,13 @@ modelica_metatype omc_NFLookup_lookupFirstIdent(threadData_t *threadData, modeli
           _node = omc_NFLookup_lookupSimpleBuiltinName(threadData, _name);
 
           _state = _OMC_LIT173;
+
+          _selfReference = 0 /* false */;
           goto tmp2_done;
         }
         case 1: {
           /* Pattern matching succeeded */
-          _node = omc_NFLookup_lookupSimpleName(threadData, _name, _scope, _context);
+          _node = omc_NFLookup_lookupSimpleName(threadData, _name, _scope, _context ,&_selfReference);
 
           _state = omc_NFLookupState_LookupState_nodeState(threadData, _node);
           goto tmp2_done;
@@ -2462,16 +2466,19 @@ modelica_metatype omc_NFLookup_lookupFirstIdent(threadData_t *threadData, modeli
   ;
   _return: OMC_LABEL_UNUSED
   if (out_state) { *out_state = _state; }
+  if (out_selfReference) { *out_selfReference = _selfReference; }
   return _node;
 }
-modelica_metatype boxptr_NFLookup_lookupFirstIdent(threadData_t *threadData, modelica_metatype _name, modelica_metatype _scope, modelica_metatype _context, modelica_metatype *out_state)
+modelica_metatype boxptr_NFLookup_lookupFirstIdent(threadData_t *threadData, modelica_metatype _name, modelica_metatype _scope, modelica_metatype _context, modelica_metatype *out_state, modelica_metatype *out_selfReference)
 {
   modelica_integer tmp1;
+  modelica_boolean _selfReference;
   modelica_metatype _node = NULL;
   tmp1 = mmc_unbox_integer(_context);
-  _node = omc_NFLookup_lookupFirstIdent(threadData, _name, _scope, tmp1, out_state);
+  _node = omc_NFLookup_lookupFirstIdent(threadData, _name, _scope, tmp1, out_state, &_selfReference);
   /* skip box _node; NFInstNode.InstNode */
   /* skip box _state; NFLookupState.LookupState */
+  if (out_selfReference) { *out_selfReference = mmc_mk_icon(_selfReference); }
   return _node;
 }
 
@@ -2480,11 +2487,13 @@ modelica_metatype omc_NFLookup_lookupNames(threadData_t *threadData, modelica_me
 {
   modelica_metatype _nodes = NULL;
   modelica_metatype _state = NULL;
+  modelica_boolean _self_reference;
   modelica_metatype tmpMeta[2] __attribute__((unused)) = {0};
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _nodes has no default value.
   // _state has no default value.
+  // _self_reference has no default value.
   
   
   { /* match expression */
@@ -2500,7 +2509,7 @@ modelica_metatype omc_NFLookup_lookupNames(threadData_t *threadData, modelica_me
           modelica_metatype tmpMeta5;
           
           /* Pattern matching succeeded */
-          _node = omc_NFLookup_lookupFirstIdent(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_name), 2))), _scope, _context ,&_state);
+          _node = omc_NFLookup_lookupFirstIdent(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_name), 2))), _scope, _context ,&_state, NULL);
           tmpMeta5 = mmc_mk_cons(_node, MMC_REFSTRUCTLIT(mmc_nil));
           tmpMeta[0+0] = tmpMeta5;
           tmpMeta[0+1] = _state;
@@ -2510,9 +2519,9 @@ modelica_metatype omc_NFLookup_lookupNames(threadData_t *threadData, modelica_me
           modelica_metatype tmpMeta6;
           
           /* Pattern matching succeeded */
-          _node = omc_NFLookup_lookupFirstIdent(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_name), 2))), _scope, _context ,&_state);
+          _node = omc_NFLookup_lookupFirstIdent(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_name), 2))), _scope, _context ,&_state ,&_self_reference);
           tmpMeta6 = mmc_mk_cons(_node, MMC_REFSTRUCTLIT(mmc_nil));
-          tmpMeta[0+0] = omc_NFLookup_lookupLocalNames(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_name), 3))), _node, tmpMeta6, _state, _context, omc_NFLookup_isSelfReference(threadData, _node, _scope), &tmpMeta[0+1]);
+          tmpMeta[0+0] = omc_NFLookup_lookupLocalNames(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_name), 3))), _node, tmpMeta6, _state, _context, _self_reference, &tmpMeta[0+1]);
           goto tmp3_done;
         }
         case 5: {
@@ -2554,50 +2563,17 @@ modelica_metatype boxptr_NFLookup_lookupNames(threadData_t *threadData, modelica
 }
 
 DLLDirection
-modelica_boolean omc_NFLookup_isSelfReference(threadData_t *threadData, modelica_metatype _node, modelica_metatype _scope)
-{
-  modelica_boolean _res;
-  modelica_metatype _parent = NULL;
-  MMC_SO();
-  _tailrecursive: OMC_LABEL_UNUSED
-  // _res has no default value.
-  _parent = _scope;
-  while(1)
-  {
-    if(!(!omc_NFInstNode_InstNode_isEmpty(threadData, _parent))) break;
-    if(omc_NFInstNode_InstNode_refEqual(threadData, _node, _parent))
-    {
-      _res = 1 /* true */;
-
-      goto _return;
-    }
-
-    _parent = omc_NFInstNode_InstNode_instanceParent(threadData, _parent);
-  }
-
-  _res = 0 /* false */;
-  _return: OMC_LABEL_UNUSED
-  return _res;
-}
-modelica_metatype boxptr_NFLookup_isSelfReference(threadData_t *threadData, modelica_metatype _node, modelica_metatype _scope)
-{
-  modelica_boolean _res;
-  modelica_metatype out_res;
-  _res = omc_NFLookup_isSelfReference(threadData, _node, _scope);
-  out_res = mmc_mk_icon(_res);
-  return out_res;
-}
-
-DLLDirection
 modelica_metatype omc_NFLookup_lookupName(threadData_t *threadData, modelica_metatype _name, modelica_metatype _scope, modelica_integer _context, modelica_boolean _checkAccessViolations, modelica_metatype *out_state)
 {
   modelica_metatype _node = NULL;
   modelica_metatype _state = NULL;
+  modelica_boolean _self_reference;
   modelica_metatype tmpMeta[2] __attribute__((unused)) = {0};
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _node has no default value.
   // _state has no default value.
+  // _self_reference has no default value.
   
   
   { /* match expression */
@@ -2610,14 +2586,16 @@ modelica_metatype omc_NFLookup_lookupName(threadData_t *threadData, modelica_met
         case 4: {
           
           /* Pattern matching succeeded */
-          tmpMeta[0+0] = omc_NFLookup_lookupFirstIdent(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_name), 2))), _scope, _context, &tmpMeta[0+1]);
+          _node = omc_NFLookup_lookupFirstIdent(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_name), 2))), _scope, _context ,&_state ,NULL);
+          tmpMeta[0+0] = _node;
+          tmpMeta[0+1] = _state;
           goto tmp3_done;
         }
         case 3: {
           
           /* Pattern matching succeeded */
-          _node = omc_NFLookup_lookupFirstIdent(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_name), 2))), _scope, _context ,&_state);
-          tmpMeta[0+0] = omc_NFLookup_lookupLocalName(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_name), 3))), _node, _state, _context, _checkAccessViolations, omc_NFLookup_isSelfReference(threadData, _node, _scope), &tmpMeta[0+1]);
+          _node = omc_NFLookup_lookupFirstIdent(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_name), 2))), _scope, _context ,&_state ,&_self_reference);
+          tmpMeta[0+0] = omc_NFLookup_lookupLocalName(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_name), 3))), _node, _state, _context, _checkAccessViolations, _self_reference, &tmpMeta[0+1]);
           goto tmp3_done;
         }
         case 5: {
@@ -2920,10 +2898,11 @@ modelica_metatype boxptr_NFLookup_lookupSimpleNameRootPath(threadData_t *threadD
 }
 
 DLLDirection
-modelica_metatype omc_NFLookup_lookupSimpleName(threadData_t *threadData, modelica_string _name, modelica_metatype _scope, modelica_integer _context)
+modelica_metatype omc_NFLookup_lookupSimpleName(threadData_t *threadData, modelica_string _name, modelica_metatype _scope, modelica_integer _context, modelica_boolean *out_selfReference)
 {
   jmp_buf *old_mmc_jumper = threadData->mmc_jumper;
   modelica_metatype _node = NULL;
+  modelica_boolean _selfReference;
   modelica_metatype _cur_scope = NULL;
   modelica_boolean _require_builtin;
   modelica_boolean _loaded;
@@ -2934,6 +2913,7 @@ modelica_metatype omc_NFLookup_lookupSimpleName(threadData_t *threadData, modeli
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _node has no default value.
+  _selfReference = 0 /* false */;
   _cur_scope = _scope;
   _require_builtin = 0 /* false */;
   _loaded = 0 /* false */;
@@ -3022,9 +3002,11 @@ modelica_metatype omc_NFLookup_lookupSimpleName(threadData_t *threadData, modeli
               }
               else
               {
-                if(((stringEqual(_name, omc_NFInstNode_InstNode_name(threadData, _cur_scope))) && omc_NFInstNode_InstNode_isClass(threadData, _cur_scope)))
+                if((((stringEqual(_name, omc_NFInstNode_InstNode_name(threadData, _cur_scope))) && omc_NFInstNode_InstNode_isClass(threadData, _cur_scope)) || (stringEqual(_name, omc_NFInstNode_InstNode_name(threadData, omc_NFInstNode_InstNode_classScope(threadData, _cur_scope))))))
                 {
-                  _node = _cur_scope;
+                  _node = omc_NFInstNode_InstNode_classScope(threadData, _cur_scope);
+
+                  _selfReference = 1 /* true */;
 
                   goto _return;
                 }
@@ -3071,16 +3053,19 @@ modelica_metatype omc_NFLookup_lookupSimpleName(threadData_t *threadData, modeli
 
   MMC_THROW_INTERNAL();
   _return: OMC_LABEL_UNUSED
+  if (out_selfReference) { *out_selfReference = _selfReference; }
   threadData->mmc_jumper = old_mmc_jumper;
   return _node;
 }
-modelica_metatype boxptr_NFLookup_lookupSimpleName(threadData_t *threadData, modelica_metatype _name, modelica_metatype _scope, modelica_metatype _context)
+modelica_metatype boxptr_NFLookup_lookupSimpleName(threadData_t *threadData, modelica_metatype _name, modelica_metatype _scope, modelica_metatype _context, modelica_metatype *out_selfReference)
 {
   modelica_integer tmp1;
+  modelica_boolean _selfReference;
   modelica_metatype _node = NULL;
   tmp1 = mmc_unbox_integer(_context);
-  _node = omc_NFLookup_lookupSimpleName(threadData, _name, _scope, tmp1);
+  _node = omc_NFLookup_lookupSimpleName(threadData, _name, _scope, tmp1, &_selfReference);
   /* skip box _node; NFInstNode.InstNode */
+  if (out_selfReference) { *out_selfReference = mmc_mk_icon(_selfReference); }
   return _node;
 }
 

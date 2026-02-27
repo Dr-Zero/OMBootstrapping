@@ -57,6 +57,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_GCExt_getProfStats_GC__get__prof
   modelica_metatype _stats_ext;
   modelica_metatype _stats = NULL;
   // _stats has no default value.
+
   _stats_ext = GC_get_prof_stats_modelica();
   _stats = (modelica_metatype)_stats_ext;
   return _stats;
@@ -258,7 +259,7 @@ modelica_string omc_GCExt_profStatsStr(threadData_t *threadData, modelica_metaty
 void omc_GCExt_setMaxHeapSize(threadData_t *threadData, modelica_real _sz)
 {
   double _sz_ext;
-  _sz_ext = (double)_sz;
+  _sz_ext = (double) _sz;
   GC_set_max_heap_size_dbl(_sz_ext);
   return;
 }
@@ -273,7 +274,7 @@ void boxptr_GCExt_setMaxHeapSize(threadData_t *threadData, modelica_metatype _sz
 void omc_GCExt_setForceUnmapOnGcollect(threadData_t *threadData, modelica_boolean _forceUnmap)
 {
   int _forceUnmap_ext;
-  _forceUnmap_ext = (int)_forceUnmap;
+  _forceUnmap_ext = (int) _forceUnmap;
   GC_set_force_unmap_on_gcollect(_forceUnmap_ext);
   return;
 }
@@ -290,6 +291,7 @@ modelica_boolean omc_GCExt_getForceUnmapOnGcollect(threadData_t *threadData)
   int _res_ext;
   modelica_boolean _res;
   // _res has no default value.
+
   _res_ext = GC_get_force_unmap_on_gcollect();
   _res = (modelica_boolean)_res_ext;
   return _res;
@@ -306,7 +308,7 @@ modelica_metatype boxptr_GCExt_getForceUnmapOnGcollect(threadData_t *threadData)
 void omc_GCExt_setFreeSpaceDivisor(threadData_t *threadData, modelica_integer _divisor)
 {
   int _divisor_ext;
-  _divisor_ext = (int)_divisor;
+  _divisor_ext = (int) _divisor;
   GC_set_free_space_divisor(_divisor_ext);
   return;
 }
@@ -324,7 +326,7 @@ modelica_boolean omc_GCExt_expandHeap(threadData_t *threadData, modelica_real _s
   int _success_ext;
   modelica_boolean _success;
   // _success has no default value.
-  _sz_ext = (double)_sz;
+  _sz_ext = (double) _sz;
   _success_ext = GC_expand_hp_dbl(_sz_ext);
   _success = (modelica_boolean)_success_ext;
   return _success;
@@ -343,31 +345,35 @@ modelica_metatype boxptr_GCExt_expandHeap(threadData_t *threadData, modelica_met
 void omc_GCExt_free(threadData_t *threadData, modelica_metatype _data)
 {
   modelica_metatype _data_ext;
-  _data_ext = (modelica_metatype)_data;
+  _data_ext = (modelica_metatype) _data;
   omc_GC_free_ext(_data_ext);
   return;
 }
 
 void omc_GCExt_disable(threadData_t *threadData)
 {
+
   GC_disable();
   return;
 }
 
 void omc_GCExt_enable(threadData_t *threadData)
 {
+
   GC_enable();
   return;
 }
 
 void omc_GCExt_gcollectAndUnmap(threadData_t *threadData)
 {
+
   GC_gcollect_and_unmap();
   return;
 }
 
 void omc_GCExt_gcollect(threadData_t *threadData)
 {
+
   GC_gcollect();
   return;
 }

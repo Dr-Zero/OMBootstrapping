@@ -13,7 +13,6 @@ extern "C" {
 #include "File.h"
 #include "List.h"
 #include "SerializeTaskSystemInfo.h"
-#include "SimCodeFunctionUtil.h"
 #include "SimCodeUtil.h"
 #include "System.h"
 #include "Util.h"

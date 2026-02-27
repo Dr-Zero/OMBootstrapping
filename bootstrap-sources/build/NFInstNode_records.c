@@ -71,7 +71,7 @@ extern struct record_description NFInstNode_InstNodeType_TOP__SCOPE__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NFInstNode_InstNodeType_ROOT__CLASS__desc_added
 #define NFInstNode_InstNodeType_ROOT__CLASS__desc_added
-ADD_METARECORD_DEFINITIONS const char* NFInstNode_InstNodeType_ROOT__CLASS__desc__fields[1] = {"parent"};
+ADD_METARECORD_DEFINITIONS const char* NFInstNode_InstNodeType_ROOT__CLASS__desc__fields[2] = {"parent","context"};
 ADD_METARECORD_DEFINITIONS struct record_description NFInstNode_InstNodeType_ROOT__CLASS__desc = {
   "NFInstNode_InstNodeType_ROOT__CLASS",
   "NFInstNode.InstNodeType.ROOT_CLASS",
@@ -214,7 +214,7 @@ extern struct record_description NFInstNode_InstNodeType_NORMAL__COMP__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NFInstNode_InstNodeType_ROOT__CLASS__desc_added
 #define NFInstNode_InstNodeType_ROOT__CLASS__desc_added
-ADD_METARECORD_DEFINITIONS const char* NFInstNode_InstNodeType_ROOT__CLASS__desc__fields[1] = {"parent"};
+ADD_METARECORD_DEFINITIONS const char* NFInstNode_InstNodeType_ROOT__CLASS__desc__fields[2] = {"parent","context"};
 ADD_METARECORD_DEFINITIONS struct record_description NFInstNode_InstNodeType_ROOT__CLASS__desc = {
   "NFInstNode_InstNodeType_ROOT__CLASS",
   "NFInstNode.InstNodeType.ROOT_CLASS",

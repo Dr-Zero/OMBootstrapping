@@ -9,6 +9,7 @@ extern "C" {
 #include "BackendVariable.h"
 #include "ComponentReference.h"
 #include "DAEDump.h"
+#include "Expression.h"
 #include "ExpressionDump.h"
 #include "IOStream.h"
 #include "List.h"

@@ -28,8 +28,6 @@ extern struct record_description NFExpression_LBINARY__desc;
 
 extern struct record_description NFExpression_RELATION__desc;
 
-extern struct record_description NFFlatten_FunctionTreeImpl_Tree_EMPTY__desc;
-
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 

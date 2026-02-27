@@ -119,10 +119,10 @@ modelica_metatype omc_SBSet_minElem(threadData_t *threadData, modelica_metatype 
   else
   {
     {
-      modelica_metatype __omcQ_24tmpVar1;
+      modelica_metatype __omcQ_24tmpVar3;
       modelica_metatype* tmp3;
       modelica_metatype tmpMeta4;
-      modelica_metatype __omcQ_24tmpVar0;
+      modelica_metatype __omcQ_24tmpVar2;
       modelica_integer tmp5;
       modelica_metatype _e_loopVar = 0;
       modelica_integer tmp6;
@@ -130,8 +130,8 @@ modelica_metatype omc_SBSet_minElem(threadData_t *threadData, modelica_metatype 
       _e_loopVar = omc_UnorderedSet_toArray(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set), 2))));
       tmp6 = 1;
       tmpMeta4 = MMC_REFSTRUCTLIT(mmc_nil);
-      __omcQ_24tmpVar1 = tmpMeta4; /* defaultValue */
-      tmp3 = &__omcQ_24tmpVar1;
+      __omcQ_24tmpVar3 = tmpMeta4; /* defaultValue */
+      tmp3 = &__omcQ_24tmpVar3;
       while(1) {
         tmp5 = 1;
         if (tmp6 <= arrayLength(_e_loopVar)) {
@@ -139,8 +139,8 @@ modelica_metatype omc_SBSet_minElem(threadData_t *threadData, modelica_metatype 
           tmp5--;
         }
         if (tmp5 == 0) {
-          __omcQ_24tmpVar0 = omc_SBAtomicSet_minElem(threadData, _e);
-          *tmp3 = mmc_mk_cons(__omcQ_24tmpVar0,0);
+          __omcQ_24tmpVar2 = omc_SBAtomicSet_minElem(threadData, _e);
+          *tmp3 = mmc_mk_cons(__omcQ_24tmpVar2,0);
           tmp3 = &MMC_CDR(*tmp3);
         } else if (tmp5 == 1) {
           break;
@@ -149,7 +149,7 @@ modelica_metatype omc_SBSet_minElem(threadData_t *threadData, modelica_metatype 
         }
       }
       *tmp3 = mmc_mk_nil();
-      tmpMeta2 = __omcQ_24tmpVar1;
+      tmpMeta2 = __omcQ_24tmpVar3;
     }
     _min_elems = tmpMeta2;
 

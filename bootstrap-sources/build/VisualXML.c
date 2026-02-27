@@ -180,10 +180,10 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT61,34,_OMC_LIT61_data);
 #define _OMC_LIT62_data "\n"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT62,1,_OMC_LIT62_data);
 #define _OMC_LIT62 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT62)
-#define _OMC_LIT63_data "/home/adrpo33/OpenModelica/OMCompiler/Compiler/BackEnd/VisualXML.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT63,67,_OMC_LIT63_data);
+#define _OMC_LIT63_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/BackEnd/VisualXML.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT63,73,_OMC_LIT63_data);
 #define _OMC_LIT63 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT63)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT64_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT64_6,1.770032059e9);
 #define _OMC_LIT64_6 MMC_REFREALLIT(_OMC_LIT_STRUCT64_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT64,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT63,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(388)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(389)),MMC_IMMEDIATE(MMC_TAGFIXNUM(47)),_OMC_LIT64_6}};
 #define _OMC_LIT64 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT64)
@@ -204,7 +204,7 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT69,123,_OMC_LIT69_data);
 #define _OMC_LIT70_data "VisualXMl.getConstCrefBinding failed for "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT70,41,_OMC_LIT70_data);
 #define _OMC_LIT70 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT70)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT71_6,1.758197185e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT71_6,1.770032059e9);
 #define _OMC_LIT71_6 MMC_REFREALLIT(_OMC_LIT_STRUCT71_6)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT71,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT63,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(221)),MMC_IMMEDIATE(MMC_TAGFIXNUM(5)),MMC_IMMEDIATE(MMC_TAGFIXNUM(221)),MMC_IMMEDIATE(MMC_TAGFIXNUM(122)),_OMC_LIT71_6}};
 #define _OMC_LIT71 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT71)
@@ -730,10 +730,6 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_VisualXML_printVisualization(threa
           modelica_metatype tmpMeta19;
           modelica_metatype tmpMeta20;
           modelica_metatype tmpMeta21;
-          modelica_metatype tmpMeta22;
-          modelica_metatype tmpMeta23;
-          modelica_metatype tmpMeta24;
-          modelica_metatype tmpMeta25;
           modelica_metatype tmpMeta26;
           modelica_metatype tmpMeta27;
           modelica_metatype tmpMeta28;
@@ -752,6 +748,11 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_VisualXML_printVisualization(threa
           modelica_metatype tmpMeta41;
           modelica_metatype tmpMeta42;
           modelica_metatype tmpMeta43;
+          modelica_metatype tmpMeta44;
+          modelica_metatype tmpMeta45;
+          modelica_metatype tmpMeta46;
+          modelica_metatype tmpMeta47;
+          modelica_metatype tmpMeta48;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,0,13) == 0) goto tmp3_end;
           tmpMeta6 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 2));
           tmpMeta7 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 3));
@@ -781,30 +782,63 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_VisualXML_printVisualization(threa
           tmpMeta18 = stringAppend(tmpMeta17,_OMC_LIT10);
           tmpMeta19 = stringAppend(tmpMeta18,omc_ExpressionDump_printExpStr(threadData, _shapeType));
           tmpMeta20 = stringAppend(tmpMeta19,_OMC_LIT11);
-          tmpMeta21 = stringAppend(tmpMeta20,stringDelimitList(omc_List_map1(threadData, arrayList(_r), boxvar_ExpressionDump_dumpExpStr, mmc_mk_integer(((modelica_integer) 0))), _OMC_LIT12));
-          tmpMeta22 = stringAppend(tmpMeta21,_OMC_LIT13);
-          tmpMeta23 = stringAppend(tmpMeta22,_OMC_LIT14);
-          tmpMeta24 = stringAppend(tmpMeta23,stringDelimitList(omc_List_map(threadData, arrayList(_lengthDir), boxvar_ExpressionDump_printExpStr), _OMC_LIT12));
-          tmpMeta25 = stringAppend(tmpMeta24,_OMC_LIT13);
-          tmpMeta26 = stringAppend(tmpMeta25,_OMC_LIT15);
-          tmpMeta27 = stringAppend(tmpMeta26,stringDelimitList(omc_List_map(threadData, arrayList(_widthDir), boxvar_ExpressionDump_printExpStr), _OMC_LIT12));
-          tmpMeta28 = stringAppend(tmpMeta27,_OMC_LIT13);
-          tmpMeta29 = stringAppend(tmpMeta28,_OMC_LIT16);
-          tmpMeta30 = stringAppend(tmpMeta29,stringDelimitList(omc_List_map(threadData, arrayList(_color), boxvar_ExpressionDump_printExpStr), _OMC_LIT12));
-          tmpMeta31 = stringAppend(tmpMeta30,_OMC_LIT17);
-          tmpMeta32 = stringAppend(tmpMeta31,_OMC_LIT18);
-          tmpMeta33 = stringAppend(tmpMeta32,omc_ExpressionDump_printExpStr(threadData, _width));
-          tmpMeta34 = stringAppend(tmpMeta33,_OMC_LIT19);
-          tmpMeta35 = stringAppend(tmpMeta34,omc_ExpressionDump_printExpStr(threadData, _height));
-          tmpMeta36 = stringAppend(tmpMeta35,_OMC_LIT20);
-          tmpMeta37 = stringAppend(tmpMeta36,omc_ExpressionDump_printExpStr(threadData, _length));
-          tmpMeta38 = stringAppend(tmpMeta37,_OMC_LIT21);
-          tmpMeta39 = stringAppend(tmpMeta38,stringDelimitList(omc_List_map(threadData, omc_List_flatten(threadData, arrayList(_T)), boxvar_ExpressionDump_printExpStr), _OMC_LIT22));
-          tmpMeta40 = stringAppend(tmpMeta39,_OMC_LIT13);
-          tmpMeta41 = stringAppend(tmpMeta40,_OMC_LIT23);
-          tmpMeta42 = stringAppend(tmpMeta41,omc_ExpressionDump_printExpStr(threadData, _extra));
-          tmpMeta43 = stringAppend(tmpMeta42,_OMC_LIT13);
-          tmp1 = tmpMeta43;
+          {
+            modelica_metatype __omcQ_24tmpVar3;
+            modelica_metatype* tmp22;
+            modelica_metatype tmpMeta23;
+            modelica_string __omcQ_24tmpVar2;
+            modelica_integer tmp24;
+            modelica_metatype _e_loopVar = 0;
+            modelica_integer tmp25;
+            modelica_metatype _e;
+            _e_loopVar = _r;
+            tmp25 = 1;
+            tmpMeta23 = MMC_REFSTRUCTLIT(mmc_nil);
+            __omcQ_24tmpVar3 = tmpMeta23; /* defaultValue */
+            tmp22 = &__omcQ_24tmpVar3;
+            while(1) {
+              tmp24 = 1;
+              if (tmp25 <= arrayLength(_e_loopVar)) {
+                _e = arrayGet(_e_loopVar, tmp25++);
+                tmp24--;
+              }
+              if (tmp24 == 0) {
+                __omcQ_24tmpVar2 = omc_ExpressionDump_dumpExpStr(threadData, _e, ((modelica_integer) 0));
+                *tmp22 = mmc_mk_cons(__omcQ_24tmpVar2,0);
+                tmp22 = &MMC_CDR(*tmp22);
+              } else if (tmp24 == 1) {
+                break;
+              } else {
+                goto goto_2;
+              }
+            }
+            *tmp22 = mmc_mk_nil();
+            tmpMeta21 = __omcQ_24tmpVar3;
+          }
+          tmpMeta26 = stringAppend(tmpMeta20,stringDelimitList(tmpMeta21, _OMC_LIT12));
+          tmpMeta27 = stringAppend(tmpMeta26,_OMC_LIT13);
+          tmpMeta28 = stringAppend(tmpMeta27,_OMC_LIT14);
+          tmpMeta29 = stringAppend(tmpMeta28,stringDelimitList(omc_List_mapArray(threadData, _lengthDir, boxvar_ExpressionDump_printExpStr), _OMC_LIT12));
+          tmpMeta30 = stringAppend(tmpMeta29,_OMC_LIT13);
+          tmpMeta31 = stringAppend(tmpMeta30,_OMC_LIT15);
+          tmpMeta32 = stringAppend(tmpMeta31,stringDelimitList(omc_List_mapArray(threadData, _widthDir, boxvar_ExpressionDump_printExpStr), _OMC_LIT12));
+          tmpMeta33 = stringAppend(tmpMeta32,_OMC_LIT13);
+          tmpMeta34 = stringAppend(tmpMeta33,_OMC_LIT16);
+          tmpMeta35 = stringAppend(tmpMeta34,stringDelimitList(omc_List_mapArray(threadData, _color, boxvar_ExpressionDump_printExpStr), _OMC_LIT12));
+          tmpMeta36 = stringAppend(tmpMeta35,_OMC_LIT17);
+          tmpMeta37 = stringAppend(tmpMeta36,_OMC_LIT18);
+          tmpMeta38 = stringAppend(tmpMeta37,omc_ExpressionDump_printExpStr(threadData, _width));
+          tmpMeta39 = stringAppend(tmpMeta38,_OMC_LIT19);
+          tmpMeta40 = stringAppend(tmpMeta39,omc_ExpressionDump_printExpStr(threadData, _height));
+          tmpMeta41 = stringAppend(tmpMeta40,_OMC_LIT20);
+          tmpMeta42 = stringAppend(tmpMeta41,omc_ExpressionDump_printExpStr(threadData, _length));
+          tmpMeta43 = stringAppend(tmpMeta42,_OMC_LIT21);
+          tmpMeta44 = stringAppend(tmpMeta43,stringDelimitList(omc_List_map(threadData, omc_List_flatten(threadData, arrayList(_T)), boxvar_ExpressionDump_printExpStr), _OMC_LIT22));
+          tmpMeta45 = stringAppend(tmpMeta44,_OMC_LIT13);
+          tmpMeta46 = stringAppend(tmpMeta45,_OMC_LIT23);
+          tmpMeta47 = stringAppend(tmpMeta46,omc_ExpressionDump_printExpStr(threadData, _extra));
+          tmpMeta48 = stringAppend(tmpMeta47,_OMC_LIT13);
+          tmp1 = tmpMeta48;
           goto tmp3_done;
         }
         case 1: {

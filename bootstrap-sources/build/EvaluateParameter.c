@@ -3253,7 +3253,7 @@ modelica_metatype omc_EvaluateParameter_evaluateParameters(threadData_t *threadD
       tmpMeta29 = stringAppend(tmpMeta28,_OMC_LIT34);
       fputs(MMC_STRINGDATA(tmpMeta29),stdout);
 
-      tmpMeta30 = stringAppend(_OMC_LIT43,stringDelimitList(omc_List_map(threadData, arrayList(_markarr), boxvar_intString), _OMC_LIT37));
+      tmpMeta30 = stringAppend(_OMC_LIT43,stringDelimitList(omc_List_mapArray(threadData, _markarr, boxvar_intString), _OMC_LIT37));
       tmpMeta31 = stringAppend(tmpMeta30,_OMC_LIT34);
       fputs(MMC_STRINGDATA(tmpMeta31),stdout);
     }
@@ -3295,7 +3295,7 @@ modelica_metatype omc_EvaluateParameter_evaluateParameters(threadData_t *threadD
       tmpMeta36 = stringAppend(tmpMeta35,_OMC_LIT34);
       fputs(MMC_STRINGDATA(tmpMeta36),stdout);
 
-      tmpMeta37 = stringAppend(_OMC_LIT43,stringDelimitList(omc_List_map(threadData, arrayList(_markarr), boxvar_intString), _OMC_LIT37));
+      tmpMeta37 = stringAppend(_OMC_LIT43,stringDelimitList(omc_List_mapArray(threadData, _markarr, boxvar_intString), _OMC_LIT37));
       tmpMeta38 = stringAppend(tmpMeta37,_OMC_LIT34);
       fputs(MMC_STRINGDATA(tmpMeta38),stdout);
     }
@@ -3345,7 +3345,7 @@ modelica_metatype omc_EvaluateParameter_evaluateParameters(threadData_t *threadD
       tmpMeta54 = stringAppend(tmpMeta53,_OMC_LIT34);
       fputs(MMC_STRINGDATA(tmpMeta54),stdout);
 
-      tmpMeta55 = stringAppend(_OMC_LIT43,stringDelimitList(omc_List_map(threadData, arrayList(_markarr), boxvar_intString), _OMC_LIT37));
+      tmpMeta55 = stringAppend(_OMC_LIT43,stringDelimitList(omc_List_mapArray(threadData, _markarr, boxvar_intString), _OMC_LIT37));
       tmpMeta56 = stringAppend(tmpMeta55,_OMC_LIT47);
       fputs(MMC_STRINGDATA(tmpMeta56),stdout);
     }

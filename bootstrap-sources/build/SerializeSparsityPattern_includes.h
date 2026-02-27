@@ -64,6 +64,7 @@ extern "C" {
     fclose(pFile);
   }
   
+#include "Error.h"
 #include "List.h"
 #include "SerializeSparsityPattern.h"
 #include "Util.h"
