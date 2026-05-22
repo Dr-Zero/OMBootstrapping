@@ -21510,7 +21510,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalScriptBackend_runFrontEndWo
           omc_ExecStat_execStat(threadData, _OMC_LIT550);
 
           tmpMeta7 = MMC_REFSTRUCTLIT(mmc_nil);
-          _cache = omc_Inst_instantiateClass(threadData, _cache, tmpMeta7, _scodeP, _className, 1 /* true */, _relaxedFrontEnd ,&_env ,NULL ,&_dae);
+          _cache = omc_Inst_instantiateClass(threadData, _cache, tmpMeta7, _scodeP, _className, 1 /* true */, _relaxedFrontEnd , 1 /* true */, &_env ,NULL ,&_dae);
 
           _dae = omc_DAEUtil_mergeAlgorithmSections(threadData, _dae);
 

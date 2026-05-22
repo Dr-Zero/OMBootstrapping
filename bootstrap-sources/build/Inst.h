@@ -492,9 +492,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_Inst_instantiatePartialClass,2,0) {(voi
 
 
 DLLDirection
-modelica_metatype omc_Inst_instantiateClass(threadData_t *threadData, modelica_metatype _inCache, modelica_metatype _inIH, modelica_metatype _inProgram, modelica_metatype _inPath, modelica_boolean _doSCodeDep, modelica_boolean _relaxedFrontEnd, modelica_metatype *out_outEnv, modelica_metatype *out_outIH, modelica_metatype *out_outDAElist);
+modelica_metatype omc_Inst_instantiateClass(threadData_t *threadData, modelica_metatype _inCache, modelica_metatype _inIH, modelica_metatype _inProgram, modelica_metatype _inPath, modelica_boolean _doSCodeDep, modelica_boolean _relaxedFrontEnd, modelica_boolean _clearCache, modelica_metatype *out_outEnv, modelica_metatype *out_outIH, modelica_metatype *out_outDAElist);
 DLLDirection
-modelica_metatype boxptr_Inst_instantiateClass(threadData_t *threadData, modelica_metatype _inCache, modelica_metatype _inIH, modelica_metatype _inProgram, modelica_metatype _inPath, modelica_metatype _doSCodeDep, modelica_metatype _relaxedFrontEnd, modelica_metatype *out_outEnv, modelica_metatype *out_outIH, modelica_metatype *out_outDAElist);
+modelica_metatype boxptr_Inst_instantiateClass(threadData_t *threadData, modelica_metatype _inCache, modelica_metatype _inIH, modelica_metatype _inProgram, modelica_metatype _inPath, modelica_metatype _doSCodeDep, modelica_metatype _relaxedFrontEnd, modelica_metatype _clearCache, modelica_metatype *out_outEnv, modelica_metatype *out_outIH, modelica_metatype *out_outDAElist);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Inst_instantiateClass,2,0) {(void*) boxptr_Inst_instantiateClass,0}};
 #define boxvar_Inst_instantiateClass MMC_REFSTRUCTLIT(boxvar_lit_Inst_instantiateClass)
 

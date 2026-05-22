@@ -39,6 +39,7 @@ extern "C" {
 #include "HashSetString.h"
 #include "Inst.h"
 #include "InstFunction.h"
+#include "InstHashTable.h"
 #include "Interactive.h"
 #include "InteractiveUtil.h"
 #include "List.h"

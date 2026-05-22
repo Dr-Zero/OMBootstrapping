@@ -15691,7 +15691,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InteractiveUtil_buildEnvForGraph
           modelica_metatype tmpMeta5;
           /* Pattern matching succeeded */
           tmpMeta5 = MMC_REFSTRUCTLIT(mmc_nil);
-          _outCache = omc_Inst_instantiateClass(threadData, omc_FCore_emptyCache(threadData), tmpMeta5, _scode_program, _inModelPath, 1 /* true */, 1 /* true */ ,&_outEnv, NULL, NULL);
+          _outCache = omc_Inst_instantiateClass(threadData, omc_FCore_emptyCache(threadData), tmpMeta5, _scode_program, _inModelPath, 1 /* true */, 1 /* true */ , 1 /* true */, &_outEnv, NULL, NULL);
           goto tmp2_done;
         }
         case 1: {
