@@ -7782,7 +7782,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Uncertainties_flattenModel(threa
           _p_1 = omc_AbsynToSCode_translateAbsyn2SCode(threadData, _p);
 
           tmpMeta6 = MMC_REFSTRUCTLIT(mmc_nil);
-          _cache = omc_Inst_instantiateClass(threadData, _icache, tmpMeta6, _p_1, _className, 1 /* true */, 1 /* true */ ,&_graph ,NULL ,&_dae);
+          _cache = omc_Inst_instantiateClass(threadData, _icache, tmpMeta6, _p_1, _className, 1 /* true */, 1 /* true */,1 /* true */ ,&_graph ,NULL ,&_dae);
 
           omc_System_realtimeTock(threadData, ((modelica_integer) 18));
 

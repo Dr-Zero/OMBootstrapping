@@ -1821,8 +1821,8 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_Inst_instClassInProgram,2,0) {(void*) b
 PROTECTED_FUNCTION_STATIC modelica_metatype omc_Inst_makeTopComponentPrefix(threadData_t *threadData, modelica_metatype _inGraph, modelica_string _inName);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Inst_makeTopComponentPrefix,2,0) {(void*) boxptr_Inst_makeTopComponentPrefix,0}};
 #define boxvar_Inst_makeTopComponentPrefix MMC_REFSTRUCTLIT(boxvar_lit_Inst_makeTopComponentPrefix)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_Inst_instantiateClass__dispatch(threadData_t *threadData, modelica_metatype _inCache, modelica_metatype _inIH, modelica_metatype _inProgram, modelica_metatype _inPath, modelica_boolean _doSCodeDep, modelica_boolean _relaxedFrontEnd, modelica_metatype *out_outEnv, modelica_metatype *out_outIH, modelica_metatype *out_outDAElist);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_Inst_instantiateClass__dispatch(threadData_t *threadData, modelica_metatype _inCache, modelica_metatype _inIH, modelica_metatype _inProgram, modelica_metatype _inPath, modelica_metatype _doSCodeDep, modelica_metatype _relaxedFrontEnd, modelica_metatype *out_outEnv, modelica_metatype *out_outIH, modelica_metatype *out_outDAElist);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_Inst_instantiateClass__dispatch(threadData_t *threadData, modelica_metatype _inCache, modelica_metatype _inIH, modelica_metatype _inProgram, modelica_metatype _inPath, modelica_boolean _doSCodeDep, modelica_boolean _relaxedFrontEnd, modelica_boolean _clearCache, modelica_metatype *out_outEnv, modelica_metatype *out_outIH, modelica_metatype *out_outDAElist);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_Inst_instantiateClass__dispatch(threadData_t *threadData, modelica_metatype _inCache, modelica_metatype _inIH, modelica_metatype _inProgram, modelica_metatype _inPath, modelica_metatype _doSCodeDep, modelica_metatype _relaxedFrontEnd, modelica_metatype _clearCache, modelica_metatype *out_outEnv, modelica_metatype *out_outIH, modelica_metatype *out_outDAElist);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Inst_instantiateClass__dispatch,2,0) {(void*) boxptr_Inst_instantiateClass__dispatch,0}};
 #define boxvar_Inst_instantiateClass__dispatch MMC_REFSTRUCTLIT(boxvar_lit_Inst_instantiateClass__dispatch)
 
@@ -16141,7 +16141,7 @@ modelica_metatype omc_Inst_instantiatePartialClass(threadData_t *threadData, mod
 }
 
 DLLDirection
-modelica_metatype omc_Inst_instantiateClass(threadData_t *threadData, modelica_metatype _inCache, modelica_metatype _inIH, modelica_metatype _inProgram, modelica_metatype _inPath, modelica_boolean _doSCodeDep, modelica_boolean _relaxedFrontEnd, modelica_metatype *out_outEnv, modelica_metatype *out_outIH, modelica_metatype *out_outDAElist)
+modelica_metatype omc_Inst_instantiateClass(threadData_t *threadData, modelica_metatype _inCache, modelica_metatype _inIH, modelica_metatype _inProgram, modelica_metatype _inPath, modelica_boolean _doSCodeDep, modelica_boolean _relaxedFrontEnd, modelica_boolean _clearCache, modelica_metatype *out_outEnv, modelica_metatype *out_outIH, modelica_metatype *out_outDAElist)
 {
   modelica_metatype _outCache = NULL;
   modelica_metatype _outEnv = NULL;
@@ -16207,7 +16207,7 @@ modelica_metatype omc_Inst_instantiateClass(threadData_t *threadData, modelica_m
           _ih = tmp4_2;
           _path = tmp4_4;
           /* Pattern matching succeeded */
-          _outCache = omc_Inst_instantiateClass__dispatch(threadData, _cache, _ih, _cdecls, _path, _doSCodeDep, _relaxedFrontEnd ,&_outEnv ,&_outIH ,&_outDAElist);
+          _outCache = omc_Inst_instantiateClass__dispatch(threadData, _cache, _ih, _cdecls, _path, _doSCodeDep, _relaxedFrontEnd, _clearCache ,&_outEnv ,&_outIH ,&_outDAElist);
 
           _outDAElist = omc_FUnitCheck_checkUnits(threadData, _outDAElist, omc_FCore_getFunctionTree(threadData, _outCache));
           tmpMeta[0+0] = _outCache;
@@ -16270,14 +16270,16 @@ modelica_metatype omc_Inst_instantiateClass(threadData_t *threadData, modelica_m
   if (out_outDAElist) { *out_outDAElist = _outDAElist; }
   return _outCache;
 }
-modelica_metatype boxptr_Inst_instantiateClass(threadData_t *threadData, modelica_metatype _inCache, modelica_metatype _inIH, modelica_metatype _inProgram, modelica_metatype _inPath, modelica_metatype _doSCodeDep, modelica_metatype _relaxedFrontEnd, modelica_metatype *out_outEnv, modelica_metatype *out_outIH, modelica_metatype *out_outDAElist)
+modelica_metatype boxptr_Inst_instantiateClass(threadData_t *threadData, modelica_metatype _inCache, modelica_metatype _inIH, modelica_metatype _inProgram, modelica_metatype _inPath, modelica_metatype _doSCodeDep, modelica_metatype _relaxedFrontEnd, modelica_metatype _clearCache, modelica_metatype *out_outEnv, modelica_metatype *out_outIH, modelica_metatype *out_outDAElist)
 {
   modelica_integer tmp1;
   modelica_integer tmp2;
+  modelica_integer tmp3;
   modelica_metatype _outCache = NULL;
   tmp1 = mmc_unbox_integer(_doSCodeDep);
   tmp2 = mmc_unbox_integer(_relaxedFrontEnd);
-  _outCache = omc_Inst_instantiateClass(threadData, _inCache, _inIH, _inProgram, _inPath, tmp1, tmp2, out_outEnv, out_outIH, out_outDAElist);
+  tmp3 = mmc_unbox_integer(_clearCache);
+  _outCache = omc_Inst_instantiateClass(threadData, _inCache, _inIH, _inProgram, _inPath, tmp1, tmp2, tmp3, out_outEnv, out_outIH, out_outDAElist);
   /* skip box _outCache; FCore.Cache */
   /* skip box _outEnv; FCore.Graph */
   /* skip box _outIH; list<InnerOuter.TopInstance> */
@@ -16285,7 +16287,7 @@ modelica_metatype boxptr_Inst_instantiateClass(threadData_t *threadData, modelic
   return _outCache;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_Inst_instantiateClass__dispatch(threadData_t *threadData, modelica_metatype _inCache, modelica_metatype _inIH, modelica_metatype _inProgram, modelica_metatype _inPath, modelica_boolean _doSCodeDep, modelica_boolean _relaxedFrontEnd, modelica_metatype *out_outEnv, modelica_metatype *out_outIH, modelica_metatype *out_outDAElist)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_Inst_instantiateClass__dispatch(threadData_t *threadData, modelica_metatype _inCache, modelica_metatype _inIH, modelica_metatype _inProgram, modelica_metatype _inPath, modelica_boolean _doSCodeDep, modelica_boolean _relaxedFrontEnd, modelica_boolean _clearCache, modelica_metatype *out_outEnv, modelica_metatype *out_outIH, modelica_metatype *out_outDAElist)
 {
   modelica_metatype _outCache = NULL;
   modelica_metatype _outEnv = NULL;
@@ -16379,7 +16381,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Inst_instantiateClass__dispatch(
 
           _cache = omc_Inst_instClassInProgram(threadData, _cache, _env, _ih, _cdecls, _path, _source, _relaxedFrontEnd ,&_env ,&_ih ,&_dae2);
 
-          omc_InstHashTable_release(threadData);
+          if(_clearCache)
+          {
+            omc_InstHashTable_release(threadData);
+          }
           tmpMeta[0+0] = _cache;
           tmpMeta[0+1] = _env;
           tmpMeta[0+2] = _ih;
@@ -16458,7 +16463,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Inst_instantiateClass__dispatch(
           tmpMeta19 = mmc_mk_box2(3, &DAE_DAElist_DAE__desc, tmpMeta17);
           _dae = tmpMeta19;
 
-          omc_InstHashTable_release(threadData);
+          if(_clearCache)
+          {
+            omc_InstHashTable_release(threadData);
+          }
           tmpMeta[0+0] = _cache;
           tmpMeta[0+1] = _env;
           tmpMeta[0+2] = _ih;
@@ -16486,14 +16494,16 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Inst_instantiateClass__dispatch(
   if (out_outDAElist) { *out_outDAElist = _outDAElist; }
   return _outCache;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_Inst_instantiateClass__dispatch(threadData_t *threadData, modelica_metatype _inCache, modelica_metatype _inIH, modelica_metatype _inProgram, modelica_metatype _inPath, modelica_metatype _doSCodeDep, modelica_metatype _relaxedFrontEnd, modelica_metatype *out_outEnv, modelica_metatype *out_outIH, modelica_metatype *out_outDAElist)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_Inst_instantiateClass__dispatch(threadData_t *threadData, modelica_metatype _inCache, modelica_metatype _inIH, modelica_metatype _inProgram, modelica_metatype _inPath, modelica_metatype _doSCodeDep, modelica_metatype _relaxedFrontEnd, modelica_metatype _clearCache, modelica_metatype *out_outEnv, modelica_metatype *out_outIH, modelica_metatype *out_outDAElist)
 {
   modelica_integer tmp1;
   modelica_integer tmp2;
+  modelica_integer tmp3;
   modelica_metatype _outCache = NULL;
   tmp1 = mmc_unbox_integer(_doSCodeDep);
   tmp2 = mmc_unbox_integer(_relaxedFrontEnd);
-  _outCache = omc_Inst_instantiateClass__dispatch(threadData, _inCache, _inIH, _inProgram, _inPath, tmp1, tmp2, out_outEnv, out_outIH, out_outDAElist);
+  tmp3 = mmc_unbox_integer(_clearCache);
+  _outCache = omc_Inst_instantiateClass__dispatch(threadData, _inCache, _inIH, _inProgram, _inPath, tmp1, tmp2, tmp3, out_outEnv, out_outIH, out_outDAElist);
   /* skip box _outCache; FCore.Cache */
   /* skip box _outEnv; FCore.Graph */
   /* skip box _outIH; list<InnerOuter.TopInstance> */

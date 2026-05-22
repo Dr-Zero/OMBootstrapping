@@ -7014,7 +7014,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalScript_getNonPartialElement
             omc_ErrorExt_setCheckpoint(threadData, _OMC_LIT261);
 
             tmpMeta13 = MMC_REFSTRUCTLIT(mmc_nil);
-            omc_Inst_instantiateClass(threadData, omc_FCore_emptyCache(threadData), tmpMeta13, _sp, omc_AbsynUtil_makeNotFullyQualified(threadData, _p), 0 /* false */, 1 /* true */ ,&_env, NULL, NULL);
+            omc_Inst_instantiateClass(threadData, omc_FCore_emptyCache(threadData), tmpMeta13, _sp, omc_AbsynUtil_makeNotFullyQualified(threadData, _p), 0 /* false */, 1 /* true */, 0 /* false */ ,&_env, NULL, NULL);
 
             tmpMeta14 = MMC_REFSTRUCTLIT(mmc_nil);
             _elts = omc_FCore_RefTree_fold(threadData, omc_FNode_children(threadData, omc_FNode_fromRef(threadData, omc_FGraph_lastScopeRef(threadData, _env))), boxvar_CevalScript_addNonPartialClassRef, tmpMeta14);
@@ -7361,6 +7361,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalScript_generateFunctions2(t
           }
 
           _cache = omc_CevalScript_instantiateDaeFunctions(threadData, _cache, _env, _paths);
+
+          omc_InstHashTable_release(threadData);
 
           _funcs = omc_FCore_getFunctionTree(threadData, _cache);
 
