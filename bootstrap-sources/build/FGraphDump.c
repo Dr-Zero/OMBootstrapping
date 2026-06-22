@@ -100,22 +100,20 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT36,17,_OMC_LIT36_data);
 #define _OMC_LIT37_data "Dumps a graph of the program. Use with -d=graphInst"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT37,51,_OMC_LIT37_data);
 #define _OMC_LIT37 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT37)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT38,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT37}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT38,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(79)),_OMC_LIT36,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT37}};
 #define _OMC_LIT38 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT38)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT39,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(79)),_OMC_LIT36,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT38}};
-#define _OMC_LIT39 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT39)
-#define _OMC_LIT40_data "G"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT40,1,_OMC_LIT40_data);
+#define _OMC_LIT39_data "G"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT39,1,_OMC_LIT39_data);
+#define _OMC_LIT39 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT39)
+#define _OMC_LIT40_data "Dumping graph file: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT40,20,_OMC_LIT40_data);
 #define _OMC_LIT40 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT40)
-#define _OMC_LIT41_data "Dumping graph file: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT41,20,_OMC_LIT41_data);
+#define _OMC_LIT41_data " ....\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT41,6,_OMC_LIT41_data);
 #define _OMC_LIT41 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT41)
-#define _OMC_LIT42_data " ....\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT42,6,_OMC_LIT42_data);
+#define _OMC_LIT42_data "Dumped\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT42,7,_OMC_LIT42_data);
 #define _OMC_LIT42 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT42)
-#define _OMC_LIT43_data "Dumped\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT43,7,_OMC_LIT43_data);
-#define _OMC_LIT43 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT43)
 #include "util/modelica.h"
 
 #include "FGraphDump_includes.h"
@@ -1025,7 +1023,7 @@ void omc_FGraphDump_dumpGraph(threadData_t *threadData, modelica_metatype _inGra
           modelica_boolean tmp5;
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp5 = omc_Flags_isSet(threadData, _OMC_LIT39);
+          tmp5 = omc_Flags_isSet(threadData, _OMC_LIT38);
           if (0 /* false */ != tmp5) goto goto_1;
           goto tmp2_done;
         }
@@ -1046,7 +1044,7 @@ void omc_FGraphDump_dumpGraph(threadData_t *threadData, modelica_metatype _inGra
           _gi = omc_GraphML_createGraphInfo(threadData);
 
           /* Pattern-matching tuple assignment */
-          tmpMeta9 = omc_GraphML_addGraph(threadData, _OMC_LIT40, 0 /* false */, _gi, &tmpMeta6);
+          tmpMeta9 = omc_GraphML_addGraph(threadData, _OMC_LIT39, 0 /* false */, _gi, &tmpMeta6);
           _gi = tmpMeta9;
           tmpMeta7 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta6), 2));
           tmp8 = mmc_unbox_integer(tmpMeta7);
@@ -1064,13 +1062,13 @@ void omc_FGraphDump_dumpGraph(threadData_t *threadData, modelica_metatype _inGra
           _gi = tmpMeta13;
           _g = tmp15  /* pattern as ty=Integer */;
 
-          tmpMeta16 = stringAppend(_OMC_LIT41,_fileName);
-          tmpMeta17 = stringAppend(tmpMeta16,_OMC_LIT42);
+          tmpMeta16 = stringAppend(_OMC_LIT40,_fileName);
+          tmpMeta17 = stringAppend(tmpMeta16,_OMC_LIT41);
           fputs(MMC_STRINGDATA(tmpMeta17),stdout);
 
           omc_GraphML_dumpGraph(threadData, _gi, _fileName);
 
-          fputs(MMC_STRINGDATA(_OMC_LIT43),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT42),stdout);
           goto tmp2_done;
         }
         }

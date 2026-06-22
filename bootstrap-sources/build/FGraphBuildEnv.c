@@ -780,8 +780,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_FGraphBuildEnv_analyseCref(threa
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outGraph has no default value.
-  { /* matchcontinue expression */
-    volatile modelica_metatype tmp4_1;volatile modelica_metatype tmp4_2;
+  { /* match expression */
+    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
     tmp4_1 = _inCref;
     tmp4_2 = _inGraph;
     {
@@ -790,9 +790,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_FGraphBuildEnv_analyseCref(threa
       int tmp5;
       // _g has no default value.
       tmp4 = 0;
-      MMC_TRY_INTERNAL(mmc_jumper)
-      tmp3_top:
-      threadData->mmc_jumper = &new_mmc_jumper;
       for (; tmp4 < 2; tmp4++) {
         switch (MMC_SWITCH_CAST(tmp4)) {
         case 0: {
@@ -815,17 +812,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_FGraphBuildEnv_analyseCref(threa
         tmp3_end: ;
       }
       goto goto_2;
-      tmp3_done:
-      (void)tmp4;
-      MMC_RESTORE_INTERNAL(mmc_jumper);
-      goto tmp3_done2;
       goto_2:;
-      MMC_CATCH_INTERNAL(mmc_jumper);
-      if (++tmp4 < 2) {
-        goto tmp3_top;
-      }
       MMC_THROW_INTERNAL();
-      tmp3_done2:;
+      goto tmp3_done;
+      tmp3_done:;
     }
   }
   _outGraph = tmpMeta1;
@@ -1774,7 +1764,6 @@ modelica_metatype omc_FGraphBuildEnv_mkCompNode(threadData_t *threadData, modeli
   modelica_metatype _cnd = NULL;
   modelica_metatype _ad = NULL;
   modelica_metatype _ts = NULL;
-  modelica_metatype _tad = NULL;
   modelica_metatype _nd = NULL;
   modelica_metatype _i = NULL;
   modelica_metatype tmpMeta1;
@@ -1797,7 +1786,6 @@ modelica_metatype omc_FGraphBuildEnv_mkCompNode(threadData_t *threadData, modeli
   // _cnd has no default value.
   // _ad has no default value.
   // _ts has no default value.
-  // _tad has no default value.
   // _nd has no default value.
   // _i has no default value.
   /* Pattern-matching assignment */
@@ -2410,8 +2398,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_FGraphBuildEnv_mkClassChildren(t
           _m = tmpMeta18;
           _g = tmp4_2;
           tmp4 += 2; /* Pattern matching succeeded; we may skip some cases if we fail */
-          omc_AbsynUtil_typeSpecPath(threadData, _ts);
-
           _nr = _inParentRef;
 
           _g = omc_FGraphBuildEnv_mkModNode(threadData, _OMC_LIT19, _m, _nr, _inKind, _g);

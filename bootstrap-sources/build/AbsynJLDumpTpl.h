@@ -18,8 +18,6 @@ extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description Tpl_IterOptions_ITER__OPTIONS__desc;
 
 extern struct record_description Tpl_StringToken_ST__NEW__LINE__desc;

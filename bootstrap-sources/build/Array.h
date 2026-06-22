@@ -135,6 +135,14 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_Array_isEqual,2,0) {(void*) boxptr_Arra
 
 
 DLLDirection
+modelica_integer omc_Array_hashIntArray(threadData_t *threadData, modelica_metatype _arr);
+DLLDirection
+modelica_metatype boxptr_Array_hashIntArray(threadData_t *threadData, modelica_metatype _arr);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_Array_hashIntArray,2,0) {(void*) boxptr_Array_hashIntArray,0}};
+#define boxvar_Array_hashIntArray MMC_REFSTRUCTLIT(boxvar_lit_Array_hashIntArray)
+
+
+DLLDirection
 modelica_string omc_Array_toString(threadData_t *threadData, modelica_metatype _inArray, modelica_fnptr _inPrintFunc, modelica_string _inNameStr, modelica_string _inBeginStr, modelica_string _inDelimitStr, modelica_string _inEndStr, modelica_boolean _inPrintEmpty, modelica_integer _maxLength);
 DLLDirection
 modelica_metatype boxptr_Array_toString(threadData_t *threadData, modelica_metatype _inArray, modelica_fnptr _inPrintFunc, modelica_metatype _inNameStr, modelica_metatype _inBeginStr, modelica_metatype _inDelimitStr, modelica_metatype _inEndStr, modelica_metatype _inPrintEmpty, modelica_metatype _maxLength);

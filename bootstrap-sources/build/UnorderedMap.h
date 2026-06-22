@@ -240,6 +240,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_UnorderedMap_contains,2,0) {(void*) box
 
 
 DLLDirection
+void omc_UnorderedMap_updateKey(threadData_t *threadData, modelica_metatype _key, modelica_metatype _map);
+#define boxptr_UnorderedMap_updateKey omc_UnorderedMap_updateKey
+static const MMC_DEFSTRUCTLIT(boxvar_lit_UnorderedMap_updateKey,2,0) {(void*) boxptr_UnorderedMap_updateKey,0}};
+#define boxvar_UnorderedMap_updateKey MMC_REFSTRUCTLIT(boxvar_lit_UnorderedMap_updateKey)
+
+
+DLLDirection
 modelica_metatype omc_UnorderedMap_getKey(threadData_t *threadData, modelica_metatype _key, modelica_metatype _map);
 #define boxptr_UnorderedMap_getKey omc_UnorderedMap_getKey
 static const MMC_DEFSTRUCTLIT(boxvar_lit_UnorderedMap_getKey,2,0) {(void*) boxptr_UnorderedMap_getKey,0}};

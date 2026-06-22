@@ -32,9 +32,7 @@ extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
 extern struct record_description Flags_FlagVisibility_INTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
+extern struct record_description NFCeval_EvalTarget_EVAL__TARGET__desc;
 
 extern struct record_description NFComponentRef_CREF__desc;
 

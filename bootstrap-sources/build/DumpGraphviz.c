@@ -297,16 +297,13 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_DumpGraphviz_printAlgorithm(thre
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outNode has no default value.
-  { /* matchcontinue expression */
-    volatile modelica_metatype tmp4_1;
+  { /* match expression */
+    modelica_metatype tmp4_1;
     tmp4_1 = _inAlgorithm;
     {
       volatile mmc_switch_type tmp4;
       int tmp5;
       tmp4 = 0;
-      MMC_TRY_INTERNAL(mmc_jumper)
-      tmp3_top:
-      threadData->mmc_jumper = &new_mmc_jumper;
       for (; tmp4 < 2; tmp4++) {
         switch (MMC_SWITCH_CAST(tmp4)) {
         case 0: {
@@ -327,17 +324,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_DumpGraphviz_printAlgorithm(thre
         tmp3_end: ;
       }
       goto goto_2;
-      tmp3_done:
-      (void)tmp4;
-      MMC_RESTORE_INTERNAL(mmc_jumper);
-      goto tmp3_done2;
       goto_2:;
-      MMC_CATCH_INTERNAL(mmc_jumper);
-      if (++tmp4 < 2) {
-        goto tmp3_top;
-      }
       MMC_THROW_INTERNAL();
-      tmp3_done2:;
+      goto tmp3_done;
+      tmp3_done:;
     }
   }
   _outNode = tmpMeta1;
@@ -352,8 +342,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_DumpGraphviz_printAlgorithmitem(
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outNode has no default value.
-  { /* matchcontinue expression */
-    volatile modelica_metatype tmp4_1;
+  { /* match expression */
+    modelica_metatype tmp4_1;
     tmp4_1 = _inAlgorithmItem;
     {
       modelica_metatype _alg = NULL;
@@ -361,9 +351,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_DumpGraphviz_printAlgorithmitem(
       int tmp5;
       // _alg has no default value.
       tmp4 = 0;
-      MMC_TRY_INTERNAL(mmc_jumper)
-      tmp3_top:
-      threadData->mmc_jumper = &new_mmc_jumper;
       for (; tmp4 < 2; tmp4++) {
         switch (MMC_SWITCH_CAST(tmp4)) {
         case 0: {
@@ -387,17 +374,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_DumpGraphviz_printAlgorithmitem(
         tmp3_end: ;
       }
       goto goto_2;
-      tmp3_done:
-      (void)tmp4;
-      MMC_RESTORE_INTERNAL(mmc_jumper);
-      goto tmp3_done2;
       goto_2:;
-      MMC_CATCH_INTERNAL(mmc_jumper);
-      if (++tmp4 < 2) {
-        goto tmp3_top;
-      }
       MMC_THROW_INTERNAL();
-      tmp3_done2:;
+      goto tmp3_done;
+      tmp3_done:;
     }
   }
   _outNode = tmpMeta1;
@@ -1105,12 +1085,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_DumpGraphviz_makeLeaf(threadData
 PROTECTED_FUNCTION_STATIC modelica_metatype omc_DumpGraphviz_makeBoolAttr(threadData_t *threadData, modelica_string _str, modelica_boolean _flag)
 {
   modelica_metatype _outAttribute = NULL;
-  modelica_string _s = NULL;
   modelica_metatype tmpMeta1;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outAttribute has no default value.
-  // _s has no default value.
   tmpMeta1 = mmc_mk_box3(3, &Graphviz_Attribute_ATTR__desc, _str, (_flag?_OMC_LIT32:_OMC_LIT33));
   _outAttribute = tmpMeta1;
   _return: OMC_LABEL_UNUSED

@@ -124,10 +124,6 @@ extern struct record_description ErrorTypes_Severity_WARNING__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
-
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
@@ -1254,6 +1250,14 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_BackendVariable_isRealVar,2,0) {(void*)
 
 
 DLLDirection
+modelica_boolean omc_BackendVariable_isOutputAliasVar(threadData_t *threadData, modelica_metatype _inVar);
+DLLDirection
+modelica_metatype boxptr_BackendVariable_isOutputAliasVar(threadData_t *threadData, modelica_metatype _inVar);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_BackendVariable_isOutputAliasVar,2,0) {(void*) boxptr_BackendVariable_isOutputAliasVar,0}};
+#define boxvar_BackendVariable_isOutputAliasVar MMC_REFSTRUCTLIT(boxvar_lit_BackendVariable_isOutputAliasVar)
+
+
+DLLDirection
 modelica_boolean omc_BackendVariable_isOutputVar(threadData_t *threadData, modelica_metatype _inVar);
 DLLDirection
 modelica_metatype boxptr_BackendVariable_isOutputVar(threadData_t *threadData, modelica_metatype _inVar);
@@ -1909,6 +1913,14 @@ DLLDirection
 modelica_metatype boxptr_BackendVariable_varStateSelectPrefer(threadData_t *threadData, modelica_metatype _inVar);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_BackendVariable_varStateSelectPrefer,2,0) {(void*) boxptr_BackendVariable_varStateSelectPrefer,0}};
 #define boxvar_BackendVariable_varStateSelectPrefer MMC_REFSTRUCTLIT(boxvar_lit_BackendVariable_varStateSelectPrefer)
+
+
+DLLDirection
+modelica_boolean omc_BackendVariable_varStateSelectAvoid(threadData_t *threadData, modelica_metatype _inVar);
+DLLDirection
+modelica_metatype boxptr_BackendVariable_varStateSelectAvoid(threadData_t *threadData, modelica_metatype _inVar);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_BackendVariable_varStateSelectAvoid,2,0) {(void*) boxptr_BackendVariable_varStateSelectAvoid,0}};
+#define boxvar_BackendVariable_varStateSelectAvoid MMC_REFSTRUCTLIT(boxvar_lit_BackendVariable_varStateSelectAvoid)
 
 
 DLLDirection

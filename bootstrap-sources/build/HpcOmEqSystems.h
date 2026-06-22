@@ -96,8 +96,6 @@ extern struct record_description Flags_FlagData_INT__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description HpcOmEqSystems_EqSys_LINSYS__desc;
 
 extern struct record_description HpcOmSimCode_Schedule_THREADSCHEDULE__desc;

@@ -34,7 +34,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_TplCodegen_sActualMMParams,2,0) {(void*
 #define boxvar_TplCodegen_sActualMMParams MMC_REFSTRUCTLIT(boxvar_lit_TplCodegen_sActualMMParams)
 
 
-#define boxptr_TplCodegen_lm__84 omc_TplCodegen_lm__84
+#define boxptr_TplCodegen_lm__99 omc_TplCodegen_lm__99
 
 
 DLLDirection
@@ -51,7 +51,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_TplCodegen_sTypedIdents,2,0) {(void*) b
 #define boxvar_TplCodegen_sTypedIdents MMC_REFSTRUCTLIT(boxvar_lit_TplCodegen_sTypedIdents)
 
 
-#define boxptr_TplCodegen_lm__81 omc_TplCodegen_lm__81
+#define boxptr_TplCodegen_lm__96 omc_TplCodegen_lm__96
 
 
 DLLDirection
@@ -61,13 +61,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_TplCodegen_sConstStringToken,2,0) {(voi
 #define boxvar_TplCodegen_sConstStringToken MMC_REFSTRUCTLIT(boxvar_lit_TplCodegen_sConstStringToken)
 
 
-#define boxptr_TplCodegen_lm__77 omc_TplCodegen_lm__77
+#define boxptr_TplCodegen_lm__92 omc_TplCodegen_lm__92
 
 
-#define boxptr_TplCodegen_lm__76 omc_TplCodegen_lm__76
+#define boxptr_TplCodegen_lm__91 omc_TplCodegen_lm__91
 
 
-#define boxptr_TplCodegen_lm__75 omc_TplCodegen_lm__75
+#define boxptr_TplCodegen_lm__90 omc_TplCodegen_lm__90
 
 
 DLLDirection
@@ -84,10 +84,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_TplCodegen_sRecordTypeDef,2,0) {(void*)
 #define boxvar_TplCodegen_sRecordTypeDef MMC_REFSTRUCTLIT(boxvar_lit_TplCodegen_sRecordTypeDef)
 
 
-#define boxptr_TplCodegen_fun__72 omc_TplCodegen_fun__72
+#define boxptr_TplCodegen_fun__87 omc_TplCodegen_fun__87
 
 
-#define boxptr_TplCodegen_lm__71 omc_TplCodegen_lm__71
+#define boxptr_TplCodegen_lm__86 omc_TplCodegen_lm__86
 
 
 DLLDirection
@@ -97,16 +97,16 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_TplCodegen_sASTDefType,2,0) {(void*) bo
 #define boxvar_TplCodegen_sASTDefType MMC_REFSTRUCTLIT(boxvar_lit_TplCodegen_sASTDefType)
 
 
-#define boxptr_TplCodegen_fun__69 omc_TplCodegen_fun__69
+#define boxptr_TplCodegen_fun__84 omc_TplCodegen_fun__84
 
 
-#define boxptr_TplCodegen_lm__68 omc_TplCodegen_lm__68
+#define boxptr_TplCodegen_lm__83 omc_TplCodegen_lm__83
 
 
-#define boxptr_TplCodegen_lm__67 omc_TplCodegen_lm__67
+#define boxptr_TplCodegen_lm__82 omc_TplCodegen_lm__82
 
 
-#define boxptr_TplCodegen_lm__66 omc_TplCodegen_lm__66
+#define boxptr_TplCodegen_lm__81 omc_TplCodegen_lm__81
 
 
 DLLDirection
@@ -116,13 +116,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_TplCodegen_sTemplPackage,2,0) {(void*) 
 #define boxvar_TplCodegen_sTemplPackage MMC_REFSTRUCTLIT(boxvar_lit_TplCodegen_sTemplPackage)
 
 
-#define boxptr_TplCodegen_lm__64 omc_TplCodegen_lm__64
+#define boxptr_TplCodegen_lm__79 omc_TplCodegen_lm__79
 
 
-#define boxptr_TplCodegen_lm__63 omc_TplCodegen_lm__63
+#define boxptr_TplCodegen_lm__78 omc_TplCodegen_lm__78
 
 
-#define boxptr_TplCodegen_lm__62 omc_TplCodegen_lm__62
+#define boxptr_TplCodegen_lm__77 omc_TplCodegen_lm__77
 
 
 DLLDirection
@@ -132,7 +132,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_TplCodegen_mmStatements,2,0) {(void*) b
 #define boxvar_TplCodegen_mmStatements MMC_REFSTRUCTLIT(boxvar_lit_TplCodegen_mmStatements)
 
 
-#define boxptr_TplCodegen_lm__59 omc_TplCodegen_lm__59
+#define boxptr_TplCodegen_lm__74 omc_TplCodegen_lm__74
 
 
 DLLDirection
@@ -142,13 +142,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_TplCodegen_mmMatchingExp,2,0) {(void*) 
 #define boxvar_TplCodegen_mmMatchingExp MMC_REFSTRUCTLIT(boxvar_lit_TplCodegen_mmMatchingExp)
 
 
-#define boxptr_TplCodegen_lm__57 omc_TplCodegen_lm__57
+#define boxptr_TplCodegen_lm__72 omc_TplCodegen_lm__72
 
 
-#define boxptr_TplCodegen_lm__56 omc_TplCodegen_lm__56
+#define boxptr_TplCodegen_lm__71 omc_TplCodegen_lm__71
 
 
-#define boxptr_TplCodegen_lm__55 omc_TplCodegen_lm__55
+#define boxptr_TplCodegen_lm__70 omc_TplCodegen_lm__70
 
 
 DLLDirection
@@ -158,13 +158,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_TplCodegen_mmExp,2,0) {(void*) boxptr_T
 #define boxvar_TplCodegen_mmExp MMC_REFSTRUCTLIT(boxvar_lit_TplCodegen_mmExp)
 
 
-#define boxptr_TplCodegen_lm__53 omc_TplCodegen_lm__53
+#define boxptr_TplCodegen_lm__68 omc_TplCodegen_lm__68
 
 
-#define boxptr_TplCodegen_fun__52 omc_TplCodegen_fun__52
+#define boxptr_TplCodegen_fun__67 omc_TplCodegen_fun__67
 
 
-#define boxptr_TplCodegen_lm__51 omc_TplCodegen_lm__51
+#define boxptr_TplCodegen_lm__66 omc_TplCodegen_lm__66
 
 
 DLLDirection
@@ -182,7 +182,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_TplCodegen_mmStringTokenConstant,2,0) {
 #define boxvar_TplCodegen_mmStringTokenConstant MMC_REFSTRUCTLIT(boxvar_lit_TplCodegen_mmStringTokenConstant)
 
 
-#define boxptr_TplCodegen_lm__45 omc_TplCodegen_lm__45
+#define boxptr_TplCodegen_lm__60 omc_TplCodegen_lm__60
 
 
 DLLDirection
@@ -192,7 +192,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_TplCodegen_typeSig,2,0) {(void*) boxptr
 #define boxvar_TplCodegen_typeSig MMC_REFSTRUCTLIT(boxvar_lit_TplCodegen_typeSig)
 
 
-#define boxptr_TplCodegen_lm__43 omc_TplCodegen_lm__43
+#define boxptr_TplCodegen_lm__58 omc_TplCodegen_lm__58
 
 
 DLLDirection
@@ -202,7 +202,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_TplCodegen_typedIdentsEx,2,0) {(void*) 
 #define boxvar_TplCodegen_typedIdentsEx MMC_REFSTRUCTLIT(boxvar_lit_TplCodegen_typedIdentsEx)
 
 
-#define boxptr_TplCodegen_lm__41 omc_TplCodegen_lm__41
+#define boxptr_TplCodegen_lm__56 omc_TplCodegen_lm__56
 
 
 DLLDirection
@@ -212,7 +212,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_TplCodegen_typedIdents,2,0) {(void*) bo
 #define boxvar_TplCodegen_typedIdents MMC_REFSTRUCTLIT(boxvar_lit_TplCodegen_typedIdents)
 
 
-#define boxptr_TplCodegen_lm__39 omc_TplCodegen_lm__39
+#define boxptr_TplCodegen_lm__54 omc_TplCodegen_lm__54
 
 
 DLLDirection
@@ -237,25 +237,65 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_TplCodegen_inOutArgs,2,0) {(void*) boxp
 #define boxvar_TplCodegen_inOutArgs MMC_REFSTRUCTLIT(boxvar_lit_TplCodegen_inOutArgs)
 
 
+#define boxptr_TplCodegen_fun__50 omc_TplCodegen_fun__50
+
+
+#define boxptr_TplCodegen_fun__49 omc_TplCodegen_fun__49
+
+
+#define boxptr_TplCodegen_fun__48 omc_TplCodegen_fun__48
+
+
+#define boxptr_TplCodegen_fun__47 omc_TplCodegen_fun__47
+
+
+#define boxptr_TplCodegen_fun__46 omc_TplCodegen_fun__46
+
+
+#define boxptr_TplCodegen_fun__45 omc_TplCodegen_fun__45
+
+
+#define boxptr_TplCodegen_fun__44 omc_TplCodegen_fun__44
+
+
+DLLDirection
+modelica_metatype omc_TplCodegen_mmListForLoopFunBody(threadData_t *threadData, modelica_metatype _txt, modelica_metatype _a_inArgs, modelica_metatype _a_outArgs, modelica_metatype _a_locals, modelica_string _a_eltName, modelica_string _a_listName, modelica_metatype _a_matchLocals, modelica_metatype _a_matchCases);
+#define boxptr_TplCodegen_mmListForLoopFunBody omc_TplCodegen_mmListForLoopFunBody
+static const MMC_DEFSTRUCTLIT(boxvar_lit_TplCodegen_mmListForLoopFunBody,2,0) {(void*) boxptr_TplCodegen_mmListForLoopFunBody,0}};
+#define boxvar_TplCodegen_mmListForLoopFunBody MMC_REFSTRUCTLIT(boxvar_lit_TplCodegen_mmListForLoopFunBody)
+
+
+#define boxptr_TplCodegen_lm__41 omc_TplCodegen_lm__41
+
+
+#define boxptr_TplCodegen_fun__40 omc_TplCodegen_fun__40
+
+
+#define boxptr_TplCodegen_lm__39 omc_TplCodegen_lm__39
+
+
+#define boxptr_TplCodegen_fun__38 omc_TplCodegen_fun__38
+
+
+#define boxptr_TplCodegen_lm__37 omc_TplCodegen_lm__37
+
+
+#define boxptr_TplCodegen_lm__36 omc_TplCodegen_lm__36
+
+
 #define boxptr_TplCodegen_fun__35 omc_TplCodegen_fun__35
 
 
 #define boxptr_TplCodegen_fun__34 omc_TplCodegen_fun__34
 
 
-#define boxptr_TplCodegen_fun__33 omc_TplCodegen_fun__33
-
-
-#define boxptr_TplCodegen_fun__32 omc_TplCodegen_fun__32
+#define boxptr_TplCodegen_lm__33 omc_TplCodegen_lm__33
 
 
 #define boxptr_TplCodegen_fun__31 omc_TplCodegen_fun__31
 
 
-#define boxptr_TplCodegen_fun__30 omc_TplCodegen_fun__30
-
-
-#define boxptr_TplCodegen_fun__29 omc_TplCodegen_fun__29
+#define boxptr_TplCodegen_lm__30 omc_TplCodegen_lm__30
 
 
 DLLDirection

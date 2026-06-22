@@ -6,19 +6,17 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT0,9,_OMC_LIT0_data);
 #define _OMC_LIT1_data "Sets whether to print a failtrace or not."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT1,41,_OMC_LIT1_data);
 #define _OMC_LIT1 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT1)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT2,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT1}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT2,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT0,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT1}};
 #define _OMC_LIT2 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT2)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT3,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT0,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT2}};
-#define _OMC_LIT3 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT3)
-#define _OMC_LIT4_data "- InlineArrayEquations.generateScalarArrayEqns2 failed on: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT4,59,_OMC_LIT4_data);
+#define _OMC_LIT3_data "- InlineArrayEquations.generateScalarArrayEqns2 failed on: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT3,59,_OMC_LIT3_data);
+#define _OMC_LIT3 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT3)
+#define _OMC_LIT4_data " = "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT4,3,_OMC_LIT4_data);
 #define _OMC_LIT4 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT4)
-#define _OMC_LIT5_data " = "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT5,3,_OMC_LIT5_data);
+#define _OMC_LIT5_data "\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT5,1,_OMC_LIT5_data);
 #define _OMC_LIT5 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT5)
-#define _OMC_LIT6_data "\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT6,1,_OMC_LIT6_data);
-#define _OMC_LIT6 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT6)
 #include "util/modelica.h"
 
 #include "InlineArrayEquations_includes.h"
@@ -206,13 +204,13 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InlineArrayEquations_generateSca
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp33 = omc_Flags_isSet(threadData, _OMC_LIT3);
+          tmp33 = omc_Flags_isSet(threadData, _OMC_LIT2);
           if (1 /* true */ != tmp33) goto goto_2;
 
-          tmpMeta34 = stringAppend(_OMC_LIT4,omc_ExpressionDump_printExpStr(threadData, _inExp1));
-          tmpMeta35 = stringAppend(tmpMeta34,_OMC_LIT5);
-          tmpMeta36 = stringAppend(tmpMeta35,omc_ExpressionDump_printExpStr(threadData, _inExp2));
-          tmpMeta37 = stringAppend(tmpMeta36,_OMC_LIT6);
+          tmpMeta34 = stringAppend(_OMC_LIT3,omc_ExpressionBasics_printExpStr(threadData, _inExp1));
+          tmpMeta35 = stringAppend(tmpMeta34,_OMC_LIT4);
+          tmpMeta36 = stringAppend(tmpMeta35,omc_ExpressionBasics_printExpStr(threadData, _inExp2));
+          tmpMeta37 = stringAppend(tmpMeta36,_OMC_LIT5);
           omc_Debug_traceln(threadData, tmpMeta37);
           goto goto_2;
           goto tmp3_done;

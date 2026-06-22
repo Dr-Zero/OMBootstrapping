@@ -40,8 +40,6 @@ extern struct record_description FCore_Data_IT__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description InnerOuter_InstHierarchyHashTable_HASHTABLE__desc;
 
 extern struct record_description InnerOuter_InstInner_INST__INNER__desc;

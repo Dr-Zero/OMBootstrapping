@@ -26,6 +26,8 @@ extern struct record_description DAE_InlineType_NO__INLINE__desc;
 
 extern struct record_description Flags_ConfigFlag_CONFIG__FLAG__desc;
 
+extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
+
 extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
 
 extern struct record_description Flags_FlagData_INT__FLAG__desc;
@@ -33,8 +35,6 @@ extern struct record_description Flags_FlagData_INT__FLAG__desc;
 extern struct record_description Flags_FlagData_REAL__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
 extern struct record_description NFAttributes_ATTRIBUTES__desc;
 
@@ -47,8 +47,6 @@ extern struct record_description NFComponent_COMPONENT__desc;
 extern struct record_description NFConnector_CONNECTOR__desc;
 
 extern struct record_description NFEquation_ASSERT__desc;
-
-extern struct record_description NFEquation_EQUALITY__desc;
 
 extern struct record_description NFEquation_FOR__desc;
 
@@ -91,7 +89,13 @@ extern struct record_description SCode_Comment_COMMENT__desc;
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
+#define boxptr_NFConnectEquations_lookupAttrInVar omc_NFConnectEquations_lookupAttrInVar
+
+
 #define boxptr_NFConnectEquations_lookupVarAttr omc_NFConnectEquations_lookupVarAttr
+
+
+#define boxptr_NFConnectEquations_lookupVar omc_NFConnectEquations_lookupVar
 
 
 #define boxptr_NFConnectEquations_associatedFlowCref omc_NFConnectEquations_associatedFlowCref
@@ -104,6 +108,9 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
 #define boxptr_NFConnectEquations_evaluateActualStream omc_NFConnectEquations_evaluateActualStream
+
+
+#define boxptr_NFConnectEquations_evaluateAttribute omc_NFConnectEquations_evaluateAttribute
 
 
 #define boxptr_NFConnectEquations_evaluateInStream omc_NFConnectEquations_evaluateInStream
@@ -124,18 +131,6 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 #define boxptr_NFConnectEquations_makeInStreamCall omc_NFConnectEquations_makeInStreamCall
 
 
-#define boxptr_NFConnectEquations_sumInside2 omc_NFConnectEquations_sumInside2
-
-
-#define boxptr_NFConnectEquations_sumOutside2 omc_NFConnectEquations_sumOutside2
-
-
-#define boxptr_NFConnectEquations_sumInside1 omc_NFConnectEquations_sumInside1
-
-
-#define boxptr_NFConnectEquations_sumOutside1 omc_NFConnectEquations_sumOutside1
-
-
 #define boxptr_NFConnectEquations_flowExp omc_NFConnectEquations_flowExp
 
 
@@ -143,6 +138,9 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
 #define boxptr_NFConnectEquations_sumMap omc_NFConnectEquations_sumMap
+
+
+#define boxptr_NFConnectEquations_setRequiresPositiveMax omc_NFConnectEquations_setRequiresPositiveMax
 
 
 #define boxptr_NFConnectEquations_streamSumEquationExp omc_NFConnectEquations_streamSumEquationExp
@@ -169,15 +167,25 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 #define boxptr_NFConnectEquations_generatePotentialEquations omc_NFConnectEquations_generatePotentialEquations
 
 
+#define boxptr_NFConnectEquations_evaluateOperatorsShallow omc_NFConnectEquations_evaluateOperatorsShallow
+
+
 DLLDirection
-modelica_metatype omc_NFConnectEquations_evaluateOperators(threadData_t *threadData, modelica_metatype _exp, modelica_metatype _sets, modelica_metatype _setsArray, modelica_metatype _variables, modelica_metatype _ctable);
+modelica_metatype omc_NFConnectEquations_evaluateOperators(threadData_t *threadData, modelica_metatype _exp, modelica_metatype _sets, modelica_metatype _setsArray, modelica_metatype _variables, modelica_metatype _ctable, modelica_metatype _replacements);
 #define boxptr_NFConnectEquations_evaluateOperators omc_NFConnectEquations_evaluateOperators
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectEquations_evaluateOperators,2,0) {(void*) boxptr_NFConnectEquations_evaluateOperators,0}};
 #define boxvar_NFConnectEquations_evaluateOperators MMC_REFSTRUCTLIT(boxvar_lit_NFConnectEquations_evaluateOperators)
 
 
 DLLDirection
-modelica_metatype omc_NFConnectEquations_generateEquations(threadData_t *threadData, modelica_metatype _sets, modelica_metatype _variables, modelica_metatype *out_connectedLocalIOs);
+modelica_metatype omc_NFConnectEquations_generateStreamEquationsList(threadData_t *threadData, modelica_metatype _sets, modelica_metatype _variables, modelica_metatype _replacements);
+#define boxptr_NFConnectEquations_generateStreamEquationsList omc_NFConnectEquations_generateStreamEquationsList
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectEquations_generateStreamEquationsList,2,0) {(void*) boxptr_NFConnectEquations_generateStreamEquationsList,0}};
+#define boxvar_NFConnectEquations_generateStreamEquationsList MMC_REFSTRUCTLIT(boxvar_lit_NFConnectEquations_generateStreamEquationsList)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectEquations_generateEquations(threadData_t *threadData, modelica_metatype _sets, modelica_metatype _variables, modelica_metatype *out_connectedLocalIOs, modelica_metatype *out_unhandledStreamSets);
 #define boxptr_NFConnectEquations_generateEquations omc_NFConnectEquations_generateEquations
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectEquations_generateEquations,2,0) {(void*) boxptr_NFConnectEquations_generateEquations,0}};
 #define boxvar_NFConnectEquations_generateEquations MMC_REFSTRUCTLIT(boxvar_lit_NFConnectEquations_generateEquations)

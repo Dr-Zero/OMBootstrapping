@@ -24,8 +24,6 @@ extern struct record_description ErrorTypes_MessageType_TRANSLATION__desc;
 
 extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NFAttributes_ATTRIBUTES__desc;
 
 extern struct record_description NFBinding_UNBOUND__desc;
@@ -62,10 +60,25 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
 DLLDirection
+modelica_metatype omc_NFRecord_getDeclarationNode(threadData_t *threadData, modelica_metatype _recordNode, modelica_boolean _evaluate);
+DLLDirection
+modelica_metatype boxptr_NFRecord_getDeclarationNode(threadData_t *threadData, modelica_metatype _recordNode, modelica_metatype _evaluate);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFRecord_getDeclarationNode,2,0) {(void*) boxptr_NFRecord_getDeclarationNode,0}};
+#define boxvar_NFRecord_getDeclarationNode MMC_REFSTRUCTLIT(boxvar_lit_NFRecord_getDeclarationNode)
+
+
+DLLDirection
 modelica_metatype omc_NFRecord_toFlatDeclarationStream(threadData_t *threadData, modelica_metatype _recordNode, modelica_metatype _format, modelica_string _indent, modelica_metatype __omcQ_24in_5Fs);
 #define boxptr_NFRecord_toFlatDeclarationStream omc_NFRecord_toFlatDeclarationStream
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFRecord_toFlatDeclarationStream,2,0) {(void*) boxptr_NFRecord_toFlatDeclarationStream,0}};
 #define boxvar_NFRecord_toFlatDeclarationStream MMC_REFSTRUCTLIT(boxvar_lit_NFRecord_toFlatDeclarationStream)
+
+
+DLLDirection
+modelica_metatype omc_NFRecord_toDeclarationStream(threadData_t *threadData, modelica_metatype _recordNode, modelica_string _indent, modelica_metatype __omcQ_24in_5Fs);
+#define boxptr_NFRecord_toDeclarationStream omc_NFRecord_toDeclarationStream
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFRecord_toDeclarationStream,2,0) {(void*) boxptr_NFRecord_toDeclarationStream,0}};
+#define boxvar_NFRecord_toDeclarationStream MMC_REFSTRUCTLIT(boxvar_lit_NFRecord_toDeclarationStream)
 
 
 DLLDirection

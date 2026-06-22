@@ -3,12 +3,12 @@
 #define _OMC_LIT0_data "function addSimVarToHashTable failed"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT0,36,_OMC_LIT0_data);
 #define _OMC_LIT0 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT0)
-#define _OMC_LIT1_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/Util/HashTableCrefSimVar.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT1,80,_OMC_LIT1_data);
+#define _OMC_LIT1_data "/projects/OpenModelica-session2/OMCompiler/Compiler/Util/HashTableCrefSimVar.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT1,79,_OMC_LIT1_data);
 #define _OMC_LIT1 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT1)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT2_6,1.770032059e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT2_6,1.781983298e9);
 #define _OMC_LIT2_6 MMC_REFREALLIT(_OMC_LIT_STRUCT2_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT2,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT1,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(141)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(141)),MMC_IMMEDIATE(MMC_TAGFIXNUM(85)),_OMC_LIT2_6}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT2,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT1,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(145)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(145)),MMC_IMMEDIATE(MMC_TAGFIXNUM(85)),_OMC_LIT2_6}};
 #define _OMC_LIT2 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT2)
 #define _OMC_LIT3_data "#SimVar(index="
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT3,14,_OMC_LIT3_data);
@@ -138,7 +138,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_HashTableCrefSimVar_opaqueStr(thre
   tmp1 = modelica_integer_to_modelica_string(mmc_unbox_integer((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_var), 7)))), ((modelica_integer) 0), 1 /* true */);
   tmpMeta2 = stringAppend(_OMC_LIT3,tmp1);
   tmpMeta3 = stringAppend(tmpMeta2,_OMC_LIT4);
-  tmpMeta4 = stringAppend(tmpMeta3,omc_ComponentReference_printComponentRefStr(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_var), 2)))));
+  tmpMeta4 = stringAppend(tmpMeta3,omc_ComponentReferenceBasics_printComponentRefStr(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_var), 2)))));
   tmpMeta5 = stringAppend(tmpMeta4,_OMC_LIT5);
   _str = tmpMeta5;
   _return: OMC_LABEL_UNUSED
@@ -153,7 +153,7 @@ modelica_metatype omc_HashTableCrefSimVar_emptyHashTableSized(threadData_t *thre
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _hashTable has no default value.
-  tmpMeta1 = mmc_mk_box4(0, boxvar_ComponentReference_hashComponentRef, boxvar_ComponentReference_crefEqual, boxvar_ComponentReference_printComponentRefStr, boxvar_HashTableCrefSimVar_opaqueStr);
+  tmpMeta1 = mmc_mk_box4(0, boxvar_ComponentReferenceBasics_hashComponentRef, boxvar_ComponentReferenceBasics_crefEqual, boxvar_ComponentReferenceBasics_printComponentRefStr, boxvar_HashTableCrefSimVar_opaqueStr);
   _hashTable = omc_BaseHashTable_emptyHashTableWork(threadData, _size, tmpMeta1);
   _return: OMC_LABEL_UNUSED
   return _hashTable;

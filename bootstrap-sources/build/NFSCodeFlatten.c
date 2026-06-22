@@ -6,29 +6,25 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT0,9,_OMC_LIT0_data);
 #define _OMC_LIT1_data "Sets whether to print a failtrace or not."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT1,41,_OMC_LIT1_data);
 #define _OMC_LIT1 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT1)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT2,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT1}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT2,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT0,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT1}};
 #define _OMC_LIT2 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT2)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT3,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT0,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT2}};
-#define _OMC_LIT3 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT3)
-#define _OMC_LIT4_data "NFSCodeFlatten.flattenCompleteProgram failed\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT4,45,_OMC_LIT4_data);
+#define _OMC_LIT3_data "NFSCodeFlatten.flattenCompleteProgram failed\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT3,45,_OMC_LIT3_data);
+#define _OMC_LIT3 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT3)
+#define _OMC_LIT4_data "newInst"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT4,7,_OMC_LIT4_data);
 #define _OMC_LIT4 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT4)
-#define _OMC_LIT5_data "newInst"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT5,7,_OMC_LIT5_data);
+#define _OMC_LIT5_data "Enables new instantiation phase."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT5,32,_OMC_LIT5_data);
 #define _OMC_LIT5 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT5)
-#define _OMC_LIT6_data "Enables new instantiation phase."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT6,32,_OMC_LIT6_data);
-#define _OMC_LIT6 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT7,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT6}};
-#define _OMC_LIT7 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT7)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT8,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(66)),_OMC_LIT5,MMC_IMMEDIATE(MMC_TAGFIXNUM(1 /* true */)),_OMC_LIT7}};
-#define _OMC_LIT8 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT8)
-#define _OMC_LIT9_data "NFSCodeFlatten.flattenClassInProgram failed on "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT9,47,_OMC_LIT9_data);
-#define _OMC_LIT9 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT9)
-#define _OMC_LIT10_data "."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT10,1,_OMC_LIT10_data);
-#define _OMC_LIT10 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT10)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT6,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(66)),_OMC_LIT4,MMC_IMMEDIATE(MMC_TAGFIXNUM(1 /* true */)),_OMC_LIT5}};
+#define _OMC_LIT6 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT6)
+#define _OMC_LIT7_data "NFSCodeFlatten.flattenClassInProgram failed on "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,47,_OMC_LIT7_data);
+#define _OMC_LIT7 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT7)
+#define _OMC_LIT8_data "."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT8,1,_OMC_LIT8_data);
+#define _OMC_LIT8 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT8)
 #include "util/modelica.h"
 
 #include "NFSCodeFlatten_includes.h"
@@ -89,10 +85,10 @@ modelica_metatype omc_NFSCodeFlatten_flattenCompleteProgram(threadData_t *thread
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp6 = omc_Flags_isSet(threadData, _OMC_LIT3);
+          tmp6 = omc_Flags_isSet(threadData, _OMC_LIT2);
           if (1 /* true */ != tmp6) goto goto_2;
 
-          omc_Debug_trace(threadData, _OMC_LIT4);
+          omc_Debug_trace(threadData, _OMC_LIT3);
           goto goto_2;
           goto tmp3_done;
         }
@@ -165,7 +161,7 @@ modelica_metatype omc_NFSCodeFlatten_flattenClassInProgram(threadData_t *threadD
 
           _prog = omc_NFSCodeDependency_analyse(threadData, _inClassName, _env, _prog ,&_env);
 
-          if((!omc_Flags_isSet(threadData, _OMC_LIT8)))
+          if((!omc_Flags_isSet(threadData, _OMC_LIT6)))
           {
             _prog = omc_NFSCodeFlattenImports_flattenProgram(threadData, _prog, _env ,&_env);
           }
@@ -179,10 +175,10 @@ modelica_metatype omc_NFSCodeFlatten_flattenClassInProgram(threadData_t *threadD
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp6 = omc_Flags_isSet(threadData, _OMC_LIT3);
+          tmp6 = omc_Flags_isSet(threadData, _OMC_LIT2);
           if (1 /* true */ != tmp6) goto goto_2;
 
-          tmpMeta7 = stringAppend(_OMC_LIT9,omc_AbsynUtil_pathString(threadData, _inClassName, _OMC_LIT10, 1 /* true */, 0 /* false */));
+          tmpMeta7 = stringAppend(_OMC_LIT7,omc_AbsynUtil_pathString(threadData, _inClassName, _OMC_LIT8, 1 /* true */, 0 /* false */));
           omc_Debug_traceln(threadData, tmpMeta7);
           goto goto_2;
           goto tmp3_done;

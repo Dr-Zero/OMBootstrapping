@@ -46,6 +46,8 @@ extern struct record_description Absyn_ForIterator_ITERATOR__desc;
 
 extern struct record_description Absyn_FunctionArgs_FUNCTIONARGS__desc;
 
+extern struct record_description Absyn_FunctionPurity_NO__PURITY__desc;
+
 extern struct record_description Absyn_InnerOuter_NOT__INNER__OUTER__desc;
 
 extern struct record_description Absyn_IsField_NONFIELD__desc;
@@ -62,13 +64,9 @@ extern struct record_description ErrorTypes_MessageType_TRANSLATION__desc;
 
 extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description SCode_Annotation_ANNOTATION__desc;
 
 extern struct record_description SCode_Attributes_ATTR__desc;
-
-extern struct record_description SCode_ClassDef_CLASS__EXTENDS__desc;
 
 extern struct record_description SCode_ClassDef_DERIVED__desc;
 
@@ -86,15 +84,7 @@ extern struct record_description SCode_Each_EACH__desc;
 
 extern struct record_description SCode_Each_NOT__EACH__desc;
 
-extern struct record_description SCode_Element_CLASS__desc;
-
 extern struct record_description SCode_Element_COMPONENT__desc;
-
-extern struct record_description SCode_Element_DEFINEUNIT__desc;
-
-extern struct record_description SCode_Element_EXTENDS__desc;
-
-extern struct record_description SCode_Element_IMPORT__desc;
 
 extern struct record_description SCode_Encapsulated_ENCAPSULATED__desc;
 
@@ -166,6 +156,8 @@ extern struct record_description SCode_Statement_ALG__WHEN__A__desc;
 
 extern struct record_description SCode_Statement_ALG__WHILE__desc;
 
+extern struct record_description SCode_SubMod_NAMEMOD__desc;
+
 extern struct record_description SCode_Variability_CONST__desc;
 
 extern struct record_description SCode_Variability_DISCRETE__desc;
@@ -179,6 +171,37 @@ extern struct record_description SCode_Visibility_PROTECTED__desc;
 extern struct record_description SCode_Visibility_PUBLIC__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
+
+
+DLLDirection
+modelica_metatype omc_SCodeUtil_setAnnotationValue(threadData_t *threadData, modelica_string _name, modelica_metatype _value, modelica_metatype __omcQ_24in_5Fann, modelica_boolean _replace);
+DLLDirection
+modelica_metatype boxptr_SCodeUtil_setAnnotationValue(threadData_t *threadData, modelica_metatype _name, modelica_metatype _value, modelica_metatype __omcQ_24in_5Fann, modelica_metatype _replace);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_setAnnotationValue,2,0) {(void*) boxptr_SCodeUtil_setAnnotationValue,0}};
+#define boxvar_SCodeUtil_setAnnotationValue MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_setAnnotationValue)
+
+
+DLLDirection
+modelica_metatype omc_SCodeUtil_setAnnotationInComment(threadData_t *threadData, modelica_string _name, modelica_metatype _value, modelica_metatype __omcQ_24in_5Fcmt, modelica_boolean _replace);
+DLLDirection
+modelica_metatype boxptr_SCodeUtil_setAnnotationInComment(threadData_t *threadData, modelica_metatype _name, modelica_metatype _value, modelica_metatype __omcQ_24in_5Fcmt, modelica_metatype _replace);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_setAnnotationInComment,2,0) {(void*) boxptr_SCodeUtil_setAnnotationInComment,0}};
+#define boxvar_SCodeUtil_setAnnotationInComment MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_setAnnotationInComment)
+
+
+DLLDirection
+modelica_metatype omc_SCodeUtil_makeSingleAnnotation(threadData_t *threadData, modelica_string _name, modelica_metatype _value);
+#define boxptr_SCodeUtil_makeSingleAnnotation omc_SCodeUtil_makeSingleAnnotation
+static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_makeSingleAnnotation,2,0) {(void*) boxptr_SCodeUtil_makeSingleAnnotation,0}};
+#define boxvar_SCodeUtil_makeSingleAnnotation MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_makeSingleAnnotation)
+
+
+DLLDirection
+modelica_metatype omc_SCodeUtil_makeMod(threadData_t *threadData, modelica_boolean _isFinal, modelica_boolean _isEach, modelica_metatype _subMods, modelica_metatype _binding, modelica_metatype _comment, modelica_metatype _info);
+DLLDirection
+modelica_metatype boxptr_SCodeUtil_makeMod(threadData_t *threadData, modelica_metatype _isFinal, modelica_metatype _isEach, modelica_metatype _subMods, modelica_metatype _binding, modelica_metatype _comment, modelica_metatype _info);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_makeMod,2,0) {(void*) boxptr_SCodeUtil_makeMod,0}};
+#define boxvar_SCodeUtil_makeMod MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_makeMod)
 
 
 DLLDirection
@@ -479,7 +502,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_isArrayComponent,2,0) {(void*
 
 
 DLLDirection
-modelica_metatype omc_SCodeUtil_setComponentName(threadData_t *threadData, modelica_metatype _inE, modelica_string _inName);
+modelica_metatype omc_SCodeUtil_setComponentName(threadData_t *threadData, modelica_metatype __omcQ_24in_5Felement, modelica_string _name);
 #define boxptr_SCodeUtil_setComponentName omc_SCodeUtil_setComponentName
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_setComponentName,2,0) {(void*) boxptr_SCodeUtil_setComponentName,0}};
 #define boxvar_SCodeUtil_setComponentName MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_setComponentName)
@@ -570,23 +593,23 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_propagatePrefixInnerOuter,2,0
 
 
 DLLDirection
-modelica_metatype omc_SCodeUtil_propagatePrefixes(threadData_t *threadData, modelica_metatype _inOriginalPrefixes, modelica_metatype _inNewPrefixes);
+modelica_metatype omc_SCodeUtil_propagatePrefixes(threadData_t *threadData, modelica_metatype _originalPrefixes, modelica_metatype __omcQ_24in_5FnewPrefixes);
 #define boxptr_SCodeUtil_propagatePrefixes omc_SCodeUtil_propagatePrefixes
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_propagatePrefixes,2,0) {(void*) boxptr_SCodeUtil_propagatePrefixes,0}};
 #define boxvar_SCodeUtil_propagatePrefixes MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_propagatePrefixes)
 
 
 DLLDirection
-modelica_metatype omc_SCodeUtil_propagateAttributesClass(threadData_t *threadData, modelica_metatype _inOriginalClass, modelica_metatype _inNewClass);
+modelica_metatype omc_SCodeUtil_propagateAttributesClass(threadData_t *threadData, modelica_metatype _originalClass, modelica_metatype __omcQ_24in_5FnewClass);
 #define boxptr_SCodeUtil_propagateAttributesClass omc_SCodeUtil_propagateAttributesClass
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_propagateAttributesClass,2,0) {(void*) boxptr_SCodeUtil_propagateAttributesClass,0}};
 #define boxvar_SCodeUtil_propagateAttributesClass MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_propagateAttributesClass)
 
 
 DLLDirection
-modelica_metatype omc_SCodeUtil_propagateAttributesVar(threadData_t *threadData, modelica_metatype _inOriginalVar, modelica_metatype _inNewVar, modelica_boolean _inNewTypeIsArray);
+modelica_metatype omc_SCodeUtil_propagateAttributesVar(threadData_t *threadData, modelica_metatype _originalVar, modelica_metatype __omcQ_24in_5FnewVar, modelica_boolean _isNewTypeArray);
 DLLDirection
-modelica_metatype boxptr_SCodeUtil_propagateAttributesVar(threadData_t *threadData, modelica_metatype _inOriginalVar, modelica_metatype _inNewVar, modelica_metatype _inNewTypeIsArray);
+modelica_metatype boxptr_SCodeUtil_propagateAttributesVar(threadData_t *threadData, modelica_metatype _originalVar, modelica_metatype __omcQ_24in_5FnewVar, modelica_metatype _isNewTypeArray);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_propagateAttributesVar,2,0) {(void*) boxptr_SCodeUtil_propagateAttributesVar,0}};
 #define boxvar_SCodeUtil_propagateAttributesVar MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_propagateAttributesVar)
 
@@ -642,7 +665,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_propagateAttributes,2,0) {(vo
 
 
 DLLDirection
-modelica_metatype omc_SCodeUtil_mergeComponentModifiers(threadData_t *threadData, modelica_metatype _inNewComp, modelica_metatype _inOldComp);
+modelica_metatype omc_SCodeUtil_mergeComponentModifiers(threadData_t *threadData, modelica_metatype __omcQ_24in_5FnewComp, modelica_metatype _oldComp);
 #define boxptr_SCodeUtil_mergeComponentModifiers omc_SCodeUtil_mergeComponentModifiers
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_mergeComponentModifiers,2,0) {(void*) boxptr_SCodeUtil_mergeComponentModifiers,0}};
 #define boxvar_SCodeUtil_mergeComponentModifiers MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_mergeComponentModifiers)
@@ -652,9 +675,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_mergeComponentModifiers,2,0) 
 
 
 #define boxptr_SCodeUtil_mergeSubMods omc_SCodeUtil_mergeSubMods
-
-
-#define boxptr_SCodeUtil_mergeBindings omc_SCodeUtil_mergeBindings
 
 
 DLLDirection
@@ -679,7 +699,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_getConstrainedByModifiers,2,0
 
 
 DLLDirection
-modelica_metatype omc_SCodeUtil_mergeWithOriginal(threadData_t *threadData, modelica_metatype _inNew, modelica_metatype _inOld);
+modelica_metatype omc_SCodeUtil_mergeWithOriginal(threadData_t *threadData, modelica_metatype __omcQ_24in_5FnewClass, modelica_metatype _oldClass);
 #define boxptr_SCodeUtil_mergeWithOriginal omc_SCodeUtil_mergeWithOriginal
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_mergeWithOriginal,2,0) {(void*) boxptr_SCodeUtil_mergeWithOriginal,0}};
 #define boxvar_SCodeUtil_mergeWithOriginal MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_mergeWithOriginal)
@@ -724,13 +744,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_isClassNamed,2,0) {(void*) bo
 
 
 DLLDirection
-modelica_metatype omc_SCodeUtil_setElementVisibility(threadData_t *threadData, modelica_metatype _inElement, modelica_metatype _inVisibility);
-#define boxptr_SCodeUtil_setElementVisibility omc_SCodeUtil_setElementVisibility
-static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_setElementVisibility,2,0) {(void*) boxptr_SCodeUtil_setElementVisibility,0}};
-#define boxvar_SCodeUtil_setElementVisibility MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_setElementVisibility)
-
-
-DLLDirection
 modelica_metatype omc_SCodeUtil_elementVisibility(threadData_t *threadData, modelica_metatype _element);
 #define boxptr_SCodeUtil_elementVisibility omc_SCodeUtil_elementVisibility
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_elementVisibility,2,0) {(void*) boxptr_SCodeUtil_elementVisibility,0}};
@@ -742,6 +755,13 @@ modelica_metatype omc_SCodeUtil_elementInnerOuter(threadData_t *threadData, mode
 #define boxptr_SCodeUtil_elementInnerOuter omc_SCodeUtil_elementInnerOuter
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_elementInnerOuter,2,0) {(void*) boxptr_SCodeUtil_elementInnerOuter,0}};
 #define boxvar_SCodeUtil_elementInnerOuter MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_elementInnerOuter)
+
+
+DLLDirection
+modelica_metatype omc_SCodeUtil_getFunctionRestrictionPurity(threadData_t *threadData, modelica_metatype _restr);
+#define boxptr_SCodeUtil_getFunctionRestrictionPurity omc_SCodeUtil_getFunctionRestrictionPurity
+static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_getFunctionRestrictionPurity,2,0) {(void*) boxptr_SCodeUtil_getFunctionRestrictionPurity,0}};
+#define boxvar_SCodeUtil_getFunctionRestrictionPurity MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_getFunctionRestrictionPurity)
 
 
 DLLDirection
@@ -768,16 +788,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_isExternalFunctionRestriction
 #define boxvar_SCodeUtil_isExternalFunctionRestriction MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_isExternalFunctionRestriction)
 
 
-#define boxptr_SCodeUtil_partitionElements2 omc_SCodeUtil_partitionElements2
-
-
-DLLDirection
-modelica_metatype omc_SCodeUtil_partitionElements(threadData_t *threadData, modelica_metatype _inElements, modelica_metatype *out_outClasses, modelica_metatype *out_outExtends, modelica_metatype *out_outImports, modelica_metatype *out_outDefineUnits);
-#define boxptr_SCodeUtil_partitionElements omc_SCodeUtil_partitionElements
-static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_partitionElements,2,0) {(void*) boxptr_SCodeUtil_partitionElements,0}};
-#define boxvar_SCodeUtil_partitionElements MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_partitionElements)
-
-
 DLLDirection
 modelica_boolean omc_SCodeUtil_isBuiltinElement(threadData_t *threadData, modelica_metatype _inElement);
 DLLDirection
@@ -790,7 +800,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_isBuiltinElement,2,0) {(void*
 
 
 DLLDirection
-modelica_metatype omc_SCodeUtil_setElementMod(threadData_t *threadData, modelica_metatype _inElement, modelica_metatype _inMod);
+modelica_metatype omc_SCodeUtil_setElementMod(threadData_t *threadData, modelica_metatype __omcQ_24in_5Felement, modelica_metatype _mod);
 #define boxptr_SCodeUtil_setElementMod omc_SCodeUtil_setElementMod
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_setElementMod,2,0) {(void*) boxptr_SCodeUtil_setElementMod,0}};
 #define boxvar_SCodeUtil_setElementMod MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_setElementMod)
@@ -910,7 +920,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_getClassDef,2,0) {(void*) box
 
 
 DLLDirection
-modelica_metatype omc_SCodeUtil_setClassPrefixes(threadData_t *threadData, modelica_metatype _inPrefixes, modelica_metatype _cl);
+modelica_metatype omc_SCodeUtil_setClassPrefixes(threadData_t *threadData, modelica_metatype _prefixes, modelica_metatype __omcQ_24in_5Fcl);
 #define boxptr_SCodeUtil_setClassPrefixes omc_SCodeUtil_setClassPrefixes
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_setClassPrefixes,2,0) {(void*) boxptr_SCodeUtil_setClassPrefixes,0}};
 #define boxvar_SCodeUtil_setClassPrefixes MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_setClassPrefixes)
@@ -928,13 +938,6 @@ modelica_metatype omc_SCodeUtil_getDerivedTypeSpec(threadData_t *threadData, mod
 #define boxptr_SCodeUtil_getDerivedTypeSpec omc_SCodeUtil_getDerivedTypeSpec
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_getDerivedTypeSpec,2,0) {(void*) boxptr_SCodeUtil_getDerivedTypeSpec,0}};
 #define boxvar_SCodeUtil_getDerivedTypeSpec MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_getDerivedTypeSpec)
-
-
-DLLDirection
-modelica_metatype omc_SCodeUtil_setDerivedTypeSpec(threadData_t *threadData, modelica_metatype _inE, modelica_metatype _inTypeSpec);
-#define boxptr_SCodeUtil_setDerivedTypeSpec omc_SCodeUtil_setDerivedTypeSpec
-static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_setDerivedTypeSpec,2,0) {(void*) boxptr_SCodeUtil_setDerivedTypeSpec,0}};
-#define boxvar_SCodeUtil_setDerivedTypeSpec MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_setDerivedTypeSpec)
 
 
 DLLDirection
@@ -961,7 +964,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_getComponentMod,2,0) {(void*)
 
 
 DLLDirection
-modelica_metatype omc_SCodeUtil_setComponentMod(threadData_t *threadData, modelica_metatype _inE, modelica_metatype _inMod);
+modelica_metatype omc_SCodeUtil_setComponentMod(threadData_t *threadData, modelica_metatype __omcQ_24in_5Felement, modelica_metatype _mod);
 #define boxptr_SCodeUtil_setComponentMod omc_SCodeUtil_setComponentMod
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_setComponentMod,2,0) {(void*) boxptr_SCodeUtil_setComponentMod,0}};
 #define boxvar_SCodeUtil_setComponentMod MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_setComponentMod)
@@ -975,7 +978,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_getComponentTypeSpec,2,0) {(v
 
 
 DLLDirection
-modelica_metatype omc_SCodeUtil_setComponentTypeSpec(threadData_t *threadData, modelica_metatype _inE, modelica_metatype _inTypeSpec);
+modelica_metatype omc_SCodeUtil_setComponentTypeSpec(threadData_t *threadData, modelica_metatype __omcQ_24in_5Felement, modelica_metatype _typeSpec);
 #define boxptr_SCodeUtil_setComponentTypeSpec omc_SCodeUtil_setComponentTypeSpec
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_setComponentTypeSpec,2,0) {(void*) boxptr_SCodeUtil_setComponentTypeSpec,0}};
 #define boxvar_SCodeUtil_setComponentTypeSpec MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_setComponentTypeSpec)
@@ -989,7 +992,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_getBaseClassPath,2,0) {(void*
 
 
 DLLDirection
-modelica_metatype omc_SCodeUtil_setBaseClassPath(threadData_t *threadData, modelica_metatype _inE, modelica_metatype _inBcPath);
+modelica_metatype omc_SCodeUtil_setBaseClassPath(threadData_t *threadData, modelica_metatype __omcQ_24in_5Felement, modelica_metatype _inBcPath);
 #define boxptr_SCodeUtil_setBaseClassPath omc_SCodeUtil_setBaseClassPath
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_setBaseClassPath,2,0) {(void*) boxptr_SCodeUtil_setBaseClassPath,0}};
 #define boxvar_SCodeUtil_setBaseClassPath MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_setBaseClassPath)
@@ -1020,38 +1023,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_getElementWithPath,2,0) {(voi
 
 
 DLLDirection
-modelica_metatype omc_SCodeUtil_replaceElementsInClassDef(threadData_t *threadData, modelica_metatype _inProgram, modelica_metatype __omcQ_24in_5FclassDef, modelica_metatype _inElements, modelica_metatype *out_outElementOpt);
-#define boxptr_SCodeUtil_replaceElementsInClassDef omc_SCodeUtil_replaceElementsInClassDef
-static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_replaceElementsInClassDef,2,0) {(void*) boxptr_SCodeUtil_replaceElementsInClassDef,0}};
-#define boxvar_SCodeUtil_replaceElementsInClassDef MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_replaceElementsInClassDef)
-
-
-DLLDirection
-modelica_metatype omc_SCodeUtil_replaceElementsInElement(threadData_t *threadData, modelica_metatype _inProgram, modelica_metatype _inElement, modelica_metatype _inElements);
-#define boxptr_SCodeUtil_replaceElementsInElement omc_SCodeUtil_replaceElementsInElement
-static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_replaceElementsInElement,2,0) {(void*) boxptr_SCodeUtil_replaceElementsInElement,0}};
-#define boxvar_SCodeUtil_replaceElementsInElement MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_replaceElementsInElement)
-
-
-DLLDirection
 modelica_metatype omc_SCodeUtil_getElementsFromElement(threadData_t *threadData, modelica_metatype _inProgram, modelica_metatype _inElement);
 #define boxptr_SCodeUtil_getElementsFromElement omc_SCodeUtil_getElementsFromElement
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_getElementsFromElement,2,0) {(void*) boxptr_SCodeUtil_getElementsFromElement,0}};
 #define boxvar_SCodeUtil_getElementsFromElement MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_getElementsFromElement)
-
-
-DLLDirection
-modelica_metatype omc_SCodeUtil_replaceOrAddElementWithId(threadData_t *threadData, modelica_metatype _inProgram, modelica_metatype _inElement, modelica_string _inId);
-#define boxptr_SCodeUtil_replaceOrAddElementWithId omc_SCodeUtil_replaceOrAddElementWithId
-static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_replaceOrAddElementWithId,2,0) {(void*) boxptr_SCodeUtil_replaceOrAddElementWithId,0}};
-#define boxvar_SCodeUtil_replaceOrAddElementWithId MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_replaceOrAddElementWithId)
-
-
-DLLDirection
-modelica_metatype omc_SCodeUtil_replaceOrAddElementInProgram(threadData_t *threadData, modelica_metatype _inProgram, modelica_metatype _inElement, modelica_metatype _inClassPath);
-#define boxptr_SCodeUtil_replaceOrAddElementInProgram omc_SCodeUtil_replaceOrAddElementInProgram
-static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_replaceOrAddElementInProgram,2,0) {(void*) boxptr_SCodeUtil_replaceOrAddElementInProgram,0}};
-#define boxvar_SCodeUtil_replaceOrAddElementInProgram MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_replaceOrAddElementInProgram)
 
 
 DLLDirection
@@ -1079,7 +1054,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_isElementPublic,2,0) {(void*)
 
 
 DLLDirection
-modelica_metatype omc_SCodeUtil_makeElementProtected(threadData_t *threadData, modelica_metatype _inElement);
+modelica_metatype omc_SCodeUtil_makeElementProtected(threadData_t *threadData, modelica_metatype __omcQ_24in_5Felement);
 #define boxptr_SCodeUtil_makeElementProtected omc_SCodeUtil_makeElementProtected
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_makeElementProtected,2,0) {(void*) boxptr_SCodeUtil_makeElementProtected,0}};
 #define boxvar_SCodeUtil_makeElementProtected MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_makeElementProtected)
@@ -1094,7 +1069,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_isInnerComponent,2,0) {(void*
 
 
 DLLDirection
-modelica_metatype omc_SCodeUtil_removeComponentCondition(threadData_t *threadData, modelica_metatype _inElement);
+modelica_metatype omc_SCodeUtil_removeComponentCondition(threadData_t *threadData, modelica_metatype __omcQ_24in_5Felement);
 #define boxptr_SCodeUtil_removeComponentCondition omc_SCodeUtil_removeComponentCondition
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_removeComponentCondition,2,0) {(void*) boxptr_SCodeUtil_removeComponentCondition,0}};
 #define boxvar_SCodeUtil_removeComponentCondition MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_removeComponentCondition)
@@ -1105,6 +1080,13 @@ modelica_metatype omc_SCodeUtil_getComponentCondition(threadData_t *threadData, 
 #define boxptr_SCodeUtil_getComponentCondition omc_SCodeUtil_getComponentCondition
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_getComponentCondition,2,0) {(void*) boxptr_SCodeUtil_getComponentCondition,0}};
 #define boxvar_SCodeUtil_getComponentCondition MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_getComponentCondition)
+
+
+DLLDirection
+modelica_metatype omc_SCodeUtil_setModifierBinding(threadData_t *threadData, modelica_metatype _binding, modelica_metatype __omcQ_24in_5Fmod);
+#define boxptr_SCodeUtil_setModifierBinding omc_SCodeUtil_setModifierBinding
+static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_setModifierBinding,2,0) {(void*) boxptr_SCodeUtil_setModifierBinding,0}};
+#define boxvar_SCodeUtil_setModifierBinding MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_setModifierBinding)
 
 
 DLLDirection
@@ -1315,7 +1297,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_setAttributesDirection,2,0) {
 
 
 DLLDirection
-modelica_metatype omc_SCodeUtil_removeAttributeDimensions(threadData_t *threadData, modelica_metatype _inAttributes);
+modelica_metatype omc_SCodeUtil_removeAttributeDimensions(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fattributes);
 #define boxptr_SCodeUtil_removeAttributeDimensions omc_SCodeUtil_removeAttributeDimensions
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_removeAttributeDimensions,2,0) {(void*) boxptr_SCodeUtil_removeAttributeDimensions,0}};
 #define boxvar_SCodeUtil_removeAttributeDimensions MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_removeAttributeDimensions)
@@ -1397,7 +1379,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_eachEqual,2,0) {(void*) boxpt
 
 
 DLLDirection
-modelica_metatype omc_SCodeUtil_prefixesSetVisibility(threadData_t *threadData, modelica_metatype _inPrefixes, modelica_metatype _inVisibility);
+modelica_metatype omc_SCodeUtil_prefixesSetVisibility(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fprefixes, modelica_metatype _inVisibility);
 #define boxptr_SCodeUtil_prefixesSetVisibility omc_SCodeUtil_prefixesSetVisibility
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_prefixesSetVisibility,2,0) {(void*) boxptr_SCodeUtil_prefixesSetVisibility,0}};
 #define boxvar_SCodeUtil_prefixesSetVisibility MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_prefixesSetVisibility)
@@ -1575,14 +1557,14 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_redeclareBool,2,0) {(void*) b
 
 
 DLLDirection
-modelica_metatype omc_SCodeUtil_prefixesSetReplaceable(threadData_t *threadData, modelica_metatype _inPrefixes, modelica_metatype _inReplaceable);
+modelica_metatype omc_SCodeUtil_prefixesSetReplaceable(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fprefixes, modelica_metatype _inReplaceable);
 #define boxptr_SCodeUtil_prefixesSetReplaceable omc_SCodeUtil_prefixesSetReplaceable
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_prefixesSetReplaceable,2,0) {(void*) boxptr_SCodeUtil_prefixesSetReplaceable,0}};
 #define boxvar_SCodeUtil_prefixesSetReplaceable MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_prefixesSetReplaceable)
 
 
 DLLDirection
-modelica_metatype omc_SCodeUtil_prefixesSetRedeclare(threadData_t *threadData, modelica_metatype _inPrefixes, modelica_metatype _inRedeclare);
+modelica_metatype omc_SCodeUtil_prefixesSetRedeclare(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fprefixes, modelica_metatype _inRedeclare);
 #define boxptr_SCodeUtil_prefixesSetRedeclare omc_SCodeUtil_prefixesSetRedeclare
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_prefixesSetRedeclare,2,0) {(void*) boxptr_SCodeUtil_prefixesSetRedeclare,0}};
 #define boxvar_SCodeUtil_prefixesSetRedeclare MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_prefixesSetRedeclare)
@@ -1636,14 +1618,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_visibilityBool,2,0) {(void*) 
 
 
 DLLDirection
-modelica_metatype omc_SCodeUtil_setElementClassDefinition(threadData_t *threadData, modelica_metatype _inClassDef, modelica_metatype _inElement);
-#define boxptr_SCodeUtil_setElementClassDefinition omc_SCodeUtil_setElementClassDefinition
-static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_setElementClassDefinition,2,0) {(void*) boxptr_SCodeUtil_setElementClassDefinition,0}};
-#define boxvar_SCodeUtil_setElementClassDefinition MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_setElementClassDefinition)
-
-
-DLLDirection
-modelica_metatype omc_SCodeUtil_addElementToCompositeClassDef(threadData_t *threadData, modelica_metatype _inElement, modelica_metatype _inClassDef);
+modelica_metatype omc_SCodeUtil_addElementToCompositeClassDef(threadData_t *threadData, modelica_metatype _element, modelica_metatype __omcQ_24in_5FclassDef);
 #define boxptr_SCodeUtil_addElementToCompositeClassDef omc_SCodeUtil_addElementToCompositeClassDef
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_addElementToCompositeClassDef,2,0) {(void*) boxptr_SCodeUtil_addElementToCompositeClassDef,0}};
 #define boxvar_SCodeUtil_addElementToCompositeClassDef MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_addElementToCompositeClassDef)
@@ -1822,6 +1797,14 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_foldEquations,2,0) {(void*) b
 
 
 DLLDirection
+modelica_boolean omc_SCodeUtil_isImport(threadData_t *threadData, modelica_metatype _element);
+DLLDirection
+modelica_metatype boxptr_SCodeUtil_isImport(threadData_t *threadData, modelica_metatype _element);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_isImport,2,0) {(void*) boxptr_SCodeUtil_isImport,0}};
+#define boxvar_SCodeUtil_isImport MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_isImport)
+
+
+DLLDirection
 modelica_boolean omc_SCodeUtil_isClass(threadData_t *threadData, modelica_metatype _inElement);
 DLLDirection
 modelica_metatype boxptr_SCodeUtil_isClass(threadData_t *threadData, modelica_metatype _inElement);
@@ -1939,7 +1922,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_findIteratorIndexedCrefsInEqu
 
 
 DLLDirection
-modelica_metatype omc_SCodeUtil_setClassPartialPrefix(threadData_t *threadData, modelica_metatype _partialPrefix, modelica_metatype _cl);
+modelica_metatype omc_SCodeUtil_setClassPartialPrefix(threadData_t *threadData, modelica_metatype _partialPrefix, modelica_metatype __omcQ_24in_5Fcl);
 #define boxptr_SCodeUtil_setClassPartialPrefix omc_SCodeUtil_setClassPartialPrefix
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_setClassPartialPrefix,2,0) {(void*) boxptr_SCodeUtil_setClassPartialPrefix,0}};
 #define boxvar_SCodeUtil_setClassPartialPrefix MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_setClassPartialPrefix)
@@ -1953,14 +1936,14 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_makeClassPartial,2,0) {(void*
 
 
 DLLDirection
-modelica_metatype omc_SCodeUtil_setClassName(threadData_t *threadData, modelica_string _name, modelica_metatype _cl);
+modelica_metatype omc_SCodeUtil_setClassName(threadData_t *threadData, modelica_string _name, modelica_metatype __omcQ_24in_5Fcl);
 #define boxptr_SCodeUtil_setClassName omc_SCodeUtil_setClassName
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_setClassName,2,0) {(void*) boxptr_SCodeUtil_setClassName,0}};
 #define boxvar_SCodeUtil_setClassName MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_setClassName)
 
 
 DLLDirection
-modelica_metatype omc_SCodeUtil_setClassRestriction(threadData_t *threadData, modelica_metatype _r, modelica_metatype _cl);
+modelica_metatype omc_SCodeUtil_setClassRestriction(threadData_t *threadData, modelica_metatype _r, modelica_metatype __omcQ_24in_5Fcl);
 #define boxptr_SCodeUtil_setClassRestriction omc_SCodeUtil_setClassRestriction
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_setClassRestriction,2,0) {(void*) boxptr_SCodeUtil_setClassRestriction,0}};
 #define boxvar_SCodeUtil_setClassRestriction MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_setClassRestriction)
@@ -2039,7 +2022,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_elementEqual,2,0) {(void*) bo
 
 
 DLLDirection
-modelica_metatype omc_SCodeUtil_classSetPartial(threadData_t *threadData, modelica_metatype _inClass, modelica_metatype _inPartial);
+modelica_metatype omc_SCodeUtil_classSetPartial(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fcls, modelica_metatype _inPartial);
 #define boxptr_SCodeUtil_classSetPartial omc_SCodeUtil_classSetPartial
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_classSetPartial,2,0) {(void*) boxptr_SCodeUtil_classSetPartial,0}};
 #define boxvar_SCodeUtil_classSetPartial MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_classSetPartial)
@@ -2148,7 +2131,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_elementNameEqual,2,0) {(void*
 
 
 DLLDirection
-modelica_metatype omc_SCodeUtil_renameElement(threadData_t *threadData, modelica_metatype _inElement, modelica_string _inName);
+modelica_metatype omc_SCodeUtil_renameElement(threadData_t *threadData, modelica_metatype __omcQ_24in_5Felement, modelica_string _name);
 #define boxptr_SCodeUtil_renameElement omc_SCodeUtil_renameElement
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_renameElement,2,0) {(void*) boxptr_SCodeUtil_renameElement,0}};
 #define boxvar_SCodeUtil_renameElement MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_renameElement)
@@ -2165,7 +2148,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_elementNames,2,0) {(void*) bo
 
 
 DLLDirection
-modelica_string omc_SCodeUtil_elementNameInfo(threadData_t *threadData, modelica_metatype _inElement, modelica_metatype *out_outInfo);
+modelica_string omc_SCodeUtil_elementNameInfo(threadData_t *threadData, modelica_metatype _element, modelica_metatype *out_info);
 #define boxptr_SCodeUtil_elementNameInfo omc_SCodeUtil_elementNameInfo
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SCodeUtil_elementNameInfo,2,0) {(void*) boxptr_SCodeUtil_elementNameInfo,0}};
 #define boxvar_SCodeUtil_elementNameInfo MMC_REFSTRUCTLIT(boxvar_lit_SCodeUtil_elementNameInfo)

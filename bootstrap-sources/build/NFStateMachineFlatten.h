@@ -1,0 +1,247 @@
+#ifndef NFStateMachineFlatten__H
+#define NFStateMachineFlatten__H
+#include "meta/meta_modelica.h"
+#include "util/modelica.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <errno.h>
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+extern struct record_description Absyn_Path_IDENT__desc;
+
+extern struct record_description DAE_ComponentPrefix_NOCOMPPRE__desc;
+
+extern struct record_description DAE_ComponentRef_CREF__IDENT__desc;
+
+extern struct record_description DAE_ElementSource_SOURCE__desc;
+
+extern struct record_description DAE_FunctionAttributes_FUNCTION__ATTRIBUTES__desc;
+
+extern struct record_description DAE_FunctionBuiltin_FUNCTION__BUILTIN__desc;
+
+extern struct record_description DAE_FunctionParallelism_FP__NON__PARALLEL__desc;
+
+extern struct record_description DAE_InlineType_NO__INLINE__desc;
+
+extern struct record_description DAE_Prefix_NOPRE__desc;
+
+extern struct record_description DAE_Type_T__UNKNOWN__desc;
+
+extern struct record_description NFAttributes_ATTRIBUTES__desc;
+
+extern struct record_description NFBackendExtension_Annotations_ANNOTATIONS__desc;
+
+extern struct record_description NFBackendExtension_BackendInfo_BACKEND__INFO__desc;
+
+extern struct record_description NFBackendExtension_VariableAttributes_VAR__ATTR__REAL__desc;
+
+extern struct record_description NFBackendExtension_VariableKind_FRONTEND__DUMMY__desc;
+
+extern struct record_description NFBinding_UNBOUND__desc;
+
+extern struct record_description NFClockKind_INFERRED__CLOCK__desc;
+
+extern struct record_description NFComponent_COMPONENT__desc;
+
+extern struct record_description NFComponentRef_EMPTY__desc;
+
+extern struct record_description NFDimension_INTEGER__desc;
+
+extern struct record_description NFEquation_Branch_BRANCH__desc;
+
+extern struct record_description NFEquation_EQUALITY__desc;
+
+extern struct record_description NFEquation_WHEN__desc;
+
+extern struct record_description NFExpression_ARRAY__desc;
+
+extern struct record_description NFExpression_BINARY__desc;
+
+extern struct record_description NFExpression_BOOLEAN__desc;
+
+extern struct record_description NFExpression_CALL__desc;
+
+extern struct record_description NFExpression_CLKCONST__desc;
+
+extern struct record_description NFExpression_CREF__desc;
+
+extern struct record_description NFExpression_IF__desc;
+
+extern struct record_description NFExpression_INTEGER__desc;
+
+extern struct record_description NFExpression_LBINARY__desc;
+
+extern struct record_description NFExpression_LUNARY__desc;
+
+extern struct record_description NFExpression_REAL__desc;
+
+extern struct record_description NFExpression_RELATION__desc;
+
+extern struct record_description NFExpression_STRING__desc;
+
+extern struct record_description NFFlatModel_FLAT__MODEL__desc;
+
+extern struct record_description NFFunction_Function_FUNCTION__desc;
+
+extern struct record_description NFInstNode_InstNode_COMPONENT__NODE__desc;
+
+extern struct record_description NFInstNode_InstNode_EMPTY__NODE__desc;
+
+extern struct record_description NFInstNode_InstNode_NAME__NODE__desc;
+
+extern struct record_description NFInstNode_InstNodeType_NORMAL__COMP__desc;
+
+extern struct record_description NFPrefixes_Replaceable_NOT__REPLACEABLE__desc;
+
+extern struct record_description NFStateMachineFlatten_FlatSmSemantics_FLAT__SM__SEMANTICS__desc;
+
+extern struct record_description NFStateMachineFlatten_Transition_TRANSITION__desc;
+
+extern struct record_description NFSubscript_INDEX__desc;
+
+extern struct record_description NFType_ARRAY__desc;
+
+extern struct record_description NFType_BOOLEAN__desc;
+
+extern struct record_description NFType_CLOCK__desc;
+
+extern struct record_description NFType_INTEGER__desc;
+
+extern struct record_description NFType_REAL__desc;
+
+extern struct record_description NFType_UNKNOWN__desc;
+
+extern struct record_description NFVariable_VARIABLE__desc;
+
+extern struct record_description SCode_Comment_COMMENT__desc;
+
+extern struct record_description SourceInfo_SOURCEINFO__desc;
+
+
+#define boxptr_NFStateMachineFlatten_getStartValue omc_NFStateMachineFlatten_getStartValue
+
+
+#define boxptr_NFStateMachineFlatten_makeRelationGt omc_NFStateMachineFlatten_makeRelationGt
+
+
+#define boxptr_NFStateMachineFlatten_makeRelationEq omc_NFStateMachineFlatten_makeRelationEq
+
+
+#define boxptr_NFStateMachineFlatten_makeSampleTimeCall omc_NFStateMachineFlatten_makeSampleTimeCall
+
+
+#define boxptr_NFStateMachineFlatten_makeMaxIntArrCall omc_NFStateMachineFlatten_makeMaxIntArrCall
+
+
+#define boxptr_NFStateMachineFlatten_makeInitialCall omc_NFStateMachineFlatten_makeInitialCall
+
+
+#define boxptr_NFStateMachineFlatten_makePreviousCall omc_NFStateMachineFlatten_makePreviousCall
+
+
+#define boxptr_NFStateMachineFlatten_makeIfExp omc_NFStateMachineFlatten_makeIfExp
+
+
+#define boxptr_NFStateMachineFlatten_makeCrefExp omc_NFStateMachineFlatten_makeCrefExp
+
+
+#define boxptr_NFStateMachineFlatten_makeEq omc_NFStateMachineFlatten_makeEq
+
+
+#define boxptr_NFStateMachineFlatten_makeSMSPrefix omc_NFStateMachineFlatten_makeSMSPrefix
+
+
+#define boxptr_NFStateMachineFlatten_qCref omc_NFStateMachineFlatten_qCref
+
+
+#define boxptr_NFStateMachineFlatten_generateMergeEquation omc_NFStateMachineFlatten_generateMergeEquation
+
+
+#define boxptr_NFStateMachineFlatten_extractTransition omc_NFStateMachineFlatten_extractTransition
+
+
+#define boxptr_NFStateMachineFlatten_createTandC omc_NFStateMachineFlatten_createTandC
+
+
+#define boxptr_NFStateMachineFlatten_subsActiveStateHelper omc_NFStateMachineFlatten_subsActiveStateHelper
+
+
+#define boxptr_NFStateMachineFlatten_subsActiveStateInExp omc_NFStateMachineFlatten_subsActiveStateInExp
+
+
+#define boxptr_NFStateMachineFlatten_subsActiveStateInEq omc_NFStateMachineFlatten_subsActiveStateInEq
+
+
+#define boxptr_NFStateMachineFlatten_createResetEquation omc_NFStateMachineFlatten_createResetEquation
+
+
+#define boxptr_NFStateMachineFlatten_createTimeInStateIndicator omc_NFStateMachineFlatten_createTimeInStateIndicator
+
+
+#define boxptr_NFStateMachineFlatten_createTimeEnteredStateIndicator omc_NFStateMachineFlatten_createTimeEnteredStateIndicator
+
+
+#define boxptr_NFStateMachineFlatten_createTicksInStateIndicator omc_NFStateMachineFlatten_createTicksInStateIndicator
+
+
+#define boxptr_NFStateMachineFlatten_elabXInStateOps omc_NFStateMachineFlatten_elabXInStateOps
+
+
+#define boxptr_NFStateMachineFlatten_addPropagationEquations omc_NFStateMachineFlatten_addPropagationEquations
+
+
+#define boxptr_NFStateMachineFlatten_basicFlatSmSemantics omc_NFStateMachineFlatten_basicFlatSmSemantics
+
+
+#define boxptr_NFStateMachineFlatten_getDefaultStart omc_NFStateMachineFlatten_getDefaultStart
+
+
+#define boxptr_NFStateMachineFlatten_addStateActivationAndReset1 omc_NFStateMachineFlatten_addStateActivationAndReset1
+
+
+#define boxptr_NFStateMachineFlatten_transformWhenBranches omc_NFStateMachineFlatten_transformWhenBranches
+
+
+#define boxptr_NFStateMachineFlatten_transformWhenInnerAsPlain omc_NFStateMachineFlatten_transformWhenInnerAsPlain
+
+
+#define boxptr_NFStateMachineFlatten_transformWhenBranchesAndAccumulate omc_NFStateMachineFlatten_transformWhenBranchesAndAccumulate
+
+
+#define boxptr_NFStateMachineFlatten_addStateActivationAndReset omc_NFStateMachineFlatten_addStateActivationAndReset
+
+
+#define boxptr_NFStateMachineFlatten_addHierarchicalPassThroughs omc_NFStateMachineFlatten_addHierarchicalPassThroughs
+
+
+#define boxptr_NFStateMachineFlatten_smCompToDataFlow omc_NFStateMachineFlatten_smCompToDataFlow
+
+
+#define boxptr_NFStateMachineFlatten_qualifyOuterVarCref omc_NFStateMachineFlatten_qualifyOuterVarCref
+
+
+#define boxptr_NFStateMachineFlatten_qualifyOuterVarExpr omc_NFStateMachineFlatten_qualifyOuterVarExpr
+
+
+#define boxptr_NFStateMachineFlatten_flatSmToDataFlow omc_NFStateMachineFlatten_flatSmToDataFlow
+
+
+#define boxptr_NFStateMachineFlatten_collectReachableStates omc_NFStateMachineFlatten_collectReachableStates
+
+
+#define boxptr_NFStateMachineFlatten_groupStateMachines omc_NFStateMachineFlatten_groupStateMachines
+
+
+DLLDirection
+modelica_metatype omc_NFStateMachineFlatten_flatten(threadData_t *threadData, modelica_metatype __omcQ_24in_5FflatModel);
+#define boxptr_NFStateMachineFlatten_flatten omc_NFStateMachineFlatten_flatten
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStateMachineFlatten_flatten,2,0) {(void*) boxptr_NFStateMachineFlatten_flatten,0}};
+#define boxvar_NFStateMachineFlatten_flatten MMC_REFSTRUCTLIT(boxvar_lit_NFStateMachineFlatten_flatten)
+
+#ifdef __cplusplus
+}
+#endif
+#endif

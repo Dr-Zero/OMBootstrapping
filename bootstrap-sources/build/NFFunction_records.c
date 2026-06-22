@@ -214,7 +214,7 @@ extern struct record_description NFFunction_MatchedFunction_MATCHED__FUNC__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NFFunction_Function_FUNCTION__desc_added
 #define NFFunction_Function_FUNCTION__desc_added
-ADD_METARECORD_DEFINITIONS const char* NFFunction_Function_FUNCTION__desc__fields[13] = {"path","node","inputs","outputs","locals","slots","returnType","attributes","derivatives","derivedInputs","inverses","status","callCounter"};
+ADD_METARECORD_DEFINITIONS const char* NFFunction_Function_FUNCTION__desc__fields[14] = {"path","node","inputs","outputs","locals","interfaceDiffInfo","slots","returnType","attributes","derivatives","derivedInputs","inverses","status","callCounter"};
 ADD_METARECORD_DEFINITIONS struct record_description NFFunction_Function_FUNCTION__desc = {
   "NFFunction_Function_FUNCTION",
   "NFFunction.Function.FUNCTION",
@@ -227,7 +227,7 @@ extern struct record_description NFFunction_Function_FUNCTION__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NFFunction_Function_FUNCTION__desc_added
 #define NFFunction_Function_FUNCTION__desc_added
-ADD_METARECORD_DEFINITIONS const char* NFFunction_Function_FUNCTION__desc__fields[13] = {"path","node","inputs","outputs","locals","slots","returnType","attributes","derivatives","derivedInputs","inverses","status","callCounter"};
+ADD_METARECORD_DEFINITIONS const char* NFFunction_Function_FUNCTION__desc__fields[14] = {"path","node","inputs","outputs","locals","interfaceDiffInfo","slots","returnType","attributes","derivatives","derivedInputs","inverses","status","callCounter"};
 ADD_METARECORD_DEFINITIONS struct record_description NFFunction_Function_FUNCTION__desc = {
   "NFFunction_Function_FUNCTION",
   "NFFunction.Function.FUNCTION",

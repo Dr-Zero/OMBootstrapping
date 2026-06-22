@@ -14,7 +14,7 @@ extern struct record_description Absyn_InnerOuter_NOT__INNER__OUTER__desc;
 
 extern struct record_description Absyn_Path_IDENT__desc;
 
-extern struct record_description DAE_AvlTreePathFunction_Tree_EMPTY__desc;
+extern struct record_description AvlTreePathFunction_Tree_EMPTY__desc;
 
 extern struct record_description DAE_CallAttributes_CALL__ATTR__desc;
 
@@ -113,8 +113,6 @@ extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
 extern struct record_description Flags_FlagData_REAL__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_INTERNAL__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 

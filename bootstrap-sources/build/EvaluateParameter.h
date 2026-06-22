@@ -16,6 +16,8 @@ extern struct record_description AvlSetInt_Tree_EMPTY__desc;
 
 extern struct record_description BackendDAE_BackendDAE_DAE__desc;
 
+extern struct record_description BackendDAE_Shared_SHARED__desc;
+
 extern struct record_description ErrorTypes_Message_MESSAGE__desc;
 
 extern struct record_description ErrorTypes_MessageType_TRANSLATION__desc;
@@ -29,10 +31,6 @@ extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
 
 
 #define boxptr_EvaluateParameter_replaceEvaluatedParametersSystemEqns omc_EvaluateParameter_replaceEvaluatedParametersSystemEqns

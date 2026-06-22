@@ -12,28 +12,6 @@ extern "C" {
 
 extern struct record_description Absyn_Path_IDENT__desc;
 
-extern struct record_description ClassInf_State_CONNECTOR__desc;
-
-extern struct record_description DAE_Const_C__VAR__desc;
-
-extern struct record_description DAE_FuncArg_FUNCARG__desc;
-
-extern struct record_description DAE_FunctionAttributes_FUNCTION__ATTRIBUTES__desc;
-
-extern struct record_description DAE_FunctionBuiltin_FUNCTION__BUILTIN__desc;
-
-extern struct record_description DAE_FunctionParallelism_FP__NON__PARALLEL__desc;
-
-extern struct record_description DAE_InlineType_NO__INLINE__desc;
-
-extern struct record_description DAE_Type_T__ANYTYPE__desc;
-
-extern struct record_description DAE_Type_T__FUNCTION__desc;
-
-extern struct record_description DAE_Type_T__INTEGER__desc;
-
-extern struct record_description DAE_VarParallelism_NON__PARALLEL__desc;
-
 extern struct record_description FCore_Kind_BASIC__TYPE__desc;
 
 extern struct record_description FCore_Kind_BUILTIN__desc;
@@ -45,8 +23,6 @@ extern struct record_description Flags_FlagData_ENUM__FLAG__desc;
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__OPTION__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
 
 DLLDirection

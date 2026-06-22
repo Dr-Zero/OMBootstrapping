@@ -10,11 +10,9 @@
 extern "C" {
 #endif
 
-extern struct record_description DAEDump_functionList_FUNCTION__LIST__desc;
+extern struct record_description DAEDumpTypes_functionList_FUNCTION__LIST__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
 extern struct record_description Graphviz_Attribute_ATTR__desc;
 
@@ -441,40 +439,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEDump_dumpEquationStr,2,0) {(void*) b
 
 
 #define boxptr_DAEDump_dumpCommentOption omc_DAEDump_dumpCommentOption
-
-
-DLLDirection
-modelica_string omc_DAEDump_dumpCommentAnnotationStr(threadData_t *threadData, modelica_metatype _inComment);
-#define boxptr_DAEDump_dumpCommentAnnotationStr omc_DAEDump_dumpCommentAnnotationStr
-static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEDump_dumpCommentAnnotationStr,2,0) {(void*) boxptr_DAEDump_dumpCommentAnnotationStr,0}};
-#define boxvar_DAEDump_dumpCommentAnnotationStr MMC_REFSTRUCTLIT(boxvar_lit_DAEDump_dumpCommentAnnotationStr)
-
-
-DLLDirection
-modelica_boolean omc_DAEDump_filterStructuralMod(threadData_t *threadData, modelica_metatype _mod);
-DLLDirection
-modelica_metatype boxptr_DAEDump_filterStructuralMod(threadData_t *threadData, modelica_metatype _mod);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEDump_filterStructuralMod,2,0) {(void*) boxptr_DAEDump_filterStructuralMod,0}};
-#define boxvar_DAEDump_filterStructuralMod MMC_REFSTRUCTLIT(boxvar_lit_DAEDump_filterStructuralMod)
-
-
-DLLDirection
-modelica_metatype omc_DAEDump_filterStructuralMods(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fmod);
-#define boxptr_DAEDump_filterStructuralMods omc_DAEDump_filterStructuralMods
-static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEDump_filterStructuralMods,2,0) {(void*) boxptr_DAEDump_filterStructuralMods,0}};
-#define boxvar_DAEDump_filterStructuralMods MMC_REFSTRUCTLIT(boxvar_lit_DAEDump_filterStructuralMods)
-
-
-#define boxptr_DAEDump_dumpAnnotationStr omc_DAEDump_dumpAnnotationStr
-
-
-#define boxptr_DAEDump_dumpCompAnnotationStr omc_DAEDump_dumpCompAnnotationStr
-
-
-#define boxptr_DAEDump_dumpClassAnnotationStr omc_DAEDump_dumpClassAnnotationStr
-
-
-#define boxptr_DAEDump_dumpCommentStr omc_DAEDump_dumpCommentStr
 
 
 DLLDirection

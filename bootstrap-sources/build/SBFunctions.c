@@ -705,8 +705,6 @@ modelica_metatype omc_SBFunctions_minAdjCompMap(threadData_t *threadData, modeli
   modelica_metatype _inv_pw = NULL;
   modelica_metatype _aux_inv = NULL;
   modelica_metatype _aux_res = NULL;
-  modelica_real _min_g;
-  modelica_real _max_g;
   modelica_real _inf;
   modelica_real _g;
   modelica_metatype _min_aux = NULL;
@@ -738,8 +736,6 @@ modelica_metatype omc_SBFunctions_minAdjCompMap(threadData_t *threadData, modeli
   // _inv_pw has no default value.
   // _aux_inv has no default value.
   // _aux_res has no default value.
-  // _min_g has no default value.
-  // _max_g has no default value.
   // _inf has no default value.
   // _g has no default value.
   // _min_aux has no default value.
@@ -1096,7 +1092,6 @@ modelica_metatype omc_SBFunctions_reduceMapN(threadData_t *threadData, modelica_
   modelica_metatype _di = NULL;
   modelica_metatype _new_domi = NULL;
   modelica_metatype _li = NULL;
-  modelica_metatype _new_lm = NULL;
   modelica_real _gdim;
   modelica_real _odim;
   modelica_integer _off;
@@ -1138,7 +1133,6 @@ modelica_metatype omc_SBFunctions_reduceMapN(threadData_t *threadData, modelica_
   // _di has no default value.
   // _new_domi has no default value.
   // _li has no default value.
-  // _new_lm has no default value.
   // _gdim has no default value.
   // _odim has no default value.
   // _off has no default value.
@@ -1502,13 +1496,11 @@ modelica_metatype omc_SBFunctions_minPW(threadData_t *threadData, modelica_metat
 PROTECTED_FUNCTION_STATIC modelica_metatype omc_SBFunctions_minAtomPW_make__result(threadData_t *threadData, modelica_metatype _aset, modelica_metatype _map)
 {
   modelica_metatype _outMap = NULL;
-  modelica_metatype _set = NULL;
   modelica_metatype _dom = NULL;
   modelica_metatype _lm = NULL;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outMap has no default value.
-  // _set has no default value.
   // _dom has no default value.
   // _lm has no default value.
   _dom = arrayCreate(((modelica_integer) 1), omc_SBSet_addAtomicSet(threadData, _aset, omc_SBSet_newEmpty(threadData)));
@@ -1535,7 +1527,6 @@ modelica_metatype omc_SBFunctions_minAtomPW(threadData_t *threadData, modelica_m
   modelica_metatype _lm_aux = NULL;
   modelica_metatype _dom_res = NULL;
   modelica_metatype _lm_res = NULL;
-  modelica_metatype _s_aux = NULL;
   modelica_metatype _d1 = NULL;
   modelica_metatype _d2 = NULL;
   modelica_real _g1i;
@@ -1567,7 +1558,6 @@ modelica_metatype omc_SBFunctions_minAtomPW(threadData_t *threadData, modelica_m
   // _lm_aux has no default value.
   // _dom_res has no default value.
   // _lm_res has no default value.
-  // _s_aux has no default value.
   // _d1 has no default value.
   // _d2 has no default value.
   // _g1i has no default value.

@@ -15,12 +15,12 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT3,14,_OMC_LIT3_data);
 #define _OMC_LIT4_data "Unable to parse rewrite rule: "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT4,30,_OMC_LIT4_data);
 #define _OMC_LIT4 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT4)
-#define _OMC_LIT5_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/Script/RewriteRules.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT5,75,_OMC_LIT5_data);
+#define _OMC_LIT5_data "/projects/OpenModelica-session2/OMCompiler/Compiler/Script/RewriteRules.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT5,74,_OMC_LIT5_data);
 #define _OMC_LIT5 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT5)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT6_6,1.770032059e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT6_6,1.781983298e9);
 #define _OMC_LIT6_6 MMC_REFREALLIT(_OMC_LIT_STRUCT6_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT6,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT5,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1214)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1214)),MMC_IMMEDIATE(MMC_TAGFIXNUM(115)),_OMC_LIT6_6}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT6,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT5,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1211)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1211)),MMC_IMMEDIATE(MMC_TAGFIXNUM(115)),_OMC_LIT6_6}};
 #define _OMC_LIT6 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT6)
 #define _OMC_LIT7_data "rewrite"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,7,_OMC_LIT7_data);
@@ -37,9 +37,9 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT10,14,_OMC_LIT10_data);
 #define _OMC_LIT11_data "Unable to parse rewrite rules file: "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT11,36,_OMC_LIT11_data);
 #define _OMC_LIT11 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT11)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT12_6,1.770032059e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT12_6,1.781983298e9);
 #define _OMC_LIT12_6 MMC_REFREALLIT(_OMC_LIT_STRUCT12_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT12,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT5,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1095)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1095)),MMC_IMMEDIATE(MMC_TAGFIXNUM(94)),_OMC_LIT12_6}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT12,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT5,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1092)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1092)),MMC_IMMEDIATE(MMC_TAGFIXNUM(94)),_OMC_LIT12_6}};
 #define _OMC_LIT12 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT12)
 #define _OMC_LIT13_data ""
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT13,0,_OMC_LIT13_data);
@@ -54,40 +54,38 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT16,2,8) {&Flags_FlagData_STRING__FL
 #define _OMC_LIT17_data "Activates user given rewrite rules for Absyn expressions. The rules are read from the given file and are of the form rewrite(fromExp, toExp);"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT17,141,_OMC_LIT17_data);
 #define _OMC_LIT17 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT17)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT18,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT17}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT18,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(49)),_OMC_LIT14,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT15,_OMC_LIT16,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT17}};
 #define _OMC_LIT18 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT18)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT19,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(49)),_OMC_LIT14,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT15,_OMC_LIT16,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT18}};
-#define _OMC_LIT19 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT19)
-#define _OMC_LIT20_data "'$"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT20,2,_OMC_LIT20_data);
+#define _OMC_LIT19_data "'$"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT19,2,_OMC_LIT19_data);
+#define _OMC_LIT19 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT19)
+#define _OMC_LIT20_data "BackEnd Exp:     "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT20,17,_OMC_LIT20_data);
 #define _OMC_LIT20 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT20)
-#define _OMC_LIT21_data "BackEnd Exp:     "
+#define _OMC_LIT21_data "BackEnd From:    "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT21,17,_OMC_LIT21_data);
 #define _OMC_LIT21 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT21)
-#define _OMC_LIT22_data "BackEnd From:    "
+#define _OMC_LIT22_data "BackEnd To:      "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT22,17,_OMC_LIT22_data);
 #define _OMC_LIT22 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT22)
-#define _OMC_LIT23_data "BackEnd To:      "
+#define _OMC_LIT23_data "BackEnd Rewrite: "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT23,17,_OMC_LIT23_data);
 #define _OMC_LIT23 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT23)
-#define _OMC_LIT24_data "BackEnd Rewrite: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT24,17,_OMC_LIT24_data);
+#define _OMC_LIT24_data "\n---------\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT24,11,_OMC_LIT24_data);
 #define _OMC_LIT24 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT24)
-#define _OMC_LIT25_data "\n---------\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT25,11,_OMC_LIT25_data);
+#define _OMC_LIT25_data "FrontEnd Exp:     "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT25,18,_OMC_LIT25_data);
 #define _OMC_LIT25 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT25)
-#define _OMC_LIT26_data "FrontEnd Exp:     "
+#define _OMC_LIT26_data "FrontEnd From:    "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT26,18,_OMC_LIT26_data);
 #define _OMC_LIT26 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT26)
-#define _OMC_LIT27_data "FrontEnd From:    "
+#define _OMC_LIT27_data "FrontEnd To:      "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT27,18,_OMC_LIT27_data);
 #define _OMC_LIT27 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT27)
-#define _OMC_LIT28_data "FrontEnd To:      "
+#define _OMC_LIT28_data "FrontEnd Rewrite: "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT28,18,_OMC_LIT28_data);
 #define _OMC_LIT28 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT28)
-#define _OMC_LIT29_data "FrontEnd Rewrite: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT29,18,_OMC_LIT29_data);
-#define _OMC_LIT29 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT29)
 #include "util/modelica.h"
 
 #include "RewriteRules_includes.h"
@@ -855,7 +853,7 @@ void omc_RewriteRules_loadRules(threadData_t *threadData)
         switch (MMC_SWITCH_CAST(tmp3)) {
         case 0: {
           /* Pattern matching succeeded */
-          _file = omc_Flags_getConfigString(threadData, _OMC_LIT19);
+          _file = omc_Flags_getConfigString(threadData, _OMC_LIT18);
 
           omc_RewriteRules_loadRulesFromFile(threadData, _file);
           goto tmp2_done;
@@ -883,24 +881,21 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_RewriteRules_operatorMatches(thre
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _b has no default value.
-  { /* matchcontinue expression */
-    volatile modelica_metatype tmp4_1;volatile modelica_metatype tmp4_2;
+  { /* match expression */
+    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
     tmp4_1 = _op1;
     tmp4_2 = _op2;
     {
       volatile mmc_switch_type tmp4;
       int tmp5;
       tmp4 = 0;
-      MMC_TRY_INTERNAL(mmc_jumper)
-      tmp3_top:
-      threadData->mmc_jumper = &new_mmc_jumper;
       for (; tmp4 < 17; tmp4++) {
         switch (MMC_SWITCH_CAST(tmp4)) {
         case 0: {
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,6,1) == 0) goto tmp3_end;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_2,5,1) == 0) goto tmp3_end;
           
-          tmp4 += 15; /* Pattern matching succeeded; we may skip some cases if we fail */
+          /* Pattern matching succeeded */
           tmp1 = 1 /* true */;
           goto tmp3_done;
         }
@@ -908,7 +903,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_RewriteRules_operatorMatches(thre
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,7,1) == 0) goto tmp3_end;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_2,0,1) == 0) goto tmp3_end;
           
-          tmp4 += 14; /* Pattern matching succeeded; we may skip some cases if we fail */
+          /* Pattern matching succeeded */
           tmp1 = 1 /* true */;
           goto tmp3_done;
         }
@@ -916,7 +911,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_RewriteRules_operatorMatches(thre
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,8,1) == 0) goto tmp3_end;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_2,1,1) == 0) goto tmp3_end;
           
-          tmp4 += 13; /* Pattern matching succeeded; we may skip some cases if we fail */
+          /* Pattern matching succeeded */
           tmp1 = 1 /* true */;
           goto tmp3_done;
         }
@@ -924,7 +919,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_RewriteRules_operatorMatches(thre
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,9,1) == 0) goto tmp3_end;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_2,2,1) == 0) goto tmp3_end;
           
-          tmp4 += 12; /* Pattern matching succeeded; we may skip some cases if we fail */
+          /* Pattern matching succeeded */
           tmp1 = 1 /* true */;
           goto tmp3_done;
         }
@@ -932,7 +927,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_RewriteRules_operatorMatches(thre
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,10,1) == 0) goto tmp3_end;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_2,3,1) == 0) goto tmp3_end;
           
-          tmp4 += 11; /* Pattern matching succeeded; we may skip some cases if we fail */
+          /* Pattern matching succeeded */
           tmp1 = 1 /* true */;
           goto tmp3_done;
         }
@@ -940,7 +935,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_RewriteRules_operatorMatches(thre
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,11,1) == 0) goto tmp3_end;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_2,2,1) == 0) goto tmp3_end;
           
-          tmp4 += 10; /* Pattern matching succeeded; we may skip some cases if we fail */
+          /* Pattern matching succeeded */
           tmp1 = 1 /* true */;
           goto tmp3_done;
         }
@@ -948,7 +943,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_RewriteRules_operatorMatches(thre
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,12,1) == 0) goto tmp3_end;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_2,0,1) == 0) goto tmp3_end;
           
-          tmp4 += 9; /* Pattern matching succeeded; we may skip some cases if we fail */
+          /* Pattern matching succeeded */
           tmp1 = 1 /* true */;
           goto tmp3_done;
         }
@@ -956,7 +951,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_RewriteRules_operatorMatches(thre
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,13,1) == 0) goto tmp3_end;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_2,1,1) == 0) goto tmp3_end;
           
-          tmp4 += 8; /* Pattern matching succeeded; we may skip some cases if we fail */
+          /* Pattern matching succeeded */
           tmp1 = 1 /* true */;
           goto tmp3_done;
         }
@@ -964,7 +959,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_RewriteRules_operatorMatches(thre
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,14,1) == 0) goto tmp3_end;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_2,2,1) == 0) goto tmp3_end;
           
-          tmp4 += 7; /* Pattern matching succeeded; we may skip some cases if we fail */
+          /* Pattern matching succeeded */
           tmp1 = 1 /* true */;
           goto tmp3_done;
         }
@@ -972,7 +967,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_RewriteRules_operatorMatches(thre
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,15,1) == 0) goto tmp3_end;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_2,2,1) == 0) goto tmp3_end;
           
-          tmp4 += 6; /* Pattern matching succeeded; we may skip some cases if we fail */
+          /* Pattern matching succeeded */
           tmp1 = 1 /* true */;
           goto tmp3_done;
         }
@@ -980,7 +975,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_RewriteRules_operatorMatches(thre
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,17,1) == 0) goto tmp3_end;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_2,3,1) == 0) goto tmp3_end;
           
-          tmp4 += 5; /* Pattern matching succeeded; we may skip some cases if we fail */
+          /* Pattern matching succeeded */
           tmp1 = 1 /* true */;
           goto tmp3_done;
         }
@@ -988,7 +983,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_RewriteRules_operatorMatches(thre
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,16,1) == 0) goto tmp3_end;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_2,3,1) == 0) goto tmp3_end;
           
-          tmp4 += 4; /* Pattern matching succeeded; we may skip some cases if we fail */
+          /* Pattern matching succeeded */
           tmp1 = 1 /* true */;
           goto tmp3_done;
         }
@@ -996,7 +991,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_RewriteRules_operatorMatches(thre
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,19,1) == 0) goto tmp3_end;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_2,4,1) == 0) goto tmp3_end;
           
-          tmp4 += 3; /* Pattern matching succeeded; we may skip some cases if we fail */
+          /* Pattern matching succeeded */
           tmp1 = 1 /* true */;
           goto tmp3_done;
         }
@@ -1004,7 +999,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_RewriteRules_operatorMatches(thre
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,18,1) == 0) goto tmp3_end;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_2,4,1) == 0) goto tmp3_end;
           
-          tmp4 += 2; /* Pattern matching succeeded; we may skip some cases if we fail */
+          /* Pattern matching succeeded */
           tmp1 = 1 /* true */;
           goto tmp3_done;
         }
@@ -1012,7 +1007,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_RewriteRules_operatorMatches(thre
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,20,1) == 0) goto tmp3_end;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_2,4,1) == 0) goto tmp3_end;
           
-          tmp4 += 1; /* Pattern matching succeeded; we may skip some cases if we fail */
+          /* Pattern matching succeeded */
           tmp1 = 1 /* true */;
           goto tmp3_done;
         }
@@ -1035,17 +1030,10 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_RewriteRules_operatorMatches(thre
         tmp3_end: ;
       }
       goto goto_2;
-      tmp3_done:
-      (void)tmp4;
-      MMC_RESTORE_INTERNAL(mmc_jumper);
-      goto tmp3_done2;
       goto_2:;
-      MMC_CATCH_INTERNAL(mmc_jumper);
-      if (++tmp4 < 17) {
-        goto tmp3_top;
-      }
       MMC_THROW_INTERNAL();
-      tmp3_done2:;
+      goto tmp3_done;
+      tmp3_done:;
     }
   }
   _b = tmp1;
@@ -1130,7 +1118,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_RewriteRules_expEqual(threadData_
         case 2: {
           
           /* Pattern matching succeeded */
-          tmp1 = omc_Expression_expEqual(threadData, _e1, _e2);
+          tmp1 = omc_ExpressionBasics_expEqual(threadData, _e1, _e2);
           goto tmp3_done;
         }
         }
@@ -1193,7 +1181,7 @@ modelica_boolean omc_RewriteRules_isPlaceHolderBackEnd(threadData_t *threadData,
           
           _name = tmpMeta7;
           /* Pattern matching succeeded */
-          tmp1 = (omc_System_stringFind(threadData, _name, _OMC_LIT20) == ((modelica_integer) 0));
+          tmp1 = (omc_System_stringFind(threadData, _name, _OMC_LIT19) == ((modelica_integer) 0));
           goto tmp3_done;
         }
         case 1: {
@@ -1906,7 +1894,6 @@ DLLDirection
 modelica_metatype omc_RewriteRules_replaceBindBackEnd(threadData_t *threadData, modelica_metatype _inExp, modelica_metatype _inBinds)
 {
   modelica_metatype _outExp = NULL;
-  modelica_boolean _found;
   modelica_metatype _e = NULL;
   modelica_metatype _to = NULL;
   modelica_metatype tmpMeta1;
@@ -1917,7 +1904,6 @@ modelica_metatype omc_RewriteRules_replaceBindBackEnd(threadData_t *threadData, 
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outExp has no default value.
-  // _found has no default value.
   // _e has no default value.
   // _to has no default value.
   {
@@ -2114,17 +2100,17 @@ modelica_metatype omc_RewriteRules_matchAndRewriteExpBackEnd(threadData_t *threa
 
           _b = (!referenceEq(_inExp, _outExp));
 
-          tmpMeta14 = stringAppend(_OMC_LIT21,omc_ExpressionDump_printExpStr(threadData, _inExp));
+          tmpMeta14 = stringAppend(_OMC_LIT20,omc_ExpressionBasics_printExpStr(threadData, _inExp));
           tmpMeta15 = stringAppend(tmpMeta14,_OMC_LIT2);
-          tmpMeta16 = stringAppend(tmpMeta15,_OMC_LIT22);
-          tmpMeta17 = stringAppend(tmpMeta16,omc_ExpressionDump_printExpStr(threadData, _from));
+          tmpMeta16 = stringAppend(tmpMeta15,_OMC_LIT21);
+          tmpMeta17 = stringAppend(tmpMeta16,omc_ExpressionBasics_printExpStr(threadData, _from));
           tmpMeta18 = stringAppend(tmpMeta17,_OMC_LIT2);
-          tmpMeta19 = stringAppend(tmpMeta18,_OMC_LIT23);
-          tmpMeta20 = stringAppend(tmpMeta19,omc_ExpressionDump_printExpStr(threadData, _to));
+          tmpMeta19 = stringAppend(tmpMeta18,_OMC_LIT22);
+          tmpMeta20 = stringAppend(tmpMeta19,omc_ExpressionBasics_printExpStr(threadData, _to));
           tmpMeta21 = stringAppend(tmpMeta20,_OMC_LIT2);
-          tmpMeta22 = stringAppend(tmpMeta21,_OMC_LIT24);
-          tmpMeta23 = stringAppend(tmpMeta22,omc_ExpressionDump_printExpStr(threadData, _outExp));
-          tmpMeta24 = stringAppend(tmpMeta23,_OMC_LIT25);
+          tmpMeta22 = stringAppend(tmpMeta21,_OMC_LIT23);
+          tmpMeta23 = stringAppend(tmpMeta22,omc_ExpressionBasics_printExpStr(threadData, _outExp));
+          tmpMeta24 = stringAppend(tmpMeta23,_OMC_LIT24);
           fputs(MMC_STRINGDATA(tmpMeta24),stdout);
           tmpMeta[0+0] = _outExp;
           tmp1_c1 = _b;
@@ -2259,7 +2245,7 @@ modelica_boolean omc_RewriteRules_isPlaceHolderFrontEnd(threadData_t *threadData
           
           _name = tmpMeta7;
           /* Pattern matching succeeded */
-          tmp1 = (omc_System_stringFind(threadData, _name, _OMC_LIT20) == ((modelica_integer) 0));
+          tmp1 = (omc_System_stringFind(threadData, _name, _OMC_LIT19) == ((modelica_integer) 0));
           goto tmp3_done;
         }
         case 1: {
@@ -3245,9 +3231,7 @@ DLLDirection
 modelica_metatype omc_RewriteRules_replaceBindFrontEnd(threadData_t *threadData, modelica_metatype _inExp, modelica_metatype _inBinds)
 {
   modelica_metatype _outExp = NULL;
-  modelica_boolean _found;
   modelica_metatype _e = NULL;
-  modelica_metatype _to = NULL;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
@@ -3256,9 +3240,7 @@ modelica_metatype omc_RewriteRules_replaceBindFrontEnd(threadData_t *threadData,
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outExp has no default value.
-  // _found has no default value.
   // _e has no default value.
-  // _to has no default value.
   {
     modelica_metatype _bind;
     for (tmpMeta1 = _inBinds; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
@@ -3443,17 +3425,17 @@ modelica_metatype omc_RewriteRules_matchAndRewriteExpFrontEnd(threadData_t *thre
 
           _b = (!referenceEq(_inExp, _outExp));
 
-          tmpMeta14 = stringAppend(_OMC_LIT26,omc_Dump_printExpStr(threadData, _inExp));
+          tmpMeta14 = stringAppend(_OMC_LIT25,omc_Dump_printExpStr(threadData, _inExp));
           tmpMeta15 = stringAppend(tmpMeta14,_OMC_LIT2);
-          tmpMeta16 = stringAppend(tmpMeta15,_OMC_LIT27);
+          tmpMeta16 = stringAppend(tmpMeta15,_OMC_LIT26);
           tmpMeta17 = stringAppend(tmpMeta16,omc_Dump_printExpStr(threadData, _from));
           tmpMeta18 = stringAppend(tmpMeta17,_OMC_LIT2);
-          tmpMeta19 = stringAppend(tmpMeta18,_OMC_LIT28);
+          tmpMeta19 = stringAppend(tmpMeta18,_OMC_LIT27);
           tmpMeta20 = stringAppend(tmpMeta19,omc_Dump_printExpStr(threadData, _to));
           tmpMeta21 = stringAppend(tmpMeta20,_OMC_LIT2);
-          tmpMeta22 = stringAppend(tmpMeta21,_OMC_LIT29);
+          tmpMeta22 = stringAppend(tmpMeta21,_OMC_LIT28);
           tmpMeta23 = stringAppend(tmpMeta22,omc_Dump_printExpStr(threadData, _outExp));
-          tmpMeta24 = stringAppend(tmpMeta23,_OMC_LIT25);
+          tmpMeta24 = stringAppend(tmpMeta23,_OMC_LIT24);
           fputs(MMC_STRINGDATA(tmpMeta24),stdout);
           tmpMeta[0+0] = _outExp;
           tmp1_c1 = _b;

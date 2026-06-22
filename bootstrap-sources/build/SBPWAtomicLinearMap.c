@@ -414,6 +414,10 @@ modelica_metatype omc_SBPWAtomicLinearMap_new(threadData_t *threadData, modelica
     tmpMeta4 = mmc_mk_box3(3, &SBPWAtomicLinearMap_PW__ATOMIC__LINEAR__MAP__desc, omc_SBAtomicSet_copy(threadData, _dom), omc_SBLinearMap_copy(threadData, _lmap));
     _map = tmpMeta4;
   }
+  else
+  {
+    _map = omc_SBPWAtomicLinearMap_newEmpty(threadData);
+  }
   _return: OMC_LABEL_UNUSED
   return _map;
 }

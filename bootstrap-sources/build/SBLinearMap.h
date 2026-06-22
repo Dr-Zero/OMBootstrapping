@@ -10,6 +10,8 @@
 extern "C" {
 #endif
 
+extern struct record_description SBInterval_INTERVAL__desc;
+
 extern struct record_description SBLinearMap_LINEAR__MAP__desc;
 
 

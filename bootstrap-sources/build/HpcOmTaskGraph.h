@@ -26,8 +26,6 @@ extern struct record_description Flags_FlagData_INT__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description GraphML_ArrowType_ARROWNONE__desc;
 
 extern struct record_description GraphML_ArrowType_ARROWSTANDART__desc;

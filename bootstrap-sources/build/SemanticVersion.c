@@ -679,7 +679,6 @@ modelica_metatype omc_SemanticVersion_parse(threadData_t *threadData, modelica_s
   modelica_string _major = NULL;
   modelica_string _minor = NULL;
   modelica_string _patch = NULL;
-  modelica_string _nextString = NULL;
   modelica_string _versions = NULL;
   modelica_metatype _prereleaseLst = NULL;
   modelica_metatype _metaLst = NULL;
@@ -711,7 +710,6 @@ modelica_metatype omc_SemanticVersion_parse(threadData_t *threadData, modelica_s
   // _major has no default value.
   // _minor has no default value.
   // _patch has no default value.
-  // _nextString has no default value.
   // _versions has no default value.
   // _prereleaseLst has no default value.
   // _metaLst has no default value.

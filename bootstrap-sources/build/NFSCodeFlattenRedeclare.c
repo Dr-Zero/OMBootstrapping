@@ -55,75 +55,67 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT17,1,4) {&ErrorTypes_Severity_ERROR
 #define _OMC_LIT18_data "Internal error %s"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT18,17,_OMC_LIT18_data);
 #define _OMC_LIT18 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT18)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT19,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT18}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT19,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(63)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT18}};
 #define _OMC_LIT19 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT19)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT20,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(63)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT19}};
-#define _OMC_LIT20 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT20)
-#define _OMC_LIT21_data "NFSCodeFlattenRedeclare.propagateAttributes failed on unknown item."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT21,67,_OMC_LIT21_data);
-#define _OMC_LIT21 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT21)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT22,2,1) {_OMC_LIT21,MMC_REFSTRUCTLIT(mmc_nil)}};
-#define _OMC_LIT22 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT22)
-#define _OMC_LIT23_data "NFSCodeFlattenRedeclare.pushRedeclareIntoExtends2 couldn't find the base classes {"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT23,82,_OMC_LIT23_data);
+#define _OMC_LIT20_data "NFSCodeFlattenRedeclare.propagateAttributes failed on unknown item."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT20,67,_OMC_LIT20_data);
+#define _OMC_LIT20 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT20)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT21,2,1) {_OMC_LIT20,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT21 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT21)
+#define _OMC_LIT22_data "NFSCodeFlattenRedeclare.pushRedeclareIntoExtends2 couldn't find the base classes {"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT22,82,_OMC_LIT22_data);
+#define _OMC_LIT22 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT22)
+#define _OMC_LIT23_data "} for "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT23,6,_OMC_LIT23_data);
 #define _OMC_LIT23 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT23)
-#define _OMC_LIT24_data "} for "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT24,6,_OMC_LIT24_data);
+#define _OMC_LIT24_data "Modified element %s not found in class %s."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT24,42,_OMC_LIT24_data);
 #define _OMC_LIT24 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT24)
-#define _OMC_LIT25_data "Modified element %s not found in class %s."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT25,42,_OMC_LIT25_data);
-#define _OMC_LIT25 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT25)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT26,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT25}};
-#define _OMC_LIT26 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT26)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT27,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(214)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT26}};
-#define _OMC_LIT27 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT27)
-#define _OMC_LIT28_data "failtrace"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT28,9,_OMC_LIT28_data);
-#define _OMC_LIT28 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT28)
-#define _OMC_LIT29_data "Sets whether to print a failtrace or not."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT29,41,_OMC_LIT29_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT25,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(214)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT24}};
+#define _OMC_LIT25 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT25)
+#define _OMC_LIT26_data "failtrace"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT26,9,_OMC_LIT26_data);
+#define _OMC_LIT26 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT26)
+#define _OMC_LIT27_data "Sets whether to print a failtrace or not."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT27,41,_OMC_LIT27_data);
+#define _OMC_LIT27 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT27)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT28,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT26,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT27}};
+#define _OMC_LIT28 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT28)
+#define _OMC_LIT29_data "- NFSCodeFlattenRedeclare.replaceRedeclaredElementsInEnv failed for:\n	"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT29,70,_OMC_LIT29_data);
 #define _OMC_LIT29 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT29)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT30,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT29}};
-#define _OMC_LIT30 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT30)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT31,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT28,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT30}};
-#define _OMC_LIT31 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT31)
-#define _OMC_LIT32_data "- NFSCodeFlattenRedeclare.replaceRedeclaredElementsInEnv failed for:\n	"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT32,70,_OMC_LIT32_data);
+#define _OMC_LIT30_data "redeclares: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT30,12,_OMC_LIT30_data);
+#define _OMC_LIT30 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT30)
+#define _OMC_LIT31_data "\n---------\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT31,11,_OMC_LIT31_data);
+#define _OMC_LIT31 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT31)
+#define _OMC_LIT32_data "\n	item: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT32,8,_OMC_LIT32_data);
 #define _OMC_LIT32 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT32)
-#define _OMC_LIT33_data "redeclares: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT33,12,_OMC_LIT33_data);
+#define _OMC_LIT33_data "\n	in scope:"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT33,11,_OMC_LIT33_data);
 #define _OMC_LIT33 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT33)
-#define _OMC_LIT34_data "\n---------\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT34,11,_OMC_LIT34_data);
-#define _OMC_LIT34 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT34)
-#define _OMC_LIT35_data "\n	item: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT35,8,_OMC_LIT35_data);
-#define _OMC_LIT35 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT35)
-#define _OMC_LIT36_data "\n	in scope:"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT36,11,_OMC_LIT36_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT34,2,3) {&NFInstPrefix_Prefix_EMPTY__PREFIX__desc,MMC_REFSTRUCTLIT(mmc_none)}};
+#define _OMC_LIT34 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT34)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT35,1,3) {&NFSCodeEnv_ClassType_USERDEFINED__desc,}};
+#define _OMC_LIT35 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT35)
+#define _OMC_LIT36_data "- NFSCodeFlattenRedeclare.processRedeclare failed on "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT36,53,_OMC_LIT36_data);
 #define _OMC_LIT36 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT36)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT37,2,3) {&NFInstPrefix_Prefix_EMPTY__PREFIX__desc,MMC_REFSTRUCTLIT(mmc_none)}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT37,10,3) {&SCodeDump_SCodeDumpOptions_OPTIONS__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1 /* true */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1 /* true */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */))}};
 #define _OMC_LIT37 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT37)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT38,1,3) {&NFSCodeEnv_ClassType_USERDEFINED__desc,}};
-#define _OMC_LIT38 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT38)
-#define _OMC_LIT39_data "- NFSCodeFlattenRedeclare.processRedeclare failed on "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT39,53,_OMC_LIT39_data);
+#define _OMC_LIT38_data " in "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT38,4,_OMC_LIT38_data);
+#define _OMC_LIT38 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT38)
+#define _OMC_LIT39_data "Illegal redeclare of element %s, no inherited element with that name exists."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT39,76,_OMC_LIT39_data);
 #define _OMC_LIT39 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT39)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT40,10,3) {&SCodeDump_SCodeDumpOptions_OPTIONS__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1 /* true */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1 /* true */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */))}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT40,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(228)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT39}};
 #define _OMC_LIT40 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT40)
-#define _OMC_LIT41_data " in "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT41,4,_OMC_LIT41_data);
+#define _OMC_LIT41_data "- NFSCodeFlattenRedeclare.addElementRedeclarationsToEnv failed for "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT41,67,_OMC_LIT41_data);
 #define _OMC_LIT41 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT41)
-#define _OMC_LIT42_data "Illegal redeclare of element %s, no inherited element with that name exists."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT42,76,_OMC_LIT42_data);
-#define _OMC_LIT42 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT42)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT43,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT42}};
-#define _OMC_LIT43 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT43)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT44,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(228)),_OMC_LIT16,_OMC_LIT17,_OMC_LIT43}};
-#define _OMC_LIT44 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT44)
-#define _OMC_LIT45_data "- NFSCodeFlattenRedeclare.addElementRedeclarationsToEnv failed for "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT45,67,_OMC_LIT45_data);
-#define _OMC_LIT45 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT45)
 #include "util/modelica.h"
 
 #include "NFSCodeFlattenRedeclare_includes.h"
@@ -232,17 +224,17 @@ PROTECTED_FUNCTION_STATIC void omc_NFSCodeFlattenRedeclare_tracePushRedeclareInt
           fputs(MMC_STRINGDATA(tmpMeta8),stdout);
 
           {
-            modelica_metatype __omcQ_24tmpVar3;
+            modelica_metatype __omcQ_24tmpVar1;
             modelica_metatype* tmp10;
             modelica_metatype tmpMeta11;
-            modelica_string __omcQ_24tmpVar2;
+            modelica_string __omcQ_24tmpVar0;
             modelica_integer tmp12;
             modelica_metatype _p_loopVar = 0;
             modelica_metatype _p;
             _p_loopVar = _inBaseClasses;
             tmpMeta11 = MMC_REFSTRUCTLIT(mmc_nil);
-            __omcQ_24tmpVar3 = tmpMeta11; /* defaultValue */
-            tmp10 = &__omcQ_24tmpVar3;
+            __omcQ_24tmpVar1 = tmpMeta11; /* defaultValue */
+            tmp10 = &__omcQ_24tmpVar1;
             while(1) {
               tmp12 = 1;
               if (!listEmpty(_p_loopVar)) {
@@ -251,8 +243,8 @@ PROTECTED_FUNCTION_STATIC void omc_NFSCodeFlattenRedeclare_tracePushRedeclareInt
                 tmp12--;
               }
               if (tmp12 == 0) {
-                __omcQ_24tmpVar2 = omc_AbsynUtil_pathString(threadData, _p, _OMC_LIT4, 1 /* true */, 0 /* false */);
-                *tmp10 = mmc_mk_cons(__omcQ_24tmpVar2,0);
+                __omcQ_24tmpVar0 = omc_AbsynUtil_pathString(threadData, _p, _OMC_LIT4, 1 /* true */, 0 /* false */);
+                *tmp10 = mmc_mk_cons(__omcQ_24tmpVar0,0);
                 tmp10 = &MMC_CDR(*tmp10);
               } else if (tmp12 == 1) {
                 break;
@@ -261,7 +253,7 @@ PROTECTED_FUNCTION_STATIC void omc_NFSCodeFlattenRedeclare_tracePushRedeclareInt
               }
             }
             *tmp10 = mmc_mk_nil();
-            tmpMeta9 = __omcQ_24tmpVar3;
+            tmpMeta9 = __omcQ_24tmpVar1;
           }
           tmpMeta13 = stringAppend(_OMC_LIT3,stringDelimitList(tmpMeta9, _OMC_LIT5));
           tmpMeta14 = stringAppend(tmpMeta13,_OMC_LIT2);
@@ -1111,7 +1103,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFSCodeFlattenRedeclare_propagat
         case 6: {
           
           /* Pattern matching succeeded */
-          omc_Error_addMessage(threadData, _OMC_LIT20, _OMC_LIT22);
+          omc_Error_addMessage(threadData, _OMC_LIT19, _OMC_LIT21);
           goto goto_2;
           goto tmp3_done;
         }
@@ -1413,17 +1405,17 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFSCodeFlattenRedeclare_pushRede
           
           /* Pattern matching succeeded */
           {
-            modelica_metatype __omcQ_24tmpVar5;
+            modelica_metatype __omcQ_24tmpVar3;
             modelica_metatype* tmp22;
             modelica_metatype tmpMeta23;
-            modelica_string __omcQ_24tmpVar4;
+            modelica_string __omcQ_24tmpVar2;
             modelica_integer tmp24;
             modelica_metatype _p_loopVar = 0;
             modelica_metatype _p;
             _p_loopVar = _inBaseClasses;
             tmpMeta23 = MMC_REFSTRUCTLIT(mmc_nil);
-            __omcQ_24tmpVar5 = tmpMeta23; /* defaultValue */
-            tmp22 = &__omcQ_24tmpVar5;
+            __omcQ_24tmpVar3 = tmpMeta23; /* defaultValue */
+            tmp22 = &__omcQ_24tmpVar3;
             while(1) {
               tmp24 = 1;
               if (!listEmpty(_p_loopVar)) {
@@ -1432,8 +1424,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFSCodeFlattenRedeclare_pushRede
                 tmp24--;
               }
               if (tmp24 == 0) {
-                __omcQ_24tmpVar4 = omc_AbsynUtil_pathString(threadData, _p, _OMC_LIT4, 1 /* true */, 0 /* false */);
-                *tmp22 = mmc_mk_cons(__omcQ_24tmpVar4,0);
+                __omcQ_24tmpVar2 = omc_AbsynUtil_pathString(threadData, _p, _OMC_LIT4, 1 /* true */, 0 /* false */);
+                *tmp22 = mmc_mk_cons(__omcQ_24tmpVar2,0);
                 tmp22 = &MMC_CDR(*tmp22);
               } else if (tmp24 == 1) {
                 break;
@@ -1442,19 +1434,19 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFSCodeFlattenRedeclare_pushRede
               }
             }
             *tmp22 = mmc_mk_nil();
-            tmpMeta21 = __omcQ_24tmpVar5;
+            tmpMeta21 = __omcQ_24tmpVar3;
           }
           _bc_strl = tmpMeta21;
 
           _bcl_str = stringDelimitList(_bc_strl, _OMC_LIT5);
 
-          tmpMeta25 = stringAppend(_OMC_LIT23,_bcl_str);
-          tmpMeta26 = stringAppend(tmpMeta25,_OMC_LIT24);
+          tmpMeta25 = stringAppend(_OMC_LIT22,_bcl_str);
+          tmpMeta26 = stringAppend(tmpMeta25,_OMC_LIT23);
           tmpMeta27 = stringAppend(tmpMeta26,_inName);
           _err_msg = tmpMeta27;
 
           tmpMeta28 = mmc_mk_cons(_err_msg, MMC_REFSTRUCTLIT(mmc_nil));
-          omc_Error_addMessage(threadData, _OMC_LIT20, tmpMeta28);
+          omc_Error_addMessage(threadData, _OMC_LIT19, tmpMeta28);
           goto goto_2;
           goto tmp3_done;
         }
@@ -1482,7 +1474,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFSCodeFlattenRedeclare_pushRede
   modelica_metatype _cei = NULL;
   modelica_metatype _etNew = NULL;
   modelica_metatype _etOld = NULL;
-  modelica_string _name = NULL;
   modelica_metatype _env = NULL;
   modelica_metatype _repl = NULL;
   modelica_metatype tmpMeta1;
@@ -1507,7 +1498,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFSCodeFlattenRedeclare_pushRede
   // _cei has no default value.
   // _etNew has no default value.
   // _etOld has no default value.
-  // _name has no default value.
   // _env has no default value.
   // _repl has no default value.
   /* Pattern-matching assignment */
@@ -1670,7 +1660,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFSCodeFlattenRedeclare_replaceR
           _info = omc_NFSCodeEnv_getItemInfo(threadData, _item);
 
           tmpMeta9 = mmc_mk_cons(_name, mmc_mk_cons(_scope_name, MMC_REFSTRUCTLIT(mmc_nil)));
-          omc_Error_addSourceMessage(threadData, _OMC_LIT27, tmpMeta9, _info);
+          omc_Error_addSourceMessage(threadData, _OMC_LIT25, tmpMeta9, _info);
           goto goto_2;
           goto tmp3_done;
         }
@@ -1929,15 +1919,15 @@ modelica_metatype omc_NFSCodeFlattenRedeclare_replaceRedeclaredElementsInEnv(thr
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp22 = omc_Flags_isSet(threadData, _OMC_LIT31);
+          tmp22 = omc_Flags_isSet(threadData, _OMC_LIT28);
           if (1 /* true */ != tmp22) goto goto_2;
 
-          omc_Debug_trace(threadData, _OMC_LIT32);
+          omc_Debug_trace(threadData, _OMC_LIT29);
 
-          tmpMeta23 = stringAppend(_OMC_LIT33,stringDelimitList(omc_List_map(threadData, _inRedeclares, boxvar_NFSCodeEnv_printRedeclarationStr), _OMC_LIT34));
-          tmpMeta24 = stringAppend(tmpMeta23,_OMC_LIT35);
+          tmpMeta23 = stringAppend(_OMC_LIT30,stringDelimitList(omc_List_map(threadData, _inRedeclares, boxvar_NFSCodeEnv_printRedeclarationStr), _OMC_LIT31));
+          tmpMeta24 = stringAppend(tmpMeta23,_OMC_LIT32);
           tmpMeta25 = stringAppend(tmpMeta24,omc_NFSCodeEnv_itemStr(threadData, _inItem));
-          tmpMeta26 = stringAppend(tmpMeta25,_OMC_LIT36);
+          tmpMeta26 = stringAppend(tmpMeta25,_OMC_LIT33);
           tmpMeta27 = stringAppend(tmpMeta26,omc_NFSCodeEnv_getEnvName(threadData, _inElementEnv));
           omc_Debug_traceln(threadData, tmpMeta27);
           goto goto_2;
@@ -2008,7 +1998,7 @@ modelica_metatype omc_NFSCodeFlattenRedeclare_replaceRedeclares(threadData_t *th
         case 1: {
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,0,0) == 0) goto tmp3_end;
           /* Pattern matching succeeded */
-          _item = omc_NFSCodeFlattenRedeclare_replaceRedeclaredElementsInEnv(threadData, _inRedeclares, _inClassItem, _inClassEnv, _inElementEnv, _OMC_LIT37 ,&_env ,NULL);
+          _item = omc_NFSCodeFlattenRedeclare_replaceRedeclaredElementsInEnv(threadData, _inRedeclares, _inClassItem, _inClassEnv, _inElementEnv, _OMC_LIT34 ,&_env ,NULL);
           tmpMeta[0+0] = mmc_mk_some(_item);
           tmpMeta[0+1] = mmc_mk_some(_env);
           goto tmp3_done;
@@ -2085,7 +2075,7 @@ modelica_metatype omc_NFSCodeFlattenRedeclare_processRedeclare(threadData_t *thr
           tmp4 += 2; /* Pattern matching succeeded; we may skip some cases if we fail */
           _cls_env = omc_NFSCodeEnv_makeClassEnvironment(threadData, _el, 1 /* true */);
 
-          _el_item = omc_NFSCodeEnv_newClassItem(threadData, _el, _cls_env, _OMC_LIT38);
+          _el_item = omc_NFSCodeEnv_newClassItem(threadData, _el, _cls_env, _OMC_LIT35);
 
           tmpMeta7 = mmc_mk_box3(6, &NFSCodeEnv_Item_REDECLARED__ITEM__desc, _el_item, _inEnv);
           _redecl_item = tmpMeta7;
@@ -2126,11 +2116,11 @@ modelica_metatype omc_NFSCodeFlattenRedeclare_processRedeclare(threadData_t *thr
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp12 = omc_Flags_isSet(threadData, _OMC_LIT31);
+          tmp12 = omc_Flags_isSet(threadData, _OMC_LIT28);
           if (1 /* true */ != tmp12) goto goto_2;
 
-          tmpMeta13 = stringAppend(_OMC_LIT39,omc_SCodeDump_unparseElementStr(threadData, omc_NFSCodeEnv_getRedeclarationElement(threadData, _inRedeclare), _OMC_LIT40));
-          tmpMeta14 = stringAppend(tmpMeta13,_OMC_LIT41);
+          tmpMeta13 = stringAppend(_OMC_LIT36,omc_SCodeDump_unparseElementStr(threadData, omc_NFSCodeEnv_getRedeclarationElement(threadData, _inRedeclare), _OMC_LIT37));
+          tmpMeta14 = stringAppend(tmpMeta13,_OMC_LIT38);
           tmpMeta15 = stringAppend(tmpMeta14,omc_AbsynUtil_pathString(threadData, omc_NFSCodeEnv_getEnvPath(threadData, _inEnv), _OMC_LIT4, 1 /* true */, 0 /* false */));
           omc_Debug_traceln(threadData, tmpMeta15);
           goto goto_2;
@@ -2355,7 +2345,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFSCodeFlattenRedeclare_lookupEl
           modelica_metatype tmpMeta6;
           /* Pattern matching succeeded */
           tmpMeta6 = mmc_mk_cons(_inName, MMC_REFSTRUCTLIT(mmc_nil));
-          omc_Error_addSourceMessage(threadData, _OMC_LIT44, tmpMeta6, _inInfo);
+          omc_Error_addSourceMessage(threadData, _OMC_LIT40, tmpMeta6, _inInfo);
           goto goto_2;
           goto tmp3_done;
         }
@@ -2433,11 +2423,11 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFSCodeFlattenRedeclare_addEleme
           modelica_metatype tmpMeta11;
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp7 = omc_Flags_isSet(threadData, _OMC_LIT31);
+          tmp7 = omc_Flags_isSet(threadData, _OMC_LIT28);
           if (1 /* true */ != tmp7) goto goto_2;
 
-          tmpMeta8 = stringAppend(_OMC_LIT45,omc_SCodeUtil_elementName(threadData, _inRedeclare));
-          tmpMeta9 = stringAppend(tmpMeta8,_OMC_LIT41);
+          tmpMeta8 = stringAppend(_OMC_LIT41,omc_SCodeUtil_elementName(threadData, _inRedeclare));
+          tmpMeta9 = stringAppend(tmpMeta8,_OMC_LIT38);
           tmpMeta10 = stringAppend(tmpMeta9,omc_NFSCodeEnv_getEnvName(threadData, _inEnv));
           tmpMeta11 = stringAppend(tmpMeta10,_OMC_LIT7);
           omc_Debug_traceln(threadData, tmpMeta11);

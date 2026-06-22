@@ -32,6 +32,14 @@ extern struct record_description NFClockKind_SOLVER__CLOCK__desc;
 
 
 DLLDirection
+modelica_integer omc_NFClockKind_hashContinue(threadData_t *threadData, modelica_metatype _clk, modelica_integer __omcQ_24in_5Fhash);
+DLLDirection
+modelica_metatype boxptr_NFClockKind_hashContinue(threadData_t *threadData, modelica_metatype _clk, modelica_metatype __omcQ_24in_5Fhash);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFClockKind_hashContinue,2,0) {(void*) boxptr_NFClockKind_hashContinue,0}};
+#define boxvar_NFClockKind_hashContinue MMC_REFSTRUCTLIT(boxvar_lit_NFClockKind_hashContinue)
+
+
+DLLDirection
 modelica_metatype omc_NFClockKind_toJSON(threadData_t *threadData, modelica_metatype _clk);
 #define boxptr_NFClockKind_toJSON omc_NFClockKind_toJSON
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFClockKind_toJSON,2,0) {(void*) boxptr_NFClockKind_toJSON,0}};

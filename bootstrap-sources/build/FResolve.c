@@ -322,7 +322,7 @@ modelica_metatype omc_FResolve_mod__one(threadData_t *threadData, modelica_strin
           _g = tmp4_2;
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp6 = ((omc_FNode_isRefMod(threadData, _r) && (!omc_FNode_isRefModHolder(threadData, _r))) && (!omc_ClassInf_isBasicTypeComponentName(threadData, omc_FNode_refName(threadData, _r))));
+          tmp6 = ((omc_FNode_isRefMod(threadData, _r) && (!omc_FNode_isRefModHolder(threadData, _r))) && (!omc_ClassInfUtil_isBasicTypeComponentName(threadData, omc_FNode_refName(threadData, _r))));
           if (1 /* true */ != tmp6) goto goto_2;
 
           /* Pattern-matching assignment */
@@ -339,7 +339,7 @@ modelica_metatype omc_FResolve_mod__one(threadData_t *threadData, modelica_strin
           _g = tmp4_2;
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp8 = ((omc_FNode_isRefMod(threadData, _r) && (!omc_FNode_isRefModHolder(threadData, _r))) && (!omc_ClassInf_isBasicTypeComponentName(threadData, omc_FNode_refName(threadData, _r))));
+          tmp8 = ((omc_FNode_isRefMod(threadData, _r) && (!omc_FNode_isRefModHolder(threadData, _r))) && (!omc_ClassInfUtil_isBasicTypeComponentName(threadData, omc_FNode_refName(threadData, _r))));
           if (1 /* true */ != tmp8) goto goto_2;
 
           _cr = omc_AbsynUtil_pathToCref(threadData, omc_AbsynUtil_stringListPath(threadData, omc_FNode_namesUpToParentName(threadData, _r, _OMC_LIT9)));
@@ -362,7 +362,7 @@ modelica_metatype omc_FResolve_mod__one(threadData_t *threadData, modelica_strin
           _g = tmp4_2;
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp10 = ((omc_FNode_isRefMod(threadData, _r) && (!omc_FNode_isRefModHolder(threadData, _r))) && (!omc_ClassInf_isBasicTypeComponentName(threadData, omc_FNode_refName(threadData, _r))));
+          tmp10 = ((omc_FNode_isRefMod(threadData, _r) && (!omc_FNode_isRefModHolder(threadData, _r))) && (!omc_ClassInfUtil_isBasicTypeComponentName(threadData, omc_FNode_refName(threadData, _r))));
           if (1 /* true */ != tmp10) goto goto_2;
 
           _cr = omc_AbsynUtil_pathToCref(threadData, omc_AbsynUtil_stringListPath(threadData, omc_FNode_namesUpToParentName(threadData, _r, _OMC_LIT9)));
@@ -1516,8 +1516,6 @@ modelica_metatype omc_FResolve_ext__one(threadData_t *threadData, modelica_strin
 
           _p = omc_SCodeUtil_getBaseClassPath(threadData, _e);
 
-          omc_SCodeUtil_elementInfo(threadData, _e);
-
           _g = omc_FLookup_name(threadData, _g, _r, _p, _OMC_LIT10, mmc_mk_none() ,&_rr);
           tmpMeta13 = mmc_mk_cons(_rr, MMC_REFSTRUCTLIT(mmc_nil));
           tmpMeta1 = omc_FGraphBuild_mkRefNode(threadData, _OMC_LIT1, tmpMeta13, _r, _g);
@@ -1553,8 +1551,6 @@ modelica_metatype omc_FResolve_ext__one(threadData_t *threadData, modelica_strin
           _e = tmpMeta17;
 
           _p = omc_SCodeUtil_getBaseClassPath(threadData, _e);
-
-          omc_SCodeUtil_elementInfo(threadData, _e);
 
           tmp18 = 0; /* begin failure */
           MMC_TRY_INTERNAL(mmc_jumper)

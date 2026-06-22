@@ -28,8 +28,6 @@ extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__DESC__OPTION__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NBDifferentiate_DifferentiationArguments_DIFFERENTIATION__ARGUMENTS__desc;
 
 extern struct record_description NBEquation_Iterator_EMPTY__desc;
@@ -104,15 +102,6 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 #define boxptr_NBJacobian_getSeedCandidatesDynamicOptimization omc_NBJacobian_getSeedCandidatesDynamicOptimization
 
 
-#define boxptr_NBJacobian_getInitialEquations omc_NBJacobian_getInitialEquations
-
-
-#define boxptr_NBJacobian_getMayerFinalEquations omc_NBJacobian_getMayerFinalEquations
-
-
-#define boxptr_NBJacobian_getLagrangePathEquations omc_NBJacobian_getLagrangePathEquations
-
-
 #define boxptr_NBJacobian_getOptimizableVars omc_NBJacobian_getOptimizableVars
 
 
@@ -177,11 +166,25 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBJacobian_SparsityPattern_createEmpty,
 
 
 DLLDirection
-modelica_metatype omc_NBJacobian_SparsityPattern_create(threadData_t *threadData, modelica_metatype _seedCandidates, modelica_metatype _partialCandidates, modelica_metatype _strongComponents, modelica_integer _jacType, modelica_metatype *out_sparsityColoring);
+modelica_metatype omc_NBJacobian_SparsityPattern_create(threadData_t *threadData, modelica_metatype _seedCandidates, modelica_metatype _partialCandidates, modelica_metatype _strongComponents, modelica_integer _jacType, modelica_boolean _staticAsContinuous, modelica_metatype *out_sparsityColoring);
 DLLDirection
-modelica_metatype boxptr_NBJacobian_SparsityPattern_create(threadData_t *threadData, modelica_metatype _seedCandidates, modelica_metatype _partialCandidates, modelica_metatype _strongComponents, modelica_metatype _jacType, modelica_metatype *out_sparsityColoring);
+modelica_metatype boxptr_NBJacobian_SparsityPattern_create(threadData_t *threadData, modelica_metatype _seedCandidates, modelica_metatype _partialCandidates, modelica_metatype _strongComponents, modelica_metatype _jacType, modelica_metatype _staticAsContinuous, modelica_metatype *out_sparsityColoring);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBJacobian_SparsityPattern_create,2,0) {(void*) boxptr_NBJacobian_SparsityPattern_create,0}};
 #define boxvar_NBJacobian_SparsityPattern_create MMC_REFSTRUCTLIT(boxvar_lit_NBJacobian_SparsityPattern_create)
+
+
+DLLDirection
+modelica_metatype omc_NBJacobian_SparsityPattern_resolveRowDependencies(threadData_t *threadData, modelica_metatype _row, modelica_metatype _map, modelica_metatype _seed_set);
+#define boxptr_NBJacobian_SparsityPattern_resolveRowDependencies omc_NBJacobian_SparsityPattern_resolveRowDependencies
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBJacobian_SparsityPattern_resolveRowDependencies,2,0) {(void*) boxptr_NBJacobian_SparsityPattern_resolveRowDependencies,0}};
+#define boxvar_NBJacobian_SparsityPattern_resolveRowDependencies MMC_REFSTRUCTLIT(boxvar_lit_NBJacobian_SparsityPattern_resolveRowDependencies)
+
+
+DLLDirection
+void omc_NBJacobian_SparsityPattern_resolveDependency(threadData_t *threadData, modelica_metatype _cref, modelica_metatype _map, modelica_metatype _seed_set, modelica_metatype _visited, modelica_metatype _dep_set);
+#define boxptr_NBJacobian_SparsityPattern_resolveDependency omc_NBJacobian_SparsityPattern_resolveDependency
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBJacobian_SparsityPattern_resolveDependency,2,0) {(void*) boxptr_NBJacobian_SparsityPattern_resolveDependency,0}};
+#define boxvar_NBJacobian_SparsityPattern_resolveDependency MMC_REFSTRUCTLIT(boxvar_lit_NBJacobian_SparsityPattern_resolveDependency)
 
 
 DLLDirection
@@ -236,9 +239,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBJacobian_combine,2,0) {(void*) boxptr
 
 
 DLLDirection
-modelica_metatype omc_NBJacobian_nonlinear(threadData_t *threadData, modelica_metatype _seedCandidates, modelica_metatype _partialCandidates, modelica_metatype _equations, modelica_metatype _comps, modelica_metatype _full, modelica_metatype _funcMap, modelica_string _name, modelica_boolean _init);
+modelica_metatype omc_NBJacobian_nonlinear(threadData_t *threadData, modelica_metatype _seedCandidates, modelica_metatype _partialCandidates, modelica_metatype _equations, modelica_metatype _comps, modelica_metatype _full, modelica_metatype _funcMap, modelica_string _name, modelica_boolean _staticAsContinuous);
 DLLDirection
-modelica_metatype boxptr_NBJacobian_nonlinear(threadData_t *threadData, modelica_metatype _seedCandidates, modelica_metatype _partialCandidates, modelica_metatype _equations, modelica_metatype _comps, modelica_metatype _full, modelica_metatype _funcMap, modelica_metatype _name, modelica_metatype _init);
+modelica_metatype boxptr_NBJacobian_nonlinear(threadData_t *threadData, modelica_metatype _seedCandidates, modelica_metatype _partialCandidates, modelica_metatype _equations, modelica_metatype _comps, modelica_metatype _full, modelica_metatype _funcMap, modelica_metatype _name, modelica_metatype _staticAsContinuous);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBJacobian_nonlinear,2,0) {(void*) boxptr_NBJacobian_nonlinear,0}};
 #define boxvar_NBJacobian_nonlinear MMC_REFSTRUCTLIT(boxvar_lit_NBJacobian_nonlinear)
 

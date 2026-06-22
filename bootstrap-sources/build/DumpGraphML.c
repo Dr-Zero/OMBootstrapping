@@ -499,7 +499,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_DumpGraphML_addCompsGraph(thread
           _varlst = omc_List_map1r(threadData, _vlst, boxvar_BackendVariable_getVarAt, _vars);
 
           tmpMeta11 = stringAppend(intString(_iN),_OMC_LIT7);
-          tmpMeta12 = stringAppend(tmpMeta11,stringDelimitList(omc_List_mapMap(threadData, _varlst, boxvar_BackendVariable_varCref, boxvar_ComponentReference_printComponentRefStr), _OMC_LIT8));
+          tmpMeta12 = stringAppend(tmpMeta11,stringDelimitList(omc_List_mapMap(threadData, _varlst, boxvar_BackendVariable_varCref, boxvar_ComponentReferenceBasics_printComponentRefStr), _OMC_LIT8));
           _text = tmpMeta12;
 
           tmpMeta13 = mmc_mk_box4(3, &GraphML_NodeLabel_NODELABEL__INTERNAL__desc, _text, mmc_mk_none(), _OMC_LIT9);
@@ -549,7 +549,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_DumpGraphML_addDirectedNumEdgeGr
   modelica_metatype _outTpl = NULL;
   modelica_integer _id;
   modelica_integer _r;
-  modelica_integer _n;
   modelica_metatype _graph = NULL;
   modelica_metatype _arrow = NULL;
   modelica_string _text = NULL;
@@ -576,7 +575,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_DumpGraphML_addDirectedNumEdgeGr
   // _outTpl has no default value.
   // _id has no default value.
   // _r has no default value.
-  // _n has no default value.
   // _graph has no default value.
   // _arrow has no default value.
   // _text has no default value.
@@ -643,7 +641,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_DumpGraphML_addDirectedNumEdgesG
   modelica_metatype _vars = NULL;
   modelica_metatype _vec2 = NULL;
   modelica_metatype _vec3 = NULL;
-  modelica_metatype _mapIncRowEqn = NULL;
   modelica_string _text = NULL;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
@@ -668,7 +665,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_DumpGraphML_addDirectedNumEdgesG
   // _vars has no default value.
   // _vec2 has no default value.
   // _vec3 has no default value.
-  // _mapIncRowEqn has no default value.
   // _text has no default value.
   /* Pattern-matching assignment */
   tmpMeta1 = _inTpl;
@@ -790,7 +786,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_DumpGraphML_addDirectedEdgesGrap
   modelica_metatype _outTpl = NULL;
   modelica_integer _id;
   modelica_integer _v;
-  modelica_integer _n;
   modelica_metatype _graph = NULL;
   modelica_metatype _m = NULL;
   modelica_metatype _vars = NULL;
@@ -814,7 +809,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_DumpGraphML_addDirectedEdgesGrap
   // _outTpl has no default value.
   // _id has no default value.
   // _v has no default value.
-  // _n has no default value.
   // _graph has no default value.
   // _m has no default value.
   // _vars has no default value.
@@ -1416,7 +1410,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_DumpGraphML_addVarGraphMatch(thr
           _color = ((mmc_unbox_integer(arrayGet(_vec1,_id) /* DAE.ASUB */) > ((modelica_integer) 0))?_OMC_LIT20:_OMC_LIT21);
 
           tmpMeta17 = stringAppend(intString(_id),_OMC_LIT18);
-          tmpMeta18 = stringAppend(tmpMeta17,omc_ComponentReference_printComponentRefStr(threadData, _cr));
+          tmpMeta18 = stringAppend(tmpMeta17,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr));
           _labelText = tmpMeta18;
 
           tmpMeta19 = mmc_mk_box4(3, &GraphML_NodeLabel_NODELABEL__INTERNAL__desc, _labelText, mmc_mk_none(), _OMC_LIT9);
@@ -1475,7 +1469,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_DumpGraphML_addVarGraphMatch(thr
 
           _color = ((mmc_unbox_integer(arrayGet(_vec1,_id) /* DAE.ASUB */) > ((modelica_integer) 0))?_OMC_LIT20:_OMC_LIT21);
 
-          _desc = omc_ComponentReference_printComponentRefStr(threadData, _cr);
+          _desc = omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr);
 
           _labelText = intString(_id);
 
@@ -1533,7 +1527,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_DumpGraphML_addVarGraphMatch(thr
           _color = ((mmc_unbox_integer(arrayGet(_vec1,_id) /* DAE.ASUB */) > ((modelica_integer) 0))?_OMC_LIT23:_OMC_LIT21);
 
           tmpMeta52 = stringAppend(intString(_id),_OMC_LIT18);
-          tmpMeta53 = stringAppend(tmpMeta52,omc_ComponentReference_printComponentRefStr(threadData, _cr));
+          tmpMeta53 = stringAppend(tmpMeta52,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr));
           _labelText = tmpMeta53;
 
           tmpMeta54 = mmc_mk_box4(3, &GraphML_NodeLabel_NODELABEL__INTERNAL__desc, _labelText, mmc_mk_none(), _OMC_LIT9);
@@ -1587,7 +1581,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_DumpGraphML_addVarGraphMatch(thr
           /* Pattern matching succeeded */
           _color = ((mmc_unbox_integer(arrayGet(_vec1,_id) /* DAE.ASUB */) > ((modelica_integer) 0))?_OMC_LIT23:_OMC_LIT21);
 
-          _desc = omc_ComponentReference_printComponentRefStr(threadData, _cr);
+          _desc = omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr);
 
           _labelText = intString(_id);
 
@@ -1723,7 +1717,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_DumpGraphML_addVarGraph(threadDa
           tmpMeta16 = mmc_mk_box4(3, &GraphML_NodeLabel_NODELABEL__INTERNAL__desc, _labelText, mmc_mk_none(), _OMC_LIT9);
           _label = tmpMeta16;
 
-          _desc = omc_ComponentReference_printComponentRefStr(threadData, _cr);
+          _desc = omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr);
 
           tmpMeta17 = stringAppend(_OMC_LIT15,intString(_id));
           tmpMeta18 = mmc_mk_cons(_label, MMC_REFSTRUCTLIT(mmc_nil));
@@ -1776,7 +1770,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_DumpGraphML_addVarGraph(threadDa
           if (1 /* true */ != tmp31) goto goto_2;
 
           tmpMeta32 = stringAppend(intString(_id),_OMC_LIT18);
-          tmpMeta33 = stringAppend(tmpMeta32,omc_ComponentReference_printComponentRefStr(threadData, _cr));
+          tmpMeta33 = stringAppend(tmpMeta32,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr));
           _labelText = tmpMeta33;
 
           tmpMeta34 = mmc_mk_box4(3, &GraphML_NodeLabel_NODELABEL__INTERNAL__desc, _labelText, mmc_mk_none(), _OMC_LIT9);
@@ -1834,7 +1828,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_DumpGraphML_addVarGraph(threadDa
           tmpMeta49 = mmc_mk_box4(3, &GraphML_NodeLabel_NODELABEL__INTERNAL__desc, _labelText, mmc_mk_none(), _OMC_LIT9);
           _label = tmpMeta49;
 
-          _desc = omc_ComponentReference_printComponentRefStr(threadData, _cr);
+          _desc = omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr);
 
           tmpMeta50 = stringAppend(_OMC_LIT15,intString(_id));
           tmpMeta51 = mmc_mk_cons(_label, MMC_REFSTRUCTLIT(mmc_nil));
@@ -1886,7 +1880,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_DumpGraphML_addVarGraph(threadDa
           _color = (_b?_OMC_LIT19:_OMC_LIT23);
 
           tmpMeta64 = stringAppend(intString(_id),_OMC_LIT18);
-          tmpMeta65 = stringAppend(tmpMeta64,omc_ComponentReference_printComponentRefStr(threadData, _cr));
+          tmpMeta65 = stringAppend(tmpMeta64,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr));
           _labelText = tmpMeta65;
 
           tmpMeta66 = mmc_mk_box4(3, &GraphML_NodeLabel_NODELABEL__INTERNAL__desc, _labelText, mmc_mk_none(), _OMC_LIT9);
@@ -2334,8 +2328,6 @@ void omc_DumpGraphML_dumpSystem(threadData_t *threadData, modelica_metatype _inS
           _comps = tmpMeta97;
           /* Pattern matching succeeded */
           _vars = omc_BackendVariable_daeVars(threadData, _inSystem);
-
-          omc_BackendEquation_getEqnsFromEqSystem(threadData, _inSystem);
 
           _funcs = omc_BackendDAEUtil_getFunctions(threadData, _inShared);
 

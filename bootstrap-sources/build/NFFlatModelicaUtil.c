@@ -387,7 +387,7 @@ modelica_metatype omc_NFFlatModelicaUtil_appendCommentAnnotation(threadData_t *t
                 case 1: {
                   
                   /* Pattern matching succeeded */
-                  tmpMeta8 = omc_DAEDump_filterStructuralMods(threadData, _mod);
+                  tmpMeta8 = omc_DAEDumpTypes_filterStructuralMods(threadData, _mod);
                   goto tmp10_done;
                 }
                 }

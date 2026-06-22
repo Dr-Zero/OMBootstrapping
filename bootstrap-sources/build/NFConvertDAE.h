@@ -12,13 +12,13 @@ extern "C" {
 
 extern struct record_description Absyn_InnerOuter_NOT__INNER__OUTER__desc;
 
+extern struct record_description AvlTreePathFunction_Tree_EMPTY__desc;
+
+extern struct record_description AvlTreePathFunction_Tree_LEAF__desc;
+
+extern struct record_description AvlTreePathFunction_Tree_NODE__desc;
+
 extern struct record_description DAE_Algorithm_ALGORITHM__STMTS__desc;
-
-extern struct record_description DAE_AvlTreePathFunction_Tree_EMPTY__desc;
-
-extern struct record_description DAE_AvlTreePathFunction_Tree_LEAF__desc;
-
-extern struct record_description DAE_AvlTreePathFunction_Tree_NODE__desc;
 
 extern struct record_description DAE_ComponentPrefix_NOCOMPPRE__desc;
 
@@ -177,8 +177,6 @@ extern struct record_description DAE_VariableAttributes_VAR__ATTR__REAL__desc;
 extern struct record_description DAE_VariableAttributes_VAR__ATTR__STRING__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
 extern struct record_description NFComponentRef_EMPTY__desc;
 

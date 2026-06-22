@@ -14,6 +14,8 @@ extern struct record_description Absyn_Path_IDENT__desc;
 
 extern struct record_description AvlSetPath_Tree_EMPTY__desc;
 
+extern struct record_description AvlTreePathFunction_Tree_EMPTY__desc;
+
 extern struct record_description BackendDAE_DifferentiateInputData_DIFFINPUTDATA__desc;
 
 extern struct record_description BackendDAE_DifferentiationType_DIFFERENTIATION__FUNCTION__desc;
@@ -49,8 +51,6 @@ extern struct record_description BackendDAE_WhenEquation_WHEN__STMTS__desc;
 extern struct record_description BackendDAE_WhenOperator_ASSIGN__desc;
 
 extern struct record_description DAE_Algorithm_ALGORITHM__STMTS__desc;
-
-extern struct record_description DAE_AvlTreePathFunction_Tree_EMPTY__desc;
 
 extern struct record_description DAE_CallAttributes_CALL__ATTR__desc;
 
@@ -197,8 +197,6 @@ extern struct record_description ErrorTypes_Severity_ERROR__desc;
 extern struct record_description ErrorTypes_Severity_WARNING__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 

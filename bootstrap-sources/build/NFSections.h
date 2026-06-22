@@ -41,6 +41,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFSections_toFlatStream,2,0) {(void*) b
 
 
 DLLDirection
+modelica_metatype omc_NFSections_toStream(threadData_t *threadData, modelica_metatype _sections, modelica_string _indent, modelica_metatype __omcQ_24in_5Fs);
+#define boxptr_NFSections_toStream omc_NFSections_toStream
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFSections_toStream,2,0) {(void*) boxptr_NFSections_toStream,0}};
+#define boxvar_NFSections_toStream MMC_REFSTRUCTLIT(boxvar_lit_NFSections_toStream)
+
+
+DLLDirection
 modelica_boolean omc_NFSections_isEmpty(threadData_t *threadData, modelica_metatype _sections);
 DLLDirection
 modelica_metatype boxptr_NFSections_isEmpty(threadData_t *threadData, modelica_metatype _sections);

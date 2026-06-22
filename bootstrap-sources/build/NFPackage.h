@@ -14,6 +14,8 @@ extern struct record_description NFBinding_UNBOUND__desc;
 
 extern struct record_description NFCeval_EvalTarget_EVAL__TARGET__desc;
 
+extern struct record_description NFFlatModel_FLAT__MODEL__desc;
+
 extern struct record_description NFPackage_ConstantsSetImpl_Tree_EMPTY__desc;
 
 extern struct record_description NFPackage_ConstantsSetImpl_Tree_LEAF__desc;

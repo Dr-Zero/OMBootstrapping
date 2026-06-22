@@ -6807,7 +6807,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Refactor_getCoordsInPath(threadD
           /* Pattern matching succeeded */
           _fullPath = omc_Refactor_fixPaths(threadData, _cPath, _path);
 
-          _cdef = omc_InteractiveUtil_getPathedClassInProgram(threadData, _fullPath, _p, 0 /* false */, 0 /* false */);
+          _cdef = omc_ProgramUtil_getPathedClassInProgram(threadData, _fullPath, _p, 0 /* false */, 0 /* false */);
           tmpMeta[0+0] = omc_Refactor_getCoordsInClass(threadData, _cdef, _context, &tmpMeta[0+1], &tmpMeta[0+2], &tmpMeta[0+3]);
           goto tmp3_done;
         }
@@ -6820,7 +6820,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Refactor_getCoordsInPath(threadD
           /* Pattern matching succeeded */
           omc_Interactive_mkFullyQual(threadData, _env, _path, 0 /* false */ ,&_fullPath);
 
-          _cdef = omc_InteractiveUtil_getPathedClassInProgram(threadData, _fullPath, _p, 0 /* false */, 0 /* false */);
+          _cdef = omc_ProgramUtil_getPathedClassInProgram(threadData, _fullPath, _p, 0 /* false */, 0 /* false */);
           tmpMeta[0+0] = omc_Refactor_getCoordsInClass(threadData, _cdef, _context, &tmpMeta[0+1], &tmpMeta[0+2], &tmpMeta[0+3]);
           goto tmp3_done;
         }
@@ -7778,7 +7778,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Refactor_getRestrictionFromPath(
           /* Pattern matching succeeded */
           _fullPath = omc_Refactor_fixPaths(threadData, _cPath, _path);
 
-          _cdef = omc_InteractiveUtil_getPathedClassInProgram(threadData, _fullPath, _p, 0 /* false */, 0 /* false */);
+          _cdef = omc_ProgramUtil_getPathedClassInProgram(threadData, _fullPath, _p, 0 /* false */, 0 /* false */);
           tmpMeta1 = omc_Refactor_getRestrictionInClass(threadData, _cdef);
           goto tmp3_done;
         }
@@ -7790,7 +7790,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Refactor_getRestrictionFromPath(
           /* Pattern matching succeeded */
           omc_Interactive_mkFullyQual(threadData, _env, _path, 0 /* false */ ,&_fullPath);
 
-          _cdef = omc_InteractiveUtil_getPathedClassInProgram(threadData, _fullPath, _p, 0 /* false */, 0 /* false */);
+          _cdef = omc_ProgramUtil_getPathedClassInProgram(threadData, _fullPath, _p, 0 /* false */, 0 /* false */);
           tmpMeta1 = omc_Refactor_getRestrictionInClass(threadData, _cdef);
           goto tmp3_done;
         }
@@ -8600,8 +8600,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Refactor_refactorGraphAnnInAlgIt
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outItem has no default value.
-  { /* matchcontinue expression */
-    volatile modelica_metatype tmp4_1;
+  { /* match expression */
+    modelica_metatype tmp4_1;
     tmp4_1 = _inItem;
     {
       modelica_metatype _alg = NULL;
@@ -8615,9 +8615,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Refactor_refactorGraphAnnInAlgIt
       // _annList has no default value.
       // _info has no default value.
       tmp4 = 0;
-      MMC_TRY_INTERNAL(mmc_jumper)
-      tmp3_top:
-      threadData->mmc_jumper = &new_mmc_jumper;
       for (; tmp4 < 2; tmp4++) {
         switch (MMC_SWITCH_CAST(tmp4)) {
         case 0: {
@@ -8665,17 +8662,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Refactor_refactorGraphAnnInAlgIt
         tmp3_end: ;
       }
       goto goto_2;
-      tmp3_done:
-      (void)tmp4;
-      MMC_RESTORE_INTERNAL(mmc_jumper);
-      goto tmp3_done2;
       goto_2:;
-      MMC_CATCH_INTERNAL(mmc_jumper);
-      if (++tmp4 < 2) {
-        goto tmp3_top;
-      }
       MMC_THROW_INTERNAL();
-      tmp3_done2:;
+      goto tmp3_done;
+      tmp3_done:;
     }
   }
   _outItem = tmpMeta1;

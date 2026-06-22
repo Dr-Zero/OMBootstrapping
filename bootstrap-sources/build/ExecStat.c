@@ -10,62 +10,52 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT2,1,6) {&ErrorTypes_Severity_NOTIFI
 #define _OMC_LIT3_data "Performance of %s: time %s/%s, allocations: %s / %s, free: %s / %s"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT3,66,_OMC_LIT3_data);
 #define _OMC_LIT3 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT3)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT4,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT3}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT4,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(572)),_OMC_LIT1,_OMC_LIT2,_OMC_LIT3}};
 #define _OMC_LIT4 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT4)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT5,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(572)),_OMC_LIT1,_OMC_LIT2,_OMC_LIT4}};
-#define _OMC_LIT5 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT5)
-#define _OMC_LIT6_data " GC"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT6,3,_OMC_LIT6_data);
+#define _OMC_LIT5_data " GC"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT5,3,_OMC_LIT5_data);
+#define _OMC_LIT5 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT5)
+#define _OMC_LIT6_data ""
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT6,0,_OMC_LIT6_data);
 #define _OMC_LIT6 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT6)
-#define _OMC_LIT7_data ""
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,0,_OMC_LIT7_data);
+#define _OMC_LIT7_data " / "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,3,_OMC_LIT7_data);
 #define _OMC_LIT7 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT7)
-#define _OMC_LIT8_data " / "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT8,3,_OMC_LIT8_data);
+#define _OMC_LIT8_data "Performance of %s: time %s/%s, GC stats:%s"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT8,42,_OMC_LIT8_data);
 #define _OMC_LIT8 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT8)
-#define _OMC_LIT9_data "Performance of %s: time %s/%s, GC stats:%s"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT9,42,_OMC_LIT9_data);
-#define _OMC_LIT9 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT9)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT10,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT9}};
-#define _OMC_LIT10 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT10)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT11,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(573)),_OMC_LIT1,_OMC_LIT2,_OMC_LIT10}};
-#define _OMC_LIT11 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT11)
-#define _OMC_LIT12_data "gcProfiling"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT12,11,_OMC_LIT12_data);
-#define _OMC_LIT12 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT12)
-#define _OMC_LIT13_data "Prints garbage collection stats to standard output."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT13,51,_OMC_LIT13_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT9,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(573)),_OMC_LIT1,_OMC_LIT2,_OMC_LIT8}};
+#define _OMC_LIT9 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT9)
+#define _OMC_LIT10_data "gcProfiling"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT10,11,_OMC_LIT10_data);
+#define _OMC_LIT10 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT10)
+#define _OMC_LIT11_data "Prints garbage collection stats to standard output."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT11,51,_OMC_LIT11_data);
+#define _OMC_LIT11 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT11)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT12,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(13)),_OMC_LIT10,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT11}};
+#define _OMC_LIT12 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT12)
+#define _OMC_LIT13_data "execstatGCcollect"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT13,17,_OMC_LIT13_data);
 #define _OMC_LIT13 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT13)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT14,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT13}};
-#define _OMC_LIT14 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT14)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT15,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(13)),_OMC_LIT12,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT14}};
+#define _OMC_LIT14_data "When running execstat, also perform an extra full garbage collection."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT14,69,_OMC_LIT14_data);
+#define _OMC_LIT14 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT14)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT15,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(166)),_OMC_LIT13,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT14}};
 #define _OMC_LIT15 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT15)
-#define _OMC_LIT16_data "execstatGCcollect"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT16,17,_OMC_LIT16_data);
-#define _OMC_LIT16 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT16)
-#define _OMC_LIT17_data "When running execstat, also perform an extra full garbage collection."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT17,69,_OMC_LIT17_data);
-#define _OMC_LIT17 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT17)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT18,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT17}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT16,2,1) {MMC_IMMEDIATE(MMC_TAGFIXNUM(2)),MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT16 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT16)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT17,2,1) {MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT16}};
+#define _OMC_LIT17 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT17)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT18,2,1) {MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),MMC_REFSTRUCTLIT(mmc_nil)}};
 #define _OMC_LIT18 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT18)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT19,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(166)),_OMC_LIT16,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT18}};
-#define _OMC_LIT19 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT19)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT20,2,1) {MMC_IMMEDIATE(MMC_TAGFIXNUM(2)),MMC_REFSTRUCTLIT(mmc_nil)}};
-#define _OMC_LIT20 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT20)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT21,2,1) {MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT20}};
+#define _OMC_LIT19_data "execstat"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT19,8,_OMC_LIT19_data);
+#define _OMC_LIT19 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT19)
+#define _OMC_LIT20_data "Prints out execution statistics for the compiler."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT20,49,_OMC_LIT20_data);
+#define _OMC_LIT20 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT20)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT21,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(31)),_OMC_LIT19,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT20}};
 #define _OMC_LIT21 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT21)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT22,2,1) {MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),MMC_REFSTRUCTLIT(mmc_nil)}};
-#define _OMC_LIT22 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT22)
-#define _OMC_LIT23_data "execstat"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT23,8,_OMC_LIT23_data);
-#define _OMC_LIT23 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT23)
-#define _OMC_LIT24_data "Prints out execution statistics for the compiler."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT24,49,_OMC_LIT24_data);
-#define _OMC_LIT24 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT24)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT25,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT24}};
-#define _OMC_LIT25 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT25)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT26,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(31)),_OMC_LIT23,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT25}};
-#define _OMC_LIT26 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT26)
 #include "util/modelica.h"
 
 #include "ExecStat_includes.h"
@@ -173,11 +163,11 @@ void omc_ExecStat_execStat(threadData_t *threadData, modelica_string _name)
   // _before has no default value.
   // _stats has no default value.
   // _oldStats has no default value.
-  if(omc_Flags_isSet(threadData, _OMC_LIT26))
+  if(omc_Flags_isSet(threadData, _OMC_LIT21))
   {
     {
       modelica_metatype _i;
-      for (tmpMeta1 = (omc_Flags_isSet(threadData, _OMC_LIT19)?_OMC_LIT21:_OMC_LIT22); !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
+      for (tmpMeta1 = (omc_Flags_isSet(threadData, _OMC_LIT15)?_OMC_LIT17:_OMC_LIT18); !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
       {
         _i = MMC_CAR(tmpMeta1);
         if((mmc_unbox_integer(_i) == ((modelica_integer) 2)))
@@ -224,19 +214,19 @@ void omc_ExecStat_execStat(threadData_t *threadData, modelica_string _name)
 
         _totalTimeStr = omc_ExecStat_execStat_snprintff(threadData, _total);
 
-        if(omc_Flags_isSet(threadData, _OMC_LIT15))
+        if(omc_Flags_isSet(threadData, _OMC_LIT12))
         {
-          _gcStr = omc_GCExt_profStatsStr(threadData, _stats, _OMC_LIT7, _OMC_LIT8);
+          _gcStr = omc_GCExt_profStatsStr(threadData, _stats, _OMC_LIT6, _OMC_LIT7);
 
-          tmpMeta17 = stringAppend(_name,((mmc_unbox_integer(_i) == ((modelica_integer) 2))?_OMC_LIT6:_OMC_LIT7));
+          tmpMeta17 = stringAppend(_name,((mmc_unbox_integer(_i) == ((modelica_integer) 2))?_OMC_LIT5:_OMC_LIT6));
           tmpMeta16 = mmc_mk_cons(tmpMeta17, mmc_mk_cons(_timeStr, mmc_mk_cons(_totalTimeStr, mmc_mk_cons(_gcStr, MMC_REFSTRUCTLIT(mmc_nil)))));
-          omc_Error_addMessage(threadData, _OMC_LIT11, tmpMeta16);
+          omc_Error_addMessage(threadData, _OMC_LIT9, tmpMeta16);
         }
         else
         {
-          tmpMeta19 = stringAppend(_name,((mmc_unbox_integer(_i) == ((modelica_integer) 2))?_OMC_LIT6:_OMC_LIT7));
+          tmpMeta19 = stringAppend(_name,((mmc_unbox_integer(_i) == ((modelica_integer) 2))?_OMC_LIT5:_OMC_LIT6));
           tmpMeta18 = mmc_mk_cons(tmpMeta19, mmc_mk_cons(_timeStr, mmc_mk_cons(_totalTimeStr, mmc_mk_cons(omc_ExecStat_execStat_bytesToReadableUnit(threadData, ((modelica_real)_memory - _oldMemory)), mmc_mk_cons(omc_ExecStat_execStat_bytesToReadableUnit(threadData, ((modelica_real)_memory)), mmc_mk_cons(omc_ExecStat_execStat_bytesToReadableUnit(threadData, ((modelica_real)_free_bytes_full)), mmc_mk_cons(omc_ExecStat_execStat_bytesToReadableUnit(threadData, ((modelica_real)_heapsize_full)), MMC_REFSTRUCTLIT(mmc_nil))))))));
-          omc_Error_addMessage(threadData, _OMC_LIT5, tmpMeta18);
+          omc_Error_addMessage(threadData, _OMC_LIT4, tmpMeta18);
         }
 
         setGlobalRoot(((modelica_integer) 21), _stats);

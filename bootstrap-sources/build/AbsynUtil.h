@@ -40,6 +40,8 @@ extern struct record_description Absyn_ClassPart_ALGORITHMS__desc;
 
 extern struct record_description Absyn_ClassPart_EQUATIONS__desc;
 
+extern struct record_description Absyn_ClassPart_INITIALEQUATIONS__desc;
+
 extern struct record_description Absyn_ClassPart_PROTECTED__desc;
 
 extern struct record_description Absyn_ClassPart_PUBLIC__desc;
@@ -160,9 +162,95 @@ extern struct record_description ErrorTypes_MessageType_TRANSLATION__desc;
 
 extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description SourceInfo_SOURCEINFO__desc;
+
+
+DLLDirection
+modelica_boolean omc_AbsynUtil_equationEqual(threadData_t *threadData, modelica_metatype _eq1, modelica_metatype _eq2, modelica_boolean _shallow, modelica_boolean _ignoreComment);
+DLLDirection
+modelica_metatype boxptr_AbsynUtil_equationEqual(threadData_t *threadData, modelica_metatype _eq1, modelica_metatype _eq2, modelica_metatype _shallow, modelica_metatype _ignoreComment);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_AbsynUtil_equationEqual,2,0) {(void*) boxptr_AbsynUtil_equationEqual,0}};
+#define boxvar_AbsynUtil_equationEqual MMC_REFSTRUCTLIT(boxvar_lit_AbsynUtil_equationEqual)
+
+
+DLLDirection
+modelica_boolean omc_AbsynUtil_equationItemsEqual(threadData_t *threadData, modelica_metatype _eql1, modelica_metatype _eql2, modelica_boolean _shallow, modelica_boolean _ignoreComment);
+DLLDirection
+modelica_metatype boxptr_AbsynUtil_equationItemsEqual(threadData_t *threadData, modelica_metatype _eql1, modelica_metatype _eql2, modelica_metatype _shallow, modelica_metatype _ignoreComment);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_AbsynUtil_equationItemsEqual,2,0) {(void*) boxptr_AbsynUtil_equationItemsEqual,0}};
+#define boxvar_AbsynUtil_equationItemsEqual MMC_REFSTRUCTLIT(boxvar_lit_AbsynUtil_equationItemsEqual)
+
+
+DLLDirection
+modelica_boolean omc_AbsynUtil_equationItemEqual(threadData_t *threadData, modelica_metatype _eq1, modelica_metatype _eq2, modelica_boolean _shallow, modelica_boolean _ignoreComment);
+DLLDirection
+modelica_metatype boxptr_AbsynUtil_equationItemEqual(threadData_t *threadData, modelica_metatype _eq1, modelica_metatype _eq2, modelica_metatype _shallow, modelica_metatype _ignoreComment);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_AbsynUtil_equationItemEqual,2,0) {(void*) boxptr_AbsynUtil_equationItemEqual,0}};
+#define boxvar_AbsynUtil_equationItemEqual MMC_REFSTRUCTLIT(boxvar_lit_AbsynUtil_equationItemEqual)
+
+
+DLLDirection
+modelica_boolean omc_AbsynUtil_eqModEqual(threadData_t *threadData, modelica_metatype _eqMod1, modelica_metatype _eqMod2);
+DLLDirection
+modelica_metatype boxptr_AbsynUtil_eqModEqual(threadData_t *threadData, modelica_metatype _eqMod1, modelica_metatype _eqMod2);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_AbsynUtil_eqModEqual,2,0) {(void*) boxptr_AbsynUtil_eqModEqual,0}};
+#define boxvar_AbsynUtil_eqModEqual MMC_REFSTRUCTLIT(boxvar_lit_AbsynUtil_eqModEqual)
+
+
+DLLDirection
+modelica_boolean omc_AbsynUtil_modEqual(threadData_t *threadData, modelica_metatype _mod1, modelica_metatype _mod2);
+DLLDirection
+modelica_metatype boxptr_AbsynUtil_modEqual(threadData_t *threadData, modelica_metatype _mod1, modelica_metatype _mod2);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_AbsynUtil_modEqual,2,0) {(void*) boxptr_AbsynUtil_modEqual,0}};
+#define boxvar_AbsynUtil_modEqual MMC_REFSTRUCTLIT(boxvar_lit_AbsynUtil_modEqual)
+
+
+DLLDirection
+modelica_boolean omc_AbsynUtil_elementArgEqual(threadData_t *threadData, modelica_metatype _arg1, modelica_metatype _arg2);
+DLLDirection
+modelica_metatype boxptr_AbsynUtil_elementArgEqual(threadData_t *threadData, modelica_metatype _arg1, modelica_metatype _arg2);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_AbsynUtil_elementArgEqual,2,0) {(void*) boxptr_AbsynUtil_elementArgEqual,0}};
+#define boxvar_AbsynUtil_elementArgEqual MMC_REFSTRUCTLIT(boxvar_lit_AbsynUtil_elementArgEqual)
+
+
+DLLDirection
+modelica_boolean omc_AbsynUtil_annotationEqual(threadData_t *threadData, modelica_metatype _ann1, modelica_metatype _ann2);
+DLLDirection
+modelica_metatype boxptr_AbsynUtil_annotationEqual(threadData_t *threadData, modelica_metatype _ann1, modelica_metatype _ann2);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_AbsynUtil_annotationEqual,2,0) {(void*) boxptr_AbsynUtil_annotationEqual,0}};
+#define boxvar_AbsynUtil_annotationEqual MMC_REFSTRUCTLIT(boxvar_lit_AbsynUtil_annotationEqual)
+
+
+DLLDirection
+modelica_boolean omc_AbsynUtil_commentEqual(threadData_t *threadData, modelica_metatype _cmt1, modelica_metatype _cmt2);
+DLLDirection
+modelica_metatype boxptr_AbsynUtil_commentEqual(threadData_t *threadData, modelica_metatype _cmt1, modelica_metatype _cmt2);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_AbsynUtil_commentEqual,2,0) {(void*) boxptr_AbsynUtil_commentEqual,0}};
+#define boxvar_AbsynUtil_commentEqual MMC_REFSTRUCTLIT(boxvar_lit_AbsynUtil_commentEqual)
+
+
+DLLDirection
+modelica_boolean omc_AbsynUtil_functionArgsEqual(threadData_t *threadData, modelica_metatype _args1, modelica_metatype _args2);
+DLLDirection
+modelica_metatype boxptr_AbsynUtil_functionArgsEqual(threadData_t *threadData, modelica_metatype _args1, modelica_metatype _args2);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_AbsynUtil_functionArgsEqual,2,0) {(void*) boxptr_AbsynUtil_functionArgsEqual,0}};
+#define boxvar_AbsynUtil_functionArgsEqual MMC_REFSTRUCTLIT(boxvar_lit_AbsynUtil_functionArgsEqual)
+
+
+DLLDirection
+modelica_boolean omc_AbsynUtil_forIteratorEqual(threadData_t *threadData, modelica_metatype _iter1, modelica_metatype _iter2);
+DLLDirection
+modelica_metatype boxptr_AbsynUtil_forIteratorEqual(threadData_t *threadData, modelica_metatype _iter1, modelica_metatype _iter2);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_AbsynUtil_forIteratorEqual,2,0) {(void*) boxptr_AbsynUtil_forIteratorEqual,0}};
+#define boxvar_AbsynUtil_forIteratorEqual MMC_REFSTRUCTLIT(boxvar_lit_AbsynUtil_forIteratorEqual)
+
+
+DLLDirection
+modelica_metatype omc_AbsynUtil_appendEquation(threadData_t *threadData, modelica_metatype _eq, modelica_boolean _isInitial, modelica_metatype __omcQ_24in_5Fcls);
+DLLDirection
+modelica_metatype boxptr_AbsynUtil_appendEquation(threadData_t *threadData, modelica_metatype _eq, modelica_metatype _isInitial, modelica_metatype __omcQ_24in_5Fcls);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_AbsynUtil_appendEquation,2,0) {(void*) boxptr_AbsynUtil_appendEquation,0}};
+#define boxvar_AbsynUtil_appendEquation MMC_REFSTRUCTLIT(boxvar_lit_AbsynUtil_appendEquation)
 
 
 DLLDirection
@@ -222,6 +310,20 @@ DLLDirection
 modelica_metatype boxptr_AbsynUtil_setElementType(threadData_t *threadData, modelica_metatype __omcQ_24in_5Felement, modelica_metatype _typeSpec, modelica_metatype _allowMultipleComponents);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_AbsynUtil_setElementType,2,0) {(void*) boxptr_AbsynUtil_setElementType,0}};
 #define boxvar_AbsynUtil_setElementType MMC_REFSTRUCTLIT(boxvar_lit_AbsynUtil_setElementType)
+
+
+DLLDirection
+modelica_metatype omc_AbsynUtil_setEquationItemsInPart(threadData_t *threadData, modelica_metatype _eqs, modelica_metatype __omcQ_24in_5Fpart);
+#define boxptr_AbsynUtil_setEquationItemsInPart omc_AbsynUtil_setEquationItemsInPart
+static const MMC_DEFSTRUCTLIT(boxvar_lit_AbsynUtil_setEquationItemsInPart,2,0) {(void*) boxptr_AbsynUtil_setEquationItemsInPart,0}};
+#define boxvar_AbsynUtil_setEquationItemsInPart MMC_REFSTRUCTLIT(boxvar_lit_AbsynUtil_setEquationItemsInPart)
+
+
+DLLDirection
+modelica_metatype omc_AbsynUtil_getEquationItemsInPart(threadData_t *threadData, modelica_metatype _part);
+#define boxptr_AbsynUtil_getEquationItemsInPart omc_AbsynUtil_getEquationItemsInPart
+static const MMC_DEFSTRUCTLIT(boxvar_lit_AbsynUtil_getEquationItemsInPart,2,0) {(void*) boxptr_AbsynUtil_getEquationItemsInPart,0}};
+#define boxvar_AbsynUtil_getEquationItemsInPart MMC_REFSTRUCTLIT(boxvar_lit_AbsynUtil_getEquationItemsInPart)
 
 
 DLLDirection
@@ -848,6 +950,13 @@ modelica_metatype omc_AbsynUtil_getElementItemsInElement(threadData_t *threadDat
 #define boxptr_AbsynUtil_getElementItemsInElement omc_AbsynUtil_getElementItemsInElement
 static const MMC_DEFSTRUCTLIT(boxvar_lit_AbsynUtil_getElementItemsInElement,2,0) {(void*) boxptr_AbsynUtil_getElementItemsInElement,0}};
 #define boxvar_AbsynUtil_getElementItemsInElement MMC_REFSTRUCTLIT(boxvar_lit_AbsynUtil_getElementItemsInElement)
+
+
+DLLDirection
+modelica_metatype omc_AbsynUtil_setClassPartsInClass(threadData_t *threadData, modelica_metatype _parts, modelica_metatype __omcQ_24in_5Fcls);
+#define boxptr_AbsynUtil_setClassPartsInClass omc_AbsynUtil_setClassPartsInClass
+static const MMC_DEFSTRUCTLIT(boxvar_lit_AbsynUtil_setClassPartsInClass,2,0) {(void*) boxptr_AbsynUtil_setClassPartsInClass,0}};
+#define boxvar_AbsynUtil_setClassPartsInClass MMC_REFSTRUCTLIT(boxvar_lit_AbsynUtil_setClassPartsInClass)
 
 
 DLLDirection
@@ -2207,11 +2316,11 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_AbsynUtil_optPathString,2,0) {(void*) b
 
 
 DLLDirection
-modelica_integer omc_AbsynUtil_pathHashWork(threadData_t *threadData, modelica_metatype _path, modelica_integer _acc);
+modelica_integer omc_AbsynUtil_pathHashContinue(threadData_t *threadData, modelica_metatype _path, modelica_integer __omcQ_24in_5Fhash);
 DLLDirection
-modelica_metatype boxptr_AbsynUtil_pathHashWork(threadData_t *threadData, modelica_metatype _path, modelica_metatype _acc);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_AbsynUtil_pathHashWork,2,0) {(void*) boxptr_AbsynUtil_pathHashWork,0}};
-#define boxvar_AbsynUtil_pathHashWork MMC_REFSTRUCTLIT(boxvar_lit_AbsynUtil_pathHashWork)
+modelica_metatype boxptr_AbsynUtil_pathHashContinue(threadData_t *threadData, modelica_metatype _path, modelica_metatype __omcQ_24in_5Fhash);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_AbsynUtil_pathHashContinue,2,0) {(void*) boxptr_AbsynUtil_pathHashContinue,0}};
+#define boxvar_AbsynUtil_pathHashContinue MMC_REFSTRUCTLIT(boxvar_lit_AbsynUtil_pathHashContinue)
 
 
 DLLDirection

@@ -52,9 +52,7 @@ extern struct record_description FCore_Status_VAR__TYPED__desc;
 
 extern struct record_description FCore_Status_VAR__UNTYPED__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description GlobalScript_Variable_IVAR__desc;
+extern struct record_description InteractiveTypes_Variable_IVAR__desc;
 
 extern struct record_description SCode_Attributes_ATTR__desc;
 

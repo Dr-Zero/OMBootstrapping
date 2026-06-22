@@ -56,6 +56,32 @@ ADD_METARECORD_DEFINITIONS struct record_description NBSorting_Value_SINGLE__VAL
 extern struct record_description NBSorting_Value_SINGLE__VAL__desc;
 #endif
 #ifdef ADD_METARECORD_DEFINITIONS
+#ifndef NBSorting_LoopIdentifier_LOOP__IDENTIFIER__desc_added
+#define NBSorting_LoopIdentifier_LOOP__IDENTIFIER__desc_added
+ADD_METARECORD_DEFINITIONS const char* NBSorting_LoopIdentifier_LOOP__IDENTIFIER__desc__fields[2] = {"eqns","vars"};
+ADD_METARECORD_DEFINITIONS struct record_description NBSorting_LoopIdentifier_LOOP__IDENTIFIER__desc = {
+  "NBSorting_LoopIdentifier_LOOP__IDENTIFIER",
+  "NBSorting.LoopIdentifier.LOOP_IDENTIFIER",
+  NBSorting_LoopIdentifier_LOOP__IDENTIFIER__desc__fields
+};
+#endif
+#else /* Only use the file as a header */
+extern struct record_description NBSorting_LoopIdentifier_LOOP__IDENTIFIER__desc;
+#endif
+#ifdef ADD_METARECORD_DEFINITIONS
+#ifndef NBSorting_LoopIdentifier_LOOP__IDENTIFIER__desc_added
+#define NBSorting_LoopIdentifier_LOOP__IDENTIFIER__desc_added
+ADD_METARECORD_DEFINITIONS const char* NBSorting_LoopIdentifier_LOOP__IDENTIFIER__desc__fields[2] = {"eqns","vars"};
+ADD_METARECORD_DEFINITIONS struct record_description NBSorting_LoopIdentifier_LOOP__IDENTIFIER__desc = {
+  "NBSorting_LoopIdentifier_LOOP__IDENTIFIER",
+  "NBSorting.LoopIdentifier.LOOP_IDENTIFIER",
+  NBSorting_LoopIdentifier_LOOP__IDENTIFIER__desc__fields
+};
+#endif
+#else /* Only use the file as a header */
+extern struct record_description NBSorting_LoopIdentifier_LOOP__IDENTIFIER__desc;
+#endif
+#ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NBSorting_SuperNode_SINGLE__desc_added
 #define NBSorting_SuperNode_SINGLE__desc_added
 ADD_METARECORD_DEFINITIONS const char* NBSorting_SuperNode_SINGLE__desc__fields[1] = {"index"};

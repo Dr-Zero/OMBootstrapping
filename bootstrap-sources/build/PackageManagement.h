@@ -22,8 +22,6 @@ extern struct record_description ErrorTypes_Severity_NOTIFICATION__desc;
 
 extern struct record_description ErrorTypes_Severity_WARNING__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description JSON_FALSE__desc;
 
 extern struct record_description PackageManagement_AvailableLibraries_Tree_EMPTY__desc;

@@ -16,6 +16,8 @@ extern struct record_description BackendDAE_BackendDAE_DAE__desc;
 
 extern struct record_description BackendDAE_BaseClockPartitionKind_UNKNOWN__PARTITION__desc;
 
+extern struct record_description BackendDAE_EqSystem_EQSYSTEM__desc;
+
 extern struct record_description BackendDAE_Equation_EQUATION__desc;
 
 extern struct record_description BackendDAE_EquationAttributes_EQUATION__ATTRIBUTES__desc;
@@ -81,8 +83,6 @@ extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 

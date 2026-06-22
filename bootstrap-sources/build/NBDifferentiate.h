@@ -30,8 +30,6 @@ extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NBDifferentiate_DifferentiationArguments_DIFFERENTIATION__ARGUMENTS__desc;
 
 extern struct record_description NBEquation_Equation_ALGORITHM__desc;
@@ -132,6 +130,8 @@ extern struct record_description NFExpression_UNBOX__desc;
 
 extern struct record_description NFFunction_Function_FUNCTION__desc;
 
+extern struct record_description NFFunction_Slot_SLOT__desc;
+
 extern struct record_description NFFunctionDerivative_FUNCTION__DER__desc;
 
 extern struct record_description NFInstNode_CachedData_FUNCTION__desc;
@@ -228,7 +228,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBDifferentiate_differentiateBinary,2,0
 
 
 DLLDirection
-modelica_metatype omc_NBDifferentiate_differentiateStatement(threadData_t *threadData, modelica_metatype _stmt, modelica_metatype __omcQ_24in_5FdiffArguments, modelica_metatype *out_diffArguments);
+modelica_metatype omc_NBDifferentiate_differentiateStatement(threadData_t *threadData, modelica_metatype _stmt, modelica_metatype _diffInfo, modelica_metatype __omcQ_24in_5FdiffArguments, modelica_metatype *out_diffArguments);
 #define boxptr_NBDifferentiate_differentiateStatement omc_NBDifferentiate_differentiateStatement
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBDifferentiate_differentiateStatement,2,0) {(void*) boxptr_NBDifferentiate_differentiateStatement,0}};
 #define boxvar_NBDifferentiate_differentiateStatement MMC_REFSTRUCTLIT(boxvar_lit_NBDifferentiate_differentiateStatement)
@@ -273,9 +273,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBDifferentiate_differentiateFunctionIn
 
 
 DLLDirection
-modelica_metatype omc_NBDifferentiate_differentiateFunctionInterfaceNodes(threadData_t *threadData, modelica_metatype __omcQ_24in_5Finterface_5Fnodes, modelica_metatype _interface_map, modelica_metatype _diff_map, modelica_metatype __omcQ_24in_5FdiffArgs, modelica_boolean _keepOld, modelica_metatype *out_diffArgs);
+modelica_metatype omc_NBDifferentiate_differentiateFunctionInterfaceNodes(threadData_t *threadData, modelica_metatype __omcQ_24in_5Finterface_5Fnodes, modelica_metatype _interface_map, modelica_metatype _diff_map, modelica_metatype __omcQ_24in_5FdiffArgs, modelica_metatype _diffInfo, modelica_boolean _keepOld, modelica_metatype *out_diffArgs);
 DLLDirection
-modelica_metatype boxptr_NBDifferentiate_differentiateFunctionInterfaceNodes(threadData_t *threadData, modelica_metatype __omcQ_24in_5Finterface_5Fnodes, modelica_metatype _interface_map, modelica_metatype _diff_map, modelica_metatype __omcQ_24in_5FdiffArgs, modelica_metatype _keepOld, modelica_metatype *out_diffArgs);
+modelica_metatype boxptr_NBDifferentiate_differentiateFunctionInterfaceNodes(threadData_t *threadData, modelica_metatype __omcQ_24in_5Finterface_5Fnodes, modelica_metatype _interface_map, modelica_metatype _diff_map, modelica_metatype __omcQ_24in_5FdiffArgs, modelica_metatype _diffInfo, modelica_metatype _keepOld, modelica_metatype *out_diffArgs);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBDifferentiate_differentiateFunctionInterfaceNodes,2,0) {(void*) boxptr_NBDifferentiate_differentiateFunctionInterfaceNodes,0}};
 #define boxvar_NBDifferentiate_differentiateFunctionInterfaceNodes MMC_REFSTRUCTLIT(boxvar_lit_NBDifferentiate_differentiateFunctionInterfaceNodes)
 
@@ -285,6 +285,13 @@ modelica_metatype omc_NBDifferentiate_differentiateFunction(threadData_t *thread
 #define boxptr_NBDifferentiate_differentiateFunction omc_NBDifferentiate_differentiateFunction
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBDifferentiate_differentiateFunction,2,0) {(void*) boxptr_NBDifferentiate_differentiateFunction,0}};
 #define boxvar_NBDifferentiate_differentiateFunction MMC_REFSTRUCTLIT(boxvar_lit_NBDifferentiate_differentiateFunction)
+
+
+DLLDirection
+modelica_metatype omc_NBDifferentiate_addDiffInfo(threadData_t *threadData, modelica_metatype _func, modelica_metatype __omcQ_24in_5Fder_5Ffunc, modelica_metatype __omcQ_24in_5FdiffArguments, modelica_metatype *out_diffArguments);
+#define boxptr_NBDifferentiate_addDiffInfo omc_NBDifferentiate_addDiffInfo
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBDifferentiate_addDiffInfo,2,0) {(void*) boxptr_NBDifferentiate_addDiffInfo,0}};
+#define boxvar_NBDifferentiate_addDiffInfo MMC_REFSTRUCTLIT(boxvar_lit_NBDifferentiate_addDiffInfo)
 
 
 DLLDirection

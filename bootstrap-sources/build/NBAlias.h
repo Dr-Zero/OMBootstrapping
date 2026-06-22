@@ -28,8 +28,6 @@ extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NBAlias_AliasSet_ALIAS__SET__desc;
 
 extern struct record_description NBAlias_AttributeCollector_ATTRIBUTE__COLLECTOR__desc;

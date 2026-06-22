@@ -88,8 +88,6 @@ extern struct record_description ErrorTypes_Severity_WARNING__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description InstTypes_CallingScope_INNER__CALL__desc;
 
 extern struct record_description InstTypes_CallingScope_TYPE__CALL__desc;

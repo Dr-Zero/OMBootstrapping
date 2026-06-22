@@ -12,9 +12,31 @@ extern "C" {
 
 extern struct record_description Absyn_ComponentRef_CREF__IDENT__desc;
 
+extern struct record_description Absyn_Direction_INPUT__desc;
+
+extern struct record_description Absyn_Direction_OUTPUT__desc;
+
 extern struct record_description Absyn_Exp_ARRAY__desc;
 
+extern struct record_description Absyn_Exp_BOOL__desc;
+
+extern struct record_description Absyn_Exp_INTEGER__desc;
+
+extern struct record_description Absyn_FunctionPurity_PURE__desc;
+
+extern struct record_description Absyn_InnerOuter_NOT__INNER__OUTER__desc;
+
+extern struct record_description Absyn_IsField_NONFIELD__desc;
+
 extern struct record_description Absyn_Path_IDENT__desc;
+
+extern struct record_description Absyn_TypeSpec_TPATH__desc;
+
+extern struct record_description BaseModelica_OutputFormat_OUTPUT__FORMAT__desc;
+
+extern struct record_description DAE_ComponentPrefix_NOCOMPPRE__desc;
+
+extern struct record_description DAE_ElementSource_SOURCE__desc;
 
 extern struct record_description ErrorTypes_Message_MESSAGE__desc;
 
@@ -36,21 +58,95 @@ extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__DESC__OPTION__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NFCall_TYPED__ARRAY__CONSTRUCTOR__desc;
 
 extern struct record_description NFExpression_CALL__desc;
 
+extern struct record_description NFExpression_REAL__desc;
+
 extern struct record_description NFExpression_SUBSCRIPTED__EXP__desc;
+
+extern struct record_description NFInstNode_InstNode_EMPTY__NODE__desc;
+
+extern struct record_description NFType_REAL__desc;
+
+extern struct record_description SCode_Annotation_ANNOTATION__desc;
+
+extern struct record_description SCode_Attributes_ATTR__desc;
+
+extern struct record_description SCode_ClassDef_PARTS__desc;
 
 extern struct record_description SCode_Comment_COMMENT__desc;
 
+extern struct record_description SCode_ConnectorType_POTENTIAL__desc;
+
+extern struct record_description SCode_Element_CLASS__desc;
+
 extern struct record_description SCode_Element_COMPONENT__desc;
+
+extern struct record_description SCode_Encapsulated_NOT__ENCAPSULATED__desc;
+
+extern struct record_description SCode_Final_NOT__FINAL__desc;
+
+extern struct record_description SCode_FunctionRestriction_FR__NORMAL__FUNCTION__desc;
 
 extern struct record_description SCode_Mod_NOMOD__desc;
 
+extern struct record_description SCode_Parallelism_NON__PARALLEL__desc;
+
+extern struct record_description SCode_Partial_NOT__PARTIAL__desc;
+
+extern struct record_description SCode_Prefixes_PREFIXES__desc;
+
+extern struct record_description SCode_Redeclare_NOT__REDECLARE__desc;
+
+extern struct record_description SCode_Replaceable_NOT__REPLACEABLE__desc;
+
+extern struct record_description SCode_Restriction_R__FUNCTION__desc;
+
+extern struct record_description SCode_SubMod_NAMEMOD__desc;
+
+extern struct record_description SCode_Variability_VAR__desc;
+
+extern struct record_description SCode_Visibility_PUBLIC__desc;
+
 extern struct record_description SourceInfo_SOURCEINFO__desc;
+
+
+DLLDirection
+modelica_metatype omc_NFInstUtil_createExtractorModelDummyEq(threadData_t *threadData, modelica_metatype _var, modelica_string _varType, modelica_metatype _fn, modelica_metatype _args, modelica_metatype __omcQ_24in_5Ffuncs, modelica_integer __omcQ_24in_5Findex, modelica_metatype *out_funcs, modelica_integer *out_index);
+DLLDirection
+modelica_metatype boxptr_NFInstUtil_createExtractorModelDummyEq(threadData_t *threadData, modelica_metatype _var, modelica_metatype _varType, modelica_metatype _fn, modelica_metatype _args, modelica_metatype __omcQ_24in_5Ffuncs, modelica_metatype __omcQ_24in_5Findex, modelica_metatype *out_funcs, modelica_metatype *out_index);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInstUtil_createExtractorModelDummyEq,2,0) {(void*) boxptr_NFInstUtil_createExtractorModelDummyEq,0}};
+#define boxvar_NFInstUtil_createExtractorModelDummyEq MMC_REFSTRUCTLIT(boxvar_lit_NFInstUtil_createExtractorModelDummyEq)
+
+
+DLLDirection
+modelica_metatype omc_NFInstUtil_createExtractorModelDummyFnInput(threadData_t *threadData, modelica_metatype _var);
+#define boxptr_NFInstUtil_createExtractorModelDummyFnInput omc_NFInstUtil_createExtractorModelDummyFnInput
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInstUtil_createExtractorModelDummyFnInput,2,0) {(void*) boxptr_NFInstUtil_createExtractorModelDummyFnInput,0}};
+#define boxvar_NFInstUtil_createExtractorModelDummyFnInput MMC_REFSTRUCTLIT(boxvar_lit_NFInstUtil_createExtractorModelDummyFnInput)
+
+
+DLLDirection
+modelica_metatype omc_NFInstUtil_createExtractorModelDummyFn(threadData_t *threadData, modelica_metatype _connectors);
+#define boxptr_NFInstUtil_createExtractorModelDummyFn omc_NFInstUtil_createExtractorModelDummyFn
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInstUtil_createExtractorModelDummyFn,2,0) {(void*) boxptr_NFInstUtil_createExtractorModelDummyFn,0}};
+#define boxvar_NFInstUtil_createExtractorModelDummyFn MMC_REFSTRUCTLIT(boxvar_lit_NFInstUtil_createExtractorModelDummyFn)
+
+
+DLLDirection
+modelica_metatype omc_NFInstUtil_collectExtractorModelVariables(threadData_t *threadData, modelica_metatype _vars, modelica_metatype *out_flowVars, modelica_metatype *out_inputVars);
+#define boxptr_NFInstUtil_collectExtractorModelVariables omc_NFInstUtil_collectExtractorModelVariables
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInstUtil_collectExtractorModelVariables,2,0) {(void*) boxptr_NFInstUtil_collectExtractorModelVariables,0}};
+#define boxvar_NFInstUtil_collectExtractorModelVariables MMC_REFSTRUCTLIT(boxvar_lit_NFInstUtil_collectExtractorModelVariables)
+
+
+DLLDirection
+modelica_metatype omc_NFInstUtil_createExtractorModel(threadData_t *threadData, modelica_metatype _flatModel, modelica_metatype _funcs, modelica_metatype *out_outFuncs);
+#define boxptr_NFInstUtil_createExtractorModel omc_NFInstUtil_createExtractorModel
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInstUtil_createExtractorModel,2,0) {(void*) boxptr_NFInstUtil_createExtractorModel,0}};
+#define boxvar_NFInstUtil_createExtractorModel MMC_REFSTRUCTLIT(boxvar_lit_NFInstUtil_createExtractorModel)
 
 
 DLLDirection
@@ -311,6 +407,13 @@ modelica_metatype omc_NFInstUtil_expandSlicedCrefsExp(threadData_t *threadData, 
 #define boxptr_NFInstUtil_expandSlicedCrefsExp omc_NFInstUtil_expandSlicedCrefsExp
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInstUtil_expandSlicedCrefsExp,2,0) {(void*) boxptr_NFInstUtil_expandSlicedCrefsExp,0}};
 #define boxvar_NFInstUtil_expandSlicedCrefsExp MMC_REFSTRUCTLIT(boxvar_lit_NFInstUtil_expandSlicedCrefsExp)
+
+
+DLLDirection
+modelica_metatype omc_NFInstUtil_addTrailingWholeIndices(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp);
+#define boxptr_NFInstUtil_addTrailingWholeIndices omc_NFInstUtil_addTrailingWholeIndices
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInstUtil_addTrailingWholeIndices,2,0) {(void*) boxptr_NFInstUtil_addTrailingWholeIndices,0}};
+#define boxvar_NFInstUtil_addTrailingWholeIndices MMC_REFSTRUCTLIT(boxvar_lit_NFInstUtil_addTrailingWholeIndices)
 
 
 DLLDirection

@@ -10,6 +10,8 @@
 extern "C" {
 #endif
 
+extern struct record_description BackendDAE_BackendDAEModeData_BDAE__MODE__DATA__desc;
+
 extern struct record_description BackendDAE_BaseClockPartitionKind_UNKNOWN__PARTITION__desc;
 
 extern struct record_description BackendDAE_Equation_SOLVED__EQUATION__desc;
@@ -43,8 +45,6 @@ extern struct record_description Flags_FlagData_STRING__FLAG__desc;
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__DESC__OPTION__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 

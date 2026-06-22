@@ -13,17 +13,18 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT3,2,8) {&Flags_FlagData_STRING__FLA
 #define _OMC_LIT4_data "Sets the code-type produced by hpcom (openmp | pthreads | pthreads_spin | tbb | mpi). Default: openmp."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT4,102,_OMC_LIT4_data);
 #define _OMC_LIT4 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT4)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT5,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT4}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT5,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(48)),_OMC_LIT0,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT1,_OMC_LIT3,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT4}};
 #define _OMC_LIT5 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT5)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT6,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(48)),_OMC_LIT0,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT1,_OMC_LIT3,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT5}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT6,3,3) {&Tpl_Text_MEM__TEXT__desc,MMC_REFSTRUCTLIT(mmc_nil),MMC_REFSTRUCTLIT(mmc_nil)}};
 #define _OMC_LIT6 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT7,3,3) {&Tpl_Text_MEM__TEXT__desc,MMC_REFSTRUCTLIT(mmc_nil),MMC_REFSTRUCTLIT(mmc_nil)}};
-#define _OMC_LIT7 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT7)
-#define _OMC_LIT8_data "pthreads"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT8,8,_OMC_LIT8_data);
+#define _OMC_LIT7_data "pthreads"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,8,_OMC_LIT7_data);
+#define _OMC_LIT7 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT7)
+#define _OMC_LIT8_data "pthreads_spin"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT8,13,_OMC_LIT8_data);
 #define _OMC_LIT8 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT8)
-#define _OMC_LIT9_data "pthreads_spin"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT9,13,_OMC_LIT9_data);
+#define _OMC_LIT9_data ""
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT9,0,_OMC_LIT9_data);
 #define _OMC_LIT9 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT9)
 #define _OMC_LIT10_data " -lboost_thread"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT10,15,_OMC_LIT10_data);
@@ -41,68 +42,63 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT14,17,_OMC_LIT14_data);
 #define _OMC_LIT15_data "modelDescription.xml"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT15,20,_OMC_LIT15_data);
 #define _OMC_LIT15 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT15)
-#define _OMC_LIT16_data ""
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT16,0,_OMC_LIT16_data);
-#define _OMC_LIT16 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT16)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT17,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT16}};
-#define _OMC_LIT17 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT17)
-#define _OMC_LIT18_data "OMCpp"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT18,5,_OMC_LIT18_data);
-#define _OMC_LIT18 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT18)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT19,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT18}};
-#define _OMC_LIT19 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT19)
-#define _OMC_LIT20_data "WriteOutput.h"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT20,13,_OMC_LIT20_data);
-#define _OMC_LIT20 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT20)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT21,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT20}};
-#define _OMC_LIT21 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT21)
-#define _OMC_LIT22_data "FMU.h"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT22,5,_OMC_LIT22_data);
-#define _OMC_LIT22 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT22)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT23,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT22}};
-#define _OMC_LIT23 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT23)
-#define _OMC_LIT24_data "FMU.cpp"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT24,7,_OMC_LIT24_data);
-#define _OMC_LIT24 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT24)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT25,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT24}};
-#define _OMC_LIT25 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT25)
-#define _OMC_LIT26_data "_FMU.makefile"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT26,13,_OMC_LIT26_data);
-#define _OMC_LIT26 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT26)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT27,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT26}};
-#define _OMC_LIT27 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT27)
-#define _OMC_LIT28_data "CalcHelperMain.cpp"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT28,18,_OMC_LIT28_data);
-#define _OMC_LIT28 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT28)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT29,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT28}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT16,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT9}};
+#define _OMC_LIT16 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT16)
+#define _OMC_LIT17_data "OMCpp"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT17,5,_OMC_LIT17_data);
+#define _OMC_LIT17 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT17)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT18,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT17}};
+#define _OMC_LIT18 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT18)
+#define _OMC_LIT19_data "WriteOutput.h"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT19,13,_OMC_LIT19_data);
+#define _OMC_LIT19 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT19)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT20,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT19}};
+#define _OMC_LIT20 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT20)
+#define _OMC_LIT21_data "FMU.h"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT21,5,_OMC_LIT21_data);
+#define _OMC_LIT21 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT21)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT22,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT21}};
+#define _OMC_LIT22 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT22)
+#define _OMC_LIT23_data "FMU.cpp"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT23,7,_OMC_LIT23_data);
+#define _OMC_LIT23 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT23)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT24,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT23}};
+#define _OMC_LIT24 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT24)
+#define _OMC_LIT25_data "_FMU.makefile"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT25,13,_OMC_LIT25_data);
+#define _OMC_LIT25 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT25)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT26,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT25}};
+#define _OMC_LIT26 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT26)
+#define _OMC_LIT27_data "CalcHelperMain.cpp"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT27,18,_OMC_LIT27_data);
+#define _OMC_LIT27 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT27)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT28,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT27}};
+#define _OMC_LIT28 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT28)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT29,1,7) {&SimCodeFunction_Context_OTHER__CONTEXT__desc,}};
 #define _OMC_LIT29 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT29)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT30,1,7) {&SimCodeFunction_Context_OTHER__CONTEXT__desc,}};
-#define _OMC_LIT30 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT30)
-#define _OMC_LIT31_data "-1"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT31,2,_OMC_LIT31_data);
-#define _OMC_LIT31 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT31)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT32,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT31}};
-#define _OMC_LIT32 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT32)
-#define _OMC_LIT33_data ".cpp"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT33,4,_OMC_LIT33_data);
-#define _OMC_LIT33 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT33)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT34,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT33}};
-#define _OMC_LIT34 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT34)
-#define _OMC_LIT35_data "gendebugsymbols"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT35,15,_OMC_LIT35_data);
+#define _OMC_LIT30_data "-1"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT30,2,_OMC_LIT30_data);
+#define _OMC_LIT30 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT30)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT31,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT30}};
+#define _OMC_LIT31 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT31)
+#define _OMC_LIT32_data ".cpp"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT32,4,_OMC_LIT32_data);
+#define _OMC_LIT32 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT32)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT33,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT32}};
+#define _OMC_LIT33 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT33)
+#define _OMC_LIT34_data "gendebugsymbols"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT34,15,_OMC_LIT34_data);
+#define _OMC_LIT34 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT34)
+#define _OMC_LIT35_data "Generate code with debugging symbols."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT35,37,_OMC_LIT35_data);
 #define _OMC_LIT35 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT35)
-#define _OMC_LIT36_data "Generate code with debugging symbols."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT36,37,_OMC_LIT36_data);
-#define _OMC_LIT36 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT36)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT37,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT36}};
-#define _OMC_LIT37 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT37)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT38,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(69)),_OMC_LIT35,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT37}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT36,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(69)),_OMC_LIT34,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT35}};
+#define _OMC_LIT36 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT36)
+#define _OMC_LIT37_data ".h"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT37,2,_OMC_LIT37_data);
+#define _OMC_LIT37 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT37)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT38,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT37}};
 #define _OMC_LIT38 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT38)
-#define _OMC_LIT39_data ".h"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT39,2,_OMC_LIT39_data);
-#define _OMC_LIT39 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT39)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT40,2,4) {&Tpl_StringToken_ST__STRING__desc,_OMC_LIT39}};
-#define _OMC_LIT40 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT40)
 #include "util/modelica.h"
 
 #include "CodegenFMUCppHpcom_includes.h"
@@ -112,10 +108,10 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT40,2,4) {&Tpl_StringToken_ST__STRIN
 #if !defined(PROTECTED_FUNCTION_STATIC)
 #define PROTECTED_FUNCTION_STATIC
 #endif
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenFMUCppHpcom_fun__50(threadData_t *threadData, modelica_metatype _in_txt, modelica_boolean _in_mArg);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenFMUCppHpcom_fun__50(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_mArg);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenFMUCppHpcom_fun__50,2,0) {(void*) boxptr_CodegenFMUCppHpcom_fun__50,0}};
-#define boxvar_CodegenFMUCppHpcom_fun__50 MMC_REFSTRUCTLIT(boxvar_lit_CodegenFMUCppHpcom_fun__50)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenFMUCppHpcom_fun__53(threadData_t *threadData, modelica_metatype _in_txt, modelica_boolean _in_mArg);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenFMUCppHpcom_fun__53(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_mArg);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenFMUCppHpcom_fun__53,2,0) {(void*) boxptr_CodegenFMUCppHpcom_fun__53,0}};
+#define boxvar_CodegenFMUCppHpcom_fun__53 MMC_REFSTRUCTLIT(boxvar_lit_CodegenFMUCppHpcom_fun__53)
 
 DLLDirection
 modelica_metatype omc_CodegenFMUCppHpcom_fmuMakefile(threadData_t *threadData, modelica_metatype _txt, modelica_string _a_target, modelica_metatype _a_simCode, modelica_metatype _a_extraFuncs, modelica_metatype _a_extraFuncsDecl, modelica_metatype _a_extraFuncsNamespace, modelica_string _a_FMUVersion, modelica_metatype *out_out_a_extraFuncs, modelica_metatype *out_out_a_extraFuncsDecl, modelica_metatype *out_out_a_extraFuncsNamespace)
@@ -148,31 +144,31 @@ modelica_metatype omc_CodegenFMUCppHpcom_fmuMakefile(threadData_t *threadData, m
   // _l_additionalCFlags__GCC has no default value.
   // _ret_1 has no default value.
   // _l_type has no default value.
-  _ret_1 = omc_Flags_getConfigString(threadData, _OMC_LIT6);
+  _ret_1 = omc_Flags_getConfigString(threadData, _OMC_LIT5);
 
-  _l_type = omc_Tpl_writeStr(threadData, _OMC_LIT7, _ret_1);
+  _l_type = omc_Tpl_writeStr(threadData, _OMC_LIT6, _ret_1);
 
-  _l_additionalCFlags__GCC = _OMC_LIT7;
+  _l_additionalCFlags__GCC = _OMC_LIT6;
 
-  _l_additionalCFlags__MSVC = _OMC_LIT7;
+  _l_additionalCFlags__MSVC = _OMC_LIT6;
 
-  _l_additionalLinkerFlags__GCC = _OMC_LIT7;
+  _l_additionalLinkerFlags__GCC = _OMC_LIT6;
 
-  _l_additionalLinkerFlags__MSVC = _OMC_LIT7;
+  _l_additionalLinkerFlags__MSVC = _OMC_LIT6;
 
-  _ret_6 = (stringEqual(omc_Tpl_textString(threadData, _l_type), _OMC_LIT8));
+  _ret_6 = (stringEqual(omc_Tpl_textString(threadData, _l_type), _OMC_LIT7));
 
-  _ret_7 = (stringEqual(omc_Tpl_textString(threadData, _l_type), _OMC_LIT9));
+  _ret_7 = (stringEqual(omc_Tpl_textString(threadData, _l_type), _OMC_LIT8));
 
   _ret_8 = (_ret_6 || _ret_7);
 
-  _l_additionalLinkerFlags__GCC = omc_CodegenFMUCppHpcom_fun__50(threadData, _l_additionalLinkerFlags__GCC, _ret_8);
+  _l_additionalLinkerFlags__GCC = omc_CodegenFMUCppHpcom_fun__53(threadData, _l_additionalLinkerFlags__GCC, _ret_8);
 
   _out_txt = omc_CodegenCppHpcom_getAdditionalMakefileFlags(threadData, _txt, _l_additionalCFlags__GCC, _l_additionalCFlags__MSVC, _l_additionalLinkerFlags__GCC, _l_additionalLinkerFlags__MSVC ,&_l_additionalCFlags__GCC ,&_l_additionalCFlags__MSVC ,&_l_additionalLinkerFlags__GCC ,&_l_additionalLinkerFlags__MSVC);
 
   _out_txt = omc_Tpl_softNewLine(threadData, _out_txt);
 
-  _out_txt = omc_CodegenFMUCpp_fmuMakefile(threadData, _out_txt, _a_target, _a_simCode, _a_extraFuncs, _a_extraFuncsDecl, _a_extraFuncsNamespace, _a_FMUVersion, omc_Tpl_textString(threadData, _l_additionalLinkerFlags__GCC), omc_Tpl_textString(threadData, _l_additionalLinkerFlags__MSVC), omc_Tpl_textString(threadData, _l_additionalCFlags__GCC), omc_Tpl_textString(threadData, _l_additionalCFlags__MSVC) ,&_out_a_extraFuncs ,&_out_a_extraFuncsDecl ,&_out_a_extraFuncsNamespace);
+  _out_txt = omc_CodegenFMUCpp_fmuMakefile(threadData, _out_txt, _a_target, _a_simCode, _a_extraFuncs, _a_extraFuncsDecl, _a_extraFuncsNamespace, _a_FMUVersion, omc_Tpl_textString(threadData, _l_additionalLinkerFlags__GCC), omc_Tpl_textString(threadData, _l_additionalLinkerFlags__MSVC), omc_Tpl_textString(threadData, _l_additionalCFlags__GCC), omc_Tpl_textString(threadData, _l_additionalCFlags__MSVC), _OMC_LIT9 ,&_out_a_extraFuncs ,&_out_a_extraFuncsDecl ,&_out_a_extraFuncsNamespace);
   _return: OMC_LABEL_UNUSED
   if (out_out_a_extraFuncs) { *out_out_a_extraFuncs = _out_a_extraFuncs; }
   if (out_out_a_extraFuncsDecl) { *out_out_a_extraFuncsDecl = _out_a_extraFuncsDecl; }
@@ -180,7 +176,7 @@ modelica_metatype omc_CodegenFMUCppHpcom_fmuMakefile(threadData_t *threadData, m
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenFMUCppHpcom_fun__50(threadData_t *threadData, modelica_metatype _in_txt, modelica_boolean _in_mArg)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenFMUCppHpcom_fun__53(threadData_t *threadData, modelica_metatype _in_txt, modelica_boolean _in_mArg)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -229,12 +225,12 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenFMUCppHpcom_fun__50(threa
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenFMUCppHpcom_fun__50(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_mArg)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenFMUCppHpcom_fun__53(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_mArg)
 {
   modelica_integer tmp1;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_mArg);
-  _out_txt = omc_CodegenFMUCppHpcom_fun__50(threadData, _in_txt, tmp1);
+  _out_txt = omc_CodegenFMUCppHpcom_fun__53(threadData, _in_txt, tmp1);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }
@@ -405,153 +401,153 @@ modelica_metatype omc_CodegenFMUCppHpcom_translateModel(threadData_t *threadData
           /* Pattern matching succeeded */
           _ret_1 = omc_System_getUUIDStr(threadData);
 
-          _l_guid = omc_Tpl_writeStr(threadData, _OMC_LIT7, _ret_1);
+          _l_guid = omc_Tpl_writeStr(threadData, _OMC_LIT6, _ret_1);
 
           _ret_3 = omc_Config_simulationCodeTarget(threadData);
 
-          _l_target = omc_Tpl_writeStr(threadData, _OMC_LIT7, _ret_3);
+          _l_target = omc_Tpl_writeStr(threadData, _OMC_LIT6, _ret_3);
 
-          _l_stateDerVectorName = omc_Tpl_writeTok(threadData, _OMC_LIT7, _OMC_LIT13);
+          _l_stateDerVectorName = omc_Tpl_writeTok(threadData, _OMC_LIT6, _OMC_LIT13);
 
-          _l_extraFuncs = _OMC_LIT7;
+          _l_extraFuncs = _OMC_LIT6;
 
-          _l_extraFuncsDecl = _OMC_LIT7;
+          _l_extraFuncsDecl = _OMC_LIT6;
 
-          _l_complexStartExpressions = _OMC_LIT7;
+          _l_complexStartExpressions = _OMC_LIT6;
 
-          _l_className = omc_CodegenCpp_lastIdentOfPath(threadData, _OMC_LIT7, _i_modelInfo_name);
+          _l_className = omc_CodegenCpp_lastIdentOfPath(threadData, _OMC_LIT6, _i_modelInfo_name);
 
-          _l_numRealVars = omc_CodegenCppHpcom_numRealvarsHpcom(threadData, _OMC_LIT7, _i_modelInfo, _i_hpcomData_hpcOmMemory);
+          _l_numRealVars = omc_CodegenCppHpcom_numRealvarsHpcom(threadData, _OMC_LIT6, _i_modelInfo, _i_hpcomData_hpcOmMemory);
 
-          _l_numIntVars = omc_CodegenCppHpcom_numIntvarsHpcom(threadData, _OMC_LIT7, _i_modelInfo, _i_hpcomData_hpcOmMemory);
+          _l_numIntVars = omc_CodegenCppHpcom_numIntvarsHpcom(threadData, _OMC_LIT6, _i_modelInfo, _i_hpcomData_hpcOmMemory);
 
-          _l_numBoolVars = omc_CodegenCppHpcom_numBoolvarsHpcom(threadData, _OMC_LIT7, _i_modelInfo, _i_hpcomData_hpcOmMemory);
+          _l_numBoolVars = omc_CodegenCppHpcom_numBoolvarsHpcom(threadData, _OMC_LIT6, _i_modelInfo, _i_hpcomData_hpcOmMemory);
 
-          _l_numStringVars = omc_CodegenCppHpcom_numStringvarsHpcom(threadData, _OMC_LIT7, _i_modelInfo, _i_hpcomData_hpcOmMemory);
+          _l_numStringVars = omc_CodegenCppHpcom_numStringvarsHpcom(threadData, _OMC_LIT6, _i_modelInfo, _i_hpcomData_hpcOmMemory);
 
-          omc_CodegenCppHpcom_numPreVarsHpcom(threadData, _OMC_LIT7, _i_modelInfo, _i_hpcomData_hpcOmMemory);
+          omc_CodegenCppHpcom_numPreVarsHpcom(threadData, _OMC_LIT6, _i_modelInfo, _i_hpcomData_hpcOmMemory);
 
-          _txt_14 = omc_CodegenCppInit_modelInitXMLFile(threadData, _OMC_LIT7, _i_simCode, omc_Tpl_textString(threadData, _l_numRealVars), omc_Tpl_textString(threadData, _l_numIntVars), omc_Tpl_textString(threadData, _l_numBoolVars), omc_Tpl_textString(threadData, _l_numStringVars), _a_FMUVersion, _a_FMUType, omc_Tpl_textString(threadData, _l_guid), 1 /* true */, _OMC_LIT14, _l_complexStartExpressions, _l_stateDerVectorName ,&_l_complexStartExpressions ,&_l_stateDerVectorName);
+          _txt_14 = omc_CodegenCppInit_modelInitXMLFile(threadData, _OMC_LIT6, _i_simCode, omc_Tpl_textString(threadData, _l_numRealVars), omc_Tpl_textString(threadData, _l_numIntVars), omc_Tpl_textString(threadData, _l_numBoolVars), omc_Tpl_textString(threadData, _l_numStringVars), _a_FMUVersion, _a_FMUType, omc_Tpl_textString(threadData, _l_guid), 1 /* true */, _OMC_LIT14, _l_complexStartExpressions, _l_stateDerVectorName ,&_l_complexStartExpressions ,&_l_stateDerVectorName);
 
           omc_Tpl_textFile(threadData, _txt_14, _OMC_LIT15);
 
-          omc_CodegenCpp_translateModel(threadData, _OMC_LIT7, _i_simCode);
+          omc_CodegenCpp_translateModel(threadData, _OMC_LIT6, _i_simCode);
 
-          _txt_16 = omc_CodegenFMUCpp_fmuWriteOutputHeaderFile(threadData, _OMC_LIT7, _i_simCode, _l_extraFuncs, _l_extraFuncsDecl, omc_Tpl_strTokText(threadData, _OMC_LIT17) ,&_l_extraFuncs ,&_l_extraFuncsDecl ,NULL);
+          _txt_16 = omc_CodegenFMUCpp_fmuWriteOutputHeaderFile(threadData, _OMC_LIT6, _i_simCode, _l_extraFuncs, _l_extraFuncsDecl, omc_Tpl_strTokText(threadData, _OMC_LIT16) ,&_l_extraFuncs ,&_l_extraFuncsDecl ,NULL);
 
-          _txt_17 = omc_Tpl_writeTok(threadData, _OMC_LIT7, _OMC_LIT19);
+          _txt_17 = omc_Tpl_writeTok(threadData, _OMC_LIT6, _OMC_LIT18);
 
           _txt_17 = omc_Tpl_writeStr(threadData, _txt_17, _i_fileNamePrefix);
 
-          _txt_17 = omc_Tpl_writeTok(threadData, _txt_17, _OMC_LIT21);
+          _txt_17 = omc_Tpl_writeTok(threadData, _txt_17, _OMC_LIT20);
 
           omc_Tpl_textFile(threadData, _txt_16, omc_Tpl_textString(threadData, _txt_17));
 
-          _txt_18 = omc_CodegenFMUCpp_fmuModelHeaderFile(threadData, _OMC_LIT7, _i_simCode, _l_extraFuncs, _l_extraFuncsDecl, omc_Tpl_strTokText(threadData, _OMC_LIT17), omc_Tpl_textString(threadData, _l_guid), _a_FMUVersion ,&_l_extraFuncs ,&_l_extraFuncsDecl ,NULL);
+          _txt_18 = omc_CodegenFMUCpp_fmuModelHeaderFile(threadData, _OMC_LIT6, _i_simCode, _l_extraFuncs, _l_extraFuncsDecl, omc_Tpl_strTokText(threadData, _OMC_LIT16), omc_Tpl_textString(threadData, _l_guid), _a_FMUVersion ,&_l_extraFuncs ,&_l_extraFuncsDecl ,NULL);
 
-          _txt_19 = omc_Tpl_writeTok(threadData, _OMC_LIT7, _OMC_LIT19);
+          _txt_19 = omc_Tpl_writeTok(threadData, _OMC_LIT6, _OMC_LIT18);
 
           _txt_19 = omc_Tpl_writeStr(threadData, _txt_19, _i_fileNamePrefix);
 
-          _txt_19 = omc_Tpl_writeTok(threadData, _txt_19, _OMC_LIT23);
+          _txt_19 = omc_Tpl_writeTok(threadData, _txt_19, _OMC_LIT22);
 
           omc_Tpl_textFile(threadData, _txt_18, omc_Tpl_textString(threadData, _txt_19));
 
-          _txt_20 = omc_CodegenFMUCpp_fmuModelCppFile(threadData, _OMC_LIT7, _i_simCode, _l_extraFuncs, _l_extraFuncsDecl, omc_Tpl_strTokText(threadData, _OMC_LIT17), omc_Tpl_textString(threadData, _l_guid), _a_FMUVersion ,&_l_extraFuncs ,&_l_extraFuncsDecl ,NULL);
+          _txt_20 = omc_CodegenFMUCpp_fmuModelCppFile(threadData, _OMC_LIT6, _i_simCode, _l_extraFuncs, _l_extraFuncsDecl, omc_Tpl_strTokText(threadData, _OMC_LIT16), omc_Tpl_textString(threadData, _l_guid), _a_FMUVersion ,&_l_extraFuncs ,&_l_extraFuncsDecl ,NULL);
 
-          _txt_21 = omc_Tpl_writeTok(threadData, _OMC_LIT7, _OMC_LIT19);
+          _txt_21 = omc_Tpl_writeTok(threadData, _OMC_LIT6, _OMC_LIT18);
 
           _txt_21 = omc_Tpl_writeStr(threadData, _txt_21, _i_fileNamePrefix);
 
-          _txt_21 = omc_Tpl_writeTok(threadData, _txt_21, _OMC_LIT25);
+          _txt_21 = omc_Tpl_writeTok(threadData, _txt_21, _OMC_LIT24);
 
           omc_Tpl_textFile(threadData, _txt_20, omc_Tpl_textString(threadData, _txt_21));
 
-          _txt_22 = omc_CodegenFMUCppHpcom_fmuMakefile(threadData, _OMC_LIT7, omc_Tpl_textString(threadData, _l_target), _i_simCode, _l_extraFuncs, _l_extraFuncsDecl, omc_Tpl_strTokText(threadData, _OMC_LIT17), _a_FMUVersion ,&_l_extraFuncs ,&_l_extraFuncsDecl ,NULL);
+          _txt_22 = omc_CodegenFMUCppHpcom_fmuMakefile(threadData, _OMC_LIT6, omc_Tpl_textString(threadData, _l_target), _i_simCode, _l_extraFuncs, _l_extraFuncsDecl, omc_Tpl_strTokText(threadData, _OMC_LIT16), _a_FMUVersion ,&_l_extraFuncs ,&_l_extraFuncsDecl ,NULL);
 
-          _txt_23 = omc_Tpl_writeStr(threadData, _OMC_LIT7, _i_fileNamePrefix);
+          _txt_23 = omc_Tpl_writeStr(threadData, _OMC_LIT6, _i_fileNamePrefix);
 
-          _txt_23 = omc_Tpl_writeTok(threadData, _txt_23, _OMC_LIT27);
+          _txt_23 = omc_Tpl_writeTok(threadData, _txt_23, _OMC_LIT26);
 
           omc_Tpl_textFile(threadData, _txt_22, omc_Tpl_textString(threadData, _txt_23));
 
-          _txt_24 = omc_CodegenFMUCpp_fmuCalcHelperMainfile(threadData, _OMC_LIT7, _i_simCode);
+          _txt_24 = omc_CodegenFMUCpp_fmuCalcHelperMainfile(threadData, _OMC_LIT6, _i_simCode);
 
-          _txt_25 = omc_Tpl_writeTok(threadData, _OMC_LIT7, _OMC_LIT19);
+          _txt_25 = omc_Tpl_writeTok(threadData, _OMC_LIT6, _OMC_LIT18);
 
           _txt_25 = omc_Tpl_writeStr(threadData, _txt_25, _i_fileNamePrefix);
 
-          _txt_25 = omc_Tpl_writeTok(threadData, _txt_25, _OMC_LIT29);
+          _txt_25 = omc_Tpl_writeTok(threadData, _txt_25, _OMC_LIT28);
 
           omc_Tpl_textFile(threadData, _txt_24, omc_Tpl_textString(threadData, _txt_25));
 
-          _txt_26 = omc_CodegenCppHpcom_updateHpcom(threadData, _OMC_LIT7, _i_allEquations, _i_simCode, _l_extraFuncs, _l_extraFuncsDecl, omc_Tpl_strTokText(threadData, _OMC_LIT17), _OMC_LIT30, _l_stateDerVectorName, 0 /* false */ ,&_l_extraFuncs ,&_l_extraFuncsDecl ,NULL ,&_l_stateDerVectorName);
+          _txt_26 = omc_CodegenCppHpcom_updateHpcom(threadData, _OMC_LIT6, _i_allEquations, _i_simCode, _l_extraFuncs, _l_extraFuncsDecl, omc_Tpl_strTokText(threadData, _OMC_LIT16), _OMC_LIT29, _l_stateDerVectorName, 0 /* false */ ,&_l_extraFuncs ,&_l_extraFuncsDecl ,NULL ,&_l_stateDerVectorName);
 
-          _txt_27 = omc_Tpl_writeText(threadData, _OMC_LIT7, _l_numRealVars);
+          _txt_27 = omc_Tpl_writeText(threadData, _OMC_LIT6, _l_numRealVars);
 
-          _txt_27 = omc_Tpl_writeTok(threadData, _txt_27, _OMC_LIT32);
+          _txt_27 = omc_Tpl_writeTok(threadData, _txt_27, _OMC_LIT31);
 
-          _txt_28 = omc_Tpl_writeText(threadData, _OMC_LIT7, _l_numIntVars);
+          _txt_28 = omc_Tpl_writeText(threadData, _OMC_LIT6, _l_numIntVars);
 
-          _txt_28 = omc_Tpl_writeTok(threadData, _txt_28, _OMC_LIT32);
+          _txt_28 = omc_Tpl_writeTok(threadData, _txt_28, _OMC_LIT31);
 
-          _txt_29 = omc_Tpl_writeText(threadData, _OMC_LIT7, _l_numBoolVars);
+          _txt_29 = omc_Tpl_writeText(threadData, _OMC_LIT6, _l_numBoolVars);
 
-          _txt_29 = omc_Tpl_writeTok(threadData, _txt_29, _OMC_LIT32);
+          _txt_29 = omc_Tpl_writeTok(threadData, _txt_29, _OMC_LIT31);
 
-          _txt_30 = omc_Tpl_writeText(threadData, _OMC_LIT7, _l_numStringVars);
+          _txt_30 = omc_Tpl_writeText(threadData, _OMC_LIT6, _l_numStringVars);
 
-          _txt_30 = omc_Tpl_writeTok(threadData, _txt_30, _OMC_LIT32);
+          _txt_30 = omc_Tpl_writeTok(threadData, _txt_30, _OMC_LIT31);
 
-          _txt_31 = omc_CodegenCppHpcom_additionalHpcomConstructorDefinitions(threadData, _OMC_LIT7, _i_hpcomData_schedules);
+          _txt_31 = omc_CodegenCppHpcom_additionalHpcomConstructorDefinitions(threadData, _OMC_LIT6, _i_hpcomData_schedules);
 
-          _txt_32 = omc_CodegenUtil_dotPath(threadData, _OMC_LIT7, _i_modelInfo_name);
+          _txt_32 = omc_CodegenUtil_dotPath(threadData, _OMC_LIT6, _i_modelInfo_name);
 
-          _txt_33 = omc_CodegenCppHpcom_additionalHpcomConstructorBodyStatements(threadData, _OMC_LIT7, _i_hpcomData_schedules, omc_Tpl_textString(threadData, _l_className), omc_Tpl_textString(threadData, _txt_32));
+          _txt_33 = omc_CodegenCppHpcom_additionalHpcomConstructorBodyStatements(threadData, _OMC_LIT6, _i_hpcomData_schedules, omc_Tpl_textString(threadData, _l_className), omc_Tpl_textString(threadData, _txt_32));
 
-          _txt_34 = omc_CodegenCppHpcom_additionalHpcomDestructorBodyStatements(threadData, _OMC_LIT7, _i_hpcomData_schedules);
+          _txt_34 = omc_CodegenCppHpcom_additionalHpcomDestructorBodyStatements(threadData, _OMC_LIT6, _i_hpcomData_schedules);
 
-          _txt_35 = omc_CodegenCpp_simulationCppFile(threadData, _OMC_LIT7, _i_simCode, _OMC_LIT30, _txt_26, _txt_27, _txt_28, _txt_29, _txt_30, _l_extraFuncs, _l_extraFuncsDecl, _l_className, _txt_31, _txt_33, _txt_34, _l_stateDerVectorName, 0 /* false */ ,&_txt_26 ,&_txt_27 ,&_txt_28 ,&_txt_29 ,&_txt_30 ,&_l_extraFuncs ,&_l_extraFuncsDecl ,&_l_className ,&_txt_31 ,&_txt_33 ,&_txt_34 ,&_l_stateDerVectorName);
+          _txt_35 = omc_CodegenCpp_simulationCppFile(threadData, _OMC_LIT6, _i_simCode, _OMC_LIT29, _txt_26, _txt_27, _txt_28, _txt_29, _txt_30, _l_extraFuncs, _l_extraFuncsDecl, _l_className, _txt_31, _txt_33, _txt_34, _l_stateDerVectorName, 0 /* false */ ,&_txt_26 ,&_txt_27 ,&_txt_28 ,&_txt_29 ,&_txt_30 ,&_l_extraFuncs ,&_l_extraFuncsDecl ,&_l_className ,&_txt_31 ,&_txt_33 ,&_txt_34 ,&_l_stateDerVectorName);
 
-          _txt_36 = omc_Tpl_writeTok(threadData, _OMC_LIT7, _OMC_LIT19);
+          _txt_36 = omc_Tpl_writeTok(threadData, _OMC_LIT6, _OMC_LIT18);
 
           _txt_36 = omc_Tpl_writeStr(threadData, _txt_36, _i_fileNamePrefix);
 
-          _txt_36 = omc_Tpl_writeTok(threadData, _txt_36, _OMC_LIT34);
+          _txt_36 = omc_Tpl_writeTok(threadData, _txt_36, _OMC_LIT33);
 
           omc_Tpl_textFile(threadData, _txt_35, omc_Tpl_textString(threadData, _txt_36));
 
-          _txt_37 = omc_CodegenCppHpcom_additionalHpcomIncludes(threadData, _OMC_LIT7, _i_simCode, _l_extraFuncs, _l_extraFuncsDecl, _l_className, 0 /* false */ ,&_l_extraFuncs ,&_l_extraFuncsDecl ,&_l_className);
+          _txt_37 = omc_CodegenCppHpcom_additionalHpcomIncludes(threadData, _OMC_LIT6, _i_simCode, _l_extraFuncs, _l_extraFuncsDecl, _l_className, 0 /* false */ ,&_l_extraFuncs ,&_l_extraFuncsDecl ,&_l_className);
 
-          _txt_38 = omc_CodegenCppHpcom_additionalHpcomProtectedMemberDeclaration(threadData, _OMC_LIT7, _i_simCode, _l_extraFuncs, _l_extraFuncsDecl, omc_Tpl_strTokText(threadData, _OMC_LIT17), 0 /* false */ ,&_l_extraFuncs ,&_l_extraFuncsDecl ,NULL);
+          _txt_38 = omc_CodegenCppHpcom_additionalHpcomProtectedMemberDeclaration(threadData, _OMC_LIT6, _i_simCode, _l_extraFuncs, _l_extraFuncsDecl, omc_Tpl_strTokText(threadData, _OMC_LIT16), 0 /* false */ ,&_l_extraFuncs ,&_l_extraFuncsDecl ,NULL);
 
-          _txt_39 = omc_Tpl_writeText(threadData, _OMC_LIT7, _l_numRealVars);
+          _txt_39 = omc_Tpl_writeText(threadData, _OMC_LIT6, _l_numRealVars);
 
-          _txt_39 = omc_Tpl_writeTok(threadData, _txt_39, _OMC_LIT32);
+          _txt_39 = omc_Tpl_writeTok(threadData, _txt_39, _OMC_LIT31);
 
-          _txt_40 = omc_Tpl_writeText(threadData, _OMC_LIT7, _l_numIntVars);
+          _txt_40 = omc_Tpl_writeText(threadData, _OMC_LIT6, _l_numIntVars);
 
-          _txt_40 = omc_Tpl_writeTok(threadData, _txt_40, _OMC_LIT32);
+          _txt_40 = omc_Tpl_writeTok(threadData, _txt_40, _OMC_LIT31);
 
-          _txt_41 = omc_Tpl_writeText(threadData, _OMC_LIT7, _l_numBoolVars);
+          _txt_41 = omc_Tpl_writeText(threadData, _OMC_LIT6, _l_numBoolVars);
 
-          _txt_41 = omc_Tpl_writeTok(threadData, _txt_41, _OMC_LIT32);
+          _txt_41 = omc_Tpl_writeTok(threadData, _txt_41, _OMC_LIT31);
 
-          _txt_42 = omc_Tpl_writeText(threadData, _OMC_LIT7, _l_numStringVars);
+          _txt_42 = omc_Tpl_writeText(threadData, _OMC_LIT6, _l_numStringVars);
 
-          _txt_42 = omc_Tpl_writeTok(threadData, _txt_42, _OMC_LIT32);
+          _txt_42 = omc_Tpl_writeTok(threadData, _txt_42, _OMC_LIT31);
 
-          _ret_43 = omc_Flags_isSet(threadData, _OMC_LIT38);
+          _ret_43 = omc_Flags_isSet(threadData, _OMC_LIT36);
 
-          _txt_44 = omc_CodegenCpp_memberVariableDefine(threadData, _OMC_LIT7, _i_modelInfo, _i_varToArrayIndexMapping, _txt_39, _txt_40, _txt_41, _txt_42, _ret_43, 0 /* false */ ,&_txt_39 ,&_txt_40 ,&_txt_41 ,&_txt_42);
+          _txt_44 = omc_CodegenCpp_memberVariableDefine(threadData, _OMC_LIT6, _i_modelInfo, _i_varToArrayIndexMapping, _txt_39, _txt_40, _txt_41, _txt_42, _ret_43, 0 /* false */ ,&_txt_39 ,&_txt_40 ,&_txt_41 ,&_txt_42);
 
-          _txt_45 = omc_CodegenCpp_simulationHeaderFile(threadData, _OMC_LIT7, _i_simCode, _OMC_LIT30, _l_extraFuncs, _l_extraFuncsDecl, omc_Tpl_strTokText(threadData, _OMC_LIT17), omc_Tpl_textString(threadData, _txt_37), _OMC_LIT16, omc_Tpl_textString(threadData, _txt_38), omc_Tpl_textString(threadData, _txt_44), 0 /* false */ ,&_l_extraFuncs ,&_l_extraFuncsDecl ,NULL);
+          _txt_45 = omc_CodegenCpp_simulationHeaderFile(threadData, _OMC_LIT6, _i_simCode, _OMC_LIT29, _l_extraFuncs, _l_extraFuncsDecl, omc_Tpl_strTokText(threadData, _OMC_LIT16), omc_Tpl_textString(threadData, _txt_37), _OMC_LIT9, omc_Tpl_textString(threadData, _txt_38), omc_Tpl_textString(threadData, _txt_44), 0 /* false */ ,&_l_extraFuncs ,&_l_extraFuncsDecl ,NULL);
 
-          _txt_46 = omc_Tpl_writeTok(threadData, _OMC_LIT7, _OMC_LIT19);
+          _txt_46 = omc_Tpl_writeTok(threadData, _OMC_LIT6, _OMC_LIT18);
 
           _txt_46 = omc_Tpl_writeStr(threadData, _txt_46, _i_fileNamePrefix);
 
-          _txt_46 = omc_Tpl_writeTok(threadData, _txt_46, _OMC_LIT40);
+          _txt_46 = omc_Tpl_writeTok(threadData, _txt_46, _OMC_LIT38);
 
           omc_Tpl_textFile(threadData, _txt_45, omc_Tpl_textString(threadData, _txt_46));
           tmpMeta1 = _txt;

@@ -16,40 +16,56 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT4,9,_OMC_LIT4_data);
 #define _OMC_LIT5_data "Sets whether to print a failtrace or not."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT5,41,_OMC_LIT5_data);
 #define _OMC_LIT5 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT5)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT6,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT5}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT6,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT4,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT5}};
 #define _OMC_LIT6 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT7,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT4,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT6}};
-#define _OMC_LIT7 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT7)
-#define _OMC_LIT8_data "- CheckModel.statementOutputs failed for "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT8,41,_OMC_LIT8_data);
-#define _OMC_LIT8 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT8)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT9,1,4) {&DAE_Expand_NOT__EXPAND__desc,}};
+#define _OMC_LIT7_data "- CheckModel.statementOutputs failed for "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,41,_OMC_LIT7_data);
+#define _OMC_LIT7 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT7)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT8,1,4) {&DAE_Expand_NOT__EXPAND__desc,}};
+#define _OMC_LIT8 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT8)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT9,1,5) {&ErrorTypes_MessageType_TRANSLATION__desc,}};
 #define _OMC_LIT9 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT9)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT10,1,5) {&ErrorTypes_MessageType_TRANSLATION__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT10,1,4) {&ErrorTypes_Severity_ERROR__desc,}};
 #define _OMC_LIT10 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT10)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT11,1,4) {&ErrorTypes_Severity_ERROR__desc,}};
-#define _OMC_LIT11 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT11)
-#define _OMC_LIT12_data "Internal error %s"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT12,17,_OMC_LIT12_data);
-#define _OMC_LIT12 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT12)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT13,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT12}};
-#define _OMC_LIT13 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT13)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT14,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(63)),_OMC_LIT10,_OMC_LIT11,_OMC_LIT13}};
+#define _OMC_LIT11_data "Internal error %s"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT11,17,_OMC_LIT11_data);
+#define _OMC_LIT11 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT11)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT12,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(63)),_OMC_LIT9,_OMC_LIT10,_OMC_LIT11}};
+#define _OMC_LIT12 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT12)
+#define _OMC_LIT13_data "checkAndGetAlgorithmOutputs failed."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT13,35,_OMC_LIT13_data);
+#define _OMC_LIT13 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT13)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT14,2,1) {_OMC_LIT13,MMC_REFSTRUCTLIT(mmc_nil)}};
 #define _OMC_LIT14 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT14)
-#define _OMC_LIT15_data "checkAndGetAlgorithmOutputs failed."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT15,35,_OMC_LIT15_data);
+#define _OMC_LIT15_data "[eqn: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT15,6,_OMC_LIT15_data);
 #define _OMC_LIT15 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT15)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT16,2,1) {_OMC_LIT15,MMC_REFSTRUCTLIT(mmc_nil)}};
-#define _OMC_LIT16 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT16)
-#define _OMC_LIT17_data "- CheckModel.countVarEqnSize failed on: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT17,40,_OMC_LIT17_data);
+#define _OMC_LIT16_data "] "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT16,2,_OMC_LIT16_data);
+#define _OMC_LIT16 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT16)
+#define _OMC_LIT17_data "[var: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT17,6,_OMC_LIT17_data);
 #define _OMC_LIT17 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT17)
-#define _OMC_LIT18_data "CheckModel - start counting"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT18,27,_OMC_LIT18_data);
+#define _OMC_LIT18_data "\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT18,1,_OMC_LIT18_data);
 #define _OMC_LIT18 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT18)
-#define _OMC_LIT19_data "CheckModel - end counting"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT19,25,_OMC_LIT19_data);
+#define _OMC_LIT19_data "- CheckModel.countVarEqnSize failed on: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT19,40,_OMC_LIT19_data);
 #define _OMC_LIT19 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT19)
+#define _OMC_LIT20_data "dumpCheckModel"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT20,14,_OMC_LIT20_data);
+#define _OMC_LIT20 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT20)
+#define _OMC_LIT21_data "Dumps the variables and equations found by checkModel."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT21,54,_OMC_LIT21_data);
+#define _OMC_LIT21 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT21)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT22,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(199)),_OMC_LIT20,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT21}};
+#define _OMC_LIT22 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT22)
+#define _OMC_LIT23_data "CheckModel - start counting"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT23,27,_OMC_LIT23_data);
+#define _OMC_LIT23 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT23)
+#define _OMC_LIT24_data "CheckModel - end counting"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT24,25,_OMC_LIT24_data);
+#define _OMC_LIT24 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT24)
 #include "util/modelica.h"
 
 #include "CheckModel_includes.h"
@@ -94,9 +110,22 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CheckModel_statementOutputs,2,0) {(void
 PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_algorithmOutputs(threadData_t *threadData, modelica_metatype _inAlgorithm, modelica_metatype _inCrefExpansion);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CheckModel_algorithmOutputs,2,0) {(void*) boxptr_CheckModel_algorithmOutputs,0}};
 #define boxvar_CheckModel_algorithmOutputs MMC_REFSTRUCTLIT(boxvar_lit_CheckModel_algorithmOutputs)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_countVarEqnSize(threadData_t *threadData, modelica_metatype _element, modelica_metatype _inArg);
+PROTECTED_FUNCTION_STATIC void omc_CheckModel_dumpEqn(threadData_t *threadData, modelica_metatype _eqn, modelica_integer _size, modelica_boolean _dump);
+PROTECTED_FUNCTION_STATIC void boxptr_CheckModel_dumpEqn(threadData_t *threadData, modelica_metatype _eqn, modelica_metatype _size, modelica_metatype _dump);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CheckModel_dumpEqn,2,0) {(void*) boxptr_CheckModel_dumpEqn,0}};
+#define boxvar_CheckModel_dumpEqn MMC_REFSTRUCTLIT(boxvar_lit_CheckModel_dumpEqn)
+PROTECTED_FUNCTION_STATIC void omc_CheckModel_dumpVar(threadData_t *threadData, modelica_metatype _cref, modelica_integer _size, modelica_boolean _dump);
+PROTECTED_FUNCTION_STATIC void boxptr_CheckModel_dumpVar(threadData_t *threadData, modelica_metatype _cref, modelica_metatype _size, modelica_metatype _dump);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CheckModel_dumpVar,2,0) {(void*) boxptr_CheckModel_dumpVar,0}};
+#define boxvar_CheckModel_dumpVar MMC_REFSTRUCTLIT(boxvar_lit_CheckModel_dumpVar)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_countVarEqnSize(threadData_t *threadData, modelica_metatype _element, modelica_metatype _inArg, modelica_boolean _debugDump);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CheckModel_countVarEqnSize(threadData_t *threadData, modelica_metatype _element, modelica_metatype _inArg, modelica_metatype _debugDump);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CheckModel_countVarEqnSize,2,0) {(void*) boxptr_CheckModel_countVarEqnSize,0}};
 #define boxvar_CheckModel_countVarEqnSize MMC_REFSTRUCTLIT(boxvar_lit_CheckModel_countVarEqnSize)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_countVarEqnSizeList(threadData_t *threadData, modelica_metatype _elements, modelica_metatype __omcQ_24in_5Farg, modelica_boolean _debugDump);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CheckModel_countVarEqnSizeList(threadData_t *threadData, modelica_metatype _elements, modelica_metatype __omcQ_24in_5Farg, modelica_metatype _debugDump);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CheckModel_countVarEqnSizeList,2,0) {(void*) boxptr_CheckModel_countVarEqnSizeList,0}};
+#define boxvar_CheckModel_countVarEqnSizeList MMC_REFSTRUCTLIT(boxvar_lit_CheckModel_countVarEqnSizeList)
 
 PROTECTED_FUNCTION_STATIC modelica_integer omc_CheckModel_simpleEquations(threadData_t *threadData, modelica_metatype _e1lst, modelica_metatype _e2lst, modelica_integer _isimpleEqnSize, modelica_metatype _ihs)
 {
@@ -222,7 +251,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_getcr(threadData_t *t
           /* Pattern matching succeeded */
           /* Check guard condition after assignments */
           if (!omc_BaseHashSet_has(threadData, _cr, _hs)) goto tmp3_end;
-          _crlst = omc_List_unionEltOnTrue(threadData, _cr, _iAcc, boxvar_ComponentReference_crefEqual);
+          _crlst = omc_List_unionEltOnTrue(threadData, _cr, _iAcc, boxvar_ComponentReferenceBasics_crefEqual);
           /* Tail recursive call */
           _crefs = _rest;
           _iAcc = _crlst;
@@ -2046,7 +2075,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_statementOutputs(thre
           _stmts = tmpMeta20;
           tmp4 += 13; /* Pattern matching succeeded; we may skip some cases if we fail */
           tmpMeta21 = MMC_REFSTRUCTLIT(mmc_nil);
-          _cr = omc_ComponentReference_makeCrefIdent(threadData, _iteratorName, _tp, tmpMeta21);
+          _cr = omc_ComponentReferenceBasics_makeCrefIdent(threadData, _iteratorName, _tp, tmpMeta21);
 
           tmpMeta22 = mmc_mk_box2(0, _cr, _e);
           tmpMeta23 = mmc_mk_box2(0, boxvar_Expression_replaceCref, tmpMeta22);
@@ -2074,7 +2103,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_statementOutputs(thre
           _stmts = tmpMeta27;
           tmp4 += 12; /* Pattern matching succeeded; we may skip some cases if we fail */
           tmpMeta28 = MMC_REFSTRUCTLIT(mmc_nil);
-          _cr = omc_ComponentReference_makeCrefIdent(threadData, _iteratorName, _tp, tmpMeta28);
+          _cr = omc_ComponentReferenceBasics_makeCrefIdent(threadData, _iteratorName, _tp, tmpMeta28);
 
           tmpMeta29 = mmc_mk_box2(0, _cr, _e);
           tmpMeta30 = mmc_mk_box2(0, boxvar_Expression_replaceCref, tmpMeta29);
@@ -2194,12 +2223,12 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_statementOutputs(thre
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp38 = omc_Flags_isSet(threadData, _OMC_LIT7);
+          tmp38 = omc_Flags_isSet(threadData, _OMC_LIT6);
           if (1 /* true */ != tmp38) goto goto_2;
 
           _str = omc_DAEDump_ppStatementStr(threadData, _inStatement);
 
-          tmpMeta39 = stringAppend(_OMC_LIT8,_str);
+          tmpMeta39 = stringAppend(_OMC_LIT7,_str);
           omc_Debug_traceln(threadData, tmpMeta39);
           goto goto_2;
           goto tmp3_done;
@@ -2339,13 +2368,13 @@ modelica_metatype omc_CheckModel_checkAndGetAlgorithmOutputs(threadData_t *threa
         case 1: {
           
           /* Pattern matching succeeded */
-          tmpMeta1 = (omc_PrefixUtil_hasSubs(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inSource), 4))))?omc_CheckModel_algorithmOutputs(threadData, _inAlgorithm, _OMC_LIT9):omc_CheckModel_algorithmOutputs(threadData, _inAlgorithm, _inCrefExpansionRule));
+          tmpMeta1 = (omc_PrefixUtil_hasSubs(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inSource), 4))))?omc_CheckModel_algorithmOutputs(threadData, _inAlgorithm, _OMC_LIT8):omc_CheckModel_algorithmOutputs(threadData, _inAlgorithm, _inCrefExpansionRule));
           goto tmp3_done;
         }
         case 2: {
           
           /* Pattern matching succeeded */
-          omc_Error_addMessage(threadData, _OMC_LIT14, _OMC_LIT16);
+          omc_Error_addMessage(threadData, _OMC_LIT12, _OMC_LIT14);
           goto goto_2;
           goto tmp3_done;
         }
@@ -2372,7 +2401,67 @@ modelica_metatype omc_CheckModel_checkAndGetAlgorithmOutputs(threadData_t *threa
   return _outCrefLst;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_countVarEqnSize(threadData_t *threadData, modelica_metatype _element, modelica_metatype _inArg)
+PROTECTED_FUNCTION_STATIC void omc_CheckModel_dumpEqn(threadData_t *threadData, modelica_metatype _eqn, modelica_integer _size, modelica_boolean _dump)
+{
+  modelica_string tmp1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta3;
+  modelica_metatype tmpMeta4;
+  MMC_SO();
+  _tailrecursive: OMC_LABEL_UNUSED
+  if(_dump)
+  {
+    tmp1 = modelica_integer_to_modelica_string(_size, ((modelica_integer) 0), 1 /* true */);
+    tmpMeta2 = stringAppend(_OMC_LIT15,tmp1);
+    tmpMeta3 = stringAppend(tmpMeta2,_OMC_LIT16);
+    tmpMeta4 = stringAppend(tmpMeta3,omc_DAEDump_dumpEquationStr(threadData, _eqn));
+    fputs(MMC_STRINGDATA(tmpMeta4),stdout);
+  }
+  _return: OMC_LABEL_UNUSED
+  return;
+}
+PROTECTED_FUNCTION_STATIC void boxptr_CheckModel_dumpEqn(threadData_t *threadData, modelica_metatype _eqn, modelica_metatype _size, modelica_metatype _dump)
+{
+  modelica_integer tmp1;
+  modelica_integer tmp2;
+  tmp1 = mmc_unbox_integer(_size);
+  tmp2 = mmc_unbox_integer(_dump);
+  omc_CheckModel_dumpEqn(threadData, _eqn, tmp1, tmp2);
+  return;
+}
+
+PROTECTED_FUNCTION_STATIC void omc_CheckModel_dumpVar(threadData_t *threadData, modelica_metatype _cref, modelica_integer _size, modelica_boolean _dump)
+{
+  modelica_string tmp1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta3;
+  modelica_metatype tmpMeta4;
+  modelica_metatype tmpMeta5;
+  MMC_SO();
+  _tailrecursive: OMC_LABEL_UNUSED
+  if(_dump)
+  {
+    tmp1 = modelica_integer_to_modelica_string(_size, ((modelica_integer) 0), 1 /* true */);
+    tmpMeta2 = stringAppend(_OMC_LIT17,tmp1);
+    tmpMeta3 = stringAppend(tmpMeta2,_OMC_LIT16);
+    tmpMeta4 = stringAppend(tmpMeta3,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cref));
+    tmpMeta5 = stringAppend(tmpMeta4,_OMC_LIT18);
+    fputs(MMC_STRINGDATA(tmpMeta5),stdout);
+  }
+  _return: OMC_LABEL_UNUSED
+  return;
+}
+PROTECTED_FUNCTION_STATIC void boxptr_CheckModel_dumpVar(threadData_t *threadData, modelica_metatype _cref, modelica_metatype _size, modelica_metatype _dump)
+{
+  modelica_integer tmp1;
+  modelica_integer tmp2;
+  tmp1 = mmc_unbox_integer(_size);
+  tmp2 = mmc_unbox_integer(_dump);
+  omc_CheckModel_dumpVar(threadData, _cref, tmp1, tmp2);
+  return;
+}
+
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_countVarEqnSize(threadData_t *threadData, modelica_metatype _element, modelica_metatype _inArg, modelica_boolean _debugDump)
 {
   modelica_metatype _outArg = NULL;
   modelica_metatype tmpMeta1;
@@ -2395,6 +2484,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_countVarEqnSize(threa
       modelica_metatype _alg = NULL;
       modelica_metatype _crlst = NULL;
       modelica_metatype _tp = NULL;
+      modelica_metatype _elem = NULL;
       volatile mmc_switch_type tmp4;
       int tmp5;
       // _e has no default value.
@@ -2409,6 +2499,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_countVarEqnSize(threa
       // _alg has no default value.
       // _crlst has no default value.
       // _tp has no default value.
+      // _elem has no default value.
       tmp4 = 0;
       for (; tmp4 < 34; tmp4++) {
         switch (MMC_SWITCH_CAST(tmp4)) {
@@ -2486,9 +2577,13 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_countVarEqnSize(threa
 
           _varSize = _varSize + _size;
 
+          omc_CheckModel_dumpVar(threadData, _cr, _size, _debugDump);
+
           if((omc_DAEUtil_isInput(threadData, _element) && omc_DAEUtil_isPublicVar(threadData, _element)))
           {
             _eqnSize = _eqnSize + _size;
+
+            omc_CheckModel_dumpEqn(threadData, _element, _size, _debugDump);
           }
           else
           {
@@ -2496,9 +2591,13 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_countVarEqnSize(threa
             {
               _eqnSize = _eqnSize + _size;
 
-              tmpMeta19 = mmc_mk_box4(6, &DAE_Element_EQUATION__desc, omc_Expression_crefExp(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_element), 2)))), omc_Util_getOption(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_element), 8)))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_element), 11))));
-              tmpMeta18 = mmc_mk_cons(tmpMeta19, _eqns);
-              _eqns = tmpMeta18;
+              tmpMeta18 = mmc_mk_box4(6, &DAE_Element_EQUATION__desc, omc_Expression_crefExp(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_element), 2)))), omc_Util_getOption(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_element), 8)))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_element), 11))));
+              _elem = tmpMeta18;
+
+              omc_CheckModel_dumpEqn(threadData, _elem, _size, _debugDump);
+
+              tmpMeta19 = mmc_mk_cons(_elem, _eqns);
+              _eqns = tmpMeta19;
             }
 
             _hs = omc_BaseHashSet_add(threadData, _cr, _hs);
@@ -2537,6 +2636,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_countVarEqnSize(threa
           _hs = tmpMeta28;
 
           _size = omc_Expression_sizeOf(threadData, omc_Expression_typeof(threadData, _e));
+
+          omc_CheckModel_dumpEqn(threadData, _element, _size, _debugDump);
           tmpMeta29 = mmc_mk_cons(_element, _eqns);
           tmpMeta30 = mmc_mk_box4(0, mmc_mk_integer(_varSize), mmc_mk_integer(_eqnSize + _size), tmpMeta29, _hs);
           tmpMeta1 = tmpMeta30;
@@ -2581,6 +2682,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_countVarEqnSize(threa
           _tp = omc_ComponentReference_crefTypeConsiderSubs(threadData, _cr);
 
           _size = omc_Expression_sizeOf(threadData, _tp);
+
+          omc_CheckModel_dumpEqn(threadData, _element, _size, _debugDump);
           tmpMeta39 = mmc_mk_cons(_element, _eqns);
           tmpMeta40 = mmc_mk_box4(0, mmc_mk_integer(_varSize), mmc_mk_integer(_eqnSize + _size), tmpMeta39, _hs);
           tmpMeta1 = tmpMeta40;
@@ -2618,6 +2721,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_countVarEqnSize(threa
           _tp = omc_ComponentReference_crefTypeConsiderSubs(threadData, _cr);
 
           _size = omc_Expression_sizeOf(threadData, _tp);
+
+          omc_CheckModel_dumpEqn(threadData, _element, _size, _debugDump);
           tmpMeta49 = mmc_mk_cons(_element, _eqns);
           tmpMeta50 = mmc_mk_box4(0, mmc_mk_integer(_varSize), mmc_mk_integer(_eqnSize + _size), tmpMeta49, _hs);
           tmpMeta1 = tmpMeta50;
@@ -2653,6 +2758,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_countVarEqnSize(threa
           _hs = tmpMeta58;
 
           _size = omc_Expression_sizeOf(threadData, omc_Expression_typeof(threadData, _e));
+
+          omc_CheckModel_dumpEqn(threadData, _element, _size, _debugDump);
           tmpMeta59 = mmc_mk_cons(_element, _eqns);
           tmpMeta60 = mmc_mk_box4(0, mmc_mk_integer(_varSize), mmc_mk_integer(_eqnSize + _size), tmpMeta59, _hs);
           tmpMeta1 = tmpMeta60;
@@ -2692,6 +2799,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_countVarEqnSize(threa
           _hs = tmpMeta67;
 
           _size = omc_Expression_sizeOf(threadData, omc_Expression_typeof(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_element), 3)))));
+
+          omc_CheckModel_dumpEqn(threadData, _element, _size, _debugDump);
           tmpMeta68 = mmc_mk_cons(_element, _eqns);
           tmpMeta69 = mmc_mk_box4(0, mmc_mk_integer(_varSize), mmc_mk_integer(_eqnSize + _size), tmpMeta68, _hs);
           tmpMeta1 = tmpMeta69;
@@ -2740,10 +2849,12 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_countVarEqnSize(threa
           /* Pattern-matching assignment */
           tmpMeta78 = MMC_REFSTRUCTLIT(mmc_nil);
           tmpMeta79 = mmc_mk_box4(0, mmc_mk_integer(((modelica_integer) 0)), mmc_mk_integer(((modelica_integer) 0)), tmpMeta78, _hs);
-          tmpMeta80 = omc_List_fold(threadData, _daeElts, boxvar_CheckModel_countVarEqnSize, tmpMeta79);
+          tmpMeta80 = omc_CheckModel_countVarEqnSizeList(threadData, _daeElts, tmpMeta79, 0 /* false */);
           tmpMeta81 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta80), 2));
           tmp82 = mmc_unbox_integer(tmpMeta81);
           _size = tmp82  /* pattern as ty=Integer */;
+
+          omc_CheckModel_dumpEqn(threadData, _element, _size, _debugDump);
           tmpMeta83 = mmc_mk_box4(0, mmc_mk_integer(_varSize), mmc_mk_integer(_eqnSize + _size), _eqns, _hs);
           tmpMeta1 = tmpMeta83;
           goto tmp3_done;
@@ -2781,12 +2892,14 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_countVarEqnSize(threa
           /* Pattern-matching assignment */
           tmpMeta91 = MMC_REFSTRUCTLIT(mmc_nil);
           tmpMeta92 = mmc_mk_box4(0, mmc_mk_integer(((modelica_integer) 0)), mmc_mk_integer(((modelica_integer) 0)), tmpMeta91, _hs);
-          tmpMeta93 = omc_List_fold(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_element), 7))), boxvar_CheckModel_countVarEqnSize, tmpMeta92);
+          tmpMeta93 = omc_CheckModel_countVarEqnSizeList(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_element), 7))), tmpMeta92, 0 /* false */);
           tmpMeta94 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta93), 2));
           tmp95 = mmc_unbox_integer(tmpMeta94);
           _size = tmp95  /* pattern as ty=Integer */;
 
           _size = (_size) * (omc_Expression_sizeOf(threadData, omc_Expression_typeof(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_element), 6))))));
+
+          omc_CheckModel_dumpEqn(threadData, _element, _size, _debugDump);
           tmpMeta96 = mmc_mk_box4(0, mmc_mk_integer(_varSize), mmc_mk_integer(_eqnSize + _size), _eqns, _hs);
           tmpMeta1 = tmpMeta96;
           goto tmp3_done;
@@ -2824,12 +2937,14 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_countVarEqnSize(threa
           /* Pattern-matching assignment */
           tmpMeta104 = MMC_REFSTRUCTLIT(mmc_nil);
           tmpMeta105 = mmc_mk_box4(0, mmc_mk_integer(((modelica_integer) 0)), mmc_mk_integer(((modelica_integer) 0)), tmpMeta104, _hs);
-          tmpMeta106 = omc_List_fold(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_element), 7))), boxvar_CheckModel_countVarEqnSize, tmpMeta105);
+          tmpMeta106 = omc_CheckModel_countVarEqnSizeList(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_element), 7))), tmpMeta105, 0 /* false */);
           tmpMeta107 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta106), 2));
           tmp108 = mmc_unbox_integer(tmpMeta107);
           _size = tmp108  /* pattern as ty=Integer */;
 
           _size = (_size) * (omc_Expression_sizeOf(threadData, omc_Expression_typeof(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_element), 6))))));
+
+          omc_CheckModel_dumpEqn(threadData, _element, _size, _debugDump);
           tmpMeta109 = mmc_mk_box4(0, mmc_mk_integer(_varSize), mmc_mk_integer(_eqnSize + _size), _eqns, _hs);
           tmpMeta1 = tmpMeta109;
           goto tmp3_done;
@@ -2899,10 +3014,12 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_countVarEqnSize(threa
           /* Pattern-matching assignment */
           tmpMeta126 = MMC_REFSTRUCTLIT(mmc_nil);
           tmpMeta127 = mmc_mk_box4(0, mmc_mk_integer(((modelica_integer) 0)), mmc_mk_integer(((modelica_integer) 0)), tmpMeta126, _hs);
-          tmpMeta128 = omc_List_fold(threadData, _daeElts, boxvar_CheckModel_countVarEqnSize, tmpMeta127);
+          tmpMeta128 = omc_CheckModel_countVarEqnSizeList(threadData, _daeElts, tmpMeta127, 0 /* false */);
           tmpMeta129 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta128), 2));
           tmp130 = mmc_unbox_integer(tmpMeta129);
           _size = tmp130  /* pattern as ty=Integer */;
+
+          omc_CheckModel_dumpEqn(threadData, _element, _size, _debugDump);
           tmpMeta131 = mmc_mk_box4(0, mmc_mk_integer(_varSize), mmc_mk_integer(_eqnSize + _size), _eqns, _hs);
           tmpMeta1 = tmpMeta131;
           goto tmp3_done;
@@ -2971,6 +3088,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_countVarEqnSize(threa
           _crlst = omc_CheckModel_checkAndGetAlgorithmOutputs(threadData, _alg, _source, _OMC_LIT3);
 
           _size = listLength(_crlst);
+
+          omc_CheckModel_dumpEqn(threadData, _element, _size, _debugDump);
           tmpMeta147 = mmc_mk_box4(0, mmc_mk_integer(_varSize), mmc_mk_integer(_eqnSize + _size), _eqns, _hs);
           tmpMeta1 = tmpMeta147;
           goto tmp3_done;
@@ -2989,7 +3108,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_countVarEqnSize(threa
           
           _daeElts = tmpMeta148;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_List_fold(threadData, _daeElts, boxvar_CheckModel_countVarEqnSize, _inArg);
+          tmpMeta1 = omc_CheckModel_countVarEqnSizeList(threadData, _daeElts, _inArg, _debugDump);
           goto tmp3_done;
         }
         case 23: {
@@ -3054,7 +3173,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_countVarEqnSize(threa
           tmpMeta149 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 3));
           _daeElts = tmpMeta149;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_List_fold(threadData, _daeElts, boxvar_CheckModel_countVarEqnSize, _inArg);
+          tmpMeta1 = omc_CheckModel_countVarEqnSizeList(threadData, _daeElts, _inArg, _debugDump);
           goto tmp3_done;
         }
         case 32: {
@@ -3063,7 +3182,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_countVarEqnSize(threa
           tmpMeta150 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 3));
           _daeElts = tmpMeta150;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_List_fold(threadData, _daeElts, boxvar_CheckModel_countVarEqnSize, _inArg);
+          tmpMeta1 = omc_CheckModel_countVarEqnSizeList(threadData, _daeElts, _inArg, _debugDump);
           goto tmp3_done;
         }
         case 33: {
@@ -3073,11 +3192,11 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_countVarEqnSize(threa
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp151 = omc_Flags_isSet(threadData, _OMC_LIT7);
+          tmp151 = omc_Flags_isSet(threadData, _OMC_LIT6);
           if (1 /* true */ != tmp151) goto goto_2;
 
           tmpMeta152 = mmc_mk_cons(_element, MMC_REFSTRUCTLIT(mmc_nil));
-          tmpMeta153 = stringAppend(_OMC_LIT17,omc_DAEDump_dumpElementsStr(threadData, tmpMeta152));
+          tmpMeta153 = stringAppend(_OMC_LIT19,omc_DAEDump_dumpElementsStr(threadData, tmpMeta152));
           omc_Debug_traceln(threadData, tmpMeta153);
           goto goto_2;
           goto tmp3_done;
@@ -3097,6 +3216,44 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_countVarEqnSize(threa
   _return: OMC_LABEL_UNUSED
   return _outArg;
 }
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CheckModel_countVarEqnSize(threadData_t *threadData, modelica_metatype _element, modelica_metatype _inArg, modelica_metatype _debugDump)
+{
+  modelica_integer tmp1;
+  modelica_metatype _outArg = NULL;
+  tmp1 = mmc_unbox_integer(_debugDump);
+  _outArg = omc_CheckModel_countVarEqnSize(threadData, _element, _inArg, tmp1);
+  /* skip box _outArg; tuple<#Integer, #Integer, list<DAE.Element>, tuple<array<list<tuple<DAE.ComponentRef, #Integer>>>, tuple<#Integer, #Integer, array<Option<DAE.ComponentRef>>>, #Integer, #Integer, tuple<.HashSet.FuncHashCref<function>(DAE.ComponentRef cr) => #Integer, .HashSet.FuncCrefEqual<function>(DAE.ComponentRef cr1, DAE.ComponentRef cr2) => #Boolean, .HashSet.FuncCrefStr<function>(DAE.ComponentRef cr) => String>>> */
+  return _outArg;
+}
+
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CheckModel_countVarEqnSizeList(threadData_t *threadData, modelica_metatype _elements, modelica_metatype __omcQ_24in_5Farg, modelica_boolean _debugDump)
+{
+  modelica_metatype _arg = NULL;
+  modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  MMC_SO();
+  _tailrecursive: OMC_LABEL_UNUSED
+  _arg = __omcQ_24in_5Farg;
+  {
+    modelica_metatype _e;
+    for (tmpMeta1 = _elements; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
+    {
+      _e = MMC_CAR(tmpMeta1);
+      _arg = omc_CheckModel_countVarEqnSize(threadData, _e, _arg, _debugDump);
+    }
+  }
+  _return: OMC_LABEL_UNUSED
+  return _arg;
+}
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CheckModel_countVarEqnSizeList(threadData_t *threadData, modelica_metatype _elements, modelica_metatype __omcQ_24in_5Farg, modelica_metatype _debugDump)
+{
+  modelica_integer tmp1;
+  modelica_metatype _arg = NULL;
+  tmp1 = mmc_unbox_integer(_debugDump);
+  _arg = omc_CheckModel_countVarEqnSizeList(threadData, _elements, __omcQ_24in_5Farg, tmp1);
+  /* skip box _arg; tuple<#Integer, #Integer, list<DAE.Element>, tuple<array<list<tuple<DAE.ComponentRef, #Integer>>>, tuple<#Integer, #Integer, array<Option<DAE.ComponentRef>>>, #Integer, #Integer, tuple<.HashSet.FuncHashCref<function>(DAE.ComponentRef cr) => #Integer, .HashSet.FuncCrefEqual<function>(DAE.ComponentRef cr1, DAE.ComponentRef cr2) => #Boolean, .HashSet.FuncCrefStr<function>(DAE.ComponentRef cr) => String>>> */
+  return _arg;
+}
 
 DLLDirection
 modelica_integer omc_CheckModel_checkModel(threadData_t *threadData, modelica_metatype _inDAELst, modelica_integer *out_eqnSize, modelica_integer *out_simpleEqnSize)
@@ -3107,6 +3264,8 @@ modelica_integer omc_CheckModel_checkModel(threadData_t *threadData, modelica_me
   modelica_metatype _eqns = NULL;
   modelica_metatype _lst = NULL;
   modelica_metatype _hs = NULL;
+  modelica_boolean _debug_dump;
+  modelica_metatype _arg = NULL;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
@@ -3126,7 +3285,9 @@ modelica_integer omc_CheckModel_checkModel(threadData_t *threadData, modelica_me
   // _eqns has no default value.
   // _lst has no default value.
   // _hs has no default value.
-  omc_ExecStat_execStat(threadData, _OMC_LIT18);
+  _debug_dump = omc_Flags_isSet(threadData, _OMC_LIT22);
+  // _arg has no default value.
+  omc_ExecStat_execStat(threadData, _OMC_LIT23);
 
   /* Pattern-matching assignment */
   tmpMeta1 = _inDAELst;
@@ -3138,7 +3299,7 @@ modelica_integer omc_CheckModel_checkModel(threadData_t *threadData, modelica_me
   /* Pattern-matching assignment */
   tmpMeta3 = MMC_REFSTRUCTLIT(mmc_nil);
   tmpMeta4 = mmc_mk_box4(0, mmc_mk_integer(((modelica_integer) 0)), mmc_mk_integer(((modelica_integer) 0)), tmpMeta3, _hs);
-  tmpMeta5 = omc_List_fold(threadData, _lst, boxvar_CheckModel_countVarEqnSize, tmpMeta4);
+  tmpMeta5 = omc_CheckModel_countVarEqnSizeList(threadData, _lst, tmpMeta4, _debug_dump);
   tmpMeta6 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta5), 1));
   tmp7 = mmc_unbox_integer(tmpMeta6);
   tmpMeta8 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta5), 2));
@@ -3152,7 +3313,7 @@ modelica_integer omc_CheckModel_checkModel(threadData_t *threadData, modelica_me
 
   _simpleEqnSize = omc_CheckModel_countSimpleEqnSize(threadData, _eqns, ((modelica_integer) 0), _hs);
 
-  omc_ExecStat_execStat(threadData, _OMC_LIT19);
+  omc_ExecStat_execStat(threadData, _OMC_LIT24);
   _return: OMC_LABEL_UNUSED
   if (out_eqnSize) { *out_eqnSize = _eqnSize; }
   if (out_simpleEqnSize) { *out_simpleEqnSize = _simpleEqnSize; }

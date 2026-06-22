@@ -48,8 +48,6 @@ extern struct record_description ErrorTypes_MessageType_TRANSLATION__desc;
 
 extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NFCall_ARG__TYPED__CALL__desc;
 
 extern struct record_description NFCall_TYPED__ARRAY__CONSTRUCTOR__desc;
@@ -339,6 +337,16 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFCall_toAbsyn,2,0) {(void*) boxptr_NFC
 #define boxvar_NFCall_toAbsyn MMC_REFSTRUCTLIT(boxvar_lit_NFCall_toAbsyn)
 
 
+#define boxptr_NFCall_toJSONStringArgs_make__arg omc_NFCall_toJSONStringArgs_make__arg
+
+
+DLLDirection
+modelica_metatype omc_NFCall_toJSONStringArgs(threadData_t *threadData, modelica_metatype _args, modelica_metatype __omcQ_24in_5Fjson);
+#define boxptr_NFCall_toJSONStringArgs omc_NFCall_toJSONStringArgs
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFCall_toJSONStringArgs,2,0) {(void*) boxptr_NFCall_toJSONStringArgs,0}};
+#define boxvar_NFCall_toJSONStringArgs MMC_REFSTRUCTLIT(boxvar_lit_NFCall_toJSONStringArgs)
+
+
 DLLDirection
 modelica_metatype omc_NFCall_toJSON_iterators__json(threadData_t *threadData, modelica_metatype _iters);
 #define boxptr_NFCall_toJSON_iterators__json omc_NFCall_toJSON_iterators__json
@@ -450,6 +458,38 @@ modelica_metatype omc_NFCall_inlineType(threadData_t *threadData, modelica_metat
 #define boxptr_NFCall_inlineType omc_NFCall_inlineType
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFCall_inlineType,2,0) {(void*) boxptr_NFCall_inlineType,0}};
 #define boxvar_NFCall_inlineType MMC_REFSTRUCTLIT(boxvar_lit_NFCall_inlineType)
+
+
+DLLDirection
+modelica_boolean omc_NFCall_isNonNegative(threadData_t *threadData, modelica_metatype _call);
+DLLDirection
+modelica_metatype boxptr_NFCall_isNonNegative(threadData_t *threadData, modelica_metatype _call);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFCall_isNonNegative,2,0) {(void*) boxptr_NFCall_isNonNegative,0}};
+#define boxvar_NFCall_isNonNegative MMC_REFSTRUCTLIT(boxvar_lit_NFCall_isNonNegative)
+
+
+DLLDirection
+modelica_boolean omc_NFCall_isNonPositive(threadData_t *threadData, modelica_metatype _call);
+DLLDirection
+modelica_metatype boxptr_NFCall_isNonPositive(threadData_t *threadData, modelica_metatype _call);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFCall_isNonPositive,2,0) {(void*) boxptr_NFCall_isNonPositive,0}};
+#define boxvar_NFCall_isNonPositive MMC_REFSTRUCTLIT(boxvar_lit_NFCall_isNonPositive)
+
+
+DLLDirection
+modelica_boolean omc_NFCall_isNegative(threadData_t *threadData, modelica_metatype _call);
+DLLDirection
+modelica_metatype boxptr_NFCall_isNegative(threadData_t *threadData, modelica_metatype _call);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFCall_isNegative,2,0) {(void*) boxptr_NFCall_isNegative,0}};
+#define boxvar_NFCall_isNegative MMC_REFSTRUCTLIT(boxvar_lit_NFCall_isNegative)
+
+
+DLLDirection
+modelica_boolean omc_NFCall_isPositive(threadData_t *threadData, modelica_metatype _call);
+DLLDirection
+modelica_metatype boxptr_NFCall_isPositive(threadData_t *threadData, modelica_metatype _call);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFCall_isPositive,2,0) {(void*) boxptr_NFCall_isPositive,0}};
+#define boxvar_NFCall_isPositive MMC_REFSTRUCTLIT(boxvar_lit_NFCall_isPositive)
 
 
 DLLDirection

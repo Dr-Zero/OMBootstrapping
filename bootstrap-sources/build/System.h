@@ -301,22 +301,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_System_anyStringCode,2,0) {(void*) boxp
 
 extern const char* anyStringCode(modelica_metatype /*_any*/);
 
-DLLDirection
-modelica_string omc_System_gettext(threadData_t *threadData, modelica_string _msgid);
-#define boxptr_System_gettext omc_System_gettext
-static const MMC_DEFSTRUCTLIT(boxvar_lit_System_gettext,2,0) {(void*) boxptr_System_gettext,0}};
-#define boxvar_System_gettext MMC_REFSTRUCTLIT(boxvar_lit_System_gettext)
-
-extern const char* SystemImpl__gettext(const char* /*_msgid*/);
-
-DLLDirection
-void omc_System_gettextInit(threadData_t *threadData, modelica_string _locale);
-#define boxptr_System_gettextInit omc_System_gettextInit
-static const MMC_DEFSTRUCTLIT(boxvar_lit_System_gettextInit,2,0) {(void*) boxptr_System_gettextInit,0}};
-#define boxvar_System_gettextInit MMC_REFSTRUCTLIT(boxvar_lit_System_gettextInit)
-
-extern void SystemImpl__gettextInit(const char* /*_locale*/);
-
 
 /*
  * The function has annotation(Include=...>) or is builtin

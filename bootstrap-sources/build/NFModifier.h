@@ -16,8 +16,6 @@ extern struct record_description ErrorTypes_MessageType_TRANSLATION__desc;
 
 extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description IOStream_IOStreamType_LIST__desc;
 
 extern struct record_description NFBinding_UNBOUND__desc;
@@ -57,9 +55,6 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
 #define boxptr_NFModifier_Modifier_checkFinalOverride omc_NFModifier_Modifier_checkFinalOverride
-
-
-#define boxptr_NFModifier_Modifier_createSubMod omc_NFModifier_Modifier_createSubMod
 
 
 DLLDirection
@@ -225,8 +220,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFModifier_Modifier_patchElementModFina
 
 
 DLLDirection
-modelica_metatype omc_NFModifier_Modifier_fromElement(threadData_t *threadData, modelica_metatype _element, modelica_metatype _scope);
-#define boxptr_NFModifier_Modifier_fromElement omc_NFModifier_Modifier_fromElement
+modelica_metatype omc_NFModifier_Modifier_fromElement(threadData_t *threadData, modelica_metatype _element, modelica_metatype _scope, modelica_integer _confidence);
+DLLDirection
+modelica_metatype boxptr_NFModifier_Modifier_fromElement(threadData_t *threadData, modelica_metatype _element, modelica_metatype _scope, modelica_metatype _confidence);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFModifier_Modifier_fromElement,2,0) {(void*) boxptr_NFModifier_Modifier_fromElement,0}};
 #define boxvar_NFModifier_Modifier_fromElement MMC_REFSTRUCTLIT(boxvar_lit_NFModifier_Modifier_fromElement)
 
@@ -239,15 +235,17 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFModifier_Modifier_stripSCodeMod,2,0) 
 
 
 DLLDirection
-modelica_metatype omc_NFModifier_Modifier_createConstrainingMod(threadData_t *threadData, modelica_metatype _element, modelica_metatype _scope);
-#define boxptr_NFModifier_Modifier_createConstrainingMod omc_NFModifier_Modifier_createConstrainingMod
+modelica_metatype omc_NFModifier_Modifier_createConstrainingMod(threadData_t *threadData, modelica_metatype _element, modelica_metatype _scope, modelica_integer _confidence);
+DLLDirection
+modelica_metatype boxptr_NFModifier_Modifier_createConstrainingMod(threadData_t *threadData, modelica_metatype _element, modelica_metatype _scope, modelica_metatype _confidence);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFModifier_Modifier_createConstrainingMod,2,0) {(void*) boxptr_NFModifier_Modifier_createConstrainingMod,0}};
 #define boxvar_NFModifier_Modifier_createConstrainingMod MMC_REFSTRUCTLIT(boxvar_lit_NFModifier_Modifier_createConstrainingMod)
 
 
 DLLDirection
-modelica_metatype omc_NFModifier_Modifier_create(threadData_t *threadData, modelica_metatype _mod, modelica_string _name, modelica_metatype _modScope, modelica_metatype _scope);
-#define boxptr_NFModifier_Modifier_create omc_NFModifier_Modifier_create
+modelica_metatype omc_NFModifier_Modifier_create(threadData_t *threadData, modelica_metatype _mod, modelica_string _name, modelica_metatype _modScope, modelica_metatype _scope, modelica_integer _confidence);
+DLLDirection
+modelica_metatype boxptr_NFModifier_Modifier_create(threadData_t *threadData, modelica_metatype _mod, modelica_metatype _name, modelica_metatype _modScope, modelica_metatype _scope, modelica_metatype _confidence);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFModifier_Modifier_create,2,0) {(void*) boxptr_NFModifier_Modifier_create,0}};
 #define boxvar_NFModifier_Modifier_create MMC_REFSTRUCTLIT(boxvar_lit_NFModifier_Modifier_create)
 

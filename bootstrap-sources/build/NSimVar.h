@@ -74,8 +74,6 @@ extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NSimVar_Alias_ALIAS__desc;
 
 extern struct record_description NSimVar_Alias_NO__ALIAS__desc;

@@ -6,13 +6,11 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT0,9,_OMC_LIT0_data);
 #define _OMC_LIT1_data "Sets whether to print a failtrace or not."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT1,41,_OMC_LIT1_data);
 #define _OMC_LIT1 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT1)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT2,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT1}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT2,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT0,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT1}};
 #define _OMC_LIT2 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT2)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT3,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT0,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT2}};
-#define _OMC_LIT3 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT3)
-#define _OMC_LIT4_data "- BackendDAEOptimize.traverseAdjacencyMatrixList failed\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT4,56,_OMC_LIT4_data);
-#define _OMC_LIT4 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT4)
+#define _OMC_LIT3_data "- BackendDAEOptimize.traverseAdjacencyMatrixList failed\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT3,56,_OMC_LIT3_data);
+#define _OMC_LIT3 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT3)
 #include "util/modelica.h"
 
 #include "AdjacencyMatrix_includes.h"
@@ -83,8 +81,6 @@ DLLDirection
 modelica_metatype omc_AdjacencyMatrix_absAdjacencyMatrix(threadData_t *threadData, modelica_metatype _m)
 {
   modelica_metatype _res = NULL;
-  modelica_metatype _lst = NULL;
-  modelica_metatype _lst_1 = NULL;
   modelica_integer _i;
   modelica_integer _minn;
   modelica_metatype tmpMeta1;
@@ -95,8 +91,6 @@ modelica_metatype omc_AdjacencyMatrix_absAdjacencyMatrix(threadData_t *threadDat
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _res has no default value.
-  // _lst has no default value.
-  // _lst_1 has no default value.
   _i = ((modelica_integer) 1);
   // _minn has no default value.
   tmpMeta1 = MMC_REFSTRUCTLIT(mmc_nil);
@@ -313,17 +307,17 @@ modelica_metatype omc_AdjacencyMatrix_getOtherEqSysAdjacencyMatrix(threadData_t 
           /* Check guard condition after assignments */
           if (!(mmc_unbox_integer(arrayGet(_skip,_index) /* DAE.ASUB */) > ((modelica_integer) 0))) goto tmp3_end;
           {
-            modelica_metatype __omcQ_24tmpVar3;
+            modelica_metatype __omcQ_24tmpVar1;
             modelica_metatype* tmp7;
             modelica_metatype tmpMeta8;
-            modelica_metatype __omcQ_24tmpVar2;
+            modelica_metatype __omcQ_24tmpVar0;
             modelica_integer tmp9;
             modelica_metatype _r_loopVar = 0;
             modelica_metatype _r;
             _r_loopVar = arrayGet(_m,_index) /* DAE.ASUB */;
             tmpMeta8 = MMC_REFSTRUCTLIT(mmc_nil);
-            __omcQ_24tmpVar3 = tmpMeta8; /* defaultValue */
-            tmp7 = &__omcQ_24tmpVar3;
+            __omcQ_24tmpVar1 = tmpMeta8; /* defaultValue */
+            tmp7 = &__omcQ_24tmpVar1;
             while(1) {
               tmp9 = 1;
               while (!listEmpty(_r_loopVar)) {
@@ -335,8 +329,8 @@ modelica_metatype omc_AdjacencyMatrix_getOtherEqSysAdjacencyMatrix(threadData_t 
                 }
               }
               if (tmp9 == 0) {
-                __omcQ_24tmpVar2 = _r;
-                *tmp7 = mmc_mk_cons(__omcQ_24tmpVar2,0);
+                __omcQ_24tmpVar0 = _r;
+                *tmp7 = mmc_mk_cons(__omcQ_24tmpVar0,0);
                 tmp7 = &MMC_CDR(*tmp7);
               } else if (tmp9 == 1) {
                 break;
@@ -345,7 +339,7 @@ modelica_metatype omc_AdjacencyMatrix_getOtherEqSysAdjacencyMatrix(threadData_t 
               }
             }
             *tmp7 = mmc_mk_nil();
-            tmpMeta6 = __omcQ_24tmpVar3;
+            tmpMeta6 = __omcQ_24tmpVar1;
           }
           _row = tmpMeta6;
 
@@ -490,10 +484,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_AdjacencyMatrix_traverseAdjacenc
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp16 = omc_Flags_isSet(threadData, _OMC_LIT3);
+          tmp16 = omc_Flags_isSet(threadData, _OMC_LIT2);
           if (1 /* true */ != tmp16) goto goto_2;
 
-          omc_Debug_trace(threadData, _OMC_LIT4);
+          omc_Debug_trace(threadData, _OMC_LIT3);
           goto goto_2;
           goto tmp3_done;
         }

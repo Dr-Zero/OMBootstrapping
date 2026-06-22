@@ -50,6 +50,8 @@ extern struct record_description Absyn_Path_QUALIFIED__desc;
 
 extern struct record_description Absyn_TypeSpec_TPATH__desc;
 
+extern struct record_description AvlTreePathFunction_Tree_EMPTY__desc;
+
 extern struct record_description ClassInf_Event_FOUND__ALGORITHM__desc;
 
 extern struct record_description ClassInf_Event_FOUND__EQUATION__desc;
@@ -61,8 +63,6 @@ extern struct record_description ConnectionGraph_ConnectionGraph_GRAPH__desc;
 extern struct record_description DAE_Algorithm_ALGORITHM__STMTS__desc;
 
 extern struct record_description DAE_Attributes_ATTR__desc;
-
-extern struct record_description DAE_AvlTreePathFunction_Tree_EMPTY__desc;
 
 extern struct record_description DAE_Binding_UNBOUND__desc;
 
@@ -237,10 +237,6 @@ extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
 extern struct record_description Flags_FlagVisibility_INTERNAL__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
 
 extern struct record_description SCode_Attributes_ATTR__desc;
 

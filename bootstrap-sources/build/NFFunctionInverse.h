@@ -22,8 +22,6 @@ extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
 extern struct record_description ErrorTypes_Severity_WARNING__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NFFunctionInverse_FUNCTION__INV__desc;
 
 extern struct record_description SCode_Each_NOT__EACH__desc;
@@ -46,6 +44,13 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
 #define boxptr_NFFunctionInverse_getInverseAnnotations omc_NFFunctionInverse_getInverseAnnotations
+
+
+DLLDirection
+modelica_metatype omc_NFFunctionInverse_getFunction(threadData_t *threadData, modelica_metatype _fnInv);
+#define boxptr_NFFunctionInverse_getFunction omc_NFFunctionInverse_getFunction
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFFunctionInverse_getFunction,2,0) {(void*) boxptr_NFFunctionInverse_getFunction,0}};
+#define boxvar_NFFunctionInverse_getFunction MMC_REFSTRUCTLIT(boxvar_lit_NFFunctionInverse_getFunction)
 
 
 DLLDirection

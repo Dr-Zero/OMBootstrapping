@@ -60,6 +60,8 @@ extern struct record_description BackendDAE_StrongComponent_SINGLEIFEQUATION__de
 
 extern struct record_description BackendDAE_StrongComponent_SINGLEWHENEQUATION__desc;
 
+extern struct record_description BackendDAE_Var_VAR__desc;
+
 extern struct record_description BackendDAE_VarKind_ALG__STATE__OLD__desc;
 
 extern struct record_description BackendDAE_VarKind_CLOCKED__STATE__desc;
@@ -114,10 +116,6 @@ extern struct record_description DAE_Exp_RELATION__desc;
 
 extern struct record_description DAE_Exp_SCONST__desc;
 
-extern struct record_description DAE_InlineType_AFTER__INDEX__RED__INLINE__desc;
-
-extern struct record_description DAE_InlineType_NORM__INLINE__desc;
-
 extern struct record_description DAE_InlineType_NO__INLINE__desc;
 
 extern struct record_description DAE_Operator_ADD__desc;
@@ -171,8 +169,6 @@ extern struct record_description Flags_FlagVisibility_INTERNAL__desc;
 extern struct record_description Flags_ValidOptions_STRING__DESC__OPTION__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__OPTION__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
 extern struct record_description HpcOmSimCode_HpcOmData_HPCOMDATA__desc;
 
@@ -384,14 +380,6 @@ modelica_string omc_SimCodeUtil_generateRunnerBatScript(threadData_t *threadData
 #define boxptr_SimCodeUtil_generateRunnerBatScript omc_SimCodeUtil_generateRunnerBatScript
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeUtil_generateRunnerBatScript,2,0) {(void*) boxptr_SimCodeUtil_generateRunnerBatScript,0}};
 #define boxvar_SimCodeUtil_generateRunnerBatScript MMC_REFSTRUCTLIT(boxvar_lit_SimCodeUtil_generateRunnerBatScript)
-
-
-DLLDirection
-modelica_boolean omc_SimCodeUtil_isArrayVar(threadData_t *threadData, modelica_metatype _var);
-DLLDirection
-modelica_metatype boxptr_SimCodeUtil_isArrayVar(threadData_t *threadData, modelica_metatype _var);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeUtil_isArrayVar,2,0) {(void*) boxptr_SimCodeUtil_isArrayVar,0}};
-#define boxvar_SimCodeUtil_isArrayVar MMC_REFSTRUCTLIT(boxvar_lit_SimCodeUtil_isArrayVar)
 
 
 DLLDirection
@@ -1004,29 +992,6 @@ DLLDirection
 modelica_metatype boxptr_SimCodeUtil_getVarIndexListByMapping(threadData_t *threadData, modelica_metatype _iVarToArrayIndexMapping, modelica_metatype _iVarName, modelica_metatype _iColumnMajor, modelica_metatype _iIndexForUndefinedReferences);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeUtil_getVarIndexListByMapping,2,0) {(void*) boxptr_SimCodeUtil_getVarIndexListByMapping,0}};
 #define boxvar_SimCodeUtil_getVarIndexListByMapping MMC_REFSTRUCTLIT(boxvar_lit_SimCodeUtil_getVarIndexListByMapping)
-
-
-DLLDirection
-modelica_metatype omc_SimCodeUtil_addVarToArrayIndexMapping(threadData_t *threadData, modelica_metatype _iVar, modelica_integer _iVarType, modelica_metatype __omcQ_24in_5FcurrentVarIndices, modelica_metatype __omcQ_24in_5FvarToArrayIndexMapping, modelica_metatype __omcQ_24in_5FvarToIndexMapping, modelica_metatype *out_varToArrayIndexMapping, modelica_metatype *out_varToIndexMapping);
-DLLDirection
-modelica_metatype boxptr_SimCodeUtil_addVarToArrayIndexMapping(threadData_t *threadData, modelica_metatype _iVar, modelica_metatype _iVarType, modelica_metatype __omcQ_24in_5FcurrentVarIndices, modelica_metatype __omcQ_24in_5FvarToArrayIndexMapping, modelica_metatype __omcQ_24in_5FvarToIndexMapping, modelica_metatype *out_varToArrayIndexMapping, modelica_metatype *out_varToIndexMapping);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeUtil_addVarToArrayIndexMapping,2,0) {(void*) boxptr_SimCodeUtil_addVarToArrayIndexMapping,0}};
-#define boxvar_SimCodeUtil_addVarToArrayIndexMapping MMC_REFSTRUCTLIT(boxvar_lit_SimCodeUtil_addVarToArrayIndexMapping)
-
-
-DLLDirection
-modelica_metatype omc_SimCodeUtil_addVarToArrayIndexMappings(threadData_t *threadData, modelica_metatype _vars, modelica_integer _iVarType, modelica_metatype __omcQ_24in_5FcurrentVarIndices, modelica_metatype __omcQ_24in_5FvarToArrayIndexMapping, modelica_metatype __omcQ_24in_5FvarToIndexMapping, modelica_metatype *out_varToArrayIndexMapping, modelica_metatype *out_varToIndexMapping);
-DLLDirection
-modelica_metatype boxptr_SimCodeUtil_addVarToArrayIndexMappings(threadData_t *threadData, modelica_metatype _vars, modelica_metatype _iVarType, modelica_metatype __omcQ_24in_5FcurrentVarIndices, modelica_metatype __omcQ_24in_5FvarToArrayIndexMapping, modelica_metatype __omcQ_24in_5FvarToIndexMapping, modelica_metatype *out_varToArrayIndexMapping, modelica_metatype *out_varToIndexMapping);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeUtil_addVarToArrayIndexMappings,2,0) {(void*) boxptr_SimCodeUtil_addVarToArrayIndexMappings,0}};
-#define boxvar_SimCodeUtil_addVarToArrayIndexMappings MMC_REFSTRUCTLIT(boxvar_lit_SimCodeUtil_addVarToArrayIndexMappings)
-
-
-DLLDirection
-modelica_metatype omc_SimCodeUtil_createVarToArrayIndexMapping(threadData_t *threadData, modelica_metatype _iModelInfo, modelica_metatype *out_oVarToIndexMapping);
-#define boxptr_SimCodeUtil_createVarToArrayIndexMapping omc_SimCodeUtil_createVarToArrayIndexMapping
-static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeUtil_createVarToArrayIndexMapping,2,0) {(void*) boxptr_SimCodeUtil_createVarToArrayIndexMapping,0}};
-#define boxvar_SimCodeUtil_createVarToArrayIndexMapping MMC_REFSTRUCTLIT(boxvar_lit_SimCodeUtil_createVarToArrayIndexMapping)
 
 
 #define boxptr_SimCodeUtil_getHideResult omc_SimCodeUtil_getHideResult
@@ -1924,8 +1889,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeUtil_addAlgebraicLoopsModelInfoS
 
 
 DLLDirection
-modelica_metatype omc_SimCodeUtil_addAlgebraicLoopsModelInfo(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqns, modelica_metatype __omcQ_24in_5FmodelInfo, modelica_metatype *out_modelInfo, modelica_metatype *out_symJacs);
-#define boxptr_SimCodeUtil_addAlgebraicLoopsModelInfo omc_SimCodeUtil_addAlgebraicLoopsModelInfo
+modelica_metatype omc_SimCodeUtil_addAlgebraicLoopsModelInfo(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqns, modelica_metatype __omcQ_24in_5FmodelInfo, modelica_boolean _addNLSToModelInfo, modelica_metatype *out_modelInfo, modelica_metatype *out_symJacs);
+DLLDirection
+modelica_metatype boxptr_SimCodeUtil_addAlgebraicLoopsModelInfo(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqns, modelica_metatype __omcQ_24in_5FmodelInfo, modelica_metatype _addNLSToModelInfo, modelica_metatype *out_modelInfo, modelica_metatype *out_symJacs);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeUtil_addAlgebraicLoopsModelInfo,2,0) {(void*) boxptr_SimCodeUtil_addAlgebraicLoopsModelInfo,0}};
 #define boxvar_SimCodeUtil_addAlgebraicLoopsModelInfo MMC_REFSTRUCTLIT(boxvar_lit_SimCodeUtil_addAlgebraicLoopsModelInfo)
 
@@ -2009,13 +1975,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeUtil_collectClockedVars,2,0) {(v
 
 
 DLLDirection
-modelica_metatype omc_SimCodeUtil_createFunctions(threadData_t *threadData, modelica_metatype _inProgram, modelica_metatype _functionTree, modelica_metatype *out_outLibPaths, modelica_metatype *out_outIncludes, modelica_metatype *out_outIncludeDirs, modelica_metatype *out_outRecordDecls, modelica_metatype *out_outFunctions, modelica_metatype *out_outLiterals);
-#define boxptr_SimCodeUtil_createFunctions omc_SimCodeUtil_createFunctions
-static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeUtil_createFunctions,2,0) {(void*) boxptr_SimCodeUtil_createFunctions,0}};
-#define boxvar_SimCodeUtil_createFunctions MMC_REFSTRUCTLIT(boxvar_lit_SimCodeUtil_createFunctions)
-
-
-DLLDirection
 modelica_metatype omc_SimCodeUtil_createSimCode(threadData_t *threadData, modelica_metatype _inBackendDAE, modelica_metatype _inInitDAE, modelica_metatype _inInitDAE_lambda0, modelica_metatype _inInlineData, modelica_metatype _inRemovedInitialEquationLst, modelica_metatype _inClassName, modelica_string _filenamePrefix, modelica_string _inFileDir, modelica_metatype _functions, modelica_metatype _externalFunctionIncludes, modelica_metatype _includeDirs, modelica_metatype _libs, modelica_metatype _libPaths, modelica_metatype _program, modelica_metatype _simSettingsOpt, modelica_metatype _recordDecls, modelica_metatype _literals, modelica_metatype _args, modelica_boolean _isFMU, modelica_string _FMUVersion, modelica_string _fmuTargetName, modelica_metatype _inFMIDer, modelica_metatype *out_outMapping);
 DLLDirection
 modelica_metatype boxptr_SimCodeUtil_createSimCode(threadData_t *threadData, modelica_metatype _inBackendDAE, modelica_metatype _inInitDAE, modelica_metatype _inInitDAE_lambda0, modelica_metatype _inInlineData, modelica_metatype _inRemovedInitialEquationLst, modelica_metatype _inClassName, modelica_metatype _filenamePrefix, modelica_metatype _inFileDir, modelica_metatype _functions, modelica_metatype _externalFunctionIncludes, modelica_metatype _includeDirs, modelica_metatype _libs, modelica_metatype _libPaths, modelica_metatype _program, modelica_metatype _simSettingsOpt, modelica_metatype _recordDecls, modelica_metatype _literals, modelica_metatype _args, modelica_metatype _isFMU, modelica_metatype _FMUVersion, modelica_metatype _fmuTargetName, modelica_metatype _inFMIDer, modelica_metatype *out_outMapping);
@@ -2037,9 +1996,6 @@ DLLDirection
 modelica_metatype boxptr_SimCodeUtil_hashEqSystem(threadData_t *threadData, modelica_metatype _eq);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeUtil_hashEqSystem,2,0) {(void*) boxptr_SimCodeUtil_hashEqSystem,0}};
 #define boxvar_SimCodeUtil_hashEqSystem MMC_REFSTRUCTLIT(boxvar_lit_SimCodeUtil_hashEqSystem)
-
-
-#define boxptr_SimCodeUtil_simulationFindLiterals omc_SimCodeUtil_simulationFindLiterals
 
 
 #define boxptr_SimCodeUtil_expandEntwined omc_SimCodeUtil_expandEntwined

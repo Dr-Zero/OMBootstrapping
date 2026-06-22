@@ -60,70 +60,64 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT18,9,_OMC_LIT18_data);
 #define _OMC_LIT19_data "Sets whether to print a failtrace or not."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT19,41,_OMC_LIT19_data);
 #define _OMC_LIT19 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT19)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT20,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT19}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT20,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT18,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT19}};
 #define _OMC_LIT20 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT20)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT21,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT18,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT20}};
-#define _OMC_LIT21 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT21)
-#define _OMC_LIT22_data "InnerOuter.addOuterPrefix failed to add: outer cref: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT22,53,_OMC_LIT22_data);
+#define _OMC_LIT21_data "InnerOuter.addOuterPrefix failed to add: outer cref: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT21,53,_OMC_LIT21_data);
+#define _OMC_LIT21 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT21)
+#define _OMC_LIT22_data " refers to inner cref: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT22,23,_OMC_LIT22_data);
 #define _OMC_LIT22 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT22)
-#define _OMC_LIT23_data " refers to inner cref: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT23,23,_OMC_LIT23_data);
+#define _OMC_LIT23_data " to IH"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT23,6,_OMC_LIT23_data);
 #define _OMC_LIT23 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT23)
-#define _OMC_LIT24_data " to IH"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT24,6,_OMC_LIT24_data);
+#define _OMC_LIT24_data "instance"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT24,8,_OMC_LIT24_data);
 #define _OMC_LIT24 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT24)
-#define _OMC_LIT25_data "instance"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT25,8,_OMC_LIT25_data);
+#define _OMC_LIT25_data "Prints extra failtrace from InstanceHierarchy."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT25,46,_OMC_LIT25_data);
 #define _OMC_LIT25 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT25)
-#define _OMC_LIT26_data "Prints extra failtrace from InstanceHierarchy."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT26,46,_OMC_LIT26_data);
-#define _OMC_LIT26 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT26)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT27,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT26}};
-#define _OMC_LIT27 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT27)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT28,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(16)),_OMC_LIT25,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT27}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT26,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(16)),_OMC_LIT24,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT25}};
+#define _OMC_LIT26 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT26)
+#define _OMC_LIT27_data "InnerOuter.updateSMHierarchy failure for: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT27,42,_OMC_LIT27_data);
+#define _OMC_LIT27 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT27)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT28,1,11) {&DAE_Type_T__UNKNOWN__desc,}};
 #define _OMC_LIT28 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT28)
-#define _OMC_LIT29_data "InnerOuter.updateSMHierarchy failure for: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT29,42,_OMC_LIT29_data);
+#define _OMC_LIT29_data "InnerOuter.lookupInnerVar failed on component: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT29,47,_OMC_LIT29_data);
 #define _OMC_LIT29 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT29)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT30,1,11) {&DAE_Type_T__UNKNOWN__desc,}};
-#define _OMC_LIT30 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT30)
-#define _OMC_LIT31_data "InnerOuter.lookupInnerVar failed on component: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT31,47,_OMC_LIT31_data);
-#define _OMC_LIT31 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT31)
-#define _OMC_LIT32_data "/"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT32,1,_OMC_LIT32_data);
-#define _OMC_LIT32 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT32)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT33,1,6) {&Absyn_InnerOuter_NOT__INNER__OUTER__desc,}};
-#define _OMC_LIT33 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT33)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT34,2,4) {&Absyn_Path_IDENT__desc,_OMC_LIT12}};
+#define _OMC_LIT30_data "/"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT30,1,_OMC_LIT30_data);
+#define _OMC_LIT30 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT30)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT31,1,6) {&Absyn_InnerOuter_NOT__INNER__OUTER__desc,}};
+#define _OMC_LIT31 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT31)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT32,2,4) {&Absyn_Path_IDENT__desc,_OMC_LIT12}};
+#define _OMC_LIT32 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT32)
+#define _OMC_LIT33_data "$it"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT33,3,_OMC_LIT33_data);
+#define _OMC_LIT33 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT33)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT34,1,4) {&Absyn_InnerOuter_OUTER__desc,}};
 #define _OMC_LIT34 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT34)
-#define _OMC_LIT35_data "$it"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT35,3,_OMC_LIT35_data);
-#define _OMC_LIT35 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT35)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT36,1,4) {&Absyn_InnerOuter_OUTER__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT35,1,5) {&ErrorTypes_MessageType_TRANSLATION__desc,}};
+#define _OMC_LIT35 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT35)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT36,1,5) {&ErrorTypes_Severity_WARNING__desc,}};
 #define _OMC_LIT36 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT36)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT37,1,5) {&ErrorTypes_MessageType_TRANSLATION__desc,}};
-#define _OMC_LIT37 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT37)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT38,1,5) {&ErrorTypes_Severity_WARNING__desc,}};
+#define _OMC_LIT37_data "Ignoring the modification on outer element: %s."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT37,47,_OMC_LIT37_data);
+#define _OMC_LIT37 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT37)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT38,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(512)),_OMC_LIT35,_OMC_LIT36,_OMC_LIT37}};
 #define _OMC_LIT38 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT38)
-#define _OMC_LIT39_data "Ignoring the modification on outer element: %s."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT39,47,_OMC_LIT39_data);
-#define _OMC_LIT39 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT39)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT40,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT39}};
-#define _OMC_LIT40 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT40)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT41,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(512)),_OMC_LIT37,_OMC_LIT38,_OMC_LIT40}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT39,1,3) {&DAE_Prefix_NOPRE__desc,}};
+#define _OMC_LIT39 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT39)
+#define _OMC_LIT40_data "lookupVarInnerOuterAttr"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT40,23,_OMC_LIT40_data);
+#define _OMC_LIT40 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT40)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT41,1,3) {&Absyn_InnerOuter_INNER__desc,}};
 #define _OMC_LIT41 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT41)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT42,1,3) {&DAE_Prefix_NOPRE__desc,}};
-#define _OMC_LIT42 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT42)
-#define _OMC_LIT43_data "lookupVarInnerOuterAttr"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT43,23,_OMC_LIT43_data);
-#define _OMC_LIT43 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT43)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT44,1,3) {&Absyn_InnerOuter_INNER__desc,}};
-#define _OMC_LIT44 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT44)
-#define _OMC_LIT45_data "- InnerOuter.handleInnerOuterEquations failed!\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT45,47,_OMC_LIT45_data);
-#define _OMC_LIT45 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT45)
+#define _OMC_LIT42_data "- InnerOuter.handleInnerOuterEquations failed!\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT42,47,_OMC_LIT42_data);
+#define _OMC_LIT42 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT42)
 #include "util/modelica.h"
 
 #include "InnerOuter_includes.h"
@@ -281,29 +275,29 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InnerOuter_valueArrayNth(threadD
           modelica_metatype tmpMeta6;
           modelica_integer tmp7;
           modelica_metatype tmpMeta8;
-          modelica_metatype tmpMeta9;
+          modelica_boolean tmp9;
           modelica_metatype tmpMeta10;
           modelica_metatype tmpMeta11;
           modelica_metatype tmpMeta12;
+          modelica_metatype tmpMeta13;
           tmpMeta6 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 2));
           tmp7 = mmc_unbox_integer(tmpMeta6);
           tmpMeta8 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 3));
           _n = tmp7  /* pattern as ty=Integer */;
           _arr = tmpMeta8;
           /* Pattern matching succeeded */
-          if((!(_pos < _n)))
-          {
-            goto goto_2;
-          }
+          /* Pattern-matching assignment */
+          tmp9 = (_pos < _n);
+          if (1 /* true */ != tmp9) goto goto_2;
 
           /* Pattern-matching assignment */
-          tmpMeta9 = arrayGet(_arr,((modelica_integer) 1) + _pos) /* DAE.ASUB */;
-          if (optionNone(tmpMeta9)) goto goto_2;
-          tmpMeta10 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta9), 1));
+          tmpMeta10 = arrayGet(_arr,((modelica_integer) 1) + _pos) /* DAE.ASUB */;
+          if (optionNone(tmpMeta10)) goto goto_2;
           tmpMeta11 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta10), 1));
-          tmpMeta12 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta10), 2));
-          _k = tmpMeta11;
-          _v = tmpMeta12;
+          tmpMeta12 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta11), 1));
+          tmpMeta13 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta11), 2));
+          _k = tmpMeta12;
+          _v = tmpMeta13;
           tmpMeta[0+0] = _k;
           tmpMeta[0+1] = _v;
           goto tmp3_done;
@@ -362,11 +356,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InnerOuter_valueArrayClearnth(th
           tmpMeta6 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 3));
           _arr = tmpMeta6;
           /* Pattern matching succeeded */
-          if((!(_pos < arrayLength(_arr))))
-          {
-            goto goto_2;
-          }
-
+          /* Check guard condition after assignments */
+          if (!(_pos < arrayLength(_arr))) goto tmp3_end;
           arrayUpdate(_arr, ((modelica_integer) 1) + _pos, mmc_mk_none());
           tmpMeta1 = _valueArray;
           goto tmp3_done;
@@ -436,11 +427,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InnerOuter_valueArraySetnth(thre
           tmpMeta6 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 3));
           _arr = tmpMeta6;
           /* Pattern matching succeeded */
-          if((!(_pos < arrayLength(_arr))))
-          {
-            goto goto_2;
-          }
-
+          /* Check guard condition after assignments */
+          if (!(_pos < arrayLength(_arr))) goto tmp3_end;
           arrayUpdate(_arr, ((modelica_integer) 1) + _pos, mmc_mk_some(_entry));
           tmpMeta1 = _valueArray;
           goto tmp3_done;
@@ -534,11 +522,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InnerOuter_valueArrayAdd(threadD
           _n = tmp7  /* pattern as ty=Integer */;
           _arr = tmpMeta8;
           /* Pattern matching succeeded */
-          if((!(_n < arrayLength(_arr))))
-          {
-            goto goto_2;
-          }
-
+          /* Check guard condition after assignments */
+          if (!(_n < arrayLength(_arr))) goto tmp3_end;
           _n_1 = ((modelica_integer) 1) + _n;
 
           _arr_1 = arrayUpdate(_arr, ((modelica_integer) 1) + _n, mmc_mk_some(_entry));
@@ -557,12 +542,9 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InnerOuter_valueArrayAdd(threadD
           _n = tmp11  /* pattern as ty=Integer */;
           _arr = tmpMeta12;
           /* Pattern matching succeeded */
+          /* Check guard condition after assignments */
+          if (!(_n < arrayLength(_arr))) goto tmp3_end;
           _size = arrayLength(_arr);
-
-          if((_n < _size))
-          {
-            goto goto_2;
-          }
 
           _rsize = ((modelica_real)_size);
 
@@ -704,11 +686,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InnerOuter_valueArrayList2(threa
           _pos = tmp4_2;
           _lastpos = tmp4_3;
           /* Pattern matching succeeded */
-          if((!(_pos == _lastpos)))
-          {
-            goto goto_2;
-          }
-
+          /* Check guard condition after assignments */
+          if (!(_pos == _lastpos)) goto tmp3_end;
           /* Pattern-matching assignment */
           tmpMeta6 = arrayGet(_arr,((modelica_integer) 1) + _pos) /* DAE.ASUB */;
           if (optionNone(tmpMeta6)) goto goto_2;
@@ -1288,7 +1267,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InnerOuter_emptyInstHierarchyHas
 {
   modelica_metatype _hashTable = NULL;
   modelica_metatype _arr = NULL;
-  modelica_metatype _lst = NULL;
   modelica_metatype _emptyarr = NULL;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
@@ -1297,7 +1275,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InnerOuter_emptyInstHierarchyHas
   _tailrecursive: OMC_LABEL_UNUSED
   // _hashTable has no default value.
   // _arr has no default value.
-  // _lst has no default value.
   // _emptyarr has no default value.
   tmpMeta1 = MMC_REFSTRUCTLIT(mmc_nil);
   _arr = arrayCreate(((modelica_integer) 1000), tmpMeta1);
@@ -1379,7 +1356,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_InnerOuter_keyEqual(threadData_t 
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _res has no default value.
-  _res = omc_ComponentReference_crefEqualNoStringCompare(threadData, _key1, _key2);
+  _res = omc_ComponentReferenceBasics_crefEqualNoStringCompare(threadData, _key1, _key2);
   _return: OMC_LABEL_UNUSED
   return _res;
 }
@@ -1398,7 +1375,7 @@ PROTECTED_FUNCTION_STATIC modelica_integer omc_InnerOuter_hashFunc(threadData_t 
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _res has no default value.
-  _res = stringHashDjb2(omc_ComponentReference_printComponentRefStr(threadData, _k));
+  _res = stringHashDjb2(omc_ComponentReferenceBasics_printComponentRefStr(threadData, _k));
   _return: OMC_LABEL_UNUSED
   return _res;
 }
@@ -1575,7 +1552,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_InnerOuter_printInnerDefStr(thread
           _scope = tmpMeta8;
           _outers = tmpMeta9;
           /* Pattern matching succeeded */
-          _outers = omc_List_uniqueOnTrue(threadData, _outers, boxvar_ComponentReference_crefEqualNoStringCompare);
+          _outers = omc_List_uniqueOnTrue(threadData, _outers, boxvar_ComponentReferenceBasics_crefEqualNoStringCompare);
 
           tmp12 = (modelica_boolean)listEmpty(_outers);
           if(tmp12)
@@ -1584,7 +1561,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_InnerOuter_printInnerDefStr(thread
           }
           else
           {
-            tmpMeta10 = stringAppend(_OMC_LIT13,stringDelimitList(omc_List_map(threadData, _outers, boxvar_ComponentReference_printComponentRefStr), _OMC_LIT14));
+            tmpMeta10 = stringAppend(_OMC_LIT13,stringDelimitList(omc_List_map(threadData, _outers, boxvar_ComponentReferenceBasics_printComponentRefStr), _OMC_LIT14));
             tmpMeta11 = stringAppend(tmpMeta10,_OMC_LIT15);
             tmp13 = tmpMeta11;
           }
@@ -1619,7 +1596,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InnerOuter_searchForInnerPrefix(
   modelica_metatype _outerCrefPrefix = NULL;
   modelica_metatype _innerCrefPrefix = NULL;
   modelica_metatype _cr = NULL;
-  modelica_metatype _id = NULL;
   modelica_boolean _b1;
   modelica_boolean _b2;
   modelica_metatype tmpMeta1;
@@ -1633,7 +1609,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InnerOuter_searchForInnerPrefix(
   // _outerCrefPrefix has no default value.
   // _innerCrefPrefix has no default value.
   // _cr has no default value.
-  // _id has no default value.
   _b1 = 0 /* false */;
   _b2 = 0 /* false */;
   {
@@ -1646,13 +1621,13 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InnerOuter_searchForInnerPrefix(
       tmpMeta3 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta2), 2));
       _outerCrefPrefix = tmpMeta3;
 
-      _b1 = omc_ComponentReference_crefPrefixOfIgnoreSubscripts(threadData, _outerCrefPrefix, _fullCref);
+      _b1 = omc_ComponentReferenceBasics_crefPrefixOfIgnoreSubscripts(threadData, _outerCrefPrefix, _fullCref);
 
       if((!_b1))
       {
         _cr = omc_ComponentReference_crefStripLastIdent(threadData, _outerCrefPrefix);
 
-        _b2 = ((stringEqual(omc_ComponentReference_crefLastIdent(threadData, _outerCrefPrefix), omc_ComponentReference_crefFirstIdent(threadData, _inOuterCref))) && omc_ComponentReference_crefPrefixOfIgnoreSubscripts(threadData, _cr, _fullCref));
+        _b2 = ((stringEqual(omc_ComponentReferenceBasics_crefLastIdent(threadData, _outerCrefPrefix), omc_ComponentReferenceBasics_crefFirstIdent(threadData, _inOuterCref))) && omc_ComponentReferenceBasics_crefPrefixOfIgnoreSubscripts(threadData, _cr, _fullCref));
       }
 
       if((_b1 || _b2))
@@ -1725,13 +1700,13 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InnerOuter_changeOuterReferenceT
           _eocp = omc_List_split(threadData, _eifull, omc_ComponentReference_identifierCount(threadData, _ocp) ,&_esuffix);
 
           tmpMeta6 = MMC_REFSTRUCTLIT(mmc_nil);
-          _epre = omc_List_splitEqualPrefix(threadData, _eocp, _eicp, boxvar_ComponentReference_crefFirstIdentEqual, tmpMeta6 ,&_erest);
+          _epre = omc_List_splitEqualPrefix(threadData, _eocp, _eicp, boxvar_ComponentReferenceBasics_crefFirstIdentEqual, tmpMeta6 ,&_erest);
 
           tmpMeta7 = MMC_REFSTRUCTLIT(mmc_nil);
-          omc_List_splitEqualPrefix(threadData, _eicp, _epre, boxvar_ComponentReference_crefFirstIdentEqual, tmpMeta7 ,&_eicp);
+          omc_List_splitEqualPrefix(threadData, _eicp, _epre, boxvar_ComponentReferenceBasics_crefFirstIdentEqual, tmpMeta7 ,&_eicp);
 
           tmpMeta8 = MMC_REFSTRUCTLIT(mmc_nil);
-          _erest = omc_List_splitEqualPrefix(threadData, listReverse(_erest), listReverse(_eicp), boxvar_ComponentReference_crefFirstIdentEqual, tmpMeta8, NULL);
+          _erest = omc_List_splitEqualPrefix(threadData, listReverse(_erest), listReverse(_eicp), boxvar_ComponentReferenceBasics_crefFirstIdentEqual, tmpMeta8, NULL);
 
           _erest = omc_List_append__reverse(threadData, _erest, _esuffix);
 
@@ -1916,13 +1891,13 @@ modelica_metatype omc_InnerOuter_addOuterPrefixToIH(threadData_t *threadData, mo
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp19 = omc_Flags_isSet(threadData, _OMC_LIT21);
+          tmp19 = omc_Flags_isSet(threadData, _OMC_LIT20);
           if (1 /* true */ != tmp19) goto goto_2;
 
-          tmpMeta20 = stringAppend(_OMC_LIT22,omc_ComponentReference_printComponentRefStr(threadData, _inOuterComponentRef));
-          tmpMeta21 = stringAppend(tmpMeta20,_OMC_LIT23);
-          tmpMeta22 = stringAppend(tmpMeta21,omc_ComponentReference_printComponentRefStr(threadData, _inInnerComponentRef));
-          tmpMeta23 = stringAppend(tmpMeta22,_OMC_LIT24);
+          tmpMeta20 = stringAppend(_OMC_LIT21,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _inOuterComponentRef));
+          tmpMeta21 = stringAppend(tmpMeta20,_OMC_LIT22);
+          tmpMeta22 = stringAppend(tmpMeta21,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _inInnerComponentRef));
+          tmpMeta23 = stringAppend(tmpMeta22,_OMC_LIT23);
           omc_Debug_traceln(threadData, tmpMeta23);
           goto goto_2;
           goto tmp3_done;
@@ -2128,10 +2103,10 @@ modelica_metatype omc_InnerOuter_updateSMHierarchy(threadData_t *threadData, mod
           _name = tmpMeta17;
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp18 = omc_Flags_isSet(threadData, _OMC_LIT28);
+          tmp18 = omc_Flags_isSet(threadData, _OMC_LIT26);
           if (1 /* true */ != tmp18) goto goto_2;
 
-          tmpMeta19 = stringAppend(_OMC_LIT29,_name);
+          tmpMeta19 = stringAppend(_OMC_LIT27,_name);
           omc_Debug_traceln(threadData, tmpMeta19);
           goto goto_2;
           goto tmp3_done;
@@ -2239,7 +2214,7 @@ modelica_metatype omc_InnerOuter_updateInstHierarchy(threadData_t *threadData, m
           _name = tmpMeta15;
           /* Pattern matching succeeded */
           tmpMeta16 = MMC_REFSTRUCTLIT(mmc_nil);
-          _cref_ = omc_ComponentReference_makeCrefIdent(threadData, _name, _OMC_LIT30, tmpMeta16);
+          _cref_ = omc_ComponentReferenceBasics_makeCrefIdent(threadData, _name, _OMC_LIT28, tmpMeta16);
 
           tmpMeta17 = MMC_REFSTRUCTLIT(mmc_nil);
           omc_PrefixUtil_prefixCref(threadData, omc_FCore_emptyCache(threadData), omc_FGraph_empty(threadData), tmpMeta17, _inPrefix, _cref_ ,&_cref);
@@ -2319,11 +2294,11 @@ modelica_metatype omc_InnerOuter_lookupInnerVar(threadData_t *threadData, modeli
           _n = tmp4_3;
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp8 = omc_Flags_isSet(threadData, _OMC_LIT21);
+          tmp8 = omc_Flags_isSet(threadData, _OMC_LIT20);
           if (1 /* true */ != tmp8) goto goto_2;
 
-          tmpMeta9 = stringAppend(_OMC_LIT31,omc_PrefixUtil_printPrefixStr(threadData, _pre));
-          tmpMeta10 = stringAppend(tmpMeta9,_OMC_LIT32);
+          tmpMeta9 = stringAppend(_OMC_LIT29,omc_PrefixUtil_printPrefixStr(threadData, _pre));
+          tmpMeta10 = stringAppend(tmpMeta9,_OMC_LIT30);
           tmpMeta11 = stringAppend(tmpMeta10,_n);
           omc_Debug_traceln(threadData, tmpMeta11);
           goto goto_2;
@@ -2361,7 +2336,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InnerOuter_emptyInstInner(thread
   _tailrecursive: OMC_LABEL_UNUSED
   // _outInstInner has no default value.
   tmpMeta1 = MMC_REFSTRUCTLIT(mmc_nil);
-  tmpMeta2 = mmc_mk_box10(3, &InnerOuter_InstInner_INST__INNER__desc, _innerPrefix, _name, _OMC_LIT33, _OMC_LIT12, _OMC_LIT34, _OMC_LIT12, mmc_mk_none(), tmpMeta1, mmc_mk_none());
+  tmpMeta2 = mmc_mk_box10(3, &InnerOuter_InstInner_INST__INNER__desc, _innerPrefix, _name, _OMC_LIT31, _OMC_LIT12, _OMC_LIT32, _OMC_LIT12, mmc_mk_none(), tmpMeta1, mmc_mk_none());
   _outInstInner = tmpMeta2;
   _return: OMC_LABEL_UNUSED
   return _outInstInner;
@@ -2435,7 +2410,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InnerOuter_switchInnerToOuterInC
           
           _node = tmp4_1;
           /* Pattern matching succeeded */
-          _r = omc_FNode_childFromNode(threadData, _node, _OMC_LIT35);
+          _r = omc_FNode_childFromNode(threadData, _node, _OMC_LIT33);
 
           /* Pattern-matching assignment */
           tmpMeta6 = omc_FNode_refData(threadData, _r);
@@ -2470,7 +2445,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InnerOuter_switchInnerToOuterInC
           _direction = tmpMeta19;
           _visibility = tmpMeta21;
 
-          tmpMeta22 = mmc_mk_box7(3, &DAE_Attributes_ATTR__desc, _ct, _parallelism, _variability, _direction, _OMC_LIT36, _visibility);
+          tmpMeta22 = mmc_mk_box7(3, &DAE_Attributes_ATTR__desc, _ct, _parallelism, _variability, _direction, _OMC_LIT34, _visibility);
           _attributes = tmpMeta22;
 
           tmpMeta23 = mmc_mk_box7(3, &DAE_Var_TYPES__VAR__desc, _name, _attributes, _ty, _binding, mmc_mk_boolean(_bndsrc), _cnstForRange);
@@ -2502,7 +2477,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InnerOuter_switchInnerToOuterInC
           
           _node = tmp4_1;
           /* Pattern matching succeeded */
-          _r = omc_FNode_childFromNode(threadData, _node, _OMC_LIT35);
+          _r = omc_FNode_childFromNode(threadData, _node, _OMC_LIT33);
 
           /* Pattern-matching assignment */
           tmpMeta25 = omc_FNode_refData(threadData, _r);
@@ -2537,7 +2512,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InnerOuter_switchInnerToOuterInC
           _direction = tmpMeta38;
           _visibility = tmpMeta40;
 
-          tmpMeta41 = mmc_mk_box7(3, &DAE_Attributes_ATTR__desc, _ct, _parallelism, _variability, _direction, _OMC_LIT36, _visibility);
+          tmpMeta41 = mmc_mk_box7(3, &DAE_Attributes_ATTR__desc, _ct, _parallelism, _variability, _direction, _OMC_LIT34, _visibility);
           _attributes = tmpMeta41;
 
           tmpMeta42 = mmc_mk_box7(3, &DAE_Var_TYPES__VAR__desc, _name, _attributes, _ty, _binding, mmc_mk_boolean(_bndsrc), _cnstForRange);
@@ -2750,7 +2725,7 @@ modelica_boolean omc_InnerOuter_modificationOnOuter(threadData_t *threadData, mo
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,0,5) == 0) goto tmp3_end;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_2,1,0) == 0) goto tmp3_end;
           /* Pattern matching succeeded */
-          _s1 = omc_ComponentReference_printComponentRefStr(threadData, _cr);
+          _s1 = omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr);
 
           _s2 = omc_Mod_prettyPrintMod(threadData, _inMod, ((modelica_integer) 0));
 
@@ -2759,7 +2734,7 @@ modelica_boolean omc_InnerOuter_modificationOnOuter(threadData_t *threadData, mo
           _s = tmpMeta7;
 
           tmpMeta8 = mmc_mk_cons(_s, MMC_REFSTRUCTLIT(mmc_nil));
-          omc_Error_addSourceMessage(threadData, _OMC_LIT41, tmpMeta8, _inInfo);
+          omc_Error_addSourceMessage(threadData, _OMC_LIT38, tmpMeta8, _inInfo);
           tmp1 = 1 /* true */;
           goto tmp3_done;
         }
@@ -2838,7 +2813,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InnerOuter_lookupInnerInIH(threa
           if (mmc__uniontype__metarecord__typedef__equal(tmpMeta6,1,0) == 0) goto tmp3_end;
           
           tmp4 += 1; /* Pattern matching succeeded; we may skip some cases if we fail */
-          tmpMeta1 = omc_InnerOuter_lookupInnerInIH(threadData, _inTIH, _OMC_LIT42, _inComponentIdent);
+          tmpMeta1 = omc_InnerOuter_lookupInnerInIH(threadData, _inTIH, _OMC_LIT39, _inComponentIdent);
           goto tmp3_done;
         }
         case 1: {
@@ -2849,7 +2824,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InnerOuter_lookupInnerInIH(threa
           _name = tmp4_3;
           /* Pattern matching succeeded */
           tmpMeta7 = MMC_REFSTRUCTLIT(mmc_nil);
-          tmpMeta8 = mmc_mk_box10(3, &InnerOuter_InstInner_INST__INNER__desc, _OMC_LIT42, _name, _OMC_LIT33, _OMC_LIT12, _OMC_LIT34, _OMC_LIT12, mmc_mk_none(), tmpMeta7, mmc_mk_none());
+          tmpMeta8 = mmc_mk_box10(3, &InnerOuter_InstInner_INST__INNER__desc, _OMC_LIT39, _name, _OMC_LIT31, _OMC_LIT12, _OMC_LIT32, _OMC_LIT12, mmc_mk_none(), tmpMeta7, mmc_mk_none());
           tmpMeta1 = tmpMeta8;
           goto tmp3_done;
         }
@@ -2866,7 +2841,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InnerOuter_lookupInnerInIH(threa
 
           tmpMeta10 = MMC_REFSTRUCTLIT(mmc_nil);
           tmpMeta11 = MMC_REFSTRUCTLIT(mmc_nil);
-          omc_PrefixUtil_prefixCref(threadData, omc_FCore_emptyCache(threadData), omc_FGraph_empty(threadData), tmpMeta10, _prefix, omc_ComponentReference_makeCrefIdent(threadData, _name, _OMC_LIT30, tmpMeta11) ,&_cref);
+          omc_PrefixUtil_prefixCref(threadData, omc_FCore_emptyCache(threadData), omc_FGraph_empty(threadData), tmpMeta10, _prefix, omc_ComponentReferenceBasics_makeCrefIdent(threadData, _name, _OMC_LIT28, tmpMeta11) ,&_cref);
           tmpMeta1 = omc_InnerOuter_get(threadData, _cref, _ht);
           goto tmp3_done;
         }
@@ -2884,7 +2859,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InnerOuter_lookupInnerInIH(threa
 
           tmpMeta13 = MMC_REFSTRUCTLIT(mmc_nil);
           tmpMeta14 = MMC_REFSTRUCTLIT(mmc_nil);
-          omc_PrefixUtil_prefixCref(threadData, omc_FCore_emptyCache(threadData), omc_FGraph_empty(threadData), tmpMeta13, _prefix, omc_ComponentReference_makeCrefIdent(threadData, _name, _OMC_LIT30, tmpMeta14) ,&_cref);
+          omc_PrefixUtil_prefixCref(threadData, omc_FCore_emptyCache(threadData), omc_FGraph_empty(threadData), tmpMeta13, _prefix, omc_ComponentReferenceBasics_makeCrefIdent(threadData, _name, _OMC_LIT28, tmpMeta14) ,&_cref);
 
           tmp15 = 0; /* begin failure */
           MMC_TRY_INTERNAL(mmc_jumper)
@@ -2905,7 +2880,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InnerOuter_lookupInnerInIH(threa
           _name = tmp4_3;
           /* Pattern matching succeeded */
           tmpMeta17 = MMC_REFSTRUCTLIT(mmc_nil);
-          tmpMeta18 = mmc_mk_box10(3, &InnerOuter_InstInner_INST__INNER__desc, _prefix, _name, _OMC_LIT33, _OMC_LIT12, _OMC_LIT34, _OMC_LIT12, mmc_mk_none(), tmpMeta17, mmc_mk_none());
+          tmpMeta18 = mmc_mk_box10(3, &InnerOuter_InstInner_INST__INNER__desc, _prefix, _name, _OMC_LIT31, _OMC_LIT12, _OMC_LIT32, _OMC_LIT12, mmc_mk_none(), tmpMeta17, mmc_mk_none());
           tmpMeta1 = tmpMeta18;
           goto tmp3_done;
         }
@@ -3127,7 +3102,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_InnerOuter_lookupVarInnerOuterAtt
           modelica_metatype tmpMeta8;
           modelica_metatype tmpMeta9;
           /* Pattern matching succeeded */
-          omc_ErrorExt_setCheckpoint(threadData, _OMC_LIT43);
+          omc_ErrorExt_setCheckpoint(threadData, _OMC_LIT40);
 
           /* Pattern-matching tuple assignment, wild first pattern */
           omc_Lookup_lookupVar(threadData, _cache, _env, _cr1, &tmpMeta6, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -3147,7 +3122,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_InnerOuter_lookupVarInnerOuterAtt
 
           _isOuter = (_isOuter1 || _isOuter2);
 
-          omc_ErrorExt_rollBack(threadData, _OMC_LIT43);
+          omc_ErrorExt_rollBack(threadData, _OMC_LIT40);
           tmp1_c0 = _isInner;
           tmp1_c1 = _isOuter;
           goto tmp3_done;
@@ -3163,7 +3138,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_InnerOuter_lookupVarInnerOuterAtt
 
           _isInner = omc_InnerOuter_innerOuterBooleans(threadData, _io ,&_isOuter);
 
-          omc_ErrorExt_rollBack(threadData, _OMC_LIT43);
+          omc_ErrorExt_rollBack(threadData, _OMC_LIT40);
           tmp1_c0 = _isInner;
           tmp1_c1 = _isOuter;
           goto tmp3_done;
@@ -3179,14 +3154,14 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_InnerOuter_lookupVarInnerOuterAtt
 
           _isInner = omc_InnerOuter_innerOuterBooleans(threadData, _io ,&_isOuter);
 
-          omc_ErrorExt_rollBack(threadData, _OMC_LIT43);
+          omc_ErrorExt_rollBack(threadData, _OMC_LIT40);
           tmp1_c0 = _isInner;
           tmp1_c1 = _isOuter;
           goto tmp3_done;
         }
         case 3: {
           /* Pattern matching succeeded */
-          omc_ErrorExt_rollBack(threadData, _OMC_LIT43);
+          omc_ErrorExt_rollBack(threadData, _OMC_LIT40);
           goto goto_2;
           goto tmp3_done;
         }
@@ -3242,25 +3217,25 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InnerOuter_removeOuter(threadDat
         case 4: {
           
           /* Pattern matching succeeded */
-          tmpMeta1 = _OMC_LIT33;
+          tmpMeta1 = _OMC_LIT31;
           goto tmp3_done;
         }
         case 3: {
           
           /* Pattern matching succeeded */
-          tmpMeta1 = _OMC_LIT44;
+          tmpMeta1 = _OMC_LIT41;
           goto tmp3_done;
         }
         case 5: {
           
           /* Pattern matching succeeded */
-          tmpMeta1 = _OMC_LIT44;
+          tmpMeta1 = _OMC_LIT41;
           goto tmp3_done;
         }
         case 6: {
           
           /* Pattern matching succeeded */
-          tmpMeta1 = _OMC_LIT33;
+          tmpMeta1 = _OMC_LIT31;
           goto tmp3_done;
         }
         }
@@ -3476,7 +3451,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InnerOuter_convertInnerOuterInne
         case 0: {
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,0,0) == 0) goto tmp3_end;
           /* Pattern matching succeeded */
-          tmpMeta1 = _OMC_LIT36;
+          tmpMeta1 = _OMC_LIT34;
           goto tmp3_done;
         }
         case 1: {
@@ -3968,9 +3943,9 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InnerOuter_changeInnerOuterInOut
           _ncr1 = omc_PrefixUtil_prefixToCref(threadData, _scope);
 
           /* Pattern-matching assignment */
-          tmp15 = omc_ComponentReference_crefFirstCrefLastCrefEqual(threadData, _ncr1, _cr1);
+          tmp15 = omc_ComponentReferenceBasics_crefFirstCrefLastCrefEqual(threadData, _ncr1, _cr1);
           if (0 /* false */ != tmp15) goto goto_2;
-          tmpMeta16 = mmc_mk_box9(3, &DAE_Connect_OuterConnect_OUTERCONNECT__desc, _scope, _cr1, _OMC_LIT44, _f1, _cr2, _io2, _f2, _source);
+          tmpMeta16 = mmc_mk_box9(3, &DAE_Connect_OuterConnect_OUTERCONNECT__desc, _scope, _cr1, _OMC_LIT41, _f1, _cr2, _io2, _f2, _source);
           tmpMeta1 = tmpMeta16;
           goto tmp3_done;
         }
@@ -4010,9 +3985,9 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InnerOuter_changeInnerOuterInOut
           _ncr2 = omc_PrefixUtil_prefixToCref(threadData, _scope);
 
           /* Pattern-matching assignment */
-          tmp26 = omc_ComponentReference_crefFirstCrefLastCrefEqual(threadData, _ncr2, _cr2);
+          tmp26 = omc_ComponentReferenceBasics_crefFirstCrefLastCrefEqual(threadData, _ncr2, _cr2);
           if (0 /* false */ != tmp26) goto goto_2;
-          tmpMeta27 = mmc_mk_box9(3, &DAE_Connect_OuterConnect_OUTERCONNECT__desc, _scope, _cr1, _io1, _f1, _cr2, _OMC_LIT44, _f2, _source);
+          tmpMeta27 = mmc_mk_box9(3, &DAE_Connect_OuterConnect_OUTERCONNECT__desc, _scope, _cr1, _io1, _f1, _cr2, _OMC_LIT41, _f2, _source);
           tmpMeta1 = tmpMeta27;
           goto tmp3_done;
         }
@@ -4161,7 +4136,7 @@ modelica_metatype omc_InnerOuter_handleInnerOuterEquations(threadData_t *threadD
         case 4: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT45),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT42),stdout);
           goto goto_2;
           goto tmp3_done;
         }

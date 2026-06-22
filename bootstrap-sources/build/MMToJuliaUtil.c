@@ -32,7 +32,7 @@ modelica_boolean omc_MMToJuliaUtil_algorithmItemsContainsReturn(threadData_t *th
   modelica_metatype tmpMeta13;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _existsReturn has no default value.
+  _existsReturn = 0 /* false */;
   {
     modelica_metatype _item;
     for (tmpMeta1 = _contents; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
@@ -132,7 +132,7 @@ modelica_boolean omc_MMToJuliaUtil_explicitReturnInClassPart(threadData_t *threa
   modelica_metatype tmpMeta8;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _existsImplicitReturn has no default value.
+  _existsImplicitReturn = 0 /* false */;
   {
     modelica_metatype _cp;
     for (tmpMeta1 = _classParts; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))

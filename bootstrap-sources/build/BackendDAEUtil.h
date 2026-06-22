@@ -162,6 +162,8 @@ extern struct record_description DAE_Operator_MUL__desc;
 
 extern struct record_description DAE_Operator_SUB__desc;
 
+extern struct record_description DAE_StateSelect_AVOID__desc;
+
 extern struct record_description DAE_Statement_STMT__FOR__desc;
 
 extern struct record_description DAE_Statement_STMT__IF__desc;
@@ -229,8 +231,6 @@ extern struct record_description Flags_FlagVisibility_INTERNAL__desc;
 extern struct record_description Flags_ValidOptions_STRING__DESC__OPTION__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__OPTION__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
 extern struct record_description MMath_Rational_RATIONAL__desc;
 
@@ -1807,14 +1807,6 @@ DLLDirection
 modelica_metatype boxptr_BackendDAEUtil_numberOfZeroCrossings(threadData_t *threadData, modelica_metatype _inBackendDAE, modelica_metatype *out_outNumTimeEvents, modelica_metatype *out_outNumRelations, modelica_metatype *out_outNumMathEventFunctions);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_BackendDAEUtil_numberOfZeroCrossings,2,0) {(void*) boxptr_BackendDAEUtil_numberOfZeroCrossings,0}};
 #define boxvar_BackendDAEUtil_numberOfZeroCrossings MMC_REFSTRUCTLIT(boxvar_lit_BackendDAEUtil_numberOfZeroCrossings)
-
-
-DLLDirection
-modelica_integer omc_BackendDAEUtil_getSimIteratorSize(threadData_t *threadData, modelica_metatype _iters);
-DLLDirection
-modelica_metatype boxptr_BackendDAEUtil_getSimIteratorSize(threadData_t *threadData, modelica_metatype _iters);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_BackendDAEUtil_getSimIteratorSize,2,0) {(void*) boxptr_BackendDAEUtil_getSimIteratorSize,0}};
-#define boxvar_BackendDAEUtil_getSimIteratorSize MMC_REFSTRUCTLIT(boxvar_lit_BackendDAEUtil_getSimIteratorSize)
 
 
 DLLDirection

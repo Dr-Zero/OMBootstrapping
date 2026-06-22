@@ -26,8 +26,6 @@ extern struct record_description Flags_FlagData_STRING__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description HpcOmSimCode_HpcOmData_HPCOMDATA__desc;
 
 extern struct record_description HpcOmTaskGraph_GraphDumpOptions_GRAPHDUMPOPTIONS__desc;

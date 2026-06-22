@@ -16,8 +16,6 @@ extern struct record_description ErrorTypes_MessageType_TRANSLATION__desc;
 
 extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NBSlice_SLICE__desc;
 
 extern struct record_description NFExpression_INTEGER__desc;
@@ -32,10 +30,15 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 #define boxptr_NBSlice_applyNewFrameRange omc_NBSlice_applyNewFrameRange
 
 
-#define boxptr_NBSlice_resolveDimensionsSubscripts omc_NBSlice_resolveDimensionsSubscripts
+DLLDirection
+modelica_metatype omc_NBSlice_getCrefInFrameIndicesLocal(threadData_t *threadData, modelica_metatype _subscripted_cref, modelica_metatype _stripped_cref, modelica_metatype _frames, modelica_integer _var_start, modelica_boolean _resize);
+DLLDirection
+modelica_metatype boxptr_NBSlice_getCrefInFrameIndicesLocal(threadData_t *threadData, modelica_metatype _subscripted_cref, modelica_metatype _stripped_cref, modelica_metatype _frames, modelica_metatype _var_start, modelica_metatype _resize);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSlice_getCrefInFrameIndicesLocal,2,0) {(void*) boxptr_NBSlice_getCrefInFrameIndicesLocal,0}};
+#define boxvar_NBSlice_getCrefInFrameIndicesLocal MMC_REFSTRUCTLIT(boxvar_lit_NBSlice_getCrefInFrameIndicesLocal)
 
 
-#define boxptr_NBSlice_getCrefInFrameIndices omc_NBSlice_getCrefInFrameIndices
+#define boxptr_NBSlice_resolveMixedDimensions omc_NBSlice_resolveMixedDimensions
 
 
 #define boxptr_NBSlice_val1String omc_NBSlice_val1String
@@ -121,25 +124,25 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSlice_getDependentCrefsPseudoArrayCau
 
 
 DLLDirection
-modelica_integer omc_NBSlice_updateDependenciesInteger(threadData_t *threadData, modelica_integer __omcQ_24in_5Feqn_5Fidx, modelica_integer _var_idx, modelica_integer _mode, modelica_metatype _mode_to_var, modelica_metatype _indices);
+modelica_integer omc_NBSlice_updateDependenciesInteger(threadData_t *threadData, modelica_integer __omcQ_24in_5Feqn_5Fidx, modelica_integer _var_idx, modelica_integer _var_arr_idx, modelica_integer _mode, modelica_metatype _mode_to_var, modelica_metatype _indices);
 DLLDirection
-modelica_metatype boxptr_NBSlice_updateDependenciesInteger(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqn_5Fidx, modelica_metatype _var_idx, modelica_metatype _mode, modelica_metatype _mode_to_var, modelica_metatype _indices);
+modelica_metatype boxptr_NBSlice_updateDependenciesInteger(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqn_5Fidx, modelica_metatype _var_idx, modelica_metatype _var_arr_idx, modelica_metatype _mode, modelica_metatype _mode_to_var, modelica_metatype _indices);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSlice_updateDependenciesInteger,2,0) {(void*) boxptr_NBSlice_updateDependenciesInteger,0}};
 #define boxvar_NBSlice_updateDependenciesInteger MMC_REFSTRUCTLIT(boxvar_lit_NBSlice_updateDependenciesInteger)
 
 
 DLLDirection
-modelica_integer omc_NBSlice_updateDependenciesCref(threadData_t *threadData, modelica_integer __omcQ_24in_5Feqn_5Fidx, modelica_integer _var_idx, modelica_metatype _accum_dep_arr, modelica_metatype _vars, modelica_metatype _mapping);
+modelica_integer omc_NBSlice_updateDependenciesCref(threadData_t *threadData, modelica_integer __omcQ_24in_5Feqn_5Fidx, modelica_integer _var_idx, modelica_integer _var_arr_idx, modelica_metatype _accum_dep_arr, modelica_metatype _vars, modelica_metatype _mapping, modelica_boolean _resize);
 DLLDirection
-modelica_metatype boxptr_NBSlice_updateDependenciesCref(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqn_5Fidx, modelica_metatype _var_idx, modelica_metatype _accum_dep_arr, modelica_metatype _vars, modelica_metatype _mapping);
+modelica_metatype boxptr_NBSlice_updateDependenciesCref(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqn_5Fidx, modelica_metatype _var_idx, modelica_metatype _var_arr_idx, modelica_metatype _accum_dep_arr, modelica_metatype _vars, modelica_metatype _mapping, modelica_metatype _resize);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSlice_updateDependenciesCref,2,0) {(void*) boxptr_NBSlice_updateDependenciesCref,0}};
 #define boxvar_NBSlice_updateDependenciesCref MMC_REFSTRUCTLIT(boxvar_lit_NBSlice_updateDependenciesCref)
 
 
 DLLDirection
-void omc_NBSlice_fillDependencyArray(threadData_t *threadData, modelica_metatype _dep, modelica_integer _body_size, modelica_metatype _frames, modelica_metatype _mapping, modelica_metatype _map, modelica_fnptr _func);
+void omc_NBSlice_fillDependencyArray(threadData_t *threadData, modelica_metatype _dep, modelica_integer _body_size, modelica_metatype _frames, modelica_metatype _mapping, modelica_metatype _map, modelica_fnptr _func, modelica_integer _var_arr_idx, modelica_boolean _resize);
 DLLDirection
-void boxptr_NBSlice_fillDependencyArray(threadData_t *threadData, modelica_metatype _dep, modelica_metatype _body_size, modelica_metatype _frames, modelica_metatype _mapping, modelica_metatype _map, modelica_fnptr _func);
+void boxptr_NBSlice_fillDependencyArray(threadData_t *threadData, modelica_metatype _dep, modelica_metatype _body_size, modelica_metatype _frames, modelica_metatype _mapping, modelica_metatype _map, modelica_fnptr _func, modelica_metatype _var_arr_idx, modelica_metatype _resize);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSlice_fillDependencyArray,2,0) {(void*) boxptr_NBSlice_fillDependencyArray,0}};
 #define boxvar_NBSlice_fillDependencyArray MMC_REFSTRUCTLIT(boxvar_lit_NBSlice_fillDependencyArray)
 
@@ -203,6 +206,14 @@ modelica_metatype omc_NBSlice_getSliceCandidates(threadData_t *threadData, model
 #define boxptr_NBSlice_getSliceCandidates omc_NBSlice_getSliceCandidates
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSlice_getSliceCandidates,2,0) {(void*) boxptr_NBSlice_getSliceCandidates,0}};
 #define boxvar_NBSlice_getSliceCandidates MMC_REFSTRUCTLIT(boxvar_lit_NBSlice_getSliceCandidates)
+
+
+DLLDirection
+modelica_metatype omc_NBSlice_getContinuous(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fcref, modelica_metatype _acc, modelica_boolean _init);
+DLLDirection
+modelica_metatype boxptr_NBSlice_getContinuous(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fcref, modelica_metatype _acc, modelica_metatype _init);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSlice_getContinuous,2,0) {(void*) boxptr_NBSlice_getContinuous,0}};
+#define boxvar_NBSlice_getContinuous MMC_REFSTRUCTLIT(boxvar_lit_NBSlice_getContinuous)
 
 
 DLLDirection

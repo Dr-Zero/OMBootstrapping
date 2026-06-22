@@ -58,8 +58,6 @@ extern struct record_description ErrorTypes_Severity_WARNING__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description SCode_AlgorithmSection_ALGORITHM__desc;
 
 extern struct record_description SCode_Annotation_ANNOTATION__desc;

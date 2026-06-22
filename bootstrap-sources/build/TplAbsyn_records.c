@@ -1590,6 +1590,32 @@ ADD_METARECORD_DEFINITIONS struct record_description TplAbsyn_MMExp_MM__FOR__LOO
 extern struct record_description TplAbsyn_MMExp_MM__FOR__LOOP__desc;
 #endif
 #ifdef ADD_METARECORD_DEFINITIONS
+#ifndef TplAbsyn_MMExp_MM__LIST__FOR__LOOP__desc_added
+#define TplAbsyn_MMExp_MM__LIST__FOR__LOOP__desc_added
+ADD_METARECORD_DEFINITIONS const char* TplAbsyn_MMExp_MM__LIST__FOR__LOOP__desc__fields[4] = {"eltName","listName","matchLocals","matchCases"};
+ADD_METARECORD_DEFINITIONS struct record_description TplAbsyn_MMExp_MM__LIST__FOR__LOOP__desc = {
+  "TplAbsyn_MMExp_MM__LIST__FOR__LOOP",
+  "TplAbsyn.MMExp.MM_LIST_FOR_LOOP",
+  TplAbsyn_MMExp_MM__LIST__FOR__LOOP__desc__fields
+};
+#endif
+#else /* Only use the file as a header */
+extern struct record_description TplAbsyn_MMExp_MM__LIST__FOR__LOOP__desc;
+#endif
+#ifdef ADD_METARECORD_DEFINITIONS
+#ifndef TplAbsyn_MMExp_MM__LIST__FOR__LOOP__desc_added
+#define TplAbsyn_MMExp_MM__LIST__FOR__LOOP__desc_added
+ADD_METARECORD_DEFINITIONS const char* TplAbsyn_MMExp_MM__LIST__FOR__LOOP__desc__fields[4] = {"eltName","listName","matchLocals","matchCases"};
+ADD_METARECORD_DEFINITIONS struct record_description TplAbsyn_MMExp_MM__LIST__FOR__LOOP__desc = {
+  "TplAbsyn_MMExp_MM__LIST__FOR__LOOP",
+  "TplAbsyn.MMExp.MM_LIST_FOR_LOOP",
+  TplAbsyn_MMExp_MM__LIST__FOR__LOOP__desc__fields
+};
+#endif
+#else /* Only use the file as a header */
+extern struct record_description TplAbsyn_MMExp_MM__LIST__FOR__LOOP__desc;
+#endif
+#ifdef ADD_METARECORD_DEFINITIONS
 #ifndef TplAbsyn_MMExp_MM__FOR__LOOP__desc_added
 #define TplAbsyn_MMExp_MM__FOR__LOOP__desc_added
 ADD_METARECORD_DEFINITIONS const char* TplAbsyn_MMExp_MM__FOR__LOOP__desc__fields[4] = {"idxName","arrName","eltName","statements"};

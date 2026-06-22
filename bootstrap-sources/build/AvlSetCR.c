@@ -821,7 +821,7 @@ modelica_integer omc_AvlSetCR_keyCompare(threadData_t *threadData, modelica_meta
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outResult has no default value.
-  _outResult = omc_ComponentReference_crefCompareGenericNotAlphabetic(threadData, _inKey1, _inKey2);
+  _outResult = omc_ComponentReferenceBasics_crefCompareGenericNotAlphabetic(threadData, _inKey1, _inKey2);
   _return: OMC_LABEL_UNUSED
   return _outResult;
 }
@@ -841,7 +841,7 @@ modelica_string omc_AvlSetCR_keyStr(threadData_t *threadData, modelica_metatype 
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outString has no default value.
-  _outString = omc_ComponentReference_printComponentRefStr(threadData, _inKey);
+  _outString = omc_ComponentReferenceBasics_printComponentRefStr(threadData, _inKey);
   _return: OMC_LABEL_UNUSED
   return _outString;
 }
@@ -1094,20 +1094,14 @@ modelica_string omc_AvlSetCR_printTreeStr(threadData_t *threadData, modelica_met
 PROTECTED_FUNCTION_STATIC modelica_string omc_AvlSetCR_printTreeStr2(threadData_t *threadData, modelica_metatype _inTree, modelica_boolean _isLeft, modelica_string _inIndent)
 {
   modelica_string _outString = NULL;
-  modelica_metatype _val_node = NULL;
   modelica_metatype _left = NULL;
   modelica_metatype _right = NULL;
-  modelica_string _left_str = NULL;
-  modelica_string _right_str = NULL;
   modelica_string tmp1 = 0;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outString has no default value.
-  // _val_node has no default value.
   // _left has no default value.
   // _right has no default value.
-  // _left_str has no default value.
-  // _right_str has no default value.
   { /* match expression */
     modelica_metatype tmp4_1;
     tmp4_1 = _inTree;

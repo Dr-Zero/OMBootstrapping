@@ -134,8 +134,6 @@ extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
@@ -293,9 +291,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_Inline_inlineExps,2,0) {(void*) boxptr_
 
 
 DLLDirection
-modelica_metatype omc_Inline_forceInlineExp(threadData_t *threadData, modelica_metatype _inExp, modelica_metatype _inElementList, modelica_metatype _inSource, modelica_metatype *out_outSource, modelica_boolean *out_inlineperformed);
+modelica_metatype omc_Inline_forceInlineExp(threadData_t *threadData, modelica_metatype _inExp, modelica_metatype _inElementList, modelica_metatype _inSource, modelica_fnptr _cevalConst, modelica_metatype *out_outSource, modelica_boolean *out_inlineperformed);
 DLLDirection
-modelica_metatype boxptr_Inline_forceInlineExp(threadData_t *threadData, modelica_metatype _inExp, modelica_metatype _inElementList, modelica_metatype _inSource, modelica_metatype *out_outSource, modelica_metatype *out_inlineperformed);
+modelica_metatype boxptr_Inline_forceInlineExp(threadData_t *threadData, modelica_metatype _inExp, modelica_metatype _inElementList, modelica_metatype _inSource, modelica_fnptr _cevalConst, modelica_metatype *out_outSource, modelica_metatype *out_inlineperformed);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Inline_forceInlineExp,2,0) {(void*) boxptr_Inline_forceInlineExp,0}};
 #define boxvar_Inline_forceInlineExp MMC_REFSTRUCTLIT(boxvar_lit_Inline_forceInlineExp)
 

@@ -14,17 +14,28 @@ extern struct record_description DAE_Exp_TUPLE__desc;
 
 extern struct record_description DAE_Pattern_PAT__META__TUPLE__desc;
 
+extern struct record_description ErrorTypes_Message_MESSAGE__desc;
+
+extern struct record_description ErrorTypes_MessageType_TRANSLATION__desc;
+
+extern struct record_description ErrorTypes_Severity_ERROR__desc;
+
 extern struct record_description Flags_ConfigFlag_CONFIG__FLAG__desc;
 
 extern struct record_description Flags_FlagData_STRING__LIST__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description Graphviz_Node_LNODE__desc;
 
 extern struct record_description Graphviz_Node_NODE__desc;
+
+
+DLLDirection
+modelica_string omc_ExpressionDump_patternStr(threadData_t *threadData, modelica_metatype _pattern);
+#define boxptr_ExpressionDump_patternStr omc_ExpressionDump_patternStr
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDump_patternStr,2,0) {(void*) boxptr_ExpressionDump_patternStr,0}};
+#define boxvar_ExpressionDump_patternStr MMC_REFSTRUCTLIT(boxvar_lit_ExpressionDump_patternStr)
 
 
 DLLDirection
@@ -71,13 +82,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDump_printSubscript,2,0) {(vo
 
 
 DLLDirection
-void omc_ExpressionDump_dumpExp(threadData_t *threadData, modelica_metatype _exp);
-#define boxptr_ExpressionDump_dumpExp omc_ExpressionDump_dumpExp
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDump_dumpExp,2,0) {(void*) boxptr_ExpressionDump_dumpExp,0}};
-#define boxvar_ExpressionDump_dumpExp MMC_REFSTRUCTLIT(boxvar_lit_ExpressionDump_dumpExp)
-
-
-DLLDirection
 void omc_ExpressionDump_dumpExpWithTitle(threadData_t *threadData, modelica_string _title, modelica_metatype _exp);
 #define boxptr_ExpressionDump_dumpExpWithTitle omc_ExpressionDump_dumpExpWithTitle
 static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDump_dumpExpWithTitle,2,0) {(void*) boxptr_ExpressionDump_dumpExpWithTitle,0}};
@@ -89,20 +93,6 @@ modelica_string omc_ExpressionDump_dimensionIntString(threadData_t *threadData, 
 #define boxptr_ExpressionDump_dimensionIntString omc_ExpressionDump_dimensionIntString
 static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDump_dimensionIntString,2,0) {(void*) boxptr_ExpressionDump_dimensionIntString,0}};
 #define boxvar_ExpressionDump_dimensionIntString MMC_REFSTRUCTLIT(boxvar_lit_ExpressionDump_dimensionIntString)
-
-
-DLLDirection
-modelica_string omc_ExpressionDump_dimensionsString(threadData_t *threadData, modelica_metatype _dims);
-#define boxptr_ExpressionDump_dimensionsString omc_ExpressionDump_dimensionsString
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDump_dimensionsString,2,0) {(void*) boxptr_ExpressionDump_dimensionsString,0}};
-#define boxvar_ExpressionDump_dimensionsString MMC_REFSTRUCTLIT(boxvar_lit_ExpressionDump_dimensionsString)
-
-
-DLLDirection
-modelica_string omc_ExpressionDump_dimensionString(threadData_t *threadData, modelica_metatype _dim);
-#define boxptr_ExpressionDump_dimensionString omc_ExpressionDump_dimensionString
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDump_dimensionString,2,0) {(void*) boxptr_ExpressionDump_dimensionString,0}};
-#define boxvar_ExpressionDump_dimensionString MMC_REFSTRUCTLIT(boxvar_lit_ExpressionDump_dimensionString)
 
 
 DLLDirection
@@ -127,6 +117,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDump_printArraySizes,2,0) {(v
 
 
 #define boxptr_ExpressionDump_printExpIfDiff omc_ExpressionDump_printExpIfDiff
+
+
+DLLDirection
+void omc_ExpressionDump_dumpExp(threadData_t *threadData, modelica_metatype _exp);
+#define boxptr_ExpressionDump_dumpExp omc_ExpressionDump_dumpExp
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDump_dumpExp,2,0) {(void*) boxptr_ExpressionDump_dumpExp,0}};
+#define boxvar_ExpressionDump_dumpExp MMC_REFSTRUCTLIT(boxvar_lit_ExpressionDump_dumpExp)
 
 
 DLLDirection
@@ -186,13 +183,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDump_printCrefsFromExpStr,2,0
 
 
 DLLDirection
-modelica_string omc_ExpressionDump_printExpStr(threadData_t *threadData, modelica_metatype _e);
-#define boxptr_ExpressionDump_printExpStr omc_ExpressionDump_printExpStr
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDump_printExpStr,2,0) {(void*) boxptr_ExpressionDump_printExpStr,0}};
-#define boxvar_ExpressionDump_printExpStr MMC_REFSTRUCTLIT(boxvar_lit_ExpressionDump_printExpStr)
-
-
-DLLDirection
 modelica_string omc_ExpressionDump_printOptExpStr(threadData_t *threadData, modelica_metatype _oexp);
 #define boxptr_ExpressionDump_printOptExpStr omc_ExpressionDump_printOptExpStr
 static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDump_printOptExpStr,2,0) {(void*) boxptr_ExpressionDump_printOptExpStr,0}};
@@ -221,24 +211,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDump_printSubscriptLstStr,2,0
 
 
 DLLDirection
-modelica_string omc_ExpressionDump_printSubscriptStr(threadData_t *threadData, modelica_metatype _sub);
-#define boxptr_ExpressionDump_printSubscriptStr omc_ExpressionDump_printSubscriptStr
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDump_printSubscriptStr,2,0) {(void*) boxptr_ExpressionDump_printSubscriptStr,0}};
-#define boxvar_ExpressionDump_printSubscriptStr MMC_REFSTRUCTLIT(boxvar_lit_ExpressionDump_printSubscriptStr)
-
-
-DLLDirection
 modelica_string omc_ExpressionDump_debugPrintSubscriptStr(threadData_t *threadData, modelica_metatype _inSubscript);
 #define boxptr_ExpressionDump_debugPrintSubscriptStr omc_ExpressionDump_debugPrintSubscriptStr
 static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDump_debugPrintSubscriptStr,2,0) {(void*) boxptr_ExpressionDump_debugPrintSubscriptStr,0}};
 #define boxvar_ExpressionDump_debugPrintSubscriptStr MMC_REFSTRUCTLIT(boxvar_lit_ExpressionDump_debugPrintSubscriptStr)
-
-
-DLLDirection
-modelica_string omc_ExpressionDump_printListStr(threadData_t *threadData, modelica_metatype _inTypeALst, modelica_fnptr _inFuncTypeTypeAToString, modelica_string _inString);
-#define boxptr_ExpressionDump_printListStr omc_ExpressionDump_printListStr
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDump_printListStr,2,0) {(void*) boxptr_ExpressionDump_printListStr,0}};
-#define boxvar_ExpressionDump_printListStr MMC_REFSTRUCTLIT(boxvar_lit_ExpressionDump_printListStr)
 
 
 #define boxptr_ExpressionDump_printRow omc_ExpressionDump_printRow

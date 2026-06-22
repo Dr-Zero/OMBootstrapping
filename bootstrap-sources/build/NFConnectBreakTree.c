@@ -44,10 +44,8 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT14,1,4) {&ErrorTypes_Severity_ERROR
 #define _OMC_LIT15_data "No matching element found for 'break connect(%s, %s)'."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT15,54,_OMC_LIT15_data);
 #define _OMC_LIT15 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT15)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT16,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT15}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT16,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(419)),_OMC_LIT13,_OMC_LIT14,_OMC_LIT15}};
 #define _OMC_LIT16 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT16)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT17,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(419)),_OMC_LIT13,_OMC_LIT14,_OMC_LIT16}};
-#define _OMC_LIT17 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT17)
 #include "util/modelica.h"
 
 #include "NFConnectBreakTree_includes.h"
@@ -1983,20 +1981,14 @@ modelica_string omc_NFConnectBreakTree_EntryTree_printTreeStr(threadData_t *thre
 PROTECTED_FUNCTION_STATIC modelica_string omc_NFConnectBreakTree_EntryTree_printTreeStr2(threadData_t *threadData, modelica_metatype _inTree, modelica_boolean _isLeft, modelica_string _inIndent)
 {
   modelica_string _outString = NULL;
-  modelica_metatype _val_node = NULL;
   modelica_metatype _left = NULL;
   modelica_metatype _right = NULL;
-  modelica_string _left_str = NULL;
-  modelica_string _right_str = NULL;
   modelica_string tmp1 = 0;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outString has no default value.
-  // _val_node has no default value.
   // _left has no default value.
   // _right has no default value.
-  // _left_str has no default value.
-  // _right_str has no default value.
   { /* match expression */
     modelica_metatype tmp4_1;
     tmp4_1 = _inTree;
@@ -3175,7 +3167,7 @@ void omc_NFConnectBreakTree_checkUnmatchedBreaks(threadData_t *threadData, model
         _info = tmpMeta5;
 
         tmpMeta6 = mmc_mk_cons(omc_Dump_printComponentRefStr(threadData, _lhs), mmc_mk_cons(omc_Dump_printComponentRefStr(threadData, _rhs), MMC_REFSTRUCTLIT(mmc_nil)));
-        omc_Error_addSourceMessage(threadData, _OMC_LIT17, tmpMeta6, _info);
+        omc_Error_addSourceMessage(threadData, _OMC_LIT16, tmpMeta6, _info);
 
         MMC_THROW_INTERNAL();
       }
@@ -4692,20 +4684,14 @@ modelica_string omc_NFConnectBreakTree_printTreeStr(threadData_t *threadData, mo
 PROTECTED_FUNCTION_STATIC modelica_string omc_NFConnectBreakTree_printTreeStr2(threadData_t *threadData, modelica_metatype _inTree, modelica_boolean _isLeft, modelica_string _inIndent)
 {
   modelica_string _outString = NULL;
-  modelica_metatype _val_node = NULL;
   modelica_metatype _left = NULL;
   modelica_metatype _right = NULL;
-  modelica_string _left_str = NULL;
-  modelica_string _right_str = NULL;
   modelica_string tmp1 = 0;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outString has no default value.
-  // _val_node has no default value.
   // _left has no default value.
   // _right has no default value.
-  // _left_str has no default value.
-  // _right_str has no default value.
   { /* match expression */
     modelica_metatype tmp4_1;
     tmp4_1 = _inTree;

@@ -35,12 +35,12 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT10,1,_OMC_LIT10_data);
 #define _OMC_LIT11_data ")"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT11,1,_OMC_LIT11_data);
 #define _OMC_LIT11 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT11)
-#define _OMC_LIT12_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/Util/UnorderedMap.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT12,73,_OMC_LIT12_data);
+#define _OMC_LIT12_data "/projects/OpenModelica-session2/OMCompiler/Compiler/Util/UnorderedMap.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT12,72,_OMC_LIT12_data);
 #define _OMC_LIT12 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT12)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT13_6,1.770631566e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT13_6,1.781983298e9);
 #define _OMC_LIT13_6 MMC_REFREALLIT(_OMC_LIT_STRUCT13_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT13,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT12,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(666)),MMC_IMMEDIATE(MMC_TAGFIXNUM(7)),MMC_IMMEDIATE(MMC_TAGFIXNUM(666)),MMC_IMMEDIATE(MMC_TAGFIXNUM(53)),_OMC_LIT13_6}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT13,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT12,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(680)),MMC_IMMEDIATE(MMC_TAGFIXNUM(7)),MMC_IMMEDIATE(MMC_TAGFIXNUM(680)),MMC_IMMEDIATE(MMC_TAGFIXNUM(53)),_OMC_LIT13_6}};
 #define _OMC_LIT13 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT13)
 #define _OMC_LIT14_data "UnorderedMap.merge failed because both maps contain the same key."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT14,65,_OMC_LIT14_data);
@@ -624,17 +624,17 @@ modelica_metatype omc_UnorderedMap_keySet(threadData_t *threadData, modelica_met
     for(_h = ((modelica_integer) 1); in_range_integer(_h, tmp6, tmp8); _h += tmp7)
     {
       {
-        modelica_metatype __omcQ_24tmpVar3;
+        modelica_metatype __omcQ_24tmpVar1;
         modelica_metatype* tmp3;
         modelica_metatype tmpMeta4;
-        modelica_metatype __omcQ_24tmpVar2;
+        modelica_metatype __omcQ_24tmpVar0;
         modelica_integer tmp5;
         modelica_metatype _i_loopVar = 0;
         modelica_metatype _i;
         _i_loopVar = omc_Vector_get(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_map), 2))), _h);
         tmpMeta4 = MMC_REFSTRUCTLIT(mmc_nil);
-        __omcQ_24tmpVar3 = tmpMeta4; /* defaultValue */
-        tmp3 = &__omcQ_24tmpVar3;
+        __omcQ_24tmpVar1 = tmpMeta4; /* defaultValue */
+        tmp3 = &__omcQ_24tmpVar1;
         while(1) {
           tmp5 = 1;
           if (!listEmpty(_i_loopVar)) {
@@ -643,8 +643,8 @@ modelica_metatype omc_UnorderedMap_keySet(threadData_t *threadData, modelica_met
             tmp5--;
           }
           if (tmp5 == 0) {
-            __omcQ_24tmpVar2 = omc_Vector_getNoBounds(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_map), 3))), mmc_unbox_integer(_i));
-            *tmp3 = mmc_mk_cons(__omcQ_24tmpVar2,0);
+            __omcQ_24tmpVar0 = omc_Vector_getNoBounds(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_map), 3))), mmc_unbox_integer(_i));
+            *tmp3 = mmc_mk_cons(__omcQ_24tmpVar0,0);
             tmp3 = &MMC_CDR(*tmp3);
           } else if (tmp5 == 1) {
             break;
@@ -653,7 +653,7 @@ modelica_metatype omc_UnorderedMap_keySet(threadData_t *threadData, modelica_met
           }
         }
         *tmp3 = mmc_mk_nil();
-        tmpMeta2 = __omcQ_24tmpVar3;
+        tmpMeta2 = __omcQ_24tmpVar1;
       }
       arrayUpdateNoBoundsChecking(_buckets, _h, tmpMeta2);
     }
@@ -892,6 +892,16 @@ modelica_metatype boxptr_UnorderedMap_contains(threadData_t *threadData, modelic
 }
 
 DLLDirection
+void omc_UnorderedMap_updateKey(threadData_t *threadData, modelica_metatype _key, modelica_metatype _map)
+{
+  MMC_SO();
+  _tailrecursive: OMC_LABEL_UNUSED
+  omc_Vector_update(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_map), 3))), omc_UnorderedMap_find(threadData, _key, _map, NULL), _key);
+  _return: OMC_LABEL_UNUSED
+  return;
+}
+
+DLLDirection
 modelica_metatype omc_UnorderedMap_getKey(threadData_t *threadData, modelica_metatype _key, modelica_metatype _map)
 {
   modelica_metatype _outKey = NULL;
@@ -1027,17 +1037,17 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_UnorderedMap_remove_update__indi
   _tailrecursive: OMC_LABEL_UNUSED
   // _outBucket has no default value.
   {
-    modelica_metatype __omcQ_24tmpVar5;
+    modelica_metatype __omcQ_24tmpVar3;
     modelica_metatype* tmp2;
     modelica_metatype tmpMeta3;
-    modelica_metatype __omcQ_24tmpVar4;
+    modelica_metatype __omcQ_24tmpVar2;
     modelica_integer tmp4;
     modelica_metatype _i_loopVar = 0;
     modelica_metatype _i;
     _i_loopVar = _bucket;
     tmpMeta3 = MMC_REFSTRUCTLIT(mmc_nil);
-    __omcQ_24tmpVar5 = tmpMeta3; /* defaultValue */
-    tmp2 = &__omcQ_24tmpVar5;
+    __omcQ_24tmpVar3 = tmpMeta3; /* defaultValue */
+    tmp2 = &__omcQ_24tmpVar3;
     while(1) {
       tmp4 = 1;
       if (!listEmpty(_i_loopVar)) {
@@ -1046,8 +1056,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_UnorderedMap_remove_update__indi
         tmp4--;
       }
       if (tmp4 == 0) {
-        __omcQ_24tmpVar4 = mmc_mk_integer(((mmc_unbox_integer(_i) > _removedIndex)?((modelica_integer) -1) + mmc_unbox_integer(_i):mmc_unbox_integer(_i)));
-        *tmp2 = mmc_mk_cons(__omcQ_24tmpVar4,0);
+        __omcQ_24tmpVar2 = mmc_mk_integer(((mmc_unbox_integer(_i) > _removedIndex)?((modelica_integer) -1) + mmc_unbox_integer(_i):mmc_unbox_integer(_i)));
+        *tmp2 = mmc_mk_cons(__omcQ_24tmpVar2,0);
         tmp2 = &MMC_CDR(*tmp2);
       } else if (tmp4 == 1) {
         break;
@@ -1056,7 +1066,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_UnorderedMap_remove_update__indi
       }
     }
     *tmp2 = mmc_mk_nil();
-    tmpMeta1 = __omcQ_24tmpVar5;
+    tmpMeta1 = __omcQ_24tmpVar3;
   }
   _outBucket = tmpMeta1;
   _return: OMC_LABEL_UNUSED

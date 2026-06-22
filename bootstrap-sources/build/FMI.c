@@ -37,16 +37,14 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT11,2,8) {&Flags_FlagData_STRING__FL
 #define _OMC_LIT12_data "returns the FMI Version either 1.0 or 2.0."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT12,42,_OMC_LIT12_data);
 #define _OMC_LIT12 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT12)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT13,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT12}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT13,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(134)),_OMC_LIT4,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT10,_OMC_LIT11,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT12}};
 #define _OMC_LIT13 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT13)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT14,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(134)),_OMC_LIT4,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT10,_OMC_LIT11,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT13}};
-#define _OMC_LIT14 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT14)
-#define _OMC_LIT15_data "cs_st"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT15,5,_OMC_LIT15_data);
+#define _OMC_LIT14_data "cs_st"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT14,5,_OMC_LIT14_data);
+#define _OMC_LIT14 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT14)
+#define _OMC_LIT15_data "cs_tool"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT15,7,_OMC_LIT15_data);
 #define _OMC_LIT15 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT15)
-#define _OMC_LIT16_data "cs_tool"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT16,7,_OMC_LIT16_data);
-#define _OMC_LIT16 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT16)
 #include "util/modelica.h"
 
 #include "FMI_includes.h"
@@ -515,7 +513,7 @@ modelica_string omc_FMI_getFMIVersionString(threadData_t *threadData)
   modelica_string _version = NULL;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  _version = omc_Flags_getConfigString(threadData, _OMC_LIT14);
+  _version = omc_Flags_getConfigString(threadData, _OMC_LIT13);
   _return: OMC_LABEL_UNUSED
   return _version;
 }
@@ -771,7 +769,7 @@ modelica_string omc_FMI_getFMIType(threadData_t *threadData, modelica_metatype _
           if (1 != tmp11) goto tmp3_end;
           
           /* Pattern matching succeeded */
-          tmp1 = _OMC_LIT15;
+          tmp1 = _OMC_LIT14;
           goto tmp3_done;
         }
         case 2: {
@@ -785,7 +783,7 @@ modelica_string omc_FMI_getFMIType(threadData_t *threadData, modelica_metatype _
           if (2 != tmp14) goto tmp3_end;
           
           /* Pattern matching succeeded */
-          tmp1 = _OMC_LIT16;
+          tmp1 = _OMC_LIT15;
           goto tmp3_done;
         }
         case 3: {

@@ -22,8 +22,6 @@ extern struct record_description DAE_SymbolicOperation_OP__SCALARIZE__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 
 #define boxptr_InlineArrayEquations_generateScalarArrayEqns2 omc_InlineArrayEquations_generateScalarArrayEqns2
 

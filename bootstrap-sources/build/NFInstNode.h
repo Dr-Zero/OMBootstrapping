@@ -22,8 +22,6 @@ extern struct record_description ErrorTypes_MessageType_TRANSLATION__desc;
 
 extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NFClass_DAE__TYPE__desc;
 
 extern struct record_description NFClass_NOT__INSTANTIATED__desc;
@@ -57,6 +55,8 @@ extern struct record_description NFModifier_Modifier_NOMOD__desc;
 extern struct record_description NFRestriction_UNKNOWN__desc;
 
 extern struct record_description NFType_INTEGER__desc;
+
+extern struct record_description NFType_UNKNOWN__desc;
 
 extern struct record_description SCode_Mod_NOMOD__desc;
 
@@ -116,6 +116,14 @@ DLLDirection
 modelica_metatype boxptr_NFInstNode_InstNode_dimensionCount(threadData_t *threadData, modelica_metatype _node);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInstNode_InstNode_dimensionCount,2,0) {(void*) boxptr_NFInstNode_InstNode_dimensionCount,0}};
 #define boxvar_NFInstNode_InstNode_dimensionCount MMC_REFSTRUCTLIT(boxvar_lit_NFInstNode_InstNode_dimensionCount)
+
+
+DLLDirection
+modelica_integer omc_NFInstNode_InstNode_hashContinue(threadData_t *threadData, modelica_metatype _node, modelica_integer __omcQ_24in_5Fhash);
+DLLDirection
+modelica_metatype boxptr_NFInstNode_InstNode_hashContinue(threadData_t *threadData, modelica_metatype _node, modelica_metatype __omcQ_24in_5Fhash);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInstNode_InstNode_hashContinue,2,0) {(void*) boxptr_NFInstNode_InstNode_hashContinue,0}};
+#define boxvar_NFInstNode_InstNode_hashContinue MMC_REFSTRUCTLIT(boxvar_lit_NFInstNode_InstNode_hashContinue)
 
 
 DLLDirection
@@ -473,6 +481,13 @@ modelica_metatype omc_NFInstNode_InstNode_getFuncCache(threadData_t *threadData,
 #define boxptr_NFInstNode_InstNode_getFuncCache omc_NFInstNode_InstNode_getFuncCache
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInstNode_InstNode_getFuncCache,2,0) {(void*) boxptr_NFInstNode_InstNode_getFuncCache,0}};
 #define boxvar_NFInstNode_InstNode_getFuncCache MMC_REFSTRUCTLIT(boxvar_lit_NFInstNode_InstNode_getFuncCache)
+
+
+DLLDirection
+modelica_metatype omc_NFInstNode_InstNode_newFuncCache(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fnode, modelica_metatype _in_func_cache);
+#define boxptr_NFInstNode_InstNode_newFuncCache omc_NFInstNode_InstNode_newFuncCache
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInstNode_InstNode_newFuncCache,2,0) {(void*) boxptr_NFInstNode_InstNode_newFuncCache,0}};
+#define boxvar_NFInstNode_InstNode_newFuncCache MMC_REFSTRUCTLIT(boxvar_lit_NFInstNode_InstNode_newFuncCache)
 
 
 DLLDirection

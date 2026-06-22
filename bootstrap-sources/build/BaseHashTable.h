@@ -10,7 +10,6 @@
 extern "C" {
 #endif
 
-extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
 DLLDirection

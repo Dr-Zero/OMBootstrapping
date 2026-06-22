@@ -202,21 +202,24 @@ modelica_boolean omc_UnorderedSet_isDisjoint(threadData_t *threadData, modelica_
     _set_big = _set2;
   }
 
+  if((!omc_UnorderedSet_isEmpty(threadData, _set_small)))
   {
-    modelica_metatype _buckets;
-    for (tmpMeta1 = omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set_small), 2)))), tmp6 = arrayLength(tmpMeta1), tmp5 = 1; tmp5 <= tmp6; tmp5++)
     {
-      _buckets = arrayGet(tmpMeta1,tmp5);
+      modelica_metatype _buckets;
+      for (tmpMeta1 = omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set_small), 2)))), tmp6 = arrayLength(tmpMeta1), tmp5 = 1; tmp5 <= tmp6; tmp5++)
       {
-        modelica_metatype _k;
-        for (tmpMeta2 = _buckets; !listEmpty(tmpMeta2); tmpMeta2=MMC_CDR(tmpMeta2))
+        _buckets = arrayGet(tmpMeta1,tmp5);
         {
-          _k = MMC_CAR(tmpMeta2);
-          if(omc_UnorderedSet_contains(threadData, _k, _set_big))
+          modelica_metatype _k;
+          for (tmpMeta2 = _buckets; !listEmpty(tmpMeta2); tmpMeta2=MMC_CDR(tmpMeta2))
           {
-            _b = 0 /* false */;
+            _k = MMC_CAR(tmpMeta2);
+            if(omc_UnorderedSet_contains(threadData, _k, _set_big))
+            {
+              _b = 0 /* false */;
 
-            goto _return;
+              goto _return;
+            }
           }
         }
       }
@@ -259,40 +262,46 @@ modelica_metatype omc_UnorderedSet_sym__difference(threadData_t *threadData, mod
   // _set has no default value.
   tmpMeta1 = MMC_REFSTRUCTLIT(mmc_nil);
   _acc = tmpMeta1;
+  if((!omc_UnorderedSet_isEmpty(threadData, _set1)))
   {
-    modelica_metatype _b;
-    for (tmpMeta2 = omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set1), 2)))), tmp8 = arrayLength(tmpMeta2), tmp7 = 1; tmp7 <= tmp8; tmp7++)
     {
-      _b = arrayGet(tmpMeta2,tmp7);
+      modelica_metatype _b;
+      for (tmpMeta2 = omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set1), 2)))), tmp8 = arrayLength(tmpMeta2), tmp7 = 1; tmp7 <= tmp8; tmp7++)
       {
-        modelica_metatype _k;
-        for (tmpMeta3 = _b; !listEmpty(tmpMeta3); tmpMeta3=MMC_CDR(tmpMeta3))
+        _b = arrayGet(tmpMeta2,tmp7);
         {
-          _k = MMC_CAR(tmpMeta3);
-          if((!omc_UnorderedSet_contains(threadData, _k, _set2)))
+          modelica_metatype _k;
+          for (tmpMeta3 = _b; !listEmpty(tmpMeta3); tmpMeta3=MMC_CDR(tmpMeta3))
           {
-            tmpMeta4 = mmc_mk_cons(_k, _acc);
-            _acc = tmpMeta4;
+            _k = MMC_CAR(tmpMeta3);
+            if((!omc_UnorderedSet_contains(threadData, _k, _set2)))
+            {
+              tmpMeta4 = mmc_mk_cons(_k, _acc);
+              _acc = tmpMeta4;
+            }
           }
         }
       }
     }
   }
 
+  if((!omc_UnorderedSet_isEmpty(threadData, _set2)))
   {
-    modelica_metatype _b;
-    for (tmpMeta9 = omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set2), 2)))), tmp15 = arrayLength(tmpMeta9), tmp14 = 1; tmp14 <= tmp15; tmp14++)
     {
-      _b = arrayGet(tmpMeta9,tmp14);
+      modelica_metatype _b;
+      for (tmpMeta9 = omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set2), 2)))), tmp15 = arrayLength(tmpMeta9), tmp14 = 1; tmp14 <= tmp15; tmp14++)
       {
-        modelica_metatype _k;
-        for (tmpMeta10 = _b; !listEmpty(tmpMeta10); tmpMeta10=MMC_CDR(tmpMeta10))
+        _b = arrayGet(tmpMeta9,tmp14);
         {
-          _k = MMC_CAR(tmpMeta10);
-          if((!omc_UnorderedSet_contains(threadData, _k, _set1)))
+          modelica_metatype _k;
+          for (tmpMeta10 = _b; !listEmpty(tmpMeta10); tmpMeta10=MMC_CDR(tmpMeta10))
           {
-            tmpMeta11 = mmc_mk_cons(_k, _acc);
-            _acc = tmpMeta11;
+            _k = MMC_CAR(tmpMeta10);
+            if((!omc_UnorderedSet_contains(threadData, _k, _set1)))
+            {
+              tmpMeta11 = mmc_mk_cons(_k, _acc);
+              _acc = tmpMeta11;
+            }
           }
         }
       }
@@ -322,20 +331,23 @@ modelica_metatype omc_UnorderedSet_difference(threadData_t *threadData, modelica
   // _set has no default value.
   tmpMeta1 = MMC_REFSTRUCTLIT(mmc_nil);
   _acc = tmpMeta1;
+  if((!omc_UnorderedSet_isEmpty(threadData, _set1)))
   {
-    modelica_metatype _b;
-    for (tmpMeta2 = omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set1), 2)))), tmp8 = arrayLength(tmpMeta2), tmp7 = 1; tmp7 <= tmp8; tmp7++)
     {
-      _b = arrayGet(tmpMeta2,tmp7);
+      modelica_metatype _b;
+      for (tmpMeta2 = omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set1), 2)))), tmp8 = arrayLength(tmpMeta2), tmp7 = 1; tmp7 <= tmp8; tmp7++)
       {
-        modelica_metatype _k;
-        for (tmpMeta3 = _b; !listEmpty(tmpMeta3); tmpMeta3=MMC_CDR(tmpMeta3))
+        _b = arrayGet(tmpMeta2,tmp7);
         {
-          _k = MMC_CAR(tmpMeta3);
-          if((!omc_UnorderedSet_contains(threadData, _k, _set2)))
+          modelica_metatype _k;
+          for (tmpMeta3 = _b; !listEmpty(tmpMeta3); tmpMeta3=MMC_CDR(tmpMeta3))
           {
-            tmpMeta4 = mmc_mk_cons(_k, _acc);
-            _acc = tmpMeta4;
+            _k = MMC_CAR(tmpMeta3);
+            if((!omc_UnorderedSet_contains(threadData, _k, _set2)))
+            {
+              tmpMeta4 = mmc_mk_cons(_k, _acc);
+              _acc = tmpMeta4;
+            }
           }
         }
       }
@@ -345,6 +357,49 @@ modelica_metatype omc_UnorderedSet_difference(threadData_t *threadData, modelica
   _set = omc_UnorderedSet_fromList(threadData, _acc, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set1), 4))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set1), 5))));
   _return: OMC_LABEL_UNUSED
   return _set;
+}
+
+DLLDirection
+modelica_boolean omc_UnorderedSet_equal__list(threadData_t *threadData, modelica_metatype _inList1, modelica_metatype _inList2, modelica_fnptr _hashFunc, modelica_fnptr _keyEqFunc)
+{
+  modelica_boolean _b;
+  modelica_metatype _set1 = NULL;
+  modelica_metatype _set2 = NULL;
+  modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  MMC_SO();
+  _tailrecursive: OMC_LABEL_UNUSED
+  _b = 0 /* false */;
+  _set1 = omc_UnorderedSet_fromList(threadData, _inList1, ((modelica_fnptr) _hashFunc), ((modelica_fnptr) _keyEqFunc));
+  _set2 = omc_UnorderedSet_fromList(threadData, _inList2, ((modelica_fnptr) _hashFunc), ((modelica_fnptr) _keyEqFunc));
+  if((mmc_unbox_integer(omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set1), 3))))) != mmc_unbox_integer(omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set2), 3)))))))
+  {
+    goto _return;
+  }
+
+  {
+    modelica_metatype _k;
+    for (tmpMeta1 = _inList1; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
+    {
+      _k = MMC_CAR(tmpMeta1);
+      if((!omc_UnorderedSet_contains(threadData, _k, _set2)))
+      {
+        goto _return;
+      }
+    }
+  }
+
+  _b = 1 /* true */;
+  _return: OMC_LABEL_UNUSED
+  return _b;
+}
+modelica_metatype boxptr_UnorderedSet_equal__list(threadData_t *threadData, modelica_metatype _inList1, modelica_metatype _inList2, modelica_fnptr _hashFunc, modelica_fnptr _keyEqFunc)
+{
+  modelica_boolean _b;
+  modelica_metatype out_b;
+  _b = omc_UnorderedSet_equal__list(threadData, _inList1, _inList2, _hashFunc, _keyEqFunc);
+  out_b = mmc_mk_icon(_b);
+  return out_b;
 }
 
 DLLDirection
@@ -492,20 +547,23 @@ modelica_metatype omc_UnorderedSet_intersection(threadData_t *threadData, modeli
     _set_big = _set2;
   }
 
+  if((!omc_UnorderedSet_isEmpty(threadData, _set_small)))
   {
-    modelica_metatype _b;
-    for (tmpMeta2 = omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set_small), 2)))), tmp8 = arrayLength(tmpMeta2), tmp7 = 1; tmp7 <= tmp8; tmp7++)
     {
-      _b = arrayGet(tmpMeta2,tmp7);
+      modelica_metatype _b;
+      for (tmpMeta2 = omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set_small), 2)))), tmp8 = arrayLength(tmpMeta2), tmp7 = 1; tmp7 <= tmp8; tmp7++)
       {
-        modelica_metatype _k;
-        for (tmpMeta3 = _b; !listEmpty(tmpMeta3); tmpMeta3=MMC_CDR(tmpMeta3))
+        _b = arrayGet(tmpMeta2,tmp7);
         {
-          _k = MMC_CAR(tmpMeta3);
-          if(omc_UnorderedSet_contains(threadData, _k, _set_big))
+          modelica_metatype _k;
+          for (tmpMeta3 = _b; !listEmpty(tmpMeta3); tmpMeta3=MMC_CDR(tmpMeta3))
           {
-            tmpMeta4 = mmc_mk_cons(_k, _acc);
-            _acc = tmpMeta4;
+            _k = MMC_CAR(tmpMeta3);
+            if(omc_UnorderedSet_contains(threadData, _k, _set_big))
+            {
+              tmpMeta4 = mmc_mk_cons(_k, _acc);
+              _acc = tmpMeta4;
+            }
           }
         }
       }
@@ -530,6 +588,11 @@ modelica_metatype omc_UnorderedSet_merge(threadData_t *threadData, modelica_meta
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   _set1 = __omcQ_24in_5Fset1;
+  if(omc_UnorderedSet_isEmpty(threadData, _set2))
+  {
+    goto _return;
+  }
+
   {
     modelica_metatype _b;
     for (tmpMeta1 = omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set2), 2)))), tmp6 = arrayLength(tmpMeta1), tmp5 = 1; tmp5 <= tmp6; tmp5++)
@@ -585,7 +648,10 @@ DLLDirection
 modelica_metatype omc_UnorderedSet_union(threadData_t *threadData, modelica_metatype _set1, modelica_metatype _set2)
 {
   modelica_metatype _set = NULL;
-  modelica_metatype _buckets = NULL;
+  modelica_integer _sz1;
+  modelica_integer _sz2;
+  modelica_integer _small_sz;
+  modelica_metatype _small_set = NULL;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
@@ -595,31 +661,45 @@ modelica_metatype omc_UnorderedSet_union(threadData_t *threadData, modelica_meta
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _set has no default value.
-  // _buckets has no default value.
-  if((mmc_unbox_integer(omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set1), 3))))) > mmc_unbox_integer(omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set2), 3)))))))
+  // _sz1 has no default value.
+  // _sz2 has no default value.
+  // _small_sz has no default value.
+  // _small_set has no default value.
+  _sz1 = mmc_unbox_integer(omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set1), 3)))));
+
+  _sz2 = mmc_unbox_integer(omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set2), 3)))));
+
+  if((_sz1 > _sz2))
   {
     _set = _set1;
 
-    _buckets = omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set2), 2))));
+    _small_set = _set2;
+
+    _small_sz = _sz2;
   }
   else
   {
     _set = _set2;
 
-    _buckets = omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set1), 2))));
+    _small_set = _set1;
+
+    _small_sz = _sz1;
   }
 
+  if((_small_sz > ((modelica_integer) 0)))
   {
-    modelica_metatype _b;
-    for (tmpMeta1 = _buckets, tmp6 = arrayLength(tmpMeta1), tmp5 = 1; tmp5 <= tmp6; tmp5++)
     {
-      _b = arrayGet(tmpMeta1,tmp5);
+      modelica_metatype _b;
+      for (tmpMeta1 = omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_small_set), 2)))), tmp6 = arrayLength(tmpMeta1), tmp5 = 1; tmp5 <= tmp6; tmp5++)
       {
-        modelica_metatype _k;
-        for (tmpMeta2 = _b; !listEmpty(tmpMeta2); tmpMeta2=MMC_CDR(tmpMeta2))
+        _b = arrayGet(tmpMeta1,tmp5);
         {
-          _k = MMC_CAR(tmpMeta2);
-          omc_UnorderedSet_add(threadData, _k, _set);
+          modelica_metatype _k;
+          for (tmpMeta2 = _b; !listEmpty(tmpMeta2); tmpMeta2=MMC_CDR(tmpMeta2))
+          {
+            _k = MMC_CAR(tmpMeta2);
+            omc_UnorderedSet_add(threadData, _k, _set);
+          }
         }
       }
     }
@@ -660,10 +740,10 @@ modelica_string omc_UnorderedSet_toString(threadData_t *threadData, modelica_met
   _tailrecursive: OMC_LABEL_UNUSED
   // _str has no default value.
   {
-    modelica_metatype __omcQ_24tmpVar3;
+    modelica_metatype __omcQ_24tmpVar1;
     modelica_metatype* tmp2;
     modelica_metatype tmpMeta3;
-    modelica_string __omcQ_24tmpVar2;
+    modelica_string __omcQ_24tmpVar0;
     modelica_integer tmp4;
     modelica_metatype _k_loopVar = 0;
     modelica_integer tmp5;
@@ -671,8 +751,8 @@ modelica_string omc_UnorderedSet_toString(threadData_t *threadData, modelica_met
     _k_loopVar = omc_UnorderedSet_toArray(threadData, _set);
     tmp5 = 1;
     tmpMeta3 = MMC_REFSTRUCTLIT(mmc_nil);
-    __omcQ_24tmpVar3 = tmpMeta3; /* defaultValue */
-    tmp2 = &__omcQ_24tmpVar3;
+    __omcQ_24tmpVar1 = tmpMeta3; /* defaultValue */
+    tmp2 = &__omcQ_24tmpVar1;
     while(1) {
       tmp4 = 1;
       if (tmp5 <= arrayLength(_k_loopVar)) {
@@ -680,8 +760,8 @@ modelica_string omc_UnorderedSet_toString(threadData_t *threadData, modelica_met
         tmp4--;
       }
       if (tmp4 == 0) {
-        __omcQ_24tmpVar2 = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_stringFn), 2))) ? ((modelica_metatype(*)(threadData_t*, modelica_metatype, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_stringFn), 1)))) (threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_stringFn), 2))), _k) : ((modelica_metatype(*)(threadData_t*, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_stringFn), 1)))) (threadData, _k);
-        *tmp2 = mmc_mk_cons(__omcQ_24tmpVar2,0);
+        __omcQ_24tmpVar0 = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_stringFn), 2))) ? ((modelica_metatype(*)(threadData_t*, modelica_metatype, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_stringFn), 1)))) (threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_stringFn), 2))), _k) : ((modelica_metatype(*)(threadData_t*, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_stringFn), 1)))) (threadData, _k);
+        *tmp2 = mmc_mk_cons(__omcQ_24tmpVar0,0);
         tmp2 = &MMC_CDR(*tmp2);
       } else if (tmp4 == 1) {
         break;
@@ -690,7 +770,7 @@ modelica_string omc_UnorderedSet_toString(threadData_t *threadData, modelica_met
       }
     }
     *tmp2 = mmc_mk_nil();
-    tmpMeta1 = __omcQ_24tmpVar3;
+    tmpMeta1 = __omcQ_24tmpVar1;
   }
   _str = stringDelimitList(tmpMeta1, _delimiter);
   _return: OMC_LABEL_UNUSED
@@ -1064,90 +1144,63 @@ modelica_metatype boxptr_UnorderedSet_all(threadData_t *threadData, modelica_met
 DLLDirection
 void omc_UnorderedSet_apply(threadData_t *threadData, modelica_metatype _set, modelica_fnptr _fn)
 {
-  modelica_fnptr _hashfn;
-  modelica_fnptr _eqfn;
-  modelica_integer _bucket_count;
-  modelica_integer _hash;
-  modelica_integer _size;
-  modelica_metatype _new_buckets = NULL;
-  modelica_metatype _newKey = NULL;
-  modelica_metatype _bucket = NULL;
-  modelica_boolean _duplicate;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
   modelica_metatype tmpMeta4;
-  modelica_metatype tmpMeta5;
-  modelica_metatype tmpMeta6;
-  modelica_metatype tmpMeta7;
-  modelica_metatype tmpMeta8;
-  modelica_integer tmp9;
-  modelica_integer tmp10;
+  modelica_integer tmp5;
+  modelica_integer tmp6;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  _hashfn = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set), 4)));
-  _eqfn = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set), 5)));
-  // _bucket_count has no default value.
-  // _hash has no default value.
-  _size = ((modelica_integer) 0);
-  // _new_buckets has no default value.
-  // _newKey has no default value.
-  // _bucket has no default value.
-  // _duplicate has no default value.
-  _bucket_count = omc_Util_nextPrime(threadData, mmc_unbox_integer(omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set), 3))))));
-
-  tmpMeta1 = MMC_REFSTRUCTLIT(mmc_nil);
-  _new_buckets = arrayCreate(_bucket_count, tmpMeta1);
-
   {
     modelica_metatype _b;
-    for (tmpMeta2 = omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set), 2)))), tmp10 = arrayLength(tmpMeta2), tmp9 = 1; tmp9 <= tmp10; tmp9++)
+    for (tmpMeta1 = omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set), 2)))), tmp6 = arrayLength(tmpMeta1), tmp5 = 1; tmp5 <= tmp6; tmp5++)
     {
-      _b = arrayGet(tmpMeta2,tmp9);
+      _b = arrayGet(tmpMeta1,tmp5);
       {
         modelica_metatype _k;
-        for (tmpMeta3 = _b; !listEmpty(tmpMeta3); tmpMeta3=MMC_CDR(tmpMeta3))
+        for (tmpMeta2 = _b; !listEmpty(tmpMeta2); tmpMeta2=MMC_CDR(tmpMeta2))
         {
-          _k = MMC_CAR(tmpMeta3);
-          _newKey = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 2))) ? ((modelica_metatype(*)(threadData_t*, modelica_metatype, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 1)))) (threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 2))), _k) : ((modelica_metatype(*)(threadData_t*, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 1)))) (threadData, _k);
-
-          _hash = modelica_integer_mod(mmc_unbox_integer((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_hashfn), 2))) ? ((modelica_metatype(*)(threadData_t*, modelica_metatype, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_hashfn), 1)))) (threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_hashfn), 2))), _newKey) : ((modelica_metatype(*)(threadData_t*, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_hashfn), 1)))) (threadData, _newKey)), _bucket_count);
-
-          _bucket = arrayGet(_new_buckets, ((modelica_integer) 1) + _hash);
-
-          _duplicate = 0 /* false */;
-
-          {
-            modelica_metatype _nk;
-            for (tmpMeta4 = _bucket; !listEmpty(tmpMeta4); tmpMeta4=MMC_CDR(tmpMeta4))
-            {
-              _nk = MMC_CAR(tmpMeta4);
-              if(mmc_unbox_boolean((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_eqfn), 2))) ? ((modelica_metatype(*)(threadData_t*, modelica_metatype, modelica_metatype, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_eqfn), 1)))) (threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_eqfn), 2))), _nk, _newKey) : ((modelica_metatype(*)(threadData_t*, modelica_metatype, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_eqfn), 1)))) (threadData, _nk, _newKey)))
-              {
-                _duplicate = 1 /* true */;
-
-                break;
-              }
-            }
-          }
-
-          if((!_duplicate))
-          {
-            tmpMeta6 = mmc_mk_cons(_newKey, _bucket);
-            arrayUpdate(_new_buckets, ((modelica_integer) 1) + _hash, tmpMeta6);
-
-            _size = ((modelica_integer) 1) + _size;
-          }
+          _k = MMC_CAR(tmpMeta2);
+          (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 2))) ? ((void(*)(threadData_t*, modelica_metatype, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 1)))) (threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 2))), _k) : ((void(*)(threadData_t*, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 1)))) (threadData, _k);
         }
       }
     }
   }
-
-  omc_Mutable_update(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set), 2))), _new_buckets);
-
-  omc_Mutable_update(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set), 3))), mmc_mk_integer(_size));
   _return: OMC_LABEL_UNUSED
   return;
+}
+
+DLLDirection
+modelica_metatype omc_UnorderedSet_selfMap(threadData_t *threadData, modelica_metatype _set, modelica_fnptr _fn)
+{
+  modelica_metatype _outSet = NULL;
+  modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta3;
+  modelica_metatype tmpMeta4;
+  modelica_integer tmp5;
+  modelica_integer tmp6;
+  MMC_SO();
+  _tailrecursive: OMC_LABEL_UNUSED
+  _outSet = omc_UnorderedSet_new(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set), 4))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set), 5))), ((modelica_integer) 13));
+  {
+    modelica_metatype _b;
+    for (tmpMeta1 = omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set), 2)))), tmp6 = arrayLength(tmpMeta1), tmp5 = 1; tmp5 <= tmp6; tmp5++)
+    {
+      _b = arrayGet(tmpMeta1,tmp5);
+      {
+        modelica_metatype _k;
+        for (tmpMeta2 = _b; !listEmpty(tmpMeta2); tmpMeta2=MMC_CDR(tmpMeta2))
+        {
+          _k = MMC_CAR(tmpMeta2);
+          omc_UnorderedSet_add(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 2))) ? ((modelica_metatype(*)(threadData_t*, modelica_metatype, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 1)))) (threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 2))), _k) : ((modelica_metatype(*)(threadData_t*, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 1)))) (threadData, _k), _outSet);
+        }
+      }
+    }
+  }
+  _return: OMC_LABEL_UNUSED
+  return _outSet;
 }
 
 DLLDirection
@@ -1316,27 +1369,21 @@ modelica_metatype omc_UnorderedSet_first(threadData_t *threadData, modelica_meta
   modelica_metatype _val = NULL;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
-  modelica_metatype tmpMeta3;
-  modelica_metatype tmpMeta4;
-  modelica_integer tmp5;
-  modelica_integer tmp6;
+  modelica_integer tmp3;
+  modelica_integer tmp4;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _val has no default value.
   {
     modelica_metatype _b;
-    for (tmpMeta1 = omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set), 2)))), tmp6 = arrayLength(tmpMeta1), tmp5 = 1; tmp5 <= tmp6; tmp5++)
+    for (tmpMeta1 = omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set), 2)))), tmp4 = arrayLength(tmpMeta1), tmp3 = 1; tmp3 <= tmp4; tmp3++)
     {
-      _b = arrayGet(tmpMeta1,tmp5);
+      _b = arrayGet(tmpMeta1,tmp3);
+      if((!listEmpty(_b)))
       {
-        modelica_metatype _k;
-        for (tmpMeta2 = _b; !listEmpty(tmpMeta2); tmpMeta2=MMC_CDR(tmpMeta2))
-        {
-          _k = MMC_CAR(tmpMeta2);
-          _val = _k;
+        _val = listHead(_b);
 
-          goto _return;
-        }
+        goto _return;
       }
     }
   }
@@ -1469,12 +1516,10 @@ void omc_UnorderedSet_addNew(threadData_t *threadData, modelica_metatype _key, m
 {
   modelica_fnptr _hashfn;
   modelica_integer _hash;
-  modelica_integer _pos;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   _hashfn = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set), 4)));
   // _hash has no default value.
-  // _pos has no default value.
   _hash = modelica_integer_mod(mmc_unbox_integer((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_hashfn), 2))) ? ((modelica_metatype(*)(threadData_t*, modelica_metatype, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_hashfn), 1)))) (threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_hashfn), 2))), _key) : ((modelica_metatype(*)(threadData_t*, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_hashfn), 1)))) (threadData, _key)), arrayLength(omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_set), 2))))));
 
   omc_UnorderedSet_addKey(threadData, _key, _hash, _set);
@@ -1483,24 +1528,34 @@ void omc_UnorderedSet_addNew(threadData_t *threadData, modelica_metatype _key, m
 }
 
 DLLDirection
-void omc_UnorderedSet_add(threadData_t *threadData, modelica_metatype _key, modelica_metatype _set)
+modelica_boolean omc_UnorderedSet_add(threadData_t *threadData, modelica_metatype _key, modelica_metatype _set)
 {
+  modelica_boolean _added;
   modelica_integer _hash;
-  modelica_integer _pos;
   modelica_metatype _okey = NULL;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
+  // _added has no default value.
   // _hash has no default value.
-  // _pos has no default value.
   // _okey has no default value.
   _okey = omc_UnorderedSet_find(threadData, _key, _set ,&_hash);
 
-  if(isNone(_okey))
+  _added = isNone(_okey);
+
+  if(_added)
   {
     omc_UnorderedSet_addKey(threadData, _key, _hash, _set);
   }
   _return: OMC_LABEL_UNUSED
-  return;
+  return _added;
+}
+modelica_metatype boxptr_UnorderedSet_add(threadData_t *threadData, modelica_metatype _key, modelica_metatype _set)
+{
+  modelica_boolean _added;
+  modelica_metatype out_added;
+  _added = omc_UnorderedSet_add(threadData, _key, _set);
+  out_added = mmc_mk_icon(_added);
+  return out_added;
 }
 
 DLLDirection

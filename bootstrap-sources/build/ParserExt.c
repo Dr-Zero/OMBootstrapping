@@ -82,6 +82,35 @@ modelica_metatype boxptr_ParserExt_startLibraryVendorExecutable(threadData_t *th
   return out_success;
 }
 
+modelica_metatype omc_ParserExt_stringEq(threadData_t *threadData, modelica_string _str, modelica_string _infoFilename, modelica_integer _acceptedGram, modelica_integer _languageStandardInt, modelica_boolean _runningTestsuite)
+{
+  int _acceptedGram_ext;
+  int _languageStandardInt_ext;
+  int _runningTestsuite_ext;
+  modelica_metatype _eq_ext;
+  modelica_metatype _eq = NULL;
+  // _eq has no default value.
+  _acceptedGram_ext = (int) _acceptedGram;
+  _languageStandardInt_ext = (int) _languageStandardInt;
+  _runningTestsuite_ext = (int) _runningTestsuite;
+  _eq_ext = ParserExt_stringEq(MMC_STRINGDATA(_str), MMC_STRINGDATA(_infoFilename), _acceptedGram_ext, _languageStandardInt_ext, _runningTestsuite_ext);
+  _eq = (modelica_metatype)_eq_ext;
+  return _eq;
+}
+modelica_metatype boxptr_ParserExt_stringEq(threadData_t *threadData, modelica_metatype _str, modelica_metatype _infoFilename, modelica_metatype _acceptedGram, modelica_metatype _languageStandardInt, modelica_metatype _runningTestsuite)
+{
+  modelica_integer tmp1;
+  modelica_integer tmp2;
+  modelica_integer tmp3;
+  modelica_metatype _eq = NULL;
+  tmp1 = mmc_unbox_integer(_acceptedGram);
+  tmp2 = mmc_unbox_integer(_languageStandardInt);
+  tmp3 = mmc_unbox_integer(_runningTestsuite);
+  _eq = omc_ParserExt_stringEq(threadData, _str, _infoFilename, tmp1, tmp2, tmp3);
+  /* skip box _eq; Absyn.EquationItem */
+  return _eq;
+}
+
 modelica_metatype omc_ParserExt_stringMod(threadData_t *threadData, modelica_string _str, modelica_string _infoFilename, modelica_integer _acceptedGram, modelica_integer _languageStandardInt, modelica_boolean _runningTestsuite)
 {
   int _acceptedGram_ext;

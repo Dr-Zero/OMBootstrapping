@@ -138,8 +138,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_BlockCallRewrite_matchVarNamedAr
   // _found has no default value.
   
   
-  { /* matchcontinue expression */
-    volatile modelica_metatype tmp4_1;
+  { /* match expression */
+    modelica_metatype tmp4_1;
     tmp4_1 = _comps;
     {
       modelica_metatype _r_comps = NULL;
@@ -151,14 +151,11 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_BlockCallRewrite_matchVarNamedAr
       // _cName has no default value.
       // _eq has no default value.
       tmp4 = 0;
-      MMC_TRY_INTERNAL(mmc_jumper)
-      tmp3_top:
-      threadData->mmc_jumper = &new_mmc_jumper;
       for (; tmp4 < 3; tmp4++) {
         switch (MMC_SWITCH_CAST(tmp4)) {
         case 0: {
           if (!listEmpty(tmp4_1)) goto tmp3_end;
-          tmp4 += 2; /* Pattern matching succeeded; we may skip some cases if we fail */
+          /* Pattern matching succeeded */
           tmpMeta[0+0] = _oldEqs;
           tmp1_c1 = 0 /* false */;
           goto tmp3_done;
@@ -184,11 +181,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_BlockCallRewrite_matchVarNamedAr
           
           _cName = tmpMeta9;
           /* Pattern matching succeeded */
-          if((!(stringEqual(_cName, _argName))))
-          {
-            goto goto_2;
-          }
-
+          /* Check guard condition after assignments */
+          if (!(stringEqual(_cName, _argName))) goto tmp3_end;
           tmpMeta10 = MMC_REFSTRUCTLIT(mmc_nil);
           tmpMeta11 = MMC_REFSTRUCTLIT(mmc_nil);
           tmpMeta12 = mmc_mk_box3(5, &Absyn_ComponentRef_CREF__IDENT__desc, _cName, tmpMeta11);
@@ -210,7 +204,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_BlockCallRewrite_matchVarNamedAr
           tmpMeta19 = MMC_CDR(tmp4_1);
           _r_comps = tmpMeta19;
           /* Pattern matching succeeded */
-          tmpMeta[0+0] = omc_BlockCallRewrite_matchVarNamedArg(threadData, _elemId, _argName, _argValue, _r_comps, _oldEqs, &tmp1_c1);
+          /* Tail recursive call */
+          _comps = _r_comps;
+          goto _tailrecursive;
+          /* TODO: Make sure any eventual dead code below is never generated */
           goto tmp3_done;
         }
         }
@@ -218,17 +215,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_BlockCallRewrite_matchVarNamedAr
         tmp3_end: ;
       }
       goto goto_2;
-      tmp3_done:
-      (void)tmp4;
-      MMC_RESTORE_INTERNAL(mmc_jumper);
-      goto tmp3_done2;
       goto_2:;
-      MMC_CATCH_INTERNAL(mmc_jumper);
-      if (++tmp4 < 3) {
-        goto tmp3_top;
-      }
       MMC_THROW_INTERNAL();
-      tmp3_done2:;
+      goto tmp3_done;
+      tmp3_done:;
     }
   }
   _newEqs = tmpMeta[0+0];
@@ -259,8 +249,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_BlockCallRewrite_matchParamNamed
   // _found has no default value.
   
   
-  { /* matchcontinue expression */
-    volatile modelica_metatype tmp4_1;
+  { /* match expression */
+    modelica_metatype tmp4_1;
     tmp4_1 = _comps;
     {
       modelica_metatype _r_comps = NULL;
@@ -272,14 +262,11 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_BlockCallRewrite_matchParamNamed
       // _cName has no default value.
       // _modif has no default value.
       tmp4 = 0;
-      MMC_TRY_INTERNAL(mmc_jumper)
-      tmp3_top:
-      threadData->mmc_jumper = &new_mmc_jumper;
       for (; tmp4 < 3; tmp4++) {
         switch (MMC_SWITCH_CAST(tmp4)) {
         case 0: {
           if (!listEmpty(tmp4_1)) goto tmp3_end;
-          tmp4 += 2; /* Pattern matching succeeded; we may skip some cases if we fail */
+          /* Pattern matching succeeded */
           tmpMeta[0+0] = _oldModif;
           tmp1_c1 = 0 /* false */;
           goto tmp3_done;
@@ -303,11 +290,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_BlockCallRewrite_matchParamNamed
           
           _cName = tmpMeta9;
           /* Pattern matching succeeded */
-          if((!(stringEqual(_cName, _argName))))
-          {
-            goto goto_2;
-          }
-
+          /* Check guard condition after assignments */
+          if (!(stringEqual(_cName, _argName))) goto tmp3_end;
           tmpMeta10 = mmc_mk_box2(4, &Absyn_Path_IDENT__desc, _cName);
           tmpMeta11 = MMC_REFSTRUCTLIT(mmc_nil);
           tmpMeta12 = mmc_mk_box3(4, &Absyn_EqMod_EQMOD__desc, _argValue, _OMC_LIT2);
@@ -327,7 +311,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_BlockCallRewrite_matchParamNamed
           tmpMeta17 = MMC_CDR(tmp4_1);
           _r_comps = tmpMeta17;
           /* Pattern matching succeeded */
-          tmpMeta[0+0] = omc_BlockCallRewrite_matchParamNamedArg(threadData, _argName, _argValue, _r_comps, _oldModif, &tmp1_c1);
+          /* Tail recursive call */
+          _comps = _r_comps;
+          goto _tailrecursive;
+          /* TODO: Make sure any eventual dead code below is never generated */
           goto tmp3_done;
         }
         }
@@ -335,17 +322,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_BlockCallRewrite_matchParamNamed
         tmp3_end: ;
       }
       goto goto_2;
-      tmp3_done:
-      (void)tmp4;
-      MMC_RESTORE_INTERNAL(mmc_jumper);
-      goto tmp3_done2;
       goto_2:;
-      MMC_CATCH_INTERNAL(mmc_jumper);
-      if (++tmp4 < 3) {
-        goto tmp3_top;
-      }
       MMC_THROW_INTERNAL();
-      tmp3_done2:;
+      goto tmp3_done;
+      tmp3_done:;
     }
   }
   _newModif = tmpMeta[0+0];

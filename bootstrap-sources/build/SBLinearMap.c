@@ -58,27 +58,25 @@ modelica_string omc_SBLinearMap_toString(threadData_t *threadData, modelica_meta
 DLLDirection
 modelica_metatype omc_SBLinearMap_applyInterval(threadData_t *threadData, modelica_metatype __omcQ_24in_5Finterval, modelica_real _gain, modelica_real _offset)
 {
+  modelica_metatype __omcQ_24mrfa_5F0 = NULL;
+  modelica_metatype __omcQ_24mrfa_5F1 = NULL;
+  modelica_metatype __omcQ_24mrfa_5F2 = NULL;
   modelica_metatype _interval = NULL;
   modelica_metatype tmpMeta1;
-  modelica_metatype tmpMeta2;
-  modelica_metatype tmpMeta3;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
+  // __omcQ_24mrfa_5F0 has no default value.
+  // __omcQ_24mrfa_5F1 has no default value.
+  // __omcQ_24mrfa_5F2 has no default value.
   _interval = __omcQ_24in_5Finterval;
-  tmpMeta1 = MMC_TAGPTR(mmc_alloc_words(5));
-  memcpy(MMC_UNTAGPTR(tmpMeta1), MMC_UNTAGPTR(_interval), 5*sizeof(modelica_metatype));
-  ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta1))[2] = mmc_mk_integer(((modelica_integer)floor((((modelica_real)mmc_unbox_integer((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_interval), 2)))))) * (_gain) + _offset)));
+  __omcQ_24mrfa_5F0 = mmc_mk_integer(((modelica_integer)floor((((modelica_real)mmc_unbox_integer((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_interval), 2)))))) * (_gain) + _offset)));
+
+  __omcQ_24mrfa_5F1 = mmc_mk_integer(((modelica_integer)floor((((modelica_real)mmc_unbox_integer((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_interval), 3)))))) * (_gain))));
+
+  __omcQ_24mrfa_5F2 = mmc_mk_integer(((modelica_integer)floor((((modelica_real)mmc_unbox_integer((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_interval), 4)))))) * (_gain) + _offset)));
+
+  tmpMeta1 = mmc_mk_box4(3, &SBInterval_INTERVAL__desc, __omcQ_24mrfa_5F0, __omcQ_24mrfa_5F1, __omcQ_24mrfa_5F2);
   _interval = tmpMeta1;
-
-  tmpMeta2 = MMC_TAGPTR(mmc_alloc_words(5));
-  memcpy(MMC_UNTAGPTR(tmpMeta2), MMC_UNTAGPTR(_interval), 5*sizeof(modelica_metatype));
-  ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta2))[3] = mmc_mk_integer(((modelica_integer)floor((((modelica_real)mmc_unbox_integer((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_interval), 3)))))) * (_gain))));
-  _interval = tmpMeta2;
-
-  tmpMeta3 = MMC_TAGPTR(mmc_alloc_words(5));
-  memcpy(MMC_UNTAGPTR(tmpMeta3), MMC_UNTAGPTR(_interval), 5*sizeof(modelica_metatype));
-  ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta3))[4] = mmc_mk_integer(((modelica_integer)floor((((modelica_real)mmc_unbox_integer((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_interval), 4)))))) * (_gain) + _offset)));
-  _interval = tmpMeta3;
   _return: OMC_LABEL_UNUSED
   return _interval;
 }
@@ -143,13 +141,17 @@ modelica_metatype omc_SBLinearMap_apply(threadData_t *threadData, modelica_metat
 {
   modelica_metatype _target = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   _target = omc_SBSet_copy(threadData, _domain);
   if((!omc_SBLinearMap_isIdentity(threadData, _map)))
   {
-    tmpMeta1 = mmc_mk_box1(0, _map);
-    omc_UnorderedSet_apply(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_target), 2))), (modelica_fnptr) mmc_mk_box2(0,closure0_SBLinearMap_applyAtomicSet,tmpMeta1));
+    tmpMeta2 = mmc_mk_box1(0, _map);
+    tmpMeta1 = MMC_TAGPTR(mmc_alloc_words(4));
+    memcpy(MMC_UNTAGPTR(tmpMeta1), MMC_UNTAGPTR(_target), 4*sizeof(modelica_metatype));
+    ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta1))[2] = omc_UnorderedSet_selfMap(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_target), 2))), (modelica_fnptr) mmc_mk_box2(0,closure0_SBLinearMap_applyAtomicSet,tmpMeta2));
+    _target = tmpMeta1;
   }
   _return: OMC_LABEL_UNUSED
   return _target;

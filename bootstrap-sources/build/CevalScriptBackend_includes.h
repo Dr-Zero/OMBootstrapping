@@ -1,7 +1,7 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-#include "openmodelica.h"       // Defines OPENMODELICA_H_ for libraris to test if called from OpenModelica.
+#include "openmodelica.h"       // Defines OPENMODELICA_H_ for libraries to test if called from OpenModelica.
 #include "ModelicaUtilities.h"  // Make Modelica C util functions available for external includes.
 
 #include "AbsynJLDumpTpl.h"
@@ -21,7 +21,8 @@ extern "C" {
 #include "CevalScriptBackend.h"
 #include "CheckModel.h"
 #include "CodegenFMU.h"
-#include "ComponentReference.h"
+#include "CodegenWasmJit.h"
+#include "ComponentReferenceBasics.h"
 #include "Config.h"
 #include "Conversion.h"
 #include "DAEDump.h"
@@ -34,7 +35,7 @@ extern "C" {
 #include "ErrorExt.h"
 #include "ExecStat.h"
 #include "Expression.h"
-#include "ExpressionDump.h"
+#include "ExpressionBasics.h"
 #include "FBuiltin.h"
 #include "FCore.h"
 #include "FGraph.h"
@@ -61,7 +62,9 @@ extern "C" {
 #include "PackageManagement.h"
 #include "Parser.h"
 #include "Print.h"
+#include "ProgramUtil.h"
 #include "Refactor.h"
+#include "ReverseLookup.h"
 #include "RewriteRules.h"
 #include "SCodeDump.h"
 #include "SCodeUtil.h"
@@ -72,6 +75,7 @@ extern "C" {
 #include "SimCodeUtil.h"
 #include "SimpleModelicaParser.h"
 #include "SimulationResults.h"
+#include "StateMachineFlatten.h"
 #include "StaticScript.h"
 #include "StringUtil.h"
 #include "SymbolTable.h"
@@ -81,11 +85,13 @@ extern "C" {
 #include "Testsuite.h"
 #include "TotalModelDebug.h"
 #include "Tpl.h"
-#include "Types.h"
+#include "TypesDump.h"
 #include "Uncertainties.h"
 #include "UnitAbsynBuilder.h"
 #include "UnitParserExt.h"
 #include "Util.h"
+#include "ValuesDump.h"
+#include "ValuesMake.h"
 #include "ValuesUtil.h"
 #include "XMLDump.h"
 #ifdef __cplusplus

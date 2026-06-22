@@ -13,61 +13,59 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT3,1,4) {&ErrorTypes_Severity_ERROR_
 #define _OMC_LIT4_data "Internal error %s"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT4,17,_OMC_LIT4_data);
 #define _OMC_LIT4 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT4)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT5,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT4}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT5,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(63)),_OMC_LIT2,_OMC_LIT3,_OMC_LIT4}};
 #define _OMC_LIT5 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT5)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT6,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(63)),_OMC_LIT2,_OMC_LIT3,_OMC_LIT5}};
-#define _OMC_LIT6 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT6)
-#define _OMC_LIT7_data "AvlTree.addUnique name: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,24,_OMC_LIT7_data);
+#define _OMC_LIT6_data "AvlTree.addUnique name: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT6,24,_OMC_LIT6_data);
+#define _OMC_LIT6 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT6)
+#define _OMC_LIT7_data "[]"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,2,_OMC_LIT7_data);
 #define _OMC_LIT7 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT7)
-#define _OMC_LIT8_data "[]"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT8,2,_OMC_LIT8_data);
+#define _OMC_LIT8_data "["
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT8,1,_OMC_LIT8_data);
 #define _OMC_LIT8 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT8)
-#define _OMC_LIT9_data "["
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT9,1,_OMC_LIT9_data);
+#define _OMC_LIT9_data ", "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT9,2,_OMC_LIT9_data);
 #define _OMC_LIT9 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT9)
-#define _OMC_LIT10_data ", "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT10,2,_OMC_LIT10_data);
+#define _OMC_LIT10_data "]"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT10,1,_OMC_LIT10_data);
 #define _OMC_LIT10 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT10)
-#define _OMC_LIT11_data "]"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT11,1,_OMC_LIT11_data);
+#define _OMC_LIT11_data ""
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT11,0,_OMC_LIT11_data);
 #define _OMC_LIT11 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT11)
-#define _OMC_LIT12_data ""
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT12,0,_OMC_LIT12_data);
+#define _OMC_LIT12_data "i: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT12,3,_OMC_LIT12_data);
 #define _OMC_LIT12 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT12)
-#define _OMC_LIT13_data "i: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT13,3,_OMC_LIT13_data);
+#define _OMC_LIT13_data ", l: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT13,5,_OMC_LIT13_data);
 #define _OMC_LIT13 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT13)
-#define _OMC_LIT14_data ", l: "
+#define _OMC_LIT14_data ", r: "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT14,5,_OMC_LIT14_data);
 #define _OMC_LIT14 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT14)
-#define _OMC_LIT15_data ", r: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT15,5,_OMC_LIT15_data);
+#define _OMC_LIT15_data "TreePrintError<NO_PRINTING_FUNCTIONS_ATTACHED> name["
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT15,52,_OMC_LIT15_data);
 #define _OMC_LIT15 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT15)
-#define _OMC_LIT16_data "TreePrintError<NO_PRINTING_FUNCTIONS_ATTACHED> name["
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT16,52,_OMC_LIT16_data);
+#define _OMC_LIT16_data "  "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT16,2,_OMC_LIT16_data);
 #define _OMC_LIT16 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT16)
-#define _OMC_LIT17_data "  "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT17,2,_OMC_LIT17_data);
+#define _OMC_LIT17_data "\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT17,1,_OMC_LIT17_data);
 #define _OMC_LIT17 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT17)
-#define _OMC_LIT18_data "\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT18,1,_OMC_LIT18_data);
-#define _OMC_LIT18 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT18)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT19,1,4) {&AvlTree_Item_NO__ITEM__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT18,1,4) {&AvlTree_Item_NO__ITEM__desc,}};
+#define _OMC_LIT18 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT18)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT19,1,4) {&AvlTree_Node_NO__NODE__desc,}};
 #define _OMC_LIT19 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT19)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT20,1,4) {&AvlTree_Node_NO__NODE__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT20,5,3) {&AvlTree_Node_NODE__desc,_OMC_LIT18,MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),_OMC_LIT19,_OMC_LIT19}};
 #define _OMC_LIT20 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT20)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT21,5,3) {&AvlTree_Node_NODE__desc,_OMC_LIT19,MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),_OMC_LIT20,_OMC_LIT20}};
-#define _OMC_LIT21 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT21)
-#define _OMC_LIT22_data "AvlTree.replace name: "
+#define _OMC_LIT21_data "AvlTree.replace name: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT21,22,_OMC_LIT21_data);
+#define _OMC_LIT21 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT21)
+#define _OMC_LIT22_data "AvlTree.addNode name: "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT22,22,_OMC_LIT22_data);
 #define _OMC_LIT22 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT22)
-#define _OMC_LIT23_data "AvlTree.addNode name: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT23,22,_OMC_LIT23_data);
+#define _OMC_LIT23_data "AvlTree.add name: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT23,18,_OMC_LIT23_data);
 #define _OMC_LIT23 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT23)
-#define _OMC_LIT24_data "AvlTree.add name: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT24,18,_OMC_LIT24_data);
-#define _OMC_LIT24 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT24)
 #include "util/modelica.h"
 
 #include "AvlTree_includes.h"
@@ -421,7 +419,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_AvlTree_addNodeUnique(threadData
           _str = tmpMeta15;
 
           tmpMeta16 = mmc_mk_cons(_str, MMC_REFSTRUCTLIT(mmc_nil));
-          omc_Error_addMessage(threadData, _OMC_LIT6, tmpMeta16);
+          omc_Error_addMessage(threadData, _OMC_LIT5, tmpMeta16);
           goto goto_2;
           goto tmp3_done;
         }
@@ -524,12 +522,12 @@ modelica_metatype omc_AvlTree_addUnique(threadData_t *threadData, modelica_metat
           modelica_metatype tmpMeta15;
           
           /* Pattern matching succeeded */
-          tmpMeta13 = stringAppend(_OMC_LIT7,omc_AvlTree_name(threadData, _inTree));
+          tmpMeta13 = stringAppend(_OMC_LIT6,omc_AvlTree_name(threadData, _inTree));
           tmpMeta14 = stringAppend(tmpMeta13,_OMC_LIT1);
           _str = tmpMeta14;
 
           tmpMeta15 = mmc_mk_cons(_str, MMC_REFSTRUCTLIT(mmc_nil));
-          omc_Error_addMessage(threadData, _OMC_LIT6, tmpMeta15);
+          omc_Error_addMessage(threadData, _OMC_LIT5, tmpMeta15);
           goto goto_2;
           goto tmp3_done;
         }
@@ -672,14 +670,12 @@ modelica_metatype omc_AvlTree_getKeyOfVal(threadData_t *threadData, modelica_met
 {
   modelica_metatype _outKey = NULL;
   modelica_metatype _node = NULL;
-  modelica_metatype _key = NULL;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outKey has no default value.
   // _node has no default value.
-  // _key has no default value.
   /* Pattern-matching assignment */
   tmpMeta1 = _inTree;
   tmpMeta2 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta1), 2));
@@ -720,7 +716,7 @@ modelica_string omc_AvlTree_printItemStr(threadData_t *threadData, modelica_meta
         case 0: {
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,1,0) == 0) goto tmp3_end;
           /* Pattern matching succeeded */
-          tmp1 = _OMC_LIT8;
+          tmp1 = _OMC_LIT7;
           goto tmp3_done;
         }
         case 1: {
@@ -743,10 +739,10 @@ modelica_string omc_AvlTree_printItemStr(threadData_t *threadData, modelica_meta
           _keyStr = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_key2Str), 2))) ? ((modelica_metatype(*)(threadData_t*, modelica_metatype, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_key2Str), 1)))) (threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_key2Str), 2))), _key) : ((modelica_metatype(*)(threadData_t*, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_key2Str), 1)))) (threadData, _key);
 
           _valStr = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_val2Str), 2))) ? ((modelica_metatype(*)(threadData_t*, modelica_metatype, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_val2Str), 1)))) (threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_val2Str), 2))), _val) : ((modelica_metatype(*)(threadData_t*, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_val2Str), 1)))) (threadData, _val);
-          tmpMeta8 = stringAppend(_OMC_LIT9,_keyStr);
-          tmpMeta9 = stringAppend(tmpMeta8,_OMC_LIT10);
+          tmpMeta8 = stringAppend(_OMC_LIT8,_keyStr);
+          tmpMeta9 = stringAppend(tmpMeta8,_OMC_LIT9);
           tmpMeta10 = stringAppend(tmpMeta9,_valStr);
-          tmpMeta11 = stringAppend(tmpMeta10,_OMC_LIT11);
+          tmpMeta11 = stringAppend(tmpMeta10,_OMC_LIT10);
           tmp1 = tmpMeta11;
           goto tmp3_done;
         }
@@ -797,7 +793,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_AvlTree_printNodeStr(threadData_t 
         case 0: {
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,1,0) == 0) goto tmp3_end;
           /* Pattern matching succeeded */
-          tmp1 = _OMC_LIT12;
+          tmp1 = _OMC_LIT11;
           goto tmp3_done;
         }
         case 1: {
@@ -807,7 +803,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_AvlTree_printNodeStr(threadData_t 
           if (mmc__uniontype__metarecord__typedef__equal(tmpMeta6,1,0) == 0) goto tmp3_end;
           
           /* Pattern matching succeeded */
-          tmp1 = _OMC_LIT12;
+          tmp1 = _OMC_LIT11;
           goto tmp3_done;
         }
         case 2: {
@@ -829,7 +825,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_AvlTree_printNodeStr(threadData_t 
           _right_str = omc_AvlTree_printNodeStr(threadData, _inTree, _right);
 
           _item_str = omc_AvlTree_printItemStr(threadData, _inTree, _item);
-          tmpMeta10 = mmc_mk_cons(_OMC_LIT13, mmc_mk_cons(_item_str, mmc_mk_cons(_OMC_LIT14, mmc_mk_cons(_left_str, mmc_mk_cons(_OMC_LIT15, mmc_mk_cons(_right_str, MMC_REFSTRUCTLIT(mmc_nil)))))));
+          tmpMeta10 = mmc_mk_cons(_OMC_LIT12, mmc_mk_cons(_item_str, mmc_mk_cons(_OMC_LIT13, mmc_mk_cons(_left_str, mmc_mk_cons(_OMC_LIT14, mmc_mk_cons(_right_str, MMC_REFSTRUCTLIT(mmc_nil)))))));
           tmp1 = stringAppendList(tmpMeta10);
           goto tmp3_done;
         }
@@ -864,8 +860,8 @@ modelica_string omc_AvlTree_printTreeStr(threadData_t *threadData, modelica_meta
   // _node has no default value.
   if((!omc_AvlTree_hasPrintingFunctions(threadData, _inTree)))
   {
-    tmpMeta1 = stringAppend(_OMC_LIT16,omc_AvlTree_name(threadData, _inTree));
-    tmpMeta2 = stringAppend(tmpMeta1,_OMC_LIT11);
+    tmpMeta1 = stringAppend(_OMC_LIT15,omc_AvlTree_name(threadData, _inTree));
+    tmpMeta2 = stringAppend(tmpMeta1,_OMC_LIT10);
     _outString = tmpMeta2;
 
     goto _return;
@@ -912,7 +908,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_AvlTree_prettyPrintNodeStr(threadD
         case 0: {
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,1,0) == 0) goto tmp3_end;
           /* Pattern matching succeeded */
-          tmp1 = _OMC_LIT12;
+          tmp1 = _OMC_LIT11;
           goto tmp3_done;
         }
         case 1: {
@@ -930,13 +926,13 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_AvlTree_prettyPrintNodeStr(threadD
           _l = tmpMeta7;
           _r = tmpMeta8;
           /* Pattern matching succeeded */
-          tmpMeta9 = stringAppend(_inIndent,_OMC_LIT17);
+          tmpMeta9 = stringAppend(_inIndent,_OMC_LIT16);
           _indent = tmpMeta9;
 
           _s1 = omc_AvlTree_prettyPrintNodeStr(threadData, _inTree, _l, _indent);
 
           _s2 = omc_AvlTree_prettyPrintNodeStr(threadData, _inTree, _r, _indent);
-          tmpMeta10 = stringAppend(_OMC_LIT18,_s1);
+          tmpMeta10 = stringAppend(_OMC_LIT17,_s1);
           tmpMeta11 = stringAppend(tmpMeta10,_s2);
           tmp1 = tmpMeta11;
           goto tmp3_done;
@@ -959,13 +955,13 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_AvlTree_prettyPrintNodeStr(threadD
           _l = tmpMeta13;
           _r = tmpMeta14;
           /* Pattern matching succeeded */
-          tmpMeta15 = stringAppend(_inIndent,_OMC_LIT17);
+          tmpMeta15 = stringAppend(_inIndent,_OMC_LIT16);
           _indent = tmpMeta15;
 
           _s1 = omc_AvlTree_prettyPrintNodeStr(threadData, _inTree, _l, _indent);
 
           _s2 = omc_AvlTree_prettyPrintNodeStr(threadData, _inTree, _r, _indent);
-          tmpMeta16 = stringAppend(_OMC_LIT18,_inIndent);
+          tmpMeta16 = stringAppend(_OMC_LIT17,_inIndent);
           tmpMeta17 = stringAppend(tmpMeta16,omc_AvlTree_printItemStr(threadData, _inTree, _item));
           tmpMeta18 = stringAppend(tmpMeta17,_s1);
           tmpMeta19 = stringAppend(tmpMeta18,_s2);
@@ -1002,8 +998,8 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_AvlTree_prettyPrintTreeStr__dispat
   // _node has no default value.
   if((!omc_AvlTree_hasPrintingFunctions(threadData, _inTree)))
   {
-    tmpMeta1 = stringAppend(_OMC_LIT16,omc_AvlTree_name(threadData, _inTree));
-    tmpMeta2 = stringAppend(tmpMeta1,_OMC_LIT11);
+    tmpMeta1 = stringAppend(_OMC_LIT15,omc_AvlTree_name(threadData, _inTree));
+    tmpMeta2 = stringAppend(tmpMeta1,_OMC_LIT10);
     _outString = tmpMeta2;
 
     goto _return;
@@ -1026,7 +1022,7 @@ modelica_string omc_AvlTree_prettyPrintTreeStr(threadData_t *threadData, modelic
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outString has no default value.
-  _outString = omc_AvlTree_prettyPrintTreeStr__dispatch(threadData, _inTree, _OMC_LIT12);
+  _outString = omc_AvlTree_prettyPrintTreeStr__dispatch(threadData, _inTree, _OMC_LIT11);
   _return: OMC_LABEL_UNUSED
   return _outString;
 }
@@ -1095,7 +1091,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_AvlTree_computeHeight(threadData
   modelica_metatype _l = NULL;
   modelica_metatype _r = NULL;
   modelica_metatype _i = NULL;
-  modelica_metatype _val = NULL;
   modelica_integer _hl;
   modelica_integer _hr;
   modelica_integer _height;
@@ -1110,7 +1105,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_AvlTree_computeHeight(threadData
   // _l has no default value.
   // _r has no default value.
   // _i has no default value.
-  // _val has no default value.
   // _hl has no default value.
   // _hr has no default value.
   // _height has no default value.
@@ -1637,7 +1631,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_AvlTree_emptyNodeIfNoNode(thread
         case 0: {
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,1,0) == 0) goto tmp3_end;
           /* Pattern matching succeeded */
-          tmpMeta1 = _OMC_LIT21;
+          tmpMeta1 = _OMC_LIT20;
           goto tmp3_done;
         }
         case 1: {
@@ -1940,12 +1934,12 @@ modelica_metatype omc_AvlTree_replace(threadData_t *threadData, modelica_metatyp
           modelica_metatype tmpMeta15;
           
           /* Pattern matching succeeded */
-          tmpMeta13 = stringAppend(_OMC_LIT22,omc_AvlTree_name(threadData, _inTree));
+          tmpMeta13 = stringAppend(_OMC_LIT21,omc_AvlTree_name(threadData, _inTree));
           tmpMeta14 = stringAppend(tmpMeta13,_OMC_LIT1);
           _str = tmpMeta14;
 
           tmpMeta15 = mmc_mk_cons(_str, MMC_REFSTRUCTLIT(mmc_nil));
-          omc_Error_addMessage(threadData, _OMC_LIT6, tmpMeta15);
+          omc_Error_addMessage(threadData, _OMC_LIT5, tmpMeta15);
           goto goto_2;
           goto tmp3_done;
         }
@@ -2419,12 +2413,12 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_AvlTree_addNode(threadData_t *th
           modelica_metatype tmpMeta16;
           
           /* Pattern matching succeeded */
-          tmpMeta14 = stringAppend(_OMC_LIT23,omc_AvlTree_name(threadData, _inTree));
+          tmpMeta14 = stringAppend(_OMC_LIT22,omc_AvlTree_name(threadData, _inTree));
           tmpMeta15 = stringAppend(tmpMeta14,_OMC_LIT1);
           _str = tmpMeta15;
 
           tmpMeta16 = mmc_mk_cons(_str, MMC_REFSTRUCTLIT(mmc_nil));
-          omc_Error_addMessage(threadData, _OMC_LIT6, tmpMeta16);
+          omc_Error_addMessage(threadData, _OMC_LIT5, tmpMeta16);
           goto goto_2;
           goto tmp3_done;
         }
@@ -2518,12 +2512,12 @@ modelica_metatype omc_AvlTree_add(threadData_t *threadData, modelica_metatype _i
           modelica_metatype tmpMeta15;
           
           /* Pattern matching succeeded */
-          tmpMeta13 = stringAppend(_OMC_LIT24,omc_AvlTree_name(threadData, _inTree));
+          tmpMeta13 = stringAppend(_OMC_LIT23,omc_AvlTree_name(threadData, _inTree));
           tmpMeta14 = stringAppend(tmpMeta13,_OMC_LIT1);
           _str = tmpMeta14;
 
           tmpMeta15 = mmc_mk_cons(_str, MMC_REFSTRUCTLIT(mmc_nil));
-          omc_Error_addMessage(threadData, _OMC_LIT6, tmpMeta15);
+          omc_Error_addMessage(threadData, _OMC_LIT5, tmpMeta15);
           goto goto_2;
           goto tmp3_done;
         }
@@ -2557,7 +2551,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_AvlTree_newLeafNode(threadData_t
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outNode has no default value.
-  tmpMeta1 = mmc_mk_box5(3, &AvlTree_Node_NODE__desc, _inItem, mmc_mk_integer(((modelica_integer) 1)), _OMC_LIT20, _OMC_LIT20);
+  tmpMeta1 = mmc_mk_box5(3, &AvlTree_Node_NODE__desc, _inItem, mmc_mk_integer(((modelica_integer) 1)), _OMC_LIT19, _OMC_LIT19);
   _outNode = tmpMeta1;
   _return: OMC_LABEL_UNUSED
   return _outNode;
@@ -2716,7 +2710,7 @@ modelica_metatype omc_AvlTree_create(threadData_t *threadData, modelica_string _
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _tree has no default value.
-  tmpMeta1 = mmc_mk_box7(3, &AvlTree_Tree_TREE__desc, _OMC_LIT21, ((modelica_fnptr) _inKeyCompareFunc), _inKeyStrFuncOpt, _inValStrFuncOpt, _inUpdateCheckFuncOpt, _name);
+  tmpMeta1 = mmc_mk_box7(3, &AvlTree_Tree_TREE__desc, _OMC_LIT20, ((modelica_fnptr) _inKeyCompareFunc), _inKeyStrFuncOpt, _inValStrFuncOpt, _inUpdateCheckFuncOpt, _name);
   _tree = tmpMeta1;
   _return: OMC_LABEL_UNUSED
   return _tree;

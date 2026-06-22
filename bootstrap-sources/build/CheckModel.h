@@ -26,8 +26,6 @@ extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 
 #define boxptr_CheckModel_getcr omc_CheckModel_getcr
 
@@ -64,9 +62,6 @@ modelica_metatype omc_CheckModel_checkAndGetAlgorithmOutputs(threadData_t *threa
 #define boxptr_CheckModel_checkAndGetAlgorithmOutputs omc_CheckModel_checkAndGetAlgorithmOutputs
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CheckModel_checkAndGetAlgorithmOutputs,2,0) {(void*) boxptr_CheckModel_checkAndGetAlgorithmOutputs,0}};
 #define boxvar_CheckModel_checkAndGetAlgorithmOutputs MMC_REFSTRUCTLIT(boxvar_lit_CheckModel_checkAndGetAlgorithmOutputs)
-
-
-#define boxptr_CheckModel_countVarEqnSize omc_CheckModel_countVarEqnSize
 
 
 DLLDirection

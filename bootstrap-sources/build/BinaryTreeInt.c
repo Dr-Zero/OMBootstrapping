@@ -12,15 +12,13 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT3,1,4) {&ErrorTypes_Severity_ERROR_
 #define _OMC_LIT4_data "Internal error %s"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT4,17,_OMC_LIT4_data);
 #define _OMC_LIT4 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT4)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT5,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT4}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT5,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(63)),_OMC_LIT2,_OMC_LIT3,_OMC_LIT4}};
 #define _OMC_LIT5 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT5)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT6,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(63)),_OMC_LIT2,_OMC_LIT3,_OMC_LIT5}};
-#define _OMC_LIT6 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT6)
-#define _OMC_LIT7_data "- BinaryTreeInt.treeAdd failed\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,31,_OMC_LIT7_data);
-#define _OMC_LIT7 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT7)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT8,2,1) {_OMC_LIT7,MMC_REFSTRUCTLIT(mmc_nil)}};
-#define _OMC_LIT8 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT8)
+#define _OMC_LIT6_data "- BinaryTreeInt.treeAdd failed\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT6,31,_OMC_LIT6_data);
+#define _OMC_LIT6 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT6)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT7,2,1) {_OMC_LIT6,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT7 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT7)
 #include "util/modelica.h"
 
 #include "BinaryTreeInt_includes.h"
@@ -530,7 +528,7 @@ modelica_metatype omc_BinaryTreeInt_treeAdd(threadData_t *threadData, modelica_m
         case 6: {
           
           /* Pattern matching succeeded */
-          omc_Error_addMessage(threadData, _OMC_LIT6, _OMC_LIT8);
+          omc_Error_addMessage(threadData, _OMC_LIT5, _OMC_LIT7);
           goto goto_2;
           goto tmp3_done;
         }
@@ -806,13 +804,9 @@ DLLDirection
 modelica_integer omc_BinaryTreeInt_treeGet(threadData_t *threadData, modelica_metatype _bt, modelica_integer _key)
 {
   modelica_integer _v;
-  modelica_string _keystr = NULL;
-  modelica_integer _keyhash;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _v has no default value.
-  // _keystr has no default value.
-  // _keyhash has no default value.
   _v = omc_BinaryTreeInt_treeGet3(threadData, _bt, _key, omc_BinaryTreeInt_treeGet2(threadData, _bt, _key));
   _return: OMC_LABEL_UNUSED
   return _v;

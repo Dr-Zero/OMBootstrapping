@@ -32,8 +32,6 @@ extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NFCeval_EvalTarget_EVAL__TARGET__desc;
 
 extern struct record_description NFComponentRef_CREF__desc;
@@ -78,6 +76,14 @@ modelica_metatype omc_NFComponentRef_iterate(threadData_t *threadData, modelica_
 #define boxptr_NFComponentRef_iterate omc_NFComponentRef_iterate
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFComponentRef_iterate,2,0) {(void*) boxptr_NFComponentRef_iterate,0}};
 #define boxvar_NFComponentRef_iterate MMC_REFSTRUCTLIT(boxvar_lit_NFComponentRef_iterate)
+
+
+DLLDirection
+modelica_boolean omc_NFComponentRef_hasImplicitTrailingIndex(threadData_t *threadData, modelica_metatype _cref);
+DLLDirection
+modelica_metatype boxptr_NFComponentRef_hasImplicitTrailingIndex(threadData_t *threadData, modelica_metatype _cref);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFComponentRef_hasImplicitTrailingIndex,2,0) {(void*) boxptr_NFComponentRef_hasImplicitTrailingIndex,0}};
+#define boxvar_NFComponentRef_hasImplicitTrailingIndex MMC_REFSTRUCTLIT(boxvar_lit_NFComponentRef_hasImplicitTrailingIndex)
 
 
 DLLDirection
@@ -425,6 +431,14 @@ modelica_metatype omc_NFComponentRef_toPath(threadData_t *threadData, modelica_m
 #define boxptr_NFComponentRef_toPath omc_NFComponentRef_toPath
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFComponentRef_toPath,2,0) {(void*) boxptr_NFComponentRef_toPath,0}};
 #define boxvar_NFComponentRef_toPath MMC_REFSTRUCTLIT(boxvar_lit_NFComponentRef_toPath)
+
+
+DLLDirection
+modelica_integer omc_NFComponentRef_hashContinue(threadData_t *threadData, modelica_metatype _cref, modelica_boolean _strip, modelica_integer __omcQ_24in_5Fhash);
+DLLDirection
+modelica_metatype boxptr_NFComponentRef_hashContinue(threadData_t *threadData, modelica_metatype _cref, modelica_metatype _strip, modelica_metatype __omcQ_24in_5Fhash);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFComponentRef_hashContinue,2,0) {(void*) boxptr_NFComponentRef_hashContinue,0}};
+#define boxvar_NFComponentRef_hashContinue MMC_REFSTRUCTLIT(boxvar_lit_NFComponentRef_hashContinue)
 
 
 DLLDirection
@@ -1026,11 +1040,27 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFComponentRef_isCref,2,0) {(void*) box
 
 
 DLLDirection
+modelica_boolean omc_NFComponentRef_isFlow(threadData_t *threadData, modelica_metatype _cref);
+DLLDirection
+modelica_metatype boxptr_NFComponentRef_isFlow(threadData_t *threadData, modelica_metatype _cref);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFComponentRef_isFlow,2,0) {(void*) boxptr_NFComponentRef_isFlow,0}};
+#define boxvar_NFComponentRef_isFlow MMC_REFSTRUCTLIT(boxvar_lit_NFComponentRef_isFlow)
+
+
+DLLDirection
 modelica_boolean omc_NFComponentRef_isTopLevel(threadData_t *threadData, modelica_metatype _cref);
 DLLDirection
 modelica_metatype boxptr_NFComponentRef_isTopLevel(threadData_t *threadData, modelica_metatype _cref);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFComponentRef_isTopLevel,2,0) {(void*) boxptr_NFComponentRef_isTopLevel,0}};
 #define boxvar_NFComponentRef_isTopLevel MMC_REFSTRUCTLIT(boxvar_lit_NFComponentRef_isTopLevel)
+
+
+DLLDirection
+modelica_boolean omc_NFComponentRef_isQualified(threadData_t *threadData, modelica_metatype _cref);
+DLLDirection
+modelica_metatype boxptr_NFComponentRef_isQualified(threadData_t *threadData, modelica_metatype _cref);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFComponentRef_isQualified,2,0) {(void*) boxptr_NFComponentRef_isQualified,0}};
+#define boxvar_NFComponentRef_isQualified MMC_REFSTRUCTLIT(boxvar_lit_NFComponentRef_isQualified)
 
 
 DLLDirection

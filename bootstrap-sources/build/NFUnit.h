@@ -18,8 +18,6 @@ extern struct record_description ErrorTypes_Severity_NOTIFICATION__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NFUnit_Token_T__DIV__desc;
 
 extern struct record_description NFUnit_Token_T__LPAREN__desc;
@@ -104,13 +102,6 @@ modelica_metatype omc_NFUnit_unitMul(threadData_t *threadData, modelica_metatype
 #define boxptr_NFUnit_unitMul omc_NFUnit_unitMul
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFUnit_unitMul,2,0) {(void*) boxptr_NFUnit_unitMul,0}};
 #define boxvar_NFUnit_unitMul MMC_REFSTRUCTLIT(boxvar_lit_NFUnit_unitMul)
-
-
-DLLDirection
-modelica_string omc_NFUnit_printListCr(threadData_t *threadData, modelica_metatype _inlCr);
-#define boxptr_NFUnit_printListCr omc_NFUnit_printListCr
-static const MMC_DEFSTRUCTLIT(boxvar_lit_NFUnit_printListCr,2,0) {(void*) boxptr_NFUnit_printListCr,0}};
-#define boxvar_NFUnit_printListCr MMC_REFSTRUCTLIT(boxvar_lit_NFUnit_printListCr)
 
 
 DLLDirection

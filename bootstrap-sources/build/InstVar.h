@@ -64,8 +64,6 @@ extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description InnerOuter_InstInner_INST__INNER__desc;
 
 extern struct record_description InnerOuter_InstResult_INST__RESULT__desc;

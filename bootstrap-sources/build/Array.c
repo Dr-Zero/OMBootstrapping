@@ -48,15 +48,15 @@ modelica_metatype omc_Array_filter(threadData_t *threadData, modelica_metatype _
   _dummy = _dummy;
   _index = ((modelica_integer) 1);
   {
-    modelica_integer __omcQ_24tmpVar3;
-    modelica_integer __omcQ_24tmpVar2;
+    modelica_integer __omcQ_24tmpVar1;
+    modelica_integer __omcQ_24tmpVar0;
     modelica_integer tmp2;
     modelica_metatype _e_loopVar = 0;
     modelica_integer tmp3;
     modelica_metatype _e;
     _e_loopVar = _arr;
     tmp3 = 1;
-    __omcQ_24tmpVar3 = ((modelica_integer) 0); /* defaultValue */
+    __omcQ_24tmpVar1 = ((modelica_integer) 0); /* defaultValue */
     while(1) {
       tmp2 = 1;
       while (tmp3 <= arrayLength(_e_loopVar)) {
@@ -67,15 +67,15 @@ modelica_metatype omc_Array_filter(threadData_t *threadData, modelica_metatype _
         }
       }
       if (tmp2 == 0) {
-        __omcQ_24tmpVar2 = ((modelica_integer) 1);
-        __omcQ_24tmpVar3 = __omcQ_24tmpVar3 + __omcQ_24tmpVar2;
+        __omcQ_24tmpVar0 = ((modelica_integer) 1);
+        __omcQ_24tmpVar1 = __omcQ_24tmpVar1 + __omcQ_24tmpVar0;
       } else if (tmp2 == 1) {
         break;
       } else {
         MMC_THROW_INTERNAL();
       }
     }
-    tmp1 = __omcQ_24tmpVar3;
+    tmp1 = __omcQ_24tmpVar1;
   }
   _new_size = arrayLength(_arr) - (tmp1);
 
@@ -524,41 +524,46 @@ modelica_metatype omc_Array_remove(threadData_t *threadData, modelica_metatype _
 {
   modelica_metatype _outArr = NULL;
   modelica_integer _len;
-  modelica_metatype tmpMeta1;
-  modelica_integer tmp2;
+  modelica_boolean tmp1;
+  modelica_metatype tmpMeta2;
   modelica_integer tmp3;
   modelica_integer tmp4;
   modelica_integer tmp5;
   modelica_integer tmp6;
   modelica_integer tmp7;
+  modelica_integer tmp8;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outArr has no default value.
   _len = arrayLength(_arr);
+  /* Pattern-matching assignment */
+  tmp1 = ((_index <= _len) && (_index >= ((modelica_integer) 1)));
+  if (1 /* true */ != tmp1) MMC_THROW_INTERNAL();
+
   if((_len <= ((modelica_integer) 1)))
   {
-    tmpMeta1 = MMC_REFSTRUCTLIT(mmc_nil);
-    _outArr = listArray(tmpMeta1);
+    tmpMeta2 = MMC_REFSTRUCTLIT(mmc_nil);
+    _outArr = listArray(tmpMeta2);
   }
   else
   {
     _outArr = arrayCreateNoInit(((modelica_integer) -1) + _len, arrayGet(_arr,((modelica_integer) 1)) /* DAE.ASUB */);
 
-    tmp2 = ((modelica_integer) 1); tmp3 = 1; tmp4 = ((modelica_integer) -1) + _index;
-    if(!(((tmp3 > 0) && (tmp2 > tmp4)) || ((tmp3 < 0) && (tmp2 < tmp4))))
+    tmp3 = ((modelica_integer) 1); tmp4 = 1; tmp5 = ((modelica_integer) -1) + _index;
+    if(!(((tmp4 > 0) && (tmp3 > tmp5)) || ((tmp4 < 0) && (tmp3 < tmp5))))
     {
       modelica_integer _i;
-      for(_i = ((modelica_integer) 1); in_range_integer(_i, tmp2, tmp4); _i += tmp3)
+      for(_i = ((modelica_integer) 1); in_range_integer(_i, tmp3, tmp5); _i += tmp4)
       {
         arrayUpdateNoBoundsChecking(_outArr, _i, arrayGetNoBoundsChecking(_arr, _i));
       }
     }
 
-    tmp5 = ((modelica_integer) 1) + _index; tmp6 = 1; tmp7 = ((modelica_integer) -1) + _len;
-    if(!(((tmp6 > 0) && (tmp5 > tmp7)) || ((tmp6 < 0) && (tmp5 < tmp7))))
+    tmp6 = ((modelica_integer) 1) + _index; tmp7 = 1; tmp8 = _len;
+    if(!(((tmp7 > 0) && (tmp6 > tmp8)) || ((tmp7 < 0) && (tmp6 < tmp8))))
     {
       modelica_integer _i;
-      for(_i = ((modelica_integer) 1) + _index; in_range_integer(_i, tmp5, tmp7); _i += tmp6)
+      for(_i = ((modelica_integer) 1) + _index; in_range_integer(_i, tmp6, tmp8); _i += tmp7)
       {
         arrayUpdateNoBoundsChecking(_outArr, ((modelica_integer) -1) + _i, arrayGetNoBoundsChecking(_arr, _i));
       }
@@ -804,6 +809,37 @@ modelica_metatype boxptr_Array_isEqual(threadData_t *threadData, modelica_metaty
 }
 
 DLLDirection
+modelica_integer omc_Array_hashIntArray(threadData_t *threadData, modelica_metatype _arr)
+{
+  modelica_integer _hash;
+  modelica_integer tmp1;
+  modelica_integer tmp2;
+  modelica_integer tmp3;
+  MMC_SO();
+  _tailrecursive: OMC_LABEL_UNUSED
+  _hash = ((modelica_integer) 5381);
+  tmp1 = ((modelica_integer) 1); tmp2 = 1; tmp3 = arrayLength(_arr);
+  if(!(((tmp2 > 0) && (tmp1 > tmp3)) || ((tmp2 < 0) && (tmp1 < tmp3))))
+  {
+    modelica_integer _i;
+    for(_i = ((modelica_integer) 1); in_range_integer(_i, tmp1, tmp3); _i += tmp2)
+    {
+      _hash = modelica_integer_mod((((modelica_integer) 31)) * (_hash) + mmc_unbox_integer(arrayGetNoBoundsChecking(_arr, _i)), ((modelica_integer) 536870911));
+    }
+  }
+  _return: OMC_LABEL_UNUSED
+  return _hash;
+}
+modelica_metatype boxptr_Array_hashIntArray(threadData_t *threadData, modelica_metatype _arr)
+{
+  modelica_integer _hash;
+  modelica_metatype out_hash;
+  _hash = omc_Array_hashIntArray(threadData, _arr);
+  out_hash = mmc_mk_icon(_hash);
+  return out_hash;
+}
+
+DLLDirection
 modelica_string omc_Array_toString(threadData_t *threadData, modelica_metatype _inArray, modelica_fnptr _inPrintFunc, modelica_string _inNameStr, modelica_string _inBeginStr, modelica_string _inDelimitStr, modelica_string _inEndStr, modelica_boolean _inPrintEmpty, modelica_integer _maxLength)
 {
   modelica_string _outString = NULL;
@@ -981,14 +1017,12 @@ DLLDirection
 modelica_integer omc_Array_position(threadData_t *threadData, modelica_metatype _inArray, modelica_metatype _inElement, modelica_integer _inFilledSize)
 {
   modelica_integer _outIndex;
-  modelica_metatype _e = NULL;
   modelica_integer tmp1;
   modelica_integer tmp2;
   modelica_integer tmp3;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outIndex has no default value.
-  // _e has no default value.
   tmp1 = ((modelica_integer) 1); tmp2 = 1; tmp3 = _inFilledSize;
   if(!(((tmp2 > 0) && (tmp1 > tmp3)) || ((tmp2 < 0) && (tmp1 < tmp3))))
   {

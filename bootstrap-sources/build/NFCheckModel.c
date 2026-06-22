@@ -93,7 +93,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFCheckModel_statementOutputCref
           
           /* Pattern matching succeeded */
           _cref = omc_NFComponentRef_stripSubscripts(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_exp), 3))), NULL);
-          tmpMeta1 = omc_NFExpression_fold(threadData, omc_NFExpandExp_expand(threadData, omc_NFExpression_fromCref(threadData, _cref, 0 /* false */), 0 /* false */, NULL), boxvar_NFCheckModel_statementOutputCrefFinder2, _crefs);
+          tmpMeta1 = omc_NFExpression_fold(threadData, omc_NFExpandExp_expand(threadData, omc_NFExpression_fromCref(threadData, _cref, 0 /* false */), 0 /* false */, 0 /* false */, NULL), boxvar_NFCheckModel_statementOutputCrefFinder2, _crefs);
           goto tmp3_done;
         }
         case 1: {

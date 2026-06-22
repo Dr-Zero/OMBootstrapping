@@ -316,10 +316,6 @@ extern struct record_description Flags_FlagVisibility_INTERNAL__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__DESC__OPTION__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
-
 extern struct record_description SCode_Attributes_ATTR__desc;
 
 extern struct record_description SCode_Comment_COMMENT__desc;
@@ -851,13 +847,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_Static_elabBuiltinMatrix,2,0) {(void*) 
 
 
 #define boxptr_Static_getHomotopyArguments omc_Static_getHomotopyArguments
-
-
-DLLDirection
-modelica_metatype omc_Static_elabBuiltinFill2(threadData_t *threadData, modelica_metatype _inCache, modelica_metatype _inEnv, modelica_metatype _inExp, modelica_metatype _inType, modelica_metatype _inValuesValueLst, modelica_metatype _constVar, modelica_metatype _inPrefix, modelica_metatype _inDims, modelica_metatype _inInfo, modelica_metatype *out_outExp, modelica_metatype *out_outProperties);
-#define boxptr_Static_elabBuiltinFill2 omc_Static_elabBuiltinFill2
-static const MMC_DEFSTRUCTLIT(boxvar_lit_Static_elabBuiltinFill2,2,0) {(void*) boxptr_Static_elabBuiltinFill2,0}};
-#define boxvar_Static_elabBuiltinFill2 MMC_REFSTRUCTLIT(boxvar_lit_Static_elabBuiltinFill2)
 
 
 #define boxptr_Static_elabBuiltinSizeIndex omc_Static_elabBuiltinSizeIndex

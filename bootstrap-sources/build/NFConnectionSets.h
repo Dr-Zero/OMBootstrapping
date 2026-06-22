@@ -12,8 +12,6 @@ extern "C" {
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NFConnectionSets_ConnectionSets_Sets_DISJOINT__SETS__desc;
 
 
@@ -84,6 +82,14 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectionSets_ConnectionSets_addSing
 
 
 DLLDirection
+modelica_boolean omc_NFConnectionSets_ConnectionSets_contains(threadData_t *threadData, modelica_metatype _entry, modelica_metatype _sets);
+DLLDirection
+modelica_metatype boxptr_NFConnectionSets_ConnectionSets_contains(threadData_t *threadData, modelica_metatype _entry, modelica_metatype _sets);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectionSets_ConnectionSets_contains,2,0) {(void*) boxptr_NFConnectionSets_ConnectionSets_contains,0}};
+#define boxvar_NFConnectionSets_ConnectionSets_contains MMC_REFSTRUCTLIT(boxvar_lit_NFConnectionSets_ConnectionSets_contains)
+
+
+DLLDirection
 modelica_metatype omc_NFConnectionSets_ConnectionSets_emptySets(threadData_t *threadData, modelica_integer _setCount);
 DLLDirection
 modelica_metatype boxptr_NFConnectionSets_ConnectionSets_emptySets(threadData_t *threadData, modelica_metatype _setCount);
@@ -135,6 +141,13 @@ modelica_metatype omc_NFConnectionSets_ConnectionSets_fromConnections(threadData
 #define boxptr_NFConnectionSets_ConnectionSets_fromConnections omc_NFConnectionSets_ConnectionSets_fromConnections
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectionSets_ConnectionSets_fromConnections,2,0) {(void*) boxptr_NFConnectionSets_ConnectionSets_fromConnections,0}};
 #define boxvar_NFConnectionSets_ConnectionSets_fromConnections MMC_REFSTRUCTLIT(boxvar_lit_NFConnectionSets_ConnectionSets_fromConnections)
+
+
+DLLDirection
+modelica_metatype omc_NFConnectionSets_ConnectionSets_getEntry(threadData_t *threadData, modelica_metatype _entry, modelica_metatype _sets);
+#define boxptr_NFConnectionSets_ConnectionSets_getEntry omc_NFConnectionSets_ConnectionSets_getEntry
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFConnectionSets_ConnectionSets_getEntry,2,0) {(void*) boxptr_NFConnectionSets_ConnectionSets_getEntry,0}};
+#define boxvar_NFConnectionSets_ConnectionSets_getEntry MMC_REFSTRUCTLIT(boxvar_lit_NFConnectionSets_ConnectionSets_getEntry)
 
 
 DLLDirection

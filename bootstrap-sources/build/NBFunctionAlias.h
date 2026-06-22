@@ -18,8 +18,6 @@ extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NBEquation_Iterator_EMPTY__desc;
 
 extern struct record_description NBFunctionAlias_Call__Aux_CALL__AUX__desc;
@@ -33,6 +31,21 @@ extern struct record_description NFExpression_TUPLE__desc;
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
+#define boxptr_NBFunctionAlias_introduceSlicedStateAliasExp omc_NBFunctionAlias_introduceSlicedStateAliasExp
+
+
+#define boxptr_NBFunctionAlias_introduceSlicedStateAliasEquation omc_NBFunctionAlias_introduceSlicedStateAliasEquation
+
+
+#define boxptr_NBFunctionAlias_getSlicedStatesSet omc_NBFunctionAlias_getSlicedStatesSet
+
+
+#define boxptr_NBFunctionAlias_collectSlicedStatesAlias omc_NBFunctionAlias_collectSlicedStatesAlias
+
+
+#define boxptr_NBFunctionAlias_collectSlicedStatesAliasEquation omc_NBFunctionAlias_collectSlicedStatesAliasEquation
+
+
 #define boxptr_NBFunctionAlias_addClockedAlias omc_NBFunctionAlias_addClockedAlias
 
 
@@ -42,10 +55,13 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 #define boxptr_NBFunctionAlias_filterFrames omc_NBFunctionAlias_filterFrames
 
 
+#define boxptr_NBFunctionAlias_aliasListToString omc_NBFunctionAlias_aliasListToString
+
+
 DLLDirection
-modelica_metatype omc_NBFunctionAlias_Call__Aux_createName(threadData_t *threadData, modelica_metatype _ty, modelica_metatype _iter, modelica_metatype _aux_index, modelica_boolean _init);
+modelica_metatype omc_NBFunctionAlias_Call__Aux_createName(threadData_t *threadData, modelica_metatype _ty, modelica_metatype _iter, modelica_metatype _aux_index, modelica_string _aux_name, modelica_boolean _init);
 DLLDirection
-modelica_metatype boxptr_NBFunctionAlias_Call__Aux_createName(threadData_t *threadData, modelica_metatype _ty, modelica_metatype _iter, modelica_metatype _aux_index, modelica_metatype _init);
+modelica_metatype boxptr_NBFunctionAlias_Call__Aux_createName(threadData_t *threadData, modelica_metatype _ty, modelica_metatype _iter, modelica_metatype _aux_index, modelica_metatype _aux_name, modelica_metatype _init);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBFunctionAlias_Call__Aux_createName,2,0) {(void*) boxptr_NBFunctionAlias_Call__Aux_createName,0}};
 #define boxvar_NBFunctionAlias_Call__Aux_createName MMC_REFSTRUCTLIT(boxvar_lit_NBFunctionAlias_Call__Aux_createName)
 
@@ -88,6 +104,14 @@ modelica_string omc_NBFunctionAlias_Call__Id_toString(threadData_t *threadData, 
 #define boxptr_NBFunctionAlias_Call__Id_toString omc_NBFunctionAlias_Call__Id_toString
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBFunctionAlias_Call__Id_toString,2,0) {(void*) boxptr_NBFunctionAlias_Call__Id_toString,0}};
 #define boxvar_NBFunctionAlias_Call__Id_toString MMC_REFSTRUCTLIT(boxvar_lit_NBFunctionAlias_Call__Id_toString)
+
+
+DLLDirection
+modelica_metatype omc_NBFunctionAlias_introduceSlicedStateAlias(threadData_t *threadData, modelica_metatype __omcQ_24in_5FvarData, modelica_metatype __omcQ_24in_5FeqData, modelica_integer _kind, modelica_metatype *out_eqData);
+DLLDirection
+modelica_metatype boxptr_NBFunctionAlias_introduceSlicedStateAlias(threadData_t *threadData, modelica_metatype __omcQ_24in_5FvarData, modelica_metatype __omcQ_24in_5FeqData, modelica_metatype _kind, modelica_metatype *out_eqData);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBFunctionAlias_introduceSlicedStateAlias,2,0) {(void*) boxptr_NBFunctionAlias_introduceSlicedStateAlias,0}};
+#define boxvar_NBFunctionAlias_introduceSlicedStateAlias MMC_REFSTRUCTLIT(boxvar_lit_NBFunctionAlias_introduceSlicedStateAlias)
 
 
 DLLDirection

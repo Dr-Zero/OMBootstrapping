@@ -114,10 +114,6 @@ extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_INTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
-
 extern struct record_description SCode_Encapsulated_NOT__ENCAPSULATED__desc;
 
 extern struct record_description SCode_Variability_VAR__desc;

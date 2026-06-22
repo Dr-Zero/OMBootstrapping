@@ -152,87 +152,83 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT60,2,4) {&Flags_FlagData_BOOL__FLAG
 #define _OMC_LIT61_data "Is true when building a model (as opposed to running a Modelica script)."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT61,72,_OMC_LIT61_data);
 #define _OMC_LIT61 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT61)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT62,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT61}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT62,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(115)),_OMC_LIT9,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT59,_OMC_LIT60,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT61}};
 #define _OMC_LIT62 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT62)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT63,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(115)),_OMC_LIT9,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT59,_OMC_LIT60,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT62}};
-#define _OMC_LIT63 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT63)
-#define _OMC_LIT64_data "elabCall_InteractiveFunction1"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT64,29,_OMC_LIT64_data);
-#define _OMC_LIT64 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT64)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT65,1,5) {&ErrorTypes_MessageType_TRANSLATION__desc,}};
+#define _OMC_LIT63_data "elabCall_InteractiveFunction1"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT63,29,_OMC_LIT63_data);
+#define _OMC_LIT63 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT63)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT64,1,5) {&ErrorTypes_MessageType_TRANSLATION__desc,}};
+#define _OMC_LIT64 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT64)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT65,1,4) {&ErrorTypes_Severity_ERROR__desc,}};
 #define _OMC_LIT65 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT65)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT66,1,4) {&ErrorTypes_Severity_ERROR__desc,}};
-#define _OMC_LIT66 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT66)
-#define _OMC_LIT67_data "Function %s has no parameter named %s."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT67,38,_OMC_LIT67_data);
-#define _OMC_LIT67 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT67)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT68,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT67}};
-#define _OMC_LIT68 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT68)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT69,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(80)),_OMC_LIT65,_OMC_LIT66,_OMC_LIT68}};
-#define _OMC_LIT69 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT69)
-#define _OMC_LIT70_data "startTime"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT70,9,_OMC_LIT70_data);
+#define _OMC_LIT66_data "Function %s has no parameter named %s."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT66,38,_OMC_LIT66_data);
+#define _OMC_LIT66 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT66)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT67,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(80)),_OMC_LIT64,_OMC_LIT65,_OMC_LIT66}};
+#define _OMC_LIT67 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT67)
+#define _OMC_LIT68_data "startTime"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT68,9,_OMC_LIT68_data);
+#define _OMC_LIT68 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT68)
+#define _OMC_LIT69_data "stopTime"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT69,8,_OMC_LIT69_data);
+#define _OMC_LIT69 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT69)
+#define _OMC_LIT70_data "numberOfIntervals"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT70,17,_OMC_LIT70_data);
 #define _OMC_LIT70 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT70)
-#define _OMC_LIT71_data "stopTime"
+#define _OMC_LIT71_data "stepSize"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT71,8,_OMC_LIT71_data);
 #define _OMC_LIT71 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT71)
-#define _OMC_LIT72_data "numberOfIntervals"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT72,17,_OMC_LIT72_data);
+#define _OMC_LIT72_data "tolerance"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT72,9,_OMC_LIT72_data);
 #define _OMC_LIT72 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT72)
-#define _OMC_LIT73_data "stepSize"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT73,8,_OMC_LIT73_data);
+#define _OMC_LIT73_data "method"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT73,6,_OMC_LIT73_data);
 #define _OMC_LIT73 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT73)
-#define _OMC_LIT74_data "tolerance"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT74,9,_OMC_LIT74_data);
+#define _OMC_LIT74_data "options"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT74,7,_OMC_LIT74_data);
 #define _OMC_LIT74 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT74)
-#define _OMC_LIT75_data "method"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT75,6,_OMC_LIT75_data);
+#define _OMC_LIT75_data "outputFormat"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT75,12,_OMC_LIT75_data);
 #define _OMC_LIT75 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT75)
-#define _OMC_LIT76_data "options"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT76,7,_OMC_LIT76_data);
+#define _OMC_LIT76_data "variableFilter"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT76,14,_OMC_LIT76_data);
 #define _OMC_LIT76 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT76)
-#define _OMC_LIT77_data "outputFormat"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT77,12,_OMC_LIT77_data);
+#define _OMC_LIT77_data "cflags"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT77,6,_OMC_LIT77_data);
 #define _OMC_LIT77 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT77)
-#define _OMC_LIT78_data "variableFilter"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT78,14,_OMC_LIT78_data);
+#define _OMC_LIT78_data "simflags"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT78,8,_OMC_LIT78_data);
 #define _OMC_LIT78 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT78)
-#define _OMC_LIT79_data "cflags"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT79,6,_OMC_LIT79_data);
-#define _OMC_LIT79 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT79)
-#define _OMC_LIT80_data "simflags"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT80,8,_OMC_LIT80_data);
-#define _OMC_LIT80 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT80)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT81,2,1) {_OMC_LIT80,MMC_REFSTRUCTLIT(mmc_nil)}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT79,2,1) {_OMC_LIT78,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT79 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT79)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT80,2,1) {_OMC_LIT77,_OMC_LIT79}};
+#define _OMC_LIT80 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT80)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT81,2,1) {_OMC_LIT76,_OMC_LIT80}};
 #define _OMC_LIT81 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT81)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT82,2,1) {_OMC_LIT79,_OMC_LIT81}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT82,2,1) {_OMC_LIT75,_OMC_LIT81}};
 #define _OMC_LIT82 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT82)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT83,2,1) {_OMC_LIT78,_OMC_LIT82}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT83,2,1) {_OMC_LIT74,_OMC_LIT82}};
 #define _OMC_LIT83 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT83)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT84,2,1) {_OMC_LIT77,_OMC_LIT83}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT84,2,1) {_OMC_LIT17,_OMC_LIT83}};
 #define _OMC_LIT84 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT84)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT85,2,1) {_OMC_LIT76,_OMC_LIT84}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT85,2,1) {_OMC_LIT73,_OMC_LIT84}};
 #define _OMC_LIT85 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT85)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT86,2,1) {_OMC_LIT17,_OMC_LIT85}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT86,2,1) {_OMC_LIT72,_OMC_LIT85}};
 #define _OMC_LIT86 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT86)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT87,2,1) {_OMC_LIT75,_OMC_LIT86}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT87,2,1) {_OMC_LIT71,_OMC_LIT86}};
 #define _OMC_LIT87 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT87)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT88,2,1) {_OMC_LIT74,_OMC_LIT87}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT88,2,1) {_OMC_LIT70,_OMC_LIT87}};
 #define _OMC_LIT88 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT88)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT89,2,1) {_OMC_LIT73,_OMC_LIT88}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT89,2,1) {_OMC_LIT69,_OMC_LIT88}};
 #define _OMC_LIT89 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT89)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT90,2,1) {_OMC_LIT72,_OMC_LIT89}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT90,2,1) {_OMC_LIT68,_OMC_LIT89}};
 #define _OMC_LIT90 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT90)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT91,2,1) {_OMC_LIT71,_OMC_LIT90}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT91,1,6) {&DAE_CodeType_C__TYPENAME__desc,}};
 #define _OMC_LIT91 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT91)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT92,2,1) {_OMC_LIT70,_OMC_LIT91}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT92,2,3) {&DAE_Exp_ICONST__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0))}};
 #define _OMC_LIT92 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT92)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT93,1,6) {&DAE_CodeType_C__TYPENAME__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT93,2,3) {&DAE_Type_T__INTEGER__desc,MMC_REFSTRUCTLIT(mmc_nil)}};
 #define _OMC_LIT93 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT93)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT94,2,3) {&DAE_Exp_ICONST__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0))}};
-#define _OMC_LIT94 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT94)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT95,2,3) {&DAE_Type_T__INTEGER__desc,MMC_REFSTRUCTLIT(mmc_nil)}};
-#define _OMC_LIT95 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT95)
 #include "util/modelica.h"
 
 #include "StaticScript_includes.h"
@@ -1391,7 +1387,7 @@ modelica_metatype omc_StaticScript_elabCallInteractive(threadData_t *threadData,
   // _e has no default value.
   // _prop has no default value.
   // _handles has no default value.
-  if(omc_Flags_getConfigBool(threadData, _OMC_LIT63))
+  if(omc_Flags_getConfigBool(threadData, _OMC_LIT62))
   {
     omc_ErrorExt_delCheckpoint(threadData, _OMC_LIT58);
 
@@ -1412,16 +1408,16 @@ modelica_metatype omc_StaticScript_elabCallInteractive(threadData_t *threadData,
         switch (MMC_SWITCH_CAST(tmp3)) {
         case 0: {
           /* Pattern matching succeeded */
-          omc_ErrorExt_setCheckpoint(threadData, _OMC_LIT64);
+          omc_ErrorExt_setCheckpoint(threadData, _OMC_LIT63);
 
           _cache = omc_StaticScript_elabCallInteractive__work(threadData, _cache, _env, _fn, _args, _nargs, _impl, _pre, _info ,&_e ,&_prop);
 
-          omc_ErrorExt_delCheckpoint(threadData, _OMC_LIT64);
+          omc_ErrorExt_delCheckpoint(threadData, _OMC_LIT63);
           goto tmp2_done;
         }
         case 1: {
           /* Pattern matching succeeded */
-          omc_ErrorExt_rollBack(threadData, _OMC_LIT64);
+          omc_ErrorExt_rollBack(threadData, _OMC_LIT63);
 
           omc_ErrorExt_pushMessages(threadData, _handles);
 
@@ -1469,22 +1465,20 @@ modelica_metatype boxptr_StaticScript_elabCallInteractive(threadData_t *threadDa
 DLLDirection
 void omc_StaticScript_checkSimulationArguments(threadData_t *threadData, modelica_metatype _args, modelica_string _callName, modelica_metatype _info)
 {
-  modelica_metatype _valid_names = NULL;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _valid_names has no default value.
   {
     modelica_metatype _arg;
     for (tmpMeta1 = _args; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
       _arg = MMC_CAR(tmpMeta1);
-      if((!listMember((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_arg), 2))), _OMC_LIT92)))
+      if((!listMember((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_arg), 2))), _OMC_LIT90)))
       {
         tmpMeta2 = mmc_mk_cons(_callName, mmc_mk_cons((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_arg), 2))), MMC_REFSTRUCTLIT(mmc_nil)));
-        omc_Error_addSourceMessage(threadData, _OMC_LIT69, tmpMeta2, _info);
+        omc_Error_addSourceMessage(threadData, _OMC_LIT67, tmpMeta2, _info);
 
         MMC_THROW_INTERNAL();
       }
@@ -1592,7 +1586,7 @@ modelica_metatype omc_StaticScript_getSimulationArguments(threadData_t *threadDa
           /* Pattern matching succeeded */
           omc_StaticScript_checkSimulationArguments(threadData, _args, _callName, _info);
 
-          _exp = omc_Static_elabCodeExp(threadData, _crexp, _cache, _env, _OMC_LIT93, _info);
+          _exp = omc_Static_elabCodeExp(threadData, _crexp, _cache, _env, _OMC_LIT91, _info);
 
           tmpMeta8 = mmc_mk_box2(3, &Absyn_Msg_MSG__desc, _info);
           _cache = omc_Ceval_ceval(threadData, _cache, _env, _exp, 1 /* true */, tmpMeta8, ((modelica_integer) 0) ,&_v);
@@ -1611,21 +1605,21 @@ modelica_metatype omc_StaticScript_getSimulationArguments(threadData_t *threadDa
 
           _cache = omc_StaticScript_calculateSimulationTimes(threadData, _inCache, _inEnv, _inAbsynExpLst, _inAbsynNamedArgLst, _impl, _inPrefix, _inInfo, _defaulSimOpt ,&_startTime ,&_stopTime ,&_numberOfIntervals);
 
-          _cache = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT74, _OMC_LIT52, _args, omc_CevalScriptBackend_getSimulationOption(threadData, _defaulSimOpt, _OMC_LIT74), _pre, _info ,&_tolerance);
+          _cache = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT72, _OMC_LIT52, _args, omc_CevalScriptBackend_getSimulationOption(threadData, _defaulSimOpt, _OMC_LIT72), _pre, _info ,&_tolerance);
 
-          _cache = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT75, _OMC_LIT5, _args, omc_CevalScriptBackend_getSimulationOption(threadData, _defaulSimOpt, _OMC_LIT75), _pre, _info ,&_method);
+          _cache = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT73, _OMC_LIT5, _args, omc_CevalScriptBackend_getSimulationOption(threadData, _defaulSimOpt, _OMC_LIT73), _pre, _info ,&_method);
 
           _cache = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT17, _OMC_LIT5, _args, omc_CevalScriptBackend_getSimulationOption(threadData, _defaulSimOpt, _OMC_LIT17), _pre, _info ,&_fileNamePrefix);
 
-          _cache = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT76, _OMC_LIT5, _args, omc_CevalScriptBackend_getSimulationOption(threadData, _defaulSimOpt, _OMC_LIT76), _pre, _info ,&_options);
+          _cache = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT74, _OMC_LIT5, _args, omc_CevalScriptBackend_getSimulationOption(threadData, _defaulSimOpt, _OMC_LIT74), _pre, _info ,&_options);
 
-          _cache = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT77, _OMC_LIT5, _args, omc_CevalScriptBackend_getSimulationOption(threadData, _defaulSimOpt, _OMC_LIT77), _pre, _info ,&_outputFormat);
+          _cache = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT75, _OMC_LIT5, _args, omc_CevalScriptBackend_getSimulationOption(threadData, _defaulSimOpt, _OMC_LIT75), _pre, _info ,&_outputFormat);
 
-          _cache = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT78, _OMC_LIT5, _args, omc_CevalScriptBackend_getSimulationOption(threadData, _defaulSimOpt, _OMC_LIT78), _pre, _info ,&_variableFilter);
+          _cache = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT76, _OMC_LIT5, _args, omc_CevalScriptBackend_getSimulationOption(threadData, _defaulSimOpt, _OMC_LIT76), _pre, _info ,&_variableFilter);
 
-          _cache = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT79, _OMC_LIT5, _args, omc_CevalScriptBackend_getSimulationOption(threadData, _defaulSimOpt, _OMC_LIT79), _pre, _info ,&_cflags);
+          _cache = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT77, _OMC_LIT5, _args, omc_CevalScriptBackend_getSimulationOption(threadData, _defaulSimOpt, _OMC_LIT77), _pre, _info ,&_cflags);
 
-          _cache = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT80, _OMC_LIT5, _args, omc_CevalScriptBackend_getSimulationOption(threadData, _defaulSimOpt, _OMC_LIT80), _pre, _info ,&_simflags);
+          _cache = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT78, _OMC_LIT5, _args, omc_CevalScriptBackend_getSimulationOption(threadData, _defaulSimOpt, _OMC_LIT78), _pre, _info ,&_simflags);
           tmpMeta13 = mmc_mk_box2(3, &Absyn_CodeNode_C__TYPENAME__desc, _className);
           tmpMeta14 = mmc_mk_box3(28, &DAE_Exp_CODE__desc, tmpMeta13, _OMC_LIT15);
           tmpMeta12 = mmc_mk_cons(tmpMeta14, mmc_mk_cons(_startTime, mmc_mk_cons(_stopTime, mmc_mk_cons(_numberOfIntervals, mmc_mk_cons(_tolerance, mmc_mk_cons(_method, mmc_mk_cons(_fileNamePrefix, mmc_mk_cons(_options, mmc_mk_cons(_outputFormat, mmc_mk_cons(_variableFilter, mmc_mk_cons(_cflags, mmc_mk_cons(_simflags, MMC_REFSTRUCTLIT(mmc_nil)))))))))))));
@@ -1747,7 +1741,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_StaticScript_calculateSimulation
           _info = tmp4_7;
           /* Pattern matching succeeded */
           /* Pattern-matching tuple assignment */
-          tmpMeta11 = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT73, _OMC_LIT52, _args, _OMC_LIT94, _pre, _info, &tmpMeta8);
+          tmpMeta11 = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT71, _OMC_LIT52, _args, _OMC_LIT92, _pre, _info, &tmpMeta8);
           _cache = tmpMeta11;
           if (mmc__uniontype__metarecord__typedef__equal(tmpMeta8,1,1) == 0) goto goto_2;
           tmpMeta9 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta8), 2));
@@ -1755,7 +1749,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_StaticScript_calculateSimulation
           _rstepTime = tmp10  /* pattern as ty=Real */;
 
           /* Pattern-matching tuple assignment */
-          tmpMeta15 = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT70, _OMC_LIT52, _args, omc_CevalScriptBackend_getSimulationOption(threadData, _inSimOpt, _OMC_LIT70), _pre, _info, &tmpMeta12);
+          tmpMeta15 = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT68, _OMC_LIT52, _args, omc_CevalScriptBackend_getSimulationOption(threadData, _inSimOpt, _OMC_LIT68), _pre, _info, &tmpMeta12);
           _cache = tmpMeta15;
           if (mmc__uniontype__metarecord__typedef__equal(tmpMeta12,1,1) == 0) goto goto_2;
           tmpMeta13 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta12), 2));
@@ -1764,7 +1758,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_StaticScript_calculateSimulation
           _rstartTime = tmp14  /* pattern as ty=Real */;
 
           /* Pattern-matching tuple assignment */
-          tmpMeta19 = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT71, _OMC_LIT52, _args, omc_CevalScriptBackend_getSimulationOption(threadData, _inSimOpt, _OMC_LIT71), _pre, _info, &tmpMeta16);
+          tmpMeta19 = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT69, _OMC_LIT52, _args, omc_CevalScriptBackend_getSimulationOption(threadData, _inSimOpt, _OMC_LIT69), _pre, _info, &tmpMeta16);
           _cache = tmpMeta19;
           if (mmc__uniontype__metarecord__typedef__equal(tmpMeta16,1,1) == 0) goto goto_2;
           tmpMeta17 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta16), 2));
@@ -1800,11 +1794,11 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_StaticScript_calculateSimulation
           _pre = tmp4_6;
           _info = tmp4_7;
           /* Pattern matching succeeded */
-          _cache = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT70, _OMC_LIT52, _args, omc_CevalScriptBackend_getSimulationOption(threadData, _inSimOpt, _OMC_LIT70), _pre, _info ,&_startTime);
+          _cache = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT68, _OMC_LIT52, _args, omc_CevalScriptBackend_getSimulationOption(threadData, _inSimOpt, _OMC_LIT68), _pre, _info ,&_startTime);
 
-          _cache = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT71, _OMC_LIT52, _args, omc_CevalScriptBackend_getSimulationOption(threadData, _inSimOpt, _OMC_LIT71), _pre, _info ,&_stopTime);
+          _cache = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT69, _OMC_LIT52, _args, omc_CevalScriptBackend_getSimulationOption(threadData, _inSimOpt, _OMC_LIT69), _pre, _info ,&_stopTime);
 
-          _cache = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT72, _OMC_LIT95, _args, omc_CevalScriptBackend_getSimulationOption(threadData, _inSimOpt, _OMC_LIT72), _pre, _info ,&_numberOfIntervals);
+          _cache = omc_Static_getOptionalNamedArg(threadData, _cache, _env, _impl, _OMC_LIT70, _OMC_LIT93, _args, omc_CevalScriptBackend_getSimulationOption(threadData, _inSimOpt, _OMC_LIT70), _pre, _info ,&_numberOfIntervals);
           tmpMeta[0+0] = _cache;
           tmpMeta[0+1] = _startTime;
           tmpMeta[0+2] = _stopTime;

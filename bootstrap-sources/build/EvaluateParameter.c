@@ -18,152 +18,140 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT5,1,5) {&ErrorTypes_Severity_WARNIN
 #define _OMC_LIT6_data "%s"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT6,2,_OMC_LIT6_data);
 #define _OMC_LIT6 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT7,2,4) {&Gettext_TranslatableContent_notrans__desc,_OMC_LIT6}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT7,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(6000)),_OMC_LIT4,_OMC_LIT5,_OMC_LIT6}};
 #define _OMC_LIT7 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT7)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT8,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(6000)),_OMC_LIT4,_OMC_LIT5,_OMC_LIT7}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT8,1,5) {&AvlSetInt_Tree_EMPTY__desc,}};
 #define _OMC_LIT8 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT8)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT9,1,5) {&AvlSetInt_Tree_EMPTY__desc,}};
-#define _OMC_LIT9 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT9)
-#define _OMC_LIT10_data "Cannot evaluate Variable \""
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT10,26,_OMC_LIT10_data);
+#define _OMC_LIT9_data "Cannot evaluate Variable \""
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT9,26,_OMC_LIT9_data);
+#define _OMC_LIT9 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT9)
+#define _OMC_LIT10_data "evalParameterDump"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT10,17,_OMC_LIT10_data);
 #define _OMC_LIT10 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT10)
-#define _OMC_LIT11_data "evalParameterDump"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT11,17,_OMC_LIT11_data);
+#define _OMC_LIT11_data "Dumps information for evaluating parameters."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT11,44,_OMC_LIT11_data);
 #define _OMC_LIT11 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT11)
-#define _OMC_LIT12_data "Dumps information for evaluating parameters."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT12,44,_OMC_LIT12_data);
-#define _OMC_LIT12 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT12)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT13,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT12}};
-#define _OMC_LIT13 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT13)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT14,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(156)),_OMC_LIT11,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT13}};
-#define _OMC_LIT14 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT14)
-#define _OMC_LIT15_data "\nBEGINNING of preOptModule 'evaluateParameters'\n********************************************************************************\n\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT15,130,_OMC_LIT15_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT12,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(156)),_OMC_LIT10,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT11}};
+#define _OMC_LIT12 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT12)
+#define _OMC_LIT13_data "\nBEGINNING of preOptModule 'evaluateParameters'\n********************************************************************************\n\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT13,130,_OMC_LIT13_data);
+#define _OMC_LIT13 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT13)
+#define _OMC_LIT14_data "DAE before evaluating parameters"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT14,32,_OMC_LIT14_data);
+#define _OMC_LIT14 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT14)
+#define _OMC_LIT15_data "\n================================================================================\nThere is nothing to do. All parameters are already evaluated.\n================================================================================\n\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT15,226,_OMC_LIT15_data);
 #define _OMC_LIT15 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT15)
-#define _OMC_LIT16_data "DAE before evaluating parameters"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT16,32,_OMC_LIT16_data);
+#define _OMC_LIT16_data "evaluateFinalParameters"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT16,23,_OMC_LIT16_data);
 #define _OMC_LIT16 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT16)
-#define _OMC_LIT17_data "\n================================================================================\nThere is nothing to do. All parameters are already evaluated.\n================================================================================\n\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT17,226,_OMC_LIT17_data);
-#define _OMC_LIT17 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT17)
-#define _OMC_LIT18_data "evaluateFinalParameters"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT18,23,_OMC_LIT18_data);
-#define _OMC_LIT18 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT18)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT19,1,4) {&Flags_FlagVisibility_EXTERNAL__desc,}};
-#define _OMC_LIT19 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT19)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT20,2,4) {&Flags_FlagData_BOOL__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */))}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT17,1,4) {&Flags_FlagVisibility_EXTERNAL__desc,}};
+#define _OMC_LIT17 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT17)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT18,2,4) {&Flags_FlagData_BOOL__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */))}};
+#define _OMC_LIT18 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT18)
+#define _OMC_LIT19_data "Evaluates all the final parameters in addition to parameters with annotation(Evaluate=true)."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT19,92,_OMC_LIT19_data);
+#define _OMC_LIT19 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT19)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT20,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(99)),_OMC_LIT16,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT17,_OMC_LIT18,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT19}};
 #define _OMC_LIT20 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT20)
-#define _OMC_LIT21_data "Evaluates all the final parameters in addition to parameters with annotation(Evaluate=true)."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT21,92,_OMC_LIT21_data);
+#define _OMC_LIT21_data "evaluateProtectedParameters"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT21,27,_OMC_LIT21_data);
 #define _OMC_LIT21 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT21)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT22,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT21}};
-#define _OMC_LIT22 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT22)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT23,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(99)),_OMC_LIT18,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT19,_OMC_LIT20,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT22}};
+#define _OMC_LIT22_data "Evaluates all the protected parameters in addition to parameters with annotation(Evaluate=true)."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT22,96,_OMC_LIT22_data);
+#define _OMC_LIT22 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT22)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT23,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(100)),_OMC_LIT21,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT17,_OMC_LIT18,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT22}};
 #define _OMC_LIT23 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT23)
-#define _OMC_LIT24_data "evaluateProtectedParameters"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT24,27,_OMC_LIT24_data);
+#define _OMC_LIT24_data "\nStructural parameters and parameters with annotation(Evaluate=true) will be evaluated.\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT24,88,_OMC_LIT24_data);
 #define _OMC_LIT24 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT24)
-#define _OMC_LIT25_data "Evaluates all the protected parameters in addition to parameters with annotation(Evaluate=true)."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT25,96,_OMC_LIT25_data);
+#define _OMC_LIT25_data "\nStructural parameters, final parameters and parameters with annotation(Evaluate=true) will be evaluated.\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT25,106,_OMC_LIT25_data);
 #define _OMC_LIT25 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT25)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT26,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT25}};
-#define _OMC_LIT26 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT26)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT27,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(100)),_OMC_LIT24,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT19,_OMC_LIT20,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT26}};
-#define _OMC_LIT27 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT27)
-#define _OMC_LIT28_data "\nStructural parameters and parameters with annotation(Evaluate=true) will be evaluated.\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT28,88,_OMC_LIT28_data);
+#define _OMC_LIT26_data "\nStructural parameters, protected parameters and parameters with annotation(Evaluate=true) will be evaluated.\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT26,110,_OMC_LIT26_data);
+#define _OMC_LIT26 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT26)
+#define _OMC_LIT27_data "\nStructural parameters, final parameters, protected parameters and parameters with annotation(Evaluate=true) will be evaluated.\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT27,128,_OMC_LIT27_data);
+#define _OMC_LIT27 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT27)
+#define _OMC_LIT28_data "\nSTART evaluating parameters:\n================================================================================\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT28,111,_OMC_LIT28_data);
 #define _OMC_LIT28 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT28)
-#define _OMC_LIT29_data "\nStructural parameters, final parameters and parameters with annotation(Evaluate=true) will be evaluated.\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT29,106,_OMC_LIT29_data);
+#define _OMC_LIT29_data "Number of parameters: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT29,22,_OMC_LIT29_data);
 #define _OMC_LIT29 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT29)
-#define _OMC_LIT30_data "\nStructural parameters, protected parameters and parameters with annotation(Evaluate=true) will be evaluated.\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT30,110,_OMC_LIT30_data);
+#define _OMC_LIT30_data "\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT30,1,_OMC_LIT30_data);
 #define _OMC_LIT30 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT30)
-#define _OMC_LIT31_data "\nStructural parameters, final parameters, protected parameters and parameters with annotation(Evaluate=true) will be evaluated.\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT31,128,_OMC_LIT31_data);
+#define _OMC_LIT31_data "Number of parameters selected for evaluation: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT31,46,_OMC_LIT31_data);
 #define _OMC_LIT31 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT31)
-#define _OMC_LIT32_data "\nSTART evaluating parameters:\n================================================================================\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT32,111,_OMC_LIT32_data);
+#define _OMC_LIT32_data "Selected parameters for evaluation:\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT32,36,_OMC_LIT32_data);
 #define _OMC_LIT32 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT32)
-#define _OMC_LIT33_data "Number of parameters: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT33,22,_OMC_LIT33_data);
+#define _OMC_LIT33_data ","
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT33,1,_OMC_LIT33_data);
 #define _OMC_LIT33 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT33)
-#define _OMC_LIT34_data "\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT34,1,_OMC_LIT34_data);
+#define _OMC_LIT34_data "\n\nAfter evaluating the selected parameters:\n================================================================================\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT34,125,_OMC_LIT34_data);
 #define _OMC_LIT34 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT34)
-#define _OMC_LIT35_data "Number of parameters selected for evaluation: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT35,46,_OMC_LIT35_data);
+#define _OMC_LIT35_data "\nAll replacements:"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT35,18,_OMC_LIT35_data);
 #define _OMC_LIT35 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT35)
-#define _OMC_LIT36_data "Selected parameters for evaluation:\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT36,36,_OMC_LIT36_data);
+#define _OMC_LIT36_data "\nReplacements that will be replaced in the DAE:"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT36,47,_OMC_LIT36_data);
 #define _OMC_LIT36 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT36)
-#define _OMC_LIT37_data ","
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT37,1,_OMC_LIT37_data);
+#define _OMC_LIT37_data "globalKnownVars"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT37,15,_OMC_LIT37_data);
 #define _OMC_LIT37 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT37)
-#define _OMC_LIT38_data "\n\nAfter evaluating the selected parameters:\n================================================================================\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT38,125,_OMC_LIT38_data);
+#define _OMC_LIT38_data "\nmark: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT38,7,_OMC_LIT38_data);
 #define _OMC_LIT38 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT38)
-#define _OMC_LIT39_data "\nAll replacements:"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT39,18,_OMC_LIT39_data);
+#define _OMC_LIT39_data "markarr: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT39,9,_OMC_LIT39_data);
 #define _OMC_LIT39 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT39)
-#define _OMC_LIT40_data "\nReplacements that will be replaced in the DAE:"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT40,47,_OMC_LIT40_data);
+#define _OMC_LIT40_data "\n\nAfter sorting parameters:\n================================================================================\nOrder:\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT40,116,_OMC_LIT40_data);
 #define _OMC_LIT40 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT40)
-#define _OMC_LIT41_data "globalKnownVars"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT41,15,_OMC_LIT41_data);
+#define _OMC_LIT41_data "\n\nAfter replacing the evaluated parameters in parameter bindings:\n================================================================================"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT41,146,_OMC_LIT41_data);
 #define _OMC_LIT41 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT41)
-#define _OMC_LIT42_data "\nmark: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT42,7,_OMC_LIT42_data);
+#define _OMC_LIT42_data "\n\nAfter replacing the evaluated parameters in variable bindings and start attributes:\n================================================================================"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT42,166,_OMC_LIT42_data);
 #define _OMC_LIT42 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT42)
-#define _OMC_LIT43_data "markarr: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT43,9,_OMC_LIT43_data);
+#define _OMC_LIT43_data "\n\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT43,2,_OMC_LIT43_data);
 #define _OMC_LIT43 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT43)
-#define _OMC_LIT44_data "\n\nAfter sorting parameters:\n================================================================================\nOrder:\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT44,116,_OMC_LIT44_data);
+#define _OMC_LIT44_data "replaceEvaluatedParameters"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT44,26,_OMC_LIT44_data);
 #define _OMC_LIT44 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT44)
-#define _OMC_LIT45_data "\n\nAfter replacing the evaluated parameters in parameter bindings:\n================================================================================"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT45,146,_OMC_LIT45_data);
-#define _OMC_LIT45 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT45)
-#define _OMC_LIT46_data "\n\nAfter replacing the evaluated parameters in variable bindings and start attributes:\n================================================================================"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT46,166,_OMC_LIT46_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT45,2,4) {&Flags_FlagData_BOOL__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(1 /* true */))}};
+#define _OMC_LIT45 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT45)
+#define _OMC_LIT46_data "Replaces all the evaluated parameters in the DAE."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT46,49,_OMC_LIT46_data);
 #define _OMC_LIT46 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT46)
-#define _OMC_LIT47_data "\n\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT47,2,_OMC_LIT47_data);
-#define _OMC_LIT47 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT47)
-#define _OMC_LIT48_data "replaceEvaluatedParameters"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT48,26,_OMC_LIT48_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT47,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(101)),_OMC_LIT44,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT17,_OMC_LIT45,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT46}};
+#define _OMC_LIT47 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT47)
+#define _OMC_LIT48_data "Evaluated parameters are not replaced in the DAE. Use --replaceEvaluatedParameters=true to replace them in the DAE."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT48,115,_OMC_LIT48_data);
 #define _OMC_LIT48 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT48)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT49,2,4) {&Flags_FlagData_BOOL__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(1 /* true */))}};
-#define _OMC_LIT49 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT49)
-#define _OMC_LIT50_data "Replaces all the evaluated parameters in the DAE."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT50,49,_OMC_LIT50_data);
+#define _OMC_LIT49_data "\nThere is no evaluated parameter.\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT49,34,_OMC_LIT49_data);
+#define _OMC_LIT49 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT49)
+#define _OMC_LIT50_data "DAE after replacing the evaluated parameters"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT50,44,_OMC_LIT50_data);
 #define _OMC_LIT50 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT50)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT51,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT50}};
-#define _OMC_LIT51 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT51)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT52,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(101)),_OMC_LIT48,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT19,_OMC_LIT49,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT51}};
-#define _OMC_LIT52 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT52)
-#define _OMC_LIT53_data "Evaluated parameters are not replaced in the DAE. Use --replaceEvaluatedParameters=true to replace them in the DAE."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT53,115,_OMC_LIT53_data);
-#define _OMC_LIT53 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT53)
-#define _OMC_LIT54_data "\nThere is no evaluated parameter.\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT54,34,_OMC_LIT54_data);
+#define _OMC_LIT51_data "evaluateAllParameters"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT51,21,_OMC_LIT51_data);
+#define _OMC_LIT51 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT51)
+#define _OMC_LIT52_data "Evaluates all parameters if set, except the ones that have annotation(Evaluate = false)."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT52,88,_OMC_LIT52_data);
+#define _OMC_LIT52 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT52)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT53,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(26)),_OMC_LIT51,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT52}};
+#define _OMC_LIT53 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT53)
+#define _OMC_LIT54_data "\nEND of preOptModule 'evaluateParameters'\n********************************************************************************\n\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT54,124,_OMC_LIT54_data);
 #define _OMC_LIT54 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT54)
-#define _OMC_LIT55_data "DAE after replacing the evaluated parameters"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT55,44,_OMC_LIT55_data);
-#define _OMC_LIT55 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT55)
-#define _OMC_LIT56_data "evaluateAllParameters"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT56,21,_OMC_LIT56_data);
-#define _OMC_LIT56 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT56)
-#define _OMC_LIT57_data "Evaluates all parameters if set, except the ones that have annotation(Evaluate = false)."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT57,88,_OMC_LIT57_data);
-#define _OMC_LIT57 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT57)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT58,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT57}};
-#define _OMC_LIT58 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT58)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT59,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(26)),_OMC_LIT56,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT58}};
-#define _OMC_LIT59 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT59)
-#define _OMC_LIT60_data "\nEND of preOptModule 'evaluateParameters'\n********************************************************************************\n\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT60,124,_OMC_LIT60_data);
-#define _OMC_LIT60 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT60)
 #include "util/modelica.h"
 
 #include "EvaluateParameter_includes.h"
@@ -1357,127 +1345,38 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_EvaluateParameter_traverseParame
   modelica_metatype _oReplEvaluate = NULL;
   modelica_metatype _oCache = NULL;
   modelica_integer _oMark;
-  modelica_integer tmp1_c4 __attribute__((unused)) = 0;
-  modelica_metatype tmpMeta[5] __attribute__((unused)) = {0};
+  modelica_metatype _v = NULL;
+  modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta3;
+  modelica_metatype tmpMeta4;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _oKnVars has no default value.
-  // _oRepl has no default value.
-  // _oReplEvaluate has no default value.
-  // _oCache has no default value.
-  // _oMark has no default value.
-  
-  
-  
-  
-  
-  { /* match expression */
-    modelica_metatype tmp4_1;
-    tmp4_1 = _inComps;
+  _oKnVars = _inGlobalKnownVars;
+  _oRepl = _repl;
+  _oReplEvaluate = _replEvaluate;
+  _oCache = _iCache;
+  _oMark = _iMark;
+  // _v has no default value.
+  {
+    modelica_metatype _ilst;
+    for (tmpMeta1 = _inComps; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _globalKnownVars = NULL;
-      modelica_metatype _v = NULL;
-      modelica_metatype _repl1 = NULL;
-      modelica_metatype _evrepl = NULL;
-      modelica_integer _i;
-      modelica_integer _mark;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _cache = NULL;
-      modelica_metatype _ilst = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _globalKnownVars has no default value.
-      // _v has no default value.
-      // _repl1 has no default value.
-      // _evrepl has no default value.
-      // _i has no default value.
-      // _mark has no default value.
-      // _rest has no default value.
-      // _cache has no default value.
-      // _ilst has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 3; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_1)) goto tmp3_end;
-          /* Pattern matching succeeded */
-          tmpMeta[0+0] = _inGlobalKnownVars;
-          tmpMeta[0+1] = _repl;
-          tmpMeta[0+2] = _replEvaluate;
-          tmpMeta[0+3] = _iCache;
-          tmp1_c4 = _iMark;
-          goto tmp3_done;
-        }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          modelica_metatype tmpMeta8;
-          modelica_metatype tmpMeta9;
-          modelica_integer tmp10;
-          if (listEmpty(tmp4_1)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_1);
-          tmpMeta7 = MMC_CDR(tmp4_1);
-          if (listEmpty(tmpMeta6)) goto tmp3_end;
-          tmpMeta8 = MMC_CAR(tmpMeta6);
-          tmpMeta9 = MMC_CDR(tmpMeta6);
-          tmp10 = mmc_unbox_integer(tmpMeta8);
-          if (!listEmpty(tmpMeta9)) goto tmp3_end;
-          _i = tmp10  /* pattern as ty=Integer */;
-          _rest = tmpMeta7;
-          /* Pattern matching succeeded */
-          _v = omc_BackendVariable_getVarAt(threadData, _inGlobalKnownVars, _i);
+      _ilst = MMC_CAR(tmpMeta1);
+      {
+        modelica_metatype _i;
+        for (tmpMeta2 = _ilst; !listEmpty(tmpMeta2); tmpMeta2=MMC_CDR(tmpMeta2))
+        {
+          _i = MMC_CAR(tmpMeta2);
+          _v = omc_BackendVariable_getVarAt(threadData, _oKnVars, mmc_unbox_integer(_i));
 
-          _v = omc_EvaluateParameter_evaluateFixedAttribute(threadData, _v, 1 /* true */, _inGlobalKnownVars, _m, _inIEqns, _iCache, _graph, _iMark, _markarr, _isInitial, _repl ,&_globalKnownVars ,&_cache ,&_mark ,&_repl1);
+          _v = omc_EvaluateParameter_evaluateFixedAttribute(threadData, _v, 1 /* true */, _oKnVars, _m, _inIEqns, _oCache, _graph, _oMark, _markarr, _isInitial, _oRepl ,&_oKnVars ,&_oCache ,&_oMark ,&_oRepl);
 
-          _globalKnownVars = omc_EvaluateParameter_evaluateParameterBindings(threadData, _v, _i, _globalKnownVars, _cache, _graph, _repl1, _replEvaluate ,&_repl1 ,&_evrepl);
-          /* Tail recursive call */
-          _inComps = _rest;
-          _inGlobalKnownVars = _globalKnownVars;
-          _iCache = _cache;
-          _iMark = _mark;
-          _repl = _repl1;
-          _replEvaluate = _evrepl;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
+          _oKnVars = omc_EvaluateParameter_evaluateParameterBindings(threadData, _v, mmc_unbox_integer(_i), _oKnVars, _oCache, _graph, _oRepl, _oReplEvaluate ,&_oRepl ,&_oReplEvaluate);
         }
-        case 2: {
-          modelica_metatype tmpMeta11;
-          modelica_metatype tmpMeta12;
-          if (listEmpty(tmp4_1)) goto tmp3_end;
-          tmpMeta11 = MMC_CAR(tmp4_1);
-          tmpMeta12 = MMC_CDR(tmp4_1);
-          _ilst = tmpMeta11;
-          _rest = tmpMeta12;
-          /* Pattern matching succeeded */
-          _globalKnownVars = omc_EvaluateParameter_traverseParameterSorted(threadData, omc_List_map(threadData, _ilst, boxvar_List_create), _inGlobalKnownVars, _m, _inIEqns, _iCache, _graph, _iMark, _markarr, _repl, _replEvaluate, _isInitial ,&_repl1 ,&_evrepl ,&_cache ,&_mark);
-          /* Tail recursive call */
-          _inComps = _rest;
-          _inGlobalKnownVars = _globalKnownVars;
-          _iCache = _cache;
-          _iMark = _mark;
-          _repl = _repl1;
-          _replEvaluate = _evrepl;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
     }
   }
-  _oKnVars = tmpMeta[0+0];
-  _oRepl = tmpMeta[0+1];
-  _oReplEvaluate = tmpMeta[0+2];
-  _oCache = tmpMeta[0+3];
-  _oMark = tmp1_c4;
   _return: OMC_LABEL_UNUSED
   if (out_oRepl) { *out_oRepl = _oRepl; }
   if (out_oReplEvaluate) { *out_oReplEvaluate = _oReplEvaluate; }
@@ -1663,15 +1562,15 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_EvaluateParameter_evaluateFixedA
     tmpMeta1 = mmc_mk_box3(0, _globalKnownVars, mmc_mk_boolean(0 /* false */), omc_HashSet_emptyHashSet(threadData));
     _outExp = omc_Expression_traverseExpBottomUp(threadData, _e1, boxvar_EvaluateParameter_replaceCrefWithBindStartExp, tmpMeta1, NULL);
 
-    tmpMeta2 = stringAppend(omc_ComponentReference_printComponentRefStr(threadData, _cr),_OMC_LIT1);
-    tmpMeta3 = stringAppend(tmpMeta2,omc_ExpressionDump_printExpStr(threadData, _e));
+    tmpMeta2 = stringAppend(omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr),_OMC_LIT1);
+    tmpMeta3 = stringAppend(tmpMeta2,omc_ExpressionBasics_printExpStr(threadData, _e));
     tmpMeta4 = stringAppend(tmpMeta3,_OMC_LIT2);
-    tmpMeta5 = stringAppend(tmpMeta4,omc_ExpressionDump_printExpStr(threadData, _outExp));
+    tmpMeta5 = stringAppend(tmpMeta4,omc_ExpressionBasics_printExpStr(threadData, _outExp));
     tmpMeta6 = stringAppend(tmpMeta5,_OMC_LIT3);
     _msg = tmpMeta6;
 
     tmpMeta7 = mmc_mk_cons(_msg, MMC_REFSTRUCTLIT(mmc_nil));
-    omc_Error_addSourceMessage(threadData, _OMC_LIT8, tmpMeta7, _info);
+    omc_Error_addSourceMessage(threadData, _OMC_LIT7, tmpMeta7, _info);
   }
   _return: OMC_LABEL_UNUSED
   return _outExp;
@@ -1715,7 +1614,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_EvaluateParameter_evaluateFixedA
   _e1 = omc_BackendVarTransform_replaceExp(threadData, _e, _repl, mmc_mk_none(), NULL);
 
   /* Pattern-matching tuple assignment, wild first pattern */
-  tmpMeta3 = mmc_mk_box3(0, _globalKnownVars, _OMC_LIT9, mmc_mk_boolean(_isInitial));
+  tmpMeta3 = mmc_mk_box3(0, _globalKnownVars, _OMC_LIT8, mmc_mk_boolean(_isInitial));
   omc_Expression_traverseExpTopDown(threadData, _e1, boxvar_BackendDAEUtil_traversingadjacencyRowExpFinder, tmpMeta3, &tmpMeta1);
   tmpMeta2 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta1), 2));
   _ilst = tmpMeta2;
@@ -2382,14 +2281,14 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_EvaluateParameter_evaluateSelect
           modelica_metatype tmpMeta30;
           
           /* Pattern matching succeeded */
-          if(omc_Flags_isSet(threadData, _OMC_LIT14))
+          if(omc_Flags_isSet(threadData, _OMC_LIT12))
           {
             _info = omc_ElementSource_getElementSourceFileInfo(threadData, omc_BackendVariable_getVarSource(threadData, _var));
 
-            tmpMeta29 = stringAppend(_OMC_LIT10,omc_BackendDump_varString(threadData, _var));
+            tmpMeta29 = stringAppend(_OMC_LIT9,omc_BackendDump_varString(threadData, _var));
             tmpMeta30 = stringAppend(tmpMeta29,_OMC_LIT3);
             tmpMeta28 = mmc_mk_cons(tmpMeta30, MMC_REFSTRUCTLIT(mmc_nil));
-            omc_Error_addSourceMessage(threadData, _OMC_LIT8, tmpMeta28, _info);
+            omc_Error_addSourceMessage(threadData, _OMC_LIT7, tmpMeta28, _info);
           }
           goto tmp2_done;
         }
@@ -2810,7 +2709,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_EvaluateParameter_getParameterAd
           _isInitial = tmp18  /* pattern as ty=Boolean */;
           /* Pattern matching succeeded */
           /* Pattern-matching tuple assignment, wild first pattern */
-          tmpMeta21 = mmc_mk_box3(0, _globalKnownVars, _OMC_LIT9, mmc_mk_boolean(_isInitial));
+          tmpMeta21 = mmc_mk_box3(0, _globalKnownVars, _OMC_LIT8, mmc_mk_boolean(_isInitial));
           omc_Expression_traverseExpTopDown(threadData, _e, boxvar_BackendDAEUtil_traversingadjacencyRowExpFinder, tmpMeta21, &tmpMeta19);
           tmpMeta20 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta19), 2));
           _tree = tmpMeta20;
@@ -2879,7 +2778,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_EvaluateParameter_getParameterAd
           _e = omc_DAEUtil_getStartAttrFail(threadData, _attr);
 
           /* Pattern-matching tuple assignment, wild first pattern */
-          tmpMeta39 = mmc_mk_box3(0, _globalKnownVars, _OMC_LIT9, mmc_mk_boolean(_isInitial));
+          tmpMeta39 = mmc_mk_box3(0, _globalKnownVars, _OMC_LIT8, mmc_mk_boolean(_isInitial));
           omc_Expression_traverseExpTopDown(threadData, _e, boxvar_BackendDAEUtil_traversingadjacencyRowExpFinder, tmpMeta39, &tmpMeta37);
           tmpMeta38 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta37), 2));
           _tree = tmpMeta38;
@@ -2978,6 +2877,11 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_EvaluateParameter_getParameterAd
 DLLDirection
 modelica_metatype omc_EvaluateParameter_evaluateParameters(threadData_t *threadData, modelica_metatype __omcQ_24in_5FDAE)
 {
+  modelica_metatype __omcQ_24mrfa_5F0 = NULL;
+  modelica_metatype __omcQ_24mrfa_5F1 = NULL;
+  modelica_metatype __omcQ_24mrfa_5F2 = NULL;
+  modelica_metatype __omcQ_24mrfa_5F3 = NULL;
+  modelica_metatype __omcQ_24mrfa_5F4 = NULL;
   modelica_metatype _DAE = NULL;
   modelica_fnptr _selectParameterfunc;
   modelica_metatype _globalKnownVars = NULL;
@@ -3055,12 +2959,13 @@ modelica_metatype omc_EvaluateParameter_evaluateParameters(threadData_t *threadD
   modelica_metatype tmpMeta57;
   modelica_metatype tmpMeta58;
   modelica_metatype tmpMeta59;
-  modelica_metatype tmpMeta60;
-  modelica_metatype tmpMeta61;
-  modelica_metatype tmpMeta62;
-  modelica_metatype tmpMeta63;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
+  // __omcQ_24mrfa_5F0 has no default value.
+  // __omcQ_24mrfa_5F1 has no default value.
+  // __omcQ_24mrfa_5F2 has no default value.
+  // __omcQ_24mrfa_5F3 has no default value.
+  // __omcQ_24mrfa_5F4 has no default value.
   _DAE = __omcQ_24in_5FDAE;
   // _globalKnownVars has no default value.
   // _aliasVars has no default value.
@@ -3084,19 +2989,19 @@ modelica_metatype omc_EvaluateParameter_evaluateParameters(threadData_t *threadD
   // _isInitial has no default value.
   _isInitial = omc_BackendDAEUtil_isInitializationDAE(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_DAE), 3))));
 
-  if(omc_Flags_isSet(threadData, _OMC_LIT14))
+  if(omc_Flags_isSet(threadData, _OMC_LIT12))
   {
-    fputs(MMC_STRINGDATA(_OMC_LIT15),stdout);
+    fputs(MMC_STRINGDATA(_OMC_LIT13),stdout);
 
-    omc_BackendDump_dumpBackendDAE(threadData, _DAE, _OMC_LIT16);
+    omc_BackendDump_dumpBackendDAE(threadData, _DAE, _OMC_LIT14);
   }
 
-  if((!omc_Flags_isSet(threadData, _OMC_LIT59)))
+  if((!omc_Flags_isSet(threadData, _OMC_LIT53)))
   {
     { /* match expression */
       modelica_boolean tmp4_1;modelica_boolean tmp4_2;
-      tmp4_1 = omc_Flags_getConfigBool(threadData, _OMC_LIT23);
-      tmp4_2 = omc_Flags_getConfigBool(threadData, _OMC_LIT27);
+      tmp4_1 = omc_Flags_getConfigBool(threadData, _OMC_LIT20);
+      tmp4_2 = omc_Flags_getConfigBool(threadData, _OMC_LIT23);
       {
         volatile mmc_switch_type tmp4;
         int tmp5;
@@ -3107,9 +3012,9 @@ modelica_metatype omc_EvaluateParameter_evaluateParameters(threadData_t *threadD
             if (0 /* false */ != tmp4_1) goto tmp3_end;
             if (0 /* false */ != tmp4_2) goto tmp3_end;
             /* Pattern matching succeeded */
-            if(omc_Flags_isSet(threadData, _OMC_LIT14))
+            if(omc_Flags_isSet(threadData, _OMC_LIT12))
             {
-              fputs(MMC_STRINGDATA(_OMC_LIT28),stdout);
+              fputs(MMC_STRINGDATA(_OMC_LIT24),stdout);
             }
             tmp1 = boxvar_BackendVariable_hasVarEvaluateAnnotationTrue;
             goto tmp3_done;
@@ -3118,9 +3023,9 @@ modelica_metatype omc_EvaluateParameter_evaluateParameters(threadData_t *threadD
             if (1 /* true */ != tmp4_1) goto tmp3_end;
             if (0 /* false */ != tmp4_2) goto tmp3_end;
             /* Pattern matching succeeded */
-            if(omc_Flags_isSet(threadData, _OMC_LIT14))
+            if(omc_Flags_isSet(threadData, _OMC_LIT12))
             {
-              fputs(MMC_STRINGDATA(_OMC_LIT29),stdout);
+              fputs(MMC_STRINGDATA(_OMC_LIT25),stdout);
             }
             tmp1 = boxvar_BackendVariable_hasVarEvaluateAnnotationTrueOrFinal;
             goto tmp3_done;
@@ -3129,9 +3034,9 @@ modelica_metatype omc_EvaluateParameter_evaluateParameters(threadData_t *threadD
             if (0 /* false */ != tmp4_1) goto tmp3_end;
             if (1 /* true */ != tmp4_2) goto tmp3_end;
             /* Pattern matching succeeded */
-            if(omc_Flags_isSet(threadData, _OMC_LIT14))
+            if(omc_Flags_isSet(threadData, _OMC_LIT12))
             {
-              fputs(MMC_STRINGDATA(_OMC_LIT30),stdout);
+              fputs(MMC_STRINGDATA(_OMC_LIT26),stdout);
             }
             tmp1 = boxvar_BackendVariable_hasVarEvaluateAnnotationTrueOrProtected;
             goto tmp3_done;
@@ -3140,9 +3045,9 @@ modelica_metatype omc_EvaluateParameter_evaluateParameters(threadData_t *threadD
             if (1 /* true */ != tmp4_1) goto tmp3_end;
             if (1 /* true */ != tmp4_2) goto tmp3_end;
             /* Pattern matching succeeded */
-            if(omc_Flags_isSet(threadData, _OMC_LIT14))
+            if(omc_Flags_isSet(threadData, _OMC_LIT12))
             {
-              fputs(MMC_STRINGDATA(_OMC_LIT31),stdout);
+              fputs(MMC_STRINGDATA(_OMC_LIT27),stdout);
             }
             tmp1 = boxvar_BackendVariable_hasVarEvaluateAnnotationTrueOrFinalOrProtected;
             goto tmp3_done;
@@ -3202,20 +3107,20 @@ modelica_metatype omc_EvaluateParameter_evaluateParameters(threadData_t *threadD
 
     _nselect = listLength(_selectedParameters);
 
-    if(omc_Flags_isSet(threadData, _OMC_LIT14))
+    if(omc_Flags_isSet(threadData, _OMC_LIT12))
     {
-      fputs(MMC_STRINGDATA(_OMC_LIT32),stdout);
+      fputs(MMC_STRINGDATA(_OMC_LIT28),stdout);
 
-      tmpMeta22 = stringAppend(_OMC_LIT33,intString(_size));
-      tmpMeta23 = stringAppend(tmpMeta22,_OMC_LIT34);
+      tmpMeta22 = stringAppend(_OMC_LIT29,intString(_size));
+      tmpMeta23 = stringAppend(tmpMeta22,_OMC_LIT30);
       fputs(MMC_STRINGDATA(tmpMeta23),stdout);
 
-      tmpMeta24 = stringAppend(_OMC_LIT35,intString(_nselect));
-      tmpMeta25 = stringAppend(tmpMeta24,_OMC_LIT34);
+      tmpMeta24 = stringAppend(_OMC_LIT31,intString(_nselect));
+      tmpMeta25 = stringAppend(tmpMeta24,_OMC_LIT30);
       fputs(MMC_STRINGDATA(tmpMeta25),stdout);
 
-      tmpMeta26 = stringAppend(_OMC_LIT36,stringDelimitList(omc_List_map(threadData, _selectedParameters, boxvar_intString), _OMC_LIT37));
-      tmpMeta27 = stringAppend(tmpMeta26,_OMC_LIT34);
+      tmpMeta26 = stringAppend(_OMC_LIT32,stringDelimitList(omc_List_map(threadData, _selectedParameters, boxvar_intString), _OMC_LIT33));
+      tmpMeta27 = stringAppend(tmpMeta26,_OMC_LIT30);
       fputs(MMC_STRINGDATA(tmpMeta27),stdout);
 
       omc_BackendDump_dumpAdjacencyMatrix(threadData, _m);
@@ -3235,41 +3140,41 @@ modelica_metatype omc_EvaluateParameter_evaluateParameters(threadData_t *threadD
 
     _globalKnownVars = omc_EvaluateParameter_evaluateSelectedParameters(threadData, _selectedParameters, _globalKnownVars, _m, _initialEqs, _cache, _graph, _markarr, _isInitial, _repl, _oRepl, ((modelica_integer) 1) ,&_cache ,&_repl ,&_oRepl ,&_mark);
 
-    if(omc_Flags_isSet(threadData, _OMC_LIT14))
+    if(omc_Flags_isSet(threadData, _OMC_LIT12))
     {
-      fputs(MMC_STRINGDATA(_OMC_LIT38),stdout);
+      fputs(MMC_STRINGDATA(_OMC_LIT34),stdout);
 
-      fputs(MMC_STRINGDATA(_OMC_LIT39),stdout);
+      fputs(MMC_STRINGDATA(_OMC_LIT35),stdout);
 
       omc_BackendVarTransform_dumpReplacements(threadData, _repl);
 
-      fputs(MMC_STRINGDATA(_OMC_LIT40),stdout);
+      fputs(MMC_STRINGDATA(_OMC_LIT36),stdout);
 
       omc_BackendVarTransform_dumpReplacements(threadData, _oRepl);
 
-      omc_BackendDump_dumpVariables(threadData, _globalKnownVars, _OMC_LIT41);
+      omc_BackendDump_dumpVariables(threadData, _globalKnownVars, _OMC_LIT37);
 
-      tmpMeta28 = stringAppend(_OMC_LIT42,intString(_mark));
-      tmpMeta29 = stringAppend(tmpMeta28,_OMC_LIT34);
+      tmpMeta28 = stringAppend(_OMC_LIT38,intString(_mark));
+      tmpMeta29 = stringAppend(tmpMeta28,_OMC_LIT30);
       fputs(MMC_STRINGDATA(tmpMeta29),stdout);
 
-      tmpMeta30 = stringAppend(_OMC_LIT43,stringDelimitList(omc_List_mapArray(threadData, _markarr, boxvar_intString), _OMC_LIT37));
-      tmpMeta31 = stringAppend(tmpMeta30,_OMC_LIT34);
+      tmpMeta30 = stringAppend(_OMC_LIT39,stringDelimitList(omc_List_mapArray(threadData, _markarr, boxvar_intString), _OMC_LIT33));
+      tmpMeta31 = stringAppend(tmpMeta30,_OMC_LIT30);
       fputs(MMC_STRINGDATA(tmpMeta31),stdout);
     }
 
     _comps = omc_Sorting_TarjanTransposed(threadData, _mt, _ass2);
 
-    if(omc_Flags_isSet(threadData, _OMC_LIT14))
+    if(omc_Flags_isSet(threadData, _OMC_LIT12))
     {
-      fputs(MMC_STRINGDATA(_OMC_LIT44),stdout);
+      fputs(MMC_STRINGDATA(_OMC_LIT40),stdout);
 
       {
         modelica_metatype _comp;
         for (tmpMeta32 = _comps; !listEmpty(tmpMeta32); tmpMeta32=MMC_CDR(tmpMeta32))
         {
           _comp = MMC_CAR(tmpMeta32);
-          tmpMeta33 = stringAppend(stringDelimitList(omc_List_map(threadData, _comp, boxvar_intString), _OMC_LIT37),_OMC_LIT34);
+          tmpMeta33 = stringAppend(stringDelimitList(omc_List_map(threadData, _comp, boxvar_intString), _OMC_LIT33),_OMC_LIT30);
           fputs(MMC_STRINGDATA(tmpMeta33),stdout);
         }
       }
@@ -3277,26 +3182,26 @@ modelica_metatype omc_EvaluateParameter_evaluateParameters(threadData_t *threadD
 
     _globalKnownVars = omc_EvaluateParameter_traverseParameterSorted(threadData, _comps, _globalKnownVars, _m, _initialEqs, _cache, _graph, _mark, _markarr, _repl, _oRepl, _isInitial ,&_repl ,&_oRepl ,&_cache ,&_mark);
 
-    if(omc_Flags_isSet(threadData, _OMC_LIT14))
+    if(omc_Flags_isSet(threadData, _OMC_LIT12))
     {
-      fputs(MMC_STRINGDATA(_OMC_LIT45),stdout);
+      fputs(MMC_STRINGDATA(_OMC_LIT41),stdout);
 
-      fputs(MMC_STRINGDATA(_OMC_LIT39),stdout);
+      fputs(MMC_STRINGDATA(_OMC_LIT35),stdout);
 
       omc_BackendVarTransform_dumpReplacements(threadData, _repl);
 
-      fputs(MMC_STRINGDATA(_OMC_LIT40),stdout);
+      fputs(MMC_STRINGDATA(_OMC_LIT36),stdout);
 
       omc_BackendVarTransform_dumpReplacements(threadData, _oRepl);
 
-      omc_BackendDump_dumpVariables(threadData, _globalKnownVars, _OMC_LIT41);
+      omc_BackendDump_dumpVariables(threadData, _globalKnownVars, _OMC_LIT37);
 
-      tmpMeta35 = stringAppend(_OMC_LIT42,intString(_mark));
-      tmpMeta36 = stringAppend(tmpMeta35,_OMC_LIT34);
+      tmpMeta35 = stringAppend(_OMC_LIT38,intString(_mark));
+      tmpMeta36 = stringAppend(tmpMeta35,_OMC_LIT30);
       fputs(MMC_STRINGDATA(tmpMeta36),stdout);
 
-      tmpMeta37 = stringAppend(_OMC_LIT43,stringDelimitList(omc_List_mapArray(threadData, _markarr, boxvar_intString), _OMC_LIT37));
-      tmpMeta38 = stringAppend(tmpMeta37,_OMC_LIT34);
+      tmpMeta37 = stringAppend(_OMC_LIT39,stringDelimitList(omc_List_mapArray(threadData, _markarr, boxvar_intString), _OMC_LIT33));
+      tmpMeta38 = stringAppend(tmpMeta37,_OMC_LIT30);
       fputs(MMC_STRINGDATA(tmpMeta38),stdout);
     }
 
@@ -3327,30 +3232,30 @@ modelica_metatype omc_EvaluateParameter_evaluateParameters(threadData_t *threadD
     tmpMeta52 = mmc_mk_box10(0, _globalKnownVars, _m, _initialEqs, _cache, _graph, mmc_mk_integer(_mark), _markarr, mmc_mk_boolean(_isInitial), _repl, _oRepl);
     _aliasVars = omc_BackendVariable_traverseBackendDAEVarsWithUpdate(threadData, _aliasVars, boxvar_EvaluateParameter_replaceEvaluatedParameterTraverser, tmpMeta52, NULL);
 
-    if(omc_Flags_isSet(threadData, _OMC_LIT14))
+    if(omc_Flags_isSet(threadData, _OMC_LIT12))
     {
-      fputs(MMC_STRINGDATA(_OMC_LIT46),stdout);
+      fputs(MMC_STRINGDATA(_OMC_LIT42),stdout);
 
-      fputs(MMC_STRINGDATA(_OMC_LIT39),stdout);
+      fputs(MMC_STRINGDATA(_OMC_LIT35),stdout);
 
       omc_BackendVarTransform_dumpReplacements(threadData, _repl);
 
-      fputs(MMC_STRINGDATA(_OMC_LIT40),stdout);
+      fputs(MMC_STRINGDATA(_OMC_LIT36),stdout);
 
       omc_BackendVarTransform_dumpReplacements(threadData, _oRepl);
 
-      omc_BackendDump_dumpVariables(threadData, _globalKnownVars, _OMC_LIT41);
+      omc_BackendDump_dumpVariables(threadData, _globalKnownVars, _OMC_LIT37);
 
-      tmpMeta53 = stringAppend(_OMC_LIT42,intString(_mark));
-      tmpMeta54 = stringAppend(tmpMeta53,_OMC_LIT34);
+      tmpMeta53 = stringAppend(_OMC_LIT38,intString(_mark));
+      tmpMeta54 = stringAppend(tmpMeta53,_OMC_LIT30);
       fputs(MMC_STRINGDATA(tmpMeta54),stdout);
 
-      tmpMeta55 = stringAppend(_OMC_LIT43,stringDelimitList(omc_List_mapArray(threadData, _markarr, boxvar_intString), _OMC_LIT37));
-      tmpMeta56 = stringAppend(tmpMeta55,_OMC_LIT47);
+      tmpMeta55 = stringAppend(_OMC_LIT39,stringDelimitList(omc_List_mapArray(threadData, _markarr, boxvar_intString), _OMC_LIT33));
+      tmpMeta56 = stringAppend(tmpMeta55,_OMC_LIT43);
       fputs(MMC_STRINGDATA(tmpMeta56),stdout);
     }
 
-    if(omc_Flags_getConfigBool(threadData, _OMC_LIT52))
+    if(omc_Flags_getConfigBool(threadData, _OMC_LIT47))
     {
       tmpMeta57 = MMC_TAGPTR(mmc_alloc_words(22));
       memcpy(MMC_UNTAGPTR(tmpMeta57), MMC_UNTAGPTR(_shared), 22*sizeof(modelica_metatype));
@@ -3358,72 +3263,60 @@ modelica_metatype omc_EvaluateParameter_evaluateParameters(threadData_t *threadD
       _shared = tmpMeta57;
     }
 
-    tmpMeta58 = MMC_TAGPTR(mmc_alloc_words(22));
-    memcpy(MMC_UNTAGPTR(tmpMeta58), MMC_UNTAGPTR(_shared), 22*sizeof(modelica_metatype));
-    ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta58))[2] = _globalKnownVars;
+    __omcQ_24mrfa_5F0 = _globalKnownVars;
+
+    __omcQ_24mrfa_5F1 = _aliasVars;
+
+    __omcQ_24mrfa_5F2 = _initialEqs;
+
+    __omcQ_24mrfa_5F3 = _graph;
+
+    __omcQ_24mrfa_5F4 = _cache;
+
+    tmpMeta58 = mmc_mk_box(21, 3, &BackendDAE_Shared_SHARED__desc, __omcQ_24mrfa_5F0, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_shared), 3))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_shared), 4))), __omcQ_24mrfa_5F1, __omcQ_24mrfa_5F2, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_shared), 7))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_shared), 8))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_shared), 9))), __omcQ_24mrfa_5F4, __omcQ_24mrfa_5F3, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_shared), 12))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_shared), 13))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_shared), 14))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_shared), 15))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_shared), 16))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_shared), 17))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_shared), 18))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_shared), 19))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_shared), 20))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_shared), 21))));
     _shared = tmpMeta58;
 
-    tmpMeta59 = MMC_TAGPTR(mmc_alloc_words(22));
-    memcpy(MMC_UNTAGPTR(tmpMeta59), MMC_UNTAGPTR(_shared), 22*sizeof(modelica_metatype));
-    ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta59))[5] = _aliasVars;
-    _shared = tmpMeta59;
+    tmpMeta59 = mmc_mk_box3(3, &BackendDAE_BackendDAE_DAE__desc, _systs, _shared);
+    _DAE = tmpMeta59;
 
-    tmpMeta60 = MMC_TAGPTR(mmc_alloc_words(22));
-    memcpy(MMC_UNTAGPTR(tmpMeta60), MMC_UNTAGPTR(_shared), 22*sizeof(modelica_metatype));
-    ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta60))[6] = _initialEqs;
-    _shared = tmpMeta60;
-
-    tmpMeta61 = MMC_TAGPTR(mmc_alloc_words(22));
-    memcpy(MMC_UNTAGPTR(tmpMeta61), MMC_UNTAGPTR(_shared), 22*sizeof(modelica_metatype));
-    ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta61))[11] = _graph;
-    _shared = tmpMeta61;
-
-    tmpMeta62 = MMC_TAGPTR(mmc_alloc_words(22));
-    memcpy(MMC_UNTAGPTR(tmpMeta62), MMC_UNTAGPTR(_shared), 22*sizeof(modelica_metatype));
-    ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta62))[10] = _cache;
-    _shared = tmpMeta62;
-
-    tmpMeta63 = mmc_mk_box3(3, &BackendDAE_BackendDAE_DAE__desc, _systs, _shared);
-    _DAE = tmpMeta63;
-
-    if(omc_Flags_getConfigBool(threadData, _OMC_LIT52))
+    if(omc_Flags_getConfigBool(threadData, _OMC_LIT47))
     {
       if((!omc_BackendVarTransform_isReplacementEmpty(threadData, _oRepl)))
       {
         _DAE = omc_EvaluateParameter_replaceEvaluatedParametersEqns(threadData, _DAE, _oRepl);
 
-        if(omc_Flags_isSet(threadData, _OMC_LIT14))
+        if(omc_Flags_isSet(threadData, _OMC_LIT12))
         {
-          omc_BackendDump_dumpBackendDAE(threadData, _DAE, _OMC_LIT55);
+          omc_BackendDump_dumpBackendDAE(threadData, _DAE, _OMC_LIT50);
         }
       }
       else
       {
-        if(omc_Flags_isSet(threadData, _OMC_LIT14))
+        if(omc_Flags_isSet(threadData, _OMC_LIT12))
         {
-          fputs(MMC_STRINGDATA(_OMC_LIT54),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT49),stdout);
         }
       }
     }
     else
     {
-      if(omc_Flags_isSet(threadData, _OMC_LIT14))
+      if(omc_Flags_isSet(threadData, _OMC_LIT12))
       {
-        omc_Error_addCompilerNotification(threadData, _OMC_LIT53);
+        omc_Error_addCompilerNotification(threadData, _OMC_LIT48);
       }
     }
   }
   else
   {
-    if(omc_Flags_isSet(threadData, _OMC_LIT14))
+    if(omc_Flags_isSet(threadData, _OMC_LIT12))
     {
-      fputs(MMC_STRINGDATA(_OMC_LIT17),stdout);
+      fputs(MMC_STRINGDATA(_OMC_LIT15),stdout);
     }
   }
 
-  if(omc_Flags_isSet(threadData, _OMC_LIT14))
+  if(omc_Flags_isSet(threadData, _OMC_LIT12))
   {
-    fputs(MMC_STRINGDATA(_OMC_LIT60),stdout);
+    fputs(MMC_STRINGDATA(_OMC_LIT54),stdout);
   }
   _return: OMC_LABEL_UNUSED
   return _DAE;

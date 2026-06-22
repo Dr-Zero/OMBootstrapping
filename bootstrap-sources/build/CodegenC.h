@@ -28,8 +28,6 @@ extern struct record_description Flags_ValidOptions_STRING__DESC__OPTION__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__OPTION__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description SimCodeFunction_Context_DAE__MODE__CONTEXT__desc;
 
 extern struct record_description SimCodeFunction_Context_JACOBIAN__CONTEXT__desc;
@@ -62,22 +60,25 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_genericCallHeaders,2,0) {(void
 #define boxvar_CodegenC_genericCallHeaders MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_genericCallHeaders)
 
 
-#define boxptr_CodegenC_lm__974 omc_CodegenC_lm__974
+#define boxptr_CodegenC_lm__996 omc_CodegenC_lm__996
 
 
-#define boxptr_CodegenC_fun__973 omc_CodegenC_fun__973
+#define boxptr_CodegenC_fun__995 omc_CodegenC_fun__995
 
 
-#define boxptr_CodegenC_lm__971 omc_CodegenC_lm__971
+#define boxptr_CodegenC_lm__993 omc_CodegenC_lm__993
 
 
-#define boxptr_CodegenC_lm__969 omc_CodegenC_lm__969
+#define boxptr_CodegenC_lm__991 omc_CodegenC_lm__991
 
 
-#define boxptr_CodegenC_fun__968 omc_CodegenC_fun__968
+#define boxptr_CodegenC_lm__989 omc_CodegenC_lm__989
 
 
-#define boxptr_CodegenC_fun__967 omc_CodegenC_fun__967
+#define boxptr_CodegenC_fun__988 omc_CodegenC_fun__988
+
+
+#define boxptr_CodegenC_fun__987 omc_CodegenC_fun__987
 
 
 DLLDirection
@@ -87,7 +88,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_subIterator,2,0) {(void*) boxp
 #define boxvar_CodegenC_subIterator MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_subIterator)
 
 
-#define boxptr_CodegenC_lm__965 omc_CodegenC_lm__965
+#define boxptr_CodegenC_lm__985 omc_CodegenC_lm__985
 
 
 DLLDirection
@@ -97,7 +98,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_forIteratorName,2,0) {(void*) 
 #define boxvar_CodegenC_forIteratorName MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_forIteratorName)
 
 
-#define boxptr_CodegenC_fun__963 omc_CodegenC_fun__963
+#define boxptr_CodegenC_fun__983 omc_CodegenC_fun__983
 
 
 DLLDirection
@@ -114,7 +115,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_forIterator,2,0) {(void*) boxp
 #define boxvar_CodegenC_forIterator MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_forIterator)
 
 
-#define boxptr_CodegenC_lm__960 omc_CodegenC_lm__960
+#define boxptr_CodegenC_lm__980 omc_CodegenC_lm__980
 
 
 DLLDirection
@@ -124,10 +125,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_resizableIterator,2,0) {(void*
 #define boxvar_CodegenC_resizableIterator MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_resizableIterator)
 
 
-#define boxptr_CodegenC_lm__958 omc_CodegenC_lm__958
+#define boxptr_CodegenC_lm__978 omc_CodegenC_lm__978
 
 
-#define boxptr_CodegenC_lm__957 omc_CodegenC_lm__957
+#define boxptr_CodegenC_lm__977 omc_CodegenC_lm__977
 
 
 DLLDirection
@@ -137,13 +138,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_genericIterator,2,0) {(void*) 
 #define boxvar_CodegenC_genericIterator MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_genericIterator)
 
 
-#define boxptr_CodegenC_lm__955 omc_CodegenC_lm__955
+#define boxptr_CodegenC_lm__975 omc_CodegenC_lm__975
 
 
-#define boxptr_CodegenC_lm__954 omc_CodegenC_lm__954
+#define boxptr_CodegenC_lm__974 omc_CodegenC_lm__974
 
 
-#define boxptr_CodegenC_lm__953 omc_CodegenC_lm__953
+#define boxptr_CodegenC_lm__973 omc_CodegenC_lm__973
 
 
 DLLDirection
@@ -153,19 +154,19 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_genericBranch,2,0) {(void*) bo
 #define boxvar_CodegenC_genericBranch MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_genericBranch)
 
 
-#define boxptr_CodegenC_fun__951 omc_CodegenC_fun__951
+#define boxptr_CodegenC_fun__971 omc_CodegenC_fun__971
 
 
-#define boxptr_CodegenC_lm__950 omc_CodegenC_lm__950
+#define boxptr_CodegenC_lm__970 omc_CodegenC_lm__970
 
 
-#define boxptr_CodegenC_fun__949 omc_CodegenC_fun__949
+#define boxptr_CodegenC_fun__969 omc_CodegenC_fun__969
 
 
-#define boxptr_CodegenC_lm__948 omc_CodegenC_lm__948
+#define boxptr_CodegenC_lm__968 omc_CodegenC_lm__968
 
 
-#define boxptr_CodegenC_fun__947 omc_CodegenC_fun__947
+#define boxptr_CodegenC_fun__967 omc_CodegenC_fun__967
 
 
 DLLDirection
@@ -182,40 +183,109 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_genericCallBodies,2,0) {(void*
 #define boxvar_CodegenC_genericCallBodies MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_genericCallBodies)
 
 
+#define boxptr_CodegenC_lm__962 omc_CodegenC_lm__962
+
+
+#define boxptr_CodegenC_fun__961 omc_CodegenC_fun__961
+
+
+#define boxptr_CodegenC_lm__958 omc_CodegenC_lm__958
+
+
+#define boxptr_CodegenC_lm__957 omc_CodegenC_lm__957
+
+
+#define boxptr_CodegenC_lm__955 omc_CodegenC_lm__955
+
+
+#define boxptr_CodegenC_lm__954 omc_CodegenC_lm__954
+
+
+#define boxptr_CodegenC_lm__951 omc_CodegenC_lm__951
+
+
+#define boxptr_CodegenC_lm__950 omc_CodegenC_lm__950
+
+
+#define boxptr_CodegenC_lm__948 omc_CodegenC_lm__948
+
+
+#define boxptr_CodegenC_lm__947 omc_CodegenC_lm__947
+
+
 #define boxptr_CodegenC_lm__944 omc_CodegenC_lm__944
 
 
-#define boxptr_CodegenC_fun__943 omc_CodegenC_fun__943
+#define boxptr_CodegenC_lm__942 omc_CodegenC_lm__942
 
 
-#define boxptr_CodegenC_lm__940 omc_CodegenC_lm__940
+#define boxptr_CodegenC_lm__941 omc_CodegenC_lm__941
 
 
-#define boxptr_CodegenC_lm__939 omc_CodegenC_lm__939
+#define boxptr_CodegenC_fun__940 omc_CodegenC_fun__940
+
+
+#define boxptr_CodegenC_fun__939 omc_CodegenC_fun__939
+
+
+DLLDirection
+modelica_metatype omc_CodegenC_equationNames__Partial(threadData_t *threadData, modelica_metatype _txt, modelica_metatype _a_eqs, modelica_string _a_modelNamePrefixStr, modelica_integer _a_i0, modelica_string _a_cref__der);
+DLLDirection
+modelica_metatype boxptr_CodegenC_equationNames__Partial(threadData_t *threadData, modelica_metatype _txt, modelica_metatype _a_eqs, modelica_metatype _a_modelNamePrefixStr, modelica_metatype _a_i0, modelica_metatype _a_cref__der);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_equationNames__Partial,2,0) {(void*) boxptr_CodegenC_equationNames__Partial,0}};
+#define boxvar_CodegenC_equationNames__Partial MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_equationNames__Partial)
 
 
 #define boxptr_CodegenC_lm__937 omc_CodegenC_lm__937
 
 
-#define boxptr_CodegenC_lm__936 omc_CodegenC_lm__936
+DLLDirection
+modelica_metatype omc_CodegenC_functionXXX__systemsPartial(threadData_t *threadData, modelica_metatype _txt, modelica_metatype _a_eqs, modelica_string _a_name, modelica_metatype _a_loop, modelica_metatype _a_varDecls, modelica_string _a_modelNamePrefixStr, modelica_metatype _a_modelInfo, modelica_metatype *out_out_a_loop, modelica_metatype *out_out_a_varDecls);
+#define boxptr_CodegenC_functionXXX__systemsPartial omc_CodegenC_functionXXX__systemsPartial
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__systemsPartial,2,0) {(void*) boxptr_CodegenC_functionXXX__systemsPartial,0}};
+#define boxvar_CodegenC_functionXXX__systemsPartial MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__systemsPartial)
+
+
+#define boxptr_CodegenC_lm__934 omc_CodegenC_lm__934
 
 
 #define boxptr_CodegenC_lm__933 omc_CodegenC_lm__933
 
 
-#define boxptr_CodegenC_lm__932 omc_CodegenC_lm__932
+DLLDirection
+modelica_metatype omc_CodegenC_functionXXX__systemPartial(threadData_t *threadData, modelica_metatype _txt, modelica_metatype _a_derivativEquations, modelica_string _a_name, modelica_integer _a_n, modelica_string _a_modelNamePrefixStr, modelica_metatype _a_modelInfo);
+DLLDirection
+modelica_metatype boxptr_CodegenC_functionXXX__systemPartial(threadData_t *threadData, modelica_metatype _txt, modelica_metatype _a_derivativEquations, modelica_metatype _a_name, modelica_metatype _a_n, modelica_metatype _a_modelNamePrefixStr, modelica_metatype _a_modelInfo);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__systemPartial,2,0) {(void*) boxptr_CodegenC_functionXXX__systemPartial,0}};
+#define boxvar_CodegenC_functionXXX__systemPartial MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__systemPartial)
+
+
+#define boxptr_CodegenC_fun__931 omc_CodegenC_fun__931
 
 
 #define boxptr_CodegenC_lm__930 omc_CodegenC_lm__930
 
 
-#define boxptr_CodegenC_lm__929 omc_CodegenC_lm__929
+DLLDirection
+modelica_metatype omc_CodegenC_optimizationComponents1(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_classAttribute, modelica_metatype _in_a_simCode, modelica_string _in_a_modelNamePrefixStr);
+#define boxptr_CodegenC_optimizationComponents1 omc_CodegenC_optimizationComponents1
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_optimizationComponents1,2,0) {(void*) boxptr_CodegenC_optimizationComponents1,0}};
+#define boxvar_CodegenC_optimizationComponents1 MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_optimizationComponents1)
+
+
+#define boxptr_CodegenC_fun__928 omc_CodegenC_fun__928
+
+
+#define boxptr_CodegenC_fun__927 omc_CodegenC_fun__927
 
 
 #define boxptr_CodegenC_lm__926 omc_CodegenC_lm__926
 
 
-#define boxptr_CodegenC_lm__924 omc_CodegenC_lm__924
+#define boxptr_CodegenC_fun__925 omc_CodegenC_fun__925
+
+
+#define boxptr_CodegenC_fun__924 omc_CodegenC_fun__924
 
 
 #define boxptr_CodegenC_lm__923 omc_CodegenC_lm__923
@@ -227,103 +297,34 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_genericCallBodies,2,0) {(void*
 #define boxptr_CodegenC_fun__921 omc_CodegenC_fun__921
 
 
-DLLDirection
-modelica_metatype omc_CodegenC_equationNames__Partial(threadData_t *threadData, modelica_metatype _txt, modelica_metatype _a_eqs, modelica_string _a_modelNamePrefixStr, modelica_integer _a_i0, modelica_string _a_cref__der);
-DLLDirection
-modelica_metatype boxptr_CodegenC_equationNames__Partial(threadData_t *threadData, modelica_metatype _txt, modelica_metatype _a_eqs, modelica_metatype _a_modelNamePrefixStr, modelica_metatype _a_i0, modelica_metatype _a_cref__der);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_equationNames__Partial,2,0) {(void*) boxptr_CodegenC_equationNames__Partial,0}};
-#define boxvar_CodegenC_equationNames__Partial MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_equationNames__Partial)
+#define boxptr_CodegenC_fun__920 omc_CodegenC_fun__920
 
 
 #define boxptr_CodegenC_lm__919 omc_CodegenC_lm__919
 
 
-DLLDirection
-modelica_metatype omc_CodegenC_functionXXX__systemsPartial(threadData_t *threadData, modelica_metatype _txt, modelica_metatype _a_eqs, modelica_string _a_name, modelica_metatype _a_loop, modelica_metatype _a_varDecls, modelica_string _a_modelNamePrefixStr, modelica_metatype _a_modelInfo, modelica_metatype *out_out_a_loop, modelica_metatype *out_out_a_varDecls);
-#define boxptr_CodegenC_functionXXX__systemsPartial omc_CodegenC_functionXXX__systemsPartial
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__systemsPartial,2,0) {(void*) boxptr_CodegenC_functionXXX__systemsPartial,0}};
-#define boxvar_CodegenC_functionXXX__systemsPartial MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__systemsPartial)
+#define boxptr_CodegenC_lm__918 omc_CodegenC_lm__918
 
 
-#define boxptr_CodegenC_lm__916 omc_CodegenC_lm__916
+#define boxptr_CodegenC_fun__917 omc_CodegenC_fun__917
+
+
+#define boxptr_CodegenC_fun__916 omc_CodegenC_fun__916
 
 
 #define boxptr_CodegenC_lm__915 omc_CodegenC_lm__915
 
 
-DLLDirection
-modelica_metatype omc_CodegenC_functionXXX__systemPartial(threadData_t *threadData, modelica_metatype _txt, modelica_metatype _a_derivativEquations, modelica_string _a_name, modelica_integer _a_n, modelica_string _a_modelNamePrefixStr, modelica_metatype _a_modelInfo);
-DLLDirection
-modelica_metatype boxptr_CodegenC_functionXXX__systemPartial(threadData_t *threadData, modelica_metatype _txt, modelica_metatype _a_derivativEquations, modelica_metatype _a_name, modelica_metatype _a_n, modelica_metatype _a_modelNamePrefixStr, modelica_metatype _a_modelInfo);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__systemPartial,2,0) {(void*) boxptr_CodegenC_functionXXX__systemPartial,0}};
-#define boxvar_CodegenC_functionXXX__systemPartial MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__systemPartial)
+#define boxptr_CodegenC_lm__914 omc_CodegenC_lm__914
 
 
 #define boxptr_CodegenC_fun__913 omc_CodegenC_fun__913
 
 
-#define boxptr_CodegenC_lm__912 omc_CodegenC_lm__912
-
-
-DLLDirection
-modelica_metatype omc_CodegenC_optimizationComponents1(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_classAttribute, modelica_metatype _in_a_simCode, modelica_string _in_a_modelNamePrefixStr);
-#define boxptr_CodegenC_optimizationComponents1 omc_CodegenC_optimizationComponents1
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_optimizationComponents1,2,0) {(void*) boxptr_CodegenC_optimizationComponents1,0}};
-#define boxvar_CodegenC_optimizationComponents1 MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_optimizationComponents1)
+#define boxptr_CodegenC_fun__911 omc_CodegenC_fun__911
 
 
 #define boxptr_CodegenC_fun__910 omc_CodegenC_fun__910
-
-
-#define boxptr_CodegenC_fun__909 omc_CodegenC_fun__909
-
-
-#define boxptr_CodegenC_lm__908 omc_CodegenC_lm__908
-
-
-#define boxptr_CodegenC_fun__907 omc_CodegenC_fun__907
-
-
-#define boxptr_CodegenC_fun__906 omc_CodegenC_fun__906
-
-
-#define boxptr_CodegenC_lm__905 omc_CodegenC_lm__905
-
-
-#define boxptr_CodegenC_fun__904 omc_CodegenC_fun__904
-
-
-#define boxptr_CodegenC_fun__903 omc_CodegenC_fun__903
-
-
-#define boxptr_CodegenC_fun__902 omc_CodegenC_fun__902
-
-
-#define boxptr_CodegenC_lm__901 omc_CodegenC_lm__901
-
-
-#define boxptr_CodegenC_lm__900 omc_CodegenC_lm__900
-
-
-#define boxptr_CodegenC_fun__899 omc_CodegenC_fun__899
-
-
-#define boxptr_CodegenC_fun__898 omc_CodegenC_fun__898
-
-
-#define boxptr_CodegenC_lm__897 omc_CodegenC_lm__897
-
-
-#define boxptr_CodegenC_lm__896 omc_CodegenC_lm__896
-
-
-#define boxptr_CodegenC_fun__895 omc_CodegenC_fun__895
-
-
-#define boxptr_CodegenC_fun__893 omc_CodegenC_fun__893
-
-
-#define boxptr_CodegenC_fun__892 omc_CodegenC_fun__892
 
 
 DLLDirection
@@ -333,7 +334,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_optimizationComponents,2,0) {(
 #define boxvar_CodegenC_optimizationComponents MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_optimizationComponents)
 
 
-#define boxptr_CodegenC_lm__889 omc_CodegenC_lm__889
+#define boxptr_CodegenC_lm__907 omc_CodegenC_lm__907
 
 
 DLLDirection
@@ -392,61 +393,61 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_simulationMakefile,2,0) {(void
 #define boxvar_CodegenC_simulationMakefile MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_simulationMakefile)
 
 
+#define boxptr_CodegenC_fun__894 omc_CodegenC_fun__894
+
+
+#define boxptr_CodegenC_fun__893 omc_CodegenC_fun__893
+
+
+#define boxptr_CodegenC_lm__887 omc_CodegenC_lm__887
+
+
+#define boxptr_CodegenC_lm__883 omc_CodegenC_lm__883
+
+
+#define boxptr_CodegenC_fun__881 omc_CodegenC_fun__881
+
+
+#define boxptr_CodegenC_fun__877 omc_CodegenC_fun__877
+
+
 #define boxptr_CodegenC_fun__876 omc_CodegenC_fun__876
 
 
-#define boxptr_CodegenC_fun__875 omc_CodegenC_fun__875
+#define boxptr_CodegenC_fun__871 omc_CodegenC_fun__871
+
+
+#define boxptr_CodegenC_fun__870 omc_CodegenC_fun__870
 
 
 #define boxptr_CodegenC_lm__869 omc_CodegenC_lm__869
 
 
-#define boxptr_CodegenC_lm__865 omc_CodegenC_lm__865
+#define boxptr_CodegenC_fun__868 omc_CodegenC_fun__868
+
+
+#define boxptr_CodegenC_fun__867 omc_CodegenC_fun__867
+
+
+#define boxptr_CodegenC_lm__866 omc_CodegenC_lm__866
+
+
+#define boxptr_CodegenC_fun__864 omc_CodegenC_fun__864
 
 
 #define boxptr_CodegenC_fun__863 omc_CodegenC_fun__863
 
 
-#define boxptr_CodegenC_fun__859 omc_CodegenC_fun__859
+#define boxptr_CodegenC_fun__861 omc_CodegenC_fun__861
+
+
+#define boxptr_CodegenC_fun__860 omc_CodegenC_fun__860
+
+
+#define boxptr_CodegenC_lm__859 omc_CodegenC_lm__859
 
 
 #define boxptr_CodegenC_fun__858 omc_CodegenC_fun__858
-
-
-#define boxptr_CodegenC_fun__853 omc_CodegenC_fun__853
-
-
-#define boxptr_CodegenC_fun__852 omc_CodegenC_fun__852
-
-
-#define boxptr_CodegenC_lm__851 omc_CodegenC_lm__851
-
-
-#define boxptr_CodegenC_fun__850 omc_CodegenC_fun__850
-
-
-#define boxptr_CodegenC_fun__849 omc_CodegenC_fun__849
-
-
-#define boxptr_CodegenC_lm__848 omc_CodegenC_lm__848
-
-
-#define boxptr_CodegenC_fun__846 omc_CodegenC_fun__846
-
-
-#define boxptr_CodegenC_fun__845 omc_CodegenC_fun__845
-
-
-#define boxptr_CodegenC_fun__843 omc_CodegenC_fun__843
-
-
-#define boxptr_CodegenC_fun__842 omc_CodegenC_fun__842
-
-
-#define boxptr_CodegenC_lm__841 omc_CodegenC_lm__841
-
-
-#define boxptr_CodegenC_fun__840 omc_CodegenC_fun__840
 
 
 DLLDirection
@@ -456,10 +457,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_simulationFunctionsHeaderFile,
 #define boxvar_CodegenC_simulationFunctionsHeaderFile MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_simulationFunctionsHeaderFile)
 
 
-#define boxptr_CodegenC_fun__838 omc_CodegenC_fun__838
+#define boxptr_CodegenC_fun__856 omc_CodegenC_fun__856
 
 
-#define boxptr_CodegenC_lm__837 omc_CodegenC_lm__837
+#define boxptr_CodegenC_lm__855 omc_CodegenC_lm__855
 
 
 DLLDirection
@@ -476,6 +477,12 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_simulationFunctionsFile,2,0) {
 #define boxvar_CodegenC_simulationFunctionsFile MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_simulationFunctionsFile)
 
 
+#define boxptr_CodegenC_lm__851 omc_CodegenC_lm__851
+
+
+#define boxptr_CodegenC_fun__850 omc_CodegenC_fun__850
+
+
 DLLDirection
 modelica_metatype omc_CodegenC_simulationLiteralsFile(threadData_t *threadData, modelica_metatype _txt, modelica_string _a_filePrefix, modelica_metatype _a_literals);
 #define boxptr_CodegenC_simulationLiteralsFile omc_CodegenC_simulationLiteralsFile
@@ -483,7 +490,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_simulationLiteralsFile,2,0) {(
 #define boxvar_CodegenC_simulationLiteralsFile MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_simulationLiteralsFile)
 
 
-#define boxptr_CodegenC_lm__832 omc_CodegenC_lm__832
+#define boxptr_CodegenC_lm__848 omc_CodegenC_lm__848
 
 
 DLLDirection
@@ -501,7 +508,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_whenAssign,2,0) {(void*) boxpt
 #define boxvar_CodegenC_whenAssign MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_whenAssign)
 
 
-#define boxptr_CodegenC_fun__824 omc_CodegenC_fun__824
+#define boxptr_CodegenC_fun__840 omc_CodegenC_fun__840
 
 
 DLLDirection
@@ -511,19 +518,19 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_whenOperators,2,0) {(void*) bo
 #define boxvar_CodegenC_whenOperators MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_whenOperators)
 
 
-#define boxptr_CodegenC_lm__822 omc_CodegenC_lm__822
+#define boxptr_CodegenC_lm__838 omc_CodegenC_lm__838
 
 
-#define boxptr_CodegenC_fun__821 omc_CodegenC_fun__821
+#define boxptr_CodegenC_fun__837 omc_CodegenC_fun__837
 
 
-#define boxptr_CodegenC_fun__819 omc_CodegenC_fun__819
+#define boxptr_CodegenC_fun__835 omc_CodegenC_fun__835
 
 
-#define boxptr_CodegenC_lm__818 omc_CodegenC_lm__818
+#define boxptr_CodegenC_lm__834 omc_CodegenC_lm__834
 
 
-#define boxptr_CodegenC_lm__817 omc_CodegenC_lm__817
+#define boxptr_CodegenC_lm__833 omc_CodegenC_lm__833
 
 
 DLLDirection
@@ -533,13 +540,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_equationElseWhen,2,0) {(void*)
 #define boxvar_CodegenC_equationElseWhen MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_equationElseWhen)
 
 
-#define boxptr_CodegenC_fun__815 omc_CodegenC_fun__815
+#define boxptr_CodegenC_fun__831 omc_CodegenC_fun__831
 
 
-#define boxptr_CodegenC_lm__813 omc_CodegenC_lm__813
+#define boxptr_CodegenC_lm__829 omc_CodegenC_lm__829
 
 
-#define boxptr_CodegenC_lm__811 omc_CodegenC_lm__811
+#define boxptr_CodegenC_lm__827 omc_CodegenC_lm__827
 
 
 DLLDirection
@@ -549,10 +556,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_equationWhen,2,0) {(void*) box
 #define boxvar_CodegenC_equationWhen MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_equationWhen)
 
 
-#define boxptr_CodegenC_lm__808 omc_CodegenC_lm__808
+#define boxptr_CodegenC_lm__824 omc_CodegenC_lm__824
 
 
-#define boxptr_CodegenC_lm__806 omc_CodegenC_lm__806
+#define boxptr_CodegenC_lm__822 omc_CodegenC_lm__822
 
 
 DLLDirection
@@ -563,7 +570,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_equationNonlinearAlternativeTe
 #define boxvar_CodegenC_equationNonlinearAlternativeTearing MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_equationNonlinearAlternativeTearing)
 
 
-#define boxptr_CodegenC_fun__804 omc_CodegenC_fun__804
+#define boxptr_CodegenC_fun__820 omc_CodegenC_fun__820
 
 
 DLLDirection
@@ -574,13 +581,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_equationNonlinear,2,0) {(void*
 #define boxvar_CodegenC_equationNonlinear MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_equationNonlinear)
 
 
-#define boxptr_CodegenC_fun__798 omc_CodegenC_fun__798
+#define boxptr_CodegenC_fun__814 omc_CodegenC_fun__814
 
 
-#define boxptr_CodegenC_fun__797 omc_CodegenC_fun__797
+#define boxptr_CodegenC_fun__813 omc_CodegenC_fun__813
 
 
-#define boxptr_CodegenC_fun__794 omc_CodegenC_fun__794
+#define boxptr_CodegenC_fun__810 omc_CodegenC_fun__810
 
 
 DLLDirection
@@ -598,13 +605,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_equationLinearAlternativeTeari
 #define boxvar_CodegenC_equationLinearAlternativeTearing MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_equationLinearAlternativeTearing)
 
 
-#define boxptr_CodegenC_fun__785 omc_CodegenC_fun__785
+#define boxptr_CodegenC_fun__801 omc_CodegenC_fun__801
 
 
-#define boxptr_CodegenC_lm__783 omc_CodegenC_lm__783
+#define boxptr_CodegenC_lm__799 omc_CodegenC_lm__799
 
 
-#define boxptr_CodegenC_lm__782 omc_CodegenC_lm__782
+#define boxptr_CodegenC_lm__798 omc_CodegenC_lm__798
 
 
 DLLDirection
@@ -614,19 +621,19 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_equationLinear,2,0) {(void*) b
 #define boxvar_CodegenC_equationLinear MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_equationLinear)
 
 
-#define boxptr_CodegenC_fun__779 omc_CodegenC_fun__779
+#define boxptr_CodegenC_fun__795 omc_CodegenC_fun__795
 
 
-#define boxptr_CodegenC_lm__777 omc_CodegenC_lm__777
+#define boxptr_CodegenC_lm__793 omc_CodegenC_lm__793
 
 
-#define boxptr_CodegenC_lm__774 omc_CodegenC_lm__774
+#define boxptr_CodegenC_lm__790 omc_CodegenC_lm__790
 
 
-#define boxptr_CodegenC_fun__773 omc_CodegenC_fun__773
+#define boxptr_CodegenC_fun__789 omc_CodegenC_fun__789
 
 
-#define boxptr_CodegenC_fun__772 omc_CodegenC_fun__772
+#define boxptr_CodegenC_fun__788 omc_CodegenC_fun__788
 
 
 DLLDirection
@@ -636,19 +643,19 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_equationAlgorithm,2,0) {(void*
 #define boxvar_CodegenC_equationAlgorithm MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_equationAlgorithm)
 
 
-#define boxptr_CodegenC_lm__770 omc_CodegenC_lm__770
+#define boxptr_CodegenC_lm__786 omc_CodegenC_lm__786
 
 
-#define boxptr_CodegenC_lm__769 omc_CodegenC_lm__769
+#define boxptr_CodegenC_lm__785 omc_CodegenC_lm__785
 
 
-#define boxptr_CodegenC_lm__768 omc_CodegenC_lm__768
+#define boxptr_CodegenC_lm__784 omc_CodegenC_lm__784
 
 
-#define boxptr_CodegenC_lm__767 omc_CodegenC_lm__767
+#define boxptr_CodegenC_lm__783 omc_CodegenC_lm__783
 
 
-#define boxptr_CodegenC_lm__766 omc_CodegenC_lm__766
+#define boxptr_CodegenC_lm__782 omc_CodegenC_lm__782
 
 
 DLLDirection
@@ -659,10 +666,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_entwinedSingleCall,2,0) {(void
 #define boxvar_CodegenC_entwinedSingleCall MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_entwinedSingleCall)
 
 
-#define boxptr_CodegenC_fun__763 omc_CodegenC_fun__763
+#define boxptr_CodegenC_fun__779 omc_CodegenC_fun__779
 
 
-#define boxptr_CodegenC_fun__762 omc_CodegenC_fun__762
+#define boxptr_CodegenC_fun__778 omc_CodegenC_fun__778
 
 
 DLLDirection
@@ -672,10 +679,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_entwinedSingleCallIndices,2,0)
 #define boxvar_CodegenC_entwinedSingleCallIndices MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_entwinedSingleCallIndices)
 
 
-#define boxptr_CodegenC_fun__760 omc_CodegenC_fun__760
+#define boxptr_CodegenC_fun__776 omc_CodegenC_fun__776
 
 
-#define boxptr_CodegenC_lm__759 omc_CodegenC_lm__759
+#define boxptr_CodegenC_lm__775 omc_CodegenC_lm__775
 
 
 DLLDirection
@@ -685,19 +692,19 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_equationEntwinedAssign,2,0) {(
 #define boxvar_CodegenC_equationEntwinedAssign MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_equationEntwinedAssign)
 
 
-#define boxptr_CodegenC_fun__757 omc_CodegenC_fun__757
+#define boxptr_CodegenC_fun__773 omc_CodegenC_fun__773
 
 
-#define boxptr_CodegenC_lm__756 omc_CodegenC_lm__756
+#define boxptr_CodegenC_lm__772 omc_CodegenC_lm__772
 
 
-#define boxptr_CodegenC_lm__755 omc_CodegenC_lm__755
+#define boxptr_CodegenC_lm__771 omc_CodegenC_lm__771
 
 
-#define boxptr_CodegenC_lm__754 omc_CodegenC_lm__754
+#define boxptr_CodegenC_lm__770 omc_CodegenC_lm__770
 
 
-#define boxptr_CodegenC_lm__753 omc_CodegenC_lm__753
+#define boxptr_CodegenC_lm__769 omc_CodegenC_lm__769
 
 
 DLLDirection
@@ -707,25 +714,25 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_equationGenericAssign,2,0) {(v
 #define boxvar_CodegenC_equationGenericAssign MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_equationGenericAssign)
 
 
-#define boxptr_CodegenC_fun__751 omc_CodegenC_fun__751
+#define boxptr_CodegenC_fun__767 omc_CodegenC_fun__767
 
 
-#define boxptr_CodegenC_lm__750 omc_CodegenC_lm__750
+#define boxptr_CodegenC_lm__766 omc_CodegenC_lm__766
 
 
-#define boxptr_CodegenC_lm__749 omc_CodegenC_lm__749
+#define boxptr_CodegenC_lm__765 omc_CodegenC_lm__765
 
 
-#define boxptr_CodegenC_lm__748 omc_CodegenC_lm__748
+#define boxptr_CodegenC_lm__764 omc_CodegenC_lm__764
 
 
-#define boxptr_CodegenC_lm__747 omc_CodegenC_lm__747
+#define boxptr_CodegenC_lm__763 omc_CodegenC_lm__763
 
 
-#define boxptr_CodegenC_fun__746 omc_CodegenC_fun__746
+#define boxptr_CodegenC_fun__762 omc_CodegenC_fun__762
 
 
-#define boxptr_CodegenC_fun__745 omc_CodegenC_fun__745
+#define boxptr_CodegenC_fun__761 omc_CodegenC_fun__761
 
 
 DLLDirection
@@ -743,10 +750,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_equationArrayCallAssign,2,0) {
 #define boxvar_CodegenC_equationArrayCallAssign MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_equationArrayCallAssign)
 
 
-#define boxptr_CodegenC_fun__741 omc_CodegenC_fun__741
+#define boxptr_CodegenC_fun__757 omc_CodegenC_fun__757
 
 
-#define boxptr_CodegenC_fun__739 omc_CodegenC_fun__739
+#define boxptr_CodegenC_fun__755 omc_CodegenC_fun__755
 
 
 DLLDirection
@@ -757,16 +764,29 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_equationForLoop,2,0) {(void*) 
 
 
 DLLDirection
+modelica_metatype omc_CodegenC_equationSimpleAssignLhs(threadData_t *threadData, modelica_metatype _txt, modelica_metatype _a_cref, modelica_metatype _a_context, modelica_metatype _a_preExp, modelica_metatype _a_varDecls, modelica_metatype _a_auxFunction, modelica_metatype _a_sub, modelica_metatype *out_out_a_preExp, modelica_metatype *out_out_a_varDecls, modelica_metatype *out_out_a_auxFunction, modelica_metatype *out_out_a_sub);
+#define boxptr_CodegenC_equationSimpleAssignLhs omc_CodegenC_equationSimpleAssignLhs
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_equationSimpleAssignLhs,2,0) {(void*) boxptr_CodegenC_equationSimpleAssignLhs,0}};
+#define boxvar_CodegenC_equationSimpleAssignLhs MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_equationSimpleAssignLhs)
+
+
+#define boxptr_CodegenC_fun__752 omc_CodegenC_fun__752
+
+
+#define boxptr_CodegenC_fun__750 omc_CodegenC_fun__750
+
+
+DLLDirection
 modelica_metatype omc_CodegenC_equationSimpleAssign(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_eq, modelica_metatype _in_a_context, modelica_metatype _in_a_varDecls, modelica_metatype _in_a_auxFunction, modelica_metatype *out_out_a_varDecls, modelica_metatype *out_out_a_auxFunction);
 #define boxptr_CodegenC_equationSimpleAssign omc_CodegenC_equationSimpleAssign
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_equationSimpleAssign,2,0) {(void*) boxptr_CodegenC_equationSimpleAssign,0}};
 #define boxvar_CodegenC_equationSimpleAssign MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_equationSimpleAssign)
 
 
-#define boxptr_CodegenC_fun__735 omc_CodegenC_fun__735
+#define boxptr_CodegenC_fun__747 omc_CodegenC_fun__747
 
 
-#define boxptr_CodegenC_fun__733 omc_CodegenC_fun__733
+#define boxptr_CodegenC_fun__745 omc_CodegenC_fun__745
 
 
 DLLDirection
@@ -776,10 +796,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_equationNames__,2,0) {(void*) 
 #define boxvar_CodegenC_equationNames__ MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_equationNames__)
 
 
-#define boxptr_CodegenC_fun__731 omc_CodegenC_fun__731
+#define boxptr_CodegenC_fun__743 omc_CodegenC_fun__743
 
 
-#define boxptr_CodegenC_fun__730 omc_CodegenC_fun__730
+#define boxptr_CodegenC_fun__742 omc_CodegenC_fun__742
 
 
 DLLDirection
@@ -789,7 +809,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_equationForward__,2,0) {(void*
 #define boxvar_CodegenC_equationForward__ MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_equationForward__)
 
 
-#define boxptr_CodegenC_fun__728 omc_CodegenC_fun__728
+#define boxptr_CodegenC_fun__740 omc_CodegenC_fun__740
 
 
 DLLDirection
@@ -806,16 +826,16 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_equations__call,2,0) {(void*) 
 #define boxvar_CodegenC_equations__call MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_equations__call)
 
 
-#define boxptr_CodegenC_lm__723 omc_CodegenC_lm__723
+#define boxptr_CodegenC_lm__735 omc_CodegenC_lm__735
 
 
-#define boxptr_CodegenC_fun__722 omc_CodegenC_fun__722
+#define boxptr_CodegenC_fun__734 omc_CodegenC_fun__734
 
 
-#define boxptr_CodegenC_fun__721 omc_CodegenC_fun__721
+#define boxptr_CodegenC_fun__733 omc_CodegenC_fun__733
 
 
-#define boxptr_CodegenC_fun__720 omc_CodegenC_fun__720
+#define boxptr_CodegenC_fun__732 omc_CodegenC_fun__732
 
 
 DLLDirection
@@ -825,7 +845,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_equation__call,2,0) {(void*) b
 #define boxvar_CodegenC_equation__call MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_equation__call)
 
 
-#define boxptr_CodegenC_fun__718 omc_CodegenC_fun__718
+#define boxptr_CodegenC_fun__730 omc_CodegenC_fun__730
 
 
 DLLDirection
@@ -836,19 +856,19 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_equation__impl2,2,0) {(void*) 
 #define boxvar_CodegenC_equation__impl2 MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_equation__impl2)
 
 
-#define boxptr_CodegenC_lm__704 omc_CodegenC_lm__704
+#define boxptr_CodegenC_lm__716 omc_CodegenC_lm__716
 
 
-#define boxptr_CodegenC_lm__702 omc_CodegenC_lm__702
+#define boxptr_CodegenC_lm__714 omc_CodegenC_lm__714
 
 
-#define boxptr_CodegenC_fun__701 omc_CodegenC_fun__701
+#define boxptr_CodegenC_fun__713 omc_CodegenC_fun__713
 
 
-#define boxptr_CodegenC_fun__700 omc_CodegenC_fun__700
+#define boxptr_CodegenC_fun__712 omc_CodegenC_fun__712
 
 
-#define boxptr_CodegenC_fun__698 omc_CodegenC_fun__698
+#define boxptr_CodegenC_fun__710 omc_CodegenC_fun__710
 
 
 DLLDirection
@@ -867,16 +887,16 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_equation__arrayFormat,2,0) {(v
 #define boxvar_CodegenC_equation__arrayFormat MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_equation__arrayFormat)
 
 
-#define boxptr_CodegenC_lm__694 omc_CodegenC_lm__694
+#define boxptr_CodegenC_lm__706 omc_CodegenC_lm__706
 
 
-#define boxptr_CodegenC_lm__693 omc_CodegenC_lm__693
+#define boxptr_CodegenC_lm__705 omc_CodegenC_lm__705
 
 
-#define boxptr_CodegenC_lm__692 omc_CodegenC_lm__692
+#define boxptr_CodegenC_lm__704 omc_CodegenC_lm__704
 
 
-#define boxptr_CodegenC_fun__691 omc_CodegenC_fun__691
+#define boxptr_CodegenC_fun__703 omc_CodegenC_fun__703
 
 
 DLLDirection
@@ -886,7 +906,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_readSPColors,2,0) {(void*) box
 #define boxvar_CodegenC_readSPColors MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_readSPColors)
 
 
-#define boxptr_CodegenC_lm__689 omc_CodegenC_lm__689
+#define boxptr_CodegenC_lm__701 omc_CodegenC_lm__701
 
 
 DLLDirection
@@ -896,10 +916,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_genSPColors,2,0) {(void*) boxp
 #define boxvar_CodegenC_genSPColors MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_genSPColors)
 
 
-#define boxptr_CodegenC_lm__687 omc_CodegenC_lm__687
+#define boxptr_CodegenC_lm__699 omc_CodegenC_lm__699
 
 
-#define boxptr_CodegenC_lm__686 omc_CodegenC_lm__686
+#define boxptr_CodegenC_lm__698 omc_CodegenC_lm__698
 
 
 DLLDirection
@@ -910,10 +930,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_genSPCRSRows,2,0) {(void*) box
 #define boxvar_CodegenC_genSPCRSRows MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_genSPCRSRows)
 
 
-#define boxptr_CodegenC_lm__684 omc_CodegenC_lm__684
+#define boxptr_CodegenC_lm__696 omc_CodegenC_lm__696
 
 
-#define boxptr_CodegenC_lm__683 omc_CodegenC_lm__683
+#define boxptr_CodegenC_lm__695 omc_CodegenC_lm__695
 
 
 DLLDirection
@@ -924,7 +944,17 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_genSPCRSPtr,2,0) {(void*) boxp
 #define boxvar_CodegenC_genSPCRSPtr MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_genSPCRSPtr)
 
 
-#define boxptr_CodegenC_lm__681 omc_CodegenC_lm__681
+#define boxptr_CodegenC_lm__693 omc_CodegenC_lm__693
+
+
+DLLDirection
+modelica_metatype omc_CodegenC_functionJac__DAG(threadData_t *threadData, modelica_metatype _txt, modelica_metatype _a_eqs, modelica_string _a_name, modelica_string _a_modelNamePrefix);
+#define boxptr_CodegenC_functionJac__DAG omc_CodegenC_functionJac__DAG
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionJac__DAG,2,0) {(void*) boxptr_CodegenC_functionJac__DAG,0}};
+#define boxvar_CodegenC_functionJac__DAG MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionJac__DAG)
+
+
+#define boxptr_CodegenC_lm__691 omc_CodegenC_lm__691
 
 
 DLLDirection
@@ -942,7 +972,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_generateConstantEqns,2,0) {(vo
 #define boxvar_CodegenC_generateConstantEqns MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_generateConstantEqns)
 
 
-#define boxptr_CodegenC_fun__675 omc_CodegenC_fun__675
+#define boxptr_CodegenC_fun__685 omc_CodegenC_fun__685
 
 
 DLLDirection
@@ -953,30 +983,30 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_generateMatrix,2,0) {(void*) b
 #define boxvar_CodegenC_generateMatrix MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_generateMatrix)
 
 
-#define boxptr_CodegenC_lm__671 omc_CodegenC_lm__671
+#define boxptr_CodegenC_lm__681 omc_CodegenC_lm__681
 
 
-#define boxptr_CodegenC_lm__669 omc_CodegenC_lm__669
+#define boxptr_CodegenC_lm__679 omc_CodegenC_lm__679
 
 
 DLLDirection
-modelica_metatype omc_CodegenC_initialAnalyticJacobians(threadData_t *threadData, modelica_metatype _txt, modelica_metatype _a_jacobianColumn, modelica_metatype _a_seedVars, modelica_string _a_matrixname, modelica_metatype _a_sparsepattern, modelica_metatype _a_colorList, modelica_integer _a_maxColor, modelica_string _a_modelNamePrefix, modelica_string _a_fileNamePrefix);
+modelica_metatype omc_CodegenC_initialAnalyticJacobians(threadData_t *threadData, modelica_metatype _txt, modelica_metatype _a_jacobianColumn, modelica_metatype _a_seedVars, modelica_string _a_matrixname, modelica_metatype _a_sparsepattern, modelica_metatype _a_colorList, modelica_integer _a_maxColor, modelica_string _a_modelNamePrefix, modelica_string _a_fileNamePrefix, modelica_boolean _a_isAdjoint);
 DLLDirection
-modelica_metatype boxptr_CodegenC_initialAnalyticJacobians(threadData_t *threadData, modelica_metatype _txt, modelica_metatype _a_jacobianColumn, modelica_metatype _a_seedVars, modelica_metatype _a_matrixname, modelica_metatype _a_sparsepattern, modelica_metatype _a_colorList, modelica_metatype _a_maxColor, modelica_metatype _a_modelNamePrefix, modelica_metatype _a_fileNamePrefix);
+modelica_metatype boxptr_CodegenC_initialAnalyticJacobians(threadData_t *threadData, modelica_metatype _txt, modelica_metatype _a_jacobianColumn, modelica_metatype _a_seedVars, modelica_metatype _a_matrixname, modelica_metatype _a_sparsepattern, modelica_metatype _a_colorList, modelica_metatype _a_maxColor, modelica_metatype _a_modelNamePrefix, modelica_metatype _a_fileNamePrefix, modelica_metatype _a_isAdjoint);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_initialAnalyticJacobians,2,0) {(void*) boxptr_CodegenC_initialAnalyticJacobians,0}};
 #define boxvar_CodegenC_initialAnalyticJacobians MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_initialAnalyticJacobians)
 
 
-#define boxptr_CodegenC_lm__666 omc_CodegenC_lm__666
+#define boxptr_CodegenC_lm__676 omc_CodegenC_lm__676
 
 
-#define boxptr_CodegenC_fun__665 omc_CodegenC_fun__665
+#define boxptr_CodegenC_fun__675 omc_CodegenC_fun__675
 
 
-#define boxptr_CodegenC_lm__664 omc_CodegenC_lm__664
+#define boxptr_CodegenC_lm__674 omc_CodegenC_lm__674
 
 
-#define boxptr_CodegenC_lm__663 omc_CodegenC_lm__663
+#define boxptr_CodegenC_lm__673 omc_CodegenC_lm__673
 
 
 DLLDirection
@@ -986,13 +1016,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionAnalyticJacobians,2,0)
 #define boxvar_CodegenC_functionAnalyticJacobians MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionAnalyticJacobians)
 
 
-#define boxptr_CodegenC_lm__660 omc_CodegenC_lm__660
+#define boxptr_CodegenC_lm__670 omc_CodegenC_lm__670
 
 
-#define boxptr_CodegenC_lm__659 omc_CodegenC_lm__659
+#define boxptr_CodegenC_lm__669 omc_CodegenC_lm__669
 
 
-#define boxptr_CodegenC_lm__658 omc_CodegenC_lm__658
+#define boxptr_CodegenC_lm__668 omc_CodegenC_lm__668
 
 
 DLLDirection
@@ -1042,10 +1072,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_getVarNameJulia,2,0) {(void*) 
 #define boxvar_CodegenC_getVarNameJulia MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_getVarNameJulia)
 
 
-#define boxptr_CodegenC_lm__638 omc_CodegenC_lm__638
+#define boxptr_CodegenC_lm__648 omc_CodegenC_lm__648
 
 
-#define boxptr_CodegenC_fun__637 omc_CodegenC_fun__637
+#define boxptr_CodegenC_fun__647 omc_CodegenC_fun__647
 
 
 DLLDirection
@@ -1055,10 +1085,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_getVarNamePython,2,0) {(void*)
 #define boxvar_CodegenC_getVarNamePython MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_getVarNamePython)
 
 
-#define boxptr_CodegenC_lm__635 omc_CodegenC_lm__635
+#define boxptr_CodegenC_lm__645 omc_CodegenC_lm__645
 
 
-#define boxptr_CodegenC_fun__634 omc_CodegenC_fun__634
+#define boxptr_CodegenC_fun__644 omc_CodegenC_fun__644
 
 
 DLLDirection
@@ -1068,10 +1098,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_getVarNameMatlab,2,0) {(void*)
 #define boxvar_CodegenC_getVarNameMatlab MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_getVarNameMatlab)
 
 
-#define boxptr_CodegenC_lm__632 omc_CodegenC_lm__632
+#define boxptr_CodegenC_lm__642 omc_CodegenC_lm__642
 
 
-#define boxptr_CodegenC_fun__631 omc_CodegenC_fun__631
+#define boxptr_CodegenC_fun__641 omc_CodegenC_fun__641
 
 
 DLLDirection
@@ -1081,7 +1111,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_getVarNameC,2,0) {(void*) boxp
 #define boxvar_CodegenC_getVarNameC MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_getVarNameC)
 
 
-#define boxptr_CodegenC_lm__629 omc_CodegenC_lm__629
+#define boxptr_CodegenC_lm__639 omc_CodegenC_lm__639
 
 
 DLLDirection
@@ -1119,7 +1149,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionAssertsforCheck,2,0) {
 #define boxvar_CodegenC_functionAssertsforCheck MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionAssertsforCheck)
 
 
-#define boxptr_CodegenC_lm__622 omc_CodegenC_lm__622
+#define boxptr_CodegenC_lm__632 omc_CodegenC_lm__632
 
 
 DLLDirection
@@ -1143,7 +1173,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_crefToPrintfArg,2,0) {(void*) 
 #define boxvar_CodegenC_crefToPrintfArg MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_crefToPrintfArg)
 
 
-#define boxptr_CodegenC_fun__618 omc_CodegenC_fun__618
+#define boxptr_CodegenC_fun__628 omc_CodegenC_fun__628
 
 
 DLLDirection
@@ -1154,28 +1184,28 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_relationTpl,2,0) {(void*) boxp
 #define boxvar_CodegenC_relationTpl MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_relationTpl)
 
 
-#define boxptr_CodegenC_fun__615 omc_CodegenC_fun__615
+#define boxptr_CodegenC_fun__625 omc_CodegenC_fun__625
 
 
-#define boxptr_CodegenC_lm__614 omc_CodegenC_lm__614
+#define boxptr_CodegenC_lm__624 omc_CodegenC_lm__624
 
 
-#define boxptr_CodegenC_fun__613 omc_CodegenC_fun__613
+#define boxptr_CodegenC_fun__623 omc_CodegenC_fun__623
 
 
-#define boxptr_CodegenC_fun__612 omc_CodegenC_fun__612
+#define boxptr_CodegenC_fun__622 omc_CodegenC_fun__622
 
 
-#define boxptr_CodegenC_lm__611 omc_CodegenC_lm__611
+#define boxptr_CodegenC_lm__621 omc_CodegenC_lm__621
 
 
-#define boxptr_CodegenC_lm__610 omc_CodegenC_lm__610
+#define boxptr_CodegenC_lm__620 omc_CodegenC_lm__620
 
 
-#define boxptr_CodegenC_fun__609 omc_CodegenC_fun__609
+#define boxptr_CodegenC_fun__619 omc_CodegenC_fun__619
 
 
-#define boxptr_CodegenC_lm__608 omc_CodegenC_lm__608
+#define boxptr_CodegenC_lm__618 omc_CodegenC_lm__618
 
 
 DLLDirection
@@ -1185,7 +1215,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_relationsTpl,2,0) {(void*) box
 #define boxvar_CodegenC_relationsTpl MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_relationsTpl)
 
 
-#define boxptr_CodegenC_lm__606 omc_CodegenC_lm__606
+#define boxptr_CodegenC_lm__616 omc_CodegenC_lm__616
 
 
 DLLDirection
@@ -1195,10 +1225,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionRelations,2,0) {(void*
 #define boxvar_CodegenC_functionRelations MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionRelations)
 
 
-#define boxptr_CodegenC_fun__604 omc_CodegenC_fun__604
+#define boxptr_CodegenC_fun__614 omc_CodegenC_fun__614
 
 
-#define boxptr_CodegenC_lm__603 omc_CodegenC_lm__603
+#define boxptr_CodegenC_lm__613 omc_CodegenC_lm__613
 
 
 DLLDirection
@@ -1209,28 +1239,28 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_zeroCrossingTpl,2,0) {(void*) 
 #define boxvar_CodegenC_zeroCrossingTpl MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_zeroCrossingTpl)
 
 
-#define boxptr_CodegenC_fun__600 omc_CodegenC_fun__600
+#define boxptr_CodegenC_fun__610 omc_CodegenC_fun__610
 
 
-#define boxptr_CodegenC_lm__599 omc_CodegenC_lm__599
+#define boxptr_CodegenC_lm__609 omc_CodegenC_lm__609
 
 
-#define boxptr_CodegenC_fun__598 omc_CodegenC_fun__598
+#define boxptr_CodegenC_fun__608 omc_CodegenC_fun__608
 
 
-#define boxptr_CodegenC_fun__597 omc_CodegenC_fun__597
+#define boxptr_CodegenC_fun__607 omc_CodegenC_fun__607
 
 
-#define boxptr_CodegenC_lm__596 omc_CodegenC_lm__596
+#define boxptr_CodegenC_lm__606 omc_CodegenC_lm__606
 
 
-#define boxptr_CodegenC_lm__595 omc_CodegenC_lm__595
+#define boxptr_CodegenC_lm__605 omc_CodegenC_lm__605
 
 
-#define boxptr_CodegenC_fun__594 omc_CodegenC_fun__594
+#define boxptr_CodegenC_fun__604 omc_CodegenC_fun__604
 
 
-#define boxptr_CodegenC_lm__593 omc_CodegenC_lm__593
+#define boxptr_CodegenC_lm__603 omc_CodegenC_lm__603
 
 
 DLLDirection
@@ -1240,7 +1270,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_zeroCrossingsTpl,2,0) {(void*)
 #define boxvar_CodegenC_zeroCrossingsTpl MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_zeroCrossingsTpl)
 
 
-#define boxptr_CodegenC_lm__591 omc_CodegenC_lm__591
+#define boxptr_CodegenC_lm__601 omc_CodegenC_lm__601
 
 
 DLLDirection
@@ -1250,10 +1280,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_descriptionString,2,0) {(void*
 #define boxvar_CodegenC_descriptionString MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_descriptionString)
 
 
-#define boxptr_CodegenC_fun__589 omc_CodegenC_fun__589
+#define boxptr_CodegenC_fun__599 omc_CodegenC_fun__599
 
 
-#define boxptr_CodegenC_lm__588 omc_CodegenC_lm__588
+#define boxptr_CodegenC_lm__598 omc_CodegenC_lm__598
 
 
 DLLDirection
@@ -1263,22 +1293,22 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionZeroCrossing,2,0) {(vo
 #define boxvar_CodegenC_functionZeroCrossing MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionZeroCrossing)
 
 
-#define boxptr_CodegenC_fun__584 omc_CodegenC_fun__584
+#define boxptr_CodegenC_fun__594 omc_CodegenC_fun__594
 
 
-#define boxptr_CodegenC_lm__583 omc_CodegenC_lm__583
+#define boxptr_CodegenC_lm__593 omc_CodegenC_lm__593
 
 
-#define boxptr_CodegenC_lm__582 omc_CodegenC_lm__582
+#define boxptr_CodegenC_lm__592 omc_CodegenC_lm__592
 
 
-#define boxptr_CodegenC_lm__581 omc_CodegenC_lm__581
+#define boxptr_CodegenC_lm__591 omc_CodegenC_lm__591
 
 
-#define boxptr_CodegenC_lm__580 omc_CodegenC_lm__580
+#define boxptr_CodegenC_lm__590 omc_CodegenC_lm__590
 
 
-#define boxptr_CodegenC_lm__579 omc_CodegenC_lm__579
+#define boxptr_CodegenC_lm__589 omc_CodegenC_lm__589
 
 
 DLLDirection
@@ -1288,7 +1318,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionLocalKnownVars,2,0) {(
 #define boxvar_CodegenC_functionLocalKnownVars MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionLocalKnownVars)
 
 
-#define boxptr_CodegenC_lm__577 omc_CodegenC_lm__577
+#define boxptr_CodegenC_lm__587 omc_CodegenC_lm__587
 
 
 DLLDirection
@@ -1298,7 +1328,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionDAE,2,0) {(void*) boxp
 #define boxvar_CodegenC_functionDAE MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionDAE)
 
 
-#define boxptr_CodegenC_lm__573 omc_CodegenC_lm__573
+#define boxptr_CodegenC_lm__583 omc_CodegenC_lm__583
 
 
 DLLDirection
@@ -1316,10 +1346,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_genVarIndexes,2,0) {(void*) bo
 #define boxvar_CodegenC_genVarIndexes MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_genVarIndexes)
 
 
-#define boxptr_CodegenC_lm__570 omc_CodegenC_lm__570
+#define boxptr_CodegenC_lm__580 omc_CodegenC_lm__580
 
 
-#define boxptr_CodegenC_fun__569 omc_CodegenC_fun__569
+#define boxptr_CodegenC_fun__579 omc_CodegenC_fun__579
 
 
 DLLDirection
@@ -1350,10 +1380,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__systems__arrayFor
 #define boxvar_CodegenC_functionXXX__systems__arrayFormat MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__systems__arrayFormat)
 
 
-#define boxptr_CodegenC_fun__555 omc_CodegenC_fun__555
+#define boxptr_CodegenC_fun__565 omc_CodegenC_fun__565
 
 
-#define boxptr_CodegenC_lm__554 omc_CodegenC_lm__554
+#define boxptr_CodegenC_lm__564 omc_CodegenC_lm__564
 
 
 DLLDirection
@@ -1371,7 +1401,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_createEquationsAndCalls,2,0) {
 #define boxvar_CodegenC_createEquationsAndCalls MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_createEquationsAndCalls)
 
 
-#define boxptr_CodegenC_lm__548 omc_CodegenC_lm__548
+#define boxptr_CodegenC_lm__558 omc_CodegenC_lm__558
 
 
 DLLDirection
@@ -1382,19 +1412,19 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionDAEModeEquationsMultiF
 #define boxvar_CodegenC_functionDAEModeEquationsMultiFiles MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionDAEModeEquationsMultiFiles)
 
 
-#define boxptr_CodegenC_lm__545 omc_CodegenC_lm__545
+#define boxptr_CodegenC_lm__555 omc_CodegenC_lm__555
 
 
-#define boxptr_CodegenC_fun__544 omc_CodegenC_fun__544
+#define boxptr_CodegenC_fun__554 omc_CodegenC_fun__554
 
 
-#define boxptr_CodegenC_lm__543 omc_CodegenC_lm__543
+#define boxptr_CodegenC_lm__553 omc_CodegenC_lm__553
 
 
-#define boxptr_CodegenC_fun__542 omc_CodegenC_fun__542
+#define boxptr_CodegenC_fun__552 omc_CodegenC_fun__552
 
 
-#define boxptr_CodegenC_fun__540 omc_CodegenC_fun__540
+#define boxptr_CodegenC_fun__550 omc_CodegenC_fun__550
 
 
 DLLDirection
@@ -1404,10 +1434,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__systems,2,0) {(vo
 #define boxvar_CodegenC_functionXXX__systems MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__systems)
 
 
-#define boxptr_CodegenC_lm__536 omc_CodegenC_lm__536
+#define boxptr_CodegenC_lm__546 omc_CodegenC_lm__546
 
 
-#define boxptr_CodegenC_lm__535 omc_CodegenC_lm__535
+#define boxptr_CodegenC_lm__545 omc_CodegenC_lm__545
 
 
 DLLDirection
@@ -1418,7 +1448,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__system,2,0) {(voi
 #define boxvar_CodegenC_functionXXX__system MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__system)
 
 
-#define boxptr_CodegenC_lm__533 omc_CodegenC_lm__533
+#define boxptr_CodegenC_lm__543 omc_CodegenC_lm__543
 
 
 DLLDirection
@@ -1428,7 +1458,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__DAG,2,0) {(void*)
 #define boxvar_CodegenC_functionXXX__DAG MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__DAG)
 
 
-#define boxptr_CodegenC_lm__531 omc_CodegenC_lm__531
+#define boxptr_CodegenC_lm__541 omc_CodegenC_lm__541
 
 
 DLLDirection
@@ -1478,7 +1508,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_function__HPCOM__releaseLockBy
 #define boxvar_CodegenC_function__HPCOM__releaseLockByLockName MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_function__HPCOM__releaseLockByLockName)
 
 
-#define boxptr_CodegenC_fun__521 omc_CodegenC_fun__521
+#define boxptr_CodegenC_fun__531 omc_CodegenC_fun__531
 
 
 DLLDirection
@@ -1495,7 +1525,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_function__HPCOM__assignLockByL
 #define boxvar_CodegenC_function__HPCOM__assignLockByLockName MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_function__HPCOM__assignLockByLockName)
 
 
-#define boxptr_CodegenC_fun__518 omc_CodegenC_fun__518
+#define boxptr_CodegenC_fun__528 omc_CodegenC_fun__528
 
 
 DLLDirection
@@ -1512,7 +1542,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_function__HPCOM__createLockByL
 #define boxvar_CodegenC_function__HPCOM__createLockByLockName MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_function__HPCOM__createLockByLockName)
 
 
-#define boxptr_CodegenC_fun__515 omc_CodegenC_fun__515
+#define boxptr_CodegenC_fun__525 omc_CodegenC_fun__525
 
 
 DLLDirection
@@ -1529,7 +1559,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_function__HPCOM__initializeLoc
 #define boxvar_CodegenC_function__HPCOM__initializeLockByLockName MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_function__HPCOM__initializeLockByLockName)
 
 
-#define boxptr_CodegenC_fun__512 omc_CodegenC_fun__512
+#define boxptr_CodegenC_fun__522 omc_CodegenC_fun__522
 
 
 DLLDirection
@@ -1553,13 +1583,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_function__HPCOM__Task,2,0) {(v
 #define boxvar_CodegenC_function__HPCOM__Task MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_function__HPCOM__Task)
 
 
-#define boxptr_CodegenC_fun__508 omc_CodegenC_fun__508
+#define boxptr_CodegenC_fun__518 omc_CodegenC_fun__518
 
 
-#define boxptr_CodegenC_lm__507 omc_CodegenC_lm__507
+#define boxptr_CodegenC_lm__517 omc_CodegenC_lm__517
 
 
-#define boxptr_CodegenC_lm__506 omc_CodegenC_lm__506
+#define boxptr_CodegenC_lm__516 omc_CodegenC_lm__516
 
 
 DLLDirection
@@ -1569,10 +1599,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__system0__HPCOM__T
 #define boxvar_CodegenC_functionXXX__system0__HPCOM__Thread0 MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__system0__HPCOM__Thread0)
 
 
-#define boxptr_CodegenC_fun__504 omc_CodegenC_fun__504
+#define boxptr_CodegenC_fun__514 omc_CodegenC_fun__514
 
 
-#define boxptr_CodegenC_lm__503 omc_CodegenC_lm__503
+#define boxptr_CodegenC_lm__513 omc_CodegenC_lm__513
 
 
 DLLDirection
@@ -1582,10 +1612,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__system0__HPCOM__T
 #define boxvar_CodegenC_functionXXX__system0__HPCOM__Thread MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__system0__HPCOM__Thread)
 
 
-#define boxptr_CodegenC_fun__501 omc_CodegenC_fun__501
+#define boxptr_CodegenC_fun__511 omc_CodegenC_fun__511
 
 
-#define boxptr_CodegenC_lm__500 omc_CodegenC_lm__500
+#define boxptr_CodegenC_lm__510 omc_CodegenC_lm__510
 
 
 DLLDirection
@@ -1595,7 +1625,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__system0__HPCOM__T
 #define boxvar_CodegenC_functionXXX__system0__HPCOM__TaskDep0 MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__system0__HPCOM__TaskDep0)
 
 
-#define boxptr_CodegenC_lm__497 omc_CodegenC_lm__497
+#define boxptr_CodegenC_lm__507 omc_CodegenC_lm__507
 
 
 DLLDirection
@@ -1605,7 +1635,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__system0__HPCOM__T
 #define boxvar_CodegenC_functionXXX__system0__HPCOM__TaskDep MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__system0__HPCOM__TaskDep)
 
 
-#define boxptr_CodegenC_lm__495 omc_CodegenC_lm__495
+#define boxptr_CodegenC_lm__505 omc_CodegenC_lm__505
 
 
 DLLDirection
@@ -1629,13 +1659,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__system0__HPCOM__L
 #define boxvar_CodegenC_functionXXX__system0__HPCOM__Level MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__system0__HPCOM__Level)
 
 
-#define boxptr_CodegenC_fun__491 omc_CodegenC_fun__491
+#define boxptr_CodegenC_fun__501 omc_CodegenC_fun__501
 
 
-#define boxptr_CodegenC_lm__490 omc_CodegenC_lm__490
+#define boxptr_CodegenC_lm__500 omc_CodegenC_lm__500
 
 
-#define boxptr_CodegenC_lm__489 omc_CodegenC_lm__489
+#define boxptr_CodegenC_lm__499 omc_CodegenC_lm__499
 
 
 DLLDirection
@@ -1644,6 +1674,30 @@ DLLDirection
 modelica_metatype boxptr_CodegenC_functionXXX__system__HPCOM(threadData_t *threadData, modelica_metatype _txt, modelica_metatype _a_derivativEquations, modelica_metatype _a_name, modelica_metatype _a_n, modelica_metatype _a_hpcOmSchedulesOpt, modelica_metatype _a_modelNamePrefixStr);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__system__HPCOM,2,0) {(void*) boxptr_CodegenC_functionXXX__system__HPCOM,0}};
 #define boxvar_CodegenC_functionXXX__system__HPCOM MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__system__HPCOM)
+
+
+#define boxptr_CodegenC_lm__495 omc_CodegenC_lm__495
+
+
+#define boxptr_CodegenC_lm__494 omc_CodegenC_lm__494
+
+
+#define boxptr_CodegenC_lm__493 omc_CodegenC_lm__493
+
+
+#define boxptr_CodegenC_lm__492 omc_CodegenC_lm__492
+
+
+#define boxptr_CodegenC_lm__491 omc_CodegenC_lm__491
+
+
+#define boxptr_CodegenC_lm__490 omc_CodegenC_lm__490
+
+
+#define boxptr_CodegenC_lm__489 omc_CodegenC_lm__489
+
+
+#define boxptr_CodegenC_lm__488 omc_CodegenC_lm__488
 
 
 #define boxptr_CodegenC_lm__485 omc_CodegenC_lm__485
@@ -1670,7 +1724,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__system__HPCOM,2,0
 #define boxptr_CodegenC_lm__478 omc_CodegenC_lm__478
 
 
-#define boxptr_CodegenC_lm__475 omc_CodegenC_lm__475
+#define boxptr_CodegenC_lm__477 omc_CodegenC_lm__477
 
 
 #define boxptr_CodegenC_lm__474 omc_CodegenC_lm__474
@@ -1688,30 +1742,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__system__HPCOM,2,0
 #define boxptr_CodegenC_lm__470 omc_CodegenC_lm__470
 
 
-#define boxptr_CodegenC_lm__469 omc_CodegenC_lm__469
-
-
-#define boxptr_CodegenC_lm__468 omc_CodegenC_lm__468
-
-
-#define boxptr_CodegenC_lm__467 omc_CodegenC_lm__467
-
-
-#define boxptr_CodegenC_lm__464 omc_CodegenC_lm__464
-
-
-#define boxptr_CodegenC_lm__463 omc_CodegenC_lm__463
-
-
-#define boxptr_CodegenC_lm__462 omc_CodegenC_lm__462
-
-
-#define boxptr_CodegenC_lm__461 omc_CodegenC_lm__461
-
-
-#define boxptr_CodegenC_lm__460 omc_CodegenC_lm__460
-
-
 DLLDirection
 modelica_metatype omc_CodegenC_functionXXX__systems__HPCOM(threadData_t *threadData, modelica_metatype _txt, modelica_metatype _a_eqs, modelica_string _a_name, modelica_metatype _a_loop, modelica_metatype _a_varDecls, modelica_metatype _a_hpcOmSchedulesOpt, modelica_string _a_modelNamePrefixStr, modelica_metatype *out_out_a_loop, modelica_metatype *out_out_a_varDecls);
 #define boxptr_CodegenC_functionXXX__systems__HPCOM omc_CodegenC_functionXXX__systems__HPCOM
@@ -1719,10 +1749,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__systems__HPCOM,2,
 #define boxvar_CodegenC_functionXXX__systems__HPCOM MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionXXX__systems__HPCOM)
 
 
-#define boxptr_CodegenC_lm__457 omc_CodegenC_lm__457
+#define boxptr_CodegenC_lm__467 omc_CodegenC_lm__467
 
 
-#define boxptr_CodegenC_lm__456 omc_CodegenC_lm__456
+#define boxptr_CodegenC_lm__466 omc_CodegenC_lm__466
 
 
 DLLDirection
@@ -1732,10 +1762,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionInitSpatialDistributio
 #define boxvar_CodegenC_functionInitSpatialDistribution MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionInitSpatialDistribution)
 
 
-#define boxptr_CodegenC_fun__454 omc_CodegenC_fun__454
+#define boxptr_CodegenC_fun__464 omc_CodegenC_fun__464
 
 
-#define boxptr_CodegenC_lm__453 omc_CodegenC_lm__453
+#define boxptr_CodegenC_lm__463 omc_CodegenC_lm__463
 
 
 DLLDirection
@@ -1745,10 +1775,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionStoreSpatialDistributi
 #define boxvar_CodegenC_functionStoreSpatialDistribution MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionStoreSpatialDistribution)
 
 
-#define boxptr_CodegenC_fun__451 omc_CodegenC_fun__451
+#define boxptr_CodegenC_fun__461 omc_CodegenC_fun__461
 
 
-#define boxptr_CodegenC_lm__450 omc_CodegenC_lm__450
+#define boxptr_CodegenC_lm__460 omc_CodegenC_lm__460
 
 
 DLLDirection
@@ -1758,10 +1788,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionStoreDelayed,2,0) {(vo
 #define boxvar_CodegenC_functionStoreDelayed MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionStoreDelayed)
 
 
-#define boxptr_CodegenC_fun__448 omc_CodegenC_fun__448
+#define boxptr_CodegenC_fun__458 omc_CodegenC_fun__458
 
 
-#define boxptr_CodegenC_lm__447 omc_CodegenC_lm__447
+#define boxptr_CodegenC_lm__457 omc_CodegenC_lm__457
 
 
 DLLDirection
@@ -1771,7 +1801,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionRemovedInitialEquation
 #define boxvar_CodegenC_functionRemovedInitialEquations MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionRemovedInitialEquations)
 
 
-#define boxptr_CodegenC_lm__445 omc_CodegenC_lm__445
+#define boxptr_CodegenC_lm__455 omc_CodegenC_lm__455
 
 
 DLLDirection
@@ -1788,7 +1818,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionInitialEquations__lamb
 #define boxvar_CodegenC_functionInitialEquations__lambda0 MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionInitialEquations__lambda0)
 
 
-#define boxptr_CodegenC_lm__439 omc_CodegenC_lm__439
+#define boxptr_CodegenC_lm__449 omc_CodegenC_lm__449
 
 
 DLLDirection
@@ -1807,10 +1837,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionEquationsMultiFiles,2,
 #define boxvar_CodegenC_functionEquationsMultiFiles MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionEquationsMultiFiles)
 
 
-#define boxptr_CodegenC_fun__435 omc_CodegenC_fun__435
+#define boxptr_CodegenC_fun__445 omc_CodegenC_fun__445
 
 
-#define boxptr_CodegenC_fun__433 omc_CodegenC_fun__433
+#define boxptr_CodegenC_fun__443 omc_CodegenC_fun__443
 
 
 DLLDirection
@@ -1820,10 +1850,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionUpdateBoundParameters,
 #define boxvar_CodegenC_functionUpdateBoundParameters MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionUpdateBoundParameters)
 
 
-#define boxptr_CodegenC_lm__430 omc_CodegenC_lm__430
+#define boxptr_CodegenC_lm__440 omc_CodegenC_lm__440
 
 
-#define boxptr_CodegenC_fun__429 omc_CodegenC_fun__429
+#define boxptr_CodegenC_fun__439 omc_CodegenC_fun__439
 
 
 DLLDirection
@@ -1833,10 +1863,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionUpdateBoundVariableAtt
 #define boxvar_CodegenC_functionUpdateBoundVariableAttributesFunctionsSimpleAssign MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionUpdateBoundVariableAttributesFunctionsSimpleAssign)
 
 
-#define boxptr_CodegenC_fun__427 omc_CodegenC_fun__427
+#define boxptr_CodegenC_fun__437 omc_CodegenC_fun__437
 
 
-#define boxptr_CodegenC_fun__425 omc_CodegenC_fun__425
+#define boxptr_CodegenC_fun__435 omc_CodegenC_fun__435
 
 
 DLLDirection
@@ -1847,7 +1877,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionUpdateBoundVariableAtt
 #define boxvar_CodegenC_functionUpdateBoundVariableAttributesFunctions MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionUpdateBoundVariableAttributesFunctions)
 
 
-#define boxptr_CodegenC_fun__418 omc_CodegenC_fun__418
+#define boxptr_CodegenC_fun__428 omc_CodegenC_fun__428
 
 
 DLLDirection
@@ -1857,28 +1887,28 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionUpdateBoundVariableAtt
 #define boxvar_CodegenC_functionUpdateBoundVariableAttributes MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionUpdateBoundVariableAttributes)
 
 
-#define boxptr_CodegenC_lm__416 omc_CodegenC_lm__416
+#define boxptr_CodegenC_lm__426 omc_CodegenC_lm__426
 
 
-#define boxptr_CodegenC_lm__415 omc_CodegenC_lm__415
+#define boxptr_CodegenC_lm__425 omc_CodegenC_lm__425
 
 
-#define boxptr_CodegenC_lm__414 omc_CodegenC_lm__414
+#define boxptr_CodegenC_lm__424 omc_CodegenC_lm__424
 
 
-#define boxptr_CodegenC_lm__413 omc_CodegenC_lm__413
+#define boxptr_CodegenC_lm__423 omc_CodegenC_lm__423
 
 
-#define boxptr_CodegenC_lm__412 omc_CodegenC_lm__412
+#define boxptr_CodegenC_lm__422 omc_CodegenC_lm__422
 
 
-#define boxptr_CodegenC_lm__411 omc_CodegenC_lm__411
+#define boxptr_CodegenC_lm__421 omc_CodegenC_lm__421
 
 
-#define boxptr_CodegenC_lm__410 omc_CodegenC_lm__410
+#define boxptr_CodegenC_lm__420 omc_CodegenC_lm__420
 
 
-#define boxptr_CodegenC_lm__409 omc_CodegenC_lm__409
+#define boxptr_CodegenC_lm__419 omc_CodegenC_lm__419
 
 
 DLLDirection
@@ -1888,16 +1918,16 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionInitialStateSets,2,0) 
 #define boxvar_CodegenC_functionInitialStateSets MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionInitialStateSets)
 
 
-#define boxptr_CodegenC_lm__407 omc_CodegenC_lm__407
+#define boxptr_CodegenC_lm__417 omc_CodegenC_lm__417
 
 
-#define boxptr_CodegenC_fun__403 omc_CodegenC_fun__403
+#define boxptr_CodegenC_fun__413 omc_CodegenC_fun__413
 
 
-#define boxptr_CodegenC_fun__402 omc_CodegenC_fun__402
+#define boxptr_CodegenC_fun__412 omc_CodegenC_fun__412
 
 
-#define boxptr_CodegenC_fun__401 omc_CodegenC_fun__401
+#define boxptr_CodegenC_fun__411 omc_CodegenC_fun__411
 
 
 DLLDirection
@@ -1907,7 +1937,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_getIterationVars,2,0) {(void*)
 #define boxvar_CodegenC_getIterationVars MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_getIterationVars)
 
 
-#define boxptr_CodegenC_lm__399 omc_CodegenC_lm__399
+#define boxptr_CodegenC_lm__409 omc_CodegenC_lm__409
 
 
 DLLDirection
@@ -1917,13 +1947,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_generateStaticInitialData,2,0)
 #define boxvar_CodegenC_generateStaticInitialData MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_generateStaticInitialData)
 
 
-#define boxptr_CodegenC_lm__397 omc_CodegenC_lm__397
+#define boxptr_CodegenC_lm__407 omc_CodegenC_lm__407
 
 
-#define boxptr_CodegenC_fun__396 omc_CodegenC_fun__396
+#define boxptr_CodegenC_fun__406 omc_CodegenC_fun__406
 
 
-#define boxptr_CodegenC_fun__395 omc_CodegenC_fun__395
+#define boxptr_CodegenC_fun__405 omc_CodegenC_fun__405
 
 
 DLLDirection
@@ -1933,7 +1963,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_generateStaticNonlinearData,2,
 #define boxvar_CodegenC_generateStaticNonlinearData MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_generateStaticNonlinearData)
 
 
-#define boxptr_CodegenC_fun__393 omc_CodegenC_fun__393
+#define boxptr_CodegenC_fun__403 omc_CodegenC_fun__403
 
 
 DLLDirection
@@ -1966,64 +1996,64 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_generateNonLinearResidualFunct
 #define boxvar_CodegenC_generateNonLinearResidualFunction MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_generateNonLinearResidualFunction)
 
 
+#define boxptr_CodegenC_fun__392 omc_CodegenC_fun__392
+
+
+#define boxptr_CodegenC_fun__391 omc_CodegenC_fun__391
+
+
+#define boxptr_CodegenC_fun__388 omc_CodegenC_fun__388
+
+
+#define boxptr_CodegenC_lm__387 omc_CodegenC_lm__387
+
+
+#define boxptr_CodegenC_fun__386 omc_CodegenC_fun__386
+
+
+#define boxptr_CodegenC_lm__385 omc_CodegenC_lm__385
+
+
+#define boxptr_CodegenC_lm__383 omc_CodegenC_lm__383
+
+
 #define boxptr_CodegenC_fun__382 omc_CodegenC_fun__382
 
 
-#define boxptr_CodegenC_fun__381 omc_CodegenC_fun__381
-
-
-#define boxptr_CodegenC_fun__378 omc_CodegenC_fun__378
+#define boxptr_CodegenC_lm__378 omc_CodegenC_lm__378
 
 
 #define boxptr_CodegenC_lm__377 omc_CodegenC_lm__377
 
 
-#define boxptr_CodegenC_fun__376 omc_CodegenC_fun__376
+#define boxptr_CodegenC_lm__376 omc_CodegenC_lm__376
 
 
-#define boxptr_CodegenC_lm__375 omc_CodegenC_lm__375
+#define boxptr_CodegenC_fun__375 omc_CodegenC_fun__375
+
+
+#define boxptr_CodegenC_lm__374 omc_CodegenC_lm__374
 
 
 #define boxptr_CodegenC_lm__373 omc_CodegenC_lm__373
 
 
-#define boxptr_CodegenC_fun__372 omc_CodegenC_fun__372
+#define boxptr_CodegenC_lm__372 omc_CodegenC_lm__372
 
 
-#define boxptr_CodegenC_lm__368 omc_CodegenC_lm__368
+#define boxptr_CodegenC_lm__371 omc_CodegenC_lm__371
+
+
+#define boxptr_CodegenC_fun__370 omc_CodegenC_fun__370
+
+
+#define boxptr_CodegenC_lm__369 omc_CodegenC_lm__369
+
+
+#define boxptr_CodegenC_fun__368 omc_CodegenC_fun__368
 
 
 #define boxptr_CodegenC_lm__367 omc_CodegenC_lm__367
-
-
-#define boxptr_CodegenC_lm__366 omc_CodegenC_lm__366
-
-
-#define boxptr_CodegenC_fun__365 omc_CodegenC_fun__365
-
-
-#define boxptr_CodegenC_lm__364 omc_CodegenC_lm__364
-
-
-#define boxptr_CodegenC_lm__363 omc_CodegenC_lm__363
-
-
-#define boxptr_CodegenC_lm__362 omc_CodegenC_lm__362
-
-
-#define boxptr_CodegenC_lm__361 omc_CodegenC_lm__361
-
-
-#define boxptr_CodegenC_fun__360 omc_CodegenC_fun__360
-
-
-#define boxptr_CodegenC_lm__359 omc_CodegenC_lm__359
-
-
-#define boxptr_CodegenC_fun__358 omc_CodegenC_fun__358
-
-
-#define boxptr_CodegenC_lm__357 omc_CodegenC_lm__357
 
 
 DLLDirection
@@ -2033,10 +2063,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionNonLinearResiduals,2,0
 #define boxvar_CodegenC_functionNonLinearResiduals MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionNonLinearResiduals)
 
 
-#define boxptr_CodegenC_lm__355 omc_CodegenC_lm__355
+#define boxptr_CodegenC_lm__365 omc_CodegenC_lm__365
 
 
-#define boxptr_CodegenC_fun__354 omc_CodegenC_fun__354
+#define boxptr_CodegenC_fun__364 omc_CodegenC_fun__364
 
 
 DLLDirection
@@ -2054,7 +2084,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionNonLinearResidualsMult
 #define boxvar_CodegenC_functionNonLinearResidualsMultiFile2 MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionNonLinearResidualsMultiFile2)
 
 
-#define boxptr_CodegenC_lm__351 omc_CodegenC_lm__351
+#define boxptr_CodegenC_lm__361 omc_CodegenC_lm__361
 
 
 DLLDirection
@@ -2072,10 +2102,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_createLocalConstraints,2,0) {(
 #define boxvar_CodegenC_createLocalConstraints MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_createLocalConstraints)
 
 
-#define boxptr_CodegenC_lm__348 omc_CodegenC_lm__348
+#define boxptr_CodegenC_lm__358 omc_CodegenC_lm__358
 
 
-#define boxptr_CodegenC_fun__347 omc_CodegenC_fun__347
+#define boxptr_CodegenC_fun__357 omc_CodegenC_fun__357
 
 
 DLLDirection
@@ -2085,7 +2115,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionExtraResidualsPreBodyJ
 #define boxvar_CodegenC_functionExtraResidualsPreBodyJacobian MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionExtraResidualsPreBodyJacobian)
 
 
-#define boxptr_CodegenC_fun__345 omc_CodegenC_fun__345
+#define boxptr_CodegenC_fun__355 omc_CodegenC_fun__355
 
 
 DLLDirection
@@ -2095,7 +2125,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionExtraResidualsPreBody,
 #define boxvar_CodegenC_functionExtraResidualsPreBody MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionExtraResidualsPreBody)
 
 
-#define boxptr_CodegenC_fun__343 omc_CodegenC_fun__343
+#define boxptr_CodegenC_fun__353 omc_CodegenC_fun__353
 
 
 DLLDirection
@@ -2105,16 +2135,16 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_createGlobalConstraints,2,0) {
 #define boxvar_CodegenC_createGlobalConstraints MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_createGlobalConstraints)
 
 
-#define boxptr_CodegenC_lm__341 omc_CodegenC_lm__341
+#define boxptr_CodegenC_lm__351 omc_CodegenC_lm__351
 
 
-#define boxptr_CodegenC_fun__340 omc_CodegenC_fun__340
+#define boxptr_CodegenC_fun__350 omc_CodegenC_fun__350
 
 
-#define boxptr_CodegenC_lm__339 omc_CodegenC_lm__339
+#define boxptr_CodegenC_lm__349 omc_CodegenC_lm__349
 
 
-#define boxptr_CodegenC_fun__338 omc_CodegenC_fun__338
+#define boxptr_CodegenC_fun__348 omc_CodegenC_fun__348
 
 
 DLLDirection
@@ -2132,16 +2162,16 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_generateNonLinearSystemData,2,
 #define boxvar_CodegenC_generateNonLinearSystemData MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_generateNonLinearSystemData)
 
 
-#define boxptr_CodegenC_lm__334 omc_CodegenC_lm__334
+#define boxptr_CodegenC_lm__344 omc_CodegenC_lm__344
 
 
-#define boxptr_CodegenC_fun__330 omc_CodegenC_fun__330
+#define boxptr_CodegenC_fun__340 omc_CodegenC_fun__340
 
 
-#define boxptr_CodegenC_fun__329 omc_CodegenC_fun__329
+#define boxptr_CodegenC_fun__339 omc_CodegenC_fun__339
 
 
-#define boxptr_CodegenC_fun__328 omc_CodegenC_fun__328
+#define boxptr_CodegenC_fun__338 omc_CodegenC_fun__338
 
 
 DLLDirection
@@ -2151,10 +2181,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionInitialNonLinearSystem
 #define boxvar_CodegenC_functionInitialNonLinearSystemsTemp MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionInitialNonLinearSystemsTemp)
 
 
-#define boxptr_CodegenC_lm__326 omc_CodegenC_lm__326
+#define boxptr_CodegenC_lm__336 omc_CodegenC_lm__336
 
 
-#define boxptr_CodegenC_fun__325 omc_CodegenC_fun__325
+#define boxptr_CodegenC_fun__335 omc_CodegenC_fun__335
 
 
 DLLDirection
@@ -2164,7 +2194,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionInitialNonLinearSystem
 #define boxvar_CodegenC_functionInitialNonLinearSystems MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionInitialNonLinearSystems)
 
 
-#define boxptr_CodegenC_lm__323 omc_CodegenC_lm__323
+#define boxptr_CodegenC_lm__333 omc_CodegenC_lm__333
 
 
 DLLDirection
@@ -2174,58 +2204,58 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionSetupLinearSystems,2,0
 #define boxvar_CodegenC_functionSetupLinearSystems MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionSetupLinearSystems)
 
 
+#define boxptr_CodegenC_lm__331 omc_CodegenC_lm__331
+
+
+#define boxptr_CodegenC_fun__330 omc_CodegenC_fun__330
+
+
+#define boxptr_CodegenC_lm__324 omc_CodegenC_lm__324
+
+
+#define boxptr_CodegenC_lm__323 omc_CodegenC_lm__323
+
+
 #define boxptr_CodegenC_lm__321 omc_CodegenC_lm__321
 
 
-#define boxptr_CodegenC_fun__320 omc_CodegenC_fun__320
-
-
-#define boxptr_CodegenC_lm__314 omc_CodegenC_lm__314
-
-
-#define boxptr_CodegenC_lm__313 omc_CodegenC_lm__313
-
-
-#define boxptr_CodegenC_lm__311 omc_CodegenC_lm__311
+#define boxptr_CodegenC_lm__320 omc_CodegenC_lm__320
 
 
 #define boxptr_CodegenC_lm__310 omc_CodegenC_lm__310
 
 
-#define boxptr_CodegenC_lm__300 omc_CodegenC_lm__300
+#define boxptr_CodegenC_lm__308 omc_CodegenC_lm__308
+
+
+#define boxptr_CodegenC_lm__307 omc_CodegenC_lm__307
+
+
+#define boxptr_CodegenC_lm__306 omc_CodegenC_lm__306
+
+
+#define boxptr_CodegenC_lm__304 omc_CodegenC_lm__304
+
+
+#define boxptr_CodegenC_lm__303 omc_CodegenC_lm__303
+
+
+#define boxptr_CodegenC_lm__299 omc_CodegenC_lm__299
 
 
 #define boxptr_CodegenC_lm__298 omc_CodegenC_lm__298
 
 
-#define boxptr_CodegenC_lm__297 omc_CodegenC_lm__297
-
-
-#define boxptr_CodegenC_lm__296 omc_CodegenC_lm__296
-
-
 #define boxptr_CodegenC_lm__294 omc_CodegenC_lm__294
 
 
-#define boxptr_CodegenC_lm__293 omc_CodegenC_lm__293
+#define boxptr_CodegenC_lm__291 omc_CodegenC_lm__291
+
+
+#define boxptr_CodegenC_lm__290 omc_CodegenC_lm__290
 
 
 #define boxptr_CodegenC_lm__289 omc_CodegenC_lm__289
-
-
-#define boxptr_CodegenC_lm__288 omc_CodegenC_lm__288
-
-
-#define boxptr_CodegenC_lm__284 omc_CodegenC_lm__284
-
-
-#define boxptr_CodegenC_lm__281 omc_CodegenC_lm__281
-
-
-#define boxptr_CodegenC_lm__280 omc_CodegenC_lm__280
-
-
-#define boxptr_CodegenC_lm__279 omc_CodegenC_lm__279
 
 
 DLLDirection
@@ -2235,19 +2265,19 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionInitialLinearSystemsTe
 #define boxvar_CodegenC_functionInitialLinearSystemsTemp MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionInitialLinearSystemsTemp)
 
 
-#define boxptr_CodegenC_lm__277 omc_CodegenC_lm__277
+#define boxptr_CodegenC_lm__287 omc_CodegenC_lm__287
 
 
-#define boxptr_CodegenC_fun__276 omc_CodegenC_fun__276
+#define boxptr_CodegenC_fun__286 omc_CodegenC_fun__286
 
 
-#define boxptr_CodegenC_fun__274 omc_CodegenC_fun__274
+#define boxptr_CodegenC_fun__284 omc_CodegenC_fun__284
 
 
-#define boxptr_CodegenC_fun__273 omc_CodegenC_fun__273
+#define boxptr_CodegenC_fun__283 omc_CodegenC_fun__283
 
 
-#define boxptr_CodegenC_fun__272 omc_CodegenC_fun__272
+#define boxptr_CodegenC_fun__282 omc_CodegenC_fun__282
 
 
 DLLDirection
@@ -2257,7 +2287,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionInitialLinearSystems,2
 #define boxvar_CodegenC_functionInitialLinearSystems MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionInitialLinearSystems)
 
 
-#define boxptr_CodegenC_lm__269 omc_CodegenC_lm__269
+#define boxptr_CodegenC_lm__279 omc_CodegenC_lm__279
 
 
 DLLDirection
@@ -2267,16 +2297,16 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionSetupMixedSystemsTemp,
 #define boxvar_CodegenC_functionSetupMixedSystemsTemp MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionSetupMixedSystemsTemp)
 
 
-#define boxptr_CodegenC_lm__267 omc_CodegenC_lm__267
+#define boxptr_CodegenC_lm__277 omc_CodegenC_lm__277
 
 
-#define boxptr_CodegenC_fun__266 omc_CodegenC_fun__266
+#define boxptr_CodegenC_fun__276 omc_CodegenC_fun__276
 
 
-#define boxptr_CodegenC_lm__265 omc_CodegenC_lm__265
+#define boxptr_CodegenC_lm__275 omc_CodegenC_lm__275
 
 
-#define boxptr_CodegenC_fun__264 omc_CodegenC_fun__264
+#define boxptr_CodegenC_fun__274 omc_CodegenC_fun__274
 
 
 DLLDirection
@@ -2286,10 +2316,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionSetupMixedSystems,2,0)
 #define boxvar_CodegenC_functionSetupMixedSystems MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionSetupMixedSystems)
 
 
-#define boxptr_CodegenC_lm__262 omc_CodegenC_lm__262
+#define boxptr_CodegenC_lm__272 omc_CodegenC_lm__272
 
 
-#define boxptr_CodegenC_lm__261 omc_CodegenC_lm__261
+#define boxptr_CodegenC_lm__271 omc_CodegenC_lm__271
 
 
 DLLDirection
@@ -2299,10 +2329,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionInitialMixedSystemsTem
 #define boxvar_CodegenC_functionInitialMixedSystemsTemp MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionInitialMixedSystemsTemp)
 
 
-#define boxptr_CodegenC_lm__259 omc_CodegenC_lm__259
+#define boxptr_CodegenC_lm__269 omc_CodegenC_lm__269
 
 
-#define boxptr_CodegenC_fun__258 omc_CodegenC_fun__258
+#define boxptr_CodegenC_fun__268 omc_CodegenC_fun__268
 
 
 DLLDirection
@@ -2312,10 +2342,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionInitialMixedSystems,2,
 #define boxvar_CodegenC_functionInitialMixedSystems MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionInitialMixedSystems)
 
 
-#define boxptr_CodegenC_lm__256 omc_CodegenC_lm__256
+#define boxptr_CodegenC_lm__266 omc_CodegenC_lm__266
 
 
-#define boxptr_CodegenC_lm__255 omc_CodegenC_lm__255
+#define boxptr_CodegenC_lm__265 omc_CodegenC_lm__265
 
 
 DLLDirection
@@ -2325,10 +2355,31 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionInitSample,2,0) {(void
 #define boxvar_CodegenC_functionInitSample MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionInitSample)
 
 
-#define boxptr_CodegenC_lm__253 omc_CodegenC_lm__253
+#define boxptr_CodegenC_lm__263 omc_CodegenC_lm__263
 
 
-#define boxptr_CodegenC_fun__252 omc_CodegenC_fun__252
+#define boxptr_CodegenC_fun__262 omc_CodegenC_fun__262
+
+
+#define boxptr_CodegenC_fun__261 omc_CodegenC_fun__261
+
+
+#define boxptr_CodegenC_lm__260 omc_CodegenC_lm__260
+
+
+#define boxptr_CodegenC_fun__259 omc_CodegenC_fun__259
+
+
+#define boxptr_CodegenC_lm__258 omc_CodegenC_lm__258
+
+
+#define boxptr_CodegenC_lm__257 omc_CodegenC_lm__257
+
+
+#define boxptr_CodegenC_fun__256 omc_CodegenC_fun__256
+
+
+#define boxptr_CodegenC_lm__255 omc_CodegenC_lm__255
 
 
 DLLDirection
@@ -2338,10 +2389,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionSetB,2,0) {(void*) box
 #define boxvar_CodegenC_functionSetB MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionSetB)
 
 
-#define boxptr_CodegenC_fun__250 omc_CodegenC_fun__250
+#define boxptr_CodegenC_fun__253 omc_CodegenC_fun__253
 
 
-#define boxptr_CodegenC_lm__249 omc_CodegenC_lm__249
+#define boxptr_CodegenC_lm__252 omc_CodegenC_lm__252
 
 
 DLLDirection
@@ -2351,10 +2402,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionSetC,2,0) {(void*) box
 #define boxvar_CodegenC_functionSetC MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionSetC)
 
 
-#define boxptr_CodegenC_fun__247 omc_CodegenC_fun__247
+#define boxptr_CodegenC_fun__250 omc_CodegenC_fun__250
 
 
-#define boxptr_CodegenC_lm__246 omc_CodegenC_lm__246
+#define boxptr_CodegenC_lm__249 omc_CodegenC_lm__249
 
 
 DLLDirection
@@ -2364,10 +2415,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionOutput,2,0) {(void*) b
 #define boxvar_CodegenC_functionOutput MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionOutput)
 
 
-#define boxptr_CodegenC_fun__244 omc_CodegenC_fun__244
+#define boxptr_CodegenC_fun__247 omc_CodegenC_fun__247
 
 
-#define boxptr_CodegenC_lm__243 omc_CodegenC_lm__243
+#define boxptr_CodegenC_lm__246 omc_CodegenC_lm__246
 
 
 DLLDirection
@@ -2377,16 +2428,16 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionDataInput,2,0) {(void*
 #define boxvar_CodegenC_functionDataInput MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionDataInput)
 
 
-#define boxptr_CodegenC_fun__241 omc_CodegenC_fun__241
+#define boxptr_CodegenC_fun__244 omc_CodegenC_fun__244
 
 
-#define boxptr_CodegenC_lm__240 omc_CodegenC_lm__240
+#define boxptr_CodegenC_lm__243 omc_CodegenC_lm__243
 
 
-#define boxptr_CodegenC_lm__238 omc_CodegenC_lm__238
+#define boxptr_CodegenC_lm__241 omc_CodegenC_lm__241
 
 
-#define boxptr_CodegenC_lm__236 omc_CodegenC_lm__236
+#define boxptr_CodegenC_lm__239 omc_CodegenC_lm__239
 
 
 DLLDirection
@@ -2396,22 +2447,22 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionInput,2,0) {(void*) bo
 #define boxvar_CodegenC_functionInput MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionInput)
 
 
-#define boxptr_CodegenC_fun__234 omc_CodegenC_fun__234
+#define boxptr_CodegenC_fun__237 omc_CodegenC_fun__237
 
 
-#define boxptr_CodegenC_lm__233 omc_CodegenC_lm__233
+#define boxptr_CodegenC_lm__236 omc_CodegenC_lm__236
 
 
-#define boxptr_CodegenC_lm__231 omc_CodegenC_lm__231
+#define boxptr_CodegenC_lm__234 omc_CodegenC_lm__234
+
+
+#define boxptr_CodegenC_lm__232 omc_CodegenC_lm__232
+
+
+#define boxptr_CodegenC_fun__230 omc_CodegenC_fun__230
 
 
 #define boxptr_CodegenC_lm__229 omc_CodegenC_lm__229
-
-
-#define boxptr_CodegenC_fun__227 omc_CodegenC_fun__227
-
-
-#define boxptr_CodegenC_lm__226 omc_CodegenC_lm__226
 
 
 DLLDirection
@@ -2421,10 +2472,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionCallExternalObjectDest
 #define boxvar_CodegenC_functionCallExternalObjectDestructors MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionCallExternalObjectDestructors)
 
 
-#define boxptr_CodegenC_fun__224 omc_CodegenC_fun__224
+#define boxptr_CodegenC_fun__227 omc_CodegenC_fun__227
 
 
-#define boxptr_CodegenC_lm__223 omc_CodegenC_lm__223
+#define boxptr_CodegenC_lm__226 omc_CodegenC_lm__226
 
 
 DLLDirection
@@ -2434,7 +2485,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_aliasVarNameType,2,0) {(void*)
 #define boxvar_CodegenC_aliasVarNameType MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_aliasVarNameType)
 
 
-#define boxptr_CodegenC_fun__221 omc_CodegenC_fun__221
+#define boxptr_CodegenC_fun__224 omc_CodegenC_fun__224
 
 
 DLLDirection
@@ -2444,7 +2495,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_symJacDefinition,2,0) {(void*)
 #define boxvar_CodegenC_symJacDefinition MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_symJacDefinition)
 
 
-#define boxptr_CodegenC_lm__219 omc_CodegenC_lm__219
+#define boxptr_CodegenC_lm__222 omc_CodegenC_lm__222
 
 
 DLLDirection
@@ -2454,10 +2505,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_globalDataAliasVarArray,2,0) {
 #define boxvar_CodegenC_globalDataAliasVarArray MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_globalDataAliasVarArray)
 
 
-#define boxptr_CodegenC_fun__217 omc_CodegenC_fun__217
+#define boxptr_CodegenC_fun__220 omc_CodegenC_fun__220
 
 
-#define boxptr_CodegenC_lm__216 omc_CodegenC_lm__216
+#define boxptr_CodegenC_lm__219 omc_CodegenC_lm__219
 
 
 DLLDirection
@@ -2467,7 +2518,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_globalDataVarDefine,2,0) {(voi
 #define boxvar_CodegenC_globalDataVarDefine MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_globalDataVarDefine)
 
 
-#define boxptr_CodegenC_fun__214 omc_CodegenC_fun__214
+#define boxptr_CodegenC_fun__217 omc_CodegenC_fun__217
 
 
 DLLDirection
@@ -2477,7 +2528,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_globalDataParDefine,2,0) {(voi
 #define boxvar_CodegenC_globalDataParDefine MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_globalDataParDefine)
 
 
-#define boxptr_CodegenC_fun__212 omc_CodegenC_fun__212
+#define boxptr_CodegenC_fun__215 omc_CodegenC_fun__215
 
 
 DLLDirection
@@ -2487,7 +2538,16 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_variableDefinitions,2,0) {(voi
 #define boxvar_CodegenC_variableDefinitions MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_variableDefinitions)
 
 
-#define boxptr_CodegenC_fun__209 omc_CodegenC_fun__209
+#define boxptr_CodegenC_fun__212 omc_CodegenC_fun__212
+
+
+#define boxptr_CodegenC_lm__211 omc_CodegenC_lm__211
+
+
+#define boxptr_CodegenC_lm__210 omc_CodegenC_lm__210
+
+
+#define boxptr_CodegenC_lm__209 omc_CodegenC_lm__209
 
 
 #define boxptr_CodegenC_lm__208 omc_CodegenC_lm__208
@@ -2523,15 +2583,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_variableDefinitions,2,0) {(voi
 #define boxptr_CodegenC_lm__198 omc_CodegenC_lm__198
 
 
-#define boxptr_CodegenC_lm__197 omc_CodegenC_lm__197
-
-
-#define boxptr_CodegenC_lm__196 omc_CodegenC_lm__196
-
-
-#define boxptr_CodegenC_lm__195 omc_CodegenC_lm__195
-
-
 DLLDirection
 modelica_metatype omc_CodegenC_functionSimProfDef(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_eq, modelica_integer _in_a_value, modelica_metatype _in_a_reverseProf, modelica_metatype *out_out_a_reverseProf);
 DLLDirection
@@ -2547,13 +2598,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionInitializeDataStruc,2,
 #define boxvar_CodegenC_functionInitializeDataStruc MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionInitializeDataStruc)
 
 
-#define boxptr_CodegenC_fun__192 omc_CodegenC_fun__192
+#define boxptr_CodegenC_fun__195 omc_CodegenC_fun__195
 
 
-#define boxptr_CodegenC_lm__191 omc_CodegenC_lm__191
+#define boxptr_CodegenC_lm__194 omc_CodegenC_lm__194
 
 
-#define boxptr_CodegenC_lm__190 omc_CodegenC_lm__190
+#define boxptr_CodegenC_lm__193 omc_CodegenC_lm__193
 
 
 DLLDirection
@@ -2563,10 +2614,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_populateModelInfo,2,0) {(void*
 #define boxvar_CodegenC_populateModelInfo MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_populateModelInfo)
 
 
-#define boxptr_CodegenC_fun__183 omc_CodegenC_fun__183
+#define boxptr_CodegenC_fun__186 omc_CodegenC_fun__186
 
 
-#define boxptr_CodegenC_fun__181 omc_CodegenC_fun__181
+#define boxptr_CodegenC_fun__184 omc_CodegenC_fun__184
 
 
 DLLDirection
@@ -2581,6 +2632,15 @@ modelica_metatype omc_CodegenC_simulationFile(threadData_t *threadData, modelica
 #define boxptr_CodegenC_simulationFile omc_CodegenC_simulationFile
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_simulationFile,2,0) {(void*) boxptr_CodegenC_simulationFile,0}};
 #define boxvar_CodegenC_simulationFile MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_simulationFile)
+
+
+#define boxptr_CodegenC_fun__173 omc_CodegenC_fun__173
+
+
+#define boxptr_CodegenC_fun__172 omc_CodegenC_fun__172
+
+
+#define boxptr_CodegenC_fun__171 omc_CodegenC_fun__171
 
 
 #define boxptr_CodegenC_fun__170 omc_CodegenC_fun__170
@@ -2598,25 +2658,16 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_simulationFile,2,0) {(void*) b
 #define boxptr_CodegenC_fun__166 omc_CodegenC_fun__166
 
 
-#define boxptr_CodegenC_fun__165 omc_CodegenC_fun__165
+#define boxptr_CodegenC_fun__157 omc_CodegenC_fun__157
 
 
-#define boxptr_CodegenC_fun__164 omc_CodegenC_fun__164
+#define boxptr_CodegenC_fun__156 omc_CodegenC_fun__156
 
 
-#define boxptr_CodegenC_fun__163 omc_CodegenC_fun__163
+#define boxptr_CodegenC_fun__155 omc_CodegenC_fun__155
 
 
 #define boxptr_CodegenC_fun__154 omc_CodegenC_fun__154
-
-
-#define boxptr_CodegenC_fun__153 omc_CodegenC_fun__153
-
-
-#define boxptr_CodegenC_fun__152 omc_CodegenC_fun__152
-
-
-#define boxptr_CodegenC_fun__151 omc_CodegenC_fun__151
 
 
 DLLDirection
@@ -2626,10 +2677,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_simulationFile__inl,2,0) {(voi
 #define boxvar_CodegenC_simulationFile__inl MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_simulationFile__inl)
 
 
-#define boxptr_CodegenC_lm__144 omc_CodegenC_lm__144
+#define boxptr_CodegenC_lm__147 omc_CodegenC_lm__147
 
 
-#define boxptr_CodegenC_lm__143 omc_CodegenC_lm__143
+#define boxptr_CodegenC_lm__146 omc_CodegenC_lm__146
 
 
 DLLDirection
@@ -2639,7 +2690,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_simulationFile__dae,2,0) {(voi
 #define boxvar_CodegenC_simulationFile__dae MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_simulationFile__dae)
 
 
-#define boxptr_CodegenC_fun__139 omc_CodegenC_fun__139
+#define boxptr_CodegenC_fun__142 omc_CodegenC_fun__142
 
 
 DLLDirection
@@ -2649,10 +2700,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_simulationFile__dae__header,2,
 #define boxvar_CodegenC_simulationFile__dae__header MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_simulationFile__dae__header)
 
 
-#define boxptr_CodegenC_lm__137 omc_CodegenC_lm__137
+#define boxptr_CodegenC_lm__140 omc_CodegenC_lm__140
 
 
-#define boxptr_CodegenC_lm__136 omc_CodegenC_lm__136
+#define boxptr_CodegenC_lm__139 omc_CodegenC_lm__139
 
 
 DLLDirection
@@ -2662,7 +2713,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_defineSimVarArray,2,0) {(void*
 #define boxvar_CodegenC_defineSimVarArray MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_defineSimVarArray)
 
 
-#define boxptr_CodegenC_fun__134 omc_CodegenC_fun__134
+#define boxptr_CodegenC_fun__137 omc_CodegenC_fun__137
 
 
 DLLDirection
@@ -2799,10 +2850,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionSystemsSynchronous,2,0
 #define boxvar_CodegenC_functionSystemsSynchronous MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionSystemsSynchronous)
 
 
-#define boxptr_CodegenC_lm__103 omc_CodegenC_lm__103
+#define boxptr_CodegenC_lm__106 omc_CodegenC_lm__106
 
 
-#define boxptr_CodegenC_lm__99 omc_CodegenC_lm__99
+#define boxptr_CodegenC_lm__102 omc_CodegenC_lm__102
 
 
 DLLDirection
@@ -2821,7 +2872,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_updatePartition,2,0) {(void*) 
 #define boxvar_CodegenC_updatePartition MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_updatePartition)
 
 
-#define boxptr_CodegenC_fun__93 omc_CodegenC_fun__93
+#define boxptr_CodegenC_fun__96 omc_CodegenC_fun__96
 
 
 DLLDirection
@@ -2831,7 +2882,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionUpdateSynchronous,2,0)
 #define boxvar_CodegenC_functionUpdateSynchronous MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionUpdateSynchronous)
 
 
-#define boxptr_CodegenC_lm__89 omc_CodegenC_lm__89
+#define boxptr_CodegenC_lm__92 omc_CodegenC_lm__92
 
 
 DLLDirection
@@ -2849,7 +2900,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_subPartitionStr,2,0) {(void*) 
 #define boxvar_CodegenC_subPartitionStr MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_subPartitionStr)
 
 
-#define boxptr_CodegenC_fun__85 omc_CodegenC_fun__85
+#define boxptr_CodegenC_fun__88 omc_CodegenC_fun__88
 
 
 DLLDirection
@@ -2860,19 +2911,19 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_baseClockInit,2,0) {(void*) bo
 #define boxvar_CodegenC_baseClockInit MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_baseClockInit)
 
 
-#define boxptr_CodegenC_fun__83 omc_CodegenC_fun__83
+#define boxptr_CodegenC_fun__86 omc_CodegenC_fun__86
+
+
+#define boxptr_CodegenC_fun__82 omc_CodegenC_fun__82
+
+
+#define boxptr_CodegenC_fun__80 omc_CodegenC_fun__80
 
 
 #define boxptr_CodegenC_fun__79 omc_CodegenC_fun__79
 
 
-#define boxptr_CodegenC_fun__77 omc_CodegenC_fun__77
-
-
-#define boxptr_CodegenC_fun__76 omc_CodegenC_fun__76
-
-
-#define boxptr_CodegenC_fun__75 omc_CodegenC_fun__75
+#define boxptr_CodegenC_fun__78 omc_CodegenC_fun__78
 
 
 DLLDirection
@@ -2882,7 +2933,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionInitSynchronous,2,0) {
 #define boxvar_CodegenC_functionInitSynchronous MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionInitSynchronous)
 
 
-#define boxptr_CodegenC_lm__72 omc_CodegenC_lm__72
+#define boxptr_CodegenC_lm__75 omc_CodegenC_lm__75
 
 
 DLLDirection
@@ -2899,10 +2950,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionSavePreSynchronous3,2,
 #define boxvar_CodegenC_functionSavePreSynchronous3 MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionSavePreSynchronous3)
 
 
-#define boxptr_CodegenC_fun__68 omc_CodegenC_fun__68
+#define boxptr_CodegenC_fun__71 omc_CodegenC_fun__71
 
 
-#define boxptr_CodegenC_fun__67 omc_CodegenC_fun__67
+#define boxptr_CodegenC_fun__70 omc_CodegenC_fun__70
 
 
 DLLDirection
@@ -2912,7 +2963,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionSavePreSynchronous2,2,
 #define boxvar_CodegenC_functionSavePreSynchronous2 MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionSavePreSynchronous2)
 
 
-#define boxptr_CodegenC_lm__65 omc_CodegenC_lm__65
+#define boxptr_CodegenC_lm__68 omc_CodegenC_lm__68
 
 
 DLLDirection
@@ -2929,7 +2980,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_functionSavePreSynchronous,2,0
 #define boxvar_CodegenC_functionSavePreSynchronous MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_functionSavePreSynchronous)
 
 
-#define boxptr_CodegenC_lm__62 omc_CodegenC_lm__62
+#define boxptr_CodegenC_lm__65 omc_CodegenC_lm__65
 
 
 DLLDirection
@@ -2953,10 +3004,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenC_simulationHeaderFile,2,0) {(vo
 #define boxvar_CodegenC_simulationHeaderFile MMC_REFSTRUCTLIT(boxvar_lit_CodegenC_simulationHeaderFile)
 
 
-#define boxptr_CodegenC_fun__58 omc_CodegenC_fun__58
+#define boxptr_CodegenC_fun__61 omc_CodegenC_fun__61
 
 
-#define boxptr_CodegenC_lm__51 omc_CodegenC_lm__51
+#define boxptr_CodegenC_lm__54 omc_CodegenC_lm__54
 
 
 DLLDirection

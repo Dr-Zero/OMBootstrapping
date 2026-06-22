@@ -18,8 +18,6 @@ extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description Tpl_BlockType_BT__ABS__INDENT__desc;
 
 extern struct record_description Tpl_BlockType_BT__INDENT__desc;

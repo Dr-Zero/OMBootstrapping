@@ -444,8 +444,8 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT193,0,_OMC_LIT193_data);
 #define _OMC_LIT193 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT193)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT194,4,3) {&TplAbsyn_MMPackage_MM__PACKAGE__desc,_OMC_LIT45,_OMC_LIT192,_OMC_LIT193}};
 #define _OMC_LIT194 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT194)
-#define _OMC_LIT195_data "package Susan\n\npublic import Tpl;\n\npublic import Pa.Li.Ko;\n\npublic constant Tpl.StringToken strTokConst = Tpl.ST_STRING_LIST({\n                                                  \"Susan\",\n                                                  \"is\",\n                                                  \"beautiful\\n\"\n                                              }, true);\n\nprotected constant Integer c_literalValueConst = 123;\n\npublic function MuchFun\n  input Tpl.Text txt;\n  input Integer laughLevel;\n  input list<String> jokes;\n\n  output Tpl.Text out_txt;\nalgorithm\n  out_txt := Tpl.writeStr(txt, \"Susan\");\n  out_txt := Tpl.writeTok(out_txt, Tpl.ST_LINE(\"Susan is cosmic!\\n\"));\nend MuchFun;\n\npublic function MoreFun\n  input Tpl.Text in_txt;\n  input Option<String> in_v_laughLevel;\n  input list<String> in_v_jokes;\n\n  output Tpl.Text out_txt;\nalgorithm\n  out_txt :=\n  matchcontinue(in_txt, in_v_laughLevel, in_v_jokes)\n    local\n      Tpl.Text txt;\n\n    case ( txt,\n           SOME((v_hej as \"Hej\")),\n           v_jokes )\n      local\n        String v_hej;\n        list<String> v_jokes;\n      equation\n        txt = Tpl.writeStr(txt, v_hej);\n      then txt;\n\n    case ( txt,\n           SOME(v_hej),\n           _ )\n      local\n        String v_hej;\n      equation\n        txt = Tpl.writeStr(txt, \"Not hej:\");\n        txt = Tpl.writeStr(txt, v_hej);\n      then txt;\n\n    case ( txt,\n           NONE(),\n           _ )\n      equation\n        txt = Tpl.writeStr(txt, \"NONE at all\");\n      then txt;\n  end matchcontinue;\nend MoreFun;\n\nend Susan;"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT195,1529,_OMC_LIT195_data);
+#define _OMC_LIT195_data "package Susan\n\npublic import Tpl;\n\npublic import Pa.Li.Ko;\n\npublic constant Tpl.StringToken strTokConst = Tpl.ST_STRING_LIST({\n                                                  \"Susan\",\n                                                  \"is\",\n                                                  \"beautiful\\n\"\n                                              }, true);\n\nprotected constant Integer c_literalValueConst = 123;\n\npublic function MuchFun\n  input Tpl.Text txt;\n  input Integer laughLevel;\n  input list<String> jokes;\n\n  output Tpl.Text out_txt;\nalgorithm\n  out_txt := Tpl.writeStr(txt, \"Susan\");\n  out_txt := Tpl.writeTok(out_txt, Tpl.ST_LINE(\"Susan is cosmic!\\n\"));\nend MuchFun;\n\npublic function MoreFun\n  input Tpl.Text in_txt;\n  input Option<String> in_v_laughLevel;\n  input list<String> in_v_jokes;\n\n  output Tpl.Text out_txt;\nalgorithm\n  out_txt :=\n  matchcontinue(in_txt, in_v_laughLevel, in_v_jokes)\n    local\n      Tpl.Text txt;\n\n    case ( txt,\n           SOME((v_hej as \"Hej\")),\n           v_jokes )\n      local\n        String v_hej;\n        list<String> v_jokes;\n      algorithm\n        txt = Tpl.writeStr(txt, v_hej);\n      then txt;\n\n    case ( txt,\n           SOME(v_hej),\n           _ )\n      local\n        String v_hej;\n      algorithm\n        txt = Tpl.writeStr(txt, \"Not hej:\");\n        txt = Tpl.writeStr(txt, v_hej);\n      then txt;\n\n    case ( txt,\n           NONE(),\n           _ )\n      algorithm\n        txt = Tpl.writeStr(txt, \"NONE at all\");\n      then txt;\n  end matchcontinue;\nend MoreFun;\n\nend Susan;"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT195,1532,_OMC_LIT195_data);
 #define _OMC_LIT195 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT195)
 #define _OMC_LIT196_data "mmPackage"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT196,9,_OMC_LIT196_data);
@@ -723,8 +723,8 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT323,2,1) {_OMC_LIT275,_OMC_LIT322}}
 #define _OMC_LIT323 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT323)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT324,5,3) {&TplAbsyn_TemplPackage_TEMPL__PACKAGE__desc,_OMC_LIT45,_OMC_LIT233,_OMC_LIT323,_OMC_LIT193}};
 #define _OMC_LIT324 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT324)
-#define _OMC_LIT325_data "package Susan\n\npublic import Tpl;\n\npublic import TplAbsyn;\n\npublic function pathIdent\n  input Tpl.Text in_txt;\n  input TplAbsyn.PathIdent in_i_it;\n\n  output Tpl.Text out_txt;\nalgorithm\n  out_txt :=\n  matchcontinue(in_txt, in_i_it)\n    local\n      Tpl.Text txt;\n\n    case ( txt,\n           TplAbsyn.IDENT(ident = i_ident) )\n      local\n        TplAbsyn.Ident i_ident;\n      equation\n        txt = Tpl.writeStr(txt, i_ident);\n      then txt;\n\n    case ( txt,\n           TplAbsyn.PATH_IDENT(ident = i_ident, path = i_path) )\n      local\n        TplAbsyn.PathIdent i_path;\n        TplAbsyn.Ident i_ident;\n      equation\n        txt = Tpl.writeStr(txt, i_ident);\n        txt = Tpl.writeTok(txt, Tpl.ST_STRING(\".\"));\n        txt = pathIdent(txt, i_path);\n      then txt;\n\n    else in_txt;\n  end matchcontinue;\nend pathIdent;\n\nprotected function lm_2\n  input Tpl.Text in_txt;\n  input TplAbsyn.TypedIdents in_items;\n\n  output Tpl.Text out_txt;\nalgorithm\n  out_txt :=\n  matchcontinue(in_txt, in_items)\n    local\n      Tpl.Text txt;\n\n    case ( txt,\n           {} )\n      then txt;\n\n    case ( txt,\n           (i_id, i_pid) :: rest )\n      local\n        TplAbsyn.TypedIdents rest;\n        TplAbsyn.PathIdent i_pid;\n        TplAbsyn.Ident i_id;\n      equation\n        txt = pathIdent(txt, i_pid);\n        txt = Tpl.writeTok(txt, Tpl.ST_STRING(\" \"));\n        txt = Tpl.writeStr(txt, i_id);\n        txt = Tpl.writeTok(txt, Tpl.ST_STRING(\";\"));\n        txt = Tpl.nextIter(txt);\n        txt = lm_2(txt, rest);\n      then txt;\n\n    case ( txt,\n           _ :: rest )\n      local\n        TplAbsyn.TypedIdents rest;\n      equation\n        txt = lm_2(txt, rest);\n      then txt;\n  end matchcontinue;\nend lm_2;\n\npublic function typedIdents\n  input Tpl.Text txt;\n  input TplAbsyn.TypedIdents i_decls;\n\n  output Tpl.Text out_txt;\nalgorithm\n  out_txt := Tpl.pushIter(txt, Tpl.ITER_OPTIONS(0, NONE(), SOME(Tpl.ST_NEW_LINE()), 0, 0, Tpl.ST_NEW_LINE(), 0, Tpl.ST_NEW_LINE()));\n  out_txt := lm_2(out_txt, i_decls);\n  out_txt := Tpl.popIter(out_txt);\nend typedIdents;\n\nend Susan;"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT325,2051,_OMC_LIT325_data);
+#define _OMC_LIT325_data "package Susan\n\npublic import Tpl;\n\npublic import TplAbsyn;\n\npublic function pathIdent\n  input Tpl.Text in_txt;\n  input TplAbsyn.PathIdent in_i_it;\n\n  output Tpl.Text out_txt;\nalgorithm\n  out_txt :=\n  matchcontinue(in_txt, in_i_it)\n    local\n      Tpl.Text txt;\n\n    case ( txt,\n           TplAbsyn.IDENT(ident = i_ident) )\n      local\n        TplAbsyn.Ident i_ident;\n      algorithm\n        txt = Tpl.writeStr(txt, i_ident);\n      then txt;\n\n    case ( txt,\n           TplAbsyn.PATH_IDENT(ident = i_ident, path = i_path) )\n      local\n        TplAbsyn.PathIdent i_path;\n        TplAbsyn.Ident i_ident;\n      algorithm\n        txt = Tpl.writeStr(txt, i_ident);\n        txt = Tpl.writeTok(txt, Tpl.ST_STRING(\".\"));\n        txt = pathIdent(txt, i_path);\n      then txt;\n\n    else in_txt;\n  end matchcontinue;\nend pathIdent;\n\nprotected function lm_2\n  input Tpl.Text in_txt;\n  input TplAbsyn.TypedIdents in_items;\n\n  output Tpl.Text out_txt;\nalgorithm\n  out_txt :=\n  matchcontinue(in_txt, in_items)\n    local\n      Tpl.Text txt;\n\n    case ( txt,\n           {} )\n      then txt;\n\n    case ( txt,\n           (i_id, i_pid) :: rest )\n      local\n        TplAbsyn.TypedIdents rest;\n        TplAbsyn.PathIdent i_pid;\n        TplAbsyn.Ident i_id;\n      algorithm\n        txt = pathIdent(txt, i_pid);\n        txt = Tpl.writeTok(txt, Tpl.ST_STRING(\" \"));\n        txt = Tpl.writeStr(txt, i_id);\n        txt = Tpl.writeTok(txt, Tpl.ST_STRING(\";\"));\n        txt = Tpl.nextIter(txt);\n        txt = lm_2(txt, rest);\n      then txt;\n\n    case ( txt,\n           _ :: rest )\n      local\n        TplAbsyn.TypedIdents rest;\n      algorithm\n        txt = lm_2(txt, rest);\n      then txt;\n  end matchcontinue;\nend lm_2;\n\npublic function typedIdents\n  input Tpl.Text txt;\n  input TplAbsyn.TypedIdents i_decls;\n\n  output Tpl.Text out_txt;\nalgorithm\n  out_txt := Tpl.pushIter(txt, Tpl.ITER_OPTIONS(0, NONE(), SOME(Tpl.ST_NEW_LINE()), 0, 0, Tpl.ST_NEW_LINE(), 0, Tpl.ST_NEW_LINE()));\n  out_txt := lm_2(out_txt, i_decls);\n  out_txt := Tpl.popIter(out_txt);\nend typedIdents;\n\nend Susan;"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT325,2055,_OMC_LIT325_data);
 #define _OMC_LIT325 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT325)
 #define _OMC_LIT326_data "transformAST - pathIdent() + typedIdents()"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT326,42,_OMC_LIT326_data);
@@ -1244,37 +1244,35 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT523,9,_OMC_LIT523_data);
 #define _OMC_LIT524_data "Sets whether to print a failtrace or not."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT524,41,_OMC_LIT524_data);
 #define _OMC_LIT524 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT524)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT525,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT524}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT525,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT523,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT524}};
 #define _OMC_LIT525 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT525)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT526,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT523,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT525}};
-#define _OMC_LIT526 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT526)
-#define _OMC_LIT527_data "-!!!Tpl.tplMainTest failed.\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT527,28,_OMC_LIT527_data);
+#define _OMC_LIT526_data "-!!!Tpl.tplMainTest failed.\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT526,28,_OMC_LIT526_data);
+#define _OMC_LIT526 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT526)
+#define _OMC_LIT527_data "\nProcessing file '"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT527,18,_OMC_LIT527_data);
 #define _OMC_LIT527 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT527)
-#define _OMC_LIT528_data "\nProcessing file '"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT528,18,_OMC_LIT528_data);
+#define _OMC_LIT528_data "'\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT528,2,_OMC_LIT528_data);
 #define _OMC_LIT528 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT528)
-#define _OMC_LIT529_data "'\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT529,2,_OMC_LIT529_data);
+#define _OMC_LIT529_data ".tpl*"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT529,5,_OMC_LIT529_data);
 #define _OMC_LIT529 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT529)
-#define _OMC_LIT530_data ".tpl*"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT530,5,_OMC_LIT530_data);
+#define _OMC_LIT530_data ".err.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT530,7,_OMC_LIT530_data);
 #define _OMC_LIT530 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT530)
-#define _OMC_LIT531_data ".err.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT531,7,_OMC_LIT531_data);
+#define _OMC_LIT531_data "\nWriting result to file '"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT531,25,_OMC_LIT531_data);
 #define _OMC_LIT531 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT531)
-#define _OMC_LIT532_data "\nWriting result to file '"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT532,25,_OMC_LIT532_data);
+#define _OMC_LIT532_data "\n### translation of file '"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT532,26,_OMC_LIT532_data);
 #define _OMC_LIT532 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT532)
-#define _OMC_LIT533_data "\n### translation of file '"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT533,26,_OMC_LIT533_data);
+#define _OMC_LIT533_data "' failed!  ###\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT533,15,_OMC_LIT533_data);
 #define _OMC_LIT533 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT533)
-#define _OMC_LIT534_data "' failed!  ###\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT534,15,_OMC_LIT534_data);
+#define _OMC_LIT534_data "SusanTest.tpl"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT534,13,_OMC_LIT534_data);
 #define _OMC_LIT534 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT534)
-#define _OMC_LIT535_data "SusanTest.tpl"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT535,13,_OMC_LIT535_data);
-#define _OMC_LIT535 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT535)
 #include "util/modelica.h"
 
 #include "TplMain_includes.h"
@@ -3301,10 +3299,10 @@ modelica_integer omc_TplMain_testStringEquality(threadData_t *threadData, modeli
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp32 = omc_Flags_isSet(threadData, _OMC_LIT526);
+          tmp32 = omc_Flags_isSet(threadData, _OMC_LIT525);
           if (1 /* true */ != tmp32) goto goto_2;
 
-          omc_Debug_trace(threadData, _OMC_LIT527);
+          omc_Debug_trace(threadData, _OMC_LIT526);
           goto goto_2;
           goto tmp3_done;
         }
@@ -3390,14 +3388,14 @@ void omc_TplMain_translateFile(threadData_t *threadData, modelica_string _inFile
           
           _file = tmp3_1;
           /* Pattern matching succeeded */
-          tmpMeta5 = stringAppend(_OMC_LIT528,_file);
-          tmpMeta6 = stringAppend(tmpMeta5,_OMC_LIT529);
+          tmpMeta5 = stringAppend(_OMC_LIT527,_file);
+          tmpMeta6 = stringAppend(tmpMeta5,_OMC_LIT528);
           fputs(MMC_STRINGDATA(tmpMeta6),stdout);
 
           _nErrors = omc_Error_getNumErrorMessages(threadData);
 
           tmpMeta7 = stringAppend(_file,_OMC_LIT16);
-          _destFile = omc_System_stringReplace(threadData, tmpMeta7, _OMC_LIT530, _OMC_LIT508);
+          _destFile = omc_System_stringReplace(threadData, tmpMeta7, _OMC_LIT529, _OMC_LIT508);
 
           /* Pattern-matching assignment */
           tmp8 = (stringEqual(_file, _destFile));
@@ -3415,11 +3413,11 @@ void omc_TplMain_translateFile(threadData_t *threadData, modelica_string _inFile
 
           _wasError = (_nErrors < omc_Error_getNumErrorMessages(threadData));
 
-          tmpMeta9 = stringAppend(_destFile,(_wasError?_OMC_LIT531:_OMC_LIT193));
+          tmpMeta9 = stringAppend(_destFile,(_wasError?_OMC_LIT530:_OMC_LIT193));
           _destFile = tmpMeta9;
 
-          tmpMeta10 = stringAppend(_OMC_LIT532,_destFile);
-          tmpMeta11 = stringAppend(tmpMeta10,_OMC_LIT529);
+          tmpMeta10 = stringAppend(_OMC_LIT531,_destFile);
+          tmpMeta11 = stringAppend(tmpMeta10,_OMC_LIT528);
           fputs(MMC_STRINGDATA(tmpMeta11),stdout);
 
           omc_System_writeFile(threadData, _destFile, _res);
@@ -3435,8 +3433,8 @@ void omc_TplMain_translateFile(threadData_t *threadData, modelica_string _inFile
           
           _file = tmp3_1;
           /* Pattern matching succeeded */
-          tmpMeta13 = stringAppend(_OMC_LIT533,_file);
-          tmpMeta14 = stringAppend(tmpMeta13,_OMC_LIT534);
+          tmpMeta13 = stringAppend(_OMC_LIT532,_file);
+          tmpMeta14 = stringAppend(tmpMeta13,_OMC_LIT533);
           fputs(MMC_STRINGDATA(tmpMeta14),stdout);
 
           fputs(MMC_STRINGDATA(_OMC_LIT505),stdout);
@@ -3491,7 +3489,7 @@ void omc_TplMain_main(threadData_t *threadData, modelica_string _inFile)
       for (; tmp3 < 2; tmp3++) {
         switch (MMC_SWITCH_CAST(tmp3)) {
         case 0: {
-          if (13 != MMC_STRLEN(tmp3_1) || strcmp(MMC_STRINGDATA(_OMC_LIT535), MMC_STRINGDATA(tmp3_1)) != 0) goto tmp2_end;
+          if (13 != MMC_STRLEN(tmp3_1) || strcmp(MMC_STRINGDATA(_OMC_LIT534), MMC_STRINGDATA(tmp3_1)) != 0) goto tmp2_end;
           /* Pattern matching succeeded */
           omc_TplMain_tplMainTest(threadData, _OMC_LIT507);
           goto tmp2_done;

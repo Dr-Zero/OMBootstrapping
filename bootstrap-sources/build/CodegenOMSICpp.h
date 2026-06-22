@@ -20,8 +20,6 @@ extern struct record_description Flags_FlagData_STRING__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_INTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description Tpl_IterOptions_ITER__OPTIONS__desc;
 
 extern struct record_description Tpl_StringToken_ST__LINE__desc;
@@ -42,16 +40,16 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenOMSICpp_simulationOMSUCPPMainRun
 #define boxvar_CodegenOMSICpp_simulationOMSUCPPMainRunScript MMC_REFSTRUCTLIT(boxvar_lit_CodegenOMSICpp_simulationOMSUCPPMainRunScript)
 
 
-#define boxptr_CodegenOMSICpp_fun__53 omc_CodegenOMSICpp_fun__53
+#define boxptr_CodegenOMSICpp_fun__56 omc_CodegenOMSICpp_fun__56
 
 
-#define boxptr_CodegenOMSICpp_lm__51 omc_CodegenOMSICpp_lm__51
+#define boxptr_CodegenOMSICpp_lm__54 omc_CodegenOMSICpp_lm__54
 
 
-#define boxptr_CodegenOMSICpp_fun__49 omc_CodegenOMSICpp_fun__49
+#define boxptr_CodegenOMSICpp_fun__52 omc_CodegenOMSICpp_fun__52
 
 
-#define boxptr_CodegenOMSICpp_fun__48 omc_CodegenOMSICpp_fun__48
+#define boxptr_CodegenOMSICpp_fun__51 omc_CodegenOMSICpp_fun__51
 
 
 DLLDirection
@@ -61,7 +59,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenOMSICpp_translateModel,2,0) {(vo
 #define boxvar_CodegenOMSICpp_translateModel MMC_REFSTRUCTLIT(boxvar_lit_CodegenOMSICpp_translateModel)
 
 
-#define boxptr_CodegenOMSICpp_fun__46 omc_CodegenOMSICpp_fun__46
+#define boxptr_CodegenOMSICpp_fun__49 omc_CodegenOMSICpp_fun__49
 
 #ifdef __cplusplus
 }

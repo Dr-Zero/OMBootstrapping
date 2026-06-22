@@ -30,8 +30,6 @@ extern struct record_description BackendDAE_IndexType_NORMAL__desc;
 
 extern struct record_description BackendDAE_IndexType_SOLVABLE__desc;
 
-extern struct record_description BackendDAE_JacobianType_JAC__LINEAR__desc;
-
 extern struct record_description BackendDAE_Matching_MATCHING__desc;
 
 extern struct record_description DAE_ComponentPrefix_NOCOMPPRE__desc;
@@ -55,8 +53,6 @@ extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 extern struct record_description Flags_FlagData_INT__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 

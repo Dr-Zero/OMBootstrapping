@@ -28,8 +28,6 @@ extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 
 DLLDirection
 void omc_NFSCodeCheck_checkPartialInstance(threadData_t *threadData, modelica_metatype _inItem, modelica_metatype _inInfo);

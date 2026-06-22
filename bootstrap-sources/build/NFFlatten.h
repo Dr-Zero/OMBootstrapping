@@ -64,10 +64,6 @@ extern struct record_description Flags_FlagVisibility_INTERNAL__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__DESC__OPTION__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
-
 extern struct record_description NFAlgorithm_ALGORITHM__desc;
 
 extern struct record_description NFBackendExtension_Annotations_ANNOTATIONS__desc;
@@ -87,8 +83,6 @@ extern struct record_description NFCeval_EvalTarget_EVAL__TARGET__desc;
 extern struct record_description NFComponentRef_CREF__desc;
 
 extern struct record_description NFComponentRef_EMPTY__desc;
-
-extern struct record_description NFEquation_ARRAY__EQUALITY__desc;
 
 extern struct record_description NFEquation_ASSERT__desc;
 
@@ -377,28 +371,28 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFFlatten_resolveArrayConnections,2,0) 
 
 
 DLLDirection
-modelica_metatype omc_NFFlatten_evaluateEquationConnOp(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feq, modelica_metatype _sets, modelica_metatype _setsArray, modelica_metatype _variables, modelica_metatype _ctable);
+modelica_metatype omc_NFFlatten_evaluateEquationConnOp(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feq, modelica_metatype _sets, modelica_metatype _setsArray, modelica_metatype _variables, modelica_metatype _ctable, modelica_metatype _replacements);
 #define boxptr_NFFlatten_evaluateEquationConnOp omc_NFFlatten_evaluateEquationConnOp
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFFlatten_evaluateEquationConnOp,2,0) {(void*) boxptr_NFFlatten_evaluateEquationConnOp,0}};
 #define boxvar_NFFlatten_evaluateEquationConnOp MMC_REFSTRUCTLIT(boxvar_lit_NFFlatten_evaluateEquationConnOp)
 
 
 DLLDirection
-modelica_metatype omc_NFFlatten_evaluateEquationsConnOp(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fequations, modelica_metatype _sets, modelica_metatype _setsArray, modelica_metatype _variables, modelica_metatype _ctable);
+modelica_metatype omc_NFFlatten_evaluateEquationsConnOp(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fequations, modelica_metatype _sets, modelica_metatype _setsArray, modelica_metatype _variables, modelica_metatype _ctable, modelica_metatype _replacements);
 #define boxptr_NFFlatten_evaluateEquationsConnOp omc_NFFlatten_evaluateEquationsConnOp
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFFlatten_evaluateEquationsConnOp,2,0) {(void*) boxptr_NFFlatten_evaluateEquationsConnOp,0}};
 #define boxvar_NFFlatten_evaluateEquationsConnOp MMC_REFSTRUCTLIT(boxvar_lit_NFFlatten_evaluateEquationsConnOp)
 
 
 DLLDirection
-modelica_metatype omc_NFFlatten_evaluateBindingConnOp(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fvar, modelica_metatype _sets, modelica_metatype _setsArray, modelica_metatype _variables, modelica_metatype _ctable);
+modelica_metatype omc_NFFlatten_evaluateBindingConnOp(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fvar, modelica_metatype _sets, modelica_metatype _setsArray, modelica_metatype _variables, modelica_metatype _ctable, modelica_metatype _replacements);
 #define boxptr_NFFlatten_evaluateBindingConnOp omc_NFFlatten_evaluateBindingConnOp
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFFlatten_evaluateBindingConnOp,2,0) {(void*) boxptr_NFFlatten_evaluateBindingConnOp,0}};
 #define boxvar_NFFlatten_evaluateBindingConnOp MMC_REFSTRUCTLIT(boxvar_lit_NFFlatten_evaluateBindingConnOp)
 
 
 DLLDirection
-modelica_metatype omc_NFFlatten_evaluateConnectionOperators(threadData_t *threadData, modelica_metatype __omcQ_24in_5FflatModel, modelica_metatype _sets, modelica_metatype _setsArray, modelica_metatype _variables, modelica_metatype _ctable);
+modelica_metatype omc_NFFlatten_evaluateConnectionOperators(threadData_t *threadData, modelica_metatype __omcQ_24in_5FflatModel, modelica_metatype _sets, modelica_metatype _setsArray, modelica_metatype _variables, modelica_metatype _ctable, modelica_metatype _replacements);
 #define boxptr_NFFlatten_evaluateConnectionOperators omc_NFFlatten_evaluateConnectionOperators
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFFlatten_evaluateConnectionOperators,2,0) {(void*) boxptr_NFFlatten_evaluateConnectionOperators,0}};
 #define boxvar_NFFlatten_evaluateConnectionOperators MMC_REFSTRUCTLIT(boxvar_lit_NFFlatten_evaluateConnectionOperators)

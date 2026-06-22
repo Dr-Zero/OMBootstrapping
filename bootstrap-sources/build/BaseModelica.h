@@ -22,11 +22,13 @@ extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__DESC__OPTION__desc;
 
-extern struct record_description Flags_ValidOptions_STRING__OPTION__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
+DLLDirection
+modelica_boolean omc_BaseModelica_inlineFunctions(threadData_t *threadData);
+DLLDirection
+modelica_metatype boxptr_BaseModelica_inlineFunctions(threadData_t *threadData);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_BaseModelica_inlineFunctions,2,0) {(void*) boxptr_BaseModelica_inlineFunctions,0}};
+#define boxvar_BaseModelica_inlineFunctions MMC_REFSTRUCTLIT(boxvar_lit_BaseModelica_inlineFunctions)
 
 
 DLLDirection

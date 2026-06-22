@@ -24,6 +24,8 @@ extern struct record_description BackendDAE_BaseClockPartitionKind_UNSPECIFIED__
 
 extern struct record_description BackendDAE_BasePartition_BASE__PARTITION__desc;
 
+extern struct record_description BackendDAE_EqSystem_EQSYSTEM__desc;
+
 extern struct record_description BackendDAE_Equation_ARRAY__EQUATION__desc;
 
 extern struct record_description BackendDAE_Equation_EQUATION__desc;
@@ -41,6 +43,8 @@ extern struct record_description BackendDAE_EvaluationStages_EVALUATION__STAGES_
 extern struct record_description BackendDAE_IndexType_BASECLOCK__IDX__desc;
 
 extern struct record_description BackendDAE_IndexType_SUBCLOCK__IDX__desc;
+
+extern struct record_description BackendDAE_PartitionsInfo_PARTITIONS__INFO__desc;
 
 extern struct record_description BackendDAE_SubClock_INFERED__SUBCLOCK__desc;
 
@@ -133,8 +137,6 @@ extern struct record_description ErrorTypes_Severity_ERROR__desc;
 extern struct record_description ErrorTypes_Severity_WARNING__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
 extern struct record_description MMath_Rational_RATIONAL__desc;
 

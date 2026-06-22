@@ -50,10 +50,6 @@ extern struct record_description Flags_ValidOptions_STRING__DESC__OPTION__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__OPTION__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
-
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
@@ -174,6 +170,13 @@ DLLDirection
 void boxptr_FlagsUtil_setConfigEnum(threadData_t *threadData, modelica_metatype _inFlag, modelica_metatype _inValue);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_FlagsUtil_setConfigEnum,2,0) {(void*) boxptr_FlagsUtil_setConfigEnum,0}};
 #define boxvar_FlagsUtil_setConfigEnum MMC_REFSTRUCTLIT(boxvar_lit_FlagsUtil_setConfigEnum)
+
+
+DLLDirection
+modelica_metatype omc_FlagsUtil_appendConfigStringList(threadData_t *threadData, modelica_metatype _flag, modelica_string _value);
+#define boxptr_FlagsUtil_appendConfigStringList omc_FlagsUtil_appendConfigStringList
+static const MMC_DEFSTRUCTLIT(boxvar_lit_FlagsUtil_appendConfigStringList,2,0) {(void*) boxptr_FlagsUtil_appendConfigStringList,0}};
+#define boxvar_FlagsUtil_appendConfigStringList MMC_REFSTRUCTLIT(boxvar_lit_FlagsUtil_appendConfigStringList)
 
 
 DLLDirection
@@ -333,10 +336,18 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_FlagsUtil_loadFlags,2,0) {(void*) boxpt
 #define boxvar_FlagsUtil_loadFlags MMC_REFSTRUCTLIT(boxvar_lit_FlagsUtil_loadFlags)
 
 
+DLLDirection
+modelica_metatype omc_FlagsUtil_createDebugFlags(threadData_t *threadData);
 #define boxptr_FlagsUtil_createDebugFlags omc_FlagsUtil_createDebugFlags
+static const MMC_DEFSTRUCTLIT(boxvar_lit_FlagsUtil_createDebugFlags,2,0) {(void*) boxptr_FlagsUtil_createDebugFlags,0}};
+#define boxvar_FlagsUtil_createDebugFlags MMC_REFSTRUCTLIT(boxvar_lit_FlagsUtil_createDebugFlags)
 
 
+DLLDirection
+modelica_metatype omc_FlagsUtil_createConfigFlags(threadData_t *threadData);
 #define boxptr_FlagsUtil_createConfigFlags omc_FlagsUtil_createConfigFlags
+static const MMC_DEFSTRUCTLIT(boxvar_lit_FlagsUtil_createConfigFlags,2,0) {(void*) boxptr_FlagsUtil_createConfigFlags,0}};
+#define boxvar_FlagsUtil_createConfigFlags MMC_REFSTRUCTLIT(boxvar_lit_FlagsUtil_createConfigFlags)
 
 
 DLLDirection

@@ -16,8 +16,6 @@ extern struct record_description ErrorTypes_MessageType_TRANSLATION__desc;
 
 extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NBEquation_Iterator_EMPTY__desc;
 
 extern struct record_description NBSlice_SLICE__desc;
@@ -86,6 +84,14 @@ modelica_metatype omc_NBStrongComponent_createPseudoScalar(threadData_t *threadD
 #define boxptr_NBStrongComponent_createPseudoScalar omc_NBStrongComponent_createPseudoScalar
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBStrongComponent_createPseudoScalar,2,0) {(void*) boxptr_NBStrongComponent_createPseudoScalar,0}};
 #define boxvar_NBStrongComponent_createPseudoScalar MMC_REFSTRUCTLIT(boxvar_lit_NBStrongComponent_createPseudoScalar)
+
+
+DLLDirection
+modelica_metatype omc_NBStrongComponent_setHomotopy(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fcomp, modelica_boolean _homotopy);
+DLLDirection
+modelica_metatype boxptr_NBStrongComponent_setHomotopy(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fcomp, modelica_metatype _homotopy);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBStrongComponent_setHomotopy,2,0) {(void*) boxptr_NBStrongComponent_setHomotopy,0}};
+#define boxvar_NBStrongComponent_setHomotopy MMC_REFSTRUCTLIT(boxvar_lit_NBStrongComponent_setHomotopy)
 
 
 DLLDirection

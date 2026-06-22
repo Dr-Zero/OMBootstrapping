@@ -65,17 +65,17 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_SCodeInstUtil_makeEnumComponents
   _tailrecursive: OMC_LABEL_UNUSED
   // _outSCodeElementLst has no default value.
   {
-    modelica_metatype __omcQ_24tmpVar3;
+    modelica_metatype __omcQ_24tmpVar1;
     modelica_metatype* tmp2;
     modelica_metatype tmpMeta3;
-    modelica_metatype __omcQ_24tmpVar2;
+    modelica_metatype __omcQ_24tmpVar0;
     modelica_integer tmp4;
     modelica_metatype _e_loopVar = 0;
     modelica_metatype _e;
     _e_loopVar = _inEnumLst;
     tmpMeta3 = MMC_REFSTRUCTLIT(mmc_nil);
-    __omcQ_24tmpVar3 = tmpMeta3; /* defaultValue */
-    tmp2 = &__omcQ_24tmpVar3;
+    __omcQ_24tmpVar1 = tmpMeta3; /* defaultValue */
+    tmp2 = &__omcQ_24tmpVar1;
     while(1) {
       tmp4 = 1;
       if (!listEmpty(_e_loopVar)) {
@@ -84,8 +84,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_SCodeInstUtil_makeEnumComponents
         tmp4--;
       }
       if (tmp4 == 0) {
-        __omcQ_24tmpVar2 = omc_SCodeUtil_makeEnumType(threadData, _e, _info);
-        *tmp2 = mmc_mk_cons(__omcQ_24tmpVar2,0);
+        __omcQ_24tmpVar0 = omc_SCodeUtil_makeEnumType(threadData, _e, _info);
+        *tmp2 = mmc_mk_cons(__omcQ_24tmpVar0,0);
         tmp2 = &MMC_CDR(*tmp2);
       } else if (tmp4 == 1) {
         break;
@@ -94,7 +94,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_SCodeInstUtil_makeEnumComponents
       }
     }
     *tmp2 = mmc_mk_nil();
-    tmpMeta1 = __omcQ_24tmpVar3;
+    tmpMeta1 = __omcQ_24tmpVar1;
   }
   _outSCodeElementLst = tmpMeta1;
   _return: OMC_LABEL_UNUSED

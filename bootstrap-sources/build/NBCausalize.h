@@ -26,13 +26,11 @@ extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__DESC__OPTION__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
-
 extern struct record_description NBEquation_Iterator_EMPTY__desc;
 
 extern struct record_description NBMatching_MATCHING__desc;
+
+extern struct record_description NBPartition_Partition_PARTITION__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 

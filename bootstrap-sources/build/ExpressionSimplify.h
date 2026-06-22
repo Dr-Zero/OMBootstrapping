@@ -142,7 +142,7 @@ extern struct record_description DAE_Operator_UMINUS__desc;
 
 extern struct record_description DAE_Operator_UMINUS__ARR__desc;
 
-extern struct record_description DAE_Prefix_NOPRE__desc;
+extern struct record_description DAE_Properties_PROP__desc;
 
 extern struct record_description DAE_ReductionInfo_REDUCTIONINFO__desc;
 
@@ -193,8 +193,6 @@ extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_INTERNAL__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 
@@ -504,14 +502,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionSimplify_cevalBuiltinStringFo
 #define boxptr_ExpressionSimplify_simplifyBuiltinStringFormat omc_ExpressionSimplify_simplifyBuiltinStringFormat
 
 
-DLLDirection
-modelica_metatype omc_ExpressionSimplify_evalCat(threadData_t *threadData, modelica_integer _dim, modelica_metatype _exps, modelica_fnptr _getArrayContents, modelica_fnptr _toString, modelica_metatype *out_outDims);
-DLLDirection
-modelica_metatype boxptr_ExpressionSimplify_evalCat(threadData_t *threadData, modelica_metatype _dim, modelica_metatype _exps, modelica_fnptr _getArrayContents, modelica_fnptr _toString, modelica_metatype *out_outDims);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionSimplify_evalCat,2,0) {(void*) boxptr_ExpressionSimplify_evalCat,0}};
-#define boxvar_ExpressionSimplify_evalCat MMC_REFSTRUCTLIT(boxvar_lit_ExpressionSimplify_evalCat)
-
-
 #define boxptr_ExpressionSimplify_simplifyCatArg omc_ExpressionSimplify_simplifyCatArg
 
 
@@ -522,6 +512,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionSimplify_evalCat,2,0) {(void*
 
 
 #define boxptr_ExpressionSimplify_simplifyBuiltinCalls omc_ExpressionSimplify_simplifyBuiltinCalls
+
+
+DLLDirection
+modelica_metatype omc_ExpressionSimplify_elabBuiltinFill2(threadData_t *threadData, modelica_metatype _inCache, modelica_metatype _inExp, modelica_metatype _inType, modelica_metatype _inValuesValueLst, modelica_metatype _constVar, modelica_metatype _inDims, modelica_metatype _inInfo, modelica_metatype *out_outExp, modelica_metatype *out_outProperties);
+#define boxptr_ExpressionSimplify_elabBuiltinFill2 omc_ExpressionSimplify_elabBuiltinFill2
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionSimplify_elabBuiltinFill2,2,0) {(void*) boxptr_ExpressionSimplify_elabBuiltinFill2,0}};
+#define boxvar_ExpressionSimplify_elabBuiltinFill2 MMC_REFSTRUCTLIT(boxvar_lit_ExpressionSimplify_elabBuiltinFill2)
 
 
 #define boxptr_ExpressionSimplify_reductionExpression omc_ExpressionSimplify_reductionExpression

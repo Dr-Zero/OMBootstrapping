@@ -7,40 +7,36 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT1,1,4) {&ErrorTypes_Severity_ERROR_
 #define _OMC_LIT2_data "Operator %s must have exactly one output."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT2,41,_OMC_LIT2_data);
 #define _OMC_LIT2 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT2)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT3,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT2}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT3,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(340)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT2}};
 #define _OMC_LIT3 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT3)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT4,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(340)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT3}};
-#define _OMC_LIT4 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT4)
-#define _OMC_LIT5_data "."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT5,1,_OMC_LIT5_data);
+#define _OMC_LIT4_data "."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT4,1,_OMC_LIT4_data);
+#define _OMC_LIT4 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT4)
+#define _OMC_LIT5_data "Output '%s' in operator %s must be of type %s, got type %s."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT5,59,_OMC_LIT5_data);
 #define _OMC_LIT5 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT5)
-#define _OMC_LIT6_data "Output '%s' in operator %s must be of type %s, got type %s."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT6,59,_OMC_LIT6_data);
-#define _OMC_LIT6 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT7,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT6}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT6,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(341)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT5}};
+#define _OMC_LIT6 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT6)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT7,1,4) {&NFComponentRef_EMPTY__desc,}};
 #define _OMC_LIT7 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT7)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT8,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(341)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT7}};
-#define _OMC_LIT8 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT8)
-#define _OMC_LIT9_data "Operator %s is not encapsulated."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT9,32,_OMC_LIT9_data);
-#define _OMC_LIT9 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT9)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT10,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT9}};
-#define _OMC_LIT10 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT10)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT11,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(342)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT10}};
-#define _OMC_LIT11 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT11)
-#define _OMC_LIT12_data "NFOperatorOverloading.instOperatorFunctions got non-instantiated function"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT12,73,_OMC_LIT12_data);
-#define _OMC_LIT12 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT12)
-#define _OMC_LIT13_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/NFFrontEnd/NFOperatorOverloading.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT13,88,_OMC_LIT13_data);
+#define _OMC_LIT8_data "Operator %s is not encapsulated."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT8,32,_OMC_LIT8_data);
+#define _OMC_LIT8 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT8)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT9,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(342)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT8}};
+#define _OMC_LIT9 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT9)
+#define _OMC_LIT10_data "NFOperatorOverloading.instOperatorFunctions got non-instantiated function"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT10,73,_OMC_LIT10_data);
+#define _OMC_LIT10 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT10)
+#define _OMC_LIT11_data "/projects/OpenModelica-session2/OMCompiler/Compiler/NFFrontEnd/NFOperatorOverloading.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT11,87,_OMC_LIT11_data);
+#define _OMC_LIT11 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT11)
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT12_6,1.782113391e9);
+#define _OMC_LIT12_6 MMC_REFREALLIT(_OMC_LIT_STRUCT12_6)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT12,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT11,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(119)),MMC_IMMEDIATE(MMC_TAGFIXNUM(11)),MMC_IMMEDIATE(MMC_TAGFIXNUM(119)),MMC_IMMEDIATE(MMC_TAGFIXNUM(94)),_OMC_LIT12_6}};
+#define _OMC_LIT12 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT12)
+#define _OMC_LIT13_data "'constructor'"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT13,13,_OMC_LIT13_data);
 #define _OMC_LIT13 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT13)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT14_6,1.770032059e9);
-#define _OMC_LIT14_6 MMC_REFREALLIT(_OMC_LIT_STRUCT14_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT14,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT13,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(115)),MMC_IMMEDIATE(MMC_TAGFIXNUM(11)),MMC_IMMEDIATE(MMC_TAGFIXNUM(115)),MMC_IMMEDIATE(MMC_TAGFIXNUM(101)),_OMC_LIT14_6}};
-#define _OMC_LIT14 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT14)
-#define _OMC_LIT15_data "'constructor'"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT15,13,_OMC_LIT15_data);
-#define _OMC_LIT15 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT15)
 #include "util/modelica.h"
 
 #include "NFOperatorOverloading_includes.h"
@@ -134,8 +130,8 @@ PROTECTED_FUNCTION_STATIC void omc_NFOperatorOverloading_checkOperatorConstructo
   // _output_ty has no default value.
   if((listLength((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 5)))) != ((modelica_integer) 1)))
   {
-    tmpMeta1 = mmc_mk_cons(omc_AbsynUtil_pathString(threadData, _path, _OMC_LIT5, 1 /* true */, 0 /* false */), MMC_REFSTRUCTLIT(mmc_nil));
-    omc_Error_addSourceMessage(threadData, _OMC_LIT4, tmpMeta1, _info);
+    tmpMeta1 = mmc_mk_cons(omc_AbsynUtil_pathString(threadData, _path, _OMC_LIT4, 1 /* true */, 0 /* false */), MMC_REFSTRUCTLIT(mmc_nil));
+    omc_Error_addSourceMessage(threadData, _OMC_LIT3, tmpMeta1, _info);
 
     MMC_THROW_INTERNAL();
   }
@@ -146,8 +142,8 @@ PROTECTED_FUNCTION_STATIC void omc_NFOperatorOverloading_checkOperatorConstructo
 
   if((!omc_NFInstNode_InstNode_isSame(threadData, _output_ty, _recordNode)))
   {
-    tmpMeta2 = mmc_mk_cons(omc_NFInstNode_InstNode_name(threadData, _output_node), mmc_mk_cons(omc_AbsynUtil_pathString(threadData, _path, _OMC_LIT5, 1 /* true */, 0 /* false */), mmc_mk_cons(omc_NFInstNode_InstNode_name(threadData, _recordNode), mmc_mk_cons(omc_NFInstNode_InstNode_name(threadData, _output_ty), MMC_REFSTRUCTLIT(mmc_nil)))));
-    omc_Error_addSourceMessage(threadData, _OMC_LIT8, tmpMeta2, _info);
+    tmpMeta2 = mmc_mk_cons(omc_NFInstNode_InstNode_name(threadData, _output_node), mmc_mk_cons(omc_AbsynUtil_pathString(threadData, _path, _OMC_LIT4, 1 /* true */, 0 /* false */), mmc_mk_cons(omc_NFInstNode_InstNode_name(threadData, _recordNode), mmc_mk_cons(omc_NFInstNode_InstNode_name(threadData, _output_ty), MMC_REFSTRUCTLIT(mmc_nil)))));
+    omc_Error_addSourceMessage(threadData, _OMC_LIT6, tmpMeta2, _info);
 
     MMC_THROW_INTERNAL();
   }
@@ -212,7 +208,7 @@ modelica_metatype omc_NFOperatorOverloading_lookupOperatorFunctionsInType(thread
   _tailrecursive: OMC_LABEL_UNUSED
   // _functions has no default value.
   // _node has no default value.
-  // _fn_ref has no default value.
+  _fn_ref = _OMC_LIT7;
   // _is_defined has no default value.
   { /* match expression */
     modelica_metatype tmp4_1;
@@ -319,8 +315,8 @@ void omc_NFOperatorOverloading_checkOperatorRestrictions(threadData_t *threadDat
   _tailrecursive: OMC_LABEL_UNUSED
   if((!omc_SCodeUtil_isElementEncapsulated(threadData, omc_NFInstNode_InstNode_definition(threadData, _operatorNode))))
   {
-    tmpMeta1 = mmc_mk_cons(omc_AbsynUtil_pathString(threadData, omc_NFInstNode_InstNode_fullPath(threadData, _operatorNode, 0 /* false */), _OMC_LIT5, 1 /* true */, 0 /* false */), MMC_REFSTRUCTLIT(mmc_nil));
-    omc_Error_addSourceMessage(threadData, _OMC_LIT11, tmpMeta1, omc_NFInstNode_InstNode_info(threadData, _operatorNode));
+    tmpMeta1 = mmc_mk_cons(omc_AbsynUtil_pathString(threadData, omc_NFInstNode_InstNode_fullPath(threadData, _operatorNode, 0 /* false */), _OMC_LIT4, 1 /* true */, 0 /* false */), MMC_REFSTRUCTLIT(mmc_nil));
+    omc_Error_addSourceMessage(threadData, _OMC_LIT9, tmpMeta1, omc_NFInstNode_InstNode_info(threadData, _operatorNode));
 
     MMC_THROW_INTERNAL();
   }
@@ -397,7 +393,7 @@ modelica_metatype omc_NFOperatorOverloading_instOperatorFunctions(threadData_t *
         case 1: {
           
           /* Pattern matching succeeded */
-          omc_Error_assertion(threadData, 0 /* false */, _OMC_LIT12, _OMC_LIT14);
+          omc_Error_terminate(threadData, _OMC_LIT10, _OMC_LIT12);
           goto goto_2;
           goto tmp3_done;
         }
@@ -439,7 +435,7 @@ modelica_metatype omc_NFOperatorOverloading_instConstructor(threadData_t *thread
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   _recordNode = __omcQ_24in_5FrecordNode;
-  // _ctor_ref has no default value.
+  _ctor_ref = _OMC_LIT7;
   // _ctor_path has no default value.
   // _ctor_overloaded has no default value.
   // _ctor_node has no default value.
@@ -455,7 +451,7 @@ modelica_metatype omc_NFOperatorOverloading_instConstructor(threadData_t *thread
         switch (MMC_SWITCH_CAST(tmp3)) {
         case 0: {
           /* Pattern matching succeeded */
-          _ctor_ref = omc_NFFunction_Function_lookupFunctionSimple(threadData, _OMC_LIT15, _recordNode, _context);
+          _ctor_ref = omc_NFFunction_Function_lookupFunctionSimple(threadData, _OMC_LIT13, _recordNode, _context);
 
           _ctor_overloaded = 1 /* true */;
           goto tmp2_done;

@@ -10,21 +10,19 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT2,1,4) {&ErrorTypes_Severity_ERROR_
 #define _OMC_LIT3_data "Internal error %s"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT3,17,_OMC_LIT3_data);
 #define _OMC_LIT3 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT3)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT4,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT3}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT4,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(63)),_OMC_LIT1,_OMC_LIT2,_OMC_LIT3}};
 #define _OMC_LIT4 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT4)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT5,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(63)),_OMC_LIT1,_OMC_LIT2,_OMC_LIT4}};
-#define _OMC_LIT5 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT5)
-#define _OMC_LIT6_data "SerializeSparsityPattern.serialize failed because no row coloring for the adjoint jacobian exists."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT6,98,_OMC_LIT6_data);
-#define _OMC_LIT6 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT7,2,1) {_OMC_LIT6,MMC_REFSTRUCTLIT(mmc_nil)}};
-#define _OMC_LIT7 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT7)
-#define _OMC_LIT8_data "_Jac"
+#define _OMC_LIT5_data "SerializeSparsityPattern.serialize failed because no row coloring for the adjoint jacobian exists."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT5,98,_OMC_LIT5_data);
+#define _OMC_LIT5 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT5)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT6,2,1) {_OMC_LIT5,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT6 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT6)
+#define _OMC_LIT7_data "_Jac"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,4,_OMC_LIT7_data);
+#define _OMC_LIT7 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT7)
+#define _OMC_LIT8_data ".bin"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT8,4,_OMC_LIT8_data);
 #define _OMC_LIT8 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT8)
-#define _OMC_LIT9_data ".bin"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT9,4,_OMC_LIT9_data);
-#define _OMC_LIT9 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT9)
 #include "util/modelica.h"
 
 #include "SerializeSparsityPattern_includes.h"
@@ -127,7 +125,7 @@ modelica_string omc_SerializeSparsityPattern_serialize(threadData_t *threadData,
         }
         else
         {
-          omc_Error_addMessage(threadData, _OMC_LIT5, _OMC_LIT7);
+          omc_Error_addMessage(threadData, _OMC_LIT4, _OMC_LIT6);
 
           MMC_THROW_INTERNAL();
         }
@@ -141,23 +139,23 @@ modelica_string omc_SerializeSparsityPattern_serialize(threadData_t *threadData,
 
       if((!listEmpty(_pattern)))
       {
-        tmpMeta2 = stringAppend((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_code), 37))),_OMC_LIT8);
+        tmpMeta2 = stringAppend((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_code), 37))),_OMC_LIT7);
         tmpMeta3 = stringAppend(tmpMeta2,(MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_jac), 4))));
-        tmpMeta4 = stringAppend(tmpMeta3,_OMC_LIT9);
+        tmpMeta4 = stringAppend(tmpMeta3,_OMC_LIT8);
         _fname = tmpMeta4;
 
         {
-          modelica_metatype __omcQ_24tmpVar3;
+          modelica_metatype __omcQ_24tmpVar1;
           modelica_metatype* tmp7;
           modelica_metatype tmpMeta8;
-          modelica_metatype __omcQ_24tmpVar2;
+          modelica_metatype __omcQ_24tmpVar0;
           modelica_integer tmp9;
           modelica_metatype _column_loopVar = 0;
           modelica_metatype _column;
           _column_loopVar = _pattern;
           tmpMeta8 = MMC_REFSTRUCTLIT(mmc_nil);
-          __omcQ_24tmpVar3 = tmpMeta8; /* defaultValue */
-          tmp7 = &__omcQ_24tmpVar3;
+          __omcQ_24tmpVar1 = tmpMeta8; /* defaultValue */
+          tmp7 = &__omcQ_24tmpVar1;
           while(1) {
             tmp9 = 1;
             if (!listEmpty(_column_loopVar)) {
@@ -166,8 +164,8 @@ modelica_string omc_SerializeSparsityPattern_serialize(threadData_t *threadData,
               tmp9--;
             }
             if (tmp9 == 0) {
-              __omcQ_24tmpVar2 = mmc_mk_integer(listLength(omc_Util_tuple22(threadData, _column)));
-              *tmp7 = mmc_mk_cons(__omcQ_24tmpVar2,0);
+              __omcQ_24tmpVar0 = mmc_mk_integer(listLength(omc_Util_tuple22(threadData, _column)));
+              *tmp7 = mmc_mk_cons(__omcQ_24tmpVar0,0);
               tmp7 = &MMC_CDR(*tmp7);
             } else if (tmp9 == 1) {
               break;
@@ -176,23 +174,23 @@ modelica_string omc_SerializeSparsityPattern_serialize(threadData_t *threadData,
             }
           }
           *tmp7 = mmc_mk_nil();
-          tmpMeta6 = __omcQ_24tmpVar3;
+          tmpMeta6 = __omcQ_24tmpVar1;
         }
         tmpMeta5 = mmc_mk_cons(mmc_mk_integer(((modelica_integer) 0)), tmpMeta6);
         _columnPointers = listArray(tmpMeta5);
 
         {
-          modelica_metatype __omcQ_24tmpVar5;
+          modelica_metatype __omcQ_24tmpVar3;
           modelica_metatype* tmp11;
           modelica_metatype tmpMeta12;
-          modelica_metatype __omcQ_24tmpVar4;
+          modelica_metatype __omcQ_24tmpVar2;
           modelica_integer tmp13;
           modelica_metatype _column_loopVar = 0;
           modelica_metatype _column;
           _column_loopVar = _pattern;
           tmpMeta12 = MMC_REFSTRUCTLIT(mmc_nil);
-          __omcQ_24tmpVar5 = tmpMeta12; /* defaultValue */
-          tmp11 = &__omcQ_24tmpVar5;
+          __omcQ_24tmpVar3 = tmpMeta12; /* defaultValue */
+          tmp11 = &__omcQ_24tmpVar3;
           while(1) {
             tmp13 = 1;
             if (!listEmpty(_column_loopVar)) {
@@ -201,8 +199,8 @@ modelica_string omc_SerializeSparsityPattern_serialize(threadData_t *threadData,
               tmp13--;
             }
             if (tmp13 == 0) {
-              __omcQ_24tmpVar4 = omc_Util_tuple22(threadData, _column);
-              *tmp11 = mmc_mk_cons(__omcQ_24tmpVar4,0);
+              __omcQ_24tmpVar2 = omc_Util_tuple22(threadData, _column);
+              *tmp11 = mmc_mk_cons(__omcQ_24tmpVar2,0);
               tmp11 = &MMC_CDR(*tmp11);
             } else if (tmp13 == 1) {
               break;
@@ -211,7 +209,7 @@ modelica_string omc_SerializeSparsityPattern_serialize(threadData_t *threadData,
             }
           }
           *tmp11 = mmc_mk_nil();
-          tmpMeta10 = __omcQ_24tmpVar5;
+          tmpMeta10 = __omcQ_24tmpVar3;
         }
         _rowIndices = listArray(omc_List_flatten(threadData, tmpMeta10));
 

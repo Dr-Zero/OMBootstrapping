@@ -56,8 +56,8 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT21,2,4) {&Tpl_StringToken_ST__STRIN
 #define _OMC_LIT22_data "\""
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT22,1,_OMC_LIT22_data);
 #define _OMC_LIT22 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT22)
-#define _OMC_LIT23_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/Template/CodegenEmbeddedC.tpl"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT23,82,_OMC_LIT23_data);
+#define _OMC_LIT23_data "CodegenEmbeddedC.tpl"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT23,20,_OMC_LIT23_data);
 #define _OMC_LIT23 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT23)
 #define _OMC_LIT24_data "Not VARIABLE(__)"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT24,16,_OMC_LIT24_data);
@@ -1380,248 +1380,248 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT536,2,4) {&Tpl_StringToken_ST__STRI
 #if !defined(PROTECTED_FUNCTION_STATIC)
 #define PROTECTED_FUNCTION_STATIC
 #endif
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__146(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__146,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__146,0}};
-#define boxvar_CodegenEmbeddedC_lm__146 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__146)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__144(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__144,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__144,0}};
-#define boxvar_CodegenEmbeddedC_lm__144 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__144)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__139(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_outVars);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__149(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__149,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__149,0}};
+#define boxvar_CodegenEmbeddedC_lm__149 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__149)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__147(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__147,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__147,0}};
+#define boxvar_CodegenEmbeddedC_lm__147 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__147)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__142(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_outVars);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__142,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__142,0}};
+#define boxvar_CodegenEmbeddedC_fun__142 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__142)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__141(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__141,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__141,0}};
+#define boxvar_CodegenEmbeddedC_lm__141 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__141)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__140(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_outVars);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__140,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__140,0}};
+#define boxvar_CodegenEmbeddedC_fun__140 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__140)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__139(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_var);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__139,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__139,0}};
 #define boxvar_CodegenEmbeddedC_fun__139 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__139)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__138(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__138(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__138,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__138,0}};
 #define boxvar_CodegenEmbeddedC_lm__138 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__138)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__137(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_outVars);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__137,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__137,0}};
-#define boxvar_CodegenEmbeddedC_fun__137 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__137)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__136(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_var);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__136,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__136,0}};
-#define boxvar_CodegenEmbeddedC_fun__136 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__136)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__135(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__135,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__135,0}};
-#define boxvar_CodegenEmbeddedC_lm__135 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__135)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__132(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_outVars);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__135(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_outVars);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__135,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__135,0}};
+#define boxvar_CodegenEmbeddedC_fun__135 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__135)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__134(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__134,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__134,0}};
+#define boxvar_CodegenEmbeddedC_lm__134 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__134)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__133(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_outVars);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__133,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__133,0}};
+#define boxvar_CodegenEmbeddedC_fun__133 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__133)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__132(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_extReturn);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__132,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__132,0}};
 #define boxvar_CodegenEmbeddedC_fun__132 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__132)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__131(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__131(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__131,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__131,0}};
 #define boxvar_CodegenEmbeddedC_lm__131 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__131)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__130(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_outVars);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__130,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__130,0}};
-#define boxvar_CodegenEmbeddedC_fun__130 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__130)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__129(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_extReturn);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__129,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__129,0}};
-#define boxvar_CodegenEmbeddedC_fun__129 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__129)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__128(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__128,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__128,0}};
-#define boxvar_CodegenEmbeddedC_lm__128 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__128)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__127(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__130(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__130,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__130,0}};
+#define boxvar_CodegenEmbeddedC_lm__130 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__130)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__128(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_outVars);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__128,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__128,0}};
+#define boxvar_CodegenEmbeddedC_fun__128 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__128)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__127(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__127,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__127,0}};
 #define boxvar_CodegenEmbeddedC_lm__127 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__127)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__125(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_outVars);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__125,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__125,0}};
-#define boxvar_CodegenEmbeddedC_fun__125 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__125)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__124(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__124,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__124,0}};
-#define boxvar_CodegenEmbeddedC_lm__124 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__124)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__120(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__123(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__123,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__123,0}};
+#define boxvar_CodegenEmbeddedC_lm__123 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__123)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__122(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__122,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__122,0}};
+#define boxvar_CodegenEmbeddedC_lm__122 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__122)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__121(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__121,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__121,0}};
+#define boxvar_CodegenEmbeddedC_lm__121 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__121)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__120(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__120,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__120,0}};
 #define boxvar_CodegenEmbeddedC_lm__120 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__120)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__119(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__119,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__119,0}};
-#define boxvar_CodegenEmbeddedC_lm__119 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__119)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__118(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__118,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__118,0}};
-#define boxvar_CodegenEmbeddedC_lm__118 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__118)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__117(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__117,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__117,0}};
-#define boxvar_CodegenEmbeddedC_lm__117 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__117)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__114(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_ty__, modelica_metatype _in_a_value);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__117(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_ty__, modelica_metatype _in_a_value);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__117,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__117,0}};
+#define boxvar_CodegenEmbeddedC_fun__117 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__117)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__116(threadData_t *threadData, modelica_metatype _in_txt, modelica_boolean _in_a_bool);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__116(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_bool);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__116,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__116,0}};
+#define boxvar_CodegenEmbeddedC_fun__116 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__116)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__114(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_ix, modelica_metatype _in_a_var, modelica_boolean _in_a_isPre);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__114(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_ix, modelica_metatype _in_a_var, modelica_metatype _in_a_isPre);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__114,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__114,0}};
 #define boxvar_CodegenEmbeddedC_fun__114 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__114)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__113(threadData_t *threadData, modelica_metatype _in_txt, modelica_boolean _in_a_bool);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__113(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_bool);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__113(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_var, modelica_boolean _in_a_isPre);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__113(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_var, modelica_metatype _in_a_isPre);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__113,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__113,0}};
 #define boxvar_CodegenEmbeddedC_fun__113 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__113)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__111(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_ix, modelica_metatype _in_a_var, modelica_boolean _in_a_isPre);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__111(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_ix, modelica_metatype _in_a_var, modelica_metatype _in_a_isPre);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__112(threadData_t *threadData, modelica_metatype _in_txt, modelica_boolean _in_a_isPre);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__112(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_isPre);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__112,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__112,0}};
+#define boxvar_CodegenEmbeddedC_fun__112 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__112)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__111(threadData_t *threadData, modelica_metatype _in_txt, modelica_boolean _in_a_isPre);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__111(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_isPre);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__111,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__111,0}};
 #define boxvar_CodegenEmbeddedC_fun__111 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__111)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__110(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_var, modelica_boolean _in_a_isPre);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__110(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_var, modelica_metatype _in_a_isPre);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__110,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__110,0}};
-#define boxvar_CodegenEmbeddedC_fun__110 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__110)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__109(threadData_t *threadData, modelica_metatype _in_txt, modelica_boolean _in_a_isPre);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__109(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_isPre);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__109,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__109,0}};
-#define boxvar_CodegenEmbeddedC_fun__109 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__109)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__108(threadData_t *threadData, modelica_metatype _in_txt, modelica_boolean _in_a_isPre);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__108(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_isPre);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__108,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__108,0}};
-#define boxvar_CodegenEmbeddedC_fun__108 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__108)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__106(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__106,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__106,0}};
-#define boxvar_CodegenEmbeddedC_lm__106 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__106)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__103(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_op, modelica_metatype _in_a_exp1, modelica_metatype _in_a_exp2, modelica_metatype _in_a_origExp);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__103,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__103,0}};
-#define boxvar_CodegenEmbeddedC_fun__103 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__103)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__101(threadData_t *threadData, modelica_metatype _in_txt, modelica_boolean _in_a_bool);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__101(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_bool);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__101,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__101,0}};
-#define boxvar_CodegenEmbeddedC_fun__101 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__101)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__97(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_mArg, modelica_boolean _in_a_isPre, modelica_integer _in_a_ix);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__97(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_mArg, modelica_metatype _in_a_isPre, modelica_metatype _in_a_ix);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__97,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__97,0}};
-#define boxvar_CodegenEmbeddedC_fun__97 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__97)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__96(threadData_t *threadData, modelica_metatype _in_txt, modelica_boolean _in_a_isPre, modelica_metatype _in_a_cr, modelica_integer _in_a_ix, modelica_metatype _in_a_componentRef);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__96(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_isPre, modelica_metatype _in_a_cr, modelica_metatype _in_a_ix, modelica_metatype _in_a_componentRef);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__96,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__96,0}};
-#define boxvar_CodegenEmbeddedC_fun__96 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__96)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__92(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__109(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__109,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__109,0}};
+#define boxvar_CodegenEmbeddedC_lm__109 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__109)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__106(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_op, modelica_metatype _in_a_exp1, modelica_metatype _in_a_exp2, modelica_metatype _in_a_origExp);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__106,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__106,0}};
+#define boxvar_CodegenEmbeddedC_fun__106 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__106)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__104(threadData_t *threadData, modelica_metatype _in_txt, modelica_boolean _in_a_bool);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__104(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_bool);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__104,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__104,0}};
+#define boxvar_CodegenEmbeddedC_fun__104 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__104)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__100(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_mArg, modelica_boolean _in_a_isPre, modelica_integer _in_a_ix);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__100(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_mArg, modelica_metatype _in_a_isPre, modelica_metatype _in_a_ix);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__100,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__100,0}};
+#define boxvar_CodegenEmbeddedC_fun__100 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__100)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__99(threadData_t *threadData, modelica_metatype _in_txt, modelica_boolean _in_a_isPre, modelica_metatype _in_a_cr, modelica_integer _in_a_ix, modelica_metatype _in_a_componentRef);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__99(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_isPre, modelica_metatype _in_a_cr, modelica_metatype _in_a_ix, modelica_metatype _in_a_componentRef);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__99,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__99,0}};
+#define boxvar_CodegenEmbeddedC_fun__99 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__99)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__95(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__95,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__95,0}};
+#define boxvar_CodegenEmbeddedC_lm__95 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__95)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__94(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__94,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__94,0}};
+#define boxvar_CodegenEmbeddedC_lm__94 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__94)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__92(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__92,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__92,0}};
 #define boxvar_CodegenEmbeddedC_lm__92 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__92)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__91(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__91,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__91,0}};
-#define boxvar_CodegenEmbeddedC_lm__91 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__91)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__89(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__89,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__89,0}};
-#define boxvar_CodegenEmbeddedC_lm__89 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__89)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__87(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__87,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__87,0}};
-#define boxvar_CodegenEmbeddedC_lm__87 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__87)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__85(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_simCode, modelica_metatype _in_a_modelNamePrefixStr);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__85,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__85,0}};
-#define boxvar_CodegenEmbeddedC_fun__85 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__85)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__84(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numStateVars);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__84(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numStateVars);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__84,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__84,0}};
-#define boxvar_CodegenEmbeddedC_fun__84 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__84)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__83(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_allEquations);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__83,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__83,0}};
-#define boxvar_CodegenEmbeddedC_fun__83 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__83)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__82(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__82,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__82,0}};
-#define boxvar_CodegenEmbeddedC_lm__82 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__82)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_smf__81(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_it);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_smf__81,2,0) {(void*) boxptr_CodegenEmbeddedC_smf__81,0}};
-#define boxvar_CodegenEmbeddedC_smf__81 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_smf__81)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_smf__80(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_it);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_smf__80,2,0) {(void*) boxptr_CodegenEmbeddedC_smf__80,0}};
-#define boxvar_CodegenEmbeddedC_smf__80 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_smf__80)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__79(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_odeEquations);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__79,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__79,0}};
-#define boxvar_CodegenEmbeddedC_fun__79 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__79)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__78(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__78,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__78,0}};
-#define boxvar_CodegenEmbeddedC_lm__78 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__78)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__77(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numStringParamVars, modelica_metatype _in_a_vars_stringParamVars);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__77(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numStringParamVars, modelica_metatype _in_a_vars_stringParamVars);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__77,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__77,0}};
-#define boxvar_CodegenEmbeddedC_fun__77 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__77)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__76(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__76,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__76,0}};
-#define boxvar_CodegenEmbeddedC_lm__76 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__76)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__75(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numBoolParams, modelica_metatype _in_a_vars_boolParamVars);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__75(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numBoolParams, modelica_metatype _in_a_vars_boolParamVars);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__75,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__75,0}};
-#define boxvar_CodegenEmbeddedC_fun__75 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__75)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__74(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__74,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__74,0}};
-#define boxvar_CodegenEmbeddedC_lm__74 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__74)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__73(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numIntParams, modelica_metatype _in_a_vars_intParamVars);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__73(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numIntParams, modelica_metatype _in_a_vars_intParamVars);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__73,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__73,0}};
-#define boxvar_CodegenEmbeddedC_fun__73 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__73)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__72(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__72,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__72,0}};
-#define boxvar_CodegenEmbeddedC_lm__72 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__72)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__71(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numParams, modelica_metatype _in_a_vars_paramVars);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__71(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numParams, modelica_metatype _in_a_vars_paramVars);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__71,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__71,0}};
-#define boxvar_CodegenEmbeddedC_fun__71 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__71)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__70(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__70,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__70,0}};
-#define boxvar_CodegenEmbeddedC_lm__70 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__70)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__69(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numStringAlgVars, modelica_metatype _in_a_vars_stringAlgVars);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__69(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numStringAlgVars, modelica_metatype _in_a_vars_stringAlgVars);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__69,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__69,0}};
-#define boxvar_CodegenEmbeddedC_fun__69 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__69)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__68(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__68,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__68,0}};
-#define boxvar_CodegenEmbeddedC_lm__68 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__68)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__67(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numBoolAlgVars, modelica_metatype _in_a_vars_boolAlgVars);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__67(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numBoolAlgVars, modelica_metatype _in_a_vars_boolAlgVars);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__67,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__67,0}};
-#define boxvar_CodegenEmbeddedC_fun__67 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__67)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__66(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__66,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__66,0}};
-#define boxvar_CodegenEmbeddedC_lm__66 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__66)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__65(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numIntAlgVars, modelica_metatype _in_a_vars_intAlgVars);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__65(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numIntAlgVars, modelica_metatype _in_a_vars_intAlgVars);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__65,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__65,0}};
-#define boxvar_CodegenEmbeddedC_fun__65 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__65)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__64(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__90(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__90,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__90,0}};
+#define boxvar_CodegenEmbeddedC_lm__90 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__90)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__88(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_simCode, modelica_metatype _in_a_modelNamePrefixStr);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__88,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__88,0}};
+#define boxvar_CodegenEmbeddedC_fun__88 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__88)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__87(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numStateVars);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__87(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numStateVars);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__87,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__87,0}};
+#define boxvar_CodegenEmbeddedC_fun__87 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__87)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__86(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_allEquations);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__86,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__86,0}};
+#define boxvar_CodegenEmbeddedC_fun__86 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__86)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__85(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__85,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__85,0}};
+#define boxvar_CodegenEmbeddedC_lm__85 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__85)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_smf__84(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_it);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_smf__84,2,0) {(void*) boxptr_CodegenEmbeddedC_smf__84,0}};
+#define boxvar_CodegenEmbeddedC_smf__84 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_smf__84)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_smf__83(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_it);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_smf__83,2,0) {(void*) boxptr_CodegenEmbeddedC_smf__83,0}};
+#define boxvar_CodegenEmbeddedC_smf__83 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_smf__83)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__82(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_odeEquations);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__82,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__82,0}};
+#define boxvar_CodegenEmbeddedC_fun__82 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__82)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__81(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__81,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__81,0}};
+#define boxvar_CodegenEmbeddedC_lm__81 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__81)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__80(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numStringParamVars, modelica_metatype _in_a_vars_stringParamVars);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__80(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numStringParamVars, modelica_metatype _in_a_vars_stringParamVars);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__80,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__80,0}};
+#define boxvar_CodegenEmbeddedC_fun__80 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__80)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__79(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__79,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__79,0}};
+#define boxvar_CodegenEmbeddedC_lm__79 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__79)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__78(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numBoolParams, modelica_metatype _in_a_vars_boolParamVars);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__78(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numBoolParams, modelica_metatype _in_a_vars_boolParamVars);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__78,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__78,0}};
+#define boxvar_CodegenEmbeddedC_fun__78 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__78)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__77(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__77,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__77,0}};
+#define boxvar_CodegenEmbeddedC_lm__77 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__77)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__76(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numIntParams, modelica_metatype _in_a_vars_intParamVars);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__76(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numIntParams, modelica_metatype _in_a_vars_intParamVars);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__76,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__76,0}};
+#define boxvar_CodegenEmbeddedC_fun__76 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__76)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__75(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__75,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__75,0}};
+#define boxvar_CodegenEmbeddedC_lm__75 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__75)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__74(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numParams, modelica_metatype _in_a_vars_paramVars);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__74(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numParams, modelica_metatype _in_a_vars_paramVars);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__74,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__74,0}};
+#define boxvar_CodegenEmbeddedC_fun__74 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__74)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__73(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__73,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__73,0}};
+#define boxvar_CodegenEmbeddedC_lm__73 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__73)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__72(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numStringAlgVars, modelica_metatype _in_a_vars_stringAlgVars);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__72(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numStringAlgVars, modelica_metatype _in_a_vars_stringAlgVars);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__72,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__72,0}};
+#define boxvar_CodegenEmbeddedC_fun__72 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__72)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__71(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__71,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__71,0}};
+#define boxvar_CodegenEmbeddedC_lm__71 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__71)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__70(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numBoolAlgVars, modelica_metatype _in_a_vars_boolAlgVars);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__70(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numBoolAlgVars, modelica_metatype _in_a_vars_boolAlgVars);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__70,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__70,0}};
+#define boxvar_CodegenEmbeddedC_fun__70 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__70)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__69(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__69,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__69,0}};
+#define boxvar_CodegenEmbeddedC_lm__69 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__69)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__68(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numIntAlgVars, modelica_metatype _in_a_vars_intAlgVars);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__68(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numIntAlgVars, modelica_metatype _in_a_vars_intAlgVars);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__68,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__68,0}};
+#define boxvar_CodegenEmbeddedC_fun__68 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__68)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__67(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__67,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__67,0}};
+#define boxvar_CodegenEmbeddedC_lm__67 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__67)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__66(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_mArg, modelica_metatype _in_a_vars_realOptimizeFinalConstraintsVars, modelica_metatype _in_a_vars_realOptimizeConstraintsVars, modelica_metatype _in_a_vars_discreteAlgVars, modelica_metatype _in_a_vars_algVars, modelica_metatype _in_a_vars_derivativeVars, modelica_metatype _in_a_vars_stateVars);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__66(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_mArg, modelica_metatype _in_a_vars_realOptimizeFinalConstraintsVars, modelica_metatype _in_a_vars_realOptimizeConstraintsVars, modelica_metatype _in_a_vars_discreteAlgVars, modelica_metatype _in_a_vars_algVars, modelica_metatype _in_a_vars_derivativeVars, modelica_metatype _in_a_vars_stateVars);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__66,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__66,0}};
+#define boxvar_CodegenEmbeddedC_fun__66 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__66)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__65(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__65,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__65,0}};
+#define boxvar_CodegenEmbeddedC_lm__65 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__65)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__64(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__64,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__64,0}};
 #define boxvar_CodegenEmbeddedC_lm__64 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__64)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__63(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_mArg, modelica_metatype _in_a_vars_realOptimizeFinalConstraintsVars, modelica_metatype _in_a_vars_realOptimizeConstraintsVars, modelica_metatype _in_a_vars_discreteAlgVars, modelica_metatype _in_a_vars_algVars, modelica_metatype _in_a_vars_derivativeVars, modelica_metatype _in_a_vars_stateVars);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__63(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_mArg, modelica_metatype _in_a_vars_realOptimizeFinalConstraintsVars, modelica_metatype _in_a_vars_realOptimizeConstraintsVars, modelica_metatype _in_a_vars_discreteAlgVars, modelica_metatype _in_a_vars_algVars, modelica_metatype _in_a_vars_derivativeVars, modelica_metatype _in_a_vars_stateVars);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__63,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__63,0}};
-#define boxvar_CodegenEmbeddedC_fun__63 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__63)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__62(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__63(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__63,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__63,0}};
+#define boxvar_CodegenEmbeddedC_lm__63 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__63)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__62(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__62,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__62,0}};
 #define boxvar_CodegenEmbeddedC_lm__62 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__62)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__61(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__61(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__61,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__61,0}};
 #define boxvar_CodegenEmbeddedC_lm__61 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__61)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__60(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__60(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__60,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__60,0}};
 #define boxvar_CodegenEmbeddedC_lm__60 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__60)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__59(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__59,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__59,0}};
-#define boxvar_CodegenEmbeddedC_lm__59 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__59)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__58(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__58,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__58,0}};
-#define boxvar_CodegenEmbeddedC_lm__58 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__58)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__57(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__57,2,0) {(void*) boxptr_CodegenEmbeddedC_lm__57,0}};
-#define boxvar_CodegenEmbeddedC_lm__57 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_lm__57)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__56(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_mArg);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__56(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_mArg);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__59(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_mArg);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__59(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_mArg);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__59,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__59,0}};
+#define boxvar_CodegenEmbeddedC_fun__59 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__59)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__58(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numIntParams);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__58(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numIntParams);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__58,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__58,0}};
+#define boxvar_CodegenEmbeddedC_fun__58 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__58)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__57(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numBoolParams);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__57(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numBoolParams);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__57,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__57,0}};
+#define boxvar_CodegenEmbeddedC_fun__57 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__57)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__56(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numIntParams);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__56(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numIntParams);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__56,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__56,0}};
 #define boxvar_CodegenEmbeddedC_fun__56 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__56)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__55(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numIntParams);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__55(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numIntParams);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__55(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numParams);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__55(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numParams);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__55,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__55,0}};
 #define boxvar_CodegenEmbeddedC_fun__55 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__55)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__54(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numBoolParams);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__54(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numBoolParams);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__54(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numStringAlgVars);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__54(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numStringAlgVars);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__54,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__54,0}};
 #define boxvar_CodegenEmbeddedC_fun__54 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__54)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__53(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numIntParams);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__53(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numIntParams);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__53(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numBoolAlgVars);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__53(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numBoolAlgVars);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__53,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__53,0}};
 #define boxvar_CodegenEmbeddedC_fun__53 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__53)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__52(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numParams);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__52(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numParams);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__52(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numIntAlgVars);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__52(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numIntAlgVars);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__52,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__52,0}};
 #define boxvar_CodegenEmbeddedC_fun__52 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__52)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__51(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numStringAlgVars);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__51(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numStringAlgVars);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__51(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_mArg);
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__51(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_mArg);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__51,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__51,0}};
 #define boxvar_CodegenEmbeddedC_fun__51 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__51)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__50(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numBoolAlgVars);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__50(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numBoolAlgVars);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__50,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__50,0}};
-#define boxvar_CodegenEmbeddedC_fun__50 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__50)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__49(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numIntAlgVars);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__49(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numIntAlgVars);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__49,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__49,0}};
-#define boxvar_CodegenEmbeddedC_fun__49 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__49)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__48(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_mArg);
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__48(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_mArg);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__48,2,0) {(void*) boxptr_CodegenEmbeddedC_fun__48,0}};
-#define boxvar_CodegenEmbeddedC_fun__48 MMC_REFSTRUCTLIT(boxvar_lit_CodegenEmbeddedC_fun__48)
 
 DLLDirection
 modelica_metatype omc_CodegenEmbeddedC_callExternalObjectDestructors(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_extObjInfo)
@@ -1654,7 +1654,7 @@ modelica_metatype omc_CodegenEmbeddedC_callExternalObjectDestructors(threadData_
           /* Pattern matching succeeded */
           _txt = omc_Tpl_pushIter(threadData, _txt, _OMC_LIT2);
 
-          _txt = omc_CodegenEmbeddedC_lm__146(threadData, _txt, _i_vars);
+          _txt = omc_CodegenEmbeddedC_lm__149(threadData, _txt, _i_vars);
           tmpMeta1 = omc_Tpl_popIter(threadData, _txt);
           goto tmp3_done;
         }
@@ -1681,107 +1681,79 @@ modelica_metatype omc_CodegenEmbeddedC_callExternalObjectDestructors(threadData_
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__146(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__149(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta10;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_149;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_var_name = NULL;
-      modelica_metatype _i_ext_fullClassName = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_var_name has no default value.
-      // _i_ext_fullClassName has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 3; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_149 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_149;
+        {
+          modelica_metatype _i_var_name = NULL;
+          modelica_metatype _i_ext_fullClassName = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_var_name has no default value.
+          // _i_ext_fullClassName has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 2; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              modelica_metatype tmpMeta7;
+              modelica_metatype tmpMeta8;
+              modelica_metatype tmpMeta9;
+              tmpMeta7 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp5_1), 2));
+              tmpMeta8 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp5_1), 3));
+              if (mmc__uniontype__metarecord__typedef__equal(tmpMeta8,9,1) == 0) goto tmp4_end;
+              tmpMeta9 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta8), 2));
+              
+              _i_var_name = tmpMeta7;
+              _i_ext_fullClassName = tmpMeta9;
+              /* Pattern matching succeeded */
+              _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT4);
+
+              _txt = omc_CodegenUtil_underscorePath(threadData, _txt, _i_ext_fullClassName);
+
+              _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT6);
+
+              _txt = omc_CodegenEmbeddedC_cref(threadData, _txt, _i_var_name);
+
+              _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT8);
+              tmpMeta2 = omc_Tpl_nextIter(threadData, _txt);
+              goto tmp4_done;
+            }
+            case 1: {
+              
+              /* Pattern matching succeeded */
+              tmpMeta2 = _txt;
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          modelica_metatype tmpMeta8;
-          modelica_metatype tmpMeta9;
-          modelica_metatype tmpMeta10;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          tmpMeta8 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta6), 2));
-          tmpMeta9 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta6), 3));
-          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta9,9,1) == 0) goto tmp3_end;
-          tmpMeta10 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta9), 2));
-          
-          _i_var_name = tmpMeta8;
-          _i_ext_fullClassName = tmpMeta10;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT4);
-
-          _txt = omc_CodegenUtil_underscorePath(threadData, _txt, _i_ext_fullClassName);
-
-          _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT6);
-
-          _txt = omc_CodegenEmbeddedC_cref(threadData, _txt, _i_var_name);
-
-          _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT8);
-
-          _txt = omc_Tpl_nextIter(threadData, _txt);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        case 2: {
-          modelica_metatype tmpMeta11;
-          modelica_metatype tmpMeta12;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta11 = MMC_CAR(tmp4_2);
-          tmpMeta12 = MMC_CDR(tmp4_2);
-          
-          _rest = tmpMeta12;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
 DLLDirection
@@ -1815,7 +1787,7 @@ modelica_metatype omc_CodegenEmbeddedC_callExternalObjectConstructors(threadData
           /* Pattern matching succeeded */
           _txt = omc_Tpl_pushIter(threadData, _txt, _OMC_LIT2);
 
-          _txt = omc_CodegenEmbeddedC_lm__144(threadData, _txt, _i_vars);
+          _txt = omc_CodegenEmbeddedC_lm__147(threadData, _txt, _i_vars);
           tmpMeta1 = omc_Tpl_popIter(threadData, _txt);
           goto tmp3_done;
         }
@@ -1842,105 +1814,77 @@ modelica_metatype omc_CodegenEmbeddedC_callExternalObjectConstructors(threadData
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__144(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__147(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta10;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_147;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_exp = NULL;
-      modelica_metatype _i_var_name = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_exp has no default value.
-      // _i_var_name has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 3; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
-        }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          modelica_metatype tmpMeta8;
-          modelica_metatype tmpMeta9;
-          modelica_metatype tmpMeta10;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          tmpMeta8 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta6), 2));
-          tmpMeta9 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta6), 10));
-          if (optionNone(tmpMeta9)) goto tmp3_end;
-          tmpMeta10 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta9), 1));
-          
-          _i_var_name = tmpMeta8;
-          _i_exp = tmpMeta10;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_CodegenEmbeddedC_cref(threadData, _txt, _i_var_name);
+      _lstElt_147 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_147;
+        {
+          modelica_metatype _i_exp = NULL;
+          modelica_metatype _i_var_name = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_exp has no default value.
+          // _i_var_name has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 2; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              modelica_metatype tmpMeta7;
+              modelica_metatype tmpMeta8;
+              modelica_metatype tmpMeta9;
+              tmpMeta7 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp5_1), 2));
+              tmpMeta8 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp5_1), 10));
+              if (optionNone(tmpMeta8)) goto tmp4_end;
+              tmpMeta9 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta8), 1));
+              
+              _i_var_name = tmpMeta7;
+              _i_exp = tmpMeta9;
+              /* Pattern matching succeeded */
+              _txt = omc_CodegenEmbeddedC_cref(threadData, _txt, _i_var_name);
 
-          _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT10);
+              _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT10);
 
-          _txt = omc_CodegenEmbeddedC_daeExp(threadData, _txt, _i_exp);
+              _txt = omc_CodegenEmbeddedC_daeExp(threadData, _txt, _i_exp);
 
-          _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT12);
-
-          _txt = omc_Tpl_nextIter(threadData, _txt);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
+              _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT12);
+              tmpMeta2 = omc_Tpl_nextIter(threadData, _txt);
+              goto tmp4_done;
+            }
+            case 1: {
+              
+              /* Pattern matching succeeded */
+              tmpMeta2 = _txt;
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 2: {
-          modelica_metatype tmpMeta11;
-          modelica_metatype tmpMeta12;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta11 = MMC_CAR(tmp4_2);
-          tmpMeta12 = MMC_CDR(tmp4_2);
-          
-          _rest = tmpMeta12;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
 DLLDirection
@@ -2003,7 +1947,7 @@ modelica_metatype omc_CodegenEmbeddedC_literalExpConst(threadData_t *threadData,
           _txt_1 = omc_Tpl_writeTok(threadData, _OMC_LIT19, _OMC_LIT21);
 
           _txt_1 = omc_ExpressionDumpTpl_dumpExp(threadData, _txt_1, _i_e, _OMC_LIT22);
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 694), ((modelica_integer) 14)), omc_Tpl_textString(threadData, _txt_1));
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 729), ((modelica_integer) 14)), omc_Tpl_textString(threadData, _txt_1));
           goto tmp3_done;
         }
         }
@@ -2068,7 +2012,7 @@ modelica_metatype omc_CodegenEmbeddedC_varType(threadData_t *threadData, modelic
           
           _txt = tmp4_1;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 687), ((modelica_integer) 14)), _OMC_LIT24);
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 722), ((modelica_integer) 14)), _OMC_LIT24);
           goto tmp3_done;
         }
         }
@@ -2124,7 +2068,7 @@ modelica_metatype omc_CodegenEmbeddedC_varName(threadData_t *threadData, modelic
           
           _txt = tmp4_1;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 680), ((modelica_integer) 14)), _OMC_LIT24);
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 715), ((modelica_integer) 14)), _OMC_LIT24);
           goto tmp3_done;
         }
         }
@@ -2158,11 +2102,11 @@ modelica_metatype omc_CodegenEmbeddedC_functionPrototype(threadData_t *threadDat
   // _l_outargs has no default value.
   // _l_outarg has no default value.
   // _l_fargsStr has no default value.
-  _l_fargsStr = omc_CodegenEmbeddedC_lm__135(threadData, _OMC_LIT19, _a_fargs);
+  _l_fargsStr = omc_CodegenEmbeddedC_lm__138(threadData, _OMC_LIT19, _a_fargs);
 
-  _l_outarg = omc_CodegenEmbeddedC_fun__137(threadData, _OMC_LIT19, _a_outVars);
+  _l_outarg = omc_CodegenEmbeddedC_fun__140(threadData, _OMC_LIT19, _a_outVars);
 
-  _l_outargs = omc_CodegenEmbeddedC_fun__139(threadData, _OMC_LIT19, _a_outVars);
+  _l_outargs = omc_CodegenEmbeddedC_fun__142(threadData, _OMC_LIT19, _a_outVars);
 
   _out_txt = omc_Tpl_writeText(threadData, _txt, _l_outarg);
 
@@ -2184,7 +2128,7 @@ modelica_metatype omc_CodegenEmbeddedC_functionPrototype(threadData_t *threadDat
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__139(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_outVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__142(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_outVars)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -2221,7 +2165,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__139(thread
           _i_outVars = tmp4_2;
           /* Pattern matching succeeded */
           _ret_0 = listRest(_i_outVars);
-          tmpMeta1 = omc_CodegenEmbeddedC_lm__138(threadData, _txt, _ret_0);
+          tmpMeta1 = omc_CodegenEmbeddedC_lm__141(threadData, _txt, _ret_0);
           goto tmp3_done;
         }
         }
@@ -2240,79 +2184,62 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__139(thread
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__138(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__141(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_141;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_var = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_var has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
-        }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_var = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT32);
+      _lstElt_141 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_141;
+        {
+          modelica_metatype _i_var = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_var has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_var = tmp5_1;
+              /* Pattern matching succeeded */
+              _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT32);
 
-          _txt = omc_CodegenEmbeddedC_varType(threadData, _txt, _i_var);
+              _txt = omc_CodegenEmbeddedC_varType(threadData, _txt, _i_var);
 
-          _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT34);
-
-          _txt = omc_CodegenEmbeddedC_varName(threadData, _txt, _i_var);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
+              _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT34);
+              tmpMeta2 = omc_CodegenEmbeddedC_varName(threadData, _txt, _i_var);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__137(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_outVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__140(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_outVars)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -2343,7 +2270,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__137(thread
           _i_var = tmpMeta6;
           _txt = tmp4_1;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_CodegenEmbeddedC_fun__136(threadData, _txt, _i_var);
+          tmpMeta1 = omc_CodegenEmbeddedC_fun__139(threadData, _txt, _i_var);
           goto tmp3_done;
         }
         case 1: {
@@ -2369,7 +2296,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__137(thread
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__136(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_var)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__139(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_var)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -2403,7 +2330,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__136(thread
           
           _txt = tmp4_1;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 670), ((modelica_integer) 18)), _OMC_LIT37);
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 705), ((modelica_integer) 18)), _OMC_LIT37);
           goto tmp3_done;
         }
         }
@@ -2422,76 +2349,59 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__136(thread
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__135(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__138(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_138;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_var = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_var has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
-        }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_var = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT32);
+      _lstElt_138 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_138;
+        {
+          modelica_metatype _i_var = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_var has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_var = tmp5_1;
+              /* Pattern matching succeeded */
+              _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT32);
 
-          _txt = omc_CodegenEmbeddedC_varType(threadData, _txt, _i_var);
+              _txt = omc_CodegenEmbeddedC_varType(threadData, _txt, _i_var);
 
-          _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT26);
-
-          _txt = omc_CodegenEmbeddedC_varName(threadData, _txt, _i_var);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
+              _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT26);
+              tmpMeta2 = omc_CodegenEmbeddedC_varName(threadData, _txt, _i_var);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
 DLLDirection
@@ -2599,7 +2509,7 @@ modelica_metatype omc_CodegenEmbeddedC_extArg(threadData_t *threadData, modelica
           
           _txt = tmp4_1;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 661), ((modelica_integer) 14)), _OMC_LIT38);
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 696), ((modelica_integer) 14)), _OMC_LIT38);
           goto tmp3_done;
         }
         }
@@ -2696,21 +2606,21 @@ modelica_metatype omc_CodegenEmbeddedC_functionBodyExternalFunction(threadData_t
 
           _l_args = omc_Tpl_pushIter(threadData, _OMC_LIT19, _OMC_LIT40);
 
-          _l_args = omc_CodegenEmbeddedC_lm__127(threadData, _l_args, _i_extArgs);
+          _l_args = omc_CodegenEmbeddedC_lm__130(threadData, _l_args, _i_extArgs);
 
           _l_args = omc_Tpl_popIter(threadData, _l_args);
 
           _l_varDecl = omc_Tpl_pushIter(threadData, _OMC_LIT19, _OMC_LIT2);
 
-          _l_varDecl = omc_CodegenEmbeddedC_lm__128(threadData, _l_varDecl, _i_outVars);
+          _l_varDecl = omc_CodegenEmbeddedC_lm__131(threadData, _l_varDecl, _i_outVars);
 
           _l_varDecl = omc_Tpl_popIter(threadData, _l_varDecl);
 
-          _l_returnAssign = omc_CodegenEmbeddedC_fun__129(threadData, _OMC_LIT19, _i_extReturn);
+          _l_returnAssign = omc_CodegenEmbeddedC_fun__132(threadData, _OMC_LIT19, _i_extReturn);
 
-          _l_returnStatement = omc_CodegenEmbeddedC_fun__130(threadData, _OMC_LIT19, _i_outVars);
+          _l_returnStatement = omc_CodegenEmbeddedC_fun__133(threadData, _OMC_LIT19, _i_outVars);
 
-          _l_varAssign = omc_CodegenEmbeddedC_fun__132(threadData, _OMC_LIT19, _i_outVars);
+          _l_varAssign = omc_CodegenEmbeddedC_fun__135(threadData, _OMC_LIT19, _i_outVars);
 
           _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT42);
 
@@ -2752,7 +2662,7 @@ modelica_metatype omc_CodegenEmbeddedC_functionBodyExternalFunction(threadData_t
           
           _txt = tmp4_1;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 650), ((modelica_integer) 14)), _OMC_LIT52);
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 685), ((modelica_integer) 14)), _OMC_LIT52);
           goto tmp3_done;
         }
         }
@@ -2771,7 +2681,7 @@ modelica_metatype omc_CodegenEmbeddedC_functionBodyExternalFunction(threadData_t
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__132(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_outVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__135(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_outVars)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -2808,7 +2718,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__132(thread
           _i_outVars = tmp4_2;
           /* Pattern matching succeeded */
           _ret_0 = listRest(_i_outVars);
-          tmpMeta1 = omc_CodegenEmbeddedC_lm__131(threadData, _txt, _ret_0);
+          tmpMeta1 = omc_CodegenEmbeddedC_lm__134(threadData, _txt, _ret_0);
           goto tmp3_done;
         }
         }
@@ -2827,81 +2737,64 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__132(thread
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__131(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__134(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_134;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_var = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_var has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_134 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_134;
+        {
+          modelica_metatype _i_var = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_var has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_var = tmp5_1;
+              /* Pattern matching succeeded */
+              _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT55);
+
+              _txt = omc_CodegenEmbeddedC_varName(threadData, _txt, _i_var);
+
+              _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT10);
+
+              _txt = omc_CodegenEmbeddedC_varName(threadData, _txt, _i_var);
+              tmpMeta2 = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT12);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_var = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT55);
-
-          _txt = omc_CodegenEmbeddedC_varName(threadData, _txt, _i_var);
-
-          _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT10);
-
-          _txt = omc_CodegenEmbeddedC_varName(threadData, _txt, _i_var);
-
-          _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT12);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__130(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_outVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__133(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_outVars)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -2953,7 +2846,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__130(thread
           
           _txt = tmp4_1;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 638), ((modelica_integer) 16)), _OMC_LIT58);
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 673), ((modelica_integer) 16)), _OMC_LIT58);
           goto tmp3_done;
         }
         }
@@ -2972,7 +2865,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__130(thread
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__129(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_extReturn)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__132(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_extReturn)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -3028,146 +2921,112 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__129(thread
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__128(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__131(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_131;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_arg = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_arg has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_131 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_131;
+        {
+          modelica_metatype _i_arg = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_arg has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_arg = tmp5_1;
+              /* Pattern matching succeeded */
+              _txt = omc_CodegenEmbeddedC_varType(threadData, _txt, _i_arg);
+
+              _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT26);
+
+              _txt = omc_CodegenEmbeddedC_varName(threadData, _txt, _i_arg);
+
+              _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT12);
+              tmpMeta2 = omc_Tpl_nextIter(threadData, _txt);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_arg = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_CodegenEmbeddedC_varType(threadData, _txt, _i_arg);
-
-          _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT26);
-
-          _txt = omc_CodegenEmbeddedC_varName(threadData, _txt, _i_arg);
-
-          _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT12);
-
-          _txt = omc_Tpl_nextIter(threadData, _txt);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__127(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__130(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_130;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_arg = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_arg has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_130 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_130;
+        {
+          modelica_metatype _i_arg = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_arg has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_arg = tmp5_1;
+              /* Pattern matching succeeded */
+              _txt = omc_CodegenEmbeddedC_extArg(threadData, _txt, _i_arg);
+              tmpMeta2 = omc_Tpl_nextIter(threadData, _txt);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_arg = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_CodegenEmbeddedC_extArg(threadData, _txt, _i_arg);
-
-          _txt = omc_Tpl_nextIter(threadData, _txt);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
 DLLDirection
@@ -3227,7 +3086,7 @@ modelica_metatype omc_CodegenEmbeddedC_functionBodyRegularFunction(threadData_t 
 
           _l_bodyPart = omc_Tpl_pushIter(threadData, _OMC_LIT19, _OMC_LIT2);
 
-          _l_bodyPart = omc_CodegenEmbeddedC_lm__124(threadData, _l_bodyPart, _i_body);
+          _l_bodyPart = omc_CodegenEmbeddedC_lm__127(threadData, _l_bodyPart, _i_body);
 
           _l_bodyPart = omc_Tpl_popIter(threadData, _l_bodyPart);
 
@@ -3243,7 +3102,7 @@ modelica_metatype omc_CodegenEmbeddedC_functionBodyRegularFunction(threadData_t 
 
           _txt = omc_Tpl_softNewLine(threadData, _txt);
 
-          _txt = omc_CodegenEmbeddedC_fun__125(threadData, _txt, _i_outVars);
+          _txt = omc_CodegenEmbeddedC_fun__128(threadData, _txt, _i_outVars);
 
           _txt = omc_Tpl_softNewLine(threadData, _txt);
 
@@ -3274,7 +3133,7 @@ modelica_metatype omc_CodegenEmbeddedC_functionBodyRegularFunction(threadData_t 
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__125(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_outVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__128(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_outVars)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -3334,72 +3193,55 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__125(thread
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__124(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__127(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_127;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_stmt = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_stmt has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_127 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_127;
+        {
+          modelica_metatype _i_stmt = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_stmt has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_stmt = tmp5_1;
+              /* Pattern matching succeeded */
+              _txt = omc_CodegenEmbeddedC_statement(threadData, _txt, _i_stmt);
+              tmpMeta2 = omc_Tpl_nextIter(threadData, _txt);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_stmt = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_CodegenEmbeddedC_statement(threadData, _txt, _i_stmt);
-
-          _txt = omc_Tpl_nextIter(threadData, _txt);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
 DLLDirection
@@ -3479,7 +3321,7 @@ modelica_metatype omc_CodegenEmbeddedC_functionDeclaration(threadData_t *threadD
           
           _txt = tmp4_1;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 595), ((modelica_integer) 57)), _OMC_LIT59);
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 630), ((modelica_integer) 57)), _OMC_LIT59);
           goto tmp3_done;
         }
         case 5: {
@@ -3487,7 +3329,7 @@ modelica_metatype omc_CodegenEmbeddedC_functionDeclaration(threadData_t *threadD
           
           _txt = tmp4_1;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 596), ((modelica_integer) 57)), _OMC_LIT60);
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 631), ((modelica_integer) 57)), _OMC_LIT60);
           goto tmp3_done;
         }
         default:
@@ -3559,7 +3401,7 @@ modelica_metatype omc_CodegenEmbeddedC_functionBody(threadData_t *threadData, mo
           
           _txt = tmp4_1;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 585), ((modelica_integer) 57)), _OMC_LIT59);
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 620), ((modelica_integer) 57)), _OMC_LIT59);
           goto tmp3_done;
         }
         case 3: {
@@ -3567,7 +3409,7 @@ modelica_metatype omc_CodegenEmbeddedC_functionBody(threadData_t *threadData, mo
           
           _txt = tmp4_1;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 586), ((modelica_integer) 57)), _OMC_LIT60);
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 621), ((modelica_integer) 57)), _OMC_LIT60);
           goto tmp3_done;
         }
         case 4: {
@@ -3602,7 +3444,7 @@ modelica_metatype omc_CodegenEmbeddedC_functionsFile(threadData_t *threadData, m
   // _out_txt has no default value.
   _out_txt = omc_Tpl_pushIter(threadData, _txt, _OMC_LIT64);
 
-  _out_txt = omc_CodegenEmbeddedC_lm__117(threadData, _out_txt, _a_literals);
+  _out_txt = omc_CodegenEmbeddedC_lm__120(threadData, _out_txt, _a_literals);
 
   _out_txt = omc_Tpl_popIter(threadData, _out_txt);
 
@@ -3610,17 +3452,7 @@ modelica_metatype omc_CodegenEmbeddedC_functionsFile(threadData_t *threadData, m
 
   _out_txt = omc_Tpl_pushIter(threadData, _out_txt, _OMC_LIT2);
 
-  _out_txt = omc_CodegenEmbeddedC_lm__118(threadData, _out_txt, _a_externalFunctionIncludes);
-
-  _out_txt = omc_Tpl_popIter(threadData, _out_txt);
-
-  _out_txt = omc_Tpl_softNewLine(threadData, _out_txt);
-
-  _out_txt = omc_Tpl_writeTok(threadData, _out_txt, _OMC_LIT0);
-
-  _out_txt = omc_Tpl_pushIter(threadData, _out_txt, _OMC_LIT2);
-
-  _out_txt = omc_CodegenEmbeddedC_lm__119(threadData, _out_txt, _a_functions);
+  _out_txt = omc_CodegenEmbeddedC_lm__121(threadData, _out_txt, _a_externalFunctionIncludes);
 
   _out_txt = omc_Tpl_popIter(threadData, _out_txt);
 
@@ -3630,287 +3462,229 @@ modelica_metatype omc_CodegenEmbeddedC_functionsFile(threadData_t *threadData, m
 
   _out_txt = omc_Tpl_pushIter(threadData, _out_txt, _OMC_LIT2);
 
-  _out_txt = omc_CodegenEmbeddedC_lm__120(threadData, _out_txt, _a_functions);
+  _out_txt = omc_CodegenEmbeddedC_lm__122(threadData, _out_txt, _a_functions);
+
+  _out_txt = omc_Tpl_popIter(threadData, _out_txt);
+
+  _out_txt = omc_Tpl_softNewLine(threadData, _out_txt);
+
+  _out_txt = omc_Tpl_writeTok(threadData, _out_txt, _OMC_LIT0);
+
+  _out_txt = omc_Tpl_pushIter(threadData, _out_txt, _OMC_LIT2);
+
+  _out_txt = omc_CodegenEmbeddedC_lm__123(threadData, _out_txt, _a_functions);
 
   _out_txt = omc_Tpl_popIter(threadData, _out_txt);
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__120(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__123(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_123;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_func = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_func has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_123 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_123;
+        {
+          modelica_metatype _i_func = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_func has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_func = tmp5_1;
+              /* Pattern matching succeeded */
+              _txt = omc_CodegenEmbeddedC_functionBody(threadData, _txt, _i_func);
+              tmpMeta2 = omc_Tpl_nextIter(threadData, _txt);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_func = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_CodegenEmbeddedC_functionBody(threadData, _txt, _i_func);
-
-          _txt = omc_Tpl_nextIter(threadData, _txt);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__119(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__122(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_122;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_func = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_func has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_122 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_122;
+        {
+          modelica_metatype _i_func = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_func has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_func = tmp5_1;
+              /* Pattern matching succeeded */
+              _txt = omc_CodegenEmbeddedC_functionDeclaration(threadData, _txt, _i_func);
+              tmpMeta2 = omc_Tpl_nextIter(threadData, _txt);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_func = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_CodegenEmbeddedC_functionDeclaration(threadData, _txt, _i_func);
-
-          _txt = omc_Tpl_nextIter(threadData, _txt);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__118(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__121(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_121;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_string _i_inc = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_inc has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_121 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_string tmp5_1;
+        tmp5_1 = _lstElt_121;
+        {
+          modelica_string _i_inc = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_inc has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_inc = tmp5_1;
+              /* Pattern matching succeeded */
+              _txt = omc_Tpl_writeStr(threadData, _txt, _i_inc);
+              tmpMeta2 = omc_Tpl_nextIter(threadData, _txt);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_inc = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_Tpl_writeStr(threadData, _txt, _i_inc);
-
-          _txt = omc_Tpl_nextIter(threadData, _txt);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__117(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__120(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_120;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_integer _x_i0;
-      modelica_metatype _i_literal = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _x_i0 has no default value.
-      // _i_literal has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
-        }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_literal = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _x_i0 = omc_Tpl_getIteri__i0(threadData, _txt);
+      _lstElt_120 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_120;
+        {
+          modelica_integer _x_i0;
+          modelica_metatype _i_literal = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _x_i0 has no default value.
+          // _i_literal has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_literal = tmp5_1;
+              /* Pattern matching succeeded */
+              _x_i0 = omc_Tpl_getIteri__i0(threadData, _txt);
 
-          _txt = omc_CodegenEmbeddedC_literalExpConst(threadData, _txt, _i_literal, _x_i0);
-
-          _txt = omc_Tpl_nextIter(threadData, _txt);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
+              _txt = omc_CodegenEmbeddedC_literalExpConst(threadData, _txt, _i_literal, _x_i0);
+              tmpMeta2 = omc_Tpl_nextIter(threadData, _txt);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
 DLLDirection
@@ -4051,7 +3825,7 @@ modelica_metatype omc_CodegenEmbeddedC_startValue(threadData_t *threadData, mode
           _txt_0 = omc_CodegenUtil_crefStr(threadData, _txt_0, _i_name);
 
           _txt_0 = omc_Tpl_writeTok(threadData, _txt_0, _OMC_LIT80);
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 559), ((modelica_integer) 30)), omc_Tpl_textString(threadData, _txt_0));
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 594), ((modelica_integer) 30)), omc_Tpl_textString(threadData, _txt_0));
           goto tmp3_done;
         }
         case 6: {
@@ -4164,7 +3938,7 @@ modelica_metatype omc_CodegenEmbeddedC_constVal(threadData_t *threadData, modeli
           _i_bool = tmp11  /* pattern as ty=Boolean */;
           _txt = tmp4_1;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_CodegenEmbeddedC_fun__113(threadData, _txt, _i_bool);
+          tmpMeta1 = omc_CodegenEmbeddedC_fun__116(threadData, _txt, _i_bool);
           goto tmp3_done;
         }
         case 8: {
@@ -4187,7 +3961,7 @@ modelica_metatype omc_CodegenEmbeddedC_constVal(threadData_t *threadData, modeli
           _i_value = tmp4_2;
           _a_ty__ = tmp4_3;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_CodegenEmbeddedC_fun__114(threadData, _txt, _a_ty__, _i_value);
+          tmpMeta1 = omc_CodegenEmbeddedC_fun__117(threadData, _txt, _a_ty__, _i_value);
           goto tmp3_done;
         }
         }
@@ -4206,7 +3980,7 @@ modelica_metatype omc_CodegenEmbeddedC_constVal(threadData_t *threadData, modeli
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__114(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_ty__, modelica_metatype _in_a_value)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__117(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_ty__, modelica_metatype _in_a_value)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -4246,7 +4020,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__114(thread
           _txt_0 = omc_Tpl_writeTok(threadData, _OMC_LIT19, _OMC_LIT85);
 
           _txt_0 = omc_ExpressionDumpTpl_dumpExp(threadData, _txt_0, _a_value, _OMC_LIT22);
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 547), ((modelica_integer) 16)), omc_Tpl_textString(threadData, _txt_0));
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 582), ((modelica_integer) 16)), omc_Tpl_textString(threadData, _txt_0));
           goto tmp3_done;
         }
         }
@@ -4265,7 +4039,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__114(thread
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__113(threadData_t *threadData, modelica_metatype _in_txt, modelica_boolean _in_a_bool)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__116(threadData_t *threadData, modelica_metatype _in_txt, modelica_boolean _in_a_bool)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -4314,12 +4088,12 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__113(thread
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__113(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_bool)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__116(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_bool)
 {
   modelica_integer tmp1;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_a_bool);
-  _out_txt = omc_CodegenEmbeddedC_fun__113(threadData, _in_txt, tmp1);
+  _out_txt = omc_CodegenEmbeddedC_fun__116(threadData, _in_txt, tmp1);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }
@@ -4331,7 +4105,7 @@ modelica_metatype omc_CodegenEmbeddedC_varArrayNameValues(threadData_t *threadDa
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _out_txt has no default value.
-  _out_txt = omc_CodegenEmbeddedC_fun__111(threadData, _txt, _a_ix, _a_var, _a_isPre);
+  _out_txt = omc_CodegenEmbeddedC_fun__114(threadData, _txt, _a_ix, _a_var, _a_isPre);
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
@@ -4347,7 +4121,7 @@ modelica_metatype boxptr_CodegenEmbeddedC_varArrayNameValues(threadData_t *threa
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__111(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_ix, modelica_metatype _in_a_var, modelica_boolean _in_a_isPre)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__114(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_ix, modelica_metatype _in_a_var, modelica_boolean _in_a_isPre)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -4379,14 +4153,14 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__111(thread
           _a_var = tmp4_3;
           _a_isPre = tmp4_4;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_CodegenEmbeddedC_fun__110(threadData, _txt, _a_var, _a_isPre);
+          tmpMeta1 = omc_CodegenEmbeddedC_fun__113(threadData, _txt, _a_var, _a_isPre);
           goto tmp3_done;
         }
         case 1: {
           
           _txt = tmp4_1;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 533), ((modelica_integer) 14)), _OMC_LIT90);
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 568), ((modelica_integer) 14)), _OMC_LIT90);
           goto tmp3_done;
         }
         }
@@ -4404,19 +4178,19 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__111(thread
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__111(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_ix, modelica_metatype _in_a_var, modelica_metatype _in_a_isPre)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__114(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_ix, modelica_metatype _in_a_var, modelica_metatype _in_a_isPre)
 {
   modelica_integer tmp1;
   modelica_integer tmp2;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_a_ix);
   tmp2 = mmc_unbox_integer(_in_a_isPre);
-  _out_txt = omc_CodegenEmbeddedC_fun__111(threadData, _in_txt, tmp1, _in_a_var, tmp2);
+  _out_txt = omc_CodegenEmbeddedC_fun__114(threadData, _in_txt, tmp1, _in_a_var, tmp2);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__110(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_var, modelica_boolean _in_a_isPre)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__113(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_var, modelica_boolean _in_a_isPre)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -4492,14 +4266,14 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__110(thread
           /* Pattern matching succeeded */
           _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT98);
 
-          _txt = omc_CodegenEmbeddedC_fun__108(threadData, _txt, _a_isPre);
+          _txt = omc_CodegenEmbeddedC_fun__111(threadData, _txt, _a_isPre);
 
           _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT100);
 
           _txt = omc_CodegenEmbeddedC_crefShortType(threadData, _txt, _i_name);
 
           _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT102);
-          tmpMeta1 = omc_CodegenEmbeddedC_fun__109(threadData, _txt, _a_isPre);
+          tmpMeta1 = omc_CodegenEmbeddedC_fun__112(threadData, _txt, _a_isPre);
           goto tmp3_done;
         }
         case 4: {
@@ -4524,17 +4298,17 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__110(thread
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__110(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_var, modelica_metatype _in_a_isPre)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__113(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_var, modelica_metatype _in_a_isPre)
 {
   modelica_integer tmp1;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_a_isPre);
-  _out_txt = omc_CodegenEmbeddedC_fun__110(threadData, _in_txt, _in_a_var, tmp1);
+  _out_txt = omc_CodegenEmbeddedC_fun__113(threadData, _in_txt, _in_a_var, tmp1);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__109(threadData_t *threadData, modelica_metatype _in_txt, modelica_boolean _in_a_isPre)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__112(threadData_t *threadData, modelica_metatype _in_txt, modelica_boolean _in_a_isPre)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -4583,17 +4357,17 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__109(thread
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__109(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_isPre)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__112(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_isPre)
 {
   modelica_integer tmp1;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_a_isPre);
-  _out_txt = omc_CodegenEmbeddedC_fun__109(threadData, _in_txt, tmp1);
+  _out_txt = omc_CodegenEmbeddedC_fun__112(threadData, _in_txt, tmp1);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__108(threadData_t *threadData, modelica_metatype _in_txt, modelica_boolean _in_a_isPre)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__111(threadData_t *threadData, modelica_metatype _in_txt, modelica_boolean _in_a_isPre)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -4642,12 +4416,12 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__108(thread
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__108(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_isPre)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__111(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_isPre)
 {
   modelica_integer tmp1;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_a_isPre);
-  _out_txt = omc_CodegenEmbeddedC_fun__108(threadData, _in_txt, tmp1);
+  _out_txt = omc_CodegenEmbeddedC_fun__111(threadData, _in_txt, tmp1);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }
@@ -4697,7 +4471,7 @@ modelica_metatype omc_CodegenEmbeddedC_daeExpCall(threadData_t *threadData, mode
 
           _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT108);
 
-          _txt = omc_CodegenEmbeddedC_lm__106(threadData, _txt, _i_expLst);
+          _txt = omc_CodegenEmbeddedC_lm__109(threadData, _txt, _i_expLst);
           tmpMeta1 = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT30);
           goto tmp3_done;
         }
@@ -4710,7 +4484,7 @@ modelica_metatype omc_CodegenEmbeddedC_daeExpCall(threadData_t *threadData, mode
           _txt_0 = omc_Tpl_writeTok(threadData, _OMC_LIT19, _OMC_LIT110);
 
           _txt_0 = omc_ExpressionDumpTpl_dumpExp(threadData, _txt_0, _i_exp, _OMC_LIT22);
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 521), ((modelica_integer) 28)), omc_Tpl_textString(threadData, _txt_0));
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 556), ((modelica_integer) 28)), omc_Tpl_textString(threadData, _txt_0));
           goto tmp3_done;
         }
         case 2: {
@@ -4736,72 +4510,55 @@ modelica_metatype omc_CodegenEmbeddedC_daeExpCall(threadData_t *threadData, mode
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__106(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__109(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_109;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_e = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_e has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_109 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_109;
+        {
+          modelica_metatype _i_e = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_e has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_e = tmp5_1;
+              /* Pattern matching succeeded */
+              _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT32);
+              tmpMeta2 = omc_CodegenEmbeddedC_daeExp(threadData, _txt, _i_e);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_e = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_Tpl_writeTok(threadData, _txt, _OMC_LIT32);
-
-          _txt = omc_CodegenEmbeddedC_daeExp(threadData, _txt, _i_e);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
 DLLDirection
@@ -5544,7 +5301,7 @@ modelica_metatype omc_CodegenEmbeddedC_daeExpCallBuiltin(threadData_t *threadDat
           _txt_0 = omc_Tpl_writeTok(threadData, _OMC_LIT19, _OMC_LIT130);
 
           _txt_0 = omc_ExpressionDumpTpl_dumpExp(threadData, _txt_0, _i_exp, _OMC_LIT22);
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 514), ((modelica_integer) 28)), omc_Tpl_textString(threadData, _txt_0));
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 549), ((modelica_integer) 28)), omc_Tpl_textString(threadData, _txt_0));
           goto tmp3_done;
         }
         case 24: {
@@ -5577,12 +5334,12 @@ modelica_metatype omc_CodegenEmbeddedC_daeExpBinary(threadData_t *threadData, mo
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _out_txt has no default value.
-  _out_txt = omc_CodegenEmbeddedC_fun__103(threadData, _txt, _a_op, _a_exp1, _a_exp2, _a_origExp);
+  _out_txt = omc_CodegenEmbeddedC_fun__106(threadData, _txt, _a_op, _a_exp1, _a_exp2, _a_origExp);
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__103(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_op, modelica_metatype _in_a_exp1, modelica_metatype _in_a_exp2, modelica_metatype _in_a_origExp)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__106(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_op, modelica_metatype _in_a_exp1, modelica_metatype _in_a_exp2, modelica_metatype _in_a_origExp)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -5789,7 +5546,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__103(thread
           _txt_0 = omc_Tpl_writeTok(threadData, _OMC_LIT19, _OMC_LIT177);
 
           _txt_0 = omc_ExpressionDumpTpl_dumpExp(threadData, _txt_0, _a_origExp, _OMC_LIT22);
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 479), ((modelica_integer) 14)), omc_Tpl_textString(threadData, _txt_0));
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 514), ((modelica_integer) 14)), omc_Tpl_textString(threadData, _txt_0));
           goto tmp3_done;
         }
         }
@@ -5914,7 +5671,7 @@ modelica_metatype omc_CodegenEmbeddedC_daeExp(threadData_t *threadData, modelica
           _i_bool = tmp12  /* pattern as ty=Boolean */;
           _txt = tmp4_1;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_CodegenEmbeddedC_fun__101(threadData, _txt, _i_bool);
+          tmpMeta1 = omc_CodegenEmbeddedC_fun__104(threadData, _txt, _i_bool);
           goto tmp3_done;
         }
         case 4: {
@@ -6065,7 +5822,7 @@ modelica_metatype omc_CodegenEmbeddedC_daeExp(threadData_t *threadData, modelica
           _txt_1 = omc_Tpl_writeTok(threadData, _OMC_LIT19, _OMC_LIT187);
 
           _txt_1 = omc_ExpressionDumpTpl_dumpExp(threadData, _txt_1, _i_exp, _OMC_LIT22);
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 457), ((modelica_integer) 40)), omc_Tpl_textString(threadData, _txt_1));
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 492), ((modelica_integer) 40)), omc_Tpl_textString(threadData, _txt_1));
           goto tmp3_done;
         }
         case 13: {
@@ -6105,7 +5862,7 @@ modelica_metatype omc_CodegenEmbeddedC_daeExp(threadData_t *threadData, modelica
           _txt_2 = omc_Tpl_writeTok(threadData, _OMC_LIT19, _OMC_LIT189);
 
           _txt_2 = omc_ExpressionDumpTpl_dumpExp(threadData, _txt_2, _i_exp, _OMC_LIT22);
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 460), ((modelica_integer) 14)), omc_Tpl_textString(threadData, _txt_2));
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 495), ((modelica_integer) 14)), omc_Tpl_textString(threadData, _txt_2));
           goto tmp3_done;
         }
         }
@@ -6124,7 +5881,7 @@ modelica_metatype omc_CodegenEmbeddedC_daeExp(threadData_t *threadData, modelica
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__101(threadData_t *threadData, modelica_metatype _in_txt, modelica_boolean _in_a_bool)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__104(threadData_t *threadData, modelica_metatype _in_txt, modelica_boolean _in_a_bool)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -6173,12 +5930,12 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__101(thread
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__101(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_bool)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__104(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_bool)
 {
   modelica_integer tmp1;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_a_bool);
-  _out_txt = omc_CodegenEmbeddedC_fun__101(threadData, _in_txt, tmp1);
+  _out_txt = omc_CodegenEmbeddedC_fun__104(threadData, _in_txt, tmp1);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }
@@ -6301,10 +6058,10 @@ modelica_metatype omc_CodegenEmbeddedC_expTypeShort(threadData_t *threadData, mo
           /* Pattern matching succeeded */
           _txt_0 = omc_Tpl_writeTok(threadData, _OMC_LIT19, _OMC_LIT201);
 
-          _ret_0 = omc_Types_unparseType(threadData, _i_type);
+          _ret_0 = omc_TypesDump_unparseType(threadData, _i_type);
 
           _txt_0 = omc_Tpl_writeStr(threadData, _txt_0, _ret_0);
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 439), ((modelica_integer) 14)), omc_Tpl_textString(threadData, _txt_0));
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 474), ((modelica_integer) 14)), omc_Tpl_textString(threadData, _txt_0));
           goto tmp3_done;
         }
         }
@@ -6446,7 +6203,7 @@ modelica_metatype omc_CodegenEmbeddedC_crefToCStr(threadData_t *threadData, mode
           _a_ix = tmp4_3;
           _a_isPre = tmp4_4;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_CodegenEmbeddedC_fun__96(threadData, _txt, _a_isPre, _i_cr, _a_ix, _i_componentRef);
+          tmpMeta1 = omc_CodegenEmbeddedC_fun__99(threadData, _txt, _a_isPre, _i_cr, _a_ix, _i_componentRef);
           goto tmp3_done;
         }
         case 1: {
@@ -6459,7 +6216,7 @@ modelica_metatype omc_CodegenEmbeddedC_crefToCStr(threadData_t *threadData, mode
           _ret_0 = omc_SimCodeUtil_getSimCode(threadData);
 
           _ret_1 = omc_SimCodeUtil_cref2simvar(threadData, _i_cr, _ret_0);
-          tmpMeta1 = omc_CodegenEmbeddedC_fun__97(threadData, _txt, _ret_1, _a_isPre, _a_ix);
+          tmpMeta1 = omc_CodegenEmbeddedC_fun__100(threadData, _txt, _ret_1, _a_isPre, _a_ix);
           goto tmp3_done;
         }
         }
@@ -6489,7 +6246,7 @@ modelica_metatype boxptr_CodegenEmbeddedC_crefToCStr(threadData_t *threadData, m
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__97(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_mArg, modelica_boolean _in_a_isPre, modelica_integer _in_a_ix)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__100(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_mArg, modelica_boolean _in_a_isPre, modelica_integer _in_a_ix)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -6550,7 +6307,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__97(threadD
           _txt_0 = omc_Tpl_writeTok(threadData, _txt_0, _OMC_LIT26);
 
           _txt_0 = omc_CodegenUtil_crefStr(threadData, _txt_0, _i_name);
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 412), ((modelica_integer) 43)), omc_Tpl_textString(threadData, _txt_0));
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 447), ((modelica_integer) 43)), omc_Tpl_textString(threadData, _txt_0));
           goto tmp3_done;
         }
         case 1: {
@@ -6613,19 +6370,19 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__97(threadD
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__97(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_mArg, modelica_metatype _in_a_isPre, modelica_metatype _in_a_ix)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__100(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_mArg, modelica_metatype _in_a_isPre, modelica_metatype _in_a_ix)
 {
   modelica_integer tmp1;
   modelica_integer tmp2;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_a_isPre);
   tmp2 = mmc_unbox_integer(_in_a_ix);
-  _out_txt = omc_CodegenEmbeddedC_fun__97(threadData, _in_txt, _in_mArg, tmp1, tmp2);
+  _out_txt = omc_CodegenEmbeddedC_fun__100(threadData, _in_txt, _in_mArg, tmp1, tmp2);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__96(threadData_t *threadData, modelica_metatype _in_txt, modelica_boolean _in_a_isPre, modelica_metatype _in_a_cr, modelica_integer _in_a_ix, modelica_metatype _in_a_componentRef)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__99(threadData_t *threadData, modelica_metatype _in_txt, modelica_boolean _in_a_isPre, modelica_metatype _in_a_cr, modelica_integer _in_a_ix, modelica_metatype _in_a_componentRef)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -6673,7 +6430,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__96(threadD
           _txt_0 = omc_Tpl_writeTok(threadData, _OMC_LIT19, _OMC_LIT216);
 
           _txt_0 = omc_CodegenUtil_crefStr(threadData, _txt_0, _a_cr);
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 409), ((modelica_integer) 26)), omc_Tpl_textString(threadData, _txt_0));
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 444), ((modelica_integer) 26)), omc_Tpl_textString(threadData, _txt_0));
           goto tmp3_done;
         }
         }
@@ -6691,14 +6448,14 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__96(threadD
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__96(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_isPre, modelica_metatype _in_a_cr, modelica_metatype _in_a_ix, modelica_metatype _in_a_componentRef)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__99(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_isPre, modelica_metatype _in_a_cr, modelica_metatype _in_a_ix, modelica_metatype _in_a_componentRef)
 {
   modelica_integer tmp1;
   modelica_integer tmp2;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_a_isPre);
   tmp2 = mmc_unbox_integer(_in_a_ix);
-  _out_txt = omc_CodegenEmbeddedC_fun__96(threadData, _in_txt, tmp1, _in_a_cr, tmp2, _in_a_componentRef);
+  _out_txt = omc_CodegenEmbeddedC_fun__99(threadData, _in_txt, tmp1, _in_a_cr, tmp2, _in_a_componentRef);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }
@@ -6741,7 +6498,7 @@ modelica_metatype omc_CodegenEmbeddedC_crefLocal(threadData_t *threadData, model
           
           _txt = tmp4_1;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 401), ((modelica_integer) 14)), _OMC_LIT219);
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 436), ((modelica_integer) 14)), _OMC_LIT219);
           goto tmp3_done;
         }
         }
@@ -6881,7 +6638,7 @@ modelica_metatype omc_CodegenEmbeddedC_elseStatement(threadData_t *threadData, m
 
           _txt = omc_Tpl_pushIter(threadData, _txt, _OMC_LIT2);
 
-          _txt = omc_CodegenEmbeddedC_lm__91(threadData, _txt, _i_statementLst);
+          _txt = omc_CodegenEmbeddedC_lm__94(threadData, _txt, _i_statementLst);
 
           _txt = omc_Tpl_popIter(threadData, _txt);
 
@@ -6911,7 +6668,7 @@ modelica_metatype omc_CodegenEmbeddedC_elseStatement(threadData_t *threadData, m
 
           _txt = omc_Tpl_pushIter(threadData, _txt, _OMC_LIT2);
 
-          _txt = omc_CodegenEmbeddedC_lm__92(threadData, _txt, _i_statementLst);
+          _txt = omc_CodegenEmbeddedC_lm__95(threadData, _txt, _i_statementLst);
 
           _txt = omc_Tpl_popIter(threadData, _txt);
 
@@ -6945,140 +6702,106 @@ modelica_metatype omc_CodegenEmbeddedC_elseStatement(threadData_t *threadData, m
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__92(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__95(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_95;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_stmt = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_stmt has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_95 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_95;
+        {
+          modelica_metatype _i_stmt = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_stmt has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_stmt = tmp5_1;
+              /* Pattern matching succeeded */
+              _txt = omc_CodegenEmbeddedC_statement(threadData, _txt, _i_stmt);
+              tmpMeta2 = omc_Tpl_nextIter(threadData, _txt);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_stmt = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_CodegenEmbeddedC_statement(threadData, _txt, _i_stmt);
-
-          _txt = omc_Tpl_nextIter(threadData, _txt);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__91(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__94(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_94;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_stmt = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_stmt has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_94 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_94;
+        {
+          modelica_metatype _i_stmt = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_stmt has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_stmt = tmp5_1;
+              /* Pattern matching succeeded */
+              _txt = omc_CodegenEmbeddedC_statement(threadData, _txt, _i_stmt);
+              tmpMeta2 = omc_Tpl_nextIter(threadData, _txt);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_stmt = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_CodegenEmbeddedC_statement(threadData, _txt, _i_stmt);
-
-          _txt = omc_Tpl_nextIter(threadData, _txt);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
 DLLDirection
@@ -7121,7 +6844,7 @@ modelica_metatype omc_CodegenEmbeddedC_statement(threadData_t *threadData, model
           
           _txt = tmp4_1;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 353), ((modelica_integer) 16)), _OMC_LIT229);
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 388), ((modelica_integer) 16)), _OMC_LIT229);
           goto tmp3_done;
         }
         case 1: {
@@ -7182,7 +6905,7 @@ modelica_metatype omc_CodegenEmbeddedC_statement(threadData_t *threadData, model
 
           _txt = omc_Tpl_pushIter(threadData, _txt, _OMC_LIT2);
 
-          _txt = omc_CodegenEmbeddedC_lm__89(threadData, _txt, _i_statementLst);
+          _txt = omc_CodegenEmbeddedC_lm__92(threadData, _txt, _i_statementLst);
 
           _txt = omc_Tpl_popIter(threadData, _txt);
 
@@ -7202,7 +6925,7 @@ modelica_metatype omc_CodegenEmbeddedC_statement(threadData_t *threadData, model
           _txt_0 = omc_Tpl_writeTok(threadData, _OMC_LIT19, _OMC_LIT233);
 
           _txt_0 = omc_DAEDumpTpl_dumpStatement(threadData, _txt_0, _i_stmt);
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 364), ((modelica_integer) 14)), omc_Tpl_textString(threadData, _txt_0));
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 399), ((modelica_integer) 14)), omc_Tpl_textString(threadData, _txt_0));
           goto tmp3_done;
         }
         }
@@ -7221,72 +6944,55 @@ modelica_metatype omc_CodegenEmbeddedC_statement(threadData_t *threadData, model
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__89(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__92(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_92;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_stmt = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_stmt has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_92 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_92;
+        {
+          modelica_metatype _i_stmt = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_stmt has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_stmt = tmp5_1;
+              /* Pattern matching succeeded */
+              _txt = omc_CodegenEmbeddedC_statement(threadData, _txt, _i_stmt);
+              tmpMeta2 = omc_Tpl_nextIter(threadData, _txt);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_stmt = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_CodegenEmbeddedC_statement(threadData, _txt, _i_stmt);
-
-          _txt = omc_Tpl_nextIter(threadData, _txt);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
 DLLDirection
@@ -7353,7 +7059,7 @@ modelica_metatype omc_CodegenEmbeddedC_equation__(threadData_t *threadData, mode
           /* Pattern matching succeeded */
           _txt = omc_Tpl_pushIter(threadData, _txt, _OMC_LIT2);
 
-          _txt = omc_CodegenEmbeddedC_lm__87(threadData, _txt, _i_statements);
+          _txt = omc_CodegenEmbeddedC_lm__90(threadData, _txt, _i_statements);
           tmpMeta1 = omc_Tpl_popIter(threadData, _txt);
           goto tmp3_done;
         }
@@ -7362,7 +7068,7 @@ modelica_metatype omc_CodegenEmbeddedC_equation__(threadData_t *threadData, mode
           
           _txt = tmp4_1;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 346), ((modelica_integer) 14)), _OMC_LIT236);
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 381), ((modelica_integer) 14)), _OMC_LIT236);
           goto tmp3_done;
         }
         }
@@ -7381,72 +7087,55 @@ modelica_metatype omc_CodegenEmbeddedC_equation__(threadData_t *threadData, mode
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__87(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__90(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_90;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_stmt = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_stmt has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_90 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_90;
+        {
+          modelica_metatype _i_stmt = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_stmt has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_stmt = tmp5_1;
+              /* Pattern matching succeeded */
+              _txt = omc_CodegenEmbeddedC_statement(threadData, _txt, _i_stmt);
+              tmpMeta2 = omc_Tpl_nextIter(threadData, _txt);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_stmt = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_CodegenEmbeddedC_statement(threadData, _txt, _i_stmt);
-
-          _txt = omc_Tpl_nextIter(threadData, _txt);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
 DLLDirection
@@ -7460,12 +7149,12 @@ modelica_metatype omc_CodegenEmbeddedC_mainFile(threadData_t *threadData, modeli
   // _l_modelNamePrefixStr has no default value.
   _l_modelNamePrefixStr = omc_CodegenUtilSimulation_modelNamePrefix(threadData, _OMC_LIT19, _a_simCode);
 
-  _out_txt = omc_CodegenEmbeddedC_fun__85(threadData, _txt, _a_simCode, _l_modelNamePrefixStr);
+  _out_txt = omc_CodegenEmbeddedC_fun__88(threadData, _txt, _a_simCode, _l_modelNamePrefixStr);
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__85(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_simCode, modelica_metatype _in_a_modelNamePrefixStr)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__88(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_simCode, modelica_metatype _in_a_modelNamePrefixStr)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -7564,7 +7253,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__85(threadD
           
           _txt = tmp4_1;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 61), ((modelica_integer) 9)), _OMC_LIT237);
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 96), ((modelica_integer) 9)), _OMC_LIT237);
           goto tmp3_done;
         }
         case 1: {
@@ -7713,25 +7402,25 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__85(threadD
 
           _ret_0 = omc_SimCodeUtil_nVariablesReal(threadData, _i_varInfo);
 
-          _txt = omc_CodegenEmbeddedC_fun__48(threadData, _txt, _ret_0);
+          _txt = omc_CodegenEmbeddedC_fun__51(threadData, _txt, _ret_0);
 
-          _txt = omc_CodegenEmbeddedC_fun__49(threadData, _txt, _i_varInfo_numIntAlgVars);
+          _txt = omc_CodegenEmbeddedC_fun__52(threadData, _txt, _i_varInfo_numIntAlgVars);
 
-          _txt = omc_CodegenEmbeddedC_fun__50(threadData, _txt, _i_varInfo_numBoolAlgVars);
+          _txt = omc_CodegenEmbeddedC_fun__53(threadData, _txt, _i_varInfo_numBoolAlgVars);
 
-          _txt = omc_CodegenEmbeddedC_fun__51(threadData, _txt, _i_varInfo_numStringAlgVars);
+          _txt = omc_CodegenEmbeddedC_fun__54(threadData, _txt, _i_varInfo_numStringAlgVars);
 
-          _txt = omc_CodegenEmbeddedC_fun__52(threadData, _txt, _i_varInfo_numParams);
+          _txt = omc_CodegenEmbeddedC_fun__55(threadData, _txt, _i_varInfo_numParams);
 
-          _txt = omc_CodegenEmbeddedC_fun__53(threadData, _txt, _i_varInfo_numIntParams);
+          _txt = omc_CodegenEmbeddedC_fun__56(threadData, _txt, _i_varInfo_numIntParams);
 
-          _txt = omc_CodegenEmbeddedC_fun__54(threadData, _txt, _i_varInfo_numBoolParams);
+          _txt = omc_CodegenEmbeddedC_fun__57(threadData, _txt, _i_varInfo_numBoolParams);
 
-          _txt = omc_CodegenEmbeddedC_fun__55(threadData, _txt, _i_varInfo_numIntParams);
+          _txt = omc_CodegenEmbeddedC_fun__58(threadData, _txt, _i_varInfo_numIntParams);
 
           _ret_1 = listLength(_i_extObjVars);
 
-          _txt = omc_CodegenEmbeddedC_fun__56(threadData, _txt, _ret_1);
+          _txt = omc_CodegenEmbeddedC_fun__59(threadData, _txt, _ret_1);
 
           _txt = omc_Tpl_softNewLine(threadData, _txt);
 
@@ -7755,21 +7444,21 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__85(threadD
 
           _ret_2 = omc_SimCodeUtil_nVariablesReal(threadData, _i_varInfo);
 
-          _txt = omc_CodegenEmbeddedC_fun__63(threadData, _txt, _ret_2, _i_vars_realOptimizeFinalConstraintsVars, _i_vars_realOptimizeConstraintsVars, _i_vars_discreteAlgVars, _i_vars_algVars, _i_vars_derivativeVars, _i_vars_stateVars);
+          _txt = omc_CodegenEmbeddedC_fun__66(threadData, _txt, _ret_2, _i_vars_realOptimizeFinalConstraintsVars, _i_vars_realOptimizeConstraintsVars, _i_vars_discreteAlgVars, _i_vars_algVars, _i_vars_derivativeVars, _i_vars_stateVars);
 
-          _txt = omc_CodegenEmbeddedC_fun__65(threadData, _txt, _i_varInfo_numIntAlgVars, _i_vars_intAlgVars);
+          _txt = omc_CodegenEmbeddedC_fun__68(threadData, _txt, _i_varInfo_numIntAlgVars, _i_vars_intAlgVars);
 
-          _txt = omc_CodegenEmbeddedC_fun__67(threadData, _txt, _i_varInfo_numBoolAlgVars, _i_vars_boolAlgVars);
+          _txt = omc_CodegenEmbeddedC_fun__70(threadData, _txt, _i_varInfo_numBoolAlgVars, _i_vars_boolAlgVars);
 
-          _txt = omc_CodegenEmbeddedC_fun__69(threadData, _txt, _i_varInfo_numStringAlgVars, _i_vars_stringAlgVars);
+          _txt = omc_CodegenEmbeddedC_fun__72(threadData, _txt, _i_varInfo_numStringAlgVars, _i_vars_stringAlgVars);
 
-          _txt = omc_CodegenEmbeddedC_fun__71(threadData, _txt, _i_varInfo_numParams, _i_vars_paramVars);
+          _txt = omc_CodegenEmbeddedC_fun__74(threadData, _txt, _i_varInfo_numParams, _i_vars_paramVars);
 
-          _txt = omc_CodegenEmbeddedC_fun__73(threadData, _txt, _i_varInfo_numIntParams, _i_vars_intParamVars);
+          _txt = omc_CodegenEmbeddedC_fun__76(threadData, _txt, _i_varInfo_numIntParams, _i_vars_intParamVars);
 
-          _txt = omc_CodegenEmbeddedC_fun__75(threadData, _txt, _i_varInfo_numBoolParams, _i_vars_boolParamVars);
+          _txt = omc_CodegenEmbeddedC_fun__78(threadData, _txt, _i_varInfo_numBoolParams, _i_vars_boolParamVars);
 
-          _txt = omc_CodegenEmbeddedC_fun__77(threadData, _txt, _i_varInfo_numStringParamVars, _i_vars_stringParamVars);
+          _txt = omc_CodegenEmbeddedC_fun__80(threadData, _txt, _i_varInfo_numStringParamVars, _i_vars_stringParamVars);
 
           _txt = omc_Tpl_softNewLine(threadData, _txt);
 
@@ -7829,7 +7518,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__85(threadD
 
           _txt = omc_Tpl_pushBlock(threadData, _txt, _OMC_LIT45);
 
-          _txt = omc_CodegenEmbeddedC_fun__79(threadData, _txt, _i_odeEquations);
+          _txt = omc_CodegenEmbeddedC_fun__82(threadData, _txt, _i_odeEquations);
 
           _txt = omc_Tpl_softNewLine(threadData, _txt);
 
@@ -7843,7 +7532,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__85(threadD
 
           _txt = omc_Tpl_pushBlock(threadData, _txt, _OMC_LIT45);
 
-          _txt = omc_CodegenEmbeddedC_fun__83(threadData, _txt, _i_allEquations);
+          _txt = omc_CodegenEmbeddedC_fun__86(threadData, _txt, _i_allEquations);
 
           _txt = omc_Tpl_softNewLine(threadData, _txt);
 
@@ -7857,7 +7546,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__85(threadD
 
           _txt = omc_Tpl_pushBlock(threadData, _txt, _OMC_LIT45);
 
-          _txt = omc_CodegenEmbeddedC_fun__84(threadData, _txt, _i_varInfo_numStateVars);
+          _txt = omc_CodegenEmbeddedC_fun__87(threadData, _txt, _i_varInfo_numStateVars);
 
           _txt = omc_Tpl_softNewLine(threadData, _txt);
 
@@ -7950,7 +7639,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__85(threadD
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__84(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numStateVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__87(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numStateVars)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -8017,17 +7706,17 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__84(threadD
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__84(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numStateVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__87(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numStateVars)
 {
   modelica_integer tmp1;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_a_varInfo_numStateVars);
-  _out_txt = omc_CodegenEmbeddedC_fun__84(threadData, _in_txt, tmp1);
+  _out_txt = omc_CodegenEmbeddedC_fun__87(threadData, _in_txt, tmp1);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__83(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_allEquations)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__86(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_allEquations)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -8069,7 +7758,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__83(threadD
           _i_eqs = tmpMeta6;
           _txt = tmp4_1;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_CodegenEmbeddedC_smf__80(threadData, _txt, _i_eqs);
+          tmpMeta1 = omc_CodegenEmbeddedC_smf__83(threadData, _txt, _i_eqs);
           goto tmp3_done;
         }
         case 2: {
@@ -8079,7 +7768,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__83(threadD
           /* Pattern matching succeeded */
           _txt = omc_Tpl_pushIter(threadData, _txt, _OMC_LIT2);
 
-          _txt = omc_CodegenEmbeddedC_lm__82(threadData, _txt, _i_allEquations);
+          _txt = omc_CodegenEmbeddedC_lm__85(threadData, _txt, _i_allEquations);
           tmpMeta1 = omc_Tpl_popIter(threadData, _txt);
           goto tmp3_done;
         }
@@ -8099,75 +7788,58 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__83(threadD
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__82(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__85(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_85;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_eqs = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_eqs has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_85 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_85;
+        {
+          modelica_metatype _i_eqs = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_eqs has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_eqs = tmp5_1;
+              /* Pattern matching succeeded */
+              _txt = omc_CodegenEmbeddedC_smf__84(threadData, _txt, _i_eqs);
+              tmpMeta2 = omc_Tpl_nextIter(threadData, _txt);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_eqs = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_CodegenEmbeddedC_smf__81(threadData, _txt, _i_eqs);
-
-          _txt = omc_Tpl_nextIter(threadData, _txt);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_smf__81(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_it)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_smf__84(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_it)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -8212,7 +7884,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_smf__81(threadD
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_smf__80(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_it)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_smf__83(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_it)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -8257,7 +7929,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_smf__80(threadD
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__79(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_odeEquations)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__82(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_odeEquations)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -8299,7 +7971,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__79(threadD
           /* Pattern matching succeeded */
           _txt = omc_Tpl_pushIter(threadData, _txt, _OMC_LIT2);
 
-          _txt = omc_CodegenEmbeddedC_lm__78(threadData, _txt, _i_eqs);
+          _txt = omc_CodegenEmbeddedC_lm__81(threadData, _txt, _i_eqs);
           tmpMeta1 = omc_Tpl_popIter(threadData, _txt);
           goto tmp3_done;
         }
@@ -8307,7 +7979,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__79(threadD
           
           _txt = tmp4_1;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 241), ((modelica_integer) 14)), _OMC_LIT499);
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 276), ((modelica_integer) 14)), _OMC_LIT499);
           goto tmp3_done;
         }
         }
@@ -8326,75 +7998,58 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__79(threadD
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__78(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__81(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_81;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_eq = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_eq has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_81 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_81;
+        {
+          modelica_metatype _i_eq = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_eq has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_eq = tmp5_1;
+              /* Pattern matching succeeded */
+              _txt = omc_CodegenEmbeddedC_equation__(threadData, _txt, _i_eq);
+              tmpMeta2 = omc_Tpl_nextIter(threadData, _txt);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_eq = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_CodegenEmbeddedC_equation__(threadData, _txt, _i_eq);
-
-          _txt = omc_Tpl_nextIter(threadData, _txt);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__77(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numStringParamVars, modelica_metatype _in_a_vars_stringParamVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__80(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numStringParamVars, modelica_metatype _in_a_vars_stringParamVars)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -8433,7 +8088,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__77(threadD
 
           _txt = omc_Tpl_pushBlock(threadData, _txt, _OMC_LIT45);
 
-          _txt = omc_CodegenEmbeddedC_lm__76(threadData, _txt, _a_vars_stringParamVars);
+          _txt = omc_CodegenEmbeddedC_lm__79(threadData, _txt, _a_vars_stringParamVars);
 
           _txt = omc_Tpl_softNewLine(threadData, _txt);
 
@@ -8458,83 +8113,67 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__77(threadD
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__77(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numStringParamVars, modelica_metatype _in_a_vars_stringParamVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__80(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numStringParamVars, modelica_metatype _in_a_vars_stringParamVars)
 {
   modelica_integer tmp1;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_a_varInfo_numStringParamVars);
-  _out_txt = omc_CodegenEmbeddedC_fun__77(threadData, _in_txt, tmp1, _in_a_vars_stringParamVars);
+  _out_txt = omc_CodegenEmbeddedC_fun__80(threadData, _in_txt, tmp1, _in_a_vars_stringParamVars);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__76(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__79(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_79;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_var = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_var has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_79 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_79;
+        {
+          modelica_metatype _i_var = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_var has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_var = tmp5_1;
+              /* Pattern matching succeeded */
+              tmpMeta2 = omc_CodegenEmbeddedC_startValue(threadData, _txt, _i_var);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_var = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_CodegenEmbeddedC_startValue(threadData, _txt, _i_var);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__75(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numBoolParams, modelica_metatype _in_a_vars_boolParamVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__78(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numBoolParams, modelica_metatype _in_a_vars_boolParamVars)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -8573,7 +8212,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__75(threadD
 
           _txt = omc_Tpl_pushBlock(threadData, _txt, _OMC_LIT45);
 
-          _txt = omc_CodegenEmbeddedC_lm__74(threadData, _txt, _a_vars_boolParamVars);
+          _txt = omc_CodegenEmbeddedC_lm__77(threadData, _txt, _a_vars_boolParamVars);
 
           _txt = omc_Tpl_softNewLine(threadData, _txt);
 
@@ -8598,83 +8237,67 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__75(threadD
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__75(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numBoolParams, modelica_metatype _in_a_vars_boolParamVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__78(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numBoolParams, modelica_metatype _in_a_vars_boolParamVars)
 {
   modelica_integer tmp1;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_a_varInfo_numBoolParams);
-  _out_txt = omc_CodegenEmbeddedC_fun__75(threadData, _in_txt, tmp1, _in_a_vars_boolParamVars);
+  _out_txt = omc_CodegenEmbeddedC_fun__78(threadData, _in_txt, tmp1, _in_a_vars_boolParamVars);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__74(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__77(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_77;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_var = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_var has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_77 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_77;
+        {
+          modelica_metatype _i_var = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_var has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_var = tmp5_1;
+              /* Pattern matching succeeded */
+              tmpMeta2 = omc_CodegenEmbeddedC_startValue(threadData, _txt, _i_var);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_var = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_CodegenEmbeddedC_startValue(threadData, _txt, _i_var);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__73(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numIntParams, modelica_metatype _in_a_vars_intParamVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__76(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numIntParams, modelica_metatype _in_a_vars_intParamVars)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -8713,7 +8336,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__73(threadD
 
           _txt = omc_Tpl_pushBlock(threadData, _txt, _OMC_LIT45);
 
-          _txt = omc_CodegenEmbeddedC_lm__72(threadData, _txt, _a_vars_intParamVars);
+          _txt = omc_CodegenEmbeddedC_lm__75(threadData, _txt, _a_vars_intParamVars);
 
           _txt = omc_Tpl_softNewLine(threadData, _txt);
 
@@ -8738,83 +8361,67 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__73(threadD
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__73(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numIntParams, modelica_metatype _in_a_vars_intParamVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__76(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numIntParams, modelica_metatype _in_a_vars_intParamVars)
 {
   modelica_integer tmp1;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_a_varInfo_numIntParams);
-  _out_txt = omc_CodegenEmbeddedC_fun__73(threadData, _in_txt, tmp1, _in_a_vars_intParamVars);
+  _out_txt = omc_CodegenEmbeddedC_fun__76(threadData, _in_txt, tmp1, _in_a_vars_intParamVars);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__72(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__75(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_75;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_var = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_var has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_75 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_75;
+        {
+          modelica_metatype _i_var = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_var has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_var = tmp5_1;
+              /* Pattern matching succeeded */
+              tmpMeta2 = omc_CodegenEmbeddedC_startValue(threadData, _txt, _i_var);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_var = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_CodegenEmbeddedC_startValue(threadData, _txt, _i_var);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__71(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numParams, modelica_metatype _in_a_vars_paramVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__74(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numParams, modelica_metatype _in_a_vars_paramVars)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -8853,7 +8460,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__71(threadD
 
           _txt = omc_Tpl_pushBlock(threadData, _txt, _OMC_LIT45);
 
-          _txt = omc_CodegenEmbeddedC_lm__70(threadData, _txt, _a_vars_paramVars);
+          _txt = omc_CodegenEmbeddedC_lm__73(threadData, _txt, _a_vars_paramVars);
 
           _txt = omc_Tpl_softNewLine(threadData, _txt);
 
@@ -8878,83 +8485,67 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__71(threadD
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__71(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numParams, modelica_metatype _in_a_vars_paramVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__74(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numParams, modelica_metatype _in_a_vars_paramVars)
 {
   modelica_integer tmp1;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_a_varInfo_numParams);
-  _out_txt = omc_CodegenEmbeddedC_fun__71(threadData, _in_txt, tmp1, _in_a_vars_paramVars);
+  _out_txt = omc_CodegenEmbeddedC_fun__74(threadData, _in_txt, tmp1, _in_a_vars_paramVars);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__70(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__73(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_73;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_var = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_var has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_73 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_73;
+        {
+          modelica_metatype _i_var = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_var has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_var = tmp5_1;
+              /* Pattern matching succeeded */
+              tmpMeta2 = omc_CodegenEmbeddedC_startValue(threadData, _txt, _i_var);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_var = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_CodegenEmbeddedC_startValue(threadData, _txt, _i_var);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__69(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numStringAlgVars, modelica_metatype _in_a_vars_stringAlgVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__72(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numStringAlgVars, modelica_metatype _in_a_vars_stringAlgVars)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -8993,7 +8584,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__69(threadD
 
           _txt = omc_Tpl_pushBlock(threadData, _txt, _OMC_LIT45);
 
-          _txt = omc_CodegenEmbeddedC_lm__68(threadData, _txt, _a_vars_stringAlgVars);
+          _txt = omc_CodegenEmbeddedC_lm__71(threadData, _txt, _a_vars_stringAlgVars);
 
           _txt = omc_Tpl_softNewLine(threadData, _txt);
 
@@ -9018,83 +8609,67 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__69(threadD
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__69(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numStringAlgVars, modelica_metatype _in_a_vars_stringAlgVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__72(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numStringAlgVars, modelica_metatype _in_a_vars_stringAlgVars)
 {
   modelica_integer tmp1;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_a_varInfo_numStringAlgVars);
-  _out_txt = omc_CodegenEmbeddedC_fun__69(threadData, _in_txt, tmp1, _in_a_vars_stringAlgVars);
+  _out_txt = omc_CodegenEmbeddedC_fun__72(threadData, _in_txt, tmp1, _in_a_vars_stringAlgVars);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__68(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__71(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_71;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_var = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_var has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_71 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_71;
+        {
+          modelica_metatype _i_var = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_var has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_var = tmp5_1;
+              /* Pattern matching succeeded */
+              tmpMeta2 = omc_CodegenEmbeddedC_startValue(threadData, _txt, _i_var);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_var = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_CodegenEmbeddedC_startValue(threadData, _txt, _i_var);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__67(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numBoolAlgVars, modelica_metatype _in_a_vars_boolAlgVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__70(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numBoolAlgVars, modelica_metatype _in_a_vars_boolAlgVars)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -9133,7 +8708,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__67(threadD
 
           _txt = omc_Tpl_pushBlock(threadData, _txt, _OMC_LIT45);
 
-          _txt = omc_CodegenEmbeddedC_lm__66(threadData, _txt, _a_vars_boolAlgVars);
+          _txt = omc_CodegenEmbeddedC_lm__69(threadData, _txt, _a_vars_boolAlgVars);
 
           _txt = omc_Tpl_softNewLine(threadData, _txt);
 
@@ -9158,83 +8733,67 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__67(threadD
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__67(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numBoolAlgVars, modelica_metatype _in_a_vars_boolAlgVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__70(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numBoolAlgVars, modelica_metatype _in_a_vars_boolAlgVars)
 {
   modelica_integer tmp1;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_a_varInfo_numBoolAlgVars);
-  _out_txt = omc_CodegenEmbeddedC_fun__67(threadData, _in_txt, tmp1, _in_a_vars_boolAlgVars);
+  _out_txt = omc_CodegenEmbeddedC_fun__70(threadData, _in_txt, tmp1, _in_a_vars_boolAlgVars);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__66(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__69(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_69;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_var = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_var has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_69 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_69;
+        {
+          modelica_metatype _i_var = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_var has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_var = tmp5_1;
+              /* Pattern matching succeeded */
+              tmpMeta2 = omc_CodegenEmbeddedC_startValue(threadData, _txt, _i_var);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_var = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_CodegenEmbeddedC_startValue(threadData, _txt, _i_var);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__65(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numIntAlgVars, modelica_metatype _in_a_vars_intAlgVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__68(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numIntAlgVars, modelica_metatype _in_a_vars_intAlgVars)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -9273,7 +8832,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__65(threadD
 
           _txt = omc_Tpl_pushBlock(threadData, _txt, _OMC_LIT45);
 
-          _txt = omc_CodegenEmbeddedC_lm__64(threadData, _txt, _a_vars_intAlgVars);
+          _txt = omc_CodegenEmbeddedC_lm__67(threadData, _txt, _a_vars_intAlgVars);
 
           _txt = omc_Tpl_softNewLine(threadData, _txt);
 
@@ -9298,83 +8857,67 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__65(threadD
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__65(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numIntAlgVars, modelica_metatype _in_a_vars_intAlgVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__68(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numIntAlgVars, modelica_metatype _in_a_vars_intAlgVars)
 {
   modelica_integer tmp1;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_a_varInfo_numIntAlgVars);
-  _out_txt = omc_CodegenEmbeddedC_fun__65(threadData, _in_txt, tmp1, _in_a_vars_intAlgVars);
+  _out_txt = omc_CodegenEmbeddedC_fun__68(threadData, _in_txt, tmp1, _in_a_vars_intAlgVars);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__64(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__67(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_67;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_var = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_var has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_67 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_67;
+        {
+          modelica_metatype _i_var = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_var has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_var = tmp5_1;
+              /* Pattern matching succeeded */
+              tmpMeta2 = omc_CodegenEmbeddedC_startValue(threadData, _txt, _i_var);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_var = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_CodegenEmbeddedC_startValue(threadData, _txt, _i_var);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__63(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_mArg, modelica_metatype _in_a_vars_realOptimizeFinalConstraintsVars, modelica_metatype _in_a_vars_realOptimizeConstraintsVars, modelica_metatype _in_a_vars_discreteAlgVars, modelica_metatype _in_a_vars_algVars, modelica_metatype _in_a_vars_derivativeVars, modelica_metatype _in_a_vars_stateVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__66(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_mArg, modelica_metatype _in_a_vars_realOptimizeFinalConstraintsVars, modelica_metatype _in_a_vars_realOptimizeConstraintsVars, modelica_metatype _in_a_vars_discreteAlgVars, modelica_metatype _in_a_vars_algVars, modelica_metatype _in_a_vars_derivativeVars, modelica_metatype _in_a_vars_stateVars)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -9433,27 +8976,27 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__63(threadD
 
           _txt = omc_Tpl_pushBlock(threadData, _txt, _OMC_LIT45);
 
-          _txt = omc_CodegenEmbeddedC_lm__57(threadData, _txt, _a_vars_stateVars);
+          _txt = omc_CodegenEmbeddedC_lm__60(threadData, _txt, _a_vars_stateVars);
 
           _txt = omc_Tpl_softNewLine(threadData, _txt);
 
-          _txt = omc_CodegenEmbeddedC_lm__58(threadData, _txt, _a_vars_derivativeVars);
+          _txt = omc_CodegenEmbeddedC_lm__61(threadData, _txt, _a_vars_derivativeVars);
 
           _txt = omc_Tpl_softNewLine(threadData, _txt);
 
-          _txt = omc_CodegenEmbeddedC_lm__59(threadData, _txt, _a_vars_algVars);
+          _txt = omc_CodegenEmbeddedC_lm__62(threadData, _txt, _a_vars_algVars);
 
           _txt = omc_Tpl_softNewLine(threadData, _txt);
 
-          _txt = omc_CodegenEmbeddedC_lm__60(threadData, _txt, _a_vars_discreteAlgVars);
+          _txt = omc_CodegenEmbeddedC_lm__63(threadData, _txt, _a_vars_discreteAlgVars);
 
           _txt = omc_Tpl_softNewLine(threadData, _txt);
 
-          _txt = omc_CodegenEmbeddedC_lm__61(threadData, _txt, _a_vars_realOptimizeConstraintsVars);
+          _txt = omc_CodegenEmbeddedC_lm__64(threadData, _txt, _a_vars_realOptimizeConstraintsVars);
 
           _txt = omc_Tpl_softNewLine(threadData, _txt);
 
-          _txt = omc_CodegenEmbeddedC_lm__62(threadData, _txt, _a_vars_realOptimizeFinalConstraintsVars);
+          _txt = omc_CodegenEmbeddedC_lm__65(threadData, _txt, _a_vars_realOptimizeFinalConstraintsVars);
 
           _txt = omc_Tpl_softNewLine(threadData, _txt);
 
@@ -9478,413 +9021,317 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__63(threadD
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__63(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_mArg, modelica_metatype _in_a_vars_realOptimizeFinalConstraintsVars, modelica_metatype _in_a_vars_realOptimizeConstraintsVars, modelica_metatype _in_a_vars_discreteAlgVars, modelica_metatype _in_a_vars_algVars, modelica_metatype _in_a_vars_derivativeVars, modelica_metatype _in_a_vars_stateVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__66(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_mArg, modelica_metatype _in_a_vars_realOptimizeFinalConstraintsVars, modelica_metatype _in_a_vars_realOptimizeConstraintsVars, modelica_metatype _in_a_vars_discreteAlgVars, modelica_metatype _in_a_vars_algVars, modelica_metatype _in_a_vars_derivativeVars, modelica_metatype _in_a_vars_stateVars)
 {
   modelica_integer tmp1;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_mArg);
-  _out_txt = omc_CodegenEmbeddedC_fun__63(threadData, _in_txt, tmp1, _in_a_vars_realOptimizeFinalConstraintsVars, _in_a_vars_realOptimizeConstraintsVars, _in_a_vars_discreteAlgVars, _in_a_vars_algVars, _in_a_vars_derivativeVars, _in_a_vars_stateVars);
+  _out_txt = omc_CodegenEmbeddedC_fun__66(threadData, _in_txt, tmp1, _in_a_vars_realOptimizeFinalConstraintsVars, _in_a_vars_realOptimizeConstraintsVars, _in_a_vars_discreteAlgVars, _in_a_vars_algVars, _in_a_vars_derivativeVars, _in_a_vars_stateVars);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__62(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__65(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_65;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_var = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_var has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_65 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_65;
+        {
+          modelica_metatype _i_var = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_var has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_var = tmp5_1;
+              /* Pattern matching succeeded */
+              tmpMeta2 = omc_CodegenEmbeddedC_startValue(threadData, _txt, _i_var);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_var = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_CodegenEmbeddedC_startValue(threadData, _txt, _i_var);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__61(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__64(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_64;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_var = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_var has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_64 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_64;
+        {
+          modelica_metatype _i_var = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_var has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_var = tmp5_1;
+              /* Pattern matching succeeded */
+              tmpMeta2 = omc_CodegenEmbeddedC_startValue(threadData, _txt, _i_var);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_var = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_CodegenEmbeddedC_startValue(threadData, _txt, _i_var);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__60(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__63(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_63;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_var = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_var has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_63 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_63;
+        {
+          modelica_metatype _i_var = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_var has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_var = tmp5_1;
+              /* Pattern matching succeeded */
+              tmpMeta2 = omc_CodegenEmbeddedC_startValue(threadData, _txt, _i_var);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_var = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_CodegenEmbeddedC_startValue(threadData, _txt, _i_var);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__59(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__62(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_62;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_var = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_var has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_62 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_62;
+        {
+          modelica_metatype _i_var = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_var has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_var = tmp5_1;
+              /* Pattern matching succeeded */
+              tmpMeta2 = omc_CodegenEmbeddedC_startValue(threadData, _txt, _i_var);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_var = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_CodegenEmbeddedC_startValue(threadData, _txt, _i_var);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__58(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__61(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_61;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_var = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_var has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_61 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_61;
+        {
+          modelica_metatype _i_var = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_var has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_var = tmp5_1;
+              /* Pattern matching succeeded */
+              tmpMeta2 = omc_CodegenEmbeddedC_startValue(threadData, _txt, _i_var);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_var = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_CodegenEmbeddedC_startValue(threadData, _txt, _i_var);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__57(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_lm__60(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_60;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_var = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_var has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_60 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_60;
+        {
+          modelica_metatype _i_var = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_var has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_var = tmp5_1;
+              /* Pattern matching succeeded */
+              tmpMeta2 = omc_CodegenEmbeddedC_startValue(threadData, _txt, _i_var);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_var = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_CodegenEmbeddedC_startValue(threadData, _txt, _i_var);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__56(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_mArg)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__59(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_mArg)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -9941,17 +9388,17 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__56(threadD
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__56(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_mArg)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__59(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_mArg)
 {
   modelica_integer tmp1;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_mArg);
-  _out_txt = omc_CodegenEmbeddedC_fun__56(threadData, _in_txt, tmp1);
+  _out_txt = omc_CodegenEmbeddedC_fun__59(threadData, _in_txt, tmp1);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__55(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numIntParams)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__58(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numIntParams)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -10008,17 +9455,17 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__55(threadD
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__55(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numIntParams)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__58(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numIntParams)
 {
   modelica_integer tmp1;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_a_varInfo_numIntParams);
-  _out_txt = omc_CodegenEmbeddedC_fun__55(threadData, _in_txt, tmp1);
+  _out_txt = omc_CodegenEmbeddedC_fun__58(threadData, _in_txt, tmp1);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__54(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numBoolParams)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__57(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numBoolParams)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -10075,17 +9522,17 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__54(threadD
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__54(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numBoolParams)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__57(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numBoolParams)
 {
   modelica_integer tmp1;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_a_varInfo_numBoolParams);
-  _out_txt = omc_CodegenEmbeddedC_fun__54(threadData, _in_txt, tmp1);
+  _out_txt = omc_CodegenEmbeddedC_fun__57(threadData, _in_txt, tmp1);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__53(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numIntParams)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__56(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numIntParams)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -10142,17 +9589,17 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__53(threadD
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__53(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numIntParams)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__56(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numIntParams)
 {
   modelica_integer tmp1;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_a_varInfo_numIntParams);
-  _out_txt = omc_CodegenEmbeddedC_fun__53(threadData, _in_txt, tmp1);
+  _out_txt = omc_CodegenEmbeddedC_fun__56(threadData, _in_txt, tmp1);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__52(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numParams)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__55(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numParams)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -10209,17 +9656,17 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__52(threadD
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__52(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numParams)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__55(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numParams)
 {
   modelica_integer tmp1;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_a_varInfo_numParams);
-  _out_txt = omc_CodegenEmbeddedC_fun__52(threadData, _in_txt, tmp1);
+  _out_txt = omc_CodegenEmbeddedC_fun__55(threadData, _in_txt, tmp1);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__51(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numStringAlgVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__54(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numStringAlgVars)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -10250,7 +9697,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__51(threadD
           
           _txt = tmp4_1;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 110), ((modelica_integer) 16)), _OMC_LIT530);
+          tmpMeta1 = omc_CodegenUtil_error(threadData, _txt, omc_Tpl_sourceInfo(threadData, _OMC_LIT23, ((modelica_integer) 145), ((modelica_integer) 16)), _OMC_LIT530);
           goto tmp3_done;
         }
         }
@@ -10268,17 +9715,17 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__51(threadD
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__51(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numStringAlgVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__54(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numStringAlgVars)
 {
   modelica_integer tmp1;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_a_varInfo_numStringAlgVars);
-  _out_txt = omc_CodegenEmbeddedC_fun__51(threadData, _in_txt, tmp1);
+  _out_txt = omc_CodegenEmbeddedC_fun__54(threadData, _in_txt, tmp1);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__50(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numBoolAlgVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__53(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numBoolAlgVars)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -10335,17 +9782,17 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__50(threadD
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__50(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numBoolAlgVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__53(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numBoolAlgVars)
 {
   modelica_integer tmp1;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_a_varInfo_numBoolAlgVars);
-  _out_txt = omc_CodegenEmbeddedC_fun__50(threadData, _in_txt, tmp1);
+  _out_txt = omc_CodegenEmbeddedC_fun__53(threadData, _in_txt, tmp1);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__49(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numIntAlgVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__52(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_a_varInfo_numIntAlgVars)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -10402,17 +9849,17 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__49(threadD
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__49(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numIntAlgVars)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__52(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_a_varInfo_numIntAlgVars)
 {
   modelica_integer tmp1;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_a_varInfo_numIntAlgVars);
-  _out_txt = omc_CodegenEmbeddedC_fun__49(threadData, _in_txt, tmp1);
+  _out_txt = omc_CodegenEmbeddedC_fun__52(threadData, _in_txt, tmp1);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__48(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_mArg)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__51(threadData_t *threadData, modelica_metatype _in_txt, modelica_integer _in_mArg)
 {
   modelica_metatype _out_txt = NULL;
   modelica_metatype tmpMeta1;
@@ -10469,12 +9916,12 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CodegenEmbeddedC_fun__48(threadD
   _return: OMC_LABEL_UNUSED
   return _out_txt;
 }
-PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__48(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_mArg)
+PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_CodegenEmbeddedC_fun__51(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_mArg)
 {
   modelica_integer tmp1;
   modelica_metatype _out_txt = NULL;
   tmp1 = mmc_unbox_integer(_in_mArg);
-  _out_txt = omc_CodegenEmbeddedC_fun__48(threadData, _in_txt, tmp1);
+  _out_txt = omc_CodegenEmbeddedC_fun__51(threadData, _in_txt, tmp1);
   /* skip box _out_txt; Tpl.Text */
   return _out_txt;
 }

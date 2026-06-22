@@ -12,6 +12,10 @@ extern "C" {
 
 extern struct record_description BackendDAE_BackendDAE_DAE__desc;
 
+extern struct record_description BackendDAE_EqSystem_EQSYSTEM__desc;
+
+extern struct record_description BackendDAE_Equation_DUMMY__EQUATION__desc;
+
 extern struct record_description BackendDAE_Equation_EQUATION__desc;
 
 extern struct record_description BackendDAE_EquationAttributes_EQUATION__ATTRIBUTES__desc;
@@ -54,6 +58,8 @@ extern struct record_description DAE_Exp_BCONST__desc;
 
 extern struct record_description DAE_Exp_CREF__desc;
 
+extern struct record_description DAE_Exp_ICONST__desc;
+
 extern struct record_description DAE_Exp_IFEXP__desc;
 
 extern struct record_description DAE_Exp_RCONST__desc;
@@ -85,8 +91,6 @@ extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 extern struct record_description Flags_ValidOptions_STRING__DESC__OPTION__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__OPTION__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 

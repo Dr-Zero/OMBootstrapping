@@ -1,7 +1,7 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-#include "openmodelica.h"       // Defines OPENMODELICA_H_ for libraris to test if called from OpenModelica.
+#include "openmodelica.h"       // Defines OPENMODELICA_H_ for libraries to test if called from OpenModelica.
 #include "ModelicaUtilities.h"  // Make Modelica C util functions available for external includes.
 
 #include "AbsynUtil.h"
@@ -14,9 +14,12 @@ extern "C" {
 #include "CevalScriptOMSimulator.h"
 #include "ClassLoader.h"
 #include "CodegenCFunctions.h"
+#include "CodegenMidToC.h"
+#include "CodegenWasmJitFunctions.h"
 #include "ComponentReference.h"
 #include "Config.h"
 #include "Corba.h"
+#include "DAEToMid.h"
 #include "DAEUtil.h"
 #include "Debug.h"
 #include "Dump.h"
@@ -25,7 +28,7 @@ extern "C" {
 #include "ErrorExt.h"
 #include "ExecStat.h"
 #include "Expression.h"
-#include "ExpressionDump.h"
+#include "ExpressionBasics.h"
 #include "FBuiltin.h"
 #include "FCore.h"
 #include "FGraph.h"
@@ -34,7 +37,6 @@ extern "C" {
 #include "FlagsUtil.h"
 #include "GCExt.h"
 #include "GenerateAPIFunctionsTpl.h"
-#include "Gettext.h"
 #include "Graph.h"
 #include "HashSetString.h"
 #include "Inst.h"
@@ -48,11 +50,12 @@ extern "C" {
 #include "PackageManagement.h"
 #include "Parser.h"
 #include "Print.h"
+#include "ProgramUtil.h"
 #include "SCodeDump.h"
 #include "SCodeUtil.h"
 #include "SemanticVersion.h"
 #include "Settings.h"
-#include "SimCodeFunction.h"
+#include "SimCodeFunctionUtil.h"
 #include "StackOverflow.h"
 #include "Static.h"
 #include "StringUtil.h"
@@ -61,9 +64,11 @@ extern "C" {
 #include "Testsuite.h"
 #include "Tpl.h"
 #include "Types.h"
+#include "TypesDump.h"
 #include "UnorderedMap.h"
 #include "Unparsing.h"
 #include "Util.h"
+#include "ValuesMake.h"
 #include "ValuesUtil.h"
 #ifdef __cplusplus
 }

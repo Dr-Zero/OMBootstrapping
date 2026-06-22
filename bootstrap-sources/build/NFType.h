@@ -191,6 +191,14 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFType_isDiscrete,2,0) {(void*) boxptr_
 
 
 DLLDirection
+modelica_integer omc_NFType_hashContinue(threadData_t *threadData, modelica_metatype _ty, modelica_integer __omcQ_24in_5Fhash);
+DLLDirection
+modelica_metatype boxptr_NFType_hashContinue(threadData_t *threadData, modelica_metatype _ty, modelica_metatype __omcQ_24in_5Fhash);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFType_hashContinue,2,0) {(void*) boxptr_NFType_hashContinue,0}};
+#define boxvar_NFType_hashContinue MMC_REFSTRUCTLIT(boxvar_lit_NFType_hashContinue)
+
+
+DLLDirection
 modelica_boolean omc_NFType_isEqual(threadData_t *threadData, modelica_metatype _ty1, modelica_metatype _ty2);
 DLLDirection
 modelica_metatype boxptr_NFType_isEqual(threadData_t *threadData, modelica_metatype _ty1, modelica_metatype _ty2);
@@ -472,6 +480,14 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFType_isExpandableConnector,2,0) {(voi
 
 
 DLLDirection
+modelica_boolean omc_NFType_isStreamConnector(threadData_t *threadData, modelica_metatype _ty);
+DLLDirection
+modelica_metatype boxptr_NFType_isStreamConnector(threadData_t *threadData, modelica_metatype _ty);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFType_isStreamConnector,2,0) {(void*) boxptr_NFType_isStreamConnector,0}};
+#define boxvar_NFType_isStreamConnector MMC_REFSTRUCTLIT(boxvar_lit_NFType_isStreamConnector)
+
+
+DLLDirection
 modelica_boolean omc_NFType_isConnector(threadData_t *threadData, modelica_metatype _ty);
 DLLDirection
 modelica_metatype boxptr_NFType_isConnector(threadData_t *threadData, modelica_metatype _ty);
@@ -600,6 +616,14 @@ modelica_metatype omc_NFType_setConditionalArrayTypes(threadData_t *threadData, 
 #define boxptr_NFType_setConditionalArrayTypes omc_NFType_setConditionalArrayTypes
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFType_setConditionalArrayTypes,2,0) {(void*) boxptr_NFType_setConditionalArrayTypes,0}};
 #define boxvar_NFType_setConditionalArrayTypes MMC_REFSTRUCTLIT(boxvar_lit_NFType_setConditionalArrayTypes)
+
+
+DLLDirection
+modelica_boolean omc_NFType_isAny(threadData_t *threadData, modelica_metatype _ty);
+DLLDirection
+modelica_metatype boxptr_NFType_isAny(threadData_t *threadData, modelica_metatype _ty);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFType_isAny,2,0) {(void*) boxptr_NFType_isAny,0}};
+#define boxvar_NFType_isAny MMC_REFSTRUCTLIT(boxvar_lit_NFType_isAny)
 
 
 DLLDirection

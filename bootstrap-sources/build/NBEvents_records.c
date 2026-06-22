@@ -32,7 +32,7 @@ extern struct record_description NBEvents_EventInfo_EVENT__INFO__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NBEvents_TimeEvent_SINGLE__desc_added
 #define NBEvents_TimeEvent_SINGLE__desc_added
-ADD_METARECORD_DEFINITIONS const char* NBEvents_TimeEvent_SINGLE__desc__fields[2] = {"index","trigger"};
+ADD_METARECORD_DEFINITIONS const char* NBEvents_TimeEvent_SINGLE__desc__fields[3] = {"index","trigger","iter"};
 ADD_METARECORD_DEFINITIONS struct record_description NBEvents_TimeEvent_SINGLE__desc = {
   "NBEvents_TimeEvent_SINGLE",
   "NBEvents.TimeEvent.SINGLE",
@@ -45,7 +45,7 @@ extern struct record_description NBEvents_TimeEvent_SINGLE__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NBEvents_TimeEvent_SAMPLE__desc_added
 #define NBEvents_TimeEvent_SAMPLE__desc_added
-ADD_METARECORD_DEFINITIONS const char* NBEvents_TimeEvent_SAMPLE__desc__fields[3] = {"index","start","interval"};
+ADD_METARECORD_DEFINITIONS const char* NBEvents_TimeEvent_SAMPLE__desc__fields[4] = {"index","start","interval","iter"};
 ADD_METARECORD_DEFINITIONS struct record_description NBEvents_TimeEvent_SAMPLE__desc = {
   "NBEvents_TimeEvent_SAMPLE",
   "NBEvents.TimeEvent.SAMPLE",
@@ -58,7 +58,7 @@ extern struct record_description NBEvents_TimeEvent_SAMPLE__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NBEvents_TimeEvent_SAMPLE__desc_added
 #define NBEvents_TimeEvent_SAMPLE__desc_added
-ADD_METARECORD_DEFINITIONS const char* NBEvents_TimeEvent_SAMPLE__desc__fields[3] = {"index","start","interval"};
+ADD_METARECORD_DEFINITIONS const char* NBEvents_TimeEvent_SAMPLE__desc__fields[4] = {"index","start","interval","iter"};
 ADD_METARECORD_DEFINITIONS struct record_description NBEvents_TimeEvent_SAMPLE__desc = {
   "NBEvents_TimeEvent_SAMPLE",
   "NBEvents.TimeEvent.SAMPLE",
@@ -71,7 +71,7 @@ extern struct record_description NBEvents_TimeEvent_SAMPLE__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NBEvents_TimeEvent_SINGLE__desc_added
 #define NBEvents_TimeEvent_SINGLE__desc_added
-ADD_METARECORD_DEFINITIONS const char* NBEvents_TimeEvent_SINGLE__desc__fields[2] = {"index","trigger"};
+ADD_METARECORD_DEFINITIONS const char* NBEvents_TimeEvent_SINGLE__desc__fields[3] = {"index","trigger","iter"};
 ADD_METARECORD_DEFINITIONS struct record_description NBEvents_TimeEvent_SINGLE__desc = {
   "NBEvents_TimeEvent_SINGLE",
   "NBEvents.TimeEvent.SINGLE",

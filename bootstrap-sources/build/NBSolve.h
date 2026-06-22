@@ -30,8 +30,6 @@ extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NBEquation_Iterator_EMPTY__desc;
 
 extern struct record_description NBSlice_SLICE__desc;
@@ -160,6 +158,9 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
 #define boxptr_NBSolve_solvePrintInput omc_NBSolve_solvePrintInput
+
+
+#define boxptr_NBSolve_solveUniqueExpressionNoCref_solveUniqueExpressionNoCrefTraverse omc_NBSolve_solveUniqueExpressionNoCref_solveUniqueExpressionNoCrefTraverse
 
 
 #define boxptr_NBSolve_solveUniqueCreateSubstCall omc_NBSolve_solveUniqueCreateSubstCall

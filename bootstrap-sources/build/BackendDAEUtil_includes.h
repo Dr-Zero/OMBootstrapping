@@ -1,7 +1,7 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-#include "openmodelica.h"       // Defines OPENMODELICA_H_ for libraris to test if called from OpenModelica.
+#include "openmodelica.h"       // Defines OPENMODELICA_H_ for libraries to test if called from OpenModelica.
 #include "ModelicaUtilities.h"  // Make Modelica C util functions available for external includes.
 
 #include "AbsynUtil.h"
@@ -10,6 +10,7 @@ extern "C" {
 #include "Array.h"
 #include "AvlSetInt.h"
 #include "AvlSetPath.h"
+#include "AvlTreePathFunction.h"
 #include "BackendDAEEXT.h"
 #include "BackendDAEOptimize.h"
 #include "BackendDAETransform.h"
@@ -22,11 +23,12 @@ extern "C" {
 #include "BaseHashSet.h"
 #include "BinaryTree.h"
 #include "Causalize.h"
+#include "Ceval.h"
 #include "CheckModel.h"
 #include "CommonSubExpression.h"
 #include "ComponentReference.h"
+#include "ComponentReferenceBasics.h"
 #include "Config.h"
-#include "DAE.h"
 #include "DAEDump.h"
 #include "DAEMode.h"
 #include "DAEUtil.h"
@@ -45,6 +47,7 @@ extern "C" {
 #include "ExecStat.h"
 #include "ExpandableArray.h"
 #include "Expression.h"
+#include "ExpressionBasics.h"
 #include "ExpressionDump.h"
 #include "ExpressionSimplify.h"
 #include "ExpressionSolve.h"
@@ -70,7 +73,7 @@ extern "C" {
 #include "SynchronousFeatures.h"
 #include "System.h"
 #include "Tearing.h"
-#include "Types.h"
+#include "TypesDump.h"
 #include "UnorderedSet.h"
 #include "Util.h"
 #include "XMLDump.h"

@@ -120,8 +120,6 @@ extern struct record_description FCore_ScopeType_CLASS__SCOPE__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description InstTypes_CallingScope_INNER__CALL__desc;
 
 extern struct record_description InstTypes_CallingScope_TOP__CALL__desc;

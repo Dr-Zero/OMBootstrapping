@@ -13,6 +13,13 @@ extern "C" {
 
 
 DLLDirection
+void omc_List_apply(threadData_t *threadData, modelica_metatype _lst, modelica_fnptr _fn);
+#define boxptr_List_apply omc_List_apply
+static const MMC_DEFSTRUCTLIT(boxvar_lit_List_apply,2,0) {(void*) boxptr_List_apply,0}};
+#define boxvar_List_apply MMC_REFSTRUCTLIT(boxvar_lit_List_apply)
+
+
+DLLDirection
 modelica_metatype omc_List_trim(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fl, modelica_fnptr _fn);
 #define boxptr_List_trim omc_List_trim
 static const MMC_DEFSTRUCTLIT(boxvar_lit_List_trim,2,0) {(void*) boxptr_List_trim,0}};
@@ -612,13 +619,6 @@ modelica_metatype omc_List_threadMap1(threadData_t *threadData, modelica_metatyp
 #define boxptr_List_threadMap1 omc_List_threadMap1
 static const MMC_DEFSTRUCTLIT(boxvar_lit_List_threadMap1,2,0) {(void*) boxptr_List_threadMap1,0}};
 #define boxvar_List_threadMap1 MMC_REFSTRUCTLIT(boxvar_lit_List_threadMap1)
-
-
-DLLDirection
-void omc_List_threadMapAllValue(threadData_t *threadData, modelica_metatype _inList1, modelica_metatype _inList2, modelica_fnptr _inMapFunc, modelica_metatype _inValue);
-#define boxptr_List_threadMapAllValue omc_List_threadMapAllValue
-static const MMC_DEFSTRUCTLIT(boxvar_lit_List_threadMapAllValue,2,0) {(void*) boxptr_List_threadMapAllValue,0}};
-#define boxvar_List_threadMapAllValue MMC_REFSTRUCTLIT(boxvar_lit_List_threadMapAllValue)
 
 
 DLLDirection

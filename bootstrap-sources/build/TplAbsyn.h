@@ -22,10 +22,6 @@ extern struct record_description ErrorTypes_Severity_NOTIFICATION__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
-
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 extern struct record_description Tpl_StringToken_ST__NEW__LINE__desc;
@@ -61,6 +57,8 @@ extern struct record_description TplAbsyn_MMExp_MM__FN__CALL__desc;
 extern struct record_description TplAbsyn_MMExp_MM__FOR__LOOP__desc;
 
 extern struct record_description TplAbsyn_MMExp_MM__IDENT__desc;
+
+extern struct record_description TplAbsyn_MMExp_MM__LIST__FOR__LOOP__desc;
 
 extern struct record_description TplAbsyn_MMExp_MM__LITERAL__desc;
 
@@ -696,6 +694,14 @@ DLLDirection
 modelica_metatype boxptr_TplAbsyn_shouldUseIterFunctions(threadData_t *threadData, modelica_metatype _inIsFirstArgToMap, modelica_metatype _inUseIterLast, modelica_metatype _inIsListArgToMap, modelica_metatype _wasIndexVarUsed, modelica_metatype _inIterOptions, modelica_metatype _inRestArgValsToMap);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_TplAbsyn_shouldUseIterFunctions,2,0) {(void*) boxptr_TplAbsyn_shouldUseIterFunctions,0}};
 #define boxvar_TplAbsyn_shouldUseIterFunctions MMC_REFSTRUCTLIT(boxvar_lit_TplAbsyn_shouldUseIterFunctions)
+
+
+DLLDirection
+modelica_boolean omc_TplAbsyn_isTupleListMember(threadData_t *threadData, modelica_string _inId, modelica_metatype _inList);
+DLLDirection
+modelica_metatype boxptr_TplAbsyn_isTupleListMember(threadData_t *threadData, modelica_metatype _inId, modelica_metatype _inList);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_TplAbsyn_isTupleListMember,2,0) {(void*) boxptr_TplAbsyn_isTupleListMember,0}};
+#define boxvar_TplAbsyn_isTupleListMember MMC_REFSTRUCTLIT(boxvar_lit_TplAbsyn_isTupleListMember)
 
 
 DLLDirection

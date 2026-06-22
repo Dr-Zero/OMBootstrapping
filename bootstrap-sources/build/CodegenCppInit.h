@@ -35,10 +35,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenCppInit_jacobianMatrixXML,2,0) {
 #define boxvar_CodegenCppInit_jacobianMatrixXML MMC_REFSTRUCTLIT(boxvar_lit_CodegenCppInit_jacobianMatrixXML)
 
 
+#define boxptr_CodegenCppInit_lm__111 omc_CodegenCppInit_lm__111
+
+
 #define boxptr_CodegenCppInit_lm__108 omc_CodegenCppInit_lm__108
-
-
-#define boxptr_CodegenCppInit_lm__105 omc_CodegenCppInit_lm__105
 
 
 DLLDirection
@@ -48,7 +48,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenCppInit_jacobianMatricesXML,2,0)
 #define boxvar_CodegenCppInit_jacobianMatricesXML MMC_REFSTRUCTLIT(boxvar_lit_CodegenCppInit_jacobianMatricesXML)
 
 
-#define boxptr_CodegenCppInit_lm__103 omc_CodegenCppInit_lm__103
+#define boxptr_CodegenCppInit_lm__106 omc_CodegenCppInit_lm__106
 
 
 DLLDirection
@@ -58,19 +58,19 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenCppInit_algLoopXML,2,0) {(void*)
 #define boxvar_CodegenCppInit_algLoopXML MMC_REFSTRUCTLIT(boxvar_lit_CodegenCppInit_algLoopXML)
 
 
-#define boxptr_CodegenCppInit_fun__101 omc_CodegenCppInit_fun__101
+#define boxptr_CodegenCppInit_fun__104 omc_CodegenCppInit_fun__104
+
+
+#define boxptr_CodegenCppInit_lm__103 omc_CodegenCppInit_lm__103
+
+
+#define boxptr_CodegenCppInit_lm__102 omc_CodegenCppInit_lm__102
+
+
+#define boxptr_CodegenCppInit_lm__101 omc_CodegenCppInit_lm__101
 
 
 #define boxptr_CodegenCppInit_lm__100 omc_CodegenCppInit_lm__100
-
-
-#define boxptr_CodegenCppInit_lm__99 omc_CodegenCppInit_lm__99
-
-
-#define boxptr_CodegenCppInit_lm__98 omc_CodegenCppInit_lm__98
-
-
-#define boxptr_CodegenCppInit_lm__97 omc_CodegenCppInit_lm__97
 
 
 DLLDirection
@@ -80,13 +80,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenCppInit_ScalarVariableTypeStartA
 #define boxvar_CodegenCppInit_ScalarVariableTypeStartAttribute MMC_REFSTRUCTLIT(boxvar_lit_CodegenCppInit_ScalarVariableTypeStartAttribute)
 
 
-#define boxptr_CodegenCppInit_fun__95 omc_CodegenCppInit_fun__95
+#define boxptr_CodegenCppInit_fun__98 omc_CodegenCppInit_fun__98
 
 
-#define boxptr_CodegenCppInit_fun__94 omc_CodegenCppInit_fun__94
+#define boxptr_CodegenCppInit_fun__97 omc_CodegenCppInit_fun__97
 
 
-#define boxptr_CodegenCppInit_fun__93 omc_CodegenCppInit_fun__93
+#define boxptr_CodegenCppInit_fun__96 omc_CodegenCppInit_fun__96
 
 
 DLLDirection
@@ -110,7 +110,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenCppInit_attributeString,2,0) {(v
 #define boxvar_CodegenCppInit_attributeString MMC_REFSTRUCTLIT(boxvar_lit_CodegenCppInit_attributeString)
 
 
-#define boxptr_CodegenCppInit_lm__87 omc_CodegenCppInit_lm__87
+#define boxptr_CodegenCppInit_lm__90 omc_CodegenCppInit_lm__90
 
 
 DLLDirection
@@ -136,10 +136,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenCppInit_scalarVariableAttributeX
 #define boxvar_CodegenCppInit_scalarVariableAttributeXML MMC_REFSTRUCTLIT(boxvar_lit_CodegenCppInit_scalarVariableAttributeXML)
 
 
-#define boxptr_CodegenCppInit_fun__80 omc_CodegenCppInit_fun__80
+#define boxptr_CodegenCppInit_fun__83 omc_CodegenCppInit_fun__83
 
 
-#define boxptr_CodegenCppInit_fun__79 omc_CodegenCppInit_fun__79
+#define boxptr_CodegenCppInit_fun__82 omc_CodegenCppInit_fun__82
 
 
 DLLDirection

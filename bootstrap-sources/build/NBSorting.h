@@ -18,7 +18,7 @@ extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
+extern struct record_description NBSorting_LoopIdentifier_LOOP__IDENTIFIER__desc;
 
 extern struct record_description NBSorting_SuperNode_ALGEBRAIC__LOOP__desc;
 
@@ -43,7 +43,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSorting_SuperNode_collapse,2,0) {(voi
 
 
 DLLDirection
-modelica_metatype omc_NBSorting_SuperNode_create(threadData_t *threadData, modelica_metatype _adj, modelica_metatype _matching, modelica_metatype _eqn_map, modelica_metatype _scc_phase1, modelica_metatype _buck, modelica_metatype *out_phase2_matching, modelica_metatype *out_super_nodes);
+modelica_metatype omc_NBSorting_SuperNode_create(threadData_t *threadData, modelica_metatype _adj, modelica_metatype _mapping, modelica_metatype _matching, modelica_metatype _eqn_map, modelica_metatype _scc_phase1, modelica_metatype _buck, modelica_metatype *out_phase2_matching, modelica_metatype *out_super_nodes);
 #define boxptr_NBSorting_SuperNode_create omc_NBSorting_SuperNode_create
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSorting_SuperNode_create,2,0) {(void*) boxptr_NBSorting_SuperNode_create,0}};
 #define boxvar_NBSorting_SuperNode_create MMC_REFSTRUCTLIT(boxvar_lit_NBSorting_SuperNode_create)
@@ -69,6 +69,36 @@ modelica_string omc_NBSorting_SuperNode_toString(threadData_t *threadData, model
 #define boxptr_NBSorting_SuperNode_toString omc_NBSorting_SuperNode_toString
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSorting_SuperNode_toString,2,0) {(void*) boxptr_NBSorting_SuperNode_toString,0}};
 #define boxvar_NBSorting_SuperNode_toString MMC_REFSTRUCTLIT(boxvar_lit_NBSorting_SuperNode_toString)
+
+
+DLLDirection
+modelica_metatype omc_NBSorting_LoopIdentifier_fromSCC(threadData_t *threadData, modelica_metatype _scc, modelica_metatype _mapping, modelica_metatype _matching);
+#define boxptr_NBSorting_LoopIdentifier_fromSCC omc_NBSorting_LoopIdentifier_fromSCC
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSorting_LoopIdentifier_fromSCC,2,0) {(void*) boxptr_NBSorting_LoopIdentifier_fromSCC,0}};
+#define boxvar_NBSorting_LoopIdentifier_fromSCC MMC_REFSTRUCTLIT(boxvar_lit_NBSorting_LoopIdentifier_fromSCC)
+
+
+DLLDirection
+modelica_string omc_NBSorting_LoopIdentifier_toString(threadData_t *threadData, modelica_metatype _li);
+#define boxptr_NBSorting_LoopIdentifier_toString omc_NBSorting_LoopIdentifier_toString
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSorting_LoopIdentifier_toString,2,0) {(void*) boxptr_NBSorting_LoopIdentifier_toString,0}};
+#define boxvar_NBSorting_LoopIdentifier_toString MMC_REFSTRUCTLIT(boxvar_lit_NBSorting_LoopIdentifier_toString)
+
+
+DLLDirection
+modelica_boolean omc_NBSorting_LoopIdentifier_isEqual(threadData_t *threadData, modelica_metatype _li1, modelica_metatype _li2);
+DLLDirection
+modelica_metatype boxptr_NBSorting_LoopIdentifier_isEqual(threadData_t *threadData, modelica_metatype _li1, modelica_metatype _li2);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSorting_LoopIdentifier_isEqual,2,0) {(void*) boxptr_NBSorting_LoopIdentifier_isEqual,0}};
+#define boxvar_NBSorting_LoopIdentifier_isEqual MMC_REFSTRUCTLIT(boxvar_lit_NBSorting_LoopIdentifier_isEqual)
+
+
+DLLDirection
+modelica_integer omc_NBSorting_LoopIdentifier_hash(threadData_t *threadData, modelica_metatype _li);
+DLLDirection
+modelica_metatype boxptr_NBSorting_LoopIdentifier_hash(threadData_t *threadData, modelica_metatype _li);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBSorting_LoopIdentifier_hash,2,0) {(void*) boxptr_NBSorting_LoopIdentifier_hash,0}};
+#define boxvar_NBSorting_LoopIdentifier_hash MMC_REFSTRUCTLIT(boxvar_lit_NBSorting_LoopIdentifier_hash)
 
 
 DLLDirection
