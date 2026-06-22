@@ -173,7 +173,7 @@ modelica_integer omc_ZeroCrossings_compare(threadData_t *threadData, modelica_me
           _e1 = tmpMeta10;
           _e2 = tmpMeta20;
           /* Pattern matching succeeded */
-          tmp1 = omc_Expression_compare(threadData, _e1, _e2);
+          tmp1 = omc_ExpressionBasics_compare(threadData, _e1, _e2);
           goto tmp3_done;
         }
         case 1: {
@@ -225,7 +225,7 @@ modelica_integer omc_ZeroCrossings_compare(threadData_t *threadData, modelica_me
           _e1 = tmpMeta30;
           _e2 = tmpMeta38;
           /* Pattern matching succeeded */
-          tmp1 = omc_Expression_compare(threadData, _e1, _e2);
+          tmp1 = omc_ExpressionBasics_compare(threadData, _e1, _e2);
           goto tmp3_done;
         }
         case 2: {
@@ -277,7 +277,7 @@ modelica_integer omc_ZeroCrossings_compare(threadData_t *threadData, modelica_me
           _e1 = tmpMeta46;
           _e2 = tmpMeta54;
           /* Pattern matching succeeded */
-          tmp1 = omc_Expression_compare(threadData, _e1, _e2);
+          tmp1 = omc_ExpressionBasics_compare(threadData, _e1, _e2);
           goto tmp3_done;
         }
         case 3: {
@@ -329,7 +329,7 @@ modelica_integer omc_ZeroCrossings_compare(threadData_t *threadData, modelica_me
           _e1 = tmpMeta62;
           _e2 = tmpMeta70;
           /* Pattern matching succeeded */
-          tmp1 = omc_Expression_compare(threadData, _e1, _e2);
+          tmp1 = omc_ExpressionBasics_compare(threadData, _e1, _e2);
           goto tmp3_done;
         }
         case 4: {
@@ -393,8 +393,8 @@ modelica_integer omc_ZeroCrossings_compare(threadData_t *threadData, modelica_me
           _e3 = tmpMeta88;
           _e4 = tmpMeta90;
           /* Pattern matching succeeded */
-          _comp = omc_Expression_compare(threadData, _e1, _e3);
-          tmp1 = ((_comp == ((modelica_integer) 0))?omc_Expression_compare(threadData, _e2, _e4):_comp);
+          _comp = omc_ExpressionBasics_compare(threadData, _e1, _e3);
+          tmp1 = ((_comp == ((modelica_integer) 0))?omc_ExpressionBasics_compare(threadData, _e2, _e4):_comp);
           goto tmp3_done;
         }
         case 5: {
@@ -458,8 +458,8 @@ modelica_integer omc_ZeroCrossings_compare(threadData_t *threadData, modelica_me
           _e3 = tmpMeta108;
           _e4 = tmpMeta110;
           /* Pattern matching succeeded */
-          _comp = omc_Expression_compare(threadData, _e1, _e3);
-          tmp1 = ((_comp == ((modelica_integer) 0))?omc_Expression_compare(threadData, _e2, _e4):_comp);
+          _comp = omc_ExpressionBasics_compare(threadData, _e1, _e3);
+          tmp1 = ((_comp == ((modelica_integer) 0))?omc_ExpressionBasics_compare(threadData, _e2, _e4):_comp);
           goto tmp3_done;
         }
         case 6: {
@@ -471,7 +471,7 @@ modelica_integer omc_ZeroCrossings_compare(threadData_t *threadData, modelica_me
           _e1 = tmpMeta114;
           _e2 = tmpMeta115;
           /* Pattern matching succeeded */
-          tmp1 = omc_Expression_compare(threadData, _e1, _e2);
+          tmp1 = omc_ExpressionBasics_compare(threadData, _e1, _e2);
           goto tmp3_done;
         }
         }
@@ -672,7 +672,7 @@ modelica_integer omc_ZeroCrossings_zeroCrossingSize(threadData_t *threadData, mo
           tmpMeta6 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 1));
           _iter = tmpMeta6;
           /* Pattern matching succeeded */
-          tmp1 = omc_BackendDAEUtil_getSimIteratorSize(threadData, _iter);
+          tmp1 = omc_BackendDAE_getSimIteratorSize(threadData, _iter);
           goto tmp3_done;
         }
         case 1: {
@@ -716,13 +716,13 @@ modelica_integer omc_ZeroCrossings_length(threadData_t *threadData, modelica_met
   // _i has no default value.
   _zcs = omc_DoubleEnded_toListNoCopyNoClear(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_zc_set), 2))));
   {
-    modelica_integer __omcQ_24tmpVar3;
-    modelica_integer __omcQ_24tmpVar2;
+    modelica_integer __omcQ_24tmpVar1;
+    modelica_integer __omcQ_24tmpVar0;
     modelica_integer tmp2;
     modelica_metatype _zc_loopVar = 0;
     modelica_metatype _zc;
     _zc_loopVar = _zcs;
-    __omcQ_24tmpVar3 = ((modelica_integer) 0); /* defaultValue */
+    __omcQ_24tmpVar1 = ((modelica_integer) 0); /* defaultValue */
     while(1) {
       tmp2 = 1;
       if (!listEmpty(_zc_loopVar)) {
@@ -731,15 +731,15 @@ modelica_integer omc_ZeroCrossings_length(threadData_t *threadData, modelica_met
         tmp2--;
       }
       if (tmp2 == 0) {
-        __omcQ_24tmpVar2 = omc_ZeroCrossings_zeroCrossingSize(threadData, _zc);
-        __omcQ_24tmpVar3 = __omcQ_24tmpVar3 + __omcQ_24tmpVar2;
+        __omcQ_24tmpVar0 = omc_ZeroCrossings_zeroCrossingSize(threadData, _zc);
+        __omcQ_24tmpVar1 = __omcQ_24tmpVar1 + __omcQ_24tmpVar0;
       } else if (tmp2 == 1) {
         break;
       } else {
         MMC_THROW_INTERNAL();
       }
     }
-    tmp1 = __omcQ_24tmpVar3;
+    tmp1 = __omcQ_24tmpVar1;
   }
   _i = tmp1;
   _return: OMC_LABEL_UNUSED
@@ -2096,7 +2096,7 @@ modelica_string omc_ZeroCrossings_ZeroCrossingTree_keyStr(threadData_t *threadDa
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outString has no default value.
-  _outString = omc_ExpressionDump_printExpStr(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inKey), 3))));
+  _outString = omc_ExpressionBasics_printExpStr(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inKey), 3))));
   _return: OMC_LABEL_UNUSED
   return _outString;
 }
@@ -2638,20 +2638,14 @@ modelica_string omc_ZeroCrossings_ZeroCrossingTree_printTreeStr(threadData_t *th
 PROTECTED_FUNCTION_STATIC modelica_string omc_ZeroCrossings_ZeroCrossingTree_printTreeStr2(threadData_t *threadData, modelica_metatype _inTree, modelica_boolean _isLeft, modelica_string _inIndent)
 {
   modelica_string _outString = NULL;
-  modelica_metatype _val_node = NULL;
   modelica_metatype _left = NULL;
   modelica_metatype _right = NULL;
-  modelica_string _left_str = NULL;
-  modelica_string _right_str = NULL;
   modelica_string tmp1 = 0;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outString has no default value.
-  // _val_node has no default value.
   // _left has no default value.
   // _right has no default value.
-  // _left_str has no default value.
-  // _right_str has no default value.
   { /* match expression */
     modelica_metatype tmp4_1;
     tmp4_1 = _inTree;
@@ -3158,7 +3152,7 @@ modelica_string omc_ZeroCrossings_ZeroCrossingTree_valueStr(threadData_t *thread
   // _zc has no default value.
   _zc = listGet(_inValue, ((modelica_integer) 1));
 
-  _outString = omc_ExpressionDump_printExpStr(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_zc), 3))));
+  _outString = omc_ExpressionBasics_printExpStr(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_zc), 3))));
   _return: OMC_LABEL_UNUSED
   return _outString;
 }

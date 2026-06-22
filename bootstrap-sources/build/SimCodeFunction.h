@@ -16,34 +16,6 @@ extern struct record_description ErrorTypes_MessageType_TRANSLATION__desc;
 
 extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description MidCode_Program_PROGRAM__desc;
-
-extern struct record_description SimCodeFunction_FunctionCode_FUNCTIONCODE__desc;
-
-extern struct record_description Tpl_Text_MEM__TEXT__desc;
-
-
-DLLDirection
-modelica_metatype omc_SimCodeFunction_getCalledFunctionsInFunction(threadData_t *threadData, modelica_metatype _path, modelica_metatype _funcs);
-#define boxptr_SimCodeFunction_getCalledFunctionsInFunction omc_SimCodeFunction_getCalledFunctionsInFunction
-static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeFunction_getCalledFunctionsInFunction,2,0) {(void*) boxptr_SimCodeFunction_getCalledFunctionsInFunction,0}};
-#define boxvar_SimCodeFunction_getCalledFunctionsInFunction MMC_REFSTRUCTLIT(boxvar_lit_SimCodeFunction_getCalledFunctionsInFunction)
-
-
-#define boxptr_SimCodeFunction_removeThreadDataFunction omc_SimCodeFunction_removeThreadDataFunction
-
-
-#define boxptr_SimCodeFunction_removeThreadDataRecord omc_SimCodeFunction_removeThreadDataRecord
-
-
-DLLDirection
-void omc_SimCodeFunction_translateFunctions(threadData_t *threadData, modelica_metatype _program, modelica_string _name, modelica_metatype _optMainFunction, modelica_metatype _idaeElements, modelica_metatype _metarecordTypes, modelica_metatype _inIncludes);
-#define boxptr_SimCodeFunction_translateFunctions omc_SimCodeFunction_translateFunctions
-static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeFunction_translateFunctions,2,0) {(void*) boxptr_SimCodeFunction_translateFunctions,0}};
-#define boxvar_SimCodeFunction_translateFunctions MMC_REFSTRUCTLIT(boxvar_lit_SimCodeFunction_translateFunctions)
-
 
 DLLDirection
 modelica_string omc_SimCodeFunction_Variable_toString(threadData_t *threadData, modelica_metatype _variable);

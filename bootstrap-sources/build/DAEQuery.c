@@ -787,9 +787,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_DAEQuery_adjacencyRowExp(threadD
           _cr = tmpMeta82;
           _vars = tmp4_2;
           tmp4 += 2; /* Pattern matching succeeded; we may skip some cases if we fail */
-          omc_BackendVariable_getVar(threadData, _cr, _vars ,&_p);
-
-          omc_List_map(threadData, _p, boxvar_intString);
+          omc_BackendVariable_getVar(threadData, _cr, _vars, NULL);
           tmpMeta83 = MMC_REFSTRUCTLIT(mmc_nil);
           tmpMeta1 = tmpMeta83;
           goto tmp3_done;
@@ -1386,7 +1384,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_DAEQuery_dumpVars2(threadData_t *t
           
           _cr = tmpMeta8;
           /* Pattern matching succeeded */
-          _str1 = omc_ComponentReference_printComponentRefStr(threadData, _cr);
+          _str1 = omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr);
           tmpMeta9 = mmc_mk_cons(_OMC_LIT0, mmc_mk_cons(_str1, mmc_mk_cons(_OMC_LIT0, MMC_REFSTRUCTLIT(mmc_nil))));
           tmp1 = stringAppendList(tmpMeta9);
           goto tmp3_done;
@@ -1405,7 +1403,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_DAEQuery_dumpVars2(threadData_t *t
           _xs = tmpMeta11;
           _varno = tmp4_2;
           /* Pattern matching succeeded */
-          _str1 = omc_ComponentReference_printComponentRefStr(threadData, _cr);
+          _str1 = omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr);
 
           _varno_1 = ((modelica_integer) 1) + _varno;
 
@@ -1750,9 +1748,9 @@ modelica_string omc_DAEQuery_equationStr(threadData_t *threadData, modelica_meta
           _e1 = tmpMeta5;
           _e2 = tmpMeta6;
           /* Pattern matching succeeded */
-          _s1 = omc_ExpressionDump_printExpStr(threadData, _e1);
+          _s1 = omc_ExpressionBasics_printExpStr(threadData, _e1);
 
-          _s2 = omc_ExpressionDump_printExpStr(threadData, _e2);
+          _s2 = omc_ExpressionBasics_printExpStr(threadData, _e2);
           tmpMeta7 = mmc_mk_cons(_OMC_LIT0, mmc_mk_cons(_s1, mmc_mk_cons(_OMC_LIT26, mmc_mk_cons(_s2, mmc_mk_cons(_OMC_LIT27, MMC_REFSTRUCTLIT(mmc_nil))))));
           tmp1 = stringAppendList(tmpMeta7);
           goto tmp3_done;
@@ -1768,9 +1766,9 @@ modelica_string omc_DAEQuery_equationStr(threadData_t *threadData, modelica_meta
           _e1 = tmpMeta8;
           _e2 = tmpMeta9;
           /* Pattern matching succeeded */
-          _s1 = omc_ExpressionDump_printExpStr(threadData, _e1);
+          _s1 = omc_ExpressionBasics_printExpStr(threadData, _e1);
 
-          _s2 = omc_ExpressionDump_printExpStr(threadData, _e2);
+          _s2 = omc_ExpressionBasics_printExpStr(threadData, _e2);
           tmpMeta10 = mmc_mk_cons(_OMC_LIT0, mmc_mk_cons(_s1, mmc_mk_cons(_OMC_LIT26, mmc_mk_cons(_s2, mmc_mk_cons(_OMC_LIT27, MMC_REFSTRUCTLIT(mmc_nil))))));
           tmp1 = stringAppendList(tmpMeta10);
           goto tmp3_done;
@@ -1786,9 +1784,9 @@ modelica_string omc_DAEQuery_equationStr(threadData_t *threadData, modelica_meta
           _e1 = tmpMeta11;
           _e2 = tmpMeta12;
           /* Pattern matching succeeded */
-          _s1 = omc_ExpressionDump_printExpStr(threadData, _e1);
+          _s1 = omc_ExpressionBasics_printExpStr(threadData, _e1);
 
-          _s2 = omc_ExpressionDump_printExpStr(threadData, _e2);
+          _s2 = omc_ExpressionBasics_printExpStr(threadData, _e2);
           tmpMeta13 = mmc_mk_cons(_OMC_LIT0, mmc_mk_cons(_s1, mmc_mk_cons(_OMC_LIT26, mmc_mk_cons(_s2, mmc_mk_cons(_OMC_LIT27, MMC_REFSTRUCTLIT(mmc_nil))))));
           tmp1 = stringAppendList(tmpMeta13);
           goto tmp3_done;
@@ -1804,9 +1802,9 @@ modelica_string omc_DAEQuery_equationStr(threadData_t *threadData, modelica_meta
           _cr = tmpMeta14;
           _e2 = tmpMeta15;
           /* Pattern matching succeeded */
-          _s1 = omc_ComponentReference_printComponentRefStr(threadData, _cr);
+          _s1 = omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr);
 
-          _s2 = omc_ExpressionDump_printExpStr(threadData, _e2);
+          _s2 = omc_ExpressionBasics_printExpStr(threadData, _e2);
           tmpMeta16 = mmc_mk_cons(_OMC_LIT0, mmc_mk_cons(_s1, mmc_mk_cons(_OMC_LIT26, mmc_mk_cons(_s2, mmc_mk_cons(_OMC_LIT27, MMC_REFSTRUCTLIT(mmc_nil))))));
           tmp1 = stringAppendList(tmpMeta16);
           goto tmp3_done;
@@ -1836,11 +1834,11 @@ modelica_string omc_DAEQuery_equationStr(threadData_t *threadData, modelica_meta
           _e1 = tmpMeta22;
           _e2 = tmpMeta23;
           /* Pattern matching succeeded */
-          _s1 = omc_ExpressionDump_printExpStr(threadData, _e1);
+          _s1 = omc_ExpressionBasics_printExpStr(threadData, _e1);
 
-          _s2 = omc_ExpressionDump_printExpStr(threadData, _e2);
+          _s2 = omc_ExpressionBasics_printExpStr(threadData, _e2);
 
-          _s3 = omc_ExpressionDump_printExpStr(threadData, _condition);
+          _s3 = omc_ExpressionBasics_printExpStr(threadData, _condition);
           tmpMeta24 = mmc_mk_cons(_OMC_LIT28, mmc_mk_cons(_s3, mmc_mk_cons(_OMC_LIT29, mmc_mk_cons(_s1, mmc_mk_cons(_OMC_LIT26, mmc_mk_cons(_s2, mmc_mk_cons(_OMC_LIT30, MMC_REFSTRUCTLIT(mmc_nil))))))));
           tmp1 = stringAppendList(tmpMeta24);
           goto tmp3_done;
@@ -1853,7 +1851,7 @@ modelica_string omc_DAEQuery_equationStr(threadData_t *threadData, modelica_meta
           
           _e = tmpMeta25;
           /* Pattern matching succeeded */
-          _s1 = omc_ExpressionDump_printExpStr(threadData, _e);
+          _s1 = omc_ExpressionBasics_printExpStr(threadData, _e);
           tmpMeta26 = mmc_mk_cons(_OMC_LIT0, mmc_mk_cons(_s1, mmc_mk_cons(_OMC_LIT31, MMC_REFSTRUCTLIT(mmc_nil))));
           tmp1 = stringAppendList(tmpMeta26);
           goto tmp3_done;

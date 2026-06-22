@@ -16,8 +16,6 @@ extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description Tpl_BlockType_BT__INDENT__desc;
 
 extern struct record_description Tpl_IterOptions_ITER__OPTIONS__desc;
@@ -40,10 +38,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDumpTpl_dumpConstraints,2,0) 
 #define boxvar_ExpressionDumpTpl_dumpConstraints MMC_REFSTRUCTLIT(boxvar_lit_ExpressionDumpTpl_dumpConstraints)
 
 
-#define boxptr_ExpressionDumpTpl_lm__94 omc_ExpressionDumpTpl_lm__94
+#define boxptr_ExpressionDumpTpl_lm__95 omc_ExpressionDumpTpl_lm__95
 
 
-#define boxptr_ExpressionDumpTpl_fun__93 omc_ExpressionDumpTpl_fun__93
+#define boxptr_ExpressionDumpTpl_fun__94 omc_ExpressionDumpTpl_fun__94
 
 
 DLLDirection
@@ -60,13 +58,16 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDumpTpl_dumpExpCrefs,2,0) {(v
 #define boxvar_ExpressionDumpTpl_dumpExpCrefs MMC_REFSTRUCTLIT(boxvar_lit_ExpressionDumpTpl_dumpExpCrefs)
 
 
-#define boxptr_ExpressionDumpTpl_lm__90 omc_ExpressionDumpTpl_lm__90
+#define boxptr_ExpressionDumpTpl_lm__91 omc_ExpressionDumpTpl_lm__91
 
 
-#define boxptr_ExpressionDumpTpl_fun__89 omc_ExpressionDumpTpl_fun__89
+#define boxptr_ExpressionDumpTpl_fun__90 omc_ExpressionDumpTpl_fun__90
 
 
-#define boxptr_ExpressionDumpTpl_lm__88 omc_ExpressionDumpTpl_lm__88
+#define boxptr_ExpressionDumpTpl_lm__89 omc_ExpressionDumpTpl_lm__89
+
+
+#define boxptr_ExpressionDumpTpl_fun__88 omc_ExpressionDumpTpl_fun__88
 
 
 #define boxptr_ExpressionDumpTpl_fun__87 omc_ExpressionDumpTpl_fun__87
@@ -84,10 +85,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDumpTpl_dumpExpCrefs,2,0) {(v
 #define boxptr_ExpressionDumpTpl_fun__83 omc_ExpressionDumpTpl_fun__83
 
 
-#define boxptr_ExpressionDumpTpl_fun__82 omc_ExpressionDumpTpl_fun__82
-
-
-#define boxptr_ExpressionDumpTpl_lm__80 omc_ExpressionDumpTpl_lm__80
+#define boxptr_ExpressionDumpTpl_lm__81 omc_ExpressionDumpTpl_lm__81
 
 
 DLLDirection
@@ -104,7 +102,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDumpTpl_dumpPattern,2,0) {(vo
 #define boxvar_ExpressionDumpTpl_dumpPattern MMC_REFSTRUCTLIT(boxvar_lit_ExpressionDumpTpl_dumpPattern)
 
 
-#define boxptr_ExpressionDumpTpl_lm__75 omc_ExpressionDumpTpl_lm__75
+#define boxptr_ExpressionDumpTpl_lm__76 omc_ExpressionDumpTpl_lm__76
 
 
 DLLDirection
@@ -114,7 +112,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDumpTpl_dumpPatterns,2,0) {(v
 #define boxvar_ExpressionDumpTpl_dumpPatterns MMC_REFSTRUCTLIT(boxvar_lit_ExpressionDumpTpl_dumpPatterns)
 
 
-#define boxptr_ExpressionDumpTpl_lm__73 omc_ExpressionDumpTpl_lm__73
+#define boxptr_ExpressionDumpTpl_lm__74 omc_ExpressionDumpTpl_lm__74
 
 
 DLLDirection
@@ -152,7 +150,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDumpTpl_dumpDimensions,2,0) {
 #define boxvar_ExpressionDumpTpl_dumpDimensions MMC_REFSTRUCTLIT(boxvar_lit_ExpressionDumpTpl_dumpDimensions)
 
 
-#define boxptr_ExpressionDumpTpl_lm__67 omc_ExpressionDumpTpl_lm__67
+#define boxptr_ExpressionDumpTpl_lm__68 omc_ExpressionDumpTpl_lm__68
 
 
 DLLDirection
@@ -169,13 +167,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDumpTpl_dumpType,2,0) {(void*
 #define boxvar_ExpressionDumpTpl_dumpType MMC_REFSTRUCTLIT(boxvar_lit_ExpressionDumpTpl_dumpType)
 
 
+#define boxptr_ExpressionDumpTpl_lm__65 omc_ExpressionDumpTpl_lm__65
+
+
 #define boxptr_ExpressionDumpTpl_lm__64 omc_ExpressionDumpTpl_lm__64
 
 
 #define boxptr_ExpressionDumpTpl_lm__63 omc_ExpressionDumpTpl_lm__63
-
-
-#define boxptr_ExpressionDumpTpl_lm__62 omc_ExpressionDumpTpl_lm__62
 
 
 DLLDirection
@@ -213,10 +211,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDumpTpl_dumpBinOp,2,0) {(void
 #define boxvar_ExpressionDumpTpl_dumpBinOp MMC_REFSTRUCTLIT(boxvar_lit_ExpressionDumpTpl_dumpBinOp)
 
 
+#define boxptr_ExpressionDumpTpl_fun__56 omc_ExpressionDumpTpl_fun__56
+
+
 #define boxptr_ExpressionDumpTpl_fun__55 omc_ExpressionDumpTpl_fun__55
-
-
-#define boxptr_ExpressionDumpTpl_fun__54 omc_ExpressionDumpTpl_fun__54
 
 
 DLLDirection
@@ -248,10 +246,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDumpTpl_dumpSubscripts,2,0) {
 #define boxvar_ExpressionDumpTpl_dumpSubscripts MMC_REFSTRUCTLIT(boxvar_lit_ExpressionDumpTpl_dumpSubscripts)
 
 
+#define boxptr_ExpressionDumpTpl_lm__48 omc_ExpressionDumpTpl_lm__48
+
+
 #define boxptr_ExpressionDumpTpl_lm__47 omc_ExpressionDumpTpl_lm__47
-
-
-#define boxptr_ExpressionDumpTpl_lm__46 omc_ExpressionDumpTpl_lm__46
 
 
 DLLDirection
@@ -275,7 +273,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDumpTpl_dumpExpListCrefs,2,0)
 #define boxvar_ExpressionDumpTpl_dumpExpListCrefs MMC_REFSTRUCTLIT(boxvar_lit_ExpressionDumpTpl_dumpExpListCrefs)
 
 
-#define boxptr_ExpressionDumpTpl_lm__41 omc_ExpressionDumpTpl_lm__41
+#define boxptr_ExpressionDumpTpl_lm__42 omc_ExpressionDumpTpl_lm__42
 
 
 DLLDirection
@@ -285,7 +283,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDumpTpl_dumpExpList,2,0) {(vo
 #define boxvar_ExpressionDumpTpl_dumpExpList MMC_REFSTRUCTLIT(boxvar_lit_ExpressionDumpTpl_dumpExpList)
 
 
-#define boxptr_ExpressionDumpTpl_lm__39 omc_ExpressionDumpTpl_lm__39
+#define boxptr_ExpressionDumpTpl_lm__40 omc_ExpressionDumpTpl_lm__40
 
 
 DLLDirection
@@ -302,16 +300,19 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDumpTpl_dumpExp,2,0) {(void*)
 #define boxvar_ExpressionDumpTpl_dumpExp MMC_REFSTRUCTLIT(boxvar_lit_ExpressionDumpTpl_dumpExp)
 
 
-#define boxptr_ExpressionDumpTpl_lm__34 omc_ExpressionDumpTpl_lm__34
+#define boxptr_ExpressionDumpTpl_lm__35 omc_ExpressionDumpTpl_lm__35
 
 
-#define boxptr_ExpressionDumpTpl_fun__33 omc_ExpressionDumpTpl_fun__33
+#define boxptr_ExpressionDumpTpl_fun__34 omc_ExpressionDumpTpl_fun__34
 
 
-#define boxptr_ExpressionDumpTpl_lm__32 omc_ExpressionDumpTpl_lm__32
+#define boxptr_ExpressionDumpTpl_lm__33 omc_ExpressionDumpTpl_lm__33
 
 
-#define boxptr_ExpressionDumpTpl_fun__31 omc_ExpressionDumpTpl_fun__31
+#define boxptr_ExpressionDumpTpl_fun__32 omc_ExpressionDumpTpl_fun__32
+
+
+#define boxptr_ExpressionDumpTpl_fun__30 omc_ExpressionDumpTpl_fun__30
 
 
 #define boxptr_ExpressionDumpTpl_fun__29 omc_ExpressionDumpTpl_fun__29
@@ -323,7 +324,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDumpTpl_dumpExp,2,0) {(void*)
 #define boxptr_ExpressionDumpTpl_fun__27 omc_ExpressionDumpTpl_fun__27
 
 
-#define boxptr_ExpressionDumpTpl_fun__26 omc_ExpressionDumpTpl_fun__26
+#define boxptr_ExpressionDumpTpl_fun__25 omc_ExpressionDumpTpl_fun__25
 
 
 #define boxptr_ExpressionDumpTpl_fun__24 omc_ExpressionDumpTpl_fun__24
@@ -332,10 +333,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ExpressionDumpTpl_dumpExp,2,0) {(void*)
 #define boxptr_ExpressionDumpTpl_fun__23 omc_ExpressionDumpTpl_fun__23
 
 
-#define boxptr_ExpressionDumpTpl_fun__22 omc_ExpressionDumpTpl_fun__22
-
-
-#define boxptr_ExpressionDumpTpl_lm__20 omc_ExpressionDumpTpl_lm__20
+#define boxptr_ExpressionDumpTpl_lm__21 omc_ExpressionDumpTpl_lm__21
 
 #ifdef __cplusplus
 }

@@ -200,12 +200,12 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT67,45,_OMC_LIT67_data);
 #define _OMC_LIT68_data "HpcOmMemory.getTaskSimVarMapping failed"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT68,39,_OMC_LIT68_data);
 #define _OMC_LIT68 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT68)
-#define _OMC_LIT69_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/BackEnd/HpcOmMemory.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT69,75,_OMC_LIT69_data);
+#define _OMC_LIT69_data "/projects/OpenModelica-session2/OMCompiler/Compiler/BackEnd/HpcOmMemory.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT69,74,_OMC_LIT69_data);
 #define _OMC_LIT69 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT69)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT70_6,1.770631566e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT70_6,1.782113391e9);
 #define _OMC_LIT70_6 MMC_REFREALLIT(_OMC_LIT_STRUCT70_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT70,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT69,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(2835)),MMC_IMMEDIATE(MMC_TAGFIXNUM(7)),MMC_IMMEDIATE(MMC_TAGFIXNUM(2835)),MMC_IMMEDIATE(MMC_TAGFIXNUM(74)),_OMC_LIT70_6}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT70,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT69,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(2822)),MMC_IMMEDIATE(MMC_TAGFIXNUM(7)),MMC_IMMEDIATE(MMC_TAGFIXNUM(2822)),MMC_IMMEDIATE(MMC_TAGFIXNUM(74)),_OMC_LIT70_6}};
 #define _OMC_LIT70 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT70)
 #define _OMC_LIT71_data "$DER"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT71,4,_OMC_LIT71_data);
@@ -230,126 +230,122 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT79,1,4) {&ErrorTypes_Severity_ERROR
 #define _OMC_LIT80_data "Internal error %s"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT80,17,_OMC_LIT80_data);
 #define _OMC_LIT80 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT80)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT81,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT80}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT81,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(63)),_OMC_LIT78,_OMC_LIT79,_OMC_LIT80}};
 #define _OMC_LIT81 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT81)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT82,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(63)),_OMC_LIT78,_OMC_LIT79,_OMC_LIT81}};
-#define _OMC_LIT82 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT82)
-#define _OMC_LIT83_data "addCacheLineEntryToVarArrayMapping failed! Unsupported entry-type\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT83,66,_OMC_LIT83_data);
-#define _OMC_LIT83 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT83)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT84,2,1) {_OMC_LIT83,MMC_REFSTRUCTLIT(mmc_nil)}};
-#define _OMC_LIT84 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT84)
-#define _OMC_LIT85_data "addCacheLineMapToVarArrayMapping failed! CacheLineMap-Type not supported!"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT85,73,_OMC_LIT85_data);
-#define _OMC_LIT85 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT85)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT86,2,1) {_OMC_LIT85,MMC_REFSTRUCTLIT(mmc_nil)}};
-#define _OMC_LIT86 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT86)
-#define _OMC_LIT87_data "ConvertCacheToVarArrayMapping: Uniform-CacheMap not supported!"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT87,62,_OMC_LIT87_data);
-#define _OMC_LIT87 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT87)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT88,2,1) {_OMC_LIT87,MMC_REFSTRUCTLIT(mmc_nil)}};
-#define _OMC_LIT88 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT88)
-#define _OMC_LIT89_data "ConvertCacheToVarArrayMapping: CacheMap-Type not supported!"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT89,59,_OMC_LIT89_data);
-#define _OMC_LIT89 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT89)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT90,2,1) {_OMC_LIT89,MMC_REFSTRUCTLIT(mmc_nil)}};
-#define _OMC_LIT90 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT90)
-#define _OMC_LIT91_data "appendSCVarToCacheMap failed! Variable skipped.\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT91,48,_OMC_LIT91_data);
+#define _OMC_LIT82_data "addCacheLineEntryToVarArrayMapping failed! Unsupported entry-type\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT82,66,_OMC_LIT82_data);
+#define _OMC_LIT82 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT82)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT83,2,1) {_OMC_LIT82,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT83 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT83)
+#define _OMC_LIT84_data "addCacheLineMapToVarArrayMapping failed! CacheLineMap-Type not supported!"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT84,73,_OMC_LIT84_data);
+#define _OMC_LIT84 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT84)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT85,2,1) {_OMC_LIT84,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT85 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT85)
+#define _OMC_LIT86_data "ConvertCacheToVarArrayMapping: Uniform-CacheMap not supported!"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT86,62,_OMC_LIT86_data);
+#define _OMC_LIT86 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT86)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT87,2,1) {_OMC_LIT86,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT87 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT87)
+#define _OMC_LIT88_data "ConvertCacheToVarArrayMapping: CacheMap-Type not supported!"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT88,59,_OMC_LIT88_data);
+#define _OMC_LIT88 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT88)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT89,2,1) {_OMC_LIT88,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT89 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT89)
+#define _OMC_LIT90_data "appendSCVarToCacheMap failed! Variable skipped.\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT90,48,_OMC_LIT90_data);
+#define _OMC_LIT90 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT90)
+#define _OMC_LIT91_data "appendNodeVarsToCacheMap0 failed!\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT91,34,_OMC_LIT91_data);
 #define _OMC_LIT91 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT91)
-#define _OMC_LIT92_data "appendNodeVarsToCacheMap0 failed!\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT92,34,_OMC_LIT92_data);
-#define _OMC_LIT92 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT92)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT93,2,0) {MMC_IMMEDIATE(MMC_TAGFIXNUM(-1)),MMC_IMMEDIATE(MMC_TAGFIXNUM(-1))}};
-#define _OMC_LIT93 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT93)
-#define _OMC_LIT94_data "Cpp"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT94,3,_OMC_LIT94_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT92,2,0) {MMC_IMMEDIATE(MMC_TAGFIXNUM(-1)),MMC_IMMEDIATE(MMC_TAGFIXNUM(-1))}};
+#define _OMC_LIT92 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT92)
+#define _OMC_LIT93_data "Cpp"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT93,3,_OMC_LIT93_data);
+#define _OMC_LIT93 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT93)
+#define _OMC_LIT94_data "findMatchingSharedCLLevelfix0: Unknown partly filled cache line type given.\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT94,76,_OMC_LIT94_data);
 #define _OMC_LIT94 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT94)
-#define _OMC_LIT95_data "findMatchingSharedCLLevelfix0: Unknown partly filled cache line type given.\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT95,76,_OMC_LIT95_data);
+#define _OMC_LIT95_data "getCacheLineForVarType: Found Variable with unknown type ( "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT95,59,_OMC_LIT95_data);
 #define _OMC_LIT95 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT95)
-#define _OMC_LIT96_data "getCacheLineForVarType: Found Variable with unknown type ( "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT96,59,_OMC_LIT96_data);
+#define _OMC_LIT96_data ")!\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT96,3,_OMC_LIT96_data);
 #define _OMC_LIT96 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT96)
-#define _OMC_LIT97_data ")!\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT97,3,_OMC_LIT97_data);
-#define _OMC_LIT97 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT97)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT98,3,3) {&HpcOmMemory_ScVarInfo_SCVARINFO__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(-1)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */))}};
-#define _OMC_LIT98 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT98)
-#define _OMC_LIT99_data "createCacheMapThreadOptimizedForTask failed!\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT99,45,_OMC_LIT99_data);
-#define _OMC_LIT99 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT99)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT100,3,0) {MMC_REFSTRUCTLIT(mmc_nil),MMC_REFSTRUCTLIT(mmc_nil),MMC_REFSTRUCTLIT(mmc_nil)}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT97,3,3) {&HpcOmMemory_ScVarInfo_SCVARINFO__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(-1)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */))}};
+#define _OMC_LIT97 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT97)
+#define _OMC_LIT98_data "createCacheMapThreadOptimizedForTask failed!\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT98,45,_OMC_LIT98_data);
+#define _OMC_LIT98 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT98)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT99,3,0) {MMC_REFSTRUCTLIT(mmc_nil),MMC_REFSTRUCTLIT(mmc_nil),MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT99 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT99)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT100,2,0) {_OMC_LIT99,_OMC_LIT99}};
 #define _OMC_LIT100 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT100)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT101,2,0) {_OMC_LIT100,_OMC_LIT100}};
-#define _OMC_LIT101 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT101)
-#define _OMC_LIT102_data "createCacheMapLevelOptimized1: Calctask without threadIdx given\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT102,64,_OMC_LIT102_data);
+#define _OMC_LIT101_data "createCacheMapLevelOptimized1: Calctask without threadIdx given\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT101,64,_OMC_LIT101_data);
+#define _OMC_LIT101 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT101)
+#define _OMC_LIT102_data "createCacheMapLevelOptimized1: Unsupported task type\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT102,53,_OMC_LIT102_data);
 #define _OMC_LIT102 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT102)
-#define _OMC_LIT103_data "createCacheMapLevelOptimized1: Unsupported task type\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT103,53,_OMC_LIT103_data);
+#define _OMC_LIT103_data "Creating optimized cache map for fixed level scheduler\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT103,55,_OMC_LIT103_data);
 #define _OMC_LIT103 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT103)
-#define _OMC_LIT104_data "Creating optimized cache map for fixed level scheduler\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT104,55,_OMC_LIT104_data);
+#define _OMC_LIT104_data "Creating optimized cache map for thread scheduler\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT104,50,_OMC_LIT104_data);
 #define _OMC_LIT104 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT104)
-#define _OMC_LIT105_data "Creating optimized cache map for thread scheduler\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT105,50,_OMC_LIT105_data);
+#define _OMC_LIT105_data "Creating optimized cache map for empty scheduler\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT105,49,_OMC_LIT105_data);
 #define _OMC_LIT105 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT105)
-#define _OMC_LIT106_data "Creating optimized cache map for empty scheduler\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT106,49,_OMC_LIT106_data);
+#define _OMC_LIT106_data "No optimized cache map for the selected scheduler avaiable. Using default cacheMap!\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT106,84,_OMC_LIT106_data);
 #define _OMC_LIT106 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT106)
-#define _OMC_LIT107_data "No optimized cache map for the selected scheduler avaiable. Using default cacheMap!\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT107,84,_OMC_LIT107_data);
-#define _OMC_LIT107 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT107)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT108,3,0) {MMC_IMMEDIATE(MMC_TAGFIXNUM(-1)),MMC_IMMEDIATE(MMC_TAGFIXNUM(-1)),MMC_IMMEDIATE(MMC_TAGFIXNUM(-1))}};
-#define _OMC_LIT108 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT108)
-#define _OMC_LIT109_data "hpcomMemoryOpt"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT109,14,_OMC_LIT109_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT107,3,0) {MMC_IMMEDIATE(MMC_TAGFIXNUM(-1)),MMC_IMMEDIATE(MMC_TAGFIXNUM(-1)),MMC_IMMEDIATE(MMC_TAGFIXNUM(-1))}};
+#define _OMC_LIT107 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT107)
+#define _OMC_LIT108_data "hpcomMemoryOpt"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT108,14,_OMC_LIT108_data);
+#define _OMC_LIT108 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT108)
+#define _OMC_LIT109_data "Optimize the memory structure regarding the selected scheduler"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT109,62,_OMC_LIT109_data);
 #define _OMC_LIT109 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT109)
-#define _OMC_LIT110_data "Optimize the memory structure regarding the selected scheduler"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT110,62,_OMC_LIT110_data);
-#define _OMC_LIT110 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT110)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT111,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT110}};
-#define _OMC_LIT111 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT111)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT112,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(103)),_OMC_LIT109,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT111}};
-#define _OMC_LIT112 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT112)
-#define _OMC_LIT113_data "TasksGroupGraph"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT113,15,_OMC_LIT113_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT110,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(103)),_OMC_LIT108,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT109}};
+#define _OMC_LIT110 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT110)
+#define _OMC_LIT111_data "TasksGroupGraph"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT111,15,_OMC_LIT111_data);
+#define _OMC_LIT111 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT111)
+#define _OMC_LIT112_data "TasksGroup"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT112,10,_OMC_LIT112_data);
+#define _OMC_LIT112 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT112)
+#define _OMC_LIT113_data "TG"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT113,2,_OMC_LIT113_data);
 #define _OMC_LIT113 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT113)
-#define _OMC_LIT114_data "TasksGroup"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT114,10,_OMC_LIT114_data);
+#define _OMC_LIT114_data "nothing"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT114,7,_OMC_LIT114_data);
 #define _OMC_LIT114 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT114)
-#define _OMC_LIT115_data "TG"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT115,2,_OMC_LIT115_data);
-#define _OMC_LIT115 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT115)
-#define _OMC_LIT116_data "nothing"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT116,7,_OMC_LIT116_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT115,5,3) {&HpcOmTaskGraph_GraphDumpOptions_GRAPHDUMPOPTIONS__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1 /* true */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1 /* true */))}};
+#define _OMC_LIT115 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT115)
+#define _OMC_LIT116_data "ThreadId"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT116,8,_OMC_LIT116_data);
 #define _OMC_LIT116 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT116)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT117,5,3) {&HpcOmTaskGraph_GraphDumpOptions_GRAPHDUMPOPTIONS__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1 /* true */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1 /* true */))}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT117,1,3) {&GraphML_AttributeTarget_TARGET__NODE__desc,}};
 #define _OMC_LIT117 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT117)
-#define _OMC_LIT118_data "ThreadId"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT118,8,_OMC_LIT118_data);
-#define _OMC_LIT118 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT118)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT119,1,3) {&GraphML_AttributeTarget_TARGET__NODE__desc,}};
-#define _OMC_LIT119 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT119)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT120,1,3) {&BackendDAE_IndexType_ABSOLUTE__desc,}};
-#define _OMC_LIT120 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT120)
-#define _OMC_LIT121_data "taskGraph"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT121,9,_OMC_LIT121_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT118,1,3) {&BackendDAE_IndexType_ABSOLUTE__desc,}};
+#define _OMC_LIT118 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT118)
+#define _OMC_LIT119_data "taskGraph"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT119,9,_OMC_LIT119_data);
+#define _OMC_LIT119 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT119)
+#define _OMC_LIT120_data "ODE_schedule_CL.graphml"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT120,23,_OMC_LIT120_data);
+#define _OMC_LIT120 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT120)
+#define _OMC_LIT121_data "ODE_schedule_vars.graphml"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT121,25,_OMC_LIT121_data);
 #define _OMC_LIT121 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT121)
-#define _OMC_LIT122_data "ODE_schedule_CL.graphml"
+#define _OMC_LIT122_data "CreateMemoryMap failed!"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT122,23,_OMC_LIT122_data);
 #define _OMC_LIT122 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT122)
-#define _OMC_LIT123_data "ODE_schedule_vars.graphml"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT123,25,_OMC_LIT123_data);
-#define _OMC_LIT123 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT123)
-#define _OMC_LIT124_data "CreateMemoryMap failed!"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT124,23,_OMC_LIT124_data);
-#define _OMC_LIT124 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT124)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT125_6,1.770631566e9);
-#define _OMC_LIT125_6 MMC_REFREALLIT(_OMC_LIT_STRUCT125_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT125,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT69,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(425)),MMC_IMMEDIATE(MMC_TAGFIXNUM(11)),MMC_IMMEDIATE(MMC_TAGFIXNUM(425)),MMC_IMMEDIATE(MMC_TAGFIXNUM(74)),_OMC_LIT125_6}};
-#define _OMC_LIT125 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT125)
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT123_6,1.782113391e9);
+#define _OMC_LIT123_6 MMC_REFREALLIT(_OMC_LIT_STRUCT123_6)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT123,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT69,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(433)),MMC_IMMEDIATE(MMC_TAGFIXNUM(11)),MMC_IMMEDIATE(MMC_TAGFIXNUM(433)),MMC_IMMEDIATE(MMC_TAGFIXNUM(74)),_OMC_LIT123_6}};
+#define _OMC_LIT123 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT123)
 #include "util/modelica.h"
 
 #include "HpcOmMemory_includes.h"
@@ -1521,7 +1517,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_removeSubscripts(thr
   modelica_metatype _identType = NULL;
   modelica_metatype _subscriptLst = NULL;
   modelica_metatype _componentRef = NULL;
-  modelica_integer _index;
   modelica_metatype tmpMeta1;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
@@ -1530,7 +1525,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_removeSubscripts(thr
   // _identType has no default value.
   // _subscriptLst has no default value.
   // _componentRef has no default value.
-  // _index has no default value.
   { /* match expression */
     modelica_metatype tmp4_1;
     tmp4_1 = _iCref;
@@ -1657,10 +1651,6 @@ DLLDirection
 modelica_metatype omc_HpcOmMemory_expandCrefWithDims(threadData_t *threadData, modelica_metatype _iCref, modelica_metatype _iDims)
 {
   modelica_metatype _oCrefs = NULL;
-  modelica_integer _elems;
-  modelica_integer _dims;
-  modelica_metatype _dimElemCount = NULL;
-  modelica_metatype _cref = NULL;
   modelica_metatype _dim = NULL;
   modelica_metatype _numArrayElems = NULL;
   modelica_metatype tmpMeta1;
@@ -1670,10 +1660,6 @@ modelica_metatype omc_HpcOmMemory_expandCrefWithDims(threadData_t *threadData, m
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _oCrefs has no default value.
-  // _elems has no default value.
-  // _dims has no default value.
-  // _dimElemCount has no default value.
-  // _cref has no default value.
   // _dim has no default value.
   // _numArrayElems has no default value.
   tmpMeta1 = MMC_REFSTRUCTLIT(mmc_nil);
@@ -1729,12 +1715,10 @@ modelica_metatype omc_HpcOmMemory_getSubscriptListOfArrayCref(threadData_t *thre
 {
   modelica_metatype _oSubscriptList = NULL;
   modelica_metatype _tmpCrefs = NULL;
-  modelica_metatype _cref = NULL;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _oSubscriptList has no default value.
   // _tmpCrefs has no default value.
-  // _cref has no default value.
   _tmpCrefs = omc_HpcOmMemory_expandCref(threadData, _iCref, _iNumArrayElems);
 
   _oSubscriptList = omc_List_map(threadData, _tmpCrefs, boxvar_ComponentReference_crefLastSubs);
@@ -2168,7 +2152,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_HpcOmMemory_dumpSimCodeVar(threadD
   tmpMeta2 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta1), 2));
   _name = tmpMeta2;
 
-  _oString = omc_ComponentReference_printComponentRefStr(threadData, _name);
+  _oString = omc_ComponentReferenceBasics_printComponentRefStr(threadData, _name);
   _return: OMC_LABEL_UNUSED
   return _oString;
 }
@@ -2184,7 +2168,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_cacheLineEntryToStri
   modelica_string _iVarsString = NULL;
   modelica_string _iBytesString = NULL;
   modelica_string _iBytesStringNew = NULL;
-  modelica_string _byteStartString = NULL;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
@@ -2213,7 +2196,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_cacheLineEntryToStri
   // _iVarsString has no default value.
   // _iBytesString has no default value.
   // _iBytesStringNew has no default value.
-  // _byteStartString has no default value.
   /* Pattern-matching assignment */
   tmpMeta1 = _iString;
   tmpMeta2 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta1), 1));
@@ -2268,7 +2250,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_cacheLineEntryToStri
   modelica_string _iVarsString = NULL;
   modelica_string _iBytesString = NULL;
   modelica_string _iBytesStringNew = NULL;
-  modelica_string _byteStartString = NULL;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
@@ -2301,7 +2282,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_cacheLineEntryToStri
   // _iVarsString has no default value.
   // _iBytesString has no default value.
   // _iBytesStringNew has no default value.
-  // _byteStartString has no default value.
   /* Pattern-matching assignment */
   tmpMeta1 = _iString;
   tmpMeta2 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta1), 1));
@@ -2711,7 +2691,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_appendCacheLineEntry
 
       _realScVarIdx = _realScVarIdx + _realScVarOffset;
 
-      _varString = omc_ComponentReference_printComponentRefStr(threadData, _name);
+      _varString = omc_ComponentReferenceBasics_printComponentRefStr(threadData, _name);
 
       _taskIdx = mmc_unbox_integer(arrayGet(_iScVarTaskMapping, _realScVarIdx));
 
@@ -2791,13 +2771,12 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_appendCacheLineMapTo
   modelica_integer tmp14;
   modelica_metatype tmpMeta15;
   modelica_metatype tmpMeta16;
-  modelica_metatype tmpMeta17;
-  modelica_integer tmp18;
+  modelica_integer tmp17;
+  modelica_metatype tmpMeta18;
   modelica_metatype tmpMeta19;
   modelica_metatype tmpMeta20;
   modelica_metatype tmpMeta21;
   modelica_metatype tmpMeta22;
-  modelica_metatype tmpMeta23;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _oGraphInfo has no default value.
@@ -2847,17 +2826,17 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_appendCacheLineMapTo
     _iAttThreadIdIdx = tmp14  /* pattern as ty=Integer */;
 
     /* Pattern-matching tuple assignment */
-    tmpMeta19 = stringAppend(_OMC_LIT54,intString(_idx));
-    tmpMeta20 = stringAppend(_OMC_LIT55,intString(_idx));
-    tmpMeta21 = omc_GraphML_addGroupNode(threadData, tmpMeta19, _iTopGraphIdx, 1 /* true */, tmpMeta20, _iGraphInfo, &tmpMeta15, &tmpMeta16);
-    _tmpGraphInfo = tmpMeta21;
-    tmpMeta17 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta16), 2));
-    tmp18 = mmc_unbox_integer(tmpMeta17);
-    _graphIdx = tmp18  /* pattern as ty=Integer */;
+    tmpMeta18 = stringAppend(_OMC_LIT54,intString(_idx));
+    tmpMeta19 = stringAppend(_OMC_LIT55,intString(_idx));
+    tmpMeta20 = omc_GraphML_addGroupNode(threadData, tmpMeta18, _iTopGraphIdx, 1 /* true */, tmpMeta19, _iGraphInfo, NULL, &tmpMeta15);
+    _tmpGraphInfo = tmpMeta20;
+    tmpMeta16 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta15), 2));
+    tmp17 = mmc_unbox_integer(tmpMeta16);
+    _graphIdx = tmp17  /* pattern as ty=Integer */;
 
-    tmpMeta23 = mmc_mk_box2(0, mmc_mk_integer(_graphIdx), mmc_mk_integer(_iAttThreadIdIdx));
-    tmpMeta22 = mmc_mk_box7(0, _iCacheVariables, _iAddedVariables, _iSchedulerInfo, tmpMeta23, _iScVarTaskMapping, _iVarNameSCVarIdxMapping, _iScVarInfos);
-    _oGraphInfo = omc_List_fold(threadData, _entries, (modelica_fnptr) mmc_mk_box2(0,closure0_HpcOmMemory_appendCacheLineEntryToGraph,tmpMeta22), _tmpGraphInfo);
+    tmpMeta22 = mmc_mk_box2(0, mmc_mk_integer(_graphIdx), mmc_mk_integer(_iAttThreadIdIdx));
+    tmpMeta21 = mmc_mk_box7(0, _iCacheVariables, _iAddedVariables, _iSchedulerInfo, tmpMeta22, _iScVarTaskMapping, _iVarNameSCVarIdxMapping, _iScVarInfos);
+    _oGraphInfo = omc_List_fold(threadData, _entries, (modelica_fnptr) mmc_mk_box2(0,closure0_HpcOmMemory_appendCacheLineEntryToGraph,tmpMeta21), _tmpGraphInfo);
   }
   else
   {
@@ -3065,7 +3044,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_appendVariablesToGra
 
         _varCompRef = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_simVar), 2)));
 
-        _description = omc_ComponentReference_printComponentRefStr(threadData, _varCompRef);
+        _description = omc_ComponentReferenceBasics_printComponentRefStr(threadData, _varCompRef);
 
         _isValidVar = omc_BaseHashTable_hasKey(threadData, _varCompRef, _iVarNameSCVarIdxMapping);
 
@@ -3478,7 +3457,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_getCacheLineTaskMapp
   modelica_integer _scVarOffset;
   modelica_metatype _eqSystem = NULL;
   modelica_metatype _orderedVars = NULL;
-  modelica_metatype _varOptArr = NULL;
   modelica_metatype _var = NULL;
   modelica_metatype _varName = NULL;
   modelica_metatype _oldVal = NULL;
@@ -3498,7 +3476,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_getCacheLineTaskMapp
   // _scVarOffset has no default value.
   // _eqSystem has no default value.
   // _orderedVars has no default value.
-  // _varOptArr has no default value.
   // _var has no default value.
   // _varName has no default value.
   // _oldVal has no default value.
@@ -3916,7 +3893,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_invertEqCompMapping(
   modelica_integer _compIdx;
   modelica_integer _eqSystemIdx;
   modelica_integer _offset;
-  modelica_metatype _eqCompEntry = NULL;
   modelica_metatype _compEqEntry = NULL;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
@@ -3939,7 +3915,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_invertEqCompMapping(
   // _compIdx has no default value.
   // _eqSystemIdx has no default value.
   // _offset has no default value.
-  // _eqCompEntry has no default value.
   // _compEqEntry has no default value.
   tmpMeta1 = MMC_REFSTRUCTLIT(mmc_nil);
   _tmpCompEqMapping = arrayCreate(_iNumOfComps, tmpMeta1);
@@ -3997,7 +3972,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_getSimCodeVarNodeMap
   modelica_integer _scVarOffset;
   modelica_metatype _eqSystem = NULL;
   modelica_metatype _orderedVars = NULL;
-  modelica_metatype _varOptArr = NULL;
   modelica_metatype _var = NULL;
   modelica_metatype _varName = NULL;
   modelica_metatype _scVarValues = NULL;
@@ -4016,7 +3990,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_getSimCodeVarNodeMap
   // _scVarOffset has no default value.
   // _eqSystem has no default value.
   // _orderedVars has no default value.
-  // _varOptArr has no default value.
   // _var has no default value.
   // _varName has no default value.
   // _scVarValues has no default value.
@@ -4087,7 +4060,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_getSimCodeVarNodeMap
 
           _scVarValues = omc_BaseHashTable_get(threadData, _varName, _iVarNameSCVarIdxMapping);
 
-          _varNameString = omc_ComponentReference_printComponentRefStr(threadData, _varName);
+          _varNameString = omc_ComponentReferenceBasics_printComponentRefStr(threadData, _varName);
 
           _scVarIdx = mmc_unbox_integer(listHead(_scVarValues));
 
@@ -4345,7 +4318,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createMemoryMapTrave
 PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_getEqSCVarMapping0(threadData_t *threadData, modelica_metatype _iEquation, modelica_metatype _iHt)
 {
   modelica_metatype _oMapping = NULL;
-  modelica_metatype _varIdcList = NULL;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
@@ -4355,7 +4327,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_getEqSCVarMapping0(t
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _oMapping has no default value.
-  // _varIdcList has no default value.
   /* Pattern-matching tuple assignment, wild first pattern */
   tmpMeta4 = MMC_REFSTRUCTLIT(mmc_nil);
   tmpMeta5 = mmc_mk_box2(0, _iHt, tmpMeta4);
@@ -4586,7 +4557,6 @@ PROTECTED_FUNCTION_STATIC modelica_real omc_HpcOmMemory_calculateLocCoForTask(th
 {
   modelica_real _oLocCo;
   modelica_integer _simCodeVar;
-  modelica_integer _index;
   modelica_integer _clIdx;
   modelica_real _sum;
   modelica_metatype tmpMeta1;
@@ -4596,7 +4566,6 @@ PROTECTED_FUNCTION_STATIC modelica_real omc_HpcOmMemory_calculateLocCoForTask(th
   _tailrecursive: OMC_LABEL_UNUSED
   // _oLocCo has no default value.
   // _simCodeVar has no default value.
-  // _index has no default value.
   // _clIdx has no default value.
   // _sum has no default value.
   _sum = 0.0;
@@ -4695,7 +4664,6 @@ PROTECTED_FUNCTION_STATIC modelica_real omc_HpcOmMemory_calculateLocCoReadForTas
 {
   modelica_real _oLocCoRead;
   modelica_integer _predecessor;
-  modelica_integer _threadIdx;
   modelica_integer _numberOfPredecessors;
   modelica_metatype _predecessors = NULL;
   modelica_real _sum;
@@ -4706,7 +4674,6 @@ PROTECTED_FUNCTION_STATIC modelica_real omc_HpcOmMemory_calculateLocCoReadForTas
   _tailrecursive: OMC_LABEL_UNUSED
   // _oLocCoRead has no default value.
   // _predecessor has no default value.
-  // _threadIdx has no default value.
   // _numberOfPredecessors has no default value.
   // _predecessors has no default value.
   // _sum has no default value.
@@ -4935,9 +4902,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createVarCLMappingFr
   modelica_metatype _hashTableElement = NULL;
   modelica_metatype _varToCLMapping = NULL;
   modelica_metatype _numberOfVars = NULL;
-  modelica_metatype _maxNumberOfVarsInCL = NULL;
   modelica_integer _pos;
-  modelica_integer _id;
   modelica_metatype _cref = NULL;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
@@ -4955,9 +4920,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createVarCLMappingFr
   // _hashTableElement has no default value.
   // _varToCLMapping has no default value.
   // _numberOfVars has no default value.
-  // _maxNumberOfVarsInCL has no default value.
   // _pos has no default value.
-  // _id has no default value.
   // _cref has no default value.
   _varToCLMapping = arrayCreate(arrayLength(_iSimCodeVarTypes), mmc_mk_integer(((modelica_integer) -1)));
 
@@ -5003,12 +4966,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_HpcOmMemory_createVarCLMappin
 
 PROTECTED_FUNCTION_STATIC void omc_HpcOmMemory_evaluateCacheBehaviour(threadData_t *threadData, modelica_metatype _iVarToIndexMappingHashTable, modelica_metatype _iSimVarIdxMappingHashTable, modelica_metatype _taskSolvedVarsMapping, modelica_metatype _taskUnsolvedVarsMapping, modelica_metatype _iTaskGraph, modelica_metatype _iTaskGraphT, modelica_integer _iNumberOfThreads, modelica_integer _iCacheLineSize, modelica_metatype _iSimCodeVarTypes, modelica_metatype _iSchedulerInfo)
 {
-  modelica_metatype _varToCLMapping = NULL;
-  modelica_metatype _varTypeCLOffset = NULL;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _varToCLMapping has no default value.
-  // _varTypeCLOffset has no default value.
   _return: OMC_LABEL_UNUSED
   return;
 }
@@ -5246,16 +5205,11 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_addCacheLineEntryToV
   modelica_metatype _oPositionMapping = NULL;
   modelica_metatype _varArrayIndexMappingHashTable = NULL;
   modelica_metatype _varIndexMappingHashTable = NULL;
-  modelica_integer _clIdx;
-  modelica_integer _clSize;
-  modelica_metatype _iPositionMappingList = NULL;
   modelica_integer _scVarIdx;
   modelica_integer _start;
   modelica_integer _size;
   modelica_integer _arrayPosition;
-  modelica_integer _highestIdx;
   modelica_integer _offset;
-  modelica_integer _arridx;
   modelica_metatype _currentVarIndices = NULL;
   modelica_metatype tmpMeta1;
   MMC_SO();
@@ -5263,22 +5217,16 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_addCacheLineEntryToV
   // _oPositionMapping has no default value.
   // _varArrayIndexMappingHashTable has no default value.
   // _varIndexMappingHashTable has no default value.
-  // _clIdx has no default value.
-  // _clSize has no default value.
-  // _iPositionMappingList has no default value.
   // _scVarIdx has no default value.
   // _start has no default value.
   // _size has no default value.
   // _arrayPosition has no default value.
-  // _highestIdx has no default value.
   // _offset has no default value.
-  // _arridx has no default value.
   // _currentVarIndices has no default value.
   { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;modelica_metatype tmp4_3;
+    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
     tmp4_1 = _iCacheLineEntry;
-    tmp4_2 = _iClIdxSize;
-    tmp4_3 = _iPositionMapping;
+    tmp4_2 = _iPositionMapping;
     {
       volatile mmc_switch_type tmp4;
       int tmp5;
@@ -5293,13 +5241,9 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_addCacheLineEntryToV
           modelica_metatype tmpMeta10;
           modelica_integer tmp11;
           modelica_metatype tmpMeta12;
-          modelica_integer tmp13;
-          modelica_metatype tmpMeta14;
-          modelica_integer tmp15;
-          modelica_metatype tmpMeta16;
-          modelica_metatype tmpMeta17;
-          modelica_integer tmp18;
-          modelica_metatype tmpMeta19;
+          modelica_metatype tmpMeta13;
+          modelica_integer tmp14;
+          modelica_metatype tmpMeta15;
           tmpMeta6 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 2));
           tmp7 = mmc_unbox_integer(tmpMeta6);
           tmpMeta8 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 4));
@@ -5307,36 +5251,30 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_addCacheLineEntryToV
           tmpMeta10 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 5));
           tmp11 = mmc_unbox_integer(tmpMeta10);
           tmpMeta12 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_2), 1));
-          tmp13 = mmc_unbox_integer(tmpMeta12);
-          tmpMeta14 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_2), 2));
-          tmp15 = mmc_unbox_integer(tmpMeta14);
-          tmpMeta16 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_3), 1));
-          tmpMeta17 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_3), 2));
+          tmpMeta13 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_2), 2));
           _start = tmp7  /* pattern as ty=Integer */;
           _size = tmp9  /* pattern as ty=Integer */;
           _scVarIdx = tmp11  /* pattern as ty=Integer */;
-          _clIdx = tmp13  /* pattern as ty=Integer */;
-          _clSize = tmp15  /* pattern as ty=Integer */;
-          _varArrayIndexMappingHashTable = tmpMeta16;
-          _varIndexMappingHashTable = tmpMeta17;
+          _varArrayIndexMappingHashTable = tmpMeta12;
+          _varIndexMappingHashTable = tmpMeta13;
           /* Pattern matching succeeded */
           _offset = mmc_unbox_integer(arrayGet(_iVarIdxOffsets, _iArrayIdx));
 
-          tmp18 = _size;
-          if (tmp18 == 0) {goto goto_2;}
-          _arrayPosition = modelica_div_integer(_start,tmp18).quot + _offset;
+          tmp14 = _size;
+          if (tmp14 == 0) {goto goto_2;}
+          _arrayPosition = modelica_div_integer(_start,tmp14).quot + _offset;
 
           _currentVarIndices = arrayCreate(((modelica_integer) 4), mmc_mk_integer(_arrayPosition));
 
-          omc_SimCodeUtil_addVarToArrayIndexMapping(threadData, arrayGet(_iCacheVariables, ((modelica_integer) 1) + arrayLength(_iCacheVariables) - _scVarIdx), _iArrayIdx, _currentVarIndices, _varArrayIndexMappingHashTable, _varIndexMappingHashTable ,&_varArrayIndexMappingHashTable ,&_varIndexMappingHashTable);
-          tmpMeta19 = mmc_mk_box2(0, _varArrayIndexMappingHashTable, _varIndexMappingHashTable);
-          tmpMeta1 = tmpMeta19;
+          omc_SimCodeUtilShared_addVarToArrayIndexMapping(threadData, arrayGet(_iCacheVariables, ((modelica_integer) 1) + arrayLength(_iCacheVariables) - _scVarIdx), _iArrayIdx, _currentVarIndices, _varArrayIndexMappingHashTable, _varIndexMappingHashTable ,&_varArrayIndexMappingHashTable ,&_varIndexMappingHashTable);
+          tmpMeta15 = mmc_mk_box2(0, _varArrayIndexMappingHashTable, _varIndexMappingHashTable);
+          tmpMeta1 = tmpMeta15;
           goto tmp3_done;
         }
         case 1: {
           
           /* Pattern matching succeeded */
-          omc_Error_addMessage(threadData, _OMC_LIT82, _OMC_LIT84);
+          omc_Error_addMessage(threadData, _OMC_LIT81, _OMC_LIT83);
           goto goto_2;
           goto tmp3_done;
         }
@@ -5379,12 +5317,9 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_addCacheLineMapToVar
   modelica_metatype _varArrayIndexMappingHashTable = NULL;
   modelica_metatype _varIndexMappingHashTable = NULL;
   modelica_integer _idx;
-  modelica_integer _arrayIdx;
   modelica_metatype _entries = NULL;
-  modelica_metatype _head = NULL;
   modelica_integer _dataType;
   modelica_integer _size;
-  modelica_metatype _iPositionMappingList = NULL;
   modelica_metatype tmpMeta1;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
@@ -5392,12 +5327,9 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_addCacheLineMapToVar
   // _varArrayIndexMappingHashTable has no default value.
   // _varIndexMappingHashTable has no default value.
   // _idx has no default value.
-  // _arrayIdx has no default value.
   // _entries has no default value.
-  // _head has no default value.
   // _dataType has no default value.
   // _size has no default value.
-  // _iPositionMappingList has no default value.
   { /* match expression */
     modelica_metatype tmp4_1;modelica_metatype tmp4_2;
     tmp4_1 = _iCacheLineMap;
@@ -5469,7 +5401,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_addCacheLineMapToVar
         case 1: {
           
           /* Pattern matching succeeded */
-          omc_Error_addMessage(threadData, _OMC_LIT82, _OMC_LIT86);
+          omc_Error_addMessage(threadData, _OMC_LIT81, _OMC_LIT85);
           goto goto_2;
           goto tmp3_done;
         }
@@ -5511,13 +5443,11 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_convertCacheToVarArr
   modelica_metatype _oVarToIndexMapping = NULL;
   modelica_metatype _oMemoryMap = NULL;
   modelica_integer _cacheLineSize;
-  modelica_integer _highestIdx;
   modelica_integer _maxNumElemsFloat;
   modelica_integer _maxNumElemsInt;
   modelica_integer _maxNumElemsBool;
   modelica_integer _stateAndStateDerSize;
   modelica_metatype _cacheVariables = NULL;
-  modelica_metatype _unusedRealVars = NULL;
   modelica_metatype _cacheVariablesArray = NULL;
   modelica_metatype _cacheLinesFloat = NULL;
   modelica_metatype _cacheLinesInt = NULL;
@@ -5525,12 +5455,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_convertCacheToVarArr
   modelica_metatype _allCacheLines = NULL;
   modelica_metatype _varArrayIndexMappingHashTable = NULL;
   modelica_metatype _varIndexMappingHashTable = NULL;
-  modelica_metatype _positionMappingArray = NULL;
   modelica_integer _varSizeFloat;
   modelica_integer _varSizeInt;
   modelica_integer _varSizeBool;
   modelica_integer _varSizeString;
-  modelica_metatype _positionMappingList = NULL;
   modelica_metatype _varIdxOffsets = NULL;
   modelica_metatype _notOptimizedVarsFloat = NULL;
   modelica_metatype _notOptimizedVarsInt = NULL;
@@ -5544,13 +5472,11 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_convertCacheToVarArr
   // _oVarToIndexMapping has no default value.
   // _oMemoryMap has no default value.
   // _cacheLineSize has no default value.
-  // _highestIdx has no default value.
   // _maxNumElemsFloat has no default value.
   // _maxNumElemsInt has no default value.
   // _maxNumElemsBool has no default value.
   // _stateAndStateDerSize has no default value.
   // _cacheVariables has no default value.
-  // _unusedRealVars has no default value.
   // _cacheVariablesArray has no default value.
   // _cacheLinesFloat has no default value.
   // _cacheLinesInt has no default value.
@@ -5558,12 +5484,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_convertCacheToVarArr
   // _allCacheLines has no default value.
   // _varArrayIndexMappingHashTable has no default value.
   // _varIndexMappingHashTable has no default value.
-  // _positionMappingArray has no default value.
   // _varSizeFloat has no default value.
   // _varSizeInt has no default value.
   // _varSizeBool has no default value.
   // _varSizeString has no default value.
-  // _positionMappingList has no default value.
   // _varIdxOffsets has no default value.
   // _notOptimizedVarsFloat has no default value.
   // _notOptimizedVarsInt has no default value.
@@ -5660,9 +5584,9 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_convertCacheToVarArr
 
           _currentVarIndices = arrayCreate(((modelica_integer) 4), mmc_mk_integer(((modelica_integer) 1)));
 
-          _currentVarIndices = omc_SimCodeUtil_addVarToArrayIndexMappings(threadData, _iStateVars, ((modelica_integer) 1), _currentVarIndices, _varArrayIndexMappingHashTable, _varIndexMappingHashTable ,&_varArrayIndexMappingHashTable ,&_varIndexMappingHashTable);
+          _currentVarIndices = omc_SimCodeUtilShared_addVarToArrayIndexMappings(threadData, _iStateVars, ((modelica_integer) 1), _currentVarIndices, _varArrayIndexMappingHashTable, _varIndexMappingHashTable ,&_varArrayIndexMappingHashTable ,&_varIndexMappingHashTable);
 
-          _currentVarIndices = omc_SimCodeUtil_addVarToArrayIndexMappings(threadData, _iDerivativeVars, ((modelica_integer) 1), _currentVarIndices, _varArrayIndexMappingHashTable, _varIndexMappingHashTable ,&_varArrayIndexMappingHashTable ,&_varIndexMappingHashTable);
+          _currentVarIndices = omc_SimCodeUtilShared_addVarToArrayIndexMappings(threadData, _iDerivativeVars, ((modelica_integer) 1), _currentVarIndices, _varArrayIndexMappingHashTable, _varIndexMappingHashTable ,&_varArrayIndexMappingHashTable ,&_varIndexMappingHashTable);
 
           _stateAndStateDerSize = listLength(_iStateVars) + listLength(_iDerivativeVars);
 
@@ -5712,21 +5636,21 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_convertCacheToVarArr
 
           arrayUpdate(_currentVarIndices, ((modelica_integer) 4), mmc_mk_integer(((modelica_integer) 1)));
 
-          _currentVarIndices = omc_SimCodeUtil_addVarToArrayIndexMappings(threadData, listReverse(_notOptimizedVarsFloat), ((modelica_integer) 1), _currentVarIndices, _varArrayIndexMappingHashTable, _varIndexMappingHashTable ,&_varArrayIndexMappingHashTable ,&_varIndexMappingHashTable);
+          _currentVarIndices = omc_SimCodeUtilShared_addVarToArrayIndexMappings(threadData, listReverse(_notOptimizedVarsFloat), ((modelica_integer) 1), _currentVarIndices, _varArrayIndexMappingHashTable, _varIndexMappingHashTable ,&_varArrayIndexMappingHashTable ,&_varIndexMappingHashTable);
 
-          _currentVarIndices = omc_SimCodeUtil_addVarToArrayIndexMappings(threadData, listReverse(_notOptimizedVarsInt), ((modelica_integer) 2), _currentVarIndices, _varArrayIndexMappingHashTable, _varIndexMappingHashTable ,&_varArrayIndexMappingHashTable ,&_varIndexMappingHashTable);
+          _currentVarIndices = omc_SimCodeUtilShared_addVarToArrayIndexMappings(threadData, listReverse(_notOptimizedVarsInt), ((modelica_integer) 2), _currentVarIndices, _varArrayIndexMappingHashTable, _varIndexMappingHashTable ,&_varArrayIndexMappingHashTable ,&_varIndexMappingHashTable);
 
-          _currentVarIndices = omc_SimCodeUtil_addVarToArrayIndexMappings(threadData, listReverse(_notOptimizedVarsBool), ((modelica_integer) 3), _currentVarIndices, _varArrayIndexMappingHashTable, _varIndexMappingHashTable ,&_varArrayIndexMappingHashTable ,&_varIndexMappingHashTable);
+          _currentVarIndices = omc_SimCodeUtilShared_addVarToArrayIndexMappings(threadData, listReverse(_notOptimizedVarsBool), ((modelica_integer) 3), _currentVarIndices, _varArrayIndexMappingHashTable, _varIndexMappingHashTable ,&_varArrayIndexMappingHashTable ,&_varIndexMappingHashTable);
 
-          _currentVarIndices = omc_SimCodeUtil_addVarToArrayIndexMappings(threadData, listReverse(_notOptimizedVarsString), ((modelica_integer) 4), _currentVarIndices, _varArrayIndexMappingHashTable, _varIndexMappingHashTable ,&_varArrayIndexMappingHashTable ,&_varIndexMappingHashTable);
+          _currentVarIndices = omc_SimCodeUtilShared_addVarToArrayIndexMappings(threadData, listReverse(_notOptimizedVarsString), ((modelica_integer) 4), _currentVarIndices, _varArrayIndexMappingHashTable, _varIndexMappingHashTable ,&_varArrayIndexMappingHashTable ,&_varIndexMappingHashTable);
 
-          _currentVarIndices = omc_SimCodeUtil_addVarToArrayIndexMappings(threadData, _iAliasVars, ((modelica_integer) 1), _currentVarIndices, _varArrayIndexMappingHashTable, _varIndexMappingHashTable ,&_varArrayIndexMappingHashTable ,&_varIndexMappingHashTable);
+          _currentVarIndices = omc_SimCodeUtilShared_addVarToArrayIndexMappings(threadData, _iAliasVars, ((modelica_integer) 1), _currentVarIndices, _varArrayIndexMappingHashTable, _varIndexMappingHashTable ,&_varArrayIndexMappingHashTable ,&_varIndexMappingHashTable);
 
-          _currentVarIndices = omc_SimCodeUtil_addVarToArrayIndexMappings(threadData, _iIntAliasVars, ((modelica_integer) 2), _currentVarIndices, _varArrayIndexMappingHashTable, _varIndexMappingHashTable ,&_varArrayIndexMappingHashTable ,&_varIndexMappingHashTable);
+          _currentVarIndices = omc_SimCodeUtilShared_addVarToArrayIndexMappings(threadData, _iIntAliasVars, ((modelica_integer) 2), _currentVarIndices, _varArrayIndexMappingHashTable, _varIndexMappingHashTable ,&_varArrayIndexMappingHashTable ,&_varIndexMappingHashTable);
 
-          _currentVarIndices = omc_SimCodeUtil_addVarToArrayIndexMappings(threadData, _iBoolAliasVars, ((modelica_integer) 3), _currentVarIndices, _varArrayIndexMappingHashTable, _varIndexMappingHashTable ,&_varArrayIndexMappingHashTable ,&_varIndexMappingHashTable);
+          _currentVarIndices = omc_SimCodeUtilShared_addVarToArrayIndexMappings(threadData, _iBoolAliasVars, ((modelica_integer) 3), _currentVarIndices, _varArrayIndexMappingHashTable, _varIndexMappingHashTable ,&_varArrayIndexMappingHashTable ,&_varIndexMappingHashTable);
 
-          _currentVarIndices = omc_SimCodeUtil_addVarToArrayIndexMappings(threadData, _iStringAliasVars, ((modelica_integer) 4), _currentVarIndices, _varArrayIndexMappingHashTable, _varIndexMappingHashTable ,&_varArrayIndexMappingHashTable ,&_varIndexMappingHashTable);
+          _currentVarIndices = omc_SimCodeUtilShared_addVarToArrayIndexMappings(threadData, _iStringAliasVars, ((modelica_integer) 4), _currentVarIndices, _varArrayIndexMappingHashTable, _varIndexMappingHashTable ,&_varArrayIndexMappingHashTable ,&_varIndexMappingHashTable);
 
           _varSizeFloat = _varSizeFloat + (listLength(_cacheLinesFloat)) * (_maxNumElemsFloat) + listLength(_notOptimizedVarsFloat);
 
@@ -5745,14 +5669,14 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_convertCacheToVarArr
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,1,3) == 0) goto tmp3_end;
           
           /* Pattern matching succeeded */
-          omc_Error_addMessage(threadData, _OMC_LIT82, _OMC_LIT88);
+          omc_Error_addMessage(threadData, _OMC_LIT81, _OMC_LIT87);
           goto goto_2;
           goto tmp3_done;
         }
         case 2: {
           
           /* Pattern matching succeeded */
-          omc_Error_addMessage(threadData, _OMC_LIT82, _OMC_LIT90);
+          omc_Error_addMessage(threadData, _OMC_LIT81, _OMC_LIT89);
           goto goto_2;
           goto tmp3_done;
         }
@@ -6122,7 +6046,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_appendSCVarToCacheMa
   modelica_metatype _cacheMap = NULL;
   modelica_metatype _cacheMapMeta = NULL;
   modelica_metatype _writtenCL = NULL;
-  modelica_string _varText = NULL;
   modelica_metatype _tmpInfo = NULL;
   modelica_metatype tmpMeta1;
   MMC_SO();
@@ -6155,7 +6078,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_appendSCVarToCacheMa
   // _cacheMap has no default value.
   // _cacheMapMeta has no default value.
   // _writtenCL has no default value.
-  // _varText has no default value.
   // _tmpInfo has no default value.
   { /* matchcontinue expression */
     volatile modelica_metatype tmp4_1;
@@ -6532,7 +6454,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_appendSCVarToCacheMa
         case 3: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT91),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT90),stdout);
           tmpMeta1 = _iInfo;
           goto tmp3_done;
         }
@@ -6632,7 +6554,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_HpcOmMemory_appendNodeVarsToCache
         case 2: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT92),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT91),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -6959,7 +6881,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createCacheMapDefaul
       tmpMeta3 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta2), 2));
       _name = tmpMeta3;
 
-      _nameStr = omc_ComponentReference_printComponentRefStr(threadData, _name);
+      _nameStr = omc_ComponentReferenceBasics_printComponentRefStr(threadData, _name);
 
       if(((_currentScVarIdx < arrayLength(_iSimCodeVarTypes)) && (_currentScVarIdx < arrayLength(_iScVarCLMapping))))
       {
@@ -7067,9 +6989,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createCacheMapDefaul
   modelica_metatype _outputVars = NULL;
   modelica_metatype _cacheMap = NULL;
   modelica_metatype _lastCacheLine = NULL;
-  modelica_metatype _lastCacheLineNew = NULL;
   modelica_metatype _scVarCLMapping = NULL;
-  modelica_integer _tmpNumCL;
   modelica_integer _currentScVarIdx;
   modelica_integer _paramVarsStart;
   modelica_integer _aliasVarsStart;
@@ -7103,9 +7023,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createCacheMapDefaul
   // _outputVars has no default value.
   // _cacheMap has no default value.
   // _lastCacheLine has no default value.
-  // _lastCacheLineNew has no default value.
   // _scVarCLMapping has no default value.
-  // _tmpNumCL has no default value.
   // _currentScVarIdx has no default value.
   // _paramVarsStart has no default value.
   // _aliasVarsStart has no default value.
@@ -7185,7 +7103,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createCacheMapDefaul
 
           _stateDerVarsStart = ((modelica_integer) 1) + listLength(_stateVars);
 
-          _scVarCLMapping = arrayCreate(arrayLength(_iAllSCVars), _OMC_LIT93);
+          _scVarCLMapping = arrayCreate(arrayLength(_iAllSCVars), _OMC_LIT92);
 
           tmpMeta20 = MMC_REFSTRUCTLIT(mmc_nil);
           _filledCacheLines = tmpMeta20;
@@ -7286,9 +7204,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createCacheMapDefaul
   modelica_metatype _oCacheMap = NULL;
   modelica_metatype _oScVarCLMapping = NULL;
   modelica_integer _oNumCL;
-  modelica_metatype _iAllFloatVars = NULL;
-  modelica_metatype _cacheLineFloatMaps = NULL;
-  modelica_metatype _tmpScVarCLMapping = NULL;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
@@ -7297,10 +7212,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createCacheMapDefaul
   // _oCacheMap has no default value.
   // _oScVarCLMapping has no default value.
   // _oNumCL has no default value.
-  // _iAllFloatVars has no default value.
-  // _cacheLineFloatMaps has no default value.
-  // _tmpScVarCLMapping has no default value.
-  if((stringEqual(omc_Config_simCodeTarget(threadData), _OMC_LIT94)))
+  if((stringEqual(omc_Config_simCodeTarget(threadData), _OMC_LIT93)))
   {
     _oCacheMap = omc_HpcOmMemory_createCacheMapDefaultCppRuntime(threadData, _iAllSCVars, _iCacheLineSize, _iSimCodeVars, _iScVarTaskMapping, _iSchedulerInfo, _iSimCodeVarTypes ,&_oScVarCLMapping ,&_oNumCL);
   }
@@ -7313,7 +7225,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createCacheMapDefaul
 
     _oNumCL = ((modelica_integer) 0);
 
-    _oScVarCLMapping = arrayCreate(((modelica_integer) 0), _OMC_LIT93);
+    _oScVarCLMapping = arrayCreate(((modelica_integer) 0), _OMC_LIT92);
   }
   _return: OMC_LABEL_UNUSED
   if (out_oScVarCLMapping) { *out_oScVarCLMapping = _oScVarCLMapping; }
@@ -7340,9 +7252,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createCacheMapFromTh
   modelica_metatype _cacheLinesFloat = NULL;
   modelica_metatype _cacheLinesInt = NULL;
   modelica_metatype _cacheLinesBool = NULL;
-  modelica_metatype _threadCacheLinesFloat = NULL;
-  modelica_metatype _threadCacheLinesInt = NULL;
-  modelica_metatype _threadCacheLinesBool = NULL;
   modelica_metatype _fullyFilledSharedCacheLines = NULL;
   modelica_metatype _partlyFilledCacheLines = NULL;
   modelica_metatype _cacheVariables = NULL;
@@ -7364,9 +7273,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createCacheMapFromTh
   // _cacheLinesFloat has no default value.
   // _cacheLinesInt has no default value.
   // _cacheLinesBool has no default value.
-  // _threadCacheLinesFloat has no default value.
-  // _threadCacheLinesInt has no default value.
-  // _threadCacheLinesBool has no default value.
   // _fullyFilledSharedCacheLines has no default value.
   // _partlyFilledCacheLines has no default value.
   // _cacheVariables has no default value.
@@ -7726,7 +7632,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_findMatchingSharedCL
         case 2: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT95),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT94),stdout);
           tmpMeta1 = mmc_mk_none();
           goto tmp3_done;
         }
@@ -8190,22 +8096,16 @@ PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_HpcOmMemory_addVarsToSharedCL
 PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_addVarsToSharedCL(threadData_t *threadData, modelica_metatype _iNodeVars, modelica_fnptr _iSharedClSelectFunction, modelica_fnptr _iFactoryMethod, modelica_integer _iThreadIdx, modelica_metatype _iCompareFuncArgument, modelica_metatype _iSharedCacheLines, modelica_metatype _iInfo)
 {
   modelica_metatype _oInfo = NULL;
-  modelica_metatype _lastCL = NULL;
-  modelica_metatype _cacheVariable = NULL;
   modelica_metatype _allSCVarsMapping = NULL;
   modelica_integer _varIdx;
   modelica_integer _varDataType;
-  modelica_integer _varNumBytesRequired;
   modelica_integer _numOfCLs;
   modelica_integer _cacheLineSize;
   modelica_integer _varSize;
   modelica_metatype _simCodeVarTypes = NULL;
   modelica_metatype _scVarCLMapping = NULL;
-  modelica_metatype _fullCLs = NULL;
-  modelica_metatype _threadCacheLines = NULL;
   modelica_metatype _cacheVariables = NULL;
   modelica_metatype _cacheLinesFloat = NULL;
-  modelica_integer _matchedCacheLineIdx;
   modelica_metatype _cacheMap = NULL;
   modelica_metatype _cacheMapMeta = NULL;
   modelica_metatype _matchedCacheLine = NULL;
@@ -8238,22 +8138,16 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_addVarsToSharedCL(th
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _oInfo has no default value.
-  // _lastCL has no default value.
-  // _cacheVariable has no default value.
   // _allSCVarsMapping has no default value.
   // _varIdx has no default value.
   // _varDataType has no default value.
-  // _varNumBytesRequired has no default value.
   // _numOfCLs has no default value.
   // _cacheLineSize has no default value.
   // _varSize has no default value.
   // _simCodeVarTypes has no default value.
   // _scVarCLMapping has no default value.
-  // _fullCLs has no default value.
-  // _threadCacheLines has no default value.
   // _cacheVariables has no default value.
   // _cacheLinesFloat has no default value.
-  // _matchedCacheLineIdx has no default value.
   // _cacheMap has no default value.
   // _cacheMapMeta has no default value.
   // _matchedCacheLine has no default value.
@@ -8331,27 +8225,29 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_contractCacheLineFor
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
+  modelica_metatype tmpMeta4;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _oContractedCacheLines has no default value.
+  tmpMeta1 = mmc_mk_box3(0, _iCacheLinesFloat, _iCacheLinesInt, _iCacheLinesBool);
+  _oContractedCacheLines = tmpMeta1;
   if((_iVarDataType == ((modelica_integer) 1)))
   {
-    tmpMeta1 = mmc_mk_box3(0, _iVarCacheLines, _iCacheLinesInt, _iCacheLinesBool);
-    _oContractedCacheLines = tmpMeta1;
+    tmpMeta2 = mmc_mk_box3(0, _iVarCacheLines, _iCacheLinesInt, _iCacheLinesBool);
+    _oContractedCacheLines = tmpMeta2;
   }
   else
   {
     if((_iVarDataType == ((modelica_integer) 2)))
     {
-      tmpMeta2 = mmc_mk_box3(0, _iCacheLinesFloat, _iVarCacheLines, _iCacheLinesBool);
-      _oContractedCacheLines = tmpMeta2;
+      tmpMeta3 = mmc_mk_box3(0, _iCacheLinesFloat, _iVarCacheLines, _iCacheLinesBool);
+      _oContractedCacheLines = tmpMeta3;
     }
     else
     {
       if((_iVarDataType == ((modelica_integer) 3)))
       {
-        tmpMeta3 = mmc_mk_box3(0, _iCacheLinesFloat, _iCacheLinesInt, _iVarCacheLines);
-        _oContractedCacheLines = tmpMeta3;
+        tmpMeta4 = mmc_mk_box3(0, _iCacheLinesFloat, _iCacheLinesInt, _iVarCacheLines);
+        _oContractedCacheLines = tmpMeta4;
       }
     }
   }
@@ -8362,6 +8258,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_HpcOmMemory_contractCacheLine
 {
   modelica_integer tmp1;
   modelica_metatype _oContractedCacheLines = NULL;
+  modelica_metatype tmpMeta2;
   tmp1 = mmc_unbox_integer(_iVarDataType);
   _oContractedCacheLines = omc_HpcOmMemory_contractCacheLineForVarType(threadData, tmp1, _iCacheLinesFloat, _iCacheLinesInt, _iCacheLinesBool, _iVarCacheLines);
   /* skip box _oContractedCacheLines; tuple<list<HpcOmMemory.CacheLineMap>, list<HpcOmMemory.CacheLineMap>, list<HpcOmMemory.CacheLineMap>> */
@@ -8386,51 +8283,53 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_getCacheLineForVarTy
   modelica_metatype tmpMeta10;
   modelica_metatype tmpMeta11;
   modelica_metatype tmpMeta12;
+  modelica_metatype tmpMeta13;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _oCacheLinesFloat has no default value.
   // _oCacheLinesInt has no default value.
   // _oCacheLinesBool has no default value.
-  // _oVarCacheLines has no default value.
+  tmpMeta1 = MMC_REFSTRUCTLIT(mmc_nil);
+  _oVarCacheLines = tmpMeta1;
   /* Pattern-matching assignment */
-  tmpMeta1 = _iCacheLinesForTypes;
-  tmpMeta2 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta1), 1));
-  tmpMeta3 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta1), 2));
-  tmpMeta4 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta1), 3));
-  _oCacheLinesFloat = tmpMeta2;
-  _oCacheLinesInt = tmpMeta3;
-  _oCacheLinesBool = tmpMeta4;
+  tmpMeta2 = _iCacheLinesForTypes;
+  tmpMeta3 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta2), 1));
+  tmpMeta4 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta2), 2));
+  tmpMeta5 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta2), 3));
+  _oCacheLinesFloat = tmpMeta3;
+  _oCacheLinesInt = tmpMeta4;
+  _oCacheLinesBool = tmpMeta5;
 
   if((_iVarDataType == ((modelica_integer) 1)))
   {
     /* Pattern-matching assignment */
-    tmpMeta5 = _iCacheLinesForTypes;
-    tmpMeta6 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta5), 1));
-    _oVarCacheLines = tmpMeta6;
+    tmpMeta6 = _iCacheLinesForTypes;
+    tmpMeta7 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta6), 1));
+    _oVarCacheLines = tmpMeta7;
   }
   else
   {
     if((_iVarDataType == ((modelica_integer) 2)))
     {
       /* Pattern-matching assignment */
-      tmpMeta7 = _iCacheLinesForTypes;
-      tmpMeta8 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta7), 2));
-      _oVarCacheLines = tmpMeta8;
+      tmpMeta8 = _iCacheLinesForTypes;
+      tmpMeta9 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta8), 2));
+      _oVarCacheLines = tmpMeta9;
     }
     else
     {
       if((_iVarDataType == ((modelica_integer) 3)))
       {
         /* Pattern-matching assignment */
-        tmpMeta9 = _iCacheLinesForTypes;
-        tmpMeta10 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta9), 3));
-        _oVarCacheLines = tmpMeta10;
+        tmpMeta10 = _iCacheLinesForTypes;
+        tmpMeta11 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta10), 3));
+        _oVarCacheLines = tmpMeta11;
       }
       else
       {
-        tmpMeta11 = stringAppend(_OMC_LIT96,intString(_iVarDataType));
-        tmpMeta12 = stringAppend(tmpMeta11,_OMC_LIT97);
-        fputs(MMC_STRINGDATA(tmpMeta12),stdout);
+        tmpMeta12 = stringAppend(_OMC_LIT95,intString(_iVarDataType));
+        tmpMeta13 = stringAppend(tmpMeta12,_OMC_LIT96);
+        fputs(MMC_STRINGDATA(tmpMeta13),stdout);
       }
     }
   }
@@ -8803,7 +8702,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createVarInfos(threa
   // _numberOfScVars has no default value.
   _numberOfScVars = arrayLength(_iScVarSolvedTaskMapping);
 
-  _tmpVarInfos = arrayCreate(_numberOfScVars, _OMC_LIT98);
+  _tmpVarInfos = arrayCreate(_numberOfScVars, _OMC_LIT97);
 
   tmp1 = ((modelica_integer) 1); tmp2 = 1; tmp3 = _numberOfScVars;
   if(!(((tmp2 > 0) && (tmp1 > tmp3)) || ((tmp2 < 0) && (tmp1 < tmp3))))
@@ -8956,7 +8855,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createCacheMapOptimi
   modelica_integer _numOfCLs;
   modelica_metatype _tmpInfo = NULL;
   modelica_metatype _allSCVarsMapping = NULL;
-  modelica_metatype _varInfo = NULL;
   modelica_metatype tmpMeta1;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
@@ -8971,7 +8869,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createCacheMapOptimi
   // _numOfCLs has no default value.
   // _tmpInfo has no default value.
   // _allSCVarsMapping has no default value.
-  // _varInfo has no default value.
   { /* match expression */
     modelica_metatype tmp4_1;modelica_metatype tmp4_2;
     tmp4_1 = _iTask;
@@ -9044,7 +8941,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createCacheMapOptimi
         case 2: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT99),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT98),stdout);
           tmpMeta1 = _iInfo;
           goto tmp3_done;
         }
@@ -9133,9 +9030,9 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createCacheMapThread
   // _cacheMapMeta has no default value.
   // _scVarCLMapping has no default value.
   // _handledVariables has no default value.
-  _threadCacheLines = arrayCreate(_iNumberOfThreads, _OMC_LIT100);
+  _threadCacheLines = arrayCreate(_iNumberOfThreads, _OMC_LIT99);
 
-  _sharedCacheLines = arrayCreate(_iNumberOfThreads, _OMC_LIT101);
+  _sharedCacheLines = arrayCreate(_iNumberOfThreads, _OMC_LIT100);
 
   _handledVariables = arrayCreate(arrayLength(_iSimCodeVarTypes), mmc_mk_boolean(0 /* false */));
 
@@ -9146,7 +9043,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createCacheMapThread
   tmpMeta5 = mmc_mk_box6(3, &HpcOmMemory_CacheMap_CACHEMAP__desc, mmc_mk_integer(_iCacheLineSize), tmpMeta1, tmpMeta2, tmpMeta3, tmpMeta4);
   _cacheMap = tmpMeta5;
 
-  _scVarCLMapping = arrayCreate(arrayLength(_iAllSCVarsMapping), _OMC_LIT93);
+  _scVarCLMapping = arrayCreate(arrayLength(_iAllSCVarsMapping), _OMC_LIT92);
 
   _oNumCL = ((modelica_integer) 0);
 
@@ -9384,14 +9281,14 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createCacheMapLevelF
           
           _nodeIdc = tmpMeta21;
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT102),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT101),stdout);
           goto goto_2;
           goto tmp3_done;
         }
         case 2: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT103),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT102),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -9445,16 +9342,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createCacheMapLevelF
   modelica_integer _cacheLineSize;
   modelica_integer _level;
   modelica_metatype _allCL = NULL;
-  modelica_metatype _availableCL = NULL;
-  modelica_metatype _availableCLold = NULL;
-  modelica_metatype _writtenCL = NULL;
-  modelica_metatype _cacheLinesPrevLevel = NULL;
   modelica_metatype _cacheMap = NULL;
   modelica_metatype _cacheMapMeta = NULL;
   modelica_metatype _cacheLinesFloat = NULL;
-  modelica_metatype _sharedCacheLines = NULL;
   modelica_metatype _cacheVariables = NULL;
-  modelica_metatype _cacheLinesAvailableForLevel = NULL;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
@@ -9486,16 +9377,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createCacheMapLevelF
   // _cacheLineSize has no default value.
   // _level has no default value.
   // _allCL has no default value.
-  // _availableCL has no default value.
-  // _availableCLold has no default value.
-  // _writtenCL has no default value.
-  // _cacheLinesPrevLevel has no default value.
   // _cacheMap has no default value.
   // _cacheMapMeta has no default value.
   // _cacheLinesFloat has no default value.
-  // _sharedCacheLines has no default value.
   // _cacheVariables has no default value.
-  // _cacheLinesAvailableForLevel has no default value.
   /* Pattern-matching assignment */
   tmpMeta1 = _iInfo;
   tmpMeta2 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta1), 1));
@@ -9620,15 +9505,15 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createCacheMapLevelF
   tmpMeta5 = mmc_mk_box6(3, &HpcOmMemory_CacheMap_CACHEMAP__desc, mmc_mk_integer(_iCacheLineSize), tmpMeta1, tmpMeta2, tmpMeta3, tmpMeta4);
   _cacheMap = tmpMeta5;
 
-  _scVarCLMapping = arrayCreate(arrayLength(_iAllSCVarsMapping), _OMC_LIT93);
+  _scVarCLMapping = arrayCreate(arrayLength(_iAllSCVarsMapping), _OMC_LIT92);
 
   _handledVariables = arrayCreate(arrayLength(_iSimCodeVarTypes), mmc_mk_boolean(0 /* false */));
 
   _oNumCL = ((modelica_integer) 0);
 
-  _threadCacheLines = arrayCreate(_iNumberOfThreads, _OMC_LIT100);
+  _threadCacheLines = arrayCreate(_iNumberOfThreads, _OMC_LIT99);
 
-  _sharedCacheLines = arrayCreate(_iNumberOfThreads, _OMC_LIT101);
+  _sharedCacheLines = arrayCreate(_iNumberOfThreads, _OMC_LIT100);
 
   tmpMeta6 = mmc_mk_box4(3, &HpcOmMemory_CacheMapMeta_CACHEMAPMETA__desc, _iAllSCVarsMapping, _iSimCodeVarTypes, _scVarCLMapping);
   _cacheMapMeta = tmpMeta6;
@@ -9722,7 +9607,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createCacheMapLevelO
         case 1: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT103),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT102),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -9866,7 +9751,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createCacheMapLevelO
   modelica_metatype _cacheMapMeta = NULL;
   modelica_integer _numCL;
   modelica_metatype _scVarCLMapping = NULL;
-  modelica_metatype _threadCacheLines = NULL;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
@@ -9891,7 +9775,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createCacheMapLevelO
   // _cacheMapMeta has no default value.
   // _numCL has no default value.
   // _scVarCLMapping has no default value.
-  // _threadCacheLines has no default value.
   tmpMeta1 = MMC_REFSTRUCTLIT(mmc_nil);
   tmpMeta2 = MMC_REFSTRUCTLIT(mmc_nil);
   tmpMeta3 = MMC_REFSTRUCTLIT(mmc_nil);
@@ -9899,7 +9782,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createCacheMapLevelO
   tmpMeta5 = mmc_mk_box6(3, &HpcOmMemory_CacheMap_CACHEMAP__desc, mmc_mk_integer(_iCacheLineSize), tmpMeta1, tmpMeta2, tmpMeta3, tmpMeta4);
   _cacheMap = tmpMeta5;
 
-  _scVarCLMapping = arrayCreate(arrayLength(_iAllSCVarsMapping), _OMC_LIT93);
+  _scVarCLMapping = arrayCreate(arrayLength(_iAllSCVarsMapping), _OMC_LIT92);
 
   _numCL = ((modelica_integer) 0);
 
@@ -9993,7 +9876,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createCacheMapOptimi
           if (1 /* true */ != tmp8) goto tmp3_end;
           _tasksOfLevels = tmpMeta6;
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT104),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT103),stdout);
 
           _scheduleInfo = omc_HpcOmScheduler_convertScheduleStrucToInfo(threadData, _iSchedule, arrayLength(_iTaskGraph));
           tmpMeta[0+0] = omc_HpcOmMemory_createCacheMapLevelFixedOptimized(threadData, _iTaskGraph, _iTaskGraphMeta, _iAllSCVarsMapping, _iSimCodeVarTypes, _iScVarSolvedTaskMapping, _iScVarUnsolvedTaskMapping, _iCacheLineSize, _iAllComponents, _tasksOfLevels, _iNumberOfThreads, _scheduleInfo, _iTaskSolvedVarsMapping, _iTaskUnsolvedVarsMapping, _iScVarInfos, &tmpMeta[0+1], &tmp1_c2);
@@ -10006,7 +9889,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createCacheMapOptimi
           
           _threadTasks = tmpMeta9;
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT105),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT104),stdout);
 
           _scheduleInfo = omc_HpcOmScheduler_convertScheduleStrucToInfo(threadData, _iSchedule, arrayLength(_iTaskGraph));
           tmpMeta[0+0] = omc_HpcOmMemory_createCacheMapThreadOptimized(threadData, _iTaskGraph, _iTaskGraphMeta, _iAllSCVarsMapping, _iSimCodeVarTypes, _iScVarSolvedTaskMapping, _iScVarUnsolvedTaskMapping, _iCacheLineSize, _iAllComponents, _threadTasks, _iNumberOfThreads, _scheduleInfo, _iTaskSolvedVarsMapping, _iTaskUnsolvedVarsMapping, _iScVarInfos, &tmpMeta[0+1], &tmp1_c2);
@@ -10022,7 +9905,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createCacheMapOptimi
           
           _allTasks = tmpMeta11;
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT106),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT105),stdout);
 
           _threadTasks = arrayCreate(((modelica_integer) 1), _allTasks);
 
@@ -10033,7 +9916,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_HpcOmMemory_createCacheMapOptimi
         case 3: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT107),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT106),stdout);
           tmpMeta[0+0] = omc_HpcOmMemory_createCacheMapDefault(threadData, _iAllSCVarsMapping, _iCacheLineSize, _iSimCodeVars, _iScVarSolvedTaskMapping, _iSchedulerInfo, _iSimCodeVarTypes, &tmpMeta[0+1], &tmp1_c2);
           goto tmp3_done;
         }
@@ -10178,7 +10061,6 @@ modelica_metatype omc_HpcOmMemory_createMemoryMap(threadData_t *threadData, mode
   modelica_metatype _notOptimizedVars = NULL;
   modelica_metatype _allVarsMapping = NULL;
   modelica_metatype _simVarIdxMappingHashTable = NULL;
-  modelica_integer _numScVars;
   modelica_integer _numCL;
   modelica_integer _threadAttIdx;
   modelica_metatype _clTaskMapping = NULL;
@@ -10187,7 +10069,6 @@ modelica_metatype omc_HpcOmMemory_createMemoryMap(threadData_t *threadData, mode
   modelica_metatype _scVarUnsolvedTaskMapping = NULL;
   modelica_metatype _annotInfo = NULL;
   modelica_metatype _scVarCLMapping = NULL;
-  modelica_metatype _memoryPositionMapping = NULL;
   modelica_metatype _cacheMap = NULL;
   modelica_integer _graphIdx;
   modelica_metatype _graphInfo = NULL;
@@ -10264,7 +10145,6 @@ modelica_metatype omc_HpcOmMemory_createMemoryMap(threadData_t *threadData, mode
   // _notOptimizedVars has no default value.
   // _allVarsMapping has no default value.
   // _simVarIdxMappingHashTable has no default value.
-  // _numScVars has no default value.
   // _numCL has no default value.
   // _threadAttIdx has no default value.
   // _clTaskMapping has no default value.
@@ -10273,7 +10153,6 @@ modelica_metatype omc_HpcOmMemory_createMemoryMap(threadData_t *threadData, mode
   // _scVarUnsolvedTaskMapping has no default value.
   // _annotInfo has no default value.
   // _scVarCLMapping has no default value.
-  // _memoryPositionMapping has no default value.
   // _cacheMap has no default value.
   // _graphIdx has no default value.
   // _graphInfo has no default value.
@@ -10565,7 +10444,7 @@ modelica_metatype omc_HpcOmMemory_createMemoryMap(threadData_t *threadData, mode
 
           _varCount = _varCount + _stringParamVarsCnt;
 
-          _simCodeVarTypes = arrayCreate(_varCount, _OMC_LIT108);
+          _simCodeVarTypes = arrayCreate(_varCount, _OMC_LIT107);
 
           _varCount = ((modelica_integer) 0);
 
@@ -10698,7 +10577,7 @@ modelica_metatype omc_HpcOmMemory_createMemoryMap(threadData_t *threadData, mode
 
           _scVarInfos = omc_HpcOmMemory_createVarInfos(threadData, _scVarSolvedTaskMapping, _scVarUnsolvedTaskMapping, _iSchedulerInfo);
 
-          if(omc_Flags_isSet(threadData, _OMC_LIT112))
+          if(omc_Flags_isSet(threadData, _OMC_LIT110))
           {
             _cacheMap = omc_HpcOmMemory_createCacheMapOptimized(threadData, _iTaskGraph, _iTaskGraphMeta, _simCodeVars, _allVarsMapping, _simCodeVarTypes, _scVarSolvedTaskMapping, _scVarUnsolvedTaskMapping, _CACHELINE_SIZE, _iAllComponents, _iSchedule, _iSchedulerInfo, _iNumberOfThreads, _taskSolvedVarsMapping, _taskUnsolvedVarsMapping, _scVarInfos ,&_scVarCLMapping ,&_numCL);
           }
@@ -10734,42 +10613,42 @@ modelica_metatype omc_HpcOmMemory_createMemoryMap(threadData_t *threadData, mode
           _graphInfo = omc_GraphML_createGraphInfo(threadData);
 
           /* Pattern-matching tuple assignment */
-          tmpMeta57 = omc_GraphML_addGraph(threadData, _OMC_LIT113, 1 /* true */, _graphInfo, &tmpMeta54);
+          tmpMeta57 = omc_GraphML_addGraph(threadData, _OMC_LIT111, 1 /* true */, _graphInfo, &tmpMeta54);
           _graphInfo = tmpMeta57;
           tmpMeta55 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta54), 2));
           tmp56 = mmc_unbox_integer(tmpMeta55);
           _graphIdx = tmp56  /* pattern as ty=Integer */;
 
           /* Pattern-matching tuple assignment */
-          tmpMeta61 = omc_GraphML_addGroupNode(threadData, _OMC_LIT114, _graphIdx, 0 /* false */, _OMC_LIT115, _graphInfo, NULL, &tmpMeta58);
+          tmpMeta61 = omc_GraphML_addGroupNode(threadData, _OMC_LIT112, _graphIdx, 0 /* false */, _OMC_LIT113, _graphInfo, NULL, &tmpMeta58);
           _graphInfo = tmpMeta61;
           tmpMeta59 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta58), 2));
           tmp60 = mmc_unbox_integer(tmpMeta59);
           _graphIdx = tmp60  /* pattern as ty=Integer */;
 
-          _annotInfo = arrayCreate(arrayLength(_iTaskGraph), _OMC_LIT116);
+          _annotInfo = arrayCreate(arrayLength(_iTaskGraph), _OMC_LIT114);
 
-          _graphInfo = omc_HpcOmTaskGraph_convertToGraphMLSccLevelSubgraph(threadData, _iTaskGraph, _iTaskGraphMeta, _iCriticalPathInfo, omc_HpcOmTaskGraph_convertNodeListToEdgeTuples(threadData, listHead(_iCriticalPaths)), omc_HpcOmTaskGraph_convertNodeListToEdgeTuples(threadData, listHead(_iCriticalPathsWoC)), _iSccSimEqMapping, _iSchedulerInfo, _annotInfo, _graphIdx, _OMC_LIT117, _graphInfo);
+          _graphInfo = omc_HpcOmTaskGraph_convertToGraphMLSccLevelSubgraph(threadData, _iTaskGraph, _iTaskGraphMeta, _iCriticalPathInfo, omc_HpcOmTaskGraph_convertNodeListToEdgeTuples(threadData, listHead(_iCriticalPaths)), omc_HpcOmTaskGraph_convertNodeListToEdgeTuples(threadData, listHead(_iCriticalPathsWoC)), _iSccSimEqMapping, _iSchedulerInfo, _annotInfo, _graphIdx, _OMC_LIT115, _graphInfo);
 
           /* Pattern-matching assignment */
-          tmpMeta62 = omc_GraphML_getAttributeByNameAndTarget(threadData, _OMC_LIT118, _OMC_LIT119, _graphInfo);
+          tmpMeta62 = omc_GraphML_getAttributeByNameAndTarget(threadData, _OMC_LIT116, _OMC_LIT117, _graphInfo);
           if (optionNone(tmpMeta62)) goto goto_2;
           tmpMeta63 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta62), 1));
           tmpMeta64 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta63), 2));
           tmp65 = mmc_unbox_integer(tmpMeta64);
           _threadAttIdx = tmp65  /* pattern as ty=Integer */;
 
-          omc_BackendDAEUtil_getAdjacencyMatrix(threadData, listHead(_iEqSystems), _OMC_LIT120, mmc_mk_none(), _isInitial ,&_adjacencyMatrix ,NULL);
+          omc_BackendDAEUtil_getAdjacencyMatrix(threadData, listHead(_iEqSystems), _OMC_LIT118, mmc_mk_none(), _isInitial ,&_adjacencyMatrix ,NULL);
 
           _graphInfo = omc_HpcOmMemory_appendCacheLinesToGraph(threadData, _cacheMap, arrayLength(_iTaskGraph), _eqSimCodeVarMapping, _iEqSystems, _simVarIdxMappingHashTable, _eqCompMapping, _scVarSolvedTaskMapping, _iSchedulerInfo, _threadAttIdx, _sccNodeMapping, _taskSolvedVarsMapping, _taskUnsolvedVarsMapping, _scVarCLMapping, _scVarInfos, _graphInfo);
 
-          tmpMeta66 = stringAppend(_OMC_LIT121,_iFileNamePrefix);
-          tmpMeta67 = stringAppend(tmpMeta66,_OMC_LIT122);
+          tmpMeta66 = stringAppend(_OMC_LIT119,_iFileNamePrefix);
+          tmpMeta67 = stringAppend(tmpMeta66,_OMC_LIT120);
           _fileName = tmpMeta67;
 
           omc_GraphML_dumpGraph(threadData, _graphInfo, _fileName);
 
-          if(omc_Flags_isSet(threadData, _OMC_LIT112))
+          if(omc_Flags_isSet(threadData, _OMC_LIT110))
           {
             tmpMeta68 = mmc_mk_box3(0, mmc_mk_integer(_VARSIZE_FLOAT), mmc_mk_integer(_VARSIZE_INTEGER), mmc_mk_integer(_VARSIZE_BOOLEAN));
             tmpMeta69 = mmc_mk_box4(0, _notOptimizedVarsFloat, _notOptimizedVarsInt, _notOptimizedVarsBool, _notOptimizedVarsString);
@@ -10785,18 +10664,18 @@ modelica_metatype omc_HpcOmMemory_createMemoryMap(threadData_t *threadData, mode
           _graphInfo = omc_GraphML_createGraphInfo(threadData);
 
           /* Pattern-matching tuple assignment */
-          tmpMeta73 = omc_GraphML_addGraph(threadData, _OMC_LIT113, 1 /* true */, _graphInfo, &tmpMeta70);
+          tmpMeta73 = omc_GraphML_addGraph(threadData, _OMC_LIT111, 1 /* true */, _graphInfo, &tmpMeta70);
           _graphInfo = tmpMeta73;
           tmpMeta71 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta70), 2));
           tmp72 = mmc_unbox_integer(tmpMeta71);
           _graphIdx = tmp72  /* pattern as ty=Integer */;
 
-          _annotInfo = arrayCreate(arrayLength(_iTaskGraph), _OMC_LIT116);
+          _annotInfo = arrayCreate(arrayLength(_iTaskGraph), _OMC_LIT114);
 
-          _graphInfo = omc_HpcOmTaskGraph_convertToGraphMLSccLevelSubgraph(threadData, _iTaskGraph, _iTaskGraphMeta, _iCriticalPathInfo, omc_HpcOmTaskGraph_convertNodeListToEdgeTuples(threadData, listHead(_iCriticalPaths)), omc_HpcOmTaskGraph_convertNodeListToEdgeTuples(threadData, listHead(_iCriticalPathsWoC)), _iSccSimEqMapping, _iSchedulerInfo, _annotInfo, _graphIdx, _OMC_LIT117, _graphInfo);
+          _graphInfo = omc_HpcOmTaskGraph_convertToGraphMLSccLevelSubgraph(threadData, _iTaskGraph, _iTaskGraphMeta, _iCriticalPathInfo, omc_HpcOmTaskGraph_convertNodeListToEdgeTuples(threadData, listHead(_iCriticalPaths)), omc_HpcOmTaskGraph_convertNodeListToEdgeTuples(threadData, listHead(_iCriticalPathsWoC)), _iSccSimEqMapping, _iSchedulerInfo, _annotInfo, _graphIdx, _OMC_LIT115, _graphInfo);
 
           /* Pattern-matching assignment */
-          tmpMeta74 = omc_GraphML_getAttributeByNameAndTarget(threadData, _OMC_LIT118, _OMC_LIT119, _graphInfo);
+          tmpMeta74 = omc_GraphML_getAttributeByNameAndTarget(threadData, _OMC_LIT116, _OMC_LIT117, _graphInfo);
           if (optionNone(tmpMeta74)) goto goto_2;
           tmpMeta75 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta74), 1));
           tmpMeta76 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta75), 2));
@@ -10805,8 +10684,8 @@ modelica_metatype omc_HpcOmMemory_createMemoryMap(threadData_t *threadData, mode
 
           _graphInfo = omc_HpcOmMemory_appendVariablesToGraph(threadData, _taskSolvedVarsMapping, _taskUnsolvedVarsMapping, arrayLength(_scVarSolvedTaskMapping), _graphIdx, _threadAttIdx, _simVarIdxMappingHashTable, _allVarsMapping, _scVarInfos, _graphInfo);
 
-          tmpMeta78 = stringAppend(_OMC_LIT121,_iFileNamePrefix);
-          tmpMeta79 = stringAppend(tmpMeta78,_OMC_LIT123);
+          tmpMeta78 = stringAppend(_OMC_LIT119,_iFileNamePrefix);
+          tmpMeta79 = stringAppend(tmpMeta78,_OMC_LIT121);
           _fileName = tmpMeta79;
 
           omc_GraphML_dumpGraph(threadData, _graphInfo, _fileName);
@@ -10818,7 +10697,7 @@ modelica_metatype omc_HpcOmMemory_createMemoryMap(threadData_t *threadData, mode
         case 1: {
           
           /* Pattern matching succeeded */
-          omc_Error_addInternalError(threadData, _OMC_LIT124, _OMC_LIT125);
+          omc_Error_addInternalError(threadData, _OMC_LIT122, _OMC_LIT123);
           tmpMeta[0+0] = mmc_mk_none();
           tmpMeta[0+1] = _iVarToArrayIndexMapping;
           tmpMeta[0+2] = _iVarToIndexMapping;

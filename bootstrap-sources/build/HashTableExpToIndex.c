@@ -14,7 +14,7 @@ modelica_metatype omc_HashTableExpToIndex_emptyHashTableSized(threadData_t *thre
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _hashTable has no default value.
-  tmpMeta1 = mmc_mk_box4(0, boxvar_Expression_hashExp, boxvar_Expression_expEqual, boxvar_ExpressionDump_printExpStr, boxvar_intString);
+  tmpMeta1 = mmc_mk_box4(0, boxvar_ExpressionBasics_hashExp, boxvar_ExpressionBasics_expEqual, boxvar_ExpressionBasics_printExpStr, boxvar_intString);
   _hashTable = omc_BaseHashTable_emptyHashTableWork(threadData, _size, tmpMeta1);
   _return: OMC_LABEL_UNUSED
   return _hashTable;

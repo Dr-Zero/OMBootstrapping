@@ -28,10 +28,6 @@ extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
-
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
@@ -79,6 +75,13 @@ DLLDirection
 void boxptr_Error_assertionOrAddSourceMessage(threadData_t *threadData, modelica_metatype _inCond, modelica_metatype _inErrorMsg, modelica_metatype _inMessageTokens, modelica_metatype _inInfo);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Error_assertionOrAddSourceMessage,2,0) {(void*) boxptr_Error_assertionOrAddSourceMessage,0}};
 #define boxvar_Error_assertionOrAddSourceMessage MMC_REFSTRUCTLIT(boxvar_lit_Error_assertionOrAddSourceMessage)
+
+
+DLLDirection
+void omc_Error_terminate(threadData_t *threadData, modelica_string _message, modelica_metatype _info);
+#define boxptr_Error_terminate omc_Error_terminate
+static const MMC_DEFSTRUCTLIT(boxvar_lit_Error_terminate,2,0) {(void*) boxptr_Error_terminate,0}};
+#define boxvar_Error_terminate MMC_REFSTRUCTLIT(boxvar_lit_Error_terminate)
 
 
 DLLDirection
@@ -262,10 +265,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_Error_getCurrentComponent,2,0) {(void*)
 
 
 DLLDirection
-void omc_Error_updateCurrentComponent(threadData_t *threadData, modelica_metatype _cpre, modelica_string _component, modelica_metatype _info, modelica_fnptr _func);
+void omc_Error_updateCurrentComponent(threadData_t *threadData, modelica_string _component, modelica_metatype _info, modelica_fnptr _func);
 #define boxptr_Error_updateCurrentComponent omc_Error_updateCurrentComponent
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Error_updateCurrentComponent,2,0) {(void*) boxptr_Error_updateCurrentComponent,0}};
 #define boxvar_Error_updateCurrentComponent MMC_REFSTRUCTLIT(boxvar_lit_Error_updateCurrentComponent)
+
+
+#define boxptr_Error_clearCurrentComponent_dummy omc_Error_clearCurrentComponent_dummy
 
 
 DLLDirection

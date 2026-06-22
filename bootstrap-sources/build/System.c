@@ -9,12 +9,12 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT1,2,_OMC_LIT1_data);
 #define _OMC_LIT2_data "System.realpath failed for "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT2,27,_OMC_LIT2_data);
 #define _OMC_LIT2 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT2)
-#define _OMC_LIT3_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/Util/System.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT3,67,_OMC_LIT3_data);
+#define _OMC_LIT3_data "/projects/OpenModelica-session2/OMCompiler/Compiler/Util/System.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT3,66,_OMC_LIT3_data);
 #define _OMC_LIT3 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT3)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT4_6,1.770631566e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT4_6,1.781983298e9);
 #define _OMC_LIT4_6 MMC_REFREALLIT(_OMC_LIT_STRUCT4_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT4,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT3,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1206)),MMC_IMMEDIATE(MMC_TAGFIXNUM(5)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1206)),MMC_IMMEDIATE(MMC_TAGFIXNUM(84)),_OMC_LIT4_6}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT4,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT3,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1197)),MMC_IMMEDIATE(MMC_TAGFIXNUM(5)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1197)),MMC_IMMEDIATE(MMC_TAGFIXNUM(84)),_OMC_LIT4_6}};
 #define _OMC_LIT4 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT4)
 #define _OMC_LIT5_data ""
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT5,0,_OMC_LIT5_data);
@@ -651,24 +651,6 @@ modelica_string omc_System_anyStringCode(threadData_t *threadData, modelica_meta
   _str_ext = anyStringCode(_any_ext);
   _str = (modelica_string)mmc_mk_scon(_str_ext);
   return _str;
-}
-
-modelica_string omc_System_gettext(threadData_t *threadData, modelica_string _msgid)
-{
-  const char* _msgstr_ext;
-  modelica_string _msgstr = NULL;
-  // _msgstr has no default value.
-
-  _msgstr_ext = SystemImpl__gettext(MMC_STRINGDATA(_msgid));
-  _msgstr = (modelica_string)mmc_mk_scon(_msgstr_ext);
-  return _msgstr;
-}
-
-void omc_System_gettextInit(threadData_t *threadData, modelica_string _locale)
-{
-
-  SystemImpl__gettextInit(MMC_STRINGDATA(_locale));
-  return;
 }
 
 PROTECTED_FUNCTION_STATIC modelica_integer omc_System_intRandom0(threadData_t *threadData)

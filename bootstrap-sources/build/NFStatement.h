@@ -199,6 +199,14 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStatement_makeIf,2,0) {(void*) boxptr
 
 
 DLLDirection
+modelica_boolean omc_NFStatement_isReturn(threadData_t *threadData, modelica_metatype _stmt);
+DLLDirection
+modelica_metatype boxptr_NFStatement_isReturn(threadData_t *threadData, modelica_metatype _stmt);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStatement_isReturn,2,0) {(void*) boxptr_NFStatement_isReturn,0}};
+#define boxvar_NFStatement_isReturn MMC_REFSTRUCTLIT(boxvar_lit_NFStatement_isReturn)
+
+
+DLLDirection
 modelica_boolean omc_NFStatement_isFor(threadData_t *threadData, modelica_metatype _stmt);
 DLLDirection
 modelica_metatype boxptr_NFStatement_isFor(threadData_t *threadData, modelica_metatype _stmt);
@@ -227,6 +235,14 @@ DLLDirection
 modelica_metatype boxptr_NFStatement_isEqual(threadData_t *threadData, modelica_metatype _stmt1, modelica_metatype _stmt2);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStatement_isEqual,2,0) {(void*) boxptr_NFStatement_isEqual,0}};
 #define boxvar_NFStatement_isEqual MMC_REFSTRUCTLIT(boxvar_lit_NFStatement_isEqual)
+
+
+DLLDirection
+modelica_integer omc_NFStatement_hash(threadData_t *threadData, modelica_metatype _stmt);
+DLLDirection
+modelica_metatype boxptr_NFStatement_hash(threadData_t *threadData, modelica_metatype _stmt);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStatement_hash,2,0) {(void*) boxptr_NFStatement_hash,0}};
+#define boxvar_NFStatement_hash MMC_REFSTRUCTLIT(boxvar_lit_NFStatement_hash)
 
 
 DLLDirection

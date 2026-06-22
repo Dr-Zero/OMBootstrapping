@@ -123,12 +123,12 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT39,4,_OMC_LIT39_data);
 #define _OMC_LIT40_data "SerializeInitXML.scalarVariableType: "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT40,37,_OMC_LIT40_data);
 #define _OMC_LIT40 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT40)
-#define _OMC_LIT41_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/SimCode/SerializeInitXML.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT41,80,_OMC_LIT41_data);
+#define _OMC_LIT41_data "/projects/OpenModelica-session2/OMCompiler/Compiler/SimCode/SerializeInitXML.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT41,79,_OMC_LIT41_data);
 #define _OMC_LIT41 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT41)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT42_6,1.770631566e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT42_6,1.781983298e9);
 #define _OMC_LIT42_6 MMC_REFREALLIT(_OMC_LIT_STRUCT42_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT42,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT41,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(472)),MMC_IMMEDIATE(MMC_TAGFIXNUM(7)),MMC_IMMEDIATE(MMC_TAGFIXNUM(472)),MMC_IMMEDIATE(MMC_TAGFIXNUM(98)),_OMC_LIT42_6}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT42,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT41,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(480)),MMC_IMMEDIATE(MMC_TAGFIXNUM(7)),MMC_IMMEDIATE(MMC_TAGFIXNUM(480)),MMC_IMMEDIATE(MMC_TAGFIXNUM(102)),_OMC_LIT42_6}};
 #define _OMC_LIT42 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT42)
 #define _OMC_LIT43_data "    name = \""
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT43,12,_OMC_LIT43_data);
@@ -615,17 +615,17 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_SerializeInitXML_expString(threadD
           /* Check guard condition after assignments */
           if (!omc_Expression_isSimpleLiteralValue(threadData, _exp, 1 /* true */)) goto tmp3_end;
           {
-            modelica_metatype __omcQ_24tmpVar3;
+            modelica_metatype __omcQ_24tmpVar1;
             modelica_metatype* tmp7;
             modelica_metatype tmpMeta8;
-            modelica_string __omcQ_24tmpVar2;
+            modelica_string __omcQ_24tmpVar0;
             modelica_integer tmp9;
             modelica_metatype _e_loopVar = 0;
             modelica_metatype _e;
             _e_loopVar = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_exp), 4)));
             tmpMeta8 = MMC_REFSTRUCTLIT(mmc_nil);
-            __omcQ_24tmpVar3 = tmpMeta8; /* defaultValue */
-            tmp7 = &__omcQ_24tmpVar3;
+            __omcQ_24tmpVar1 = tmpMeta8; /* defaultValue */
+            tmp7 = &__omcQ_24tmpVar1;
             while(1) {
               tmp9 = 1;
               if (!listEmpty(_e_loopVar)) {
@@ -634,8 +634,8 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_SerializeInitXML_expString(threadD
                 tmp9--;
               }
               if (tmp9 == 0) {
-                __omcQ_24tmpVar2 = omc_SerializeInitXML_expString(threadData, _e);
-                *tmp7 = mmc_mk_cons(__omcQ_24tmpVar2,0);
+                __omcQ_24tmpVar0 = omc_SerializeInitXML_expString(threadData, _e);
+                *tmp7 = mmc_mk_cons(__omcQ_24tmpVar0,0);
                 tmp7 = &MMC_CDR(*tmp7);
               } else if (tmp9 == 1) {
                 break;
@@ -644,7 +644,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_SerializeInitXML_expString(threadD
               }
             }
             *tmp7 = mmc_mk_nil();
-            tmpMeta6 = __omcQ_24tmpVar3;
+            tmpMeta6 = __omcQ_24tmpVar1;
           }
           tmp1 = stringDelimitList(tmpMeta6, _OMC_LIT2);
           goto tmp3_done;
@@ -1038,11 +1038,9 @@ PROTECTED_FUNCTION_STATIC void boxptr_SerializeInitXML_scalarVariableTypeFixedAt
 
 PROTECTED_FUNCTION_STATIC void omc_SerializeInitXML_scalarVariableTypeUseAttribute(threadData_t *threadData, modelica_complex _file, modelica_metatype _attr, modelica_string _use, modelica_string _name)
 {
-  modelica_string _expStr = NULL;
   modelica_string tmp1;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _expStr has no default value.
   omc_File_write(threadData, _file, _OMC_LIT2);
 
   omc_File_write(threadData, _file, _use);
@@ -1195,7 +1193,7 @@ PROTECTED_FUNCTION_STATIC void omc_SerializeInitXML_scalarVariableType(threadDat
           modelica_metatype tmpMeta7;
           
           /* Pattern matching succeeded */
-          tmpMeta7 = stringAppend(_OMC_LIT40,omc_Types_unparseType(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_v), 13)))));
+          tmpMeta7 = stringAppend(_OMC_LIT40,omc_TypesDump_unparseType(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_v), 13)))));
           omc_Error_addInternalError(threadData, tmpMeta7, _OMC_LIT42);
           goto goto_1;
           goto tmp2_done;

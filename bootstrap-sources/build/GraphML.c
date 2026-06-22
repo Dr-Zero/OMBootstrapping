@@ -63,9 +63,6 @@ PROTECTED_FUNCTION_STATIC void omc_GraphML_printNode(threadData_t *threadData, m
 {
   modelica_string _id = NULL;
   modelica_string _atts = NULL;
-  modelica_string _color = NULL;
-  modelica_metatype _nodeLabels = NULL;
-  modelica_metatype _shapeType = NULL;
   modelica_metatype _optDesc = NULL;
   modelica_metatype _attValues = NULL;
   modelica_metatype tmpMeta1;
@@ -82,9 +79,6 @@ PROTECTED_FUNCTION_STATIC void omc_GraphML_printNode(threadData_t *threadData, m
   _tailrecursive: OMC_LABEL_UNUSED
   // _id has no default value.
   // _atts has no default value.
-  // _color has no default value.
-  // _nodeLabels has no default value.
-  // _shapeType has no default value.
   // _optDesc has no default value.
   // _attValues has no default value.
   /* Pattern-matching assignment */
@@ -117,8 +111,6 @@ void omc_GraphML_printGraphInfo(threadData_t *threadData, modelica_metatype _iGr
   modelica_integer _graphCount;
   modelica_metatype _nodes = NULL;
   modelica_integer _nodeCount;
-  modelica_metatype _edges = NULL;
-  modelica_integer _edgeCount;
   modelica_metatype _attributes = NULL;
   modelica_string _graphNodeKey = NULL;
   modelica_string _graphEdgeKey = NULL;
@@ -142,8 +134,6 @@ void omc_GraphML_printGraphInfo(threadData_t *threadData, modelica_metatype _iGr
   // _graphCount has no default value.
   // _nodes has no default value.
   // _nodeCount has no default value.
-  // _edges has no default value.
-  // _edgeCount has no default value.
   // _attributes has no default value.
   // _graphNodeKey has no default value.
   // _graphEdgeKey has no default value.
@@ -599,7 +589,6 @@ modelica_metatype omc_GraphML_addGraphAttributeValue(threadData_t *threadData, m
   modelica_metatype _iGraph = NULL;
   modelica_string _gid = NULL;
   modelica_boolean _directed;
-  modelica_integer _newGraphIdx;
   modelica_metatype _nodeIdc = NULL;
   modelica_metatype _attValues = NULL;
   modelica_metatype tmpMeta1;
@@ -639,7 +628,6 @@ modelica_metatype omc_GraphML_addGraphAttributeValue(threadData_t *threadData, m
   // _iGraph has no default value.
   // _gid has no default value.
   // _directed has no default value.
-  // _newGraphIdx has no default value.
   // _nodeIdc has no default value.
   // _attValues has no default value.
   /* Pattern-matching assignment */

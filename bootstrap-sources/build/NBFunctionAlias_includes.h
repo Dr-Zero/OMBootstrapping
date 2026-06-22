@@ -1,7 +1,7 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-#include "openmodelica.h"       // Defines OPENMODELICA_H_ for libraris to test if called from OpenModelica.
+#include "openmodelica.h"       // Defines OPENMODELICA_H_ for libraries to test if called from OpenModelica.
 #include "ModelicaUtilities.h"  // Make Modelica C util functions available for external includes.
 
 #include "AbsynUtil.h"
@@ -12,11 +12,11 @@ extern "C" {
 #include "NBFunctionAlias.h"
 #include "NBInline.h"
 #include "NBPartitioning.h"
+#include "NBSlice.h"
 #include "NBVariable.h"
 #include "NBackendDAE.h"
 #include "NFCall.h"
 #include "NFComponentRef.h"
-#include "NFDimension.h"
 #include "NFExpression.h"
 #include "NFFunction.h"
 #include "NFSubscript.h"

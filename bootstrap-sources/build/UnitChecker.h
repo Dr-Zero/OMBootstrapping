@@ -18,8 +18,6 @@ extern struct record_description ErrorTypes_Severity_WARNING__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description MMath_Rational_RATIONAL__desc;
 
 extern struct record_description UnitAbsyn_InstStore_INSTSTORE__desc;

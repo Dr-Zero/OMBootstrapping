@@ -12,8 +12,6 @@ extern "C" {
 
 extern struct record_description Absyn_CodeNode_C__EXPRESSION__desc;
 
-extern struct record_description Absyn_CodeNode_C__TYPENAME__desc;
-
 extern struct record_description Absyn_CodeNode_C__VARIABLENAME__desc;
 
 extern struct record_description Absyn_Direction_BIDIR__desc;
@@ -114,8 +112,6 @@ extern struct record_description ExpressionSimplifyTypes_IntOp_SUBOP__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description SCode_Parallelism_NON__PARALLEL__desc;
 
 extern struct record_description SCode_Variability_VAR__desc;
@@ -130,15 +126,11 @@ extern struct record_description Values_Value_CODE__desc;
 
 extern struct record_description Values_Value_INTEGER__desc;
 
-extern struct record_description Values_Value_LIST__desc;
-
 extern struct record_description Values_Value_META__BOX__desc;
 
 extern struct record_description Values_Value_REAL__desc;
 
 extern struct record_description Values_Value_STRING__desc;
-
-extern struct record_description Values_Value_TUPLE__desc;
 
 
 DLLDirection
@@ -236,27 +228,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_getCode,2,0) {(void*) boxptr
 
 
 DLLDirection
-modelica_metatype omc_ValuesUtil_makeCodeTypeNameArray(threadData_t *threadData, modelica_metatype _paths);
-#define boxptr_ValuesUtil_makeCodeTypeNameArray omc_ValuesUtil_makeCodeTypeNameArray
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_makeCodeTypeNameArray,2,0) {(void*) boxptr_ValuesUtil_makeCodeTypeNameArray,0}};
-#define boxvar_ValuesUtil_makeCodeTypeNameArray MMC_REFSTRUCTLIT(boxvar_lit_ValuesUtil_makeCodeTypeNameArray)
-
-
-DLLDirection
-modelica_metatype omc_ValuesUtil_makeCodeTypeNameStr(threadData_t *threadData, modelica_string _str);
-#define boxptr_ValuesUtil_makeCodeTypeNameStr omc_ValuesUtil_makeCodeTypeNameStr
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_makeCodeTypeNameStr,2,0) {(void*) boxptr_ValuesUtil_makeCodeTypeNameStr,0}};
-#define boxvar_ValuesUtil_makeCodeTypeNameStr MMC_REFSTRUCTLIT(boxvar_lit_ValuesUtil_makeCodeTypeNameStr)
-
-
-DLLDirection
-modelica_metatype omc_ValuesUtil_makeCodeTypeName(threadData_t *threadData, modelica_metatype _path);
-#define boxptr_ValuesUtil_makeCodeTypeName omc_ValuesUtil_makeCodeTypeName
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_makeCodeTypeName,2,0) {(void*) boxptr_ValuesUtil_makeCodeTypeName,0}};
-#define boxvar_ValuesUtil_makeCodeTypeName MMC_REFSTRUCTLIT(boxvar_lit_ValuesUtil_makeCodeTypeName)
-
-
-DLLDirection
 modelica_string omc_ValuesUtil_extractValueString(threadData_t *threadData, modelica_metatype _val);
 #define boxptr_ValuesUtil_extractValueString omc_ValuesUtil_extractValueString
 static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_extractValueString,2,0) {(void*) boxptr_ValuesUtil_extractValueString,0}};
@@ -286,20 +257,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_nthnthArrayelt,2,0) {(void*)
 
 
 DLLDirection
-modelica_string omc_ValuesUtil_printValStr(threadData_t *threadData, modelica_metatype _v);
-#define boxptr_ValuesUtil_printValStr omc_ValuesUtil_printValStr
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_printValStr,2,0) {(void*) boxptr_ValuesUtil_printValStr,0}};
-#define boxvar_ValuesUtil_printValStr MMC_REFSTRUCTLIT(boxvar_lit_ValuesUtil_printValStr)
-
-
-DLLDirection
-void omc_ValuesUtil_printVal(threadData_t *threadData, modelica_metatype _v);
-#define boxptr_ValuesUtil_printVal omc_ValuesUtil_printVal
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_printVal,2,0) {(void*) boxptr_ValuesUtil_printVal,0}};
-#define boxvar_ValuesUtil_printVal MMC_REFSTRUCTLIT(boxvar_lit_ValuesUtil_printVal)
-
-
-DLLDirection
 modelica_metatype omc_ValuesUtil_reverseMatrix(threadData_t *threadData, modelica_metatype _inValue);
 #define boxptr_ValuesUtil_reverseMatrix omc_ValuesUtil_reverseMatrix
 static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_reverseMatrix,2,0) {(void*) boxptr_ValuesUtil_reverseMatrix,0}};
@@ -321,113 +278,6 @@ DLLDirection
 modelica_metatype boxptr_ValuesUtil_writePtolemyplotDataset(threadData_t *threadData, modelica_metatype _inString1, modelica_metatype _inValue2, modelica_metatype _inStringLst3, modelica_metatype _inString4);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_writePtolemyplotDataset,2,0) {(void*) boxptr_ValuesUtil_writePtolemyplotDataset,0}};
 #define boxvar_ValuesUtil_writePtolemyplotDataset MMC_REFSTRUCTLIT(boxvar_lit_ValuesUtil_writePtolemyplotDataset)
-
-
-#define boxptr_ValuesUtil_valListString omc_ValuesUtil_valListString
-
-
-#define boxptr_ValuesUtil_valRecordString omc_ValuesUtil_valRecordString
-
-
-DLLDirection
-void omc_ValuesUtil_valString2(threadData_t *threadData, modelica_metatype _inValue);
-#define boxptr_ValuesUtil_valString2 omc_ValuesUtil_valString2
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_valString2,2,0) {(void*) boxptr_ValuesUtil_valString2,0}};
-#define boxvar_ValuesUtil_valString2 MMC_REFSTRUCTLIT(boxvar_lit_ValuesUtil_valString2)
-
-
-DLLDirection
-modelica_string omc_ValuesUtil_valString(threadData_t *threadData, modelica_metatype _inValue);
-#define boxptr_ValuesUtil_valString omc_ValuesUtil_valString
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_valString,2,0) {(void*) boxptr_ValuesUtil_valString,0}};
-#define boxvar_ValuesUtil_valString MMC_REFSTRUCTLIT(boxvar_lit_ValuesUtil_valString)
-
-
-DLLDirection
-modelica_metatype omc_ValuesUtil_makeRealMatrix(threadData_t *threadData, modelica_metatype _inReals);
-#define boxptr_ValuesUtil_makeRealMatrix omc_ValuesUtil_makeRealMatrix
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_makeRealMatrix,2,0) {(void*) boxptr_ValuesUtil_makeRealMatrix,0}};
-#define boxvar_ValuesUtil_makeRealMatrix MMC_REFSTRUCTLIT(boxvar_lit_ValuesUtil_makeRealMatrix)
-
-
-DLLDirection
-modelica_metatype omc_ValuesUtil_makeRealArray(threadData_t *threadData, modelica_metatype _inReals);
-#define boxptr_ValuesUtil_makeRealArray omc_ValuesUtil_makeRealArray
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_makeRealArray,2,0) {(void*) boxptr_ValuesUtil_makeRealArray,0}};
-#define boxvar_ValuesUtil_makeRealArray MMC_REFSTRUCTLIT(boxvar_lit_ValuesUtil_makeRealArray)
-
-
-DLLDirection
-modelica_metatype omc_ValuesUtil_makeIntArray(threadData_t *threadData, modelica_metatype _inInts);
-#define boxptr_ValuesUtil_makeIntArray omc_ValuesUtil_makeIntArray
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_makeIntArray,2,0) {(void*) boxptr_ValuesUtil_makeIntArray,0}};
-#define boxvar_ValuesUtil_makeIntArray MMC_REFSTRUCTLIT(boxvar_lit_ValuesUtil_makeIntArray)
-
-
-DLLDirection
-modelica_metatype omc_ValuesUtil_makeStringArray(threadData_t *threadData, modelica_metatype _inReals);
-#define boxptr_ValuesUtil_makeStringArray omc_ValuesUtil_makeStringArray
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_makeStringArray,2,0) {(void*) boxptr_ValuesUtil_makeStringArray,0}};
-#define boxvar_ValuesUtil_makeStringArray MMC_REFSTRUCTLIT(boxvar_lit_ValuesUtil_makeStringArray)
-
-
-DLLDirection
-modelica_metatype omc_ValuesUtil_makeEmptyArray(threadData_t *threadData);
-#define boxptr_ValuesUtil_makeEmptyArray omc_ValuesUtil_makeEmptyArray
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_makeEmptyArray,2,0) {(void*) boxptr_ValuesUtil_makeEmptyArray,0}};
-#define boxvar_ValuesUtil_makeEmptyArray MMC_REFSTRUCTLIT(boxvar_lit_ValuesUtil_makeEmptyArray)
-
-
-DLLDirection
-modelica_metatype omc_ValuesUtil_makeArray(threadData_t *threadData, modelica_metatype _inValueLst);
-#define boxptr_ValuesUtil_makeArray omc_ValuesUtil_makeArray
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_makeArray,2,0) {(void*) boxptr_ValuesUtil_makeArray,0}};
-#define boxvar_ValuesUtil_makeArray MMC_REFSTRUCTLIT(boxvar_lit_ValuesUtil_makeArray)
-
-
-DLLDirection
-modelica_metatype omc_ValuesUtil_makeList(threadData_t *threadData, modelica_metatype _inValueLst);
-#define boxptr_ValuesUtil_makeList omc_ValuesUtil_makeList
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_makeList,2,0) {(void*) boxptr_ValuesUtil_makeList,0}};
-#define boxvar_ValuesUtil_makeList MMC_REFSTRUCTLIT(boxvar_lit_ValuesUtil_makeList)
-
-
-DLLDirection
-modelica_metatype omc_ValuesUtil_makeTuple(threadData_t *threadData, modelica_metatype _inValueLst);
-#define boxptr_ValuesUtil_makeTuple omc_ValuesUtil_makeTuple
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_makeTuple,2,0) {(void*) boxptr_ValuesUtil_makeTuple,0}};
-#define boxvar_ValuesUtil_makeTuple MMC_REFSTRUCTLIT(boxvar_lit_ValuesUtil_makeTuple)
-
-
-DLLDirection
-modelica_metatype omc_ValuesUtil_makeString(threadData_t *threadData, modelica_string _s);
-#define boxptr_ValuesUtil_makeString omc_ValuesUtil_makeString
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_makeString,2,0) {(void*) boxptr_ValuesUtil_makeString,0}};
-#define boxvar_ValuesUtil_makeString MMC_REFSTRUCTLIT(boxvar_lit_ValuesUtil_makeString)
-
-
-DLLDirection
-modelica_metatype omc_ValuesUtil_makeInteger(threadData_t *threadData, modelica_integer _i);
-DLLDirection
-modelica_metatype boxptr_ValuesUtil_makeInteger(threadData_t *threadData, modelica_metatype _i);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_makeInteger,2,0) {(void*) boxptr_ValuesUtil_makeInteger,0}};
-#define boxvar_ValuesUtil_makeInteger MMC_REFSTRUCTLIT(boxvar_lit_ValuesUtil_makeInteger)
-
-
-DLLDirection
-modelica_metatype omc_ValuesUtil_makeReal(threadData_t *threadData, modelica_real _r);
-DLLDirection
-modelica_metatype boxptr_ValuesUtil_makeReal(threadData_t *threadData, modelica_metatype _r);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_makeReal,2,0) {(void*) boxptr_ValuesUtil_makeReal,0}};
-#define boxvar_ValuesUtil_makeReal MMC_REFSTRUCTLIT(boxvar_lit_ValuesUtil_makeReal)
-
-
-DLLDirection
-modelica_metatype omc_ValuesUtil_makeBoolean(threadData_t *threadData, modelica_boolean _b);
-DLLDirection
-modelica_metatype boxptr_ValuesUtil_makeBoolean(threadData_t *threadData, modelica_metatype _b);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_makeBoolean,2,0) {(void*) boxptr_ValuesUtil_makeBoolean,0}};
-#define boxvar_ValuesUtil_makeBoolean MMC_REFSTRUCTLIT(boxvar_lit_ValuesUtil_makeBoolean)
 
 
 DLLDirection
@@ -711,18 +561,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_writeToFileAsArgs,2,0) {(voi
 #define boxvar_ValuesUtil_writeToFileAsArgs MMC_REFSTRUCTLIT(boxvar_lit_ValuesUtil_writeToFileAsArgs)
 
 
-#define boxptr_ValuesUtil_unparseDimSizes omc_ValuesUtil_unparseDimSizes
-
-
-#define boxptr_ValuesUtil_unparsePrimType omc_ValuesUtil_unparsePrimType
-
-
-#define boxptr_ValuesUtil_unparseArrayDescription omc_ValuesUtil_unparseArrayDescription
-
-
-#define boxptr_ValuesUtil_unparseDescription omc_ValuesUtil_unparseDescription
-
-
 DLLDirection
 modelica_boolean omc_ValuesUtil_safeLessEq(threadData_t *threadData, modelica_metatype _val1, modelica_metatype _val2);
 DLLDirection
@@ -736,16 +574,6 @@ modelica_metatype omc_ValuesUtil_safeIntRealOp(threadData_t *threadData, modelic
 #define boxptr_ValuesUtil_safeIntRealOp omc_ValuesUtil_safeIntRealOp
 static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_safeIntRealOp,2,0) {(void*) boxptr_ValuesUtil_safeIntRealOp,0}};
 #define boxvar_ValuesUtil_safeIntRealOp MMC_REFSTRUCTLIT(boxvar_lit_ValuesUtil_safeIntRealOp)
-
-
-#define boxptr_ValuesUtil_unparseValueNumbers omc_ValuesUtil_unparseValueNumbers
-
-
-DLLDirection
-modelica_string omc_ValuesUtil_unparseValues(threadData_t *threadData, modelica_metatype _inValueLst);
-#define boxptr_ValuesUtil_unparseValues omc_ValuesUtil_unparseValues
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_unparseValues,2,0) {(void*) boxptr_ValuesUtil_unparseValues,0}};
-#define boxvar_ValuesUtil_unparseValues MMC_REFSTRUCTLIT(boxvar_lit_ValuesUtil_unparseValues)
 
 
 DLLDirection
@@ -770,13 +598,6 @@ DLLDirection
 modelica_metatype boxptr_ValuesUtil_isArray(threadData_t *threadData, modelica_metatype _inValue);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_isArray,2,0) {(void*) boxptr_ValuesUtil_isArray,0}};
 #define boxvar_ValuesUtil_isArray MMC_REFSTRUCTLIT(boxvar_lit_ValuesUtil_isArray)
-
-
-DLLDirection
-modelica_metatype omc_ValuesUtil_makeZero(threadData_t *threadData, modelica_metatype _ty);
-#define boxptr_ValuesUtil_makeZero omc_ValuesUtil_makeZero
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ValuesUtil_makeZero,2,0) {(void*) boxptr_ValuesUtil_makeZero,0}};
-#define boxvar_ValuesUtil_makeZero MMC_REFSTRUCTLIT(boxvar_lit_ValuesUtil_makeZero)
 
 
 DLLDirection

@@ -164,13 +164,7 @@ extern struct record_description DAE_FunctionParallelism_FP__NON__PARALLEL__desc
 
 extern struct record_description DAE_FunctionParallelism_FP__PARALLEL__FUNCTION__desc;
 
-extern struct record_description DAE_InlineType_AFTER__INDEX__RED__INLINE__desc;
-
 extern struct record_description DAE_InlineType_DEFAULT__INLINE__desc;
-
-extern struct record_description DAE_InlineType_EARLY__INLINE__desc;
-
-extern struct record_description DAE_InlineType_NORM__INLINE__desc;
 
 extern struct record_description DAE_InlineType_NO__INLINE__desc;
 
@@ -283,10 +277,6 @@ extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_INTERNAL__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
 
 extern struct record_description Mod_ModScope_COMPONENT__desc;
 
@@ -471,6 +461,12 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_InstUtil_checkParallelismWRTEnv,2,0) {(
 #define boxptr_InstUtil_crefFiltering omc_InstUtil_crefFiltering
 
 
+#define boxptr_InstUtil_mergeBreakUnbound omc_InstUtil_mergeBreakUnbound
+
+
+#define boxptr_InstUtil_whileTrueBreakAssigned omc_InstUtil_whileTrueBreakAssigned
+
+
 #define boxptr_InstUtil_checkOutputDefUse omc_InstUtil_checkOutputDefUse
 
 
@@ -482,6 +478,14 @@ void omc_InstUtil_checkFunctionDefUse(threadData_t *threadData, modelica_metatyp
 #define boxptr_InstUtil_checkFunctionDefUse omc_InstUtil_checkFunctionDefUse
 static const MMC_DEFSTRUCTLIT(boxvar_lit_InstUtil_checkFunctionDefUse,2,0) {(void*) boxptr_InstUtil_checkFunctionDefUse,0}};
 #define boxvar_InstUtil_checkFunctionDefUse MMC_REFSTRUCTLIT(boxvar_lit_InstUtil_checkFunctionDefUse)
+
+
+DLLDirection
+modelica_boolean omc_InstUtil_functionAlwaysFails(threadData_t *threadData, modelica_metatype _elts);
+DLLDirection
+modelica_metatype boxptr_InstUtil_functionAlwaysFails(threadData_t *threadData, modelica_metatype _elts);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_InstUtil_functionAlwaysFails,2,0) {(void*) boxptr_InstUtil_functionAlwaysFails,0}};
+#define boxvar_InstUtil_functionAlwaysFails MMC_REFSTRUCTLIT(boxvar_lit_InstUtil_functionAlwaysFails)
 
 
 #define boxptr_InstUtil_prefixAndAddCrefsToHt omc_InstUtil_prefixAndAddCrefsToHt
@@ -948,16 +952,6 @@ modelica_metatype omc_InstUtil_stripFuncOutputsMod(threadData_t *threadData, mod
 #define boxptr_InstUtil_stripFuncOutputsMod omc_InstUtil_stripFuncOutputsMod
 static const MMC_DEFSTRUCTLIT(boxvar_lit_InstUtil_stripFuncOutputsMod,2,0) {(void*) boxptr_InstUtil_stripFuncOutputsMod,0}};
 #define boxvar_InstUtil_stripFuncOutputsMod MMC_REFSTRUCTLIT(boxvar_lit_InstUtil_stripFuncOutputsMod)
-
-
-#define boxptr_InstUtil_isInlineFunc2 omc_InstUtil_isInlineFunc2
-
-
-DLLDirection
-modelica_metatype omc_InstUtil_commentIsInlineFunc(threadData_t *threadData, modelica_metatype _cmt);
-#define boxptr_InstUtil_commentIsInlineFunc omc_InstUtil_commentIsInlineFunc
-static const MMC_DEFSTRUCTLIT(boxvar_lit_InstUtil_commentIsInlineFunc,2,0) {(void*) boxptr_InstUtil_commentIsInlineFunc,0}};
-#define boxvar_InstUtil_commentIsInlineFunc MMC_REFSTRUCTLIT(boxvar_lit_InstUtil_commentIsInlineFunc)
 
 
 DLLDirection

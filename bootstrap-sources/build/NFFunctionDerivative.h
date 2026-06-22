@@ -32,8 +32,6 @@ extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
 extern struct record_description ErrorTypes_Severity_WARNING__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NFExpression_EMPTY__desc;
 
 extern struct record_description NFExpression_INTEGER__desc;
@@ -70,6 +68,13 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
 #define boxptr_NFFunctionDerivative_getDerivativeAnnotations omc_NFFunctionDerivative_getDerivativeAnnotations
+
+
+DLLDirection
+modelica_metatype omc_NFFunctionDerivative_conditionsFromMap(threadData_t *threadData, modelica_metatype _interface_map);
+#define boxptr_NFFunctionDerivative_conditionsFromMap omc_NFFunctionDerivative_conditionsFromMap
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFFunctionDerivative_conditionsFromMap,2,0) {(void*) boxptr_NFFunctionDerivative_conditionsFromMap,0}};
+#define boxvar_NFFunctionDerivative_conditionsFromMap MMC_REFSTRUCTLIT(boxvar_lit_NFFunctionDerivative_conditionsFromMap)
 
 
 DLLDirection

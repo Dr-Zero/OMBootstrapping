@@ -7,39 +7,33 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT1,1,6) {&ErrorTypes_Severity_NOTIFI
 #define _OMC_LIT2_data "From here:"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT2,10,_OMC_LIT2_data);
 #define _OMC_LIT2 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT2)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT3,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT2}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT3,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(174)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT2}};
 #define _OMC_LIT3 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT3)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT4,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(174)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT3}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT4,1,4) {&ErrorTypes_Severity_ERROR__desc,}};
 #define _OMC_LIT4 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT4)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT5,1,4) {&ErrorTypes_Severity_ERROR__desc,}};
-#define _OMC_LIT5 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT5)
-#define _OMC_LIT6_data "Qualified import name %s already exists in this scope."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT6,54,_OMC_LIT6_data);
-#define _OMC_LIT6 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT7,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT6}};
-#define _OMC_LIT7 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT7)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT8,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(163)),_OMC_LIT0,_OMC_LIT5,_OMC_LIT7}};
+#define _OMC_LIT5_data "Qualified import name %s already exists in this scope."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT5,54,_OMC_LIT5_data);
+#define _OMC_LIT5 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT5)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT6,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(163)),_OMC_LIT0,_OMC_LIT4,_OMC_LIT5}};
+#define _OMC_LIT6 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT6)
+#define _OMC_LIT7_data "%s found in several unqualified import statements."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,50,_OMC_LIT7_data);
+#define _OMC_LIT7 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT7)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT8,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(57)),_OMC_LIT0,_OMC_LIT4,_OMC_LIT7}};
 #define _OMC_LIT8 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT8)
-#define _OMC_LIT9_data "%s found in several unqualified import statements."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT9,50,_OMC_LIT9_data);
+#define _OMC_LIT9_data ""
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT9,0,_OMC_LIT9_data);
 #define _OMC_LIT9 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT9)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT10,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT9}};
-#define _OMC_LIT10 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT10)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT11,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(57)),_OMC_LIT0,_OMC_LIT5,_OMC_LIT10}};
-#define _OMC_LIT11 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT11)
-#define _OMC_LIT12_data ""
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT12,0,_OMC_LIT12_data);
-#define _OMC_LIT12 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT12)
-#define _OMC_LIT13_data "NFImport.instUnqualified got invalid class tree"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT13,47,_OMC_LIT13_data);
-#define _OMC_LIT13 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT13)
-#define _OMC_LIT14_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/NFFrontEnd/NFImport.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT14,75,_OMC_LIT14_data);
-#define _OMC_LIT14 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT14)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT15_6,1.770032059e9);
-#define _OMC_LIT15_6 MMC_REFREALLIT(_OMC_LIT_STRUCT15_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT15,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT14,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(181)),MMC_IMMEDIATE(MMC_TAGFIXNUM(11)),MMC_IMMEDIATE(MMC_TAGFIXNUM(181)),MMC_IMMEDIATE(MMC_TAGFIXNUM(94)),_OMC_LIT15_6}};
-#define _OMC_LIT15 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT15)
+#define _OMC_LIT10_data "NFImport.instUnqualified got invalid class tree"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT10,47,_OMC_LIT10_data);
+#define _OMC_LIT10 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT10)
+#define _OMC_LIT11_data "/projects/OpenModelica-session2/OMCompiler/Compiler/NFFrontEnd/NFImport.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT11,74,_OMC_LIT11_data);
+#define _OMC_LIT11 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT11)
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT12_6,1.782113391e9);
+#define _OMC_LIT12_6 MMC_REFREALLIT(_OMC_LIT_STRUCT12_6)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT12,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT11,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(185)),MMC_IMMEDIATE(MMC_TAGFIXNUM(11)),MMC_IMMEDIATE(MMC_TAGFIXNUM(185)),MMC_IMMEDIATE(MMC_TAGFIXNUM(87)),_OMC_LIT12_6}};
+#define _OMC_LIT12 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT12)
 #include "util/modelica.h"
 
 #include "NFImport_includes.h"
@@ -57,7 +51,7 @@ void omc_NFImport_printImportError(threadData_t *threadData, modelica_metatype _
   _tailrecursive: OMC_LABEL_UNUSED
   // _err_msg has no default value.
   tmpMeta1 = MMC_REFSTRUCTLIT(mmc_nil);
-  omc_Error_addSourceMessage(threadData, _OMC_LIT4, tmpMeta1, omc_NFImport_info(threadData, _imp1));
+  omc_Error_addSourceMessage(threadData, _OMC_LIT3, tmpMeta1, omc_NFImport_info(threadData, _imp1));
 
   { /* match expression */
     modelica_metatype tmp5_1;
@@ -72,14 +66,14 @@ void omc_NFImport_printImportError(threadData_t *threadData, modelica_metatype _
           if (mmc__uniontype__metarecord__typedef__equal(tmp5_1,0,3) == 0) goto tmp4_end;
           
           /* Pattern matching succeeded */
-          tmpMeta2 = _OMC_LIT8;
+          tmpMeta2 = _OMC_LIT6;
           goto tmp4_done;
         }
         case 1: {
           if (mmc__uniontype__metarecord__typedef__equal(tmp5_1,1,3) == 0) goto tmp4_end;
           
           /* Pattern matching succeeded */
-          tmpMeta2 = _OMC_LIT11;
+          tmpMeta2 = _OMC_LIT8;
           goto tmp4_done;
         }
         }
@@ -109,7 +103,6 @@ modelica_metatype omc_NFImport_instUnqualified(threadData_t *threadData, modelic
   modelica_metatype _node = NULL;
   modelica_metatype _scope = NULL;
   modelica_metatype _tree = NULL;
-  modelica_metatype _elements = NULL;
   modelica_metatype _info = NULL;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
@@ -123,7 +116,6 @@ modelica_metatype omc_NFImport_instUnqualified(threadData_t *threadData, modelic
   // _node has no default value.
   // _scope has no default value.
   // _tree has no default value.
-  // _elements has no default value.
   // _info has no default value.
   /* Pattern-matching assignment */
   tmpMeta1 = _imp;
@@ -173,7 +165,7 @@ modelica_metatype omc_NFImport_instUnqualified(threadData_t *threadData, modelic
             for (tmpMeta10 = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 3))), tmp15 = arrayLength(tmpMeta10), tmp14 = 1; tmp14 <= tmp15; tmp14++)
             {
               _cls = arrayGet(tmpMeta10,tmp14);
-              tmpMeta12 = mmc_mk_box4(4, &NFImport_RESOLVED__IMPORT__desc, _cls, _OMC_LIT12, _info);
+              tmpMeta12 = mmc_mk_box4(4, &NFImport_RESOLVED__IMPORT__desc, _cls, _OMC_LIT9, _info);
               tmpMeta11 = mmc_mk_cons(tmpMeta12, _imps);
               _imps = tmpMeta11;
             }
@@ -184,7 +176,7 @@ modelica_metatype omc_NFImport_instUnqualified(threadData_t *threadData, modelic
             for (tmpMeta16 = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 4))), tmp21 = arrayLength(tmpMeta16), tmp20 = 1; tmp20 <= tmp21; tmp20++)
             {
               _comp = arrayGet(tmpMeta16,tmp20);
-              tmpMeta18 = mmc_mk_box4(4, &NFImport_RESOLVED__IMPORT__desc, _comp, _OMC_LIT12, _info);
+              tmpMeta18 = mmc_mk_box4(4, &NFImport_RESOLVED__IMPORT__desc, _comp, _OMC_LIT9, _info);
               tmpMeta17 = mmc_mk_cons(tmpMeta18, _imps);
               _imps = tmpMeta17;
             }
@@ -194,7 +186,7 @@ modelica_metatype omc_NFImport_instUnqualified(threadData_t *threadData, modelic
         case 1: {
           
           /* Pattern matching succeeded */
-          omc_Error_assertion(threadData, 0 /* false */, _OMC_LIT13, _OMC_LIT15);
+          omc_Error_terminate(threadData, _OMC_LIT10, _OMC_LIT12);
           goto tmp7_done;
         }
         }
@@ -282,7 +274,7 @@ modelica_metatype omc_NFImport_instQualified(threadData_t *threadData, modelica_
         case 1: {
           
           /* Pattern matching succeeded */
-          tmp6 = _OMC_LIT12;
+          tmp6 = _OMC_LIT9;
           goto tmp8_done;
         }
         }

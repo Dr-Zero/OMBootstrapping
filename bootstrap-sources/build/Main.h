@@ -38,8 +38,6 @@ extern struct record_description Flags_ValidOptions_STRING__DESC__OPTION__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__OPTION__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 
 #define boxptr_Main_main2 omc_Main_main2
 

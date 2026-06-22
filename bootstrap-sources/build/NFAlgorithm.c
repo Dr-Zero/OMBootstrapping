@@ -7,64 +7,58 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT1,1,4) {&ErrorTypes_Severity_ERROR_
 #define _OMC_LIT2_data "%s"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT2,2,_OMC_LIT2_data);
 #define _OMC_LIT2 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT2)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT3,2,4) {&Gettext_TranslatableContent_notrans__desc,_OMC_LIT2}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT3,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(5999)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT2}};
 #define _OMC_LIT3 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT3)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT4,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(5999)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT3}};
-#define _OMC_LIT4 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT4)
-#define _OMC_LIT5_data "Trying to assign to time."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT5,25,_OMC_LIT5_data);
-#define _OMC_LIT5 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT5)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT6,2,1) {_OMC_LIT5,MMC_REFSTRUCTLIT(mmc_nil)}};
-#define _OMC_LIT6 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT6)
-#define _OMC_LIT7_data "Trying to assign to iterator "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,29,_OMC_LIT7_data);
+#define _OMC_LIT4_data "Trying to assign to time."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT4,25,_OMC_LIT4_data);
+#define _OMC_LIT4 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT4)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT5,2,1) {_OMC_LIT4,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT5 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT5)
+#define _OMC_LIT6_data "Trying to assign to iterator "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT6,29,_OMC_LIT6_data);
+#define _OMC_LIT6 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT6)
+#define _OMC_LIT7_data "."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,1,_OMC_LIT7_data);
 #define _OMC_LIT7 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT7)
-#define _OMC_LIT8_data "."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT8,1,_OMC_LIT8_data);
-#define _OMC_LIT8 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT8)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT9,1,5) {&ErrorTypes_Severity_WARNING__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT8,1,5) {&ErrorTypes_Severity_WARNING__desc,}};
+#define _OMC_LIT8 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT8)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT9,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(6000)),_OMC_LIT0,_OMC_LIT8,_OMC_LIT2}};
 #define _OMC_LIT9 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT9)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT10,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(6000)),_OMC_LIT0,_OMC_LIT9,_OMC_LIT3}};
-#define _OMC_LIT10 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT10)
-#define _OMC_LIT11_data "Using output variable in RHS before it is assigned (former occurences will be set to initial value): "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT11,101,_OMC_LIT11_data);
+#define _OMC_LIT10_data "Using output variable in RHS before it is assigned (former occurences will be set to initial value): "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT10,101,_OMC_LIT10_data);
+#define _OMC_LIT10 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT10)
+#define _OMC_LIT11_data "failtrace"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT11,9,_OMC_LIT11_data);
 #define _OMC_LIT11 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT11)
-#define _OMC_LIT12_data "failtrace"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT12,9,_OMC_LIT12_data);
+#define _OMC_LIT12_data "Sets whether to print a failtrace or not."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT12,41,_OMC_LIT12_data);
 #define _OMC_LIT12 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT12)
-#define _OMC_LIT13_data "Sets whether to print a failtrace or not."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT13,41,_OMC_LIT13_data);
-#define _OMC_LIT13 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT13)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT14,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT13}};
-#define _OMC_LIT14 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT14)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT15,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT12,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT14}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT13,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT11,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT12}};
+#define _OMC_LIT13 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT13)
+#define _OMC_LIT14_data "Internal error %s"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT14,17,_OMC_LIT14_data);
+#define _OMC_LIT14 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT14)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT15,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(63)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT14}};
 #define _OMC_LIT15 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT15)
-#define _OMC_LIT16_data "Internal error %s"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT16,17,_OMC_LIT16_data);
+#define _OMC_LIT16_data "NFAlgorithm.expressionOutput failed due to wrong expression type in LHS of algorithm statement: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT16,96,_OMC_LIT16_data);
 #define _OMC_LIT16 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT16)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT17,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT16}};
-#define _OMC_LIT17 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT17)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT18,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(63)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT17}};
+#define _OMC_LIT17_data "NFAlgorithm.statementInputsOutputs failed due to wrong Statement Type: FUNCTION_ARRAY_INIT."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT17,91,_OMC_LIT17_data);
+#define _OMC_LIT17 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT17)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT18,2,1) {_OMC_LIT17,MMC_REFSTRUCTLIT(mmc_nil)}};
 #define _OMC_LIT18 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT18)
-#define _OMC_LIT19_data "NFAlgorithm.expressionOutput failed due to wrong expression type in LHS of algorithm statement: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT19,96,_OMC_LIT19_data);
+#define _OMC_LIT19_data "NFAlgorithm.statementInputsOutputs failed for "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT19,46,_OMC_LIT19_data);
 #define _OMC_LIT19 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT19)
-#define _OMC_LIT20_data "NFAlgorithm.statementInputsOutputs failed due to wrong Statement Type: FUNCTION_ARRAY_INIT."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT20,91,_OMC_LIT20_data);
+#define _OMC_LIT20_data ""
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT20,0,_OMC_LIT20_data);
 #define _OMC_LIT20 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT20)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT21,2,1) {_OMC_LIT20,MMC_REFSTRUCTLIT(mmc_nil)}};
-#define _OMC_LIT21 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT21)
-#define _OMC_LIT22_data "NFAlgorithm.statementInputsOutputs failed for "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT22,46,_OMC_LIT22_data);
-#define _OMC_LIT22 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT22)
-#define _OMC_LIT23_data ""
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT23,0,_OMC_LIT23_data);
-#define _OMC_LIT23 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT23)
-#define _OMC_LIT24_data "NFAlgorithm.getInputsOutputs failed."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT24,36,_OMC_LIT24_data);
-#define _OMC_LIT24 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT24)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT25,2,1) {_OMC_LIT24,MMC_REFSTRUCTLIT(mmc_nil)}};
-#define _OMC_LIT25 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT25)
+#define _OMC_LIT21_data "NFAlgorithm.getInputsOutputs failed."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT21,36,_OMC_LIT21_data);
+#define _OMC_LIT21 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT21)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT22,2,1) {_OMC_LIT21,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT22 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT22)
 #include "util/modelica.h"
 
 #include "NFAlgorithm_includes.h"
@@ -117,7 +111,7 @@ PROTECTED_FUNCTION_STATIC void omc_NFAlgorithm_expressionOutput(threadData_t *th
           /* Pattern matching succeeded */
           /* Check guard condition after assignments */
           if (!omc_NFComponentRef_isTime(threadData, _cr)) goto tmp2_end;
-          omc_Error_addMessage(threadData, _OMC_LIT4, _OMC_LIT6);
+          omc_Error_addMessage(threadData, _OMC_LIT3, _OMC_LIT5);
           goto goto_1;
           goto tmp2_done;
         }
@@ -132,10 +126,10 @@ PROTECTED_FUNCTION_STATIC void omc_NFAlgorithm_expressionOutput(threadData_t *th
           /* Pattern matching succeeded */
           /* Check guard condition after assignments */
           if (!omc_NFComponentRef_isIterator(threadData, _cr)) goto tmp2_end;
-          tmpMeta9 = stringAppend(_OMC_LIT7,omc_NFComponentRef_toString(threadData, _cr));
-          tmpMeta10 = stringAppend(tmpMeta9,_OMC_LIT8);
+          tmpMeta9 = stringAppend(_OMC_LIT6,omc_NFComponentRef_toString(threadData, _cr));
+          tmpMeta10 = stringAppend(tmpMeta9,_OMC_LIT7);
           tmpMeta8 = mmc_mk_cons(tmpMeta10, MMC_REFSTRUCTLIT(mmc_nil));
-          omc_Error_addMessage(threadData, _OMC_LIT4, tmpMeta8);
+          omc_Error_addMessage(threadData, _OMC_LIT3, tmpMeta8);
           goto goto_1;
           goto tmp2_done;
         }
@@ -162,11 +156,11 @@ PROTECTED_FUNCTION_STATIC void omc_NFAlgorithm_expressionOutput(threadData_t *th
 
           if(omc_UnorderedSet_remove(threadData, _cr, _inputs_set))
           {
-            if(omc_Flags_isSet(threadData, _OMC_LIT15))
+            if(omc_Flags_isSet(threadData, _OMC_LIT13))
             {
-              tmpMeta14 = stringAppend(_OMC_LIT11,omc_NFExpression_toString(threadData, _exp));
+              tmpMeta14 = stringAppend(_OMC_LIT10,omc_NFExpression_toString(threadData, _exp));
               tmpMeta13 = mmc_mk_cons(tmpMeta14, MMC_REFSTRUCTLIT(mmc_nil));
-              omc_Error_addMessage(threadData, _OMC_LIT10, tmpMeta13);
+              omc_Error_addMessage(threadData, _OMC_LIT9, tmpMeta13);
             }
           }
 
@@ -178,9 +172,9 @@ PROTECTED_FUNCTION_STATIC void omc_NFAlgorithm_expressionOutput(threadData_t *th
           modelica_metatype tmpMeta16;
           
           /* Pattern matching succeeded */
-          tmpMeta16 = stringAppend(_OMC_LIT19,omc_NFExpression_toString(threadData, _exp));
+          tmpMeta16 = stringAppend(_OMC_LIT16,omc_NFExpression_toString(threadData, _exp));
           tmpMeta15 = mmc_mk_cons(tmpMeta16, MMC_REFSTRUCTLIT(mmc_nil));
-          omc_Error_addMessage(threadData, _OMC_LIT18, tmpMeta15);
+          omc_Error_addMessage(threadData, _OMC_LIT15, tmpMeta15);
           goto goto_1;
           goto tmp2_done;
         }
@@ -518,7 +512,7 @@ PROTECTED_FUNCTION_STATIC void omc_NFAlgorithm_statementInputsOutputs(threadData
           if (mmc__uniontype__metarecord__typedef__equal(tmp3_1,1,3) == 0) goto tmp2_end;
           
           /* Pattern matching succeeded */
-          omc_Error_addMessage(threadData, _OMC_LIT18, _OMC_LIT21);
+          omc_Error_addMessage(threadData, _OMC_LIT15, _OMC_LIT18);
           goto goto_1;
           goto tmp2_done;
         }
@@ -527,11 +521,11 @@ PROTECTED_FUNCTION_STATIC void omc_NFAlgorithm_statementInputsOutputs(threadData
           modelica_metatype tmpMeta35;
           
           /* Pattern matching succeeded */
-          if(omc_Flags_isSet(threadData, _OMC_LIT15))
+          if(omc_Flags_isSet(threadData, _OMC_LIT13))
           {
-            tmpMeta35 = stringAppend(_OMC_LIT22,omc_NFStatement_toString(threadData, _statement, _OMC_LIT23));
+            tmpMeta35 = stringAppend(_OMC_LIT19,omc_NFStatement_toString(threadData, _statement, _OMC_LIT20));
             tmpMeta34 = mmc_mk_cons(tmpMeta35, MMC_REFSTRUCTLIT(mmc_nil));
-            omc_Error_addMessage(threadData, _OMC_LIT18, tmpMeta34);
+            omc_Error_addMessage(threadData, _OMC_LIT15, tmpMeta34);
           }
           goto goto_1;
           goto tmp2_done;
@@ -656,7 +650,9 @@ modelica_metatype omc_NFAlgorithm_getInputsOutputs(threadData_t *threadData, mod
         }
         case 1: {
           /* Pattern matching succeeded */
-          omc_Error_addMessage(threadData, _OMC_LIT18, _OMC_LIT25);
+          omc_Error_addMessage(threadData, _OMC_LIT15, _OMC_LIT22);
+
+          goto goto_1;
           goto tmp2_done;
         }
         }
@@ -686,27 +682,27 @@ modelica_metatype omc_NFAlgorithm_getInputsOutputs(threadData_t *threadData, mod
 DLLDirection
 modelica_metatype omc_NFAlgorithm_setInputsOutputs(threadData_t *threadData, modelica_metatype __omcQ_24in_5Falg)
 {
+  modelica_metatype __omcQ_24mrfa_5F0 = NULL;
+  modelica_metatype __omcQ_24mrfa_5F1 = NULL;
   modelica_metatype _alg = NULL;
   modelica_metatype _inputs = NULL;
   modelica_metatype _outputs = NULL;
   modelica_metatype tmpMeta1;
-  modelica_metatype tmpMeta2;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
+  // __omcQ_24mrfa_5F0 has no default value.
+  // __omcQ_24mrfa_5F1 has no default value.
   _alg = __omcQ_24in_5Falg;
   // _inputs has no default value.
   // _outputs has no default value.
   _inputs = omc_NFAlgorithm_getInputsOutputs(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_alg), 2))) ,&_outputs);
 
-  tmpMeta1 = MMC_TAGPTR(mmc_alloc_words(7));
-  memcpy(MMC_UNTAGPTR(tmpMeta1), MMC_UNTAGPTR(_alg), 7*sizeof(modelica_metatype));
-  ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta1))[3] = _inputs;
-  _alg = tmpMeta1;
+  __omcQ_24mrfa_5F0 = _inputs;
 
-  tmpMeta2 = MMC_TAGPTR(mmc_alloc_words(7));
-  memcpy(MMC_UNTAGPTR(tmpMeta2), MMC_UNTAGPTR(_alg), 7*sizeof(modelica_metatype));
-  ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta2))[4] = _outputs;
-  _alg = tmpMeta2;
+  __omcQ_24mrfa_5F1 = _outputs;
+
+  tmpMeta1 = mmc_mk_box7(3, &NFAlgorithm_ALGORITHM__desc, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_alg), 2))), __omcQ_24mrfa_5F0, __omcQ_24mrfa_5F1, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_alg), 5))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_alg), 6))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_alg), 7))));
+  _alg = tmpMeta1;
   _return: OMC_LABEL_UNUSED
   return _alg;
 }
@@ -774,17 +770,17 @@ modelica_metatype omc_NFAlgorithm_mapExpList(threadData_t *threadData, modelica_
   _tailrecursive: OMC_LABEL_UNUSED
   _algs = __omcQ_24in_5Falgs;
   {
-    modelica_metatype __omcQ_24tmpVar3;
+    modelica_metatype __omcQ_24tmpVar1;
     modelica_metatype* tmp2;
     modelica_metatype tmpMeta3;
-    modelica_metatype __omcQ_24tmpVar2;
+    modelica_metatype __omcQ_24tmpVar0;
     modelica_integer tmp4;
     modelica_metatype _alg_loopVar = 0;
     modelica_metatype _alg;
     _alg_loopVar = _algs;
     tmpMeta3 = MMC_REFSTRUCTLIT(mmc_nil);
-    __omcQ_24tmpVar3 = tmpMeta3; /* defaultValue */
-    tmp2 = &__omcQ_24tmpVar3;
+    __omcQ_24tmpVar1 = tmpMeta3; /* defaultValue */
+    tmp2 = &__omcQ_24tmpVar1;
     while(1) {
       tmp4 = 1;
       if (!listEmpty(_alg_loopVar)) {
@@ -793,8 +789,8 @@ modelica_metatype omc_NFAlgorithm_mapExpList(threadData_t *threadData, modelica_
         tmp4--;
       }
       if (tmp4 == 0) {
-        __omcQ_24tmpVar2 = omc_NFAlgorithm_mapExp(threadData, _alg, ((modelica_fnptr) _func));
-        *tmp2 = mmc_mk_cons(__omcQ_24tmpVar2,0);
+        __omcQ_24tmpVar0 = omc_NFAlgorithm_mapExp(threadData, _alg, ((modelica_fnptr) _func));
+        *tmp2 = mmc_mk_cons(__omcQ_24tmpVar0,0);
         tmp2 = &MMC_CDR(*tmp2);
       } else if (tmp4 == 1) {
         break;
@@ -803,7 +799,7 @@ modelica_metatype omc_NFAlgorithm_mapExpList(threadData_t *threadData, modelica_
       }
     }
     *tmp2 = mmc_mk_nil();
-    tmpMeta1 = __omcQ_24tmpVar3;
+    tmpMeta1 = __omcQ_24tmpVar1;
   }
   _algs = tmpMeta1;
   _return: OMC_LABEL_UNUSED
@@ -818,8 +814,8 @@ modelica_metatype omc_NFAlgorithm_mapExp(threadData_t *threadData, modelica_meta
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   _alg = __omcQ_24in_5Falg;
-  tmpMeta1 = MMC_TAGPTR(mmc_alloc_words(7));
-  memcpy(MMC_UNTAGPTR(tmpMeta1), MMC_UNTAGPTR(_alg), 7*sizeof(modelica_metatype));
+  tmpMeta1 = MMC_TAGPTR(mmc_alloc_words(8));
+  memcpy(MMC_UNTAGPTR(tmpMeta1), MMC_UNTAGPTR(_alg), 8*sizeof(modelica_metatype));
   ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta1))[2] = omc_NFStatement_mapExpList(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_alg), 2))), ((modelica_fnptr) _func));
   _alg = tmpMeta1;
   _return: OMC_LABEL_UNUSED
@@ -836,17 +832,17 @@ modelica_metatype omc_NFAlgorithm_map(threadData_t *threadData, modelica_metatyp
   _tailrecursive: OMC_LABEL_UNUSED
   _alg = __omcQ_24in_5Falg;
   {
-    modelica_metatype __omcQ_24tmpVar5;
+    modelica_metatype __omcQ_24tmpVar3;
     modelica_metatype* tmp3;
     modelica_metatype tmpMeta4;
-    modelica_metatype __omcQ_24tmpVar4;
+    modelica_metatype __omcQ_24tmpVar2;
     modelica_integer tmp5;
     modelica_metatype _s_loopVar = 0;
     modelica_metatype _s;
     _s_loopVar = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_alg), 2)));
     tmpMeta4 = MMC_REFSTRUCTLIT(mmc_nil);
-    __omcQ_24tmpVar5 = tmpMeta4; /* defaultValue */
-    tmp3 = &__omcQ_24tmpVar5;
+    __omcQ_24tmpVar3 = tmpMeta4; /* defaultValue */
+    tmp3 = &__omcQ_24tmpVar3;
     while(1) {
       tmp5 = 1;
       if (!listEmpty(_s_loopVar)) {
@@ -855,8 +851,8 @@ modelica_metatype omc_NFAlgorithm_map(threadData_t *threadData, modelica_metatyp
         tmp5--;
       }
       if (tmp5 == 0) {
-        __omcQ_24tmpVar4 = omc_NFStatement_map(threadData, _s, ((modelica_fnptr) _fn));
-        *tmp3 = mmc_mk_cons(__omcQ_24tmpVar4,0);
+        __omcQ_24tmpVar2 = omc_NFStatement_map(threadData, _s, ((modelica_fnptr) _fn));
+        *tmp3 = mmc_mk_cons(__omcQ_24tmpVar2,0);
         tmp3 = &MMC_CDR(*tmp3);
       } else if (tmp5 == 1) {
         break;
@@ -865,10 +861,10 @@ modelica_metatype omc_NFAlgorithm_map(threadData_t *threadData, modelica_metatyp
       }
     }
     *tmp3 = mmc_mk_nil();
-    tmpMeta2 = __omcQ_24tmpVar5;
+    tmpMeta2 = __omcQ_24tmpVar3;
   }
-  tmpMeta1 = MMC_TAGPTR(mmc_alloc_words(7));
-  memcpy(MMC_UNTAGPTR(tmpMeta1), MMC_UNTAGPTR(_alg), 7*sizeof(modelica_metatype));
+  tmpMeta1 = MMC_TAGPTR(mmc_alloc_words(8));
+  memcpy(MMC_UNTAGPTR(tmpMeta1), MMC_UNTAGPTR(_alg), 8*sizeof(modelica_metatype));
   ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta1))[2] = tmpMeta2;
   _alg = tmpMeta1;
   _return: OMC_LABEL_UNUSED

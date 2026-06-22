@@ -2708,84 +2708,6 @@ ADD_METARECORD_DEFINITIONS struct record_description DAE_DAElist_DAE__desc = {
 extern struct record_description DAE_DAElist_DAE__desc;
 #endif
 #ifdef ADD_METARECORD_DEFINITIONS
-#ifndef DAE_AvlTreePathFunction_Tree_NODE__desc_added
-#define DAE_AvlTreePathFunction_Tree_NODE__desc_added
-ADD_METARECORD_DEFINITIONS const char* DAE_AvlTreePathFunction_Tree_NODE__desc__fields[5] = {"key","value","height","left","right"};
-ADD_METARECORD_DEFINITIONS struct record_description DAE_AvlTreePathFunction_Tree_NODE__desc = {
-  "DAE_AvlTreePathFunction_Tree_NODE",
-  "DAE.AvlTreePathFunction.Tree.NODE",
-  DAE_AvlTreePathFunction_Tree_NODE__desc__fields
-};
-#endif
-#else /* Only use the file as a header */
-extern struct record_description DAE_AvlTreePathFunction_Tree_NODE__desc;
-#endif
-#ifdef ADD_METARECORD_DEFINITIONS
-#ifndef DAE_AvlTreePathFunction_Tree_LEAF__desc_added
-#define DAE_AvlTreePathFunction_Tree_LEAF__desc_added
-ADD_METARECORD_DEFINITIONS const char* DAE_AvlTreePathFunction_Tree_LEAF__desc__fields[2] = {"key","value"};
-ADD_METARECORD_DEFINITIONS struct record_description DAE_AvlTreePathFunction_Tree_LEAF__desc = {
-  "DAE_AvlTreePathFunction_Tree_LEAF",
-  "DAE.AvlTreePathFunction.Tree.LEAF",
-  DAE_AvlTreePathFunction_Tree_LEAF__desc__fields
-};
-#endif
-#else /* Only use the file as a header */
-extern struct record_description DAE_AvlTreePathFunction_Tree_LEAF__desc;
-#endif
-#ifdef ADD_METARECORD_DEFINITIONS
-#ifndef DAE_AvlTreePathFunction_Tree_EMPTY__desc_added
-#define DAE_AvlTreePathFunction_Tree_EMPTY__desc_added
-ADD_METARECORD_DEFINITIONS const char* DAE_AvlTreePathFunction_Tree_EMPTY__desc__fields[1] = {"no fields"};
-ADD_METARECORD_DEFINITIONS struct record_description DAE_AvlTreePathFunction_Tree_EMPTY__desc = {
-  "DAE_AvlTreePathFunction_Tree_EMPTY",
-  "DAE.AvlTreePathFunction.Tree.EMPTY",
-  DAE_AvlTreePathFunction_Tree_EMPTY__desc__fields
-};
-#endif
-#else /* Only use the file as a header */
-extern struct record_description DAE_AvlTreePathFunction_Tree_EMPTY__desc;
-#endif
-#ifdef ADD_METARECORD_DEFINITIONS
-#ifndef DAE_AvlTreePathFunction_Tree_NODE__desc_added
-#define DAE_AvlTreePathFunction_Tree_NODE__desc_added
-ADD_METARECORD_DEFINITIONS const char* DAE_AvlTreePathFunction_Tree_NODE__desc__fields[5] = {"key","value","height","left","right"};
-ADD_METARECORD_DEFINITIONS struct record_description DAE_AvlTreePathFunction_Tree_NODE__desc = {
-  "DAE_AvlTreePathFunction_Tree_NODE",
-  "DAE.AvlTreePathFunction.Tree.NODE",
-  DAE_AvlTreePathFunction_Tree_NODE__desc__fields
-};
-#endif
-#else /* Only use the file as a header */
-extern struct record_description DAE_AvlTreePathFunction_Tree_NODE__desc;
-#endif
-#ifdef ADD_METARECORD_DEFINITIONS
-#ifndef DAE_AvlTreePathFunction_Tree_LEAF__desc_added
-#define DAE_AvlTreePathFunction_Tree_LEAF__desc_added
-ADD_METARECORD_DEFINITIONS const char* DAE_AvlTreePathFunction_Tree_LEAF__desc__fields[2] = {"key","value"};
-ADD_METARECORD_DEFINITIONS struct record_description DAE_AvlTreePathFunction_Tree_LEAF__desc = {
-  "DAE_AvlTreePathFunction_Tree_LEAF",
-  "DAE.AvlTreePathFunction.Tree.LEAF",
-  DAE_AvlTreePathFunction_Tree_LEAF__desc__fields
-};
-#endif
-#else /* Only use the file as a header */
-extern struct record_description DAE_AvlTreePathFunction_Tree_LEAF__desc;
-#endif
-#ifdef ADD_METARECORD_DEFINITIONS
-#ifndef DAE_AvlTreePathFunction_Tree_EMPTY__desc_added
-#define DAE_AvlTreePathFunction_Tree_EMPTY__desc_added
-ADD_METARECORD_DEFINITIONS const char* DAE_AvlTreePathFunction_Tree_EMPTY__desc__fields[1] = {"no fields"};
-ADD_METARECORD_DEFINITIONS struct record_description DAE_AvlTreePathFunction_Tree_EMPTY__desc = {
-  "DAE_AvlTreePathFunction_Tree_EMPTY",
-  "DAE.AvlTreePathFunction.Tree.EMPTY",
-  DAE_AvlTreePathFunction_Tree_EMPTY__desc__fields
-};
-#endif
-#else /* Only use the file as a header */
-extern struct record_description DAE_AvlTreePathFunction_Tree_EMPTY__desc;
-#endif
-#ifdef ADD_METARECORD_DEFINITIONS
 #ifndef DAE_Algorithm_ALGORITHM__STMTS__desc_added
 #define DAE_Algorithm_ALGORITHM__STMTS__desc_added
 ADD_METARECORD_DEFINITIONS const char* DAE_Algorithm_ALGORITHM__STMTS__desc__fields[1] = {"statementLst"};
@@ -4556,7 +4478,7 @@ extern struct record_description DAE_EvaluateSingletonType_EVAL__SINGLETON__TYPE
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef DAE_FunctionAttributes_FUNCTION__ATTRIBUTES__desc_added
 #define DAE_FunctionAttributes_FUNCTION__ATTRIBUTES__desc_added
-ADD_METARECORD_DEFINITIONS const char* DAE_FunctionAttributes_FUNCTION__ATTRIBUTES__desc__fields[6] = {"inline","isOpenModelicaPure","isImpure","isFunctionPointer","isBuiltin","functionParallelism"};
+ADD_METARECORD_DEFINITIONS const char* DAE_FunctionAttributes_FUNCTION__ATTRIBUTES__desc__fields[7] = {"inline","generateEvents","purity","isFunctionPointer","isBuiltin","functionParallelism","noReturn"};
 ADD_METARECORD_DEFINITIONS struct record_description DAE_FunctionAttributes_FUNCTION__ATTRIBUTES__desc = {
   "DAE_FunctionAttributes_FUNCTION__ATTRIBUTES",
   "DAE.FunctionAttributes.FUNCTION_ATTRIBUTES",
@@ -4569,7 +4491,7 @@ extern struct record_description DAE_FunctionAttributes_FUNCTION__ATTRIBUTES__de
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef DAE_FunctionAttributes_FUNCTION__ATTRIBUTES__desc_added
 #define DAE_FunctionAttributes_FUNCTION__ATTRIBUTES__desc_added
-ADD_METARECORD_DEFINITIONS const char* DAE_FunctionAttributes_FUNCTION__ATTRIBUTES__desc__fields[6] = {"inline","isOpenModelicaPure","isImpure","isFunctionPointer","isBuiltin","functionParallelism"};
+ADD_METARECORD_DEFINITIONS const char* DAE_FunctionAttributes_FUNCTION__ATTRIBUTES__desc__fields[7] = {"inline","generateEvents","purity","isFunctionPointer","isBuiltin","functionParallelism","noReturn"};
 ADD_METARECORD_DEFINITIONS struct record_description DAE_FunctionAttributes_FUNCTION__ATTRIBUTES__desc = {
   "DAE_FunctionAttributes_FUNCTION__ATTRIBUTES",
   "DAE.FunctionAttributes.FUNCTION_ATTRIBUTES",
@@ -6480,7 +6402,7 @@ extern struct record_description DAE_TailCall_NO__TAIL__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef DAE_CallAttributes_CALL__ATTR__desc_added
 #define DAE_CallAttributes_CALL__ATTR__desc_added
-ADD_METARECORD_DEFINITIONS const char* DAE_CallAttributes_CALL__ATTR__desc__fields[7] = {"ty","tuple_","builtin","isImpure","isFunctionPointerCall","inlineType","tailCall"};
+ADD_METARECORD_DEFINITIONS const char* DAE_CallAttributes_CALL__ATTR__desc__fields[8] = {"ty","tuple_","builtin","isImpure","isFunctionPointerCall","inlineType","tailCall","noReturn"};
 ADD_METARECORD_DEFINITIONS struct record_description DAE_CallAttributes_CALL__ATTR__desc = {
   "DAE_CallAttributes_CALL__ATTR",
   "DAE.CallAttributes.CALL_ATTR",
@@ -6493,7 +6415,7 @@ extern struct record_description DAE_CallAttributes_CALL__ATTR__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef DAE_CallAttributes_CALL__ATTR__desc_added
 #define DAE_CallAttributes_CALL__ATTR__desc_added
-ADD_METARECORD_DEFINITIONS const char* DAE_CallAttributes_CALL__ATTR__desc__fields[7] = {"ty","tuple_","builtin","isImpure","isFunctionPointerCall","inlineType","tailCall"};
+ADD_METARECORD_DEFINITIONS const char* DAE_CallAttributes_CALL__ATTR__desc__fields[8] = {"ty","tuple_","builtin","isImpure","isFunctionPointerCall","inlineType","tailCall","noReturn"};
 ADD_METARECORD_DEFINITIONS struct record_description DAE_CallAttributes_CALL__ATTR__desc = {
   "DAE_CallAttributes_CALL__ATTR",
   "DAE.CallAttributes.CALL_ATTR",

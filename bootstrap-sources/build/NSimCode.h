@@ -38,8 +38,6 @@ extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description HpcOmSimCode_HpcOmData_HPCOMDATA__desc;
 
 extern struct record_description NFAttributes_ATTRIBUTES__desc;
@@ -147,7 +145,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NSimCode_ModelInfo_setSeedVars,2,0) {(v
 
 
 DLLDirection
-modelica_metatype omc_NSimCode_ModelInfo_create(threadData_t *threadData, modelica_metatype _vars, modelica_metatype _name, modelica_string _directory, modelica_metatype _functions, modelica_metatype _linearLoops, modelica_metatype _nonlinearLoops, modelica_metatype _eventInfo, modelica_metatype _clockedInfo, modelica_metatype __omcQ_24in_5FsimCodeIndices, modelica_metatype *out_simCodeIndices);
+modelica_metatype omc_NSimCode_ModelInfo_create(threadData_t *threadData, modelica_metatype _vars, modelica_metatype _name, modelica_string _fileName, modelica_string _directory, modelica_metatype _functions, modelica_metatype _linearLoops, modelica_metatype _nonlinearLoops, modelica_metatype _eventInfo, modelica_metatype _clockedInfo, modelica_metatype __omcQ_24in_5FsimCodeIndices, modelica_metatype *out_simCodeIndices);
 #define boxptr_NSimCode_ModelInfo_create omc_NSimCode_ModelInfo_create
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NSimCode_ModelInfo_create,2,0) {(void*) boxptr_NSimCode_ModelInfo_create,0}};
 #define boxvar_NSimCode_ModelInfo_create MMC_REFSTRUCTLIT(boxvar_lit_NSimCode_ModelInfo_create)
@@ -178,7 +176,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NSimCode_SimCode_convert,2,0) {(void*) 
 
 
 DLLDirection
-modelica_metatype omc_NSimCode_SimCode_create(threadData_t *threadData, modelica_metatype _bdae, modelica_metatype _name, modelica_string _fileNamePrefix, modelica_metatype _simSettingsOpt, modelica_metatype *out_oldFunctionTree);
+modelica_metatype omc_NSimCode_SimCode_create(threadData_t *threadData, modelica_metatype _bdae, modelica_metatype _name, modelica_string _fileNamePrefix, modelica_metatype _simSettingsOpt, modelica_metatype _program, modelica_metatype *out_oldFunctionTree);
 #define boxptr_NSimCode_SimCode_create omc_NSimCode_SimCode_create
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NSimCode_SimCode_create,2,0) {(void*) boxptr_NSimCode_SimCode_create,0}};
 #define boxvar_NSimCode_SimCode_create MMC_REFSTRUCTLIT(boxvar_lit_NSimCode_SimCode_create)

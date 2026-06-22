@@ -16,6 +16,12 @@ extern struct record_description Obfuscate_Env_ENV__desc;
 
 extern struct record_description SCode_Comment_COMMENT__desc;
 
+extern struct record_description SCode_Enum_ENUM__desc;
+
+extern struct record_description SCode_ExternalDecl_EXTERNALDECL__desc;
+
+extern struct record_description SCode_SubMod_NAMEMOD__desc;
+
 
 DLLDirection
 modelica_boolean omc_Obfuscate_isBuiltinCall(threadData_t *threadData, modelica_metatype _callName, modelica_metatype _env);

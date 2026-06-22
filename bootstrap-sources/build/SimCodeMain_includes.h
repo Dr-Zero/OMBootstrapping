@@ -1,7 +1,7 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-#include "openmodelica.h"       // Defines OPENMODELICA_H_ for libraris to test if called from OpenModelica.
+#include "openmodelica.h"       // Defines OPENMODELICA_H_ for libraries to test if called from OpenModelica.
 #include "ModelicaUtilities.h"  // Make Modelica C util functions available for external includes.
 
 #include "AbsynUtil.h"
@@ -24,6 +24,7 @@ extern "C" {
 #include "CodegenOMSIC.h"
 #include "CodegenOMSICpp.h"
 #include "CodegenOMSI_common.h"
+#include "CodegenWasmJit.h"
 #include "CodegenXML.h"
 #include "Config.h"
 #include "DAEDump.h"
@@ -34,6 +35,7 @@ extern "C" {
 #include "ErrorExt.h"
 #include "ExecStat.h"
 #include "FCore.h"
+#include "FGraph.h"
 #include "FMI.h"
 #include "File.h"
 #include "Flags.h"
@@ -48,9 +50,11 @@ extern "C" {
 #include "Interactive.h"
 #include "List.h"
 #include "NBackendDAE.h"
+#include "NFApi.h"
 #include "NFConvertDAE.h"
 #include "NFFlatten.h"
 #include "NSimCode.h"
+#include "ProgramUtil.h"
 #include "SemanticVersion.h"
 #include "SerializeInitXML.h"
 #include "SerializeModelInfo.h"
@@ -60,7 +64,9 @@ extern "C" {
 #include "SimCodeFunctionUtil.h"
 #include "SimCodeMain.h"
 #include "SimCodeUtil.h"
+#include "SimCodeUtilShared.h"
 #include "StackOverflow.h"
+#include "StateMachineFlatten.h"
 #include "StringUtil.h"
 #include "SymbolTable.h"
 #include "SymbolicJacobian.h"
@@ -69,6 +75,7 @@ extern "C" {
 #include "Tpl.h"
 #include "UnorderedMap.h"
 #include "Util.h"
+#include "ValuesUtil.h"
 #include "ZeroCrossings.h"
 #ifdef __cplusplus
 }

@@ -14,7 +14,7 @@ modelica_metatype omc_HashSet_emptyHashSetSized(threadData_t *threadData, modeli
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _hashSet has no default value.
-  tmpMeta1 = mmc_mk_box3(0, boxvar_ComponentReference_hashComponentRef, boxvar_ComponentReference_crefEqual, boxvar_ComponentReference_printComponentRefStr);
+  tmpMeta1 = mmc_mk_box3(0, boxvar_ComponentReferenceBasics_hashComponentRef, boxvar_ComponentReferenceBasics_crefEqual, boxvar_ComponentReferenceBasics_printComponentRefStr);
   _hashSet = omc_BaseHashSet_emptyHashSetWork(threadData, _size, tmpMeta1);
   _return: OMC_LABEL_UNUSED
   return _hashSet;

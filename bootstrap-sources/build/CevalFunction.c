@@ -22,219 +22,213 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT6,1,4) {&ErrorTypes_Severity_ERROR_
 #define _OMC_LIT7_data "Cyclically dependent constants or parameters found in scope %s: %s (ignore with -d=ignoreCycles)."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,97,_OMC_LIT7_data);
 #define _OMC_LIT7 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT7)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT8,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT7}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT8,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(170)),_OMC_LIT5,_OMC_LIT6,_OMC_LIT7}};
 #define _OMC_LIT8 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT8)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT9,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(170)),_OMC_LIT5,_OMC_LIT6,_OMC_LIT8}};
-#define _OMC_LIT9 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT9)
-#define _OMC_LIT10_data "Internal error %s"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT10,17,_OMC_LIT10_data);
-#define _OMC_LIT10 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT10)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT11,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT10}};
-#define _OMC_LIT11 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT11)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT12,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(63)),_OMC_LIT5,_OMC_LIT6,_OMC_LIT11}};
+#define _OMC_LIT9_data "Internal error %s"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT9,17,_OMC_LIT9_data);
+#define _OMC_LIT9 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT9)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT10,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(63)),_OMC_LIT5,_OMC_LIT6,_OMC_LIT9}};
+#define _OMC_LIT10 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT10)
+#define _OMC_LIT11_data "Different iterators in CevalFunction.compareIterators."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT11,54,_OMC_LIT11_data);
+#define _OMC_LIT11 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT11)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT12,2,1) {_OMC_LIT11,MMC_REFSTRUCTLIT(mmc_nil)}};
 #define _OMC_LIT12 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT12)
-#define _OMC_LIT13_data "Different iterators in CevalFunction.compareIterators."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT13,54,_OMC_LIT13_data);
-#define _OMC_LIT13 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT13)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT14,2,1) {_OMC_LIT13,MMC_REFSTRUCTLIT(mmc_nil)}};
-#define _OMC_LIT14 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT14)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT15,1,16) {&Values_Value_NORETCALL__desc,}};
-#define _OMC_LIT15 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT15)
-#define _OMC_LIT16_data "failtrace"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT16,9,_OMC_LIT16_data);
-#define _OMC_LIT16 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT16)
-#define _OMC_LIT17_data "Sets whether to print a failtrace or not."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT17,41,_OMC_LIT17_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT13,1,16) {&Values_Value_NORETCALL__desc,}};
+#define _OMC_LIT13 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT13)
+#define _OMC_LIT14_data "failtrace"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT14,9,_OMC_LIT14_data);
+#define _OMC_LIT14 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT14)
+#define _OMC_LIT15_data "Sets whether to print a failtrace or not."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT15,41,_OMC_LIT15_data);
+#define _OMC_LIT15 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT15)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT16,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT14,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT15}};
+#define _OMC_LIT16 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT16)
+#define _OMC_LIT17_data "- CevalFunction.getRecordVarBindingAndName failed on variable "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT17,62,_OMC_LIT17_data);
 #define _OMC_LIT17 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT17)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT18,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT17}};
-#define _OMC_LIT18 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT18)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT19,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT16,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT18}};
+#define _OMC_LIT18_data "\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT18,1,_OMC_LIT18_data);
+#define _OMC_LIT18 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT18)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT19,2,3) {&Values_Value_INTEGER__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0))}};
 #define _OMC_LIT19 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT19)
-#define _OMC_LIT20_data "- CevalFunction.getRecordVarBindingAndName failed on variable "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT20,62,_OMC_LIT20_data);
-#define _OMC_LIT20 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT20)
-#define _OMC_LIT21_data "\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT21,1,_OMC_LIT21_data);
-#define _OMC_LIT21 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT21)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT22,2,3) {&Values_Value_INTEGER__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0))}};
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT20,0.0);
+#define _OMC_LIT20 MMC_REFREALLIT(_OMC_LIT_STRUCT20)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT21,2,4) {&Values_Value_REAL__desc,_OMC_LIT20}};
+#define _OMC_LIT21 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT21)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT22,2,5) {&Values_Value_STRING__desc,_OMC_LIT4}};
 #define _OMC_LIT22 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT22)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT23,0.0);
-#define _OMC_LIT23 MMC_REFREALLIT(_OMC_LIT_STRUCT23)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT24,2,4) {&Values_Value_REAL__desc,_OMC_LIT23}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT23,2,6) {&Values_Value_BOOL__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */))}};
+#define _OMC_LIT23 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT23)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT24,2,4) {&Absyn_Path_IDENT__desc,_OMC_LIT4}};
 #define _OMC_LIT24 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT24)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT25,2,5) {&Values_Value_STRING__desc,_OMC_LIT4}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT25,3,7) {&Values_Value_ENUM__LITERAL__desc,_OMC_LIT24,MMC_IMMEDIATE(MMC_TAGFIXNUM(0))}};
 #define _OMC_LIT25 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT25)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT26,2,6) {&Values_Value_BOOL__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */))}};
-#define _OMC_LIT26 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT26)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT27,2,4) {&Absyn_Path_IDENT__desc,_OMC_LIT4}};
+#define _OMC_LIT26_data "- CevalFunction.generateDefaultBinding failed\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT26,46,_OMC_LIT26_data);
+#define _OMC_LIT26 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT26)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT27,1,3) {&DAE_BindingSource_BINDING__FROM__DEFAULT__VALUE__desc,}};
 #define _OMC_LIT27 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT27)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT28,3,7) {&Values_Value_ENUM__LITERAL__desc,_OMC_LIT27,MMC_IMMEDIATE(MMC_TAGFIXNUM(0))}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT28,1,4) {&FCore_Status_VAR__TYPED__desc,}};
 #define _OMC_LIT28 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT28)
-#define _OMC_LIT29_data "- CevalFunction.generateDefaultBinding failed\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT29,46,_OMC_LIT29_data);
+#define _OMC_LIT29_data "- CevalFunction.assignVector failed on: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT29,40,_OMC_LIT29_data);
 #define _OMC_LIT29 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT29)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT30,1,3) {&DAE_BindingSource_BINDING__FROM__DEFAULT__VALUE__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT30,2,3) {&DAE_Dimension_DIM__INTEGER__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0))}};
 #define _OMC_LIT30 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT30)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT31,1,4) {&FCore_Status_VAR__TYPED__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT31,2,1) {_OMC_LIT30,MMC_REFSTRUCTLIT(mmc_nil)}};
 #define _OMC_LIT31 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT31)
-#define _OMC_LIT32_data "- CevalFunction.assignVector failed on: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT32,40,_OMC_LIT32_data);
-#define _OMC_LIT32 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT32)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT33,2,3) {&DAE_Dimension_DIM__INTEGER__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0))}};
-#define _OMC_LIT33 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT33)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT34,2,1) {_OMC_LIT33,MMC_REFSTRUCTLIT(mmc_nil)}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT32,2,3) {&DAE_Dimension_DIM__INTEGER__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(2))}};
+#define _OMC_LIT32 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT32)
+#define _OMC_LIT33_data "- CevalFunction.appendDimensions2 failed\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT33,41,_OMC_LIT33_data);
+#define _OMC_LIT33 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT33)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT34,1,3) {&DAE_Binding_UNBOUND__desc,}};
 #define _OMC_LIT34 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT34)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT35,2,3) {&DAE_Dimension_DIM__INTEGER__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(2))}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT35,1,6) {&SCode_Variability_CONST__desc,}};
 #define _OMC_LIT35 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT35)
-#define _OMC_LIT36_data "- CevalFunction.appendDimensions2 failed\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT36,41,_OMC_LIT36_data);
-#define _OMC_LIT36 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT36)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT37,1,3) {&DAE_Binding_UNBOUND__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT36,1,3) {&DAE_Const_C__CONST__desc,}};
+#define _OMC_LIT36 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT36)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT37,1,1) {_OMC_LIT36}};
 #define _OMC_LIT37 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT37)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT38,1,6) {&SCode_Variability_CONST__desc,}};
-#define _OMC_LIT38 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT38)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT39,1,3) {&DAE_Const_C__CONST__desc,}};
+#define _OMC_LIT38_data "$functionEvaluation"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT38,19,_OMC_LIT38_data);
+#define _OMC_LIT38 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT38)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT39,2,24) {&FCore_Data_ND__desc,MMC_REFSTRUCTLIT(mmc_none)}};
 #define _OMC_LIT39 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT39)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT40,1,1) {_OMC_LIT39}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT40,1,6) {&DAE_ConnectorType_NON__CONNECTOR__desc,}};
 #define _OMC_LIT40 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT40)
-#define _OMC_LIT41_data "$functionEvaluation"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT41,19,_OMC_LIT41_data);
-#define _OMC_LIT41 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT41)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT42,2,24) {&FCore_Data_ND__desc,MMC_REFSTRUCTLIT(mmc_none)}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT41,1,5) {&SCode_Parallelism_NON__PARALLEL__desc,}};
+#define _OMC_LIT41 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT41)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT42,1,3) {&SCode_Variability_VAR__desc,}};
 #define _OMC_LIT42 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT42)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT43,1,6) {&DAE_ConnectorType_NON__CONNECTOR__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT43,1,5) {&Absyn_Direction_BIDIR__desc,}};
 #define _OMC_LIT43 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT43)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT44,1,5) {&SCode_Parallelism_NON__PARALLEL__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT44,1,6) {&Absyn_InnerOuter_NOT__INNER__OUTER__desc,}};
 #define _OMC_LIT44 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT44)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT45,1,3) {&SCode_Variability_VAR__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT45,1,3) {&SCode_Visibility_PUBLIC__desc,}};
 #define _OMC_LIT45 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT45)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT46,1,5) {&Absyn_Direction_BIDIR__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT46,7,3) {&DAE_Attributes_ATTR__desc,_OMC_LIT40,_OMC_LIT41,_OMC_LIT42,_OMC_LIT43,_OMC_LIT44,_OMC_LIT45}};
 #define _OMC_LIT46 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT46)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT47,1,6) {&Absyn_InnerOuter_NOT__INNER__OUTER__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT47,1,4) {&SCode_Redeclare_NOT__REDECLARE__desc,}};
 #define _OMC_LIT47 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT47)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT48,1,3) {&SCode_Visibility_PUBLIC__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT48,1,4) {&SCode_Final_NOT__FINAL__desc,}};
 #define _OMC_LIT48 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT48)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT49,7,3) {&DAE_Attributes_ATTR__desc,_OMC_LIT43,_OMC_LIT44,_OMC_LIT45,_OMC_LIT46,_OMC_LIT47,_OMC_LIT48}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT49,1,4) {&SCode_Replaceable_NOT__REPLACEABLE__desc,}};
 #define _OMC_LIT49 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT49)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT50,1,4) {&SCode_Redeclare_NOT__REDECLARE__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT50,6,3) {&SCode_Prefixes_PREFIXES__desc,_OMC_LIT45,_OMC_LIT47,_OMC_LIT48,_OMC_LIT44,_OMC_LIT49}};
 #define _OMC_LIT50 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT50)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT51,1,4) {&SCode_Final_NOT__FINAL__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT51,1,3) {&SCode_ConnectorType_POTENTIAL__desc,}};
 #define _OMC_LIT51 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT51)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT52,1,4) {&SCode_Replaceable_NOT__REPLACEABLE__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT52,1,3) {&Absyn_IsField_NONFIELD__desc,}};
 #define _OMC_LIT52 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT52)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT53,6,3) {&SCode_Prefixes_PREFIXES__desc,_OMC_LIT48,_OMC_LIT50,_OMC_LIT51,_OMC_LIT47,_OMC_LIT52}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT53,7,3) {&SCode_Attributes_ATTR__desc,MMC_REFSTRUCTLIT(mmc_nil),_OMC_LIT51,_OMC_LIT41,_OMC_LIT42,_OMC_LIT43,_OMC_LIT52}};
 #define _OMC_LIT53 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT53)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT54,1,3) {&SCode_ConnectorType_POTENTIAL__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT54,3,3) {&Absyn_TypeSpec_TPATH__desc,_OMC_LIT24,MMC_REFSTRUCTLIT(mmc_none)}};
 #define _OMC_LIT54 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT54)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT55,1,3) {&Absyn_IsField_NONFIELD__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT55,1,7) {&SCode_Mod_NOMOD__desc,}};
 #define _OMC_LIT55 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT55)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT56,7,3) {&SCode_Attributes_ATTR__desc,MMC_REFSTRUCTLIT(mmc_nil),_OMC_LIT54,_OMC_LIT44,_OMC_LIT45,_OMC_LIT46,_OMC_LIT55}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT56,3,3) {&SCode_Comment_COMMENT__desc,MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none)}};
 #define _OMC_LIT56 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT56)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT57,3,3) {&Absyn_TypeSpec_TPATH__desc,_OMC_LIT27,MMC_REFSTRUCTLIT(mmc_none)}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT57,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT4,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),_OMC_LIT20}};
 #define _OMC_LIT57 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT57)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT58,1,7) {&SCode_Mod_NOMOD__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT58,1,5) {&DAE_Mod_NOMOD__desc,}};
 #define _OMC_LIT58 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT58)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT59,3,3) {&SCode_Comment_COMMENT__desc,MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none)}};
-#define _OMC_LIT59 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT59)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT60,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT4,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),_OMC_LIT23}};
+#define _OMC_LIT59_data "- CevalFunction.extendEnvWithFunctionVars failed for:"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT59,53,_OMC_LIT59_data);
+#define _OMC_LIT59 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT59)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT60,1,4) {&SCode_Encapsulated_NOT__ENCAPSULATED__desc,}};
 #define _OMC_LIT60 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT60)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT61,1,5) {&DAE_Mod_NOMOD__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT61,1,3) {&FCore_ScopeType_FUNCTION__SCOPE__desc,}};
 #define _OMC_LIT61 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT61)
-#define _OMC_LIT62_data "- CevalFunction.extendEnvWithFunctionVars failed for:"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT62,53,_OMC_LIT62_data);
-#define _OMC_LIT62 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT62)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT63,1,4) {&SCode_Encapsulated_NOT__ENCAPSULATED__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT62,1,1) {_OMC_LIT61}};
+#define _OMC_LIT62 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT62)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT63,2,3) {&Absyn_Msg_MSG__desc,_OMC_LIT57}};
 #define _OMC_LIT63 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT63)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT64,1,3) {&FCore_ScopeType_FUNCTION__SCOPE__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT64,1,18) {&Values_Value_META__FAIL__desc,}};
 #define _OMC_LIT64 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT64)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT65,1,1) {_OMC_LIT64}};
-#define _OMC_LIT65 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT65)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT66,2,3) {&Absyn_Msg_MSG__desc,_OMC_LIT60}};
+#define _OMC_LIT65_data "- CevalFunction.extractLhsComponentRef failed on "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT65,49,_OMC_LIT65_data);
+#define _OMC_LIT65 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT65)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT66,1,3) {&CevalFunction_LoopControl_NEXT__desc,}};
 #define _OMC_LIT66 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT66)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT67,1,18) {&Values_Value_META__FAIL__desc,}};
-#define _OMC_LIT67 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT67)
-#define _OMC_LIT68_data "- CevalFunction.extractLhsComponentRef failed on "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT68,49,_OMC_LIT68_data);
-#define _OMC_LIT68 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT68)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT69,1,3) {&CevalFunction_LoopControl_NEXT__desc,}};
+#define _OMC_LIT67_data "- evaluateForStatement not implemented for:"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT67,43,_OMC_LIT67_data);
+#define _OMC_LIT67 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT67)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT68,1,5) {&CevalFunction_LoopControl_RETURN__desc,}};
+#define _OMC_LIT68 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT68)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT69,1,4) {&CevalFunction_LoopControl_BREAK__desc,}};
 #define _OMC_LIT69 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT69)
-#define _OMC_LIT70_data "- evaluateForStatement not implemented for:"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT70,43,_OMC_LIT70_data);
+#define _OMC_LIT70_data "- CevalFunction.evaluateStatement failed for:"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT70,45,_OMC_LIT70_data);
 #define _OMC_LIT70 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT70)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT71,1,5) {&CevalFunction_LoopControl_RETURN__desc,}};
-#define _OMC_LIT71 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT71)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT72,1,4) {&CevalFunction_LoopControl_BREAK__desc,}};
-#define _OMC_LIT72 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT72)
-#define _OMC_LIT73_data "- CevalFunction.evaluateStatement failed for:"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT73,45,_OMC_LIT73_data);
+#define _OMC_LIT71_data "dgeev"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT71,5,_OMC_LIT71_data);
+#define _OMC_LIT71 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT71)
+#define _OMC_LIT72_data "dgegv"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT72,5,_OMC_LIT72_data);
+#define _OMC_LIT72 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT72)
+#define _OMC_LIT73_data "dgels"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT73,5,_OMC_LIT73_data);
 #define _OMC_LIT73 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT73)
-#define _OMC_LIT74_data "dgeev"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT74,5,_OMC_LIT74_data);
+#define _OMC_LIT74_data "dgelsx"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT74,6,_OMC_LIT74_data);
 #define _OMC_LIT74 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT74)
-#define _OMC_LIT75_data "dgegv"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT75,5,_OMC_LIT75_data);
+#define _OMC_LIT75_data "dgelsy"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT75,6,_OMC_LIT75_data);
 #define _OMC_LIT75 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT75)
-#define _OMC_LIT76_data "dgels"
+#define _OMC_LIT76_data "dgesv"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT76,5,_OMC_LIT76_data);
 #define _OMC_LIT76 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT76)
-#define _OMC_LIT77_data "dgelsx"
+#define _OMC_LIT77_data "dgglse"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT77,6,_OMC_LIT77_data);
 #define _OMC_LIT77 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT77)
-#define _OMC_LIT78_data "dgelsy"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT78,6,_OMC_LIT78_data);
+#define _OMC_LIT78_data "dgtsv"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT78,5,_OMC_LIT78_data);
 #define _OMC_LIT78 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT78)
-#define _OMC_LIT79_data "dgesv"
+#define _OMC_LIT79_data "dgbsv"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT79,5,_OMC_LIT79_data);
 #define _OMC_LIT79 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT79)
-#define _OMC_LIT80_data "dgglse"
+#define _OMC_LIT80_data "dgesvd"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT80,6,_OMC_LIT80_data);
 #define _OMC_LIT80 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT80)
-#define _OMC_LIT81_data "dgtsv"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT81,5,_OMC_LIT81_data);
+#define _OMC_LIT81_data "dgetrf"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT81,6,_OMC_LIT81_data);
 #define _OMC_LIT81 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT81)
-#define _OMC_LIT82_data "dgbsv"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT82,5,_OMC_LIT82_data);
+#define _OMC_LIT82_data "dgetrs"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT82,6,_OMC_LIT82_data);
 #define _OMC_LIT82 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT82)
-#define _OMC_LIT83_data "dgesvd"
+#define _OMC_LIT83_data "dgetri"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT83,6,_OMC_LIT83_data);
 #define _OMC_LIT83 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT83)
-#define _OMC_LIT84_data "dgetrf"
+#define _OMC_LIT84_data "dgeqpf"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT84,6,_OMC_LIT84_data);
 #define _OMC_LIT84 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT84)
-#define _OMC_LIT85_data "dgetrs"
+#define _OMC_LIT85_data "dorgqr"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT85,6,_OMC_LIT85_data);
 #define _OMC_LIT85 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT85)
-#define _OMC_LIT86_data "dgetri"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT86,6,_OMC_LIT86_data);
-#define _OMC_LIT86 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT86)
-#define _OMC_LIT87_data "dgeqpf"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT87,6,_OMC_LIT87_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT86,1,11) {&DAE_Type_T__UNKNOWN__desc,}};
+#define _OMC_LIT86 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT86)
+#define _OMC_LIT87_data "- CevalFunction.evaluateExtInputArg failed on "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT87,46,_OMC_LIT87_data);
 #define _OMC_LIT87 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT87)
-#define _OMC_LIT88_data "dorgqr"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT88,6,_OMC_LIT88_data);
-#define _OMC_LIT88 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT88)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT89,1,11) {&DAE_Type_T__UNKNOWN__desc,}};
-#define _OMC_LIT89 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT89)
-#define _OMC_LIT90_data "- CevalFunction.evaluateExtInputArg failed on "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT90,46,_OMC_LIT90_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT88,1,7) {&DAE_Dimension_DIM__UNKNOWN__desc,}};
+#define _OMC_LIT88 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT88)
+#define _OMC_LIT89_data "- CevalFunction.pairFuncParamsWithArgs failed because of too few input arguments.\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT89,82,_OMC_LIT89_data);
+#define _OMC_LIT89 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT89)
+#define _OMC_LIT90_data "- CevalFunction.evaluateFunction failed.\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT90,41,_OMC_LIT90_data);
 #define _OMC_LIT90 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT90)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT91,1,7) {&DAE_Dimension_DIM__UNKNOWN__desc,}};
-#define _OMC_LIT91 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT91)
-#define _OMC_LIT92_data "- CevalFunction.pairFuncParamsWithArgs failed because of too few input arguments.\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT92,82,_OMC_LIT92_data);
+#define _OMC_LIT91_data "."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT91,1,_OMC_LIT91_data);
+#define _OMC_LIT91 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT91)
+#define _OMC_LIT92_data "- CevalFunction.evaluate failed for function: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT92,46,_OMC_LIT92_data);
 #define _OMC_LIT92 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT92)
-#define _OMC_LIT93_data "- CevalFunction.evaluateFunction failed.\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT93,41,_OMC_LIT93_data);
+#define _OMC_LIT93_data "partial "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT93,8,_OMC_LIT93_data);
 #define _OMC_LIT93 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT93)
-#define _OMC_LIT94_data "."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT94,1,_OMC_LIT94_data);
-#define _OMC_LIT94 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT94)
-#define _OMC_LIT95_data "- CevalFunction.evaluate failed for function: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT95,46,_OMC_LIT95_data);
-#define _OMC_LIT95 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT95)
-#define _OMC_LIT96_data "partial "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT96,8,_OMC_LIT96_data);
-#define _OMC_LIT96 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT96)
 #include "util/modelica.h"
 
 #include "CevalFunction_includes.h"
@@ -628,7 +622,7 @@ PROTECTED_FUNCTION_STATIC void omc_CevalFunction_checkCyclicalComponents(threadD
 
           _crefs = omc_List_mapList(threadData, _elements, boxvar_DAEUtil_varCref);
 
-          _names = omc_List_mapList(threadData, _crefs, boxvar_ComponentReference_printComponentRefStr);
+          _names = omc_List_mapList(threadData, _crefs, boxvar_ComponentReferenceBasics_printComponentRefStr);
 
           _cycles_strs = omc_List_map1(threadData, _names, boxvar_stringDelimitList, _OMC_LIT0);
 
@@ -643,7 +637,7 @@ PROTECTED_FUNCTION_STATIC void omc_CevalFunction_checkCyclicalComponents(threadD
           _info = omc_ElementSource_getElementSourceFileInfo(threadData, _inSource);
 
           tmpMeta7 = mmc_mk_cons(_scope_str, mmc_mk_cons(_cycles_str, MMC_REFSTRUCTLIT(mmc_nil)));
-          omc_Error_addSourceMessage(threadData, _OMC_LIT9, tmpMeta7, _info);
+          omc_Error_addSourceMessage(threadData, _OMC_LIT8, tmpMeta7, _info);
           goto goto_1;
           goto tmp2_done;
         }
@@ -693,7 +687,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_CevalFunction_isElementEqual(thre
   tmpMeta6 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta5), 2));
   _cr2 = tmpMeta6;
 
-  _isEqual = omc_ComponentReference_crefEqualWithoutSubs(threadData, _cr1, _cr2);
+  _isEqual = omc_ComponentReferenceBasics_crefEqualWithoutSubs(threadData, _cr1, _cr2);
   _return: OMC_LABEL_UNUSED
   return _isEqual;
 }
@@ -724,7 +718,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_CevalFunction_isElementNamed(thre
   tmpMeta3 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta2), 2));
   _name = tmpMeta3;
 
-  _isNamed = omc_ComponentReference_crefEqualWithoutSubs(threadData, _name, _inName);
+  _isNamed = omc_ComponentReferenceBasics_crefEqualWithoutSubs(threadData, _name, _inName);
   _return: OMC_LABEL_UNUSED
   return _isNamed;
 }
@@ -800,7 +794,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_compareIterators(t
         case 2: {
           
           /* Pattern matching succeeded */
-          omc_Error_addMessage(threadData, _OMC_LIT12, _OMC_LIT14);
+          omc_Error_addMessage(threadData, _OMC_LIT10, _OMC_LIT12);
           goto goto_2;
           goto tmp3_done;
         }
@@ -1290,7 +1284,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_boxReturnValue(thr
         case 0: {
           if (!listEmpty(tmp4_1)) goto tmp3_end;
           /* Pattern matching succeeded */
-          tmpMeta1 = _OMC_LIT15;
+          tmpMeta1 = _OMC_LIT13;
           goto tmp3_done;
         }
         case 1: {
@@ -1489,7 +1483,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_getRecordValue(thr
 
           _vals = omc_List_map1(threadData, _vars, boxvar_CevalFunction_getRecordComponentValue, _env);
 
-          _var_names = omc_List_map(threadData, _vars, boxvar_Types_getVarName);
+          _var_names = omc_List_map(threadData, _vars, boxvar_TypesDump_getVarName);
           tmpMeta10 = mmc_mk_box5(13, &Values_Value_RECORD__desc, _p, _vals, _var_names, mmc_mk_integer(((modelica_integer) -1)));
           tmpMeta1 = tmpMeta10;
           goto tmp3_done;
@@ -1682,11 +1676,11 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_getRecordVarBindin
           _name = tmpMeta9;
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp10 = omc_Flags_isSet(threadData, _OMC_LIT19);
+          tmp10 = omc_Flags_isSet(threadData, _OMC_LIT16);
           if (1 /* true */ != tmp10) goto goto_2;
 
-          tmpMeta11 = stringAppend(_OMC_LIT20,_name);
-          tmpMeta12 = stringAppend(tmpMeta11,_OMC_LIT21);
+          tmpMeta11 = stringAppend(_OMC_LIT17,_name);
+          tmpMeta12 = stringAppend(tmpMeta11,_OMC_LIT18);
           omc_Debug_traceln(threadData, tmpMeta12);
           goto goto_2;
           goto tmp3_done;
@@ -1757,35 +1751,35 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_generateDefaultBin
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,0,1) == 0) goto tmp3_end;
           
           tmp4 += 6; /* Pattern matching succeeded; we may skip some cases if we fail */
-          tmpMeta1 = _OMC_LIT22;
+          tmpMeta1 = _OMC_LIT19;
           goto tmp3_done;
         }
         case 1: {
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,1,1) == 0) goto tmp3_end;
           
           tmp4 += 5; /* Pattern matching succeeded; we may skip some cases if we fail */
-          tmpMeta1 = _OMC_LIT24;
+          tmpMeta1 = _OMC_LIT21;
           goto tmp3_done;
         }
         case 2: {
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,2,1) == 0) goto tmp3_end;
           
           tmp4 += 4; /* Pattern matching succeeded; we may skip some cases if we fail */
-          tmpMeta1 = _OMC_LIT25;
+          tmpMeta1 = _OMC_LIT22;
           goto tmp3_done;
         }
         case 3: {
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,3,1) == 0) goto tmp3_end;
           
           tmp4 += 3; /* Pattern matching succeeded; we may skip some cases if we fail */
-          tmpMeta1 = _OMC_LIT26;
+          tmpMeta1 = _OMC_LIT23;
           goto tmp3_done;
         }
         case 4: {
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,5,5) == 0) goto tmp3_end;
           
           tmp4 += 2; /* Pattern matching succeeded; we may skip some cases if we fail */
-          tmpMeta1 = _OMC_LIT28;
+          tmpMeta1 = _OMC_LIT25;
           goto tmp3_done;
         }
         case 5: {
@@ -1841,10 +1835,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_generateDefaultBin
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp16 = omc_Flags_isSet(threadData, _OMC_LIT19);
+          tmp16 = omc_Flags_isSet(threadData, _OMC_LIT16);
           if (1 /* true */ != tmp16) goto goto_2;
 
-          omc_Debug_trace(threadData, _OMC_LIT29);
+          omc_Debug_trace(threadData, _OMC_LIT26);
           goto goto_2;
           goto tmp3_done;
         }
@@ -2089,7 +2083,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_updateRecordCompon
 
   _val = omc_CevalFunction_updateRecordComponentValue(threadData, _inComponentId, _inValue, _val);
 
-  tmpMeta2 = mmc_mk_box3(5, &DAE_Binding_VALBOUND__desc, _val, _OMC_LIT30);
+  tmpMeta2 = mmc_mk_box3(5, &DAE_Binding_VALBOUND__desc, _val, _OMC_LIT27);
   tmpMeta1 = MMC_TAGPTR(mmc_alloc_words(8));
   memcpy(MMC_UNTAGPTR(tmpMeta1), MMC_UNTAGPTR(_outVar), 8*sizeof(modelica_metatype));
   ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta1))[5] = tmpMeta2;
@@ -2101,22 +2095,14 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_updateRecordCompon
 PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_updateRecordBinding(threadData_t *threadData, modelica_metatype _inVar, modelica_metatype _inValue)
 {
   modelica_metatype _outVar = NULL;
-  modelica_string _name = NULL;
-  modelica_metatype _attr = NULL;
-  modelica_metatype _ty = NULL;
-  modelica_metatype _c = NULL;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outVar has no default value.
-  // _name has no default value.
-  // _attr has no default value.
-  // _ty has no default value.
-  // _c has no default value.
   _outVar = _inVar;
 
-  tmpMeta2 = mmc_mk_box3(5, &DAE_Binding_VALBOUND__desc, _inValue, _OMC_LIT30);
+  tmpMeta2 = mmc_mk_box3(5, &DAE_Binding_VALBOUND__desc, _inValue, _OMC_LIT27);
   tmpMeta1 = MMC_TAGPTR(mmc_alloc_words(8));
   memcpy(MMC_UNTAGPTR(tmpMeta1), MMC_UNTAGPTR(_outVar), 8*sizeof(modelica_metatype));
   ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta1))[5] = tmpMeta2;
@@ -2138,10 +2124,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_updateVariableBind
   // _var has no default value.
   _var_name = omc_ComponentReference_crefStr(threadData, _inVariableCref);
 
-  tmpMeta1 = mmc_mk_box3(5, &DAE_Binding_VALBOUND__desc, _inNewValue, _OMC_LIT30);
+  tmpMeta1 = mmc_mk_box3(5, &DAE_Binding_VALBOUND__desc, _inNewValue, _OMC_LIT27);
   _var = omc_CevalFunction_makeFunctionVariable(threadData, _var_name, _inType, tmpMeta1);
 
-  _outEnv = omc_FGraph_updateComp(threadData, _inEnv, _var, _OMC_LIT31, omc_FGraph_empty(threadData));
+  _outEnv = omc_FGraph_updateComp(threadData, _inEnv, _var, _OMC_LIT28, omc_FGraph_empty(threadData));
   _return: OMC_LABEL_UNUSED
   return _outEnv;
 }
@@ -2561,12 +2547,12 @@ modelica_metatype omc_CevalFunction_assignVector(threadData_t *threadData, model
           _sub = tmpMeta32;
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp34 = omc_Flags_isSet(threadData, _OMC_LIT19);
+          tmp34 = omc_Flags_isSet(threadData, _OMC_LIT16);
           if (1 /* true */ != tmp34) goto goto_2;
 
-          fputs(MMC_STRINGDATA(_OMC_LIT32),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT29),stdout);
 
-          tmpMeta35 = stringAppend(omc_ExpressionDump_printSubscriptStr(threadData, _sub),_OMC_LIT21);
+          tmpMeta35 = stringAppend(omc_ExpressionBasics_printSubscriptStr(threadData, _sub),_OMC_LIT18);
           fputs(MMC_STRINGDATA(tmpMeta35),stdout);
           goto goto_2;
           goto tmp3_done;
@@ -2664,7 +2650,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_assignRecordCompon
           _rest_vals = tmpMeta11;
           /* Pattern matching succeeded */
           tmpMeta12 = MMC_REFSTRUCTLIT(mmc_nil);
-          _cr = omc_ComponentReference_makeCrefIdent(threadData, _name, _ty, tmpMeta12);
+          _cr = omc_ComponentReferenceBasics_makeCrefIdent(threadData, _name, _ty, tmpMeta12);
 
           _cache = omc_CevalFunction_assignVariable(threadData, _cr, _val, _inCache, _inEnv ,&_env);
           /* Tail recursive call */
@@ -2971,7 +2957,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_assignVariable(thr
 
           _cache = omc_CevalFunction_assignVariable(threadData, _cr_rest, _inNewValue, _inCache, _env ,&_env);
 
-          _comp_id = omc_ComponentReference_crefFirstIdent(threadData, _cr_rest);
+          _comp_id = omc_ComponentReferenceBasics_crefFirstIdent(threadData, _cr_rest);
 
           _var = omc_CevalFunction_updateRecordComponentBinding(threadData, _var, _comp_id, _inNewValue);
 
@@ -3100,7 +3086,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_appendDimensions2(
           _bind_dims = tmp4_3;
           tmp4 += 4; /* Pattern matching succeeded; we may skip some cases if we fail */
           _cache = omc_CevalFunction_appendDimensions2(threadData, _ty, _rest_dims, _bind_dims, _inCache, _inEnv ,&_ty);
-          tmpMeta15 = mmc_mk_box3(9, &DAE_Type_T__ARRAY__desc, _ty, _OMC_LIT34);
+          tmpMeta15 = mmc_mk_box3(9, &DAE_Type_T__ARRAY__desc, _ty, _OMC_LIT31);
           tmpMeta[0+0] = _cache;
           tmpMeta[0+1] = tmpMeta15;
           goto tmp3_done;
@@ -3151,7 +3137,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_appendDimensions2(
           _ty = tmp4_1;
           _bind_dims = tmp4_3;
           tmp4 += 2; /* Pattern matching succeeded; we may skip some cases if we fail */
-          _dim = _OMC_LIT35;
+          _dim = _OMC_LIT32;
 
           _bind_dims = omc_List_restOrEmpty(threadData, _bind_dims);
 
@@ -3238,10 +3224,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_appendDimensions2(
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp42 = omc_Flags_isSet(threadData, _OMC_LIT19);
+          tmp42 = omc_Flags_isSet(threadData, _OMC_LIT16);
           if (1 /* true */ != tmp42) goto goto_2;
 
-          omc_Debug_trace(threadData, _OMC_LIT36);
+          omc_Debug_trace(threadData, _OMC_LIT33);
           goto goto_2;
           goto tmp3_done;
         }
@@ -3280,7 +3266,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_appendDimensions(t
   // _outCache has no default value.
   // _outType has no default value.
   // _binding_dims has no default value.
-  _binding_dims = omc_ValuesUtil_valueDimensions(threadData, omc_Util_getOptionOrDefault(threadData, _inOptBinding, _OMC_LIT22));
+  _binding_dims = omc_ValuesUtil_valueDimensions(threadData, omc_Util_getOptionOrDefault(threadData, _inOptBinding, _OMC_LIT19));
 
   _outCache = omc_CevalFunction_appendDimensions2(threadData, _inType, _inDims, _binding_dims, _inCache, _inEnv ,&_outType);
   _return: OMC_LABEL_UNUSED
@@ -3293,20 +3279,18 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_extendEnvWithForSc
   modelica_metatype _outEnv = NULL;
   modelica_metatype _outIterType = NULL;
   modelica_metatype _outIterCref = NULL;
-  modelica_metatype _iter_cr = NULL;
   modelica_metatype tmpMeta1;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outEnv has no default value.
   // _outIterType has no default value.
   // _outIterCref has no default value.
-  // _iter_cr has no default value.
   _outIterType = omc_Types_expTypetoTypesType(threadData, _inIterType);
 
-  _outEnv = omc_FGraph_addForIterator(threadData, _inEnv, _inIterName, _outIterType, _OMC_LIT37, _OMC_LIT38, _OMC_LIT40);
+  _outEnv = omc_FGraph_addForIterator(threadData, _inEnv, _inIterName, _outIterType, _OMC_LIT34, _OMC_LIT35, _OMC_LIT37);
 
   tmpMeta1 = MMC_REFSTRUCTLIT(mmc_nil);
-  _outIterCref = omc_ComponentReference_makeCrefIdent(threadData, _inIterName, _inIterType, tmpMeta1);
+  _outIterCref = omc_ComponentReferenceBasics_makeCrefIdent(threadData, _inIterName, _inIterType, tmpMeta1);
   _return: OMC_LABEL_UNUSED
   if (out_outIterType) { *out_outIterType = _outIterType; }
   if (out_outIterCref) { *out_outIterCref = _outIterCref; }
@@ -3492,11 +3476,11 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_makeRecordEnvironm
           _parent = omc_FGraph_lastScopeRef(threadData, _inGraph);
 
           tmpMeta8 = mmc_mk_cons(_parent, MMC_REFSTRUCTLIT(mmc_nil));
-          _graph = omc_FGraph_node(threadData, _inGraph, _OMC_LIT41, tmpMeta8, _OMC_LIT42 ,&_node);
+          _graph = omc_FGraph_node(threadData, _inGraph, _OMC_LIT38, tmpMeta8, _OMC_LIT39 ,&_node);
 
           _child = omc_FNode_toRef(threadData, _node);
 
-          omc_FNode_addChildRef(threadData, _parent, _OMC_LIT41, _child, 0 /* false */);
+          omc_FNode_addChildRef(threadData, _parent, _OMC_LIT38, _child, 0 /* false */);
 
           _graph = omc_FGraph_pushScopeRef(threadData, _graph, _child);
 
@@ -3556,14 +3540,14 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_makeBinding(thread
           tmpMeta6 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 1));
           _val = tmpMeta6;
           /* Pattern matching succeeded */
-          tmpMeta7 = mmc_mk_box3(5, &DAE_Binding_VALBOUND__desc, _val, _OMC_LIT30);
+          tmpMeta7 = mmc_mk_box3(5, &DAE_Binding_VALBOUND__desc, _val, _OMC_LIT27);
           tmpMeta1 = tmpMeta7;
           goto tmp3_done;
         }
         case 1: {
           if (!optionNone(tmp4_1)) goto tmp3_end;
           /* Pattern matching succeeded */
-          tmpMeta1 = _OMC_LIT37;
+          tmpMeta1 = _OMC_LIT34;
           goto tmp3_done;
         }
         }
@@ -3589,7 +3573,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_makeFunctionVariab
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outVar has no default value.
-  tmpMeta1 = mmc_mk_box7(3, &DAE_Var_TYPES__VAR__desc, _inName, _OMC_LIT49, _inType, _inBinding, mmc_mk_boolean(0 /* false */), mmc_mk_none());
+  tmpMeta1 = mmc_mk_box7(3, &DAE_Var_TYPES__VAR__desc, _inName, _OMC_LIT46, _inType, _inBinding, mmc_mk_boolean(0 /* false */), mmc_mk_none());
   _outVar = tmpMeta1;
   _return: OMC_LABEL_UNUSED
   return _outVar;
@@ -3641,13 +3625,13 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_extendEnvWithVar(t
 
           _cache = omc_CevalFunction_appendDimensions(threadData, _inType, _inOptValue, _inDims, _inCache, _inEnv ,&_ty);
 
-          tmpMeta7 = mmc_mk_box7(3, &DAE_Var_TYPES__VAR__desc, _inName, _OMC_LIT49, _ty, _binding, mmc_mk_boolean(0 /* false */), mmc_mk_none());
+          tmpMeta7 = mmc_mk_box7(3, &DAE_Var_TYPES__VAR__desc, _inName, _OMC_LIT46, _ty, _binding, mmc_mk_boolean(0 /* false */), mmc_mk_none());
           _var = tmpMeta7;
 
           _cache = omc_CevalFunction_makeRecordEnvironment(threadData, _inType, _inOptValue, _cache, _inEnv ,&_record_env);
 
-          tmpMeta8 = mmc_mk_box9(6, &SCode_Element_COMPONENT__desc, _inName, _OMC_LIT53, _OMC_LIT56, _OMC_LIT57, _OMC_LIT58, _OMC_LIT59, mmc_mk_none(), _OMC_LIT60);
-          _env = omc_FGraph_mkComponentNode(threadData, _inEnv, _var, tmpMeta8, _OMC_LIT61, _OMC_LIT31, _record_env);
+          tmpMeta8 = mmc_mk_box9(6, &SCode_Element_COMPONENT__desc, _inName, _OMC_LIT50, _OMC_LIT53, _OMC_LIT54, _OMC_LIT55, _OMC_LIT56, mmc_mk_none(), _OMC_LIT57);
+          _env = omc_FGraph_mkComponentNode(threadData, _inEnv, _var, tmpMeta8, _OMC_LIT58, _OMC_LIT28, _record_env);
           tmpMeta[0+0] = _cache;
           tmpMeta[0+1] = _env;
           goto tmp3_done;
@@ -3660,11 +3644,11 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_extendEnvWithVar(t
 
           _cache = omc_CevalFunction_appendDimensions(threadData, _inType, _inOptValue, _inDims, _inCache, _inEnv ,&_ty);
 
-          tmpMeta9 = mmc_mk_box7(3, &DAE_Var_TYPES__VAR__desc, _inName, _OMC_LIT49, _ty, _binding, mmc_mk_boolean(0 /* false */), mmc_mk_none());
+          tmpMeta9 = mmc_mk_box7(3, &DAE_Var_TYPES__VAR__desc, _inName, _OMC_LIT46, _ty, _binding, mmc_mk_boolean(0 /* false */), mmc_mk_none());
           _var = tmpMeta9;
 
-          tmpMeta10 = mmc_mk_box9(6, &SCode_Element_COMPONENT__desc, _inName, _OMC_LIT53, _OMC_LIT56, _OMC_LIT57, _OMC_LIT58, _OMC_LIT59, mmc_mk_none(), _OMC_LIT60);
-          _env = omc_FGraph_mkComponentNode(threadData, _inEnv, _var, tmpMeta10, _OMC_LIT61, _OMC_LIT31, omc_FGraph_empty(threadData));
+          tmpMeta10 = mmc_mk_box9(6, &SCode_Element_COMPONENT__desc, _inName, _OMC_LIT50, _OMC_LIT53, _OMC_LIT54, _OMC_LIT55, _OMC_LIT56, mmc_mk_none(), _OMC_LIT57);
+          _env = omc_FGraph_mkComponentNode(threadData, _inEnv, _var, tmpMeta10, _OMC_LIT58, _OMC_LIT28, omc_FGraph_empty(threadData));
           tmpMeta[0+0] = _cache;
           tmpMeta[0+1] = _env;
           goto tmp3_done;
@@ -3896,10 +3880,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_extendEnvWithFunct
           _e = tmpMeta12;
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp13 = omc_Flags_isSet(threadData, _OMC_LIT19);
+          tmp13 = omc_Flags_isSet(threadData, _OMC_LIT16);
           if (1 /* true */ != tmp13) goto goto_2;
 
-          omc_Debug_traceln(threadData, _OMC_LIT62);
+          omc_Debug_traceln(threadData, _OMC_LIT59);
 
           tmpMeta14 = mmc_mk_cons(_e, MMC_REFSTRUCTLIT(mmc_nil));
           omc_Debug_traceln(threadData, omc_DAEDump_dumpElementsStr(threadData, tmpMeta14));
@@ -4016,7 +4000,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_setupFunctionEnvir
   _tailrecursive: OMC_LABEL_UNUSED
   // _outCache has no default value.
   // _outEnv has no default value.
-  _outEnv = omc_FGraph_openScope(threadData, _inEnv, _OMC_LIT63, _inFuncName, _OMC_LIT65);
+  _outEnv = omc_FGraph_openScope(threadData, _inEnv, _OMC_LIT60, _inFuncName, _OMC_LIT62);
 
   _outCache = omc_CevalFunction_extendEnvWithFunctionVars(threadData, _inCache, _outEnv, _inFuncParams ,&_outEnv);
   _return: OMC_LABEL_UNUSED
@@ -4032,7 +4016,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_cevalExpList(threa
   _tailrecursive: OMC_LABEL_UNUSED
   // _outCache has no default value.
   // _outValue has no default value.
-  _outCache = omc_Ceval_cevalList(threadData, _inCache, _inEnv, _inExpLst, 1 /* true */, _OMC_LIT66, ((modelica_integer) 0) ,&_outValue);
+  _outCache = omc_Ceval_cevalList(threadData, _inCache, _inEnv, _inExpLst, 1 /* true */, _OMC_LIT63, ((modelica_integer) 0) ,&_outValue);
   _return: OMC_LABEL_UNUSED
   if (out_outValue) { *out_outValue = _outValue; }
   return _outCache;
@@ -4047,10 +4031,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_cevalExp(threadDat
   _tailrecursive: OMC_LABEL_UNUSED
   // _outCache has no default value.
   // _outValue has no default value.
-  _outCache = omc_Ceval_ceval(threadData, _inCache, _inEnv, _inExp, 1 /* true */, _OMC_LIT66, ((modelica_integer) 0) ,&_outValue);
+  _outCache = omc_Ceval_ceval(threadData, _inCache, _inEnv, _inExp, 1 /* true */, _OMC_LIT63, ((modelica_integer) 0) ,&_outValue);
 
   /* Pattern-matching assignment */
-  tmp1 = valueEq(_OMC_LIT67, _outValue);
+  tmp1 = valueEq(_OMC_LIT64, _outValue);
   if (0 /* false */ != tmp1) MMC_THROW_INTERNAL();
   _return: OMC_LABEL_UNUSED
   if (out_outValue) { *out_outValue = _outValue; }
@@ -4091,10 +4075,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_extractLhsComponen
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp7 = omc_Flags_isSet(threadData, _OMC_LIT19);
+          tmp7 = omc_Flags_isSet(threadData, _OMC_LIT16);
           if (1 /* true */ != tmp7) goto goto_2;
 
-          tmpMeta8 = stringAppend(_OMC_LIT68,omc_ExpressionDump_printExpStr(threadData, _inExp));
+          tmpMeta8 = stringAppend(_OMC_LIT65,omc_ExpressionBasics_printExpStr(threadData, _inExp));
           omc_Debug_traceln(threadData, tmpMeta8);
           goto goto_2;
           goto tmp3_done;
@@ -4149,7 +4133,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateWhileState
           /* Pattern matching succeeded */
           tmpMeta[0+0] = _inCache;
           tmpMeta[0+1] = _inEnv;
-          tmpMeta[0+2] = _OMC_LIT69;
+          tmpMeta[0+2] = _OMC_LIT66;
           goto tmp3_done;
         }
         case 5: {
@@ -4184,7 +4168,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateWhileState
           }
           else
           {
-            _loop_ctrl = _OMC_LIT69;
+            _loop_ctrl = _OMC_LIT66;
 
             _env = _inEnv;
           }
@@ -4254,7 +4238,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateForLoopArr
           /* Pattern matching succeeded */
           tmpMeta[0+0] = _inCache;
           tmpMeta[0+1] = _inEnv;
-          tmpMeta[0+2] = _OMC_LIT69;
+          tmpMeta[0+2] = _OMC_LIT66;
           goto tmp3_done;
         }
         case 1: {
@@ -4392,7 +4376,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateForStateme
           _range_vals = tmpMeta11;
 
           _env = omc_CevalFunction_extendEnvWithForScope(threadData, _iter_name, _ety, _env ,&_ty ,&_iter_cr);
-          tmpMeta[0+0] = omc_CevalFunction_evaluateForLoopArray(threadData, _cache, _env, _iter_cr, _ty, _range_vals, _statements, _OMC_LIT69, &tmpMeta[0+1], &tmpMeta[0+2]);
+          tmpMeta[0+0] = omc_CevalFunction_evaluateForLoopArray(threadData, _cache, _env, _iter_cr, _ty, _range_vals, _statements, _OMC_LIT66, &tmpMeta[0+1], &tmpMeta[0+2]);
           goto tmp3_done;
         }
         case 1: {
@@ -4404,12 +4388,12 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateForStateme
           _range = tmpMeta13;
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp14 = omc_Flags_isSet(threadData, _OMC_LIT19);
+          tmp14 = omc_Flags_isSet(threadData, _OMC_LIT16);
           if (1 /* true */ != tmp14) goto goto_2;
 
-          omc_Debug_traceln(threadData, _OMC_LIT70);
+          omc_Debug_traceln(threadData, _OMC_LIT67);
 
-          omc_Debug_traceln(threadData, omc_ExpressionDump_printExpStr(threadData, _range));
+          omc_Debug_traceln(threadData, omc_ExpressionBasics_printExpStr(threadData, _range));
           goto goto_2;
           goto tmp3_done;
         }
@@ -4542,7 +4526,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateIfStatemen
           /* Pattern matching succeeded */
           tmpMeta[0+0] = _inCache;
           tmpMeta[0+1] = _inEnv;
-          tmpMeta[0+2] = _OMC_LIT69;
+          tmpMeta[0+2] = _OMC_LIT66;
           goto tmp3_done;
         }
         }
@@ -4843,7 +4827,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateStatements
   // _outCache has no default value.
   // _outEnv has no default value.
   // _outLoopControl has no default value.
-  _outCache = omc_CevalFunction_evaluateStatements2(threadData, _inStatement, _inCache, _inEnv, _OMC_LIT69 ,&_outEnv ,&_outLoopControl);
+  _outCache = omc_CevalFunction_evaluateStatements2(threadData, _inStatement, _inCache, _inEnv, _OMC_LIT66 ,&_outEnv ,&_outLoopControl);
   _return: OMC_LABEL_UNUSED
   if (out_outEnv) { *out_outEnv = _outEnv; }
   if (out_outLoopControl) { *out_outLoopControl = _outLoopControl; }
@@ -4922,7 +4906,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateStatement(
           _cache = omc_CevalFunction_assignVariable(threadData, _lhs_cref, _rhs_val, _cache, _env ,&_env);
           tmpMeta[0+0] = _cache;
           tmpMeta[0+1] = _env;
-          tmpMeta[0+2] = _OMC_LIT69;
+          tmpMeta[0+2] = _OMC_LIT66;
           goto tmp3_done;
         }
         case 1: {
@@ -4932,7 +4916,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateStatement(
           _cache = omc_CevalFunction_evaluateTupleAssignStatement(threadData, _inStatement, _inCache, _inEnv ,&_env);
           tmpMeta[0+0] = _cache;
           tmpMeta[0+1] = _env;
-          tmpMeta[0+2] = _OMC_LIT69;
+          tmpMeta[0+2] = _OMC_LIT66;
           goto tmp3_done;
         }
         case 2: {
@@ -4953,7 +4937,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateStatement(
           _cache = omc_CevalFunction_assignVariable(threadData, _lhs_cref, _rhs_val, _cache, _env ,&_env);
           tmpMeta[0+0] = _cache;
           tmpMeta[0+1] = _env;
-          tmpMeta[0+2] = _OMC_LIT69;
+          tmpMeta[0+2] = _OMC_LIT66;
           goto tmp3_done;
         }
         case 3: {
@@ -4980,7 +4964,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateStatement(
           _condition = tmpMeta10;
           _statements = tmpMeta11;
           /* Pattern matching succeeded */
-          tmpMeta[0+0] = omc_CevalFunction_evaluateWhileStatement(threadData, _condition, _statements, _inCache, _inEnv, _OMC_LIT69, &tmpMeta[0+1], &tmpMeta[0+2]);
+          tmpMeta[0+0] = omc_CevalFunction_evaluateWhileStatement(threadData, _condition, _statements, _inCache, _inEnv, _OMC_LIT66, &tmpMeta[0+1], &tmpMeta[0+2]);
           goto tmp3_done;
         }
         case 6: {
@@ -5003,7 +4987,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateStatement(
           if (1 /* true */ != tmp15) goto goto_2;
           tmpMeta[0+0] = _cache;
           tmpMeta[0+1] = _inEnv;
-          tmpMeta[0+2] = _OMC_LIT69;
+          tmpMeta[0+2] = _OMC_LIT66;
           goto tmp3_done;
         }
         case 7: {
@@ -5026,7 +5010,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateStatement(
           if (1 /* true */ != tmp20) goto goto_2;
           tmpMeta[0+0] = _cache;
           tmpMeta[0+1] = _inEnv;
-          tmpMeta[0+2] = _OMC_LIT69;
+          tmpMeta[0+2] = _OMC_LIT66;
           goto tmp3_done;
         }
         case 8: {
@@ -5066,7 +5050,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateStatement(
                   /* Pattern matching succeeded */
                   tmpMeta[3+0] = _cache;
                   tmpMeta[3+1] = _inEnv;
-                  tmpMeta[3+2] = _OMC_LIT69;
+                  tmpMeta[3+2] = _OMC_LIT66;
                   goto tmp28_done;
                 }
                 case 1: {
@@ -5077,7 +5061,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateStatement(
                   /* Pattern matching succeeded */
                   tmpMeta[3+0] = _cache;
                   tmpMeta[3+1] = _inEnv;
-                  tmpMeta[3+2] = _OMC_LIT71;
+                  tmpMeta[3+2] = _OMC_LIT68;
                   goto tmp28_done;
                 }
                 case 2: {
@@ -5095,7 +5079,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateStatement(
                   _cache = omc_CevalFunction_assignVariable(threadData, omc_ComponentReference_makeUntypedCrefIdent(threadData, _var), _v, _cache, _inEnv ,&_env);
                   tmpMeta[3+0] = _cache;
                   tmpMeta[3+1] = _env;
-                  tmpMeta[3+2] = _OMC_LIT71;
+                  tmpMeta[3+2] = _OMC_LIT68;
                   goto tmp28_done;
                 }
                 case 3: {
@@ -5111,6 +5095,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateStatement(
                   tmpMeta35 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp29_1), 3));
                   _vars = tmpMeta35;
                   /* Pattern matching succeeded */
+                  _env = _inEnv;
+
                   /* Pattern-matching assignment */
                   tmpMeta36 = _v;
                   if (mmc__uniontype__metarecord__typedef__equal(tmpMeta36,8,1) == 0) goto goto_27;
@@ -5135,7 +5121,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateStatement(
                   }
                   tmpMeta[3+0] = _cache;
                   tmpMeta[3+1] = _env;
-                  tmpMeta[3+2] = _OMC_LIT71;
+                  tmpMeta[3+2] = _OMC_LIT68;
                   goto tmp28_done;
                 }
                 }
@@ -5154,7 +5140,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateStatement(
           _outLoopControl = tmpMeta[3+2];
           tmpMeta[0+0] = _cache;
           tmpMeta[0+1] = _env;
-          tmpMeta[0+2] = _OMC_LIT69;
+          tmpMeta[0+2] = _OMC_LIT66;
           goto tmp3_done;
         }
         case 9: {
@@ -5163,7 +5149,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateStatement(
           /* Pattern matching succeeded */
           tmpMeta[0+0] = _inCache;
           tmpMeta[0+1] = _inEnv;
-          tmpMeta[0+2] = _OMC_LIT71;
+          tmpMeta[0+2] = _OMC_LIT68;
           goto tmp3_done;
         }
         case 10: {
@@ -5172,7 +5158,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateStatement(
           /* Pattern matching succeeded */
           tmpMeta[0+0] = _inCache;
           tmpMeta[0+1] = _inEnv;
-          tmpMeta[0+2] = _OMC_LIT72;
+          tmpMeta[0+2] = _OMC_LIT69;
           goto tmp3_done;
         }
         case 11: {
@@ -5180,10 +5166,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateStatement(
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp43 = omc_Flags_isSet(threadData, _OMC_LIT19);
+          tmp43 = omc_Flags_isSet(threadData, _OMC_LIT16);
           if (1 /* true */ != tmp43) goto goto_2;
 
-          omc_Debug_traceln(threadData, _OMC_LIT73);
+          omc_Debug_traceln(threadData, _OMC_LIT70);
 
           omc_Debug_traceln(threadData, omc_DAEDump_ppStatementStr(threadData, _inStatement));
           goto goto_2;
@@ -5327,7 +5313,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateElements(t
           /* Pattern matching succeeded */
           tmpMeta[0+0] = _inCache;
           tmpMeta[0+1] = _inEnv;
-          tmpMeta[0+2] = _OMC_LIT69;
+          tmpMeta[0+2] = _OMC_LIT66;
           goto tmp3_done;
         }
         case 2: {
@@ -5660,7 +5646,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
           modelica_metatype tmpMeta33;
           modelica_metatype tmpMeta34;
           modelica_metatype tmpMeta35;
-          if (5 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT74), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
+          if (5 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT71), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
           if (listEmpty(tmp4_2)) goto tmp3_end;
           tmpMeta6 = MMC_CAR(tmp4_2);
           tmpMeta7 = MMC_CDR(tmp4_2);
@@ -5742,19 +5728,19 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
 
           _A = omc_Lapack_dgeev(threadData, _JOBVL, _JOBVR, _N, _A, _LDA, _LDVL, _LDVR, _WORK, _LWORK ,&_WR ,&_WI ,&_VL ,&_VR ,&_WORK ,&_INFO);
 
-          _val_A = omc_ValuesUtil_makeRealMatrix(threadData, _A);
+          _val_A = omc_ValuesMake_makeRealMatrix(threadData, _A);
 
-          _val_WR = omc_ValuesUtil_makeRealArray(threadData, _WR);
+          _val_WR = omc_ValuesMake_makeRealArray(threadData, _WR);
 
-          _val_WI = omc_ValuesUtil_makeRealArray(threadData, _WI);
+          _val_WI = omc_ValuesMake_makeRealArray(threadData, _WI);
 
-          _val_VL = omc_ValuesUtil_makeRealMatrix(threadData, _VL);
+          _val_VL = omc_ValuesMake_makeRealMatrix(threadData, _VL);
 
-          _val_VR = omc_ValuesUtil_makeRealMatrix(threadData, _VR);
+          _val_VR = omc_ValuesMake_makeRealMatrix(threadData, _VR);
 
-          _val_WORK = omc_ValuesUtil_makeRealArray(threadData, _WORK);
+          _val_WORK = omc_ValuesMake_makeRealArray(threadData, _WORK);
 
-          _val_INFO = omc_ValuesUtil_makeInteger(threadData, _INFO);
+          _val_INFO = omc_ValuesMake_makeInteger(threadData, _INFO);
 
           tmpMeta34 = mmc_mk_cons(_arg_A, mmc_mk_cons(_arg_WR, mmc_mk_cons(_arg_WI, mmc_mk_cons(_arg_VL, mmc_mk_cons(_arg_VR, mmc_mk_cons(_arg_WORK, mmc_mk_cons(_arg_INFO, MMC_REFSTRUCTLIT(mmc_nil))))))));
           _arg_out = tmpMeta34;
@@ -5801,7 +5787,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
           modelica_metatype tmpMeta69;
           modelica_metatype tmpMeta70;
           modelica_metatype tmpMeta71;
-          if (5 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT75), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
+          if (5 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT72), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
           if (listEmpty(tmp4_2)) goto tmp3_end;
           tmpMeta36 = MMC_CAR(tmp4_2);
           tmpMeta37 = MMC_CDR(tmp4_2);
@@ -5899,19 +5885,19 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
 
           _ALPHAR = omc_Lapack_dgegv(threadData, _JOBVL, _JOBVR, _N, _A, _LDA, _B, _LDB, _LDVL, _LDVR, _WORK, _LWORK ,&_ALPHAI ,&_BETA ,&_VL ,&_VR ,&_WORK ,&_INFO);
 
-          _val_ALPHAR = omc_ValuesUtil_makeRealArray(threadData, _ALPHAR);
+          _val_ALPHAR = omc_ValuesMake_makeRealArray(threadData, _ALPHAR);
 
-          _val_ALPHAI = omc_ValuesUtil_makeRealArray(threadData, _ALPHAI);
+          _val_ALPHAI = omc_ValuesMake_makeRealArray(threadData, _ALPHAI);
 
-          _val_BETA = omc_ValuesUtil_makeRealArray(threadData, _BETA);
+          _val_BETA = omc_ValuesMake_makeRealArray(threadData, _BETA);
 
-          _val_VL = omc_ValuesUtil_makeRealMatrix(threadData, _VL);
+          _val_VL = omc_ValuesMake_makeRealMatrix(threadData, _VL);
 
-          _val_VR = omc_ValuesUtil_makeRealMatrix(threadData, _VR);
+          _val_VR = omc_ValuesMake_makeRealMatrix(threadData, _VR);
 
-          _val_WORK = omc_ValuesUtil_makeRealArray(threadData, _WORK);
+          _val_WORK = omc_ValuesMake_makeRealArray(threadData, _WORK);
 
-          _val_INFO = omc_ValuesUtil_makeInteger(threadData, _INFO);
+          _val_INFO = omc_ValuesMake_makeInteger(threadData, _INFO);
 
           tmpMeta70 = mmc_mk_cons(_arg_ALPHAR, mmc_mk_cons(_arg_ALPHAI, mmc_mk_cons(_arg_BETA, mmc_mk_cons(_arg_VL, mmc_mk_cons(_arg_VR, mmc_mk_cons(_arg_WORK, mmc_mk_cons(_arg_INFO, MMC_REFSTRUCTLIT(mmc_nil))))))));
           _arg_out = tmpMeta70;
@@ -5946,7 +5932,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
           modelica_metatype tmpMeta93;
           modelica_metatype tmpMeta94;
           modelica_metatype tmpMeta95;
-          if (5 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT76), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
+          if (5 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT73), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
           if (listEmpty(tmp4_2)) goto tmp3_end;
           tmpMeta72 = MMC_CAR(tmp4_2);
           tmpMeta73 = MMC_CDR(tmp4_2);
@@ -6018,13 +6004,13 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
 
           _A = omc_Lapack_dgels(threadData, _TRANS, _M, _N, _NRHS, _A, _LDA, _B, _LDB, _WORK, _LWORK ,&_B ,&_WORK ,&_INFO);
 
-          _val_A = omc_ValuesUtil_makeRealMatrix(threadData, _A);
+          _val_A = omc_ValuesMake_makeRealMatrix(threadData, _A);
 
-          _val_B = omc_ValuesUtil_makeRealMatrix(threadData, _B);
+          _val_B = omc_ValuesMake_makeRealMatrix(threadData, _B);
 
-          _val_WORK = omc_ValuesUtil_makeRealArray(threadData, _WORK);
+          _val_WORK = omc_ValuesMake_makeRealArray(threadData, _WORK);
 
-          _val_INFO = omc_ValuesUtil_makeInteger(threadData, _INFO);
+          _val_INFO = omc_ValuesMake_makeInteger(threadData, _INFO);
 
           tmpMeta94 = mmc_mk_cons(_arg_A, mmc_mk_cons(_arg_B, mmc_mk_cons(_arg_WORK, mmc_mk_cons(_arg_INFO, MMC_REFSTRUCTLIT(mmc_nil)))));
           _arg_out = tmpMeta94;
@@ -6061,7 +6047,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
           modelica_metatype tmpMeta119;
           modelica_metatype tmpMeta120;
           modelica_metatype tmpMeta121;
-          if (6 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT77), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
+          if (6 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT74), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
           if (listEmpty(tmp4_2)) goto tmp3_end;
           tmpMeta96 = MMC_CAR(tmp4_2);
           tmpMeta97 = MMC_CDR(tmp4_2);
@@ -6137,15 +6123,15 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
 
           _A = omc_Lapack_dgelsx(threadData, _M, _N, _NRHS, _A, _LDA, _B, _LDB, _JPVT, _RCOND, _WORK ,&_B ,&_JPVT ,&_RANK ,&_INFO);
 
-          _val_A = omc_ValuesUtil_makeRealMatrix(threadData, _A);
+          _val_A = omc_ValuesMake_makeRealMatrix(threadData, _A);
 
-          _val_B = omc_ValuesUtil_makeRealMatrix(threadData, _B);
+          _val_B = omc_ValuesMake_makeRealMatrix(threadData, _B);
 
-          _val_JPVT = omc_ValuesUtil_makeIntArray(threadData, _JPVT);
+          _val_JPVT = omc_ValuesMake_makeIntArray(threadData, _JPVT);
 
-          _val_RANK = omc_ValuesUtil_makeInteger(threadData, _RANK);
+          _val_RANK = omc_ValuesMake_makeInteger(threadData, _RANK);
 
-          _val_INFO = omc_ValuesUtil_makeInteger(threadData, _INFO);
+          _val_INFO = omc_ValuesMake_makeInteger(threadData, _INFO);
 
           tmpMeta120 = mmc_mk_cons(_arg_A, mmc_mk_cons(_arg_B, mmc_mk_cons(_arg_JPVT, mmc_mk_cons(_arg_RANK, mmc_mk_cons(_arg_INFO, MMC_REFSTRUCTLIT(mmc_nil))))));
           _arg_out = tmpMeta120;
@@ -6184,7 +6170,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
           modelica_metatype tmpMeta147;
           modelica_metatype tmpMeta148;
           modelica_metatype tmpMeta149;
-          if (6 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT77), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
+          if (6 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT74), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
           if (listEmpty(tmp4_2)) goto tmp3_end;
           tmpMeta122 = MMC_CAR(tmp4_2);
           tmpMeta123 = MMC_CDR(tmp4_2);
@@ -6263,15 +6249,15 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
 
           _A = omc_Lapack_dgelsx(threadData, _M, _N, _NRHS, _A, _LDA, _B, _LDB, _JPVT, _RCOND, _WORK ,&_B ,&_JPVT ,&_RANK ,&_INFO);
 
-          _val_A = omc_ValuesUtil_makeRealMatrix(threadData, _A);
+          _val_A = omc_ValuesMake_makeRealMatrix(threadData, _A);
 
-          _val_B = omc_ValuesUtil_makeRealMatrix(threadData, _B);
+          _val_B = omc_ValuesMake_makeRealMatrix(threadData, _B);
 
-          _val_JPVT = omc_ValuesUtil_makeIntArray(threadData, _JPVT);
+          _val_JPVT = omc_ValuesMake_makeIntArray(threadData, _JPVT);
 
-          _val_RANK = omc_ValuesUtil_makeInteger(threadData, _RANK);
+          _val_RANK = omc_ValuesMake_makeInteger(threadData, _RANK);
 
-          _val_INFO = omc_ValuesUtil_makeInteger(threadData, _INFO);
+          _val_INFO = omc_ValuesMake_makeInteger(threadData, _INFO);
 
           tmpMeta148 = mmc_mk_cons(_arg_A, mmc_mk_cons(_arg_B, mmc_mk_cons(_arg_JPVT, mmc_mk_cons(_arg_RANK, mmc_mk_cons(_arg_INFO, MMC_REFSTRUCTLIT(mmc_nil))))));
           _arg_out = tmpMeta148;
@@ -6310,7 +6296,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
           modelica_metatype tmpMeta175;
           modelica_metatype tmpMeta176;
           modelica_metatype tmpMeta177;
-          if (6 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT78), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
+          if (6 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT75), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
           if (listEmpty(tmp4_2)) goto tmp3_end;
           tmpMeta150 = MMC_CAR(tmp4_2);
           tmpMeta151 = MMC_CDR(tmp4_2);
@@ -6392,17 +6378,17 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
 
           _A = omc_Lapack_dgelsy(threadData, _M, _N, _NRHS, _A, _LDA, _B, _LDB, _JPVT, _RCOND, _WORK, _LWORK ,&_B ,&_JPVT ,&_RANK ,&_WORK ,&_INFO);
 
-          _val_A = omc_ValuesUtil_makeRealMatrix(threadData, _A);
+          _val_A = omc_ValuesMake_makeRealMatrix(threadData, _A);
 
-          _val_B = omc_ValuesUtil_makeRealMatrix(threadData, _B);
+          _val_B = omc_ValuesMake_makeRealMatrix(threadData, _B);
 
-          _val_JPVT = omc_ValuesUtil_makeIntArray(threadData, _JPVT);
+          _val_JPVT = omc_ValuesMake_makeIntArray(threadData, _JPVT);
 
-          _val_RANK = omc_ValuesUtil_makeInteger(threadData, _RANK);
+          _val_RANK = omc_ValuesMake_makeInteger(threadData, _RANK);
 
-          _val_WORK = omc_ValuesUtil_makeRealArray(threadData, _WORK);
+          _val_WORK = omc_ValuesMake_makeRealArray(threadData, _WORK);
 
-          _val_INFO = omc_ValuesUtil_makeInteger(threadData, _INFO);
+          _val_INFO = omc_ValuesMake_makeInteger(threadData, _INFO);
 
           tmpMeta176 = mmc_mk_cons(_arg_A, mmc_mk_cons(_arg_B, mmc_mk_cons(_arg_JPVT, mmc_mk_cons(_arg_RANK, mmc_mk_cons(_arg_WORK, mmc_mk_cons(_arg_INFO, MMC_REFSTRUCTLIT(mmc_nil)))))));
           _arg_out = tmpMeta176;
@@ -6431,7 +6417,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
           modelica_metatype tmpMeta193;
           modelica_metatype tmpMeta194;
           modelica_metatype tmpMeta195;
-          if (5 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT79), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
+          if (5 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT76), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
           if (listEmpty(tmp4_2)) goto tmp3_end;
           tmpMeta178 = MMC_CAR(tmp4_2);
           tmpMeta179 = MMC_CDR(tmp4_2);
@@ -6483,13 +6469,13 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
 
           _A = omc_Lapack_dgesv(threadData, _N, _NRHS, _A, _LDA, _B, _LDB ,&_IPIV ,&_B ,&_INFO);
 
-          _val_A = omc_ValuesUtil_makeRealMatrix(threadData, _A);
+          _val_A = omc_ValuesMake_makeRealMatrix(threadData, _A);
 
-          _val_IPIV = omc_ValuesUtil_makeIntArray(threadData, _IPIV);
+          _val_IPIV = omc_ValuesMake_makeIntArray(threadData, _IPIV);
 
-          _val_B = omc_ValuesUtil_makeRealMatrix(threadData, _B);
+          _val_B = omc_ValuesMake_makeRealMatrix(threadData, _B);
 
-          _val_INFO = omc_ValuesUtil_makeInteger(threadData, _INFO);
+          _val_INFO = omc_ValuesMake_makeInteger(threadData, _INFO);
 
           tmpMeta194 = mmc_mk_cons(_arg_A, mmc_mk_cons(_arg_IPIV, mmc_mk_cons(_arg_B, mmc_mk_cons(_arg_INFO, MMC_REFSTRUCTLIT(mmc_nil)))));
           _arg_out = tmpMeta194;
@@ -6528,7 +6514,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
           modelica_metatype tmpMeta221;
           modelica_metatype tmpMeta222;
           modelica_metatype tmpMeta223;
-          if (6 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT80), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
+          if (6 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT77), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
           if (listEmpty(tmp4_2)) goto tmp3_end;
           tmpMeta196 = MMC_CAR(tmp4_2);
           tmpMeta197 = MMC_CDR(tmp4_2);
@@ -6610,19 +6596,19 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
 
           _A = omc_Lapack_dgglse(threadData, _M, _N, _P, _A, _LDA, _B, _LDB, _C, _D, _WORK, _LWORK ,&_B ,&_C ,&_D ,&_X ,&_WORK ,&_INFO);
 
-          _val_A = omc_ValuesUtil_makeRealMatrix(threadData, _A);
+          _val_A = omc_ValuesMake_makeRealMatrix(threadData, _A);
 
-          _val_B = omc_ValuesUtil_makeRealMatrix(threadData, _B);
+          _val_B = omc_ValuesMake_makeRealMatrix(threadData, _B);
 
-          _val_C = omc_ValuesUtil_makeRealArray(threadData, _C);
+          _val_C = omc_ValuesMake_makeRealArray(threadData, _C);
 
-          _val_D = omc_ValuesUtil_makeRealArray(threadData, _D);
+          _val_D = omc_ValuesMake_makeRealArray(threadData, _D);
 
-          _val_X = omc_ValuesUtil_makeRealArray(threadData, _X);
+          _val_X = omc_ValuesMake_makeRealArray(threadData, _X);
 
-          _val_WORK = omc_ValuesUtil_makeRealArray(threadData, _WORK);
+          _val_WORK = omc_ValuesMake_makeRealArray(threadData, _WORK);
 
-          _val_INFO = omc_ValuesUtil_makeInteger(threadData, _INFO);
+          _val_INFO = omc_ValuesMake_makeInteger(threadData, _INFO);
 
           tmpMeta222 = mmc_mk_cons(_arg_A, mmc_mk_cons(_arg_B, mmc_mk_cons(_arg_C, mmc_mk_cons(_arg_D, mmc_mk_cons(_arg_X, mmc_mk_cons(_arg_WORK, mmc_mk_cons(_arg_INFO, MMC_REFSTRUCTLIT(mmc_nil))))))));
           _arg_out = tmpMeta222;
@@ -6651,7 +6637,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
           modelica_metatype tmpMeta239;
           modelica_metatype tmpMeta240;
           modelica_metatype tmpMeta241;
-          if (5 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT81), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
+          if (5 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT78), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
           if (listEmpty(tmp4_2)) goto tmp3_end;
           tmpMeta224 = MMC_CAR(tmp4_2);
           tmpMeta225 = MMC_CDR(tmp4_2);
@@ -6705,15 +6691,15 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
 
           _DL = omc_Lapack_dgtsv(threadData, _N, _NRHS, _DL, _D, _DU, _B, _LDB ,&_D ,&_DU ,&_B ,&_INFO);
 
-          _val_DL = omc_ValuesUtil_makeRealArray(threadData, _DL);
+          _val_DL = omc_ValuesMake_makeRealArray(threadData, _DL);
 
-          _val_D = omc_ValuesUtil_makeRealArray(threadData, _D);
+          _val_D = omc_ValuesMake_makeRealArray(threadData, _D);
 
-          _val_DU = omc_ValuesUtil_makeRealArray(threadData, _DU);
+          _val_DU = omc_ValuesMake_makeRealArray(threadData, _DU);
 
-          _val_B = omc_ValuesUtil_makeRealMatrix(threadData, _B);
+          _val_B = omc_ValuesMake_makeRealMatrix(threadData, _B);
 
-          _val_INFO = omc_ValuesUtil_makeInteger(threadData, _INFO);
+          _val_INFO = omc_ValuesMake_makeInteger(threadData, _INFO);
 
           tmpMeta240 = mmc_mk_cons(_arg_DL, mmc_mk_cons(_arg_D, mmc_mk_cons(_arg_DU, mmc_mk_cons(_arg_B, mmc_mk_cons(_arg_INFO, MMC_REFSTRUCTLIT(mmc_nil))))));
           _arg_out = tmpMeta240;
@@ -6746,7 +6732,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
           modelica_metatype tmpMeta261;
           modelica_metatype tmpMeta262;
           modelica_metatype tmpMeta263;
-          if (5 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT82), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
+          if (5 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT79), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
           if (listEmpty(tmp4_2)) goto tmp3_end;
           tmpMeta242 = MMC_CAR(tmp4_2);
           tmpMeta243 = MMC_CDR(tmp4_2);
@@ -6810,13 +6796,13 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
 
           _AB = omc_Lapack_dgbsv(threadData, _N, _KL, _KU, _NRHS, _AB, _LDAB, _B, _LDB ,&_IPIV ,&_B ,&_INFO);
 
-          _val_AB = omc_ValuesUtil_makeRealMatrix(threadData, _AB);
+          _val_AB = omc_ValuesMake_makeRealMatrix(threadData, _AB);
 
-          _val_IPIV = omc_ValuesUtil_makeIntArray(threadData, _IPIV);
+          _val_IPIV = omc_ValuesMake_makeIntArray(threadData, _IPIV);
 
-          _val_B = omc_ValuesUtil_makeRealMatrix(threadData, _B);
+          _val_B = omc_ValuesMake_makeRealMatrix(threadData, _B);
 
-          _val_INFO = omc_ValuesUtil_makeInteger(threadData, _INFO);
+          _val_INFO = omc_ValuesMake_makeInteger(threadData, _INFO);
 
           tmpMeta262 = mmc_mk_cons(_arg_AB, mmc_mk_cons(_arg_IPIV, mmc_mk_cons(_arg_B, mmc_mk_cons(_arg_INFO, MMC_REFSTRUCTLIT(mmc_nil)))));
           _arg_out = tmpMeta262;
@@ -6857,7 +6843,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
           modelica_metatype tmpMeta291;
           modelica_metatype tmpMeta292;
           modelica_metatype tmpMeta293;
-          if (6 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT83), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
+          if (6 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT80), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
           if (listEmpty(tmp4_2)) goto tmp3_end;
           tmpMeta264 = MMC_CAR(tmp4_2);
           tmpMeta265 = MMC_CDR(tmp4_2);
@@ -6941,17 +6927,17 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
 
           _A = omc_Lapack_dgesvd(threadData, _JOBU, _JOBVT, _M, _N, _A, _LDA, _LDU, _LDVT, _WORK, _LWORK ,&_S ,&_U ,&_VT ,&_WORK ,&_INFO);
 
-          _val_A = omc_ValuesUtil_makeRealMatrix(threadData, _A);
+          _val_A = omc_ValuesMake_makeRealMatrix(threadData, _A);
 
-          _val_S = omc_ValuesUtil_makeRealArray(threadData, _S);
+          _val_S = omc_ValuesMake_makeRealArray(threadData, _S);
 
-          _val_U = omc_ValuesUtil_makeRealMatrix(threadData, _U);
+          _val_U = omc_ValuesMake_makeRealMatrix(threadData, _U);
 
-          _val_VT = omc_ValuesUtil_makeRealMatrix(threadData, _VT);
+          _val_VT = omc_ValuesMake_makeRealMatrix(threadData, _VT);
 
-          _val_WORK = omc_ValuesUtil_makeRealArray(threadData, _WORK);
+          _val_WORK = omc_ValuesMake_makeRealArray(threadData, _WORK);
 
-          _val_INFO = omc_ValuesUtil_makeInteger(threadData, _INFO);
+          _val_INFO = omc_ValuesMake_makeInteger(threadData, _INFO);
 
           tmpMeta292 = mmc_mk_cons(_arg_A, mmc_mk_cons(_arg_S, mmc_mk_cons(_arg_U, mmc_mk_cons(_arg_VT, mmc_mk_cons(_arg_WORK, mmc_mk_cons(_arg_INFO, MMC_REFSTRUCTLIT(mmc_nil)))))));
           _arg_out = tmpMeta292;
@@ -6976,7 +6962,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
           modelica_metatype tmpMeta305;
           modelica_metatype tmpMeta306;
           modelica_metatype tmpMeta307;
-          if (6 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT84), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
+          if (6 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT81), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
           if (listEmpty(tmp4_2)) goto tmp3_end;
           tmpMeta294 = MMC_CAR(tmp4_2);
           tmpMeta295 = MMC_CDR(tmp4_2);
@@ -7016,11 +7002,11 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
 
           _A = omc_Lapack_dgetrf(threadData, _M, _N, _A, _LDA ,&_IPIV ,&_INFO);
 
-          _val_A = omc_ValuesUtil_makeRealMatrix(threadData, _A);
+          _val_A = omc_ValuesMake_makeRealMatrix(threadData, _A);
 
-          _val_IPIV = omc_ValuesUtil_makeIntArray(threadData, _IPIV);
+          _val_IPIV = omc_ValuesMake_makeIntArray(threadData, _IPIV);
 
-          _val_INFO = omc_ValuesUtil_makeInteger(threadData, _INFO);
+          _val_INFO = omc_ValuesMake_makeInteger(threadData, _INFO);
 
           tmpMeta306 = mmc_mk_cons(_arg_A, mmc_mk_cons(_arg_IPIV, mmc_mk_cons(_arg_INFO, MMC_REFSTRUCTLIT(mmc_nil))));
           _arg_out = tmpMeta306;
@@ -7051,7 +7037,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
           modelica_metatype tmpMeta325;
           modelica_metatype tmpMeta326;
           modelica_metatype tmpMeta327;
-          if (6 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT85), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
+          if (6 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT82), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
           if (listEmpty(tmp4_2)) goto tmp3_end;
           tmpMeta308 = MMC_CAR(tmp4_2);
           tmpMeta309 = MMC_CDR(tmp4_2);
@@ -7111,9 +7097,9 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
 
           _B = omc_Lapack_dgetrs(threadData, _TRANS, _N, _NRHS, _A, _LDA, _IPIV, _B, _LDB ,&_INFO);
 
-          _val_B = omc_ValuesUtil_makeRealMatrix(threadData, _B);
+          _val_B = omc_ValuesMake_makeRealMatrix(threadData, _B);
 
-          _val_INFO = omc_ValuesUtil_makeInteger(threadData, _INFO);
+          _val_INFO = omc_ValuesMake_makeInteger(threadData, _INFO);
 
           tmpMeta326 = mmc_mk_cons(_arg_B, mmc_mk_cons(_arg_INFO, MMC_REFSTRUCTLIT(mmc_nil)));
           _arg_out = tmpMeta326;
@@ -7140,7 +7126,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
           modelica_metatype tmpMeta341;
           modelica_metatype tmpMeta342;
           modelica_metatype tmpMeta343;
-          if (6 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT86), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
+          if (6 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT83), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
           if (listEmpty(tmp4_2)) goto tmp3_end;
           tmpMeta328 = MMC_CAR(tmp4_2);
           tmpMeta329 = MMC_CDR(tmp4_2);
@@ -7188,11 +7174,11 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
 
           _A = omc_Lapack_dgetri(threadData, _N, _A, _LDA, _IPIV, _WORK, _LWORK ,&_WORK ,&_INFO);
 
-          _val_A = omc_ValuesUtil_makeRealMatrix(threadData, _A);
+          _val_A = omc_ValuesMake_makeRealMatrix(threadData, _A);
 
-          _val_WORK = omc_ValuesUtil_makeRealArray(threadData, _WORK);
+          _val_WORK = omc_ValuesMake_makeRealArray(threadData, _WORK);
 
-          _val_INFO = omc_ValuesUtil_makeInteger(threadData, _INFO);
+          _val_INFO = omc_ValuesMake_makeInteger(threadData, _INFO);
 
           tmpMeta342 = mmc_mk_cons(_arg_A, mmc_mk_cons(_arg_WORK, mmc_mk_cons(_arg_INFO, MMC_REFSTRUCTLIT(mmc_nil))));
           _arg_out = tmpMeta342;
@@ -7221,7 +7207,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
           modelica_metatype tmpMeta359;
           modelica_metatype tmpMeta360;
           modelica_metatype tmpMeta361;
-          if (6 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT87), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
+          if (6 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT84), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
           if (listEmpty(tmp4_2)) goto tmp3_end;
           tmpMeta344 = MMC_CAR(tmp4_2);
           tmpMeta345 = MMC_CDR(tmp4_2);
@@ -7273,13 +7259,13 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
 
           _A = omc_Lapack_dgeqpf(threadData, _M, _N, _A, _LDA, _JPVT, _WORK ,&_JPVT ,&_TAU ,&_INFO);
 
-          _val_A = omc_ValuesUtil_makeRealMatrix(threadData, _A);
+          _val_A = omc_ValuesMake_makeRealMatrix(threadData, _A);
 
-          _val_JPVT = omc_ValuesUtil_makeIntArray(threadData, _JPVT);
+          _val_JPVT = omc_ValuesMake_makeIntArray(threadData, _JPVT);
 
-          _val_TAU = omc_ValuesUtil_makeRealArray(threadData, _TAU);
+          _val_TAU = omc_ValuesMake_makeRealArray(threadData, _TAU);
 
-          _val_INFO = omc_ValuesUtil_makeInteger(threadData, _INFO);
+          _val_INFO = omc_ValuesMake_makeInteger(threadData, _INFO);
 
           tmpMeta360 = mmc_mk_cons(_arg_A, mmc_mk_cons(_arg_JPVT, mmc_mk_cons(_arg_TAU, mmc_mk_cons(_arg_INFO, MMC_REFSTRUCTLIT(mmc_nil)))));
           _arg_out = tmpMeta360;
@@ -7310,7 +7296,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
           modelica_metatype tmpMeta379;
           modelica_metatype tmpMeta380;
           modelica_metatype tmpMeta381;
-          if (6 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT88), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
+          if (6 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT85), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
           if (listEmpty(tmp4_2)) goto tmp3_end;
           tmpMeta362 = MMC_CAR(tmp4_2);
           tmpMeta363 = MMC_CDR(tmp4_2);
@@ -7370,11 +7356,11 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExternalFu
 
           _A = omc_Lapack_dorgqr(threadData, _M, _N, _K, _A, _LDA, _TAU, _WORK, _LWORK ,&_WORK ,&_INFO);
 
-          _val_A = omc_ValuesUtil_makeRealMatrix(threadData, _A);
+          _val_A = omc_ValuesMake_makeRealMatrix(threadData, _A);
 
-          _val_WORK = omc_ValuesUtil_makeRealArray(threadData, _WORK);
+          _val_WORK = omc_ValuesMake_makeRealArray(threadData, _WORK);
 
-          _val_INFO = omc_ValuesUtil_makeInteger(threadData, _INFO);
+          _val_INFO = omc_ValuesMake_makeInteger(threadData, _INFO);
 
           tmpMeta380 = mmc_mk_cons(_arg_A, mmc_mk_cons(_arg_WORK, mmc_mk_cons(_arg_INFO, MMC_REFSTRUCTLIT(mmc_nil))));
           _arg_out = tmpMeta380;
@@ -7837,7 +7823,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExtInputAr
           _exp = tmpMeta10;
           _cache = tmp4_2;
           /* Pattern matching succeeded */
-          tmpMeta11 = mmc_mk_box3(9, &DAE_Exp_CREF__desc, _cref, _OMC_LIT89);
+          tmpMeta11 = mmc_mk_box3(9, &DAE_Exp_CREF__desc, _cref, _OMC_LIT86);
           tmpMeta12 = mmc_mk_box3(27, &DAE_Exp_SIZE__desc, tmpMeta11, mmc_mk_some(_exp));
           _exp = tmpMeta12;
 
@@ -7852,12 +7838,12 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateExtInputAr
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp13 = omc_Flags_isSet(threadData, _OMC_LIT19);
+          tmp13 = omc_Flags_isSet(threadData, _OMC_LIT16);
           if (1 /* true */ != tmp13) goto goto_2;
 
           _err_str = omc_DAEDump_dumpExtArgStr(threadData, _inArgument);
 
-          tmpMeta14 = stringAppend(_OMC_LIT90,_err_str);
+          tmpMeta14 = stringAppend(_OMC_LIT87,_err_str);
           omc_Debug_traceln(threadData, tmpMeta14);
           goto goto_2;
           goto tmp3_done;
@@ -7980,7 +7966,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_removeSelfReferent
           /* Pattern-matching assignment */
           tmp7 = omc_List_isMemberOnTrue(threadData, _inName, _crefs, boxvar_CevalFunction_isCrefNamed);
           if (1 /* true */ != tmp7) goto goto_2;
-          tmpMeta1 = _OMC_LIT91;
+          tmpMeta1 = _OMC_LIT88;
           goto tmp3_done;
         }
         case 1: {
@@ -8182,10 +8168,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_pairFuncParamsWith
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp10 = omc_Flags_isSet(threadData, _OMC_LIT19);
+          tmp10 = omc_Flags_isSet(threadData, _OMC_LIT16);
           if (1 /* true */ != tmp10) goto goto_2;
 
-          omc_Debug_trace(threadData, _OMC_LIT92);
+          omc_Debug_trace(threadData, _OMC_LIT89);
           goto goto_2;
           goto tmp3_done;
         }
@@ -8313,7 +8299,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateFunctionDe
 
           _cache = omc_CevalFunction_setupFunctionEnvironment(threadData, _inCache, _inEnv, _inFuncName, _func_params ,&_env);
 
-          _cache = omc_CevalFunction_evaluateElements(threadData, _body, _cache, _env, _OMC_LIT69 ,&_env ,NULL);
+          _cache = omc_CevalFunction_evaluateElements(threadData, _body, _cache, _env, _OMC_LIT66 ,&_env ,NULL);
 
           _return_values = omc_List_map1(threadData, _output_vars, boxvar_CevalFunction_getFunctionReturnValue, _env);
 
@@ -8363,10 +8349,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_CevalFunction_evaluateFunctionDe
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp11 = omc_Flags_isSet(threadData, _OMC_LIT19);
+          tmp11 = omc_Flags_isSet(threadData, _OMC_LIT16);
           if (1 /* true */ != tmp11) goto goto_2;
 
-          omc_Debug_trace(threadData, _OMC_LIT93);
+          omc_Debug_trace(threadData, _OMC_LIT90);
           goto goto_2;
           goto tmp3_done;
         }
@@ -8457,7 +8443,7 @@ modelica_metatype omc_CevalFunction_evaluate(threadData_t *threadData, modelica_
           _ty = tmpMeta10;
           _src = tmpMeta13;
           /* Pattern matching succeeded */
-          _func_name = omc_AbsynUtil_pathString(threadData, _p, _OMC_LIT94, 1 /* true */, 0 /* false */);
+          _func_name = omc_AbsynUtil_pathString(threadData, _p, _OMC_LIT91, 1 /* true */, 0 /* false */);
           tmpMeta[0+0] = omc_CevalFunction_evaluateFunctionDefinition(threadData, _inCache, _inEnv, _func_name, _func, _ty, _inFunctionArguments, _src, &tmpMeta[0+1]);
           goto tmp3_done;
         }
@@ -8484,11 +8470,11 @@ modelica_metatype omc_CevalFunction_evaluate(threadData_t *threadData, modelica_
           _partialPrefix = tmp19  /* pattern as ty=Boolean */;
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp20 = omc_Flags_isSet(threadData, _OMC_LIT19);
+          tmp20 = omc_Flags_isSet(threadData, _OMC_LIT16);
           if (1 /* true */ != tmp20) goto goto_2;
 
-          tmpMeta21 = stringAppend(_OMC_LIT95,(_partialPrefix?_OMC_LIT96:_OMC_LIT4));
-          tmpMeta22 = stringAppend(tmpMeta21,omc_AbsynUtil_pathString(threadData, _p, _OMC_LIT94, 1 /* true */, 0 /* false */));
+          tmpMeta21 = stringAppend(_OMC_LIT92,(_partialPrefix?_OMC_LIT93:_OMC_LIT4));
+          tmpMeta22 = stringAppend(tmpMeta21,omc_AbsynUtil_pathString(threadData, _p, _OMC_LIT91, 1 /* true */, 0 /* false */));
           omc_Debug_traceln(threadData, tmpMeta22);
           goto goto_2;
           goto tmp3_done;

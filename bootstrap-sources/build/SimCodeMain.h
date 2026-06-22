@@ -54,10 +54,6 @@ extern struct record_description Flags_ValidOptions_STRING__DESC__OPTION__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__OPTION__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
-
 extern struct record_description HpcOmSimCode_HpcOmData_HPCOMDATA__desc;
 
 extern struct record_description SemanticVersion_Version_SEMVER__desc;
@@ -73,6 +69,8 @@ extern struct record_description SimCode_PartitionData_PARTITIONDATA__desc;
 extern struct record_description SimCode_SimCode_SIMCODE__desc;
 
 extern struct record_description SimCode_SimulationSettings_SIMULATION__SETTINGS__desc;
+
+extern struct record_description SimCodeMain_TranslateModelKind_NORMAL__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 
@@ -98,6 +96,17 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeMain_translateModelCallBackendOB
 
 
 #define boxptr_SimCodeMain_translateModelCallBackendOB omc_SimCodeMain_translateModelCallBackendOB
+
+
+#define boxptr_SimCodeMain_simSettingsSimflags omc_SimCodeMain_simSettingsSimflags
+
+
+DLLDirection
+modelica_metatype omc_SimCodeMain_translateModelCallBackend(threadData_t *threadData, modelica_metatype _flatModel, modelica_metatype _functions, modelica_metatype _className, modelica_string _fileNamePrefix, modelica_boolean _useDAEMode, modelica_metatype _simSettings, modelica_string *out_outFileDir, modelica_metatype *out_resultValues);
+DLLDirection
+modelica_metatype boxptr_SimCodeMain_translateModelCallBackend(threadData_t *threadData, modelica_metatype _flatModel, modelica_metatype _functions, modelica_metatype _className, modelica_metatype _fileNamePrefix, modelica_metatype _useDAEMode, modelica_metatype _simSettings, modelica_metatype *out_outFileDir, modelica_metatype *out_resultValues);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeMain_translateModelCallBackend,2,0) {(void*) boxptr_SimCodeMain_translateModelCallBackend,0}};
+#define boxvar_SimCodeMain_translateModelCallBackend MMC_REFSTRUCTLIT(boxvar_lit_SimCodeMain_translateModelCallBackend)
 
 
 DLLDirection

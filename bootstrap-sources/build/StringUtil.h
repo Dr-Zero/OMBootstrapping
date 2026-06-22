@@ -65,14 +65,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_StringUtil_startsWith,2,0) {(void*) box
 
 
 DLLDirection
-modelica_integer omc_StringUtil_stringHashDjb2Work(threadData_t *threadData, modelica_string _str, modelica_integer _hash);
-DLLDirection
-modelica_metatype boxptr_StringUtil_stringHashDjb2Work(threadData_t *threadData, modelica_metatype _str, modelica_metatype _hash);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_StringUtil_stringHashDjb2Work,2,0) {(void*) boxptr_StringUtil_stringHashDjb2Work,0}};
-#define boxvar_StringUtil_stringHashDjb2Work MMC_REFSTRUCTLIT(boxvar_lit_StringUtil_stringHashDjb2Work)
-
-
-DLLDirection
 modelica_string omc_StringUtil_bytesToReadableUnit(threadData_t *threadData, modelica_real _bytes, modelica_integer _significantDigits, modelica_real _maxSizeInUnit);
 DLLDirection
 modelica_metatype boxptr_StringUtil_bytesToReadableUnit(threadData_t *threadData, modelica_metatype _bytes, modelica_metatype _significantDigits, modelica_metatype _maxSizeInUnit);

@@ -581,7 +581,6 @@ DLLDirection
 modelica_metatype omc_SBInterval_new(threadData_t *threadData, modelica_integer _lo, modelica_integer _step, modelica_integer _hi)
 {
   modelica_metatype _int = NULL;
-  modelica_integer _r;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
@@ -589,7 +588,6 @@ modelica_metatype omc_SBInterval_new(threadData_t *threadData, modelica_integer 
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _int has no default value.
-  // _r has no default value.
   if((((_lo >= ((modelica_integer) 0)) && (_step > ((modelica_integer) 0))) && (_hi >= ((modelica_integer) 0))))
   {
     if(((_lo <= _hi) && (_hi < intMaxLit())))

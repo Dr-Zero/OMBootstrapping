@@ -1,7 +1,7 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-#include "openmodelica.h"       // Defines OPENMODELICA_H_ for libraris to test if called from OpenModelica.
+#include "openmodelica.h"       // Defines OPENMODELICA_H_ for libraries to test if called from OpenModelica.
 #include "ModelicaUtilities.h"  // Make Modelica C util functions available for external includes.
 
 #include <stdlib.h>
@@ -9,16 +9,24 @@ extern "C" {
 
 void* StringAllocator_constructor(int sz)
 {
+  void *res;
   if (sz < 0) {
     MMC_THROW();
   }
-  return mmc_alloc_scon(sz);
+  res = mmc_alloc_scon(sz);
+  if (sz > 0) {
+    /* mmc_alloc_scon does not terminate the string and the copies below do not either */
+    ((char*)MMC_STRINGDATA(res))[sz] = '\0';
+  }
+  return res;
 }
 
 
 void om_stringAllocatorStringCopy(void *dest, char *source, int destOffset) {
-  if (*source) {
-    strcpy(MMC_STRINGDATA(dest)+destOffset, source);
+  /* memcpy without the terminator so copies at later offsets are not clobbered when filling the string in reverse order */
+  size_t n = strlen(source);
+  if (n > 0) {
+    memcpy(MMC_STRINGDATA(dest)+destOffset, source, n);
   }
 }
 

@@ -10,9 +10,11 @@
 extern "C" {
 #endif
 
-extern struct record_description IOStream_IOStreamType_LIST__desc;
+extern struct record_description DAE_ComponentPrefix_NOCOMPPRE__desc;
 
-extern struct record_description NFEquation_ARRAY__EQUALITY__desc;
+extern struct record_description DAE_ElementSource_SOURCE__desc;
+
+extern struct record_description IOStream_IOStreamType_LIST__desc;
 
 extern struct record_description NFEquation_ASSERT__desc;
 
@@ -29,6 +31,10 @@ extern struct record_description NFEquation_NORETCALL__desc;
 extern struct record_description NFEquation_REINIT__desc;
 
 extern struct record_description NFEquation_TERMINATE__desc;
+
+extern struct record_description NFInstNode_InstNode_EMPTY__NODE__desc;
+
+extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
 DLLDirection
@@ -132,6 +138,14 @@ DLLDirection
 modelica_metatype boxptr_NFEquation_isConnect(threadData_t *threadData, modelica_metatype _eq);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFEquation_isConnect,2,0) {(void*) boxptr_NFEquation_isConnect,0}};
 #define boxvar_NFEquation_isConnect MMC_REFSTRUCTLIT(boxvar_lit_NFEquation_isConnect)
+
+
+DLLDirection
+modelica_boolean omc_NFEquation_isArrayEquality(threadData_t *threadData, modelica_metatype _eq);
+DLLDirection
+modelica_metatype boxptr_NFEquation_isArrayEquality(threadData_t *threadData, modelica_metatype _eq);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFEquation_isArrayEquality,2,0) {(void*) boxptr_NFEquation_isArrayEquality,0}};
+#define boxvar_NFEquation_isArrayEquality MMC_REFSTRUCTLIT(boxvar_lit_NFEquation_isArrayEquality)
 
 
 DLLDirection
@@ -301,8 +315,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFEquation_makeCrefEquality,2,0) {(void
 
 
 DLLDirection
-modelica_metatype omc_NFEquation_makeEquality(threadData_t *threadData, modelica_metatype _lhs, modelica_metatype _rhs, modelica_metatype _ty, modelica_metatype _scope, modelica_metatype _src);
-#define boxptr_NFEquation_makeEquality omc_NFEquation_makeEquality
+modelica_metatype omc_NFEquation_makeEquality(threadData_t *threadData, modelica_metatype _lhs, modelica_metatype _rhs, modelica_metatype _ty, modelica_metatype _src, modelica_metatype _scope, modelica_integer _scalarizeMode);
+DLLDirection
+modelica_metatype boxptr_NFEquation_makeEquality(threadData_t *threadData, modelica_metatype _lhs, modelica_metatype _rhs, modelica_metatype _ty, modelica_metatype _src, modelica_metatype _scope, modelica_metatype _scalarizeMode);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFEquation_makeEquality,2,0) {(void*) boxptr_NFEquation_makeEquality,0}};
 #define boxvar_NFEquation_makeEquality MMC_REFSTRUCTLIT(boxvar_lit_NFEquation_makeEquality)
 
@@ -322,15 +337,17 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFEquation_Branch_toString,2,0) {(void*
 
 
 DLLDirection
-modelica_metatype omc_NFEquation_Branch_toFlatStream(threadData_t *threadData, modelica_metatype _branch, modelica_metatype _format, modelica_string _indent, modelica_metatype __omcQ_24in_5Fs);
-#define boxptr_NFEquation_Branch_toFlatStream omc_NFEquation_Branch_toFlatStream
+modelica_metatype omc_NFEquation_Branch_toFlatStream(threadData_t *threadData, modelica_metatype _branch, modelica_string _header, modelica_metatype _format, modelica_boolean _potentialElse, modelica_string _indent, modelica_metatype __omcQ_24in_5Fs);
+DLLDirection
+modelica_metatype boxptr_NFEquation_Branch_toFlatStream(threadData_t *threadData, modelica_metatype _branch, modelica_metatype _header, modelica_metatype _format, modelica_metatype _potentialElse, modelica_metatype _indent, modelica_metatype __omcQ_24in_5Fs);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFEquation_Branch_toFlatStream,2,0) {(void*) boxptr_NFEquation_Branch_toFlatStream,0}};
 #define boxvar_NFEquation_Branch_toFlatStream MMC_REFSTRUCTLIT(boxvar_lit_NFEquation_Branch_toFlatStream)
 
 
 DLLDirection
-modelica_metatype omc_NFEquation_Branch_toStream(threadData_t *threadData, modelica_metatype _branch, modelica_string _indent, modelica_metatype __omcQ_24in_5Fs);
-#define boxptr_NFEquation_Branch_toStream omc_NFEquation_Branch_toStream
+modelica_metatype omc_NFEquation_Branch_toStream(threadData_t *threadData, modelica_metatype _branch, modelica_string _header, modelica_boolean _potentialElse, modelica_string _indent, modelica_metatype __omcQ_24in_5Fs);
+DLLDirection
+modelica_metatype boxptr_NFEquation_Branch_toStream(threadData_t *threadData, modelica_metatype _branch, modelica_metatype _header, modelica_metatype _potentialElse, modelica_metatype _indent, modelica_metatype __omcQ_24in_5Fs);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFEquation_Branch_toStream,2,0) {(void*) boxptr_NFEquation_Branch_toStream,0}};
 #define boxvar_NFEquation_Branch_toStream MMC_REFSTRUCTLIT(boxvar_lit_NFEquation_Branch_toStream)
 

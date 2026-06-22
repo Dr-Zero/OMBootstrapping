@@ -51,58 +51,82 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT15,1,_OMC_LIT15_data);
 #define _OMC_LIT16_data "F"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT16,1,_OMC_LIT16_data);
 #define _OMC_LIT16 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT16)
-static _index_t _OMC_LIT17_dims[1] = {16};
-static const modelica_string _OMC_LIT17_data[] = {_OMC_LIT1, _OMC_LIT2, _OMC_LIT3, _OMC_LIT4, _OMC_LIT5, _OMC_LIT6, _OMC_LIT7, _OMC_LIT8, _OMC_LIT9, _OMC_LIT10, _OMC_LIT11, _OMC_LIT12, _OMC_LIT13, _OMC_LIT14, _OMC_LIT15, _OMC_LIT16};
-#if (defined(__clang__)  && __clang_major__ >= 17) || (defined(__GNUC__) && __GNUC__ >= 8)
-static string_array const _OMC_LIT17 = {
-  1, _OMC_LIT17_dims, (void*) _OMC_LIT17_data, (modelica_boolean) 0
-};
-#else
-/* handle joke compilers */
-#define _OMC_LIT17 (base_array_t){1, _OMC_LIT17_dims, (void*) _OMC_LIT17_data, (modelica_boolean) 0}
-#endif
-#define _OMC_LIT18_data "0x"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT18,2,_OMC_LIT18_data);
-#define _OMC_LIT18 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT18)
-#define _OMC_LIT19_data " kB"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT19,3,_OMC_LIT19_data);
-#define _OMC_LIT19 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT19)
-#define _OMC_LIT20_data " MB"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT20,3,_OMC_LIT20_data);
-#define _OMC_LIT20 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT20)
-#define _OMC_LIT21_data " GB"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT21,3,_OMC_LIT21_data);
-#define _OMC_LIT21 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT21)
-#define _OMC_LIT22_data " TB"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT22,3,_OMC_LIT22_data);
-#define _OMC_LIT22 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT22)
-#define _OMC_LIT23_data "\""
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT23,1,_OMC_LIT23_data);
-#define _OMC_LIT23 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT23)
-#define _OMC_LIT24_data "\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT24,1,_OMC_LIT24_data);
-#define _OMC_LIT24 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT24)
-#define _OMC_LIT25_data "-"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT25,1,_OMC_LIT25_data);
-#define _OMC_LIT25 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT25)
-#define _OMC_LIT26_data "*"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT26,1,_OMC_LIT26_data);
-#define _OMC_LIT26 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT26)
-#define _OMC_LIT27_data "="
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT27,1,_OMC_LIT27_data);
-#define _OMC_LIT27 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT27)
-#define _OMC_LIT28_data "\n  "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT28,3,_OMC_LIT28_data);
-#define _OMC_LIT28 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT28)
-#define _OMC_LIT29_data "#"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT29,1,_OMC_LIT29_data);
-#define _OMC_LIT29 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT29)
-#define _OMC_LIT30_data "\n\n    "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT30,6,_OMC_LIT30_data);
-#define _OMC_LIT30 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT30)
-#define _OMC_LIT31_data "\n\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT31,2,_OMC_LIT31_data);
-#define _OMC_LIT31 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT31)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT17,2,1) {_OMC_LIT16,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT17 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT17)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT18,2,1) {_OMC_LIT15,_OMC_LIT17}};
+#define _OMC_LIT18 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT18)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT19,2,1) {_OMC_LIT14,_OMC_LIT18}};
+#define _OMC_LIT19 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT19)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT20,2,1) {_OMC_LIT13,_OMC_LIT19}};
+#define _OMC_LIT20 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT20)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT21,2,1) {_OMC_LIT12,_OMC_LIT20}};
+#define _OMC_LIT21 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT21)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT22,2,1) {_OMC_LIT11,_OMC_LIT21}};
+#define _OMC_LIT22 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT22)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT23,2,1) {_OMC_LIT10,_OMC_LIT22}};
+#define _OMC_LIT23 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT23)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT24,2,1) {_OMC_LIT9,_OMC_LIT23}};
+#define _OMC_LIT24 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT24)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT25,2,1) {_OMC_LIT8,_OMC_LIT24}};
+#define _OMC_LIT25 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT25)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT26,2,1) {_OMC_LIT7,_OMC_LIT25}};
+#define _OMC_LIT26 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT26)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT27,2,1) {_OMC_LIT6,_OMC_LIT26}};
+#define _OMC_LIT27 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT27)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT28,2,1) {_OMC_LIT5,_OMC_LIT27}};
+#define _OMC_LIT28 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT28)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT29,2,1) {_OMC_LIT4,_OMC_LIT28}};
+#define _OMC_LIT29 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT29)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT30,2,1) {_OMC_LIT3,_OMC_LIT29}};
+#define _OMC_LIT30 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT30)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT31,2,1) {_OMC_LIT2,_OMC_LIT30}};
+#define _OMC_LIT31 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT31)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT32,2,1) {_OMC_LIT1,_OMC_LIT31}};
+#define _OMC_LIT32 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT32)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT33,16,MMC_ARRAY_TAG) {_OMC_LIT1,_OMC_LIT2,_OMC_LIT3,_OMC_LIT4,_OMC_LIT5,_OMC_LIT6,_OMC_LIT7,_OMC_LIT8,_OMC_LIT9,_OMC_LIT10,_OMC_LIT11,_OMC_LIT12,_OMC_LIT13,_OMC_LIT14,_OMC_LIT15,_OMC_LIT16}};
+#define _OMC_LIT33 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT33)
+#define _OMC_LIT34_data "0x"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT34,2,_OMC_LIT34_data);
+#define _OMC_LIT34 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT34)
+#define _OMC_LIT35_data " kB"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT35,3,_OMC_LIT35_data);
+#define _OMC_LIT35 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT35)
+#define _OMC_LIT36_data " MB"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT36,3,_OMC_LIT36_data);
+#define _OMC_LIT36 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT36)
+#define _OMC_LIT37_data " GB"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT37,3,_OMC_LIT37_data);
+#define _OMC_LIT37 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT37)
+#define _OMC_LIT38_data " TB"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT38,3,_OMC_LIT38_data);
+#define _OMC_LIT38 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT38)
+#define _OMC_LIT39_data "\""
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT39,1,_OMC_LIT39_data);
+#define _OMC_LIT39 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT39)
+#define _OMC_LIT40_data "\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT40,1,_OMC_LIT40_data);
+#define _OMC_LIT40 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT40)
+#define _OMC_LIT41_data "-"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT41,1,_OMC_LIT41_data);
+#define _OMC_LIT41 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT41)
+#define _OMC_LIT42_data "*"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT42,1,_OMC_LIT42_data);
+#define _OMC_LIT42 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT42)
+#define _OMC_LIT43_data "="
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT43,1,_OMC_LIT43_data);
+#define _OMC_LIT43 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT43)
+#define _OMC_LIT44_data "\n  "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT44,3,_OMC_LIT44_data);
+#define _OMC_LIT44 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT44)
+#define _OMC_LIT45_data "#"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT45,1,_OMC_LIT45_data);
+#define _OMC_LIT45 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT45)
+#define _OMC_LIT46_data "\n\n    "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT46,6,_OMC_LIT46_data);
+#define _OMC_LIT46 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT46)
+#define _OMC_LIT47_data "\n\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT47,2,_OMC_LIT47_data);
+#define _OMC_LIT47 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT47)
 #include "util/modelica.h"
 
 #include "StringUtil_includes.h"
@@ -115,7 +139,8 @@ modelica_string omc_StringUtil_rest(threadData_t *threadData, modelica_string _s
   modelica_string _rest = NULL;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  _rest = substring(_str, ((modelica_integer) 2), stringLength(_str));
+  // _rest has no default value.
+  _rest = ((stringLength(_str) == ((modelica_integer) 1))?_OMC_LIT0:substring(_str, ((modelica_integer) 2), stringLength(_str)));
   _return: OMC_LABEL_UNUSED
   return _rest;
 }
@@ -155,9 +180,9 @@ modelica_string omc_StringUtil_stripBOM(threadData_t *threadData, modelica_strin
 
   if((((stringGet(_s, ((modelica_integer) 1)) == ((modelica_integer) 239)) && (stringGet(_s, ((modelica_integer) 2)) == ((modelica_integer) 187))) && (stringGet(_s, ((modelica_integer) 3)) == ((modelica_integer) 191))))
   {
-    _s = substring(_s, ((modelica_integer) 4), stringLength(_s));
-
     _bom = substring(_s, ((modelica_integer) 1), ((modelica_integer) 3));
+
+    _s = substring(_s, ((modelica_integer) 4), stringLength(_s));
   }
   _return: OMC_LABEL_UNUSED
   if (out_bom) { *out_bom = _bom; }
@@ -169,7 +194,7 @@ modelica_string omc_StringUtil_convertCharNonAsciiToHex(threadData_t *threadData
 {
   modelica_string _s = NULL;
   modelica_integer _i;
-  string_array _hex;
+  modelica_metatype _hex = NULL;
   modelica_integer tmp1;
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
@@ -177,9 +202,7 @@ modelica_string omc_StringUtil_convertCharNonAsciiToHex(threadData_t *threadData
   _tailrecursive: OMC_LABEL_UNUSED
   _s = __omcQ_24in_5Fs;
   // _i has no default value.
-  alloc_string_array(&(_hex), 1, (_index_t)16);
-  string_array_copy_data(_OMC_LIT17, _hex);
-  
+  _hex = _OMC_LIT33;
   _i = stringCharInt(_s);
 
   if((_i < ((modelica_integer) 128)))
@@ -189,8 +212,8 @@ modelica_string omc_StringUtil_convertCharNonAsciiToHex(threadData_t *threadData
 
   tmp1 = ((modelica_integer) 16);
   if (tmp1 == 0) {MMC_THROW_INTERNAL();}
-  tmpMeta2 = stringAppend(_OMC_LIT18,string_get(_OMC_LIT17, (((modelica_integer) 1) + modelica_div_integer(_i,tmp1).quot)-1));
-  tmpMeta3 = stringAppend(tmpMeta2,string_get(_OMC_LIT17, (((modelica_integer) 1) + modelica_integer_mod(_i, ((modelica_integer) 16)))-1));
+  tmpMeta2 = stringAppend(_OMC_LIT34,arrayGet(_OMC_LIT33, ((modelica_integer) 1) + modelica_div_integer(_i,tmp1).quot));
+  tmpMeta3 = stringAppend(tmpMeta2,arrayGet(_OMC_LIT33, ((modelica_integer) 1) + modelica_integer_mod(_i, ((modelica_integer) 16))));
   _s = tmpMeta3;
   _return: OMC_LABEL_UNUSED
   return _s;
@@ -263,39 +286,6 @@ modelica_metatype boxptr_StringUtil_startsWith(threadData_t *threadData, modelic
 }
 
 DLLDirection
-modelica_integer omc_StringUtil_stringHashDjb2Work(threadData_t *threadData, modelica_string _str, modelica_integer _hash)
-{
-  modelica_integer _ohash;
-  modelica_integer tmp1;
-  modelica_integer tmp2;
-  modelica_integer tmp3;
-  MMC_SO();
-  _tailrecursive: OMC_LABEL_UNUSED
-  _ohash = _hash;
-  tmp1 = ((modelica_integer) 1); tmp2 = 1; tmp3 = stringLength(_str);
-  if(!(((tmp2 > 0) && (tmp1 > tmp3)) || ((tmp2 < 0) && (tmp1 < tmp3))))
-  {
-    modelica_integer _i;
-    for(_i = ((modelica_integer) 1); in_range_integer(_i, tmp1, tmp3); _i += tmp2)
-    {
-      _ohash = (((modelica_integer) 31)) * (_ohash) + stringGetNoBoundsChecking(_str, _i);
-    }
-  }
-  _return: OMC_LABEL_UNUSED
-  return _ohash;
-}
-modelica_metatype boxptr_StringUtil_stringHashDjb2Work(threadData_t *threadData, modelica_metatype _str, modelica_metatype _hash)
-{
-  modelica_integer tmp1;
-  modelica_integer _ohash;
-  modelica_metatype out_ohash;
-  tmp1 = mmc_unbox_integer(_hash);
-  _ohash = omc_StringUtil_stringHashDjb2Work(threadData, _str, tmp1);
-  out_ohash = mmc_mk_icon(_ohash);
-  return out_ohash;
-}
-
-DLLDirection
 modelica_string omc_StringUtil_bytesToReadableUnit(threadData_t *threadData, modelica_real _bytes, modelica_integer _significantDigits, modelica_real _maxSizeInUnit)
 {
   modelica_string _str = NULL;
@@ -322,7 +312,7 @@ modelica_string omc_StringUtil_bytesToReadableUnit(threadData_t *threadData, mod
   if((_bytes > (1.073741824e9) * (_maxSizeInUnit)))
   {
     tmp1 = modelica_real_to_modelica_string((9.094947017729282e-13) * (_bytes), _significantDigits, ((modelica_integer) 0), 1 /* true */);
-    tmpMeta2 = stringAppend(tmp1,_OMC_LIT22);
+    tmpMeta2 = stringAppend(tmp1,_OMC_LIT38);
     _str = tmpMeta2;
   }
   else
@@ -330,7 +320,7 @@ modelica_string omc_StringUtil_bytesToReadableUnit(threadData_t *threadData, mod
     if((_bytes > (1.048576e6) * (_maxSizeInUnit)))
     {
       tmp3 = modelica_real_to_modelica_string((9.313225746154785e-10) * (_bytes), _significantDigits, ((modelica_integer) 0), 1 /* true */);
-      tmpMeta4 = stringAppend(tmp3,_OMC_LIT21);
+      tmpMeta4 = stringAppend(tmp3,_OMC_LIT37);
       _str = tmpMeta4;
     }
     else
@@ -338,7 +328,7 @@ modelica_string omc_StringUtil_bytesToReadableUnit(threadData_t *threadData, mod
       if((_bytes > (1024.0) * (_maxSizeInUnit)))
       {
         tmp5 = modelica_real_to_modelica_string((9.5367431640625e-7) * (_bytes), _significantDigits, ((modelica_integer) 0), 1 /* true */);
-        tmpMeta6 = stringAppend(tmp5,_OMC_LIT20);
+        tmpMeta6 = stringAppend(tmp5,_OMC_LIT36);
         _str = tmpMeta6;
       }
       else
@@ -346,7 +336,7 @@ modelica_string omc_StringUtil_bytesToReadableUnit(threadData_t *threadData, mod
         if((_bytes > _maxSizeInUnit))
         {
           tmp7 = modelica_real_to_modelica_string((9.765625e-4) * (_bytes), _significantDigits, ((modelica_integer) 0), 1 /* true */);
-          tmpMeta8 = stringAppend(tmp7,_OMC_LIT19);
+          tmpMeta8 = stringAppend(tmp7,_OMC_LIT35);
           _str = tmpMeta8;
         }
         else
@@ -412,6 +402,11 @@ modelica_boolean omc_StringUtil_equalIgnoreSpace(threadData_t *threadData, model
           {
             if((stringGetNoBoundsChecking(_s2, _j2) != ((modelica_integer) 32)))
             {
+              if((stringGetNoBoundsChecking(_s2, _j2) != stringGetNoBoundsChecking(_s1, _i)))
+              {
+                goto _return;
+              }
+
               _j = ((modelica_integer) 1) + _j2;
 
               _b = 1 /* true */;
@@ -462,7 +457,7 @@ modelica_string omc_StringUtil_quote(threadData_t *threadData, modelica_string _
   modelica_metatype tmpMeta1;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  tmpMeta1 = mmc_mk_cons(_OMC_LIT23, mmc_mk_cons(_inString, mmc_mk_cons(_OMC_LIT23, MMC_REFSTRUCTLIT(mmc_nil))));
+  tmpMeta1 = mmc_mk_cons(_OMC_LIT39, mmc_mk_cons(_inString, mmc_mk_cons(_OMC_LIT39, MMC_REFSTRUCTLIT(mmc_nil))));
   _outString = stringAppendList(tmpMeta1);
   _return: OMC_LABEL_UNUSED
   return _outString;
@@ -519,7 +514,6 @@ modelica_metatype omc_StringUtil_wordWrap(threadData_t *threadData, modelica_str
   modelica_integer _next_char;
   modelica_integer _char;
   modelica_integer _gap_size;
-  modelica_integer _next_gap_size;
   modelica_string _str = NULL;
   modelica_string _delim = NULL;
   modelica_metatype _lines = NULL;
@@ -542,7 +536,6 @@ modelica_metatype omc_StringUtil_wordWrap(threadData_t *threadData, modelica_str
   // _next_char has no default value.
   // _char has no default value.
   // _gap_size has no default value.
-  // _next_gap_size has no default value.
   // _str has no default value.
   _delim = _OMC_LIT0;
   // _lines has no default value.
@@ -554,7 +547,7 @@ modelica_metatype omc_StringUtil_wordWrap(threadData_t *threadData, modelica_str
     goto _return;
   }
 
-  _lines = omc_System_strtok(threadData, _inString, _OMC_LIT24);
+  _lines = omc_System_strtok(threadData, _inString, _OMC_LIT40);
 
   _line_len = ((modelica_integer) -1) + _inWrapLength - stringLength(_inDelimiter);
 
@@ -599,7 +592,7 @@ modelica_metatype omc_StringUtil_wordWrap(threadData_t *threadData, modelica_str
             }
             else
             {
-              tmpMeta4 = stringAppend(substring(_line, _start_pos, ((modelica_integer) -1) + _end_pos),_OMC_LIT25);
+              tmpMeta4 = stringAppend(substring(_line, _start_pos, ((modelica_integer) -1) + _end_pos),_OMC_LIT41);
               _str = tmpMeta4;
 
               _start_pos = _end_pos;
@@ -895,9 +888,9 @@ modelica_string omc_StringUtil_headline__4(threadData_t *threadData, modelica_st
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _header has no default value.
-  tmpMeta1 = stringAppend(_title,_OMC_LIT24);
-  tmpMeta2 = stringAppend(tmpMeta1,omc_StringUtil_repeat(threadData, _OMC_LIT26, ((modelica_integer) 2) + stringLength(_title)));
-  tmpMeta3 = stringAppend(tmpMeta2,_OMC_LIT24);
+  tmpMeta1 = stringAppend(_title,_OMC_LIT40);
+  tmpMeta2 = stringAppend(tmpMeta1,omc_StringUtil_repeat(threadData, _OMC_LIT42, ((modelica_integer) 2) + stringLength(_title)));
+  tmpMeta3 = stringAppend(tmpMeta2,_OMC_LIT40);
   _header = tmpMeta3;
   _return: OMC_LABEL_UNUSED
   return _header;
@@ -913,9 +906,9 @@ modelica_string omc_StringUtil_headline__3(threadData_t *threadData, modelica_st
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _header has no default value.
-  tmpMeta1 = stringAppend(_title,_OMC_LIT24);
-  tmpMeta2 = stringAppend(tmpMeta1,omc_StringUtil_repeat(threadData, _OMC_LIT25, ((modelica_integer) 2) + stringLength(_title)));
-  tmpMeta3 = stringAppend(tmpMeta2,_OMC_LIT24);
+  tmpMeta1 = stringAppend(_title,_OMC_LIT40);
+  tmpMeta2 = stringAppend(tmpMeta1,omc_StringUtil_repeat(threadData, _OMC_LIT41, ((modelica_integer) 2) + stringLength(_title)));
+  tmpMeta3 = stringAppend(tmpMeta2,_OMC_LIT40);
   _header = tmpMeta3;
   _return: OMC_LABEL_UNUSED
   return _header;
@@ -933,11 +926,11 @@ modelica_string omc_StringUtil_headline__2(threadData_t *threadData, modelica_st
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _header has no default value.
-  tmpMeta1 = stringAppend(omc_StringUtil_repeat(threadData, _OMC_LIT27, ((modelica_integer) 4) + stringLength(_title)),_OMC_LIT28);
+  tmpMeta1 = stringAppend(omc_StringUtil_repeat(threadData, _OMC_LIT43, ((modelica_integer) 4) + stringLength(_title)),_OMC_LIT44);
   tmpMeta2 = stringAppend(tmpMeta1,_title);
-  tmpMeta3 = stringAppend(tmpMeta2,_OMC_LIT24);
-  tmpMeta4 = stringAppend(tmpMeta3,omc_StringUtil_repeat(threadData, _OMC_LIT27, ((modelica_integer) 4) + stringLength(_title)));
-  tmpMeta5 = stringAppend(tmpMeta4,_OMC_LIT24);
+  tmpMeta3 = stringAppend(tmpMeta2,_OMC_LIT40);
+  tmpMeta4 = stringAppend(tmpMeta3,omc_StringUtil_repeat(threadData, _OMC_LIT43, ((modelica_integer) 4) + stringLength(_title)));
+  tmpMeta5 = stringAppend(tmpMeta4,_OMC_LIT40);
   _header = tmpMeta5;
   _return: OMC_LABEL_UNUSED
   return _header;
@@ -955,11 +948,11 @@ modelica_string omc_StringUtil_headline__1(threadData_t *threadData, modelica_st
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _header has no default value.
-  tmpMeta1 = stringAppend(omc_StringUtil_repeat(threadData, _OMC_LIT29, ((modelica_integer) 8) + stringLength(_title)),_OMC_LIT30);
+  tmpMeta1 = stringAppend(omc_StringUtil_repeat(threadData, _OMC_LIT45, ((modelica_integer) 8) + stringLength(_title)),_OMC_LIT46);
   tmpMeta2 = stringAppend(tmpMeta1,_title);
-  tmpMeta3 = stringAppend(tmpMeta2,_OMC_LIT31);
-  tmpMeta4 = stringAppend(tmpMeta3,omc_StringUtil_repeat(threadData, _OMC_LIT29, ((modelica_integer) 8) + stringLength(_title)));
-  tmpMeta5 = stringAppend(tmpMeta4,_OMC_LIT24);
+  tmpMeta3 = stringAppend(tmpMeta2,_OMC_LIT47);
+  tmpMeta4 = stringAppend(tmpMeta3,omc_StringUtil_repeat(threadData, _OMC_LIT45, ((modelica_integer) 8) + stringLength(_title)));
+  tmpMeta5 = stringAppend(tmpMeta4,_OMC_LIT40);
   _header = tmpMeta5;
   _return: OMC_LABEL_UNUSED
   return _header;

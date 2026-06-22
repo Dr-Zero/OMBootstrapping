@@ -7,48 +7,42 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT1,1,4) {&ErrorTypes_Severity_ERROR_
 #define _OMC_LIT2_data "'%s' is not an input of function '%s'."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT2,38,_OMC_LIT2_data);
 #define _OMC_LIT2 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT2)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT3,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT2}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT3,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(339)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT2}};
 #define _OMC_LIT3 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT3)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT4,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(339)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT3}};
-#define _OMC_LIT4 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT4)
-#define _OMC_LIT5_data "."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT5,1,_OMC_LIT5_data);
-#define _OMC_LIT5 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT5)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT6,1,5) {&ErrorTypes_Severity_WARNING__desc,}};
-#define _OMC_LIT6 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT6)
-#define _OMC_LIT7_data "'%s' is not a valid function %s attribute."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,42,_OMC_LIT7_data);
-#define _OMC_LIT7 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT7)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT8,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT7}};
+#define _OMC_LIT4_data "."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT4,1,_OMC_LIT4_data);
+#define _OMC_LIT4 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT4)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT5,1,5) {&ErrorTypes_Severity_WARNING__desc,}};
+#define _OMC_LIT5 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT5)
+#define _OMC_LIT6_data "'%s' is not a valid function %s attribute."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT6,42,_OMC_LIT6_data);
+#define _OMC_LIT6 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT6)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT7,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(338)),_OMC_LIT0,_OMC_LIT5,_OMC_LIT6}};
+#define _OMC_LIT7 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT7)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT8,10,3) {&SCodeDump_SCodeDumpOptions_OPTIONS__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1 /* true */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1 /* true */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */))}};
 #define _OMC_LIT8 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT8)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT9,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(338)),_OMC_LIT0,_OMC_LIT6,_OMC_LIT8}};
-#define _OMC_LIT9 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT9)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT10,10,3) {&SCodeDump_SCodeDumpOptions_OPTIONS__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1 /* true */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1 /* true */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */))}};
-#define _OMC_LIT10 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT10)
-#define _OMC_LIT11_data "inverse"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT11,7,_OMC_LIT11_data);
+#define _OMC_LIT9_data "inverse"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT9,7,_OMC_LIT9_data);
+#define _OMC_LIT9 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT9)
+#define _OMC_LIT10_data "NFFunctionInverse.instInverseMod got invalid modifier"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT10,53,_OMC_LIT10_data);
+#define _OMC_LIT10 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT10)
+#define _OMC_LIT11_data "/projects/OpenModelica-session2/OMCompiler/Compiler/NFFrontEnd/NFFunctionInverse.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT11,83,_OMC_LIT11_data);
 #define _OMC_LIT11 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT11)
-#define _OMC_LIT12_data "NFFunctionInverse.instInverseMod got invalid modifier"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT12,53,_OMC_LIT12_data);
-#define _OMC_LIT12 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT12)
-#define _OMC_LIT13_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/NFFrontEnd/NFFunctionInverse.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT13,84,_OMC_LIT13_data);
-#define _OMC_LIT13 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT13)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT14_6,1.771514395e9);
-#define _OMC_LIT14_6 MMC_REFREALLIT(_OMC_LIT_STRUCT14_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT14,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT13,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(141)),MMC_IMMEDIATE(MMC_TAGFIXNUM(11)),MMC_IMMEDIATE(MMC_TAGFIXNUM(141)),MMC_IMMEDIATE(MMC_TAGFIXNUM(92)),_OMC_LIT14_6}};
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT12_6,1.782113391e9);
+#define _OMC_LIT12_6 MMC_REFREALLIT(_OMC_LIT_STRUCT12_6)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT12,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT11,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(158)),MMC_IMMEDIATE(MMC_TAGFIXNUM(11)),MMC_IMMEDIATE(MMC_TAGFIXNUM(158)),MMC_IMMEDIATE(MMC_TAGFIXNUM(85)),_OMC_LIT12_6}};
+#define _OMC_LIT12 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT12)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT13,1,4) {&SCode_Final_NOT__FINAL__desc,}};
+#define _OMC_LIT13 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT13)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT14,1,4) {&SCode_Each_NOT__EACH__desc,}};
 #define _OMC_LIT14 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT14)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT15,1,4) {&SCode_Final_NOT__FINAL__desc,}};
-#define _OMC_LIT15 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT15)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT16,1,4) {&SCode_Each_NOT__EACH__desc,}};
+#define _OMC_LIT15_data "Invalid inverse annotation for '%s', only functions with exactly one output may have an inverse."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT15,96,_OMC_LIT15_data);
+#define _OMC_LIT15 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT15)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT16,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(390)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT15}};
 #define _OMC_LIT16 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT16)
-#define _OMC_LIT17_data "Invalid inverse annotation for '%s', only functions with exactly one output may have an inverse."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT17,96,_OMC_LIT17_data);
-#define _OMC_LIT17 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT17)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT18,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT17}};
-#define _OMC_LIT18 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT18)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT19,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(390)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT18}};
-#define _OMC_LIT19 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT19)
 #include "util/modelica.h"
 
 #include "NFFunctionInverse_includes.h"
@@ -144,8 +138,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFFunctionInverse_instInverseSub
                 case 1: {
                   modelica_metatype tmpMeta18;
                   /* Pattern matching succeeded */
-                  tmpMeta18 = mmc_mk_cons(_name, mmc_mk_cons(omc_AbsynUtil_pathString(threadData, omc_NFFunction_Function_name(threadData, _fn), _OMC_LIT5, 1 /* true */, 0 /* false */), MMC_REFSTRUCTLIT(mmc_nil)));
-                  omc_Error_addSourceMessage(threadData, _OMC_LIT4, tmpMeta18, _info);
+                  tmpMeta18 = mmc_mk_cons(_name, mmc_mk_cons(omc_AbsynUtil_pathString(threadData, omc_NFFunction_Function_name(threadData, _fn), _OMC_LIT4, 1 /* true */, 0 /* false */), MMC_REFSTRUCTLIT(mmc_nil)));
+                  omc_Error_addSourceMessage(threadData, _OMC_LIT3, tmpMeta18, _info);
 
                   goto goto_13;
                   goto tmp14_done;
@@ -181,9 +175,9 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFFunctionInverse_instInverseSub
           modelica_metatype tmpMeta22;
           
           /* Pattern matching succeeded */
-          tmpMeta22 = stringAppend((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_submod), 2))),omc_SCodeDump_printModStr(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_submod), 3))), _OMC_LIT10));
-          tmpMeta21 = mmc_mk_cons(tmpMeta22, mmc_mk_cons(_OMC_LIT11, MMC_REFSTRUCTLIT(mmc_nil)));
-          omc_Error_addStrictMessage(threadData, _OMC_LIT9, tmpMeta21, _info);
+          tmpMeta22 = stringAppend((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_submod), 2))),omc_SCodeDump_printModStr(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_submod), 3))), _OMC_LIT8));
+          tmpMeta21 = mmc_mk_cons(tmpMeta22, mmc_mk_cons(_OMC_LIT9, MMC_REFSTRUCTLIT(mmc_nil)));
+          omc_Error_addStrictMessage(threadData, _OMC_LIT7, tmpMeta21, _info);
           tmpMeta1 = _fnInvs;
           goto tmp3_done;
         }
@@ -239,7 +233,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFFunctionInverse_instInverseMod
         case 1: {
           
           /* Pattern matching succeeded */
-          omc_Error_assertion(threadData, 0 /* false */, _OMC_LIT12, _OMC_LIT14);
+          omc_Error_terminate(threadData, _OMC_LIT10, _OMC_LIT12);
           goto goto_2;
           goto tmp3_done;
         }
@@ -289,7 +283,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFFunctionInverse_getInverseAnno
           
           _ann = tmpMeta8;
           /* Pattern matching succeeded */
-          tmpMeta1 = omc_SCodeUtil_lookupAnnotations(threadData, _ann, _OMC_LIT11);
+          tmpMeta1 = omc_SCodeUtil_lookupAnnotations(threadData, _ann, _OMC_LIT9);
           goto tmp3_done;
         }
         case 1: {
@@ -317,6 +311,28 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFFunctionInverse_getInverseAnno
 }
 
 DLLDirection
+modelica_metatype omc_NFFunctionInverse_getFunction(threadData_t *threadData, modelica_metatype _fnInv)
+{
+  modelica_metatype _fn = NULL;
+  modelica_metatype _call = NULL;
+  modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  MMC_SO();
+  _tailrecursive: OMC_LABEL_UNUSED
+  // _fn has no default value.
+  // _call has no default value.
+  /* Pattern-matching assignment */
+  tmpMeta1 = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fnInv), 3)));
+  if (mmc__uniontype__metarecord__typedef__equal(tmpMeta1,13,1) == 0) MMC_THROW_INTERNAL();
+  tmpMeta2 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta1), 2));
+  _call = tmpMeta2;
+
+  _fn = omc_NFCall_typedFunction(threadData, _call);
+  _return: OMC_LABEL_UNUSED
+  return _fn;
+}
+
+DLLDirection
 modelica_metatype omc_NFFunctionInverse_toSubMod(threadData_t *threadData, modelica_metatype _fnInv)
 {
   modelica_metatype _subMod = NULL;
@@ -336,13 +352,13 @@ modelica_metatype omc_NFFunctionInverse_toSubMod(threadData_t *threadData, model
   _call_exp = omc_NFExpression_toAbsyn(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fnInv), 3))));
 
   tmpMeta1 = MMC_REFSTRUCTLIT(mmc_nil);
-  tmpMeta2 = mmc_mk_box7(3, &SCode_Mod_MOD__desc, _OMC_LIT15, _OMC_LIT16, tmpMeta1, mmc_mk_some(_call_exp), mmc_mk_none(), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fnInv), 4))));
+  tmpMeta2 = mmc_mk_box7(3, &SCode_Mod_MOD__desc, _OMC_LIT13, _OMC_LIT14, tmpMeta1, mmc_mk_some(_call_exp), mmc_mk_none(), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fnInv), 4))));
   tmpMeta3 = mmc_mk_box3(3, &SCode_SubMod_NAMEMOD__desc, omc_NFComponentRef_firstName(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fnInv), 2))), 0 /* false */), tmpMeta2);
   _inv_mod = tmpMeta3;
 
   tmpMeta4 = mmc_mk_cons(_inv_mod, MMC_REFSTRUCTLIT(mmc_nil));
-  tmpMeta5 = mmc_mk_box7(3, &SCode_Mod_MOD__desc, _OMC_LIT15, _OMC_LIT16, tmpMeta4, mmc_mk_none(), mmc_mk_none(), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fnInv), 4))));
-  tmpMeta6 = mmc_mk_box3(3, &SCode_SubMod_NAMEMOD__desc, _OMC_LIT11, tmpMeta5);
+  tmpMeta5 = mmc_mk_box7(3, &SCode_Mod_MOD__desc, _OMC_LIT13, _OMC_LIT14, tmpMeta4, mmc_mk_none(), mmc_mk_none(), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fnInv), 4))));
+  tmpMeta6 = mmc_mk_box3(3, &SCode_SubMod_NAMEMOD__desc, _OMC_LIT9, tmpMeta5);
   _subMod = tmpMeta6;
   _return: OMC_LABEL_UNUSED
   return _subMod;
@@ -356,7 +372,7 @@ modelica_metatype omc_NFFunctionInverse_toDAE(threadData_t *threadData, modelica
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _invDef has no default value.
-  tmpMeta1 = mmc_mk_box3(6, &DAE_FunctionDefinition_FUNCTION__INVERSE__desc, omc_NFComponentRef_toDAE(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fnInv), 2)))), omc_NFExpression_toDAE(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fnInv), 3)))));
+  tmpMeta1 = mmc_mk_box3(6, &DAE_FunctionDefinition_FUNCTION__INVERSE__desc, omc_NFComponentRef_toDAE(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fnInv), 2)))), omc_NFExpression_toDAE(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fnInv), 3))), 0 /* false */));
   _invDef = tmpMeta1;
   _return: OMC_LABEL_UNUSED
   return _invDef;
@@ -365,21 +381,21 @@ modelica_metatype omc_NFFunctionInverse_toDAE(threadData_t *threadData, modelica
 DLLDirection
 modelica_metatype omc_NFFunctionInverse_typeInverse(threadData_t *threadData, modelica_metatype __omcQ_24in_5FfnInv)
 {
+  modelica_metatype __omcQ_24mrfa_5F0 = NULL;
+  modelica_metatype __omcQ_24mrfa_5F1 = NULL;
   modelica_metatype _fnInv = NULL;
   modelica_metatype tmpMeta1;
-  modelica_metatype tmpMeta2;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
+  // __omcQ_24mrfa_5F0 has no default value.
+  // __omcQ_24mrfa_5F1 has no default value.
   _fnInv = __omcQ_24in_5FfnInv;
-  tmpMeta1 = MMC_TAGPTR(mmc_alloc_words(5));
-  memcpy(MMC_UNTAGPTR(tmpMeta1), MMC_UNTAGPTR(_fnInv), 5*sizeof(modelica_metatype));
-  ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta1))[2] = omc_NFTyping_typeCref(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fnInv), 2))), ((modelica_integer) 1), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fnInv), 4))), NULL, NULL, NULL);
-  _fnInv = tmpMeta1;
+  __omcQ_24mrfa_5F0 = omc_NFTyping_typeCref(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fnInv), 2))), ((modelica_integer) 1), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fnInv), 4))), NULL, NULL, NULL);
 
-  tmpMeta2 = MMC_TAGPTR(mmc_alloc_words(5));
-  memcpy(MMC_UNTAGPTR(tmpMeta2), MMC_UNTAGPTR(_fnInv), 5*sizeof(modelica_metatype));
-  ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta2))[3] = omc_NFTyping_typeExp(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fnInv), 3))), ((modelica_integer) 1), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fnInv), 4))), 0 /* false */, NULL, NULL, NULL);
-  _fnInv = tmpMeta2;
+  __omcQ_24mrfa_5F1 = omc_NFTyping_typeExp(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fnInv), 3))), ((modelica_integer) 1), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fnInv), 4))), 0 /* false */, NULL, NULL, NULL);
+
+  tmpMeta1 = mmc_mk_box4(3, &NFFunctionInverse_FUNCTION__INV__desc, __omcQ_24mrfa_5F0, __omcQ_24mrfa_5F1, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fnInv), 4))));
+  _fnInv = tmpMeta1;
   _return: OMC_LABEL_UNUSED
   return _fnInv;
 }
@@ -404,8 +420,8 @@ modelica_metatype omc_NFFunctionInverse_instInverses(threadData_t *threadData, m
 
   if(((!listEmpty(_inv_mods)) && (!(listLength((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 5)))) == ((modelica_integer) 1)))))
   {
-    tmpMeta2 = mmc_mk_cons(omc_AbsynUtil_pathString(threadData, omc_NFFunction_Function_name(threadData, _fn), _OMC_LIT5, 1 /* true */, 0 /* false */), MMC_REFSTRUCTLIT(mmc_nil));
-    omc_Error_addSourceMessage(threadData, _OMC_LIT19, tmpMeta2, omc_SCodeUtil_getModifierInfo(threadData, listHead(_inv_mods)));
+    tmpMeta2 = mmc_mk_cons(omc_AbsynUtil_pathString(threadData, omc_NFFunction_Function_name(threadData, _fn), _OMC_LIT4, 1 /* true */, 0 /* false */), MMC_REFSTRUCTLIT(mmc_nil));
+    omc_Error_addSourceMessage(threadData, _OMC_LIT16, tmpMeta2, omc_SCodeUtil_getModifierInfo(threadData, listHead(_inv_mods)));
 
     MMC_THROW_INTERNAL();
   }

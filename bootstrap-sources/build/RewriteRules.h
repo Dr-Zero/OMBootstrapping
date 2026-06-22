@@ -16,8 +16,6 @@ extern struct record_description Flags_FlagData_STRING__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description RewriteRules_Bind_BACKEND__BIND__desc;
 
 extern struct record_description RewriteRules_Bind_FRONTEND__BIND__desc;

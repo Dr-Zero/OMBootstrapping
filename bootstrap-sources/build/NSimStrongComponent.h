@@ -20,10 +20,6 @@ extern struct record_description ErrorTypes_MessageType_TRANSLATION__desc;
 
 extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description NBBackendUtil_Rational_RATIONAL__desc;
-
 extern struct record_description NBPartitioning_BClock_SUB__CLOCK__desc;
 
 extern struct record_description NBSlice_SLICE__desc;
@@ -45,6 +41,8 @@ extern struct record_description NFBackendExtension_VariableKind_FRONTEND__DUMMY
 extern struct record_description NFBinding_UNBOUND__desc;
 
 extern struct record_description NFComponentRef_EMPTY__desc;
+
+extern struct record_description NFExpression_INTEGER__desc;
 
 extern struct record_description NFPrefixes_Replaceable_NOT__REPLACEABLE__desc;
 
@@ -83,6 +81,8 @@ extern struct record_description NSimStrongComponent_Block_SIMPLE__ASSIGN__desc;
 extern struct record_description NSimStrongComponent_Block_WHEN__desc;
 
 extern struct record_description NSimStrongComponent_NonlinearSystem_NONLINEAR__SYSTEM__desc;
+
+extern struct record_description Rational_RATIONAL__desc;
 
 extern struct record_description SCode_Comment_COMMENT__desc;
 
@@ -198,6 +198,13 @@ modelica_metatype omc_NSimStrongComponent_Block_convert(threadData_t *threadData
 #define boxptr_NSimStrongComponent_Block_convert omc_NSimStrongComponent_Block_convert
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NSimStrongComponent_Block_convert,2,0) {(void*) boxptr_NSimStrongComponent_Block_convert,0}};
 #define boxvar_NSimStrongComponent_Block_convert MMC_REFSTRUCTLIT(boxvar_lit_NSimStrongComponent_Block_convert)
+
+
+DLLDirection
+modelica_metatype omc_NSimStrongComponent_Block_collectAlgebraicLoopsSingle(threadData_t *threadData, modelica_metatype _blck_lst, modelica_metatype __omcQ_24in_5FlinearLoops, modelica_metatype __omcQ_24in_5FnonlinearLoops, modelica_metatype __omcQ_24in_5Fjacobians, modelica_metatype __omcQ_24in_5FsimCodeIndices, modelica_metatype _simcode_map, modelica_metatype *out_nonlinearLoops, modelica_metatype *out_jacobians, modelica_metatype *out_simCodeIndices);
+#define boxptr_NSimStrongComponent_Block_collectAlgebraicLoopsSingle omc_NSimStrongComponent_Block_collectAlgebraicLoopsSingle
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NSimStrongComponent_Block_collectAlgebraicLoopsSingle,2,0) {(void*) boxptr_NSimStrongComponent_Block_collectAlgebraicLoopsSingle,0}};
+#define boxvar_NSimStrongComponent_Block_collectAlgebraicLoopsSingle MMC_REFSTRUCTLIT(boxvar_lit_NSimStrongComponent_Block_collectAlgebraicLoopsSingle)
 
 
 DLLDirection

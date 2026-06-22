@@ -42,7 +42,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeDump_dumpVarsShort,2,0) {(void*)
 #define boxvar_SimCodeDump_dumpVarsShort MMC_REFSTRUCTLIT(boxvar_lit_SimCodeDump_dumpVarsShort)
 
 
-#define boxptr_SimCodeDump_lm__43 omc_SimCodeDump_lm__43
+#define boxptr_SimCodeDump_lm__46 omc_SimCodeDump_lm__46
 
 #ifdef __cplusplus
 }

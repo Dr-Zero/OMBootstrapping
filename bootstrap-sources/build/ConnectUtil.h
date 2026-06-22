@@ -12,7 +12,7 @@ extern "C" {
 
 extern struct record_description Absyn_Path_IDENT__desc;
 
-extern struct record_description DAE_AvlTreePathFunction_Tree_EMPTY__desc;
+extern struct record_description AvlTreePathFunction_Tree_EMPTY__desc;
 
 extern struct record_description DAE_CallAttributes_CALL__ATTR__desc;
 
@@ -90,6 +90,8 @@ extern struct record_description DAE_Type_T__REAL__desc;
 
 extern struct record_description DAE_Type_T__UNKNOWN__desc;
 
+extern struct record_description DAE_VarVisibility_PUBLIC__desc;
+
 extern struct record_description ErrorTypes_Message_MESSAGE__desc;
 
 extern struct record_description ErrorTypes_MessageType_TRANSLATION__desc;
@@ -106,9 +108,25 @@ extern struct record_description Flags_FlagData_REAL__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description SourceInfo_SOURCEINFO__desc;
+
+
+#define boxptr_ConnectUtil_collectAllExpandableCrefsInExp omc_ConnectUtil_collectAllExpandableCrefsInExp
+
+
+DLLDirection
+modelica_metatype omc_ConnectUtil_getAllExpandableCrefsFromDAE(threadData_t *threadData, modelica_metatype _inDAE);
+#define boxptr_ConnectUtil_getAllExpandableCrefsFromDAE omc_ConnectUtil_getAllExpandableCrefsFromDAE
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ConnectUtil_getAllExpandableCrefsFromDAE,2,0) {(void*) boxptr_ConnectUtil_getAllExpandableCrefsFromDAE,0}};
+#define boxvar_ConnectUtil_getAllExpandableCrefsFromDAE MMC_REFSTRUCTLIT(boxvar_lit_ConnectUtil_getAllExpandableCrefsFromDAE)
+
+
+DLLDirection
+modelica_boolean omc_ConnectUtil_topLevelInput(threadData_t *threadData, modelica_metatype _componentRef, modelica_metatype _varDirection, modelica_metatype _connectorType, modelica_metatype _visibility);
+DLLDirection
+modelica_metatype boxptr_ConnectUtil_topLevelInput(threadData_t *threadData, modelica_metatype _componentRef, modelica_metatype _varDirection, modelica_metatype _connectorType, modelica_metatype _visibility);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ConnectUtil_topLevelInput,2,0) {(void*) boxptr_ConnectUtil_topLevelInput,0}};
+#define boxvar_ConnectUtil_topLevelInput MMC_REFSTRUCTLIT(boxvar_lit_ConnectUtil_topLevelInput)
 
 
 #define boxptr_ConnectUtil_removeUnusedExpandableVariablesAndConnections omc_ConnectUtil_removeUnusedExpandableVariablesAndConnections

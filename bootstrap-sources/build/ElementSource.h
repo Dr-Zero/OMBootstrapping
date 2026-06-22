@@ -46,8 +46,6 @@ extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description SCode_Comment_COMMENT__desc;
 
 
@@ -154,6 +152,13 @@ modelica_metatype omc_ElementSource_getSymbolicTransformations(threadData_t *thr
 #define boxptr_ElementSource_getSymbolicTransformations omc_ElementSource_getSymbolicTransformations
 static const MMC_DEFSTRUCTLIT(boxvar_lit_ElementSource_getSymbolicTransformations,2,0) {(void*) boxptr_ElementSource_getSymbolicTransformations,0}};
 #define boxvar_ElementSource_getSymbolicTransformations MMC_REFSTRUCTLIT(boxvar_lit_ElementSource_getSymbolicTransformations)
+
+
+DLLDirection
+modelica_metatype omc_ElementSource_getAssertCond(threadData_t *threadData, modelica_metatype _stmt);
+#define boxptr_ElementSource_getAssertCond omc_ElementSource_getAssertCond
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ElementSource_getAssertCond,2,0) {(void*) boxptr_ElementSource_getAssertCond,0}};
+#define boxvar_ElementSource_getAssertCond MMC_REFSTRUCTLIT(boxvar_lit_ElementSource_getAssertCond)
 
 
 DLLDirection

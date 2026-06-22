@@ -423,9 +423,6 @@ void omc_DumpHTML_dumpMatrixHTML(threadData_t *threadData, modelica_metatype _m,
   modelica_integer _matrixMargin;
   modelica_integer _blockSize;
   modelica_metatype _row = NULL;
-  modelica_string _color = NULL;
-  modelica_string _rowLabel = NULL;
-  modelica_string _colLabel = NULL;
   modelica_string _blockDraw = NULL;
   modelica_string _rowLabelDraw = NULL;
   modelica_string _colLabelDraw = NULL;
@@ -486,9 +483,6 @@ void omc_DumpHTML_dumpMatrixHTML(threadData_t *threadData, modelica_metatype _m,
   // _matrixMargin has no default value.
   // _blockSize has no default value.
   // _row has no default value.
-  // _color has no default value.
-  // _rowLabel has no default value.
-  // _colLabel has no default value.
   // _blockDraw has no default value.
   // _rowLabelDraw has no default value.
   // _colLabelDraw has no default value.
@@ -983,12 +977,9 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_DumpHTML_dumpEqSystem(threadData
 {
   modelica_metatype _outTpl = NULL;
   modelica_metatype _vars = NULL;
-  modelica_integer _eqnlen;
-  modelica_integer _eqnssize;
   modelica_integer _i;
   modelica_string _varlen_str = NULL;
   modelica_string _eqnlen_str = NULL;
-  modelica_string _prefixIdstr = NULL;
   modelica_string _prefixId = NULL;
   modelica_metatype _eqnsl = NULL;
   modelica_metatype _vars1 = NULL;
@@ -1026,12 +1017,9 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_DumpHTML_dumpEqSystem(threadData
   _tailrecursive: OMC_LABEL_UNUSED
   // _outTpl has no default value.
   // _vars has no default value.
-  // _eqnlen has no default value.
-  // _eqnssize has no default value.
   // _i has no default value.
   // _varlen_str has no default value.
   // _eqnlen_str has no default value.
-  // _prefixIdstr has no default value.
   // _prefixId has no default value.
   // _eqnsl has no default value.
   // _vars1 has no default value.

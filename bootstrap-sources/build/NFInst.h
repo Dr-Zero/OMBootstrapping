@@ -18,6 +18,8 @@ extern struct record_description Absyn_Direction_INPUT__desc;
 
 extern struct record_description Absyn_Direction_OUTPUT__desc;
 
+extern struct record_description Absyn_Exp_BOOL__desc;
+
 extern struct record_description Absyn_Exp_CALL__desc;
 
 extern struct record_description Absyn_Exp_CREF__desc;
@@ -77,10 +79,6 @@ extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 extern struct record_description Flags_FlagVisibility_INTERNAL__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__DESC__OPTION__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
 
 extern struct record_description NFAlgorithm_ALGORITHM__desc;
 
@@ -145,8 +143,6 @@ extern struct record_description NFDuplicateTree_Tree_EMPTY__desc;
 extern struct record_description NFEquation_ASSERT__desc;
 
 extern struct record_description NFEquation_CONNECT__desc;
-
-extern struct record_description NFEquation_EQUALITY__desc;
 
 extern struct record_description NFEquation_FOR__desc;
 
@@ -803,22 +799,25 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInst_propagateRedeclaredMod,2,0) {(vo
 
 
 DLLDirection
-modelica_metatype omc_NFInst_getConstrainingMod(threadData_t *threadData, modelica_metatype _element, modelica_metatype _parent, modelica_metatype _outerMod);
-#define boxptr_NFInst_getConstrainingMod omc_NFInst_getConstrainingMod
+modelica_metatype omc_NFInst_getConstrainingMod(threadData_t *threadData, modelica_metatype _element, modelica_metatype _parent, modelica_metatype _outerMod, modelica_integer _instLevel);
+DLLDirection
+modelica_metatype boxptr_NFInst_getConstrainingMod(threadData_t *threadData, modelica_metatype _element, modelica_metatype _parent, modelica_metatype _outerMod, modelica_metatype _instLevel);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInst_getConstrainingMod,2,0) {(void*) boxptr_NFInst_getConstrainingMod,0}};
 #define boxvar_NFInst_getConstrainingMod MMC_REFSTRUCTLIT(boxvar_lit_NFInst_getConstrainingMod)
 
 
 DLLDirection
-modelica_metatype omc_NFInst_instConstrainingMod(threadData_t *threadData, modelica_metatype _element, modelica_metatype _parent);
-#define boxptr_NFInst_instConstrainingMod omc_NFInst_instConstrainingMod
+modelica_metatype omc_NFInst_instConstrainingMod(threadData_t *threadData, modelica_metatype _element, modelica_metatype _parent, modelica_integer _instLevel);
+DLLDirection
+modelica_metatype boxptr_NFInst_instConstrainingMod(threadData_t *threadData, modelica_metatype _element, modelica_metatype _parent, modelica_metatype _instLevel);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInst_instConstrainingMod,2,0) {(void*) boxptr_NFInst_instConstrainingMod,0}};
 #define boxvar_NFInst_instConstrainingMod MMC_REFSTRUCTLIT(boxvar_lit_NFInst_instConstrainingMod)
 
 
 DLLDirection
-modelica_metatype omc_NFInst_instElementModifier(threadData_t *threadData, modelica_metatype _element, modelica_metatype _component, modelica_metatype _parent);
-#define boxptr_NFInst_instElementModifier omc_NFInst_instElementModifier
+modelica_metatype omc_NFInst_instElementModifier(threadData_t *threadData, modelica_metatype _element, modelica_metatype _component, modelica_metatype _parent, modelica_integer _instLevel);
+DLLDirection
+modelica_metatype boxptr_NFInst_instElementModifier(threadData_t *threadData, modelica_metatype _element, modelica_metatype _component, modelica_metatype _parent, modelica_metatype _instLevel);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInst_instElementModifier,2,0) {(void*) boxptr_NFInst_instElementModifier,0}};
 #define boxvar_NFInst_instElementModifier MMC_REFSTRUCTLIT(boxvar_lit_NFInst_instElementModifier)
 
@@ -880,9 +879,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInst_redeclareElements,2,0) {(void*) 
 
 
 DLLDirection
-modelica_metatype omc_NFInst_redeclareClasses(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftree, modelica_metatype _parent, modelica_integer _context);
+modelica_metatype omc_NFInst_redeclareClasses(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftree, modelica_metatype _parent, modelica_integer _context, modelica_integer _instLevel);
 DLLDirection
-modelica_metatype boxptr_NFInst_redeclareClasses(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftree, modelica_metatype _parent, modelica_metatype _context);
+modelica_metatype boxptr_NFInst_redeclareClasses(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftree, modelica_metatype _parent, modelica_metatype _context, modelica_metatype _instLevel);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInst_redeclareClasses,2,0) {(void*) boxptr_NFInst_redeclareClasses,0}};
 #define boxvar_NFInst_redeclareClasses MMC_REFSTRUCTLIT(boxvar_lit_NFInst_redeclareClasses)
 
@@ -912,9 +911,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInst_applyExtendsVisibility,2,0) {(vo
 
 
 DLLDirection
-modelica_metatype omc_NFInst_modifyExtends(threadData_t *threadData, modelica_metatype __omcQ_24in_5FextendsNode, modelica_metatype _scope, modelica_integer _context);
+modelica_metatype omc_NFInst_modifyExtends(threadData_t *threadData, modelica_metatype __omcQ_24in_5FextendsNode, modelica_metatype _scope, modelica_integer _context, modelica_integer _instLevel);
 DLLDirection
-modelica_metatype boxptr_NFInst_modifyExtends(threadData_t *threadData, modelica_metatype __omcQ_24in_5FextendsNode, modelica_metatype _scope, modelica_metatype _context);
+modelica_metatype boxptr_NFInst_modifyExtends(threadData_t *threadData, modelica_metatype __omcQ_24in_5FextendsNode, modelica_metatype _scope, modelica_metatype _context, modelica_metatype _instLevel);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInst_modifyExtends,2,0) {(void*) boxptr_NFInst_modifyExtends,0}};
 #define boxvar_NFInst_modifyExtends MMC_REFSTRUCTLIT(boxvar_lit_NFInst_modifyExtends)
 

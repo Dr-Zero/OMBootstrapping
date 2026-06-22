@@ -40,10 +40,6 @@ extern struct record_description Flags_ValidOptions_STRING__DESC__OPTION__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__OPTION__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
-
 
 DLLDirection
 modelica_boolean omc_Config_flatModelica(threadData_t *threadData);

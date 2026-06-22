@@ -39,6 +39,14 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_UnorderedSet_difference,2,0) {(void*) b
 
 
 DLLDirection
+modelica_boolean omc_UnorderedSet_equal__list(threadData_t *threadData, modelica_metatype _inList1, modelica_metatype _inList2, modelica_fnptr _hashFunc, modelica_fnptr _keyEqFunc);
+DLLDirection
+modelica_metatype boxptr_UnorderedSet_equal__list(threadData_t *threadData, modelica_metatype _inList1, modelica_metatype _inList2, modelica_fnptr _hashFunc, modelica_fnptr _keyEqFunc);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_UnorderedSet_equal__list,2,0) {(void*) boxptr_UnorderedSet_equal__list,0}};
+#define boxvar_UnorderedSet_equal__list MMC_REFSTRUCTLIT(boxvar_lit_UnorderedSet_equal__list)
+
+
+DLLDirection
 modelica_metatype omc_UnorderedSet_difference__list(threadData_t *threadData, modelica_metatype _inList1, modelica_metatype _inList2, modelica_fnptr _hashFunc, modelica_fnptr _keyEqFunc);
 #define boxptr_UnorderedSet_difference__list omc_UnorderedSet_difference__list
 static const MMC_DEFSTRUCTLIT(boxvar_lit_UnorderedSet_difference__list,2,0) {(void*) boxptr_UnorderedSet_difference__list,0}};
@@ -186,6 +194,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_UnorderedSet_apply,2,0) {(void*) boxptr
 
 
 DLLDirection
+modelica_metatype omc_UnorderedSet_selfMap(threadData_t *threadData, modelica_metatype _set, modelica_fnptr _fn);
+#define boxptr_UnorderedSet_selfMap omc_UnorderedSet_selfMap
+static const MMC_DEFSTRUCTLIT(boxvar_lit_UnorderedSet_selfMap,2,0) {(void*) boxptr_UnorderedSet_selfMap,0}};
+#define boxvar_UnorderedSet_selfMap MMC_REFSTRUCTLIT(boxvar_lit_UnorderedSet_selfMap)
+
+
+DLLDirection
 modelica_metatype omc_UnorderedSet_fold(threadData_t *threadData, modelica_metatype _set, modelica_fnptr _fn, modelica_metatype _startValue);
 #define boxptr_UnorderedSet_fold omc_UnorderedSet_fold
 static const MMC_DEFSTRUCTLIT(boxvar_lit_UnorderedSet_fold,2,0) {(void*) boxptr_UnorderedSet_fold,0}};
@@ -266,8 +281,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_UnorderedSet_addNew,2,0) {(void*) boxpt
 
 
 DLLDirection
-void omc_UnorderedSet_add(threadData_t *threadData, modelica_metatype _key, modelica_metatype _set);
-#define boxptr_UnorderedSet_add omc_UnorderedSet_add
+modelica_boolean omc_UnorderedSet_add(threadData_t *threadData, modelica_metatype _key, modelica_metatype _set);
+DLLDirection
+modelica_metatype boxptr_UnorderedSet_add(threadData_t *threadData, modelica_metatype _key, modelica_metatype _set);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_UnorderedSet_add,2,0) {(void*) boxptr_UnorderedSet_add,0}};
 #define boxvar_UnorderedSet_add MMC_REFSTRUCTLIT(boxvar_lit_UnorderedSet_add)
 

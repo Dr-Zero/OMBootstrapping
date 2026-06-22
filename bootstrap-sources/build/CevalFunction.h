@@ -72,8 +72,6 @@ extern struct record_description FCore_Status_VAR__TYPED__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description SCode_Attributes_ATTR__desc;
 
 extern struct record_description SCode_Comment_COMMENT__desc;

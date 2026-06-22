@@ -32,7 +32,7 @@ extern struct record_description NBVariable_VariablePointers_VARIABLE__POINTERS_
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NBVariable_VarData_VAR__DATA__SIM__desc_added
 #define NBVariable_VarData_VAR__DATA__SIM__desc_added
-ADD_METARECORD_DEFINITIONS const char* NBVariable_VarData_VAR__DATA__SIM__desc__fields[23] = {"variables","unknowns","knowns","initials","auxiliaries","aliasVars","nonTrivialAlias","derivatives","algebraics","discretes","discrete_states","clocked_states","previous","clocks","states","top_level_inputs","resizables","parameters","constants","records","external_objects","artificials","state_order"};
+ADD_METARECORD_DEFINITIONS const char* NBVariable_VarData_VAR__DATA__SIM__desc__fields[24] = {"uniqueIndex","variables","unknowns","knowns","initials","auxiliaries","aliasVars","nonTrivialAlias","derivatives","algebraics","discretes","discrete_states","clocked_states","previous","clocks","states","top_level_inputs","resizables","parameters","constants","records","external_objects","artificials","state_order"};
 ADD_METARECORD_DEFINITIONS struct record_description NBVariable_VarData_VAR__DATA__SIM__desc = {
   "NBVariable_VarData_VAR__DATA__SIM",
   "NBVariable.VarData.VAR_DATA_SIM",
@@ -123,7 +123,7 @@ extern struct record_description NBVariable_VarData_VAR__DATA__JAC__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NBVariable_VarData_VAR__DATA__SIM__desc_added
 #define NBVariable_VarData_VAR__DATA__SIM__desc_added
-ADD_METARECORD_DEFINITIONS const char* NBVariable_VarData_VAR__DATA__SIM__desc__fields[23] = {"variables","unknowns","knowns","initials","auxiliaries","aliasVars","nonTrivialAlias","derivatives","algebraics","discretes","discrete_states","clocked_states","previous","clocks","states","top_level_inputs","resizables","parameters","constants","records","external_objects","artificials","state_order"};
+ADD_METARECORD_DEFINITIONS const char* NBVariable_VarData_VAR__DATA__SIM__desc__fields[24] = {"uniqueIndex","variables","unknowns","knowns","initials","auxiliaries","aliasVars","nonTrivialAlias","derivatives","algebraics","discretes","discrete_states","clocked_states","previous","clocks","states","top_level_inputs","resizables","parameters","constants","records","external_objects","artificials","state_order"};
 ADD_METARECORD_DEFINITIONS struct record_description NBVariable_VarData_VAR__DATA__SIM__desc = {
   "NBVariable_VarData_VAR__DATA__SIM",
   "NBVariable.VarData.VAR_DATA_SIM",

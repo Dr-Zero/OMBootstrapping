@@ -10,11 +10,15 @@
 extern "C" {
 #endif
 
+extern struct record_description Absyn_ComponentItem_COMPONENTITEM__desc;
+
 extern struct record_description Absyn_ComponentRef_CREF__FULLYQUALIFIED__desc;
 
 extern struct record_description Absyn_EqMod_NOMOD__desc;
 
 extern struct record_description Absyn_Exp_ARRAY__desc;
+
+extern struct record_description Absyn_ForIterator_ITERATOR__desc;
 
 extern struct record_description Absyn_Import_QUAL__IMPORT__desc;
 
@@ -51,8 +55,6 @@ extern struct record_description ErrorTypes_Severity_ERROR__desc;
 extern struct record_description ErrorTypes_Severity_WARNING__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 

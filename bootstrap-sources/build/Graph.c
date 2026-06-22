@@ -7,106 +7,104 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT1,1,4) {&ErrorTypes_Severity_ERROR_
 #define _OMC_LIT2_data "Internal error %s"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT2,17,_OMC_LIT2_data);
 #define _OMC_LIT2 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT2)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT3,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT2}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT3,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(63)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT2}};
 #define _OMC_LIT3 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT3)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT4,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(63)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT3}};
-#define _OMC_LIT4 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT4)
-#define _OMC_LIT5_data "Graph.addForbiddenColorsInt failed."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT5,35,_OMC_LIT5_data);
-#define _OMC_LIT5 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT5)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT6,2,1) {_OMC_LIT5,MMC_REFSTRUCTLIT(mmc_nil)}};
-#define _OMC_LIT6 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT6)
-#define _OMC_LIT7_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/Util/Graph.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,66,_OMC_LIT7_data);
-#define _OMC_LIT7 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT7)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT8_6,1.770032059e9);
-#define _OMC_LIT8_6 MMC_REFREALLIT(_OMC_LIT_STRUCT8_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT8,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT7,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(990)),MMC_IMMEDIATE(MMC_TAGFIXNUM(5)),MMC_IMMEDIATE(MMC_TAGFIXNUM(990)),MMC_IMMEDIATE(MMC_TAGFIXNUM(104)),_OMC_LIT8_6}};
-#define _OMC_LIT8 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT8)
-#define _OMC_LIT9_data "Graph.partialDistance2colorInt failed."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT9,38,_OMC_LIT9_data);
-#define _OMC_LIT9 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT9)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT10,2,1) {_OMC_LIT9,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT4_data "Graph.addForbiddenColorsInt failed."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT4,35,_OMC_LIT4_data);
+#define _OMC_LIT4 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT4)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT5,2,1) {_OMC_LIT4,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT5 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT5)
+#define _OMC_LIT6_data "/projects/OpenModelica-session2/OMCompiler/Compiler/Util/Graph.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT6,65,_OMC_LIT6_data);
+#define _OMC_LIT6 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT6)
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT7_6,1.781983298e9);
+#define _OMC_LIT7_6 MMC_REFREALLIT(_OMC_LIT_STRUCT7_6)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT7,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT6,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(980)),MMC_IMMEDIATE(MMC_TAGFIXNUM(5)),MMC_IMMEDIATE(MMC_TAGFIXNUM(980)),MMC_IMMEDIATE(MMC_TAGFIXNUM(104)),_OMC_LIT7_6}};
+#define _OMC_LIT7 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT7)
+#define _OMC_LIT8_data "Graph.partialDistance2colorInt failed."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT8,38,_OMC_LIT8_data);
+#define _OMC_LIT8 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT8)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT9,2,1) {_OMC_LIT8,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT9 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT9)
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT10_6,1.781983298e9);
+#define _OMC_LIT10_6 MMC_REFREALLIT(_OMC_LIT_STRUCT10_6)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT10,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT6,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(961)),MMC_IMMEDIATE(MMC_TAGFIXNUM(5)),MMC_IMMEDIATE(MMC_TAGFIXNUM(961)),MMC_IMMEDIATE(MMC_TAGFIXNUM(107)),_OMC_LIT10_6}};
 #define _OMC_LIT10 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT10)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT11_6,1.770032059e9);
-#define _OMC_LIT11_6 MMC_REFREALLIT(_OMC_LIT_STRUCT11_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT11,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT7,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(971)),MMC_IMMEDIATE(MMC_TAGFIXNUM(5)),MMC_IMMEDIATE(MMC_TAGFIXNUM(971)),MMC_IMMEDIATE(MMC_TAGFIXNUM(107)),_OMC_LIT11_6}};
-#define _OMC_LIT11 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT11)
-#define _OMC_LIT12_data "Graph.allReachableNodesInt failed."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT12,34,_OMC_LIT12_data);
-#define _OMC_LIT12 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT12)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT13,2,1) {_OMC_LIT12,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT11_data "Graph.allReachableNodesInt failed."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT11,34,_OMC_LIT11_data);
+#define _OMC_LIT11 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT11)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT12,2,1) {_OMC_LIT11,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT12 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT12)
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT13_6,1.781983298e9);
+#define _OMC_LIT13_6 MMC_REFREALLIT(_OMC_LIT_STRUCT13_6)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT13,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT6,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(928)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(928)),MMC_IMMEDIATE(MMC_TAGFIXNUM(107)),_OMC_LIT13_6}};
 #define _OMC_LIT13 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT13)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT14_6,1.770032059e9);
-#define _OMC_LIT14_6 MMC_REFREALLIT(_OMC_LIT_STRUCT14_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT14,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT7,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(935)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(935)),MMC_IMMEDIATE(MMC_TAGFIXNUM(107)),_OMC_LIT14_6}};
-#define _OMC_LIT14 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT14)
-#define _OMC_LIT15_data "\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT15,1,_OMC_LIT15_data);
+#define _OMC_LIT14_data "\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT14,1,_OMC_LIT14_data);
+#define _OMC_LIT14 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT14)
+#define _OMC_LIT15_data " : "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT15,3,_OMC_LIT15_data);
 #define _OMC_LIT15 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT15)
-#define _OMC_LIT16_data " : "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT16,3,_OMC_LIT16_data);
+#define _OMC_LIT16_data " "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT16,1,_OMC_LIT16_data);
 #define _OMC_LIT16 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT16)
-#define _OMC_LIT17_data " "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT17,1,_OMC_LIT17_data);
+#define _OMC_LIT17_data "Node : "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT17,7,_OMC_LIT17_data);
 #define _OMC_LIT17 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT17)
-#define _OMC_LIT18_data "Node : "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT18,7,_OMC_LIT18_data);
+#define _OMC_LIT18_data " Edges: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT18,8,_OMC_LIT18_data);
 #define _OMC_LIT18 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT18)
-#define _OMC_LIT19_data " Edges: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT19,8,_OMC_LIT19_data);
+#define _OMC_LIT19_data ", "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT19,2,_OMC_LIT19_data);
 #define _OMC_LIT19 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT19)
-#define _OMC_LIT20_data ", "
+#define _OMC_LIT20_data ": "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT20,2,_OMC_LIT20_data);
 #define _OMC_LIT20 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT20)
-#define _OMC_LIT21_data ": "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT21,2,_OMC_LIT21_data);
+#define _OMC_LIT21_data "Graph.arrayUpdateListAppend failed."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT21,35,_OMC_LIT21_data);
 #define _OMC_LIT21 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT21)
-#define _OMC_LIT22_data "Graph.arrayUpdateListAppend failed."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT22,35,_OMC_LIT22_data);
-#define _OMC_LIT22 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT22)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT23,2,1) {_OMC_LIT22,MMC_REFSTRUCTLIT(mmc_nil)}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT22,2,1) {_OMC_LIT21,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT22 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT22)
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT23_6,1.781983298e9);
+#define _OMC_LIT23_6 MMC_REFREALLIT(_OMC_LIT_STRUCT23_6)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT23,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT6,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(751)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(751)),MMC_IMMEDIATE(MMC_TAGFIXNUM(108)),_OMC_LIT23_6}};
 #define _OMC_LIT23 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT23)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT24_6,1.770032059e9);
-#define _OMC_LIT24_6 MMC_REFREALLIT(_OMC_LIT_STRUCT24_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT24,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT7,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(757)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(757)),MMC_IMMEDIATE(MMC_TAGFIXNUM(108)),_OMC_LIT24_6}};
-#define _OMC_LIT24 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT24)
-#define _OMC_LIT25_data "Graph.addForbiddenColors failed."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT25,32,_OMC_LIT25_data);
-#define _OMC_LIT25 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT25)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT26,2,1) {_OMC_LIT25,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT24_data "Graph.addForbiddenColors failed."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT24,32,_OMC_LIT24_data);
+#define _OMC_LIT24 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT24)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT25,2,1) {_OMC_LIT24,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT25 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT25)
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT26_6,1.781983298e9);
+#define _OMC_LIT26_6 MMC_REFREALLIT(_OMC_LIT_STRUCT26_6)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT26,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT6,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(723)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(723)),MMC_IMMEDIATE(MMC_TAGFIXNUM(105)),_OMC_LIT26_6}};
 #define _OMC_LIT26 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT26)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT27_6,1.770032059e9);
-#define _OMC_LIT27_6 MMC_REFREALLIT(_OMC_LIT_STRUCT27_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT27,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT7,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(726)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(726)),MMC_IMMEDIATE(MMC_TAGFIXNUM(105)),_OMC_LIT27_6}};
-#define _OMC_LIT27 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT27)
-#define _OMC_LIT28_data "Graph.partialDistance2color failed."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT28,35,_OMC_LIT28_data);
-#define _OMC_LIT28 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT28)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT29,2,1) {_OMC_LIT28,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT27_data "Graph.partialDistance2color failed."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT27,35,_OMC_LIT27_data);
+#define _OMC_LIT27 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT27)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT28,2,1) {_OMC_LIT27,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT28 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT28)
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT29_6,1.781983298e9);
+#define _OMC_LIT29_6 MMC_REFREALLIT(_OMC_LIT_STRUCT29_6)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT29,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT6,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(675)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(675)),MMC_IMMEDIATE(MMC_TAGFIXNUM(108)),_OMC_LIT29_6}};
 #define _OMC_LIT29 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT29)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT30_6,1.770032059e9);
-#define _OMC_LIT30_6 MMC_REFREALLIT(_OMC_LIT_STRUCT30_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT30,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT7,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(675)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(675)),MMC_IMMEDIATE(MMC_TAGFIXNUM(108)),_OMC_LIT30_6}};
-#define _OMC_LIT30 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT30)
-#define _OMC_LIT31_data "Graph.allReachableNodes failed."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT31,31,_OMC_LIT31_data);
-#define _OMC_LIT31 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT31)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT32,2,1) {_OMC_LIT31,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT30_data "Graph.allReachableNodes failed."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT30,31,_OMC_LIT30_data);
+#define _OMC_LIT30 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT30)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT31,2,1) {_OMC_LIT30,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT31 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT31)
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT32_6,1.781983298e9);
+#define _OMC_LIT32_6 MMC_REFREALLIT(_OMC_LIT_STRUCT32_6)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT32,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT6,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(617)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(617)),MMC_IMMEDIATE(MMC_TAGFIXNUM(104)),_OMC_LIT32_6}};
 #define _OMC_LIT32 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT32)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT33_6,1.770032059e9);
-#define _OMC_LIT33_6 MMC_REFREALLIT(_OMC_LIT_STRUCT33_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT33,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT7,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(617)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(617)),MMC_IMMEDIATE(MMC_TAGFIXNUM(104)),_OMC_LIT33_6}};
-#define _OMC_LIT33 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT33)
-#define _OMC_LIT34_data "Graph.transpose failed."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT34,23,_OMC_LIT34_data);
-#define _OMC_LIT34 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT34)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT35,2,1) {_OMC_LIT34,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT33_data "Graph.transpose failed."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT33,23,_OMC_LIT33_data);
+#define _OMC_LIT33 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT33)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT34,2,1) {_OMC_LIT33,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT34 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT34)
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT35_6,1.781983298e9);
+#define _OMC_LIT35_6 MMC_REFREALLIT(_OMC_LIT_STRUCT35_6)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT35,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT6,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(512)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(512)),MMC_IMMEDIATE(MMC_TAGFIXNUM(96)),_OMC_LIT35_6}};
 #define _OMC_LIT35 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT35)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT36_6,1.770032059e9);
-#define _OMC_LIT36_6 MMC_REFREALLIT(_OMC_LIT_STRUCT36_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT36,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT7,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(510)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(510)),MMC_IMMEDIATE(MMC_TAGFIXNUM(96)),_OMC_LIT36_6}};
-#define _OMC_LIT36 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT36)
 #include "util/modelica.h"
 
 #include "Graph_includes.h"
@@ -579,7 +577,7 @@ PROTECTED_FUNCTION_STATIC void omc_Graph_addForbiddenColorsInt(threadData_t *thr
         }
         case 1: {
           /* Pattern matching succeeded */
-          omc_Error_addSourceMessage(threadData, _OMC_LIT4, _OMC_LIT6, _OMC_LIT8);
+          omc_Error_addSourceMessage(threadData, _OMC_LIT3, _OMC_LIT5, _OMC_LIT7);
 
           goto goto_1;
           goto tmp2_done;
@@ -620,15 +618,11 @@ void omc_Graph_partialDistance2colorInt(threadData_t *threadData, modelica_metat
   modelica_integer _node;
   modelica_integer _color;
   modelica_metatype _nodes = NULL;
-  modelica_metatype _forbiddenColor = NULL;
-  modelica_metatype _restGraph = NULL;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _node has no default value.
   // _color has no default value.
   // _nodes has no default value.
-  // _forbiddenColor has no default value.
-  // _restGraph has no default value.
   { /* matchcontinue expression */
     {
       volatile mmc_switch_type tmp3;
@@ -671,7 +665,7 @@ void omc_Graph_partialDistance2colorInt(threadData_t *threadData, modelica_metat
         }
         case 1: {
           /* Pattern matching succeeded */
-          omc_Error_addSourceMessage(threadData, _OMC_LIT4, _OMC_LIT10, _OMC_LIT11);
+          omc_Error_addSourceMessage(threadData, _OMC_LIT3, _OMC_LIT9, _OMC_LIT10);
           goto tmp2_done;
         }
         }
@@ -808,7 +802,7 @@ modelica_metatype omc_Graph_allReachableNodesInt(threadData_t *threadData, model
         case 3: {
           
           /* Pattern matching succeeded */
-          omc_Error_addSourceMessage(threadData, _OMC_LIT4, _OMC_LIT13, _OMC_LIT14);
+          omc_Error_addSourceMessage(threadData, _OMC_LIT3, _OMC_LIT12, _OMC_LIT13);
           goto goto_2;
           goto tmp3_done;
         }
@@ -866,7 +860,7 @@ void omc_Graph_printNodesInt(threadData_t *threadData, modelica_metatype _inList
           modelica_metatype tmpMeta5;
           if (!listEmpty(tmp3_1)) goto tmp2_end;
           /* Pattern matching succeeded */
-          tmpMeta5 = stringAppend(_inName,_OMC_LIT15);
+          tmpMeta5 = stringAppend(_inName,_OMC_LIT14);
           fputs(MMC_STRINGDATA(tmpMeta5),stdout);
           goto tmp2_done;
         }
@@ -874,16 +868,16 @@ void omc_Graph_printNodesInt(threadData_t *threadData, modelica_metatype _inList
           modelica_metatype tmpMeta6;
           
           /* Pattern matching succeeded */
-          tmpMeta6 = stringAppend(_inName,_OMC_LIT16);
+          tmpMeta6 = stringAppend(_inName,_OMC_LIT15);
           fputs(MMC_STRINGDATA(tmpMeta6),stdout);
 
           _strNodes = omc_List_map(threadData, _inListNodes, boxvar_intString);
 
-          _strNodes = omc_List_map1(threadData, _strNodes, boxvar_stringAppend, _OMC_LIT17);
+          _strNodes = omc_List_map1(threadData, _strNodes, boxvar_stringAppend, _OMC_LIT16);
 
           omc_List_map__0(threadData, _strNodes, boxvar_print);
 
-          fputs(MMC_STRINGDATA(_OMC_LIT15),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT14),stdout);
           goto tmp2_done;
         }
         }
@@ -947,17 +941,17 @@ void omc_Graph_printGraphInt(threadData_t *threadData, modelica_metatype _inGrap
           _edges = tmpMeta9;
           _restGraph = tmpMeta6;
           /* Pattern matching succeeded */
-          tmpMeta10 = stringAppend(_OMC_LIT18,intString(_node));
-          tmpMeta11 = stringAppend(tmpMeta10,_OMC_LIT19);
+          tmpMeta10 = stringAppend(_OMC_LIT17,intString(_node));
+          tmpMeta11 = stringAppend(tmpMeta10,_OMC_LIT18);
           fputs(MMC_STRINGDATA(tmpMeta11),stdout);
 
           _strEdges = omc_List_map(threadData, _edges, boxvar_intString);
 
-          _strEdges = omc_List_map1(threadData, _strEdges, boxvar_stringAppend, _OMC_LIT17);
+          _strEdges = omc_List_map1(threadData, _strEdges, boxvar_stringAppend, _OMC_LIT16);
 
           omc_List_map__0(threadData, _strEdges, boxvar_print);
 
-          fputs(MMC_STRINGDATA(_OMC_LIT15),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT14),stdout);
 
           /* Tail recursive call */
           _inGraph = _restGraph;
@@ -1011,9 +1005,9 @@ modelica_string omc_Graph_printNode(threadData_t *threadData, modelica_metatype 
 
   _node_str = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inPrintFunc), 2))) ? ((modelica_metatype(*)(threadData_t*, modelica_metatype, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inPrintFunc), 1)))) (threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inPrintFunc), 2))), _node) : ((modelica_metatype(*)(threadData_t*, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inPrintFunc), 1)))) (threadData, _node);
 
-  _edges_str = stringDelimitList(omc_List_map(threadData, _edges, ((modelica_fnptr) _inPrintFunc)), _OMC_LIT20);
+  _edges_str = stringDelimitList(omc_List_map(threadData, _edges, ((modelica_fnptr) _inPrintFunc)), _OMC_LIT19);
 
-  tmpMeta4 = stringAppend(_node_str,_OMC_LIT21);
+  tmpMeta4 = stringAppend(_node_str,_OMC_LIT20);
   tmpMeta5 = stringAppend(tmpMeta4,_edges_str);
   _outString = tmpMeta5;
   _return: OMC_LABEL_UNUSED
@@ -1027,7 +1021,7 @@ modelica_string omc_Graph_printGraph(threadData_t *threadData, modelica_metatype
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outString has no default value.
-  _outString = stringDelimitList(omc_List_map1(threadData, _inGraph, boxvar_Graph_printNode, ((modelica_fnptr) _inPrintFunc)), _OMC_LIT15);
+  _outString = stringDelimitList(omc_List_map1(threadData, _inGraph, boxvar_Graph_printNode, ((modelica_fnptr) _inPrintFunc)), _OMC_LIT14);
   _return: OMC_LABEL_UNUSED
   return _outString;
 }
@@ -1154,10 +1148,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_Graph_arrayElemetGtZero(threa
 
 PROTECTED_FUNCTION_STATIC void omc_Graph_arrayUpdateListAppend(threadData_t *threadData, modelica_integer _inIndex, modelica_metatype _inArray, modelica_metatype _inNode)
 {
-  modelica_metatype _arrayElem = NULL;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _arrayElem has no default value.
   { /* matchcontinue expression */
     {
       volatile mmc_switch_type tmp3;
@@ -1175,7 +1167,7 @@ PROTECTED_FUNCTION_STATIC void omc_Graph_arrayUpdateListAppend(threadData_t *thr
         }
         case 1: {
           /* Pattern matching succeeded */
-          omc_Error_addSourceMessage(threadData, _OMC_LIT4, _OMC_LIT23, _OMC_LIT24);
+          omc_Error_addSourceMessage(threadData, _OMC_LIT3, _OMC_LIT22, _OMC_LIT23);
           goto goto_1;
           goto tmp2_done;
         }
@@ -1301,7 +1293,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Graph_addForbiddenColors(threadD
         case 2: {
           
           /* Pattern matching succeeded */
-          omc_Error_addSourceMessage(threadData, _OMC_LIT4, _OMC_LIT26, _OMC_LIT27);
+          omc_Error_addSourceMessage(threadData, _OMC_LIT3, _OMC_LIT25, _OMC_LIT26);
           goto goto_2;
           goto tmp3_done;
         }
@@ -1397,7 +1389,7 @@ modelica_metatype omc_Graph_partialDistance2color(threadData_t *threadData, mode
         case 2: {
           
           /* Pattern matching succeeded */
-          omc_Error_addSourceMessage(threadData, _OMC_LIT4, _OMC_LIT29, _OMC_LIT30);
+          omc_Error_addSourceMessage(threadData, _OMC_LIT3, _OMC_LIT28, _OMC_LIT29);
           goto goto_2;
           goto tmp3_done;
         }
@@ -1517,7 +1509,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Graph_allReachableNodesWork(thre
         case 3: {
           
           /* Pattern matching succeeded */
-          omc_Error_addSourceMessage(threadData, _OMC_LIT4, _OMC_LIT32, _OMC_LIT33);
+          omc_Error_addSourceMessage(threadData, _OMC_LIT3, _OMC_LIT31, _OMC_LIT32);
           tmpMeta1 = mmc_mk_none();
           goto tmp3_done;
         }
@@ -1737,7 +1729,7 @@ modelica_metatype omc_Graph_transposeGraph(threadData_t *threadData, modelica_me
         case 2: {
           
           /* Pattern matching succeeded */
-          omc_Error_addSourceMessage(threadData, _OMC_LIT4, _OMC_LIT35, _OMC_LIT36);
+          omc_Error_addSourceMessage(threadData, _OMC_LIT3, _OMC_LIT34, _OMC_LIT35);
           goto goto_2;
           goto tmp3_done;
         }

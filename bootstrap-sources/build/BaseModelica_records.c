@@ -6,7 +6,7 @@ extern "C" {
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef BaseModelica_OutputFormat_OUTPUT__FORMAT__desc_added
 #define BaseModelica_OutputFormat_OUTPUT__FORMAT__desc_added
-ADD_METARECORD_DEFINITIONS const char* BaseModelica_OutputFormat_OUTPUT__FORMAT__desc__fields[3] = {"scalarizeMode","recordMode","moveBindings"};
+ADD_METARECORD_DEFINITIONS const char* BaseModelica_OutputFormat_OUTPUT__FORMAT__desc__fields[4] = {"scalarizeMode","recordMode","moveBindings","showConfidence"};
 ADD_METARECORD_DEFINITIONS struct record_description BaseModelica_OutputFormat_OUTPUT__FORMAT__desc = {
   "BaseModelica_OutputFormat_OUTPUT__FORMAT",
   "BaseModelica.OutputFormat.OUTPUT_FORMAT",
@@ -19,7 +19,7 @@ extern struct record_description BaseModelica_OutputFormat_OUTPUT__FORMAT__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef BaseModelica_OutputFormat_OUTPUT__FORMAT__desc_added
 #define BaseModelica_OutputFormat_OUTPUT__FORMAT__desc_added
-ADD_METARECORD_DEFINITIONS const char* BaseModelica_OutputFormat_OUTPUT__FORMAT__desc__fields[3] = {"scalarizeMode","recordMode","moveBindings"};
+ADD_METARECORD_DEFINITIONS const char* BaseModelica_OutputFormat_OUTPUT__FORMAT__desc__fields[4] = {"scalarizeMode","recordMode","moveBindings","showConfidence"};
 ADD_METARECORD_DEFINITIONS struct record_description BaseModelica_OutputFormat_OUTPUT__FORMAT__desc = {
   "BaseModelica_OutputFormat_OUTPUT__FORMAT",
   "BaseModelica.OutputFormat.OUTPUT_FORMAT",

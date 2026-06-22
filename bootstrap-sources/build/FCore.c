@@ -3,7 +3,7 @@
 #define _OMC_LIT0_data "$recordconstructor"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT0,18,_OMC_LIT0_data);
 #define _OMC_LIT0 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT0)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT1,1,5) {&DAE_AvlTreePathFunction_Tree_EMPTY__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT1,1,5) {&AvlTreePathFunction_Tree_EMPTY__desc,}};
 #define _OMC_LIT1 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT1)
 #define _OMC_LIT2_data "printNumStructuralParameters: "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT2,30,_OMC_LIT2_data);
@@ -410,7 +410,7 @@ modelica_metatype omc_FCore_addDaeExtFunction(threadData_t *threadData, modelica
           
           _ef = tmpMeta6;
           /* Pattern matching succeeded */
-          omc_Mutable_update(threadData, _ef, omc_DAEUtil_addDaeExtFunction(threadData, _funcs, omc_Mutable_access(threadData, _ef)));
+          omc_Mutable_update(threadData, _ef, omc_AvlTreePathFunction_addDaeExtFunction(threadData, _funcs, omc_Mutable_access(threadData, _ef)));
           tmpMeta1 = _inCache;
           goto tmp3_done;
         }
@@ -462,7 +462,7 @@ modelica_metatype omc_FCore_addDaeFunction(threadData_t *threadData, modelica_me
           
           _ef = tmpMeta6;
           /* Pattern matching succeeded */
-          omc_Mutable_update(threadData, _ef, omc_DAEUtil_addDaeFunction(threadData, _funcs, omc_Mutable_access(threadData, _ef)));
+          omc_Mutable_update(threadData, _ef, omc_AvlTreePathFunction_addDaeFunction(threadData, _funcs, omc_Mutable_access(threadData, _ef)));
           tmpMeta1 = _inCache;
           goto tmp3_done;
         }
@@ -526,7 +526,7 @@ modelica_metatype omc_FCore_addCachedInstFuncGuard(threadData_t *threadData, mod
           
           _ef = tmpMeta6;
           /* Pattern matching succeeded */
-          omc_Mutable_update(threadData, _ef, omc_DAE_AvlTreePathFunction_add(threadData, omc_Mutable_access(threadData, _ef), _func, mmc_mk_none(), boxvar_DAE_AvlTreePathFunction_addConflictDefault));
+          omc_Mutable_update(threadData, _ef, omc_AvlTreePathFunction_add(threadData, omc_Mutable_access(threadData, _ef), _func, mmc_mk_none(), boxvar_AvlTreePathFunction_addConflictDefault));
           tmpMeta1 = _cache;
           goto tmp3_done;
         }
@@ -633,7 +633,7 @@ void omc_FCore_checkCachedInstFuncGuard(threadData_t *threadData, modelica_metat
           
           _ef = tmpMeta5;
           /* Pattern matching succeeded */
-          omc_DAE_AvlTreePathFunction_get(threadData, omc_Mutable_access(threadData, _ef), _path);
+          omc_AvlTreePathFunction_get(threadData, omc_Mutable_access(threadData, _ef), _path);
           goto tmp2_done;
         }
         }
@@ -681,7 +681,7 @@ modelica_metatype omc_FCore_getCachedInstFunc(threadData_t *threadData, modelica
           _ef = tmpMeta6;
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmpMeta7 = omc_DAE_AvlTreePathFunction_get(threadData, omc_Mutable_access(threadData, _ef), _path);
+          tmpMeta7 = omc_AvlTreePathFunction_get(threadData, omc_Mutable_access(threadData, _ef), _path);
           if (optionNone(tmpMeta7)) goto goto_2;
           tmpMeta8 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta7), 1));
           _func = tmpMeta8;
@@ -2930,20 +2930,14 @@ modelica_string omc_FCore_RefTree_printTreeStr(threadData_t *threadData, modelic
 PROTECTED_FUNCTION_STATIC modelica_string omc_FCore_RefTree_printTreeStr2(threadData_t *threadData, modelica_metatype _inTree, modelica_boolean _isLeft, modelica_string _inIndent)
 {
   modelica_string _outString = NULL;
-  modelica_metatype _val_node = NULL;
   modelica_metatype _left = NULL;
   modelica_metatype _right = NULL;
-  modelica_string _left_str = NULL;
-  modelica_string _right_str = NULL;
   modelica_string tmp1 = 0;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outString has no default value.
-  // _val_node has no default value.
   // _left has no default value.
   // _right has no default value.
-  // _left_str has no default value.
-  // _right_str has no default value.
   { /* match expression */
     modelica_metatype tmp4_1;
     tmp4_1 = _inTree;

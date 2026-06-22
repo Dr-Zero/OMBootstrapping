@@ -39,223 +39,197 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT12,1,5) {&ErrorTypes_Severity_WARNI
 #define _OMC_LIT13_data "Conflicting versions for loading package %s: %s is to be installed, but another package requires version %s which is not provided by this version."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT13,146,_OMC_LIT13_data);
 #define _OMC_LIT13 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT13)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT14,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT13}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT14,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(612)),_OMC_LIT11,_OMC_LIT12,_OMC_LIT13}};
 #define _OMC_LIT14 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT14)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT15,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(612)),_OMC_LIT11,_OMC_LIT12,_OMC_LIT14}};
-#define _OMC_LIT15 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT15)
-#define _OMC_LIT16_data ""
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT16,0,_OMC_LIT16_data);
+#define _OMC_LIT15_data ""
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT15,0,_OMC_LIT15_data);
+#define _OMC_LIT15 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT15)
+#define _OMC_LIT16_data "#DUMMY#"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT16,7,_OMC_LIT16_data);
 #define _OMC_LIT16 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT16)
-#define _OMC_LIT17_data "#DUMMY#"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT17,7,_OMC_LIT17_data);
+#define _OMC_LIT17_data "openmodelica.metadata.json"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT17,26,_OMC_LIT17_data);
 #define _OMC_LIT17 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT17)
-#define _OMC_LIT18_data "openmodelica.metadata.json"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT18,26,_OMC_LIT18_data);
+#define _OMC_LIT18_data "libs"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT18,4,_OMC_LIT18_data);
 #define _OMC_LIT18 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT18)
-#define _OMC_LIT19_data "libs"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT19,4,_OMC_LIT19_data);
-#define _OMC_LIT19 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT19)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT20,1,4) {&ErrorTypes_Severity_ERROR__desc,}};
-#define _OMC_LIT20 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT20)
-#define _OMC_LIT21_data "The package index did not contain an entry for package %s that provides version %s. The following versions are available:\n%s"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT21,124,_OMC_LIT21_data);
-#define _OMC_LIT21 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT21)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT22,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT21}};
-#define _OMC_LIT22 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT22)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT23,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(602)),_OMC_LIT11,_OMC_LIT20,_OMC_LIT22}};
-#define _OMC_LIT23 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT23)
-#define _OMC_LIT24_data "\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT24,1,_OMC_LIT24_data);
-#define _OMC_LIT24 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT24)
-#define _OMC_LIT25_data "The package index did not contain an entry for package %s of version %s. There are other versions that claim to be compatible: %s."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT25,130,_OMC_LIT25_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT19,1,4) {&ErrorTypes_Severity_ERROR__desc,}};
+#define _OMC_LIT19 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT19)
+#define _OMC_LIT20_data "The package index did not contain an entry for package %s that provides version %s. The following versions are available:\n%s"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT20,124,_OMC_LIT20_data);
+#define _OMC_LIT20 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT20)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT21,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(602)),_OMC_LIT11,_OMC_LIT19,_OMC_LIT20}};
+#define _OMC_LIT21 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT21)
+#define _OMC_LIT22_data "\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT22,1,_OMC_LIT22_data);
+#define _OMC_LIT22 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT22)
+#define _OMC_LIT23_data "The package index did not contain an entry for package %s of version %s. There are other versions that claim to be compatible: %s."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT23,130,_OMC_LIT23_data);
+#define _OMC_LIT23 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT23)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT24,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(603)),_OMC_LIT11,_OMC_LIT19,_OMC_LIT23}};
+#define _OMC_LIT24 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT24)
+#define _OMC_LIT25_data ", "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT25,2,_OMC_LIT25_data);
 #define _OMC_LIT25 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT25)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT26,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT25}};
-#define _OMC_LIT26 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT26)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT27,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(603)),_OMC_LIT11,_OMC_LIT20,_OMC_LIT26}};
-#define _OMC_LIT27 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT27)
-#define _OMC_LIT28_data ", "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT28,2,_OMC_LIT28_data);
+#define _OMC_LIT26_data "versions"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT26,8,_OMC_LIT26_data);
+#define _OMC_LIT26 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT26)
+#define _OMC_LIT27_data "path"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT27,4,_OMC_LIT27_data);
+#define _OMC_LIT27 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT27)
+#define _OMC_LIT28_data "singleFileStructureCopyAllFiles"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT28,31,_OMC_LIT28_data);
 #define _OMC_LIT28 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT28)
-#define _OMC_LIT29_data "versions"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT29,8,_OMC_LIT29_data);
-#define _OMC_LIT29 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT29)
-#define _OMC_LIT30_data "path"
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT29,1,11) {&JSON_FALSE__desc,}};
+#define _OMC_LIT29 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT29)
+#define _OMC_LIT30_data "uses"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT30,4,_OMC_LIT30_data);
 #define _OMC_LIT30 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT30)
-#define _OMC_LIT31_data "singleFileStructureCopyAllFiles"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT31,31,_OMC_LIT31_data);
+#define _OMC_LIT31_data "The package index %s could not be parsed."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT31,41,_OMC_LIT31_data);
 #define _OMC_LIT31 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT31)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT32,1,11) {&JSON_FALSE__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT32,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(606)),_OMC_LIT11,_OMC_LIT19,_OMC_LIT31}};
 #define _OMC_LIT32 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT32)
-#define _OMC_LIT33_data "uses"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT33,4,_OMC_LIT33_data);
-#define _OMC_LIT33 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT33)
-#define _OMC_LIT34_data "The package index %s could not be parsed."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT34,41,_OMC_LIT34_data);
-#define _OMC_LIT34 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT34)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT35,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT34}};
-#define _OMC_LIT35 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT35)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT36,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(606)),_OMC_LIT11,_OMC_LIT20,_OMC_LIT35}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT33,1,5) {&ErrorTypes_MessageType_TRANSLATION__desc,}};
+#define _OMC_LIT33 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT33)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT34,1,6) {&ErrorTypes_Severity_NOTIFICATION__desc,}};
+#define _OMC_LIT34 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT34)
+#define _OMC_LIT35_data "Cached libraries were found and will be installed into %s."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT35,58,_OMC_LIT35_data);
+#define _OMC_LIT35 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT35)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT36,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(616)),_OMC_LIT33,_OMC_LIT34,_OMC_LIT35}};
 #define _OMC_LIT36 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT36)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT37,1,5) {&ErrorTypes_MessageType_TRANSLATION__desc,}};
-#define _OMC_LIT37 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT37)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT38,1,6) {&ErrorTypes_Severity_NOTIFICATION__desc,}};
+#define _OMC_LIT37_data "%s %s will not be installed since version %s is installed."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT37,58,_OMC_LIT37_data);
+#define _OMC_LIT37 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT37)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT38,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(613)),_OMC_LIT11,_OMC_LIT34,_OMC_LIT37}};
 #define _OMC_LIT38 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT38)
-#define _OMC_LIT39_data "Cached libraries were found and will be installed into %s."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT39,58,_OMC_LIT39_data);
+#define _OMC_LIT39_data "%s %s is already installed, skipping."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT39,37,_OMC_LIT39_data);
 #define _OMC_LIT39 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT39)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT40,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT39}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT40,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(617)),_OMC_LIT33,_OMC_LIT34,_OMC_LIT39}};
 #define _OMC_LIT40 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT40)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT41,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(616)),_OMC_LIT37,_OMC_LIT38,_OMC_LIT40}};
-#define _OMC_LIT41 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT41)
-#define _OMC_LIT42_data "%s %s will not be installed since version %s is installed."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT42,58,_OMC_LIT42_data);
+#define _OMC_LIT41_data " "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT41,1,_OMC_LIT41_data);
+#define _OMC_LIT41 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT41)
+#define _OMC_LIT42_data "/package.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT42,11,_OMC_LIT42_data);
 #define _OMC_LIT42 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT42)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT43,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT42}};
-#define _OMC_LIT43 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT43)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT44,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(613)),_OMC_LIT11,_OMC_LIT38,_OMC_LIT43}};
-#define _OMC_LIT44 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT44)
-#define _OMC_LIT45_data "%s %s is already installed, skipping."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT45,37,_OMC_LIT45_data);
-#define _OMC_LIT45 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT45)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT46,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT45}};
-#define _OMC_LIT46 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT46)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT47,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(617)),_OMC_LIT37,_OMC_LIT38,_OMC_LIT46}};
-#define _OMC_LIT47 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT47)
-#define _OMC_LIT48_data " "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT48,1,_OMC_LIT48_data);
-#define _OMC_LIT48 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT48)
-#define _OMC_LIT49_data "/package.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT49,11,_OMC_LIT49_data);
+#define _OMC_LIT43_data "."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT43,1,_OMC_LIT43_data);
+#define _OMC_LIT43 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT43)
+#define _OMC_LIT44_data "After extracting %s, %s does not exist. Removing the failed installation."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT44,73,_OMC_LIT44_data);
+#define _OMC_LIT44 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT44)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT45,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(611)),_OMC_LIT11,_OMC_LIT34,_OMC_LIT44}};
+#define _OMC_LIT45 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT45)
+#define _OMC_LIT46_data ".mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT46,3,_OMC_LIT46_data);
+#define _OMC_LIT46 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT46)
+#define _OMC_LIT47_data "Package upgraded successfully (SHA %s from %s)."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT47,47,_OMC_LIT47_data);
+#define _OMC_LIT47 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT47)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT48,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(609)),_OMC_LIT11,_OMC_LIT34,_OMC_LIT47}};
+#define _OMC_LIT48 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT48)
+#define _OMC_LIT49_data "Package installed successfully (SHA %s)."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT49,40,_OMC_LIT49_data);
 #define _OMC_LIT49 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT49)
-#define _OMC_LIT50_data "."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT50,1,_OMC_LIT50_data);
-#define _OMC_LIT50 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT50)
-#define _OMC_LIT51_data "After extracting %s, %s does not exist. Removing the failed installation."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT51,73,_OMC_LIT51_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT50,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(609)),_OMC_LIT11,_OMC_LIT34,_OMC_LIT49}};
+#define _OMC_LIT50 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT50)
+#define _OMC_LIT51_data "convertFromVersion"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT51,18,_OMC_LIT51_data);
 #define _OMC_LIT51 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT51)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT52,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT51}};
-#define _OMC_LIT52 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT52)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT53,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(611)),_OMC_LIT11,_OMC_LIT38,_OMC_LIT52}};
-#define _OMC_LIT53 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT53)
-#define _OMC_LIT54_data ".mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT54,3,_OMC_LIT54_data);
+#define _OMC_LIT52_data "support"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT52,7,_OMC_LIT52_data);
+#define _OMC_LIT52 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT52)
+#define _OMC_LIT53_data "provides"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT53,8,_OMC_LIT53_data);
+#define _OMC_LIT53 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT53)
+#define _OMC_LIT54_data ":"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT54,1,_OMC_LIT54_data);
 #define _OMC_LIT54 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT54)
-#define _OMC_LIT55_data "Package upgraded successfully (SHA %s from %s)."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT55,47,_OMC_LIT55_data);
+#define _OMC_LIT55_data "index.json"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT55,10,_OMC_LIT55_data);
 #define _OMC_LIT55 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT55)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT56,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT55}};
-#define _OMC_LIT56 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT56)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT57,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(609)),_OMC_LIT11,_OMC_LIT38,_OMC_LIT56}};
+#define _OMC_LIT56_data "The MODELICAPATH (%s) does not contain %s, so the package index cannot be used."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT56,79,_OMC_LIT56_data);
+#define _OMC_LIT56 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT56)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT57,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(604)),_OMC_LIT11,_OMC_LIT19,_OMC_LIT56}};
 #define _OMC_LIT57 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT57)
-#define _OMC_LIT58_data "Package installed successfully (SHA %s)."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT58,40,_OMC_LIT58_data);
+#define _OMC_LIT58_data "https://libraries.openmodelica.org/index/v1/index.json"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT58,54,_OMC_LIT58_data);
 #define _OMC_LIT58 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT58)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT59,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT58}};
-#define _OMC_LIT59 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT59)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT60,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(609)),_OMC_LIT11,_OMC_LIT38,_OMC_LIT59}};
+#define _OMC_LIT59_data "Downloaded package index from URL %s."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT59,37,_OMC_LIT59_data);
+#define _OMC_LIT59 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT59)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT60,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(608)),_OMC_LIT11,_OMC_LIT34,_OMC_LIT59}};
 #define _OMC_LIT60 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT60)
-#define _OMC_LIT61_data "convertFromVersion"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT61,18,_OMC_LIT61_data);
-#define _OMC_LIT61 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT61)
-#define _OMC_LIT62_data "support"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT62,7,_OMC_LIT62_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT61,2,1) {_OMC_LIT58,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT61 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT61)
+#define _OMC_LIT62_data "Failed to download package index %s to file %s."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT62,47,_OMC_LIT62_data);
 #define _OMC_LIT62 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT62)
-#define _OMC_LIT63_data "provides"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT63,8,_OMC_LIT63_data);
-#define _OMC_LIT63 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT63)
-#define _OMC_LIT64_data ":"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT64,1,_OMC_LIT64_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT63,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(607)),_OMC_LIT11,_OMC_LIT19,_OMC_LIT62}};
+#define _OMC_LIT63 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT63)
+#define _OMC_LIT64_data "Unknown support level "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT64,22,_OMC_LIT64_data);
 #define _OMC_LIT64 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT64)
-#define _OMC_LIT65_data "index.json"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT65,10,_OMC_LIT65_data);
+#define _OMC_LIT65_data "/projects/OpenModelica-session2/OMCompiler/Compiler/Script/PackageManagement.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT65,79,_OMC_LIT65_data);
 #define _OMC_LIT65 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT65)
-#define _OMC_LIT66_data "The MODELICAPATH (%s) does not contain %s, so the package index cannot be used."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT66,79,_OMC_LIT66_data);
-#define _OMC_LIT66 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT66)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT67,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT66}};
-#define _OMC_LIT67 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT67)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT68,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(604)),_OMC_LIT11,_OMC_LIT20,_OMC_LIT67}};
-#define _OMC_LIT68 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT68)
-#define _OMC_LIT69_data "https://libraries.openmodelica.org/index/v1/index.json"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT69,54,_OMC_LIT69_data);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT66_6,1.782113391e9);
+#define _OMC_LIT66_6 MMC_REFREALLIT(_OMC_LIT_STRUCT66_6)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT66,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT65,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(215)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(215)),MMC_IMMEDIATE(MMC_TAGFIXNUM(92)),_OMC_LIT66_6}};
+#define _OMC_LIT66 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT66)
+#define _OMC_LIT67_data "fullSupport"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT67,11,_OMC_LIT67_data);
+#define _OMC_LIT67 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT67)
+#define _OMC_LIT68_data "experimental"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT68,12,_OMC_LIT68_data);
+#define _OMC_LIT68 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT68)
+#define _OMC_LIT69_data "obsolete"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT69,8,_OMC_LIT69_data);
 #define _OMC_LIT69 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT69)
-#define _OMC_LIT70_data "Downloaded package index from URL %s."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT70,37,_OMC_LIT70_data);
+#define _OMC_LIT70_data "unknown"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT70,7,_OMC_LIT70_data);
 #define _OMC_LIT70 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT70)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT71,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT70}};
-#define _OMC_LIT71 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT71)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT72,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(608)),_OMC_LIT11,_OMC_LIT38,_OMC_LIT71}};
-#define _OMC_LIT72 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT72)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT73,2,1) {_OMC_LIT69,MMC_REFSTRUCTLIT(mmc_nil)}};
-#define _OMC_LIT73 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT73)
-#define _OMC_LIT74_data "Failed to download package index %s to file %s."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT74,47,_OMC_LIT74_data);
-#define _OMC_LIT74 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT74)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT75,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT74}};
-#define _OMC_LIT75 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT75)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT76,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(607)),_OMC_LIT11,_OMC_LIT20,_OMC_LIT75}};
-#define _OMC_LIT76 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT76)
-#define _OMC_LIT77_data "Unknown support level "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT77,22,_OMC_LIT77_data);
+#define _OMC_LIT71_data "noSupport"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT71,9,_OMC_LIT71_data);
+#define _OMC_LIT71 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT71)
+#define _OMC_LIT72_data "default"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT72,7,_OMC_LIT72_data);
+#define _OMC_LIT72 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT72)
+#define _OMC_LIT73_data "package.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT73,10,_OMC_LIT73_data);
+#define _OMC_LIT73 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT73)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT74,1,5) {&PackageManagement_VersionMap_Tree_EMPTY__desc,}};
+#define _OMC_LIT74 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT74)
+#define _OMC_LIT75_data "("
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT75,1,_OMC_LIT75_data);
+#define _OMC_LIT75 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT75)
+#define _OMC_LIT76_data ")"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT76,1,_OMC_LIT76_data);
+#define _OMC_LIT76 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT76)
+#define _OMC_LIT77_data "EMPTY()"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT77,7,_OMC_LIT77_data);
 #define _OMC_LIT77 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT77)
-#define _OMC_LIT78_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/Script/PackageManagement.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT78,80,_OMC_LIT78_data);
+#define _OMC_LIT78_data "     "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT78,5,_OMC_LIT78_data);
 #define _OMC_LIT78 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT78)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT79_6,1.770032059e9);
-#define _OMC_LIT79_6 MMC_REFREALLIT(_OMC_LIT_STRUCT79_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT79,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT78,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(211)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(211)),MMC_IMMEDIATE(MMC_TAGFIXNUM(92)),_OMC_LIT79_6}};
-#define _OMC_LIT79 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT79)
-#define _OMC_LIT80_data "fullSupport"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT80,11,_OMC_LIT80_data);
+#define _OMC_LIT79_data " │   "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT79,7,_OMC_LIT79_data);
+#define _OMC_LIT79 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT79)
+#define _OMC_LIT80_data " ┌"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT80,4,_OMC_LIT80_data);
 #define _OMC_LIT80 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT80)
-#define _OMC_LIT81_data "experimental"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT81,12,_OMC_LIT81_data);
+#define _OMC_LIT81_data " └"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT81,4,_OMC_LIT81_data);
 #define _OMC_LIT81 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT81)
-#define _OMC_LIT82_data "obsolete"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT82,8,_OMC_LIT82_data);
+#define _OMC_LIT82_data "────"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT82,12,_OMC_LIT82_data);
 #define _OMC_LIT82 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT82)
-#define _OMC_LIT83_data "unknown"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT83,7,_OMC_LIT83_data);
-#define _OMC_LIT83 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT83)
-#define _OMC_LIT84_data "noSupport"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT84,9,_OMC_LIT84_data);
-#define _OMC_LIT84 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT84)
-#define _OMC_LIT85_data "default"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT85,7,_OMC_LIT85_data);
-#define _OMC_LIT85 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT85)
-#define _OMC_LIT86_data "package.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT86,10,_OMC_LIT86_data);
-#define _OMC_LIT86 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT86)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT87,1,5) {&PackageManagement_VersionMap_Tree_EMPTY__desc,}};
-#define _OMC_LIT87 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT87)
-#define _OMC_LIT88_data "("
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT88,1,_OMC_LIT88_data);
-#define _OMC_LIT88 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT88)
-#define _OMC_LIT89_data ")"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT89,1,_OMC_LIT89_data);
-#define _OMC_LIT89 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT89)
-#define _OMC_LIT90_data "EMPTY()"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT90,7,_OMC_LIT90_data);
-#define _OMC_LIT90 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT90)
-#define _OMC_LIT91_data "     "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT91,5,_OMC_LIT91_data);
-#define _OMC_LIT91 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT91)
-#define _OMC_LIT92_data " │   "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT92,7,_OMC_LIT92_data);
-#define _OMC_LIT92 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT92)
-#define _OMC_LIT93_data " ┌"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT93,4,_OMC_LIT93_data);
-#define _OMC_LIT93 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT93)
-#define _OMC_LIT94_data " └"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT94,4,_OMC_LIT94_data);
-#define _OMC_LIT94 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT94)
-#define _OMC_LIT95_data "────"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT95,12,_OMC_LIT95_data);
-#define _OMC_LIT95 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT95)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT96,1,5) {&PackageManagement_AvailableLibraries_Tree_EMPTY__desc,}};
-#define _OMC_LIT96 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT96)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT83,1,5) {&PackageManagement_AvailableLibraries_Tree_EMPTY__desc,}};
+#define _OMC_LIT83 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT83)
 #include "util/modelica.h"
 
 #include "PackageManagement_includes.h"
@@ -586,21 +560,21 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_PackageManagement_installPackageW
   // _versionsObj has no default value.
   // _usesObj has no default value.
   // _indexHasPkg has no default value.
-  // _packageToInstall has no default value.
+  _packageToInstall = mmc_mk_none();
   _candidates = omc_PackageManagement_versionsThatProvideTheWanted(threadData, _pkg, _version, 1 /* true */);
 
   {
-    modelica_metatype __omcQ_24tmpVar3;
+    modelica_metatype __omcQ_24tmpVar1;
     modelica_metatype* tmp2;
     modelica_metatype tmpMeta3;
-    modelica_metatype __omcQ_24tmpVar2;
+    modelica_metatype __omcQ_24tmpVar0;
     modelica_integer tmp4;
     modelica_metatype _candidate_loopVar = 0;
     modelica_metatype _candidate;
     _candidate_loopVar = _candidates;
     tmpMeta3 = MMC_REFSTRUCTLIT(mmc_nil);
-    __omcQ_24tmpVar3 = tmpMeta3; /* defaultValue */
-    tmp2 = &__omcQ_24tmpVar3;
+    __omcQ_24tmpVar1 = tmpMeta3; /* defaultValue */
+    tmp2 = &__omcQ_24tmpVar1;
     while(1) {
       tmp4 = 1;
       if (!listEmpty(_candidate_loopVar)) {
@@ -609,8 +583,8 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_PackageManagement_installPackageW
         tmp4--;
       }
       if (tmp4 == 0) {
-        __omcQ_24tmpVar2 = omc_SemanticVersion_parse(threadData, _candidate, 0 /* false */);
-        *tmp2 = mmc_mk_cons(__omcQ_24tmpVar2,0);
+        __omcQ_24tmpVar0 = omc_SemanticVersion_parse(threadData, _candidate, 0 /* false */);
+        *tmp2 = mmc_mk_cons(__omcQ_24tmpVar0,0);
         tmp2 = &MMC_CDR(*tmp2);
       } else if (tmp4 == 1) {
         break;
@@ -619,24 +593,24 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_PackageManagement_installPackageW
       }
     }
     *tmp2 = mmc_mk_nil();
-    tmpMeta1 = __omcQ_24tmpVar3;
+    tmpMeta1 = __omcQ_24tmpVar1;
   }
   _candidatesSemver = tmpMeta1;
 
   _semver = omc_SemanticVersion_parse(threadData, _version, 0 /* false */);
 
   {
-    modelica_metatype __omcQ_24tmpVar5;
+    modelica_metatype __omcQ_24tmpVar3;
     modelica_metatype* tmp6;
     modelica_metatype tmpMeta7;
-    modelica_metatype __omcQ_24tmpVar4;
+    modelica_metatype __omcQ_24tmpVar2;
     modelica_integer tmp8;
     modelica_metatype _candidate_loopVar = 0;
     modelica_metatype _candidate;
     _candidate_loopVar = _candidatesSemver;
     tmpMeta7 = MMC_REFSTRUCTLIT(mmc_nil);
-    __omcQ_24tmpVar5 = tmpMeta7; /* defaultValue */
-    tmp6 = &__omcQ_24tmpVar5;
+    __omcQ_24tmpVar3 = tmpMeta7; /* defaultValue */
+    tmp6 = &__omcQ_24tmpVar3;
     while(1) {
       tmp8 = 1;
       while (!listEmpty(_candidate_loopVar)) {
@@ -648,8 +622,8 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_PackageManagement_installPackageW
         }
       }
       if (tmp8 == 0) {
-        __omcQ_24tmpVar4 = _candidate;
-        *tmp6 = mmc_mk_cons(__omcQ_24tmpVar4,0);
+        __omcQ_24tmpVar2 = _candidate;
+        *tmp6 = mmc_mk_cons(__omcQ_24tmpVar2,0);
         tmp6 = &MMC_CDR(*tmp6);
       } else if (tmp8 == 1) {
         break;
@@ -658,7 +632,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_PackageManagement_installPackageW
       }
     }
     *tmp6 = mmc_mk_nil();
-    tmpMeta5 = __omcQ_24tmpVar5;
+    tmpMeta5 = __omcQ_24tmpVar3;
   }
   _exactMatches = tmpMeta5;
 
@@ -672,13 +646,13 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_PackageManagement_installPackageW
       if((stringEqual((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_pkgInfo), 3))), _pkg)))
       {
         {
-          modelica_boolean __omcQ_24tmpVar7;
-          modelica_boolean __omcQ_24tmpVar6;
+          modelica_boolean __omcQ_24tmpVar5;
+          modelica_boolean __omcQ_24tmpVar4;
           modelica_integer tmp11;
           modelica_metatype _candidate_loopVar = 0;
           modelica_metatype _candidate;
           _candidate_loopVar = _candidatesSemver;
-          __omcQ_24tmpVar7 = 0 /* false */; /* defaultValue */
+          __omcQ_24tmpVar5 = 0 /* false */; /* defaultValue */
           while(1) {
             tmp11 = 1;
             if (!listEmpty(_candidate_loopVar)) {
@@ -687,15 +661,15 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_PackageManagement_installPackageW
               tmp11--;
             }
             if (tmp11 == 0) {
-              __omcQ_24tmpVar6 = (((modelica_integer) 0) == omc_SemanticVersion_compare(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_pkgInfo), 4))), _candidate, 1 /* true */, 0 /* false */));
-              __omcQ_24tmpVar7 = (__omcQ_24tmpVar6 || __omcQ_24tmpVar7);
+              __omcQ_24tmpVar4 = (((modelica_integer) 0) == omc_SemanticVersion_compare(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_pkgInfo), 4))), _candidate, 1 /* true */, 0 /* false */));
+              __omcQ_24tmpVar5 = (__omcQ_24tmpVar4 || __omcQ_24tmpVar5);
             } else if (tmp11 == 1) {
               break;
             } else {
               MMC_THROW_INTERNAL();
             }
           }
-          tmp10 = __omcQ_24tmpVar7;
+          tmp10 = __omcQ_24tmpVar5;
         }
         if(((omc_SemanticVersion_compare(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_pkgInfo), 4))), _semver, 1 /* true */, 0 /* false */) == ((modelica_integer) 0)) || tmp10))
         {
@@ -705,7 +679,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_PackageManagement_installPackageW
         }
 
         tmpMeta12 = mmc_mk_cons(_pkg, mmc_mk_cons(omc_SemanticVersion_toString(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_pkgInfo), 4)))), mmc_mk_cons(_version, MMC_REFSTRUCTLIT(mmc_nil))));
-        omc_Error_addMessage(threadData, _OMC_LIT15, tmpMeta12);
+        omc_Error_addMessage(threadData, _OMC_LIT14, tmpMeta12);
 
         _success = 1 /* true */;
 
@@ -742,20 +716,20 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_PackageManagement_installPackageW
 
   _indexHasPkg = 1 /* true */;
 
-  _sha = _OMC_LIT16;
+  _sha = _OMC_LIT15;
 
   if(omc_PackageManagement_AvailableLibraries_hasKey(threadData, _installedLibraries, _pkg))
   {
     _installedVersions = omc_PackageManagement_AvailableLibraries_get(threadData, _installedLibraries, _pkg);
 
-    if((omc_PackageManagement_VersionMap_hasKey(threadData, _installedVersions, _semverToInstall) || ((stringEqual(_version, _OMC_LIT16)) && (!_indexHasPkg))))
+    if((omc_PackageManagement_VersionMap_hasKey(threadData, _installedVersions, _semverToInstall) || ((stringEqual(_version, _OMC_LIT15)) && (!_indexHasPkg))))
     {
       _success = 1 /* true */;
 
-      _path = (omc_PackageManagement_VersionMap_hasKey(threadData, _installedVersions, _semverToInstall)?omc_PackageManagement_VersionMap_get(threadData, _installedVersions, _semverToInstall):_OMC_LIT17);
+      _path = (omc_PackageManagement_VersionMap_hasKey(threadData, _installedVersions, _semverToInstall)?omc_PackageManagement_VersionMap_get(threadData, _installedVersions, _semverToInstall):_OMC_LIT16);
 
       tmpMeta14 = stringAppend(_path,_OMC_LIT8);
-      tmpMeta15 = stringAppend(tmpMeta14,_OMC_LIT18);
+      tmpMeta15 = stringAppend(tmpMeta14,_OMC_LIT17);
       _jsonPath = tmpMeta15;
 
       if(omc_System_regularFileExists(threadData, _jsonPath))
@@ -805,13 +779,13 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_PackageManagement_installPackageW
       }
       else
       {
-        _zip = _OMC_LIT16;
+        _zip = _OMC_LIT15;
       }
 
       tmpMeta20 = mmc_mk_box9(3, &PackageManagement_PackageInstallInfo_PKG__INSTALL__INFO__desc, mmc_mk_boolean(0 /* false */), _pkg, _semverToInstall, _zip, _path, _sha, mmc_mk_boolean(0 /* false */), omc_JSON_emptyObject(threadData));
-      _packageToInstall = tmpMeta20;
+      _packageToInstall = mmc_mk_some(tmpMeta20);
 
-      _indexHasPkg = omc_JSON_hasKey(threadData, omc_JSON_get(threadData, _index, _OMC_LIT19), _pkg);
+      _indexHasPkg = omc_JSON_hasKey(threadData, omc_JSON_get(threadData, _index, _OMC_LIT18), _pkg);
     }
   }
 
@@ -819,20 +793,20 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_PackageManagement_installPackageW
   {
     if(listEmpty(_candidates))
     {
-      tmpMeta21 = mmc_mk_cons(_pkg, mmc_mk_cons(_version, mmc_mk_cons(stringDelimitList(omc_PackageManagement_getAllProvidedVersionsForLibrary(threadData, _pkg, 1 /* true */), _OMC_LIT24), MMC_REFSTRUCTLIT(mmc_nil))));
-      omc_Error_addSourceMessage(threadData, _OMC_LIT23, tmpMeta21, omc_PackageManagement_makeSourceInfo(threadData, omc_PackageManagement_getIndexPath(threadData)));
+      tmpMeta21 = mmc_mk_cons(_pkg, mmc_mk_cons(_version, mmc_mk_cons(stringDelimitList(omc_PackageManagement_getAllProvidedVersionsForLibrary(threadData, _pkg, 1 /* true */), _OMC_LIT22), MMC_REFSTRUCTLIT(mmc_nil))));
+      omc_Error_addSourceMessage(threadData, _OMC_LIT21, tmpMeta21, omc_PackageManagement_makeSourceInfo(threadData, omc_PackageManagement_getIndexPath(threadData)));
 
       goto _return;
     }
 
     {
-      modelica_boolean __omcQ_24tmpVar9;
-      modelica_boolean __omcQ_24tmpVar8;
+      modelica_boolean __omcQ_24tmpVar7;
+      modelica_boolean __omcQ_24tmpVar6;
       modelica_integer tmp23;
       modelica_metatype _candidate_loopVar = 0;
       modelica_metatype _candidate;
       _candidate_loopVar = _candidatesSemver;
-      __omcQ_24tmpVar9 = 0 /* false */; /* defaultValue */
+      __omcQ_24tmpVar7 = 0 /* false */; /* defaultValue */
       while(1) {
         tmp23 = 1;
         if (!listEmpty(_candidate_loopVar)) {
@@ -841,22 +815,22 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_PackageManagement_installPackageW
           tmp23--;
         }
         if (tmp23 == 0) {
-          __omcQ_24tmpVar8 = (((modelica_integer) 0) == omc_SemanticVersion_compare(threadData, _semver, _candidate, 1 /* true */, 0 /* false */));
-          __omcQ_24tmpVar9 = (__omcQ_24tmpVar8 || __omcQ_24tmpVar9);
+          __omcQ_24tmpVar6 = (((modelica_integer) 0) == omc_SemanticVersion_compare(threadData, _semver, _candidate, 1 /* true */, 0 /* false */));
+          __omcQ_24tmpVar7 = (__omcQ_24tmpVar6 || __omcQ_24tmpVar7);
         } else if (tmp23 == 1) {
           break;
         } else {
           MMC_THROW_INTERNAL();
         }
       }
-      tmp22 = __omcQ_24tmpVar9;
+      tmp22 = __omcQ_24tmpVar7;
     }
     if((_exactMatch && (!tmp22)))
     {
       if((!_fallbackOnNonExactMatch))
       {
-        tmpMeta24 = mmc_mk_cons(_pkg, mmc_mk_cons(_version, mmc_mk_cons(stringDelimitList(_candidates, _OMC_LIT28), MMC_REFSTRUCTLIT(mmc_nil))));
-        omc_Error_addSourceMessage(threadData, _OMC_LIT27, tmpMeta24, omc_PackageManagement_makeSourceInfo(threadData, omc_PackageManagement_getIndexPath(threadData)));
+        tmpMeta24 = mmc_mk_cons(_pkg, mmc_mk_cons(_version, mmc_mk_cons(stringDelimitList(_candidates, _OMC_LIT25), MMC_REFSTRUCTLIT(mmc_nil))));
+        omc_Error_addSourceMessage(threadData, _OMC_LIT24, tmpMeta24, omc_PackageManagement_makeSourceInfo(threadData, omc_PackageManagement_getIndexPath(threadData)));
 
         goto _return;
       }
@@ -869,17 +843,17 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_PackageManagement_installPackageW
 
   if((!_indexHasPkg))
   {
-    tmpMeta25 = mmc_mk_cons(_packageToInstall, _packagesToInstall);
+    tmpMeta25 = mmc_mk_cons(omc_Util_getOption(threadData, _packageToInstall), _packagesToInstall);
     _packagesToInstall = tmpMeta25;
 
     goto _return;
   }
 
-  _versionsObj = omc_JSON_get(threadData, omc_JSON_get(threadData, omc_JSON_get(threadData, _index, _OMC_LIT19), _pkg), _OMC_LIT29);
+  _versionsObj = omc_JSON_get(threadData, omc_JSON_get(threadData, omc_JSON_get(threadData, _index, _OMC_LIT18), _pkg), _OMC_LIT26);
 
   if((_success && (!omc_JSON_hasKey(threadData, _versionsObj, _versionToInstall))))
   {
-    tmpMeta26 = mmc_mk_cons(_packageToInstall, _packagesToInstall);
+    tmpMeta26 = mmc_mk_cons(omc_Util_getOption(threadData, _packageToInstall), _packagesToInstall);
     _packagesToInstall = tmpMeta26;
 
     goto _return;
@@ -887,17 +861,17 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_PackageManagement_installPackageW
 
   _versionObj = omc_JSON_get(threadData, _versionsObj, _versionToInstall);
 
-  if(((!_success) || ((!stringEqual(_sha, _OMC_LIT16)) && (!stringEqual(_sha, omc_PackageManagement_getShaOrZipfile(threadData, _versionObj))))))
+  if(((!_success) || ((!stringEqual(_sha, _OMC_LIT15)) && (!stringEqual(_sha, omc_PackageManagement_getShaOrZipfile(threadData, _versionObj))))))
   {
     _success = 1 /* true */;
 
-    tmpMeta27 = mmc_mk_box9(3, &PackageManagement_PackageInstallInfo_PKG__INSTALL__INFO__desc, mmc_mk_boolean(1 /* true */), _pkg, _semverToInstall, omc_JSON_getString(threadData, omc_JSON_get(threadData, _versionObj, _OMC_LIT10)), omc_JSON_getString(threadData, omc_JSON_get(threadData, _versionObj, _OMC_LIT30)), omc_PackageManagement_getShaOrZipfile(threadData, _versionObj), mmc_mk_boolean(omc_JSON_getBoolean(threadData, omc_JSON_getOrDefault(threadData, _versionObj, _OMC_LIT31, _OMC_LIT32))), _versionObj);
-    _packageToInstall = tmpMeta27;
+    tmpMeta27 = mmc_mk_box9(3, &PackageManagement_PackageInstallInfo_PKG__INSTALL__INFO__desc, mmc_mk_boolean(1 /* true */), _pkg, _semverToInstall, omc_JSON_getString(threadData, omc_JSON_get(threadData, _versionObj, _OMC_LIT10)), omc_JSON_getString(threadData, omc_JSON_get(threadData, _versionObj, _OMC_LIT27)), omc_PackageManagement_getShaOrZipfile(threadData, _versionObj), mmc_mk_boolean(omc_JSON_getBoolean(threadData, omc_JSON_getOrDefault(threadData, _versionObj, _OMC_LIT28, _OMC_LIT29))), _versionObj);
+    _packageToInstall = mmc_mk_some(tmpMeta27);
   }
 
-  _usesObj = omc_JSON_getOrDefault(threadData, _versionObj, _OMC_LIT33, omc_JSON_emptyObject(threadData));
+  _usesObj = omc_JSON_getOrDefault(threadData, _versionObj, _OMC_LIT30, omc_JSON_emptyObject(threadData));
 
-  tmpMeta28 = mmc_mk_cons(_packageToInstall, _packagesToInstall);
+  tmpMeta28 = mmc_mk_cons(omc_Util_getOption(threadData, _packageToInstall), _packagesToInstall);
   _packagesToInstall = tmpMeta28;
 
   {
@@ -1012,7 +986,7 @@ void omc_PackageManagement_installCachedPackages(threadData_t *threadData)
   // _libs has no default value.
   _homeDir = omc_Settings_getHomeDir(threadData, omc_Testsuite_isRunning(threadData));
 
-  if((((!listEmpty(omc_System_subDirectories(threadData, omc_PackageManagement_getUserLibraryPath(threadData)))) || (stringEqual(_homeDir, _OMC_LIT16))) || (stringEqual(_homeDir, _OMC_LIT8))))
+  if((((!listEmpty(omc_System_subDirectories(threadData, omc_PackageManagement_getUserLibraryPath(threadData)))) || (stringEqual(_homeDir, _OMC_LIT15))) || (stringEqual(_homeDir, _OMC_LIT8))))
   {
     goto _return;
   }
@@ -1045,7 +1019,7 @@ void omc_PackageManagement_installCachedPackages(threadData_t *threadData)
           modelica_metatype tmpMeta5;
           /* Pattern matching succeeded */
           tmpMeta5 = mmc_mk_cons(_packageIndex, MMC_REFSTRUCTLIT(mmc_nil));
-          omc_Error_addSourceMessage(threadData, _OMC_LIT36, tmpMeta5, omc_PackageManagement_makeSourceInfo(threadData, _packageIndex));
+          omc_Error_addSourceMessage(threadData, _OMC_LIT32, tmpMeta5, omc_PackageManagement_makeSourceInfo(threadData, _packageIndex));
           goto tmp2_done;
         }
         }
@@ -1080,7 +1054,7 @@ void omc_PackageManagement_installCachedPackages(threadData_t *threadData)
         switch (MMC_SWITCH_CAST(tmp8)) {
         case 0: {
           /* Pattern matching succeeded */
-          _libs_obj = omc_JSON_get(threadData, _obj, _OMC_LIT19);
+          _libs_obj = omc_JSON_get(threadData, _obj, _OMC_LIT18);
 
           _libs = omc_JSON_getKeys(threadData, _libs_obj);
           goto tmp7_done;
@@ -1113,7 +1087,7 @@ void omc_PackageManagement_installCachedPackages(threadData_t *threadData)
   if((!listEmpty(_libs)))
   {
     tmpMeta10 = mmc_mk_cons(omc_PackageManagement_getUserLibraryPath(threadData), MMC_REFSTRUCTLIT(mmc_nil));
-    omc_Error_addSourceMessage(threadData, _OMC_LIT41, tmpMeta10, omc_PackageManagement_makeSourceInfo(threadData, _packageIndex));
+    omc_Error_addSourceMessage(threadData, _OMC_LIT36, tmpMeta10, omc_PackageManagement_makeSourceInfo(threadData, _packageIndex));
   }
 
   if((!omc_System_regularFileExists(threadData, omc_PackageManagement_getIndexPath(threadData))))
@@ -1130,7 +1104,7 @@ void omc_PackageManagement_installCachedPackages(threadData_t *threadData)
       _lib = MMC_CAR(tmpMeta11);
       _lib_obj = omc_JSON_get(threadData, _libs_obj, _lib);
 
-      _versions_obj = omc_JSON_getOrDefault(threadData, _lib_obj, _OMC_LIT29, omc_JSON_emptyObject(threadData));
+      _versions_obj = omc_JSON_getOrDefault(threadData, _lib_obj, _OMC_LIT26, omc_JSON_emptyObject(threadData));
 
       {
         modelica_metatype _version;
@@ -1230,29 +1204,29 @@ modelica_boolean omc_PackageManagement_installPackage(threadData_t *threadData, 
         if((stringEqual(_version, omc_SemanticVersion_toString(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_p), 4)))))))
         {
           tmpMeta3 = mmc_mk_cons(_pkg, mmc_mk_cons(omc_SemanticVersion_toString(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_p), 4)))), MMC_REFSTRUCTLIT(mmc_nil)));
-          omc_Error_addSourceMessage(threadData, _OMC_LIT47, tmpMeta3, omc_PackageManagement_makeSourceInfo(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_p), 6)))));
+          omc_Error_addSourceMessage(threadData, _OMC_LIT40, tmpMeta3, omc_PackageManagement_makeSourceInfo(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_p), 6)))));
         }
         else
         {
           tmpMeta4 = mmc_mk_cons(_pkg, mmc_mk_cons(_version, mmc_mk_cons(omc_SemanticVersion_toString(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_p), 4)))), MMC_REFSTRUCTLIT(mmc_nil))));
-          omc_Error_addSourceMessage(threadData, _OMC_LIT44, tmpMeta4, omc_PackageManagement_makeSourceInfo(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_p), 6)))));
+          omc_Error_addSourceMessage(threadData, _OMC_LIT38, tmpMeta4, omc_PackageManagement_makeSourceInfo(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_p), 6)))));
         }
       }
     }
   }
 
   {
-    modelica_metatype __omcQ_24tmpVar11;
+    modelica_metatype __omcQ_24tmpVar9;
     modelica_metatype* tmp7;
     modelica_metatype tmpMeta8;
-    modelica_metatype __omcQ_24tmpVar10;
+    modelica_metatype __omcQ_24tmpVar8;
     modelica_integer tmp9;
     modelica_metatype _p_loopVar = 0;
     modelica_metatype _p;
     _p_loopVar = _packageList;
     tmpMeta8 = MMC_REFSTRUCTLIT(mmc_nil);
-    __omcQ_24tmpVar11 = tmpMeta8; /* defaultValue */
-    tmp7 = &__omcQ_24tmpVar11;
+    __omcQ_24tmpVar9 = tmpMeta8; /* defaultValue */
+    tmp7 = &__omcQ_24tmpVar9;
     while(1) {
       tmp9 = 1;
       while (!listEmpty(_p_loopVar)) {
@@ -1264,8 +1238,8 @@ modelica_boolean omc_PackageManagement_installPackage(threadData_t *threadData, 
         }
       }
       if (tmp9 == 0) {
-        __omcQ_24tmpVar10 = _p;
-        *tmp7 = mmc_mk_cons(__omcQ_24tmpVar10,0);
+        __omcQ_24tmpVar8 = _p;
+        *tmp7 = mmc_mk_cons(__omcQ_24tmpVar8,0);
         tmp7 = &MMC_CDR(*tmp7);
       } else if (tmp9 == 1) {
         break;
@@ -1274,7 +1248,7 @@ modelica_boolean omc_PackageManagement_installPackage(threadData_t *threadData, 
       }
     }
     *tmp7 = mmc_mk_nil();
-    tmpMeta6 = __omcQ_24tmpVar11;
+    tmpMeta6 = __omcQ_24tmpVar9;
   }
   _packagesToInstall = tmpMeta6;
 
@@ -1292,7 +1266,7 @@ modelica_boolean omc_PackageManagement_installPackage(threadData_t *threadData, 
     _mirrors = omc_PackageManagement_getMirrors(threadData);
 
     {
-      modelica_metatype __omcQ_24tmpVar13;
+      modelica_metatype __omcQ_24tmpVar11;
       modelica_metatype* tmp13;
       modelica_metatype tmpMeta14;
       modelica_metatype tmpMeta15;
@@ -1301,14 +1275,14 @@ modelica_boolean omc_PackageManagement_installPackage(threadData_t *threadData, 
       modelica_boolean tmp18;
       modelica_string tmp19;
       modelica_metatype tmpMeta20;
-      modelica_metatype __omcQ_24tmpVar12;
+      modelica_metatype __omcQ_24tmpVar10;
       modelica_integer tmp21;
       modelica_metatype _p_loopVar = 0;
       modelica_metatype _p;
       _p_loopVar = _packagesToInstall;
       tmpMeta14 = MMC_REFSTRUCTLIT(mmc_nil);
-      __omcQ_24tmpVar13 = tmpMeta14; /* defaultValue */
-      tmp13 = &__omcQ_24tmpVar13;
+      __omcQ_24tmpVar11 = tmpMeta14; /* defaultValue */
+      tmp13 = &__omcQ_24tmpVar11;
       while(1) {
         tmp21 = 1;
         if (!listEmpty(_p_loopVar)) {
@@ -1330,8 +1304,8 @@ modelica_boolean omc_PackageManagement_installPackage(threadData_t *threadData, 
             tmp19 = tmpMeta17;
           }
           tmpMeta20 = mmc_mk_box2(0, omc_PackageManagement_getAllUrls(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_p), 5))), _mirrors), tmp19);
-          __omcQ_24tmpVar12 = tmpMeta20;
-          *tmp13 = mmc_mk_cons(__omcQ_24tmpVar12,0);
+          __omcQ_24tmpVar10 = tmpMeta20;
+          *tmp13 = mmc_mk_cons(__omcQ_24tmpVar10,0);
           tmp13 = &MMC_CDR(*tmp13);
         } else if (tmp21 == 1) {
           break;
@@ -1340,24 +1314,24 @@ modelica_boolean omc_PackageManagement_installPackage(threadData_t *threadData, 
         }
       }
       *tmp13 = mmc_mk_nil();
-      tmpMeta12 = __omcQ_24tmpVar13;
+      tmpMeta12 = __omcQ_24tmpVar11;
     }
     _urlPathList = omc_List_sort(threadData, tmpMeta12, boxvar_PackageManagement_compareUrlBool);
 
     _urlPathList = omc_List_unique(threadData, _urlPathList);
 
     {
-      modelica_metatype __omcQ_24tmpVar15;
+      modelica_metatype __omcQ_24tmpVar13;
       modelica_metatype* tmp23;
       modelica_metatype tmpMeta24;
-      modelica_metatype __omcQ_24tmpVar14;
+      modelica_metatype __omcQ_24tmpVar12;
       modelica_integer tmp25;
       modelica_metatype _tpl_loopVar = 0;
       modelica_metatype _tpl;
       _tpl_loopVar = _urlPathList;
       tmpMeta24 = MMC_REFSTRUCTLIT(mmc_nil);
-      __omcQ_24tmpVar15 = tmpMeta24; /* defaultValue */
-      tmp23 = &__omcQ_24tmpVar15;
+      __omcQ_24tmpVar13 = tmpMeta24; /* defaultValue */
+      tmp23 = &__omcQ_24tmpVar13;
       while(1) {
         tmp25 = 1;
         while (!listEmpty(_tpl_loopVar)) {
@@ -1369,8 +1343,8 @@ modelica_boolean omc_PackageManagement_installPackage(threadData_t *threadData, 
           }
         }
         if (tmp25 == 0) {
-          __omcQ_24tmpVar14 = _tpl;
-          *tmp23 = mmc_mk_cons(__omcQ_24tmpVar14,0);
+          __omcQ_24tmpVar12 = _tpl;
+          *tmp23 = mmc_mk_cons(__omcQ_24tmpVar12,0);
           tmp23 = &MMC_CDR(*tmp23);
         } else if (tmp25 == 1) {
           break;
@@ -1379,7 +1353,7 @@ modelica_boolean omc_PackageManagement_installPackage(threadData_t *threadData, 
         }
       }
       *tmp23 = mmc_mk_nil();
-      tmpMeta22 = __omcQ_24tmpVar15;
+      tmpMeta22 = __omcQ_24tmpVar13;
     }
     _urlPathListToDownload = tmpMeta22;
 
@@ -1395,7 +1369,7 @@ modelica_boolean omc_PackageManagement_installPackage(threadData_t *threadData, 
     {
       _pack = MMC_CAR(tmpMeta26);
       tmpMeta27 = stringAppend(omc_PackageManagement_getUserLibraryPath(threadData),(MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_pack), 3))));
-      tmpMeta28 = stringAppend(tmpMeta27,_OMC_LIT48);
+      tmpMeta28 = stringAppend(tmpMeta27,_OMC_LIT41);
       tmpMeta29 = stringAppend(tmpMeta28,omc_SemanticVersion_toString(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_pack), 4)))));
       _destPath = tmpMeta29;
 
@@ -1403,14 +1377,14 @@ modelica_boolean omc_PackageManagement_installPackage(threadData_t *threadData, 
 
       omc_System_createDirectory(threadData, _destPath);
 
-      tmpMeta30 = stringAppend(_destPath,_OMC_LIT49);
+      tmpMeta30 = stringAppend(_destPath,_OMC_LIT42);
       _destPathPkgMo = tmpMeta30;
 
       tmpMeta31 = stringAppend(_destPath,_OMC_LIT8);
-      tmpMeta32 = stringAppend(tmpMeta31,_OMC_LIT18);
+      tmpMeta32 = stringAppend(tmpMeta31,_OMC_LIT17);
       _destPathPkgInfo = tmpMeta32;
 
-      _oldSha = _OMC_LIT16;
+      _oldSha = _OMC_LIT15;
 
       if(omc_System_regularFileExists(threadData, _destPathPkgInfo))
       {
@@ -1457,14 +1431,14 @@ modelica_boolean omc_PackageManagement_installPackage(threadData_t *threadData, 
       tmpMeta37 = stringAppend(_installCachePath,omc_System_basename(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_pack), 5)))));
       _curCachePath = (omc_System_regularFileExists(threadData, tmpMeta37)?_installCachePath:_cachePath);
 
-      if(omc_StringUtil_endsWith(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_pack), 6))), _OMC_LIT54))
+      if(omc_StringUtil_endsWith(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_pack), 6))), _OMC_LIT46))
       {
         _dirOfPath = omc_System_dirname(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_pack), 6))));
 
         if(mmc_unbox_boolean((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_pack), 8)))))
         {
           tmpMeta38 = stringAppend(_curCachePath,omc_System_basename(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_pack), 5)))));
-          omc_Unzip_unzipPath(threadData, tmpMeta38, ((stringEqual(_dirOfPath, _OMC_LIT50))?_OMC_LIT16:_dirOfPath), _destPath);
+          omc_Unzip_unzipPath(threadData, tmpMeta38, ((stringEqual(_dirOfPath, _OMC_LIT43))?_OMC_LIT15:_dirOfPath), _destPath);
 
           tmpMeta39 = stringAppend(_destPath,_OMC_LIT8);
           tmpMeta40 = stringAppend(tmpMeta39,omc_System_basename(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_pack), 6)))));
@@ -1474,7 +1448,7 @@ modelica_boolean omc_PackageManagement_installPackage(threadData_t *threadData, 
           {
             tmpMeta42 = stringAppend(_curCachePath,omc_System_basename(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_pack), 5)))));
             tmpMeta41 = mmc_mk_cons(tmpMeta42, mmc_mk_cons(_expectedLocation, MMC_REFSTRUCTLIT(mmc_nil)));
-            omc_Error_addMessage(threadData, _OMC_LIT53, tmpMeta41);
+            omc_Error_addMessage(threadData, _OMC_LIT45, tmpMeta41);
 
             MMC_THROW_INTERNAL();
           }
@@ -1493,29 +1467,29 @@ modelica_boolean omc_PackageManagement_installPackage(threadData_t *threadData, 
 
       if(omc_System_regularFileExists(threadData, _destPathPkgMo))
       {
-        if((stringEqual(_oldSha, _OMC_LIT16)))
+        if((stringEqual(_oldSha, _OMC_LIT15)))
         {
           tmpMeta45 = mmc_mk_cons((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_pack), 7))), MMC_REFSTRUCTLIT(mmc_nil));
-          omc_Error_addSourceMessage(threadData, _OMC_LIT60, tmpMeta45, omc_PackageManagement_makeSourceInfo(threadData, _destPathPkgMo));
+          omc_Error_addSourceMessage(threadData, _OMC_LIT50, tmpMeta45, omc_PackageManagement_makeSourceInfo(threadData, _destPathPkgMo));
         }
         else
         {
           tmpMeta46 = mmc_mk_cons((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_pack), 7))), mmc_mk_cons(_oldSha, MMC_REFSTRUCTLIT(mmc_nil)));
-          omc_Error_addSourceMessage(threadData, _OMC_LIT57, tmpMeta46, omc_PackageManagement_makeSourceInfo(threadData, _destPathPkgMo));
+          omc_Error_addSourceMessage(threadData, _OMC_LIT48, tmpMeta46, omc_PackageManagement_makeSourceInfo(threadData, _destPathPkgMo));
         }
       }
       else
       {
         tmpMeta48 = stringAppend(_curCachePath,omc_System_basename(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_pack), 5)))));
         tmpMeta47 = mmc_mk_cons(tmpMeta48, mmc_mk_cons(_destPathPkgMo, MMC_REFSTRUCTLIT(mmc_nil)));
-        omc_Error_addMessage(threadData, _OMC_LIT53, tmpMeta47);
+        omc_Error_addMessage(threadData, _OMC_LIT45, tmpMeta47);
 
         omc_System_removeDirectory(threadData, _destPath);
 
         MMC_THROW_INTERNAL();
       }
 
-      tmpMeta49 = stringAppend(omc_JSON_toString(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_pack), 9))), 0 /* false */),_OMC_LIT24);
+      tmpMeta49 = stringAppend(omc_JSON_toString(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_pack), 9))), 0 /* false */),_OMC_LIT22);
       omc_System_writeFile(threadData, _destPathPkgInfo, tmpMeta49);
     }
   }
@@ -1545,7 +1519,6 @@ modelica_metatype omc_PackageManagement_versionsThatConvertToTheWanted(threadDat
   modelica_metatype _vers = NULL;
   modelica_metatype _wantedVersion = NULL;
   modelica_metatype _libVersion = NULL;
-  modelica_string _versionStr = NULL;
   modelica_metatype tmpMeta1;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
@@ -1555,7 +1528,6 @@ modelica_metatype omc_PackageManagement_versionsThatConvertToTheWanted(threadDat
   // _vers has no default value.
   // _wantedVersion has no default value.
   // _libVersion has no default value.
-  // _versionStr has no default value.
   tmpMeta1 = MMC_REFSTRUCTLIT(mmc_nil);
   _result = tmpMeta1;
 
@@ -1575,9 +1547,9 @@ modelica_metatype omc_PackageManagement_versionsThatConvertToTheWanted(threadDat
           /* Pattern matching succeeded */
           _obj = omc_PackageManagement_getPackageIndex(threadData, _printError);
 
-          _libobject = omc_JSON_get(threadData, omc_JSON_get(threadData, _obj, _OMC_LIT19), _id);
+          _libobject = omc_JSON_get(threadData, omc_JSON_get(threadData, _obj, _OMC_LIT18), _id);
 
-          _vers = omc_JSON_get(threadData, _libobject, _OMC_LIT29);
+          _vers = omc_JSON_get(threadData, _libobject, _OMC_LIT26);
 
           _wantedVersion = omc_SemanticVersion_parse(threadData, _version, 1 /* true */);
 
@@ -1590,7 +1562,7 @@ modelica_metatype omc_PackageManagement_versionsThatConvertToTheWanted(threadDat
 
               if((omc_SemanticVersion_compare(threadData, _wantedVersion, _libVersion, 1 /* true */, 0 /* false */) == ((modelica_integer) 0)))
               {
-                _result = omc_JSON_getStringList(threadData, omc_JSON_get(threadData, omc_JSON_get(threadData, _vers, _v), _OMC_LIT61));
+                _result = omc_JSON_getStringList(threadData, omc_JSON_get(threadData, omc_JSON_get(threadData, _vers, _v), _OMC_LIT51));
 
                 goto _return;
               }
@@ -1684,9 +1656,9 @@ modelica_metatype omc_PackageManagement_versionsThatConvertFromTheWanted(threadD
           /* Pattern matching succeeded */
           _obj = omc_PackageManagement_getPackageIndex(threadData, _printError);
 
-          _libobject = omc_JSON_get(threadData, omc_JSON_get(threadData, _obj, _OMC_LIT19), _id);
+          _libobject = omc_JSON_get(threadData, omc_JSON_get(threadData, _obj, _OMC_LIT18), _id);
 
-          _vers = omc_JSON_get(threadData, _libobject, _OMC_LIT29);
+          _vers = omc_JSON_get(threadData, _libobject, _OMC_LIT26);
 
           _wantedVersion = omc_SemanticVersion_parse(threadData, _version, 1 /* true */);
 
@@ -1695,7 +1667,7 @@ modelica_metatype omc_PackageManagement_versionsThatConvertFromTheWanted(threadD
             for (tmpMeta6 = omc_JSON_getKeys(threadData, _vers); !listEmpty(tmpMeta6); tmpMeta6=MMC_CDR(tmpMeta6))
             {
               _v = MMC_CAR(tmpMeta6);
-              _convertFrom = omc_JSON_getOrDefault(threadData, omc_JSON_get(threadData, _vers, _v), _OMC_LIT61, omc_JSON_emptyArray(threadData, ((modelica_integer) 0)));
+              _convertFrom = omc_JSON_getOrDefault(threadData, omc_JSON_get(threadData, _vers, _v), _OMC_LIT51, omc_JSON_emptyArray(threadData, ((modelica_integer) 0)));
 
               tmp10 = ((modelica_integer) 1); tmp11 = 1; tmp12 = omc_JSON_size(threadData, _convertFrom);
               if(!(((tmp11 > 0) && (tmp10 > tmp12)) || ((tmp11 < 0) && (tmp10 < tmp12))))
@@ -1797,39 +1769,39 @@ modelica_metatype omc_PackageManagement_versionsThatProvideTheWanted(threadData_
           /* Pattern matching succeeded */
           _obj = omc_PackageManagement_getPackageIndex(threadData, _printError);
 
-          _libobject = omc_JSON_get(threadData, omc_JSON_get(threadData, _obj, _OMC_LIT19), _id);
+          _libobject = omc_JSON_get(threadData, omc_JSON_get(threadData, _obj, _OMC_LIT18), _id);
 
-          _vers = omc_JSON_get(threadData, _libobject, _OMC_LIT29);
+          _vers = omc_JSON_get(threadData, _libobject, _OMC_LIT26);
 
           _wantedVersion = omc_SemanticVersion_parse(threadData, _version, 1 /* true */);
 
           {
-            modelica_metatype __omcQ_24tmpVar17;
+            modelica_metatype __omcQ_24tmpVar15;
             modelica_metatype* tmp7;
             modelica_metatype tmpMeta8;
             modelica_metatype tmpMeta9;
-            modelica_metatype __omcQ_24tmpVar16;
+            modelica_metatype __omcQ_24tmpVar14;
             modelica_integer tmp10;
             modelica_metatype _version_loopVar = 0;
             modelica_metatype _version;
             _version_loopVar = omc_JSON_getKeys(threadData, _vers);
             tmpMeta8 = MMC_REFSTRUCTLIT(mmc_nil);
-            __omcQ_24tmpVar17 = tmpMeta8; /* defaultValue */
-            tmp7 = &__omcQ_24tmpVar17;
+            __omcQ_24tmpVar15 = tmpMeta8; /* defaultValue */
+            tmp7 = &__omcQ_24tmpVar15;
             while(1) {
               tmp10 = 1;
               while (!listEmpty(_version_loopVar)) {
                 _version = MMC_CAR(_version_loopVar);
                 _version_loopVar = MMC_CDR(_version_loopVar);
-                if (omc_PackageManagement_providesExpectedVersion(threadData, _version, omc_JSON_getOrDefault(threadData, omc_JSON_get(threadData, _vers, _version), _OMC_LIT63, omc_JSON_emptyArray(threadData, ((modelica_integer) 0))), _wantedVersion)) {
+                if (omc_PackageManagement_providesExpectedVersion(threadData, _version, omc_JSON_getOrDefault(threadData, omc_JSON_get(threadData, _vers, _version), _OMC_LIT53, omc_JSON_emptyArray(threadData, ((modelica_integer) 0))), _wantedVersion)) {
                   tmp10--;
                   break;
                 }
               }
               if (tmp10 == 0) {
-                tmpMeta9 = mmc_mk_box3(0, _version, omc_SemanticVersion_parse(threadData, _version, 1 /* true */), mmc_mk_integer(omc_PackageManagement_getSupportLevel(threadData, omc_JSON_get(threadData, omc_JSON_get(threadData, _vers, _version), _OMC_LIT62))));
-                __omcQ_24tmpVar16 = tmpMeta9;
-                *tmp7 = mmc_mk_cons(__omcQ_24tmpVar16,0);
+                tmpMeta9 = mmc_mk_box3(0, _version, omc_SemanticVersion_parse(threadData, _version, 1 /* true */), mmc_mk_integer(omc_PackageManagement_getSupportLevel(threadData, omc_JSON_get(threadData, omc_JSON_get(threadData, _vers, _version), _OMC_LIT52))));
+                __omcQ_24tmpVar14 = tmpMeta9;
+                *tmp7 = mmc_mk_cons(__omcQ_24tmpVar14,0);
                 tmp7 = &MMC_CDR(*tmp7);
               } else if (tmp10 == 1) {
                 break;
@@ -1838,7 +1810,7 @@ modelica_metatype omc_PackageManagement_versionsThatProvideTheWanted(threadData_
               }
             }
             *tmp7 = mmc_mk_nil();
-            tmpMeta6 = __omcQ_24tmpVar17;
+            tmpMeta6 = __omcQ_24tmpVar15;
           }
           _result = omc_List_map(threadData, omc_List_sort(threadData, tmpMeta6, boxvar_PackageManagement_compareVersionsAndSupportLevel), boxvar_Util_tuple31);
           goto tmp3_done;
@@ -1891,7 +1863,6 @@ modelica_metatype omc_PackageManagement_getAllProvidedVersionsForLibrary(threadD
   modelica_metatype _vers = NULL;
   modelica_metatype _provides = NULL;
   modelica_metatype _tree = NULL;
-  modelica_metatype _values = NULL;
   modelica_metatype tmpMeta1;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
@@ -1901,7 +1872,6 @@ modelica_metatype omc_PackageManagement_getAllProvidedVersionsForLibrary(threadD
   // _vers has no default value.
   // _provides has no default value.
   // _tree has no default value.
-  // _values has no default value.
   tmpMeta1 = MMC_REFSTRUCTLIT(mmc_nil);
   _result = tmpMeta1;
 
@@ -1927,9 +1897,9 @@ modelica_metatype omc_PackageManagement_getAllProvidedVersionsForLibrary(threadD
           /* Pattern matching succeeded */
           _obj = omc_PackageManagement_getPackageIndex(threadData, _printError);
 
-          _libobject = omc_JSON_get(threadData, omc_JSON_get(threadData, _obj, _OMC_LIT19), _lib);
+          _libobject = omc_JSON_get(threadData, omc_JSON_get(threadData, _obj, _OMC_LIT18), _lib);
 
-          _vers = omc_JSON_get(threadData, _libobject, _OMC_LIT29);
+          _vers = omc_JSON_get(threadData, _libobject, _OMC_LIT26);
 
           {
             modelica_metatype _version;
@@ -1938,7 +1908,7 @@ modelica_metatype omc_PackageManagement_getAllProvidedVersionsForLibrary(threadD
               _version = MMC_CAR(tmpMeta6);
               _tree = omc_AvlSetString_add(threadData, _tree, _version);
 
-              _provides = omc_JSON_getOrDefault(threadData, omc_JSON_get(threadData, _vers, _version), _OMC_LIT63, omc_JSON_emptyArray(threadData, ((modelica_integer) 0)));
+              _provides = omc_JSON_getOrDefault(threadData, omc_JSON_get(threadData, _vers, _version), _OMC_LIT53, omc_JSON_emptyArray(threadData, ((modelica_integer) 0)));
 
               tmp7 = ((modelica_integer) 1); tmp8 = 1; tmp9 = omc_JSON_size(threadData, _provides);
               if(!(((tmp8 > 0) && (tmp7 > tmp9)) || ((tmp8 < 0) && (tmp7 < tmp9))))
@@ -2057,13 +2027,13 @@ modelica_metatype omc_PackageManagement_getPackageIndex(threadData_t *threadData
 
   _mp = omc_Settings_getModelicaPath(threadData, omc_Testsuite_isRunning(threadData));
 
-  _gd = _OMC_LIT64;
+  _gd = _OMC_LIT54;
 
   _mps = omc_System_strtok(threadData, _mp, _gd);
 
   _userLibraries = omc_PackageManagement_getUserLibraryPath(threadData);
 
-  tmpMeta5 = stringAppend(_userLibraries,_OMC_LIT65);
+  tmpMeta5 = stringAppend(_userLibraries,_OMC_LIT55);
   _packageIndex = tmpMeta5;
 
   _obj = omc_JSON_emptyObject(threadData);
@@ -2073,7 +2043,7 @@ modelica_metatype omc_PackageManagement_getPackageIndex(threadData_t *threadData
     if(_printError)
     {
       tmpMeta6 = mmc_mk_cons(_mp, mmc_mk_cons(_userLibraries, MMC_REFSTRUCTLIT(mmc_nil)));
-      omc_Error_addMessage(threadData, _OMC_LIT68, tmpMeta6);
+      omc_Error_addMessage(threadData, _OMC_LIT57, tmpMeta6);
     }
 
     goto _return;
@@ -2108,7 +2078,7 @@ modelica_metatype omc_PackageManagement_getPackageIndex(threadData_t *threadData
           modelica_metatype tmpMeta11;
           /* Pattern matching succeeded */
           tmpMeta11 = mmc_mk_cons(_packageIndex, MMC_REFSTRUCTLIT(mmc_nil));
-          omc_Error_addSourceMessage(threadData, _OMC_LIT36, tmpMeta11, omc_PackageManagement_makeSourceInfo(threadData, omc_PackageManagement_getIndexPath(threadData)));
+          omc_Error_addSourceMessage(threadData, _OMC_LIT32, tmpMeta11, omc_PackageManagement_makeSourceInfo(threadData, omc_PackageManagement_getIndexPath(threadData)));
           goto tmp8_done;
         }
         }
@@ -2185,7 +2155,7 @@ modelica_boolean omc_PackageManagement_upgradeInstalledPackages(threadData_t *th
 
       if(_installNewestVersions)
       {
-        _success = (_success && omc_PackageManagement_installPackage(threadData, _pkg, _OMC_LIT16, 0 /* false */, 0 /* false */));
+        _success = (_success && omc_PackageManagement_installPackage(threadData, _pkg, _OMC_LIT15, 0 /* false */, 0 /* false */));
       }
     }
   }
@@ -2219,26 +2189,26 @@ modelica_boolean omc_PackageManagement_updateIndex(threadData_t *threadData)
   // _success has no default value.
   // _userLibraries has no default value.
   // _packageIndex has no default value.
-  _url = _OMC_LIT69;
+  _url = _OMC_LIT58;
   _userLibraries = omc_PackageManagement_getUserLibraryPath(threadData);
 
   omc_Util_createDirectoryTree(threadData, _userLibraries);
 
-  tmpMeta1 = stringAppend(_userLibraries,_OMC_LIT65);
+  tmpMeta1 = stringAppend(_userLibraries,_OMC_LIT55);
   _packageIndex = tmpMeta1;
 
-  tmpMeta3 = mmc_mk_box2(0, _OMC_LIT73, _packageIndex);
+  tmpMeta3 = mmc_mk_box2(0, _OMC_LIT61, _packageIndex);
   tmpMeta2 = mmc_mk_cons(tmpMeta3, MMC_REFSTRUCTLIT(mmc_nil));
   if((!omc_Curl_multiDownload(threadData, tmpMeta2, omc_Config_noProc(threadData))))
   {
-    tmpMeta4 = mmc_mk_cons(_OMC_LIT69, mmc_mk_cons(_packageIndex, MMC_REFSTRUCTLIT(mmc_nil)));
-    omc_Error_addMessage(threadData, _OMC_LIT76, tmpMeta4);
+    tmpMeta4 = mmc_mk_cons(_OMC_LIT58, mmc_mk_cons(_packageIndex, MMC_REFSTRUCTLIT(mmc_nil)));
+    omc_Error_addMessage(threadData, _OMC_LIT63, tmpMeta4);
 
     _success = 0 /* false */;
   }
   else
   {
-    omc_Error_addSourceMessage(threadData, _OMC_LIT72, _OMC_LIT73, omc_PackageManagement_makeSourceInfo(threadData, omc_PackageManagement_getIndexPath(threadData)));
+    omc_Error_addSourceMessage(threadData, _OMC_LIT60, _OMC_LIT61, omc_PackageManagement_makeSourceInfo(threadData, omc_PackageManagement_getIndexPath(threadData)));
 
     _success = 1 /* true */;
   }
@@ -2352,7 +2322,7 @@ modelica_integer omc_PackageManagement_getSupportLevel(threadData_t *threadData,
           modelica_metatype tmpMeta6;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,4,1) == 0) goto tmp3_end;
           tmpMeta6 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 2));
-          if (11 != MMC_STRLEN(tmpMeta6) || strcmp(MMC_STRINGDATA(_OMC_LIT80), MMC_STRINGDATA(tmpMeta6)) != 0) goto tmp3_end;
+          if (11 != MMC_STRLEN(tmpMeta6) || strcmp(MMC_STRINGDATA(_OMC_LIT67), MMC_STRINGDATA(tmpMeta6)) != 0) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = 6;
           goto tmp3_done;
@@ -2361,7 +2331,7 @@ modelica_integer omc_PackageManagement_getSupportLevel(threadData_t *threadData,
           modelica_metatype tmpMeta7;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,4,1) == 0) goto tmp3_end;
           tmpMeta7 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 2));
-          if (7 != MMC_STRLEN(tmpMeta7) || strcmp(MMC_STRINGDATA(_OMC_LIT62), MMC_STRINGDATA(tmpMeta7)) != 0) goto tmp3_end;
+          if (7 != MMC_STRLEN(tmpMeta7) || strcmp(MMC_STRINGDATA(_OMC_LIT52), MMC_STRINGDATA(tmpMeta7)) != 0) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = 5;
           goto tmp3_done;
@@ -2370,7 +2340,7 @@ modelica_integer omc_PackageManagement_getSupportLevel(threadData_t *threadData,
           modelica_metatype tmpMeta8;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,4,1) == 0) goto tmp3_end;
           tmpMeta8 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 2));
-          if (12 != MMC_STRLEN(tmpMeta8) || strcmp(MMC_STRINGDATA(_OMC_LIT81), MMC_STRINGDATA(tmpMeta8)) != 0) goto tmp3_end;
+          if (12 != MMC_STRLEN(tmpMeta8) || strcmp(MMC_STRINGDATA(_OMC_LIT68), MMC_STRINGDATA(tmpMeta8)) != 0) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = 4;
           goto tmp3_done;
@@ -2379,7 +2349,7 @@ modelica_integer omc_PackageManagement_getSupportLevel(threadData_t *threadData,
           modelica_metatype tmpMeta9;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,4,1) == 0) goto tmp3_end;
           tmpMeta9 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 2));
-          if (8 != MMC_STRLEN(tmpMeta9) || strcmp(MMC_STRINGDATA(_OMC_LIT82), MMC_STRINGDATA(tmpMeta9)) != 0) goto tmp3_end;
+          if (8 != MMC_STRLEN(tmpMeta9) || strcmp(MMC_STRINGDATA(_OMC_LIT69), MMC_STRINGDATA(tmpMeta9)) != 0) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = 3;
           goto tmp3_done;
@@ -2388,7 +2358,7 @@ modelica_integer omc_PackageManagement_getSupportLevel(threadData_t *threadData,
           modelica_metatype tmpMeta10;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,4,1) == 0) goto tmp3_end;
           tmpMeta10 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 2));
-          if (7 != MMC_STRLEN(tmpMeta10) || strcmp(MMC_STRINGDATA(_OMC_LIT83), MMC_STRINGDATA(tmpMeta10)) != 0) goto tmp3_end;
+          if (7 != MMC_STRLEN(tmpMeta10) || strcmp(MMC_STRINGDATA(_OMC_LIT70), MMC_STRINGDATA(tmpMeta10)) != 0) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = 2;
           goto tmp3_done;
@@ -2397,7 +2367,7 @@ modelica_integer omc_PackageManagement_getSupportLevel(threadData_t *threadData,
           modelica_metatype tmpMeta11;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,4,1) == 0) goto tmp3_end;
           tmpMeta11 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 2));
-          if (9 != MMC_STRLEN(tmpMeta11) || strcmp(MMC_STRINGDATA(_OMC_LIT84), MMC_STRINGDATA(tmpMeta11)) != 0) goto tmp3_end;
+          if (9 != MMC_STRLEN(tmpMeta11) || strcmp(MMC_STRINGDATA(_OMC_LIT71), MMC_STRINGDATA(tmpMeta11)) != 0) goto tmp3_end;
           /* Pattern matching succeeded */
           tmp1 = 1;
           goto tmp3_done;
@@ -2406,8 +2376,8 @@ modelica_integer omc_PackageManagement_getSupportLevel(threadData_t *threadData,
           modelica_metatype tmpMeta12;
           
           /* Pattern matching succeeded */
-          tmpMeta12 = stringAppend(_OMC_LIT77,omc_JSON_toString(threadData, _obj, 0 /* false */));
-          omc_Error_addInternalError(threadData, tmpMeta12, _OMC_LIT79);
+          tmpMeta12 = stringAppend(_OMC_LIT64,omc_JSON_toString(threadData, _obj, 0 /* false */));
+          omc_Error_addInternalError(threadData, tmpMeta12, _OMC_LIT66);
           goto goto_2;
           goto tmp3_done;
         }
@@ -2467,7 +2437,7 @@ modelica_boolean omc_PackageManagement_providesExpectedVersion(threadData_t *thr
           _str = tmpMeta5;
           /* Pattern matching succeeded */
           /* Check guard condition after assignments */
-          if (!((stringEqual(_str, _OMC_LIT85)) || (stringEqual(_str, _OMC_LIT16)))) goto tmp2_end;
+          if (!((stringEqual(_str, _OMC_LIT72)) || (stringEqual(_str, _OMC_LIT15)))) goto tmp2_end;
           _matches = 1 /* true */;
 
           goto _return;
@@ -2498,7 +2468,7 @@ modelica_boolean omc_PackageManagement_providesExpectedVersion(threadData_t *thr
           if (listEmpty(tmpMeta12)) goto tmp2_end;
           tmpMeta13 = MMC_CAR(tmpMeta12);
           tmpMeta14 = MMC_CDR(tmpMeta12);
-          if (7 != MMC_STRLEN(tmpMeta13) || strcmp(MMC_STRINGDATA(_OMC_LIT85), MMC_STRINGDATA(tmpMeta13)) != 0) goto tmp2_end;
+          if (7 != MMC_STRLEN(tmpMeta13) || strcmp(MMC_STRINGDATA(_OMC_LIT72), MMC_STRINGDATA(tmpMeta13)) != 0) goto tmp2_end;
           if (!listEmpty(tmpMeta14)) goto tmp2_end;
           
           /* Pattern matching succeeded */
@@ -2586,7 +2556,7 @@ modelica_metatype omc_PackageManagement_getLibrarySubdirectories(threadData_t *t
       tmpMeta3 = stringAppend(_inPath,_pd);
       tmpMeta4 = stringAppend(tmpMeta3,_dir);
       tmpMeta5 = stringAppend(tmpMeta4,_pd);
-      tmpMeta6 = stringAppend(tmpMeta5,_OMC_LIT86);
+      tmpMeta6 = stringAppend(tmpMeta5,_OMC_LIT73);
       if(omc_System_regularFileExists(threadData, tmpMeta6))
       {
         tmpMeta7 = mmc_mk_cons(_dir, _outSubdirectories);
@@ -2635,7 +2605,7 @@ modelica_metatype omc_PackageManagement_getInstalledLibraryVersions(threadData_t
       _version = MMC_CAR(tmpMeta4);
       _versionStr = omc_PackageManagement_VersionMap_keyStr(threadData, _version);
 
-      if((stringCompare(_versionStr, _OMC_LIT16) > ((modelica_integer) 0)))
+      if((stringCompare(_versionStr, _OMC_LIT15) > ((modelica_integer) 0)))
       {
         tmpMeta5 = mmc_mk_cons(_versionStr, _libraryVersions);
         _libraryVersions = tmpMeta5;
@@ -2686,7 +2656,7 @@ modelica_metatype omc_PackageManagement_getInstalledLibraries(threadData_t *thre
   // _versions has no default value.
   _mp = omc_Settings_getModelicaPath(threadData, omc_Testsuite_isRunning(threadData));
 
-  _gd = _OMC_LIT64;
+  _gd = _OMC_LIT54;
 
   _mps = omc_System_strtok(threadData, _mp, _gd);
 
@@ -2704,19 +2674,19 @@ modelica_metatype omc_PackageManagement_getInstalledLibraries(threadData_t *thre
     {
       _mp = MMC_CAR(tmpMeta3);
       {
-        modelica_metatype __omcQ_24tmpVar19;
+        modelica_metatype __omcQ_24tmpVar17;
         modelica_metatype* tmp5;
         modelica_metatype tmpMeta6;
         modelica_metatype tmpMeta7;
         modelica_metatype tmpMeta8;
-        modelica_string __omcQ_24tmpVar18;
+        modelica_string __omcQ_24tmpVar16;
         modelica_integer tmp9;
         modelica_metatype _file_loopVar = 0;
         modelica_metatype _file;
         _file_loopVar = omc_System_moFiles(threadData, _mp);
         tmpMeta6 = MMC_REFSTRUCTLIT(mmc_nil);
-        __omcQ_24tmpVar19 = tmpMeta6; /* defaultValue */
-        tmp5 = &__omcQ_24tmpVar19;
+        __omcQ_24tmpVar17 = tmpMeta6; /* defaultValue */
+        tmp5 = &__omcQ_24tmpVar17;
         while(1) {
           tmp9 = 1;
           if (!listEmpty(_file_loopVar)) {
@@ -2727,8 +2697,8 @@ modelica_metatype omc_PackageManagement_getInstalledLibraries(threadData_t *thre
           if (tmp9 == 0) {
             tmpMeta7 = stringAppend(_mp,_OMC_LIT8);
             tmpMeta8 = stringAppend(tmpMeta7,_file);
-            __omcQ_24tmpVar18 = tmpMeta8;
-            *tmp5 = mmc_mk_cons(__omcQ_24tmpVar18,0);
+            __omcQ_24tmpVar16 = tmpMeta8;
+            *tmp5 = mmc_mk_cons(__omcQ_24tmpVar16,0);
             tmp5 = &MMC_CDR(*tmp5);
           } else if (tmp9 == 1) {
             break;
@@ -2737,24 +2707,24 @@ modelica_metatype omc_PackageManagement_getInstalledLibraries(threadData_t *thre
           }
         }
         *tmp5 = mmc_mk_nil();
-        tmpMeta4 = __omcQ_24tmpVar19;
+        tmpMeta4 = __omcQ_24tmpVar17;
       }
       _files = listAppend(tmpMeta4, _files);
 
       {
-        modelica_metatype __omcQ_24tmpVar21;
+        modelica_metatype __omcQ_24tmpVar19;
         modelica_metatype* tmp11;
         modelica_metatype tmpMeta12;
         modelica_metatype tmpMeta13;
         modelica_metatype tmpMeta14;
-        modelica_string __omcQ_24tmpVar20;
+        modelica_string __omcQ_24tmpVar18;
         modelica_integer tmp15;
         modelica_metatype _dir_loopVar = 0;
         modelica_metatype _dir;
         _dir_loopVar = omc_PackageManagement_getLibrarySubdirectories(threadData, _mp);
         tmpMeta12 = MMC_REFSTRUCTLIT(mmc_nil);
-        __omcQ_24tmpVar21 = tmpMeta12; /* defaultValue */
-        tmp11 = &__omcQ_24tmpVar21;
+        __omcQ_24tmpVar19 = tmpMeta12; /* defaultValue */
+        tmp11 = &__omcQ_24tmpVar19;
         while(1) {
           tmp15 = 1;
           if (!listEmpty(_dir_loopVar)) {
@@ -2765,8 +2735,8 @@ modelica_metatype omc_PackageManagement_getInstalledLibraries(threadData_t *thre
           if (tmp15 == 0) {
             tmpMeta13 = stringAppend(_mp,_OMC_LIT8);
             tmpMeta14 = stringAppend(tmpMeta13,_dir);
-            __omcQ_24tmpVar20 = tmpMeta14;
-            *tmp11 = mmc_mk_cons(__omcQ_24tmpVar20,0);
+            __omcQ_24tmpVar18 = tmpMeta14;
+            *tmp11 = mmc_mk_cons(__omcQ_24tmpVar18,0);
             tmp11 = &MMC_CDR(*tmp11);
           } else if (tmp15 == 1) {
             break;
@@ -2775,7 +2745,7 @@ modelica_metatype omc_PackageManagement_getInstalledLibraries(threadData_t *thre
           }
         }
         *tmp11 = mmc_mk_nil();
-        tmpMeta10 = __omcQ_24tmpVar21;
+        tmpMeta10 = __omcQ_24tmpVar19;
       }
       _dirs = listAppend(tmpMeta10, _dirs);
     }
@@ -2788,20 +2758,20 @@ modelica_metatype omc_PackageManagement_getInstalledLibraries(threadData_t *thre
       _path = MMC_CAR(tmpMeta17);
       _lib = omc_System_basename(threadData, _path);
 
-      if(omc_StringUtil_endsWith(threadData, _lib, _OMC_LIT54))
+      if(omc_StringUtil_endsWith(threadData, _lib, _OMC_LIT46))
       {
         _lib = omc_Util_removeLast3Char(threadData, _lib);
       }
 
       /* Pattern-matching assignment */
-      tmpMeta18 = omc_System_strtok(threadData, _lib, _OMC_LIT48);
+      tmpMeta18 = omc_System_strtok(threadData, _lib, _OMC_LIT41);
       if (listEmpty(tmpMeta18)) MMC_THROW_INTERNAL();
       tmpMeta19 = MMC_CAR(tmpMeta18);
       tmpMeta20 = MMC_CDR(tmpMeta18);
       _first = tmpMeta19;
       _rest = tmpMeta20;
 
-      _ver = stringDelimitList(_rest, _OMC_LIT48);
+      _ver = stringDelimitList(_rest, _OMC_LIT41);
 
       _versions = (omc_PackageManagement_AvailableLibraries_hasKey(threadData, _tree, _first)?omc_PackageManagement_AvailableLibraries_get(threadData, _tree, _first):omc_PackageManagement_VersionMap_new(threadData));
 
@@ -2902,7 +2872,7 @@ modelica_metatype omc_PackageManagement_VersionMap_add(threadData_t *threadData,
           if((_key_comp == ((modelica_integer) -1)))
           {
             tmpMeta10 = mmc_mk_box3(4, &PackageManagement_VersionMap_Tree_LEAF__desc, _inKey, _inValue);
-            tmpMeta11 = mmc_mk_box6(3, &PackageManagement_VersionMap_Tree_NODE__desc, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 2))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 3))), mmc_mk_integer(((modelica_integer) 2)), tmpMeta10, _OMC_LIT87);
+            tmpMeta11 = mmc_mk_box6(3, &PackageManagement_VersionMap_Tree_NODE__desc, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 2))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 3))), mmc_mk_integer(((modelica_integer) 2)), tmpMeta10, _OMC_LIT74);
             _outTree = tmpMeta11;
           }
           else
@@ -2910,7 +2880,7 @@ modelica_metatype omc_PackageManagement_VersionMap_add(threadData_t *threadData,
             if((_key_comp == ((modelica_integer) 1)))
             {
               tmpMeta12 = mmc_mk_box3(4, &PackageManagement_VersionMap_Tree_LEAF__desc, _inKey, _inValue);
-              tmpMeta13 = mmc_mk_box6(3, &PackageManagement_VersionMap_Tree_NODE__desc, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 2))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 3))), mmc_mk_integer(((modelica_integer) 2)), _OMC_LIT87, tmpMeta12);
+              tmpMeta13 = mmc_mk_box6(3, &PackageManagement_VersionMap_Tree_NODE__desc, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 2))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 3))), mmc_mk_integer(((modelica_integer) 2)), _OMC_LIT74, tmpMeta12);
               _outTree = tmpMeta13;
             }
             else
@@ -3103,7 +3073,7 @@ modelica_metatype omc_PackageManagement_VersionMap_addUpdate(threadData_t *threa
           if((_key_comp == ((modelica_integer) -1)))
           {
             tmpMeta9 = mmc_mk_box3(4, &PackageManagement_VersionMap_Tree_LEAF__desc, _key, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 2))) ? ((modelica_metatype(*)(threadData_t*, modelica_metatype, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 1)))) (threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 2))), mmc_mk_none()) : ((modelica_metatype(*)(threadData_t*, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 1)))) (threadData, mmc_mk_none()));
-            tmpMeta10 = mmc_mk_box6(3, &PackageManagement_VersionMap_Tree_NODE__desc, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 2))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 3))), mmc_mk_integer(((modelica_integer) 2)), tmpMeta9, _OMC_LIT87);
+            tmpMeta10 = mmc_mk_box6(3, &PackageManagement_VersionMap_Tree_NODE__desc, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 2))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 3))), mmc_mk_integer(((modelica_integer) 2)), tmpMeta9, _OMC_LIT74);
             _new_tree = tmpMeta10;
           }
           else
@@ -3111,7 +3081,7 @@ modelica_metatype omc_PackageManagement_VersionMap_addUpdate(threadData_t *threa
             if((_key_comp == ((modelica_integer) 1)))
             {
               tmpMeta11 = mmc_mk_box3(4, &PackageManagement_VersionMap_Tree_LEAF__desc, _key, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 2))) ? ((modelica_metatype(*)(threadData_t*, modelica_metatype, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 1)))) (threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 2))), mmc_mk_none()) : ((modelica_metatype(*)(threadData_t*, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 1)))) (threadData, mmc_mk_none()));
-              tmpMeta12 = mmc_mk_box6(3, &PackageManagement_VersionMap_Tree_NODE__desc, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 2))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 3))), mmc_mk_integer(((modelica_integer) 2)), _OMC_LIT87, tmpMeta11);
+              tmpMeta12 = mmc_mk_box6(3, &PackageManagement_VersionMap_Tree_NODE__desc, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 2))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 3))), mmc_mk_integer(((modelica_integer) 2)), _OMC_LIT74, tmpMeta11);
               _new_tree = tmpMeta12;
             }
             else
@@ -3554,7 +3524,7 @@ modelica_metatype omc_PackageManagement_VersionMap_fromList(threadData_t *thread
   modelica_metatype tmpMeta5;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  _tree = _OMC_LIT87;
+  _tree = _OMC_LIT74;
   // _key has no default value.
   // _value has no default value.
   {
@@ -4546,7 +4516,7 @@ modelica_metatype omc_PackageManagement_VersionMap_new(threadData_t *threadData)
   modelica_metatype _outTree = NULL;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  _outTree = _OMC_LIT87;
+  _outTree = _OMC_LIT74;
   _return: OMC_LABEL_UNUSED
   return _outTree;
 }
@@ -4576,10 +4546,10 @@ modelica_string omc_PackageManagement_VersionMap_printNodeStr(threadData_t *thre
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,0,5) == 0) goto tmp3_end;
           
           /* Pattern matching succeeded */
-          tmpMeta6 = stringAppend(_OMC_LIT88,omc_PackageManagement_VersionMap_keyStr(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inNode), 2)))));
-          tmpMeta7 = stringAppend(tmpMeta6,_OMC_LIT28);
+          tmpMeta6 = stringAppend(_OMC_LIT75,omc_PackageManagement_VersionMap_keyStr(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inNode), 2)))));
+          tmpMeta7 = stringAppend(tmpMeta6,_OMC_LIT25);
           tmpMeta8 = stringAppend(tmpMeta7,omc_PackageManagement_VersionMap_valueStr(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inNode), 3)))));
-          tmpMeta9 = stringAppend(tmpMeta8,_OMC_LIT89);
+          tmpMeta9 = stringAppend(tmpMeta8,_OMC_LIT76);
           tmp1 = tmpMeta9;
           goto tmp3_done;
         }
@@ -4591,10 +4561,10 @@ modelica_string omc_PackageManagement_VersionMap_printNodeStr(threadData_t *thre
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,1,2) == 0) goto tmp3_end;
           
           /* Pattern matching succeeded */
-          tmpMeta10 = stringAppend(_OMC_LIT88,omc_PackageManagement_VersionMap_keyStr(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inNode), 2)))));
-          tmpMeta11 = stringAppend(tmpMeta10,_OMC_LIT28);
+          tmpMeta10 = stringAppend(_OMC_LIT75,omc_PackageManagement_VersionMap_keyStr(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inNode), 2)))));
+          tmpMeta11 = stringAppend(tmpMeta10,_OMC_LIT25);
           tmpMeta12 = stringAppend(tmpMeta11,omc_PackageManagement_VersionMap_valueStr(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inNode), 3)))));
-          tmpMeta13 = stringAppend(tmpMeta12,_OMC_LIT89);
+          tmpMeta13 = stringAppend(tmpMeta12,_OMC_LIT76);
           tmp1 = tmpMeta13;
           goto tmp3_done;
         }
@@ -4636,7 +4606,7 @@ modelica_string omc_PackageManagement_VersionMap_printTreeStr(threadData_t *thre
         case 5: {
           
           /* Pattern matching succeeded */
-          tmp1 = _OMC_LIT90;
+          tmp1 = _OMC_LIT77;
           goto tmp3_done;
         }
         case 4: {
@@ -4657,9 +4627,9 @@ modelica_string omc_PackageManagement_VersionMap_printTreeStr(threadData_t *thre
           _left = tmpMeta5;
           _right = tmpMeta6;
           /* Pattern matching succeeded */
-          tmpMeta7 = stringAppend(omc_PackageManagement_VersionMap_printTreeStr2(threadData, _left, 1 /* true */, _OMC_LIT16),omc_PackageManagement_VersionMap_printNodeStr(threadData, _inTree));
-          tmpMeta8 = stringAppend(tmpMeta7,_OMC_LIT24);
-          tmpMeta9 = stringAppend(tmpMeta8,omc_PackageManagement_VersionMap_printTreeStr2(threadData, _right, 0 /* false */, _OMC_LIT16));
+          tmpMeta7 = stringAppend(omc_PackageManagement_VersionMap_printTreeStr2(threadData, _left, 1 /* true */, _OMC_LIT15),omc_PackageManagement_VersionMap_printNodeStr(threadData, _inTree));
+          tmpMeta8 = stringAppend(tmpMeta7,_OMC_LIT22);
+          tmpMeta9 = stringAppend(tmpMeta8,omc_PackageManagement_VersionMap_printTreeStr2(threadData, _right, 0 /* false */, _OMC_LIT15));
           tmp1 = tmpMeta9;
           goto tmp3_done;
         }
@@ -4682,20 +4652,14 @@ modelica_string omc_PackageManagement_VersionMap_printTreeStr(threadData_t *thre
 PROTECTED_FUNCTION_STATIC modelica_string omc_PackageManagement_VersionMap_printTreeStr2(threadData_t *threadData, modelica_metatype _inTree, modelica_boolean _isLeft, modelica_string _inIndent)
 {
   modelica_string _outString = NULL;
-  modelica_metatype _val_node = NULL;
   modelica_metatype _left = NULL;
   modelica_metatype _right = NULL;
-  modelica_string _left_str = NULL;
-  modelica_string _right_str = NULL;
   modelica_string tmp1 = 0;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outString has no default value.
-  // _val_node has no default value.
   // _left has no default value.
   // _right has no default value.
-  // _left_str has no default value.
-  // _right_str has no default value.
   { /* match expression */
     modelica_metatype tmp4_1;
     tmp4_1 = _inTree;
@@ -4714,13 +4678,13 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_PackageManagement_VersionMap_print
           modelica_metatype tmpMeta12;
           
           /* Pattern matching succeeded */
-          tmpMeta5 = stringAppend(_inIndent,(_isLeft?_OMC_LIT91:_OMC_LIT92));
+          tmpMeta5 = stringAppend(_inIndent,(_isLeft?_OMC_LIT78:_OMC_LIT79));
           tmpMeta6 = stringAppend(omc_PackageManagement_VersionMap_printTreeStr2(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inTree), 5))), 1 /* true */, tmpMeta5),_inIndent);
-          tmpMeta7 = stringAppend(tmpMeta6,(_isLeft?_OMC_LIT93:_OMC_LIT94));
-          tmpMeta8 = stringAppend(tmpMeta7,_OMC_LIT95);
+          tmpMeta7 = stringAppend(tmpMeta6,(_isLeft?_OMC_LIT80:_OMC_LIT81));
+          tmpMeta8 = stringAppend(tmpMeta7,_OMC_LIT82);
           tmpMeta9 = stringAppend(tmpMeta8,omc_PackageManagement_VersionMap_printNodeStr(threadData, _inTree));
-          tmpMeta10 = stringAppend(tmpMeta9,_OMC_LIT24);
-          tmpMeta11 = stringAppend(_inIndent,(_isLeft?_OMC_LIT92:_OMC_LIT91));
+          tmpMeta10 = stringAppend(tmpMeta9,_OMC_LIT22);
+          tmpMeta11 = stringAppend(_inIndent,(_isLeft?_OMC_LIT79:_OMC_LIT78));
           tmpMeta12 = stringAppend(tmpMeta10,omc_PackageManagement_VersionMap_printTreeStr2(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inTree), 6))), 0 /* false */, tmpMeta11));
           tmp1 = tmpMeta12;
           goto tmp3_done;
@@ -4732,10 +4696,10 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_PackageManagement_VersionMap_print
           modelica_metatype tmpMeta16;
           
           /* Pattern matching succeeded */
-          tmpMeta13 = stringAppend(_inIndent,(_isLeft?_OMC_LIT93:_OMC_LIT94));
-          tmpMeta14 = stringAppend(tmpMeta13,_OMC_LIT95);
+          tmpMeta13 = stringAppend(_inIndent,(_isLeft?_OMC_LIT80:_OMC_LIT81));
+          tmpMeta14 = stringAppend(tmpMeta13,_OMC_LIT82);
           tmpMeta15 = stringAppend(tmpMeta14,omc_PackageManagement_VersionMap_printNodeStr(threadData, _inTree));
-          tmpMeta16 = stringAppend(tmpMeta15,_OMC_LIT24);
+          tmpMeta16 = stringAppend(tmpMeta15,_OMC_LIT22);
           tmp1 = tmpMeta16;
           goto tmp3_done;
         }
@@ -4743,7 +4707,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_PackageManagement_VersionMap_print
         tmp3_default: OMC_LABEL_UNUSED; {
           
           /* Pattern matching succeeded */
-          tmp1 = _OMC_LIT16;
+          tmp1 = _OMC_LIT15;
           goto tmp3_done;
         }
         }
@@ -4865,8 +4829,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_PackageManagement_VersionMap_rot
           
           _child = tmpMeta7;
           /* Pattern matching succeeded */
-          _node = omc_PackageManagement_VersionMap_setTreeLeftRight(threadData, _outNode, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_outNode), 5))), _OMC_LIT87);
-          tmpMeta1 = omc_PackageManagement_VersionMap_setTreeLeftRight(threadData, _child, _node, _OMC_LIT87);
+          _node = omc_PackageManagement_VersionMap_setTreeLeftRight(threadData, _outNode, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_outNode), 5))), _OMC_LIT74);
+          tmpMeta1 = omc_PackageManagement_VersionMap_setTreeLeftRight(threadData, _child, _node, _OMC_LIT74);
           goto tmp3_done;
         }
         case 2: {
@@ -4931,8 +4895,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_PackageManagement_VersionMap_rot
           
           _child = tmpMeta7;
           /* Pattern matching succeeded */
-          _node = omc_PackageManagement_VersionMap_setTreeLeftRight(threadData, _outNode, _OMC_LIT87, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_outNode), 6))));
-          tmpMeta1 = omc_PackageManagement_VersionMap_setTreeLeftRight(threadData, _child, _OMC_LIT87, _node);
+          _node = omc_PackageManagement_VersionMap_setTreeLeftRight(threadData, _outNode, _OMC_LIT74, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_outNode), 6))));
+          tmpMeta1 = omc_PackageManagement_VersionMap_setTreeLeftRight(threadData, _child, _OMC_LIT74, _node);
           goto tmp3_done;
         }
         case 2: {
@@ -5291,7 +5255,7 @@ modelica_metatype omc_PackageManagement_AvailableLibraries_add(threadData_t *thr
           if((_key_comp == ((modelica_integer) -1)))
           {
             tmpMeta10 = mmc_mk_box3(4, &PackageManagement_AvailableLibraries_Tree_LEAF__desc, _inKey, _inValue);
-            tmpMeta11 = mmc_mk_box6(3, &PackageManagement_AvailableLibraries_Tree_NODE__desc, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 2))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 3))), mmc_mk_integer(((modelica_integer) 2)), tmpMeta10, _OMC_LIT96);
+            tmpMeta11 = mmc_mk_box6(3, &PackageManagement_AvailableLibraries_Tree_NODE__desc, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 2))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 3))), mmc_mk_integer(((modelica_integer) 2)), tmpMeta10, _OMC_LIT83);
             _outTree = tmpMeta11;
           }
           else
@@ -5299,7 +5263,7 @@ modelica_metatype omc_PackageManagement_AvailableLibraries_add(threadData_t *thr
             if((_key_comp == ((modelica_integer) 1)))
             {
               tmpMeta12 = mmc_mk_box3(4, &PackageManagement_AvailableLibraries_Tree_LEAF__desc, _inKey, _inValue);
-              tmpMeta13 = mmc_mk_box6(3, &PackageManagement_AvailableLibraries_Tree_NODE__desc, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 2))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 3))), mmc_mk_integer(((modelica_integer) 2)), _OMC_LIT96, tmpMeta12);
+              tmpMeta13 = mmc_mk_box6(3, &PackageManagement_AvailableLibraries_Tree_NODE__desc, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 2))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 3))), mmc_mk_integer(((modelica_integer) 2)), _OMC_LIT83, tmpMeta12);
               _outTree = tmpMeta13;
             }
             else
@@ -5492,7 +5456,7 @@ modelica_metatype omc_PackageManagement_AvailableLibraries_addUpdate(threadData_
           if((_key_comp == ((modelica_integer) -1)))
           {
             tmpMeta9 = mmc_mk_box3(4, &PackageManagement_AvailableLibraries_Tree_LEAF__desc, _key, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 2))) ? ((modelica_metatype(*)(threadData_t*, modelica_metatype, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 1)))) (threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 2))), mmc_mk_none()) : ((modelica_metatype(*)(threadData_t*, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 1)))) (threadData, mmc_mk_none()));
-            tmpMeta10 = mmc_mk_box6(3, &PackageManagement_AvailableLibraries_Tree_NODE__desc, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 2))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 3))), mmc_mk_integer(((modelica_integer) 2)), tmpMeta9, _OMC_LIT96);
+            tmpMeta10 = mmc_mk_box6(3, &PackageManagement_AvailableLibraries_Tree_NODE__desc, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 2))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 3))), mmc_mk_integer(((modelica_integer) 2)), tmpMeta9, _OMC_LIT83);
             _new_tree = tmpMeta10;
           }
           else
@@ -5500,7 +5464,7 @@ modelica_metatype omc_PackageManagement_AvailableLibraries_addUpdate(threadData_
             if((_key_comp == ((modelica_integer) 1)))
             {
               tmpMeta11 = mmc_mk_box3(4, &PackageManagement_AvailableLibraries_Tree_LEAF__desc, _key, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 2))) ? ((modelica_metatype(*)(threadData_t*, modelica_metatype, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 1)))) (threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 2))), mmc_mk_none()) : ((modelica_metatype(*)(threadData_t*, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_fn), 1)))) (threadData, mmc_mk_none()));
-              tmpMeta12 = mmc_mk_box6(3, &PackageManagement_AvailableLibraries_Tree_NODE__desc, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 2))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 3))), mmc_mk_integer(((modelica_integer) 2)), _OMC_LIT96, tmpMeta11);
+              tmpMeta12 = mmc_mk_box6(3, &PackageManagement_AvailableLibraries_Tree_NODE__desc, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 2))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_tree), 3))), mmc_mk_integer(((modelica_integer) 2)), _OMC_LIT83, tmpMeta11);
               _new_tree = tmpMeta12;
             }
             else
@@ -5943,7 +5907,7 @@ modelica_metatype omc_PackageManagement_AvailableLibraries_fromList(threadData_t
   modelica_metatype tmpMeta5;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  _tree = _OMC_LIT96;
+  _tree = _OMC_LIT83;
   // _key has no default value.
   // _value has no default value.
   {
@@ -6935,7 +6899,7 @@ modelica_metatype omc_PackageManagement_AvailableLibraries_new(threadData_t *thr
   modelica_metatype _outTree = NULL;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  _outTree = _OMC_LIT96;
+  _outTree = _OMC_LIT83;
   _return: OMC_LABEL_UNUSED
   return _outTree;
 }
@@ -6965,10 +6929,10 @@ modelica_string omc_PackageManagement_AvailableLibraries_printNodeStr(threadData
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,0,5) == 0) goto tmp3_end;
           
           /* Pattern matching succeeded */
-          tmpMeta6 = stringAppend(_OMC_LIT88,omc_PackageManagement_AvailableLibraries_keyStr(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inNode), 2)))));
-          tmpMeta7 = stringAppend(tmpMeta6,_OMC_LIT28);
+          tmpMeta6 = stringAppend(_OMC_LIT75,omc_PackageManagement_AvailableLibraries_keyStr(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inNode), 2)))));
+          tmpMeta7 = stringAppend(tmpMeta6,_OMC_LIT25);
           tmpMeta8 = stringAppend(tmpMeta7,omc_PackageManagement_AvailableLibraries_valueStr(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inNode), 3)))));
-          tmpMeta9 = stringAppend(tmpMeta8,_OMC_LIT89);
+          tmpMeta9 = stringAppend(tmpMeta8,_OMC_LIT76);
           tmp1 = tmpMeta9;
           goto tmp3_done;
         }
@@ -6980,10 +6944,10 @@ modelica_string omc_PackageManagement_AvailableLibraries_printNodeStr(threadData
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,1,2) == 0) goto tmp3_end;
           
           /* Pattern matching succeeded */
-          tmpMeta10 = stringAppend(_OMC_LIT88,omc_PackageManagement_AvailableLibraries_keyStr(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inNode), 2)))));
-          tmpMeta11 = stringAppend(tmpMeta10,_OMC_LIT28);
+          tmpMeta10 = stringAppend(_OMC_LIT75,omc_PackageManagement_AvailableLibraries_keyStr(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inNode), 2)))));
+          tmpMeta11 = stringAppend(tmpMeta10,_OMC_LIT25);
           tmpMeta12 = stringAppend(tmpMeta11,omc_PackageManagement_AvailableLibraries_valueStr(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inNode), 3)))));
-          tmpMeta13 = stringAppend(tmpMeta12,_OMC_LIT89);
+          tmpMeta13 = stringAppend(tmpMeta12,_OMC_LIT76);
           tmp1 = tmpMeta13;
           goto tmp3_done;
         }
@@ -7025,7 +6989,7 @@ modelica_string omc_PackageManagement_AvailableLibraries_printTreeStr(threadData
         case 5: {
           
           /* Pattern matching succeeded */
-          tmp1 = _OMC_LIT90;
+          tmp1 = _OMC_LIT77;
           goto tmp3_done;
         }
         case 4: {
@@ -7046,9 +7010,9 @@ modelica_string omc_PackageManagement_AvailableLibraries_printTreeStr(threadData
           _left = tmpMeta5;
           _right = tmpMeta6;
           /* Pattern matching succeeded */
-          tmpMeta7 = stringAppend(omc_PackageManagement_AvailableLibraries_printTreeStr2(threadData, _left, 1 /* true */, _OMC_LIT16),omc_PackageManagement_AvailableLibraries_printNodeStr(threadData, _inTree));
-          tmpMeta8 = stringAppend(tmpMeta7,_OMC_LIT24);
-          tmpMeta9 = stringAppend(tmpMeta8,omc_PackageManagement_AvailableLibraries_printTreeStr2(threadData, _right, 0 /* false */, _OMC_LIT16));
+          tmpMeta7 = stringAppend(omc_PackageManagement_AvailableLibraries_printTreeStr2(threadData, _left, 1 /* true */, _OMC_LIT15),omc_PackageManagement_AvailableLibraries_printNodeStr(threadData, _inTree));
+          tmpMeta8 = stringAppend(tmpMeta7,_OMC_LIT22);
+          tmpMeta9 = stringAppend(tmpMeta8,omc_PackageManagement_AvailableLibraries_printTreeStr2(threadData, _right, 0 /* false */, _OMC_LIT15));
           tmp1 = tmpMeta9;
           goto tmp3_done;
         }
@@ -7071,20 +7035,14 @@ modelica_string omc_PackageManagement_AvailableLibraries_printTreeStr(threadData
 PROTECTED_FUNCTION_STATIC modelica_string omc_PackageManagement_AvailableLibraries_printTreeStr2(threadData_t *threadData, modelica_metatype _inTree, modelica_boolean _isLeft, modelica_string _inIndent)
 {
   modelica_string _outString = NULL;
-  modelica_metatype _val_node = NULL;
   modelica_metatype _left = NULL;
   modelica_metatype _right = NULL;
-  modelica_string _left_str = NULL;
-  modelica_string _right_str = NULL;
   modelica_string tmp1 = 0;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outString has no default value.
-  // _val_node has no default value.
   // _left has no default value.
   // _right has no default value.
-  // _left_str has no default value.
-  // _right_str has no default value.
   { /* match expression */
     modelica_metatype tmp4_1;
     tmp4_1 = _inTree;
@@ -7103,13 +7061,13 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_PackageManagement_AvailableLibrari
           modelica_metatype tmpMeta12;
           
           /* Pattern matching succeeded */
-          tmpMeta5 = stringAppend(_inIndent,(_isLeft?_OMC_LIT91:_OMC_LIT92));
+          tmpMeta5 = stringAppend(_inIndent,(_isLeft?_OMC_LIT78:_OMC_LIT79));
           tmpMeta6 = stringAppend(omc_PackageManagement_AvailableLibraries_printTreeStr2(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inTree), 5))), 1 /* true */, tmpMeta5),_inIndent);
-          tmpMeta7 = stringAppend(tmpMeta6,(_isLeft?_OMC_LIT93:_OMC_LIT94));
-          tmpMeta8 = stringAppend(tmpMeta7,_OMC_LIT95);
+          tmpMeta7 = stringAppend(tmpMeta6,(_isLeft?_OMC_LIT80:_OMC_LIT81));
+          tmpMeta8 = stringAppend(tmpMeta7,_OMC_LIT82);
           tmpMeta9 = stringAppend(tmpMeta8,omc_PackageManagement_AvailableLibraries_printNodeStr(threadData, _inTree));
-          tmpMeta10 = stringAppend(tmpMeta9,_OMC_LIT24);
-          tmpMeta11 = stringAppend(_inIndent,(_isLeft?_OMC_LIT92:_OMC_LIT91));
+          tmpMeta10 = stringAppend(tmpMeta9,_OMC_LIT22);
+          tmpMeta11 = stringAppend(_inIndent,(_isLeft?_OMC_LIT79:_OMC_LIT78));
           tmpMeta12 = stringAppend(tmpMeta10,omc_PackageManagement_AvailableLibraries_printTreeStr2(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inTree), 6))), 0 /* false */, tmpMeta11));
           tmp1 = tmpMeta12;
           goto tmp3_done;
@@ -7121,10 +7079,10 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_PackageManagement_AvailableLibrari
           modelica_metatype tmpMeta16;
           
           /* Pattern matching succeeded */
-          tmpMeta13 = stringAppend(_inIndent,(_isLeft?_OMC_LIT93:_OMC_LIT94));
-          tmpMeta14 = stringAppend(tmpMeta13,_OMC_LIT95);
+          tmpMeta13 = stringAppend(_inIndent,(_isLeft?_OMC_LIT80:_OMC_LIT81));
+          tmpMeta14 = stringAppend(tmpMeta13,_OMC_LIT82);
           tmpMeta15 = stringAppend(tmpMeta14,omc_PackageManagement_AvailableLibraries_printNodeStr(threadData, _inTree));
-          tmpMeta16 = stringAppend(tmpMeta15,_OMC_LIT24);
+          tmpMeta16 = stringAppend(tmpMeta15,_OMC_LIT22);
           tmp1 = tmpMeta16;
           goto tmp3_done;
         }
@@ -7132,7 +7090,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_PackageManagement_AvailableLibrari
         tmp3_default: OMC_LABEL_UNUSED; {
           
           /* Pattern matching succeeded */
-          tmp1 = _OMC_LIT16;
+          tmp1 = _OMC_LIT15;
           goto tmp3_done;
         }
         }
@@ -7254,8 +7212,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_PackageManagement_AvailableLibra
           
           _child = tmpMeta7;
           /* Pattern matching succeeded */
-          _node = omc_PackageManagement_AvailableLibraries_setTreeLeftRight(threadData, _outNode, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_outNode), 5))), _OMC_LIT96);
-          tmpMeta1 = omc_PackageManagement_AvailableLibraries_setTreeLeftRight(threadData, _child, _node, _OMC_LIT96);
+          _node = omc_PackageManagement_AvailableLibraries_setTreeLeftRight(threadData, _outNode, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_outNode), 5))), _OMC_LIT83);
+          tmpMeta1 = omc_PackageManagement_AvailableLibraries_setTreeLeftRight(threadData, _child, _node, _OMC_LIT83);
           goto tmp3_done;
         }
         case 2: {
@@ -7320,8 +7278,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_PackageManagement_AvailableLibra
           
           _child = tmpMeta7;
           /* Pattern matching succeeded */
-          _node = omc_PackageManagement_AvailableLibraries_setTreeLeftRight(threadData, _outNode, _OMC_LIT96, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_outNode), 6))));
-          tmpMeta1 = omc_PackageManagement_AvailableLibraries_setTreeLeftRight(threadData, _child, _OMC_LIT96, _node);
+          _node = omc_PackageManagement_AvailableLibraries_setTreeLeftRight(threadData, _outNode, _OMC_LIT83, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_outNode), 6))));
+          tmpMeta1 = omc_PackageManagement_AvailableLibraries_setTreeLeftRight(threadData, _child, _OMC_LIT83, _node);
           goto tmp3_done;
         }
         case 2: {

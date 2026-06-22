@@ -16,8 +16,6 @@ extern struct record_description Flags_FlagData_STRING__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_INTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 
 DLLDirection
 modelica_metatype omc_FMI_filterModelVariables(threadData_t *threadData, modelica_metatype _inModelVariables, modelica_string _tipe, modelica_string _variableCausality);

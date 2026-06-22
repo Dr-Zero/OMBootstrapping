@@ -38,8 +38,6 @@ extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
-
 extern struct record_description MMath_Rational_RATIONAL__desc;
 
 extern struct record_description SCode_Element_DEFINEUNIT__desc;

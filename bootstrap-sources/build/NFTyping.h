@@ -40,8 +40,6 @@ extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__DESC__OPTION__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NFBinding_INVALID__BINDING__desc;
 
 extern struct record_description NFBinding_TYPED__BINDING__desc;
@@ -79,8 +77,6 @@ extern struct record_description NFEquation_Branch_BRANCH__desc;
 extern struct record_description NFEquation_Branch_INVALID__BRANCH__desc;
 
 extern struct record_description NFEquation_CONNECT__desc;
-
-extern struct record_description NFEquation_EQUALITY__desc;
 
 extern struct record_description NFEquation_FOR__desc;
 
@@ -489,9 +485,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFTyping_typeMatrix,2,0) {(void*) boxpt
 
 
 DLLDirection
-modelica_metatype omc_NFTyping_typeArray(threadData_t *threadData, modelica_metatype _elements, modelica_boolean _isLiteral, modelica_integer _context, modelica_metatype _info, modelica_metatype *out_arrayType, modelica_integer *out_variability, modelica_integer *out_purity);
+modelica_metatype omc_NFTyping_typeArray(threadData_t *threadData, modelica_metatype _elements, modelica_boolean _isLiteral, modelica_metatype _ty, modelica_integer _context, modelica_metatype _info, modelica_metatype *out_arrayType, modelica_integer *out_variability, modelica_integer *out_purity);
 DLLDirection
-modelica_metatype boxptr_NFTyping_typeArray(threadData_t *threadData, modelica_metatype _elements, modelica_metatype _isLiteral, modelica_metatype _context, modelica_metatype _info, modelica_metatype *out_arrayType, modelica_metatype *out_variability, modelica_metatype *out_purity);
+modelica_metatype boxptr_NFTyping_typeArray(threadData_t *threadData, modelica_metatype _elements, modelica_metatype _isLiteral, modelica_metatype _ty, modelica_metatype _context, modelica_metatype _info, modelica_metatype *out_arrayType, modelica_metatype *out_variability, modelica_metatype *out_purity);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFTyping_typeArray,2,0) {(void*) boxptr_NFTyping_typeArray,0}};
 #define boxvar_NFTyping_typeArray MMC_REFSTRUCTLIT(boxvar_lit_NFTyping_typeArray)
 

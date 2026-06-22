@@ -24,8 +24,6 @@ extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__OPTION__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description Parser_ParserResult_PARSERRESULT__desc;
 
 
@@ -115,6 +113,13 @@ DLLDirection
 modelica_metatype boxptr_Parser_parallelParseFiles(threadData_t *threadData, modelica_metatype _filenames, modelica_metatype _encoding, modelica_metatype _numThreads, modelica_metatype _libraryPath, modelica_metatype _lveInstance);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Parser_parallelParseFiles,2,0) {(void*) boxptr_Parser_parallelParseFiles,0}};
 #define boxvar_Parser_parallelParseFiles MMC_REFSTRUCTLIT(boxvar_lit_Parser_parallelParseFiles)
+
+
+DLLDirection
+modelica_metatype omc_Parser_stringEq(threadData_t *threadData, modelica_string _str, modelica_string _filename);
+#define boxptr_Parser_stringEq omc_Parser_stringEq
+static const MMC_DEFSTRUCTLIT(boxvar_lit_Parser_stringEq,2,0) {(void*) boxptr_Parser_stringEq,0}};
+#define boxvar_Parser_stringEq MMC_REFSTRUCTLIT(boxvar_lit_Parser_stringEq)
 
 
 DLLDirection

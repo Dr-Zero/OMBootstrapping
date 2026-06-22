@@ -12,8 +12,6 @@ extern "C" {
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description GraphML_ArrowType_ARROWNONE__desc;
 
 extern struct record_description GraphML_ArrowType_ARROWSTANDART__desc;

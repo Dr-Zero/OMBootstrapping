@@ -16,15 +16,11 @@ extern struct record_description Absyn_InnerOuter_NOT__INNER__OUTER__desc;
 
 extern struct record_description Absyn_InnerOuter_OUTER__desc;
 
-extern struct record_description Absyn_Msg_MSG__desc;
-
-extern struct record_description Absyn_Msg_NO__MSG__desc;
+extern struct record_description AvlTreePathFunction_Tree_EMPTY__desc;
 
 extern struct record_description DAE_Algorithm_ALGORITHM__STMTS__desc;
 
 extern struct record_description DAE_Attributes_ATTR__desc;
-
-extern struct record_description DAE_AvlTreePathFunction_Tree_EMPTY__desc;
 
 extern struct record_description DAE_Binding_EQBOUND__desc;
 
@@ -34,9 +30,9 @@ extern struct record_description DAE_Binding_VALBOUND__desc;
 
 extern struct record_description DAE_ComponentPrefix_NOCOMPPRE__desc;
 
-extern struct record_description DAE_ComponentRef_WILD__desc;
+extern struct record_description DAE_ComponentRef_CREF__IDENT__desc;
 
-extern struct record_description DAE_Connect_Face_OUTSIDE__desc;
+extern struct record_description DAE_ComponentRef_WILD__desc;
 
 extern struct record_description DAE_ConnectorType_FLOW__desc;
 
@@ -112,6 +108,8 @@ extern struct record_description DAE_Exp_CALL__desc;
 
 extern struct record_description DAE_Exp_CAST__desc;
 
+extern struct record_description DAE_Exp_CREF__desc;
+
 extern struct record_description DAE_Exp_ICONST__desc;
 
 extern struct record_description DAE_Exp_IFEXP__desc;
@@ -120,9 +118,13 @@ extern struct record_description DAE_Exp_LBINARY__desc;
 
 extern struct record_description DAE_Exp_LUNARY__desc;
 
+extern struct record_description DAE_Exp_METARECORDCALL__desc;
+
 extern struct record_description DAE_Exp_RCONST__desc;
 
 extern struct record_description DAE_Exp_RELATION__desc;
+
+extern struct record_description DAE_Exp_RSUB__desc;
 
 extern struct record_description DAE_Exp_SCONST__desc;
 
@@ -164,6 +166,8 @@ extern struct record_description DAE_Type_T__UNKNOWN__desc;
 
 extern struct record_description DAE_Var_TYPES__VAR__desc;
 
+extern struct record_description DAE_VarDirection_BIDIR__desc;
+
 extern struct record_description DAE_VarInnerOuter_INNER__desc;
 
 extern struct record_description DAE_VarInnerOuter_INNER__OUTER__desc;
@@ -184,7 +188,7 @@ extern struct record_description DAE_VarParallelism_PARGLOBAL__desc;
 
 extern struct record_description DAE_VarParallelism_PARLOCAL__desc;
 
-extern struct record_description DAE_VarVisibility_PUBLIC__desc;
+extern struct record_description DAE_VarVisibility_PROTECTED__desc;
 
 extern struct record_description DAE_VariableAttributes_VAR__ATTR__BOOL__desc;
 
@@ -198,9 +202,9 @@ extern struct record_description DAE_VariableAttributes_VAR__ATTR__REAL__desc;
 
 extern struct record_description DAE_VariableAttributes_VAR__ATTR__STRING__desc;
 
-extern struct record_description DAEDump_compWithSplitElements_COMP__WITH__SPLIT__desc;
+extern struct record_description DAEDumpTypes_compWithSplitElements_COMP__WITH__SPLIT__desc;
 
-extern struct record_description DAEDump_splitElements_SPLIT__ELEMENTS__desc;
+extern struct record_description DAEDumpTypes_splitElements_SPLIT__ELEMENTS__desc;
 
 extern struct record_description DAEUtil_TraverseStatementsOptions_TRAVERSE__ALL__desc;
 
@@ -220,10 +224,6 @@ extern struct record_description ErrorTypes_Severity_WARNING__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
-
 extern struct record_description SCode_Comment_COMMENT__desc;
 
 extern struct record_description SCode_ConnectorType_FLOW__desc;
@@ -240,7 +240,36 @@ extern struct record_description SCode_Visibility_PUBLIC__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 
-extern struct record_description Values_Value_RECORD__desc;
+
+#define boxptr_DAEUtil_optMRFAMatch omc_DAEUtil_optMRFAMatch
+
+
+#define boxptr_DAEUtil_optMRFALookupRef omc_DAEUtil_optMRFALookupRef
+
+
+#define boxptr_DAEUtil_optMRFAFieldType omc_DAEUtil_optMRFAFieldType
+
+
+#define boxptr_DAEUtil_optMRFABuildMerged omc_DAEUtil_optMRFABuildMerged
+
+
+#define boxptr_DAEUtil_optMRFACommitGroup omc_DAEUtil_optMRFACommitGroup
+
+
+#define boxptr_DAEUtil_optMRFAMergeList omc_DAEUtil_optMRFAMergeList
+
+
+#define boxptr_DAEUtil_optMRFAInElse omc_DAEUtil_optMRFAInElse
+
+
+#define boxptr_DAEUtil_optMRFAInStmt omc_DAEUtil_optMRFAInStmt
+
+
+DLLDirection
+modelica_metatype omc_DAEUtil_optimizeMetaRecordFieldAssigns(threadData_t *threadData, modelica_metatype _inStmts, modelica_metatype __omcQ_24in_5FtempVars, modelica_metatype *out_tempVars);
+#define boxptr_DAEUtil_optimizeMetaRecordFieldAssigns omc_DAEUtil_optimizeMetaRecordFieldAssigns
+static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEUtil_optimizeMetaRecordFieldAssigns,2,0) {(void*) boxptr_DAEUtil_optimizeMetaRecordFieldAssigns,0}};
+#define boxvar_DAEUtil_optimizeMetaRecordFieldAssigns MMC_REFSTRUCTLIT(boxvar_lit_DAEUtil_optimizeMetaRecordFieldAssigns)
 
 
 DLLDirection
@@ -421,16 +450,6 @@ modelica_string omc_DAEUtil_daeDescription(threadData_t *threadData, modelica_me
 #define boxptr_DAEUtil_daeDescription omc_DAEUtil_daeDescription
 static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEUtil_daeDescription,2,0) {(void*) boxptr_DAEUtil_daeDescription,0}};
 #define boxvar_DAEUtil_daeDescription MMC_REFSTRUCTLIT(boxvar_lit_DAEUtil_daeDescription)
-
-
-#define boxptr_DAEUtil_collectAllExpandableCrefsInExp omc_DAEUtil_collectAllExpandableCrefsInExp
-
-
-DLLDirection
-modelica_metatype omc_DAEUtil_getAllExpandableCrefsFromDAE(threadData_t *threadData, modelica_metatype _inDAE);
-#define boxptr_DAEUtil_getAllExpandableCrefsFromDAE omc_DAEUtil_getAllExpandableCrefsFromDAE
-static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEUtil_getAllExpandableCrefsFromDAE,2,0) {(void*) boxptr_DAEUtil_getAllExpandableCrefsFromDAE,0}};
-#define boxvar_DAEUtil_getAllExpandableCrefsFromDAE MMC_REFSTRUCTLIT(boxvar_lit_DAEUtil_getAllExpandableCrefsFromDAE)
 
 
 #define boxptr_DAEUtil_splitVariableNamed omc_DAEUtil_splitVariableNamed
@@ -627,24 +646,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEUtil_getFunctionsInfo,2,0) {(void*) 
 
 
 DLLDirection
-modelica_metatype omc_DAEUtil_addDaeExtFunction(threadData_t *threadData, modelica_metatype _ifuncs, modelica_metatype _itree);
-#define boxptr_DAEUtil_addDaeExtFunction omc_DAEUtil_addDaeExtFunction
-static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEUtil_addDaeExtFunction,2,0) {(void*) boxptr_DAEUtil_addDaeExtFunction,0}};
-#define boxvar_DAEUtil_addDaeExtFunction MMC_REFSTRUCTLIT(boxvar_lit_DAEUtil_addDaeExtFunction)
-
-
-DLLDirection
 modelica_metatype omc_DAEUtil_addFunctionDefinition(threadData_t *threadData, modelica_metatype _ifunc, modelica_metatype _iFuncDef);
 #define boxptr_DAEUtil_addFunctionDefinition omc_DAEUtil_addFunctionDefinition
 static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEUtil_addFunctionDefinition,2,0) {(void*) boxptr_DAEUtil_addFunctionDefinition,0}};
 #define boxvar_DAEUtil_addFunctionDefinition MMC_REFSTRUCTLIT(boxvar_lit_DAEUtil_addFunctionDefinition)
-
-
-DLLDirection
-modelica_metatype omc_DAEUtil_addDaeFunction(threadData_t *threadData, modelica_metatype _functions, modelica_metatype __omcQ_24in_5FfunctionTree);
-#define boxptr_DAEUtil_addDaeFunction omc_DAEUtil_addDaeFunction
-static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEUtil_addDaeFunction,2,0) {(void*) boxptr_DAEUtil_addDaeFunction,0}};
-#define boxvar_DAEUtil_addDaeFunction MMC_REFSTRUCTLIT(boxvar_lit_DAEUtil_addDaeFunction)
 
 
 DLLDirection
@@ -659,13 +664,6 @@ modelica_metatype omc_DAEUtil_collectValueblockFunctionRefVars(threadData_t *thr
 #define boxptr_DAEUtil_collectValueblockFunctionRefVars omc_DAEUtil_collectValueblockFunctionRefVars
 static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEUtil_collectValueblockFunctionRefVars,2,0) {(void*) boxptr_DAEUtil_collectValueblockFunctionRefVars,0}};
 #define boxvar_DAEUtil_collectValueblockFunctionRefVars MMC_REFSTRUCTLIT(boxvar_lit_DAEUtil_collectValueblockFunctionRefVars)
-
-
-DLLDirection
-modelica_string omc_DAEUtil_printBindingSourceStr(threadData_t *threadData, modelica_metatype _bindingSource);
-#define boxptr_DAEUtil_printBindingSourceStr omc_DAEUtil_printBindingSourceStr
-static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEUtil_printBindingSourceStr,2,0) {(void*) boxptr_DAEUtil_printBindingSourceStr,0}};
-#define boxvar_DAEUtil_printBindingSourceStr MMC_REFSTRUCTLIT(boxvar_lit_DAEUtil_printBindingSourceStr)
 
 
 DLLDirection
@@ -689,7 +687,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEUtil_setBindingSource,2,0) {(void*) 
 
 
 DLLDirection
-modelica_metatype omc_DAEUtil_transformationsBeforeBackend(threadData_t *threadData, modelica_metatype _cache, modelica_metatype _env, modelica_metatype _inDAElist);
+modelica_metatype omc_DAEUtil_transformationsBeforeBackend(threadData_t *threadData, modelica_metatype _cache, modelica_metatype _env, modelica_metatype _inDAElist, modelica_fnptr _stateMachineToDataFlow);
 #define boxptr_DAEUtil_transformationsBeforeBackend omc_DAEUtil_transformationsBeforeBackend
 static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEUtil_transformationsBeforeBackend,2,0) {(void*) boxptr_DAEUtil_transformationsBeforeBackend,0}};
 #define boxvar_DAEUtil_transformationsBeforeBackend MMC_REFSTRUCTLIT(boxvar_lit_DAEUtil_transformationsBeforeBackend)
@@ -927,49 +925,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEUtil_renameUniqueOuterVars,2,0) {(vo
 #define boxvar_DAEUtil_renameUniqueOuterVars MMC_REFSTRUCTLIT(boxvar_lit_DAEUtil_renameUniqueOuterVars)
 
 
-#define boxptr_DAEUtil_evaluateAnnotation3 omc_DAEUtil_evaluateAnnotation3
-
-
-#define boxptr_DAEUtil_evaluateAnnotation2 omc_DAEUtil_evaluateAnnotation2
-
-
-#define boxptr_DAEUtil_evaluateParameter omc_DAEUtil_evaluateParameter
-
-
-#define boxptr_DAEUtil_evaluateAnnotation1Fold omc_DAEUtil_evaluateAnnotation1Fold
-
-
-DLLDirection
-modelica_metatype omc_DAEUtil_evaluateAnnotation1(threadData_t *threadData, modelica_metatype _dae, modelica_metatype _pv, modelica_metatype _ht, modelica_boolean *out_hasEvaluate);
-DLLDirection
-modelica_metatype boxptr_DAEUtil_evaluateAnnotation1(threadData_t *threadData, modelica_metatype _dae, modelica_metatype _pv, modelica_metatype _ht, modelica_metatype *out_hasEvaluate);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEUtil_evaluateAnnotation1,2,0) {(void*) boxptr_DAEUtil_evaluateAnnotation1,0}};
-#define boxvar_DAEUtil_evaluateAnnotation1 MMC_REFSTRUCTLIT(boxvar_lit_DAEUtil_evaluateAnnotation1)
-
-
-#define boxptr_DAEUtil_getParameterVars2 omc_DAEUtil_getParameterVars2
-
-
-DLLDirection
-modelica_metatype omc_DAEUtil_getParameterVars(threadData_t *threadData, modelica_metatype _dae, modelica_metatype _ht);
-#define boxptr_DAEUtil_getParameterVars omc_DAEUtil_getParameterVars
-static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEUtil_getParameterVars,2,0) {(void*) boxptr_DAEUtil_getParameterVars,0}};
-#define boxvar_DAEUtil_getParameterVars MMC_REFSTRUCTLIT(boxvar_lit_DAEUtil_getParameterVars)
-
-
-#define boxptr_DAEUtil_replaceCrefInAnnotation omc_DAEUtil_replaceCrefInAnnotation
-
-
-#define boxptr_DAEUtil_evaluateAnnotationTraverse omc_DAEUtil_evaluateAnnotationTraverse
-
-
-DLLDirection
-modelica_metatype omc_DAEUtil_evaluateAnnotation(threadData_t *threadData, modelica_metatype _inCache, modelica_metatype _env, modelica_metatype _inDAElist);
-#define boxptr_DAEUtil_evaluateAnnotation omc_DAEUtil_evaluateAnnotation
-static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEUtil_evaluateAnnotation,2,0) {(void*) boxptr_DAEUtil_evaluateAnnotation,0}};
-#define boxvar_DAEUtil_evaluateAnnotation MMC_REFSTRUCTLIT(boxvar_lit_DAEUtil_evaluateAnnotation)
-
-
 #define boxptr_DAEUtil_collectWhenCrefs1 omc_DAEUtil_collectWhenCrefs1
 
 
@@ -1166,14 +1121,6 @@ modelica_metatype omc_DAEUtil_toModelicaForm(threadData_t *threadData, modelica_
 #define boxptr_DAEUtil_toModelicaForm omc_DAEUtil_toModelicaForm
 static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEUtil_toModelicaForm,2,0) {(void*) boxptr_DAEUtil_toModelicaForm,0}};
 #define boxvar_DAEUtil_toModelicaForm MMC_REFSTRUCTLIT(boxvar_lit_DAEUtil_toModelicaForm)
-
-
-DLLDirection
-modelica_metatype omc_DAEUtil_daeToRecordValue(threadData_t *threadData, modelica_metatype _inCache, modelica_metatype _inEnv, modelica_metatype _inPath, modelica_metatype _inElementLst, modelica_boolean _inBoolean, modelica_metatype *out_outValue);
-DLLDirection
-modelica_metatype boxptr_DAEUtil_daeToRecordValue(threadData_t *threadData, modelica_metatype _inCache, modelica_metatype _inEnv, modelica_metatype _inPath, modelica_metatype _inElementLst, modelica_metatype _inBoolean, modelica_metatype *out_outValue);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEUtil_daeToRecordValue,2,0) {(void*) boxptr_DAEUtil_daeToRecordValue,0}};
-#define boxvar_DAEUtil_daeToRecordValue MMC_REFSTRUCTLIT(boxvar_lit_DAEUtil_daeToRecordValue)
 
 
 #define boxptr_DAEUtil_getStreamVariables2 omc_DAEUtil_getStreamVariables2
@@ -2000,40 +1947,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEUtil_expTypeSimple,2,0) {(void*) box
 
 
 DLLDirection
-modelica_boolean omc_DAEUtil_topLevelOutput(threadData_t *threadData, modelica_metatype _componentRef, modelica_metatype _varDirection, modelica_metatype _connectorType);
-DLLDirection
-modelica_metatype boxptr_DAEUtil_topLevelOutput(threadData_t *threadData, modelica_metatype _componentRef, modelica_metatype _varDirection, modelica_metatype _connectorType);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEUtil_topLevelOutput,2,0) {(void*) boxptr_DAEUtil_topLevelOutput,0}};
-#define boxvar_DAEUtil_topLevelOutput MMC_REFSTRUCTLIT(boxvar_lit_DAEUtil_topLevelOutput)
-
-
-DLLDirection
-modelica_boolean omc_DAEUtil_topLevelInput(threadData_t *threadData, modelica_metatype _componentRef, modelica_metatype _varDirection, modelica_metatype _connectorType, modelica_metatype _visibility);
-DLLDirection
-modelica_metatype boxptr_DAEUtil_topLevelInput(threadData_t *threadData, modelica_metatype _componentRef, modelica_metatype _varDirection, modelica_metatype _connectorType, modelica_metatype _visibility);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEUtil_topLevelInput,2,0) {(void*) boxptr_DAEUtil_topLevelInput,0}};
-#define boxvar_DAEUtil_topLevelInput MMC_REFSTRUCTLIT(boxvar_lit_DAEUtil_topLevelInput)
-
-
-DLLDirection
-modelica_string omc_DAEUtil_dumpVarParallelismStr(threadData_t *threadData, modelica_metatype _inVarParallelism);
-#define boxptr_DAEUtil_dumpVarParallelismStr omc_DAEUtil_dumpVarParallelismStr
-static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEUtil_dumpVarParallelismStr,2,0) {(void*) boxptr_DAEUtil_dumpVarParallelismStr,0}};
-#define boxvar_DAEUtil_dumpVarParallelismStr MMC_REFSTRUCTLIT(boxvar_lit_DAEUtil_dumpVarParallelismStr)
-
-
-DLLDirection
 modelica_metatype omc_DAEUtil_const2VarKind(threadData_t *threadData, modelica_metatype _const);
 #define boxptr_DAEUtil_const2VarKind omc_DAEUtil_const2VarKind
 static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEUtil_const2VarKind,2,0) {(void*) boxptr_DAEUtil_const2VarKind,0}};
 #define boxvar_DAEUtil_const2VarKind MMC_REFSTRUCTLIT(boxvar_lit_DAEUtil_const2VarKind)
-
-
-DLLDirection
-modelica_string omc_DAEUtil_constStrFriendly(threadData_t *threadData, modelica_metatype _const);
-#define boxptr_DAEUtil_constStrFriendly omc_DAEUtil_constStrFriendly
-static const MMC_DEFSTRUCTLIT(boxvar_lit_DAEUtil_constStrFriendly,2,0) {(void*) boxptr_DAEUtil_constStrFriendly,0}};
-#define boxvar_DAEUtil_constStrFriendly MMC_REFSTRUCTLIT(boxvar_lit_DAEUtil_constStrFriendly)
 
 
 DLLDirection

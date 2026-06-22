@@ -40,8 +40,6 @@ extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NBEquation_Iterator_EMPTY__desc;
 
 extern struct record_description NBEvents_Bucket_BUCKET__desc;
@@ -157,6 +155,13 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
 #define boxptr_NBEvents_eventsDefault omc_NBEvents_eventsDefault
+
+
+DLLDirection
+modelica_metatype omc_NBEvents_convertEventIterator(threadData_t *threadData, modelica_metatype _iter);
+#define boxptr_NBEvents_convertEventIterator omc_NBEvents_convertEventIterator
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEvents_convertEventIterator,2,0) {(void*) boxptr_NBEvents_convertEventIterator,0}};
+#define boxvar_NBEvents_convertEventIterator MMC_REFSTRUCTLIT(boxvar_lit_NBEvents_convertEventIterator)
 
 
 DLLDirection
@@ -305,16 +310,16 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEvents_TimeEvent_getIndex,2,0) {(void
 
 
 DLLDirection
-modelica_metatype omc_NBEvents_TimeEvent_createSampleTraverse(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype __omcQ_24in_5Fbucket, modelica_metatype _clocked, modelica_metatype *out_bucket);
+modelica_metatype omc_NBEvents_TimeEvent_createSampleTraverse(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype __omcQ_24in_5Fbucket, modelica_metatype _iter, modelica_metatype _clocked, modelica_metatype *out_bucket);
 #define boxptr_NBEvents_TimeEvent_createSampleTraverse omc_NBEvents_TimeEvent_createSampleTraverse
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEvents_TimeEvent_createSampleTraverse,2,0) {(void*) boxptr_NBEvents_TimeEvent_createSampleTraverse,0}};
 #define boxvar_NBEvents_TimeEvent_createSampleTraverse MMC_REFSTRUCTLIT(boxvar_lit_NBEvents_TimeEvent_createSampleTraverse)
 
 
 DLLDirection
-modelica_metatype omc_NBEvents_TimeEvent_createSample(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fcall, modelica_metatype __omcQ_24in_5Fbucket, modelica_metatype *out_bucket, modelica_boolean *out_failed, modelica_boolean *out_clocked);
+modelica_metatype omc_NBEvents_TimeEvent_createSample(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fcall, modelica_metatype __omcQ_24in_5Fbucket, modelica_metatype _iter, modelica_metatype *out_bucket, modelica_boolean *out_failed, modelica_boolean *out_clocked);
 DLLDirection
-modelica_metatype boxptr_NBEvents_TimeEvent_createSample(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fcall, modelica_metatype __omcQ_24in_5Fbucket, modelica_metatype *out_bucket, modelica_metatype *out_failed, modelica_metatype *out_clocked);
+modelica_metatype boxptr_NBEvents_TimeEvent_createSample(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fcall, modelica_metatype __omcQ_24in_5Fbucket, modelica_metatype _iter, modelica_metatype *out_bucket, modelica_metatype *out_failed, modelica_metatype *out_clocked);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEvents_TimeEvent_createSample,2,0) {(void*) boxptr_NBEvents_TimeEvent_createSample,0}};
 #define boxvar_NBEvents_TimeEvent_createSample MMC_REFSTRUCTLIT(boxvar_lit_NBEvents_TimeEvent_createSample)
 

@@ -192,10 +192,6 @@ extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_INTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
-
 extern struct record_description OperatorOverloading_AvlTreePathOperatorTypes_Tree_EMPTY__desc;
 
 extern struct record_description OperatorOverloading_AvlTreePathOperatorTypes_Tree_LEAF__desc;

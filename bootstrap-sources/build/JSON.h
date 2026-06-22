@@ -18,10 +18,6 @@ extern struct record_description ErrorTypes_MessageType_TRANSLATION__desc;
 
 extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
-
 extern struct record_description JSON_ARRAY__desc;
 
 extern struct record_description JSON_FALSE__desc;
@@ -41,6 +37,14 @@ extern struct record_description JSON_OBJECT__desc;
 extern struct record_description JSON_STRING__desc;
 
 extern struct record_description JSON_TRUE__desc;
+
+
+DLLDirection
+modelica_metatype omc_JSON_dumpJSONSourceInfo(threadData_t *threadData, modelica_metatype _info, modelica_boolean _dumpFilename);
+DLLDirection
+modelica_metatype boxptr_JSON_dumpJSONSourceInfo(threadData_t *threadData, modelica_metatype _info, modelica_metatype _dumpFilename);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_JSON_dumpJSONSourceInfo,2,0) {(void*) boxptr_JSON_dumpJSONSourceInfo,0}};
+#define boxvar_JSON_dumpJSONSourceInfo MMC_REFSTRUCTLIT(boxvar_lit_JSON_dumpJSONSourceInfo)
 
 
 #define boxptr_JSON_errorExpected omc_JSON_errorExpected
@@ -264,6 +268,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_JSON_toString,2,0) {(void*) boxptr_JSON
 
 
 DLLDirection
+modelica_metatype omc_JSON_toListForm(threadData_t *threadData, modelica_metatype _value);
+#define boxptr_JSON_toListForm omc_JSON_toListForm
+static const MMC_DEFSTRUCTLIT(boxvar_lit_JSON_toListForm,2,0) {(void*) boxptr_JSON_toListForm,0}};
+#define boxvar_JSON_toListForm MMC_REFSTRUCTLIT(boxvar_lit_JSON_toListForm)
+
+
+DLLDirection
 modelica_metatype omc_JSON_addPairNotNull(threadData_t *threadData, modelica_string _key, modelica_metatype _value, modelica_metatype _obj);
 #define boxptr_JSON_addPairNotNull omc_JSON_addPairNotNull
 static const MMC_DEFSTRUCTLIT(boxvar_lit_JSON_addPairNotNull,2,0) {(void*) boxptr_JSON_addPairNotNull,0}};
@@ -357,6 +368,13 @@ DLLDirection
 modelica_metatype boxptr_JSON_emptyArray(threadData_t *threadData, modelica_metatype _capacity);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_JSON_emptyArray,2,0) {(void*) boxptr_JSON_emptyArray,0}};
 #define boxvar_JSON_emptyArray MMC_REFSTRUCTLIT(boxvar_lit_JSON_emptyArray)
+
+
+DLLDirection
+modelica_metatype omc_JSON_listObjectFromPair(threadData_t *threadData, modelica_string _key, modelica_metatype _value);
+#define boxptr_JSON_listObjectFromPair omc_JSON_listObjectFromPair
+static const MMC_DEFSTRUCTLIT(boxvar_lit_JSON_listObjectFromPair,2,0) {(void*) boxptr_JSON_listObjectFromPair,0}};
+#define boxvar_JSON_listObjectFromPair MMC_REFSTRUCTLIT(boxvar_lit_JSON_listObjectFromPair)
 
 
 DLLDirection

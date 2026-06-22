@@ -7,45 +7,43 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT1,1,4) {&ErrorTypes_Severity_ERROR_
 #define _OMC_LIT2_data "Internal error %s"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT2,17,_OMC_LIT2_data);
 #define _OMC_LIT2 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT2)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT3,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT2}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT3,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(63)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT2}};
 #define _OMC_LIT3 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT3)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT4,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(63)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT3}};
-#define _OMC_LIT4 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT4)
-#define _OMC_LIT5_data "FVisit.avlTreeReplace failed"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT5,28,_OMC_LIT5_data);
-#define _OMC_LIT5 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT5)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT6,2,1) {_OMC_LIT5,MMC_REFSTRUCTLIT(mmc_nil)}};
-#define _OMC_LIT6 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT6)
-#define _OMC_LIT7_data ""
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,0,_OMC_LIT7_data);
+#define _OMC_LIT4_data "FVisit.avlTreeReplace failed"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT4,28,_OMC_LIT4_data);
+#define _OMC_LIT4 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT4)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT5,2,1) {_OMC_LIT4,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT5 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT5)
+#define _OMC_LIT6_data ""
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT6,0,_OMC_LIT6_data);
+#define _OMC_LIT6 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT6)
+#define _OMC_LIT7_data "  "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,2,_OMC_LIT7_data);
 #define _OMC_LIT7 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT7)
-#define _OMC_LIT8_data "  "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT8,2,_OMC_LIT8_data);
+#define _OMC_LIT8_data "\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT8,1,_OMC_LIT8_data);
 #define _OMC_LIT8 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT8)
-#define _OMC_LIT9_data "\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT9,1,_OMC_LIT9_data);
+#define _OMC_LIT9_data ",  "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT9,3,_OMC_LIT9_data);
 #define _OMC_LIT9 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT9)
-#define _OMC_LIT10_data ",  "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT10,3,_OMC_LIT10_data);
+#define _OMC_LIT10_data ", "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT10,2,_OMC_LIT10_data);
 #define _OMC_LIT10 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT10)
-#define _OMC_LIT11_data ", "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT11,2,_OMC_LIT11_data);
-#define _OMC_LIT11 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT11)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT12,5,3) {&FCore_VAvlTree_VAVLTREENODE__desc,MMC_REFSTRUCTLIT(mmc_none),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none)}};
-#define _OMC_LIT12 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT12)
-#define _OMC_LIT13_data "Env.avlTreeAdd failed"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT13,21,_OMC_LIT13_data);
-#define _OMC_LIT13 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT13)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT14,2,1) {_OMC_LIT13,MMC_REFSTRUCTLIT(mmc_nil)}};
-#define _OMC_LIT14 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT14)
-#define _OMC_LIT15_data "Already visited: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT15,17,_OMC_LIT15_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT11,5,3) {&FCore_VAvlTree_VAVLTREENODE__desc,MMC_REFSTRUCTLIT(mmc_none),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none)}};
+#define _OMC_LIT11 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT11)
+#define _OMC_LIT12_data "Env.avlTreeAdd failed"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT12,21,_OMC_LIT12_data);
+#define _OMC_LIT12 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT12)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT13,2,1) {_OMC_LIT12,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT13 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT13)
+#define _OMC_LIT14_data "Already visited: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT14,17,_OMC_LIT14_data);
+#define _OMC_LIT14 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT14)
+#define _OMC_LIT15_data " seq: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT15,6,_OMC_LIT15_data);
 #define _OMC_LIT15 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT15)
-#define _OMC_LIT16_data " seq: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT16,6,_OMC_LIT16_data);
-#define _OMC_LIT16 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT16)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT17,3,3) {&FCore_Visited_V__desc,_OMC_LIT12,MMC_IMMEDIATE(MMC_TAGFIXNUM(0))}};
-#define _OMC_LIT17 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT17)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT16,3,3) {&FCore_Visited_V__desc,_OMC_LIT11,MMC_IMMEDIATE(MMC_TAGFIXNUM(0))}};
+#define _OMC_LIT16 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT16)
 #include "util/modelica.h"
 
 #include "FVisit_includes.h"
@@ -457,7 +455,7 @@ modelica_metatype omc_FVisit_avlTreeReplace(threadData_t *threadData, modelica_m
         case 1: {
           
           /* Pattern matching succeeded */
-          omc_Error_addMessage(threadData, _OMC_LIT4, _OMC_LIT6);
+          omc_Error_addMessage(threadData, _OMC_LIT3, _OMC_LIT5);
           goto goto_2;
           goto tmp3_done;
         }
@@ -517,7 +515,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_FVisit_printAvlTreeStrPP2(threadDa
         case 0: {
           if (!optionNone(tmp4_1)) goto tmp3_end;
           /* Pattern matching succeeded */
-          tmp1 = _OMC_LIT7;
+          tmp1 = _OMC_LIT6;
           goto tmp3_done;
         }
         case 1: {
@@ -546,13 +544,13 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_FVisit_printAvlTreeStrPP2(threadDa
           _l = tmpMeta11;
           _r = tmpMeta12;
           /* Pattern matching succeeded */
-          tmpMeta13 = stringAppend(_inIndent,_OMC_LIT8);
+          tmpMeta13 = stringAppend(_inIndent,_OMC_LIT7);
           _indent = tmpMeta13;
 
           _s1 = omc_FVisit_printAvlTreeStrPP2(threadData, _l, _indent);
 
           _s2 = omc_FVisit_printAvlTreeStrPP2(threadData, _r, _indent);
-          tmpMeta14 = stringAppend(_OMC_LIT9,_inIndent);
+          tmpMeta14 = stringAppend(_OMC_LIT8,_inIndent);
           tmpMeta15 = stringAppend(tmpMeta14,omc_FVisit_keyStr(threadData, _rkey));
           tmpMeta16 = stringAppend(tmpMeta15,_s1);
           tmpMeta17 = stringAppend(tmpMeta16,_s2);
@@ -576,13 +574,13 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_FVisit_printAvlTreeStrPP2(threadDa
           _l = tmpMeta20;
           _r = tmpMeta21;
           /* Pattern matching succeeded */
-          tmpMeta22 = stringAppend(_inIndent,_OMC_LIT8);
+          tmpMeta22 = stringAppend(_inIndent,_OMC_LIT7);
           _indent = tmpMeta22;
 
           _s1 = omc_FVisit_printAvlTreeStrPP2(threadData, _l, _indent);
 
           _s2 = omc_FVisit_printAvlTreeStrPP2(threadData, _r, _indent);
-          tmpMeta23 = stringAppend(_OMC_LIT9,_s1);
+          tmpMeta23 = stringAppend(_OMC_LIT8,_s1);
           tmpMeta24 = stringAppend(tmpMeta23,_s2);
           tmp1 = tmpMeta24;
           goto tmp3_done;
@@ -610,7 +608,7 @@ modelica_string omc_FVisit_printAvlTreeStrPP(threadData_t *threadData, modelica_
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outString has no default value.
-  _outString = omc_FVisit_printAvlTreeStrPP2(threadData, mmc_mk_some(_inTree), _OMC_LIT7);
+  _outString = omc_FVisit_printAvlTreeStrPP2(threadData, mmc_mk_some(_inTree), _OMC_LIT6);
   _return: OMC_LABEL_UNUSED
   return _outString;
 }
@@ -795,16 +793,16 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_FVisit_printAvlTreeStr(threadData_
           _s2 = omc_FVisit_getOptionStr(threadData, _l, boxvar_FVisit_printAvlTreeStr);
 
           _s3 = omc_FVisit_getOptionStr(threadData, _r, boxvar_FVisit_printAvlTreeStr);
-          tmpMeta11 = stringAppend(_OMC_LIT9,omc_FVisit_valueStr(threadData, _rval));
-          tmpMeta12 = stringAppend(tmpMeta11,_OMC_LIT10);
-          tmp14 = (modelica_boolean)(stringEqual(_s2, _OMC_LIT7));
+          tmpMeta11 = stringAppend(_OMC_LIT8,omc_FVisit_valueStr(threadData, _rval));
+          tmpMeta12 = stringAppend(tmpMeta11,_OMC_LIT9);
+          tmp14 = (modelica_boolean)(stringEqual(_s2, _OMC_LIT6));
           if(tmp14)
           {
-            tmp15 = _OMC_LIT7;
+            tmp15 = _OMC_LIT6;
           }
           else
           {
-            tmpMeta13 = stringAppend(_s2,_OMC_LIT11);
+            tmpMeta13 = stringAppend(_s2,_OMC_LIT10);
             tmp15 = tmpMeta13;
           }
           tmpMeta16 = stringAppend(tmpMeta12,tmp15);
@@ -830,14 +828,14 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_FVisit_printAvlTreeStr(threadData_
           _s2 = omc_FVisit_getOptionStr(threadData, _l, boxvar_FVisit_printAvlTreeStr);
 
           _s3 = omc_FVisit_getOptionStr(threadData, _r, boxvar_FVisit_printAvlTreeStr);
-          tmp22 = (modelica_boolean)(stringEqual(_s2, _OMC_LIT7));
+          tmp22 = (modelica_boolean)(stringEqual(_s2, _OMC_LIT6));
           if(tmp22)
           {
-            tmp23 = _OMC_LIT7;
+            tmp23 = _OMC_LIT6;
           }
           else
           {
-            tmpMeta21 = stringAppend(_s2,_OMC_LIT11);
+            tmpMeta21 = stringAppend(_s2,_OMC_LIT10);
             tmp23 = tmpMeta21;
           }
           tmpMeta24 = stringAppend(tmp23,_s3);
@@ -895,7 +893,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_FVisit_getOptionStr(threadData_t *
           if (!optionNone(tmp4_1)) goto tmp3_end;
           
           /* Pattern matching succeeded */
-          tmp1 = _OMC_LIT7;
+          tmp1 = _OMC_LIT6;
           goto tmp3_done;
         }
         }
@@ -1866,7 +1864,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_FVisit_createEmptyAvlIfNone(thre
         case 0: {
           if (!optionNone(tmp4_1)) goto tmp3_end;
           /* Pattern matching succeeded */
-          tmpMeta1 = _OMC_LIT12;
+          tmpMeta1 = _OMC_LIT11;
           goto tmp3_done;
         }
         case 1: {
@@ -2113,7 +2111,7 @@ modelica_metatype omc_FVisit_avlTreeAdd(threadData_t *threadData, modelica_metat
         case 2: {
           
           /* Pattern matching succeeded */
-          omc_Error_addMessage(threadData, _OMC_LIT4, _OMC_LIT14);
+          omc_Error_addMessage(threadData, _OMC_LIT3, _OMC_LIT13);
           goto goto_2;
           goto tmp3_done;
         }
@@ -2149,7 +2147,7 @@ modelica_metatype omc_FVisit_avlTreeNew(threadData_t *threadData)
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _tree has no default value.
-  _tree = _OMC_LIT12;
+  _tree = _OMC_LIT11;
   _return: OMC_LABEL_UNUSED
   return _tree;
 }
@@ -2285,10 +2283,10 @@ modelica_metatype omc_FVisit_visit(threadData_t *threadData, modelica_metatype _
 
           _v = omc_FVisit_avlTreeGet(threadData, omc_FVisit_tree(threadData, _inVisited), omc_FNode_id(threadData, omc_FNode_fromRef(threadData, _inRef)));
 
-          tmpMeta6 = stringAppend(_OMC_LIT15,omc_FNode_toStr(threadData, omc_FNode_fromRef(threadData, _inRef)));
-          tmpMeta7 = stringAppend(tmpMeta6,_OMC_LIT16);
+          tmpMeta6 = stringAppend(_OMC_LIT14,omc_FNode_toStr(threadData, omc_FNode_fromRef(threadData, _inRef)));
+          tmpMeta7 = stringAppend(tmpMeta6,_OMC_LIT15);
           tmpMeta8 = stringAppend(tmpMeta7,intString(omc_FVisit_seq(threadData, _v)));
-          tmpMeta9 = stringAppend(tmpMeta8,_OMC_LIT9);
+          tmpMeta9 = stringAppend(tmpMeta8,_OMC_LIT8);
           fputs(MMC_STRINGDATA(tmpMeta9),stdout);
           goto goto_2;
           goto tmp3_done;
@@ -2550,7 +2548,7 @@ modelica_metatype omc_FVisit_new(threadData_t *threadData)
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _visited has no default value.
-  _visited = _OMC_LIT17;
+  _visited = _OMC_LIT16;
   _return: OMC_LABEL_UNUSED
   return _visited;
 }

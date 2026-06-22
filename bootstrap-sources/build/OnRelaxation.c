@@ -1157,14 +1157,14 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_OnRelaxation_aliasMatching(threa
   return _outTpl;
 }
 
-static modelica_metatype closure0_ComponentReference_crefEqualWithoutLastSubs(threadData_t *thData, modelica_metatype closure, modelica_metatype cr1)
+static modelica_metatype closure0_ComponentReferenceBasics_crefEqualWithoutLastSubs(threadData_t *thData, modelica_metatype closure, modelica_metatype cr1)
 {
   modelica_metatype cr2 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),1));
-  return boxptr_ComponentReference_crefEqualWithoutLastSubs(thData, cr1, cr2);
-}static modelica_metatype closure1_ComponentReference_crefEqualWithoutLastSubs(threadData_t *thData, modelica_metatype closure, modelica_metatype cr1)
+  return boxptr_ComponentReferenceBasics_crefEqualWithoutLastSubs(thData, cr1, cr2);
+}static modelica_metatype closure1_ComponentReferenceBasics_crefEqualWithoutLastSubs(threadData_t *thData, modelica_metatype closure, modelica_metatype cr1)
 {
   modelica_metatype cr2 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),1));
-  return boxptr_ComponentReference_crefEqualWithoutLastSubs(thData, cr1, cr2);
+  return boxptr_ComponentReferenceBasics_crefEqualWithoutLastSubs(thData, cr1, cr2);
 }
 PROTECTED_FUNCTION_STATIC modelica_metatype omc_OnRelaxation_vectorMatching1(threadData_t *threadData, modelica_metatype _e1, modelica_metatype _e2, modelica_integer _size, modelica_metatype _vars, modelica_metatype _inTpl)
 {
@@ -1395,7 +1395,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_OnRelaxation_vectorMatching1(thr
 
           _crlst = omc_List_map(threadData, _elst, boxvar_Expression_expCrefNegCref);
 
-          _crlst = omc_List_uniqueOnTrue(threadData, _crlst, boxvar_ComponentReference_crefEqualNoStringCompare);
+          _crlst = omc_List_uniqueOnTrue(threadData, _crlst, boxvar_ComponentReferenceBasics_crefEqualNoStringCompare);
 
           /* Pattern-matching assignment */
           tmp46 = (_size == listLength(_crlst));
@@ -1411,12 +1411,12 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_OnRelaxation_vectorMatching1(thr
 
           /* Pattern-matching assignment */
           tmpMeta50 = mmc_mk_box1(0, _cr);
-          tmp51 = omc_List_all(threadData, _crlst1, (modelica_fnptr) mmc_mk_box2(0,closure0_ComponentReference_crefEqualWithoutLastSubs,tmpMeta50));
+          tmp51 = omc_List_all(threadData, _crlst1, (modelica_fnptr) mmc_mk_box2(0,closure0_ComponentReferenceBasics_crefEqualWithoutLastSubs,tmpMeta50));
           if (1 /* true */ != tmp51) goto goto_2;
 
           _set = omc_HashSet_emptyHashSet(threadData);
 
-          _crnosubs = omc_ComponentReference_crefStripLastSubs(threadData, _cr);
+          _crnosubs = omc_ComponentReferenceBasics_crefStripLastSubs(threadData, _cr);
 
           _set = omc_OnRelaxation_addCrefandParentsToSet(threadData, _crnosubs, _set, mmc_mk_none());
 
@@ -1466,7 +1466,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_OnRelaxation_vectorMatching1(thr
 
           _crlst = omc_List_map(threadData, _elst, boxvar_Expression_expCrefNegCref);
 
-          _crlst = omc_List_uniqueOnTrue(threadData, _crlst, boxvar_ComponentReference_crefEqualNoStringCompare);
+          _crlst = omc_List_uniqueOnTrue(threadData, _crlst, boxvar_ComponentReferenceBasics_crefEqualNoStringCompare);
 
           /* Pattern-matching assignment */
           tmp61 = (_size == listLength(_crlst));
@@ -1482,12 +1482,12 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_OnRelaxation_vectorMatching1(thr
 
           /* Pattern-matching assignment */
           tmpMeta65 = mmc_mk_box1(0, _cr);
-          tmp66 = omc_List_all(threadData, _crlst1, (modelica_fnptr) mmc_mk_box2(0,closure1_ComponentReference_crefEqualWithoutLastSubs,tmpMeta65));
+          tmp66 = omc_List_all(threadData, _crlst1, (modelica_fnptr) mmc_mk_box2(0,closure1_ComponentReferenceBasics_crefEqualWithoutLastSubs,tmpMeta65));
           if (1 /* true */ != tmp66) goto goto_2;
 
           _set = omc_HashSet_emptyHashSet(threadData);
 
-          _crnosubs = omc_ComponentReference_crefStripLastSubs(threadData, _cr);
+          _crnosubs = omc_ComponentReferenceBasics_crefStripLastSubs(threadData, _cr);
 
           _set = omc_OnRelaxation_addCrefandParentsToSet(threadData, _crnosubs, _set, mmc_mk_none());
 
@@ -2201,11 +2201,11 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_OnRelaxation_addCrefandParentsTo
           _subcr = tmpMeta12;
           /* Pattern matching succeeded */
           tmpMeta13 = MMC_REFSTRUCTLIT(mmc_nil);
-          _idcr = omc_ComponentReference_makeCrefIdent(threadData, _ident, _ty, tmpMeta13);
+          _idcr = omc_ComponentReferenceBasics_makeCrefIdent(threadData, _ident, _ty, tmpMeta13);
 
           _set = omc_BaseHashSet_add(threadData, _idcr, _ihs);
 
-          _idcr = omc_ComponentReference_makeCrefIdent(threadData, _ident, _ty, _subscriptLst);
+          _idcr = omc_ComponentReferenceBasics_makeCrefIdent(threadData, _ident, _ty, _subscriptLst);
 
           _set = omc_BaseHashSet_add(threadData, _idcr, _set);
           /* Tail recursive call */
@@ -2237,13 +2237,13 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_OnRelaxation_addCrefandParentsTo
           _precr = tmpMeta18;
           /* Pattern matching succeeded */
           tmpMeta19 = MMC_REFSTRUCTLIT(mmc_nil);
-          _idcr = omc_ComponentReference_makeCrefIdent(threadData, _ident, _ty, tmpMeta19);
+          _idcr = omc_ComponentReferenceBasics_makeCrefIdent(threadData, _ident, _ty, tmpMeta19);
 
           _idcr = omc_ComponentReference_joinCrefs(threadData, _precr, _idcr);
 
           _set = omc_BaseHashSet_add(threadData, _idcr, _ihs);
 
-          _idcr = omc_ComponentReference_makeCrefIdent(threadData, _ident, _ty, _subscriptLst);
+          _idcr = omc_ComponentReferenceBasics_makeCrefIdent(threadData, _ident, _ty, _subscriptLst);
 
           _precr = omc_ComponentReference_joinCrefs(threadData, _precr, _idcr);
 
@@ -4543,7 +4543,7 @@ PROTECTED_FUNCTION_STATIC void omc_OnRelaxation_dumpJacMatrix(threadData_t *thre
 
           fputs(MMC_STRINGDATA(_OMC_LIT3),stdout);
 
-          fputs(MMC_STRINGDATA(omc_ComponentReference_printComponentRefStr(threadData, _cr)),stdout);
+          fputs(MMC_STRINGDATA(omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr)),stdout);
 
           fputs(MMC_STRINGDATA(_OMC_LIT1),stdout);
 
@@ -4593,7 +4593,7 @@ PROTECTED_FUNCTION_STATIC void omc_OnRelaxation_dumpJacMatrix(threadData_t *thre
           tmp16 = (_c == _col);
           if (1 /* true */ != tmp16) goto goto_1;
 
-          _estr = omc_ExpressionDump_printExpStr(threadData, _e);
+          _estr = omc_ExpressionBasics_printExpStr(threadData, _e);
 
           fputs(MMC_STRINGDATA(_estr),stdout);
 
@@ -5639,7 +5639,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_OnRelaxation_makeDummyVar(thread
 
           tmpMeta12 = mmc_mk_cons(_OMC_LIT7, mmc_mk_cons(_sa, mmc_mk_cons(_OMC_LIT8, mmc_mk_cons(_sb, MMC_REFSTRUCTLIT(mmc_nil)))));
           tmpMeta13 = MMC_REFSTRUCTLIT(mmc_nil);
-          _cr = omc_ComponentReference_makeCrefIdent(threadData, stringAppendList(tmpMeta12), _OMC_LIT9, tmpMeta13);
+          _cr = omc_ComponentReferenceBasics_makeCrefIdent(threadData, stringAppendList(tmpMeta12), _OMC_LIT9, tmpMeta13);
 
           _cexp = omc_Expression_crefExp(threadData, _cr);
 
@@ -6198,7 +6198,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_OnRelaxation_dumpMatrix1(threadDat
 
   _cs = intString(_c);
 
-  _es = omc_ExpressionDump_printExpStr(threadData, _e);
+  _es = omc_ExpressionBasics_printExpStr(threadData, _e);
 
   tmpMeta5 = mmc_mk_cons(_cs, mmc_mk_cons(_OMC_LIT23, mmc_mk_cons(_es, MMC_REFSTRUCTLIT(mmc_nil))));
   _s = stringAppendList(tmpMeta5);
@@ -6796,8 +6796,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_OnRelaxation_getOrphansOrderEdva
   modelica_metatype _sortvorphans = NULL;
   modelica_integer _omark;
   modelica_metatype _order = NULL;
-  modelica_metatype _leafs = NULL;
-  modelica_metatype _childlist = NULL;
   modelica_integer _size;
   modelica_metatype _map = NULL;
   modelica_metatype _ass = NULL;
@@ -6805,7 +6803,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_OnRelaxation_getOrphansOrderEdva
   modelica_metatype _m = NULL;
   modelica_metatype _mt = NULL;
   modelica_metatype _range = NULL;
-  modelica_metatype _links = NULL;
   modelica_metatype _comps = NULL;
   modelica_metatype _linkslst = NULL;
   modelica_metatype tmpMeta1;
@@ -6819,8 +6816,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_OnRelaxation_getOrphansOrderEdva
   // _sortvorphans has no default value.
   // _omark has no default value.
   // _order has no default value.
-  // _leafs has no default value.
-  // _childlist has no default value.
   // _size has no default value.
   // _map has no default value.
   // _ass has no default value.
@@ -6828,7 +6823,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_OnRelaxation_getOrphansOrderEdva
   // _m has no default value.
   // _mt has no default value.
   // _range has no default value.
-  // _links has no default value.
   // _comps has no default value.
   // _linkslst has no default value.
   _map = listArray(_vorphans);
@@ -6972,8 +6966,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_OnRelaxation_getOrphansAdjacency
   modelica_metatype tmpMeta1;
   modelica_metatype _lst = NULL;
   modelica_integer _i;
-  modelica_metatype _am = NULL;
-  modelica_metatype _amT = NULL;
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
   modelica_metatype tmpMeta4;
@@ -6985,8 +6977,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_OnRelaxation_getOrphansAdjacency
   _m = tmpMeta1;
   // _lst has no default value.
   // _i has no default value.
-  // _am has no default value.
-  // _amT has no default value.
   {
     modelica_metatype _o;
     for (tmpMeta2 = _orphans; !listEmpty(tmpMeta2); tmpMeta2=MMC_CDR(tmpMeta2))
@@ -7945,10 +7935,8 @@ PROTECTED_FUNCTION_STATIC void boxptr_OnRelaxation_getOrphansOrderEdvanced1(thre
 
 PROTECTED_FUNCTION_STATIC void omc_OnRelaxation_addPreOrphans(threadData_t *threadData, modelica_integer _orphan, modelica_metatype _preorphans, modelica_metatype _arr)
 {
-  modelica_metatype _olst = NULL;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _olst has no default value.
   { /* match expression */
     modelica_metatype tmp3_1;
     tmp3_1 = _preorphans;
@@ -9346,7 +9334,7 @@ PROTECTED_FUNCTION_STATIC void omc_OnRelaxation_dumpVar(threadData_t *threadData
   // _v has no default value.
   _v = omc_BackendVariable_getVarAt(threadData, _vars, _id);
 
-  fputs(MMC_STRINGDATA(omc_ComponentReference_printComponentRefStr(threadData, omc_BackendVariable_varCref(threadData, _v))),stdout);
+  fputs(MMC_STRINGDATA(omc_ComponentReferenceBasics_printComponentRefStr(threadData, omc_BackendVariable_varCref(threadData, _v))),stdout);
 
   fputs(MMC_STRINGDATA(_OMC_LIT1),stdout);
   _return: OMC_LABEL_UNUSED
@@ -10215,11 +10203,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_OnRelaxation_relaxSystem0(thread
   modelica_metatype _outShared = NULL;
   modelica_boolean _outChanged;
   modelica_metatype _comps = NULL;
-  modelica_boolean _b;
-  modelica_boolean _b1;
   modelica_boolean _b2;
-  modelica_metatype _shared = NULL;
-  modelica_metatype _syst = NULL;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
@@ -10229,11 +10213,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_OnRelaxation_relaxSystem0(thread
   // _outShared has no default value.
   // _outChanged has no default value.
   // _comps has no default value.
-  // _b has no default value.
-  // _b1 has no default value.
   // _b2 has no default value.
-  // _shared has no default value.
-  // _syst has no default value.
   /* Pattern-matching assignment */
   tmpMeta1 = _isyst;
   tmpMeta2 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta1), 7));

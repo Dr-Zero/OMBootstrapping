@@ -69,6 +69,14 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFSubscript_splitIndexDimExp,2,0) {(voi
 
 
 DLLDirection
+modelica_integer omc_NFSubscript_hashContinue(threadData_t *threadData, modelica_metatype _sub, modelica_integer __omcQ_24in_5Fhash);
+DLLDirection
+modelica_metatype boxptr_NFSubscript_hashContinue(threadData_t *threadData, modelica_metatype _sub, modelica_metatype __omcQ_24in_5Fhash);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFSubscript_hashContinue,2,0) {(void*) boxptr_NFSubscript_hashContinue,0}};
+#define boxvar_NFSubscript_hashContinue MMC_REFSTRUCTLIT(boxvar_lit_NFSubscript_hashContinue)
+
+
+DLLDirection
 modelica_integer omc_NFSubscript_hash(threadData_t *threadData, modelica_metatype _sub);
 DLLDirection
 modelica_metatype boxptr_NFSubscript_hash(threadData_t *threadData, modelica_metatype _sub);
@@ -276,8 +284,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFSubscript_toJSON,2,0) {(void*) boxptr
 
 
 DLLDirection
-modelica_string omc_NFSubscript_toFlatStringList(threadData_t *threadData, modelica_metatype _subscripts, modelica_metatype _format);
-#define boxptr_NFSubscript_toFlatStringList omc_NFSubscript_toFlatStringList
+modelica_string omc_NFSubscript_toFlatStringList(threadData_t *threadData, modelica_metatype _subscripts, modelica_metatype _format, modelica_boolean _escapeQuotes);
+DLLDirection
+modelica_metatype boxptr_NFSubscript_toFlatStringList(threadData_t *threadData, modelica_metatype _subscripts, modelica_metatype _format, modelica_metatype _escapeQuotes);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFSubscript_toFlatStringList,2,0) {(void*) boxptr_NFSubscript_toFlatStringList,0}};
 #define boxvar_NFSubscript_toFlatStringList MMC_REFSTRUCTLIT(boxvar_lit_NFSubscript_toFlatStringList)
 

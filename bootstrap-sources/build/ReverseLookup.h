@@ -1,0 +1,309 @@
+#ifndef ReverseLookup__H
+#define ReverseLookup__H
+#include "meta/meta_modelica.h"
+#include "util/modelica.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <errno.h>
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+extern struct record_description Absyn_Path_IDENT__desc;
+
+extern struct record_description ReverseLookup_Match_MATCH__desc;
+
+extern struct record_description ReverseLookup_PathEntry_ENTRY__desc;
+
+extern struct record_description ReverseLookup_PathTree_Tree_EMPTY__desc;
+
+extern struct record_description ReverseLookup_PathTree_Tree_LEAF__desc;
+
+extern struct record_description ReverseLookup_PathTree_Tree_NODE__desc;
+
+extern struct record_description ReverseLookup_Paths_PATHS__desc;
+
+
+#define boxptr_ReverseLookup_groupMatches_add__match omc_ReverseLookup_groupMatches_add__match
+
+
+#define boxptr_ReverseLookup_groupMatches omc_ReverseLookup_groupMatches
+
+
+#define boxptr_ReverseLookup_shadowLocalName omc_ReverseLookup_shadowLocalName
+
+
+#define boxptr_ReverseLookup_shadowLocalNamesInElementSpec omc_ReverseLookup_shadowLocalNamesInElementSpec
+
+
+#define boxptr_ReverseLookup_shadowLocalNamesInElementItem omc_ReverseLookup_shadowLocalNamesInElementItem
+
+
+#define boxptr_ReverseLookup_shadowLocalNames omc_ReverseLookup_shadowLocalNames
+
+
+#define boxptr_ReverseLookup_addPath omc_ReverseLookup_addPath
+
+
+DLLDirection
+modelica_string omc_ReverseLookup_lookup(threadData_t *threadData, modelica_metatype _path, modelica_metatype _scope, modelica_metatype _program, modelica_boolean _exactMatch, modelica_boolean _prettyPrint);
+DLLDirection
+modelica_metatype boxptr_ReverseLookup_lookup(threadData_t *threadData, modelica_metatype _path, modelica_metatype _scope, modelica_metatype _program, modelica_metatype _exactMatch, modelica_metatype _prettyPrint);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_lookup,2,0) {(void*) boxptr_ReverseLookup_lookup,0}};
+#define boxvar_ReverseLookup_lookup MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_lookup)
+
+
+DLLDirection
+modelica_string omc_ReverseLookup_Paths_currentPathStr(threadData_t *threadData, modelica_metatype _paths);
+#define boxptr_ReverseLookup_Paths_currentPathStr omc_ReverseLookup_Paths_currentPathStr
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_Paths_currentPathStr,2,0) {(void*) boxptr_ReverseLookup_Paths_currentPathStr,0}};
+#define boxvar_ReverseLookup_Paths_currentPathStr MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_Paths_currentPathStr)
+
+
+DLLDirection
+modelica_metatype omc_ReverseLookup_PathTree_add(threadData_t *threadData, modelica_metatype _inTree, modelica_string _inKey, modelica_metatype _inValue, modelica_fnptr _conflictFunc);
+#define boxptr_ReverseLookup_PathTree_add omc_ReverseLookup_PathTree_add
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_add,2,0) {(void*) boxptr_ReverseLookup_PathTree_add,0}};
+#define boxvar_ReverseLookup_PathTree_add MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_add)
+
+
+DLLDirection
+modelica_metatype omc_ReverseLookup_PathTree_addConflictDefault(threadData_t *threadData, modelica_metatype _newValue, modelica_metatype _oldValue, modelica_string _key);
+#define boxptr_ReverseLookup_PathTree_addConflictDefault omc_ReverseLookup_PathTree_addConflictDefault
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_addConflictDefault,2,0) {(void*) boxptr_ReverseLookup_PathTree_addConflictDefault,0}};
+#define boxvar_ReverseLookup_PathTree_addConflictDefault MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_addConflictDefault)
+
+
+DLLDirection
+modelica_metatype omc_ReverseLookup_PathTree_addConflictFail(threadData_t *threadData, modelica_metatype _newValue, modelica_metatype _oldValue, modelica_string _key);
+#define boxptr_ReverseLookup_PathTree_addConflictFail omc_ReverseLookup_PathTree_addConflictFail
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_addConflictFail,2,0) {(void*) boxptr_ReverseLookup_PathTree_addConflictFail,0}};
+#define boxvar_ReverseLookup_PathTree_addConflictFail MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_addConflictFail)
+
+
+DLLDirection
+modelica_metatype omc_ReverseLookup_PathTree_addConflictKeep(threadData_t *threadData, modelica_metatype _newValue, modelica_metatype _oldValue, modelica_string _key);
+#define boxptr_ReverseLookup_PathTree_addConflictKeep omc_ReverseLookup_PathTree_addConflictKeep
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_addConflictKeep,2,0) {(void*) boxptr_ReverseLookup_PathTree_addConflictKeep,0}};
+#define boxvar_ReverseLookup_PathTree_addConflictKeep MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_addConflictKeep)
+
+
+DLLDirection
+modelica_metatype omc_ReverseLookup_PathTree_addConflictReplace(threadData_t *threadData, modelica_metatype _newValue, modelica_metatype _oldValue, modelica_string _key);
+#define boxptr_ReverseLookup_PathTree_addConflictReplace omc_ReverseLookup_PathTree_addConflictReplace
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_addConflictReplace,2,0) {(void*) boxptr_ReverseLookup_PathTree_addConflictReplace,0}};
+#define boxvar_ReverseLookup_PathTree_addConflictReplace MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_addConflictReplace)
+
+
+DLLDirection
+modelica_metatype omc_ReverseLookup_PathTree_addList(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftree, modelica_metatype _inValues, modelica_fnptr _conflictFunc);
+#define boxptr_ReverseLookup_PathTree_addList omc_ReverseLookup_PathTree_addList
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_addList,2,0) {(void*) boxptr_ReverseLookup_PathTree_addList,0}};
+#define boxvar_ReverseLookup_PathTree_addList MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_addList)
+
+
+DLLDirection
+modelica_metatype omc_ReverseLookup_PathTree_addUpdate(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftree, modelica_string _key, modelica_fnptr _fn);
+#define boxptr_ReverseLookup_PathTree_addUpdate omc_ReverseLookup_PathTree_addUpdate
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_addUpdate,2,0) {(void*) boxptr_ReverseLookup_PathTree_addUpdate,0}};
+#define boxvar_ReverseLookup_PathTree_addUpdate MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_addUpdate)
+
+
+#define boxptr_ReverseLookup_PathTree_balance omc_ReverseLookup_PathTree_balance
+
+
+DLLDirection
+modelica_metatype omc_ReverseLookup_PathTree_fold(threadData_t *threadData, modelica_metatype _inTree, modelica_fnptr _inFunc, modelica_metatype _inStartValue);
+#define boxptr_ReverseLookup_PathTree_fold omc_ReverseLookup_PathTree_fold
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_fold,2,0) {(void*) boxptr_ReverseLookup_PathTree_fold,0}};
+#define boxvar_ReverseLookup_PathTree_fold MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_fold)
+
+
+DLLDirection
+modelica_metatype omc_ReverseLookup_PathTree_foldCond(threadData_t *threadData, modelica_metatype _tree, modelica_fnptr _foldFunc, modelica_metatype __omcQ_24in_5Fvalue);
+#define boxptr_ReverseLookup_PathTree_foldCond omc_ReverseLookup_PathTree_foldCond
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_foldCond,2,0) {(void*) boxptr_ReverseLookup_PathTree_foldCond,0}};
+#define boxvar_ReverseLookup_PathTree_foldCond MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_foldCond)
+
+
+DLLDirection
+modelica_metatype omc_ReverseLookup_PathTree_fold__2(threadData_t *threadData, modelica_metatype _tree, modelica_fnptr _foldFunc, modelica_metatype __omcQ_24in_5FfoldArg1, modelica_metatype __omcQ_24in_5FfoldArg2, modelica_metatype *out_foldArg2);
+#define boxptr_ReverseLookup_PathTree_fold__2 omc_ReverseLookup_PathTree_fold__2
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_fold__2,2,0) {(void*) boxptr_ReverseLookup_PathTree_fold__2,0}};
+#define boxvar_ReverseLookup_PathTree_fold__2 MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_fold__2)
+
+
+DLLDirection
+void omc_ReverseLookup_PathTree_forEach(threadData_t *threadData, modelica_metatype _tree, modelica_fnptr _func);
+#define boxptr_ReverseLookup_PathTree_forEach omc_ReverseLookup_PathTree_forEach
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_forEach,2,0) {(void*) boxptr_ReverseLookup_PathTree_forEach,0}};
+#define boxvar_ReverseLookup_PathTree_forEach MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_forEach)
+
+
+DLLDirection
+modelica_metatype omc_ReverseLookup_PathTree_fromList(threadData_t *threadData, modelica_metatype _inValues, modelica_fnptr _conflictFunc);
+#define boxptr_ReverseLookup_PathTree_fromList omc_ReverseLookup_PathTree_fromList
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_fromList,2,0) {(void*) boxptr_ReverseLookup_PathTree_fromList,0}};
+#define boxvar_ReverseLookup_PathTree_fromList MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_fromList)
+
+
+DLLDirection
+modelica_metatype omc_ReverseLookup_PathTree_get(threadData_t *threadData, modelica_metatype _tree, modelica_string _key);
+#define boxptr_ReverseLookup_PathTree_get omc_ReverseLookup_PathTree_get
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_get,2,0) {(void*) boxptr_ReverseLookup_PathTree_get,0}};
+#define boxvar_ReverseLookup_PathTree_get MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_get)
+
+
+DLLDirection
+modelica_metatype omc_ReverseLookup_PathTree_getOpt(threadData_t *threadData, modelica_metatype _tree, modelica_string _key);
+#define boxptr_ReverseLookup_PathTree_getOpt omc_ReverseLookup_PathTree_getOpt
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_getOpt,2,0) {(void*) boxptr_ReverseLookup_PathTree_getOpt,0}};
+#define boxvar_ReverseLookup_PathTree_getOpt MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_getOpt)
+
+
+DLLDirection
+modelica_boolean omc_ReverseLookup_PathTree_hasKey(threadData_t *threadData, modelica_metatype _inTree, modelica_string _inKey);
+DLLDirection
+modelica_metatype boxptr_ReverseLookup_PathTree_hasKey(threadData_t *threadData, modelica_metatype _inTree, modelica_metatype _inKey);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_hasKey,2,0) {(void*) boxptr_ReverseLookup_PathTree_hasKey,0}};
+#define boxvar_ReverseLookup_PathTree_hasKey MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_hasKey)
+
+
+DLLDirection
+void omc_ReverseLookup_PathTree_intersection(threadData_t *threadData);
+#define boxptr_ReverseLookup_PathTree_intersection omc_ReverseLookup_PathTree_intersection
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_intersection,2,0) {(void*) boxptr_ReverseLookup_PathTree_intersection,0}};
+#define boxvar_ReverseLookup_PathTree_intersection MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_intersection)
+
+
+DLLDirection
+modelica_boolean omc_ReverseLookup_PathTree_isEmpty(threadData_t *threadData, modelica_metatype _tree);
+DLLDirection
+modelica_metatype boxptr_ReverseLookup_PathTree_isEmpty(threadData_t *threadData, modelica_metatype _tree);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_isEmpty,2,0) {(void*) boxptr_ReverseLookup_PathTree_isEmpty,0}};
+#define boxvar_ReverseLookup_PathTree_isEmpty MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_isEmpty)
+
+
+DLLDirection
+modelica_metatype omc_ReverseLookup_PathTree_join(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftree, modelica_metatype _treeToJoin, modelica_fnptr _conflictFunc);
+#define boxptr_ReverseLookup_PathTree_join omc_ReverseLookup_PathTree_join
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_join,2,0) {(void*) boxptr_ReverseLookup_PathTree_join,0}};
+#define boxvar_ReverseLookup_PathTree_join MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_join)
+
+
+DLLDirection
+modelica_integer omc_ReverseLookup_PathTree_keyCompare(threadData_t *threadData, modelica_string _inKey1, modelica_string _inKey2);
+DLLDirection
+modelica_metatype boxptr_ReverseLookup_PathTree_keyCompare(threadData_t *threadData, modelica_metatype _inKey1, modelica_metatype _inKey2);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_keyCompare,2,0) {(void*) boxptr_ReverseLookup_PathTree_keyCompare,0}};
+#define boxvar_ReverseLookup_PathTree_keyCompare MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_keyCompare)
+
+
+DLLDirection
+modelica_string omc_ReverseLookup_PathTree_keyStr(threadData_t *threadData, modelica_string _inKey);
+#define boxptr_ReverseLookup_PathTree_keyStr omc_ReverseLookup_PathTree_keyStr
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_keyStr,2,0) {(void*) boxptr_ReverseLookup_PathTree_keyStr,0}};
+#define boxvar_ReverseLookup_PathTree_keyStr MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_keyStr)
+
+
+DLLDirection
+modelica_metatype omc_ReverseLookup_PathTree_listKeys(threadData_t *threadData, modelica_metatype _tree, modelica_metatype __omcQ_24in_5Flst);
+#define boxptr_ReverseLookup_PathTree_listKeys omc_ReverseLookup_PathTree_listKeys
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_listKeys,2,0) {(void*) boxptr_ReverseLookup_PathTree_listKeys,0}};
+#define boxvar_ReverseLookup_PathTree_listKeys MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_listKeys)
+
+
+DLLDirection
+modelica_metatype omc_ReverseLookup_PathTree_listKeysReverse(threadData_t *threadData, modelica_metatype _inTree, modelica_metatype __omcQ_24in_5Flst);
+#define boxptr_ReverseLookup_PathTree_listKeysReverse omc_ReverseLookup_PathTree_listKeysReverse
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_listKeysReverse,2,0) {(void*) boxptr_ReverseLookup_PathTree_listKeysReverse,0}};
+#define boxvar_ReverseLookup_PathTree_listKeysReverse MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_listKeysReverse)
+
+
+DLLDirection
+modelica_metatype omc_ReverseLookup_PathTree_listValues(threadData_t *threadData, modelica_metatype _tree, modelica_metatype __omcQ_24in_5Flst);
+#define boxptr_ReverseLookup_PathTree_listValues omc_ReverseLookup_PathTree_listValues
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_listValues,2,0) {(void*) boxptr_ReverseLookup_PathTree_listValues,0}};
+#define boxvar_ReverseLookup_PathTree_listValues MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_listValues)
+
+
+DLLDirection
+modelica_metatype omc_ReverseLookup_PathTree_map(threadData_t *threadData, modelica_metatype _inTree, modelica_fnptr _inFunc);
+#define boxptr_ReverseLookup_PathTree_map omc_ReverseLookup_PathTree_map
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_map,2,0) {(void*) boxptr_ReverseLookup_PathTree_map,0}};
+#define boxvar_ReverseLookup_PathTree_map MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_map)
+
+
+DLLDirection
+modelica_metatype omc_ReverseLookup_PathTree_mapFold(threadData_t *threadData, modelica_metatype _inTree, modelica_fnptr _inFunc, modelica_metatype _inStartValue, modelica_metatype *out_outResult);
+#define boxptr_ReverseLookup_PathTree_mapFold omc_ReverseLookup_PathTree_mapFold
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_mapFold,2,0) {(void*) boxptr_ReverseLookup_PathTree_mapFold,0}};
+#define boxvar_ReverseLookup_PathTree_mapFold MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_mapFold)
+
+
+DLLDirection
+modelica_metatype omc_ReverseLookup_PathTree_new(threadData_t *threadData);
+#define boxptr_ReverseLookup_PathTree_new omc_ReverseLookup_PathTree_new
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_new,2,0) {(void*) boxptr_ReverseLookup_PathTree_new,0}};
+#define boxvar_ReverseLookup_PathTree_new MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_new)
+
+
+DLLDirection
+modelica_string omc_ReverseLookup_PathTree_printNodeStr(threadData_t *threadData, modelica_metatype _inNode);
+#define boxptr_ReverseLookup_PathTree_printNodeStr omc_ReverseLookup_PathTree_printNodeStr
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_printNodeStr,2,0) {(void*) boxptr_ReverseLookup_PathTree_printNodeStr,0}};
+#define boxvar_ReverseLookup_PathTree_printNodeStr MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_printNodeStr)
+
+
+DLLDirection
+modelica_string omc_ReverseLookup_PathTree_printTreeStr(threadData_t *threadData, modelica_metatype _inTree);
+#define boxptr_ReverseLookup_PathTree_printTreeStr omc_ReverseLookup_PathTree_printTreeStr
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_printTreeStr,2,0) {(void*) boxptr_ReverseLookup_PathTree_printTreeStr,0}};
+#define boxvar_ReverseLookup_PathTree_printTreeStr MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_printTreeStr)
+
+
+#define boxptr_ReverseLookup_PathTree_rotateLeft omc_ReverseLookup_PathTree_rotateLeft
+
+
+#define boxptr_ReverseLookup_PathTree_rotateRight omc_ReverseLookup_PathTree_rotateRight
+
+
+DLLDirection
+modelica_metatype omc_ReverseLookup_PathTree_setTreeLeftRight(threadData_t *threadData, modelica_metatype _orig, modelica_metatype _left, modelica_metatype _right);
+#define boxptr_ReverseLookup_PathTree_setTreeLeftRight omc_ReverseLookup_PathTree_setTreeLeftRight
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_setTreeLeftRight,2,0) {(void*) boxptr_ReverseLookup_PathTree_setTreeLeftRight,0}};
+#define boxvar_ReverseLookup_PathTree_setTreeLeftRight MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_setTreeLeftRight)
+
+
+DLLDirection
+modelica_string omc_ReverseLookup_PathTree_smallestKey(threadData_t *threadData, modelica_metatype _tree);
+#define boxptr_ReverseLookup_PathTree_smallestKey omc_ReverseLookup_PathTree_smallestKey
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_smallestKey,2,0) {(void*) boxptr_ReverseLookup_PathTree_smallestKey,0}};
+#define boxvar_ReverseLookup_PathTree_smallestKey MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_smallestKey)
+
+
+DLLDirection
+modelica_metatype omc_ReverseLookup_PathTree_toList(threadData_t *threadData, modelica_metatype _inTree, modelica_metatype __omcQ_24in_5Flst);
+#define boxptr_ReverseLookup_PathTree_toList omc_ReverseLookup_PathTree_toList
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_toList,2,0) {(void*) boxptr_ReverseLookup_PathTree_toList,0}};
+#define boxvar_ReverseLookup_PathTree_toList MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_toList)
+
+
+DLLDirection
+modelica_metatype omc_ReverseLookup_PathTree_update(threadData_t *threadData, modelica_metatype _tree, modelica_string _key, modelica_metatype _value);
+#define boxptr_ReverseLookup_PathTree_update omc_ReverseLookup_PathTree_update
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_update,2,0) {(void*) boxptr_ReverseLookup_PathTree_update,0}};
+#define boxvar_ReverseLookup_PathTree_update MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_update)
+
+
+DLLDirection
+modelica_string omc_ReverseLookup_PathTree_valueStr(threadData_t *threadData, modelica_metatype _inValue);
+#define boxptr_ReverseLookup_PathTree_valueStr omc_ReverseLookup_PathTree_valueStr
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_valueStr,2,0) {(void*) boxptr_ReverseLookup_PathTree_valueStr,0}};
+#define boxvar_ReverseLookup_PathTree_valueStr MMC_REFSTRUCTLIT(boxvar_lit_ReverseLookup_PathTree_valueStr)
+
+#ifdef __cplusplus
+}
+#endif
+#endif

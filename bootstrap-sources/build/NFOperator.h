@@ -118,8 +118,6 @@ extern struct record_description ErrorTypes_MessageType_TRANSLATION__desc;
 
 extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description JSON_STRING__desc;
 
 extern struct record_description NFOperator_OPERATOR__desc;
@@ -297,6 +295,13 @@ modelica_metatype omc_NFOperator_stripEW(threadData_t *threadData, modelica_meta
 #define boxptr_NFOperator_stripEW omc_NFOperator_stripEW
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFOperator_stripEW,2,0) {(void*) boxptr_NFOperator_stripEW,0}};
 #define boxvar_NFOperator_stripEW MMC_REFSTRUCTLIT(boxvar_lit_NFOperator_stripEW)
+
+
+DLLDirection
+modelica_metatype omc_NFOperator_makeEW(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fop);
+#define boxptr_NFOperator_makeEW omc_NFOperator_makeEW
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFOperator_makeEW,2,0) {(void*) boxptr_NFOperator_makeEW,0}};
+#define boxvar_NFOperator_makeEW MMC_REFSTRUCTLIT(boxvar_lit_NFOperator_makeEW)
 
 
 DLLDirection

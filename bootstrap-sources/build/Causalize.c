@@ -7,54 +7,44 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT1,1,4) {&ErrorTypes_Severity_ERROR_
 #define _OMC_LIT2_data "Initialization problem is structurally singular, error found sorting equations\n %s for variables\n %s"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT2,100,_OMC_LIT2_data);
 #define _OMC_LIT2 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT2)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT3,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT2}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT3,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(254)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT2}};
 #define _OMC_LIT3 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT3)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT4,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(254)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT3}};
-#define _OMC_LIT4 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT4)
-#define _OMC_LIT5_data "Model is structurally singular, error found sorting equations\n%s\nfor variables\n%s"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT5,81,_OMC_LIT5_data);
-#define _OMC_LIT5 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT5)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT6,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT5}};
+#define _OMC_LIT4_data "Model is structurally singular, error found sorting equations\n%s\nfor variables\n%s"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT4,81,_OMC_LIT4_data);
+#define _OMC_LIT4 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT4)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT5,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(34)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT4}};
+#define _OMC_LIT5 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT5)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT6,1,3) {&BackendDAE_IndexType_ABSOLUTE__desc,}};
 #define _OMC_LIT6 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT7,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(34)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT6}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT7,1,3) {&BackendDAE_Matching_NO__MATCHING__desc,}};
 #define _OMC_LIT7 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT7)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT8,1,3) {&BackendDAE_IndexType_ABSOLUTE__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT8,1,3) {&BackendDAE_IndexReduction_INDEX__REDUCTION__desc,}};
 #define _OMC_LIT8 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT8)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT9,1,3) {&BackendDAE_Matching_NO__MATCHING__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT9,1,3) {&BackendDAE_EquationConstraints_ALLOW__UNDERCONSTRAINED__desc,}};
 #define _OMC_LIT9 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT9)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT10,1,3) {&BackendDAE_IndexReduction_INDEX__REDUCTION__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT10,1,4) {&BackendDAE_EquationConstraints_EXACT__desc,}};
 #define _OMC_LIT10 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT10)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT11,1,3) {&BackendDAE_EquationConstraints_ALLOW__UNDERCONSTRAINED__desc,}};
-#define _OMC_LIT11 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT11)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT12,1,4) {&BackendDAE_EquationConstraints_EXACT__desc,}};
+#define _OMC_LIT11_data "Too few equations, under-determined system. The model has %s equation(s) and %s variable(s)."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT11,92,_OMC_LIT11_data);
+#define _OMC_LIT11 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT11)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT12,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(32)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT11}};
 #define _OMC_LIT12 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT12)
-#define _OMC_LIT13_data "Too few equations, under-determined system. The model has %s equation(s) and %s variable(s)."
+#define _OMC_LIT13_data "Too many equations, over-determined system. The model has %s equation(s) and %s variable(s)."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT13,92,_OMC_LIT13_data);
 #define _OMC_LIT13 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT13)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT14,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT13}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT14,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(33)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT13}};
 #define _OMC_LIT14 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT14)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT15,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(32)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT14}};
-#define _OMC_LIT15 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT15)
-#define _OMC_LIT16_data "Too many equations, over-determined system. The model has %s equation(s) and %s variable(s)."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT16,92,_OMC_LIT16_data);
+#define _OMC_LIT15_data "failtrace"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT15,9,_OMC_LIT15_data);
+#define _OMC_LIT15 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT15)
+#define _OMC_LIT16_data "Sets whether to print a failtrace or not."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT16,41,_OMC_LIT16_data);
 #define _OMC_LIT16 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT16)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT17,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT16}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT17,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT15,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT16}};
 #define _OMC_LIT17 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT17)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT18,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(33)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT17}};
-#define _OMC_LIT18 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT18)
-#define _OMC_LIT19_data "failtrace"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT19,9,_OMC_LIT19_data);
-#define _OMC_LIT19 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT19)
-#define _OMC_LIT20_data "Sets whether to print a failtrace or not."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT20,41,_OMC_LIT20_data);
-#define _OMC_LIT20 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT20)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT21,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT20}};
-#define _OMC_LIT21 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT21)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT22,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT19,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT21}};
-#define _OMC_LIT22 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT22)
-#define _OMC_LIT23_data "- Causalize.singularSystemCheck failed\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT23,39,_OMC_LIT23_data);
-#define _OMC_LIT23 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT23)
+#define _OMC_LIT18_data "- Causalize.singularSystemCheck failed\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT18,39,_OMC_LIT18_data);
+#define _OMC_LIT18 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT18)
 #include "util/modelica.h"
 
 #include "Causalize_includes.h"
@@ -119,7 +109,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Causalize_foundSingularSystem(th
   modelica_metatype _inAssignments2 = NULL;
   modelica_metatype _inArg = NULL;
   modelica_metatype _mapIncRowEqn = NULL;
-  modelica_metatype _syst = NULL;
   modelica_metatype _source = NULL;
   modelica_integer _n;
   modelica_metatype _unmatched = NULL;
@@ -143,7 +132,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Causalize_foundSingularSystem(th
   _inAssignments2 = __omcQ_24in_5FinAssignments2;
   _inArg = __omcQ_24in_5FinArg;
   // _mapIncRowEqn has no default value.
-  // _syst has no default value.
   // _source has no default value.
   // _n has no default value.
   // _unmatched has no default value.
@@ -181,7 +169,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Causalize_foundSingularSystem(th
     _info = omc_ElementSource_getElementSourceFileInfo(threadData, _source);
 
     tmpMeta5 = mmc_mk_cons(_eqn_str, mmc_mk_cons(_var_str, MMC_REFSTRUCTLIT(mmc_nil)));
-    omc_Error_addSourceMessage(threadData, (omc_BackendDAEUtil_isInitializationDAE(threadData, _ishared)?_OMC_LIT4:_OMC_LIT7), tmpMeta5, _info);
+    omc_Error_addSourceMessage(threadData, (omc_BackendDAEUtil_isInitializationDAE(threadData, _ishared)?_OMC_LIT3:_OMC_LIT5), tmpMeta5, _info);
 
     MMC_THROW_INTERNAL();
   }
@@ -314,7 +302,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Causalize_singularSystemCheck1(t
   modelica_metatype _outSyst = NULL;
   modelica_metatype _m = NULL;
   modelica_metatype _mT = NULL;
-  modelica_metatype _comps = NULL;
   modelica_metatype _ass1 = NULL;
   modelica_metatype _ass2 = NULL;
   modelica_fnptr _matchingFunc;
@@ -360,7 +347,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Causalize_singularSystemCheck1(t
   _outSyst = _iSyst;
   // _m has no default value.
   // _mT has no default value.
-  // _comps has no default value.
   // _ass1 has no default value.
   // _ass2 has no default value.
   // _syst has no default value.
@@ -404,17 +390,17 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Causalize_singularSystemCheck1(t
 
   _mT = omc_AdjacencyMatrix_absAdjacencyMatrix(threadData, _mT);
 
-  tmpMeta17 = mmc_mk_box5(0, _mapEqnIncRow, _mapIncRowEqn, _OMC_LIT8, mmc_mk_boolean(_scalar), mmc_mk_boolean(_processed));
+  tmpMeta17 = mmc_mk_box5(0, _mapEqnIncRow, _mapIncRowEqn, _OMC_LIT6, mmc_mk_boolean(_scalar), mmc_mk_boolean(_processed));
   _syst = omc_BackendDAEUtil_setEqSystMatrices(threadData, _iSyst, mmc_mk_some(_m), mmc_mk_some(_mT), mmc_mk_some(tmpMeta17));
 
   tmpMeta18 = MMC_TAGPTR(mmc_alloc_words(11));
   memcpy(MMC_UNTAGPTR(tmpMeta18), MMC_UNTAGPTR(_syst), 11*sizeof(modelica_metatype));
-  ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta18))[7] = _OMC_LIT9;
+  ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta18))[7] = _OMC_LIT7;
   _syst = tmpMeta18;
 
   /* Pattern-matching tuple assignment */
-  tmpMeta19 = mmc_mk_box2(0, _OMC_LIT10, _eqnConstr);
-  tmpMeta20 = mmc_mk_box2(0, _OMC_LIT10, _eqnConstr);
+  tmpMeta19 = mmc_mk_box2(0, _OMC_LIT8, _eqnConstr);
+  tmpMeta20 = mmc_mk_box2(0, _OMC_LIT8, _eqnConstr);
   tmpMeta21 = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_matchingFunc), 2))) ? ((modelica_metatype(*)(threadData_t*, modelica_metatype, modelica_metatype, modelica_metatype, modelica_metatype, modelica_metatype, modelica_fnptr, modelica_metatype, modelica_metatype, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_matchingFunc), 1)))) (threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_matchingFunc), 2))), _syst, _iShared, mmc_mk_boolean(1 /* true */), tmpMeta20, boxvar_Causalize_foundSingularSystem, _arg, NULL, NULL) : ((modelica_metatype(*)(threadData_t*, modelica_metatype, modelica_metatype, modelica_metatype, modelica_metatype, modelica_fnptr, modelica_metatype, modelica_metatype, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_matchingFunc), 1)))) (threadData, _syst, _iShared, mmc_mk_boolean(1 /* true */), tmpMeta19, boxvar_Causalize_foundSingularSystem, _arg, NULL, NULL);
   tmpMeta22 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta21), 7));
   if (mmc__uniontype__metarecord__typedef__equal(tmpMeta22,1,3) == 0) MMC_THROW_INTERNAL();
@@ -482,7 +468,7 @@ modelica_metatype omc_Causalize_singularSystemCheck(threadData_t *threadData, mo
           tmpMeta6 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 2));
           if (mmc__uniontype__metarecord__typedef__equal(tmpMeta6,0,0) == 0) goto tmp3_end;
           tmp4 += 2; /* Pattern matching succeeded; we may skip some cases if we fail */
-          tmpMeta1 = omc_Causalize_singularSystemCheck1(threadData, _nvars, _neqns, _isyst, _OMC_LIT11, _matchingAlgorithm, _arg, _ishared);
+          tmpMeta1 = omc_Causalize_singularSystemCheck1(threadData, _nvars, _neqns, _isyst, _OMC_LIT9, _matchingAlgorithm, _arg, _ishared);
           goto tmp3_done;
         }
         case 1: {
@@ -494,7 +480,7 @@ modelica_metatype omc_Causalize_singularSystemCheck(threadData_t *threadData, mo
           /* Pattern-matching assignment */
           tmp8 = (_nvars == _neqns);
           if (1 /* true */ != tmp8) goto goto_2;
-          tmpMeta1 = omc_Causalize_singularSystemCheck1(threadData, _nvars, _neqns, _isyst, _OMC_LIT12, _matchingAlgorithm, _arg, _ishared);
+          tmpMeta1 = omc_Causalize_singularSystemCheck1(threadData, _nvars, _neqns, _isyst, _OMC_LIT10, _matchingAlgorithm, _arg, _ishared);
           goto tmp3_done;
         }
         case 2: {
@@ -513,7 +499,7 @@ modelica_metatype omc_Causalize_singularSystemCheck(threadData_t *threadData, mo
           _vsize_str = intString(_nvars);
 
           tmpMeta11 = mmc_mk_cons(_esize_str, mmc_mk_cons(_vsize_str, MMC_REFSTRUCTLIT(mmc_nil)));
-          omc_Error_addMessage(threadData, _OMC_LIT15, tmpMeta11);
+          omc_Error_addMessage(threadData, _OMC_LIT12, tmpMeta11);
 
           omc_BackendDAEUtil_checkAdjacencyMatrixSolvability(threadData, _isyst, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_ishared), 12))), omc_BackendDAEUtil_isInitializationDAE(threadData, _ishared));
           goto goto_2;
@@ -533,7 +519,7 @@ modelica_metatype omc_Causalize_singularSystemCheck(threadData_t *threadData, mo
           _vsize_str = intString(_nvars);
 
           tmpMeta13 = mmc_mk_cons(_esize_str, mmc_mk_cons(_vsize_str, MMC_REFSTRUCTLIT(mmc_nil)));
-          omc_Error_addMessage(threadData, _OMC_LIT18, tmpMeta13);
+          omc_Error_addMessage(threadData, _OMC_LIT14, tmpMeta13);
 
           omc_BackendDAEUtil_checkAdjacencyMatrixSolvability(threadData, _isyst, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_ishared), 12))), omc_BackendDAEUtil_isInitializationDAE(threadData, _ishared));
           goto goto_2;
@@ -544,10 +530,10 @@ modelica_metatype omc_Causalize_singularSystemCheck(threadData_t *threadData, mo
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp14 = omc_Flags_isSet(threadData, _OMC_LIT22);
+          tmp14 = omc_Flags_isSet(threadData, _OMC_LIT17);
           if (1 /* true */ != tmp14) goto goto_2;
 
-          omc_Debug_trace(threadData, _OMC_LIT23);
+          omc_Debug_trace(threadData, _OMC_LIT18);
           goto goto_2;
           goto tmp3_done;
         }

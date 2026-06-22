@@ -10,10 +10,8 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT2,1,5) {&ErrorTypes_Severity_WARNIN
 #define _OMC_LIT3_data "Parameter %s has annotation(Evaluate=true) and no binding."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT3,58,_OMC_LIT3_data);
 #define _OMC_LIT3 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT3)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT4,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT3}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT4,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(596)),_OMC_LIT1,_OMC_LIT2,_OMC_LIT3}};
 #define _OMC_LIT4 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT4)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT5,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(596)),_OMC_LIT1,_OMC_LIT2,_OMC_LIT4}};
-#define _OMC_LIT5 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT5)
 #include "util/modelica.h"
 
 #include "NFStructural_includes.h"
@@ -637,13 +635,11 @@ DLLDirection
 modelica_boolean omc_NFStructural_isStructuralComponent(threadData_t *threadData, modelica_metatype _component, modelica_metatype _compAttrs, modelica_metatype _compBinding, modelica_metatype _compNode, modelica_boolean _compEval, modelica_boolean _parentEval, modelica_integer _context)
 {
   modelica_boolean _isStructural;
-  modelica_boolean _is_fixed;
   modelica_metatype _binding = NULL;
   modelica_metatype tmpMeta1;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _isStructural has no default value.
-  // _is_fixed has no default value.
   // _binding has no default value.
   if((mmc_unbox_integer((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_compAttrs), 4)))) != 3))
   {
@@ -672,7 +668,7 @@ modelica_boolean omc_NFStructural_isStructuralComponent(threadData_t *threadData
             if(((!_parentEval) && (!omc_NFInstContext_inRelaxed(threadData, _context))))
             {
               tmpMeta1 = mmc_mk_cons(omc_NFInstNode_InstNode_name(threadData, _compNode), MMC_REFSTRUCTLIT(mmc_nil));
-              omc_Error_addSourceMessage(threadData, _OMC_LIT5, tmpMeta1, omc_NFInstNode_InstNode_info(threadData, _compNode));
+              omc_Error_addSourceMessage(threadData, _OMC_LIT4, tmpMeta1, omc_NFInstNode_InstNode_info(threadData, _compNode));
             }
 
             _isStructural = 0 /* false */;

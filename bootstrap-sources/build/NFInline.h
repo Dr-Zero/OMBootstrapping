@@ -22,9 +22,11 @@ extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NFExpression_CALL__desc;
+
+extern struct record_description NFExpression_IF__desc;
+
+extern struct record_description NFStatement_ASSIGNMENT__desc;
 
 extern struct record_description NFStatement_FAILURE__desc;
 
@@ -39,6 +41,15 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 #define boxptr_NFInline_makeOutputStatement omc_NFInline_makeOutputStatement
 
 
+#define boxptr_NFInline_convertIfToAssignment omc_NFInline_convertIfToAssignment
+
+
+#define boxptr_NFInline_convertToAssignment omc_NFInline_convertToAssignment
+
+
+#define boxptr_NFInline_removeDeadCode omc_NFInline_removeDeadCode
+
+
 #define boxptr_NFInline_replaceDimExp omc_NFInline_replaceDimExp
 
 
@@ -49,9 +60,9 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
 DLLDirection
-modelica_metatype omc_NFInline_inlineCall(threadData_t *threadData, modelica_metatype _call, modelica_boolean _forceInline);
+modelica_metatype omc_NFInline_inlineCall(threadData_t *threadData, modelica_metatype _callExp, modelica_boolean _forceInline);
 DLLDirection
-modelica_metatype boxptr_NFInline_inlineCall(threadData_t *threadData, modelica_metatype _call, modelica_metatype _forceInline);
+modelica_metatype boxptr_NFInline_inlineCall(threadData_t *threadData, modelica_metatype _callExp, modelica_metatype _forceInline);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFInline_inlineCall,2,0) {(void*) boxptr_NFInline_inlineCall,0}};
 #define boxvar_NFInline_inlineCall MMC_REFSTRUCTLIT(boxvar_lit_NFInline_inlineCall)
 

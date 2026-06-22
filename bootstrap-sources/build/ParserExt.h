@@ -48,6 +48,15 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ParserExt_startLibraryVendorExecutable,
 extern int ParserExt_startLibraryVendorExecutable(const char* /*_lvePath*/, modelica_metatype* /*_lveInstance*/);
 
 DLLDirection
+modelica_metatype omc_ParserExt_stringEq(threadData_t *threadData, modelica_string _str, modelica_string _infoFilename, modelica_integer _acceptedGram, modelica_integer _languageStandardInt, modelica_boolean _runningTestsuite);
+DLLDirection
+modelica_metatype boxptr_ParserExt_stringEq(threadData_t *threadData, modelica_metatype _str, modelica_metatype _infoFilename, modelica_metatype _acceptedGram, modelica_metatype _languageStandardInt, modelica_metatype _runningTestsuite);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_ParserExt_stringEq,2,0) {(void*) boxptr_ParserExt_stringEq,0}};
+#define boxvar_ParserExt_stringEq MMC_REFSTRUCTLIT(boxvar_lit_ParserExt_stringEq)
+
+extern modelica_metatype ParserExt_stringEq(const char* /*_str*/, const char* /*_infoFilename*/, int /*_acceptedGram*/, int /*_languageStandardInt*/, int /*_runningTestsuite*/);
+
+DLLDirection
 modelica_metatype omc_ParserExt_stringMod(threadData_t *threadData, modelica_string _str, modelica_string _infoFilename, modelica_integer _acceptedGram, modelica_integer _languageStandardInt, modelica_boolean _runningTestsuite);
 DLLDirection
 modelica_metatype boxptr_ParserExt_stringMod(threadData_t *threadData, modelica_metatype _str, modelica_metatype _infoFilename, modelica_metatype _acceptedGram, modelica_metatype _languageStandardInt, modelica_metatype _runningTestsuite);

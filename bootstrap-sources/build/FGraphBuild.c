@@ -844,8 +844,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_FGraphBuild_analyseCref(threadDa
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outGraph has no default value.
-  { /* matchcontinue expression */
-    volatile modelica_metatype tmp4_1;volatile modelica_metatype tmp4_2;
+  { /* match expression */
+    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
     tmp4_1 = _inCref;
     tmp4_2 = _inGraph;
     {
@@ -854,9 +854,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_FGraphBuild_analyseCref(threadDa
       int tmp5;
       // _g has no default value.
       tmp4 = 0;
-      MMC_TRY_INTERNAL(mmc_jumper)
-      tmp3_top:
-      threadData->mmc_jumper = &new_mmc_jumper;
       for (; tmp4 < 2; tmp4++) {
         switch (MMC_SWITCH_CAST(tmp4)) {
         case 0: {
@@ -879,17 +876,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_FGraphBuild_analyseCref(threadDa
         tmp3_end: ;
       }
       goto goto_2;
-      tmp3_done:
-      (void)tmp4;
-      MMC_RESTORE_INTERNAL(mmc_jumper);
-      goto tmp3_done2;
       goto_2:;
-      MMC_CATCH_INTERNAL(mmc_jumper);
-      if (++tmp4 < 2) {
-        goto tmp3_top;
-      }
       MMC_THROW_INTERNAL();
-      tmp3_done2:;
+      goto tmp3_done;
+      tmp3_done:;
     }
   }
   _outGraph = tmpMeta1;

@@ -50,6 +50,14 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
 DLLDirection
+modelica_metatype omc_NFVariable_asBinding(threadData_t *threadData, modelica_metatype _var, modelica_integer _source);
+DLLDirection
+modelica_metatype boxptr_NFVariable_asBinding(threadData_t *threadData, modelica_metatype _var, modelica_metatype _source);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFVariable_asBinding,2,0) {(void*) boxptr_NFVariable_asBinding,0}};
+#define boxvar_NFVariable_asBinding MMC_REFSTRUCTLIT(boxvar_lit_NFVariable_asBinding)
+
+
+DLLDirection
 modelica_metatype omc_NFVariable_getNominal(threadData_t *threadData, modelica_metatype _var);
 #define boxptr_NFVariable_getNominal omc_NFVariable_getNominal
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFVariable_getNominal,2,0) {(void*) boxptr_NFVariable_getNominal,0}};
@@ -363,6 +371,13 @@ DLLDirection
 modelica_metatype boxptr_NFVariable_size(threadData_t *threadData, modelica_metatype _var, modelica_metatype _resize);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFVariable_size,2,0) {(void*) boxptr_NFVariable_size,0}};
 #define boxvar_NFVariable_size MMC_REFSTRUCTLIT(boxvar_lit_NFVariable_size)
+
+
+DLLDirection
+modelica_metatype omc_NFVariable_name(threadData_t *threadData, modelica_metatype _var);
+#define boxptr_NFVariable_name omc_NFVariable_name
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFVariable_name,2,0) {(void*) boxptr_NFVariable_name,0}};
+#define boxvar_NFVariable_name MMC_REFSTRUCTLIT(boxvar_lit_NFVariable_name)
 
 
 DLLDirection

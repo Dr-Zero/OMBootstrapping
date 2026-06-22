@@ -16,8 +16,6 @@ extern struct record_description ErrorTypes_MessageType_SYNTAX__desc;
 
 extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description LexerModelicaDiff_Token_TOKEN__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
@@ -132,9 +130,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_LexerModelicaDiff_printToken,2,0) {(voi
 
 
 DLLDirection
-modelica_metatype omc_LexerModelicaDiff_action(threadData_t *threadData, modelica_integer _act, modelica_integer _startSt, modelica_integer _mm_currSt, modelica_integer _mm_pos, modelica_integer _mm_sPos, modelica_integer _mm_ePos, modelica_integer _mm_linenr, modelica_integer _lineNrStart, modelica_integer _buffer, modelica_boolean _debug, modelica_string _fileNm, modelica_string _fileContents, modelica_metatype _inErrorTokens, modelica_integer *out_mm_startSt, modelica_integer *out_bufferRet, modelica_metatype *out_errorTokens);
+modelica_metatype omc_LexerModelicaDiff_action(threadData_t *threadData, modelica_integer _act, modelica_integer _startSt, modelica_integer _mm_currSt, modelica_integer _mm_pos, modelica_integer _mm_sPos, modelica_integer _mm_ePos, modelica_integer _mm_linenr, modelica_integer _lineNrStart, modelica_integer _buffer, modelica_string _fileNm, modelica_string _fileContents, modelica_metatype _inErrorTokens, modelica_integer *out_mm_startSt, modelica_integer *out_bufferRet, modelica_metatype *out_errorTokens);
 DLLDirection
-modelica_metatype boxptr_LexerModelicaDiff_action(threadData_t *threadData, modelica_metatype _act, modelica_metatype _startSt, modelica_metatype _mm_currSt, modelica_metatype _mm_pos, modelica_metatype _mm_sPos, modelica_metatype _mm_ePos, modelica_metatype _mm_linenr, modelica_metatype _lineNrStart, modelica_metatype _buffer, modelica_metatype _debug, modelica_metatype _fileNm, modelica_metatype _fileContents, modelica_metatype _inErrorTokens, modelica_metatype *out_mm_startSt, modelica_metatype *out_bufferRet, modelica_metatype *out_errorTokens);
+modelica_metatype boxptr_LexerModelicaDiff_action(threadData_t *threadData, modelica_metatype _act, modelica_metatype _startSt, modelica_metatype _mm_currSt, modelica_metatype _mm_pos, modelica_metatype _mm_sPos, modelica_metatype _mm_ePos, modelica_metatype _mm_linenr, modelica_metatype _lineNrStart, modelica_metatype _buffer, modelica_metatype _fileNm, modelica_metatype _fileContents, modelica_metatype _inErrorTokens, modelica_metatype *out_mm_startSt, modelica_metatype *out_bufferRet, modelica_metatype *out_errorTokens);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_LexerModelicaDiff_action,2,0) {(void*) boxptr_LexerModelicaDiff_action,0}};
 #define boxvar_LexerModelicaDiff_action MMC_REFSTRUCTLIT(boxvar_lit_LexerModelicaDiff_action)
 

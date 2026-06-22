@@ -12,8 +12,6 @@ extern "C" {
 
 extern struct record_description MMath_Rational_RATIONAL__desc;
 
-extern struct record_description NBBackendUtil_Rational_RATIONAL__desc;
-
 extern struct record_description NBMatching_MATCHING__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
@@ -34,17 +32,17 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBBackendUtil_getLocalSystem,2,0) {(voi
 
 
 DLLDirection
-modelica_boolean omc_NBBackendUtil_isContinuousFold(threadData_t *threadData, modelica_metatype _exp, modelica_boolean _init, modelica_boolean __omcQ_24in_5Fb);
+modelica_boolean omc_NBBackendUtil_isContinuousFold(threadData_t *threadData, modelica_metatype _exp, modelica_boolean _staticAsContinuous, modelica_boolean __omcQ_24in_5Fb);
 DLLDirection
-modelica_metatype boxptr_NBBackendUtil_isContinuousFold(threadData_t *threadData, modelica_metatype _exp, modelica_metatype _init, modelica_metatype __omcQ_24in_5Fb);
+modelica_metatype boxptr_NBBackendUtil_isContinuousFold(threadData_t *threadData, modelica_metatype _exp, modelica_metatype _staticAsContinuous, modelica_metatype __omcQ_24in_5Fb);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBBackendUtil_isContinuousFold,2,0) {(void*) boxptr_NBBackendUtil_isContinuousFold,0}};
 #define boxvar_NBBackendUtil_isContinuousFold MMC_REFSTRUCTLIT(boxvar_lit_NBBackendUtil_isContinuousFold)
 
 
 DLLDirection
-modelica_boolean omc_NBBackendUtil_isContinuous(threadData_t *threadData, modelica_metatype _exp, modelica_boolean _init);
+modelica_boolean omc_NBBackendUtil_isContinuous(threadData_t *threadData, modelica_metatype _exp, modelica_boolean _staticAsContinuous);
 DLLDirection
-modelica_metatype boxptr_NBBackendUtil_isContinuous(threadData_t *threadData, modelica_metatype _exp, modelica_metatype _init);
+modelica_metatype boxptr_NBBackendUtil_isContinuous(threadData_t *threadData, modelica_metatype _exp, modelica_metatype _staticAsContinuous);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBBackendUtil_isContinuous,2,0) {(void*) boxptr_NBBackendUtil_isContinuous,0}};
 #define boxvar_NBBackendUtil_isContinuous MMC_REFSTRUCTLIT(boxvar_lit_NBBackendUtil_isContinuous)
 
@@ -105,46 +103,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBBackendUtil_findTrueIndices,2,0) {(vo
 
 
 DLLDirection
-modelica_metatype omc_NBBackendUtil_Rational_convert(threadData_t *threadData, modelica_metatype _r);
-#define boxptr_NBBackendUtil_Rational_convert omc_NBBackendUtil_Rational_convert
-static const MMC_DEFSTRUCTLIT(boxvar_lit_NBBackendUtil_Rational_convert,2,0) {(void*) boxptr_NBBackendUtil_Rational_convert,0}};
-#define boxvar_NBBackendUtil_Rational_convert MMC_REFSTRUCTLIT(boxvar_lit_NBBackendUtil_Rational_convert)
-
-
-DLLDirection
-modelica_boolean omc_NBBackendUtil_Rational_isEqual(threadData_t *threadData, modelica_metatype _r1, modelica_metatype _r2);
-DLLDirection
-modelica_metatype boxptr_NBBackendUtil_Rational_isEqual(threadData_t *threadData, modelica_metatype _r1, modelica_metatype _r2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_NBBackendUtil_Rational_isEqual,2,0) {(void*) boxptr_NBBackendUtil_Rational_isEqual,0}};
-#define boxvar_NBBackendUtil_Rational_isEqual MMC_REFSTRUCTLIT(boxvar_lit_NBBackendUtil_Rational_isEqual)
-
-
-DLLDirection
-modelica_metatype omc_NBBackendUtil_Rational_multiply(threadData_t *threadData, modelica_metatype _r1, modelica_metatype _r2);
-#define boxptr_NBBackendUtil_Rational_multiply omc_NBBackendUtil_Rational_multiply
-static const MMC_DEFSTRUCTLIT(boxvar_lit_NBBackendUtil_Rational_multiply,2,0) {(void*) boxptr_NBBackendUtil_Rational_multiply,0}};
-#define boxvar_NBBackendUtil_Rational_multiply MMC_REFSTRUCTLIT(boxvar_lit_NBBackendUtil_Rational_multiply)
-
-
-DLLDirection
-modelica_metatype omc_NBBackendUtil_Rational_add(threadData_t *threadData, modelica_metatype _r1, modelica_metatype _r2);
-#define boxptr_NBBackendUtil_Rational_add omc_NBBackendUtil_Rational_add
-static const MMC_DEFSTRUCTLIT(boxvar_lit_NBBackendUtil_Rational_add,2,0) {(void*) boxptr_NBBackendUtil_Rational_add,0}};
-#define boxvar_NBBackendUtil_Rational_add MMC_REFSTRUCTLIT(boxvar_lit_NBBackendUtil_Rational_add)
-
-
-DLLDirection
-modelica_metatype omc_NBBackendUtil_Rational_normalize(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fr);
-#define boxptr_NBBackendUtil_Rational_normalize omc_NBBackendUtil_Rational_normalize
-static const MMC_DEFSTRUCTLIT(boxvar_lit_NBBackendUtil_Rational_normalize,2,0) {(void*) boxptr_NBBackendUtil_Rational_normalize,0}};
-#define boxvar_NBBackendUtil_Rational_normalize MMC_REFSTRUCTLIT(boxvar_lit_NBBackendUtil_Rational_normalize)
-
-
-DLLDirection
-modelica_string omc_NBBackendUtil_Rational_toString(threadData_t *threadData, modelica_metatype _r);
-#define boxptr_NBBackendUtil_Rational_toString omc_NBBackendUtil_Rational_toString
-static const MMC_DEFSTRUCTLIT(boxvar_lit_NBBackendUtil_Rational_toString,2,0) {(void*) boxptr_NBBackendUtil_Rational_toString,0}};
-#define boxvar_NBBackendUtil_Rational_toString MMC_REFSTRUCTLIT(boxvar_lit_NBBackendUtil_Rational_toString)
+modelica_metatype omc_NBBackendUtil_convertRational(threadData_t *threadData, modelica_metatype _r);
+#define boxptr_NBBackendUtil_convertRational omc_NBBackendUtil_convertRational
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBBackendUtil_convertRational,2,0) {(void*) boxptr_NBBackendUtil_convertRational,0}};
+#define boxvar_NBBackendUtil_convertRational MMC_REFSTRUCTLIT(boxvar_lit_NBBackendUtil_convertRational)
 
 #ifdef __cplusplus
 }

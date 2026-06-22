@@ -1097,20 +1097,14 @@ modelica_string omc_AvlSetPath_printTreeStr(threadData_t *threadData, modelica_m
 PROTECTED_FUNCTION_STATIC modelica_string omc_AvlSetPath_printTreeStr2(threadData_t *threadData, modelica_metatype _inTree, modelica_boolean _isLeft, modelica_string _inIndent)
 {
   modelica_string _outString = NULL;
-  modelica_metatype _val_node = NULL;
   modelica_metatype _left = NULL;
   modelica_metatype _right = NULL;
-  modelica_string _left_str = NULL;
-  modelica_string _right_str = NULL;
   modelica_string tmp1 = 0;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outString has no default value.
-  // _val_node has no default value.
   // _left has no default value.
   // _right has no default value.
-  // _left_str has no default value.
-  // _right_str has no default value.
   { /* match expression */
     modelica_metatype tmp4_1;
     tmp4_1 = _inTree;

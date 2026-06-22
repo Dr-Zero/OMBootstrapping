@@ -18,6 +18,8 @@ extern struct record_description Absyn_Path_IDENT__desc;
 
 extern struct record_description AvlSetInt_Tree_EMPTY__desc;
 
+extern struct record_description AvlTreePathFunction_Tree_EMPTY__desc;
+
 extern struct record_description BackendDAE_BackendDAE_DAE__desc;
 
 extern struct record_description BackendDAE_BaseClockPartitionKind_CONTINUOUS__TIME__PARTITION__desc;
@@ -30,9 +32,13 @@ extern struct record_description BackendDAE_CompInfo_SYSTEM__desc;
 
 extern struct record_description BackendDAE_CompInfo_TORN__ANALYSE__desc;
 
+extern struct record_description BackendDAE_EqSystem_EQSYSTEM__desc;
+
 extern struct record_description BackendDAE_Equation_ALGORITHM__desc;
 
 extern struct record_description BackendDAE_Equation_COMPLEX__EQUATION__desc;
+
+extern struct record_description BackendDAE_Equation_DUMMY__EQUATION__desc;
 
 extern struct record_description BackendDAE_Equation_EQUATION__desc;
 
@@ -60,6 +66,8 @@ extern struct record_description BackendDAE_Matching_MATCHING__desc;
 
 extern struct record_description BackendDAE_Matching_NO__MATCHING__desc;
 
+extern struct record_description BackendDAE_Shared_SHARED__desc;
+
 extern struct record_description BackendDAE_StrongComponent_EQUATIONSYSTEM__desc;
 
 extern struct record_description BackendDAE_StrongComponent_SINGLEEQUATION__desc;
@@ -81,8 +89,6 @@ extern struct record_description BackendDAE_VarKind_VARIABLE__desc;
 extern struct record_description DAE_Algorithm_ALGORITHM__STMTS__desc;
 
 extern struct record_description DAE_Attributes_ATTR__desc;
-
-extern struct record_description DAE_AvlTreePathFunction_Tree_EMPTY__desc;
 
 extern struct record_description DAE_CallAttributes_CALL__ATTR__desc;
 
@@ -201,8 +207,6 @@ extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 extern struct record_description Flags_FlagVisibility_INTERNAL__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__DESC__OPTION__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
 extern struct record_description SCode_Initial_NON__INITIAL__desc;
 

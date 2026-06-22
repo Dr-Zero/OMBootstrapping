@@ -10,7 +10,15 @@
 extern "C" {
 #endif
 
+extern struct record_description Absyn_Path_IDENT__desc;
+
 extern struct record_description DAE_Expand_EXPAND__desc;
+
+extern struct record_description DAE_FunctionAttributes_FUNCTION__ATTRIBUTES__desc;
+
+extern struct record_description DAE_FunctionBuiltin_FUNCTION__BUILTIN__desc;
+
+extern struct record_description DAE_FunctionParallelism_FP__NON__PARALLEL__desc;
 
 extern struct record_description DAE_InlineType_AFTER__INDEX__RED__INLINE__desc;
 
@@ -21,6 +29,8 @@ extern struct record_description DAE_InlineType_DEFAULT__INLINE__desc;
 extern struct record_description DAE_InlineType_EARLY__INLINE__desc;
 
 extern struct record_description DAE_InlineType_NORM__INLINE__desc;
+
+extern struct record_description DAE_InlineType_NO__INLINE__desc;
 
 extern struct record_description ErrorTypes_Message_MESSAGE__desc;
 
@@ -39,10 +49,6 @@ extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
 extern struct record_description Flags_FlagData_STRING__LIST__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
 
 extern struct record_description NBEquation_EqData_EQ__DATA__SIM__desc;
 
@@ -116,9 +122,15 @@ extern struct record_description NFBinding_UNBOUND__desc;
 
 extern struct record_description NFComponentRef_EMPTY__desc;
 
+extern struct record_description NFExpression_CALL__desc;
+
 extern struct record_description NFExpression_CREF__desc;
 
 extern struct record_description NFExpression_END__desc;
+
+extern struct record_description NFExpression_IF__desc;
+
+extern struct record_description NFFunction_Function_FUNCTION__desc;
 
 extern struct record_description NFInstNode_InstNode_EMPTY__NODE__desc;
 
@@ -133,6 +145,8 @@ extern struct record_description NFStatement_NORETCALL__desc;
 extern struct record_description NFType_ANY__desc;
 
 extern struct record_description NFType_INTEGER__desc;
+
+extern struct record_description NFType_UNKNOWN__desc;
 
 extern struct record_description NFVariable_VARIABLE__desc;
 
@@ -325,6 +339,13 @@ modelica_metatype omc_NBackendDAE_getLoopResiduals(threadData_t *threadData, mod
 #define boxptr_NBackendDAE_getLoopResiduals omc_NBackendDAE_getLoopResiduals
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBackendDAE_getLoopResiduals,2,0) {(void*) boxptr_NBackendDAE_getLoopResiduals,0}};
 #define boxvar_NBackendDAE_getLoopResiduals MMC_REFSTRUCTLIT(boxvar_lit_NBackendDAE_getLoopResiduals)
+
+
+DLLDirection
+modelica_metatype omc_NBackendDAE_updateDiscreteStates(threadData_t *threadData, modelica_metatype __omcQ_24in_5FvarData, modelica_metatype _acc_discrete_states, modelica_metatype _acc_previous);
+#define boxptr_NBackendDAE_updateDiscreteStates omc_NBackendDAE_updateDiscreteStates
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBackendDAE_updateDiscreteStates,2,0) {(void*) boxptr_NBackendDAE_updateDiscreteStates,0}};
+#define boxvar_NBackendDAE_updateDiscreteStates MMC_REFSTRUCTLIT(boxvar_lit_NBackendDAE_updateDiscreteStates)
 
 
 DLLDirection

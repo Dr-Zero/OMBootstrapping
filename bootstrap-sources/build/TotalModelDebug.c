@@ -76,13 +76,11 @@ modelica_metatype omc_TotalModelDebug_saveElement(threadData_t *threadData, mode
 {
   modelica_metatype _elements = NULL;
   modelica_metatype _elem = NULL;
-  modelica_boolean _is_empty;
   modelica_metatype tmpMeta1;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   _elements = __omcQ_24in_5Felements;
   _elem = _element;
-  // _is_empty has no default value.
   { /* match expression */
     modelica_metatype tmp4_1;
     tmp4_1 = _elem;

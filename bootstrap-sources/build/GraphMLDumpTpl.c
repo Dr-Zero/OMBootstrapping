@@ -676,10 +676,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_fun__22(threadDat
 PROTECTED_FUNCTION_STATIC modelica_metatype boxptr_GraphMLDumpTpl_fun__22(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_mArg, modelica_metatype _in_a_val, modelica_metatype _in_a_idx);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_GraphMLDumpTpl_fun__22,2,0) {(void*) boxptr_GraphMLDumpTpl_fun__22,0}};
 #define boxvar_GraphMLDumpTpl_fun__22 MMC_REFSTRUCTLIT(boxvar_lit_GraphMLDumpTpl_fun__22)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__18(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items, modelica_metatype _in_a_graphAttributes);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__18(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items, modelica_metatype _a_graphAttributes);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_GraphMLDumpTpl_lm__18,2,0) {(void*) boxptr_GraphMLDumpTpl_lm__18,0}};
 #define boxvar_GraphMLDumpTpl_lm__18 MMC_REFSTRUCTLIT(boxvar_lit_GraphMLDumpTpl_lm__18)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__17(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__17(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_GraphMLDumpTpl_lm__17,2,0) {(void*) boxptr_GraphMLDumpTpl_lm__17,0}};
 #define boxvar_GraphMLDumpTpl_lm__17 MMC_REFSTRUCTLIT(boxvar_lit_GraphMLDumpTpl_lm__17)
 PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_fun__15(threadData_t *threadData, modelica_metatype _in_txt, modelica_boolean _in_a_isFolded);
@@ -693,22 +693,22 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_GraphMLDumpTpl_fun__14,2,0) {(void*) bo
 PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_fun__13(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_mArg);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_GraphMLDumpTpl_fun__13,2,0) {(void*) boxptr_GraphMLDumpTpl_fun__13,0}};
 #define boxvar_GraphMLDumpTpl_fun__13 MMC_REFSTRUCTLIT(boxvar_lit_GraphMLDumpTpl_fun__13)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__12(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items, modelica_metatype _in_a_graphAttributes);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__12(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items, modelica_metatype _a_graphAttributes);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_GraphMLDumpTpl_lm__12,2,0) {(void*) boxptr_GraphMLDumpTpl_lm__12,0}};
 #define boxvar_GraphMLDumpTpl_lm__12 MMC_REFSTRUCTLIT(boxvar_lit_GraphMLDumpTpl_lm__12)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__11(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__11(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_GraphMLDumpTpl_lm__11,2,0) {(void*) boxptr_GraphMLDumpTpl_lm__11,0}};
 #define boxvar_GraphMLDumpTpl_lm__11 MMC_REFSTRUCTLIT(boxvar_lit_GraphMLDumpTpl_lm__11)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__9(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items, modelica_metatype _in_a_graphAttributes);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__9(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items, modelica_metatype _a_graphAttributes);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_GraphMLDumpTpl_lm__9,2,0) {(void*) boxptr_GraphMLDumpTpl_lm__9,0}};
 #define boxvar_GraphMLDumpTpl_lm__9 MMC_REFSTRUCTLIT(boxvar_lit_GraphMLDumpTpl_lm__9)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__8(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items, modelica_metatype _in_a_graphAttributes, modelica_string _in_a_graphNodeKey, modelica_metatype _in_a_allGraphs, modelica_metatype _in_a_allNodes);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__8(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items, modelica_metatype _a_graphAttributes, modelica_string _a_graphNodeKey, modelica_metatype _a_allGraphs, modelica_metatype _a_allNodes);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_GraphMLDumpTpl_lm__8,2,0) {(void*) boxptr_GraphMLDumpTpl_lm__8,0}};
 #define boxvar_GraphMLDumpTpl_lm__8 MMC_REFSTRUCTLIT(boxvar_lit_GraphMLDumpTpl_lm__8)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__6(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items, modelica_metatype _in_a_attributes, modelica_string _in_a_graphInfo_graphEdgeKey);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__6(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items, modelica_metatype _a_attributes, modelica_string _a_graphInfo_graphEdgeKey);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_GraphMLDumpTpl_lm__6,2,0) {(void*) boxptr_GraphMLDumpTpl_lm__6,0}};
 #define boxvar_GraphMLDumpTpl_lm__6 MMC_REFSTRUCTLIT(boxvar_lit_GraphMLDumpTpl_lm__6)
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__5(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items);
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__5(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_GraphMLDumpTpl_lm__5,2,0) {(void*) boxptr_GraphMLDumpTpl_lm__5,0}};
 #define boxvar_GraphMLDumpTpl_lm__5 MMC_REFSTRUCTLIT(boxvar_lit_GraphMLDumpTpl_lm__5)
 
@@ -1956,145 +1956,106 @@ modelica_metatype omc_GraphMLDumpTpl_dumpEdge(threadData_t *threadData, modelica
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__18(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items, modelica_metatype _in_a_graphAttributes)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__18(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items, modelica_metatype _a_graphAttributes)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;modelica_metatype tmp4_3;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
-    tmp4_3 = _in_a_graphAttributes;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_18;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _a_graphAttributes = NULL;
-      modelica_metatype _i_val = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _a_graphAttributes has no default value.
-      // _i_val has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_18 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_18;
+        {
+          modelica_metatype _i_val = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_val has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_val = tmp5_1;
+              /* Pattern matching succeeded */
+              _txt = omc_GraphMLDumpTpl_dumpAttKey(threadData, _txt, _i_val, _a_graphAttributes);
+              tmpMeta2 = omc_Tpl_nextIter(threadData, _txt);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_val = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          _a_graphAttributes = tmp4_3;
-          /* Pattern matching succeeded */
-          _txt = omc_GraphMLDumpTpl_dumpAttKey(threadData, _txt, _i_val, _a_graphAttributes);
-
-          _txt = omc_Tpl_nextIter(threadData, _txt);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          _in_a_graphAttributes = _a_graphAttributes;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__17(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__17(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_17;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_label = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_label has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_17 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_17;
+        {
+          modelica_metatype _i_label = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_label has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_label = tmp5_1;
+              /* Pattern matching succeeded */
+              _txt = omc_GraphMLDumpTpl_dumpEdgeLabel(threadData, _txt, _i_label);
+              tmpMeta2 = omc_Tpl_nextIter(threadData, _txt);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_label = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_GraphMLDumpTpl_dumpEdgeLabel(threadData, _txt, _i_label);
-
-          _txt = omc_Tpl_nextIter(threadData, _txt);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
 DLLDirection
@@ -2569,145 +2530,106 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_fun__13(threadDat
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__12(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items, modelica_metatype _in_a_graphAttributes)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__12(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items, modelica_metatype _a_graphAttributes)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;modelica_metatype tmp4_3;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
-    tmp4_3 = _in_a_graphAttributes;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_12;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _a_graphAttributes = NULL;
-      modelica_metatype _i_val = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _a_graphAttributes has no default value.
-      // _i_val has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_12 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_12;
+        {
+          modelica_metatype _i_val = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_val has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_val = tmp5_1;
+              /* Pattern matching succeeded */
+              _txt = omc_GraphMLDumpTpl_dumpAttKey(threadData, _txt, _i_val, _a_graphAttributes);
+              tmpMeta2 = omc_Tpl_nextIter(threadData, _txt);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_val = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          _a_graphAttributes = tmp4_3;
-          /* Pattern matching succeeded */
-          _txt = omc_GraphMLDumpTpl_dumpAttKey(threadData, _txt, _i_val, _a_graphAttributes);
-
-          _txt = omc_Tpl_nextIter(threadData, _txt);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          _in_a_graphAttributes = _a_graphAttributes;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__11(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__11(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_11;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_label = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_label has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_11 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_11;
+        {
+          modelica_metatype _i_label = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_label has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_label = tmp5_1;
+              /* Pattern matching succeeded */
+              _txt = omc_GraphMLDumpTpl_dumpNodeLabel(threadData, _txt, _i_label);
+              tmpMeta2 = omc_Tpl_nextIter(threadData, _txt);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_label = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_GraphMLDumpTpl_dumpNodeLabel(threadData, _txt, _i_label);
-
-          _txt = omc_Tpl_nextIter(threadData, _txt);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
 DLLDirection
@@ -2845,183 +2767,123 @@ modelica_metatype omc_GraphMLDumpTpl_dumpGraph(threadData_t *threadData, modelic
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__9(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items, modelica_metatype _in_a_graphAttributes)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__9(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items, modelica_metatype _a_graphAttributes)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;modelica_metatype tmp4_3;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
-    tmp4_3 = _in_a_graphAttributes;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_9;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _a_graphAttributes = NULL;
-      modelica_metatype _i_val = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _a_graphAttributes has no default value.
-      // _i_val has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_9 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_9;
+        {
+          modelica_metatype _i_val = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_val has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_val = tmp5_1;
+              /* Pattern matching succeeded */
+              _txt = omc_GraphMLDumpTpl_dumpAttKey(threadData, _txt, _i_val, _a_graphAttributes);
+              tmpMeta2 = omc_Tpl_nextIter(threadData, _txt);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_val = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          _a_graphAttributes = tmp4_3;
-          /* Pattern matching succeeded */
-          _txt = omc_GraphMLDumpTpl_dumpAttKey(threadData, _txt, _i_val, _a_graphAttributes);
-
-          _txt = omc_Tpl_nextIter(threadData, _txt);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          _in_a_graphAttributes = _a_graphAttributes;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__8(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items, modelica_metatype _in_a_graphAttributes, modelica_string _in_a_graphNodeKey, modelica_metatype _in_a_allGraphs, modelica_metatype _in_a_allNodes)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__8(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items, modelica_metatype _a_graphAttributes, modelica_string _a_graphNodeKey, modelica_metatype _a_allGraphs, modelica_metatype _a_allNodes)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta8;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;modelica_metatype tmp4_3;modelica_string tmp4_4;modelica_metatype tmp4_5;modelica_metatype tmp4_6;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
-    tmp4_3 = _in_a_graphAttributes;
-    tmp4_4 = _in_a_graphNodeKey;
-    tmp4_5 = _in_a_allGraphs;
-    tmp4_6 = _in_a_allNodes;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_8;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _a_graphAttributes = NULL;
-      modelica_string _a_graphNodeKey = NULL;
-      modelica_metatype _a_allGraphs = NULL;
-      modelica_metatype _a_allNodes = NULL;
-      modelica_integer _i_idc;
-      modelica_metatype _ret_3 = NULL;
-      modelica_integer _ret_2;
-      modelica_integer _ret_1;
-      modelica_integer _ret_0;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _a_graphAttributes has no default value.
-      // _a_graphNodeKey has no default value.
-      // _a_allGraphs has no default value.
-      // _a_allNodes has no default value.
-      // _i_idc has no default value.
-      // _ret_3 has no default value.
-      // _ret_2 has no default value.
-      // _ret_1 has no default value.
-      // _ret_0 has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_8 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_8;
+        {
+          modelica_integer _i_idc;
+          modelica_metatype _ret_3 = NULL;
+          modelica_integer _ret_2;
+          modelica_integer _ret_1;
+          modelica_integer _ret_0;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_idc has no default value.
+          // _ret_3 has no default value.
+          // _ret_2 has no default value.
+          // _ret_1 has no default value.
+          // _ret_0 has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              modelica_integer tmp7;
+              tmp7 = mmc_unbox_integer(tmp5_1);
+              _i_idc = tmp7  /* pattern as ty=Integer */;
+              /* Pattern matching succeeded */
+              _ret_0 = arrayLength(_a_allNodes);
+
+              _ret_1 = _ret_0 - _i_idc;
+
+              _ret_2 = ((modelica_integer) 1) + _ret_1;
+
+              _ret_3 = arrayGet(_a_allNodes, _ret_2);
+
+              _txt = omc_GraphMLDumpTpl_dumpNode(threadData, _txt, _ret_3, _a_allGraphs, _a_allNodes, _a_graphNodeKey, _a_graphAttributes);
+              tmpMeta2 = omc_Tpl_nextIter(threadData, _txt);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          modelica_integer tmp8;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          tmp8 = mmc_unbox_integer(tmpMeta6);
-          
-          _i_idc = tmp8  /* pattern as ty=Integer */;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          _a_graphAttributes = tmp4_3;
-          _a_graphNodeKey = tmp4_4;
-          _a_allGraphs = tmp4_5;
-          _a_allNodes = tmp4_6;
-          /* Pattern matching succeeded */
-          _ret_0 = arrayLength(_a_allNodes);
-
-          _ret_1 = _ret_0 - _i_idc;
-
-          _ret_2 = ((modelica_integer) 1) + _ret_1;
-
-          _ret_3 = arrayGet(_a_allNodes, _ret_2);
-
-          _txt = omc_GraphMLDumpTpl_dumpNode(threadData, _txt, _ret_3, _a_allGraphs, _a_allNodes, _a_graphNodeKey, _a_graphAttributes);
-
-          _txt = omc_Tpl_nextIter(threadData, _txt);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          _in_a_graphAttributes = _a_graphAttributes;
-          _in_a_graphNodeKey = _a_graphNodeKey;
-          _in_a_allGraphs = _a_allGraphs;
-          _in_a_allNodes = _a_allNodes;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
 DLLDirection
@@ -3169,150 +3031,106 @@ modelica_metatype omc_GraphMLDumpTpl_dumpGraphInfoInternal(threadData_t *threadD
   return _out_txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__6(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items, modelica_metatype _in_a_attributes, modelica_string _in_a_graphInfo_graphEdgeKey)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__6(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items, modelica_metatype _a_attributes, modelica_string _a_graphInfo_graphEdgeKey)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;modelica_metatype tmp4_3;modelica_string tmp4_4;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
-    tmp4_3 = _in_a_attributes;
-    tmp4_4 = _in_a_graphInfo_graphEdgeKey;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_6;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _a_attributes = NULL;
-      modelica_string _a_graphInfo_graphEdgeKey = NULL;
-      modelica_metatype _i_edge = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _a_attributes has no default value.
-      // _a_graphInfo_graphEdgeKey has no default value.
-      // _i_edge has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_6 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_6;
+        {
+          modelica_metatype _i_edge = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_edge has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_edge = tmp5_1;
+              /* Pattern matching succeeded */
+              _txt = omc_GraphMLDumpTpl_dumpEdge(threadData, _txt, _i_edge, _a_graphInfo_graphEdgeKey, _a_attributes);
+              tmpMeta2 = omc_Tpl_nextIter(threadData, _txt);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_edge = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          _a_attributes = tmp4_3;
-          _a_graphInfo_graphEdgeKey = tmp4_4;
-          /* Pattern matching succeeded */
-          _txt = omc_GraphMLDumpTpl_dumpEdge(threadData, _txt, _i_edge, _a_graphInfo_graphEdgeKey, _a_attributes);
-
-          _txt = omc_Tpl_nextIter(threadData, _txt);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          _in_a_attributes = _a_attributes;
-          _in_a_graphInfo_graphEdgeKey = _a_graphInfo_graphEdgeKey;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
-PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__5(threadData_t *threadData, modelica_metatype _in_txt, modelica_metatype _in_items)
+PROTECTED_FUNCTION_STATIC modelica_metatype omc_GraphMLDumpTpl_lm__5(threadData_t *threadData, modelica_metatype __omcQ_24in_5Ftxt, modelica_metatype _items)
 {
-  modelica_metatype _out_txt = NULL;
+  modelica_metatype _txt = NULL;
   modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _out_txt has no default value.
-  { /* match expression */
-    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
-    tmp4_1 = _in_txt;
-    tmp4_2 = _in_items;
+  _txt = __omcQ_24in_5Ftxt;
+  {
+    modelica_metatype _lstElt_5;
+    for (tmpMeta1 = _items; !listEmpty(tmpMeta1); tmpMeta1=MMC_CDR(tmpMeta1))
     {
-      modelica_metatype _txt = NULL;
-      modelica_metatype _rest = NULL;
-      modelica_metatype _i_att = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _txt has no default value.
-      // _rest has no default value.
-      // _i_att has no default value.
-      tmp4 = 0;
-      for (; tmp4 < 2; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          if (!listEmpty(tmp4_2)) goto tmp3_end;
-          
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          tmpMeta1 = _txt;
-          goto tmp3_done;
+      _lstElt_5 = MMC_CAR(tmpMeta1);
+      { /* match expression */
+        modelica_metatype tmp5_1;
+        tmp5_1 = _lstElt_5;
+        {
+          modelica_metatype _i_att = NULL;
+          volatile mmc_switch_type tmp5;
+          int tmp6;
+          // _i_att has no default value.
+          tmp5 = 0;
+          for (; tmp5 < 1; tmp5++) {
+            switch (MMC_SWITCH_CAST(tmp5)) {
+            case 0: {
+              
+              _i_att = tmp5_1;
+              /* Pattern matching succeeded */
+              _txt = omc_GraphMLDumpTpl_dumpAttDef(threadData, _txt, _i_att);
+              tmpMeta2 = omc_Tpl_nextIter(threadData, _txt);
+              goto tmp4_done;
+            }
+            }
+            goto tmp4_end;
+            tmp4_end: ;
+          }
+          goto goto_3;
+          goto_3:;
+          MMC_THROW_INTERNAL();
+          goto tmp4_done;
+          tmp4_done:;
         }
-        case 1: {
-          modelica_metatype tmpMeta6;
-          modelica_metatype tmpMeta7;
-          if (listEmpty(tmp4_2)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_2);
-          tmpMeta7 = MMC_CDR(tmp4_2);
-          
-          _i_att = tmpMeta6;
-          _rest = tmpMeta7;
-          _txt = tmp4_1;
-          /* Pattern matching succeeded */
-          _txt = omc_GraphMLDumpTpl_dumpAttDef(threadData, _txt, _i_att);
-
-          _txt = omc_Tpl_nextIter(threadData, _txt);
-          /* Tail recursive call */
-          _in_txt = _txt;
-          _in_items = _rest;
-          goto _tailrecursive;
-          /* TODO: Make sure any eventual dead code below is never generated */
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
       }
-      goto goto_2;
-      goto_2:;
-      MMC_THROW_INTERNAL();
-      goto tmp3_done;
-      tmp3_done:;
+      _txt = tmpMeta2;
     }
   }
-  _out_txt = tmpMeta1;
   _return: OMC_LABEL_UNUSED
-  return _out_txt;
+  return _txt;
 }
 
 DLLDirection

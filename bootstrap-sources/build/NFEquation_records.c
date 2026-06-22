@@ -58,7 +58,7 @@ extern struct record_description NFEquation_Branch_BRANCH__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NFEquation_EQUALITY__desc_added
 #define NFEquation_EQUALITY__desc_added
-ADD_METARECORD_DEFINITIONS const char* NFEquation_EQUALITY__desc__fields[5] = {"lhs","rhs","ty","scope","source"};
+ADD_METARECORD_DEFINITIONS const char* NFEquation_EQUALITY__desc__fields[6] = {"lhs","rhs","ty","scope","source","scalarizeMode"};
 ADD_METARECORD_DEFINITIONS struct record_description NFEquation_EQUALITY__desc = {
   "NFEquation_EQUALITY",
   "NFEquation.EQUALITY",
@@ -67,19 +67,6 @@ ADD_METARECORD_DEFINITIONS struct record_description NFEquation_EQUALITY__desc =
 #endif
 #else /* Only use the file as a header */
 extern struct record_description NFEquation_EQUALITY__desc;
-#endif
-#ifdef ADD_METARECORD_DEFINITIONS
-#ifndef NFEquation_ARRAY__EQUALITY__desc_added
-#define NFEquation_ARRAY__EQUALITY__desc_added
-ADD_METARECORD_DEFINITIONS const char* NFEquation_ARRAY__EQUALITY__desc__fields[5] = {"lhs","rhs","ty","scope","source"};
-ADD_METARECORD_DEFINITIONS struct record_description NFEquation_ARRAY__EQUALITY__desc = {
-  "NFEquation_ARRAY__EQUALITY",
-  "NFEquation.ARRAY_EQUALITY",
-  NFEquation_ARRAY__EQUALITY__desc__fields
-};
-#endif
-#else /* Only use the file as a header */
-extern struct record_description NFEquation_ARRAY__EQUALITY__desc;
 #endif
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NFEquation_CONNECT__desc_added

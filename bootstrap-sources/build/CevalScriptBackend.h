@@ -144,9 +144,7 @@ extern struct record_description Flags_ValidOptions_STRING__DESC__OPTION__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__OPTION__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description GlobalScript_SimulationOptions_SIMULATION__OPTIONS__desc;
+extern struct record_description InteractiveTypes_SimulationOptions_SIMULATION__OPTIONS__desc;
 
 extern struct record_description SCode_Comment_COMMENT__desc;
 
@@ -183,6 +181,14 @@ extern struct record_description Values_Value_RECORD__desc;
 extern struct record_description Values_Value_STRING__desc;
 
 extern struct record_description Values_Value_TUPLE__desc;
+
+
+DLLDirection
+modelica_boolean omc_CevalScriptBackend_isProtectedContentAccess(threadData_t *threadData, modelica_metatype _className);
+DLLDirection
+modelica_metatype boxptr_CevalScriptBackend_isProtectedContentAccess(threadData_t *threadData, modelica_metatype _className);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CevalScriptBackend_isProtectedContentAccess,2,0) {(void*) boxptr_CevalScriptBackend_isProtectedContentAccess,0}};
+#define boxvar_CevalScriptBackend_isProtectedContentAccess MMC_REFSTRUCTLIT(boxvar_lit_CevalScriptBackend_isProtectedContentAccess)
 
 
 DLLDirection
@@ -384,13 +390,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CevalScriptBackend_checkModel,2,0) {(vo
 #define boxvar_CevalScriptBackend_checkModel MMC_REFSTRUCTLIT(boxvar_lit_CevalScriptBackend_checkModel)
 
 
-DLLDirection
-modelica_string omc_CevalScriptBackend_getFileDir(threadData_t *threadData, modelica_metatype _inComponentRef, modelica_metatype _inProgram);
-#define boxptr_CevalScriptBackend_getFileDir omc_CevalScriptBackend_getFileDir
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CevalScriptBackend_getFileDir,2,0) {(void*) boxptr_CevalScriptBackend_getFileDir,0}};
-#define boxvar_CevalScriptBackend_getFileDir MMC_REFSTRUCTLIT(boxvar_lit_CevalScriptBackend_getFileDir)
-
-
 #define boxptr_CevalScriptBackend_formatSimulationFlagString omc_CevalScriptBackend_formatSimulationFlagString
 
 
@@ -505,6 +504,14 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CevalScriptBackend_runFrontEndWorkNF,2,
 
 
 DLLDirection
+modelica_metatype omc_CevalScriptBackend_runFrontEndNF(threadData_t *threadData, modelica_metatype _className, modelica_boolean _relaxedFrontEnd, modelica_boolean _dumpFlat, modelica_metatype *out_functions, modelica_string *out_flatString);
+DLLDirection
+modelica_metatype boxptr_CevalScriptBackend_runFrontEndNF(threadData_t *threadData, modelica_metatype _className, modelica_metatype _relaxedFrontEnd, modelica_metatype _dumpFlat, modelica_metatype *out_functions, modelica_metatype *out_flatString);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CevalScriptBackend_runFrontEndNF,2,0) {(void*) boxptr_CevalScriptBackend_runFrontEndNF,0}};
+#define boxvar_CevalScriptBackend_runFrontEndNF MMC_REFSTRUCTLIT(boxvar_lit_CevalScriptBackend_runFrontEndNF)
+
+
+DLLDirection
 modelica_metatype omc_CevalScriptBackend_runFrontEnd(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fcache, modelica_metatype __omcQ_24in_5Fenv, modelica_metatype _className, modelica_boolean _relaxedFrontEnd, modelica_boolean _dumpFlat, modelica_boolean _transform, modelica_metatype *out_env, modelica_metatype *out_odae, modelica_string *out_flatString);
 DLLDirection
 modelica_metatype boxptr_CevalScriptBackend_runFrontEnd(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fcache, modelica_metatype __omcQ_24in_5Fenv, modelica_metatype _className, modelica_metatype _relaxedFrontEnd, modelica_metatype _dumpFlat, modelica_metatype _transform, modelica_metatype *out_env, modelica_metatype *out_odae, modelica_metatype *out_flatString);
@@ -534,6 +541,9 @@ modelica_metatype omc_CevalScriptBackend_cevalInteractiveFunctions3(threadData_t
 #define boxptr_CevalScriptBackend_cevalInteractiveFunctions3 omc_CevalScriptBackend_cevalInteractiveFunctions3
 static const MMC_DEFSTRUCTLIT(boxvar_lit_CevalScriptBackend_cevalInteractiveFunctions3,2,0) {(void*) boxptr_CevalScriptBackend_cevalInteractiveFunctions3,0}};
 #define boxvar_CevalScriptBackend_cevalInteractiveFunctions3 MMC_REFSTRUCTLIT(boxvar_lit_CevalScriptBackend_cevalInteractiveFunctions3)
+
+
+#define boxptr_CevalScriptBackend_diffSanityCheckCommentStr omc_CevalScriptBackend_diffSanityCheckCommentStr
 
 
 #define boxptr_CevalScriptBackend_simOptionsAsString omc_CevalScriptBackend_simOptionsAsString

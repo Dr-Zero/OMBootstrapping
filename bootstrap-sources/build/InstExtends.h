@@ -42,8 +42,6 @@ extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_INTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description Mod_ModScope_DERIVED__desc;
 
 extern struct record_description Mod_ModScope_EXTENDS__desc;

@@ -6,25 +6,23 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT0,19,_OMC_LIT0_data);
 #define _OMC_LIT1_data "Disables the generation of single flow equations."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT1,49,_OMC_LIT1_data);
 #define _OMC_LIT1 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT1)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT2,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT1}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT2,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(90)),_OMC_LIT0,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT1}};
 #define _OMC_LIT2 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT2)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT3,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(90)),_OMC_LIT0,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT2}};
-#define _OMC_LIT3 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT3)
-#define _OMC_LIT4_data " sets:\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT4,7,_OMC_LIT4_data);
+#define _OMC_LIT3_data " sets:\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT3,7,_OMC_LIT3_data);
+#define _OMC_LIT3 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT3)
+#define _OMC_LIT4_data "["
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT4,1,_OMC_LIT4_data);
 #define _OMC_LIT4 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT4)
-#define _OMC_LIT5_data "["
+#define _OMC_LIT5_data "]"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT5,1,_OMC_LIT5_data);
 #define _OMC_LIT5 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT5)
-#define _OMC_LIT6_data "]"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT6,1,_OMC_LIT6_data);
+#define _OMC_LIT6_data " -> "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT6,4,_OMC_LIT6_data);
 #define _OMC_LIT6 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT6)
-#define _OMC_LIT7_data " -> "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,4,_OMC_LIT7_data);
+#define _OMC_LIT7_data "\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,1,_OMC_LIT7_data);
 #define _OMC_LIT7 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT7)
-#define _OMC_LIT8_data "\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT8,1,_OMC_LIT8_data);
-#define _OMC_LIT8 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT8)
 #include "util/modelica.h"
 
 #include "NFConnectionSets_includes.h"
@@ -143,11 +141,9 @@ DLLDirection
 modelica_metatype omc_NFConnectionSets_ConnectionSets_addConnection(threadData_t *threadData, modelica_metatype _connection, modelica_metatype _broken, modelica_metatype __omcQ_24in_5Fsets)
 {
   modelica_metatype _sets = NULL;
-  modelica_metatype _conns = NULL;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   _sets = __omcQ_24in_5Fsets;
-  // _conns has no default value.
   if(((!listEmpty(_broken)) && omc_NFConnectionSets_ConnectionSets_isBroken(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_connection), 2))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_connection), 3))), _broken)))
   {
     goto _return;
@@ -255,6 +251,26 @@ modelica_metatype omc_NFConnectionSets_ConnectionSets_addSingleConnector(threadD
   _sets = omc_NFConnectionSets_ConnectionSets_find(threadData, _conn, _sets, NULL);
   _return: OMC_LABEL_UNUSED
   return _sets;
+}
+
+DLLDirection
+modelica_boolean omc_NFConnectionSets_ConnectionSets_contains(threadData_t *threadData, modelica_metatype _entry, modelica_metatype _sets)
+{
+  modelica_boolean _found;
+  MMC_SO();
+  _tailrecursive: OMC_LABEL_UNUSED
+  // _found has no default value.
+  _found = isSome(omc_UnorderedMap_get(threadData, _entry, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_sets), 3)))));
+  _return: OMC_LABEL_UNUSED
+  return _found;
+}
+modelica_metatype boxptr_NFConnectionSets_ConnectionSets_contains(threadData_t *threadData, modelica_metatype _entry, modelica_metatype _sets)
+{
+  modelica_boolean _found;
+  modelica_metatype out_found;
+  _found = omc_NFConnectionSets_ConnectionSets_contains(threadData, _entry, _sets);
+  out_found = mmc_mk_icon(_found);
+  return out_found;
 }
 
 DLLDirection
@@ -534,7 +550,7 @@ modelica_metatype omc_NFConnectionSets_ConnectionSets_fromConnections(threadData
   // _sets has no default value.
   _sets = omc_NFConnectionSets_ConnectionSets_emptySets(threadData, listLength((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_connections), 2)))) + listLength((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_connections), 3)))));
 
-  if((!omc_Flags_isSet(threadData, _OMC_LIT3)))
+  if((!omc_Flags_isSet(threadData, _OMC_LIT2)))
   {
     _sets = omc_List_fold(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_connections), 3))), boxvar_NFConnectionSets_ConnectionSets_addSingleConnector, _sets);
   }
@@ -542,6 +558,18 @@ modelica_metatype omc_NFConnectionSets_ConnectionSets_fromConnections(threadData
   _sets = omc_List_fold1(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_connections), 2))), boxvar_NFConnectionSets_ConnectionSets_addConnection, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_connections), 4))), _sets);
   _return: OMC_LABEL_UNUSED
   return _sets;
+}
+
+DLLDirection
+modelica_metatype omc_NFConnectionSets_ConnectionSets_getEntry(threadData_t *threadData, modelica_metatype _entry, modelica_metatype _sets)
+{
+  modelica_metatype _outEntry = NULL;
+  MMC_SO();
+  _tailrecursive: OMC_LABEL_UNUSED
+  // _outEntry has no default value.
+  _outEntry = omc_UnorderedMap_getKey(threadData, _entry, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_sets), 3))));
+  _return: OMC_LABEL_UNUSED
+  return _outEntry;
 }
 
 DLLDirection
@@ -647,7 +675,7 @@ void omc_NFConnectionSets_ConnectionSets_printSets(threadData_t *threadData, mod
   // _entries has no default value.
   // _e has no default value.
   // _i has no default value.
-  tmpMeta1 = stringAppend(intString(mmc_unbox_integer((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_sets), 4))))),_OMC_LIT4);
+  tmpMeta1 = stringAppend(intString(mmc_unbox_integer((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_sets), 4))))),_OMC_LIT3);
   fputs(MMC_STRINGDATA(tmpMeta1),stdout);
 
   _nodes = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_sets), 2)));
@@ -667,21 +695,21 @@ void omc_NFConnectionSets_ConnectionSets_printSets(threadData_t *threadData, mod
       _e = tmpMeta4;
       _i = tmp6  /* pattern as ty=Integer */;
 
-      fputs(MMC_STRINGDATA(_OMC_LIT5),stdout);
+      fputs(MMC_STRINGDATA(_OMC_LIT4),stdout);
 
       tmp7 = modelica_integer_to_modelica_string(_i, ((modelica_integer) 0), 1 /* true */);
       fputs(MMC_STRINGDATA(tmp7),stdout);
 
-      fputs(MMC_STRINGDATA(_OMC_LIT6),stdout);
+      fputs(MMC_STRINGDATA(_OMC_LIT5),stdout);
 
       fputs(MMC_STRINGDATA(omc_NFConnectionSets_ConnectionSets_EntryString(threadData, _e)),stdout);
 
-      fputs(MMC_STRINGDATA(_OMC_LIT7),stdout);
+      fputs(MMC_STRINGDATA(_OMC_LIT6),stdout);
 
       tmp8 = modelica_integer_to_modelica_string(mmc_unbox_integer(arrayGet(_nodes,_i) /* DAE.ASUB */), ((modelica_integer) 0), 1 /* true */);
       fputs(MMC_STRINGDATA(tmp8),stdout);
 
-      fputs(MMC_STRINGDATA(_OMC_LIT8),stdout);
+      fputs(MMC_STRINGDATA(_OMC_LIT7),stdout);
     }
   }
   _return: OMC_LABEL_UNUSED

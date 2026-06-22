@@ -6,7 +6,7 @@ extern "C" {
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NFBackendExtension_BackendInfo_BACKEND__INFO__desc_added
 #define NFBackendExtension_BackendInfo_BACKEND__INFO__desc_added
-ADD_METARECORD_DEFINITIONS const char* NFBackendExtension_BackendInfo_BACKEND__INFO__desc__fields[7] = {"varKind","attributes","annotations","var_pre","var_seed","var_pder","parent"};
+ADD_METARECORD_DEFINITIONS const char* NFBackendExtension_BackendInfo_BACKEND__INFO__desc__fields[9] = {"varKind","attributes","annotations","var_pre","var_seed","var_pder_res","var_pder_tmp","var_start","parent"};
 ADD_METARECORD_DEFINITIONS struct record_description NFBackendExtension_BackendInfo_BACKEND__INFO__desc = {
   "NFBackendExtension_BackendInfo_BACKEND__INFO",
   "NFBackendExtension.BackendInfo.BACKEND_INFO",
@@ -19,7 +19,7 @@ extern struct record_description NFBackendExtension_BackendInfo_BACKEND__INFO__d
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NFBackendExtension_BackendInfo_BACKEND__INFO__desc_added
 #define NFBackendExtension_BackendInfo_BACKEND__INFO__desc_added
-ADD_METARECORD_DEFINITIONS const char* NFBackendExtension_BackendInfo_BACKEND__INFO__desc__fields[7] = {"varKind","attributes","annotations","var_pre","var_seed","var_pder","parent"};
+ADD_METARECORD_DEFINITIONS const char* NFBackendExtension_BackendInfo_BACKEND__INFO__desc__fields[9] = {"varKind","attributes","annotations","var_pre","var_seed","var_pder_res","var_pder_tmp","var_start","parent"};
 ADD_METARECORD_DEFINITIONS struct record_description NFBackendExtension_BackendInfo_BACKEND__INFO__desc = {
   "NFBackendExtension_BackendInfo_BACKEND__INFO",
   "NFBackendExtension.BackendInfo.BACKEND_INFO",

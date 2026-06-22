@@ -28,8 +28,6 @@ extern struct record_description ErrorTypes_MessageType_TRANSLATION__desc;
 
 extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NFBinding_FLAT__BINDING__desc;
 
 extern struct record_description NFBinding_RAW__BINDING__desc;
@@ -43,6 +41,22 @@ extern struct record_description NFBinding_UNTYPED__BINDING__desc;
 extern struct record_description NFType_UNKNOWN__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
+
+
+DLLDirection
+modelica_integer omc_NFBinding_actualConfidence(threadData_t *threadData, modelica_metatype _binding);
+DLLDirection
+modelica_metatype boxptr_NFBinding_actualConfidence(threadData_t *threadData, modelica_metatype _binding);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFBinding_actualConfidence,2,0) {(void*) boxptr_NFBinding_actualConfidence,0}};
+#define boxvar_NFBinding_actualConfidence MMC_REFSTRUCTLIT(boxvar_lit_NFBinding_actualConfidence)
+
+
+DLLDirection
+modelica_integer omc_NFBinding_confidence(threadData_t *threadData, modelica_metatype _binding);
+DLLDirection
+modelica_metatype boxptr_NFBinding_confidence(threadData_t *threadData, modelica_metatype _binding);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFBinding_confidence,2,0) {(void*) boxptr_NFBinding_confidence,0}};
+#define boxvar_NFBinding_confidence MMC_REFSTRUCTLIT(boxvar_lit_NFBinding_confidence)
 
 
 DLLDirection
@@ -77,27 +91,35 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFBinding_isEvaluated,2,0) {(void*) box
 
 
 DLLDirection
-modelica_metatype omc_NFBinding_makeFlat(threadData_t *threadData, modelica_metatype _exp, modelica_integer _var, modelica_integer _source);
+modelica_metatype omc_NFBinding_makeFlat(threadData_t *threadData, modelica_metatype _exp, modelica_integer _var, modelica_integer _source, modelica_integer _confidence);
 DLLDirection
-modelica_metatype boxptr_NFBinding_makeFlat(threadData_t *threadData, modelica_metatype _exp, modelica_metatype _var, modelica_metatype _source);
+modelica_metatype boxptr_NFBinding_makeFlat(threadData_t *threadData, modelica_metatype _exp, modelica_metatype _var, modelica_metatype _source, modelica_metatype _confidence);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFBinding_makeFlat,2,0) {(void*) boxptr_NFBinding_makeFlat,0}};
 #define boxvar_NFBinding_makeFlat MMC_REFSTRUCTLIT(boxvar_lit_NFBinding_makeFlat)
 
 
 DLLDirection
-modelica_metatype omc_NFBinding_makeTyped(threadData_t *threadData, modelica_metatype _exp, modelica_integer _eachType, modelica_integer _source, modelica_metatype _info, modelica_integer _state);
+modelica_metatype omc_NFBinding_makeTyped(threadData_t *threadData, modelica_metatype _exp, modelica_integer _eachType, modelica_integer _source, modelica_metatype _info, modelica_integer _state, modelica_integer _confidence);
 DLLDirection
-modelica_metatype boxptr_NFBinding_makeTyped(threadData_t *threadData, modelica_metatype _exp, modelica_metatype _eachType, modelica_metatype _source, modelica_metatype _info, modelica_metatype _state);
+modelica_metatype boxptr_NFBinding_makeTyped(threadData_t *threadData, modelica_metatype _exp, modelica_metatype _eachType, modelica_metatype _source, modelica_metatype _info, modelica_metatype _state, modelica_metatype _confidence);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFBinding_makeTyped,2,0) {(void*) boxptr_NFBinding_makeTyped,0}};
 #define boxvar_NFBinding_makeTyped MMC_REFSTRUCTLIT(boxvar_lit_NFBinding_makeTyped)
 
 
 DLLDirection
-modelica_metatype omc_NFBinding_makeUntyped(threadData_t *threadData, modelica_metatype _exp, modelica_metatype _scope, modelica_integer _eachType, modelica_integer _source, modelica_metatype _info);
+modelica_metatype omc_NFBinding_makeUntyped(threadData_t *threadData, modelica_metatype _exp, modelica_metatype _scope, modelica_integer _eachType, modelica_integer _source, modelica_metatype _info, modelica_integer _confidence);
 DLLDirection
-modelica_metatype boxptr_NFBinding_makeUntyped(threadData_t *threadData, modelica_metatype _exp, modelica_metatype _scope, modelica_metatype _eachType, modelica_metatype _source, modelica_metatype _info);
+modelica_metatype boxptr_NFBinding_makeUntyped(threadData_t *threadData, modelica_metatype _exp, modelica_metatype _scope, modelica_metatype _eachType, modelica_metatype _source, modelica_metatype _info, modelica_metatype _confidence);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFBinding_makeUntyped,2,0) {(void*) boxptr_NFBinding_makeUntyped,0}};
 #define boxvar_NFBinding_makeUntyped MMC_REFSTRUCTLIT(boxvar_lit_NFBinding_makeUntyped)
+
+
+DLLDirection
+modelica_metatype omc_NFBinding_setSource(threadData_t *threadData, modelica_integer _source, modelica_metatype __omcQ_24in_5Fbinding);
+DLLDirection
+modelica_metatype boxptr_NFBinding_setSource(threadData_t *threadData, modelica_metatype _source, modelica_metatype __omcQ_24in_5Fbinding);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFBinding_setSource,2,0) {(void*) boxptr_NFBinding_setSource,0}};
+#define boxvar_NFBinding_setSource MMC_REFSTRUCTLIT(boxvar_lit_NFBinding_setSource)
 
 
 DLLDirection
@@ -269,6 +291,14 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFBinding_purity,2,0) {(void*) boxptr_N
 
 
 DLLDirection
+modelica_metatype omc_NFBinding_setVariability(threadData_t *threadData, modelica_integer _var, modelica_metatype __omcQ_24in_5Fbinding);
+DLLDirection
+modelica_metatype boxptr_NFBinding_setVariability(threadData_t *threadData, modelica_metatype _var, modelica_metatype __omcQ_24in_5Fbinding);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFBinding_setVariability,2,0) {(void*) boxptr_NFBinding_setVariability,0}};
+#define boxvar_NFBinding_setVariability MMC_REFSTRUCTLIT(boxvar_lit_NFBinding_setVariability)
+
+
+DLLDirection
 modelica_integer omc_NFBinding_variability(threadData_t *threadData, modelica_metatype _binding);
 DLLDirection
 modelica_metatype boxptr_NFBinding_variability(threadData_t *threadData, modelica_metatype _binding);
@@ -389,9 +419,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFBinding_isBound,2,0) {(void*) boxptr_
 
 
 DLLDirection
-modelica_metatype omc_NFBinding_fromAbsyn(threadData_t *threadData, modelica_metatype _bindingExp, modelica_boolean _eachPrefix, modelica_boolean _fromType, modelica_metatype _scope, modelica_metatype _info);
+modelica_metatype omc_NFBinding_fromAbsyn(threadData_t *threadData, modelica_metatype _bindingExp, modelica_boolean _eachPrefix, modelica_boolean _fromType, modelica_metatype _scope, modelica_integer _instanceLevel, modelica_metatype _info);
 DLLDirection
-modelica_metatype boxptr_NFBinding_fromAbsyn(threadData_t *threadData, modelica_metatype _bindingExp, modelica_metatype _eachPrefix, modelica_metatype _fromType, modelica_metatype _scope, modelica_metatype _info);
+modelica_metatype boxptr_NFBinding_fromAbsyn(threadData_t *threadData, modelica_metatype _bindingExp, modelica_metatype _eachPrefix, modelica_metatype _fromType, modelica_metatype _scope, modelica_metatype _instanceLevel, modelica_metatype _info);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFBinding_fromAbsyn,2,0) {(void*) boxptr_NFBinding_fromAbsyn,0}};
 #define boxvar_NFBinding_fromAbsyn MMC_REFSTRUCTLIT(boxvar_lit_NFBinding_fromAbsyn)
 

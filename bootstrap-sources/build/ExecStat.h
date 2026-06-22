@@ -18,8 +18,6 @@ extern struct record_description ErrorTypes_Severity_NOTIFICATION__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 
 DLLDirection
 void omc_ExecStat_execStat(threadData_t *threadData, modelica_string _name);

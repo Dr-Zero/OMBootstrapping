@@ -14,6 +14,8 @@ extern struct record_description Absyn_Exp_STRING__desc;
 
 extern struct record_description Absyn_Path_IDENT__desc;
 
+extern struct record_description DAE_Algorithm_ALGORITHM__STMTS__desc;
+
 extern struct record_description DAE_ComponentPrefix_NOCOMPPRE__desc;
 
 extern struct record_description DAE_ComponentRef_CREF__IDENT__desc;
@@ -77,10 +79,6 @@ extern struct record_description Flags_FlagData_STRING__FLAG__desc;
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__OPTION__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
 
 extern struct record_description SCode_Visibility_PUBLIC__desc;
 
@@ -218,6 +216,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeFunctionUtil_createMakefileParam
 
 
 #define boxptr_SimCodeFunctionUtil_addDestructor omc_SimCodeFunctionUtil_addDestructor
+
+
+DLLDirection
+modelica_metatype omc_SimCodeFunctionUtil_getCalledFunctionsInFunction(threadData_t *threadData, modelica_metatype _path, modelica_metatype _funcs);
+#define boxptr_SimCodeFunctionUtil_getCalledFunctionsInFunction omc_SimCodeFunctionUtil_getCalledFunctionsInFunction
+static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeFunctionUtil_getCalledFunctionsInFunction,2,0) {(void*) boxptr_SimCodeFunctionUtil_getCalledFunctionsInFunction,0}};
+#define boxvar_SimCodeFunctionUtil_getCalledFunctionsInFunction MMC_REFSTRUCTLIT(boxvar_lit_SimCodeFunctionUtil_getCalledFunctionsInFunction)
 
 
 DLLDirection
@@ -368,6 +373,12 @@ void omc_SimCodeFunctionUtil_checkValidMainFunction(threadData_t *threadData, mo
 #define boxptr_SimCodeFunctionUtil_checkValidMainFunction omc_SimCodeFunctionUtil_checkValidMainFunction
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeFunctionUtil_checkValidMainFunction,2,0) {(void*) boxptr_SimCodeFunctionUtil_checkValidMainFunction,0}};
 #define boxvar_SimCodeFunctionUtil_checkValidMainFunction MMC_REFSTRUCTLIT(boxvar_lit_SimCodeFunctionUtil_checkValidMainFunction)
+
+
+#define boxptr_SimCodeFunctionUtil_optMRFAElem omc_SimCodeFunctionUtil_optMRFAElem
+
+
+#define boxptr_SimCodeFunctionUtil_optMRFAElems omc_SimCodeFunctionUtil_optMRFAElems
 
 
 #define boxptr_SimCodeFunctionUtil_elaborateStatement omc_SimCodeFunctionUtil_elaborateStatement

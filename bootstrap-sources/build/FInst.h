@@ -16,8 +16,6 @@ extern struct record_description FCore_Kind_USERDEFINED__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 
 #define boxptr_FInst_doSCodeDep omc_FInst_doSCodeDep
 

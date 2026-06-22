@@ -12,8 +12,6 @@ extern "C" {
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 
 DLLDirection
 modelica_boolean omc_AdjacencyMatrix_isEmpty(threadData_t *threadData, modelica_metatype _m);

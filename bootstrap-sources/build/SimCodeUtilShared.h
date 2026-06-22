@@ -1,0 +1,85 @@
+#ifndef SimCodeUtilShared__H
+#define SimCodeUtilShared__H
+#include "meta/meta_modelica.h"
+#include "util/modelica.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <errno.h>
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+extern struct record_description DAE_InlineType_AFTER__INDEX__RED__INLINE__desc;
+
+extern struct record_description DAE_InlineType_NORM__INLINE__desc;
+
+extern struct record_description ErrorTypes_Message_MESSAGE__desc;
+
+extern struct record_description ErrorTypes_MessageType_TRANSLATION__desc;
+
+extern struct record_description ErrorTypes_Severity_ERROR__desc;
+
+extern struct record_description SourceInfo_SOURCEINFO__desc;
+
+
+DLLDirection
+modelica_boolean omc_SimCodeUtilShared_isArrayVar(threadData_t *threadData, modelica_metatype _var);
+DLLDirection
+modelica_metatype boxptr_SimCodeUtilShared_isArrayVar(threadData_t *threadData, modelica_metatype _var);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeUtilShared_isArrayVar,2,0) {(void*) boxptr_SimCodeUtilShared_isArrayVar,0}};
+#define boxvar_SimCodeUtilShared_isArrayVar MMC_REFSTRUCTLIT(boxvar_lit_SimCodeUtilShared_isArrayVar)
+
+
+DLLDirection
+modelica_integer omc_SimCodeUtilShared_getNumElems(threadData_t *threadData, modelica_metatype _var);
+DLLDirection
+modelica_metatype boxptr_SimCodeUtilShared_getNumElems(threadData_t *threadData, modelica_metatype _var);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeUtilShared_getNumElems,2,0) {(void*) boxptr_SimCodeUtilShared_getNumElems,0}};
+#define boxvar_SimCodeUtilShared_getNumElems MMC_REFSTRUCTLIT(boxvar_lit_SimCodeUtilShared_getNumElems)
+
+
+DLLDirection
+modelica_integer omc_SimCodeUtilShared_getScalarElementIndex(threadData_t *threadData, modelica_metatype _arraySubscripts, modelica_metatype _arrayDimensions);
+DLLDirection
+modelica_metatype boxptr_SimCodeUtilShared_getScalarElementIndex(threadData_t *threadData, modelica_metatype _arraySubscripts, modelica_metatype _arrayDimensions);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeUtilShared_getScalarElementIndex,2,0) {(void*) boxptr_SimCodeUtilShared_getScalarElementIndex,0}};
+#define boxvar_SimCodeUtilShared_getScalarElementIndex MMC_REFSTRUCTLIT(boxvar_lit_SimCodeUtilShared_getScalarElementIndex)
+
+
+DLLDirection
+modelica_metatype omc_SimCodeUtilShared_addVarToArrayIndexMapping(threadData_t *threadData, modelica_metatype _iVar, modelica_integer _iVarType, modelica_metatype __omcQ_24in_5FcurrentVarIndices, modelica_metatype __omcQ_24in_5FvarToArrayIndexMapping, modelica_metatype __omcQ_24in_5FvarToIndexMapping, modelica_metatype *out_varToArrayIndexMapping, modelica_metatype *out_varToIndexMapping);
+DLLDirection
+modelica_metatype boxptr_SimCodeUtilShared_addVarToArrayIndexMapping(threadData_t *threadData, modelica_metatype _iVar, modelica_metatype _iVarType, modelica_metatype __omcQ_24in_5FcurrentVarIndices, modelica_metatype __omcQ_24in_5FvarToArrayIndexMapping, modelica_metatype __omcQ_24in_5FvarToIndexMapping, modelica_metatype *out_varToArrayIndexMapping, modelica_metatype *out_varToIndexMapping);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeUtilShared_addVarToArrayIndexMapping,2,0) {(void*) boxptr_SimCodeUtilShared_addVarToArrayIndexMapping,0}};
+#define boxvar_SimCodeUtilShared_addVarToArrayIndexMapping MMC_REFSTRUCTLIT(boxvar_lit_SimCodeUtilShared_addVarToArrayIndexMapping)
+
+
+DLLDirection
+modelica_metatype omc_SimCodeUtilShared_addVarToArrayIndexMappings(threadData_t *threadData, modelica_metatype _vars, modelica_integer _iVarType, modelica_metatype __omcQ_24in_5FcurrentVarIndices, modelica_metatype __omcQ_24in_5FvarToArrayIndexMapping, modelica_metatype __omcQ_24in_5FvarToIndexMapping, modelica_metatype *out_varToArrayIndexMapping, modelica_metatype *out_varToIndexMapping);
+DLLDirection
+modelica_metatype boxptr_SimCodeUtilShared_addVarToArrayIndexMappings(threadData_t *threadData, modelica_metatype _vars, modelica_metatype _iVarType, modelica_metatype __omcQ_24in_5FcurrentVarIndices, modelica_metatype __omcQ_24in_5FvarToArrayIndexMapping, modelica_metatype __omcQ_24in_5FvarToIndexMapping, modelica_metatype *out_varToArrayIndexMapping, modelica_metatype *out_varToIndexMapping);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeUtilShared_addVarToArrayIndexMappings,2,0) {(void*) boxptr_SimCodeUtilShared_addVarToArrayIndexMappings,0}};
+#define boxvar_SimCodeUtilShared_addVarToArrayIndexMappings MMC_REFSTRUCTLIT(boxvar_lit_SimCodeUtilShared_addVarToArrayIndexMappings)
+
+
+DLLDirection
+modelica_metatype omc_SimCodeUtilShared_createVarToArrayIndexMapping(threadData_t *threadData, modelica_metatype _iModelInfo, modelica_metatype *out_oVarToIndexMapping);
+#define boxptr_SimCodeUtilShared_createVarToArrayIndexMapping omc_SimCodeUtilShared_createVarToArrayIndexMapping
+static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeUtilShared_createVarToArrayIndexMapping,2,0) {(void*) boxptr_SimCodeUtilShared_createVarToArrayIndexMapping,0}};
+#define boxvar_SimCodeUtilShared_createVarToArrayIndexMapping MMC_REFSTRUCTLIT(boxvar_lit_SimCodeUtilShared_createVarToArrayIndexMapping)
+
+
+DLLDirection
+modelica_metatype omc_SimCodeUtilShared_createFunctions(threadData_t *threadData, modelica_metatype _inProgram, modelica_metatype _functionTree, modelica_metatype *out_outLibPaths, modelica_metatype *out_outIncludes, modelica_metatype *out_outIncludeDirs, modelica_metatype *out_outRecordDecls, modelica_metatype *out_outFunctions, modelica_metatype *out_outLiterals);
+#define boxptr_SimCodeUtilShared_createFunctions omc_SimCodeUtilShared_createFunctions
+static const MMC_DEFSTRUCTLIT(boxvar_lit_SimCodeUtilShared_createFunctions,2,0) {(void*) boxptr_SimCodeUtilShared_createFunctions,0}};
+#define boxvar_SimCodeUtilShared_createFunctions MMC_REFSTRUCTLIT(boxvar_lit_SimCodeUtilShared_createFunctions)
+
+
+#define boxptr_SimCodeUtilShared_simulationFindLiterals omc_SimCodeUtilShared_simulationFindLiterals
+
+#ifdef __cplusplus
+}
+#endif
+#endif

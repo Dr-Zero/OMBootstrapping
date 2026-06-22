@@ -26,8 +26,6 @@ extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__DESC__OPTION__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NBAdjacency_Dependency_DEPENDENCY__desc;
 
 extern struct record_description NBAdjacency_Mapping_MAPPING__desc;
@@ -57,6 +55,14 @@ extern struct record_description NBEquation_Iterator_EMPTY__desc;
 extern struct record_description NFComponentRef_EMPTY__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
+
+
+DLLDirection
+void omc_NBAdjacency_addInitialStartOccurrences(threadData_t *threadData, modelica_metatype _occs, modelica_metatype _dep_map, modelica_metatype _sol_map, modelica_metatype _rep_set, modelica_integer _kind);
+DLLDirection
+void boxptr_NBAdjacency_addInitialStartOccurrences(threadData_t *threadData, modelica_metatype _occs, modelica_metatype _dep_map, modelica_metatype _sol_map, modelica_metatype _rep_set, modelica_metatype _kind);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBAdjacency_addInitialStartOccurrences,2,0) {(void*) boxptr_NBAdjacency_addInitialStartOccurrences,0}};
+#define boxvar_NBAdjacency_addInitialStartOccurrences MMC_REFSTRUCTLIT(boxvar_lit_NBAdjacency_addInitialStartOccurrences)
 
 
 DLLDirection
@@ -128,11 +134,19 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBAdjacency_addRepetitionsCond,2,0) {(v
 
 
 DLLDirection
-modelica_metatype omc_NBAdjacency_collectDependenciesCref(threadData_t *threadData, modelica_metatype _cref, modelica_integer _depth, modelica_metatype _map, modelica_metatype _dep_map, modelica_metatype _sol_map);
+modelica_metatype omc_NBAdjacency_collectDependenciesCref(threadData_t *threadData, modelica_metatype _cref, modelica_integer _depth, modelica_integer _kind, modelica_metatype _map, modelica_metatype _dep_map, modelica_metatype _sol_map, modelica_metatype _rep_set, modelica_boolean _doSubscripts);
 DLLDirection
-modelica_metatype boxptr_NBAdjacency_collectDependenciesCref(threadData_t *threadData, modelica_metatype _cref, modelica_metatype _depth, modelica_metatype _map, modelica_metatype _dep_map, modelica_metatype _sol_map);
+modelica_metatype boxptr_NBAdjacency_collectDependenciesCref(threadData_t *threadData, modelica_metatype _cref, modelica_metatype _depth, modelica_metatype _kind, modelica_metatype _map, modelica_metatype _dep_map, modelica_metatype _sol_map, modelica_metatype _rep_set, modelica_metatype _doSubscripts);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBAdjacency_collectDependenciesCref,2,0) {(void*) boxptr_NBAdjacency_collectDependenciesCref,0}};
 #define boxvar_NBAdjacency_collectDependenciesCref MMC_REFSTRUCTLIT(boxvar_lit_NBAdjacency_collectDependenciesCref)
+
+
+DLLDirection
+modelica_metatype omc_NBAdjacency_collectDependenciesSubs(threadData_t *threadData, modelica_metatype _subs, modelica_integer _depth, modelica_integer _kind, modelica_metatype _map, modelica_metatype _dep_map, modelica_metatype _sol_map, modelica_metatype _rep_set);
+DLLDirection
+modelica_metatype boxptr_NBAdjacency_collectDependenciesSubs(threadData_t *threadData, modelica_metatype _subs, modelica_metatype _depth, modelica_metatype _kind, modelica_metatype _map, modelica_metatype _dep_map, modelica_metatype _sol_map, modelica_metatype _rep_set);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBAdjacency_collectDependenciesSubs,2,0) {(void*) boxptr_NBAdjacency_collectDependenciesSubs,0}};
+#define boxvar_NBAdjacency_collectDependenciesSubs MMC_REFSTRUCTLIT(boxvar_lit_NBAdjacency_collectDependenciesSubs)
 
 
 DLLDirection

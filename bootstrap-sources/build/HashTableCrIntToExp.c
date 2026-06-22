@@ -32,7 +32,7 @@ modelica_metatype omc_HashTableCrIntToExp_emptyHashTableSized(threadData_t *thre
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _hashTable has no default value.
-  tmpMeta1 = mmc_mk_box4(0, boxvar_HashTableCrIntToExp_hashFunc, boxvar_HashTableCrIntToExp_keyEqual, boxvar_HashTableCrIntToExp_printKey, boxvar_ExpressionDump_printExpStr);
+  tmpMeta1 = mmc_mk_box4(0, boxvar_HashTableCrIntToExp_hashFunc, boxvar_HashTableCrIntToExp_keyEqual, boxvar_HashTableCrIntToExp_printKey, boxvar_ExpressionBasics_printExpStr);
   _hashTable = omc_BaseHashTable_emptyHashTableWork(threadData, _size, tmpMeta1);
   _return: OMC_LABEL_UNUSED
   return _hashTable;
@@ -67,7 +67,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_HashTableCrIntToExp_printKey(threa
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _res has no default value.
-  tmpMeta1 = stringAppend(omc_ComponentReference_printComponentRefStr(threadData, omc_Util_tuple21(threadData, _tpl)),_OMC_LIT0);
+  tmpMeta1 = stringAppend(omc_ComponentReferenceBasics_printComponentRefStr(threadData, omc_Util_tuple21(threadData, _tpl)),_OMC_LIT0);
   tmpMeta2 = stringAppend(tmpMeta1,intString(mmc_unbox_integer(omc_Util_tuple22(threadData, _tpl))));
   _res = tmpMeta2;
   _return: OMC_LABEL_UNUSED
@@ -124,7 +124,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_HashTableCrIntToExp_keyEqual(thre
           /* Pattern-matching assignment */
           tmp12 = (_i1 == _i2);
           if (1 /* true */ != tmp12) goto goto_2;
-          tmp1 = omc_ComponentReference_crefEqual(threadData, _cr1, _cr2);
+          tmp1 = omc_ComponentReferenceBasics_crefEqual(threadData, _cr1, _cr2);
           goto tmp3_done;
         }
         case 1: {
@@ -170,7 +170,7 @@ PROTECTED_FUNCTION_STATIC modelica_integer omc_HashTableCrIntToExp_hashFunc(thre
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _res has no default value.
-  _res = omc_ComponentReference_hashComponentRef(threadData, omc_Util_tuple21(threadData, _tpl)) + mmc_unbox_integer(omc_Util_tuple22(threadData, _tpl));
+  _res = omc_ComponentReferenceBasics_hashComponentRef(threadData, omc_Util_tuple21(threadData, _tpl)) + mmc_unbox_integer(omc_Util_tuple22(threadData, _tpl));
   _return: OMC_LABEL_UNUSED
   return _res;
 }

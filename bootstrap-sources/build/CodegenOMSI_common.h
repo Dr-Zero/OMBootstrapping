@@ -41,7 +41,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenOMSI__common_functionInitSample,
 #define boxvar_CodegenOMSI__common_functionInitSample MMC_REFSTRUCTLIT(boxvar_lit_CodegenOMSI__common_functionInitSample)
 
 
-#define boxptr_CodegenOMSI__common_lm__91 omc_CodegenOMSI__common_lm__91
+#define boxptr_CodegenOMSI__common_lm__94 omc_CodegenOMSI__common_lm__94
 
 
 DLLDirection
@@ -52,7 +52,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenOMSI__common_generateAlgebraicSy
 #define boxvar_CodegenOMSI__common_generateAlgebraicSystemInstantiation MMC_REFSTRUCTLIT(boxvar_lit_CodegenOMSI__common_generateAlgebraicSystemInstantiation)
 
 
-#define boxptr_CodegenOMSI__common_lm__88 omc_CodegenOMSI__common_lm__88
+#define boxptr_CodegenOMSI__common_lm__91 omc_CodegenOMSI__common_lm__91
 
 
 DLLDirection
@@ -70,13 +70,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenOMSI__common_generateOmsiIndexTy
 #define boxvar_CodegenOMSI__common_generateOmsiIndexTypeInitialization MMC_REFSTRUCTLIT(boxvar_lit_CodegenOMSI__common_generateOmsiIndexTypeInitialization)
 
 
-#define boxptr_CodegenOMSI__common_lm__78 omc_CodegenOMSI__common_lm__78
+#define boxptr_CodegenOMSI__common_lm__81 omc_CodegenOMSI__common_lm__81
 
 
-#define boxptr_CodegenOMSI__common_fun__77 omc_CodegenOMSI__common_fun__77
+#define boxptr_CodegenOMSI__common_fun__80 omc_CodegenOMSI__common_fun__80
 
 
-#define boxptr_CodegenOMSI__common_fun__76 omc_CodegenOMSI__common_fun__76
+#define boxptr_CodegenOMSI__common_fun__79 omc_CodegenOMSI__common_fun__79
 
 
 DLLDirection
@@ -86,7 +86,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenOMSI__common_generateInitalizati
 #define boxvar_CodegenOMSI__common_generateInitalizationAlgSystem MMC_REFSTRUCTLIT(boxvar_lit_CodegenOMSI__common_generateInitalizationAlgSystem)
 
 
-#define boxptr_CodegenOMSI__common_lm__70 omc_CodegenOMSI__common_lm__70
+#define boxptr_CodegenOMSI__common_lm__73 omc_CodegenOMSI__common_lm__73
 
 
 DLLDirection
@@ -96,10 +96,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenOMSI__common_generateDerivativeF
 #define boxvar_CodegenOMSI__common_generateDerivativeFile MMC_REFSTRUCTLIT(boxvar_lit_CodegenOMSI__common_generateDerivativeFile)
 
 
-#define boxptr_CodegenOMSI__common_fun__68 omc_CodegenOMSI__common_fun__68
+#define boxptr_CodegenOMSI__common_fun__71 omc_CodegenOMSI__common_fun__71
 
 
-#define boxptr_CodegenOMSI__common_lm__67 omc_CodegenOMSI__common_lm__67
+#define boxptr_CodegenOMSI__common_lm__70 omc_CodegenOMSI__common_lm__70
 
 
 DLLDirection
@@ -116,7 +116,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenOMSI__common_generateOmsiAlgSyst
 #define boxvar_CodegenOMSI__common_generateOmsiAlgSystemCode MMC_REFSTRUCTLIT(boxvar_lit_CodegenOMSI__common_generateOmsiAlgSystemCode)
 
 
-#define boxptr_CodegenOMSI__common_fun__64 omc_CodegenOMSI__common_fun__64
+#define boxptr_CodegenOMSI__common_fun__67 omc_CodegenOMSI__common_fun__67
 
 
 DLLDirection
@@ -126,13 +126,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenOMSI__common_generateOmsiMemberF
 #define boxvar_CodegenOMSI__common_generateOmsiMemberFunction MMC_REFSTRUCTLIT(boxvar_lit_CodegenOMSI__common_generateOmsiMemberFunction)
 
 
-#define boxptr_CodegenOMSI__common_fun__62 omc_CodegenOMSI__common_fun__62
+#define boxptr_CodegenOMSI__common_fun__65 omc_CodegenOMSI__common_fun__65
 
 
-#define boxptr_CodegenOMSI__common_lm__61 omc_CodegenOMSI__common_lm__61
+#define boxptr_CodegenOMSI__common_lm__64 omc_CodegenOMSI__common_lm__64
 
 
-#define boxptr_CodegenOMSI__common_fun__60 omc_CodegenOMSI__common_fun__60
+#define boxptr_CodegenOMSI__common_fun__63 omc_CodegenOMSI__common_fun__63
 
 
 DLLDirection
@@ -142,13 +142,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenOMSI__common_generateOmsiFunctio
 #define boxvar_CodegenOMSI__common_generateOmsiFunctionCode__inner MMC_REFSTRUCTLIT(boxvar_lit_CodegenOMSI__common_generateOmsiFunctionCode__inner)
 
 
-#define boxptr_CodegenOMSI__common_fun__58 omc_CodegenOMSI__common_fun__58
+#define boxptr_CodegenOMSI__common_fun__61 omc_CodegenOMSI__common_fun__61
 
 
-#define boxptr_CodegenOMSI__common_lm__57 omc_CodegenOMSI__common_lm__57
+#define boxptr_CodegenOMSI__common_lm__60 omc_CodegenOMSI__common_lm__60
 
 
-#define boxptr_CodegenOMSI__common_fun__56 omc_CodegenOMSI__common_fun__56
+#define boxptr_CodegenOMSI__common_fun__59 omc_CodegenOMSI__common_fun__59
 
 
 DLLDirection
@@ -165,7 +165,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenOMSI__common_generateOmsiFunctio
 #define boxvar_CodegenOMSI__common_generateOmsiFunctionCode MMC_REFSTRUCTLIT(boxvar_lit_CodegenOMSI__common_generateOmsiFunctionCode)
 
 
-#define boxptr_CodegenOMSI__common_fun__53 omc_CodegenOMSI__common_fun__53
+#define boxptr_CodegenOMSI__common_fun__56 omc_CodegenOMSI__common_fun__56
 
 
 DLLDirection
@@ -175,7 +175,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenOMSI__common_generateEquationsCo
 #define boxvar_CodegenOMSI__common_generateEquationsCode MMC_REFSTRUCTLIT(boxvar_lit_CodegenOMSI__common_generateEquationsCode)
 
 
-#define boxptr_CodegenOMSI__common_fun__50 omc_CodegenOMSI__common_fun__50
+#define boxptr_CodegenOMSI__common_fun__53 omc_CodegenOMSI__common_fun__53
 
 
 DLLDirection

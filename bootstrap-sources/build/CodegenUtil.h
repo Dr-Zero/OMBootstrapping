@@ -18,8 +18,6 @@ extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__DESC__OPTION__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description Tpl_BlockType_BT__INDENT__desc;
 
 extern struct record_description Tpl_IterOptions_ITER__OPTIONS__desc;
@@ -31,6 +29,16 @@ extern struct record_description Tpl_StringToken_ST__STRING__desc;
 extern struct record_description Tpl_StringToken_ST__STRING__LIST__desc;
 
 extern struct record_description Tpl_Text_MEM__TEXT__desc;
+
+
+DLLDirection
+modelica_metatype omc_CodegenUtil_extFunctionName(threadData_t *threadData, modelica_metatype _txt, modelica_string _a_name, modelica_string _a_language);
+#define boxptr_CodegenUtil_extFunctionName omc_CodegenUtil_extFunctionName
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenUtil_extFunctionName,2,0) {(void*) boxptr_CodegenUtil_extFunctionName,0}};
+#define boxvar_CodegenUtil_extFunctionName MMC_REFSTRUCTLIT(boxvar_lit_CodegenUtil_extFunctionName)
+
+
+#define boxptr_CodegenUtil_fun__74 omc_CodegenUtil_fun__74
 
 
 DLLDirection
@@ -82,7 +90,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenUtil_initValXml,2,0) {(void*) bo
 #define boxvar_CodegenUtil_initValXml MMC_REFSTRUCTLIT(boxvar_lit_CodegenUtil_initValXml)
 
 
-#define boxptr_CodegenUtil_lm__61 omc_CodegenUtil_lm__61
+#define boxptr_CodegenUtil_lm__65 omc_CodegenUtil_lm__65
 
 
 DLLDirection
@@ -134,7 +142,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenUtil_subscriptsStrMatlabSafe,2,0
 #define boxvar_CodegenUtil_subscriptsStrMatlabSafe MMC_REFSTRUCTLIT(boxvar_lit_CodegenUtil_subscriptsStrMatlabSafe)
 
 
-#define boxptr_CodegenUtil_lm__49 omc_CodegenUtil_lm__49
+#define boxptr_CodegenUtil_lm__53 omc_CodegenUtil_lm__53
 
 
 DLLDirection
@@ -151,7 +159,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenUtil_subscriptsStr,2,0) {(void*)
 #define boxvar_CodegenUtil_subscriptsStr MMC_REFSTRUCTLIT(boxvar_lit_CodegenUtil_subscriptsStr)
 
 
-#define boxptr_CodegenUtil_lm__46 omc_CodegenUtil_lm__46
+#define boxptr_CodegenUtil_lm__50 omc_CodegenUtil_lm__50
 
 
 DLLDirection

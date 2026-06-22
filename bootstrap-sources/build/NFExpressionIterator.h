@@ -84,9 +84,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpressionIterator_fromExpOpt,2,0) {(
 
 
 DLLDirection
-modelica_metatype omc_NFExpressionIterator_fromExp(threadData_t *threadData, modelica_metatype _exp, modelica_boolean _backend);
+modelica_metatype omc_NFExpressionIterator_fromExp(threadData_t *threadData, modelica_metatype _exp, modelica_boolean _backend, modelica_boolean _resize);
 DLLDirection
-modelica_metatype boxptr_NFExpressionIterator_fromExp(threadData_t *threadData, modelica_metatype _exp, modelica_metatype _backend);
+modelica_metatype boxptr_NFExpressionIterator_fromExp(threadData_t *threadData, modelica_metatype _exp, modelica_metatype _backend, modelica_metatype _resize);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpressionIterator_fromExp,2,0) {(void*) boxptr_NFExpressionIterator_fromExp,0}};
 #define boxvar_NFExpressionIterator_fromExp MMC_REFSTRUCTLIT(boxvar_lit_NFExpressionIterator_fromExp)
 

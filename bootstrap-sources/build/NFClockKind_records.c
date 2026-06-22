@@ -6,7 +6,7 @@ extern "C" {
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NFClockKind_INFERRED__CLOCK__desc_added
 #define NFClockKind_INFERRED__CLOCK__desc_added
-ADD_METARECORD_DEFINITIONS const char* NFClockKind_INFERRED__CLOCK__desc__fields[1] = {"no fields"};
+ADD_METARECORD_DEFINITIONS const char* NFClockKind_INFERRED__CLOCK__desc__fields[1] = {"idx"};
 ADD_METARECORD_DEFINITIONS struct record_description NFClockKind_INFERRED__CLOCK__desc = {
   "NFClockKind_INFERRED__CLOCK",
   "NFClockKind.INFERRED_CLOCK",

@@ -24,8 +24,6 @@ extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__DESC__OPTION__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NFLookupState_LookupState_CLASS__desc;
 
 extern struct record_description NFLookupState_LookupState_CLASS__COMP__desc;

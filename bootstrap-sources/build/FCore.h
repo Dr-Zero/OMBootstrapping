@@ -14,7 +14,7 @@ extern struct record_description Absyn_Path_IDENT__desc;
 
 extern struct record_description AvlSetCR_Tree_EMPTY__desc;
 
-extern struct record_description DAE_AvlTreePathFunction_Tree_EMPTY__desc;
+extern struct record_description AvlTreePathFunction_Tree_EMPTY__desc;
 
 extern struct record_description FCore_Cache_CACHE__desc;
 

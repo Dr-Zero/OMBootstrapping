@@ -22,10 +22,8 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT6,2,8) {&Flags_FlagData_STRING__FLA
 #define _OMC_LIT7_data "Used when running the testsuite."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,32,_OMC_LIT7_data);
 #define _OMC_LIT7 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT7)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT8,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT7}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT8,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(3)),_OMC_LIT3,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT4,_OMC_LIT6,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT7}};
 #define _OMC_LIT8 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT8)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT9,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(3)),_OMC_LIT3,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT4,_OMC_LIT6,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT8}};
-#define _OMC_LIT9 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT9)
 #include "util/modelica.h"
 
 #include "Testsuite_includes.h"
@@ -208,7 +206,7 @@ modelica_string omc_Testsuite_getTempFilesFile(threadData_t *threadData)
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _tempFile has no default value.
-  _tempFile = omc_Flags_getConfigString(threadData, _OMC_LIT9);
+  _tempFile = omc_Flags_getConfigString(threadData, _OMC_LIT8);
   _return: OMC_LABEL_UNUSED
   return _tempFile;
 }
@@ -220,7 +218,7 @@ modelica_boolean omc_Testsuite_isRunning(threadData_t *threadData)
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _runningTestsuite has no default value.
-  _runningTestsuite = (!(stringEqual(omc_Flags_getConfigString(threadData, _OMC_LIT9), _OMC_LIT5)));
+  _runningTestsuite = (!(stringEqual(omc_Flags_getConfigString(threadData, _OMC_LIT8), _OMC_LIT5)));
   _return: OMC_LABEL_UNUSED
   return _runningTestsuite;
 }

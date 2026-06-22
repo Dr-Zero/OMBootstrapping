@@ -10,6 +10,16 @@
 extern "C" {
 #endif
 
+extern struct record_description Absyn_Path_IDENT__desc;
+
+extern struct record_description DAE_FunctionAttributes_FUNCTION__ATTRIBUTES__desc;
+
+extern struct record_description DAE_FunctionBuiltin_FUNCTION__BUILTIN__desc;
+
+extern struct record_description DAE_FunctionParallelism_FP__NON__PARALLEL__desc;
+
+extern struct record_description DAE_InlineType_NO__INLINE__desc;
+
 extern struct record_description ErrorTypes_Message_MESSAGE__desc;
 
 extern struct record_description ErrorTypes_MessageType_TRANSLATION__desc;
@@ -18,11 +28,15 @@ extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NFComponentRef_WILD__desc;
 
+extern struct record_description NFExpression_CALL__desc;
+
 extern struct record_description NFExpression_CREF__desc;
+
+extern struct record_description NFFunction_Function_FUNCTION__desc;
+
+extern struct record_description NFInstNode_InstNode_EMPTY__NODE__desc;
 
 extern struct record_description NFType_UNKNOWN__desc;
 
@@ -30,10 +44,10 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
 DLLDirection
-modelica_metatype omc_NBReplacements_getFunctionBody(threadData_t *threadData, modelica_metatype _fn);
-#define boxptr_NBReplacements_getFunctionBody omc_NBReplacements_getFunctionBody
-static const MMC_DEFSTRUCTLIT(boxvar_lit_NBReplacements_getFunctionBody,2,0) {(void*) boxptr_NBReplacements_getFunctionBody,0}};
-#define boxvar_NBReplacements_getFunctionBody MMC_REFSTRUCTLIT(boxvar_lit_NBReplacements_getFunctionBody)
+modelica_metatype omc_NBReplacements_wrapEvents(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp);
+#define boxptr_NBReplacements_wrapEvents omc_NBReplacements_wrapEvents
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBReplacements_wrapEvents,2,0) {(void*) boxptr_NBReplacements_wrapEvents,0}};
+#define boxvar_NBReplacements_wrapEvents MMC_REFSTRUCTLIT(boxvar_lit_NBReplacements_wrapEvents)
 
 
 DLLDirection
@@ -45,7 +59,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBReplacements_addInputArgTpl,2,0) {(vo
 
 
 DLLDirection
-modelica_metatype omc_NBReplacements_applyFuncExp(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype _replacements, modelica_metatype _variables);
+modelica_metatype omc_NBReplacements_applyFuncExp(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype _replacements, modelica_metatype _prev_replacements, modelica_metatype _variables);
 #define boxptr_NBReplacements_applyFuncExp omc_NBReplacements_applyFuncExp
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBReplacements_applyFuncExp,2,0) {(void*) boxptr_NBReplacements_applyFuncExp,0}};
 #define boxvar_NBReplacements_applyFuncExp MMC_REFSTRUCTLIT(boxvar_lit_NBReplacements_applyFuncExp)

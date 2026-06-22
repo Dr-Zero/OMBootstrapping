@@ -22,8 +22,6 @@ extern struct record_description DAE_Dimension_DIM__UNKNOWN__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NFCeval_EvalTarget_EVAL__TARGET__desc;
 
 extern struct record_description NFDimension_BOOLEAN__desc;
@@ -154,6 +152,13 @@ DLLDirection
 modelica_metatype boxptr_NFDimension_endExp(threadData_t *threadData, modelica_metatype _dim, modelica_metatype _subscriptedExp, modelica_metatype _index);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFDimension_endExp,2,0) {(void*) boxptr_NFDimension_endExp,0}};
 #define boxvar_NFDimension_endExp MMC_REFSTRUCTLIT(boxvar_lit_NFDimension_endExp)
+
+
+DLLDirection
+modelica_string omc_NFDimension_toFlatStringList(threadData_t *threadData, modelica_metatype _dims, modelica_metatype _format, modelica_string _name);
+#define boxptr_NFDimension_toFlatStringList omc_NFDimension_toFlatStringList
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFDimension_toFlatStringList,2,0) {(void*) boxptr_NFDimension_toFlatStringList,0}};
+#define boxvar_NFDimension_toFlatStringList MMC_REFSTRUCTLIT(boxvar_lit_NFDimension_toFlatStringList)
 
 
 DLLDirection

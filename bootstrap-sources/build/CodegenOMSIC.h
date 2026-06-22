@@ -12,8 +12,6 @@ extern "C" {
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description Tpl_BlockType_BT__INDENT__desc;
 
 extern struct record_description Tpl_IterOptions_ITER__OPTIONS__desc;
@@ -36,13 +34,19 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenOMSIC_createMakefileIn,2,0) {(vo
 #define boxvar_CodegenOMSIC_createMakefileIn MMC_REFSTRUCTLIT(boxvar_lit_CodegenOMSIC_createMakefileIn)
 
 
-#define boxptr_CodegenOMSIC_fun__97 omc_CodegenOMSIC_fun__97
+#define boxptr_CodegenOMSIC_fun__99 omc_CodegenOMSIC_fun__99
 
 
-#define boxptr_CodegenOMSIC_fun__96 omc_CodegenOMSIC_fun__96
+#define boxptr_CodegenOMSIC_fun__98 omc_CodegenOMSIC_fun__98
 
 
-#define boxptr_CodegenOMSIC_lm__94 omc_CodegenOMSIC_lm__94
+#define boxptr_CodegenOMSIC_lm__96 omc_CodegenOMSIC_lm__96
+
+
+#define boxptr_CodegenOMSIC_fun__94 omc_CodegenOMSIC_fun__94
+
+
+#define boxptr_CodegenOMSIC_fun__93 omc_CodegenOMSIC_fun__93
 
 
 #define boxptr_CodegenOMSIC_fun__92 omc_CodegenOMSIC_fun__92
@@ -51,19 +55,19 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenOMSIC_createMakefileIn,2,0) {(vo
 #define boxptr_CodegenOMSIC_fun__91 omc_CodegenOMSIC_fun__91
 
 
-#define boxptr_CodegenOMSIC_fun__90 omc_CodegenOMSIC_fun__90
+#define boxptr_CodegenOMSIC_lm__90 omc_CodegenOMSIC_lm__90
 
 
 #define boxptr_CodegenOMSIC_fun__89 omc_CodegenOMSIC_fun__89
 
 
-#define boxptr_CodegenOMSIC_lm__88 omc_CodegenOMSIC_lm__88
+#define boxptr_CodegenOMSIC_fun__88 omc_CodegenOMSIC_fun__88
 
 
-#define boxptr_CodegenOMSIC_fun__87 omc_CodegenOMSIC_fun__87
+#define boxptr_CodegenOMSIC_fun__85 omc_CodegenOMSIC_fun__85
 
 
-#define boxptr_CodegenOMSIC_fun__86 omc_CodegenOMSIC_fun__86
+#define boxptr_CodegenOMSIC_fun__84 omc_CodegenOMSIC_fun__84
 
 
 #define boxptr_CodegenOMSIC_fun__83 omc_CodegenOMSIC_fun__83
@@ -75,19 +79,19 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenOMSIC_createMakefileIn,2,0) {(vo
 #define boxptr_CodegenOMSIC_fun__81 omc_CodegenOMSIC_fun__81
 
 
-#define boxptr_CodegenOMSIC_fun__80 omc_CodegenOMSIC_fun__80
+#define boxptr_CodegenOMSIC_lm__80 omc_CodegenOMSIC_lm__80
 
 
 #define boxptr_CodegenOMSIC_fun__79 omc_CodegenOMSIC_fun__79
 
 
-#define boxptr_CodegenOMSIC_lm__78 omc_CodegenOMSIC_lm__78
+#define boxptr_CodegenOMSIC_fun__78 omc_CodegenOMSIC_fun__78
 
 
 #define boxptr_CodegenOMSIC_fun__77 omc_CodegenOMSIC_fun__77
 
 
-#define boxptr_CodegenOMSIC_fun__76 omc_CodegenOMSIC_fun__76
+#define boxptr_CodegenOMSIC_lm__76 omc_CodegenOMSIC_lm__76
 
 
 #define boxptr_CodegenOMSIC_fun__75 omc_CodegenOMSIC_fun__75
@@ -99,12 +103,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenOMSIC_createMakefileIn,2,0) {(vo
 #define boxptr_CodegenOMSIC_fun__73 omc_CodegenOMSIC_fun__73
 
 
-#define boxptr_CodegenOMSIC_lm__72 omc_CodegenOMSIC_lm__72
-
-
-#define boxptr_CodegenOMSIC_fun__71 omc_CodegenOMSIC_fun__71
-
-
 DLLDirection
 modelica_metatype omc_CodegenOMSIC_createMakefile(threadData_t *threadData, modelica_metatype _txt, modelica_metatype _a_simCode, modelica_string _a_target, modelica_string _a_makeflieName);
 #define boxptr_CodegenOMSIC_createMakefile omc_CodegenOMSIC_createMakefile
@@ -112,7 +110,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenOMSIC_createMakefile,2,0) {(void
 #define boxvar_CodegenOMSIC_createMakefile MMC_REFSTRUCTLIT(boxvar_lit_CodegenOMSIC_createMakefile)
 
 
+#define boxptr_CodegenOMSIC_fun__71 omc_CodegenOMSIC_fun__71
+
+
 #define boxptr_CodegenOMSIC_fun__69 omc_CodegenOMSIC_fun__69
+
+
+#define boxptr_CodegenOMSIC_fun__68 omc_CodegenOMSIC_fun__68
 
 
 #define boxptr_CodegenOMSIC_fun__67 omc_CodegenOMSIC_fun__67
@@ -145,25 +149,16 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenOMSIC_createMakefile,2,0) {(void
 #define boxptr_CodegenOMSIC_fun__58 omc_CodegenOMSIC_fun__58
 
 
-#define boxptr_CodegenOMSIC_fun__57 omc_CodegenOMSIC_fun__57
+#define boxptr_CodegenOMSIC_lm__57 omc_CodegenOMSIC_lm__57
 
 
 #define boxptr_CodegenOMSIC_fun__56 omc_CodegenOMSIC_fun__56
 
 
-#define boxptr_CodegenOMSIC_fun__55 omc_CodegenOMSIC_fun__55
+#define boxptr_CodegenOMSIC_lm__55 omc_CodegenOMSIC_lm__55
 
 
-#define boxptr_CodegenOMSIC_lm__54 omc_CodegenOMSIC_lm__54
-
-
-#define boxptr_CodegenOMSIC_fun__53 omc_CodegenOMSIC_fun__53
-
-
-#define boxptr_CodegenOMSIC_lm__52 omc_CodegenOMSIC_lm__52
-
-
-#define boxptr_CodegenOMSIC_fun__51 omc_CodegenOMSIC_fun__51
+#define boxptr_CodegenOMSIC_fun__54 omc_CodegenOMSIC_fun__54
 
 
 DLLDirection
@@ -173,7 +168,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CodegenOMSIC_generateOMSIC,2,0) {(void*
 #define boxvar_CodegenOMSIC_generateOMSIC MMC_REFSTRUCTLIT(boxvar_lit_CodegenOMSIC_generateOMSIC)
 
 
-#define boxptr_CodegenOMSIC_fun__49 omc_CodegenOMSIC_fun__49
+#define boxptr_CodegenOMSIC_fun__52 omc_CodegenOMSIC_fun__52
 
 #ifdef __cplusplus
 }

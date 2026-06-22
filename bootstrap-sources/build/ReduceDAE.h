@@ -80,8 +80,6 @@ extern struct record_description Flags_FlagVisibility_INTERNAL__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__OPTION__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description SimCode_LinearSystem_LINEARSYSTEM__desc;
 
 extern struct record_description SimCode_NonlinearSystem_NONLINEARSYSTEM__desc;

@@ -18,8 +18,6 @@ extern struct record_description Flags_FlagData_STRING__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description SimCodeFunction_Context_OTHER__CONTEXT__desc;
 
 extern struct record_description Tpl_StringToken_ST__STRING__desc;

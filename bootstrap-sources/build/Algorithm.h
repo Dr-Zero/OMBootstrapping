@@ -56,8 +56,6 @@ extern struct record_description ErrorTypes_Severity_WARNING__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 
 DLLDirection
 modelica_boolean omc_Algorithm_isNotDummyStatement(threadData_t *threadData, modelica_metatype _stmt);
@@ -65,13 +63,6 @@ DLLDirection
 modelica_metatype boxptr_Algorithm_isNotDummyStatement(threadData_t *threadData, modelica_metatype _stmt);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Algorithm_isNotDummyStatement,2,0) {(void*) boxptr_Algorithm_isNotDummyStatement,0}};
 #define boxvar_Algorithm_isNotDummyStatement MMC_REFSTRUCTLIT(boxvar_lit_Algorithm_isNotDummyStatement)
-
-
-DLLDirection
-modelica_metatype omc_Algorithm_getAssertCond(threadData_t *threadData, modelica_metatype _stmt);
-#define boxptr_Algorithm_getAssertCond omc_Algorithm_getAssertCond
-static const MMC_DEFSTRUCTLIT(boxvar_lit_Algorithm_getAssertCond,2,0) {(void*) boxptr_Algorithm_getAssertCond,0}};
-#define boxvar_Algorithm_getAssertCond MMC_REFSTRUCTLIT(boxvar_lit_Algorithm_getAssertCond)
 
 
 DLLDirection

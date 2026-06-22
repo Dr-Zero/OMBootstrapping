@@ -64,13 +64,15 @@ extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__OPTION__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
+extern struct record_description MidCode_Program_PROGRAM__desc;
 
 extern struct record_description SCodeDump_SCodeDumpOptions_OPTIONS__desc;
 
+extern struct record_description SimCodeFunction_FunctionCode_FUNCTIONCODE__desc;
+
 extern struct record_description SourceInfo_SOURCEINFO__desc;
+
+extern struct record_description Tpl_Text_MEM__TEXT__desc;
 
 extern struct record_description Values_Value_BOOL__desc;
 
@@ -140,15 +142,17 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CevalScript_getImportedNames,2,0) {(voi
 #define boxptr_CevalScript_listClass omc_CevalScript_listClass
 
 
-#define boxptr_CevalScript_findModelicaPath omc_CevalScript_findModelicaPath
+#define boxptr_CevalScript_removeThreadDataFunction omc_CevalScript_removeThreadDataFunction
+
+
+#define boxptr_CevalScript_removeThreadDataRecord omc_CevalScript_removeThreadDataRecord
 
 
 DLLDirection
-modelica_string omc_CevalScript_getFullPathFromUri(threadData_t *threadData, modelica_metatype _program, modelica_string _uri, modelica_boolean _printError);
-DLLDirection
-modelica_metatype boxptr_CevalScript_getFullPathFromUri(threadData_t *threadData, modelica_metatype _program, modelica_metatype _uri, modelica_metatype _printError);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_CevalScript_getFullPathFromUri,2,0) {(void*) boxptr_CevalScript_getFullPathFromUri,0}};
-#define boxvar_CevalScript_getFullPathFromUri MMC_REFSTRUCTLIT(boxvar_lit_CevalScript_getFullPathFromUri)
+void omc_CevalScript_translateFunctions(threadData_t *threadData, modelica_metatype _program, modelica_string _name, modelica_metatype _optMainFunction, modelica_metatype _idaeElements, modelica_metatype _metarecordTypes, modelica_metatype _inIncludes);
+#define boxptr_CevalScript_translateFunctions omc_CevalScript_translateFunctions
+static const MMC_DEFSTRUCTLIT(boxvar_lit_CevalScript_translateFunctions,2,0) {(void*) boxptr_CevalScript_translateFunctions,0}};
+#define boxvar_CevalScript_translateFunctions MMC_REFSTRUCTLIT(boxvar_lit_CevalScript_translateFunctions)
 
 
 #define boxptr_CevalScript_reloadClass omc_CevalScript_reloadClass
@@ -172,7 +176,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_CevalScript_getFullPathFromUri,2,0) {(v
 #define boxptr_CevalScript_dependencyString omc_CevalScript_dependencyString
 
 
-#define boxptr_CevalScript_importDepenency omc_CevalScript_importDepenency
+#define boxptr_CevalScript_importDependency omc_CevalScript_importDependency
 
 
 #define boxptr_CevalScript_buildTransitiveDependencyGraph omc_CevalScript_buildTransitiveDependencyGraph

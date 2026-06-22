@@ -33,37 +33,37 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT9,15,_OMC_LIT9_data);
 #define _OMC_LIT10_data "----------"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT10,10,_OMC_LIT10_data);
 #define _OMC_LIT10 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT10)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT11,0.0);
-#define _OMC_LIT11 MMC_REFREALLIT(_OMC_LIT_STRUCT11)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT12,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT1,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),_OMC_LIT11}};
-#define _OMC_LIT12 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT12)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT13,1,4) {&DAE_ComponentPrefix_NOCOMPPRE__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT11,2,3) {&DAE_Exp_ICONST__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0))}};
+#define _OMC_LIT11 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT11)
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT12,0.0);
+#define _OMC_LIT12 MMC_REFREALLIT(_OMC_LIT_STRUCT12)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT13,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT1,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0)),_OMC_LIT12}};
 #define _OMC_LIT13 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT13)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT14,8,3) {&DAE_ElementSource_SOURCE__desc,_OMC_LIT12,MMC_REFSTRUCTLIT(mmc_nil),_OMC_LIT13,MMC_REFSTRUCTLIT(mmc_nil),MMC_REFSTRUCTLIT(mmc_nil),MMC_REFSTRUCTLIT(mmc_nil),MMC_REFSTRUCTLIT(mmc_nil)}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT14,1,4) {&DAE_ComponentPrefix_NOCOMPPRE__desc,}};
 #define _OMC_LIT14 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT14)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT15,1,3) {&BackendDAE_EquationKind_BINDING__EQUATION__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT15,8,3) {&DAE_ElementSource_SOURCE__desc,_OMC_LIT13,MMC_REFSTRUCTLIT(mmc_nil),_OMC_LIT14,MMC_REFSTRUCTLIT(mmc_nil),MMC_REFSTRUCTLIT(mmc_nil),MMC_REFSTRUCTLIT(mmc_nil),MMC_REFSTRUCTLIT(mmc_nil)}};
 #define _OMC_LIT15 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT15)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT16,5,3) {&BackendDAE_EvaluationStages_EVALUATION__STAGES__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */))}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT16,1,3) {&BackendDAE_EquationKind_BINDING__EQUATION__desc,}};
 #define _OMC_LIT16 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT16)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT17,4,3) {&BackendDAE_EquationAttributes_EQUATION__ATTRIBUTES__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT15,_OMC_LIT16}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT17,5,3) {&BackendDAE_EvaluationStages_EVALUATION__STAGES__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */))}};
 #define _OMC_LIT17 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT17)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT18,2,4) {&DAE_Exp_RCONST__desc,_OMC_LIT11}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT18,4,3) {&BackendDAE_EquationAttributes_EQUATION__ATTRIBUTES__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT16,_OMC_LIT17}};
 #define _OMC_LIT18 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT18)
-#define _OMC_LIT19_data "START: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT19,7,_OMC_LIT19_data);
-#define _OMC_LIT19 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT19)
-#define _OMC_LIT20_data "\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT20,1,_OMC_LIT20_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT19,2,4) {&DAE_Exp_RCONST__desc,_OMC_LIT12}};
+#define _OMC_LIT19 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT19)
+#define _OMC_LIT20_data "START: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT20,7,_OMC_LIT20_data);
 #define _OMC_LIT20 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT20)
-#define _OMC_LIT21_data "debugAlias"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT21,10,_OMC_LIT21_data);
+#define _OMC_LIT21_data "\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT21,1,_OMC_LIT21_data);
 #define _OMC_LIT21 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT21)
-#define _OMC_LIT22_data "Dumps some information about the process of removeSimpleEquations."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT22,66,_OMC_LIT22_data);
+#define _OMC_LIT22_data "debugAlias"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT22,10,_OMC_LIT22_data);
 #define _OMC_LIT22 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT22)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT23,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT22}};
-#define _OMC_LIT23 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT23)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT24,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(43)),_OMC_LIT21,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT23}};
+#define _OMC_LIT23_data "Dumps some information about the process of removeSimpleEquations."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT23,66,_OMC_LIT23_data);
+#define _OMC_LIT23 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT23)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT24,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(43)),_OMC_LIT22,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT23}};
 #define _OMC_LIT24 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT24)
 #define _OMC_LIT25_data "NOMINAL: "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT25,9,_OMC_LIT25_data);
@@ -140,464 +140,424 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT49,8,_OMC_LIT49_data);
 #define _OMC_LIT50_data "Dump the found replacements for simple equation removal."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT50,56,_OMC_LIT50_data);
 #define _OMC_LIT50 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT50)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT51,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT50}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT51,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(38)),_OMC_LIT49,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT50}};
 #define _OMC_LIT51 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT51)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT52,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(38)),_OMC_LIT49,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT51}};
-#define _OMC_LIT52 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT52)
-#define _OMC_LIT53_data "Negating: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT53,10,_OMC_LIT53_data);
+#define _OMC_LIT52_data "Negating: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT52,10,_OMC_LIT52_data);
+#define _OMC_LIT52 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT52)
+#define _OMC_LIT53_data " "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT53,1,_OMC_LIT53_data);
 #define _OMC_LIT53 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT53)
-#define _OMC_LIT54_data " "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT54,1,_OMC_LIT54_data);
+#define _OMC_LIT54_data ".\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT54,2,_OMC_LIT54_data);
 #define _OMC_LIT54 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT54)
-#define _OMC_LIT55_data ".\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT55,2,_OMC_LIT55_data);
+#define _OMC_LIT55_data "Not negating: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT55,14,_OMC_LIT55_data);
 #define _OMC_LIT55 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT55)
-#define _OMC_LIT56_data "Not negating: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT56,14,_OMC_LIT56_data);
+#define _OMC_LIT56_data " returning: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT56,12,_OMC_LIT56_data);
 #define _OMC_LIT56 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT56)
-#define _OMC_LIT57_data " returning: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT57,12,_OMC_LIT57_data);
+#define _OMC_LIT57_data "pre"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT57,3,_OMC_LIT57_data);
 #define _OMC_LIT57 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT57)
-#define _OMC_LIT58_data "pre"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT58,3,_OMC_LIT58_data);
+#define _OMC_LIT58_data "The following initial equation is inconsistent due to simplifications in RemoveSimpleEquations and therefore removed from the initialization problem: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT58,150,_OMC_LIT58_data);
 #define _OMC_LIT58 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT58)
-#define _OMC_LIT59_data "The following initial equation is inconsistent due to simplifications in RemoveSimpleEquations and therefore removed from the initialization problem: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT59,150,_OMC_LIT59_data);
+#define _OMC_LIT59_data " -> "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT59,4,_OMC_LIT59_data);
 #define _OMC_LIT59 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT59)
-#define _OMC_LIT60_data " -> "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT60,4,_OMC_LIT60_data);
+#define _OMC_LIT60_data "The following initial equation is redundant and consistent due to simplifications in RemoveSimpleEquations and therefore removed from the initialization problem: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT60,162,_OMC_LIT60_data);
 #define _OMC_LIT60 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT60)
-#define _OMC_LIT61_data "The following initial equation is redundant and consistent due to simplifications in RemoveSimpleEquations and therefore removed from the initialization problem: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT61,162,_OMC_LIT61_data);
+#define _OMC_LIT61_data "=> Select value from "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT61,21,_OMC_LIT61_data);
 #define _OMC_LIT61 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT61)
-#define _OMC_LIT62_data "=> Select value from "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT62,21,_OMC_LIT62_data);
+#define _OMC_LIT62_data "("
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT62,1,_OMC_LIT62_data);
 #define _OMC_LIT62 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT62)
-#define _OMC_LIT63_data "("
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT63,1,_OMC_LIT63_data);
+#define _OMC_LIT63_data ") for variable: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT63,16,_OMC_LIT63_data);
 #define _OMC_LIT63 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT63)
-#define _OMC_LIT64_data ") for variable: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT64,16,_OMC_LIT64_data);
-#define _OMC_LIT64 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT64)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT65,1,5) {&ErrorTypes_MessageType_TRANSLATION__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT64,1,5) {&ErrorTypes_MessageType_TRANSLATION__desc,}};
+#define _OMC_LIT64 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT64)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT65,1,5) {&ErrorTypes_Severity_WARNING__desc,}};
 #define _OMC_LIT65 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT65)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT66,1,5) {&ErrorTypes_Severity_WARNING__desc,}};
-#define _OMC_LIT66 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT66)
-#define _OMC_LIT67_data "%s"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT67,2,_OMC_LIT67_data);
-#define _OMC_LIT67 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT67)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT68,2,4) {&Gettext_TranslatableContent_notrans__desc,_OMC_LIT67}};
-#define _OMC_LIT68 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT68)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT69,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(6000)),_OMC_LIT65,_OMC_LIT66,_OMC_LIT68}};
-#define _OMC_LIT69 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT69)
-#define _OMC_LIT70_data "aliasConflicts"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT70,14,_OMC_LIT70_data);
-#define _OMC_LIT70 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT70)
-#define _OMC_LIT71_data "Dumps alias sets with different start or nominal values."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT71,56,_OMC_LIT71_data);
+#define _OMC_LIT66_data "%s"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT66,2,_OMC_LIT66_data);
+#define _OMC_LIT66 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT66)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT67,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(6000)),_OMC_LIT64,_OMC_LIT65,_OMC_LIT66}};
+#define _OMC_LIT67 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT67)
+#define _OMC_LIT68_data "aliasConflicts"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT68,14,_OMC_LIT68_data);
+#define _OMC_LIT68 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT68)
+#define _OMC_LIT69_data "Dumps alias sets with different start or nominal values."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT69,56,_OMC_LIT69_data);
+#define _OMC_LIT69 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT69)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT70,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(163)),_OMC_LIT68,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT69}};
+#define _OMC_LIT70 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT70)
+#define _OMC_LIT71_data " * Candidate: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT71,14,_OMC_LIT71_data);
 #define _OMC_LIT71 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT71)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT72,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT71}};
-#define _OMC_LIT72 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT72)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT73,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(163)),_OMC_LIT70,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT72}};
-#define _OMC_LIT73 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT73)
-#define _OMC_LIT74_data " * Candidate: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT74,14,_OMC_LIT74_data);
+#define _OMC_LIT72_data ", confidence number = "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT72,22,_OMC_LIT72_data);
+#define _OMC_LIT72 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT72)
+#define _OMC_LIT73_data ")\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT73,2,_OMC_LIT73_data);
+#define _OMC_LIT73 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT73)
+#define _OMC_LIT74_data "Alias set with conflicting start values\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT74,40,_OMC_LIT74_data);
 #define _OMC_LIT74 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT74)
-#define _OMC_LIT75_data ", confidence number = "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT75,22,_OMC_LIT75_data);
+#define _OMC_LIT75_data "start"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT75,5,_OMC_LIT75_data);
 #define _OMC_LIT75 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT75)
-#define _OMC_LIT76_data ")\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT76,2,_OMC_LIT76_data);
+#define _OMC_LIT76_data "RemoveSimpleEquations.handleVarSetAttributes failed!\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT76,53,_OMC_LIT76_data);
 #define _OMC_LIT76 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT76)
-#define _OMC_LIT77_data "Alias set with conflicting start values\n"
+#define _OMC_LIT77_data "Alias variables with invalid limits min "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT77,40,_OMC_LIT77_data);
 #define _OMC_LIT77 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT77)
-#define _OMC_LIT78_data "start"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT78,5,_OMC_LIT78_data);
+#define _OMC_LIT78_data " > max "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT78,7,_OMC_LIT78_data);
 #define _OMC_LIT78 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT78)
-#define _OMC_LIT79_data "RemoveSimpleEquations.handleVarSetAttributes failed!\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT79,53,_OMC_LIT79_data);
+#define _OMC_LIT79_data " min_1 "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT79,7,_OMC_LIT79_data);
 #define _OMC_LIT79 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT79)
-#define _OMC_LIT80_data "Alias variables with invalid limits min "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT80,40,_OMC_LIT80_data);
+#define _OMC_LIT80_data " max_1 "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT80,7,_OMC_LIT80_data);
 #define _OMC_LIT80 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT80)
-#define _OMC_LIT81_data " > max "
+#define _OMC_LIT81_data " max_2 "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT81,7,_OMC_LIT81_data);
 #define _OMC_LIT81 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT81)
-#define _OMC_LIT82_data " min_1 "
+#define _OMC_LIT82_data " min_2 "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT82,7,_OMC_LIT82_data);
 #define _OMC_LIT82 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT82)
-#define _OMC_LIT83_data " max_1 "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT83,7,_OMC_LIT83_data);
+#define _OMC_LIT83_data "RemoveSimpleEquations.mergeMinMax failed!\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT83,42,_OMC_LIT83_data);
 #define _OMC_LIT83 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT83)
-#define _OMC_LIT84_data " max_2 "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT84,7,_OMC_LIT84_data);
+#define _OMC_LIT84_data "Alias set with conflicting nominal values\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT84,42,_OMC_LIT84_data);
 #define _OMC_LIT84 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT84)
-#define _OMC_LIT85_data " min_2 "
+#define _OMC_LIT85_data "nominal"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT85,7,_OMC_LIT85_data);
 #define _OMC_LIT85 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT85)
-#define _OMC_LIT86_data "RemoveSimpleEquations.mergeMinMax failed!\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT86,42,_OMC_LIT86_data);
+#define _OMC_LIT86_data "Conflicting start values for fixed states:\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT86,43,_OMC_LIT86_data);
 #define _OMC_LIT86 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT86)
-#define _OMC_LIT87_data "Alias set with conflicting nominal values\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT87,42,_OMC_LIT87_data);
+#define _OMC_LIT87_data "(start = "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT87,9,_OMC_LIT87_data);
 #define _OMC_LIT87 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT87)
-#define _OMC_LIT88_data "nominal"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT88,7,_OMC_LIT88_data);
-#define _OMC_LIT88 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT88)
-#define _OMC_LIT89_data "Conflicting start values for fixed states:\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT89,43,_OMC_LIT89_data);
-#define _OMC_LIT89 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT89)
-#define _OMC_LIT90_data "(start = "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT90,9,_OMC_LIT90_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT88,1,6) {&ErrorTypes_MessageType_SYMBOLIC__desc,}};
+#define _OMC_LIT88 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT88)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT89,1,4) {&ErrorTypes_Severity_ERROR__desc,}};
+#define _OMC_LIT89 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT89)
+#define _OMC_LIT90_data "The model contains alias variables with conflicting fixed start values. It is necessary to resolve the conflicts, because otherwise the initial system is impossible to solve. To print the conflicting alias sets and the chosen candidates please use -d=aliasConflicts."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT90,266,_OMC_LIT90_data);
 #define _OMC_LIT90 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT90)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT91,1,6) {&ErrorTypes_MessageType_SYMBOLIC__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT91,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(7018)),_OMC_LIT88,_OMC_LIT89,_OMC_LIT90}};
 #define _OMC_LIT91 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT91)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT92,1,4) {&ErrorTypes_Severity_ERROR__desc,}};
-#define _OMC_LIT92 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT92)
-#define _OMC_LIT93_data "The model contains alias variables with conflicting fixed start values. It is necessary to resolve the conflicts, because otherwise the initial system is impossible to solve. To print the conflicting alias sets and the chosen candidates please use -d=aliasConflicts."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT93,266,_OMC_LIT93_data);
+#define _OMC_LIT92_data " start_1 "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT92,9,_OMC_LIT92_data);
+#define _OMC_LIT92 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT92)
+#define _OMC_LIT93_data " start_2 "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT93,9,_OMC_LIT93_data);
 #define _OMC_LIT93 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT93)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT94,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT93}};
-#define _OMC_LIT94 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT94)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT95,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(7018)),_OMC_LIT91,_OMC_LIT92,_OMC_LIT94}};
-#define _OMC_LIT95 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT95)
-#define _OMC_LIT96_data " start_1 "
+#define _OMC_LIT94_data "RemoveSimpleEquations.addStartValue failed!\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT94,44,_OMC_LIT94_data);
+#define _OMC_LIT94 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT94)
+#define _OMC_LIT95_data " in negateOptExp "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT95,17,_OMC_LIT95_data);
+#define _OMC_LIT95 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT95)
+#define _OMC_LIT96_data " ALIAS_1 "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT96,9,_OMC_LIT96_data);
 #define _OMC_LIT96 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT96)
-#define _OMC_LIT97_data " start_2 "
+#define _OMC_LIT97_data " ALIAS_2 "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT97,9,_OMC_LIT97_data);
 #define _OMC_LIT97 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT97)
-#define _OMC_LIT98_data "RemoveSimpleEquations.addStartValue failed!\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT98,44,_OMC_LIT98_data);
+#define _OMC_LIT98_data " PARAMETERLAIAS "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT98,16,_OMC_LIT98_data);
 #define _OMC_LIT98 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT98)
-#define _OMC_LIT99_data " in negateOptExp "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT99,17,_OMC_LIT99_data);
+#define _OMC_LIT99_data "Found equation without time-dependent variables: %s = %s"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT99,56,_OMC_LIT99_data);
 #define _OMC_LIT99 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT99)
-#define _OMC_LIT100_data " ALIAS_1 "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT100,9,_OMC_LIT100_data);
-#define _OMC_LIT100 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT100)
-#define _OMC_LIT101_data " ALIAS_2 "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT101,9,_OMC_LIT101_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT100,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(550)),_OMC_LIT88,_OMC_LIT89,_OMC_LIT99}};
+#define _OMC_LIT100 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT100)
+#define _OMC_LIT101_data " PARAMETERALIAS "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT101,16,_OMC_LIT101_data);
 #define _OMC_LIT101 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT101)
-#define _OMC_LIT102_data " PARAMETERLAIAS "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT102,16,_OMC_LIT102_data);
-#define _OMC_LIT102 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT102)
-#define _OMC_LIT103_data "Found equation without time-dependent variables: %s = %s"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT103,56,_OMC_LIT103_data);
-#define _OMC_LIT103 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT103)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT104,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT103}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT102,1,1) {_OMC_LIT19}};
+#define _OMC_LIT102 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT102)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT103,2,0) {MMC_IMMEDIATE(MMC_TAGFIXNUM(-1)),MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT103 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT103)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT104,2,0) {MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none)}};
 #define _OMC_LIT104 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT104)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT105,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(550)),_OMC_LIT91,_OMC_LIT92,_OMC_LIT104}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT105,4,0) {MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT103,MMC_REFSTRUCTLIT(mmc_nil),_OMC_LIT104}};
 #define _OMC_LIT105 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT105)
-#define _OMC_LIT106_data " PARAMETERALIAS "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT106,16,_OMC_LIT106_data);
+#define _OMC_LIT106_data " timealias "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT106,11,_OMC_LIT106_data);
 #define _OMC_LIT106 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT106)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT107,1,1) {_OMC_LIT18}};
-#define _OMC_LIT107 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT107)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT108,2,0) {MMC_IMMEDIATE(MMC_TAGFIXNUM(-1)),MMC_REFSTRUCTLIT(mmc_nil)}};
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT107,1.0);
+#define _OMC_LIT107 MMC_REFREALLIT(_OMC_LIT_STRUCT107)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT108,2,4) {&DAE_Exp_RCONST__desc,_OMC_LIT107}};
 #define _OMC_LIT108 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT108)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT109,2,0) {MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none)}};
-#define _OMC_LIT109 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT109)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT110,4,0) {MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT108,MMC_REFSTRUCTLIT(mmc_nil),_OMC_LIT109}};
-#define _OMC_LIT110 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT110)
-#define _OMC_LIT111_data " timealias "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT111,11,_OMC_LIT111_data);
+#define _OMC_LIT109_data " timealias der "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT109,15,_OMC_LIT109_data);
+#define _OMC_LIT109 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT109)
+#define _OMC_LIT110_data "----------------------------------"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT110,34,_OMC_LIT110_data);
+#define _OMC_LIT110 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT110)
+#define _OMC_LIT111_data "Circular Equalities Detected for Variables:\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT111,44,_OMC_LIT111_data);
 #define _OMC_LIT111 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT111)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT112,1.0);
-#define _OMC_LIT112 MMC_REFREALLIT(_OMC_LIT_STRUCT112)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT113,2,4) {&DAE_Exp_RCONST__desc,_OMC_LIT112}};
+#define _OMC_LIT112_data "Internal error %s"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT112,17,_OMC_LIT112_data);
+#define _OMC_LIT112 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT112)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT113,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(63)),_OMC_LIT64,_OMC_LIT89,_OMC_LIT112}};
 #define _OMC_LIT113 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT113)
-#define _OMC_LIT114_data " timealias der "
+#define _OMC_LIT114_data "Const Equation "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT114,15,_OMC_LIT114_data);
 #define _OMC_LIT114 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT114)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT115,2,3) {&DAE_Exp_ICONST__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0))}};
-#define _OMC_LIT115 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT115)
-#define _OMC_LIT116_data "----------------------------------"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT116,34,_OMC_LIT116_data);
+#define _OMC_LIT115_data " found.\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT115,8,_OMC_LIT115_data);
+#define _OMC_LIT115 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT115)
+#define _OMC_LIT116_data "evalRecursionLimit"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT116,18,_OMC_LIT116_data);
 #define _OMC_LIT116 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT116)
-#define _OMC_LIT117_data "Circular Equalities Detected for Variables:\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT117,44,_OMC_LIT117_data);
-#define _OMC_LIT117 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT117)
-#define _OMC_LIT118_data "Internal error %s"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT118,17,_OMC_LIT118_data);
-#define _OMC_LIT118 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT118)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT119,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT118}};
-#define _OMC_LIT119 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT119)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT120,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(63)),_OMC_LIT65,_OMC_LIT92,_OMC_LIT119}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT117,1,4) {&Flags_FlagVisibility_EXTERNAL__desc,}};
+#define _OMC_LIT117 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT117)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT118,2,5) {&Flags_FlagData_INT__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(256))}};
+#define _OMC_LIT118 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT118)
+#define _OMC_LIT119_data "The recursion limit used when evaluating constant function calls."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT119,65,_OMC_LIT119_data);
+#define _OMC_LIT119 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT119)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT120,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(118)),_OMC_LIT116,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT117,_OMC_LIT118,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT119}};
 #define _OMC_LIT120 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT120)
-#define _OMC_LIT121_data "Const Equation "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT121,15,_OMC_LIT121_data);
+#define _OMC_LIT121_data "Const Equation (through Ceval, case 1) "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT121,39,_OMC_LIT121_data);
 #define _OMC_LIT121 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT121)
-#define _OMC_LIT122_data " found.\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT122,8,_OMC_LIT122_data);
+#define _OMC_LIT122_data "Const Equation (through Ceval, case 2) "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT122,39,_OMC_LIT122_data);
 #define _OMC_LIT122 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT122)
-#define _OMC_LIT123_data "evalRecursionLimit"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT123,18,_OMC_LIT123_data);
+#define _OMC_LIT123_data "previous"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT123,8,_OMC_LIT123_data);
 #define _OMC_LIT123 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT123)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT124,1,4) {&Flags_FlagVisibility_EXTERNAL__desc,}};
-#define _OMC_LIT124 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT124)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT125,2,5) {&Flags_FlagData_INT__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(256))}};
-#define _OMC_LIT125 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT125)
-#define _OMC_LIT126_data "The recursion limit used when evaluating constant function calls."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT126,65,_OMC_LIT126_data);
+#define _OMC_LIT124_data "change"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT124,6,_OMC_LIT124_data);
+#define _OMC_LIT124 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT124)
+#define _OMC_LIT125_data "edge"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT125,4,_OMC_LIT125_data);
+#define _OMC_LIT125 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT125)
+#define _OMC_LIT126_data " checkEqualAlias "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT126,17,_OMC_LIT126_data);
 #define _OMC_LIT126 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT126)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT127,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT126}};
-#define _OMC_LIT127 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT127)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT128,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(118)),_OMC_LIT123,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT124,_OMC_LIT125,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT127}};
+#define _OMC_LIT127_data "Model is structurally singular, error found sorting equations\n%s\nfor variables\n%s"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT127,81,_OMC_LIT127_data);
+#define _OMC_LIT127 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT127)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT128,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(34)),_OMC_LIT88,_OMC_LIT89,_OMC_LIT127}};
 #define _OMC_LIT128 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT128)
-#define _OMC_LIT129_data "Const Equation (through Ceval, case 1) "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT129,39,_OMC_LIT129_data);
+#define _OMC_LIT129_data " generateSimpleContainter "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT129,26,_OMC_LIT129_data);
 #define _OMC_LIT129 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT129)
-#define _OMC_LIT130_data "Const Equation (through Ceval, case 2) "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT130,39,_OMC_LIT130_data);
+#define _OMC_LIT130_data "Alias Equation "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT130,15,_OMC_LIT130_data);
 #define _OMC_LIT130 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT130)
-#define _OMC_LIT131_data "previous"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT131,8,_OMC_LIT131_data);
+#define _OMC_LIT131_data " found. Negated lhs["
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT131,20,_OMC_LIT131_data);
 #define _OMC_LIT131 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT131)
-#define _OMC_LIT132_data "change"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT132,6,_OMC_LIT132_data);
+#define _OMC_LIT132_data "true"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT132,4,_OMC_LIT132_data);
 #define _OMC_LIT132 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT132)
-#define _OMC_LIT133_data "edge"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT133,4,_OMC_LIT133_data);
+#define _OMC_LIT133_data "false"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT133,5,_OMC_LIT133_data);
 #define _OMC_LIT133 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT133)
-#define _OMC_LIT134_data " checkEqualAlias "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT134,17,_OMC_LIT134_data);
+#define _OMC_LIT134_data "] = rhs["
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT134,8,_OMC_LIT134_data);
 #define _OMC_LIT134 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT134)
-#define _OMC_LIT135_data "Model is structurally singular, error found sorting equations\n%s\nfor variables\n%s"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT135,81,_OMC_LIT135_data);
+#define _OMC_LIT135_data "].\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT135,3,_OMC_LIT135_data);
 #define _OMC_LIT135 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT135)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT136,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT135}};
-#define _OMC_LIT136 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT136)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT137,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(34)),_OMC_LIT91,_OMC_LIT92,_OMC_LIT136}};
-#define _OMC_LIT137 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT137)
-#define _OMC_LIT138_data " generateSimpleContainter "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT138,26,_OMC_LIT138_data);
+#define _OMC_LIT136_data "Non Alias Equation "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT136,19,_OMC_LIT136_data);
+#define _OMC_LIT136 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT136)
+#define _OMC_LIT137_data " to generate.\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT137,14,_OMC_LIT137_data);
+#define _OMC_LIT137 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT137)
+#define _OMC_LIT138_data "failtrace"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT138,9,_OMC_LIT138_data);
 #define _OMC_LIT138 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT138)
-#define _OMC_LIT139_data "Alias Equation "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT139,15,_OMC_LIT139_data);
+#define _OMC_LIT139_data "Sets whether to print a failtrace or not."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT139,41,_OMC_LIT139_data);
 #define _OMC_LIT139 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT139)
-#define _OMC_LIT140_data " found. Negated lhs["
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT140,20,_OMC_LIT140_data);
-#define _OMC_LIT140 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT140)
-#define _OMC_LIT141_data "true"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT141,4,_OMC_LIT141_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT140,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT138,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT139}};
+#define _OMC_LIT140 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT140)
+#define _OMC_LIT141_data "- BackendDAEOptimize.generateEquation failed on: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT141,49,_OMC_LIT141_data);
 #define _OMC_LIT141 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT141)
-#define _OMC_LIT142_data "false"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT142,5,_OMC_LIT142_data);
-#define _OMC_LIT142 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT142)
-#define _OMC_LIT143_data "] = rhs["
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT143,8,_OMC_LIT143_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT142,2,6) {&DAE_Exp_BCONST__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */))}};
+#define _OMC_LIT142 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT142)
+#define _OMC_LIT143_data "Failed assertion exp is 0"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT143,25,_OMC_LIT143_data);
 #define _OMC_LIT143 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT143)
-#define _OMC_LIT144_data "].\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT144,3,_OMC_LIT144_data);
-#define _OMC_LIT144 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT144)
-#define _OMC_LIT145_data "Non Alias Equation "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT145,19,_OMC_LIT145_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT144,2,5) {&DAE_Exp_SCONST__desc,_OMC_LIT143}};
+#define _OMC_LIT144 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT144)
+#define _OMC_LIT145_data "AssertionLevel"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT145,14,_OMC_LIT145_data);
 #define _OMC_LIT145 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT145)
-#define _OMC_LIT146_data " to generate.\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT146,14,_OMC_LIT146_data);
+#define _OMC_LIT146_data "error"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT146,5,_OMC_LIT146_data);
 #define _OMC_LIT146 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT146)
-#define _OMC_LIT147_data "failtrace"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT147,9,_OMC_LIT147_data);
-#define _OMC_LIT147 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT147)
-#define _OMC_LIT148_data "Sets whether to print a failtrace or not."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT148,41,_OMC_LIT148_data);
-#define _OMC_LIT148 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT148)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT149,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT148}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT147,2,4) {&Absyn_Path_IDENT__desc,_OMC_LIT146}};
+#define _OMC_LIT147 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT147)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT148,3,3) {&Absyn_Path_QUALIFIED__desc,_OMC_LIT145,_OMC_LIT147}};
+#define _OMC_LIT148 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT148)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT149,3,8) {&DAE_Exp_ENUM__LITERAL__desc,_OMC_LIT148,MMC_IMMEDIATE(MMC_TAGFIXNUM(2))}};
 #define _OMC_LIT149 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT149)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT150,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),_OMC_LIT147,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT149}};
-#define _OMC_LIT150 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT150)
-#define _OMC_LIT151_data "- BackendDAEOptimize.generateEquation failed on: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT151,49,_OMC_LIT151_data);
+#define _OMC_LIT150_data "Found Equation "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT150,15,_OMC_LIT150_data);
+#define _OMC_LIT150 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT150)
+#define _OMC_LIT151_data " to handle.\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT151,12,_OMC_LIT151_data);
 #define _OMC_LIT151 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT151)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT152,2,6) {&DAE_Exp_BCONST__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */))}};
-#define _OMC_LIT152 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT152)
-#define _OMC_LIT153_data "Failed assertion exp is 0"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT153,25,_OMC_LIT153_data);
+#define _OMC_LIT152_data "Found Array Equation "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT152,21,_OMC_LIT152_data);
+#define _OMC_LIT152 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT152)
+#define _OMC_LIT153_data "Found Solved Equation "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT153,22,_OMC_LIT153_data);
 #define _OMC_LIT153 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT153)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT154,2,5) {&DAE_Exp_SCONST__desc,_OMC_LIT153}};
-#define _OMC_LIT154 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT154)
-#define _OMC_LIT155_data "AssertionLevel"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT155,14,_OMC_LIT155_data);
+#define _OMC_LIT154_data "Found Residual Equation "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT154,24,_OMC_LIT154_data);
+#define _OMC_LIT154 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT154)
+#define _OMC_LIT155_data "Found Complex Equation "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT155,23,_OMC_LIT155_data);
 #define _OMC_LIT155 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT155)
-#define _OMC_LIT156_data "error"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT156,5,_OMC_LIT156_data);
+#define _OMC_LIT156_data "Unreplaceable Crefs:"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT156,20,_OMC_LIT156_data);
 #define _OMC_LIT156 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT156)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT157,2,4) {&Absyn_Path_IDENT__desc,_OMC_LIT156}};
-#define _OMC_LIT157 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT157)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT158,3,3) {&Absyn_Path_QUALIFIED__desc,_OMC_LIT155,_OMC_LIT157}};
+#define _OMC_LIT157_data "The model contains alias variables with redundant start and/or conflicting nominal values. It is recommended to resolve the conflicts, because otherwise the system could be hard to solve. To print the conflicting alias sets and the chosen candidates please use -d=aliasConflicts."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT157,279,_OMC_LIT157_data);
+#define _OMC_LIT157 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT157)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT158,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(7017)),_OMC_LIT88,_OMC_LIT65,_OMC_LIT157}};
 #define _OMC_LIT158 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT158)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT159,3,8) {&DAE_Exp_ENUM__LITERAL__desc,_OMC_LIT158,MMC_IMMEDIATE(MMC_TAGFIXNUM(2))}};
-#define _OMC_LIT159 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT159)
-#define _OMC_LIT160_data "Found Equation "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT160,15,_OMC_LIT160_data);
-#define _OMC_LIT160 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT160)
-#define _OMC_LIT161_data " to handle.\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT161,12,_OMC_LIT161_data);
+#define _OMC_LIT159_data "maxTraversals"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT159,13,_OMC_LIT159_data);
+#define _OMC_LIT159 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT159)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT160,2,5) {&Flags_FlagData_INT__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(2))}};
+#define _OMC_LIT160 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT160)
+#define _OMC_LIT161_data "Maximal traversals to find simple equations in the acausal system."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT161,66,_OMC_LIT161_data);
 #define _OMC_LIT161 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT161)
-#define _OMC_LIT162_data "Found Array Equation "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT162,21,_OMC_LIT162_data);
-#define _OMC_LIT162 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT162)
-#define _OMC_LIT163_data "Found Solved Equation "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT163,22,_OMC_LIT163_data);
-#define _OMC_LIT163 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT163)
-#define _OMC_LIT164_data "Found Residual Equation "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT164,24,_OMC_LIT164_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT162,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(38)),_OMC_LIT159,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT117,_OMC_LIT160,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT161}};
+#define _OMC_LIT162 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT162)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT163,1,6) {&BackendDAE_BaseClockPartitionKind_UNSPECIFIED__PARTITION__desc,}};
+#define _OMC_LIT163 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT163)
+#define _OMC_LIT164_data "fixKnownVarsCausal2 failed for ..."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT164,34,_OMC_LIT164_data);
 #define _OMC_LIT164 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT164)
-#define _OMC_LIT165_data "Found Complex Equation "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT165,23,_OMC_LIT165_data);
+#define _OMC_LIT165_data "fixKnownVarsCausal2 failed"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT165,26,_OMC_LIT165_data);
 #define _OMC_LIT165 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT165)
-#define _OMC_LIT166_data "Unreplaceable Crefs:"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT166,20,_OMC_LIT166_data);
+#define _OMC_LIT166_data "fixAliasVarsCausal2 failed for ..."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT166,34,_OMC_LIT166_data);
 #define _OMC_LIT166 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT166)
-#define _OMC_LIT167_data "The model contains alias variables with redundant start and/or conflicting nominal values. It is recommended to resolve the conflicts, because otherwise the system could be hard to solve. To print the conflicting alias sets and the chosen candidates please use -d=aliasConflicts."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT167,279,_OMC_LIT167_data);
+#define _OMC_LIT167_data "fixAliasVarsCausal2 failed"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT167,26,_OMC_LIT167_data);
 #define _OMC_LIT167 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT167)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT168,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT167}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT168,1,3) {&Flags_FlagVisibility_INTERNAL__desc,}};
 #define _OMC_LIT168 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT168)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT169,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(7017)),_OMC_LIT91,_OMC_LIT66,_OMC_LIT168}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT169,2,4) {&Flags_FlagData_BOOL__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */))}};
 #define _OMC_LIT169 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT169)
-#define _OMC_LIT170_data "maxTraversals"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT170,13,_OMC_LIT170_data);
+#define _OMC_LIT170_data "Is true when building an FMU (so the compiler can look for URIs to package as FMI resources)."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT170,93,_OMC_LIT170_data);
 #define _OMC_LIT170 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT170)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT171,2,5) {&Flags_FlagData_INT__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(2))}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT171,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(114)),_OMC_LIT1,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT168,_OMC_LIT169,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT170}};
 #define _OMC_LIT171 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT171)
-#define _OMC_LIT172_data "Maximal traversals to find simple equations in the acausal system."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT172,66,_OMC_LIT172_data);
-#define _OMC_LIT172 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT172)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT173,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT172}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT172,1,10) {&BackendDAE_VarKind_PARAM__desc,}};
+#define _OMC_LIT172 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT172)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT173,1,11) {&BackendDAE_VarKind_CONST__desc,}};
 #define _OMC_LIT173 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT173)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT174,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(38)),_OMC_LIT170,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT124,_OMC_LIT171,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT173}};
-#define _OMC_LIT174 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT174)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT175,1,6) {&BackendDAE_BaseClockPartitionKind_UNSPECIFIED__PARTITION__desc,}};
-#define _OMC_LIT175 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT175)
-#define _OMC_LIT176_data "fixKnownVarsCausal2 failed for ..."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT176,34,_OMC_LIT176_data);
-#define _OMC_LIT176 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT176)
-#define _OMC_LIT177_data "fixKnownVarsCausal2 failed"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT177,26,_OMC_LIT177_data);
+#define _OMC_LIT174_data "Cannot run removeVerySimpleEquations on a matched system (continuing anyway)"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT174,76,_OMC_LIT174_data);
+#define _OMC_LIT174 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT174)
+#define _OMC_LIT175_data "/projects/OpenModelica-session2/OMCompiler/Compiler/BackEnd/RemoveSimpleEquations.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT175,84,_OMC_LIT175_data);
+#define _OMC_LIT175 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT175)
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT176_6,1.782113391e9);
+#define _OMC_LIT176_6 MMC_REFREALLIT(_OMC_LIT_STRUCT176_6)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT176,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT175,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(195)),MMC_IMMEDIATE(MMC_TAGFIXNUM(5)),MMC_IMMEDIATE(MMC_TAGFIXNUM(195)),MMC_IMMEDIATE(MMC_TAGFIXNUM(121)),_OMC_LIT176_6}};
+#define _OMC_LIT176 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT176)
+#define _OMC_LIT177_data "removeSimpleEquations"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT177,21,_OMC_LIT177_data);
 #define _OMC_LIT177 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT177)
-#define _OMC_LIT178_data "fixAliasVarsCausal2 failed for ..."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT178,34,_OMC_LIT178_data);
+#define _OMC_LIT178_data "default"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT178,7,_OMC_LIT178_data);
 #define _OMC_LIT178 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT178)
-#define _OMC_LIT179_data "fixAliasVarsCausal2 failed"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT179,26,_OMC_LIT179_data);
-#define _OMC_LIT179 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT179)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT180,1,3) {&Flags_FlagVisibility_INTERNAL__desc,}};
-#define _OMC_LIT180 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT180)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT181,2,4) {&Flags_FlagData_BOOL__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */))}};
-#define _OMC_LIT181 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT181)
-#define _OMC_LIT182_data "Is true when building an FMU (so the compiler can look for URIs to package as FMI resources)."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT182,93,_OMC_LIT182_data);
-#define _OMC_LIT182 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT182)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT183,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT182}};
-#define _OMC_LIT183 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT183)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT184,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(114)),_OMC_LIT1,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT180,_OMC_LIT181,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT183}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT179,2,8) {&Flags_FlagData_STRING__FLAG__desc,_OMC_LIT178}};
+#define _OMC_LIT179 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT179)
+#define _OMC_LIT180_data "none"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT180,4,_OMC_LIT180_data);
+#define _OMC_LIT180 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT180)
+#define _OMC_LIT181_data "Disables module"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT181,15,_OMC_LIT181_data);
+#define _OMC_LIT181 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT181)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT182,2,0) {_OMC_LIT180,_OMC_LIT181}};
+#define _OMC_LIT182 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT182)
+#define _OMC_LIT183_data "Performs alias elimination and removes constant variables. Default case uses in preOpt phase the fastAcausal and in postOpt phase the causal implementation."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT183,156,_OMC_LIT183_data);
+#define _OMC_LIT183 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT183)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT184,2,0) {_OMC_LIT178,_OMC_LIT183}};
 #define _OMC_LIT184 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT184)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT185,1,10) {&BackendDAE_VarKind_PARAM__desc,}};
-#define _OMC_LIT185 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT185)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT186,1,11) {&BackendDAE_VarKind_CONST__desc,}};
-#define _OMC_LIT186 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT186)
-#define _OMC_LIT187_data "Cannot run removeVerySimpleEquations on a matched system (continuing anyway)"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT187,76,_OMC_LIT187_data);
-#define _OMC_LIT187 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT187)
-#define _OMC_LIT188_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/BackEnd/RemoveSimpleEquations.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT188,85,_OMC_LIT188_data);
+#define _OMC_LIT185_data "causal"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT185,6,_OMC_LIT185_data);
+#define _OMC_LIT185 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT185)
+#define _OMC_LIT186_data "Performs alias elimination and removes constant variables. Causal implementation."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT186,81,_OMC_LIT186_data);
+#define _OMC_LIT186 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT186)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT187,2,0) {_OMC_LIT185,_OMC_LIT186}};
+#define _OMC_LIT187 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT187)
+#define _OMC_LIT188_data "fastAcausal"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT188,11,_OMC_LIT188_data);
 #define _OMC_LIT188 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT188)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT189_6,1.770032059e9);
-#define _OMC_LIT189_6 MMC_REFREALLIT(_OMC_LIT_STRUCT189_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT189,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT188,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(191)),MMC_IMMEDIATE(MMC_TAGFIXNUM(5)),MMC_IMMEDIATE(MMC_TAGFIXNUM(191)),MMC_IMMEDIATE(MMC_TAGFIXNUM(121)),_OMC_LIT189_6}};
-#define _OMC_LIT189 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT189)
-#define _OMC_LIT190_data "removeSimpleEquations"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT190,21,_OMC_LIT190_data);
-#define _OMC_LIT190 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT190)
-#define _OMC_LIT191_data "default"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT191,7,_OMC_LIT191_data);
+#define _OMC_LIT189_data "Performs alias elimination and removes constant variables. fastImplementation fastAcausal."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT189,90,_OMC_LIT189_data);
+#define _OMC_LIT189 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT189)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT190,2,0) {_OMC_LIT188,_OMC_LIT189}};
+#define _OMC_LIT190 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT190)
+#define _OMC_LIT191_data "allAcausal"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT191,10,_OMC_LIT191_data);
 #define _OMC_LIT191 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT191)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT192,2,8) {&Flags_FlagData_STRING__FLAG__desc,_OMC_LIT191}};
-#define _OMC_LIT192 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT192)
-#define _OMC_LIT193_data "none"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT193,4,_OMC_LIT193_data);
-#define _OMC_LIT193 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT193)
-#define _OMC_LIT194_data "Disables module"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT194,15,_OMC_LIT194_data);
+#define _OMC_LIT192_data "Performs alias elimination and removes constant variables. Implementation allAcausal."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT192,85,_OMC_LIT192_data);
+#define _OMC_LIT192 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT192)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT193,2,0) {_OMC_LIT191,_OMC_LIT192}};
+#define _OMC_LIT193 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT193)
+#define _OMC_LIT194_data "new"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT194,3,_OMC_LIT194_data);
 #define _OMC_LIT194 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT194)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT195,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT194}};
-#define _OMC_LIT195 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT195)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT196,2,0) {_OMC_LIT193,_OMC_LIT195}};
+#define _OMC_LIT195_data "New implementation (experimental)"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT195,33,_OMC_LIT195_data);
+#define _OMC_LIT195 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT195)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT196,2,0) {_OMC_LIT194,_OMC_LIT195}};
 #define _OMC_LIT196 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT196)
-#define _OMC_LIT197_data "Performs alias elimination and removes constant variables. Default case uses in preOpt phase the fastAcausal and in postOpt phase the causal implementation."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT197,156,_OMC_LIT197_data);
-#define _OMC_LIT197 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT197)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT198,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT197}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT197,2,1) {_OMC_LIT196,MMC_REFSTRUCTLIT(mmc_nil)}};
+#define _OMC_LIT197 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT197)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT198,2,1) {_OMC_LIT193,_OMC_LIT197}};
 #define _OMC_LIT198 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT198)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT199,2,0) {_OMC_LIT191,_OMC_LIT198}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT199,2,1) {_OMC_LIT190,_OMC_LIT198}};
 #define _OMC_LIT199 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT199)
-#define _OMC_LIT200_data "causal"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT200,6,_OMC_LIT200_data);
-#define _OMC_LIT200 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT200)
-#define _OMC_LIT201_data "Performs alias elimination and removes constant variables. Causal implementation."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT201,81,_OMC_LIT201_data);
-#define _OMC_LIT201 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT201)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT202,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT201}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT200,2,1) {_OMC_LIT187,_OMC_LIT199}};
+#define _OMC_LIT200 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT200)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT201,2,1) {_OMC_LIT184,_OMC_LIT200}};
+#define _OMC_LIT201 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT201)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT202,2,1) {_OMC_LIT182,_OMC_LIT201}};
 #define _OMC_LIT202 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT202)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT203,2,0) {_OMC_LIT200,_OMC_LIT202}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT203,2,4) {&Flags_ValidOptions_STRING__DESC__OPTION__desc,_OMC_LIT202}};
 #define _OMC_LIT203 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT203)
-#define _OMC_LIT204_data "fastAcausal"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT204,11,_OMC_LIT204_data);
-#define _OMC_LIT204 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT204)
-#define _OMC_LIT205_data "Performs alias elimination and removes constant variables. fastImplementation fastAcausal."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT205,90,_OMC_LIT205_data);
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT204,1,1) {_OMC_LIT203}};
+#define _OMC_LIT204 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT204)
+#define _OMC_LIT205_data "Specifies method that removes simple equations."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT205,47,_OMC_LIT205_data);
 #define _OMC_LIT205 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT205)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT206,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT205}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT206,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(59)),_OMC_LIT177,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT117,_OMC_LIT179,_OMC_LIT204,_OMC_LIT205}};
 #define _OMC_LIT206 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT206)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT207,2,0) {_OMC_LIT204,_OMC_LIT206}};
-#define _OMC_LIT207 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT207)
-#define _OMC_LIT208_data "allAcausal"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT208,10,_OMC_LIT208_data);
-#define _OMC_LIT208 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT208)
-#define _OMC_LIT209_data "Performs alias elimination and removes constant variables. Implementation allAcausal."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT209,85,_OMC_LIT209_data);
-#define _OMC_LIT209 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT209)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT210,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT209}};
-#define _OMC_LIT210 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT210)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT211,2,0) {_OMC_LIT208,_OMC_LIT210}};
-#define _OMC_LIT211 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT211)
-#define _OMC_LIT212_data "new"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT212,3,_OMC_LIT212_data);
-#define _OMC_LIT212 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT212)
-#define _OMC_LIT213_data "New implementation (experimental)"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT213,33,_OMC_LIT213_data);
-#define _OMC_LIT213 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT213)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT214,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT213}};
-#define _OMC_LIT214 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT214)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT215,2,0) {_OMC_LIT212,_OMC_LIT214}};
-#define _OMC_LIT215 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT215)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT216,2,1) {_OMC_LIT215,MMC_REFSTRUCTLIT(mmc_nil)}};
-#define _OMC_LIT216 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT216)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT217,2,1) {_OMC_LIT211,_OMC_LIT216}};
-#define _OMC_LIT217 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT217)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT218,2,1) {_OMC_LIT207,_OMC_LIT217}};
-#define _OMC_LIT218 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT218)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT219,2,1) {_OMC_LIT203,_OMC_LIT218}};
-#define _OMC_LIT219 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT219)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT220,2,1) {_OMC_LIT199,_OMC_LIT219}};
-#define _OMC_LIT220 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT220)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT221,2,1) {_OMC_LIT196,_OMC_LIT220}};
-#define _OMC_LIT221 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT221)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT222,2,4) {&Flags_ValidOptions_STRING__DESC__OPTION__desc,_OMC_LIT221}};
-#define _OMC_LIT222 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT222)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT223,1,1) {_OMC_LIT222}};
-#define _OMC_LIT223 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT223)
-#define _OMC_LIT224_data "Specifies method that removes simple equations."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT224,47,_OMC_LIT224_data);
-#define _OMC_LIT224 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT224)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT225,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT224}};
-#define _OMC_LIT225 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT225)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT226,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(59)),_OMC_LIT190,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT124,_OMC_LIT192,_OMC_LIT223,_OMC_LIT225}};
-#define _OMC_LIT226 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT226)
 #include "util/modelica.h"
 
 #include "RemoveSimpleEquations_includes.h"
@@ -1162,10 +1122,10 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_RemoveSimpleEquations_dumpSimpleCo
 
           _s2 = (_n2?_OMC_LIT0:_OMC_LIT1);
 
-          tmpMeta16 = stringAppend(_s1,omc_ComponentReference_printComponentRefStr(threadData, _cr1));
+          tmpMeta16 = stringAppend(_s1,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr1));
           _s1 = tmpMeta16;
 
-          tmpMeta17 = stringAppend(_s2,omc_ComponentReference_printComponentRefStr(threadData, _cr2));
+          tmpMeta17 = stringAppend(_s2,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr2));
           _s2 = tmpMeta17;
           tmpMeta18 = stringAppend(_OMC_LIT2,_s1);
           tmpMeta19 = stringAppend(tmpMeta18,_OMC_LIT3);
@@ -1222,10 +1182,10 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_RemoveSimpleEquations_dumpSimpleCo
 
           _s2 = (_n2?_OMC_LIT0:_OMC_LIT1);
 
-          tmpMeta36 = stringAppend(_s1,omc_ComponentReference_printComponentRefStr(threadData, _cr1));
+          tmpMeta36 = stringAppend(_s1,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr1));
           _s1 = tmpMeta36;
 
-          tmpMeta37 = stringAppend(_s2,omc_ComponentReference_printComponentRefStr(threadData, _cr2));
+          tmpMeta37 = stringAppend(_s2,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr2));
           _s2 = tmpMeta37;
           tmpMeta38 = stringAppend(_OMC_LIT7,_s1);
           tmpMeta39 = stringAppend(tmpMeta38,_OMC_LIT3);
@@ -1282,10 +1242,10 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_RemoveSimpleEquations_dumpSimpleCo
 
           _s2 = (_n2?_OMC_LIT0:_OMC_LIT1);
 
-          tmpMeta56 = stringAppend(_s1,omc_ComponentReference_printComponentRefStr(threadData, _cr1));
+          tmpMeta56 = stringAppend(_s1,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr1));
           _s1 = tmpMeta56;
 
-          tmpMeta57 = stringAppend(_s2,omc_ComponentReference_printComponentRefStr(threadData, _cr2));
+          tmpMeta57 = stringAppend(_s2,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr2));
           _s2 = tmpMeta57;
           tmpMeta58 = stringAppend(_OMC_LIT8,_s1);
           tmpMeta59 = stringAppend(tmpMeta58,_OMC_LIT3);
@@ -1311,9 +1271,9 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_RemoveSimpleEquations_dumpSimpleCo
           _cr1 = tmpMeta66;
           _e = tmpMeta67;
           /* Pattern matching succeeded */
-          tmpMeta68 = stringAppend(_OMC_LIT9,omc_ComponentReference_printComponentRefStr(threadData, _cr1));
+          tmpMeta68 = stringAppend(_OMC_LIT9,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr1));
           tmpMeta69 = stringAppend(tmpMeta68,_OMC_LIT3);
-          tmpMeta70 = stringAppend(tmpMeta69,omc_ExpressionDump_printExpStr(threadData, _e));
+          tmpMeta70 = stringAppend(tmpMeta69,omc_ExpressionBasics_printExpStr(threadData, _e));
           tmp1 = tmpMeta70;
           goto tmp3_done;
         }
@@ -1361,7 +1321,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_getDominan
   modelica_metatype tmpMeta6;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
-  // _outE has no default value.
+  _outE = _OMC_LIT11;
   // _e has no default value.
   // _tpl has no default value.
   // _i has no default value.
@@ -1403,46 +1363,47 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_getThisAtt
   
   
   { /* matchcontinue expression */
-    volatile modelica_metatype tmp4_1;
-    tmp4_1 = _cr_eq_lst;
+    volatile modelica_metatype tmp5_1;
+    tmp5_1 = _cr_eq_lst;
     {
       modelica_metatype _cr1 = NULL;
       modelica_metatype _cr_lst = NULL;
       modelica_metatype _res = NULL;
       modelica_metatype _e = NULL;
       modelica_metatype _e1 = NULL;
+      modelica_metatype tmpMeta3;
       modelica_metatype _e2 = NULL;
       modelica_metatype _v = NULL;
       modelica_metatype _cr_eq_rest = NULL;
       modelica_integer _j;
       modelica_integer _j1;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
+      volatile mmc_switch_type tmp5;
+      int tmp6;
       // _cr1 has no default value.
       // _cr_lst has no default value.
       // _res has no default value.
       // _e has no default value.
-      // _e1 has no default value.
+      tmpMeta3 = mmc_mk_box2(3, &DAE_Exp_ICONST__desc, mmc_mk_integer(((modelica_integer) 0)));
+      _e1 = tmpMeta3;
       // _e2 has no default value.
       // _v has no default value.
       // _cr_eq_rest has no default value.
       // _j has no default value.
       // _j1 has no default value.
-      tmp4 = 0;
+      tmp5 = 0;
       MMC_TRY_INTERNAL(mmc_jumper)
-      tmp3_top:
+      tmp4_top:
       threadData->mmc_jumper = &new_mmc_jumper;
-      for (; tmp4 < 3; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
+      for (; tmp5 < 3; tmp5++) {
+        switch (MMC_SWITCH_CAST(tmp5)) {
         case 0: {
-          if (!listEmpty(tmp4_1)) goto tmp3_end;
-          tmp4 += 1; /* Pattern matching succeeded; we may skip some cases if we fail */
+          if (!listEmpty(tmp5_1)) goto tmp4_end;
+          tmp5 += 1; /* Pattern matching succeeded; we may skip some cases if we fail */
           tmpMeta[0+0] = _outHTStartExpToInt;
           tmpMeta[0+1] = _outHTNominalExpToInt;
-          goto tmp3_done;
+          goto tmp4_done;
         }
         case 1: {
-          modelica_metatype tmpMeta6;
           modelica_metatype tmpMeta7;
           modelica_metatype tmpMeta8;
           modelica_metatype tmpMeta9;
@@ -1465,13 +1426,14 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_getThisAtt
           modelica_metatype tmpMeta26;
           modelica_metatype tmpMeta27;
           modelica_metatype tmpMeta28;
-          if (listEmpty(tmp4_1)) goto tmp3_end;
-          tmpMeta6 = MMC_CAR(tmp4_1);
-          tmpMeta7 = MMC_CDR(tmp4_1);
-          tmpMeta8 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta6), 1));
+          modelica_metatype tmpMeta29;
+          if (listEmpty(tmp5_1)) goto tmp4_end;
+          tmpMeta7 = MMC_CAR(tmp5_1);
+          tmpMeta8 = MMC_CDR(tmp5_1);
+          tmpMeta9 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta7), 1));
           
-          _cr1 = tmpMeta8;
-          _cr_eq_rest = tmpMeta7;
+          _cr1 = tmpMeta9;
+          _cr_eq_rest = tmpMeta8;
           /* Pattern matching succeeded */
           _v = omc_BackendVariable_getVarSingle(threadData, _cr1, _inAliasVars, NULL);
 
@@ -1482,24 +1444,24 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_getThisAtt
             _res = omc_BackendVariable_varStartValue(threadData, _v);
 
             /* Pattern-matching assignment */
-            tmpMeta9 = mmc_mk_box5(3, &BackendDAE_Equation_EQUATION__desc, omc_Expression_crefExp(threadData, _cr1), _e, _OMC_LIT14, _OMC_LIT17);
-            tmpMeta10 = omc_BackendEquation_solveEquation(threadData, tmpMeta9, omc_Expression_crefExp(threadData, _cr), mmc_mk_none());
-            if (mmc__uniontype__metarecord__typedef__equal(tmpMeta10,0,4) == 0) goto goto_2;
-            tmpMeta11 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta10), 3));
-            _e1 = tmpMeta11;
+            tmpMeta10 = mmc_mk_box5(3, &BackendDAE_Equation_EQUATION__desc, omc_Expression_crefExp(threadData, _cr1), _e, _OMC_LIT15, _OMC_LIT18);
+            tmpMeta11 = omc_BackendEquation_solveEquation(threadData, tmpMeta10, omc_Expression_crefExp(threadData, _cr), mmc_mk_none());
+            if (mmc__uniontype__metarecord__typedef__equal(tmpMeta11,0,4) == 0) goto goto_2;
+            tmpMeta12 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta11), 3));
+            _e1 = tmpMeta12;
 
             /* Pattern-matching assignment */
-            tmpMeta12 = mmc_mk_box5(3, &BackendDAE_Equation_EQUATION__desc, _res, _e, _OMC_LIT14, _OMC_LIT17);
-            tmpMeta13 = omc_BackendEquation_solveEquation(threadData, tmpMeta12, omc_Expression_crefExp(threadData, _cr), mmc_mk_none());
-            if (mmc__uniontype__metarecord__typedef__equal(tmpMeta13,0,4) == 0) goto goto_2;
-            tmpMeta14 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta13), 3));
-            _e2 = tmpMeta14;
+            tmpMeta13 = mmc_mk_box5(3, &BackendDAE_Equation_EQUATION__desc, _res, _e, _OMC_LIT15, _OMC_LIT18);
+            tmpMeta14 = omc_BackendEquation_solveEquation(threadData, tmpMeta13, omc_Expression_crefExp(threadData, _cr), mmc_mk_none());
+            if (mmc__uniontype__metarecord__typedef__equal(tmpMeta14,0,4) == 0) goto goto_2;
+            tmpMeta15 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta14), 3));
+            _e2 = tmpMeta15;
 
             _e2 = omc_ExpressionSimplify_simplify(threadData, _e2, NULL);
 
             if(omc_Expression_isZero(threadData, _e2))
             {
-              _e2 = _OMC_LIT18;
+              _e2 = _OMC_LIT19;
             }
 
             _cr_lst = omc_Expression_extractCrefsFromExp(threadData, _e2);
@@ -1518,18 +1480,18 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_getThisAtt
               }
             }
 
-            tmpMeta15 = mmc_mk_box2(0, _e2, mmc_mk_integer(_j));
-            _outHTStartExpToInt = omc_BaseHashTable_add(threadData, tmpMeta15, _outHTStartExpToInt);
+            tmpMeta16 = mmc_mk_box2(0, _e2, mmc_mk_integer(_j));
+            _outHTStartExpToInt = omc_BaseHashTable_add(threadData, tmpMeta16, _outHTStartExpToInt);
 
             if(omc_Flags_isSet(threadData, _OMC_LIT24))
             {
-              tmpMeta16 = stringAppend(_OMC_LIT19,omc_ComponentReference_printComponentRefStr(threadData, _cr));
-              tmpMeta17 = stringAppend(tmpMeta16,_OMC_LIT3);
-              tmpMeta18 = stringAppend(tmpMeta17,omc_ExpressionDump_printExpStr(threadData, _e1));
-              tmpMeta19 = stringAppend(tmpMeta18,_OMC_LIT3);
-              tmpMeta20 = stringAppend(tmpMeta19,omc_ExpressionDump_printExpStr(threadData, _e2));
-              tmpMeta21 = stringAppend(tmpMeta20,_OMC_LIT20);
-              fputs(MMC_STRINGDATA(tmpMeta21),stdout);
+              tmpMeta17 = stringAppend(_OMC_LIT20,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr));
+              tmpMeta18 = stringAppend(tmpMeta17,_OMC_LIT3);
+              tmpMeta19 = stringAppend(tmpMeta18,omc_ExpressionBasics_printExpStr(threadData, _e1));
+              tmpMeta20 = stringAppend(tmpMeta19,_OMC_LIT3);
+              tmpMeta21 = stringAppend(tmpMeta20,omc_ExpressionBasics_printExpStr(threadData, _e2));
+              tmpMeta22 = stringAppend(tmpMeta21,_OMC_LIT21);
+              fputs(MMC_STRINGDATA(tmpMeta22),stdout);
             }
           }
 
@@ -1553,22 +1515,22 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_getThisAtt
               }
             }
 
-            tmpMeta22 = mmc_mk_box2(0, _e2, mmc_mk_integer(_j));
-            _outHTNominalExpToInt = omc_BaseHashTable_add(threadData, tmpMeta22, _outHTNominalExpToInt);
+            tmpMeta23 = mmc_mk_box2(0, _e2, mmc_mk_integer(_j));
+            _outHTNominalExpToInt = omc_BaseHashTable_add(threadData, tmpMeta23, _outHTNominalExpToInt);
 
             if(omc_Flags_isSet(threadData, _OMC_LIT24))
             {
-              tmpMeta23 = stringAppend(_OMC_LIT25,omc_ComponentReference_printComponentRefStr(threadData, _cr));
-              tmpMeta24 = stringAppend(tmpMeta23,_OMC_LIT3);
-              tmpMeta25 = stringAppend(tmpMeta24,omc_ExpressionDump_printExpStr(threadData, _e1));
-              tmpMeta26 = stringAppend(tmpMeta25,_OMC_LIT3);
-              tmpMeta27 = stringAppend(tmpMeta26,omc_ExpressionDump_printExpStr(threadData, _e2));
-              tmpMeta28 = stringAppend(tmpMeta27,_OMC_LIT20);
-              fputs(MMC_STRINGDATA(tmpMeta28),stdout);
+              tmpMeta24 = stringAppend(_OMC_LIT25,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr));
+              tmpMeta25 = stringAppend(tmpMeta24,_OMC_LIT3);
+              tmpMeta26 = stringAppend(tmpMeta25,omc_ExpressionBasics_printExpStr(threadData, _e1));
+              tmpMeta27 = stringAppend(tmpMeta26,_OMC_LIT3);
+              tmpMeta28 = stringAppend(tmpMeta27,omc_ExpressionBasics_printExpStr(threadData, _e2));
+              tmpMeta29 = stringAppend(tmpMeta28,_OMC_LIT21);
+              fputs(MMC_STRINGDATA(tmpMeta29),stdout);
             }
           }
           tmpMeta[0+0] = omc_RemoveSimpleEquations_getThisAttributes(threadData, _cr, _cr_eq_rest, _inAliasVars, _outHTStartExpToInt, _outHTNominalExpToInt, &tmpMeta[0+1]);
-          goto tmp3_done;
+          goto tmp4_done;
         }
         case 2: {
           
@@ -1576,24 +1538,24 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_getThisAtt
           fputs(MMC_STRINGDATA(_OMC_LIT26),stdout);
           tmpMeta[0+0] = _outHTStartExpToInt;
           tmpMeta[0+1] = _outHTNominalExpToInt;
-          goto tmp3_done;
+          goto tmp4_done;
         }
         }
-        goto tmp3_end;
-        tmp3_end: ;
+        goto tmp4_end;
+        tmp4_end: ;
       }
       goto goto_2;
-      tmp3_done:
-      (void)tmp4;
+      tmp4_done:
+      (void)tmp5;
       MMC_RESTORE_INTERNAL(mmc_jumper);
-      goto tmp3_done2;
+      goto tmp4_done2;
       goto_2:;
       MMC_CATCH_INTERNAL(mmc_jumper);
-      if (++tmp4 < 3) {
-        goto tmp3_top;
+      if (++tmp5 < 3) {
+        goto tmp4_top;
       }
       MMC_THROW_INTERNAL();
-      tmp3_done2:;
+      tmp4_done2:;
     }
   }
   _outHTStartExpToInt = tmpMeta[0+0];
@@ -1613,7 +1575,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_setAttribu
   modelica_metatype _v = NULL;
   modelica_integer _i;
   modelica_integer _j;
-  modelica_metatype _tplCrEqRest = NULL;
   modelica_metatype _cr_eq_lst = NULL;
   modelica_metatype _HTStartExpToInt = NULL;
   modelica_metatype _HTNominalExpToInt = NULL;
@@ -1627,7 +1588,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_setAttribu
   // _v has no default value.
   // _i has no default value.
   // _j has no default value.
-  // _tplCrEqRest has no default value.
   // _cr_eq_lst has no default value.
   // _HTStartExpToInt has no default value.
   // _HTNominalExpToInt has no default value.
@@ -1700,7 +1660,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_setAttribu
 
                 if(omc_Expression_isZero(threadData, _e))
                 {
-                  _e = _OMC_LIT18;
+                  _e = _OMC_LIT19;
                 }
 
                 _cr_lst = omc_Expression_extractCrefsFromExp(threadData, _e);
@@ -1714,10 +1674,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_setAttribu
 
                 if(omc_Flags_isSet(threadData, _OMC_LIT24))
                 {
-                  tmpMeta10 = stringAppend(_OMC_LIT19,omc_ComponentReference_printComponentRefStr(threadData, _cr1));
+                  tmpMeta10 = stringAppend(_OMC_LIT20,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr1));
                   tmpMeta11 = stringAppend(tmpMeta10,_OMC_LIT3);
-                  tmpMeta12 = stringAppend(tmpMeta11,omc_ExpressionDump_printExpStr(threadData, _e));
-                  tmpMeta13 = stringAppend(tmpMeta12,_OMC_LIT20);
+                  tmpMeta12 = stringAppend(tmpMeta11,omc_ExpressionBasics_printExpStr(threadData, _e));
+                  tmpMeta13 = stringAppend(tmpMeta12,_OMC_LIT21);
                   fputs(MMC_STRINGDATA(tmpMeta13),stdout);
                 }
               }
@@ -1737,10 +1697,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_setAttribu
 
                 if(omc_Flags_isSet(threadData, _OMC_LIT24))
                 {
-                  tmpMeta15 = stringAppend(_OMC_LIT25,omc_ComponentReference_printComponentRefStr(threadData, _cr1));
+                  tmpMeta15 = stringAppend(_OMC_LIT25,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr1));
                   tmpMeta16 = stringAppend(tmpMeta15,_OMC_LIT3);
-                  tmpMeta17 = stringAppend(tmpMeta16,omc_ExpressionDump_printExpStr(threadData, _e));
-                  tmpMeta18 = stringAppend(tmpMeta17,_OMC_LIT20);
+                  tmpMeta17 = stringAppend(tmpMeta16,omc_ExpressionBasics_printExpStr(threadData, _e));
+                  tmpMeta18 = stringAppend(tmpMeta17,_OMC_LIT21);
                   fputs(MMC_STRINGDATA(tmpMeta18),stdout);
                 }
               }
@@ -1757,10 +1717,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_setAttribu
 
                 if(omc_Flags_isSet(threadData, _OMC_LIT24))
                 {
-                  tmpMeta19 = stringAppend(_OMC_LIT19,omc_ComponentReference_printComponentRefStr(threadData, _cr1));
+                  tmpMeta19 = stringAppend(_OMC_LIT20,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr1));
                   tmpMeta20 = stringAppend(tmpMeta19,_OMC_LIT3);
-                  tmpMeta21 = stringAppend(tmpMeta20,omc_ExpressionDump_printExpStr(threadData, _e));
-                  tmpMeta22 = stringAppend(tmpMeta21,_OMC_LIT20);
+                  tmpMeta21 = stringAppend(tmpMeta20,omc_ExpressionBasics_printExpStr(threadData, _e));
+                  tmpMeta22 = stringAppend(tmpMeta21,_OMC_LIT21);
                   fputs(MMC_STRINGDATA(tmpMeta22),stdout);
 
                   omc_BaseHashTable_dumpHashTable(threadData, _HTStartExpToInt);
@@ -1777,10 +1737,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_setAttribu
 
                 if(omc_Flags_isSet(threadData, _OMC_LIT24))
                 {
-                  tmpMeta23 = stringAppend(_OMC_LIT25,omc_ComponentReference_printComponentRefStr(threadData, _cr1));
+                  tmpMeta23 = stringAppend(_OMC_LIT25,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr1));
                   tmpMeta24 = stringAppend(tmpMeta23,_OMC_LIT3);
-                  tmpMeta25 = stringAppend(tmpMeta24,omc_ExpressionDump_printExpStr(threadData, _e));
-                  tmpMeta26 = stringAppend(tmpMeta25,_OMC_LIT20);
+                  tmpMeta25 = stringAppend(tmpMeta24,omc_ExpressionBasics_printExpStr(threadData, _e));
+                  tmpMeta26 = stringAppend(tmpMeta25,_OMC_LIT21);
                   fputs(MMC_STRINGDATA(tmpMeta26),stdout);
 
                   omc_BaseHashTable_dumpHashTable(threadData, _HTNominalExpToInt);
@@ -1881,9 +1841,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_determineA
   modelica_metatype _eq = NULL;
   modelica_metatype _w = NULL;
   modelica_metatype _v = NULL;
-  modelica_integer _i;
-  modelica_metatype _ops = NULL;
-  modelica_boolean _bs;
   modelica_integer _count;
   modelica_metatype _vars = NULL;
   modelica_metatype tmpMeta1;
@@ -1903,9 +1860,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_determineA
   // _eq has no default value.
   // _w has no default value.
   // _v has no default value.
-  // _i has no default value.
-  // _ops has no default value.
-  // _bs has no default value.
   // _count has no default value.
   // _vars has no default value.
   /* Pattern-matching assignment */
@@ -1976,7 +1930,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_determineA
               if (!listEmpty(tmpMeta20)) goto goto_5;
               _cr2 = tmpMeta19;
 
-              tmpMeta21 = mmc_mk_box5(3, &BackendDAE_Equation_EQUATION__desc, omc_Expression_crefExp(threadData, _cr1), _e, _OMC_LIT14, _OMC_LIT17);
+              tmpMeta21 = mmc_mk_box5(3, &BackendDAE_Equation_EQUATION__desc, omc_Expression_crefExp(threadData, _cr1), _e, _OMC_LIT15, _OMC_LIT18);
               _eq = tmpMeta21;
 
               _outHTAliasLst = omc_RemoveSimpleEquations_addToCrAndEqLists(threadData, _cr2, _cr1, _eq, _outHTAliasLst);
@@ -2711,7 +2665,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_addToCrToE
 
           omc_BackendDump_printEquation(threadData, _eq);
 
-          tmpMeta9 = stringAppend(omc_ComponentReference_debugPrintComponentRefTypeStr(threadData, _cr),_OMC_LIT20);
+          tmpMeta9 = stringAppend(omc_ComponentReference_debugPrintComponentRefTypeStr(threadData, _cr),_OMC_LIT21);
           fputs(MMC_STRINGDATA(tmpMeta9),stdout);
           goto goto_2;
           goto tmp3_done;
@@ -2800,7 +2754,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_addToCrAnd
           omc_BackendDump_printEquation(threadData, _eq);
 
           tmpMeta11 = stringAppend(_OMC_LIT34,omc_ComponentReference_debugPrintComponentRefTypeStr(threadData, _cr1));
-          tmpMeta12 = stringAppend(tmpMeta11,_OMC_LIT20);
+          tmpMeta12 = stringAppend(tmpMeta11,_OMC_LIT21);
           fputs(MMC_STRINGDATA(tmpMeta12),stdout);
           goto goto_2;
           goto tmp3_done;
@@ -2912,7 +2866,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_findCrefs(
           _cr = tmpMeta19;
           /* Pattern matching succeeded */
           /* Check guard condition after assignments */
-          if (!((_count < ((modelica_integer) 2)) && (!omc_ComponentReference_crefEqual(threadData, _cr, _OMC_LIT37)))) goto tmp3_end;
+          if (!((_count < ((modelica_integer) 2)) && (!omc_ComponentReferenceBasics_crefEqual(threadData, _cr, _OMC_LIT37)))) goto tmp3_end;
           omc_BackendVariable_getVar(threadData, _cr, _vars, NULL);
           tmpMeta20 = mmc_mk_cons(_cr, _cr_lst);
           tmpMeta21 = mmc_mk_box5(0, tmpMeta20, _vars, mmc_mk_integer(((modelica_integer) 1) + _count), mmc_mk_integer(_paramCount), mmc_mk_boolean(1 /* true */));
@@ -2951,7 +2905,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_findCrefs(
           _cr = tmpMeta30;
           /* Pattern matching succeeded */
           /* Check guard condition after assignments */
-          if (!((_count < ((modelica_integer) 2)) && (!omc_ComponentReference_crefEqual(threadData, _cr, _OMC_LIT37)))) goto tmp3_end;
+          if (!((_count < ((modelica_integer) 2)) && (!omc_ComponentReferenceBasics_crefEqual(threadData, _cr, _OMC_LIT37)))) goto tmp3_end;
           tmpMeta31 = mmc_mk_box5(0, _cr_lst, _vars, mmc_mk_integer(_count), mmc_mk_integer(((modelica_integer) 1) + _paramCount), mmc_mk_boolean(1 /* true */));
           tmpMeta[0+0] = _inE1;
           tmp1_c1 = 1 /* true */;
@@ -3274,7 +3228,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_findSimple
             if(omc_Flags_isSet(threadData, _OMC_LIT24))
             {
               tmpMeta28 = stringAppend(_OMC_LIT40,omc_BackendDump_equationString(threadData, _eq));
-              tmpMeta29 = stringAppend(tmpMeta28,_OMC_LIT20);
+              tmpMeta29 = stringAppend(tmpMeta28,_OMC_LIT21);
               fputs(MMC_STRINGDATA(tmpMeta29),stdout);
             }
 
@@ -3322,7 +3276,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_findSimple
             if(omc_Flags_isSet(threadData, _OMC_LIT24))
             {
               tmpMeta41 = stringAppend(_OMC_LIT41,omc_BackendDump_equationString(threadData, _eq));
-              tmpMeta42 = stringAppend(tmpMeta41,_OMC_LIT20);
+              tmpMeta42 = stringAppend(tmpMeta41,_OMC_LIT21);
               fputs(MMC_STRINGDATA(tmpMeta42),stdout);
             }
 
@@ -3337,7 +3291,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_findSimple
               if(omc_Flags_isSet(threadData, _OMC_LIT24))
               {
                 tmpMeta43 = stringAppend(_OMC_LIT38,omc_BackendDump_equationString(threadData, _eq));
-                tmpMeta44 = stringAppend(tmpMeta43,_OMC_LIT20);
+                tmpMeta44 = stringAppend(tmpMeta43,_OMC_LIT21);
                 fputs(MMC_STRINGDATA(tmpMeta44),stdout);
               }
 
@@ -3400,7 +3354,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_findSimple
               if(omc_Flags_isSet(threadData, _OMC_LIT24))
               {
                 tmpMeta61 = stringAppend(_OMC_LIT39,omc_BackendDump_equationString(threadData, _eq));
-                tmpMeta62 = stringAppend(tmpMeta61,_OMC_LIT20);
+                tmpMeta62 = stringAppend(tmpMeta61,_OMC_LIT21);
                 fputs(MMC_STRINGDATA(tmpMeta62),stdout);
               }
 
@@ -3550,17 +3504,17 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_removeStat
   _tailrecursive: OMC_LABEL_UNUSED
   // _vars has no default value.
   {
-    modelica_metatype __omcQ_24tmpVar3;
+    modelica_metatype __omcQ_24tmpVar1;
     modelica_metatype* tmp2;
     modelica_metatype tmpMeta3;
-    modelica_metatype __omcQ_24tmpVar2;
+    modelica_metatype __omcQ_24tmpVar0;
     modelica_integer tmp4;
     modelica_metatype _var_loopVar = 0;
     modelica_metatype _var;
     _var_loopVar = _inVarList;
     tmpMeta3 = MMC_REFSTRUCTLIT(mmc_nil);
-    __omcQ_24tmpVar3 = tmpMeta3; /* defaultValue */
-    tmp2 = &__omcQ_24tmpVar3;
+    __omcQ_24tmpVar1 = tmpMeta3; /* defaultValue */
+    tmp2 = &__omcQ_24tmpVar1;
     while(1) {
       tmp4 = 1;
       if (!listEmpty(_var_loopVar)) {
@@ -3569,8 +3523,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_removeStat
         tmp4--;
       }
       if (tmp4 == 0) {
-        __omcQ_24tmpVar2 = (omc_BackendVariable_isStateVar(threadData, _var)?omc_BackendVariable_setStateDerivative(threadData, _var, mmc_mk_none()):_var);
-        *tmp2 = mmc_mk_cons(__omcQ_24tmpVar2,0);
+        __omcQ_24tmpVar0 = (omc_BackendVariable_isStateVar(threadData, _var)?omc_BackendVariable_setStateDerivative(threadData, _var, mmc_mk_none()):_var);
+        *tmp2 = mmc_mk_cons(__omcQ_24tmpVar0,0);
         tmp2 = &MMC_CDR(*tmp2);
       } else if (tmp4 == 1) {
         break;
@@ -3579,7 +3533,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_removeStat
       }
     }
     *tmp2 = mmc_mk_nil();
-    tmpMeta1 = __omcQ_24tmpVar3;
+    tmpMeta1 = __omcQ_24tmpVar1;
   }
   _vars = tmpMeta1;
   _return: OMC_LABEL_UNUSED
@@ -3787,7 +3741,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_moveVars(t
 
               _v = omc_BackendVariable_setBindExp(threadData, _v, mmc_mk_some(_e));
 
-              _ops = omc_ElementSource_getSymbolicTransformations(threadData, _OMC_LIT14);
+              _ops = omc_ElementSource_getSymbolicTransformations(threadData, _OMC_LIT15);
 
               tmpMeta10 = mmc_mk_box3(10, &DAE_SymbolicOperation_SOLVED__desc, _cr, _e);
               tmpMeta9 = mmc_mk_cons(tmpMeta10, _ops);
@@ -4044,7 +3998,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_eliminateT
 
           _globalKnownVars = omc_BackendVariable_traverseBackendDAEVarsWithUpdate(threadData, _globalKnownVars, boxvar_RemoveSimpleEquations_replaceVarTraverser, _repl, NULL);
 
-          if(omc_Flags_isSet(threadData, _OMC_LIT52))
+          if(omc_Flags_isSet(threadData, _OMC_LIT51))
           {
             _tplExp = omc_BaseHashTable_hashTableList(threadData, _HTCrToExp);
 
@@ -4053,19 +4007,19 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_eliminateT
             _countSimpleEquations = listLength(_simpleEqList);
 
             tmpMeta29 = stringAppend(_OMC_LIT44,intString(omc_BackendVariable_varsSize(threadData, _orderedVars)));
-            tmpMeta30 = stringAppend(tmpMeta29,_OMC_LIT20);
+            tmpMeta30 = stringAppend(tmpMeta29,_OMC_LIT21);
             fputs(MMC_STRINGDATA(tmpMeta30),stdout);
 
             tmpMeta31 = stringAppend(_OMC_LIT45,intString(omc_BackendEquation_equationLstSize(threadData, _eqList)));
-            tmpMeta32 = stringAppend(tmpMeta31,_OMC_LIT20);
+            tmpMeta32 = stringAppend(tmpMeta31,_OMC_LIT21);
             fputs(MMC_STRINGDATA(tmpMeta32),stdout);
 
             tmpMeta33 = stringAppend(_OMC_LIT46,intString(_countAliasEquations));
-            tmpMeta34 = stringAppend(tmpMeta33,_OMC_LIT20);
+            tmpMeta34 = stringAppend(tmpMeta33,_OMC_LIT21);
             fputs(MMC_STRINGDATA(tmpMeta34),stdout);
 
             tmpMeta35 = stringAppend(_OMC_LIT47,intString(_countSimpleEquations));
-            tmpMeta36 = stringAppend(tmpMeta35,_OMC_LIT20);
+            tmpMeta36 = stringAppend(tmpMeta35,_OMC_LIT21);
             fputs(MMC_STRINGDATA(tmpMeta36),stdout);
 
             fputs(MMC_STRINGDATA(_OMC_LIT48),stdout);
@@ -4204,9 +4158,9 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_negateExpr
 
           if(omc_Flags_isSet(threadData, _OMC_LIT24))
           {
-            tmpMeta6 = stringAppend(_OMC_LIT54,_message);
-            tmpMeta7 = stringAppend(tmpMeta6,_OMC_LIT55);
-            omc_BackendDump_debugStrExpStr(threadData, _OMC_LIT53, _inExp, tmpMeta7);
+            tmpMeta6 = stringAppend(_OMC_LIT53,_message);
+            tmpMeta7 = stringAppend(tmpMeta6,_OMC_LIT54);
+            omc_BackendDump_debugStrExpStr(threadData, _OMC_LIT52, _inExp, tmpMeta7);
           }
           tmpMeta1 = _negatedExp;
           goto tmp3_done;
@@ -4218,9 +4172,9 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_negateExpr
           /* Pattern matching succeeded */
           if(omc_Flags_isSet(threadData, _OMC_LIT24))
           {
-            tmpMeta8 = stringAppend(_OMC_LIT54,_message);
-            tmpMeta9 = stringAppend(tmpMeta8,_OMC_LIT55);
-            omc_BackendDump_debugStrExpStrExpStr(threadData, _OMC_LIT56, _inExp, _OMC_LIT57, _inAlternative, tmpMeta9);
+            tmpMeta8 = stringAppend(_OMC_LIT53,_message);
+            tmpMeta9 = stringAppend(tmpMeta8,_OMC_LIT54);
+            omc_BackendDump_debugStrExpStrExpStr(threadData, _OMC_LIT55, _inExp, _OMC_LIT56, _inAlternative, tmpMeta9);
           }
           tmpMeta1 = _inAlternative;
           goto tmp3_done;
@@ -4533,14 +4487,14 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_traverserE
           tmpMeta7 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 2));
           if (mmc__uniontype__metarecord__typedef__equal(tmpMeta7,1,1) == 0) goto tmp3_end;
           tmpMeta8 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta7), 2));
-          if (3 != MMC_STRLEN(tmpMeta8) || strcmp(MMC_STRINGDATA(_OMC_LIT58), MMC_STRINGDATA(tmpMeta8)) != 0) goto tmp3_end;
+          if (3 != MMC_STRLEN(tmpMeta8) || strcmp(MMC_STRINGDATA(_OMC_LIT57), MMC_STRINGDATA(tmpMeta8)) != 0) goto tmp3_end;
           tmpMeta9 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 3));
           
           _explst = tmpMeta9;
           /* Pattern matching succeeded */
           _crlst = omc_List_flatten(threadData, omc_List_map(threadData, _explst, boxvar_Expression_extractCrefsFromExp));
 
-          _crlst = omc_List_map(threadData, _crlst, boxvar_ComponentReference_crefStripLastSubs);
+          _crlst = omc_List_map(threadData, _crlst, boxvar_ComponentReferenceBasics_crefStripLastSubs);
 
           _outHt = omc_List_fold(threadData, _crlst, boxvar_BaseHashSet_add, _unReplaceable);
           tmpMeta[0+0] = _e;
@@ -4621,7 +4575,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_addUnrepla
           _left = tmpMeta9;
           _rest = tmpMeta7;
           /* Pattern matching succeeded */
-          _left = omc_ComponentReference_crefStripLastSubs(threadData, _left);
+          _left = omc_ComponentReferenceBasics_crefStripLastSubs(threadData, _left);
 
           _hs = omc_BaseHashSet_add(threadData, _left, _iHs);
           /* Tail recursive call */
@@ -4655,7 +4609,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_addUnrepla
             for (tmpMeta13 = _crefLst; !listEmpty(tmpMeta13); tmpMeta13=MMC_CDR(tmpMeta13))
             {
               _left = MMC_CAR(tmpMeta13);
-              _left = omc_ComponentReference_crefStripLastSubs(threadData, _left);
+              _left = omc_ComponentReferenceBasics_crefStripLastSubs(threadData, _left);
 
               _hs = omc_BaseHashSet_add(threadData, _left, _hs);
             }
@@ -4786,7 +4740,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_addUnrepla
           
           _cr = tmpMeta7;
           /* Pattern matching succeeded */
-          _cr = omc_ComponentReference_crefStripLastSubs(threadData, _cr);
+          _cr = omc_ComponentReferenceBasics_crefStripLastSubs(threadData, _cr);
           tmpMeta1 = omc_BaseHashSet_add(threadData, _cr, _inHS);
           goto tmp3_done;
         }
@@ -4799,7 +4753,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_addUnrepla
           /* Pattern matching succeeded */
           _crlst = omc_List_flatten(threadData, omc_List_map(threadData, _expExpLst, boxvar_Expression_extractCrefsFromExp));
 
-          _crlst = omc_List_map(threadData, _crlst, boxvar_ComponentReference_crefStripLastSubs);
+          _crlst = omc_List_map(threadData, _crlst, boxvar_ComponentReferenceBasics_crefStripLastSubs);
           tmpMeta1 = omc_List_fold(threadData, _crlst, boxvar_BaseHashSet_add, _inHS);
           goto tmp3_done;
         }
@@ -4813,7 +4767,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_addUnrepla
           
           _cr = tmpMeta10;
           /* Pattern matching succeeded */
-          _cr = omc_ComponentReference_crefStripLastSubs(threadData, _cr);
+          _cr = omc_ComponentReferenceBasics_crefStripLastSubs(threadData, _cr);
           tmpMeta1 = omc_BaseHashSet_add(threadData, _cr, _inHS);
           goto tmp3_done;
         }
@@ -4906,7 +4860,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_addUnrepla
           
           _cr = tmpMeta12;
           tmp4 += 1; /* Pattern matching succeeded; we may skip some cases if we fail */
-          _cr = omc_ComponentReference_crefStripLastSubs(threadData, _cr);
+          _cr = omc_ComponentReferenceBasics_crefStripLastSubs(threadData, _cr);
           tmpMeta1 = omc_BaseHashSet_add(threadData, _cr, _inHS);
           goto tmp3_done;
         }
@@ -4920,7 +4874,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_addUnrepla
           
           _cr = tmpMeta14;
           /* Pattern matching succeeded */
-          _cr = omc_ComponentReference_crefStripLastSubs(threadData, _cr);
+          _cr = omc_ComponentReferenceBasics_crefStripLastSubs(threadData, _cr);
           tmpMeta1 = omc_BaseHashSet_add(threadData, _cr, _inHS);
           goto tmp3_done;
         }
@@ -5088,7 +5042,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_addUnrepla
           
           _cr = tmpMeta7;
           /* Pattern matching succeeded */
-          _cr = omc_ComponentReference_crefStripLastSubs(threadData, _cr);
+          _cr = omc_ComponentReferenceBasics_crefStripLastSubs(threadData, _cr);
 
           _ohs = omc_BaseHashSet_add(threadData, _cr, _hs);
           tmpMeta[0+0] = _e;
@@ -5175,7 +5129,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_addUnrepla
 
   _crlst = omc_List_map(threadData, _statevars, boxvar_BackendVariable_varCref);
 
-  _crlst = omc_List_map(threadData, _crlst, boxvar_ComponentReference_crefStripLastSubs);
+  _crlst = omc_List_map(threadData, _crlst, boxvar_ComponentReferenceBasics_crefStripLastSubs);
 
   _outUnreplaceable = omc_List_fold(threadData, _crlst, boxvar_BaseHashSet_add, _inUnreplaceable);
   _return: OMC_LABEL_UNUSED
@@ -5531,11 +5485,11 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_replaceEqu
             {
               if(omc_Expression_isZero(threadData, _res))
               {
-                tmpMeta11 = stringAppend(_OMC_LIT61,omc_BackendDump_equationString(threadData, _e));
+                tmpMeta11 = stringAppend(_OMC_LIT60,omc_BackendDump_equationString(threadData, _e));
                 tmp13 = (modelica_boolean)_b1;
                 if(tmp13)
                 {
-                  tmpMeta12 = stringAppend(_OMC_LIT60,omc_BackendDump_equationString(threadData, _eqn));
+                  tmpMeta12 = stringAppend(_OMC_LIT59,omc_BackendDump_equationString(threadData, _eqn));
                   tmp14 = tmpMeta12;
                 }
                 else
@@ -5552,11 +5506,11 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_replaceEqu
               }
               else
               {
-                tmpMeta17 = stringAppend(_OMC_LIT59,omc_BackendDump_equationString(threadData, _e));
+                tmpMeta17 = stringAppend(_OMC_LIT58,omc_BackendDump_equationString(threadData, _e));
                 tmp19 = (modelica_boolean)_b1;
                 if(tmp19)
                 {
-                  tmpMeta18 = stringAppend(_OMC_LIT60,omc_BackendDump_equationString(threadData, _eqn));
+                  tmpMeta18 = stringAppend(_OMC_LIT59,omc_BackendDump_equationString(threadData, _eqn));
                   tmp20 = tmpMeta18;
                 }
                 else
@@ -6142,7 +6096,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_removeEqua
           _lhs = tmpMeta6;
           _rhs = tmpMeta7;
           tmp4 += 2; /* Pattern matching succeeded; we may skip some cases if we fail */
-          _b = omc_Expression_expEqual(threadData, _lhs, _rhs);
+          _b = omc_ExpressionBasics_expEqual(threadData, _lhs, _rhs);
           tmpMeta1 = omc_List_consOnTrue(threadData, (!_b), _iEqn, _iEqns);
           goto tmp3_done;
         }
@@ -6156,7 +6110,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_removeEqua
           _lhs = tmpMeta8;
           _rhs = tmpMeta9;
           tmp4 += 1; /* Pattern matching succeeded; we may skip some cases if we fail */
-          _b = omc_Expression_expEqual(threadData, _lhs, _rhs);
+          _b = omc_ExpressionBasics_expEqual(threadData, _lhs, _rhs);
           tmpMeta1 = omc_List_consOnTrue(threadData, (!_b), _iEqn, _iEqns);
           goto tmp3_done;
         }
@@ -6170,7 +6124,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_removeEqua
           _lhs = tmpMeta10;
           _rhs = tmpMeta11;
           /* Pattern matching succeeded */
-          _b = omc_Expression_expEqual(threadData, _lhs, _rhs);
+          _b = omc_ExpressionBasics_expEqual(threadData, _lhs, _rhs);
           tmpMeta1 = omc_List_consOnTrue(threadData, (!_b), _iEqn, _iEqns);
           goto tmp3_done;
         }
@@ -6893,7 +6847,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_removeSimp
           _constraintsLst = tmpMeta11;
           _clsAttrsLst = tmpMeta12;
           /* Pattern matching succeeded */
-          if(omc_Flags_isSet(threadData, _OMC_LIT52))
+          if(omc_Flags_isSet(threadData, _OMC_LIT51))
           {
             omc_BackendVarTransform_dumpReplacements(threadData, _repl);
 
@@ -7398,7 +7352,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_selectFree
 
           _crVar = omc_BackendVariable_varCref(threadData, _inVar);
 
-          if(omc_Flags_isSet(threadData, _OMC_LIT73))
+          if(omc_Flags_isSet(threadData, _OMC_LIT70))
           {
             _e1 = omc_RemoveSimpleEquations_replaceCrefWithBindExp(threadData, _e, _globalKnownVars ,&_b);
 
@@ -7407,7 +7361,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_selectFree
             tmp10 = (modelica_boolean)_b;
             if(tmp10)
             {
-              tmpMeta9 = stringAppend(_OMC_LIT3,omc_ExpressionDump_printExpStr(threadData, _e1));
+              tmpMeta9 = stringAppend(_OMC_LIT3,omc_ExpressionBasics_printExpStr(threadData, _e1));
               tmp11 = tmpMeta9;
             }
             else
@@ -7416,20 +7370,20 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_selectFree
             }
             _s2 = tmp11;
 
-            tmpMeta12 = stringAppend(_iStr,_OMC_LIT62);
-            tmpMeta13 = stringAppend(tmpMeta12,omc_ComponentReference_printComponentRefStr(threadData, _cr));
-            tmpMeta14 = stringAppend(tmpMeta13,_OMC_LIT63);
+            tmpMeta12 = stringAppend(_iStr,_OMC_LIT61);
+            tmpMeta13 = stringAppend(tmpMeta12,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr));
+            tmpMeta14 = stringAppend(tmpMeta13,_OMC_LIT62);
             tmpMeta15 = stringAppend(tmpMeta14,_iAttributeName);
             tmpMeta16 = stringAppend(tmpMeta15,_OMC_LIT3);
-            tmpMeta17 = stringAppend(tmpMeta16,omc_ExpressionDump_printExpStr(threadData, _e));
+            tmpMeta17 = stringAppend(tmpMeta16,omc_ExpressionBasics_printExpStr(threadData, _e));
             tmpMeta18 = stringAppend(tmpMeta17,_s2);
-            tmpMeta19 = stringAppend(tmpMeta18,_OMC_LIT64);
-            tmpMeta20 = stringAppend(tmpMeta19,omc_ComponentReference_printComponentRefStr(threadData, _crVar));
-            tmpMeta21 = stringAppend(tmpMeta20,_OMC_LIT20);
+            tmpMeta19 = stringAppend(tmpMeta18,_OMC_LIT63);
+            tmpMeta20 = stringAppend(tmpMeta19,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _crVar));
+            tmpMeta21 = stringAppend(tmpMeta20,_OMC_LIT21);
             _s = tmpMeta21;
 
             tmpMeta22 = mmc_mk_cons(_s, MMC_REFSTRUCTLIT(mmc_nil));
-            omc_Error_addMessage(threadData, _OMC_LIT69, tmpMeta22);
+            omc_Error_addMessage(threadData, _OMC_LIT67, tmpMeta22);
           }
           tmpMeta1 = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inFunc), 2))) ? ((modelica_metatype(*)(threadData_t*, modelica_metatype, modelica_metatype, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inFunc), 1)))) (threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inFunc), 2))), _inVar, _e) : ((modelica_metatype(*)(threadData_t*, modelica_metatype, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inFunc), 1)))) (threadData, _inVar, _e);
           goto tmp3_done;
@@ -7485,7 +7439,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_selectFree
             _i = ((modelica_integer) 5) + _i;
           }
 
-          if(omc_Flags_isSet(threadData, _OMC_LIT73))
+          if(omc_Flags_isSet(threadData, _OMC_LIT70))
           {
             _e1 = omc_RemoveSimpleEquations_replaceCrefWithBindExp(threadData, _e, _globalKnownVars ,&_b);
 
@@ -7494,7 +7448,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_selectFree
             tmp34 = (modelica_boolean)_b;
             if(tmp34)
             {
-              tmpMeta33 = stringAppend(_OMC_LIT3,omc_ExpressionDump_printExpStr(threadData, _e1));
+              tmpMeta33 = stringAppend(_OMC_LIT3,omc_ExpressionBasics_printExpStr(threadData, _e1));
               tmp35 = tmpMeta33;
             }
             else
@@ -7503,16 +7457,16 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_selectFree
             }
             _s2 = tmp35;
 
-            tmpMeta36 = stringAppend(_iStr,_OMC_LIT74);
-            tmpMeta37 = stringAppend(tmpMeta36,omc_ComponentReference_printComponentRefStr(threadData, _cr));
-            tmpMeta38 = stringAppend(tmpMeta37,_OMC_LIT63);
+            tmpMeta36 = stringAppend(_iStr,_OMC_LIT71);
+            tmpMeta37 = stringAppend(tmpMeta36,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr));
+            tmpMeta38 = stringAppend(tmpMeta37,_OMC_LIT62);
             tmpMeta39 = stringAppend(tmpMeta38,_iAttributeName);
             tmpMeta40 = stringAppend(tmpMeta39,_OMC_LIT3);
-            tmpMeta41 = stringAppend(tmpMeta40,omc_ExpressionDump_printExpStr(threadData, _e));
+            tmpMeta41 = stringAppend(tmpMeta40,omc_ExpressionBasics_printExpStr(threadData, _e));
             tmpMeta42 = stringAppend(tmpMeta41,_s2);
-            tmpMeta43 = stringAppend(tmpMeta42,_OMC_LIT75);
+            tmpMeta43 = stringAppend(tmpMeta42,_OMC_LIT72);
             tmpMeta44 = stringAppend(tmpMeta43,intString(_i));
-            tmpMeta45 = stringAppend(tmpMeta44,_OMC_LIT76);
+            tmpMeta45 = stringAppend(tmpMeta44,_OMC_LIT73);
             _s = tmpMeta45;
           }
           tmpMeta47 = mmc_mk_box3(0, _e, _cr, mmc_mk_integer(_i));
@@ -7596,7 +7550,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_selectFree
             _i = ((modelica_integer) 5) + _i;
           }
 
-          if(omc_Flags_isSet(threadData, _OMC_LIT73))
+          if(omc_Flags_isSet(threadData, _OMC_LIT70))
           {
             _e1 = omc_RemoveSimpleEquations_replaceCrefWithBindExp(threadData, _e, _globalKnownVars ,&_b);
 
@@ -7605,7 +7559,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_selectFree
             tmp65 = (modelica_boolean)_b;
             if(tmp65)
             {
-              tmpMeta64 = stringAppend(_OMC_LIT3,omc_ExpressionDump_printExpStr(threadData, _e1));
+              tmpMeta64 = stringAppend(_OMC_LIT3,omc_ExpressionBasics_printExpStr(threadData, _e1));
               tmp66 = tmpMeta64;
             }
             else
@@ -7614,16 +7568,16 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_selectFree
             }
             _s2 = tmp66;
 
-            tmpMeta67 = stringAppend(_iStr,_OMC_LIT74);
-            tmpMeta68 = stringAppend(tmpMeta67,omc_ComponentReference_printComponentRefStr(threadData, _cr));
-            tmpMeta69 = stringAppend(tmpMeta68,_OMC_LIT63);
+            tmpMeta67 = stringAppend(_iStr,_OMC_LIT71);
+            tmpMeta68 = stringAppend(tmpMeta67,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr));
+            tmpMeta69 = stringAppend(tmpMeta68,_OMC_LIT62);
             tmpMeta70 = stringAppend(tmpMeta69,_iAttributeName);
             tmpMeta71 = stringAppend(tmpMeta70,_OMC_LIT3);
-            tmpMeta72 = stringAppend(tmpMeta71,omc_ExpressionDump_printExpStr(threadData, _e));
+            tmpMeta72 = stringAppend(tmpMeta71,omc_ExpressionBasics_printExpStr(threadData, _e));
             tmpMeta73 = stringAppend(tmpMeta72,_s2);
-            tmpMeta74 = stringAppend(tmpMeta73,_OMC_LIT75);
+            tmpMeta74 = stringAppend(tmpMeta73,_OMC_LIT72);
             tmpMeta75 = stringAppend(tmpMeta74,intString(_i));
-            tmpMeta76 = stringAppend(tmpMeta75,_OMC_LIT76);
+            tmpMeta76 = stringAppend(tmpMeta75,_OMC_LIT73);
             _s = tmpMeta76;
           }
 
@@ -7633,7 +7587,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_selectFree
 
           _crVar = omc_BackendVariable_varCref(threadData, _inVar);
 
-          tmp86 = (modelica_boolean)omc_ComponentReference_crefEqual(threadData, _crVar, _crs);
+          tmp86 = (modelica_boolean)omc_ComponentReferenceBasics_crefEqual(threadData, _crVar, _crs);
           if(tmp86)
           {
             tmpMeta79 = mmc_mk_box3(0, _es, _crs, mmc_mk_integer(_is));
@@ -7716,7 +7670,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_selectFree
             _i = ((modelica_integer) 5) + _i;
           }
 
-          if(omc_Flags_isSet(threadData, _OMC_LIT73))
+          if(omc_Flags_isSet(threadData, _OMC_LIT70))
           {
             _e1 = omc_RemoveSimpleEquations_replaceCrefWithBindExp(threadData, _e, _globalKnownVars ,&_b);
 
@@ -7725,7 +7679,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_selectFree
             tmp103 = (modelica_boolean)_b;
             if(tmp103)
             {
-              tmpMeta102 = stringAppend(_OMC_LIT3,omc_ExpressionDump_printExpStr(threadData, _e1));
+              tmpMeta102 = stringAppend(_OMC_LIT3,omc_ExpressionBasics_printExpStr(threadData, _e1));
               tmp104 = tmpMeta102;
             }
             else
@@ -7734,16 +7688,16 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_selectFree
             }
             _s2 = tmp104;
 
-            tmpMeta105 = stringAppend(_iStr,_OMC_LIT74);
-            tmpMeta106 = stringAppend(tmpMeta105,omc_ComponentReference_printComponentRefStr(threadData, _cr));
-            tmpMeta107 = stringAppend(tmpMeta106,_OMC_LIT63);
+            tmpMeta105 = stringAppend(_iStr,_OMC_LIT71);
+            tmpMeta106 = stringAppend(tmpMeta105,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr));
+            tmpMeta107 = stringAppend(tmpMeta106,_OMC_LIT62);
             tmpMeta108 = stringAppend(tmpMeta107,_iAttributeName);
             tmpMeta109 = stringAppend(tmpMeta108,_OMC_LIT3);
-            tmpMeta110 = stringAppend(tmpMeta109,omc_ExpressionDump_printExpStr(threadData, _e));
+            tmpMeta110 = stringAppend(tmpMeta109,omc_ExpressionBasics_printExpStr(threadData, _e));
             tmpMeta111 = stringAppend(tmpMeta110,_s2);
-            tmpMeta112 = stringAppend(tmpMeta111,_OMC_LIT75);
+            tmpMeta112 = stringAppend(tmpMeta111,_OMC_LIT72);
             tmpMeta113 = stringAppend(tmpMeta112,intString(_i));
-            tmpMeta114 = stringAppend(tmpMeta113,_OMC_LIT76);
+            tmpMeta114 = stringAppend(tmpMeta113,_OMC_LIT73);
             _s = tmpMeta114;
           }
 
@@ -7894,9 +7848,9 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_selectFree
           modelica_metatype tmpMeta6;
           
           /* Pattern matching succeeded */
-          _warnAliasConflicts = (!omc_Flags_isSet(threadData, _OMC_LIT73));
+          _warnAliasConflicts = (!omc_Flags_isSet(threadData, _OMC_LIT70));
           tmpMeta6 = MMC_REFSTRUCTLIT(mmc_nil);
-          tmpMeta1 = omc_RemoveSimpleEquations_selectFreeValue1(threadData, _iZeroFreeValues, tmpMeta6, _OMC_LIT77, _OMC_LIT78, boxvar_BackendVariable_setVarStartValue, _inVar, _globalKnownVars);
+          tmpMeta1 = omc_RemoveSimpleEquations_selectFreeValue1(threadData, _iZeroFreeValues, tmpMeta6, _OMC_LIT74, _OMC_LIT75, boxvar_BackendVariable_setVarStartValue, _inVar, _globalKnownVars);
           goto tmp3_done;
         }
         }
@@ -8117,7 +8071,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_replaceCre
   _tailrecursive: OMC_LABEL_UNUSED
   // _outExp has no default value.
   // _replaced has no default value.
-  _replaced_crefs = omc_UnorderedSet_new(threadData, boxvar_ComponentReference_hashComponentRef, boxvar_ComponentReference_crefEqual, ((modelica_integer) 13));
+  _replaced_crefs = omc_UnorderedSet_new(threadData, boxvar_ComponentReferenceBasics_hashComponentRef, boxvar_ComponentReferenceBasics_crefEqual, ((modelica_integer) 13));
   /* Pattern-matching tuple assignment */
   tmpMeta4 = mmc_mk_box2(0, _vars, _replaced_crefs);
   tmpMeta5 = omc_Expression_traverseExpBottomUp(threadData, _exp, (modelica_fnptr) mmc_mk_box2(0,closure3_RemoveSimpleEquations_replaceCrefWithBindExp__traverser,tmpMeta4), mmc_mk_boolean(0 /* false */), &tmpMeta1);
@@ -8251,7 +8205,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_equalFreeS
           _e1 = omc_ExpressionSimplify_condsimplify(threadData, _b, _e1, NULL);
 
           /* Pattern-matching assignment */
-          tmp22 = omc_Expression_expEqual(threadData, _e1, _e2);
+          tmp22 = omc_ExpressionBasics_expEqual(threadData, _e1, _e2);
           if (1 /* true */ != tmp22) goto goto_2;
           /* Tail recursive call */
           _iValues = _values;
@@ -8408,7 +8362,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_equalNonFr
           _e1 = omc_ExpressionSimplify_condsimplify(threadData, _b, _e1, NULL);
 
           /* Pattern-matching assignment */
-          tmp26 = omc_Expression_expEqual(threadData, _e1, _e2);
+          tmp26 = omc_ExpressionBasics_expEqual(threadData, _e1, _e2);
           if (1 /* true */ != tmp26) goto goto_2;
           /* Tail recursive call */
           _iValues = _values;
@@ -8592,7 +8546,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_handleVarS
         case 1: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT79),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT76),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -8684,15 +8638,15 @@ PROTECTED_FUNCTION_STATIC void omc_RemoveSimpleEquations_checkMinMax(threadData_
           tmp9 = (_rmin > _rmax);
           if (1 /* true */ != tmp9) goto goto_1;
 
-          _s4 = omc_ExpressionDump_printExpStr(threadData, _min);
+          _s4 = omc_ExpressionBasics_printExpStr(threadData, _min);
 
-          _s5 = omc_ExpressionDump_printExpStr(threadData, _max);
+          _s5 = omc_ExpressionBasics_printExpStr(threadData, _max);
 
-          tmpMeta10 = mmc_mk_cons(_OMC_LIT80, mmc_mk_cons(_s4, mmc_mk_cons(_OMC_LIT81, mmc_mk_cons(_s5, MMC_REFSTRUCTLIT(mmc_nil)))));
+          tmpMeta10 = mmc_mk_cons(_OMC_LIT77, mmc_mk_cons(_s4, mmc_mk_cons(_OMC_LIT78, mmc_mk_cons(_s5, MMC_REFSTRUCTLIT(mmc_nil)))));
           _s = stringAppendList(tmpMeta10);
 
           tmpMeta11 = mmc_mk_cons(_s, MMC_REFSTRUCTLIT(mmc_nil));
-          omc_Error_addMessage(threadData, _OMC_LIT69, tmpMeta11);
+          omc_Error_addMessage(threadData, _OMC_LIT67, tmpMeta11);
           goto tmp2_done;
         }
         case 1: {
@@ -8897,9 +8851,9 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_mergeMinMa
           _min = tmpMeta17;
           _max = tmpMeta20;
           /* Pattern matching succeeded */
-          _min1 = omc_RemoveSimpleEquations_negateExpression(threadData, 1 /* true */, _min, _min, _OMC_LIT82);
+          _min1 = omc_RemoveSimpleEquations_negateExpression(threadData, 1 /* true */, _min, _min, _OMC_LIT79);
 
-          _max1 = omc_RemoveSimpleEquations_negateExpression(threadData, 1 /* true */, _max, _max, _OMC_LIT83);
+          _max1 = omc_RemoveSimpleEquations_negateExpression(threadData, 1 /* true */, _max, _max, _OMC_LIT80);
 
           tmpMeta21 = mmc_mk_box2(0, mmc_mk_some(_max1), mmc_mk_some(_min1));
           _minMax = omc_RemoveSimpleEquations_mergeMinMax1(threadData, tmpMeta21, _ominmax1);
@@ -8928,7 +8882,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_mergeMinMa
           if (!listEmpty(tmpMeta25)) goto tmp3_end;
           _max = tmpMeta26;
           /* Pattern matching succeeded */
-          _max1 = omc_RemoveSimpleEquations_negateExpression(threadData, 1 /* true */, _max, _max, _OMC_LIT84);
+          _max1 = omc_RemoveSimpleEquations_negateExpression(threadData, 1 /* true */, _max, _max, _OMC_LIT81);
 
           tmpMeta27 = mmc_mk_box2(0, mmc_mk_some(_max1), mmc_mk_none());
           _minMax = omc_RemoveSimpleEquations_mergeMinMax1(threadData, tmpMeta27, _ominmax1);
@@ -8957,7 +8911,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_mergeMinMa
           if (!listEmpty(tmpMeta32)) goto tmp3_end;
           _min = tmpMeta30;
           /* Pattern matching succeeded */
-          _min1 = omc_RemoveSimpleEquations_negateExpression(threadData, 1 /* true */, _min, _min, _OMC_LIT85);
+          _min1 = omc_RemoveSimpleEquations_negateExpression(threadData, 1 /* true */, _min, _min, _OMC_LIT82);
 
           tmpMeta33 = mmc_mk_box2(0, mmc_mk_none(), mmc_mk_some(_min1));
           _minMax = omc_RemoveSimpleEquations_mergeMinMax1(threadData, tmpMeta33, _ominmax1);
@@ -8969,7 +8923,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_mergeMinMa
         case 6: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT86),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT83),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -9075,7 +9029,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_mergeNomin
           _allExp = omc_List_map(threadData, _nominalList, boxvar_Util_tuple21);
 
           /* Pattern-matching assignment */
-          tmpMeta6 = omc_List_uniqueOnTrue(threadData, _allExp, boxvar_Expression_expEqual);
+          tmpMeta6 = omc_List_uniqueOnTrue(threadData, _allExp, boxvar_ExpressionBasics_expEqual);
           if (listEmpty(tmpMeta6)) goto goto_2;
           tmpMeta7 = MMC_CAR(tmpMeta6);
           tmpMeta8 = MMC_CDR(tmpMeta6);
@@ -9088,9 +9042,9 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_mergeNomin
           modelica_metatype tmpMeta9;
           
           /* Pattern matching succeeded */
-          _warnAliasConflicts = (!omc_Flags_isSet(threadData, _OMC_LIT73));
+          _warnAliasConflicts = (!omc_Flags_isSet(threadData, _OMC_LIT70));
           tmpMeta9 = MMC_REFSTRUCTLIT(mmc_nil);
-          tmpMeta1 = omc_RemoveSimpleEquations_selectFreeValue1(threadData, _nominalList, tmpMeta9, _OMC_LIT87, _OMC_LIT88, boxvar_BackendVariable_setVarNominalValue, _inVar, _globalKnownVars);
+          tmpMeta1 = omc_RemoveSimpleEquations_selectFreeValue1(threadData, _nominalList, tmpMeta9, _OMC_LIT84, _OMC_LIT85, boxvar_BackendVariable_setVarNominalValue, _inVar, _globalKnownVars);
           goto tmp3_done;
         }
         }
@@ -9294,7 +9248,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_mergeStart
           tmpMeta19 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta18), 2));
           _start = tmpMeta19;
 
-          _warnAliasConflicts = (!omc_Flags_isSet(threadData, _OMC_LIT73));
+          _warnAliasConflicts = (!omc_Flags_isSet(threadData, _OMC_LIT70));
           tmpMeta1 = omc_BackendVariable_setVarStartValueOption(threadData, _v, _start);
           goto tmp3_done;
         }
@@ -9325,19 +9279,17 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_mergeStart
           
           _values = tmpMeta20;
           tmp4 += 3; /* Pattern matching succeeded; we may skip some cases if we fail */
-          if((!omc_Flags_isSet(threadData, _OMC_LIT73)))
+          if((!omc_Flags_isSet(threadData, _OMC_LIT70)))
           {
             tmpMeta21 = MMC_REFSTRUCTLIT(mmc_nil);
-            omc_Error_addMessage(threadData, _OMC_LIT95, tmpMeta21);
+            omc_Error_addMessage(threadData, _OMC_LIT91, tmpMeta21);
           }
           else
           {
-            omc_BackendVariable_setVarFixed(threadData, _inVar, 1 /* true */);
-
             tmpMeta22 = MMC_REFSTRUCTLIT(mmc_nil);
             _zerofreevalues = omc_List_fold(threadData, _values, boxvar_RemoveSimpleEquations_getZeroFreeValues, tmpMeta22);
 
-            _str = _OMC_LIT89;
+            _str = _OMC_LIT86;
 
             {
               modelica_metatype _value;
@@ -9366,13 +9318,13 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_mergeStart
                   _i = ((modelica_integer) 5) + _i;
                 }
 
-                tmpMeta33 = stringAppend(_str,_OMC_LIT74);
-                tmpMeta34 = stringAppend(tmpMeta33,omc_ComponentReference_printComponentRefStr(threadData, _cr));
-                tmpMeta35 = stringAppend(tmpMeta34,_OMC_LIT90);
-                tmpMeta36 = stringAppend(tmpMeta35,omc_ExpressionDump_printExpStr(threadData, _startExp));
-                tmpMeta37 = stringAppend(tmpMeta36,_OMC_LIT75);
+                tmpMeta33 = stringAppend(_str,_OMC_LIT71);
+                tmpMeta34 = stringAppend(tmpMeta33,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _cr));
+                tmpMeta35 = stringAppend(tmpMeta34,_OMC_LIT87);
+                tmpMeta36 = stringAppend(tmpMeta35,omc_ExpressionBasics_printExpStr(threadData, _startExp));
+                tmpMeta37 = stringAppend(tmpMeta36,_OMC_LIT72);
                 tmpMeta38 = stringAppend(tmpMeta37,intString(_i));
-                tmpMeta39 = stringAppend(tmpMeta38,_OMC_LIT76);
+                tmpMeta39 = stringAppend(tmpMeta38,_OMC_LIT73);
                 _str = tmpMeta39;
               }
             }
@@ -9560,7 +9512,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_RemoveSimpleEquations_addStartVal
           
           _startexp = tmpMeta9;
           tmp4 += 1; /* Pattern matching succeeded; we may skip some cases if we fail */
-          _startexp = omc_RemoveSimpleEquations_negateExpression(threadData, _negate, _startexp, _startexp, _OMC_LIT96);
+          _startexp = omc_RemoveSimpleEquations_negateExpression(threadData, _negate, _startexp, _startexp, _OMC_LIT92);
 
           _originvalue = omc_BackendVariable_startOriginToValue(threadData, _origin);
           tmpMeta11 = mmc_mk_box2(0, mmc_mk_some(_startexp), _cr);
@@ -9642,7 +9594,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_RemoveSimpleEquations_addStartVal
           _setorigin = tmp26  /* pattern as ty=Integer */;
           _startvalues = tmpMeta27;
           /* Pattern matching succeeded */
-          _startexp = omc_RemoveSimpleEquations_negateExpression(threadData, _negate, _startexp, _startexp, _OMC_LIT97);
+          _startexp = omc_RemoveSimpleEquations_negateExpression(threadData, _negate, _startexp, _startexp, _OMC_LIT93);
 
           _originvalue = omc_BackendVariable_startOriginToValue(threadData, _origin);
 
@@ -9671,7 +9623,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_RemoveSimpleEquations_addStartVal
         case 5: {
           
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT98),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT94),stdout);
           goto goto_2;
           goto tmp3_done;
         }
@@ -9833,7 +9785,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_negateOptE
           tmpMeta6 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 1));
           _e = tmpMeta6;
           /* Pattern matching succeeded */
-          _e = omc_RemoveSimpleEquations_negateExpression(threadData, 1 /* true */, _e, _e, _OMC_LIT99);
+          _e = omc_RemoveSimpleEquations_negateExpression(threadData, 1 /* true */, _e, _e, _OMC_LIT95);
           tmpMeta1 = mmc_mk_some(_e);
           goto tmp3_done;
         }
@@ -9990,7 +9942,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_traverseAl
 
           _globalnegated1 = (_negated?(!_globalnegated):_globalnegated);
 
-          _exp1 = omc_RemoveSimpleEquations_negateExpression(threadData, _globalnegated1, _exp, _exp, _OMC_LIT100);
+          _exp1 = omc_RemoveSimpleEquations_negateExpression(threadData, _globalnegated1, _exp, _exp, _OMC_LIT96);
 
           _derReplacement = (_globalnegated1?omc_RemoveSimpleEquations_negateOptExp(threadData, _derReplaceState):_derReplaceState);
 
@@ -10001,7 +9953,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_traverseAl
 
           _vsattr = ((_replaceable_ && _replaceble1)?omc_RemoveSimpleEquations_addVarSetAttributes(threadData, _v, _globalnegated1, _mark, _simpleeqnsarr, _iAttributes):_iAttributes);
 
-          _crexp = omc_RemoveSimpleEquations_negateExpression(threadData, _negated, _crexp, _crexp, _OMC_LIT101);
+          _crexp = omc_RemoveSimpleEquations_negateExpression(threadData, _negated, _crexp, _crexp, _OMC_LIT97);
 
           _rows = omc_List_removeOnTrue(threadData, mmc_mk_integer(_r), boxvar_intEq, arrayGet(_iMT,_i) /* DAE.ASUB */);
 
@@ -10047,14 +9999,14 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_traverseAl
 
           _crexp = omc_Expression_crefExp(threadData, _cr);
 
-          _crexp = omc_RemoveSimpleEquations_negateExpression(threadData, _negated, _crexp, _crexp, _OMC_LIT102);
+          _crexp = omc_RemoveSimpleEquations_negateExpression(threadData, _negated, _crexp, _crexp, _OMC_LIT98);
 
-          _lhs = omc_ExpressionDump_printExpStr(threadData, _exp);
+          _lhs = omc_ExpressionBasics_printExpStr(threadData, _exp);
 
-          _rhs = omc_ExpressionDump_printExpStr(threadData, _crexp);
+          _rhs = omc_ExpressionBasics_printExpStr(threadData, _crexp);
 
           tmpMeta30 = mmc_mk_cons(_lhs, mmc_mk_cons(_rhs, MMC_REFSTRUCTLIT(mmc_nil)));
-          omc_Error_addSourceMessage(threadData, _OMC_LIT105, tmpMeta30, omc_ElementSource_getElementSourceFileInfo(threadData, _source));
+          omc_Error_addSourceMessage(threadData, _OMC_LIT100, tmpMeta30, omc_ElementSource_getElementSourceFileInfo(threadData, _source));
           goto goto_2;
           goto tmp3_done;
         }
@@ -10068,10 +10020,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_traverseAl
           
           _source = tmpMeta32;
           /* Pattern matching succeeded */
-          _rhs = omc_ExpressionDump_printExpStr(threadData, _exp);
+          _rhs = omc_ExpressionBasics_printExpStr(threadData, _exp);
 
           tmpMeta33 = mmc_mk_cons(_OMC_LIT35, mmc_mk_cons(_rhs, MMC_REFSTRUCTLIT(mmc_nil)));
-          omc_Error_addSourceMessage(threadData, _OMC_LIT105, tmpMeta33, omc_ElementSource_getElementSourceFileInfo(threadData, _source));
+          omc_Error_addSourceMessage(threadData, _OMC_LIT100, tmpMeta33, omc_ElementSource_getElementSourceFileInfo(threadData, _source));
           goto goto_2;
           goto tmp3_done;
         }
@@ -10088,12 +10040,12 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_traverseAl
           _exp1 = tmpMeta34;
           _source = tmpMeta36;
           /* Pattern matching succeeded */
-          _lhs = omc_ExpressionDump_printExpStr(threadData, _exp);
+          _lhs = omc_ExpressionBasics_printExpStr(threadData, _exp);
 
-          _rhs = omc_ExpressionDump_printExpStr(threadData, _exp1);
+          _rhs = omc_ExpressionBasics_printExpStr(threadData, _exp1);
 
           tmpMeta37 = mmc_mk_cons(_lhs, mmc_mk_cons(_rhs, MMC_REFSTRUCTLIT(mmc_nil)));
-          omc_Error_addSourceMessage(threadData, _OMC_LIT105, tmpMeta37, omc_ElementSource_getElementSourceFileInfo(threadData, _source));
+          omc_Error_addSourceMessage(threadData, _OMC_LIT100, tmpMeta37, omc_ElementSource_getElementSourceFileInfo(threadData, _source));
           goto goto_2;
           goto tmp3_done;
         }
@@ -10834,19 +10786,19 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_handleSet(
 
           _exp = omc_Expression_crefExp(threadData, _cr2);
 
-          _exp2 = omc_RemoveSimpleEquations_negateExpression(threadData, _negated, _exp, _exp, _OMC_LIT106);
+          _exp2 = omc_RemoveSimpleEquations_negateExpression(threadData, _negated, _exp, _exp, _OMC_LIT101);
 
           _v = omc_BackendVariable_getVarAt(threadData, _iVars, _i1);
 
           _replaceable_ = omc_RemoveSimpleEquations_replaceableAlias(threadData, _v, _unReplaceable ,&_replaceble1);
 
-          _vars = omc_RemoveSimpleEquations_handleSetVar(threadData, (_replaceable_ && _replaceble1), _OMC_LIT107, _v, _i1, _eqnAttributes, _exp2, _iMT, _iVars, _iEqnslst, _ishared, _iRepl ,&_eqnslst ,&_shared ,&_repl);
+          _vars = omc_RemoveSimpleEquations_handleSetVar(threadData, (_replaceable_ && _replaceble1), _OMC_LIT102, _v, _i1, _eqnAttributes, _exp2, _iMT, _iVars, _iEqnslst, _ishared, _iRepl ,&_eqnslst ,&_shared ,&_repl);
 
           _expcr = omc_Expression_crefExp(threadData, _cr1);
 
           _pv = omc_BackendVariable_getVarSharedAt(threadData, _i2, _ishared);
 
-          _vsattr = omc_RemoveSimpleEquations_addVarSetAttributes(threadData, _pv, _negated, _mark, _simpleeqnsarr, _OMC_LIT110);
+          _vsattr = omc_RemoveSimpleEquations_addVarSetAttributes(threadData, _pv, _negated, _mark, _simpleeqnsarr, _OMC_LIT105);
 
           _vsattr = ((_replaceable_ && _replaceble1)?omc_RemoveSimpleEquations_addVarSetAttributes(threadData, _v, _negated, _mark, _simpleeqnsarr, _vsattr):_vsattr);
 
@@ -10855,7 +10807,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_handleSet(
           tmpMeta20 = MMC_REFSTRUCTLIT(mmc_nil);
           arrayUpdate(_iMT, _i1, tmpMeta20);
 
-          _vars = omc_RemoveSimpleEquations_traverseAliasTree(threadData, _rows, _i1, _exp, mmc_mk_some(_expcr), _negated, _OMC_LIT107, _mark, _simpleeqnsarr, _iMT, _unReplaceable, _vars, _eqnslst, _shared, _repl, _vsattr ,&_eqnslst ,&_shared ,&_repl ,&_vsattr);
+          _vars = omc_RemoveSimpleEquations_traverseAliasTree(threadData, _rows, _i1, _exp, mmc_mk_some(_expcr), _negated, _OMC_LIT102, _mark, _simpleeqnsarr, _iMT, _unReplaceable, _vars, _eqnslst, _shared, _repl, _vsattr ,&_eqnslst ,&_shared ,&_repl ,&_vsattr);
           tmpMeta[0+0] = _vars;
           tmpMeta[0+1] = _eqnslst;
           tmpMeta[0+2] = _shared;
@@ -10906,19 +10858,19 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_handleSet(
 
           _exp = omc_Expression_crefExp(threadData, _OMC_LIT37);
 
-          _exp1 = omc_RemoveSimpleEquations_negateExpression(threadData, _negated, _exp, _exp, _OMC_LIT111);
+          _exp1 = omc_RemoveSimpleEquations_negateExpression(threadData, _negated, _exp, _exp, _OMC_LIT106);
 
           _v = omc_BackendVariable_getVarAt(threadData, _iVars, _i1);
 
           _replaceable_ = omc_RemoveSimpleEquations_replaceableAlias(threadData, _v, _unReplaceable ,&_replaceble1);
 
-          _dexp = omc_RemoveSimpleEquations_negateExpression(threadData, _negated, _exp, _OMC_LIT113, _OMC_LIT114);
+          _dexp = omc_RemoveSimpleEquations_negateExpression(threadData, _negated, _exp, _OMC_LIT108, _OMC_LIT109);
 
           _vars = omc_RemoveSimpleEquations_handleSetVar(threadData, (_replaceable_ && _replaceble1), mmc_mk_some(_dexp), _v, _i1, _eqnAttributes, _exp1, _iMT, _iVars, _iEqnslst, _ishared, _iRepl ,&_eqnslst ,&_shared ,&_repl);
 
           _expcr = omc_Expression_crefExp(threadData, _cr1);
 
-          _vsattr = omc_RemoveSimpleEquations_addVarSetAttributes(threadData, _v, _negated, _mark, _simpleeqnsarr, _OMC_LIT110);
+          _vsattr = omc_RemoveSimpleEquations_addVarSetAttributes(threadData, _v, _negated, _mark, _simpleeqnsarr, _OMC_LIT105);
 
           _rows = omc_List_removeOnTrue(threadData, mmc_mk_integer(_r), boxvar_intEq, arrayGet(_iMT,_i1) /* DAE.ASUB */);
 
@@ -10981,18 +10933,18 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_handleSet(
 
           _repl = (((_replaceable_ && _constExp) && _replaceble1)?omc_BackendVarTransform_addReplacement(threadData, _iRepl, _cr, _exp, mmc_mk_some(boxvar_BackendVarTransform_skipPreChangeEdgeOperator)):_iRepl);
 
-          _repl = (_isState?omc_BackendVarTransform_addDerConstRepl(threadData, _cr, _OMC_LIT18, _repl):_repl);
+          _repl = (_isState?omc_BackendVarTransform_addDerConstRepl(threadData, _cr, _OMC_LIT19, _repl):_repl);
 
           _exp = omc_Expression_crefExp(threadData, _cr);
 
-          _vsattr = omc_RemoveSimpleEquations_addVarSetAttributes(threadData, _v, 0 /* false */, _mark, _simpleeqnsarr, _OMC_LIT110);
+          _vsattr = omc_RemoveSimpleEquations_addVarSetAttributes(threadData, _v, 0 /* false */, _mark, _simpleeqnsarr, _OMC_LIT105);
 
           _rows = omc_List_removeOnTrue(threadData, mmc_mk_integer(_r), boxvar_intEq, arrayGet(_iMT,_i) /* DAE.ASUB */);
 
           tmpMeta43 = MMC_REFSTRUCTLIT(mmc_nil);
           arrayUpdate(_iMT, _i, tmpMeta43);
 
-          _vars = omc_RemoveSimpleEquations_traverseAliasTree(threadData, _rows, _i, _exp, mmc_mk_none(), 0 /* false */, _OMC_LIT107, _mark, _simpleeqnsarr, _iMT, _unReplaceable, _vars, _eqnslst, _shared, _repl, _vsattr ,&_eqnslst ,&_shared ,&_repl ,&_vsattr);
+          _vars = omc_RemoveSimpleEquations_traverseAliasTree(threadData, _rows, _i, _exp, mmc_mk_none(), 0 /* false */, _OMC_LIT102, _mark, _simpleeqnsarr, _iMT, _unReplaceable, _vars, _eqnslst, _shared, _repl, _vsattr ,&_eqnslst ,&_shared ,&_repl ,&_vsattr);
           tmpMeta[0+0] = _vars;
           tmpMeta[0+1] = _eqnslst;
           tmpMeta[0+2] = _shared;
@@ -11039,7 +10991,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_handleSet(
           _v = tmpMeta52;
           _cr = tmpMeta53;
 
-          _exp = (omc_Types_isRealOrSubTypeReal(threadData, omc_ComponentReference_crefLastType(threadData, _cr))?_OMC_LIT18:_OMC_LIT115);
+          _exp = (omc_Types_isRealOrSubTypeReal(threadData, omc_ComponentReference_crefLastType(threadData, _cr))?_OMC_LIT19:_OMC_LIT11);
 
           _replaceable_ = omc_RemoveSimpleEquations_replaceableAlias(threadData, _v, _unReplaceable ,&_replaceble1);
 
@@ -11049,11 +11001,11 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_handleSet(
 
           _repl = (((_replaceable_ && _constExp) && _replaceble1)?omc_BackendVarTransform_addReplacement(threadData, _iRepl, _cr, _exp, mmc_mk_some(boxvar_BackendVarTransform_skipPreChangeEdgeOperator)):_iRepl);
 
-          _repl = (_isState?omc_BackendVarTransform_addDerConstRepl(threadData, _cr, _OMC_LIT18, _repl):_repl);
+          _repl = (_isState?omc_BackendVarTransform_addDerConstRepl(threadData, _cr, _OMC_LIT19, _repl):_repl);
 
           _exp = omc_Expression_crefExp(threadData, _cr);
 
-          _vsattr = omc_RemoveSimpleEquations_addVarSetAttributes(threadData, _v, 0 /* false */, _mark, _simpleeqnsarr, _OMC_LIT110);
+          _vsattr = omc_RemoveSimpleEquations_addVarSetAttributes(threadData, _v, 0 /* false */, _mark, _simpleeqnsarr, _OMC_LIT105);
 
           _rows = omc_List_removeOnTrue(threadData, mmc_mk_integer(_r), boxvar_intEq, arrayGet(_iMT,_i2) /* DAE.ASUB */);
 
@@ -11064,7 +11016,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_handleSet(
           tmpMeta54 = MMC_REFSTRUCTLIT(mmc_nil);
           arrayUpdate(_iMT, _i, tmpMeta54);
 
-          _vars = omc_RemoveSimpleEquations_traverseAliasTree(threadData, _rows, _i, _exp, mmc_mk_none(), 0 /* false */, _OMC_LIT107, _mark, _simpleeqnsarr, _iMT, _unReplaceable, _vars, _eqnslst, _shared, _repl, _vsattr ,&_eqnslst ,&_shared ,&_repl ,&_vsattr);
+          _vars = omc_RemoveSimpleEquations_traverseAliasTree(threadData, _rows, _i, _exp, mmc_mk_none(), 0 /* false */, _OMC_LIT102, _mark, _simpleeqnsarr, _iMT, _unReplaceable, _vars, _eqnslst, _shared, _repl, _vsattr ,&_eqnslst ,&_shared ,&_repl ,&_vsattr);
           tmpMeta[0+0] = _vars;
           tmpMeta[0+1] = _eqnslst;
           tmpMeta[0+2] = _shared;
@@ -11094,7 +11046,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_handleSet(
 
           _exp = omc_Expression_crefExp(threadData, _cr);
 
-          _vsattr = omc_RemoveSimpleEquations_addVarSetAttributes(threadData, _v, 0 /* false */, _mark, _simpleeqnsarr, _OMC_LIT110);
+          _vsattr = omc_RemoveSimpleEquations_addVarSetAttributes(threadData, _v, 0 /* false */, _mark, _simpleeqnsarr, _OMC_LIT105);
 
           _oexp = omc_RemoveSimpleEquations_varStateDerivative(threadData, _v);
 
@@ -11132,7 +11084,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_handleSet(
 
           _exp = omc_Expression_crefExp(threadData, _cr);
 
-          _vsattr = omc_RemoveSimpleEquations_addVarSetAttributes(threadData, _v, 0 /* false */, _mark, _simpleeqnsarr, _OMC_LIT110);
+          _vsattr = omc_RemoveSimpleEquations_addVarSetAttributes(threadData, _v, 0 /* false */, _mark, _simpleeqnsarr, _OMC_LIT105);
 
           _vars = omc_RemoveSimpleEquations_traverseAliasTree(threadData, arrayGet(_iMT,_i) /* DAE.ASUB */, _i, _exp, mmc_mk_none(), 0 /* false */, mmc_mk_none(), _mark, _simpleeqnsarr, _iMT, _unReplaceable, _iVars, _iEqnslst, _ishared, _iRepl, _vsattr ,&_eqnslst ,&_shared ,&_repl ,&_vsattr);
 
@@ -11170,7 +11122,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_handleSet(
 
           _exp = omc_Expression_crefExp(threadData, _cr);
 
-          _vsattr = omc_RemoveSimpleEquations_addVarSetAttributes(threadData, _v, 0 /* false */, _mark, _simpleeqnsarr, _OMC_LIT110);
+          _vsattr = omc_RemoveSimpleEquations_addVarSetAttributes(threadData, _v, 0 /* false */, _mark, _simpleeqnsarr, _OMC_LIT105);
 
           _vars = omc_RemoveSimpleEquations_traverseAliasTree(threadData, arrayGet(_iMT,_i) /* DAE.ASUB */, _i, _exp, mmc_mk_none(), 0 /* false */, mmc_mk_none(), _mark, _simpleeqnsarr, _iMT, _unReplaceable, _iVars, _iEqnslst, _ishared, _iRepl, _vsattr ,&_eqnslst ,&_shared ,&_repl ,&_vsattr);
 
@@ -11285,7 +11237,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_RemoveSimpleEquations_replaceable
           tmp10 = omc_BackendVariable_varHasUncertainValueRefine(threadData, _var);
           if (0 /* false */ != tmp10) goto goto_2;
 
-          _cr = omc_ComponentReference_crefStripLastSubs(threadData, _cr);
+          _cr = omc_ComponentReferenceBasics_crefStripLastSubs(threadData, _cr);
 
           _b = (!omc_BaseHashSet_has(threadData, _cr, _unReplaceable));
           tmp1_c0 = 1 /* true */;
@@ -12162,8 +12114,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_circularEq
 {
   modelica_metatype _oMsg = NULL;
   modelica_metatype tmpMeta1;
-  modelica_metatype _names = NULL;
-  modelica_metatype _slst = NULL;
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
   modelica_metatype tmpMeta4;
@@ -12174,8 +12124,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_circularEq
   _tailrecursive: OMC_LABEL_UNUSED
   tmpMeta1 = MMC_REFSTRUCTLIT(mmc_nil);
   _oMsg = tmpMeta1;
-  // _names has no default value.
-  // _slst has no default value.
   {
     modelica_metatype _r;
     for (tmpMeta2 = _stack; !listEmpty(tmpMeta2); tmpMeta2=MMC_CDR(tmpMeta2))
@@ -12191,12 +12139,12 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_circularEq
         for (tmpMeta3 = omc_RemoveSimpleEquations_getVarsNames(threadData, arrayGet(_simpleeqnsarr,mmc_unbox_integer(_r)) /* DAE.ASUB */); !listEmpty(tmpMeta3); tmpMeta3=MMC_CDR(tmpMeta3))
         {
           _n = MMC_CAR(tmpMeta3);
-          tmpMeta4 = mmc_mk_cons(omc_ComponentReference_printComponentRefStr(threadData, _n), _oMsg);
+          tmpMeta4 = mmc_mk_cons(omc_ComponentReferenceBasics_printComponentRefStr(threadData, _n), _oMsg);
           _oMsg = tmpMeta4;
         }
       }
 
-      tmpMeta6 = mmc_mk_cons(_OMC_LIT116, _oMsg);
+      tmpMeta6 = mmc_mk_cons(_OMC_LIT110, _oMsg);
       _oMsg = tmpMeta6;
     }
   }
@@ -12229,9 +12177,9 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_RemoveSimpleEquations_circularEqua
   // _msg has no default value.
   _lst = omc_RemoveSimpleEquations_circularEqualityMsg__dispatch(threadData, _stack, _iR, _simpleeqnsarr);
 
-  _msg = stringDelimitList(_lst, _OMC_LIT20);
+  _msg = stringDelimitList(_lst, _OMC_LIT21);
 
-  tmpMeta1 = mmc_mk_cons(_iMsg, mmc_mk_cons(_msg, mmc_mk_cons(_OMC_LIT20, MMC_REFSTRUCTLIT(mmc_nil))));
+  tmpMeta1 = mmc_mk_cons(_iMsg, mmc_mk_cons(_msg, mmc_mk_cons(_OMC_LIT21, MMC_REFSTRUCTLIT(mmc_nil))));
   _msg = stringAppendList(tmpMeta1);
 
   _oMsg = _msg;
@@ -12373,12 +12321,12 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_getAlias1(
           if (1 /* true */ != tmp4_1) goto tmp3_end;
           
           /* Pattern matching succeeded */
-          _msg = _OMC_LIT117;
+          _msg = _OMC_LIT111;
 
           _msg = omc_RemoveSimpleEquations_circularEqualityMsg(threadData, _stack, _currIdx, _containerArr, _msg);
 
           tmpMeta14 = mmc_mk_cons(_msg, MMC_REFSTRUCTLIT(mmc_nil));
-          omc_Error_addMessage(threadData, _OMC_LIT120, tmpMeta14);
+          omc_Error_addMessage(threadData, _OMC_LIT113, tmpMeta14);
           goto goto_2;
           goto tmp3_done;
         }
@@ -12842,7 +12790,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_constOrAli
           if (!omc_Expression_isConstValue(threadData, _exp)) goto tmp3_end;
           if(omc_Flags_isSet(threadData, _OMC_LIT24))
           {
-            omc_BackendDump_debugStrCrefStrExpStr(threadData, _OMC_LIT121, _cr, _OMC_LIT3, _exp, _OMC_LIT122);
+            omc_BackendDump_debugStrCrefStrExpStr(threadData, _OMC_LIT114, _cr, _OMC_LIT3, _exp, _OMC_LIT115);
           }
 
           _colum = arrayGet(_mT,_i) /* DAE.ASUB */;
@@ -12887,11 +12835,11 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_constOrAli
           /* Pattern matching succeeded */
           /* Check guard condition after assignments */
           if (!((!omc_Expression_isImpure(threadData, _exp)) && (!omc_Expression_containsRecordType(threadData, _exp)))) goto tmp3_end;
-          _exp2 = omc_EvaluateFunctions_evaluateConstantFunctionCallExp(threadData, _exp, _functions, 0 /* false */, omc_Flags_getConfigInt(threadData, _OMC_LIT128));
+          _exp2 = omc_EvaluateFunctions_evaluateConstantFunctionCallExp(threadData, _exp, _functions, 0 /* false */, omc_Flags_getConfigInt(threadData, _OMC_LIT120));
 
           if(omc_Flags_isSet(threadData, _OMC_LIT24))
           {
-            omc_BackendDump_debugStrCrefStrExpStr(threadData, _OMC_LIT129, _cr, _OMC_LIT3, _exp, _OMC_LIT122);
+            omc_BackendDump_debugStrCrefStrExpStr(threadData, _OMC_LIT121, _cr, _OMC_LIT3, _exp, _OMC_LIT115);
           }
 
           _colum = arrayGet(_mT,_i) /* DAE.ASUB */;
@@ -12935,7 +12883,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_constOrAli
           if (!((!omc_Expression_isImpure(threadData, _exp)) && (!omc_Expression_containsRecordType(threadData, _exp)))) goto tmp3_end;
           if(omc_Flags_isSet(threadData, _OMC_LIT24))
           {
-            omc_BackendDump_debugStrCrefStrExpStr(threadData, _OMC_LIT130, _cr, _OMC_LIT3, _exp, _OMC_LIT122);
+            omc_BackendDump_debugStrCrefStrExpStr(threadData, _OMC_LIT122, _cr, _OMC_LIT3, _exp, _OMC_LIT115);
           }
 
           _colum = arrayGet(_mT,_i) /* DAE.ASUB */;
@@ -13070,10 +13018,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_constOrAli
   return _outTpl;
 }
 
-static modelica_metatype closure4_ComponentReference_crefPrefixOf(threadData_t *thData, modelica_metatype closure, modelica_metatype fullCref)
+static modelica_metatype closure4_ComponentReferenceBasics_crefPrefixOf(threadData_t *thData, modelica_metatype closure, modelica_metatype fullCref)
 {
   modelica_metatype prefixCref = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(closure),1));
-  return boxptr_ComponentReference_crefPrefixOf(thData, prefixCref, fullCref);
+  return boxptr_ComponentReferenceBasics_crefPrefixOf(thData, prefixCref, fullCref);
 }
 PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_solveTimeIndependentAcausal1(threadData_t *threadData, modelica_metatype _vlst, modelica_metatype _ilst, modelica_metatype _lhs, modelica_metatype _rhs, modelica_metatype _eqnAttributes, modelica_metatype _inTpl)
 {
@@ -13114,11 +13062,11 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_solveTimeI
           _cr = tmpMeta7;
           _crlst = tmpMeta8;
 
-          _cr = omc_ComponentReference_crefStripLastSubs(threadData, _cr);
+          _cr = omc_ComponentReferenceBasics_crefStripLastSubs(threadData, _cr);
 
           /* Pattern-matching assignment */
           tmpMeta9 = mmc_mk_box1(0, _cr);
-          tmp10 = omc_List_all(threadData, _crlst, (modelica_fnptr) mmc_mk_box2(0,closure4_ComponentReference_crefPrefixOf,tmpMeta9));
+          tmp10 = omc_List_all(threadData, _crlst, (modelica_fnptr) mmc_mk_box2(0,closure4_ComponentReferenceBasics_crefPrefixOf,tmpMeta9));
           if (1 /* true */ != tmp10) goto goto_2;
 
           _cre = omc_Expression_crefExp(threadData, _cr);
@@ -13434,7 +13382,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_traversing
           tmpMeta39 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 2));
           if (mmc__uniontype__metarecord__typedef__equal(tmpMeta39,1,1) == 0) goto tmp3_end;
           tmpMeta40 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta39), 2));
-          if (3 != MMC_STRLEN(tmpMeta40) || strcmp(MMC_STRINGDATA(_OMC_LIT58), MMC_STRINGDATA(tmpMeta40)) != 0) goto tmp3_end;
+          if (3 != MMC_STRLEN(tmpMeta40) || strcmp(MMC_STRINGDATA(_OMC_LIT57), MMC_STRINGDATA(tmpMeta40)) != 0) goto tmp3_end;
           tmpMeta41 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_2), 1));
           tmp42 = mmc_unbox_integer(tmpMeta41);
           tmpMeta43 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_2), 2));
@@ -13485,7 +13433,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_traversing
           tmpMeta53 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 2));
           if (mmc__uniontype__metarecord__typedef__equal(tmpMeta53,1,1) == 0) goto tmp3_end;
           tmpMeta54 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta53), 2));
-          if (8 != MMC_STRLEN(tmpMeta54) || strcmp(MMC_STRINGDATA(_OMC_LIT131), MMC_STRINGDATA(tmpMeta54)) != 0) goto tmp3_end;
+          if (8 != MMC_STRLEN(tmpMeta54) || strcmp(MMC_STRINGDATA(_OMC_LIT123), MMC_STRINGDATA(tmpMeta54)) != 0) goto tmp3_end;
           tmpMeta55 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_2), 1));
           tmp56 = mmc_unbox_integer(tmpMeta55);
           tmpMeta57 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_2), 2));
@@ -13536,7 +13484,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_traversing
           tmpMeta67 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 2));
           if (mmc__uniontype__metarecord__typedef__equal(tmpMeta67,1,1) == 0) goto tmp3_end;
           tmpMeta68 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta67), 2));
-          if (6 != MMC_STRLEN(tmpMeta68) || strcmp(MMC_STRINGDATA(_OMC_LIT132), MMC_STRINGDATA(tmpMeta68)) != 0) goto tmp3_end;
+          if (6 != MMC_STRLEN(tmpMeta68) || strcmp(MMC_STRINGDATA(_OMC_LIT124), MMC_STRINGDATA(tmpMeta68)) != 0) goto tmp3_end;
           tmpMeta69 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_2), 1));
           tmp70 = mmc_unbox_integer(tmpMeta69);
           tmpMeta71 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_2), 2));
@@ -13587,7 +13535,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_traversing
           tmpMeta81 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 2));
           if (mmc__uniontype__metarecord__typedef__equal(tmpMeta81,1,1) == 0) goto tmp3_end;
           tmpMeta82 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta81), 2));
-          if (4 != MMC_STRLEN(tmpMeta82) || strcmp(MMC_STRINGDATA(_OMC_LIT133), MMC_STRINGDATA(tmpMeta82)) != 0) goto tmp3_end;
+          if (4 != MMC_STRLEN(tmpMeta82) || strcmp(MMC_STRINGDATA(_OMC_LIT125), MMC_STRINGDATA(tmpMeta82)) != 0) goto tmp3_end;
           tmpMeta83 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_2), 1));
           tmp84 = mmc_unbox_integer(tmpMeta83);
           tmpMeta85 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_2), 2));
@@ -14042,19 +13990,19 @@ PROTECTED_FUNCTION_STATIC void omc_RemoveSimpleEquations_checkEqualAlias(threadD
 
           _crexp2 = omc_Expression_crefExp(threadData, _cr2);
 
-          _crexp1 = omc_RemoveSimpleEquations_negateExpression(threadData, _negatedCr1, _crexp1, _crexp1, _OMC_LIT134);
+          _crexp1 = omc_RemoveSimpleEquations_negateExpression(threadData, _negatedCr1, _crexp1, _crexp1, _OMC_LIT126);
 
-          _crexp2 = omc_RemoveSimpleEquations_negateExpression(threadData, _negatedCr2, _crexp2, _crexp2, _OMC_LIT134);
+          _crexp2 = omc_RemoveSimpleEquations_negateExpression(threadData, _negatedCr2, _crexp2, _crexp2, _OMC_LIT126);
 
-          tmpMeta8 = stringAppend(omc_ExpressionDump_printExpStr(threadData, _crexp1),_OMC_LIT3);
-          tmpMeta9 = stringAppend(tmpMeta8,omc_ExpressionDump_printExpStr(threadData, _crexp2));
-          tmpMeta10 = stringAppend(tmpMeta9,_OMC_LIT20);
+          tmpMeta8 = stringAppend(omc_ExpressionBasics_printExpStr(threadData, _crexp1),_OMC_LIT3);
+          tmpMeta9 = stringAppend(tmpMeta8,omc_ExpressionBasics_printExpStr(threadData, _crexp2));
+          tmpMeta10 = stringAppend(tmpMeta9,_OMC_LIT21);
           _eqn_str = tmpMeta10;
 
           _info = omc_ElementSource_getElementSourceFileInfo(threadData, _source);
 
           tmpMeta11 = mmc_mk_cons(_eqn_str, mmc_mk_cons(_var_str, MMC_REFSTRUCTLIT(mmc_nil)));
-          omc_Error_addSourceMessage(threadData, _OMC_LIT137, tmpMeta11, _info);
+          omc_Error_addSourceMessage(threadData, _OMC_LIT128, tmpMeta11, _info);
           goto goto_1;
           goto tmp2_done;
         }
@@ -14231,16 +14179,16 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_generateSi
 
           _crexp2 = omc_Expression_crefExp(threadData, _cr2);
 
-          _crexp1 = omc_RemoveSimpleEquations_negateExpression(threadData, _negatedCr1, _crexp1, _crexp1, _OMC_LIT138);
+          _crexp1 = omc_RemoveSimpleEquations_negateExpression(threadData, _negatedCr1, _crexp1, _crexp1, _OMC_LIT129);
 
-          _crexp2 = omc_RemoveSimpleEquations_negateExpression(threadData, _negatedCr2, _crexp2, _crexp2, _OMC_LIT138);
+          _crexp2 = omc_RemoveSimpleEquations_negateExpression(threadData, _negatedCr2, _crexp2, _crexp2, _OMC_LIT129);
 
-          _lhs = omc_ExpressionDump_printExpStr(threadData, _crexp1);
+          _lhs = omc_ExpressionBasics_printExpStr(threadData, _crexp1);
 
-          _rhs = omc_ExpressionDump_printExpStr(threadData, _crexp2);
+          _rhs = omc_ExpressionBasics_printExpStr(threadData, _crexp2);
 
           tmpMeta25 = mmc_mk_cons(_lhs, mmc_mk_cons(_rhs, MMC_REFSTRUCTLIT(mmc_nil)));
-          omc_Error_addSourceMessage(threadData, _OMC_LIT105, tmpMeta25, omc_ElementSource_getElementSourceFileInfo(threadData, _source));
+          omc_Error_addSourceMessage(threadData, _OMC_LIT100, tmpMeta25, omc_ElementSource_getElementSourceFileInfo(threadData, _source));
           goto goto_2;
           goto tmp3_done;
         }
@@ -14790,11 +14738,11 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_addSimpleE
           /* Pattern matching succeeded */
           if(omc_Flags_isSet(threadData, _OMC_LIT24))
           {
-            tmpMeta13 = stringAppend(_OMC_LIT140,(_negatedCr1?_OMC_LIT141:_OMC_LIT142));
-            tmpMeta14 = stringAppend(tmpMeta13,_OMC_LIT143);
-            tmpMeta15 = stringAppend(tmpMeta14,(_negatedCr2?_OMC_LIT141:_OMC_LIT142));
-            tmpMeta16 = stringAppend(tmpMeta15,_OMC_LIT144);
-            omc_BackendDump_debugStrCrefStrCrefStr(threadData, _OMC_LIT139, _cr1, _OMC_LIT3, _cr2, tmpMeta16);
+            tmpMeta13 = stringAppend(_OMC_LIT131,(_negatedCr1?_OMC_LIT132:_OMC_LIT133));
+            tmpMeta14 = stringAppend(tmpMeta13,_OMC_LIT134);
+            tmpMeta15 = stringAppend(tmpMeta14,(_negatedCr2?_OMC_LIT132:_OMC_LIT133));
+            tmpMeta16 = stringAppend(tmpMeta15,_OMC_LIT135);
+            omc_BackendDump_debugStrCrefStrCrefStr(threadData, _OMC_LIT130, _cr1, _OMC_LIT3, _cr2, tmpMeta16);
           }
 
           _vars1 = omc_RemoveSimpleEquations_getVars(threadData, _cr1, _vars, _shared ,&_ilst1 ,&_varskn1 ,&_time1);
@@ -14816,7 +14764,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_addSimpleE
           /* Pattern matching succeeded */
           if(omc_Flags_isSet(threadData, _OMC_LIT24))
           {
-            omc_BackendDump_debugStrExpStrExpStr(threadData, _OMC_LIT145, _inE1, _OMC_LIT3, _inE2, _OMC_LIT146);
+            omc_BackendDump_debugStrExpStrExpStr(threadData, _OMC_LIT136, _inE1, _OMC_LIT3, _inE2, _OMC_LIT137);
           }
 
           _e1 = omc_Expression_crefExp(threadData, _cr1);
@@ -15594,13 +15542,13 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_generateEq
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp49 = omc_Flags_isSet(threadData, _OMC_LIT150);
+          tmp49 = omc_Flags_isSet(threadData, _OMC_LIT140);
           if (1 /* true */ != tmp49) goto goto_2;
 
-          tmpMeta50 = stringAppend(_OMC_LIT151,omc_ExpressionDump_printExpStr(threadData, _lhs));
+          tmpMeta50 = stringAppend(_OMC_LIT141,omc_ExpressionBasics_printExpStr(threadData, _lhs));
           tmpMeta51 = stringAppend(tmpMeta50,_OMC_LIT3);
-          tmpMeta52 = stringAppend(tmpMeta51,omc_ExpressionDump_printExpStr(threadData, _rhs));
-          tmpMeta53 = stringAppend(tmpMeta52,_OMC_LIT20);
+          tmpMeta52 = stringAppend(tmpMeta51,omc_ExpressionBasics_printExpStr(threadData, _rhs));
+          tmpMeta53 = stringAppend(tmpMeta52,_OMC_LIT21);
           omc_Debug_traceln(threadData, tmpMeta53);
           goto goto_2;
           goto tmp3_done;
@@ -15851,9 +15799,9 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_simpleArra
           continue;
         }
 
-        tmpMeta6 = mmc_mk_box5(5, &BackendDAE_WhenOperator_ASSERT__desc, _OMC_LIT152, _OMC_LIT154, _OMC_LIT159, _source);
+        tmpMeta6 = mmc_mk_box5(5, &BackendDAE_WhenOperator_ASSERT__desc, _OMC_LIT142, _OMC_LIT144, _OMC_LIT149, _source);
         tmpMeta5 = mmc_mk_cons(tmpMeta6, MMC_REFSTRUCTLIT(mmc_nil));
-        tmpMeta7 = mmc_mk_box4(3, &BackendDAE_WhenEquation_WHEN__STMTS__desc, _OMC_LIT152, tmpMeta5, mmc_mk_none());
+        tmpMeta7 = mmc_mk_box4(3, &BackendDAE_WhenEquation_WHEN__STMTS__desc, _OMC_LIT142, tmpMeta5, mmc_mk_none());
         tmpMeta8 = mmc_mk_box5(8, &BackendDAE_Equation_WHEN__EQUATION__desc, mmc_mk_integer(((modelica_integer) 0)), tmpMeta7, _source, _attr);
         _eq = tmpMeta8;
 
@@ -16809,7 +16757,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_simpleEqua
           tmp4 += 4; /* Pattern matching succeeded; we may skip some cases if we fail */
           if(omc_Flags_isSet(threadData, _OMC_LIT24))
           {
-            omc_BackendDump_debugStrExpStrExpStr(threadData, _OMC_LIT160, _e1, _OMC_LIT3, _e2, _OMC_LIT161);
+            omc_BackendDump_debugStrExpStrExpStr(threadData, _OMC_LIT150, _e1, _OMC_LIT3, _e2, _OMC_LIT151);
           }
           tmpMeta10 = mmc_mk_box2(0, _source, _eqAttr);
           tmpMeta1 = omc_RemoveSimpleEquations_simpleEquationAcausal(threadData, _e1, _e2, tmpMeta10, 0 /* false */, _inTpl);
@@ -16834,7 +16782,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_simpleEqua
           tmp4 += 3; /* Pattern matching succeeded; we may skip some cases if we fail */
           if(omc_Flags_isSet(threadData, _OMC_LIT24))
           {
-            omc_BackendDump_debugStrExpStrExpStr(threadData, _OMC_LIT162, _e1, _OMC_LIT3, _e2, _OMC_LIT161);
+            omc_BackendDump_debugStrExpStrExpStr(threadData, _OMC_LIT152, _e1, _OMC_LIT3, _e2, _OMC_LIT151);
           }
           tmpMeta15 = mmc_mk_box2(0, _source, _eqAttr);
           tmpMeta1 = omc_RemoveSimpleEquations_simpleArrayEquationAcausal(threadData, _e1, _e2, omc_Expression_typeof(threadData, _e1), tmpMeta15, _inTpl);
@@ -16861,7 +16809,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_simpleEqua
 
           if(omc_Flags_isSet(threadData, _OMC_LIT24))
           {
-            omc_BackendDump_debugStrExpStrExpStr(threadData, _OMC_LIT163, _e1, _OMC_LIT3, _e2, _OMC_LIT161);
+            omc_BackendDump_debugStrExpStrExpStr(threadData, _OMC_LIT153, _e1, _OMC_LIT3, _e2, _OMC_LIT151);
           }
           tmpMeta20 = mmc_mk_box2(0, _source, _eqAttr);
           tmpMeta1 = omc_RemoveSimpleEquations_simpleEquationAcausal(threadData, _e1, _e2, tmpMeta20, 0 /* false */, _inTpl);
@@ -16883,7 +16831,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_simpleEqua
           tmp4 += 1; /* Pattern matching succeeded; we may skip some cases if we fail */
           if(omc_Flags_isSet(threadData, _OMC_LIT24))
           {
-            omc_BackendDump_debugStrExpStr(threadData, _OMC_LIT164, _e1, _OMC_LIT161);
+            omc_BackendDump_debugStrExpStr(threadData, _OMC_LIT154, _e1, _OMC_LIT151);
           }
           tmpMeta24 = mmc_mk_box2(0, _source, _eqAttr);
           tmpMeta1 = omc_RemoveSimpleEquations_simpleExpressionAcausal(threadData, _e1, tmpMeta24, 0 /* false */, _inTpl);
@@ -16908,7 +16856,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_simpleEqua
           /* Pattern matching succeeded */
           if(omc_Flags_isSet(threadData, _OMC_LIT24))
           {
-            omc_BackendDump_debugStrExpStrExpStr(threadData, _OMC_LIT165, _e1, _OMC_LIT3, _e2, _OMC_LIT161);
+            omc_BackendDump_debugStrExpStrExpStr(threadData, _OMC_LIT155, _e1, _OMC_LIT3, _e2, _OMC_LIT151);
           }
           tmpMeta29 = mmc_mk_box2(0, _source, _eqAttr);
           tmpMeta1 = omc_RemoveSimpleEquations_simpleEquationAcausal(threadData, _e1, _e2, tmpMeta29, 0 /* false */, _inTpl);
@@ -17668,7 +17616,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_causal1(th
   modelica_boolean _warnAliasConflicts;
   modelica_metatype _mT = NULL;
   modelica_metatype _eqnslst = NULL;
-  modelica_metatype _syst = NULL;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
@@ -17710,7 +17657,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_causal1(th
   // _warnAliasConflicts has no default value.
   // _mT has no default value.
   // _eqnslst has no default value.
-  // _syst has no default value.
   if(omc_BackendDAEUtil_isClockedSyst(threadData, _inSystem))
   {
     _outSystem = _inSystem;
@@ -17829,9 +17775,9 @@ modelica_metatype omc_RemoveSimpleEquations_causal(threadData_t *threadData, mod
 
   _unReplaceable = omc_RemoveSimpleEquations_addUnreplaceableFromStateSets(threadData, _inDAE, _unReplaceable);
 
-  if(omc_Flags_isSet(threadData, _OMC_LIT52))
+  if(omc_Flags_isSet(threadData, _OMC_LIT51))
   {
-    omc_BackendDump_dumpHashSet(threadData, _unReplaceable, _OMC_LIT166);
+    omc_BackendDump_dumpHashSet(threadData, _unReplaceable, _OMC_LIT156);
   }
 
   /* Pattern-matching tuple assignment */
@@ -17850,7 +17796,7 @@ modelica_metatype omc_RemoveSimpleEquations_causal(threadData_t *threadData, mod
   if((_warnAliasConflicts && omc_BackendDAEUtil_isSimulationDAE(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inDAE), 3))))))
   {
     tmpMeta12 = MMC_REFSTRUCTLIT(mmc_nil);
-    omc_Error_addMessage(threadData, _OMC_LIT169, tmpMeta12);
+    omc_Error_addMessage(threadData, _OMC_LIT158, tmpMeta12);
   }
 
   _outDAE = omc_RemoveSimpleEquations_removeSimpleEquationsShared(threadData, _b, _outDAE, _repl);
@@ -17872,7 +17818,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_allAcausal
   modelica_boolean _warnAliasConflicts;
   modelica_metatype _mT = NULL;
   modelica_metatype _eqnslst = NULL;
-  modelica_metatype _syst = NULL;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
   modelica_metatype tmpMeta3;
@@ -17911,7 +17856,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_allAcausal
   // _warnAliasConflicts has no default value.
   // _mT has no default value.
   // _eqnslst has no default value.
-  // _syst has no default value.
   if(omc_BackendDAEUtil_isClockedSyst(threadData, _inSystem))
   {
     _outSystem = _inSystem;
@@ -18026,9 +17970,9 @@ modelica_metatype omc_RemoveSimpleEquations_allAcausal(threadData_t *threadData,
 
   _unReplaceable = omc_RemoveSimpleEquations_addUnreplaceableFromWhens(threadData, _inDAE, _unReplaceable);
 
-  if(omc_Flags_isSet(threadData, _OMC_LIT52))
+  if(omc_Flags_isSet(threadData, _OMC_LIT51))
   {
-    omc_BackendDump_dumpHashSet(threadData, _unReplaceable, _OMC_LIT166);
+    omc_BackendDump_dumpHashSet(threadData, _unReplaceable, _OMC_LIT156);
   }
 
   /* Pattern-matching tuple assignment */
@@ -18047,7 +17991,7 @@ modelica_metatype omc_RemoveSimpleEquations_allAcausal(threadData_t *threadData,
   if((_warnAliasConflicts && omc_BackendDAEUtil_isSimulationDAE(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inDAE), 3))))))
   {
     tmpMeta12 = MMC_REFSTRUCTLIT(mmc_nil);
-    omc_Error_addMessage(threadData, _OMC_LIT169, tmpMeta12);
+    omc_Error_addMessage(threadData, _OMC_LIT158, tmpMeta12);
   }
 
   _outDAE = omc_RemoveSimpleEquations_removeSimpleEquationsShared(threadData, _b, _outDAE, _repl);
@@ -18551,13 +18495,13 @@ modelica_metatype omc_RemoveSimpleEquations_fastAcausal(threadData_t *threadData
 
   _unReplaceable = omc_RemoveSimpleEquations_addUnreplaceableFromWhens(threadData, _inDAE, _unReplaceable);
 
-  if(omc_Flags_isSet(threadData, _OMC_LIT52))
+  if(omc_Flags_isSet(threadData, _OMC_LIT51))
   {
-    omc_BackendDump_dumpHashSet(threadData, _unReplaceable, _OMC_LIT166);
+    omc_BackendDump_dumpHashSet(threadData, _unReplaceable, _OMC_LIT156);
   }
 
   /* Pattern-matching tuple assignment */
-  tmpMeta10 = mmc_mk_box5(0, _repl, mmc_mk_boolean(0 /* false */), _unReplaceable, mmc_mk_integer(omc_Flags_getConfigInt(threadData, _OMC_LIT174)), mmc_mk_boolean(0 /* false */));
+  tmpMeta10 = mmc_mk_box5(0, _repl, mmc_mk_boolean(0 /* false */), _unReplaceable, mmc_mk_integer(omc_Flags_getConfigInt(threadData, _OMC_LIT162)), mmc_mk_boolean(0 /* false */));
   tmpMeta11 = omc_BackendDAEUtil_mapEqSystemAndFold(threadData, _inDAE, boxvar_RemoveSimpleEquations_fastAcausal1, tmpMeta10, &tmpMeta4);
   _outDAE = tmpMeta11;
   tmpMeta5 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta4), 1));
@@ -18572,7 +18516,7 @@ modelica_metatype omc_RemoveSimpleEquations_fastAcausal(threadData_t *threadData
   if((_warnAliasConflicts && omc_BackendDAEUtil_isSimulationDAE(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inDAE), 3))))))
   {
     tmpMeta12 = MMC_REFSTRUCTLIT(mmc_nil);
-    omc_Error_addMessage(threadData, _OMC_LIT169, tmpMeta12);
+    omc_Error_addMessage(threadData, _OMC_LIT158, tmpMeta12);
   }
 
   _outDAE = omc_RemoveSimpleEquations_removeSimpleEquationsShared(threadData, _b, _outDAE, _repl);
@@ -18636,7 +18580,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_fixKnownVa
 
           _var = omc_BackendVariable_setBindExp(threadData, _inVar, mmc_mk_none());
 
-          tmpMeta6 = mmc_mk_box5(3, &BackendDAE_Equation_EQUATION__desc, omc_BackendVariable_varExp(threadData, _var), _binding, _OMC_LIT14, _OMC_LIT17);
+          tmpMeta6 = mmc_mk_box5(3, &BackendDAE_Equation_EQUATION__desc, omc_BackendVariable_varExp(threadData, _var), _binding, _OMC_LIT15, _OMC_LIT18);
           _eqn = tmpMeta6;
 
           {
@@ -18679,7 +18623,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_fixKnownVa
             tmpMeta16 = mmc_mk_cons(_var, MMC_REFSTRUCTLIT(mmc_nil));
             tmpMeta17 = mmc_mk_cons(_eqn, MMC_REFSTRUCTLIT(mmc_nil));
             tmpMeta18 = MMC_REFSTRUCTLIT(mmc_nil);
-            tmpMeta15 = mmc_mk_cons(omc_BackendDAEUtil_createEqSystem(threadData, omc_BackendVariable_listVar(threadData, tmpMeta16), omc_BackendEquation_listEquation(threadData, tmpMeta17), tmpMeta18, _OMC_LIT175, omc_BackendEquation_emptyEqns(threadData)), _eqs1);
+            tmpMeta15 = mmc_mk_cons(omc_BackendDAEUtil_createEqSystem(threadData, omc_BackendVariable_listVar(threadData, tmpMeta16), omc_BackendEquation_listEquation(threadData, tmpMeta17), tmpMeta18, _OMC_LIT163, omc_BackendEquation_emptyEqns(threadData)), _eqs1);
             _eqs1 = tmpMeta15;
           }
 
@@ -18691,9 +18635,9 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_fixKnownVa
           modelica_metatype tmpMeta20;
           /* Pattern matching succeeded */
           tmpMeta20 = mmc_mk_cons(_inVar, MMC_REFSTRUCTLIT(mmc_nil));
-          omc_BackendDump_dumpVarList(threadData, tmpMeta20, _OMC_LIT176);
+          omc_BackendDump_dumpVarList(threadData, tmpMeta20, _OMC_LIT164);
 
-          omc_Error_addCompilerError(threadData, _OMC_LIT177);
+          omc_Error_addCompilerError(threadData, _OMC_LIT165);
 
           goto goto_2;
           goto tmp3_done;
@@ -18793,7 +18737,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_fixAliasVa
 
           _var = omc_BackendVariable_setVarFixed(threadData, _var, 0 /* false */);
 
-          tmpMeta9 = mmc_mk_box5(3, &BackendDAE_Equation_EQUATION__desc, omc_BackendVariable_varExp(threadData, _var), _binding, _OMC_LIT14, _OMC_LIT17);
+          tmpMeta9 = mmc_mk_box5(3, &BackendDAE_Equation_EQUATION__desc, omc_BackendVariable_varExp(threadData, _var), _binding, _OMC_LIT15, _OMC_LIT18);
           _eqn = tmpMeta9;
 
           {
@@ -18836,7 +18780,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_fixAliasVa
             tmpMeta19 = mmc_mk_cons(_var, MMC_REFSTRUCTLIT(mmc_nil));
             tmpMeta20 = mmc_mk_cons(_eqn, MMC_REFSTRUCTLIT(mmc_nil));
             tmpMeta21 = MMC_REFSTRUCTLIT(mmc_nil);
-            tmpMeta18 = mmc_mk_cons(omc_BackendDAEUtil_createEqSystem(threadData, omc_BackendVariable_listVar(threadData, tmpMeta19), omc_BackendEquation_listEquation(threadData, tmpMeta20), tmpMeta21, _OMC_LIT175, omc_BackendEquation_emptyEqns(threadData)), _eqs1);
+            tmpMeta18 = mmc_mk_cons(omc_BackendDAEUtil_createEqSystem(threadData, omc_BackendVariable_listVar(threadData, tmpMeta19), omc_BackendEquation_listEquation(threadData, tmpMeta20), tmpMeta21, _OMC_LIT163, omc_BackendEquation_emptyEqns(threadData)), _eqs1);
             _eqs1 = tmpMeta18;
           }
 
@@ -18848,9 +18792,9 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_fixAliasVa
           modelica_metatype tmpMeta23;
           /* Pattern matching succeeded */
           tmpMeta23 = mmc_mk_cons(_inVar, MMC_REFSTRUCTLIT(mmc_nil));
-          omc_BackendDump_dumpVarList(threadData, tmpMeta23, _OMC_LIT178);
+          omc_BackendDump_dumpVarList(threadData, tmpMeta23, _OMC_LIT166);
 
-          omc_Error_addCompilerError(threadData, _OMC_LIT179);
+          omc_Error_addCompilerError(threadData, _OMC_LIT167);
 
           goto goto_2;
           goto tmp3_done;
@@ -19017,7 +18961,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_fixKnownVa
           tmpMeta6 = mmc_mk_cons(omc_BackendVariable_setBindExp(threadData, _var, mmc_mk_none()), _varList);
           _varList = tmpMeta6;
 
-          tmpMeta8 = mmc_mk_box5(3, &BackendDAE_Equation_EQUATION__desc, omc_BackendVariable_varExp(threadData, _var), _binding, _OMC_LIT14, _OMC_LIT17);
+          tmpMeta8 = mmc_mk_box5(3, &BackendDAE_Equation_EQUATION__desc, omc_BackendVariable_varExp(threadData, _var), _binding, _OMC_LIT15, _OMC_LIT18);
           tmpMeta7 = mmc_mk_cons(tmpMeta8, _eqnList);
           _eqnList = tmpMeta7;
         }
@@ -19038,7 +18982,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_RemoveSimpleEquations_fixKnownVa
   if((!listEmpty(_varList)))
   {
     tmpMeta12 = MMC_REFSTRUCTLIT(mmc_nil);
-    _eqs = omc_BackendDAEUtil_createEqSystem(threadData, omc_BackendVariable_listVar(threadData, _varList), omc_BackendEquation_listEquation(threadData, _eqnList), tmpMeta12, _OMC_LIT175, omc_BackendEquation_emptyEqns(threadData));
+    _eqs = omc_BackendDAEUtil_createEqSystem(threadData, omc_BackendVariable_listVar(threadData, _varList), omc_BackendEquation_listEquation(threadData, _eqnList), tmpMeta12, _OMC_LIT163, omc_BackendEquation_emptyEqns(threadData));
 
     tmpMeta14 = mmc_mk_cons(_eqs, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_dae), 2))));
     tmpMeta13 = MMC_TAGPTR(mmc_alloc_words(4));
@@ -19199,7 +19143,7 @@ modelica_metatype omc_RemoveSimpleEquations_fixAliasVarsVariablity(threadData_t 
   tmpMeta2 = MMC_REFSTRUCTLIT(mmc_nil);
   _aliasVarList = tmpMeta2;
   // _tempvar has no default value.
-  if((!omc_Flags_getConfigBool(threadData, _OMC_LIT184)))
+  if((!omc_Flags_getConfigBool(threadData, _OMC_LIT171)))
   {
     _outDAE = _inDAE;
 
@@ -19253,7 +19197,7 @@ modelica_metatype omc_RemoveSimpleEquations_fixAliasVarsVariablity(threadData_t 
 
       if(_const)
       {
-        _tempvar = omc_BackendVariable_setVarKind(threadData, _var, _OMC_LIT186);
+        _tempvar = omc_BackendVariable_setVarKind(threadData, _var, _OMC_LIT173);
 
         tmpMeta7 = mmc_mk_cons(omc_BackendVariable_setVarFixed(threadData, _tempvar, 1 /* true */), _knownVarList);
         _knownVarList = tmpMeta7;
@@ -19262,7 +19206,7 @@ modelica_metatype omc_RemoveSimpleEquations_fixAliasVarsVariablity(threadData_t 
       {
         if(_paramOrConst)
         {
-          _tempvar = omc_BackendVariable_setVarKind(threadData, _var, _OMC_LIT185);
+          _tempvar = omc_BackendVariable_setVarKind(threadData, _var, _OMC_LIT172);
 
           tmpMeta8 = mmc_mk_cons(omc_BackendVariable_setVarFixed(threadData, _tempvar, 1 /* true */), _knownVarList);
           _knownVarList = tmpMeta8;
@@ -19294,7 +19238,7 @@ modelica_metatype omc_RemoveSimpleEquations_removeVerySimpleEquations(threadData
   // _outDAE has no default value.
   if(omc_BackendDAEUtil_hasDAEMatching(threadData, _inDAE))
   {
-    omc_Error_addInternalError(threadData, _OMC_LIT187, _OMC_LIT189);
+    omc_Error_addInternalError(threadData, _OMC_LIT174, _OMC_LIT176);
 
     _outDAE = _inDAE;
   }
@@ -19319,7 +19263,7 @@ modelica_metatype omc_RemoveSimpleEquations_removeSimpleEquations(threadData_t *
   {
     { /* match expression */
       modelica_string tmp4_1;
-      tmp4_1 = omc_Flags_getConfigString(threadData, _OMC_LIT226);
+      tmp4_1 = omc_Flags_getConfigString(threadData, _OMC_LIT206);
       {
         volatile mmc_switch_type tmp4;
         int tmp5;
@@ -19327,19 +19271,19 @@ modelica_metatype omc_RemoveSimpleEquations_removeSimpleEquations(threadData_t *
         for (; tmp4 < 4; tmp4++) {
           switch (MMC_SWITCH_CAST(tmp4)) {
           case 0: {
-            if (7 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT191), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
+            if (7 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT178), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
             /* Pattern matching succeeded */
             tmpMeta1 = omc_RemoveSimpleEquations_causal(threadData, _inDAE);
             goto tmp3_done;
           }
           case 1: {
-            if (6 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT200), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
+            if (6 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT185), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
             /* Pattern matching succeeded */
             tmpMeta1 = omc_RemoveSimpleEquations_causal(threadData, _inDAE);
             goto tmp3_done;
           }
           case 2: {
-            if (3 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT212), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
+            if (3 != MMC_STRLEN(tmp4_1) || strcmp(MMC_STRINGDATA(_OMC_LIT194), MMC_STRINGDATA(tmp4_1)) != 0) goto tmp3_end;
             /* Pattern matching succeeded */
             tmpMeta1 = omc_RemoveSimpleEquations_performAliasEliminationBB(threadData, _inDAE, 1 /* true */);
             goto tmp3_done;
@@ -19373,7 +19317,7 @@ modelica_metatype omc_RemoveSimpleEquations_removeSimpleEquations(threadData_t *
   {
     { /* match expression */
       modelica_string tmp9_1;
-      tmp9_1 = omc_Flags_getConfigString(threadData, _OMC_LIT226);
+      tmp9_1 = omc_Flags_getConfigString(threadData, _OMC_LIT206);
       {
         volatile mmc_switch_type tmp9;
         int tmp10;
@@ -19381,25 +19325,25 @@ modelica_metatype omc_RemoveSimpleEquations_removeSimpleEquations(threadData_t *
         for (; tmp9 < 5; tmp9++) {
           switch (MMC_SWITCH_CAST(tmp9)) {
           case 0: {
-            if (7 != MMC_STRLEN(tmp9_1) || strcmp(MMC_STRINGDATA(_OMC_LIT191), MMC_STRINGDATA(tmp9_1)) != 0) goto tmp8_end;
+            if (7 != MMC_STRLEN(tmp9_1) || strcmp(MMC_STRINGDATA(_OMC_LIT178), MMC_STRINGDATA(tmp9_1)) != 0) goto tmp8_end;
             /* Pattern matching succeeded */
             tmpMeta6 = omc_RemoveSimpleEquations_fastAcausal(threadData, _inDAE);
             goto tmp8_done;
           }
           case 1: {
-            if (11 != MMC_STRLEN(tmp9_1) || strcmp(MMC_STRINGDATA(_OMC_LIT204), MMC_STRINGDATA(tmp9_1)) != 0) goto tmp8_end;
+            if (11 != MMC_STRLEN(tmp9_1) || strcmp(MMC_STRINGDATA(_OMC_LIT188), MMC_STRINGDATA(tmp9_1)) != 0) goto tmp8_end;
             /* Pattern matching succeeded */
             tmpMeta6 = omc_RemoveSimpleEquations_fastAcausal(threadData, _inDAE);
             goto tmp8_done;
           }
           case 2: {
-            if (10 != MMC_STRLEN(tmp9_1) || strcmp(MMC_STRINGDATA(_OMC_LIT208), MMC_STRINGDATA(tmp9_1)) != 0) goto tmp8_end;
+            if (10 != MMC_STRLEN(tmp9_1) || strcmp(MMC_STRINGDATA(_OMC_LIT191), MMC_STRINGDATA(tmp9_1)) != 0) goto tmp8_end;
             /* Pattern matching succeeded */
             tmpMeta6 = omc_RemoveSimpleEquations_allAcausal(threadData, _inDAE);
             goto tmp8_done;
           }
           case 3: {
-            if (3 != MMC_STRLEN(tmp9_1) || strcmp(MMC_STRINGDATA(_OMC_LIT212), MMC_STRINGDATA(tmp9_1)) != 0) goto tmp8_end;
+            if (3 != MMC_STRLEN(tmp9_1) || strcmp(MMC_STRINGDATA(_OMC_LIT194), MMC_STRINGDATA(tmp9_1)) != 0) goto tmp8_end;
             /* Pattern matching succeeded */
             tmpMeta6 = omc_RemoveSimpleEquations_performAliasEliminationBB(threadData, _inDAE, 1 /* true */);
             goto tmp8_done;

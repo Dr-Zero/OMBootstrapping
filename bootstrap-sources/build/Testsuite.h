@@ -16,8 +16,6 @@ extern struct record_description Flags_FlagData_STRING__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_INTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 
 DLLDirection
 modelica_string omc_Testsuite_friendlyPath(threadData_t *threadData, modelica_string _inPath);

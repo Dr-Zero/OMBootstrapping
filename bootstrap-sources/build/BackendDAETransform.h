@@ -54,6 +54,8 @@ extern struct record_description BackendDAE_StrongComponent_SINGLEIFEQUATION__de
 
 extern struct record_description BackendDAE_StrongComponent_SINGLEWHENEQUATION__desc;
 
+extern struct record_description BackendDAE_Var_VAR__desc;
+
 extern struct record_description BackendDAE_VarKind_STATE__DER__desc;
 
 extern struct record_description BackendDAE_WhenEquation_WHEN__STMTS__desc;
@@ -81,8 +83,6 @@ extern struct record_description ErrorTypes_Severity_ERROR__desc;
 extern struct record_description ErrorTypes_Severity_WARNING__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 

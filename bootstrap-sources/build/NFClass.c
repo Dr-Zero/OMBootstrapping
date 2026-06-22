@@ -1,6 +1,6 @@
 #include "omc_simulation_settings.h"
 #include "NFClass.h"
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT0,4,3) {&BaseModelica_OutputFormat_OUTPUT__FORMAT__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(2)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */))}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT0,5,3) {&BaseModelica_OutputFormat_OUTPUT__FORMAT__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(2)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */))}};
 #define _OMC_LIT0 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT0)
 #define _OMC_LIT1_data ""
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT1,0,_OMC_LIT1_data);
@@ -69,19 +69,19 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT25,10,3) {&NFAttributes_ATTRIBUTES_
 #define _OMC_LIT26_data "NFClass.mergeModifier got non-modifiable class"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT26,46,_OMC_LIT26_data);
 #define _OMC_LIT26 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT26)
-#define _OMC_LIT27_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/NFFrontEnd/NFClass.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT27,74,_OMC_LIT27_data);
+#define _OMC_LIT27_data "/projects/OpenModelica-session2/OMCompiler/Compiler/NFFrontEnd/NFClass.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT27,73,_OMC_LIT27_data);
 #define _OMC_LIT27 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT27)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT28_6,1.770032059e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT28_6,1.782113391e9);
 #define _OMC_LIT28_6 MMC_REFREALLIT(_OMC_LIT_STRUCT28_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT28,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT27,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(469)),MMC_IMMEDIATE(MMC_TAGFIXNUM(11)),MMC_IMMEDIATE(MMC_TAGFIXNUM(469)),MMC_IMMEDIATE(MMC_TAGFIXNUM(96)),_OMC_LIT28_6}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT28,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT27,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(476)),MMC_IMMEDIATE(MMC_TAGFIXNUM(11)),MMC_IMMEDIATE(MMC_TAGFIXNUM(476)),MMC_IMMEDIATE(MMC_TAGFIXNUM(89)),_OMC_LIT28_6}};
 #define _OMC_LIT28 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT28)
 #define _OMC_LIT29_data "NFClass.setModifier got non-modifiable class"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT29,44,_OMC_LIT29_data);
 #define _OMC_LIT29 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT29)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT30_6,1.770032059e9);
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT30_6,1.782113391e9);
 #define _OMC_LIT30_6 MMC_REFREALLIT(_OMC_LIT_STRUCT30_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT30,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT27,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(436)),MMC_IMMEDIATE(MMC_TAGFIXNUM(11)),MMC_IMMEDIATE(MMC_TAGFIXNUM(436)),MMC_IMMEDIATE(MMC_TAGFIXNUM(96)),_OMC_LIT30_6}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT30,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT27,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(443)),MMC_IMMEDIATE(MMC_TAGFIXNUM(11)),MMC_IMMEDIATE(MMC_TAGFIXNUM(443)),MMC_IMMEDIATE(MMC_TAGFIXNUM(89)),_OMC_LIT30_6}};
 #define _OMC_LIT30 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT30)
 static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT31,1,5) {&NFModifier_Modifier_NOMOD__desc,}};
 #define _OMC_LIT31 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT31)
@@ -279,10 +279,10 @@ modelica_metatype omc_NFClass_makeRecordExp(threadData_t *threadData, modelica_m
   if(_typed)
   {
     {
-      modelica_metatype __omcQ_24tmpVar3;
+      modelica_metatype __omcQ_24tmpVar1;
       modelica_metatype* tmp5;
       modelica_metatype tmpMeta6;
-      modelica_metatype __omcQ_24tmpVar2;
+      modelica_metatype __omcQ_24tmpVar0;
       modelica_integer tmp7;
       modelica_metatype _c_loopVar = 0;
       modelica_integer tmp8;
@@ -290,8 +290,8 @@ modelica_metatype omc_NFClass_makeRecordExp(threadData_t *threadData, modelica_m
       _c_loopVar = _comps;
       tmp8 = 1;
       tmpMeta6 = MMC_REFSTRUCTLIT(mmc_nil);
-      __omcQ_24tmpVar3 = tmpMeta6; /* defaultValue */
-      tmp5 = &__omcQ_24tmpVar3;
+      __omcQ_24tmpVar1 = tmpMeta6; /* defaultValue */
+      tmp5 = &__omcQ_24tmpVar1;
       while(1) {
         tmp7 = 1;
         if (tmp8 <= arrayLength(_c_loopVar)) {
@@ -299,8 +299,8 @@ modelica_metatype omc_NFClass_makeRecordExp(threadData_t *threadData, modelica_m
           tmp7--;
         }
         if (tmp7 == 0) {
-          __omcQ_24tmpVar2 = omc_NFBinding_getExp(threadData, omc_NFComponent_getImplicitBinding(threadData, omc_NFInstNode_InstNode_component(threadData, _c), _scope));
-          *tmp5 = mmc_mk_cons(__omcQ_24tmpVar2,0);
+          __omcQ_24tmpVar0 = omc_NFBinding_getExp(threadData, omc_NFComponent_getImplicitBinding(threadData, omc_NFInstNode_InstNode_component(threadData, _c), _scope));
+          *tmp5 = mmc_mk_cons(__omcQ_24tmpVar0,0);
           tmp5 = &MMC_CDR(*tmp5);
         } else if (tmp7 == 1) {
           break;
@@ -309,7 +309,7 @@ modelica_metatype omc_NFClass_makeRecordExp(threadData_t *threadData, modelica_m
         }
       }
       *tmp5 = mmc_mk_nil();
-      tmpMeta4 = __omcQ_24tmpVar3;
+      tmpMeta4 = __omcQ_24tmpVar1;
     }
     _args = tmpMeta4;
 
@@ -362,12 +362,10 @@ modelica_boolean omc_NFClass_hasOperator(threadData_t *threadData, modelica_stri
 {
   modelica_boolean _hasOperator;
   modelica_metatype _op_node = NULL;
-  modelica_metatype _op_cls = NULL;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _hasOperator has no default value.
   // _op_node has no default value.
-  // _op_cls has no default value.
   if(omc_NFRestriction_isOperatorRecord(threadData, omc_NFClass_restriction(threadData, _cls)))
   {
     { /* matchcontinue expression */
@@ -493,12 +491,10 @@ DLLDirection
 modelica_metatype omc_NFClass_getDerivedComments(threadData_t *threadData, modelica_metatype _cls, modelica_metatype __omcQ_24in_5Fcmts)
 {
   modelica_metatype _cmts = NULL;
-  modelica_metatype _cls_tree = NULL;
   modelica_metatype tmpMeta1;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   _cmts = __omcQ_24in_5Fcmts;
-  // _cls_tree has no default value.
   { /* match expression */
     modelica_metatype tmp4_1;
     tmp4_1 = _cls;
@@ -1882,7 +1878,7 @@ modelica_metatype omc_NFClass_mergeModifier(threadData_t *threadData, modelica_m
         tmp2_default: OMC_LABEL_UNUSED; {
           
           /* Pattern matching succeeded */
-          omc_Error_assertion(threadData, 0 /* false */, _OMC_LIT26, _OMC_LIT28);
+          omc_Error_terminate(threadData, _OMC_LIT26, _OMC_LIT28);
           goto goto_1;
           goto tmp2_done;
         }
@@ -1960,7 +1956,7 @@ modelica_metatype omc_NFClass_setModifier(threadData_t *threadData, modelica_met
         tmp2_default: OMC_LABEL_UNUSED; {
           
           /* Pattern matching succeeded */
-          omc_Error_assertion(threadData, 0 /* false */, _OMC_LIT29, _OMC_LIT30);
+          omc_Error_terminate(threadData, _OMC_LIT29, _OMC_LIT30);
           goto goto_1;
           goto tmp2_done;
         }

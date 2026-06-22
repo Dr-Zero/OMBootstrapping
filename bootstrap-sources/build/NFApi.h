@@ -12,15 +12,23 @@ extern "C" {
 
 extern struct record_description Absyn_Annotation_ANNOTATION__desc;
 
+extern struct record_description Absyn_ConstrainClass_CONSTRAINCLASS__desc;
+
 extern struct record_description Absyn_EqMod_NOMOD__desc;
 
 extern struct record_description Absyn_Modification_CLASSMOD__desc;
 
 extern struct record_description Absyn_Path_IDENT__desc;
 
+extern struct record_description Flags_ConfigFlag_CONFIG__FLAG__desc;
+
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
+extern struct record_description Flags_FlagData_STRING__LIST__FLAG__desc;
+
+extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
+
+extern struct record_description Flags_ValidOptions_STRING__DESC__OPTION__desc;
 
 extern struct record_description JSON_STRING__desc;
 
@@ -66,7 +74,19 @@ extern struct record_description SCode_Mod_NOMOD__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 
+extern struct record_description Values_Value_BOOL__desc;
+
+extern struct record_description Values_Value_INTEGER__desc;
+
 extern struct record_description Values_Value_STRING__desc;
+
+
+DLLDirection
+modelica_boolean omc_NFApi_translateResidualsDAE(threadData_t *threadData, modelica_metatype _path, modelica_string _fileNamePrefix);
+DLLDirection
+modelica_metatype boxptr_NFApi_translateResidualsDAE(threadData_t *threadData, modelica_metatype _path, modelica_metatype _fileNamePrefix);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFApi_translateResidualsDAE,2,0) {(void*) boxptr_NFApi_translateResidualsDAE,0}};
+#define boxvar_NFApi_translateResidualsDAE MMC_REFSTRUCTLIT(boxvar_lit_NFApi_translateResidualsDAE)
 
 
 DLLDirection
@@ -405,13 +425,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFApi_dumpJSONAbsynExpression,2,0) {(vo
 
 
 DLLDirection
-modelica_metatype omc_NFApi_dumpJSONSourceInfo(threadData_t *threadData, modelica_metatype _info);
-#define boxptr_NFApi_dumpJSONSourceInfo omc_NFApi_dumpJSONSourceInfo
-static const MMC_DEFSTRUCTLIT(boxvar_lit_NFApi_dumpJSONSourceInfo,2,0) {(void*) boxptr_NFApi_dumpJSONSourceInfo,0}};
-#define boxvar_NFApi_dumpJSONSourceInfo MMC_REFSTRUCTLIT(boxvar_lit_NFApi_dumpJSONSourceInfo)
-
-
-DLLDirection
 modelica_metatype omc_NFApi_dumpJSONAnnotationExp2(threadData_t *threadData, modelica_metatype _absynExp, modelica_metatype _scope, modelica_metatype _info, modelica_boolean _failOnError);
 DLLDirection
 modelica_metatype boxptr_NFApi_dumpJSONAnnotationExp2(threadData_t *threadData, modelica_metatype _absynExp, modelica_metatype _scope, modelica_metatype _info, modelica_metatype _failOnError);
@@ -708,6 +721,53 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFApi_parseModifier,2,0) {(void*) boxpt
 
 
 DLLDirection
+modelica_boolean omc_NFApi_releaseModelInstanceReferenceImpl(threadData_t *threadData, modelica_integer _handle);
+DLLDirection
+modelica_metatype boxptr_NFApi_releaseModelInstanceReferenceImpl(threadData_t *threadData, modelica_metatype _handle);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFApi_releaseModelInstanceReferenceImpl,2,0) {(void*) boxptr_NFApi_releaseModelInstanceReferenceImpl,0}};
+#define boxvar_NFApi_releaseModelInstanceReferenceImpl MMC_REFSTRUCTLIT(boxvar_lit_NFApi_releaseModelInstanceReferenceImpl)
+
+extern int ModelInstanceReference_release(int /*_handle*/);
+
+DLLDirection
+modelica_integer omc_NFApi_storeModelInstanceReference(threadData_t *threadData, modelica_metatype _json);
+DLLDirection
+modelica_metatype boxptr_NFApi_storeModelInstanceReference(threadData_t *threadData, modelica_metatype _json);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFApi_storeModelInstanceReference,2,0) {(void*) boxptr_NFApi_storeModelInstanceReference,0}};
+#define boxvar_NFApi_storeModelInstanceReference MMC_REFSTRUCTLIT(boxvar_lit_NFApi_storeModelInstanceReference)
+
+extern int ModelInstanceReference_store(modelica_metatype /*_json*/);
+
+DLLDirection
+modelica_metatype omc_NFApi_buildModelInstanceAnnotationJSON(threadData_t *threadData, modelica_metatype _classPath, modelica_metatype _filter);
+#define boxptr_NFApi_buildModelInstanceAnnotationJSON omc_NFApi_buildModelInstanceAnnotationJSON
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFApi_buildModelInstanceAnnotationJSON,2,0) {(void*) boxptr_NFApi_buildModelInstanceAnnotationJSON,0}};
+#define boxvar_NFApi_buildModelInstanceAnnotationJSON MMC_REFSTRUCTLIT(boxvar_lit_NFApi_buildModelInstanceAnnotationJSON)
+
+
+DLLDirection
+modelica_metatype omc_NFApi_buildModelInstanceJSON(threadData_t *threadData, modelica_metatype _classPath, modelica_metatype _contextPath, modelica_string _modifier);
+#define boxptr_NFApi_buildModelInstanceJSON omc_NFApi_buildModelInstanceJSON
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFApi_buildModelInstanceJSON,2,0) {(void*) boxptr_NFApi_buildModelInstanceJSON,0}};
+#define boxvar_NFApi_buildModelInstanceJSON MMC_REFSTRUCTLIT(boxvar_lit_NFApi_buildModelInstanceJSON)
+
+
+DLLDirection
+modelica_metatype omc_NFApi_releaseModelInstanceReference(threadData_t *threadData, modelica_integer _handle);
+DLLDirection
+modelica_metatype boxptr_NFApi_releaseModelInstanceReference(threadData_t *threadData, modelica_metatype _handle);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFApi_releaseModelInstanceReference,2,0) {(void*) boxptr_NFApi_releaseModelInstanceReference,0}};
+#define boxvar_NFApi_releaseModelInstanceReference MMC_REFSTRUCTLIT(boxvar_lit_NFApi_releaseModelInstanceReference)
+
+
+DLLDirection
+modelica_metatype omc_NFApi_getModelInstanceAnnotationReference(threadData_t *threadData, modelica_metatype _classPath, modelica_metatype _filter);
+#define boxptr_NFApi_getModelInstanceAnnotationReference omc_NFApi_getModelInstanceAnnotationReference
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFApi_getModelInstanceAnnotationReference,2,0) {(void*) boxptr_NFApi_getModelInstanceAnnotationReference,0}};
+#define boxvar_NFApi_getModelInstanceAnnotationReference MMC_REFSTRUCTLIT(boxvar_lit_NFApi_getModelInstanceAnnotationReference)
+
+
+DLLDirection
 modelica_metatype omc_NFApi_getModelInstanceAnnotation(threadData_t *threadData, modelica_metatype _classPath, modelica_metatype _filter, modelica_boolean _prettyPrint);
 DLLDirection
 modelica_metatype boxptr_NFApi_getModelInstanceAnnotation(threadData_t *threadData, modelica_metatype _classPath, modelica_metatype _filter, modelica_metatype _prettyPrint);
@@ -716,11 +776,26 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFApi_getModelInstanceAnnotation,2,0) {
 
 
 DLLDirection
+modelica_metatype omc_NFApi_getModelInstanceReference(threadData_t *threadData, modelica_metatype _classPath, modelica_metatype _contextPath, modelica_string _modifier);
+#define boxptr_NFApi_getModelInstanceReference omc_NFApi_getModelInstanceReference
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFApi_getModelInstanceReference,2,0) {(void*) boxptr_NFApi_getModelInstanceReference,0}};
+#define boxvar_NFApi_getModelInstanceReference MMC_REFSTRUCTLIT(boxvar_lit_NFApi_getModelInstanceReference)
+
+
+DLLDirection
 modelica_metatype omc_NFApi_getModelInstance(threadData_t *threadData, modelica_metatype _classPath, modelica_metatype _contextPath, modelica_string _modifier, modelica_boolean _prettyPrint);
 DLLDirection
 modelica_metatype boxptr_NFApi_getModelInstance(threadData_t *threadData, modelica_metatype _classPath, modelica_metatype _contextPath, modelica_metatype _modifier, modelica_metatype _prettyPrint);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFApi_getModelInstance,2,0) {(void*) boxptr_NFApi_getModelInstance,0}};
 #define boxvar_NFApi_getModelInstance MMC_REFSTRUCTLIT(boxvar_lit_NFApi_getModelInstance)
+
+
+DLLDirection
+modelica_metatype omc_NFApi_getNthInheritedClass(threadData_t *threadData, modelica_metatype _classPath, modelica_integer _index, modelica_metatype _program);
+DLLDirection
+modelica_metatype boxptr_NFApi_getNthInheritedClass(threadData_t *threadData, modelica_metatype _classPath, modelica_metatype _index, modelica_metatype _program);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFApi_getNthInheritedClass,2,0) {(void*) boxptr_NFApi_getNthInheritedClass,0}};
+#define boxvar_NFApi_getNthInheritedClass MMC_REFSTRUCTLIT(boxvar_lit_NFApi_getNthInheritedClass)
 
 
 DLLDirection

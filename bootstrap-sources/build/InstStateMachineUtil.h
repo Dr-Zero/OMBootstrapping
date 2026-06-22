@@ -12,7 +12,7 @@ extern "C" {
 
 extern struct record_description Absyn_Path_IDENT__desc;
 
-extern struct record_description DAE_AvlTreePathFunction_Tree_EMPTY__desc;
+extern struct record_description AvlTreePathFunction_Tree_EMPTY__desc;
 
 extern struct record_description DAE_CallAttributes_CALL__ATTR__desc;
 
@@ -53,8 +53,6 @@ extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 extern struct record_description Flags_FlagVisibility_INTERNAL__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__OPTION__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
 extern struct record_description InstStateMachineUtil_AdjacencyTable_ADJACENCY__TABLE__desc;
 

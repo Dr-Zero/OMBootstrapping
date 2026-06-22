@@ -16,8 +16,6 @@ extern struct record_description ErrorTypes_MessageType_TRANSLATION__desc;
 
 extern struct record_description ErrorTypes_Severity_WARNING__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 
 DLLDirection
 void omc_NFStructural_markSubscript(threadData_t *threadData, modelica_metatype _sub);

@@ -12,8 +12,6 @@ extern "C" {
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 extern struct record_description Tpl_BlockType_BT__ANCHOR__desc;

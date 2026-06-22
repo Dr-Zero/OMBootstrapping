@@ -48,7 +48,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_HashTableCrToExpOption_printExpOti
           tmpMeta6 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 1));
           _exp = tmpMeta6;
           /* Pattern matching succeeded */
-          tmpMeta7 = stringAppend(_OMC_LIT0,omc_ExpressionDump_printExpStr(threadData, _exp));
+          tmpMeta7 = stringAppend(_OMC_LIT0,omc_ExpressionBasics_printExpStr(threadData, _exp));
           tmpMeta8 = stringAppend(tmpMeta7,_OMC_LIT1);
           tmp1 = tmpMeta8;
           goto tmp3_done;
@@ -83,7 +83,7 @@ modelica_metatype omc_HashTableCrToExpOption_emptyHashTableSized(threadData_t *t
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _hashTable has no default value.
-  tmpMeta1 = mmc_mk_box4(0, boxvar_ComponentReference_hashComponentRef, boxvar_ComponentReference_crefEqual, boxvar_ComponentReference_printComponentRefStr, boxvar_HashTableCrToExpOption_printExpOtionStr);
+  tmpMeta1 = mmc_mk_box4(0, boxvar_ComponentReferenceBasics_hashComponentRef, boxvar_ComponentReferenceBasics_crefEqual, boxvar_ComponentReferenceBasics_printComponentRefStr, boxvar_HashTableCrToExpOption_printExpOtionStr);
   _hashTable = omc_BaseHashTable_emptyHashTableWork(threadData, _size, tmpMeta1);
   _return: OMC_LABEL_UNUSED
   return _hashTable;

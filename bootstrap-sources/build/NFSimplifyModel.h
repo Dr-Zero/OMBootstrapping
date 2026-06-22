@@ -14,15 +14,17 @@ extern struct record_description NFCeval_EvalTarget_EVAL__TARGET__desc;
 
 extern struct record_description NFComponentRef_WILD__desc;
 
-extern struct record_description NFEquation_ARRAY__EQUALITY__desc;
-
 extern struct record_description NFEquation_EQUALITY__desc;
 
 extern struct record_description NFExpression_CREF__desc;
 
 extern struct record_description NFExpression_INTEGER__desc;
 
+extern struct record_description NFFlatModel_FLAT__MODEL__desc;
+
 extern struct record_description NFStatement_ASSIGNMENT__desc;
+
+extern struct record_description NFVariable_VARIABLE__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 

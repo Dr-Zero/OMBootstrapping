@@ -192,6 +192,8 @@ extern struct record_description DAE_Exp_UNBOX__desc;
 
 extern struct record_description DAE_InlineType_NO__INLINE__desc;
 
+extern struct record_description DAE_MatchCase_CASE__desc;
+
 extern struct record_description DAE_Operator_ADD__desc;
 
 extern struct record_description DAE_Operator_ADD__ARR__desc;
@@ -253,8 +255,6 @@ extern struct record_description DAE_Operator_SUB__SCALAR__ARRAY__desc;
 extern struct record_description DAE_Operator_UMINUS__desc;
 
 extern struct record_description DAE_Operator_UMINUS__ARR__desc;
-
-extern struct record_description DAE_Prefix_NOPRE__desc;
 
 extern struct record_description DAE_ReductionIterator_REDUCTIONITER__desc;
 
@@ -318,10 +318,6 @@ extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_INTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
-
 extern struct record_description SCode_Parallelism_NON__PARALLEL__desc;
 
 extern struct record_description SCode_Variability_VAR__desc;
@@ -329,6 +325,20 @@ extern struct record_description SCode_Variability_VAR__desc;
 extern struct record_description SCode_Visibility_PUBLIC__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
+
+
+DLLDirection
+modelica_metatype omc_Expression_traverseCasesTopDown(threadData_t *threadData, modelica_metatype _inCases, modelica_fnptr _func, modelica_metatype _inA, modelica_metatype *out_a);
+#define boxptr_Expression_traverseCasesTopDown omc_Expression_traverseCasesTopDown
+static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_traverseCasesTopDown,2,0) {(void*) boxptr_Expression_traverseCasesTopDown,0}};
+#define boxvar_Expression_traverseCasesTopDown MMC_REFSTRUCTLIT(boxvar_lit_Expression_traverseCasesTopDown)
+
+
+DLLDirection
+modelica_metatype omc_Expression_traverseCases(threadData_t *threadData, modelica_metatype _inCases, modelica_fnptr _func, modelica_metatype _inA, modelica_metatype *out_oa);
+#define boxptr_Expression_traverseCases omc_Expression_traverseCases
+static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_traverseCases,2,0) {(void*) boxptr_Expression_traverseCases,0}};
+#define boxvar_Expression_traverseCases MMC_REFSTRUCTLIT(boxvar_lit_Expression_traverseCases)
 
 
 DLLDirection
@@ -377,22 +387,6 @@ DLLDirection
 modelica_metatype boxptr_Expression_isInvariantExpNoTraverse(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fe, modelica_metatype __omcQ_24in_5Fb, modelica_metatype *out_b);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_isInvariantExpNoTraverse,2,0) {(void*) boxptr_Expression_isInvariantExpNoTraverse,0}};
 #define boxvar_Expression_isInvariantExpNoTraverse MMC_REFSTRUCTLIT(boxvar_lit_Expression_isInvariantExpNoTraverse)
-
-
-DLLDirection
-modelica_integer omc_Expression_compareSubscripts(threadData_t *threadData, modelica_metatype _sub1, modelica_metatype _sub2);
-DLLDirection
-modelica_metatype boxptr_Expression_compareSubscripts(threadData_t *threadData, modelica_metatype _sub1, modelica_metatype _sub2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_compareSubscripts,2,0) {(void*) boxptr_Expression_compareSubscripts,0}};
-#define boxvar_Expression_compareSubscripts MMC_REFSTRUCTLIT(boxvar_lit_Expression_compareSubscripts)
-
-
-DLLDirection
-modelica_integer omc_Expression_compare(threadData_t *threadData, modelica_metatype _inExp1, modelica_metatype _inExp2);
-DLLDirection
-modelica_metatype boxptr_Expression_compare(threadData_t *threadData, modelica_metatype _inExp1, modelica_metatype _inExp2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_compare,2,0) {(void*) boxptr_Expression_compare,0}};
-#define boxvar_Expression_compare MMC_REFSTRUCTLIT(boxvar_lit_Expression_compare)
 
 
 DLLDirection
@@ -717,14 +711,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_matrixToArray,2,0) {(void*) 
 #define boxvar_Expression_matrixToArray MMC_REFSTRUCTLIT(boxvar_lit_Expression_matrixToArray)
 
 
-DLLDirection
-modelica_integer omc_Expression_hashExp(threadData_t *threadData, modelica_metatype _e);
-DLLDirection
-modelica_metatype boxptr_Expression_hashExp(threadData_t *threadData, modelica_metatype _e);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_hashExp,2,0) {(void*) boxptr_Expression_hashExp,0}};
-#define boxvar_Expression_hashExp MMC_REFSTRUCTLIT(boxvar_lit_Expression_hashExp)
-
-
 #define boxptr_Expression_promoteExp3 omc_Expression_promoteExp3
 
 
@@ -786,22 +772,6 @@ DLLDirection
 modelica_metatype boxptr_Expression_isWild(threadData_t *threadData, modelica_metatype _exp);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_isWild,2,0) {(void*) boxptr_Expression_isWild,0}};
 #define boxvar_Expression_isWild MMC_REFSTRUCTLIT(boxvar_lit_Expression_isWild)
-
-
-DLLDirection
-modelica_integer omc_Expression_priority(threadData_t *threadData, modelica_metatype _inExp, modelica_boolean _inLhs);
-DLLDirection
-modelica_metatype boxptr_Expression_priority(threadData_t *threadData, modelica_metatype _inExp, modelica_metatype _inLhs);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_priority,2,0) {(void*) boxptr_Expression_priority,0}};
-#define boxvar_Expression_priority MMC_REFSTRUCTLIT(boxvar_lit_Expression_priority)
-
-
-DLLDirection
-modelica_boolean omc_Expression_shouldParenthesize(threadData_t *threadData, modelica_metatype _inOperand, modelica_metatype _inOperator, modelica_boolean _inLhs);
-DLLDirection
-modelica_metatype boxptr_Expression_shouldParenthesize(threadData_t *threadData, modelica_metatype _inOperand, modelica_metatype _inOperator, modelica_metatype _inLhs);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_shouldParenthesize,2,0) {(void*) boxptr_Expression_shouldParenthesize,0}};
-#define boxvar_Expression_shouldParenthesize MMC_REFSTRUCTLIT(boxvar_lit_Expression_shouldParenthesize)
 
 
 DLLDirection
@@ -950,14 +920,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_subscriptConstant,2,0) {(voi
 
 
 DLLDirection
-modelica_boolean omc_Expression_subscriptEqual(threadData_t *threadData, modelica_metatype _inSubscriptLst1, modelica_metatype _inSubscriptLst2);
-DLLDirection
-modelica_metatype boxptr_Expression_subscriptEqual(threadData_t *threadData, modelica_metatype _inSubscriptLst1, modelica_metatype _inSubscriptLst2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_subscriptEqual,2,0) {(void*) boxptr_Expression_subscriptEqual,0}};
-#define boxvar_Expression_subscriptEqual MMC_REFSTRUCTLIT(boxvar_lit_Expression_subscriptEqual)
-
-
-DLLDirection
 modelica_boolean omc_Expression_hasUnknownDims(threadData_t *threadData, modelica_metatype _dims);
 DLLDirection
 modelica_metatype boxptr_Expression_hasUnknownDims(threadData_t *threadData, modelica_metatype _dims);
@@ -1094,14 +1056,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_arrayContainZeroDimension,2,
 
 
 DLLDirection
-modelica_integer omc_Expression_operatorCompare(threadData_t *threadData, modelica_metatype _inOperator1, modelica_metatype _inOperator2);
-DLLDirection
-modelica_metatype boxptr_Expression_operatorCompare(threadData_t *threadData, modelica_metatype _inOperator1, modelica_metatype _inOperator2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_operatorCompare,2,0) {(void*) boxptr_Expression_operatorCompare,0}};
-#define boxvar_Expression_operatorCompare MMC_REFSTRUCTLIT(boxvar_lit_Expression_operatorCompare)
-
-
-DLLDirection
 modelica_boolean omc_Expression_operatorEqual(threadData_t *threadData, modelica_metatype _inOperator1, modelica_metatype _inOperator2);
 DLLDirection
 modelica_metatype boxptr_Expression_operatorEqual(threadData_t *threadData, modelica_metatype _inOperator1, modelica_metatype _inOperator2);
@@ -1171,14 +1125,6 @@ DLLDirection
 modelica_metatype boxptr_Expression_expStructuralEqual(threadData_t *threadData, modelica_metatype _inExp1, modelica_metatype _inExp2);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_expStructuralEqual,2,0) {(void*) boxptr_Expression_expStructuralEqual,0}};
 #define boxvar_Expression_expStructuralEqual MMC_REFSTRUCTLIT(boxvar_lit_Expression_expStructuralEqual)
-
-
-DLLDirection
-modelica_boolean omc_Expression_expEqual(threadData_t *threadData, modelica_metatype _inExp1, modelica_metatype _inExp2);
-DLLDirection
-modelica_metatype boxptr_Expression_expEqual(threadData_t *threadData, modelica_metatype _inExp1, modelica_metatype _inExp2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_expEqual,2,0) {(void*) boxptr_Expression_expEqual,0}};
-#define boxvar_Expression_expEqual MMC_REFSTRUCTLIT(boxvar_lit_Expression_expEqual)
 
 
 DLLDirection
@@ -2457,13 +2403,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_subVec,2,0) {(void*) boxptr_
 
 
 DLLDirection
-modelica_metatype omc_Expression_addVec(threadData_t *threadData, modelica_metatype _v, modelica_metatype _w);
-#define boxptr_Expression_addVec omc_Expression_addVec
-static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_addVec,2,0) {(void*) boxptr_Expression_addVec,0}};
-#define boxvar_Expression_addVec MMC_REFSTRUCTLIT(boxvar_lit_Expression_addVec)
-
-
-DLLDirection
 modelica_metatype omc_Expression_lenVec(threadData_t *threadData, modelica_metatype _v);
 #define boxptr_Expression_lenVec omc_Expression_lenVec
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_lenVec,2,0) {(void*) boxptr_Expression_lenVec,0}};
@@ -2935,13 +2874,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_getSubscriptExp,2,0) {(void*
 
 
 DLLDirection
-modelica_metatype omc_Expression_subscriptIndexExp(threadData_t *threadData, modelica_metatype _inSubscript);
-#define boxptr_Expression_subscriptIndexExp omc_Expression_subscriptIndexExp
-static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_subscriptIndexExp,2,0) {(void*) boxptr_Expression_subscriptIndexExp,0}};
-#define boxvar_Expression_subscriptIndexExp MMC_REFSTRUCTLIT(boxvar_lit_Expression_subscriptIndexExp)
-
-
-DLLDirection
 modelica_metatype omc_Expression_boxExp(threadData_t *threadData, modelica_metatype _e);
 #define boxptr_Expression_boxExp omc_Expression_boxExp
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_boxExp,2,0) {(void*) boxptr_Expression_boxExp,0}};
@@ -3065,14 +2997,6 @@ modelica_string omc_Expression_sconstEnumNameString(threadData_t *threadData, mo
 #define boxptr_Expression_sconstEnumNameString omc_Expression_sconstEnumNameString
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_sconstEnumNameString,2,0) {(void*) boxptr_Expression_sconstEnumNameString,0}};
 #define boxvar_Expression_sconstEnumNameString MMC_REFSTRUCTLIT(boxvar_lit_Expression_sconstEnumNameString)
-
-
-DLLDirection
-modelica_integer omc_Expression_expArrayIndex(threadData_t *threadData, modelica_metatype _inExp);
-DLLDirection
-modelica_metatype boxptr_Expression_expArrayIndex(threadData_t *threadData, modelica_metatype _inExp);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_expArrayIndex,2,0) {(void*) boxptr_Expression_expArrayIndex,0}};
-#define boxvar_Expression_expArrayIndex MMC_REFSTRUCTLIT(boxvar_lit_Expression_expArrayIndex)
 
 
 DLLDirection
@@ -3426,13 +3350,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_realToIntIfPossible,2,0) {(v
 
 
 DLLDirection
-modelica_metatype omc_Expression_CodeVarToCref(threadData_t *threadData, modelica_metatype _inExp);
-#define boxptr_Expression_CodeVarToCref omc_Expression_CodeVarToCref
-static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_CodeVarToCref,2,0) {(void*) boxptr_Expression_CodeVarToCref,0}};
-#define boxvar_Expression_CodeVarToCref MMC_REFSTRUCTLIT(boxvar_lit_Expression_CodeVarToCref)
-
-
-DLLDirection
 modelica_metatype omc_Expression_traversingstringifyCrefFinder(threadData_t *threadData, modelica_metatype _inExp);
 #define boxptr_Expression_traversingstringifyCrefFinder omc_Expression_traversingstringifyCrefFinder
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_traversingstringifyCrefFinder,2,0) {(void*) boxptr_Expression_traversingstringifyCrefFinder,0}};
@@ -3478,21 +3395,6 @@ DLLDirection
 modelica_metatype boxptr_Expression_dimensionIsZero(threadData_t *threadData, modelica_metatype _inDimension);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_dimensionIsZero,2,0) {(void*) boxptr_Expression_dimensionIsZero,0}};
 #define boxvar_Expression_dimensionIsZero MMC_REFSTRUCTLIT(boxvar_lit_Expression_dimensionIsZero)
-
-
-DLLDirection
-modelica_metatype omc_Expression_subscriptsInt(threadData_t *threadData, modelica_metatype _inSubscripts);
-#define boxptr_Expression_subscriptsInt omc_Expression_subscriptsInt
-static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_subscriptsInt,2,0) {(void*) boxptr_Expression_subscriptsInt,0}};
-#define boxvar_Expression_subscriptsInt MMC_REFSTRUCTLIT(boxvar_lit_Expression_subscriptsInt)
-
-
-DLLDirection
-modelica_integer omc_Expression_subscriptInt(threadData_t *threadData, modelica_metatype _inSubscript);
-DLLDirection
-modelica_metatype boxptr_Expression_subscriptInt(threadData_t *threadData, modelica_metatype _inSubscript);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_Expression_subscriptInt,2,0) {(void*) boxptr_Expression_subscriptInt,0}};
-#define boxvar_Expression_subscriptInt MMC_REFSTRUCTLIT(boxvar_lit_Expression_subscriptInt)
 
 
 DLLDirection

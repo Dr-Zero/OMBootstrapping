@@ -663,21 +663,21 @@ modelica_metatype omc_SBPWLinearMap_dom(threadData_t *threadData, modelica_metat
 DLLDirection
 modelica_metatype omc_SBPWLinearMap_copy(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fmap)
 {
+  modelica_metatype __omcQ_24mrfa_5F0 = NULL;
+  modelica_metatype __omcQ_24mrfa_5F1 = NULL;
   modelica_metatype _map = NULL;
   modelica_metatype tmpMeta1;
-  modelica_metatype tmpMeta2;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
+  // __omcQ_24mrfa_5F0 has no default value.
+  // __omcQ_24mrfa_5F1 has no default value.
   _map = __omcQ_24in_5Fmap;
-  tmpMeta1 = MMC_TAGPTR(mmc_alloc_words(5));
-  memcpy(MMC_UNTAGPTR(tmpMeta1), MMC_UNTAGPTR(_map), 5*sizeof(modelica_metatype));
-  ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta1))[2] = omc_Array_map(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_map), 2))), boxvar_SBSet_copy);
-  _map = tmpMeta1;
+  __omcQ_24mrfa_5F0 = omc_Array_map(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_map), 2))), boxvar_SBSet_copy);
 
-  tmpMeta2 = MMC_TAGPTR(mmc_alloc_words(5));
-  memcpy(MMC_UNTAGPTR(tmpMeta2), MMC_UNTAGPTR(_map), 5*sizeof(modelica_metatype));
-  ((modelica_metatype*)MMC_UNTAGPTR(tmpMeta2))[3] = omc_Array_map(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_map), 3))), boxvar_SBLinearMap_copy);
-  _map = tmpMeta2;
+  __omcQ_24mrfa_5F1 = omc_Array_map(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_map), 3))), boxvar_SBLinearMap_copy);
+
+  tmpMeta1 = mmc_mk_box4(3, &SBPWLinearMap_PW__LINEAR__MAP__desc, __omcQ_24mrfa_5F0, __omcQ_24mrfa_5F1, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_map), 4))));
+  _map = tmpMeta1;
   _return: OMC_LABEL_UNUSED
   return _map;
 }
@@ -759,7 +759,7 @@ modelica_metatype omc_SBPWLinearMap_new(threadData_t *threadData, modelica_metat
   _tailrecursive: OMC_LABEL_UNUSED
   // _map has no default value.
   _dim = ((modelica_integer) 0);
-  // _same_dims has no default value.
+  _same_dims = 0 /* false */;
   if((arrayLength(_dom) != arrayLength(_lmap)))
   {
     _map = omc_SBPWLinearMap_newEmpty(threadData);

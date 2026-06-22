@@ -1,0 +1,375 @@
+#ifndef NFStreamFlowAlias__H
+#define NFStreamFlowAlias__H
+#include "meta/meta_modelica.h"
+#include "util/modelica.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <errno.h>
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+extern struct record_description DAE_ComponentPrefix_NOCOMPPRE__desc;
+
+extern struct record_description DAE_ElementSource_SOURCE__desc;
+
+extern struct record_description NFBinding_UNBOUND__desc;
+
+extern struct record_description NFCeval_EvalTarget_EVAL__TARGET__desc;
+
+extern struct record_description NFFlatModel_FLAT__MODEL__desc;
+
+extern struct record_description NFInstNode_InstNode_EMPTY__NODE__desc;
+
+extern struct record_description NFStreamFlowAlias_FlowAlias_FLOW__ALIAS__desc;
+
+extern struct record_description NFStreamFlowAlias_Sets_DISJOINT__SETS__desc;
+
+extern struct record_description NFVariable_VARIABLE__desc;
+
+extern struct record_description SCode_Comment_COMMENT__desc;
+
+extern struct record_description SourceInfo_SOURCEINFO__desc;
+
+
+DLLDirection
+modelica_boolean omc_NFStreamFlowAlias_EntryEqual(threadData_t *threadData, modelica_metatype _entry1, modelica_metatype _entry2);
+DLLDirection
+modelica_metatype boxptr_NFStreamFlowAlias_EntryEqual(threadData_t *threadData, modelica_metatype _entry1, modelica_metatype _entry2);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_EntryEqual,2,0) {(void*) boxptr_NFStreamFlowAlias_EntryEqual,0}};
+#define boxvar_NFStreamFlowAlias_EntryEqual MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_EntryEqual)
+
+
+DLLDirection
+modelica_integer omc_NFStreamFlowAlias_EntryHash(threadData_t *threadData, modelica_metatype _entry);
+DLLDirection
+modelica_metatype boxptr_NFStreamFlowAlias_EntryHash(threadData_t *threadData, modelica_metatype _entry);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_EntryHash,2,0) {(void*) boxptr_NFStreamFlowAlias_EntryHash,0}};
+#define boxvar_NFStreamFlowAlias_EntryHash MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_EntryHash)
+
+
+DLLDirection
+modelica_string omc_NFStreamFlowAlias_EntryString(threadData_t *threadData, modelica_metatype _entry);
+#define boxptr_NFStreamFlowAlias_EntryString omc_NFStreamFlowAlias_EntryString
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_EntryString,2,0) {(void*) boxptr_NFStreamFlowAlias_EntryString,0}};
+#define boxvar_NFStreamFlowAlias_EntryString MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_EntryString)
+
+
+DLLDirection
+modelica_boolean omc_NFStreamFlowAlias_FlowAlias_isNonFlow(threadData_t *threadData, modelica_metatype _alias);
+DLLDirection
+modelica_metatype boxptr_NFStreamFlowAlias_FlowAlias_isNonFlow(threadData_t *threadData, modelica_metatype _alias);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_FlowAlias_isNonFlow,2,0) {(void*) boxptr_NFStreamFlowAlias_FlowAlias_isNonFlow,0}};
+#define boxvar_NFStreamFlowAlias_FlowAlias_isNonFlow MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_FlowAlias_isNonFlow)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_add(threadData_t *threadData, modelica_metatype _entry, modelica_metatype __omcQ_24in_5Fsets, modelica_integer *out_index);
+DLLDirection
+modelica_metatype boxptr_NFStreamFlowAlias_add(threadData_t *threadData, modelica_metatype _entry, modelica_metatype __omcQ_24in_5Fsets, modelica_metatype *out_index);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_add,2,0) {(void*) boxptr_NFStreamFlowAlias_add,0}};
+#define boxvar_NFStreamFlowAlias_add MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_add)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_addAliasBinding(threadData_t *threadData, modelica_metatype _var, modelica_metatype __omcQ_24in_5Fsets);
+#define boxptr_NFStreamFlowAlias_addAliasBinding omc_NFStreamFlowAlias_addAliasBinding
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_addAliasBinding,2,0) {(void*) boxptr_NFStreamFlowAlias_addAliasBinding,0}};
+#define boxvar_NFStreamFlowAlias_addAliasBinding MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_addAliasBinding)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_addAliasEquation(threadData_t *threadData, modelica_metatype _aliases, modelica_metatype _eq, modelica_metatype __omcQ_24in_5Fsets);
+#define boxptr_NFStreamFlowAlias_addAliasEquation omc_NFStreamFlowAlias_addAliasEquation
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_addAliasEquation,2,0) {(void*) boxptr_NFStreamFlowAlias_addAliasEquation,0}};
+#define boxvar_NFStreamFlowAlias_addAliasEquation MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_addAliasEquation)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_addAliasPair(threadData_t *threadData, modelica_metatype _alias1, modelica_metatype _alias2, modelica_metatype __omcQ_24in_5Fsets);
+#define boxptr_NFStreamFlowAlias_addAliasPair omc_NFStreamFlowAlias_addAliasPair
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_addAliasPair,2,0) {(void*) boxptr_NFStreamFlowAlias_addAliasPair,0}};
+#define boxvar_NFStreamFlowAlias_addAliasPair MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_addAliasPair)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_addList(threadData_t *threadData, modelica_metatype _entries, modelica_metatype __omcQ_24in_5Fsets);
+#define boxptr_NFStreamFlowAlias_addList omc_NFStreamFlowAlias_addList
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_addList,2,0) {(void*) boxptr_NFStreamFlowAlias_addList,0}};
+#define boxvar_NFStreamFlowAlias_addList MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_addList)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_applyReplacements(threadData_t *threadData, modelica_metatype _replacements, modelica_metatype __omcQ_24in_5FflatModel);
+#define boxptr_NFStreamFlowAlias_applyReplacements omc_NFStreamFlowAlias_applyReplacements
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_applyReplacements,2,0) {(void*) boxptr_NFStreamFlowAlias_applyReplacements,0}};
+#define boxvar_NFStreamFlowAlias_applyReplacements MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_applyReplacements)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_applyReplacementsInEql(threadData_t *threadData, modelica_metatype _replacements, modelica_metatype __omcQ_24in_5Feql);
+#define boxptr_NFStreamFlowAlias_applyReplacementsInEql omc_NFStreamFlowAlias_applyReplacementsInEql
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_applyReplacementsInEql,2,0) {(void*) boxptr_NFStreamFlowAlias_applyReplacementsInEql,0}};
+#define boxvar_NFStreamFlowAlias_applyReplacementsInEql MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_applyReplacementsInEql)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_applyReplacementsInExp(threadData_t *threadData, modelica_metatype _replacements, modelica_metatype _exp);
+#define boxptr_NFStreamFlowAlias_applyReplacementsInExp omc_NFStreamFlowAlias_applyReplacementsInExp
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_applyReplacementsInExp,2,0) {(void*) boxptr_NFStreamFlowAlias_applyReplacementsInExp,0}};
+#define boxvar_NFStreamFlowAlias_applyReplacementsInExp MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_applyReplacementsInExp)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_applyReplacementsInExp__traverser(threadData_t *threadData, modelica_metatype _replacements, modelica_metatype __omcQ_24in_5Fexp);
+#define boxptr_NFStreamFlowAlias_applyReplacementsInExp__traverser omc_NFStreamFlowAlias_applyReplacementsInExp__traverser
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_applyReplacementsInExp__traverser,2,0) {(void*) boxptr_NFStreamFlowAlias_applyReplacementsInExp__traverser,0}};
+#define boxvar_NFStreamFlowAlias_applyReplacementsInExp__traverser MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_applyReplacementsInExp__traverser)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_buildReplacements(threadData_t *threadData, modelica_metatype _aliases);
+#define boxptr_NFStreamFlowAlias_buildReplacements omc_NFStreamFlowAlias_buildReplacements
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_buildReplacements,2,0) {(void*) boxptr_NFStreamFlowAlias_buildReplacements,0}};
+#define boxvar_NFStreamFlowAlias_buildReplacements MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_buildReplacements)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_computeLimit(threadData_t *threadData, modelica_metatype _values, modelica_fnptr _reduceFn);
+#define boxptr_NFStreamFlowAlias_computeLimit omc_NFStreamFlowAlias_computeLimit
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_computeLimit,2,0) {(void*) boxptr_NFStreamFlowAlias_computeLimit,0}};
+#define boxvar_NFStreamFlowAlias_computeLimit MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_computeLimit)
+
+
+DLLDirection
+modelica_boolean omc_NFStreamFlowAlias_contains(threadData_t *threadData, modelica_metatype _entry, modelica_metatype _sets);
+DLLDirection
+modelica_metatype boxptr_NFStreamFlowAlias_contains(threadData_t *threadData, modelica_metatype _entry, modelica_metatype _sets);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_contains,2,0) {(void*) boxptr_NFStreamFlowAlias_contains,0}};
+#define boxvar_NFStreamFlowAlias_contains MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_contains)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_createAliases(threadData_t *threadData, modelica_metatype _sets, modelica_metatype __omcQ_24in_5FflatModel, modelica_metatype *out_aliases);
+#define boxptr_NFStreamFlowAlias_createAliases omc_NFStreamFlowAlias_createAliases
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_createAliases,2,0) {(void*) boxptr_NFStreamFlowAlias_createAliases,0}};
+#define boxvar_NFStreamFlowAlias_createAliases MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_createAliases)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_defineAlias(threadData_t *threadData, modelica_metatype __omcQ_24in_5Falias, modelica_metatype _binding, modelica_boolean _negated, modelica_metatype __omcQ_24in_5Fequations, modelica_metatype *out_equations);
+DLLDirection
+modelica_metatype boxptr_NFStreamFlowAlias_defineAlias(threadData_t *threadData, modelica_metatype __omcQ_24in_5Falias, modelica_metatype _binding, modelica_metatype _negated, modelica_metatype __omcQ_24in_5Fequations, modelica_metatype *out_equations);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_defineAlias,2,0) {(void*) boxptr_NFStreamFlowAlias_defineAlias,0}};
+#define boxvar_NFStreamFlowAlias_defineAlias MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_defineAlias)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_defineRepresentative(threadData_t *threadData, modelica_metatype _aliases, modelica_metatype *out_restAliases);
+#define boxptr_NFStreamFlowAlias_defineRepresentative omc_NFStreamFlowAlias_defineRepresentative
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_defineRepresentative,2,0) {(void*) boxptr_NFStreamFlowAlias_defineRepresentative,0}};
+#define boxvar_NFStreamFlowAlias_defineRepresentative MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_defineRepresentative)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_eliminateAliases(threadData_t *threadData, modelica_metatype __omcQ_24in_5FflatModel, modelica_metatype _vars, modelica_metatype *out_replacements);
+#define boxptr_NFStreamFlowAlias_eliminateAliases omc_NFStreamFlowAlias_eliminateAliases
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_eliminateAliases,2,0) {(void*) boxptr_NFStreamFlowAlias_eliminateAliases,0}};
+#define boxvar_NFStreamFlowAlias_eliminateAliases MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_eliminateAliases)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_emptySets(threadData_t *threadData, modelica_integer _setCount);
+DLLDirection
+modelica_metatype boxptr_NFStreamFlowAlias_emptySets(threadData_t *threadData, modelica_metatype _setCount);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_emptySets,2,0) {(void*) boxptr_NFStreamFlowAlias_emptySets,0}};
+#define boxvar_NFStreamFlowAlias_emptySets MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_emptySets)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_evalAliasAttribute(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fbinding, modelica_metatype *out_bindingExp);
+#define boxptr_NFStreamFlowAlias_evalAliasAttribute omc_NFStreamFlowAlias_evalAliasAttribute
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_evalAliasAttribute,2,0) {(void*) boxptr_NFStreamFlowAlias_evalAliasAttribute,0}};
+#define boxvar_NFStreamFlowAlias_evalAliasAttribute MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_evalAliasAttribute)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_evalAliasAttributes(threadData_t *threadData, modelica_metatype __omcQ_24in_5Falias, modelica_boolean _negated, modelica_metatype __omcQ_24in_5FstartValues, modelica_metatype __omcQ_24in_5FnominalValues, modelica_metatype __omcQ_24in_5FminValues, modelica_metatype __omcQ_24in_5FmaxValues, modelica_metatype *out_startValues, modelica_metatype *out_nominalValues, modelica_metatype *out_minValues, modelica_metatype *out_maxValues);
+DLLDirection
+modelica_metatype boxptr_NFStreamFlowAlias_evalAliasAttributes(threadData_t *threadData, modelica_metatype __omcQ_24in_5Falias, modelica_metatype _negated, modelica_metatype __omcQ_24in_5FstartValues, modelica_metatype __omcQ_24in_5FnominalValues, modelica_metatype __omcQ_24in_5FminValues, modelica_metatype __omcQ_24in_5FmaxValues, modelica_metatype *out_startValues, modelica_metatype *out_nominalValues, modelica_metatype *out_minValues, modelica_metatype *out_maxValues);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_evalAliasAttributes,2,0) {(void*) boxptr_NFStreamFlowAlias_evalAliasAttributes,0}};
+#define boxvar_NFStreamFlowAlias_evalAliasAttributes MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_evalAliasAttributes)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_extractSets(threadData_t *threadData, modelica_metatype _sets, modelica_metatype *out_assignedSets);
+#define boxptr_NFStreamFlowAlias_extractSets omc_NFStreamFlowAlias_extractSets
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_extractSets,2,0) {(void*) boxptr_NFStreamFlowAlias_extractSets,0}};
+#define boxvar_NFStreamFlowAlias_extractSets MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_extractSets)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_find(threadData_t *threadData, modelica_metatype _entry, modelica_metatype __omcQ_24in_5Fsets, modelica_integer *out_index);
+DLLDirection
+modelica_metatype boxptr_NFStreamFlowAlias_find(threadData_t *threadData, modelica_metatype _entry, modelica_metatype __omcQ_24in_5Fsets, modelica_metatype *out_index);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_find,2,0) {(void*) boxptr_NFStreamFlowAlias_find,0}};
+#define boxvar_NFStreamFlowAlias_find MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_find)
+
+
+DLLDirection
+void omc_NFStreamFlowAlias_findConstantBindings(threadData_t *threadData, modelica_metatype _flatModel, modelica_metatype _vars);
+#define boxptr_NFStreamFlowAlias_findConstantBindings omc_NFStreamFlowAlias_findConstantBindings
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_findConstantBindings,2,0) {(void*) boxptr_NFStreamFlowAlias_findConstantBindings,0}};
+#define boxvar_NFStreamFlowAlias_findConstantBindings MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_findConstantBindings)
+
+
+#define boxptr_NFStreamFlowAlias_findConstantBindingsInEq_update__binding omc_NFStreamFlowAlias_findConstantBindingsInEq_update__binding
+
+
+DLLDirection
+void omc_NFStreamFlowAlias_findConstantBindingsInEq(threadData_t *threadData, modelica_metatype _eq, modelica_metatype _vars);
+#define boxptr_NFStreamFlowAlias_findConstantBindingsInEq omc_NFStreamFlowAlias_findConstantBindingsInEq
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_findConstantBindingsInEq,2,0) {(void*) boxptr_NFStreamFlowAlias_findConstantBindingsInEq,0}};
+#define boxvar_NFStreamFlowAlias_findConstantBindingsInEq MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_findConstantBindingsInEq)
+
+
+DLLDirection
+modelica_integer omc_NFStreamFlowAlias_findRoot(threadData_t *threadData, modelica_integer _nodeIndex, modelica_metatype _nodes);
+DLLDirection
+modelica_metatype boxptr_NFStreamFlowAlias_findRoot(threadData_t *threadData, modelica_metatype _nodeIndex, modelica_metatype _nodes);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_findRoot,2,0) {(void*) boxptr_NFStreamFlowAlias_findRoot,0}};
+#define boxvar_NFStreamFlowAlias_findRoot MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_findRoot)
+
+
+DLLDirection
+modelica_integer omc_NFStreamFlowAlias_findSet(threadData_t *threadData, modelica_metatype _entry, modelica_metatype _sets, modelica_metatype *out_updatedSets);
+DLLDirection
+modelica_metatype boxptr_NFStreamFlowAlias_findSet(threadData_t *threadData, modelica_metatype _entry, modelica_metatype _sets, modelica_metatype *out_updatedSets);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_findSet,2,0) {(void*) boxptr_NFStreamFlowAlias_findSet,0}};
+#define boxvar_NFStreamFlowAlias_findSet MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_findSet)
+
+
+DLLDirection
+modelica_integer omc_NFStreamFlowAlias_findSetArrayIndex(threadData_t *threadData, modelica_metatype _entry, modelica_metatype _sets);
+DLLDirection
+modelica_metatype boxptr_NFStreamFlowAlias_findSetArrayIndex(threadData_t *threadData, modelica_metatype _entry, modelica_metatype _sets);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_findSetArrayIndex,2,0) {(void*) boxptr_NFStreamFlowAlias_findSetArrayIndex,0}};
+#define boxvar_NFStreamFlowAlias_findSetArrayIndex MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_findSetArrayIndex)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_fromModel(threadData_t *threadData, modelica_metatype __omcQ_24in_5FflatModel, modelica_metatype *out_sets);
+#define boxptr_NFStreamFlowAlias_fromModel omc_NFStreamFlowAlias_fromModel
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_fromModel,2,0) {(void*) boxptr_NFStreamFlowAlias_fromModel,0}};
+#define boxvar_NFStreamFlowAlias_fromModel MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_fromModel)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_getAliasVarsFromEq(threadData_t *threadData, modelica_metatype _eq);
+#define boxptr_NFStreamFlowAlias_getAliasVarsFromEq omc_NFStreamFlowAlias_getAliasVarsFromEq
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_getAliasVarsFromEq,2,0) {(void*) boxptr_NFStreamFlowAlias_getAliasVarsFromEq,0}};
+#define boxvar_NFStreamFlowAlias_getAliasVarsFromEq MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_getAliasVarsFromEq)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_getAliasVarsFromExp(threadData_t *threadData, modelica_metatype _exp, modelica_metatype _otherExp, modelica_metatype __omcQ_24in_5Faliases);
+#define boxptr_NFStreamFlowAlias_getAliasVarsFromExp omc_NFStreamFlowAlias_getAliasVarsFromExp
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_getAliasVarsFromExp,2,0) {(void*) boxptr_NFStreamFlowAlias_getAliasVarsFromExp,0}};
+#define boxvar_NFStreamFlowAlias_getAliasVarsFromExp MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_getAliasVarsFromExp)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_getAliasVarsFromExpPair(threadData_t *threadData, modelica_metatype _exp1, modelica_metatype _exp2);
+#define boxptr_NFStreamFlowAlias_getAliasVarsFromExpPair omc_NFStreamFlowAlias_getAliasVarsFromExpPair
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_getAliasVarsFromExpPair,2,0) {(void*) boxptr_NFStreamFlowAlias_getAliasVarsFromExpPair,0}};
+#define boxvar_NFStreamFlowAlias_getAliasVarsFromExpPair MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_getAliasVarsFromExpPair)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_getEntry(threadData_t *threadData, modelica_metatype _entry, modelica_metatype _sets);
+#define boxptr_NFStreamFlowAlias_getEntry omc_NFStreamFlowAlias_getEntry
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_getEntry,2,0) {(void*) boxptr_NFStreamFlowAlias_getEntry,0}};
+#define boxvar_NFStreamFlowAlias_getEntry MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_getEntry)
+
+
+DLLDirection
+modelica_integer omc_NFStreamFlowAlias_getNodeCount(threadData_t *threadData, modelica_metatype _sets);
+DLLDirection
+modelica_metatype boxptr_NFStreamFlowAlias_getNodeCount(threadData_t *threadData, modelica_metatype _sets);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_getNodeCount,2,0) {(void*) boxptr_NFStreamFlowAlias_getNodeCount,0}};
+#define boxvar_NFStreamFlowAlias_getNodeCount MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_getNodeCount)
+
+
+DLLDirection
+modelica_boolean omc_NFStreamFlowAlias_isStreamConnectorFlow(threadData_t *threadData, modelica_metatype _alias);
+DLLDirection
+modelica_metatype boxptr_NFStreamFlowAlias_isStreamConnectorFlow(threadData_t *threadData, modelica_metatype _alias);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_isStreamConnectorFlow,2,0) {(void*) boxptr_NFStreamFlowAlias_isStreamConnectorFlow,0}};
+#define boxvar_NFStreamFlowAlias_isStreamConnectorFlow MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_isStreamConnectorFlow)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_merge(threadData_t *threadData, modelica_metatype _entry1, modelica_metatype _entry2, modelica_metatype __omcQ_24in_5Fsets);
+#define boxptr_NFStreamFlowAlias_merge omc_NFStreamFlowAlias_merge
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_merge,2,0) {(void*) boxptr_NFStreamFlowAlias_merge,0}};
+#define boxvar_NFStreamFlowAlias_merge MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_merge)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_negateSet(threadData_t *threadData, modelica_integer _set, modelica_metatype __omcQ_24in_5Fsets);
+DLLDirection
+modelica_metatype boxptr_NFStreamFlowAlias_negateSet(threadData_t *threadData, modelica_metatype _set, modelica_metatype __omcQ_24in_5Fsets);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_negateSet,2,0) {(void*) boxptr_NFStreamFlowAlias_negateSet,0}};
+#define boxvar_NFStreamFlowAlias_negateSet MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_negateSet)
+
+
+DLLDirection
+void omc_NFStreamFlowAlias_printSets(threadData_t *threadData, modelica_metatype _sets);
+#define boxptr_NFStreamFlowAlias_printSets omc_NFStreamFlowAlias_printSets
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_printSets,2,0) {(void*) boxptr_NFStreamFlowAlias_printSets,0}};
+#define boxvar_NFStreamFlowAlias_printSets MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_printSets)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_scalarizeAlias(threadData_t *threadData, modelica_metatype _alias);
+#define boxptr_NFStreamFlowAlias_scalarizeAlias omc_NFStreamFlowAlias_scalarizeAlias
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_scalarizeAlias,2,0) {(void*) boxptr_NFStreamFlowAlias_scalarizeAlias,0}};
+#define boxvar_NFStreamFlowAlias_scalarizeAlias MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_scalarizeAlias)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_selectValue(threadData_t *threadData, modelica_metatype _bindings);
+#define boxptr_NFStreamFlowAlias_selectValue omc_NFStreamFlowAlias_selectValue
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_selectValue,2,0) {(void*) boxptr_NFStreamFlowAlias_selectValue,0}};
+#define boxvar_NFStreamFlowAlias_selectValue MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_selectValue)
+
+
+#define boxptr_NFStreamFlowAlias_setRepresentativeAttributes_add__attribute omc_NFStreamFlowAlias_setRepresentativeAttributes_add__attribute
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_setRepresentativeAttributes(threadData_t *threadData, modelica_metatype __omcQ_24in_5Falias, modelica_metatype _startValue, modelica_metatype _nominalValue, modelica_metatype _minValue, modelica_metatype _maxValue);
+#define boxptr_NFStreamFlowAlias_setRepresentativeAttributes omc_NFStreamFlowAlias_setRepresentativeAttributes
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_setRepresentativeAttributes,2,0) {(void*) boxptr_NFStreamFlowAlias_setRepresentativeAttributes,0}};
+#define boxvar_NFStreamFlowAlias_setRepresentativeAttributes MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_setRepresentativeAttributes)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_sortEquations(threadData_t *threadData, modelica_metatype _eqs, modelica_metatype *out_flowAliases, modelica_metatype *out_otherEqs);
+#define boxptr_NFStreamFlowAlias_sortEquations omc_NFStreamFlowAlias_sortEquations
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_sortEquations,2,0) {(void*) boxptr_NFStreamFlowAlias_sortEquations,0}};
+#define boxvar_NFStreamFlowAlias_sortEquations MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_sortEquations)
+
+
+DLLDirection
+modelica_metatype omc_NFStreamFlowAlias_union(threadData_t *threadData, modelica_integer _set1, modelica_integer _set2, modelica_metatype __omcQ_24in_5Fsets);
+DLLDirection
+modelica_metatype boxptr_NFStreamFlowAlias_union(threadData_t *threadData, modelica_metatype _set1, modelica_metatype _set2, modelica_metatype __omcQ_24in_5Fsets);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_union,2,0) {(void*) boxptr_NFStreamFlowAlias_union,0}};
+#define boxvar_NFStreamFlowAlias_union MMC_REFSTRUCTLIT(boxvar_lit_NFStreamFlowAlias_union)
+
+#ifdef __cplusplus
+}
+#endif
+#endif

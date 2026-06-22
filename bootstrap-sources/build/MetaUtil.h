@@ -22,8 +22,6 @@ extern struct record_description ErrorTypes_MessageType_TRANSLATION__desc;
 
 extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 
 DLLDirection
 modelica_metatype omc_MetaUtil_transformArrayNodesToListNodes(threadData_t *threadData, modelica_metatype _inList);

@@ -56,8 +56,6 @@ extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
@@ -296,13 +294,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_printComponentRefLis
 #define boxvar_ComponentReference_printComponentRefList MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_printComponentRefList)
 
 
-DLLDirection
-modelica_string omc_ComponentReference_printComponentRefListStr(threadData_t *threadData, modelica_metatype _crs);
-#define boxptr_ComponentReference_printComponentRefListStr omc_ComponentReference_printComponentRefListStr
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_printComponentRefListStr,2,0) {(void*) boxptr_ComponentReference_printComponentRefListStr,0}};
-#define boxvar_ComponentReference_printComponentRefListStr MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_printComponentRefListStr)
-
-
 #define boxptr_ComponentReference_printComponentRef2 omc_ComponentReference_printComponentRef2
 
 
@@ -339,13 +330,6 @@ modelica_metatype omc_ComponentReference_crefStripIterSub(threadData_t *threadDa
 #define boxptr_ComponentReference_crefStripIterSub omc_ComponentReference_crefStripIterSub
 static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefStripIterSub,2,0) {(void*) boxptr_ComponentReference_crefStripIterSub,0}};
 #define boxvar_ComponentReference_crefStripIterSub MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefStripIterSub)
-
-
-DLLDirection
-modelica_metatype omc_ComponentReference_crefStripLastSubs(threadData_t *threadData, modelica_metatype _inComponentRef);
-#define boxptr_ComponentReference_crefStripLastSubs omc_ComponentReference_crefStripLastSubs
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefStripLastSubs,2,0) {(void*) boxptr_ComponentReference_crefStripLastSubs,0}};
-#define boxvar_ComponentReference_crefStripLastSubs MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefStripLastSubs)
 
 
 DLLDirection
@@ -602,13 +586,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefTypeConsiderSubs
 
 
 DLLDirection
-modelica_metatype omc_ComponentReference_crefFirstCref(threadData_t *threadData, modelica_metatype _inCr);
-#define boxptr_ComponentReference_crefFirstCref omc_ComponentReference_crefFirstCref
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefFirstCref,2,0) {(void*) boxptr_ComponentReference_crefFirstCref,0}};
-#define boxvar_ComponentReference_crefFirstCref MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefFirstCref)
-
-
-DLLDirection
 modelica_metatype omc_ComponentReference_crefLastSubs(threadData_t *threadData, modelica_metatype _inComponentRef);
 #define boxptr_ComponentReference_crefLastSubs omc_ComponentReference_crefLastSubs
 static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefLastSubs,2,0) {(void*) boxptr_ComponentReference_crefLastSubs,0}};
@@ -620,20 +597,6 @@ modelica_metatype omc_ComponentReference_crefFirstSubs(threadData_t *threadData,
 #define boxptr_ComponentReference_crefFirstSubs omc_ComponentReference_crefFirstSubs
 static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefFirstSubs,2,0) {(void*) boxptr_ComponentReference_crefFirstSubs,0}};
 #define boxvar_ComponentReference_crefFirstSubs MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefFirstSubs)
-
-
-DLLDirection
-modelica_metatype omc_ComponentReference_crefSubs(threadData_t *threadData, modelica_metatype _inComponentRef);
-#define boxptr_ComponentReference_crefSubs omc_ComponentReference_crefSubs
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefSubs,2,0) {(void*) boxptr_ComponentReference_crefSubs,0}};
-#define boxvar_ComponentReference_crefSubs MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefSubs)
-
-
-DLLDirection
-modelica_metatype omc_ComponentReference_crefDims(threadData_t *threadData, modelica_metatype _inComponentRef);
-#define boxptr_ComponentReference_crefDims omc_ComponentReference_crefDims
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefDims,2,0) {(void*) boxptr_ComponentReference_crefDims,0}};
-#define boxvar_ComponentReference_crefDims MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefDims)
 
 
 DLLDirection
@@ -672,27 +635,6 @@ modelica_metatype omc_ComponentReference_crefRest(threadData_t *threadData, mode
 #define boxptr_ComponentReference_crefRest omc_ComponentReference_crefRest
 static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefRest,2,0) {(void*) boxptr_ComponentReference_crefRest,0}};
 #define boxvar_ComponentReference_crefRest MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefRest)
-
-
-DLLDirection
-modelica_metatype omc_ComponentReference_crefLastCref(threadData_t *threadData, modelica_metatype _inComponentRef);
-#define boxptr_ComponentReference_crefLastCref omc_ComponentReference_crefLastCref
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefLastCref,2,0) {(void*) boxptr_ComponentReference_crefLastCref,0}};
-#define boxvar_ComponentReference_crefLastCref MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefLastCref)
-
-
-DLLDirection
-modelica_string omc_ComponentReference_crefLastIdent(threadData_t *threadData, modelica_metatype _inComponentRef);
-#define boxptr_ComponentReference_crefLastIdent omc_ComponentReference_crefLastIdent
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefLastIdent,2,0) {(void*) boxptr_ComponentReference_crefLastIdent,0}};
-#define boxvar_ComponentReference_crefLastIdent MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefLastIdent)
-
-
-DLLDirection
-modelica_string omc_ComponentReference_crefFirstIdent(threadData_t *threadData, modelica_metatype _inComponentRef);
-#define boxptr_ComponentReference_crefFirstIdent omc_ComponentReference_crefFirstIdent
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefFirstIdent,2,0) {(void*) boxptr_ComponentReference_crefFirstIdent,0}};
-#define boxvar_ComponentReference_crefFirstIdent MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefFirstIdent)
 
 
 DLLDirection
@@ -859,245 +801,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefIsIdent,2,0) {(v
 
 
 DLLDirection
-modelica_boolean omc_ComponentReference_crefEqualWithoutSubs(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_crefEqualWithoutSubs(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefEqualWithoutSubs,2,0) {(void*) boxptr_ComponentReference_crefEqualWithoutSubs,0}};
-#define boxvar_ComponentReference_crefEqualWithoutSubs MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefEqualWithoutSubs)
-
-
-DLLDirection
-modelica_boolean omc_ComponentReference_crefEqualWithoutLastSubs(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_crefEqualWithoutLastSubs(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefEqualWithoutLastSubs,2,0) {(void*) boxptr_ComponentReference_crefEqualWithoutLastSubs,0}};
-#define boxvar_ComponentReference_crefEqualWithoutLastSubs MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefEqualWithoutLastSubs)
-
-
-DLLDirection
-modelica_metatype omc_ComponentReference_crefEqualReturn(threadData_t *threadData, modelica_metatype _cr, modelica_metatype _cr2);
-#define boxptr_ComponentReference_crefEqualReturn omc_ComponentReference_crefEqualReturn
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefEqualReturn,2,0) {(void*) boxptr_ComponentReference_crefEqualReturn,0}};
-#define boxvar_ComponentReference_crefEqualReturn MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefEqualReturn)
-
-
-DLLDirection
-modelica_boolean omc_ComponentReference_crefEqualNoStringCompare(threadData_t *threadData, modelica_metatype _inCref1, modelica_metatype _inCref2);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_crefEqualNoStringCompare(threadData_t *threadData, modelica_metatype _inCref1, modelica_metatype _inCref2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefEqualNoStringCompare,2,0) {(void*) boxptr_ComponentReference_crefEqualNoStringCompare,0}};
-#define boxvar_ComponentReference_crefEqualNoStringCompare MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefEqualNoStringCompare)
-
-
-DLLDirection
-modelica_boolean omc_ComponentReference_crefEqualVerySlowStringCompareDoNotUse(threadData_t *threadData, modelica_metatype _inComponentRef1, modelica_metatype _inComponentRef2);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_crefEqualVerySlowStringCompareDoNotUse(threadData_t *threadData, modelica_metatype _inComponentRef1, modelica_metatype _inComponentRef2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefEqualVerySlowStringCompareDoNotUse,2,0) {(void*) boxptr_ComponentReference_crefEqualVerySlowStringCompareDoNotUse,0}};
-#define boxvar_ComponentReference_crefEqualVerySlowStringCompareDoNotUse MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefEqualVerySlowStringCompareDoNotUse)
-
-
-DLLDirection
-modelica_boolean omc_ComponentReference_crefNotInLst(threadData_t *threadData, modelica_metatype _cref, modelica_metatype _lst);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_crefNotInLst(threadData_t *threadData, modelica_metatype _cref, modelica_metatype _lst);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefNotInLst,2,0) {(void*) boxptr_ComponentReference_crefNotInLst,0}};
-#define boxvar_ComponentReference_crefNotInLst MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefNotInLst)
-
-
-DLLDirection
-modelica_boolean omc_ComponentReference_crefInLst(threadData_t *threadData, modelica_metatype _cref, modelica_metatype _lst);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_crefInLst(threadData_t *threadData, modelica_metatype _cref, modelica_metatype _lst);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefInLst,2,0) {(void*) boxptr_ComponentReference_crefInLst,0}};
-#define boxvar_ComponentReference_crefInLst MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefInLst)
-
-
-DLLDirection
-modelica_boolean omc_ComponentReference_crefEqual(threadData_t *threadData, modelica_metatype _inComponentRef1, modelica_metatype _inComponentRef2);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_crefEqual(threadData_t *threadData, modelica_metatype _inComponentRef1, modelica_metatype _inComponentRef2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefEqual,2,0) {(void*) boxptr_ComponentReference_crefEqual,0}};
-#define boxvar_ComponentReference_crefEqual MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefEqual)
-
-
-DLLDirection
-modelica_boolean omc_ComponentReference_crefNotPrefixOf(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_crefNotPrefixOf(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefNotPrefixOf,2,0) {(void*) boxptr_ComponentReference_crefNotPrefixOf,0}};
-#define boxvar_ComponentReference_crefNotPrefixOf MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefNotPrefixOf)
-
-
-DLLDirection
-modelica_boolean omc_ComponentReference_crefPrefixOfIgnoreSubscripts(threadData_t *threadData, modelica_metatype _prefixCref, modelica_metatype _fullCref);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_crefPrefixOfIgnoreSubscripts(threadData_t *threadData, modelica_metatype _prefixCref, modelica_metatype _fullCref);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefPrefixOfIgnoreSubscripts,2,0) {(void*) boxptr_ComponentReference_crefPrefixOfIgnoreSubscripts,0}};
-#define boxvar_ComponentReference_crefPrefixOfIgnoreSubscripts MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefPrefixOfIgnoreSubscripts)
-
-
-DLLDirection
-modelica_boolean omc_ComponentReference_crefPrefixOf(threadData_t *threadData, modelica_metatype _prefixCref, modelica_metatype _fullCref);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_crefPrefixOf(threadData_t *threadData, modelica_metatype _prefixCref, modelica_metatype _fullCref);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefPrefixOf,2,0) {(void*) boxptr_ComponentReference_crefPrefixOf,0}};
-#define boxvar_ComponentReference_crefPrefixOf MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefPrefixOf)
-
-
-DLLDirection
-modelica_boolean omc_ComponentReference_crefContainedIn(threadData_t *threadData, modelica_metatype _containerCref, modelica_metatype _containedCref);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_crefContainedIn(threadData_t *threadData, modelica_metatype _containerCref, modelica_metatype _containedCref);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefContainedIn,2,0) {(void*) boxptr_ComponentReference_crefContainedIn,0}};
-#define boxvar_ComponentReference_crefContainedIn MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefContainedIn)
-
-
-DLLDirection
-modelica_integer omc_ComponentReference_crefLexicalCompareSubsAtEnd(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_crefLexicalCompareSubsAtEnd(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefLexicalCompareSubsAtEnd,2,0) {(void*) boxptr_ComponentReference_crefLexicalCompareSubsAtEnd,0}};
-#define boxvar_ComponentReference_crefLexicalCompareSubsAtEnd MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefLexicalCompareSubsAtEnd)
-
-
-DLLDirection
-modelica_boolean omc_ComponentReference_crefLexicalGreaterSubsAtEnd(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_crefLexicalGreaterSubsAtEnd(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefLexicalGreaterSubsAtEnd,2,0) {(void*) boxptr_ComponentReference_crefLexicalGreaterSubsAtEnd,0}};
-#define boxvar_ComponentReference_crefLexicalGreaterSubsAtEnd MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefLexicalGreaterSubsAtEnd)
-
-
-DLLDirection
-modelica_integer omc_ComponentReference_crefCompareGenericNotAlphabetic(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_crefCompareGenericNotAlphabetic(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefCompareGenericNotAlphabetic,2,0) {(void*) boxptr_ComponentReference_crefCompareGenericNotAlphabetic,0}};
-#define boxvar_ComponentReference_crefCompareGenericNotAlphabetic MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefCompareGenericNotAlphabetic)
-
-
-DLLDirection
-modelica_integer omc_ComponentReference_crefCompareIntSubscript(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_crefCompareIntSubscript(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefCompareIntSubscript,2,0) {(void*) boxptr_ComponentReference_crefCompareIntSubscript,0}};
-#define boxvar_ComponentReference_crefCompareIntSubscript MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefCompareIntSubscript)
-
-
-DLLDirection
-modelica_integer omc_ComponentReference_crefCompareGeneric(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_crefCompareGeneric(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefCompareGeneric,2,0) {(void*) boxptr_ComponentReference_crefCompareGeneric,0}};
-#define boxvar_ComponentReference_crefCompareGeneric MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefCompareGeneric)
-
-
-DLLDirection
-modelica_boolean omc_ComponentReference_crefSortFunc(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_crefSortFunc(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefSortFunc,2,0) {(void*) boxptr_ComponentReference_crefSortFunc,0}};
-#define boxvar_ComponentReference_crefSortFunc MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefSortFunc)
-
-
-DLLDirection
-modelica_integer omc_ComponentReference_CompareWithIntSubscript_compare(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_CompareWithIntSubscript_compare(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_CompareWithIntSubscript_compare,2,0) {(void*) boxptr_ComponentReference_CompareWithIntSubscript_compare,0}};
-#define boxvar_ComponentReference_CompareWithIntSubscript_compare MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_CompareWithIntSubscript_compare)
-
-
-DLLDirection
-modelica_integer omc_ComponentReference_CompareWithIntSubscript_compareSubs(threadData_t *threadData, modelica_metatype _ss1, modelica_metatype _ss2);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_CompareWithIntSubscript_compareSubs(threadData_t *threadData, modelica_metatype _ss1, modelica_metatype _ss2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_CompareWithIntSubscript_compareSubs,2,0) {(void*) boxptr_ComponentReference_CompareWithIntSubscript_compareSubs,0}};
-#define boxvar_ComponentReference_CompareWithIntSubscript_compareSubs MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_CompareWithIntSubscript_compareSubs)
-
-
-DLLDirection
-modelica_integer omc_ComponentReference_CompareWithoutSubscripts_compare(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_CompareWithoutSubscripts_compare(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_CompareWithoutSubscripts_compare,2,0) {(void*) boxptr_ComponentReference_CompareWithoutSubscripts_compare,0}};
-#define boxvar_ComponentReference_CompareWithoutSubscripts_compare MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_CompareWithoutSubscripts_compare)
-
-
-DLLDirection
-modelica_integer omc_ComponentReference_CompareWithoutSubscripts_compareSubs(threadData_t *threadData, modelica_metatype _ss1, modelica_metatype _ss2);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_CompareWithoutSubscripts_compareSubs(threadData_t *threadData, modelica_metatype _ss1, modelica_metatype _ss2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_CompareWithoutSubscripts_compareSubs,2,0) {(void*) boxptr_ComponentReference_CompareWithoutSubscripts_compareSubs,0}};
-#define boxvar_ComponentReference_CompareWithoutSubscripts_compareSubs MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_CompareWithoutSubscripts_compareSubs)
-
-
-DLLDirection
-modelica_integer omc_ComponentReference_CompareWithGenericSubscriptNotAlphabetic_compare(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_CompareWithGenericSubscriptNotAlphabetic_compare(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_CompareWithGenericSubscriptNotAlphabetic_compare,2,0) {(void*) boxptr_ComponentReference_CompareWithGenericSubscriptNotAlphabetic_compare,0}};
-#define boxvar_ComponentReference_CompareWithGenericSubscriptNotAlphabetic_compare MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_CompareWithGenericSubscriptNotAlphabetic_compare)
-
-
-DLLDirection
-modelica_integer omc_ComponentReference_CompareWithGenericSubscriptNotAlphabetic_compareSubs(threadData_t *threadData, modelica_metatype _ss1, modelica_metatype _ss2);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_CompareWithGenericSubscriptNotAlphabetic_compareSubs(threadData_t *threadData, modelica_metatype _ss1, modelica_metatype _ss2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_CompareWithGenericSubscriptNotAlphabetic_compareSubs,2,0) {(void*) boxptr_ComponentReference_CompareWithGenericSubscriptNotAlphabetic_compareSubs,0}};
-#define boxvar_ComponentReference_CompareWithGenericSubscriptNotAlphabetic_compareSubs MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_CompareWithGenericSubscriptNotAlphabetic_compareSubs)
-
-
-DLLDirection
-modelica_integer omc_ComponentReference_CompareWithGenericSubscript_compareSubs(threadData_t *threadData, modelica_metatype _ss1, modelica_metatype _ss2);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_CompareWithGenericSubscript_compareSubs(threadData_t *threadData, modelica_metatype _ss1, modelica_metatype _ss2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_CompareWithGenericSubscript_compareSubs,2,0) {(void*) boxptr_ComponentReference_CompareWithGenericSubscript_compareSubs,0}};
-#define boxvar_ComponentReference_CompareWithGenericSubscript_compareSubs MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_CompareWithGenericSubscript_compareSubs)
-
-
-DLLDirection
-modelica_integer omc_ComponentReference_CompareWithGenericSubscript_compare(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_CompareWithGenericSubscript_compare(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_CompareWithGenericSubscript_compare,2,0) {(void*) boxptr_ComponentReference_CompareWithGenericSubscript_compare,0}};
-#define boxvar_ComponentReference_CompareWithGenericSubscript_compare MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_CompareWithGenericSubscript_compare)
-
-
-DLLDirection
-modelica_boolean omc_ComponentReference_crefFirstIdentEqual(threadData_t *threadData, modelica_metatype _inCref1, modelica_metatype _inCref2);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_crefFirstIdentEqual(threadData_t *threadData, modelica_metatype _inCref1, modelica_metatype _inCref2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefFirstIdentEqual,2,0) {(void*) boxptr_ComponentReference_crefFirstIdentEqual,0}};
-#define boxvar_ComponentReference_crefFirstIdentEqual MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefFirstIdentEqual)
-
-
-DLLDirection
-modelica_boolean omc_ComponentReference_crefFirstCrefLastCrefEqual(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_crefFirstCrefLastCrefEqual(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefFirstCrefLastCrefEqual,2,0) {(void*) boxptr_ComponentReference_crefFirstCrefLastCrefEqual,0}};
-#define boxvar_ComponentReference_crefFirstCrefLastCrefEqual MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefFirstCrefLastCrefEqual)
-
-
-DLLDirection
-modelica_boolean omc_ComponentReference_crefFirstCrefEqual(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_crefFirstCrefEqual(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefFirstCrefEqual,2,0) {(void*) boxptr_ComponentReference_crefFirstCrefEqual,0}};
-#define boxvar_ComponentReference_crefFirstCrefEqual MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefFirstCrefEqual)
-
-
-DLLDirection
-modelica_boolean omc_ComponentReference_crefLastIdentEqual(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_crefLastIdentEqual(threadData_t *threadData, modelica_metatype _cr1, modelica_metatype _cr2);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefLastIdentEqual,2,0) {(void*) boxptr_ComponentReference_crefLastIdentEqual,0}};
-#define boxvar_ComponentReference_crefLastIdentEqual MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_crefLastIdentEqual)
-
-
-DLLDirection
 modelica_string omc_ComponentReference_debugPrintComponentRefTypeStr(threadData_t *threadData, modelica_metatype _inComponentRef);
 #define boxptr_ComponentReference_debugPrintComponentRefTypeStr omc_ComponentReference_debugPrintComponentRefTypeStr
 static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_debugPrintComponentRefTypeStr,2,0) {(void*) boxptr_ComponentReference_debugPrintComponentRefTypeStr,0}};
@@ -1105,24 +808,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_debugPrintComponentR
 
 
 DLLDirection
-modelica_string omc_ComponentReference_printComponentRef2Str(threadData_t *threadData, modelica_string _inIdent, modelica_metatype _inSubscriptLst);
-#define boxptr_ComponentReference_printComponentRef2Str omc_ComponentReference_printComponentRef2Str
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_printComponentRef2Str,2,0) {(void*) boxptr_ComponentReference_printComponentRef2Str,0}};
-#define boxvar_ComponentReference_printComponentRef2Str MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_printComponentRef2Str)
-
-
-DLLDirection
 modelica_string omc_ComponentReference_printComponentRefStrFixDollarDer(threadData_t *threadData, modelica_metatype _inComponentRef);
 #define boxptr_ComponentReference_printComponentRefStrFixDollarDer omc_ComponentReference_printComponentRefStrFixDollarDer
 static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_printComponentRefStrFixDollarDer,2,0) {(void*) boxptr_ComponentReference_printComponentRefStrFixDollarDer,0}};
 #define boxvar_ComponentReference_printComponentRefStrFixDollarDer MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_printComponentRefStrFixDollarDer)
-
-
-DLLDirection
-modelica_string omc_ComponentReference_printComponentRefStr(threadData_t *threadData, modelica_metatype _inComponentRef);
-#define boxptr_ComponentReference_printComponentRefStr omc_ComponentReference_printComponentRefStr
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_printComponentRefStr,2,0) {(void*) boxptr_ComponentReference_printComponentRefStr,0}};
-#define boxvar_ComponentReference_printComponentRefStr MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_printComponentRefStr)
 
 
 DLLDirection
@@ -1202,24 +891,10 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_crefToPath,2,0) {(vo
 
 
 DLLDirection
-modelica_metatype omc_ComponentReference_makeCrefQual(threadData_t *threadData, modelica_string _ident, modelica_metatype _identType, modelica_metatype _subscriptLst, modelica_metatype _componentRef);
-#define boxptr_ComponentReference_makeCrefQual omc_ComponentReference_makeCrefQual
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_makeCrefQual,2,0) {(void*) boxptr_ComponentReference_makeCrefQual,0}};
-#define boxvar_ComponentReference_makeCrefQual MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_makeCrefQual)
-
-
-DLLDirection
 modelica_metatype omc_ComponentReference_makeUntypedCrefIdent(threadData_t *threadData, modelica_string _ident);
 #define boxptr_ComponentReference_makeUntypedCrefIdent omc_ComponentReference_makeUntypedCrefIdent
 static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_makeUntypedCrefIdent,2,0) {(void*) boxptr_ComponentReference_makeUntypedCrefIdent,0}};
 #define boxvar_ComponentReference_makeUntypedCrefIdent MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_makeUntypedCrefIdent)
-
-
-DLLDirection
-modelica_metatype omc_ComponentReference_makeCrefIdent(threadData_t *threadData, modelica_string _ident, modelica_metatype _identType, modelica_metatype _subscriptLst);
-#define boxptr_ComponentReference_makeCrefIdent omc_ComponentReference_makeCrefIdent
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_makeCrefIdent,2,0) {(void*) boxptr_ComponentReference_makeCrefIdent,0}};
-#define boxvar_ComponentReference_makeCrefIdent MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_makeCrefIdent)
 
 
 DLLDirection
@@ -1234,14 +909,6 @@ modelica_metatype omc_ComponentReference_createEmptyCrefMemory(threadData_t *thr
 #define boxptr_ComponentReference_createEmptyCrefMemory omc_ComponentReference_createEmptyCrefMemory
 static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_createEmptyCrefMemory,2,0) {(void*) boxptr_ComponentReference_createEmptyCrefMemory,0}};
 #define boxvar_ComponentReference_createEmptyCrefMemory MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_createEmptyCrefMemory)
-
-
-DLLDirection
-modelica_integer omc_ComponentReference_hashComponentRef(threadData_t *threadData, modelica_metatype _cr);
-DLLDirection
-modelica_metatype boxptr_ComponentReference_hashComponentRef(threadData_t *threadData, modelica_metatype _cr);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_ComponentReference_hashComponentRef,2,0) {(void*) boxptr_ComponentReference_hashComponentRef,0}};
-#define boxvar_ComponentReference_hashComponentRef MMC_REFSTRUCTLIT(boxvar_lit_ComponentReference_hashComponentRef)
 
 #ifdef __cplusplus
 }

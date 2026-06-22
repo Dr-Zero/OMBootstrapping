@@ -144,74 +144,70 @@ modelica_metatype omc_Vectorization_replaceFirstSubsInCref(threadData_t *threadD
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _crefOut has no default value.
-  { /* matchcontinue expression */
-    volatile modelica_metatype tmp4_1;
+  { /* match expression */
+    modelica_metatype tmp4_1;
     tmp4_1 = _crefIn;
     {
       modelica_string _ident = NULL;
       modelica_metatype _identType = NULL;
       modelica_metatype _subscriptLst = NULL;
       modelica_metatype _cref = NULL;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
+      int tmp4;
       // _ident has no default value.
       // _identType has no default value.
       // _subscriptLst has no default value.
       // _cref has no default value.
-      tmp4 = 0;
-      MMC_TRY_INTERNAL(mmc_jumper)
-      tmp3_top:
-      threadData->mmc_jumper = &new_mmc_jumper;
-      for (; tmp4 < 3; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
+      {
+        switch (MMC_SWITCH_CAST(valueConstructor(tmp4_1))) {
+        case 3: {
+          modelica_metatype tmpMeta5;
           modelica_metatype tmpMeta6;
           modelica_metatype tmpMeta7;
           modelica_metatype tmpMeta8;
           modelica_metatype tmpMeta9;
-          modelica_metatype tmpMeta10;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,0,4) == 0) goto tmp3_end;
-          tmpMeta6 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 2));
-          tmpMeta7 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 3));
-          tmpMeta8 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 4));
-          tmpMeta9 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 5));
-          _ident = tmpMeta6;
-          _identType = tmpMeta7;
-          _subscriptLst = tmpMeta8;
-          _cref = tmpMeta9;
-          tmp4 += 1; /* Pattern matching succeeded; we may skip some cases if we fail */
+          tmpMeta5 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 2));
+          tmpMeta6 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 3));
+          tmpMeta7 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 4));
+          tmpMeta8 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 5));
+          _ident = tmpMeta5;
+          _identType = tmpMeta6;
+          _subscriptLst = tmpMeta7;
+          _cref = tmpMeta8;
+          /* Pattern matching succeeded */
           if(omc_List_hasOneElement(threadData, _subscriptLst))
           {
             _subscriptLst = _subs;
           }
 
           _cref = omc_Vectorization_replaceFirstSubsInCref(threadData, _cref, _subs);
-          tmpMeta10 = mmc_mk_box5(3, &DAE_ComponentRef_CREF__QUAL__desc, _ident, _identType, _subscriptLst, _cref);
-          tmpMeta1 = tmpMeta10;
+          tmpMeta9 = mmc_mk_box5(3, &DAE_ComponentRef_CREF__QUAL__desc, _ident, _identType, _subscriptLst, _cref);
+          tmpMeta1 = tmpMeta9;
           goto tmp3_done;
         }
-        case 1: {
+        case 4: {
+          modelica_metatype tmpMeta10;
           modelica_metatype tmpMeta11;
           modelica_metatype tmpMeta12;
           modelica_metatype tmpMeta13;
-          modelica_metatype tmpMeta14;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,1,3) == 0) goto tmp3_end;
-          tmpMeta11 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 2));
-          tmpMeta12 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 3));
-          tmpMeta13 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 4));
-          _ident = tmpMeta11;
-          _identType = tmpMeta12;
-          _subscriptLst = tmpMeta13;
+          tmpMeta10 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 2));
+          tmpMeta11 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 3));
+          tmpMeta12 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 4));
+          _ident = tmpMeta10;
+          _identType = tmpMeta11;
+          _subscriptLst = tmpMeta12;
           /* Pattern matching succeeded */
           if(omc_List_hasOneElement(threadData, _subscriptLst))
           {
             _subscriptLst = _subs;
           }
-          tmpMeta14 = mmc_mk_box4(4, &DAE_ComponentRef_CREF__IDENT__desc, _ident, _identType, _subscriptLst);
-          tmpMeta1 = tmpMeta14;
+          tmpMeta13 = mmc_mk_box4(4, &DAE_ComponentRef_CREF__IDENT__desc, _ident, _identType, _subscriptLst);
+          tmpMeta1 = tmpMeta13;
           goto tmp3_done;
         }
-        case 2: {
+        default:
+        tmp3_default: OMC_LABEL_UNUSED; {
           
           /* Pattern matching succeeded */
           tmpMeta1 = _crefIn;
@@ -222,17 +218,10 @@ modelica_metatype omc_Vectorization_replaceFirstSubsInCref(threadData_t *threadD
         tmp3_end: ;
       }
       goto goto_2;
-      tmp3_done:
-      (void)tmp4;
-      MMC_RESTORE_INTERNAL(mmc_jumper);
-      goto tmp3_done2;
       goto_2:;
-      MMC_CATCH_INTERNAL(mmc_jumper);
-      if (++tmp4 < 3) {
-        goto tmp3_top;
-      }
       MMC_THROW_INTERNAL();
-      tmp3_done2:;
+      goto tmp3_done;
+      tmp3_done:;
     }
   }
   _crefOut = tmpMeta1;
@@ -446,7 +435,7 @@ modelica_metatype omc_Vectorization_reduceLoopExpressions(threadData_t *threadDa
           
           _cref = tmpMeta6;
           tmp4 += 2; /* Pattern matching succeeded; we may skip some cases if we fail */
-          _b = (omc_Vectorization_getIndexSubScript(threadData, listHead(omc_ComponentReference_crefSubs(threadData, _cref))) <= _maxSub);
+          _b = (omc_Vectorization_getIndexSubScript(threadData, listHead(omc_ComponentReferenceBasics_crefSubs(threadData, _cref))) <= _maxSub);
           tmpMeta[0+0] = _expIn;
           tmp1_c1 = _b;
           goto tmp3_done;
@@ -547,8 +536,8 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_Vectorization_crefPartlyEqual(thr
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _partlyEq has no default value.
-  { /* matchcontinue expression */
-    volatile modelica_metatype tmp4_1;volatile modelica_metatype tmp4_2;
+  { /* match expression */
+    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
     tmp4_1 = _cref0;
     tmp4_2 = _cref1;
     {
@@ -561,16 +550,13 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_Vectorization_crefPartlyEqual(thr
       // _cref01 has no default value.
       // _cref11 has no default value.
       tmp4 = 0;
-      MMC_TRY_INTERNAL(mmc_jumper)
-      tmp3_top:
-      threadData->mmc_jumper = &new_mmc_jumper;
       for (; tmp4 < 5; tmp4++) {
         switch (MMC_SWITCH_CAST(tmp4)) {
         case 0: {
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,1,3) == 0) goto tmp3_end;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_2,1,3) == 0) goto tmp3_end;
           
-          tmp4 += 3; /* Pattern matching succeeded; we may skip some cases if we fail */
+          /* Pattern matching succeeded */
           tmp1 = (stringEqual((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_cref0), 2))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_cref1), 2)))));
           goto tmp3_done;
         }
@@ -583,7 +569,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_Vectorization_crefPartlyEqual(thr
           tmpMeta7 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_2), 5));
           _cref01 = tmpMeta6;
           _cref11 = tmpMeta7;
-          tmp4 += 2; /* Pattern matching succeeded; we may skip some cases if we fail */
+          /* Pattern matching succeeded */
           if((stringEqual((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_cref0), 2))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_cref1), 2))))))
           {
             _b = omc_Vectorization_crefPartlyEqual(threadData, _cref01, _cref11);
@@ -599,7 +585,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_Vectorization_crefPartlyEqual(thr
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_1,0,4) == 0) goto tmp3_end;
           if (mmc__uniontype__metarecord__typedef__equal(tmp4_2,1,3) == 0) goto tmp3_end;
           
-          tmp4 += 1; /* Pattern matching succeeded; we may skip some cases if we fail */
+          /* Pattern matching succeeded */
           tmp1 = (stringEqual((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_cref0), 2))), (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_cref1), 2)))));
           goto tmp3_done;
         }
@@ -622,17 +608,10 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_Vectorization_crefPartlyEqual(thr
         tmp3_end: ;
       }
       goto goto_2;
-      tmp3_done:
-      (void)tmp4;
-      MMC_RESTORE_INTERNAL(mmc_jumper);
-      goto tmp3_done2;
       goto_2:;
-      MMC_CATCH_INTERNAL(mmc_jumper);
-      if (++tmp4 < 5) {
-        goto tmp3_top;
-      }
       MMC_THROW_INTERNAL();
-      tmp3_done2:;
+      goto tmp3_done;
+      tmp3_done:;
     }
   }
   _partlyEq = tmp1;
@@ -924,7 +903,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Vectorization_addToArrayCrefLst(
           _crefTailRef = tmpMeta16;
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp18 = omc_ComponentReference_crefEqual(threadData, _cref0, _cref1);
+          tmp18 = omc_ComponentReferenceBasics_crefEqual(threadData, _cref0, _cref1);
           if (1 /* true */ != tmp18) goto goto_2;
 
           if(omc_List_notMember(threadData, _crefTailRef, _tailCrefs0))
@@ -976,7 +955,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Vectorization_addToArrayCrefLst(
           _cref1 = tmpMeta29;
           tmp4 += 1; /* Pattern matching succeeded; we may skip some cases if we fail */
           /* Pattern-matching assignment */
-          tmp30 = omc_ComponentReference_crefEqual(threadData, _cref0, _cref1);
+          tmp30 = omc_ComponentReferenceBasics_crefEqual(threadData, _cref0, _cref1);
           if (0 /* false */ != tmp30) goto goto_2;
           tmpMeta32 = mmc_mk_box3(0, _cref0, mmc_mk_integer(_idx0), _tailCrefs0);
           tmpMeta31 = mmc_mk_cons(tmpMeta32, _tplLstFoldIn);
@@ -1227,7 +1206,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Vectorization_setIteratorSubscri
           _constCrefs = tmpMeta10;
           tmp4 += 3; /* Pattern matching succeeded; we may skip some cases if we fail */
           /* Pattern-matching assignment */
-          tmp11 = (!omc_List_exist1(threadData, _constCrefs, boxvar_ComponentReference_crefEqual, _cref));
+          tmp11 = (!omc_List_exist1(threadData, _constCrefs, boxvar_ComponentReferenceBasics_crefEqual, _cref));
           if (1 /* true */ != tmp11) goto goto_2;
 
           tmpMeta12 = MMC_REFSTRUCTLIT(mmc_nil);
@@ -1246,7 +1225,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Vectorization_setIteratorSubscri
               _refCref = tmpMeta15;
               _min = tmp17  /* pattern as ty=Integer */;
 
-              if(omc_ComponentReference_crefEqualWithoutSubs(threadData, _refCref, _cref))
+              if(omc_ComponentReferenceBasics_crefEqualWithoutSubs(threadData, _refCref, _cref))
               {
                 tmpMeta18 = mmc_mk_box2(3, &DAE_Exp_ICONST__desc, mmc_mk_integer(((modelica_integer) -1) + _min));
                 tmpMeta19 = mmc_mk_box4(10, &DAE_Exp_BINARY__desc, _iterator, _OMC_LIT1, tmpMeta18);
@@ -1506,7 +1485,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Vectorization_getCrefIdcsForEqua
           /* Pattern matching succeeded */
           _eqCrefs = omc_BackendEquation_equationCrefs(threadData, _eq);
 
-          _eqCrefs = omc_List_filter1OnTrue(threadData, _eqCrefs, boxvar_ComponentReference_crefNotInLst, _constCrefs);
+          _eqCrefs = omc_List_filter1OnTrue(threadData, _eqCrefs, boxvar_ComponentReferenceBasics_crefNotInLst, _constCrefs);
 
           {
             modelica_metatype _cref;
@@ -1514,7 +1493,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Vectorization_getCrefIdcsForEqua
             {
               _cref = MMC_CAR(tmpMeta6);
               /* Pattern-matching assignment */
-              tmpMeta7 = omc_ComponentReference_crefSubs(threadData, _cref);
+              tmpMeta7 = omc_ComponentReferenceBasics_crefSubs(threadData, _cref);
               if (listEmpty(tmpMeta7)) goto goto_2;
               tmpMeta8 = MMC_CAR(tmpMeta7);
               tmpMeta9 = MMC_CDR(tmpMeta7);
@@ -1544,7 +1523,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Vectorization_getCrefIdcsForEqua
                   _min = tmp17  /* pattern as ty=Integer */;
                   _max = tmp19  /* pattern as ty=Integer */;
 
-                  if(omc_ComponentReference_crefEqualWithoutSubs(threadData, _refCref, _cref))
+                  if(omc_ComponentReferenceBasics_crefEqualWithoutSubs(threadData, _refCref, _cref))
                   {
                     _max = modelica_integer_max((modelica_integer)(_max),(modelica_integer)(_sub));
 
@@ -1676,14 +1655,10 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Vectorization_buildBackendDAEFor
           _attr = tmpMeta12;
 
           /* Pattern-matching assignment */
-          tmp13 = omc_ComponentReference_crefEqualWithoutSubs(threadData, omc_Expression_expCref(threadData, _lhs), omc_Expression_expCref(threadData, _rhs));
+          tmp13 = omc_ComponentReferenceBasics_crefEqualWithoutSubs(threadData, omc_Expression_expCref(threadData, _lhs), omc_Expression_expCref(threadData, _rhs));
           if (1 /* true */ != tmp13) goto goto_2;
 
           _similarEqs = omc_List_separate1OnTrue(threadData, _classEqs, boxvar_Vectorization_equationEqualNoCrefSubs, _eq ,&_rest);
-
-          omc_Expression_expCref(threadData, _lhs);
-
-          omc_Expression_expCref(threadData, _rhs);
 
           _iterator = _OMC_LIT4;
 
@@ -1736,7 +1711,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Vectorization_buildBackendDAEFor
 
           _crefs2 = omc_BackendEquation_equationCrefs(threadData, listGet(_similarEqs, ((modelica_integer) 1)));
 
-          _crefs2 = omc_List_intersection1OnTrue(threadData, _crefs, _crefs2, boxvar_ComponentReference_crefEqual ,&_crefs ,NULL);
+          _crefs2 = omc_List_intersection1OnTrue(threadData, _crefs, _crefs2, boxvar_ComponentReferenceBasics_crefEqual ,&_crefs ,NULL);
 
           _numCrefs = listLength(_crefs);
 
@@ -2124,7 +2099,7 @@ modelica_boolean omc_Vectorization_expEqualNoCrefSubs(threadData_t *threadData, 
           if (mmc__uniontype__metarecord__typedef__equal(tmpMeta18,6,2) == 0) goto goto_2;
           tmpMeta19 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta18), 2));
           _cr = tmpMeta19;
-          tmp1 = omc_ComponentReference_crefEqualWithoutSubs(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inExp1), 2))), _cr);
+          tmp1 = omc_ComponentReferenceBasics_crefEqualWithoutSubs(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inExp1), 2))), _cr);
           goto tmp3_done;
         }
         case 19: {
@@ -2372,17 +2347,17 @@ modelica_boolean omc_Vectorization_expEqualNoCrefSubs(threadData_t *threadData, 
           
           /* Pattern matching succeeded */
           {
-            modelica_metatype __omcQ_24tmpVar3;
+            modelica_metatype __omcQ_24tmpVar1;
             modelica_metatype* tmp67;
             modelica_metatype tmpMeta68;
-            modelica_metatype __omcQ_24tmpVar2;
+            modelica_metatype __omcQ_24tmpVar0;
             modelica_integer tmp69;
             modelica_metatype _sub_loopVar = 0;
             modelica_metatype _sub;
             _sub_loopVar = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inExp1), 3)));
             tmpMeta68 = MMC_REFSTRUCTLIT(mmc_nil);
-            __omcQ_24tmpVar3 = tmpMeta68; /* defaultValue */
-            tmp67 = &__omcQ_24tmpVar3;
+            __omcQ_24tmpVar1 = tmpMeta68; /* defaultValue */
+            tmp67 = &__omcQ_24tmpVar1;
             while(1) {
               tmp69 = 1;
               if (!listEmpty(_sub_loopVar)) {
@@ -2391,8 +2366,8 @@ modelica_boolean omc_Vectorization_expEqualNoCrefSubs(threadData_t *threadData, 
                 tmp69--;
               }
               if (tmp69 == 0) {
-                __omcQ_24tmpVar2 = omc_Expression_getSubscriptExp(threadData, _sub);
-                *tmp67 = mmc_mk_cons(__omcQ_24tmpVar2,0);
+                __omcQ_24tmpVar0 = omc_Expression_getSubscriptExp(threadData, _sub);
+                *tmp67 = mmc_mk_cons(__omcQ_24tmpVar0,0);
                 tmp67 = &MMC_CDR(*tmp67);
               } else if (tmp69 == 1) {
                 break;
@@ -2401,7 +2376,7 @@ modelica_boolean omc_Vectorization_expEqualNoCrefSubs(threadData_t *threadData, 
               }
             }
             *tmp67 = mmc_mk_nil();
-            tmpMeta66 = __omcQ_24tmpVar3;
+            tmpMeta66 = __omcQ_24tmpVar1;
           }
           _expl = tmpMeta66;
 
@@ -2414,17 +2389,17 @@ modelica_boolean omc_Vectorization_expEqualNoCrefSubs(threadData_t *threadData, 
           _subs = tmpMeta72;
 
           {
-            modelica_metatype __omcQ_24tmpVar5;
+            modelica_metatype __omcQ_24tmpVar3;
             modelica_metatype* tmp74;
             modelica_metatype tmpMeta75;
-            modelica_metatype __omcQ_24tmpVar4;
+            modelica_metatype __omcQ_24tmpVar2;
             modelica_integer tmp76;
             modelica_metatype _sub_loopVar = 0;
             modelica_metatype _sub;
             _sub_loopVar = _subs;
             tmpMeta75 = MMC_REFSTRUCTLIT(mmc_nil);
-            __omcQ_24tmpVar5 = tmpMeta75; /* defaultValue */
-            tmp74 = &__omcQ_24tmpVar5;
+            __omcQ_24tmpVar3 = tmpMeta75; /* defaultValue */
+            tmp74 = &__omcQ_24tmpVar3;
             while(1) {
               tmp76 = 1;
               if (!listEmpty(_sub_loopVar)) {
@@ -2433,8 +2408,8 @@ modelica_boolean omc_Vectorization_expEqualNoCrefSubs(threadData_t *threadData, 
                 tmp76--;
               }
               if (tmp76 == 0) {
-                __omcQ_24tmpVar4 = omc_Expression_getSubscriptExp(threadData, _sub);
-                *tmp74 = mmc_mk_cons(__omcQ_24tmpVar4,0);
+                __omcQ_24tmpVar2 = omc_Expression_getSubscriptExp(threadData, _sub);
+                *tmp74 = mmc_mk_cons(__omcQ_24tmpVar2,0);
                 tmp74 = &MMC_CDR(*tmp74);
               } else if (tmp76 == 1) {
                 break;
@@ -2443,7 +2418,7 @@ modelica_boolean omc_Vectorization_expEqualNoCrefSubs(threadData_t *threadData, 
               }
             }
             *tmp74 = mmc_mk_nil();
-            tmpMeta73 = __omcQ_24tmpVar5;
+            tmpMeta73 = __omcQ_24tmpVar3;
           }
           _expl2 = tmpMeta73;
           tmp1 = (omc_Vectorization_expEqualNoCrefSubs(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_inExp1), 2))), _e) && omc_Vectorization_expEqualNoCrefSubsList(threadData, _expl, _expl2));
@@ -2720,7 +2695,7 @@ modelica_boolean omc_Vectorization_equationEqualNoCrefSubs(threadData_t *threadD
 
             _crefs2 = omc_BackendEquation_equationCrefs(threadData, _e2);
 
-            _commCrefs = omc_List_intersectionOnTrue(threadData, _crefs1, _crefs2, boxvar_ComponentReference_crefEqualWithoutSubs);
+            _commCrefs = omc_List_intersectionOnTrue(threadData, _crefs1, _crefs2, boxvar_ComponentReferenceBasics_crefEqualWithoutSubs);
 
             if(((listLength(_crefs1) == listLength(_commCrefs)) && (listLength(_crefs2) == listLength(_commCrefs))))
             {
@@ -2797,7 +2772,7 @@ modelica_boolean omc_Vectorization_equationEqualNoCrefSubs(threadData_t *threadD
           _cr2 = tmpMeta21;
           _exp2 = tmpMeta22;
           tmp4 += 2; /* Pattern matching succeeded; we may skip some cases if we fail */
-          tmp1 = (omc_ComponentReference_crefEqualWithoutSubs(threadData, _cr1, _cr2) && omc_Vectorization_expEqualNoCrefSubs(threadData, _exp1, _exp2));
+          tmp1 = (omc_ComponentReferenceBasics_crefEqualWithoutSubs(threadData, _cr1, _cr2) && omc_Vectorization_expEqualNoCrefSubs(threadData, _exp1, _exp2));
           goto tmp3_done;
         }
         case 5: {
@@ -2908,8 +2883,8 @@ modelica_metatype omc_Vectorization_replaceSubscriptInCrefExp(threadData_t *thre
   // _subsOut has no default value.
   
   
-  { /* matchcontinue expression */
-    volatile modelica_metatype tmp4_1;
+  { /* match expression */
+    modelica_metatype tmp4_1;
     tmp4_1 = _expIn;
     {
       modelica_metatype _cref = NULL;
@@ -2919,9 +2894,6 @@ modelica_metatype omc_Vectorization_replaceSubscriptInCrefExp(threadData_t *thre
       // _cref has no default value.
       // _ty has no default value.
       tmp4 = 0;
-      MMC_TRY_INTERNAL(mmc_jumper)
-      tmp3_top:
-      threadData->mmc_jumper = &new_mmc_jumper;
       for (; tmp4 < 2; tmp4++) {
         switch (MMC_SWITCH_CAST(tmp4)) {
         case 0: {
@@ -2952,17 +2924,10 @@ modelica_metatype omc_Vectorization_replaceSubscriptInCrefExp(threadData_t *thre
         tmp3_end: ;
       }
       goto goto_2;
-      tmp3_done:
-      (void)tmp4;
-      MMC_RESTORE_INTERNAL(mmc_jumper);
-      goto tmp3_done2;
       goto_2:;
-      MMC_CATCH_INTERNAL(mmc_jumper);
-      if (++tmp4 < 2) {
-        goto tmp3_top;
-      }
       MMC_THROW_INTERNAL();
-      tmp3_done2:;
+      goto tmp3_done;
+      tmp3_done:;
     }
   }
   _expOut = tmpMeta[0+0];
@@ -3243,7 +3208,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Vectorization_buildAccumExpInEqu
   modelica_integer _max;
   modelica_metatype _cref = NULL;
   modelica_metatype _term = NULL;
-  modelica_metatype _terms = NULL;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _minmaxTermsOut has no default value.
@@ -3253,7 +3217,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Vectorization_buildAccumExpInEqu
   // _max has no default value.
   // _cref has no default value.
   // _term has no default value.
-  // _terms has no default value.
   { /* matchcontinue expression */
     {
       volatile mmc_switch_type tmp3;
@@ -3308,7 +3271,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Vectorization_buildAccumExpInEqu
           if((_pos == ((modelica_integer) -1)))
           {
             /* Pattern-matching assignment */
-            tmpMeta9 = omc_ComponentReference_crefSubs(threadData, _cref);
+            tmpMeta9 = omc_ComponentReferenceBasics_crefSubs(threadData, _cref);
             if (listEmpty(tmpMeta9)) goto goto_1;
             tmpMeta10 = MMC_CAR(tmpMeta9);
             tmpMeta11 = MMC_CDR(tmpMeta9);
@@ -3338,7 +3301,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_Vectorization_buildAccumExpInEqu
             _max = tmp22  /* pattern as ty=Integer */;
 
             /* Pattern-matching assignment */
-            tmpMeta23 = omc_ComponentReference_crefSubs(threadData, _cref);
+            tmpMeta23 = omc_ComponentReferenceBasics_crefSubs(threadData, _cref);
             if (listEmpty(tmpMeta23)) goto goto_1;
             tmpMeta24 = MMC_CAR(tmpMeta23);
             tmpMeta25 = MMC_CDR(tmpMeta23);
@@ -3518,7 +3481,7 @@ PROTECTED_FUNCTION_STATIC modelica_boolean omc_Vectorization_varIsEqualCrefWitho
   // _cref has no default value.
   _cref = omc_BackendVariable_varCref(threadData, _varIn);
 
-  _b = omc_ComponentReference_crefEqualWithoutSubs(threadData, _cref, _crefIn);
+  _b = omc_ComponentReferenceBasics_crefEqualWithoutSubs(threadData, _cref, _crefIn);
   _return: OMC_LABEL_UNUSED
   return _b;
 }
@@ -3640,28 +3603,6 @@ modelica_metatype omc_Vectorization_collectForLoops(threadData_t *threadData, mo
 {
   modelica_metatype _varsOut = NULL;
   modelica_metatype _eqsOut = NULL;
-  modelica_boolean _cont;
-  modelica_boolean _perfectMatching;
-  modelica_integer _idx;
-  modelica_integer _numEqs;
-  modelica_integer _numVars;
-  modelica_metatype _ass1 = NULL;
-  modelica_metatype _ass2 = NULL;
-  modelica_metatype _idxs = NULL;
-  modelica_metatype _eqSys = NULL;
-  modelica_metatype _shared = NULL;
-  modelica_metatype _repl1 = NULL;
-  modelica_metatype _cref = NULL;
-  modelica_metatype _exp = NULL;
-  modelica_metatype _scalarCrefs = NULL;
-  modelica_metatype _scalarCrefs1 = NULL;
-  modelica_metatype _scalarCrefs2 = NULL;
-  modelica_metatype _allScalarCrefs = NULL;
-  modelica_metatype _stateCrefs = NULL;
-  modelica_metatype _scalarCrefExps = NULL;
-  modelica_metatype _loopEqs = NULL;
-  modelica_metatype _arrVars = NULL;
-  modelica_metatype _loopIds = NULL;
   modelica_metatype _arrayCrefs = NULL;
   modelica_metatype _varLst = NULL;
   modelica_metatype _arrayVars = NULL;
@@ -3684,28 +3625,6 @@ modelica_metatype omc_Vectorization_collectForLoops(threadData_t *threadData, mo
   _tailrecursive: OMC_LABEL_UNUSED
   // _varsOut has no default value.
   // _eqsOut has no default value.
-  // _cont has no default value.
-  // _perfectMatching has no default value.
-  // _idx has no default value.
-  // _numEqs has no default value.
-  // _numVars has no default value.
-  // _ass1 has no default value.
-  // _ass2 has no default value.
-  // _idxs has no default value.
-  // _eqSys has no default value.
-  // _shared has no default value.
-  // _repl1 has no default value.
-  // _cref has no default value.
-  // _exp has no default value.
-  // _scalarCrefs has no default value.
-  // _scalarCrefs1 has no default value.
-  // _scalarCrefs2 has no default value.
-  // _allScalarCrefs has no default value.
-  // _stateCrefs has no default value.
-  // _scalarCrefExps has no default value.
-  // _loopEqs has no default value.
-  // _arrVars has no default value.
-  // _loopIds has no default value.
   // _arrayCrefs has no default value.
   // _varLst has no default value.
   // _arrayVars has no default value.

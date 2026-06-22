@@ -108,8 +108,6 @@ extern struct record_description Flags_FlagData_BOOL__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description IOStream_IOStreamType_LIST__desc;
 
 extern struct record_description NFBinding_UNBOUND__desc;
@@ -121,6 +119,8 @@ extern struct record_description NFExpression_INTEGER__desc;
 extern struct record_description NFExpression_PARTIAL__FUNCTION__APPLICATION__desc;
 
 extern struct record_description NFExpression_SIZE__desc;
+
+extern struct record_description NFExpression_STRING__desc;
 
 extern struct record_description NFExpression_SUBSCRIPTED__EXP__desc;
 
@@ -149,6 +149,8 @@ extern struct record_description NFInstNode_InstNode_EMPTY__NODE__desc;
 extern struct record_description NFModifier_Modifier_NOMOD__desc;
 
 extern struct record_description NFSections_EMPTY__desc;
+
+extern struct record_description NFStatement_ASSIGNMENT__desc;
 
 extern struct record_description NFType_FUNCTION__desc;
 
@@ -216,35 +218,64 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFFunction_Function_instPartialDerivedV
 
 
 DLLDirection
-void omc_NFFunction_Function_checkUseBeforeAssignExp__traverse(threadData_t *threadData, modelica_metatype _unassigned, modelica_metatype _exp, modelica_metatype _info);
+void omc_NFFunction_Function_markProvenAssignedIf(threadData_t *threadData, modelica_metatype _unassigned, modelica_metatype _branches);
+#define boxptr_NFFunction_Function_markProvenAssignedIf omc_NFFunction_Function_markProvenAssignedIf
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFFunction_Function_markProvenAssignedIf,2,0) {(void*) boxptr_NFFunction_Function_markProvenAssignedIf,0}};
+#define boxvar_NFFunction_Function_markProvenAssignedIf MMC_REFSTRUCTLIT(boxvar_lit_NFFunction_Function_markProvenAssignedIf)
+
+
+DLLDirection
+void omc_NFFunction_Function_markProvenAssigned(threadData_t *threadData, modelica_metatype _unassigned, modelica_metatype _statements);
+#define boxptr_NFFunction_Function_markProvenAssigned omc_NFFunction_Function_markProvenAssigned
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFFunction_Function_markProvenAssigned,2,0) {(void*) boxptr_NFFunction_Function_markProvenAssigned,0}};
+#define boxvar_NFFunction_Function_markProvenAssigned MMC_REFSTRUCTLIT(boxvar_lit_NFFunction_Function_markProvenAssigned)
+
+
+DLLDirection
+modelica_metatype omc_NFFunction_Function_initializeUninitialized(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fsections, modelica_metatype _variables, modelica_string _fn_name);
+#define boxptr_NFFunction_Function_initializeUninitialized omc_NFFunction_Function_initializeUninitialized
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFFunction_Function_initializeUninitialized,2,0) {(void*) boxptr_NFFunction_Function_initializeUninitialized,0}};
+#define boxvar_NFFunction_Function_initializeUninitialized MMC_REFSTRUCTLIT(boxvar_lit_NFFunction_Function_initializeUninitialized)
+
+
+DLLDirection
+modelica_metatype omc_NFFunction_Function_checkUseBeforeAssignGenerated(threadData_t *threadData, modelica_metatype _fn);
+#define boxptr_NFFunction_Function_checkUseBeforeAssignGenerated omc_NFFunction_Function_checkUseBeforeAssignGenerated
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFFunction_Function_checkUseBeforeAssignGenerated,2,0) {(void*) boxptr_NFFunction_Function_checkUseBeforeAssignGenerated,0}};
+#define boxvar_NFFunction_Function_checkUseBeforeAssignGenerated MMC_REFSTRUCTLIT(boxvar_lit_NFFunction_Function_checkUseBeforeAssignGenerated)
+
+
+DLLDirection
+void omc_NFFunction_Function_checkUseBeforeAssignExp__traverse(threadData_t *threadData, modelica_metatype _unassigned, modelica_metatype _exp, modelica_metatype _info, modelica_metatype _generatedName);
 #define boxptr_NFFunction_Function_checkUseBeforeAssignExp__traverse omc_NFFunction_Function_checkUseBeforeAssignExp__traverse
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFFunction_Function_checkUseBeforeAssignExp__traverse,2,0) {(void*) boxptr_NFFunction_Function_checkUseBeforeAssignExp__traverse,0}};
 #define boxvar_NFFunction_Function_checkUseBeforeAssignExp__traverse MMC_REFSTRUCTLIT(boxvar_lit_NFFunction_Function_checkUseBeforeAssignExp__traverse)
 
 
 DLLDirection
-void omc_NFFunction_Function_checkUseBeforeAssignExp(threadData_t *threadData, modelica_metatype _unassigned, modelica_metatype _exp, modelica_metatype _info);
+void omc_NFFunction_Function_checkUseBeforeAssignExp(threadData_t *threadData, modelica_metatype _unassigned, modelica_metatype _exp, modelica_metatype _info, modelica_metatype _generatedName);
 #define boxptr_NFFunction_Function_checkUseBeforeAssignExp omc_NFFunction_Function_checkUseBeforeAssignExp
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFFunction_Function_checkUseBeforeAssignExp,2,0) {(void*) boxptr_NFFunction_Function_checkUseBeforeAssignExp,0}};
 #define boxvar_NFFunction_Function_checkUseBeforeAssignExp MMC_REFSTRUCTLIT(boxvar_lit_NFFunction_Function_checkUseBeforeAssignExp)
 
 
 DLLDirection
-void omc_NFFunction_Function_checkUseBeforeAssignIf(threadData_t *threadData, modelica_metatype _unassigned, modelica_metatype _branches, modelica_metatype _info);
+void omc_NFFunction_Function_checkUseBeforeAssignIf(threadData_t *threadData, modelica_metatype _unassigned, modelica_metatype _branches, modelica_metatype _info, modelica_metatype _generatedName);
 #define boxptr_NFFunction_Function_checkUseBeforeAssignIf omc_NFFunction_Function_checkUseBeforeAssignIf
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFFunction_Function_checkUseBeforeAssignIf,2,0) {(void*) boxptr_NFFunction_Function_checkUseBeforeAssignIf,0}};
 #define boxvar_NFFunction_Function_checkUseBeforeAssignIf MMC_REFSTRUCTLIT(boxvar_lit_NFFunction_Function_checkUseBeforeAssignIf)
 
 
 DLLDirection
-void omc_NFFunction_Function_markAssignedOutput(threadData_t *threadData, modelica_metatype _unassigned, modelica_metatype _assignedExp);
-#define boxptr_NFFunction_Function_markAssignedOutput omc_NFFunction_Function_markAssignedOutput
+void omc_NFFunction_Function_markAssignedOutput(threadData_t *threadData, modelica_metatype _unassigned, modelica_metatype _assignedExp, modelica_boolean _byName);
+DLLDirection
+void boxptr_NFFunction_Function_markAssignedOutput(threadData_t *threadData, modelica_metatype _unassigned, modelica_metatype _assignedExp, modelica_metatype _byName);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFFunction_Function_markAssignedOutput,2,0) {(void*) boxptr_NFFunction_Function_markAssignedOutput,0}};
 #define boxvar_NFFunction_Function_markAssignedOutput MMC_REFSTRUCTLIT(boxvar_lit_NFFunction_Function_markAssignedOutput)
 
 
 DLLDirection
-void omc_NFFunction_Function_checkUseBeforeAssign2(threadData_t *threadData, modelica_metatype _unassigned, modelica_metatype _statements);
+void omc_NFFunction_Function_checkUseBeforeAssign2(threadData_t *threadData, modelica_metatype _unassigned, modelica_metatype _statements, modelica_metatype _generatedName);
 #define boxptr_NFFunction_Function_checkUseBeforeAssign2 omc_NFFunction_Function_checkUseBeforeAssign2
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFFunction_Function_checkUseBeforeAssign2,2,0) {(void*) boxptr_NFFunction_Function_checkUseBeforeAssign2,0}};
 #define boxvar_NFFunction_Function_checkUseBeforeAssign2 MMC_REFSTRUCTLIT(boxvar_lit_NFFunction_Function_checkUseBeforeAssign2)
@@ -464,6 +495,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFFunction_Function_getBody,2,0) {(void
 
 
 DLLDirection
+modelica_metatype omc_NFFunction_Function_getSingleBodyExp(threadData_t *threadData, modelica_metatype _fn);
+#define boxptr_NFFunction_Function_getSingleBodyExp omc_NFFunction_Function_getSingleBodyExp
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFFunction_Function_getSingleBodyExp,2,0) {(void*) boxptr_NFFunction_Function_getSingleBodyExp,0}};
+#define boxvar_NFFunction_Function_getSingleBodyExp MMC_REFSTRUCTLIT(boxvar_lit_NFFunction_Function_getSingleBodyExp)
+
+
+DLLDirection
 modelica_metatype omc_NFFunction_Function_makeDAEType(threadData_t *threadData, modelica_metatype _fn, modelica_boolean _boxTypes);
 DLLDirection
 modelica_metatype boxptr_NFFunction_Function_makeDAEType(threadData_t *threadData, modelica_metatype _fn, modelica_metatype _boxTypes);
@@ -561,14 +599,6 @@ DLLDirection
 modelica_metatype boxptr_NFFunction_Function_isFunctionPointer(threadData_t *threadData, modelica_metatype _fn);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFFunction_Function_isFunctionPointer,2,0) {(void*) boxptr_NFFunction_Function_isFunctionPointer,0}};
 #define boxvar_NFFunction_Function_isFunctionPointer MMC_REFSTRUCTLIT(boxvar_lit_NFFunction_Function_isFunctionPointer)
-
-
-DLLDirection
-modelica_boolean omc_NFFunction_Function_isOMImpure(threadData_t *threadData, modelica_metatype _fn);
-DLLDirection
-modelica_metatype boxptr_NFFunction_Function_isOMImpure(threadData_t *threadData, modelica_metatype _fn);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_NFFunction_Function_isOMImpure,2,0) {(void*) boxptr_NFFunction_Function_isOMImpure,0}};
-#define boxvar_NFFunction_Function_isOMImpure MMC_REFSTRUCTLIT(boxvar_lit_NFFunction_Function_isOMImpure)
 
 
 DLLDirection
@@ -863,6 +893,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFFunction_Function_toFlatStream,2,0) {
 #define boxvar_NFFunction_Function_toFlatStream MMC_REFSTRUCTLIT(boxvar_lit_NFFunction_Function_toFlatStream)
 
 
+DLLDirection
+modelica_metatype omc_NFFunction_Function_toStream(threadData_t *threadData, modelica_metatype _fn, modelica_string _indent, modelica_metatype __omcQ_24in_5Fs);
+#define boxptr_NFFunction_Function_toStream omc_NFFunction_Function_toStream
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFFunction_Function_toStream,2,0) {(void*) boxptr_NFFunction_Function_toStream,0}};
+#define boxvar_NFFunction_Function_toStream MMC_REFSTRUCTLIT(boxvar_lit_NFFunction_Function_toStream)
+
+
 #define boxptr_NFFunction_Function_typeString_param__str omc_NFFunction_Function_typeString_param__str
 
 
@@ -893,6 +930,22 @@ DLLDirection
 modelica_metatype boxptr_NFFunction_Function_signatureString(threadData_t *threadData, modelica_metatype _fn, modelica_metatype _printTypes);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFFunction_Function_signatureString,2,0) {(void*) boxptr_NFFunction_Function_signatureString,0}};
 #define boxvar_NFFunction_Function_signatureString MMC_REFSTRUCTLIT(boxvar_lit_NFFunction_Function_signatureString)
+
+
+DLLDirection
+modelica_integer omc_NFFunction_Function_nameHash(threadData_t *threadData, modelica_metatype _fn);
+DLLDirection
+modelica_metatype boxptr_NFFunction_Function_nameHash(threadData_t *threadData, modelica_metatype _fn);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFFunction_Function_nameHash,2,0) {(void*) boxptr_NFFunction_Function_nameHash,0}};
+#define boxvar_NFFunction_Function_nameHash MMC_REFSTRUCTLIT(boxvar_lit_NFFunction_Function_nameHash)
+
+
+DLLDirection
+modelica_boolean omc_NFFunction_Function_nameEqual(threadData_t *threadData, modelica_metatype _fn1, modelica_metatype _fn2);
+DLLDirection
+modelica_metatype boxptr_NFFunction_Function_nameEqual(threadData_t *threadData, modelica_metatype _fn1, modelica_metatype _fn2);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFFunction_Function_nameEqual,2,0) {(void*) boxptr_NFFunction_Function_nameEqual,0}};
+#define boxvar_NFFunction_Function_nameEqual MMC_REFSTRUCTLIT(boxvar_lit_NFFunction_Function_nameEqual)
 
 
 DLLDirection

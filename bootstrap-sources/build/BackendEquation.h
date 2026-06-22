@@ -10,6 +10,8 @@
 extern "C" {
 #endif
 
+extern struct record_description BackendDAE_EqSystem_EQSYSTEM__desc;
+
 extern struct record_description BackendDAE_Equation_ALGORITHM__desc;
 
 extern struct record_description BackendDAE_Equation_ARRAY__EQUATION__desc;
@@ -103,8 +105,6 @@ extern struct record_description ErrorTypes_MessageType_TRANSLATION__desc;
 extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 

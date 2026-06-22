@@ -20,6 +20,8 @@ extern struct record_description BackendDAE_BackendDAEType_INITIALSYSTEM__desc;
 
 extern struct record_description BackendDAE_BaseClockPartitionKind_UNKNOWN__PARTITION__desc;
 
+extern struct record_description BackendDAE_EqSystem_EQSYSTEM__desc;
+
 extern struct record_description BackendDAE_Equation_ALGORITHM__desc;
 
 extern struct record_description BackendDAE_Equation_ARRAY__EQUATION__desc;
@@ -45,6 +47,8 @@ extern struct record_description BackendDAE_IndexReduction_NO__INDEX__REDUCTION_
 extern struct record_description BackendDAE_IndexType_NORMAL__desc;
 
 extern struct record_description BackendDAE_IndexType_SOLVABLE__desc;
+
+extern struct record_description BackendDAE_Shared_SHARED__desc;
 
 extern struct record_description BackendDAE_Var_VAR__desc;
 
@@ -117,8 +121,6 @@ extern struct record_description Flags_FlagData_INT__FLAG__desc;
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__OPTION__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 

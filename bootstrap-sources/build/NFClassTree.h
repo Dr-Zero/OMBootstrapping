@@ -18,8 +18,6 @@ extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NFClassTree_ClassTree_EXPANDED__TREE__desc;
 
 extern struct record_description NFClassTree_ClassTree_FLAT__TREE__desc;

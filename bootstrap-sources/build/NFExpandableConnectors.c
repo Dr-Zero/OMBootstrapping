@@ -7,71 +7,65 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT1,1,4) {&ErrorTypes_Severity_ERROR_
 #define _OMC_LIT2_data "The connectors in connect(%s, %s) are not type compatible."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT2,58,_OMC_LIT2_data);
 #define _OMC_LIT2 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT2)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT3,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT2}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT3,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(406)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT2}};
 #define _OMC_LIT3 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT3)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT4,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(406)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT3}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT4,1,3) {&NFBinding_UNBOUND__desc,}};
 #define _OMC_LIT4 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT4)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT5,1,3) {&NFBinding_UNBOUND__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT5,1,4) {&NFPrefixes_Replaceable_NOT__REPLACEABLE__desc,}};
 #define _OMC_LIT5 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT5)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT6,1,4) {&NFPrefixes_Replaceable_NOT__REPLACEABLE__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT6,10,3) {&NFAttributes_ATTRIBUTES__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(128)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),MMC_IMMEDIATE(MMC_TAGFIXNUM(7)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT5,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */))}};
 #define _OMC_LIT6 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT7,10,3) {&NFAttributes_ATTRIBUTES__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(128)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),MMC_IMMEDIATE(MMC_TAGFIXNUM(7)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),MMC_IMMEDIATE(MMC_TAGFIXNUM(1)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),_OMC_LIT6,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */))}};
-#define _OMC_LIT7 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT7)
-#define _OMC_LIT8_data "virtual variable in expandable connector"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT8,40,_OMC_LIT8_data);
-#define _OMC_LIT8 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT8)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT9,1,1) {_OMC_LIT8}};
+#define _OMC_LIT7_data "virtual variable in expandable connector"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,40,_OMC_LIT7_data);
+#define _OMC_LIT7 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT7)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT8,1,1) {_OMC_LIT7}};
+#define _OMC_LIT8 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT8)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT9,3,3) {&SCode_Comment_COMMENT__desc,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT8}};
 #define _OMC_LIT9 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT9)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT10,3,3) {&SCode_Comment_COMMENT__desc,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT9}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT10,1,35) {&NFBackendExtension_VariableKind_FRONTEND__DUMMY__desc,}};
 #define _OMC_LIT10 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT10)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT11,1,35) {&NFBackendExtension_VariableKind_FRONTEND__DUMMY__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT11,17,3) {&NFBackendExtension_VariableAttributes_VAR__ATTR__REAL__desc,MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none)}};
 #define _OMC_LIT11 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT11)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT12,17,3) {&NFBackendExtension_VariableAttributes_VAR__ATTR__REAL__desc,MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none)}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT12,5,3) {&NFBackendExtension_Annotations_ANNOTATIONS__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_REFSTRUCTLIT(mmc_none)}};
 #define _OMC_LIT12 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT12)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT13,5,3) {&NFBackendExtension_Annotations_ANNOTATIONS__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_REFSTRUCTLIT(mmc_none)}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT13,10,3) {&NFBackendExtension_BackendInfo_BACKEND__INFO__desc,_OMC_LIT10,_OMC_LIT11,_OMC_LIT12,MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none)}};
 #define _OMC_LIT13 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT13)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT14,8,3) {&NFBackendExtension_BackendInfo_BACKEND__INFO__desc,_OMC_LIT11,_OMC_LIT12,_OMC_LIT13,MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none)}};
-#define _OMC_LIT14 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT14)
-#define _OMC_LIT15_data "Augmenting a virtual element in an expandable connector is not yet supported."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT15,77,_OMC_LIT15_data);
-#define _OMC_LIT15 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT15)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT16,1,11) {&NFInstNode_InstNode_EMPTY__NODE__desc,}};
-#define _OMC_LIT16 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT16)
-#define _OMC_LIT17_data "NFExpandableConnectors.augmentExpandableConnector got non-component element"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT17,75,_OMC_LIT17_data);
+#define _OMC_LIT14_data "Augmenting a virtual element in an expandable connector is not yet supported."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT14,77,_OMC_LIT14_data);
+#define _OMC_LIT14 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT14)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT15,1,11) {&NFInstNode_InstNode_EMPTY__NODE__desc,}};
+#define _OMC_LIT15 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT15)
+#define _OMC_LIT16_data "NFExpandableConnectors.augmentExpandableConnector got non-component element"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT16,75,_OMC_LIT16_data);
+#define _OMC_LIT16 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT16)
+#define _OMC_LIT17_data "/projects/OpenModelica-session2/OMCompiler/Compiler/NFFrontEnd/NFExpandableConnectors.mo"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT17,88,_OMC_LIT17_data);
 #define _OMC_LIT17 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT17)
-#define _OMC_LIT18_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/NFFrontEnd/NFExpandableConnectors.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT18,89,_OMC_LIT18_data);
-#define _OMC_LIT18 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT18)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT19_6,1.77098641e9);
-#define _OMC_LIT19_6 MMC_REFREALLIT(_OMC_LIT_STRUCT19_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT19,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT18,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(408)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(408)),MMC_IMMEDIATE(MMC_TAGFIXNUM(95)),_OMC_LIT19_6}};
+static const MMC_DEFREALLIT(_OMC_LIT_STRUCT18_6,1.781983298e9);
+#define _OMC_LIT18_6 MMC_REFREALLIT(_OMC_LIT_STRUCT18_6)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT18,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT17,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(409)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(409)),MMC_IMMEDIATE(MMC_TAGFIXNUM(95)),_OMC_LIT18_6}};
+#define _OMC_LIT18 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT18)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT19,1,3) {&DAE_Prefix_NOPRE__desc,}};
 #define _OMC_LIT19 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT19)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT20,1,3) {&DAE_Prefix_NOPRE__desc,}};
-#define _OMC_LIT20 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT20)
-#define _OMC_LIT21_data ""
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT21,0,_OMC_LIT21_data);
-#define _OMC_LIT21 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT21)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT22,1,11) {&DAE_Type_T__UNKNOWN__desc,}};
+#define _OMC_LIT20_data ""
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT20,0,_OMC_LIT20_data);
+#define _OMC_LIT20 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT20)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT21,1,11) {&DAE_Type_T__UNKNOWN__desc,}};
+#define _OMC_LIT21 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT21)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT22,4,4) {&DAE_ComponentRef_CREF__IDENT__desc,_OMC_LIT20,_OMC_LIT21,MMC_REFSTRUCTLIT(mmc_nil)}};
 #define _OMC_LIT22 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT22)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT23,4,4) {&DAE_ComponentRef_CREF__IDENT__desc,_OMC_LIT21,_OMC_LIT22,MMC_REFSTRUCTLIT(mmc_nil)}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT23,2,0) {_OMC_LIT22,_OMC_LIT22}};
 #define _OMC_LIT23 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT23)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT24,2,0) {_OMC_LIT23,_OMC_LIT23}};
-#define _OMC_LIT24 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT24)
-#define _OMC_LIT25_data "Cannot connect undeclared connectors %s with %s. At least one of them must be declared."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT25,87,_OMC_LIT25_data);
-#define _OMC_LIT25 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT25)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT26,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT25}};
-#define _OMC_LIT26 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT26)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT27,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(50)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT26}};
+#define _OMC_LIT24_data "Cannot connect undeclared connectors %s with %s. At least one of them must be declared."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT24,87,_OMC_LIT24_data);
+#define _OMC_LIT24 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT24)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT25,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(50)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT24}};
+#define _OMC_LIT25 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT25)
+#define _OMC_LIT26_data "Cannot connect expandable connector %s with non-expandable connector %s."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT26,72,_OMC_LIT26_data);
+#define _OMC_LIT26 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT26)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT27,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(49)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT26}};
 #define _OMC_LIT27 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT27)
-#define _OMC_LIT28_data "Cannot connect expandable connector %s with non-expandable connector %s."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT28,72,_OMC_LIT28_data);
-#define _OMC_LIT28 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT28)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT29,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT28}};
-#define _OMC_LIT29 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT29)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT30,5,3) {&ErrorTypes_Message_MESSAGE__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(49)),_OMC_LIT0,_OMC_LIT1,_OMC_LIT29}};
-#define _OMC_LIT30 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT30)
 #include "util/modelica.h"
 
 #include "NFExpandableConnectors_includes.h"
@@ -252,7 +246,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFExpandableConnectors_updateExp
   if(omc_NFTypeCheck_isIncompatibleMatch(threadData, (modelica_integer)_mk))
   {
     tmpMeta6 = mmc_mk_cons(omc_NFExpression_toString(threadData, _e1), mmc_mk_cons(omc_NFExpression_toString(threadData, _e2), MMC_REFSTRUCTLIT(mmc_nil)));
-    omc_Error_addSourceMessageAndFail(threadData, _OMC_LIT4, tmpMeta6, omc_NFConnector_getInfo(threadData, _c1));
+    omc_Error_addSourceMessageAndFail(threadData, _OMC_LIT3, tmpMeta6, omc_NFConnector_getInfo(threadData, _c1));
   }
 
   tmpMeta8 = mmc_mk_box3(3, &NFConnection_CONNECTION__desc, _c1, _c2);
@@ -279,7 +273,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFExpandableConnectors_createVir
 {
   modelica_metatype _vars = NULL;
   modelica_metatype _var = NULL;
-  modelica_metatype _comps = NULL;
   modelica_metatype _name = NULL;
   modelica_metatype _ty = NULL;
   modelica_metatype tmpMeta1;
@@ -295,7 +288,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFExpandableConnectors_createVir
   _tailrecursive: OMC_LABEL_UNUSED
   _vars = __omcQ_24in_5Fvars;
   // _var has no default value.
-  // _comps has no default value.
   // _name has no default value.
   // _ty has no default value.
   if(omc_NFType_isComplex(threadData, _connectorType))
@@ -318,7 +310,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFExpandableConnectors_createVir
   {
     tmpMeta6 = MMC_REFSTRUCTLIT(mmc_nil);
     tmpMeta7 = MMC_REFSTRUCTLIT(mmc_nil);
-    tmpMeta8 = mmc_mk_box11(3, &NFVariable_VARIABLE__desc, _connectorName, _connectorType, _OMC_LIT5, mmc_mk_integer(1), _OMC_LIT7, tmpMeta6, tmpMeta7, _OMC_LIT10, _info, _OMC_LIT14);
+    tmpMeta8 = mmc_mk_box11(3, &NFVariable_VARIABLE__desc, _connectorName, _connectorType, _OMC_LIT4, mmc_mk_integer(1), _OMC_LIT6, tmpMeta6, tmpMeta7, _OMC_LIT9, _info, _OMC_LIT13);
     _var = tmpMeta8;
 
     tmpMeta9 = mmc_mk_cons(_var, _vars);
@@ -339,7 +331,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFExpandableConnectors_augmentEx
   modelica_metatype _node = NULL;
   modelica_metatype _cls = NULL;
   modelica_metatype _cls_tree = NULL;
-  modelica_metatype _comp = NULL;
   modelica_metatype _nodes = NULL;
   modelica_metatype tmpMeta1;
   modelica_metatype _ty = NULL;
@@ -360,7 +351,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFExpandableConnectors_augmentEx
   // _node has no default value.
   // _cls has no default value.
   // _cls_tree has no default value.
-  // _comp has no default value.
   tmpMeta1 = MMC_REFSTRUCTLIT(mmc_nil);
   _nodes = tmpMeta1;
   // _ty has no default value.
@@ -371,7 +361,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFExpandableConnectors_augmentEx
 
   if(omc_NFInstNode_InstNode_isName(threadData, _exp_node))
   {
-    omc_Error_addInternalError(threadData, _OMC_LIT15, omc_NFConnector_getInfo(threadData, _conn));
+    omc_Error_addInternalError(threadData, _OMC_LIT14, omc_NFConnector_getInfo(threadData, _conn));
 
     MMC_THROW_INTERNAL();
   }
@@ -410,7 +400,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFExpandableConnectors_augmentEx
             }
             case 1: {
               /* Pattern matching succeeded */
-              _comp_node = _OMC_LIT16;
+              _comp_node = _OMC_LIT15;
               goto tmp4_done;
             }
             }
@@ -455,7 +445,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFExpandableConnectors_augmentEx
         }
         else
         {
-          omc_Error_addInternalError(threadData, _OMC_LIT17, _OMC_LIT19);
+          omc_Error_addInternalError(threadData, _OMC_LIT16, _OMC_LIT18);
         }
       }
     }
@@ -748,7 +738,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFExpandableConnectors_getExpand
               tmpMeta12 = MMC_REFSTRUCTLIT(mmc_nil);
               _name = omc_NFComponentRef_prefixCref(threadData, _n, _ty, tmpMeta12, _par_name);
 
-              tmpMeta13 = mmc_mk_cons(omc_NFConnector_fromCref(threadData, _name, _ty, omc_ElementSource_createElementSource(threadData, omc_NFInstNode_InstNode_info(threadData, _n), mmc_mk_none(), _OMC_LIT20, _OMC_LIT24)), _ecl);
+              tmpMeta13 = mmc_mk_cons(omc_NFConnector_fromCref(threadData, _name, _ty, omc_ElementSource_createElementSource(threadData, omc_NFInstNode_InstNode_info(threadData, _n), mmc_mk_none(), _OMC_LIT19, _OMC_LIT23)), _ecl);
               _ecl = tmpMeta13;
             }
           }
@@ -876,7 +866,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFExpandableConnectors_sortConne
   modelica_metatype tmpMeta3;
   modelica_metatype _c1 = NULL;
   modelica_metatype _c2 = NULL;
-  modelica_metatype _err_msg = NULL;
   modelica_boolean _is_undeclared1;
   modelica_boolean _is_undeclared2;
   modelica_boolean _is_expandable1;
@@ -901,7 +890,6 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFExpandableConnectors_sortConne
   _normalConnections = tmpMeta3;
   // _c1 has no default value.
   // _c2 has no default value.
-  // _err_msg has no default value.
   // _is_undeclared1 has no default value.
   // _is_undeclared2 has no default value.
   // _is_expandable1 has no default value.
@@ -937,7 +925,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFExpandableConnectors_sortConne
         else
         {
           tmpMeta9 = mmc_mk_cons(omc_NFConnector_toString(threadData, (_is_expandable1?_c1:_c2)), mmc_mk_cons(omc_NFConnector_toString(threadData, (_is_expandable1?_c2:_c1)), MMC_REFSTRUCTLIT(mmc_nil)));
-          omc_Error_addSourceMessageAndFail(threadData, _OMC_LIT30, tmpMeta9, omc_NFConnector_getInfo(threadData, _c1));
+          omc_Error_addSourceMessageAndFail(threadData, _OMC_LIT27, tmpMeta9, omc_NFConnector_getInfo(threadData, _c1));
         }
       }
       else
@@ -947,7 +935,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_NFExpandableConnectors_sortConne
           if((_is_undeclared1 && _is_undeclared2))
           {
             tmpMeta10 = mmc_mk_cons(omc_NFConnector_toString(threadData, _c1), mmc_mk_cons(omc_NFConnector_toString(threadData, _c2), MMC_REFSTRUCTLIT(mmc_nil)));
-            omc_Error_addSourceMessageAndFail(threadData, _OMC_LIT27, tmpMeta10, omc_NFConnector_getInfo(threadData, _c1));
+            omc_Error_addSourceMessageAndFail(threadData, _OMC_LIT25, tmpMeta10, omc_NFConnector_getInfo(threadData, _c1));
           }
           else
           {
@@ -1035,17 +1023,17 @@ modelica_metatype omc_NFExpandableConnectors_elaborate(threadData_t *threadData,
   _connections = tmpMeta5;
 
   {
-    modelica_metatype __omcQ_24tmpVar3;
+    modelica_metatype __omcQ_24tmpVar1;
     modelica_metatype* tmp7;
     modelica_metatype tmpMeta8;
-    modelica_metatype __omcQ_24tmpVar2;
+    modelica_metatype __omcQ_24tmpVar0;
     modelica_integer tmp9;
     modelica_metatype _v_loopVar = 0;
     modelica_metatype _v;
     _v_loopVar = _vars;
     tmpMeta8 = MMC_REFSTRUCTLIT(mmc_nil);
-    __omcQ_24tmpVar3 = tmpMeta8; /* defaultValue */
-    tmp7 = &__omcQ_24tmpVar3;
+    __omcQ_24tmpVar1 = tmpMeta8; /* defaultValue */
+    tmp7 = &__omcQ_24tmpVar1;
     while(1) {
       tmp9 = 1;
       if (!listEmpty(_v_loopVar)) {
@@ -1054,8 +1042,8 @@ modelica_metatype omc_NFExpandableConnectors_elaborate(threadData_t *threadData,
         tmp9--;
       }
       if (tmp9 == 0) {
-        __omcQ_24tmpVar2 = omc_NFExpandableConnectors_updatePotentiallyPresentVariable(threadData, _v);
-        *tmp7 = mmc_mk_cons(__omcQ_24tmpVar2,0);
+        __omcQ_24tmpVar0 = omc_NFExpandableConnectors_updatePotentiallyPresentVariable(threadData, _v);
+        *tmp7 = mmc_mk_cons(__omcQ_24tmpVar0,0);
         tmp7 = &MMC_CDR(*tmp7);
       } else if (tmp9 == 1) {
         break;
@@ -1064,7 +1052,7 @@ modelica_metatype omc_NFExpandableConnectors_elaborate(threadData_t *threadData,
       }
     }
     *tmp7 = mmc_mk_nil();
-    tmpMeta6 = __omcQ_24tmpVar3;
+    tmpMeta6 = __omcQ_24tmpVar1;
   }
   _vars = tmpMeta6;
 

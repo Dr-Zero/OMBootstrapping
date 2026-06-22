@@ -32,8 +32,6 @@ extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__OPTION__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 
 DLLDirection
 void omc_Dump_writePath(threadData_t *threadData, modelica_complex _file, modelica_metatype _path, modelica_integer _escape, modelica_string _delimiter, modelica_boolean _initialDot);

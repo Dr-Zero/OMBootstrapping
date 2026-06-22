@@ -16,6 +16,8 @@ extern struct record_description BackendDAE_BackendDAEType_INLINESYSTEM__desc;
 
 extern struct record_description BackendDAE_InlineData_INLINE__DATA__desc;
 
+extern struct record_description BackendDAE_Shared_SHARED__desc;
+
 extern struct record_description BackendDAE_VarKind_ALG__STATE__desc;
 
 extern struct record_description BackendDAE_VarKind_ALG__STATE__OLD__desc;
@@ -39,8 +41,6 @@ extern struct record_description Flags_FlagData_ENUM__FLAG__desc;
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__OPTION__desc;
-
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
 
 
 #define boxptr_SymbolicImplicitSolver_symSolverAppendStringToStates omc_SymbolicImplicitSolver_symSolverAppendStringToStates

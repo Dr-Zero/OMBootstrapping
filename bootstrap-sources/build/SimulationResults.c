@@ -240,11 +240,11 @@ modelica_metatype omc_SimulationResults_readDataset(threadData_t *threadData, mo
   // _rows has no default value.
   _rvals = omc_SimulationResults_readDataset_readDataset__work(threadData, _filename, _vars, _dimsize);
 
-  _vals = omc_List_mapListReverse(threadData, _rvals, boxvar_ValuesUtil_makeReal);
+  _vals = omc_List_mapListReverse(threadData, _rvals, boxvar_ValuesMake_makeReal);
 
-  _rows = omc_List_mapReverse(threadData, _vals, boxvar_ValuesUtil_makeArray);
+  _rows = omc_List_mapReverse(threadData, _vals, boxvar_ValuesMake_makeArray);
 
-  _val = omc_ValuesUtil_makeArray(threadData, _rows);
+  _val = omc_ValuesMake_makeArray(threadData, _rows);
   _return: OMC_LABEL_UNUSED
   return _val;
 }

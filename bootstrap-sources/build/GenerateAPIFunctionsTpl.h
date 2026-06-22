@@ -32,19 +32,19 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getQtInterfaceF
 #define boxvar_GenerateAPIFunctionsTpl_getQtInterfaceFunc MMC_REFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getQtInterfaceFunc)
 
 
+#define boxptr_GenerateAPIFunctionsTpl_fun__93 omc_GenerateAPIFunctionsTpl_fun__93
+
+
 #define boxptr_GenerateAPIFunctionsTpl_fun__90 omc_GenerateAPIFunctionsTpl_fun__90
 
 
-#define boxptr_GenerateAPIFunctionsTpl_fun__87 omc_GenerateAPIFunctionsTpl_fun__87
+#define boxptr_GenerateAPIFunctionsTpl_lm__89 omc_GenerateAPIFunctionsTpl_lm__89
 
 
-#define boxptr_GenerateAPIFunctionsTpl_lm__86 omc_GenerateAPIFunctionsTpl_lm__86
+#define boxptr_GenerateAPIFunctionsTpl_lm__88 omc_GenerateAPIFunctionsTpl_lm__88
 
 
-#define boxptr_GenerateAPIFunctionsTpl_lm__85 omc_GenerateAPIFunctionsTpl_lm__85
-
-
-#define boxptr_GenerateAPIFunctionsTpl_lm__84 omc_GenerateAPIFunctionsTpl_lm__84
+#define boxptr_GenerateAPIFunctionsTpl_lm__87 omc_GenerateAPIFunctionsTpl_lm__87
 
 
 DLLDirection
@@ -54,7 +54,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getQtResponseLo
 #define boxvar_GenerateAPIFunctionsTpl_getQtResponseLogText MMC_REFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getQtResponseLogText)
 
 
-#define boxptr_GenerateAPIFunctionsTpl_fun__82 omc_GenerateAPIFunctionsTpl_fun__82
+#define boxptr_GenerateAPIFunctionsTpl_fun__85 omc_GenerateAPIFunctionsTpl_fun__85
 
 
 DLLDirection
@@ -64,7 +64,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getQtOutArgArra
 #define boxvar_GenerateAPIFunctionsTpl_getQtOutArgArray MMC_REFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getQtOutArgArray)
 
 
-#define boxptr_GenerateAPIFunctionsTpl_fun__80 omc_GenerateAPIFunctionsTpl_fun__80
+#define boxptr_GenerateAPIFunctionsTpl_fun__83 omc_GenerateAPIFunctionsTpl_fun__83
 
 
 DLLDirection
@@ -74,7 +74,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getQtOutArg,2,0
 #define boxvar_GenerateAPIFunctionsTpl_getQtOutArg MMC_REFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getQtOutArg)
 
 
-#define boxptr_GenerateAPIFunctionsTpl_fun__78 omc_GenerateAPIFunctionsTpl_fun__78
+#define boxptr_GenerateAPIFunctionsTpl_fun__81 omc_GenerateAPIFunctionsTpl_fun__81
 
 
 DLLDirection
@@ -84,7 +84,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getQtCommandLog
 #define boxvar_GenerateAPIFunctionsTpl_getQtCommandLogText MMC_REFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getQtCommandLogText)
 
 
-#define boxptr_GenerateAPIFunctionsTpl_fun__76 omc_GenerateAPIFunctionsTpl_fun__76
+#define boxptr_GenerateAPIFunctionsTpl_fun__79 omc_GenerateAPIFunctionsTpl_fun__79
 
 
 DLLDirection
@@ -94,7 +94,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getQtInArgBoxed
 #define boxvar_GenerateAPIFunctionsTpl_getQtInArgBoxed MMC_REFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getQtInArgBoxed)
 
 
-#define boxptr_GenerateAPIFunctionsTpl_fun__74 omc_GenerateAPIFunctionsTpl_fun__74
+#define boxptr_GenerateAPIFunctionsTpl_fun__77 omc_GenerateAPIFunctionsTpl_fun__77
 
 
 DLLDirection
@@ -104,7 +104,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getQtInArg,2,0)
 #define boxvar_GenerateAPIFunctionsTpl_getQtInArg MMC_REFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getQtInArg)
 
 
-#define boxptr_GenerateAPIFunctionsTpl_fun__72 omc_GenerateAPIFunctionsTpl_fun__72
+#define boxptr_GenerateAPIFunctionsTpl_fun__75 omc_GenerateAPIFunctionsTpl_fun__75
 
 
 DLLDirection
@@ -115,13 +115,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getQtInterfaceH
 #define boxvar_GenerateAPIFunctionsTpl_getQtInterfaceHeader MMC_REFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getQtInterfaceHeader)
 
 
-#define boxptr_GenerateAPIFunctionsTpl_lm__68 omc_GenerateAPIFunctionsTpl_lm__68
+#define boxptr_GenerateAPIFunctionsTpl_lm__71 omc_GenerateAPIFunctionsTpl_lm__71
 
 
-#define boxptr_GenerateAPIFunctionsTpl_lm__67 omc_GenerateAPIFunctionsTpl_lm__67
+#define boxptr_GenerateAPIFunctionsTpl_lm__70 omc_GenerateAPIFunctionsTpl_lm__70
 
 
-#define boxptr_GenerateAPIFunctionsTpl_lm__66 omc_GenerateAPIFunctionsTpl_lm__66
+#define boxptr_GenerateAPIFunctionsTpl_lm__69 omc_GenerateAPIFunctionsTpl_lm__69
 
 
 DLLDirection
@@ -162,7 +162,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getQtInterfaceH
 #define boxvar_GenerateAPIFunctionsTpl_getQtInterfaceHeaders MMC_REFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getQtInterfaceHeaders)
 
 
-#define boxptr_GenerateAPIFunctionsTpl_lm__59 omc_GenerateAPIFunctionsTpl_lm__59
+#define boxptr_GenerateAPIFunctionsTpl_lm__62 omc_GenerateAPIFunctionsTpl_lm__62
 
 
 DLLDirection
@@ -172,7 +172,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getQtInterface,
 #define boxvar_GenerateAPIFunctionsTpl_getQtInterface MMC_REFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getQtInterface)
 
 
-#define boxptr_GenerateAPIFunctionsTpl_lm__57 omc_GenerateAPIFunctionsTpl_lm__57
+#define boxptr_GenerateAPIFunctionsTpl_lm__60 omc_GenerateAPIFunctionsTpl_lm__60
 
 
 DLLDirection
@@ -182,7 +182,16 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getCevalScriptI
 #define boxvar_GenerateAPIFunctionsTpl_getCevalScriptInterfaceFunc MMC_REFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getCevalScriptInterfaceFunc)
 
 
-#define boxptr_GenerateAPIFunctionsTpl_fun__55 omc_GenerateAPIFunctionsTpl_fun__55
+#define boxptr_GenerateAPIFunctionsTpl_fun__58 omc_GenerateAPIFunctionsTpl_fun__58
+
+
+#define boxptr_GenerateAPIFunctionsTpl_fun__57 omc_GenerateAPIFunctionsTpl_fun__57
+
+
+#define boxptr_GenerateAPIFunctionsTpl_lm__56 omc_GenerateAPIFunctionsTpl_lm__56
+
+
+#define boxptr_GenerateAPIFunctionsTpl_lm__55 omc_GenerateAPIFunctionsTpl_lm__55
 
 
 #define boxptr_GenerateAPIFunctionsTpl_fun__54 omc_GenerateAPIFunctionsTpl_fun__54
@@ -194,15 +203,6 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getCevalScriptI
 #define boxptr_GenerateAPIFunctionsTpl_lm__52 omc_GenerateAPIFunctionsTpl_lm__52
 
 
-#define boxptr_GenerateAPIFunctionsTpl_fun__51 omc_GenerateAPIFunctionsTpl_fun__51
-
-
-#define boxptr_GenerateAPIFunctionsTpl_lm__50 omc_GenerateAPIFunctionsTpl_lm__50
-
-
-#define boxptr_GenerateAPIFunctionsTpl_lm__49 omc_GenerateAPIFunctionsTpl_lm__49
-
-
 DLLDirection
 modelica_metatype omc_GenerateAPIFunctionsTpl_getOutValueArray(threadData_t *threadData, modelica_metatype _txt, modelica_metatype _a_name, modelica_metatype _a_ty, modelica_metatype *out_out_a_name);
 #define boxptr_GenerateAPIFunctionsTpl_getOutValueArray omc_GenerateAPIFunctionsTpl_getOutValueArray
@@ -210,7 +210,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getOutValueArra
 #define boxvar_GenerateAPIFunctionsTpl_getOutValueArray MMC_REFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getOutValueArray)
 
 
-#define boxptr_GenerateAPIFunctionsTpl_fun__47 omc_GenerateAPIFunctionsTpl_fun__47
+#define boxptr_GenerateAPIFunctionsTpl_fun__50 omc_GenerateAPIFunctionsTpl_fun__50
 
 
 DLLDirection
@@ -220,7 +220,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getOutValue,2,0
 #define boxvar_GenerateAPIFunctionsTpl_getOutValue MMC_REFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getOutValue)
 
 
-#define boxptr_GenerateAPIFunctionsTpl_fun__45 omc_GenerateAPIFunctionsTpl_fun__45
+#define boxptr_GenerateAPIFunctionsTpl_fun__48 omc_GenerateAPIFunctionsTpl_fun__48
 
 
 DLLDirection
@@ -230,7 +230,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getInValue,2,0)
 #define boxvar_GenerateAPIFunctionsTpl_getInValue MMC_REFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getInValue)
 
 
-#define boxptr_GenerateAPIFunctionsTpl_fun__43 omc_GenerateAPIFunctionsTpl_fun__43
+#define boxptr_GenerateAPIFunctionsTpl_fun__46 omc_GenerateAPIFunctionsTpl_fun__46
 
 
 DLLDirection
@@ -247,7 +247,7 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getCevalScriptI
 #define boxvar_GenerateAPIFunctionsTpl_getCevalScriptInterface MMC_REFSTRUCTLIT(boxvar_lit_GenerateAPIFunctionsTpl_getCevalScriptInterface)
 
 
-#define boxptr_GenerateAPIFunctionsTpl_lm__40 omc_GenerateAPIFunctionsTpl_lm__40
+#define boxptr_GenerateAPIFunctionsTpl_lm__43 omc_GenerateAPIFunctionsTpl_lm__43
 
 #ifdef __cplusplus
 }

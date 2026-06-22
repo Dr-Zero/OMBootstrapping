@@ -24,8 +24,6 @@ extern struct record_description ErrorTypes_Severity_WARNING__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description IOStream_IOStreamType_LIST__desc;
 
 extern struct record_description NFAttributes_ATTRIBUTES__desc;
@@ -53,8 +51,6 @@ extern struct record_description NFComponentRef_EMPTY__desc;
 extern struct record_description NFConnections_BrokenEdge_BROKEN__EDGE__desc;
 
 extern struct record_description NFDuplicateTree_Tree_EMPTY__desc;
-
-extern struct record_description NFEquation_EQUALITY__desc;
 
 extern struct record_description NFExpression_BOOLEAN__desc;
 
@@ -314,6 +310,14 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFOCConnectionGraph_CrefSets_addList,2,
 
 
 DLLDirection
+modelica_boolean omc_NFOCConnectionGraph_CrefSets_contains(threadData_t *threadData, modelica_metatype _entry, modelica_metatype _sets);
+DLLDirection
+modelica_metatype boxptr_NFOCConnectionGraph_CrefSets_contains(threadData_t *threadData, modelica_metatype _entry, modelica_metatype _sets);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFOCConnectionGraph_CrefSets_contains,2,0) {(void*) boxptr_NFOCConnectionGraph_CrefSets_contains,0}};
+#define boxvar_NFOCConnectionGraph_CrefSets_contains MMC_REFSTRUCTLIT(boxvar_lit_NFOCConnectionGraph_CrefSets_contains)
+
+
+DLLDirection
 modelica_metatype omc_NFOCConnectionGraph_CrefSets_emptySets(threadData_t *threadData, modelica_integer _setCount);
 DLLDirection
 modelica_metatype boxptr_NFOCConnectionGraph_CrefSets_emptySets(threadData_t *threadData, modelica_metatype _setCount);
@@ -358,6 +362,13 @@ DLLDirection
 modelica_metatype boxptr_NFOCConnectionGraph_CrefSets_findSetArrayIndex(threadData_t *threadData, modelica_metatype _entry, modelica_metatype _sets);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFOCConnectionGraph_CrefSets_findSetArrayIndex,2,0) {(void*) boxptr_NFOCConnectionGraph_CrefSets_findSetArrayIndex,0}};
 #define boxvar_NFOCConnectionGraph_CrefSets_findSetArrayIndex MMC_REFSTRUCTLIT(boxvar_lit_NFOCConnectionGraph_CrefSets_findSetArrayIndex)
+
+
+DLLDirection
+modelica_metatype omc_NFOCConnectionGraph_CrefSets_getEntry(threadData_t *threadData, modelica_metatype _entry, modelica_metatype _sets);
+#define boxptr_NFOCConnectionGraph_CrefSets_getEntry omc_NFOCConnectionGraph_CrefSets_getEntry
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFOCConnectionGraph_CrefSets_getEntry,2,0) {(void*) boxptr_NFOCConnectionGraph_CrefSets_getEntry,0}};
+#define boxvar_NFOCConnectionGraph_CrefSets_getEntry MMC_REFSTRUCTLIT(boxvar_lit_NFOCConnectionGraph_CrefSets_getEntry)
 
 
 DLLDirection

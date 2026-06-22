@@ -10,23 +10,19 @@ static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT2,2,5) {&Flags_FlagData_INT__FLAG__
 #define _OMC_LIT3_data "Sets the size of the internal hash table used for instantiation caching."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT3,72,_OMC_LIT3_data);
 #define _OMC_LIT3 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT3)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT4,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT3}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT4,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(82)),_OMC_LIT0,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT1,_OMC_LIT2,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT3}};
 #define _OMC_LIT4 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT4)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT5,8,3) {&Flags_ConfigFlag_CONFIG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(82)),_OMC_LIT0,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT1,_OMC_LIT2,MMC_REFSTRUCTLIT(mmc_none),_OMC_LIT4}};
-#define _OMC_LIT5 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT5)
-#define _OMC_LIT6_data "OPAQUE_VALUE"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT6,12,_OMC_LIT6_data);
+#define _OMC_LIT5_data "OPAQUE_VALUE"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT5,12,_OMC_LIT5_data);
+#define _OMC_LIT5 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT5)
+#define _OMC_LIT6_data "Cache"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT6,5,_OMC_LIT6_data);
 #define _OMC_LIT6 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT6)
-#define _OMC_LIT7_data "Cache"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,5,_OMC_LIT7_data);
+#define _OMC_LIT7_data "Turns off the instantiation cache."
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,34,_OMC_LIT7_data);
 #define _OMC_LIT7 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT7)
-#define _OMC_LIT8_data "Turns off the instantiation cache."
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT8,34,_OMC_LIT8_data);
-#define _OMC_LIT8 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT8)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT9,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT8}};
-#define _OMC_LIT9 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT9)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT10,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(17)),_OMC_LIT7,MMC_IMMEDIATE(MMC_TAGFIXNUM(1 /* true */)),_OMC_LIT9}};
-#define _OMC_LIT10 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT10)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT8,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(17)),_OMC_LIT6,MMC_IMMEDIATE(MMC_TAGFIXNUM(1 /* true */)),_OMC_LIT7}};
+#define _OMC_LIT8 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT8)
 #include "util/modelica.h"
 
 #include "InstHashTable_includes.h"
@@ -75,7 +71,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_InstHashTable_emptyInstHashTable
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _hashTable has no default value.
-  _hashTable = omc_InstHashTable_emptyInstHashTableSized(threadData, omc_Flags_getConfigInt(threadData, _OMC_LIT5));
+  _hashTable = omc_InstHashTable_emptyInstHashTableSized(threadData, omc_Flags_getConfigInt(threadData, _OMC_LIT4));
 
   omc_OperatorOverloading_initCache(threadData);
   _return: OMC_LABEL_UNUSED
@@ -88,7 +84,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_InstHashTable_opaqVal(threadData_t
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _str has no default value.
-  _str = _OMC_LIT6;
+  _str = _OMC_LIT5;
   _return: OMC_LABEL_UNUSED
   return _str;
 }
@@ -122,7 +118,7 @@ void omc_InstHashTable_addToInstCache(threadData_t *threadData, modelica_metatyp
           
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp5 = omc_Flags_isSet(threadData, _OMC_LIT10);
+          tmp5 = omc_Flags_isSet(threadData, _OMC_LIT8);
           if (0 /* false */ != tmp5) goto goto_1;
           goto tmp2_done;
         }

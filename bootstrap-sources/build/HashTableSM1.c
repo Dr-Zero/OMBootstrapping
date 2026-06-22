@@ -68,9 +68,9 @@ modelica_string omc_HashTableSM1_modeStr(threadData_t *threadData, modelica_meta
 
   _crefs = omc_BaseHashSet_hashSetList(threadData, _edges);
 
-  _paths = omc_List_map(threadData, _crefs, boxvar_ComponentReference_printComponentRefStr);
+  _paths = omc_List_map(threadData, _crefs, boxvar_ComponentReferenceBasics_printComponentRefStr);
 
-  tmpMeta6 = stringAppend(_OMC_LIT0,omc_ComponentReference_printComponentRefStr(threadData, _componentRef));
+  tmpMeta6 = stringAppend(_OMC_LIT0,omc_ComponentReferenceBasics_printComponentRefStr(threadData, _componentRef));
   tmpMeta7 = stringAppend(tmpMeta6,_OMC_LIT1);
   tmpMeta8 = stringAppend(tmpMeta7,(_isInitial?_OMC_LIT2:_OMC_LIT3));
   tmpMeta9 = stringAppend(tmpMeta8,_OMC_LIT4);
@@ -90,7 +90,7 @@ modelica_metatype omc_HashTableSM1_emptyHashTableSized(threadData_t *threadData,
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _hashTable has no default value.
-  tmpMeta1 = mmc_mk_box4(0, boxvar_ComponentReference_hashComponentRef, boxvar_ComponentReference_crefEqual, boxvar_ComponentReference_printComponentRefStr, boxvar_HashTableSM1_modeStr);
+  tmpMeta1 = mmc_mk_box4(0, boxvar_ComponentReferenceBasics_hashComponentRef, boxvar_ComponentReferenceBasics_crefEqual, boxvar_ComponentReferenceBasics_printComponentRefStr, boxvar_HashTableSM1_modeStr);
   _hashTable = omc_BaseHashTable_emptyHashTableWork(threadData, _size, tmpMeta1);
   _return: OMC_LABEL_UNUSED
   return _hashTable;

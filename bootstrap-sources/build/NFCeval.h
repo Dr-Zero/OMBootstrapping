@@ -20,8 +20,6 @@ extern struct record_description ErrorTypes_Severity_NOTIFICATION__desc;
 
 extern struct record_description ErrorTypes_Severity_WARNING__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NFBinding_CEVAL__BINDING__desc;
 
 extern struct record_description NFBinding_UNBOUND__desc;
@@ -212,10 +210,17 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFCeval_evalGetInstanceName,2,0) {(void
 #define boxptr_NFCeval_evalBuiltinOnes omc_NFCeval_evalBuiltinOnes
 
 
+#define boxptr_NFCeval_evalBuiltinNthRoot omc_NFCeval_evalBuiltinNthRoot
+
+
 #define boxptr_NFCeval_evalBuiltinMod omc_NFCeval_evalBuiltinMod
 
 
+DLLDirection
+modelica_metatype omc_NFCeval_evalBuiltinMin2(threadData_t *threadData, modelica_metatype _exp1, modelica_metatype _exp2);
 #define boxptr_NFCeval_evalBuiltinMin2 omc_NFCeval_evalBuiltinMin2
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFCeval_evalBuiltinMin2,2,0) {(void*) boxptr_NFCeval_evalBuiltinMin2,0}};
+#define boxvar_NFCeval_evalBuiltinMin2 MMC_REFSTRUCTLIT(boxvar_lit_NFCeval_evalBuiltinMin2)
 
 
 #define boxptr_NFCeval_evalBuiltinMin omc_NFCeval_evalBuiltinMin
@@ -224,7 +229,11 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFCeval_evalGetInstanceName,2,0) {(void
 #define boxptr_NFCeval_evalPositiveMax omc_NFCeval_evalPositiveMax
 
 
+DLLDirection
+modelica_metatype omc_NFCeval_evalBuiltinMax2(threadData_t *threadData, modelica_metatype _exp1, modelica_metatype _exp2);
 #define boxptr_NFCeval_evalBuiltinMax2 omc_NFCeval_evalBuiltinMax2
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFCeval_evalBuiltinMax2,2,0) {(void*) boxptr_NFCeval_evalBuiltinMax2,0}};
+#define boxvar_NFCeval_evalBuiltinMax2 MMC_REFSTRUCTLIT(boxvar_lit_NFCeval_evalBuiltinMax2)
 
 
 #define boxptr_NFCeval_evalBuiltinMax omc_NFCeval_evalBuiltinMax
@@ -804,6 +813,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFCeval_evalExpPartialDefault,2,0) {(vo
 
 
 DLLDirection
+modelica_metatype omc_NFCeval_tryEvalExpPartial(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype _target);
+#define boxptr_NFCeval_tryEvalExpPartial omc_NFCeval_tryEvalExpPartial
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFCeval_tryEvalExpPartial,2,0) {(void*) boxptr_NFCeval_tryEvalExpPartial,0}};
+#define boxvar_NFCeval_tryEvalExpPartial MMC_REFSTRUCTLIT(boxvar_lit_NFCeval_tryEvalExpPartial)
+
+
+DLLDirection
 modelica_metatype omc_NFCeval_evalExp(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype _target);
 #define boxptr_NFCeval_evalExp omc_NFCeval_evalExp
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFCeval_evalExp,2,0) {(void*) boxptr_NFCeval_evalExp,0}};
@@ -811,10 +827,17 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFCeval_evalExp,2,0) {(void*) boxptr_NF
 
 
 DLLDirection
-modelica_metatype omc_NFCeval_tryEvalExp(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp);
+modelica_metatype omc_NFCeval_tryEvalExp(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype _target);
 #define boxptr_NFCeval_tryEvalExp omc_NFCeval_tryEvalExp
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFCeval_tryEvalExp,2,0) {(void*) boxptr_NFCeval_tryEvalExp,0}};
 #define boxvar_NFCeval_tryEvalExp MMC_REFSTRUCTLIT(boxvar_lit_NFCeval_tryEvalExp)
+
+
+DLLDirection
+modelica_metatype omc_NFCeval_tryEvalExpResizable(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype _target);
+#define boxptr_NFCeval_tryEvalExpResizable omc_NFCeval_tryEvalExpResizable
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NFCeval_tryEvalExpResizable,2,0) {(void*) boxptr_NFCeval_tryEvalExpResizable,0}};
+#define boxvar_NFCeval_tryEvalExpResizable MMC_REFSTRUCTLIT(boxvar_lit_NFCeval_tryEvalExpResizable)
 
 
 DLLDirection

@@ -146,8 +146,6 @@ extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__DESC__OPTION__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 extern struct record_description SymbolicJacobian_LinearJacobian_LINEAR__REAL__JACOBIAN__desc;
@@ -398,14 +396,6 @@ DLLDirection
 modelica_metatype boxptr_SymbolicJacobian_transposeSparsePattern(threadData_t *threadData, modelica_metatype _inSparsePattern, modelica_metatype _inAccumList, modelica_metatype _inValue);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_SymbolicJacobian_transposeSparsePattern,2,0) {(void*) boxptr_SymbolicJacobian_transposeSparsePattern,0}};
 #define boxvar_SymbolicJacobian_transposeSparsePattern MMC_REFSTRUCTLIT(boxvar_lit_SymbolicJacobian_transposeSparsePattern)
-
-
-DLLDirection
-modelica_metatype omc_SymbolicJacobian_createColoring(threadData_t *threadData, modelica_metatype _sparseArray, modelica_metatype _sparseArrayT, modelica_integer _sizeVars, modelica_integer _sizeVarswithDep);
-DLLDirection
-modelica_metatype boxptr_SymbolicJacobian_createColoring(threadData_t *threadData, modelica_metatype _sparseArray, modelica_metatype _sparseArrayT, modelica_metatype _sizeVars, modelica_metatype _sizeVarswithDep);
-static const MMC_DEFSTRUCTLIT(boxvar_lit_SymbolicJacobian_createColoring,2,0) {(void*) boxptr_SymbolicJacobian_createColoring,0}};
-#define boxvar_SymbolicJacobian_createColoring MMC_REFSTRUCTLIT(boxvar_lit_SymbolicJacobian_createColoring)
 
 
 DLLDirection

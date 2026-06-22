@@ -102,10 +102,6 @@ extern struct record_description Flags_FlagVisibility_INTERNAL__desc;
 
 extern struct record_description Flags_ValidOptions_STRING__DESC__OPTION__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
-
 extern struct record_description RemoveSimpleEquations_SimpleContainer_ALIAS__desc;
 
 extern struct record_description RemoveSimpleEquations_SimpleContainer_PARAMETERALIAS__desc;

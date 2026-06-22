@@ -40,8 +40,6 @@ extern struct record_description Flags_FlagData_INT__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description HpcOmSimCode_CommunicationInfo_COMMUNICATION__INFO__desc;
 
 extern struct record_description HpcOmSimCode_Schedule_EMPTYSCHEDULE__desc;
@@ -72,7 +70,11 @@ extern struct record_description SimCode_JacobianColumn_JAC__COLUMN__desc;
 
 extern struct record_description SimCode_JacobianMatrix_JAC__MATRIX__desc;
 
+extern struct record_description SimCode_SimCode_SIMCODE__desc;
+
 extern struct record_description SimCode_SimEqSystem_SES__SIMPLE__ASSIGN__desc;
+
+extern struct record_description SimCode_VarInfo_VARINFO__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 

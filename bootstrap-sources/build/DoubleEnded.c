@@ -385,24 +385,24 @@ modelica_metatype omc_DoubleEnded_pop__front(threadData_t *threadData, modelica_
 
   omc_Mutable_update(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_delst), 2))), mmc_mk_integer(((modelica_integer) -1) + _length));
 
+  /* Pattern-matching assignment */
+  tmpMeta2 = omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_delst), 3))));
+  if (listEmpty(tmpMeta2)) MMC_THROW_INTERNAL();
+  tmpMeta3 = MMC_CAR(tmpMeta2);
+  tmpMeta4 = MMC_CDR(tmpMeta2);
+  _elt = tmpMeta3;
+  _lst = tmpMeta4;
+
   if((_length == ((modelica_integer) 1)))
   {
-    tmpMeta2 = MMC_REFSTRUCTLIT(mmc_nil);
-    omc_Mutable_update(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_delst), 3))), tmpMeta2);
+    tmpMeta5 = MMC_REFSTRUCTLIT(mmc_nil);
+    omc_Mutable_update(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_delst), 3))), tmpMeta5);
 
-    tmpMeta3 = MMC_REFSTRUCTLIT(mmc_nil);
-    omc_Mutable_update(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_delst), 4))), tmpMeta3);
+    tmpMeta6 = MMC_REFSTRUCTLIT(mmc_nil);
+    omc_Mutable_update(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_delst), 4))), tmpMeta6);
 
     goto _return;
   }
-
-  /* Pattern-matching assignment */
-  tmpMeta4 = omc_Mutable_access(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_delst), 3))));
-  if (listEmpty(tmpMeta4)) MMC_THROW_INTERNAL();
-  tmpMeta5 = MMC_CAR(tmpMeta4);
-  tmpMeta6 = MMC_CDR(tmpMeta4);
-  _elt = tmpMeta5;
-  _lst = tmpMeta6;
 
   omc_Mutable_update(threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_delst), 3))), _lst);
   _return: OMC_LABEL_UNUSED

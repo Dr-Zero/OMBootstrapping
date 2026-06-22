@@ -40,6 +40,8 @@ extern struct record_description DAE_ComponentPrefix_NOCOMPPRE__desc;
 
 extern struct record_description DAE_ElementSource_SOURCE__desc;
 
+extern struct record_description DAE_Expand_EXPAND__desc;
+
 extern struct record_description DAE_FunctionAttributes_FUNCTION__ATTRIBUTES__desc;
 
 extern struct record_description DAE_FunctionBuiltin_FUNCTION__BUILTIN__desc;
@@ -64,9 +66,7 @@ extern struct record_description Flags_FlagData_STRING__LIST__FLAG__desc;
 
 extern struct record_description Flags_FlagVisibility_EXTERNAL__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
+extern struct record_description NBEquation_Equation_ALGORITHM__desc;
 
 extern struct record_description NBEquation_Equation_ARRAY__EQUATION__desc;
 
@@ -180,6 +180,8 @@ extern struct record_description NFType_INTEGER__desc;
 
 extern struct record_description NFType_REAL__desc;
 
+extern struct record_description NFType_TUPLE__desc;
+
 extern struct record_description NFVariable_VARIABLE__desc;
 
 extern struct record_description SCode_Comment_COMMENT__desc;
@@ -199,6 +201,14 @@ modelica_metatype omc_NBEquation_EqData_compress(threadData_t *threadData, model
 #define boxptr_NBEquation_EqData_compress omc_NBEquation_EqData_compress
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_EqData_compress,2,0) {(void*) boxptr_NBEquation_EqData_compress,0}};
 #define boxvar_NBEquation_EqData_compress MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_EqData_compress)
+
+
+DLLDirection
+modelica_metatype omc_NBEquation_EqData_removeTypedCheck(threadData_t *threadData, modelica_metatype __omcQ_24in_5FeqData, modelica_fnptr _func, modelica_integer _eqType);
+DLLDirection
+modelica_metatype boxptr_NBEquation_EqData_removeTypedCheck(threadData_t *threadData, modelica_metatype __omcQ_24in_5FeqData, modelica_fnptr _func, modelica_metatype _eqType);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_EqData_removeTypedCheck,2,0) {(void*) boxptr_NBEquation_EqData_removeTypedCheck,0}};
+#define boxvar_NBEquation_EqData_removeTypedCheck MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_EqData_removeTypedCheck)
 
 
 DLLDirection
@@ -395,6 +405,13 @@ modelica_metatype omc_NBEquation_EquationPointers_add(threadData_t *threadData, 
 #define boxptr_NBEquation_EquationPointers_add omc_NBEquation_EquationPointers_add
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_EquationPointers_add,2,0) {(void*) boxptr_NBEquation_EquationPointers_add,0}};
 #define boxvar_NBEquation_EquationPointers_add MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_EquationPointers_add)
+
+
+DLLDirection
+modelica_metatype omc_NBEquation_EquationPointers_removeCheck(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fequations, modelica_fnptr _func);
+#define boxptr_NBEquation_EquationPointers_removeCheck omc_NBEquation_EquationPointers_removeCheck
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_EquationPointers_removeCheck,2,0) {(void*) boxptr_NBEquation_EquationPointers_removeCheck,0}};
+#define boxvar_NBEquation_EquationPointers_removeCheck MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_EquationPointers_removeCheck)
 
 
 DLLDirection
@@ -733,6 +750,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_WhenEquationBody_fromFlatLis
 
 
 DLLDirection
+modelica_metatype omc_NBEquation_IfEquationBody_getType(threadData_t *threadData, modelica_metatype _body);
+#define boxptr_NBEquation_IfEquationBody_getType omc_NBEquation_IfEquationBody_getType
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_IfEquationBody_getType,2,0) {(void*) boxptr_NBEquation_IfEquationBody_getType,0}};
+#define boxvar_NBEquation_IfEquationBody_getType MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_IfEquationBody_getType)
+
+
+DLLDirection
 modelica_boolean omc_NBEquation_IfEquationBody_isRecordOrTupleEquation(threadData_t *threadData, modelica_metatype _body);
 DLLDirection
 modelica_metatype boxptr_NBEquation_IfEquationBody_isRecordOrTupleEquation(threadData_t *threadData, modelica_metatype _body);
@@ -819,6 +843,13 @@ modelica_metatype omc_NBEquation_IfEquationBody_mapEqnExpCref(threadData_t *thre
 #define boxptr_NBEquation_IfEquationBody_mapEqnExpCref omc_NBEquation_IfEquationBody_mapEqnExpCref
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_IfEquationBody_mapEqnExpCref,2,0) {(void*) boxptr_NBEquation_IfEquationBody_mapEqnExpCref,0}};
 #define boxvar_NBEquation_IfEquationBody_mapEqnExpCref MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_IfEquationBody_mapEqnExpCref)
+
+
+DLLDirection
+modelica_metatype omc_NBEquation_IfEquationBody_mapCondition(threadData_t *threadData, modelica_metatype __omcQ_24in_5FifBody, modelica_fnptr _funcExp, modelica_metatype _funcCrefOpt, modelica_fnptr _mapFunc);
+#define boxptr_NBEquation_IfEquationBody_mapCondition omc_NBEquation_IfEquationBody_mapCondition
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_IfEquationBody_mapCondition,2,0) {(void*) boxptr_NBEquation_IfEquationBody_mapCondition,0}};
+#define boxvar_NBEquation_IfEquationBody_mapCondition MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_IfEquationBody_mapCondition)
 
 
 DLLDirection
@@ -941,6 +972,14 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Equation_expIsParamOrConst,2
 
 
 DLLDirection
+modelica_boolean omc_NBEquation_Equation_hasDerivative(threadData_t *threadData, modelica_metatype _eqn_ptr);
+DLLDirection
+modelica_metatype boxptr_NBEquation_Equation_hasDerivative(threadData_t *threadData, modelica_metatype _eqn_ptr);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Equation_hasDerivative,2,0) {(void*) boxptr_NBEquation_Equation_hasDerivative,0}};
+#define boxvar_NBEquation_Equation_hasDerivative MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_Equation_hasDerivative)
+
+
+DLLDirection
 modelica_boolean omc_NBEquation_Equation_isResizable(threadData_t *threadData, modelica_metatype _eqn_ptr);
 DLLDirection
 modelica_metatype boxptr_NBEquation_Equation_isResizable(threadData_t *threadData, modelica_metatype _eqn_ptr);
@@ -954,6 +993,14 @@ DLLDirection
 modelica_metatype boxptr_NBEquation_Equation_isCompound(threadData_t *threadData, modelica_metatype _eqn_ptr);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Equation_isCompound,2,0) {(void*) boxptr_NBEquation_Equation_isCompound,0}};
 #define boxvar_NBEquation_Equation_isCompound MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_Equation_isCompound)
+
+
+DLLDirection
+modelica_boolean omc_NBEquation_Equation_isTypeClock(threadData_t *threadData, modelica_metatype _eqn_ptr);
+DLLDirection
+modelica_metatype boxptr_NBEquation_Equation_isTypeClock(threadData_t *threadData, modelica_metatype _eqn_ptr);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Equation_isTypeClock,2,0) {(void*) boxptr_NBEquation_Equation_isTypeClock,0}};
+#define boxvar_NBEquation_Equation_isTypeClock MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_Equation_isTypeClock)
 
 
 DLLDirection
@@ -1232,6 +1279,13 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Equation_collectCrefs,2,0) {
 
 
 DLLDirection
+modelica_metatype omc_NBEquation_Equation_mapCondition(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feq, modelica_fnptr _funcExp, modelica_metatype _funcCrefOpt, modelica_fnptr _mapFunc);
+#define boxptr_NBEquation_Equation_mapCondition omc_NBEquation_Equation_mapCondition
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Equation_mapCondition,2,0) {(void*) boxptr_NBEquation_Equation_mapCondition,0}};
+#define boxvar_NBEquation_Equation_mapCondition MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_Equation_mapCondition)
+
+
+DLLDirection
 modelica_metatype omc_NBEquation_Equation_map(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feq, modelica_fnptr _funcExp, modelica_metatype _funcCrefOpt, modelica_fnptr _mapFunc);
 #define boxptr_NBEquation_Equation_map omc_NBEquation_Equation_map
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Equation_map,2,0) {(void*) boxptr_NBEquation_Equation_map,0}};
@@ -1506,6 +1560,14 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Iterator_normalizedSubscript
 
 
 DLLDirection
+modelica_boolean omc_NBEquation_Iterator_extractFromCallIfException(threadData_t *threadData, modelica_metatype _exp);
+DLLDirection
+modelica_metatype boxptr_NBEquation_Iterator_extractFromCallIfException(threadData_t *threadData, modelica_metatype _exp);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Iterator_extractFromCallIfException,2,0) {(void*) boxptr_NBEquation_Iterator_extractFromCallIfException,0}};
+#define boxvar_NBEquation_Iterator_extractFromCallIfException MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_Iterator_extractFromCallIfException)
+
+
+DLLDirection
 modelica_metatype omc_NBEquation_Iterator_extractFromCall(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype __omcQ_24in_5Fiter, modelica_metatype _replacements, modelica_metatype _new_iters, modelica_metatype _dims_map, modelica_metatype *out_iter);
 #define boxptr_NBEquation_Iterator_extractFromCall omc_NBEquation_Iterator_extractFromCall
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Iterator_extractFromCall,2,0) {(void*) boxptr_NBEquation_Iterator_extractFromCall,0}};
@@ -1683,6 +1745,13 @@ modelica_metatype omc_NBEquation_Iterator_fromFrames(threadData_t *threadData, m
 #define boxptr_NBEquation_Iterator_fromFrames omc_NBEquation_Iterator_fromFrames
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Iterator_fromFrames,2,0) {(void*) boxptr_NBEquation_Iterator_fromFrames,0}};
 #define boxvar_NBEquation_Iterator_fromFrames MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_Iterator_fromFrames)
+
+
+DLLDirection
+modelica_metatype omc_NBEquation_Iterator_createFrame(threadData_t *threadData, modelica_metatype _iter, modelica_metatype _set);
+#define boxptr_NBEquation_Iterator_createFrame omc_NBEquation_Iterator_createFrame
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBEquation_Iterator_createFrame,2,0) {(void*) boxptr_NBEquation_Iterator_createFrame,0}};
+#define boxvar_NBEquation_Iterator_createFrame MMC_REFSTRUCTLIT(boxvar_lit_NBEquation_Iterator_createFrame)
 
 #ifdef __cplusplus
 }

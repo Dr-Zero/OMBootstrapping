@@ -79,101 +79,99 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT29,11,_OMC_LIT29_data);
 #define _OMC_LIT30_data "Strips the environment prefix from path/crefs. Defaults to true."
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT30,64,_OMC_LIT30_data);
 #define _OMC_LIT30 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT30)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT31,2,3) {&Gettext_TranslatableContent_gettext__desc,_OMC_LIT30}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT31,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(105)),_OMC_LIT29,MMC_IMMEDIATE(MMC_TAGFIXNUM(1 /* true */)),_OMC_LIT30}};
 #define _OMC_LIT31 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT31)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT32,5,3) {&Flags_DebugFlag_DEBUG__FLAG__desc,MMC_IMMEDIATE(MMC_TAGFIXNUM(105)),_OMC_LIT29,MMC_IMMEDIATE(MMC_TAGFIXNUM(1 /* true */)),_OMC_LIT31}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT32,1,7) {&SCode_FunctionRestriction_FR__PARALLEL__FUNCTION__desc,}};
 #define _OMC_LIT32 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT32)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT33,1,7) {&SCode_FunctionRestriction_FR__PARALLEL__FUNCTION__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT33,2,12) {&SCode_Restriction_R__FUNCTION__desc,_OMC_LIT32}};
 #define _OMC_LIT33 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT33)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT34,2,12) {&SCode_Restriction_R__FUNCTION__desc,_OMC_LIT33}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT34,1,5) {&Absyn_FunctionPurity_NO__PURITY__desc,}};
 #define _OMC_LIT34 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT34)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT35,1,5) {&Absyn_FunctionPurity_NO__PURITY__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT35,2,3) {&SCode_FunctionRestriction_FR__NORMAL__FUNCTION__desc,_OMC_LIT34}};
 #define _OMC_LIT35 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT35)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT36,2,3) {&SCode_FunctionRestriction_FR__NORMAL__FUNCTION__desc,_OMC_LIT35}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT36,2,12) {&SCode_Restriction_R__FUNCTION__desc,_OMC_LIT35}};
 #define _OMC_LIT36 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT36)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT37,2,12) {&SCode_Restriction_R__FUNCTION__desc,_OMC_LIT36}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT37,1,3) {&SCode_Restriction_R__CLASS__desc,}};
 #define _OMC_LIT37 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT37)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT38,1,3) {&SCode_Restriction_R__CLASS__desc,}};
-#define _OMC_LIT38 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT38)
-#define _OMC_LIT39_data "$foriter loop scope$"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT39,20,_OMC_LIT39_data);
+#define _OMC_LIT38_data "$foriter loop scope$"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT38,20,_OMC_LIT38_data);
+#define _OMC_LIT38 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT38)
+#define _OMC_LIT39_data "$parforiter loop scope$"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT39,23,_OMC_LIT39_data);
 #define _OMC_LIT39 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT39)
-#define _OMC_LIT40_data "$parforiter loop scope$"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT40,23,_OMC_LIT40_data);
+#define _OMC_LIT40_data "$for loop scope$"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT40,16,_OMC_LIT40_data);
 #define _OMC_LIT40 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT40)
-#define _OMC_LIT41_data "$for loop scope$"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT41,16,_OMC_LIT41_data);
+#define _OMC_LIT41_data "FGraph.openScope: failed to open new scope in scope: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT41,53,_OMC_LIT41_data);
 #define _OMC_LIT41 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT41)
-#define _OMC_LIT42_data "FGraph.openScope: failed to open new scope in scope: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT42,53,_OMC_LIT42_data);
+#define _OMC_LIT42_data " name: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT42,7,_OMC_LIT42_data);
 #define _OMC_LIT42 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT42)
-#define _OMC_LIT43_data " name: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT43,7,_OMC_LIT43_data);
+#define _OMC_LIT43_data "FGraph.openNewScope: failed to open new scope in scope: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT43,56,_OMC_LIT43_data);
 #define _OMC_LIT43 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT43)
-#define _OMC_LIT44_data "FGraph.openNewScope: failed to open new scope in scope: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT44,56,_OMC_LIT44_data);
+#define _OMC_LIT44_data "<global scope>"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT44,14,_OMC_LIT44_data);
 #define _OMC_LIT44 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT44)
-#define _OMC_LIT45_data "<global scope>"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT45,14,_OMC_LIT45_data);
-#define _OMC_LIT45 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT45)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT46,1,3) {&SCode_Visibility_PUBLIC__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT45,1,3) {&SCode_Visibility_PUBLIC__desc,}};
+#define _OMC_LIT45 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT45)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT46,1,4) {&SCode_Redeclare_NOT__REDECLARE__desc,}};
 #define _OMC_LIT46 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT46)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT47,1,4) {&SCode_Redeclare_NOT__REDECLARE__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT47,1,4) {&SCode_Final_NOT__FINAL__desc,}};
 #define _OMC_LIT47 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT47)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT48,1,4) {&SCode_Final_NOT__FINAL__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT48,1,6) {&Absyn_InnerOuter_NOT__INNER__OUTER__desc,}};
 #define _OMC_LIT48 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT48)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT49,1,6) {&Absyn_InnerOuter_NOT__INNER__OUTER__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT49,1,4) {&SCode_Replaceable_NOT__REPLACEABLE__desc,}};
 #define _OMC_LIT49 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT49)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT50,1,4) {&SCode_Replaceable_NOT__REPLACEABLE__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT50,6,3) {&SCode_Prefixes_PREFIXES__desc,_OMC_LIT45,_OMC_LIT46,_OMC_LIT47,_OMC_LIT48,_OMC_LIT49}};
 #define _OMC_LIT50 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT50)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT51,6,3) {&SCode_Prefixes_PREFIXES__desc,_OMC_LIT46,_OMC_LIT47,_OMC_LIT48,_OMC_LIT49,_OMC_LIT50}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT51,1,3) {&SCode_ConnectorType_POTENTIAL__desc,}};
 #define _OMC_LIT51 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT51)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT52,1,3) {&SCode_ConnectorType_POTENTIAL__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT52,1,5) {&SCode_Parallelism_NON__PARALLEL__desc,}};
 #define _OMC_LIT52 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT52)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT53,1,5) {&SCode_Parallelism_NON__PARALLEL__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT53,1,5) {&Absyn_Direction_BIDIR__desc,}};
 #define _OMC_LIT53 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT53)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT54,1,5) {&Absyn_Direction_BIDIR__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT54,1,3) {&Absyn_IsField_NONFIELD__desc,}};
 #define _OMC_LIT54 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT54)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT55,1,3) {&Absyn_IsField_NONFIELD__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT55,7,3) {&SCode_Attributes_ATTR__desc,MMC_REFSTRUCTLIT(mmc_nil),_OMC_LIT51,_OMC_LIT52,_OMC_LIT5,_OMC_LIT53,_OMC_LIT54}};
 #define _OMC_LIT55 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT55)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT56,7,3) {&SCode_Attributes_ATTR__desc,MMC_REFSTRUCTLIT(mmc_nil),_OMC_LIT52,_OMC_LIT53,_OMC_LIT5,_OMC_LIT54,_OMC_LIT55}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT56,3,3) {&Absyn_TypeSpec_TPATH__desc,_OMC_LIT7,MMC_REFSTRUCTLIT(mmc_none)}};
 #define _OMC_LIT56 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT56)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT57,3,3) {&Absyn_TypeSpec_TPATH__desc,_OMC_LIT7,MMC_REFSTRUCTLIT(mmc_none)}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT57,1,7) {&SCode_Mod_NOMOD__desc,}};
 #define _OMC_LIT57 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT57)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT58,1,7) {&SCode_Mod_NOMOD__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT58,3,3) {&SCode_Comment_COMMENT__desc,MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none)}};
 #define _OMC_LIT58 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT58)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT59,3,3) {&SCode_Comment_COMMENT__desc,MMC_REFSTRUCTLIT(mmc_none),MMC_REFSTRUCTLIT(mmc_none)}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT59,1,6) {&DAE_ConnectorType_NON__CONNECTOR__desc,}};
 #define _OMC_LIT59 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT59)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT60,1,6) {&DAE_ConnectorType_NON__CONNECTOR__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT60,1,4) {&FCore_Kind_BUILTIN__desc,}};
 #define _OMC_LIT60 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT60)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT61,1,4) {&FCore_Kind_BUILTIN__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT61,1,5) {&DAE_Mod_NOMOD__desc,}};
 #define _OMC_LIT61 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT61)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT62,1,5) {&DAE_Mod_NOMOD__desc,}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT62,1,3) {&FCore_Status_VAR__UNTYPED__desc,}};
 #define _OMC_LIT62 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT62)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT63,1,3) {&FCore_Status_VAR__UNTYPED__desc,}};
-#define _OMC_LIT63 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT63)
-#define _OMC_LIT64_data "FGraph.updateInstance failed for node: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT64,39,_OMC_LIT64_data);
+#define _OMC_LIT63_data "FGraph.updateInstance failed for node: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT63,39,_OMC_LIT63_data);
+#define _OMC_LIT63 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT63)
+#define _OMC_LIT64_data " variable:"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT64,10,_OMC_LIT64_data);
 #define _OMC_LIT64 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT64)
-#define _OMC_LIT65_data " variable:"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT65,10,_OMC_LIT65_data);
+#define _OMC_LIT65_data "FNode.updateSourceTargetScope: node does not yet have a reference child: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT65,73,_OMC_LIT65_data);
 #define _OMC_LIT65 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT65)
-#define _OMC_LIT66_data "FNode.updateSourceTargetScope: node does not yet have a reference child: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT66,73,_OMC_LIT66_data);
+#define _OMC_LIT66_data " target scope: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT66,15,_OMC_LIT66_data);
 #define _OMC_LIT66 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT66)
-#define _OMC_LIT67_data " target scope: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT67,15,_OMC_LIT67_data);
+#define _OMC_LIT67_data "empty"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT67,5,_OMC_LIT67_data);
 #define _OMC_LIT67 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT67)
-#define _OMC_LIT68_data "empty"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT68,5,_OMC_LIT68_data);
-#define _OMC_LIT68 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT68)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT69,2,4) {&FCore_Graph_EG__desc,_OMC_LIT68}};
-#define _OMC_LIT69 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT69)
-#define _OMC_LIT70_data "$top"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT70,4,_OMC_LIT70_data);
-#define _OMC_LIT70 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT70)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT71,1,3) {&FCore_Data_TOP__desc,}};
-#define _OMC_LIT71 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT71)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT68,2,4) {&FCore_Graph_EG__desc,_OMC_LIT67}};
+#define _OMC_LIT68 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT68)
+#define _OMC_LIT69_data "$top"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT69,4,_OMC_LIT69_data);
+#define _OMC_LIT69 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT69)
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT70,1,3) {&FCore_Data_TOP__desc,}};
+#define _OMC_LIT70 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT70)
 #include "util/modelica.h"
 
 #include "FGraph_includes.h"
@@ -1181,7 +1179,6 @@ modelica_metatype omc_FGraph_mkVersionNode(threadData_t *threadData, modelica_me
           modelica_metatype tmpMeta7;
           modelica_metatype tmpMeta8;
           modelica_metatype tmpMeta9;
-          modelica_metatype tmpMeta10;
           /* Pattern matching succeeded */
           _c = _inTargetClass;
 
@@ -1193,8 +1190,6 @@ modelica_metatype omc_FGraph_mkVersionNode(threadData_t *threadData, modelica_me
 
           _sourceRef = omc_FNode_child(threadData, omc_FGraph_lastScopeRef(threadData, _inSourceEnv), _inSourceName);
 
-          tmpMeta6 = mmc_mk_cons(_sourceRef, omc_FGraph_currentScope(threadData, _inSourceEnv));
-
           _targetClassParentRef = omc_FGraph_lastScopeRef(threadData, _inTargetClassEnv);
 
           _classRef = omc_FNode_child(threadData, _targetClassParentRef, _targetClassName);
@@ -1202,20 +1197,20 @@ modelica_metatype omc_FGraph_mkVersionNode(threadData_t *threadData, modelica_me
           _classRef = omc_FNode_copyRefNoUpdate(threadData, _classRef);
 
           /* Pattern-matching assignment */
-          tmpMeta7 = omc_FNode_refData(threadData, _classRef);
-          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta7,3,5) == 0) goto goto_2;
-          tmpMeta8 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta7), 2));
-          _c = tmpMeta8;
+          tmpMeta6 = omc_FNode_refData(threadData, _classRef);
+          if (mmc__uniontype__metarecord__typedef__equal(tmpMeta6,3,5) == 0) goto goto_2;
+          tmpMeta7 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta6), 2));
+          _c = tmpMeta7;
 
           _c = omc_SCodeUtil_setClassName(threadData, _newTargetClassName, _c);
 
-          tmpMeta9 = mmc_mk_box2(10, &FCore_Status_CLS__INSTANCE__desc, _targetClassName);
-          _classRef = omc_FGraph_updateClassElement(threadData, _classRef, _c, _crefPrefix, _inMod, tmpMeta9, omc_FGraph_empty(threadData));
+          tmpMeta8 = mmc_mk_box2(10, &FCore_Status_CLS__INSTANCE__desc, _targetClassName);
+          _classRef = omc_FGraph_updateClassElement(threadData, _classRef, _c, _crefPrefix, _inMod, tmpMeta8, omc_FGraph_empty(threadData));
 
           omc_FNode_addChildRef(threadData, _targetClassParentRef, _newTargetClassName, _classRef, 0 /* false */);
 
-          tmpMeta10 = mmc_mk_cons(_classRef, omc_FGraph_currentScope(threadData, _gclass));
-          _sourceRef = omc_FGraph_updateSourceTargetScope(threadData, _sourceRef, tmpMeta10);
+          tmpMeta9 = mmc_mk_cons(_classRef, omc_FGraph_currentScope(threadData, _gclass));
+          _sourceRef = omc_FGraph_updateSourceTargetScope(threadData, _sourceRef, tmpMeta9);
 
           _ih = _inIH;
           tmpMeta[0+0] = _gclass;
@@ -1224,6 +1219,7 @@ modelica_metatype omc_FGraph_mkVersionNode(threadData_t *threadData, modelica_me
           goto tmp3_done;
         }
         case 1: {
+          modelica_metatype tmpMeta10;
           modelica_metatype tmpMeta11;
           modelica_metatype tmpMeta12;
           modelica_metatype tmpMeta13;
@@ -1234,7 +1230,6 @@ modelica_metatype omc_FGraph_mkVersionNode(threadData_t *threadData, modelica_me
           modelica_metatype tmpMeta18;
           modelica_metatype tmpMeta19;
           modelica_metatype tmpMeta20;
-          modelica_metatype tmpMeta21;
           /* Pattern matching succeeded */
           _c = _inTargetClass;
 
@@ -1242,18 +1237,18 @@ modelica_metatype omc_FGraph_mkVersionNode(threadData_t *threadData, modelica_me
 
           _newTargetClassName = omc_FGraph_mkVersionName(threadData, _inSourceEnv, _inSourceName, _inPrefix, _inMod, _inTargetClassEnv, _targetClassName, NULL);
 
-          tmpMeta11 = stringAppend(_OMC_LIT13,omc_FGraph_getGraphNameStr(threadData, _inSourceEnv));
-          tmpMeta12 = stringAppend(tmpMeta11,_OMC_LIT14);
-          tmpMeta13 = stringAppend(tmpMeta12,_inSourceName);
-          tmpMeta14 = stringAppend(tmpMeta13,_OMC_LIT15);
-          tmpMeta15 = stringAppend(tmpMeta14,omc_FGraph_getGraphNameStr(threadData, _inTargetClassEnv));
-          tmpMeta16 = stringAppend(tmpMeta15,_OMC_LIT16);
-          tmpMeta17 = stringAppend(tmpMeta16,_targetClassName);
-          tmpMeta18 = stringAppend(tmpMeta17,omc_SCodeDump_printModStr(threadData, omc_Mod_unelabMod(threadData, _inMod), _OMC_LIT17));
-          tmpMeta19 = stringAppend(tmpMeta18,_OMC_LIT18);
-          tmpMeta20 = stringAppend(tmpMeta19,_newTargetClassName);
-          tmpMeta21 = stringAppend(tmpMeta20,_OMC_LIT3);
-          omc_Error_addCompilerWarning(threadData, tmpMeta21);
+          tmpMeta10 = stringAppend(_OMC_LIT13,omc_FGraph_getGraphNameStr(threadData, _inSourceEnv));
+          tmpMeta11 = stringAppend(tmpMeta10,_OMC_LIT14);
+          tmpMeta12 = stringAppend(tmpMeta11,_inSourceName);
+          tmpMeta13 = stringAppend(tmpMeta12,_OMC_LIT15);
+          tmpMeta14 = stringAppend(tmpMeta13,omc_FGraph_getGraphNameStr(threadData, _inTargetClassEnv));
+          tmpMeta15 = stringAppend(tmpMeta14,_OMC_LIT16);
+          tmpMeta16 = stringAppend(tmpMeta15,_targetClassName);
+          tmpMeta17 = stringAppend(tmpMeta16,omc_SCodeDump_printModStr(threadData, omc_Mod_unelabMod(threadData, _inMod), _OMC_LIT17));
+          tmpMeta18 = stringAppend(tmpMeta17,_OMC_LIT18);
+          tmpMeta19 = stringAppend(tmpMeta18,_newTargetClassName);
+          tmpMeta20 = stringAppend(tmpMeta19,_OMC_LIT3);
+          omc_Error_addCompilerWarning(threadData, tmpMeta20);
           tmpMeta[0+0] = _inTargetClassEnv;
           tmpMeta[0+1] = _inTargetClass;
           tmpMeta[0+2] = _inIH;
@@ -2689,7 +2684,7 @@ modelica_metatype omc_FGraph_pathStripGraphScopePrefix(threadData_t *threadData,
           modelica_boolean tmp6;
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp6 = omc_Flags_isSet(threadData, _OMC_LIT32);
+          tmp6 = omc_Flags_isSet(threadData, _OMC_LIT31);
           if (0 /* false */ != tmp6) goto goto_2;
           tmpMeta1 = _inPath;
           goto tmp3_done;
@@ -2913,7 +2908,7 @@ modelica_metatype omc_FGraph_crefStripGraphScopePrefix(threadData_t *threadData,
           modelica_boolean tmp6;
           /* Pattern matching succeeded */
           /* Pattern-matching assignment */
-          tmp6 = omc_Flags_isSet(threadData, _OMC_LIT32);
+          tmp6 = omc_Flags_isSet(threadData, _OMC_LIT31);
           if (0 /* false */ != tmp6) goto goto_2;
           tmpMeta1 = _inCref;
           goto tmp3_done;
@@ -3059,20 +3054,20 @@ modelica_metatype omc_FGraph_scopeTypeToRestriction(threadData_t *threadData, mo
         case 5: {
           
           /* Pattern matching succeeded */
-          tmpMeta1 = _OMC_LIT34;
+          tmpMeta1 = _OMC_LIT33;
           goto tmp3_done;
         }
         case 3: {
           
           /* Pattern matching succeeded */
-          tmpMeta1 = _OMC_LIT37;
+          tmpMeta1 = _OMC_LIT36;
           goto tmp3_done;
         }
         default:
         tmp3_default: OMC_LABEL_UNUSED; {
           
           /* Pattern matching succeeded */
-          tmpMeta1 = _OMC_LIT38;
+          tmpMeta1 = _OMC_LIT37;
           goto tmp3_done;
         }
         }
@@ -3290,7 +3285,6 @@ DLLDirection
 modelica_metatype omc_FGraph_getGraphNameNoImplicitScopes(threadData_t *threadData, modelica_metatype _inGraph)
 {
   modelica_metatype _outPath = NULL;
-  modelica_metatype _p = NULL;
   modelica_metatype _s = NULL;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
@@ -3299,7 +3293,6 @@ modelica_metatype omc_FGraph_getGraphNameNoImplicitScopes(threadData_t *threadDa
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outPath has no default value.
-  // _p has no default value.
   // _s has no default value.
   /* Pattern-matching assignment */
   tmpMeta1 = listReverse(omc_FGraph_currentScope(threadData, _inGraph));
@@ -3309,26 +3302,26 @@ modelica_metatype omc_FGraph_getGraphNameNoImplicitScopes(threadData_t *threadDa
   _s = tmpMeta3;
 
   {
-    modelica_metatype __omcQ_24tmpVar5;
+    modelica_metatype __omcQ_24tmpVar3;
     modelica_metatype* tmp5;
     modelica_metatype tmpMeta6;
-    modelica_string __omcQ_24tmpVar4;
+    modelica_string __omcQ_24tmpVar2;
     modelica_integer tmp7;
     modelica_metatype _str_loopVar = 0;
     modelica_metatype tmpMeta8;
     modelica_metatype _str;
     {
-      modelica_metatype __omcQ_24tmpVar3;
+      modelica_metatype __omcQ_24tmpVar1;
       modelica_metatype* tmp9;
       modelica_metatype tmpMeta10;
-      modelica_string __omcQ_24tmpVar2;
+      modelica_string __omcQ_24tmpVar0;
       modelica_integer tmp11;
       modelica_metatype _n_loopVar = 0;
       modelica_metatype _n;
       _n_loopVar = _s;
       tmpMeta10 = MMC_REFSTRUCTLIT(mmc_nil);
-      __omcQ_24tmpVar3 = tmpMeta10; /* defaultValue */
-      tmp9 = &__omcQ_24tmpVar3;
+      __omcQ_24tmpVar1 = tmpMeta10; /* defaultValue */
+      tmp9 = &__omcQ_24tmpVar1;
       while(1) {
         tmp11 = 1;
         if (!listEmpty(_n_loopVar)) {
@@ -3337,8 +3330,8 @@ modelica_metatype omc_FGraph_getGraphNameNoImplicitScopes(threadData_t *threadDa
           tmp11--;
         }
         if (tmp11 == 0) {
-          __omcQ_24tmpVar2 = omc_FNode_refName(threadData, _n);
-          *tmp9 = mmc_mk_cons(__omcQ_24tmpVar2,0);
+          __omcQ_24tmpVar0 = omc_FNode_refName(threadData, _n);
+          *tmp9 = mmc_mk_cons(__omcQ_24tmpVar0,0);
           tmp9 = &MMC_CDR(*tmp9);
         } else if (tmp11 == 1) {
           break;
@@ -3347,12 +3340,12 @@ modelica_metatype omc_FGraph_getGraphNameNoImplicitScopes(threadData_t *threadDa
         }
       }
       *tmp9 = mmc_mk_nil();
-      tmpMeta8 = __omcQ_24tmpVar3;
+      tmpMeta8 = __omcQ_24tmpVar1;
     }
     _str_loopVar = tmpMeta8;
     tmpMeta6 = MMC_REFSTRUCTLIT(mmc_nil);
-    __omcQ_24tmpVar5 = tmpMeta6; /* defaultValue */
-    tmp5 = &__omcQ_24tmpVar5;
+    __omcQ_24tmpVar3 = tmpMeta6; /* defaultValue */
+    tmp5 = &__omcQ_24tmpVar3;
     while(1) {
       tmp7 = 1;
       while (!listEmpty(_str_loopVar)) {
@@ -3364,8 +3357,8 @@ modelica_metatype omc_FGraph_getGraphNameNoImplicitScopes(threadData_t *threadDa
         }
       }
       if (tmp7 == 0) {
-        __omcQ_24tmpVar4 = _str;
-        *tmp5 = mmc_mk_cons(__omcQ_24tmpVar4,0);
+        __omcQ_24tmpVar2 = _str;
+        *tmp5 = mmc_mk_cons(__omcQ_24tmpVar2,0);
         tmp5 = &MMC_CDR(*tmp5);
       } else if (tmp7 == 1) {
         break;
@@ -3374,7 +3367,7 @@ modelica_metatype omc_FGraph_getGraphNameNoImplicitScopes(threadData_t *threadDa
       }
     }
     *tmp5 = mmc_mk_nil();
-    tmpMeta4 = __omcQ_24tmpVar5;
+    tmpMeta4 = __omcQ_24tmpVar3;
   }
   _outPath = omc_AbsynUtil_stringListPath(threadData, tmpMeta4);
   _return: OMC_LABEL_UNUSED
@@ -3579,7 +3572,7 @@ modelica_boolean omc_FGraph_inForOrParforIterLoopScope(threadData_t *threadData,
           _name = omc_FNode_refName(threadData, listHead(omc_FGraph_currentScope(threadData, _inGraph)));
 
           /* Pattern-matching assignment */
-          tmp6 = ((stringEqual(_name, _OMC_LIT39)) || (stringEqual(_name, _OMC_LIT40)));
+          tmp6 = ((stringEqual(_name, _OMC_LIT38)) || (stringEqual(_name, _OMC_LIT39)));
           if (1 /* true */ != tmp6) goto goto_2;
           tmp1 = 1 /* true */;
           goto tmp3_done;
@@ -3646,7 +3639,7 @@ modelica_boolean omc_FGraph_inForLoopScope(threadData_t *threadData, modelica_me
           _name = omc_FNode_refName(threadData, listHead(omc_FGraph_currentScope(threadData, _inGraph)));
 
           /* Pattern-matching assignment */
-          tmp6 = (stringEqual(_name, _OMC_LIT41));
+          tmp6 = (stringEqual(_name, _OMC_LIT40));
           if (1 /* true */ != tmp6) goto goto_2;
           tmp1 = 1 /* true */;
           goto tmp3_done;
@@ -3773,8 +3766,8 @@ modelica_metatype omc_FGraph_openScope(threadData_t *threadData, modelica_metaty
           modelica_metatype tmpMeta13;
           
           /* Pattern matching succeeded */
-          tmpMeta10 = stringAppend(_OMC_LIT42,omc_FGraph_getGraphNameStr(threadData, _inGraph));
-          tmpMeta11 = stringAppend(tmpMeta10,_OMC_LIT43);
+          tmpMeta10 = stringAppend(_OMC_LIT41,omc_FGraph_getGraphNameStr(threadData, _inGraph));
+          tmpMeta11 = stringAppend(tmpMeta10,_OMC_LIT42);
           tmpMeta12 = stringAppend(tmpMeta11,_inName);
           tmpMeta13 = stringAppend(tmpMeta12,_OMC_LIT3);
           omc_Error_addCompilerError(threadData, tmpMeta13);
@@ -3862,8 +3855,8 @@ modelica_metatype omc_FGraph_openNewScope(threadData_t *threadData, modelica_met
           modelica_metatype tmpMeta12;
           
           /* Pattern matching succeeded */
-          tmpMeta9 = stringAppend(_OMC_LIT44,omc_FGraph_getGraphNameStr(threadData, _inGraph));
-          tmpMeta10 = stringAppend(tmpMeta9,_OMC_LIT43);
+          tmpMeta9 = stringAppend(_OMC_LIT43,omc_FGraph_getGraphNameStr(threadData, _inGraph));
+          tmpMeta10 = stringAppend(tmpMeta9,_OMC_LIT42);
           tmpMeta11 = stringAppend(tmpMeta10,omc_Util_getOptionOrDefault(threadData, _inName, _OMC_LIT6));
           tmpMeta12 = stringAppend(tmpMeta11,_OMC_LIT3);
           omc_Error_addCompilerError(threadData, tmpMeta12);
@@ -3946,7 +3939,7 @@ modelica_string omc_FGraph_printGraphPathStr(threadData_t *threadData, modelica_
         case 1: {
           
           /* Pattern matching succeeded */
-          tmp1 = _OMC_LIT45;
+          tmp1 = _OMC_LIT44;
           goto tmp3_done;
         }
         }
@@ -4004,17 +3997,17 @@ modelica_metatype omc_FGraph_addForIterator(threadData_t *threadData, modelica_m
           
           _g = tmp4_1;
           /* Pattern matching succeeded */
-          tmpMeta6 = mmc_mk_box9(6, &SCode_Element_COMPONENT__desc, _name, _OMC_LIT51, _OMC_LIT56, _OMC_LIT57, _OMC_LIT58, _OMC_LIT59, mmc_mk_none(), _OMC_LIT10);
+          tmpMeta6 = mmc_mk_box9(6, &SCode_Element_COMPONENT__desc, _name, _OMC_LIT50, _OMC_LIT55, _OMC_LIT56, _OMC_LIT57, _OMC_LIT58, mmc_mk_none(), _OMC_LIT10);
           _c = tmpMeta6;
 
-          tmpMeta7 = mmc_mk_box7(3, &DAE_Attributes_ATTR__desc, _OMC_LIT60, _OMC_LIT53, _variability, _OMC_LIT54, _OMC_LIT49, _OMC_LIT46);
+          tmpMeta7 = mmc_mk_box7(3, &DAE_Attributes_ATTR__desc, _OMC_LIT59, _OMC_LIT52, _variability, _OMC_LIT53, _OMC_LIT48, _OMC_LIT45);
           tmpMeta8 = mmc_mk_box7(3, &DAE_Var_TYPES__VAR__desc, _name, tmpMeta7, _ty, _binding, mmc_mk_boolean(0 /* false */), _constOfForIteratorRange);
           _v = tmpMeta8;
 
           _r = omc_FGraph_lastScopeRef(threadData, _g);
 
-          _g = omc_FGraphBuildEnv_mkCompNode(threadData, _c, _r, _OMC_LIT61, _g);
-          tmpMeta1 = omc_FGraph_updateVarAndMod(threadData, _g, _v, _OMC_LIT62, _OMC_LIT63, omc_FGraph_empty(threadData));
+          _g = omc_FGraphBuildEnv_mkCompNode(threadData, _c, _r, _OMC_LIT60, _g);
+          tmpMeta1 = omc_FGraph_updateVarAndMod(threadData, _g, _v, _OMC_LIT61, _OMC_LIT62, omc_FGraph_empty(threadData));
           goto tmp3_done;
         }
         }
@@ -4416,9 +4409,9 @@ modelica_metatype omc_FGraph_updateInstance(threadData_t *threadData, modelica_m
           modelica_metatype tmpMeta9;
           
           /* Pattern matching succeeded */
-          tmpMeta7 = stringAppend(_OMC_LIT64,omc_FNode_toPathStr(threadData, omc_FNode_fromRef(threadData, _inRef)));
-          tmpMeta8 = stringAppend(tmpMeta7,_OMC_LIT65);
-          tmpMeta9 = stringAppend(tmpMeta8,omc_Types_printVarStr(threadData, _inVar));
+          tmpMeta7 = stringAppend(_OMC_LIT63,omc_FNode_toPathStr(threadData, omc_FNode_fromRef(threadData, _inRef)));
+          tmpMeta8 = stringAppend(tmpMeta7,_OMC_LIT64);
+          tmpMeta9 = stringAppend(tmpMeta8,omc_TypesDump_printVarStr(threadData, _inVar));
           omc_Error_addCompilerError(threadData, tmpMeta9);
           goto goto_2;
           goto tmp3_done;
@@ -4488,8 +4481,8 @@ modelica_metatype omc_FGraph_updateSourceTargetScope(threadData_t *threadData, m
           
           _r = tmp4_1;
           /* Pattern matching succeeded */
-          tmpMeta7 = stringAppend(_OMC_LIT66,omc_FNode_toPathStr(threadData, omc_FNode_fromRef(threadData, _r)));
-          tmpMeta8 = stringAppend(tmpMeta7,_OMC_LIT67);
+          tmpMeta7 = stringAppend(_OMC_LIT65,omc_FNode_toPathStr(threadData, omc_FNode_fromRef(threadData, _r)));
+          tmpMeta8 = stringAppend(tmpMeta7,_OMC_LIT66);
           tmpMeta9 = stringAppend(tmpMeta8,omc_FNode_scopeStr(threadData, _inTargetScope));
           tmpMeta10 = stringAppend(tmpMeta9,_OMC_LIT3);
           omc_Error_addCompilerWarning(threadData, tmpMeta10);
@@ -4705,7 +4698,7 @@ modelica_metatype omc_FGraph_clone(threadData_t *threadData, modelica_metatype _
 
           _s = omc_List_map1r(threadData, _s, boxvar_FNode_lookupRefFromRef, _nt);
 
-          _ag = arrayCreate(((modelica_integer) 1), _OMC_LIT69);
+          _ag = arrayCreate(((modelica_integer) 1), _OMC_LIT68);
 
           tmpMeta8 = mmc_mk_box5(3, &FCore_Top_GTOP__desc, _ag, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_t), 3))), _nt, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_t), 5))));
           _t = tmpMeta8;
@@ -4795,9 +4788,7 @@ modelica_metatype omc_FGraph_new(threadData_t *threadData, modelica_string _inGr
   modelica_metatype _outGraph = NULL;
   modelica_metatype _n = NULL;
   modelica_metatype _s = NULL;
-  modelica_metatype _v = NULL;
   modelica_metatype _nr = NULL;
-  modelica_integer _next;
   modelica_integer _id;
   modelica_metatype _ag = NULL;
   modelica_metatype _top = NULL;
@@ -4813,23 +4804,21 @@ modelica_metatype omc_FGraph_new(threadData_t *threadData, modelica_string _inGr
   // _outGraph has no default value.
   // _n has no default value.
   // _s has no default value.
-  // _v has no default value.
   // _nr has no default value.
-  // _next has no default value.
   // _id has no default value.
   // _ag has no default value.
   // _top has no default value.
   _id = omc_System_tmpTickIndex(threadData, ((modelica_integer) 22));
 
   tmpMeta1 = MMC_REFSTRUCTLIT(mmc_nil);
-  _n = omc_FNode_new(threadData, _OMC_LIT70, _id, tmpMeta1, _OMC_LIT71);
+  _n = omc_FNode_new(threadData, _OMC_LIT69, _id, tmpMeta1, _OMC_LIT70);
 
   _nr = omc_FNode_toRef(threadData, _n);
 
   tmpMeta2 = mmc_mk_cons(_nr, MMC_REFSTRUCTLIT(mmc_nil));
   _s = tmpMeta2;
 
-  _ag = arrayCreateNoInit(((modelica_integer) 1), _OMC_LIT69);
+  _ag = arrayCreateNoInit(((modelica_integer) 1), _OMC_LIT68);
 
   tmpMeta3 = mmc_mk_box2(3, &FCore_Extra_EXTRA__desc, _inPath);
   tmpMeta4 = mmc_mk_box5(3, &FCore_Top_GTOP__desc, _ag, _inGraphName, _nr, tmpMeta3);
@@ -4852,7 +4841,7 @@ modelica_metatype omc_FGraph_empty(threadData_t *threadData)
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outGraph has no default value.
-  _outGraph = _OMC_LIT69;
+  _outGraph = _OMC_LIT68;
   _return: OMC_LABEL_UNUSED
   return _outGraph;
 }
@@ -4861,24 +4850,10 @@ DLLDirection
 modelica_metatype omc_FGraph_topScope(threadData_t *threadData, modelica_metatype _inGraph)
 {
   modelica_metatype _outGraph = NULL;
-  modelica_metatype _t = NULL;
-  modelica_metatype _r = NULL;
-  modelica_metatype _s = NULL;
-  modelica_string _gn = NULL;
-  modelica_metatype _v = NULL;
-  modelica_metatype _e = NULL;
-  modelica_integer _next;
   modelica_metatype tmpMeta1;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outGraph has no default value.
-  // _t has no default value.
-  // _r has no default value.
-  // _s has no default value.
-  // _gn has no default value.
-  // _v has no default value.
-  // _e has no default value.
-  // _next has no default value.
   { /* match expression */
     modelica_metatype tmp4_1;
     tmp4_1 = _inGraph;

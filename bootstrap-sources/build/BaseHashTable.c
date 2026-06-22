@@ -1,102 +1,77 @@
 #include "omc_simulation_settings.h"
 #include "BaseHashTable.h"
-#define _OMC_LIT0_data "HashTable.valueArraySet(pos="
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT0,28,_OMC_LIT0_data);
+#define _OMC_LIT0_data "{"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT0,1,_OMC_LIT0_data);
 #define _OMC_LIT0 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT0)
-#define _OMC_LIT1_data ") size="
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT1,7,_OMC_LIT1_data);
+#define _OMC_LIT1_data ",{"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT1,2,_OMC_LIT1_data);
 #define _OMC_LIT1 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT1)
-#define _OMC_LIT2_data " arrSize="
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT2,9,_OMC_LIT2_data);
+#define _OMC_LIT2_data "}}"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT2,2,_OMC_LIT2_data);
 #define _OMC_LIT2 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT2)
-#define _OMC_LIT3_data " failed\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT3,8,_OMC_LIT3_data);
+#define _OMC_LIT3_data "Debug HashTable:\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT3,17,_OMC_LIT3_data);
 #define _OMC_LIT3 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT3)
-#define _OMC_LIT4_data "/home/per/workspace/OpenModelica/OMCompiler/Compiler/Util/BaseHashTable.mo"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT4,74,_OMC_LIT4_data);
+#define _OMC_LIT4_data "szBucket: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT4,10,_OMC_LIT4_data);
 #define _OMC_LIT4 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT4)
-static const MMC_DEFREALLIT(_OMC_LIT_STRUCT5_6,1.770032059e9);
-#define _OMC_LIT5_6 MMC_REFREALLIT(_OMC_LIT_STRUCT5_6)
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_STRUCT5,8,3) {&SourceInfo_SOURCEINFO__desc,_OMC_LIT4,MMC_IMMEDIATE(MMC_TAGFIXNUM(0 /* false */)),MMC_IMMEDIATE(MMC_TAGFIXNUM(602)),MMC_IMMEDIATE(MMC_TAGFIXNUM(9)),MMC_IMMEDIATE(MMC_TAGFIXNUM(602)),MMC_IMMEDIATE(MMC_TAGFIXNUM(161)),_OMC_LIT5_6}};
-#define _OMC_LIT5 MMC_REFSTRUCTLIT(_OMC_LIT_STRUCT5)
-#define _OMC_LIT6_data "-HashTable.valueArrayAdd failed\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT6,32,_OMC_LIT6_data);
+#define _OMC_LIT5_data "\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT5,1,_OMC_LIT5_data);
+#define _OMC_LIT5 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT5)
+#define _OMC_LIT6_data "Debug ValueArray:\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT6,18,_OMC_LIT6_data);
 #define _OMC_LIT6 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT6)
-#define _OMC_LIT7_data "{"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,1,_OMC_LIT7_data);
+#define _OMC_LIT7_data "number of entires: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT7,19,_OMC_LIT7_data);
 #define _OMC_LIT7 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT7)
-#define _OMC_LIT8_data ",{"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT8,2,_OMC_LIT8_data);
+#define _OMC_LIT8_data "size: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT8,6,_OMC_LIT8_data);
 #define _OMC_LIT8 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT8)
-#define _OMC_LIT9_data "}}"
+#define _OMC_LIT9_data ": "
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT9,2,_OMC_LIT9_data);
 #define _OMC_LIT9 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT9)
-#define _OMC_LIT10_data "Debug HashTable:\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT10,17,_OMC_LIT10_data);
+#define _OMC_LIT10_data "Debug HashVector:\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT10,18,_OMC_LIT10_data);
 #define _OMC_LIT10 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT10)
-#define _OMC_LIT11_data "szBucket: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT11,10,_OMC_LIT11_data);
+#define _OMC_LIT11_data ":"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT11,1,_OMC_LIT11_data);
 #define _OMC_LIT11 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT11)
-#define _OMC_LIT12_data "\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT12,1,_OMC_LIT12_data);
+#define _OMC_LIT12_data " {"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT12,2,_OMC_LIT12_data);
 #define _OMC_LIT12 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT12)
-#define _OMC_LIT13_data "Debug ValueArray:\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT13,18,_OMC_LIT13_data);
+#define _OMC_LIT13_data ", "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT13,2,_OMC_LIT13_data);
 #define _OMC_LIT13 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT13)
-#define _OMC_LIT14_data "number of entires: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT14,19,_OMC_LIT14_data);
+#define _OMC_LIT14_data "}"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT14,1,_OMC_LIT14_data);
 #define _OMC_LIT14 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT14)
-#define _OMC_LIT15_data "size: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT15,6,_OMC_LIT15_data);
+#define _OMC_LIT15_data "HashTable:\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT15,11,_OMC_LIT15_data);
 #define _OMC_LIT15 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT15)
-#define _OMC_LIT16_data ": "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT16,2,_OMC_LIT16_data);
+#define _OMC_LIT16_data "}}\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT16,3,_OMC_LIT16_data);
 #define _OMC_LIT16 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT16)
-#define _OMC_LIT17_data "Debug HashVector:\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT17,18,_OMC_LIT17_data);
+#define _OMC_LIT17_data "BaseHashTable.delete failed\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT17,28,_OMC_LIT17_data);
 #define _OMC_LIT17 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT17)
-#define _OMC_LIT18_data ":"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT18,1,_OMC_LIT18_data);
+#define _OMC_LIT18_data "index list lengths:\n"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT18,20,_OMC_LIT18_data);
 #define _OMC_LIT18 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT18)
-#define _OMC_LIT19_data " {"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT19,2,_OMC_LIT19_data);
+#define _OMC_LIT19_data ","
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT19,1,_OMC_LIT19_data);
 #define _OMC_LIT19 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT19)
-#define _OMC_LIT20_data ", "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT20,2,_OMC_LIT20_data);
+#define _OMC_LIT20_data "non-zero: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT20,10,_OMC_LIT20_data);
 #define _OMC_LIT20 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT20)
-#define _OMC_LIT21_data "}"
+#define _OMC_LIT21_data "/"
 static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT21,1,_OMC_LIT21_data);
 #define _OMC_LIT21 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT21)
-#define _OMC_LIT22_data "HashTable:\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT22,11,_OMC_LIT22_data);
+#define _OMC_LIT22_data "max element: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT22,13,_OMC_LIT22_data);
 #define _OMC_LIT22 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT22)
-#define _OMC_LIT23_data "}}\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT23,3,_OMC_LIT23_data);
+#define _OMC_LIT23_data "total entries: "
+static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT23,15,_OMC_LIT23_data);
 #define _OMC_LIT23 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT23)
-#define _OMC_LIT24_data "BaseHashTable.delete failed\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT24,28,_OMC_LIT24_data);
-#define _OMC_LIT24 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT24)
-#define _OMC_LIT25_data "- BaseHashTable.addNoUpdCheck failed\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT25,37,_OMC_LIT25_data);
-#define _OMC_LIT25 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT25)
-#define _OMC_LIT26_data "index list lengths:\n"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT26,20,_OMC_LIT26_data);
-#define _OMC_LIT26 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT26)
-#define _OMC_LIT27_data ","
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT27,1,_OMC_LIT27_data);
-#define _OMC_LIT27 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT27)
-#define _OMC_LIT28_data "non-zero: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT28,10,_OMC_LIT28_data);
-#define _OMC_LIT28 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT28)
-#define _OMC_LIT29_data "/"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT29,1,_OMC_LIT29_data);
-#define _OMC_LIT29 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT29)
-#define _OMC_LIT30_data "max element: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT30,13,_OMC_LIT30_data);
-#define _OMC_LIT30 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT30)
-#define _OMC_LIT31_data "total entries: "
-static const MMC_DEFSTRINGLIT(_OMC_LIT_STRUCT31,15,_OMC_LIT31_data);
-#define _OMC_LIT31 MMC_REFSTRINGLIT(_OMC_LIT_STRUCT31)
 #include "util/modelica.h"
 
 #include "BaseHashTable_includes.h"
@@ -143,7 +118,6 @@ void omc_BaseHashTable_clearAssumeNoDelete(threadData_t *threadData, modelica_me
 {
   modelica_metatype _hv = NULL;
   modelica_integer _bs;
-  modelica_integer _sz;
   modelica_integer _vs;
   modelica_integer _ve;
   modelica_integer _hash_idx;
@@ -176,7 +150,6 @@ void omc_BaseHashTable_clearAssumeNoDelete(threadData_t *threadData, modelica_me
   _tailrecursive: OMC_LABEL_UNUSED
   // _hv has no default value.
   // _bs has no default value.
-  // _sz has no default value.
   // _vs has no default value.
   // _ve has no default value.
   // _hash_idx has no default value.
@@ -276,7 +249,6 @@ modelica_metatype omc_BaseHashTable_clear(threadData_t *threadData, modelica_met
   modelica_metatype _ht = NULL;
   modelica_metatype _hv = NULL;
   modelica_integer _bs;
-  modelica_integer _sz;
   modelica_integer _vs;
   modelica_integer _ve;
   modelica_integer _hash_idx;
@@ -306,7 +278,6 @@ modelica_metatype omc_BaseHashTable_clear(threadData_t *threadData, modelica_met
   _ht = __omcQ_24in_5Fht;
   // _hv has no default value.
   // _bs has no default value.
-  // _sz has no default value.
   // _vs has no default value.
   // _ve has no default value.
   // _hash_idx has no default value.
@@ -400,7 +371,6 @@ modelica_metatype omc_BaseHashTable_copy(threadData_t *threadData, modelica_meta
   modelica_metatype _outCopy = NULL;
   modelica_metatype _hv = NULL;
   modelica_integer _bs;
-  modelica_integer _sz;
   modelica_integer _vs;
   modelica_integer _ve;
   modelica_metatype _ft = NULL;
@@ -423,7 +393,6 @@ modelica_metatype omc_BaseHashTable_copy(threadData_t *threadData, modelica_meta
   // _outCopy has no default value.
   // _hv has no default value.
   // _bs has no default value.
-  // _sz has no default value.
   // _vs has no default value.
   // _ve has no default value.
   // _ft has no default value.
@@ -626,8 +595,8 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_BaseHashTable_valueArraySet(thre
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outValueArray has no default value.
-  { /* matchcontinue expression */
-    volatile modelica_metatype tmp4_1;
+  { /* match expression */
+    modelica_metatype tmp4_1;
     tmp4_1 = _valueArray;
     {
       modelica_metatype _arr = NULL;
@@ -639,10 +608,7 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_BaseHashTable_valueArraySet(thre
       // _n has no default value.
       // _size has no default value.
       tmp4 = 0;
-      MMC_TRY_INTERNAL(mmc_jumper)
-      tmp3_top:
-      threadData->mmc_jumper = &new_mmc_jumper;
-      for (; tmp4 < 2; tmp4++) {
+      for (; tmp4 < 1; tmp4++) {
         switch (MMC_SWITCH_CAST(tmp4)) {
         case 0: {
           modelica_metatype tmpMeta6;
@@ -670,54 +636,15 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_BaseHashTable_valueArraySet(thre
           tmpMeta1 = tmpMeta12;
           goto tmp3_done;
         }
-        case 1: {
-          modelica_metatype tmpMeta13;
-          modelica_integer tmp14;
-          modelica_metatype tmpMeta15;
-          modelica_string tmp16;
-          modelica_metatype tmpMeta17;
-          modelica_metatype tmpMeta18;
-          modelica_string tmp19;
-          modelica_metatype tmpMeta20;
-          modelica_metatype tmpMeta21;
-          modelica_string tmp22;
-          modelica_metatype tmpMeta23;
-          modelica_metatype tmpMeta24;
-          tmpMeta13 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 2));
-          tmp14 = mmc_unbox_integer(tmpMeta13);
-          tmpMeta15 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 3));
-          _size = tmp14  /* pattern as ty=Integer */;
-          _arr = tmpMeta15;
-          /* Pattern matching succeeded */
-          tmp16 = modelica_integer_to_modelica_string(_pos, ((modelica_integer) 0), 1 /* true */);
-          tmpMeta17 = stringAppend(_OMC_LIT0,tmp16);
-          tmpMeta18 = stringAppend(tmpMeta17,_OMC_LIT1);
-          tmp19 = modelica_integer_to_modelica_string(_size, ((modelica_integer) 0), 1 /* true */);
-          tmpMeta20 = stringAppend(tmpMeta18,tmp19);
-          tmpMeta21 = stringAppend(tmpMeta20,_OMC_LIT2);
-          tmp22 = modelica_integer_to_modelica_string(arrayLength(_arr), ((modelica_integer) 0), 1 /* true */);
-          tmpMeta23 = stringAppend(tmpMeta21,tmp22);
-          tmpMeta24 = stringAppend(tmpMeta23,_OMC_LIT3);
-          omc_Error_addInternalError(threadData, tmpMeta24, _OMC_LIT5);
-          goto goto_2;
-          goto tmp3_done;
-        }
         }
         goto tmp3_end;
         tmp3_end: ;
       }
       goto goto_2;
-      tmp3_done:
-      (void)tmp4;
-      MMC_RESTORE_INTERNAL(mmc_jumper);
-      goto tmp3_done2;
       goto_2:;
-      MMC_CATCH_INTERNAL(mmc_jumper);
-      if (++tmp4 < 2) {
-        goto tmp3_top;
-      }
       MMC_THROW_INTERNAL();
-      tmp3_done2:;
+      goto tmp3_done;
+      tmp3_done:;
     }
   }
   _outValueArray = tmpMeta1;
@@ -738,137 +665,63 @@ PROTECTED_FUNCTION_STATIC modelica_metatype omc_BaseHashTable_valueArrayAdd(thre
 {
   modelica_metatype _outValueArray = NULL;
   modelica_integer _newpos;
-  modelica_integer tmp1_c1 __attribute__((unused)) = 0;
-  modelica_metatype tmpMeta[2] __attribute__((unused)) = {0};
+  modelica_integer _n;
+  modelica_integer _size;
+  modelica_integer _expandsize;
+  modelica_integer _expandsize_1;
+  modelica_metatype _arr = NULL;
+  modelica_real _rsize;
+  modelica_real _rexpandsize;
+  modelica_metatype tmpMeta1;
+  modelica_metatype tmpMeta2;
+  modelica_integer tmp3;
+  modelica_metatype tmpMeta4;
+  modelica_integer tmp5;
+  modelica_metatype tmpMeta6;
+  modelica_metatype tmpMeta7;
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outValueArray has no default value.
   // _newpos has no default value.
-  
-  
-  { /* matchcontinue expression */
-    volatile modelica_metatype tmp4_1;
-    tmp4_1 = _valueArray;
-    {
-      modelica_integer _n;
-      modelica_integer _size;
-      modelica_integer _expandsize;
-      modelica_integer _newsize;
-      modelica_metatype _arr = NULL;
-      modelica_real _rsize;
-      modelica_real _rexpandsize;
-      volatile mmc_switch_type tmp4;
-      int tmp5;
-      // _n has no default value.
-      // _size has no default value.
-      // _expandsize has no default value.
-      // _newsize has no default value.
-      // _arr has no default value.
-      // _rsize has no default value.
-      // _rexpandsize has no default value.
-      tmp4 = 0;
-      MMC_TRY_INTERNAL(mmc_jumper)
-      tmp3_top:
-      threadData->mmc_jumper = &new_mmc_jumper;
-      for (; tmp4 < 3; tmp4++) {
-        switch (MMC_SWITCH_CAST(tmp4)) {
-        case 0: {
-          modelica_metatype tmpMeta6;
-          modelica_integer tmp7;
-          modelica_metatype tmpMeta8;
-          modelica_integer tmp9;
-          modelica_metatype tmpMeta10;
-          modelica_metatype tmpMeta11;
-          tmpMeta6 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 1));
-          tmp7 = mmc_unbox_integer(tmpMeta6);
-          tmpMeta8 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 2));
-          tmp9 = mmc_unbox_integer(tmpMeta8);
-          tmpMeta10 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 3));
-          _n = tmp7  /* pattern as ty=Integer */;
-          _size = tmp9  /* pattern as ty=Integer */;
-          _arr = tmpMeta10;
-          /* Pattern matching succeeded */
-          if((!(_n < _size)))
-          {
-            goto goto_2;
-          }
+  // _n has no default value.
+  // _size has no default value.
+  // _expandsize has no default value.
+  // _expandsize_1 has no default value.
+  // _arr has no default value.
+  // _rsize has no default value.
+  // _rexpandsize has no default value.
+  /* Pattern-matching assignment */
+  tmpMeta1 = _valueArray;
+  tmpMeta2 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta1), 1));
+  tmp3 = mmc_unbox_integer(tmpMeta2);
+  tmpMeta4 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta1), 2));
+  tmp5 = mmc_unbox_integer(tmpMeta4);
+  tmpMeta6 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta1), 3));
+  _n = tmp3  /* pattern as ty=Integer */;
+  _size = tmp5  /* pattern as ty=Integer */;
+  _arr = tmpMeta6;
 
-          _n = ((modelica_integer) 1) + _n;
+  if((_n >= _size))
+  {
+    _rsize = ((modelica_real)_size);
 
-          _arr = arrayUpdate(_arr, _n, mmc_mk_some(_entry));
-          tmpMeta11 = mmc_mk_box3(0, mmc_mk_integer(_n), mmc_mk_integer(_size), _arr);
-          tmpMeta[0+0] = tmpMeta11;
-          tmp1_c1 = _n;
-          goto tmp3_done;
-        }
-        case 1: {
-          modelica_metatype tmpMeta12;
-          modelica_integer tmp13;
-          modelica_metatype tmpMeta14;
-          modelica_integer tmp15;
-          modelica_metatype tmpMeta16;
-          modelica_metatype tmpMeta17;
-          tmpMeta12 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 1));
-          tmp13 = mmc_unbox_integer(tmpMeta12);
-          tmpMeta14 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 2));
-          tmp15 = mmc_unbox_integer(tmpMeta14);
-          tmpMeta16 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmp4_1), 3));
-          _n = tmp13  /* pattern as ty=Integer */;
-          _size = tmp15  /* pattern as ty=Integer */;
-          _arr = tmpMeta16;
-          /* Pattern matching succeeded */
-          if((_n < _size))
-          {
-            goto goto_2;
-          }
+    _rexpandsize = (0.4) * (_rsize);
 
-          _rsize = ((modelica_real)_size);
+    _expandsize = ((modelica_integer)floor(_rexpandsize));
 
-          _rexpandsize = (0.4) * (_rsize);
+    _expandsize_1 = modelica_integer_max((modelica_integer)(_expandsize),(modelica_integer)(((modelica_integer) 1)));
 
-          _expandsize = ((modelica_integer)floor(_rexpandsize));
+    _size = _expandsize_1 + _size;
 
-          _expandsize = modelica_integer_max((modelica_integer)(_expandsize),(modelica_integer)(((modelica_integer) 1)));
-
-          _newsize = _expandsize + _size;
-
-          _arr = omc_Array_expand(threadData, _expandsize, _arr, mmc_mk_none());
-
-          _n = ((modelica_integer) 1) + _n;
-
-          _arr = arrayUpdate(_arr, _n, mmc_mk_some(_entry));
-          tmpMeta17 = mmc_mk_box3(0, mmc_mk_integer(_n), mmc_mk_integer(_newsize), _arr);
-          tmpMeta[0+0] = tmpMeta17;
-          tmp1_c1 = _n;
-          goto tmp3_done;
-        }
-        case 2: {
-          
-          /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT6),stdout);
-          goto goto_2;
-          goto tmp3_done;
-        }
-        }
-        goto tmp3_end;
-        tmp3_end: ;
-      }
-      goto goto_2;
-      tmp3_done:
-      (void)tmp4;
-      MMC_RESTORE_INTERNAL(mmc_jumper);
-      goto tmp3_done2;
-      goto_2:;
-      MMC_CATCH_INTERNAL(mmc_jumper);
-      if (++tmp4 < 3) {
-        goto tmp3_top;
-      }
-      MMC_THROW_INTERNAL();
-      tmp3_done2:;
-    }
+    _arr = omc_Array_expand(threadData, _expandsize_1, _arr, mmc_mk_none());
   }
-  _outValueArray = tmpMeta[0+0];
-  _newpos = tmp1_c1;
+
+  _arr = arrayUpdate(_arr, ((modelica_integer) 1) + _n, mmc_mk_some(_entry));
+
+  tmpMeta7 = mmc_mk_box3(0, mmc_mk_integer(((modelica_integer) 1) + _n), mmc_mk_integer(_size), _arr);
+  _outValueArray = tmpMeta7;
+
+  _newpos = ((modelica_integer) 1) + _n;
   _return: OMC_LABEL_UNUSED
   if (out_newpos) { *out_newpos = _newpos; }
   return _outValueArray;
@@ -1082,7 +935,7 @@ PROTECTED_FUNCTION_STATIC modelica_string omc_BaseHashTable_dumpTuple(threadData
 
   _sv = (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_printValue), 2))) ? ((modelica_metatype(*)(threadData_t*, modelica_metatype, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_printValue), 1)))) (threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_printValue), 2))), _v) : ((modelica_metatype(*)(threadData_t*, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_printValue), 1)))) (threadData, _v);
 
-  tmpMeta4 = mmc_mk_cons(_OMC_LIT7, mmc_mk_cons(_sk, mmc_mk_cons(_OMC_LIT8, mmc_mk_cons(_sv, mmc_mk_cons(_OMC_LIT9, MMC_REFSTRUCTLIT(mmc_nil))))));
+  tmpMeta4 = mmc_mk_cons(_OMC_LIT0, mmc_mk_cons(_sk, mmc_mk_cons(_OMC_LIT1, mmc_mk_cons(_sv, mmc_mk_cons(_OMC_LIT2, MMC_REFSTRUCTLIT(mmc_nil))))));
   _str = stringAppendList(tmpMeta4);
   _return: OMC_LABEL_UNUSED
   return _str;
@@ -1094,7 +947,6 @@ void omc_BaseHashTable_debugDump(threadData_t *threadData, modelica_metatype _ht
   modelica_fnptr _printKey;
   modelica_fnptr _printValue;
   modelica_metatype _k = NULL;
-  modelica_metatype _v = NULL;
   modelica_integer _n;
   modelica_integer _size;
   modelica_integer _i;
@@ -1149,7 +1001,6 @@ void omc_BaseHashTable_debugDump(threadData_t *threadData, modelica_metatype _ht
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _k has no default value.
-  // _v has no default value.
   // _n has no default value.
   // _size has no default value.
   // _i has no default value.
@@ -1180,20 +1031,20 @@ void omc_BaseHashTable_debugDump(threadData_t *threadData, modelica_metatype _ht
   _printKey = tmpMeta12;
   _printValue = tmpMeta13;
 
-  fputs(MMC_STRINGDATA(_OMC_LIT10),stdout);
+  fputs(MMC_STRINGDATA(_OMC_LIT3),stdout);
 
-  tmpMeta14 = stringAppend(_OMC_LIT11,intString(_szBucket));
-  tmpMeta15 = stringAppend(tmpMeta14,_OMC_LIT12);
+  tmpMeta14 = stringAppend(_OMC_LIT4,intString(_szBucket));
+  tmpMeta15 = stringAppend(tmpMeta14,_OMC_LIT5);
   fputs(MMC_STRINGDATA(tmpMeta15),stdout);
 
-  fputs(MMC_STRINGDATA(_OMC_LIT13),stdout);
+  fputs(MMC_STRINGDATA(_OMC_LIT6),stdout);
 
-  tmpMeta16 = stringAppend(_OMC_LIT14,intString(_n));
-  tmpMeta17 = stringAppend(tmpMeta16,_OMC_LIT12);
+  tmpMeta16 = stringAppend(_OMC_LIT7,intString(_n));
+  tmpMeta17 = stringAppend(tmpMeta16,_OMC_LIT5);
   fputs(MMC_STRINGDATA(tmpMeta17),stdout);
 
-  tmpMeta18 = stringAppend(_OMC_LIT15,intString(_size));
-  tmpMeta19 = stringAppend(tmpMeta18,_OMC_LIT12);
+  tmpMeta18 = stringAppend(_OMC_LIT8,intString(_size));
+  tmpMeta19 = stringAppend(tmpMeta18,_OMC_LIT5);
   fputs(MMC_STRINGDATA(tmpMeta19),stdout);
 
   _i = ((modelica_integer) 0);
@@ -1213,15 +1064,15 @@ void omc_BaseHashTable_debugDump(threadData_t *threadData, modelica_metatype _ht
         tmpMeta22 = MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(tmpMeta21), 1));
         _he = tmpMeta22;
 
-        tmpMeta23 = stringAppend(intString(_i),_OMC_LIT16);
+        tmpMeta23 = stringAppend(intString(_i),_OMC_LIT9);
         tmpMeta24 = stringAppend(tmpMeta23,omc_BaseHashTable_dumpTuple(threadData, _he, ((modelica_fnptr) _printKey), ((modelica_fnptr) _printValue)));
-        tmpMeta25 = stringAppend(tmpMeta24,_OMC_LIT12);
+        tmpMeta25 = stringAppend(tmpMeta24,_OMC_LIT5);
         fputs(MMC_STRINGDATA(tmpMeta25),stdout);
       }
     }
   }
 
-  fputs(MMC_STRINGDATA(_OMC_LIT17),stdout);
+  fputs(MMC_STRINGDATA(_OMC_LIT10),stdout);
 
   _i = ((modelica_integer) 0);
 
@@ -1234,7 +1085,7 @@ void omc_BaseHashTable_debugDump(threadData_t *threadData, modelica_metatype _ht
 
       if((!listEmpty(_node)))
       {
-        tmpMeta30 = stringAppend(intString(_i),_OMC_LIT18);
+        tmpMeta30 = stringAppend(intString(_i),_OMC_LIT11);
         fputs(MMC_STRINGDATA(tmpMeta30),stdout);
 
         {
@@ -1250,15 +1101,15 @@ void omc_BaseHashTable_debugDump(threadData_t *threadData, modelica_metatype _ht
             _k = tmpMeta33;
             _j = tmp35  /* pattern as ty=Integer */;
 
-            tmpMeta36 = stringAppend(_OMC_LIT19,(MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_printKey), 2))) ? ((modelica_metatype(*)(threadData_t*, modelica_metatype, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_printKey), 1)))) (threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_printKey), 2))), _k) : ((modelica_metatype(*)(threadData_t*, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_printKey), 1)))) (threadData, _k));
-            tmpMeta37 = stringAppend(tmpMeta36,_OMC_LIT20);
+            tmpMeta36 = stringAppend(_OMC_LIT12,(MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_printKey), 2))) ? ((modelica_metatype(*)(threadData_t*, modelica_metatype, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_printKey), 1)))) (threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_printKey), 2))), _k) : ((modelica_metatype(*)(threadData_t*, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_printKey), 1)))) (threadData, _k));
+            tmpMeta37 = stringAppend(tmpMeta36,_OMC_LIT13);
             tmpMeta38 = stringAppend(tmpMeta37,intString(_j));
-            tmpMeta39 = stringAppend(tmpMeta38,_OMC_LIT21);
+            tmpMeta39 = stringAppend(tmpMeta38,_OMC_LIT14);
             fputs(MMC_STRINGDATA(tmpMeta39),stdout);
           }
         }
 
-        fputs(MMC_STRINGDATA(_OMC_LIT12),stdout);
+        fputs(MMC_STRINGDATA(_OMC_LIT5),stdout);
       }
     }
   }
@@ -1294,7 +1145,7 @@ void omc_BaseHashTable_dumpHashTable(threadData_t *threadData, modelica_metatype
   _printKey = tmpMeta3;
   _printValue = tmpMeta4;
 
-  fputs(MMC_STRINGDATA(_OMC_LIT22),stdout);
+  fputs(MMC_STRINGDATA(_OMC_LIT15),stdout);
 
   {
     modelica_metatype _entry;
@@ -1308,15 +1159,15 @@ void omc_BaseHashTable_dumpHashTable(threadData_t *threadData, modelica_metatype
       _k = tmpMeta7;
       _v = tmpMeta8;
 
-      fputs(MMC_STRINGDATA(_OMC_LIT7),stdout);
+      fputs(MMC_STRINGDATA(_OMC_LIT0),stdout);
 
       fputs(MMC_STRINGDATA((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_printKey), 2))) ? ((modelica_metatype(*)(threadData_t*, modelica_metatype, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_printKey), 1)))) (threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_printKey), 2))), _k) : ((modelica_metatype(*)(threadData_t*, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_printKey), 1)))) (threadData, _k)),stdout);
 
-      fputs(MMC_STRINGDATA(_OMC_LIT8),stdout);
+      fputs(MMC_STRINGDATA(_OMC_LIT1),stdout);
 
       fputs(MMC_STRINGDATA((MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_printValue), 2))) ? ((modelica_metatype(*)(threadData_t*, modelica_metatype, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_printValue), 1)))) (threadData, (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_printValue), 2))), _v) : ((modelica_metatype(*)(threadData_t*, modelica_metatype)) (MMC_FETCH(MMC_OFFSET(MMC_UNTAGPTR(_printValue), 1)))) (threadData, _v)),stdout);
 
-      fputs(MMC_STRINGDATA(_OMC_LIT23),stdout);
+      fputs(MMC_STRINGDATA(_OMC_LIT16),stdout);
     }
   }
   _return: OMC_LABEL_UNUSED
@@ -1550,7 +1401,7 @@ void omc_BaseHashTable_delete(threadData_t *threadData, modelica_metatype _key, 
 
   if((!omc_BaseHashTable_valueArrayKeyIndexExists(threadData, _varr, _indx)))
   {
-    fputs(MMC_STRINGDATA(_OMC_LIT24),stdout);
+    fputs(MMC_STRINGDATA(_OMC_LIT17),stdout);
 
     MMC_THROW_INTERNAL();
   }
@@ -1686,8 +1537,8 @@ modelica_metatype omc_BaseHashTable_addNoUpdCheck(threadData_t *threadData, mode
   MMC_SO();
   _tailrecursive: OMC_LABEL_UNUSED
   // _outHashTable has no default value.
-  { /* matchcontinue expression */
-    volatile modelica_metatype tmp4_1;volatile modelica_metatype tmp4_2;
+  { /* match expression */
+    modelica_metatype tmp4_1;modelica_metatype tmp4_2;
     tmp4_1 = _entry;
     tmp4_2 = _hashTable;
     {
@@ -1713,10 +1564,7 @@ modelica_metatype omc_BaseHashTable_addNoUpdCheck(threadData_t *threadData, mode
       // _key has no default value.
       // _fntpl has no default value.
       tmp4 = 0;
-      MMC_TRY_INTERNAL(mmc_jumper)
-      tmp3_top:
-      threadData->mmc_jumper = &new_mmc_jumper;
-      for (; tmp4 < 2; tmp4++) {
+      for (; tmp4 < 1; tmp4++) {
         switch (MMC_SWITCH_CAST(tmp4)) {
         case 0: {
           modelica_metatype tmpMeta6;
@@ -1758,29 +1606,15 @@ modelica_metatype omc_BaseHashTable_addNoUpdCheck(threadData_t *threadData, mode
           tmpMeta1 = tmpMeta15;
           goto tmp3_done;
         }
-        case 1: {
-          
-          /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT25),stdout);
-          goto goto_2;
-          goto tmp3_done;
-        }
         }
         goto tmp3_end;
         tmp3_end: ;
       }
       goto goto_2;
-      tmp3_done:
-      (void)tmp4;
-      MMC_RESTORE_INTERNAL(mmc_jumper);
-      goto tmp3_done2;
       goto_2:;
-      MMC_CATCH_INTERNAL(mmc_jumper);
-      if (++tmp4 < 2) {
-        goto tmp3_top;
-      }
       MMC_THROW_INTERNAL();
-      tmp3_done2:;
+      goto tmp3_done;
+      tmp3_done:;
     }
   }
   _outHashTable = tmpMeta1;
@@ -1826,13 +1660,13 @@ void omc_BaseHashTable_dumpHashTableStatistics(threadData_t *threadData, modelic
           
           _hvec = tmpMeta5;
           /* Pattern matching succeeded */
-          fputs(MMC_STRINGDATA(_OMC_LIT26),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT18),stdout);
 
           {
-            modelica_metatype __omcQ_24tmpVar3;
+            modelica_metatype __omcQ_24tmpVar1;
             modelica_metatype* tmp7;
             modelica_metatype tmpMeta8;
-            modelica_string __omcQ_24tmpVar2;
+            modelica_string __omcQ_24tmpVar0;
             modelica_integer tmp9;
             modelica_metatype _l_loopVar = 0;
             modelica_integer tmp10;
@@ -1840,8 +1674,8 @@ void omc_BaseHashTable_dumpHashTableStatistics(threadData_t *threadData, modelic
             _l_loopVar = _hvec;
             tmp10 = 1;
             tmpMeta8 = MMC_REFSTRUCTLIT(mmc_nil);
-            __omcQ_24tmpVar3 = tmpMeta8; /* defaultValue */
-            tmp7 = &__omcQ_24tmpVar3;
+            __omcQ_24tmpVar1 = tmpMeta8; /* defaultValue */
+            tmp7 = &__omcQ_24tmpVar1;
             while(1) {
               tmp9 = 1;
               if (tmp10 <= arrayLength(_l_loopVar)) {
@@ -1849,8 +1683,8 @@ void omc_BaseHashTable_dumpHashTableStatistics(threadData_t *threadData, modelic
                 tmp9--;
               }
               if (tmp9 == 0) {
-                __omcQ_24tmpVar2 = intString(listLength(_l));
-                *tmp7 = mmc_mk_cons(__omcQ_24tmpVar2,0);
+                __omcQ_24tmpVar0 = intString(listLength(_l));
+                *tmp7 = mmc_mk_cons(__omcQ_24tmpVar0,0);
                 tmp7 = &MMC_CDR(*tmp7);
               } else if (tmp9 == 1) {
                 break;
@@ -1859,22 +1693,22 @@ void omc_BaseHashTable_dumpHashTableStatistics(threadData_t *threadData, modelic
               }
             }
             *tmp7 = mmc_mk_nil();
-            tmpMeta6 = __omcQ_24tmpVar3;
+            tmpMeta6 = __omcQ_24tmpVar1;
           }
-          fputs(MMC_STRINGDATA(stringDelimitList(tmpMeta6, _OMC_LIT27)),stdout);
+          fputs(MMC_STRINGDATA(stringDelimitList(tmpMeta6, _OMC_LIT19)),stdout);
 
-          fputs(MMC_STRINGDATA(_OMC_LIT12),stdout);
+          fputs(MMC_STRINGDATA(_OMC_LIT5),stdout);
 
           {
-            modelica_integer __omcQ_24tmpVar9;
-            modelica_integer __omcQ_24tmpVar8;
+            modelica_integer __omcQ_24tmpVar7;
+            modelica_integer __omcQ_24tmpVar6;
             modelica_integer tmp13;
             modelica_metatype _l_loopVar = 0;
             modelica_integer tmp14;
             modelica_metatype _l;
             _l_loopVar = _hvec;
             tmp14 = 1;
-            __omcQ_24tmpVar9 = ((modelica_integer) 0); /* defaultValue */
+            __omcQ_24tmpVar7 = ((modelica_integer) 0); /* defaultValue */
             while(1) {
               tmp13 = 1;
               while (tmp14 <= arrayLength(_l_loopVar)) {
@@ -1885,34 +1719,34 @@ void omc_BaseHashTable_dumpHashTableStatistics(threadData_t *threadData, modelic
                 }
               }
               if (tmp13 == 0) {
-                __omcQ_24tmpVar8 = ((modelica_integer) 1);
-                __omcQ_24tmpVar9 = __omcQ_24tmpVar9 + __omcQ_24tmpVar8;
+                __omcQ_24tmpVar6 = ((modelica_integer) 1);
+                __omcQ_24tmpVar7 = __omcQ_24tmpVar7 + __omcQ_24tmpVar6;
               } else if (tmp13 == 1) {
                 break;
               } else {
                 goto goto_1;
               }
             }
-            tmp12 = __omcQ_24tmpVar9;
+            tmp12 = __omcQ_24tmpVar7;
           }
           tmp11 = modelica_integer_to_modelica_string(tmp12, ((modelica_integer) 0), 1 /* true */);
-          tmpMeta15 = stringAppend(_OMC_LIT28,tmp11);
-          tmpMeta16 = stringAppend(tmpMeta15,_OMC_LIT29);
+          tmpMeta15 = stringAppend(_OMC_LIT20,tmp11);
+          tmpMeta16 = stringAppend(tmpMeta15,_OMC_LIT21);
           tmp17 = modelica_integer_to_modelica_string(arrayLength(_hvec), ((modelica_integer) 0), 1 /* true */);
           tmpMeta18 = stringAppend(tmpMeta16,tmp17);
-          tmpMeta19 = stringAppend(tmpMeta18,_OMC_LIT12);
+          tmpMeta19 = stringAppend(tmpMeta18,_OMC_LIT5);
           fputs(MMC_STRINGDATA(tmpMeta19),stdout);
 
           {
-            modelica_integer __omcQ_24tmpVar15;
-            modelica_integer __omcQ_24tmpVar14;
+            modelica_integer __omcQ_24tmpVar13;
+            modelica_integer __omcQ_24tmpVar12;
             modelica_integer tmp22;
             modelica_metatype _l_loopVar = 0;
             modelica_integer tmp23;
             modelica_metatype _l;
             _l_loopVar = _hvec;
             tmp23 = 1;
-            __omcQ_24tmpVar15 = ((modelica_integer) -4611686018427387903); /* defaultValue */
+            __omcQ_24tmpVar13 = ((modelica_integer) -4611686018427387903); /* defaultValue */
             while(1) {
               tmp22 = 1;
               if (tmp23 <= arrayLength(_l_loopVar)) {
@@ -1920,31 +1754,31 @@ void omc_BaseHashTable_dumpHashTableStatistics(threadData_t *threadData, modelic
                 tmp22--;
               }
               if (tmp22 == 0) {
-                __omcQ_24tmpVar14 = listLength(_l);
-                __omcQ_24tmpVar15 = modelica_integer_max((modelica_integer)(__omcQ_24tmpVar14),(modelica_integer)(__omcQ_24tmpVar15));
+                __omcQ_24tmpVar12 = listLength(_l);
+                __omcQ_24tmpVar13 = modelica_integer_max((modelica_integer)(__omcQ_24tmpVar12),(modelica_integer)(__omcQ_24tmpVar13));
               } else if (tmp22 == 1) {
                 break;
               } else {
                 goto goto_1;
               }
             }
-            tmp21 = __omcQ_24tmpVar15;
+            tmp21 = __omcQ_24tmpVar13;
           }
           tmp20 = modelica_integer_to_modelica_string(tmp21, ((modelica_integer) 0), 1 /* true */);
-          tmpMeta24 = stringAppend(_OMC_LIT30,tmp20);
-          tmpMeta25 = stringAppend(tmpMeta24,_OMC_LIT12);
+          tmpMeta24 = stringAppend(_OMC_LIT22,tmp20);
+          tmpMeta25 = stringAppend(tmpMeta24,_OMC_LIT5);
           fputs(MMC_STRINGDATA(tmpMeta25),stdout);
 
           {
-            modelica_integer __omcQ_24tmpVar21;
-            modelica_integer __omcQ_24tmpVar20;
+            modelica_integer __omcQ_24tmpVar19;
+            modelica_integer __omcQ_24tmpVar18;
             modelica_integer tmp28;
             modelica_metatype _l_loopVar = 0;
             modelica_integer tmp29;
             modelica_metatype _l;
             _l_loopVar = _hvec;
             tmp29 = 1;
-            __omcQ_24tmpVar21 = ((modelica_integer) 0); /* defaultValue */
+            __omcQ_24tmpVar19 = ((modelica_integer) 0); /* defaultValue */
             while(1) {
               tmp28 = 1;
               if (tmp29 <= arrayLength(_l_loopVar)) {
@@ -1952,19 +1786,19 @@ void omc_BaseHashTable_dumpHashTableStatistics(threadData_t *threadData, modelic
                 tmp28--;
               }
               if (tmp28 == 0) {
-                __omcQ_24tmpVar20 = listLength(_l);
-                __omcQ_24tmpVar21 = __omcQ_24tmpVar21 + __omcQ_24tmpVar20;
+                __omcQ_24tmpVar18 = listLength(_l);
+                __omcQ_24tmpVar19 = __omcQ_24tmpVar19 + __omcQ_24tmpVar18;
               } else if (tmp28 == 1) {
                 break;
               } else {
                 goto goto_1;
               }
             }
-            tmp27 = __omcQ_24tmpVar21;
+            tmp27 = __omcQ_24tmpVar19;
           }
           tmp26 = modelica_integer_to_modelica_string(tmp27, ((modelica_integer) 0), 1 /* true */);
-          tmpMeta30 = stringAppend(_OMC_LIT31,tmp26);
-          tmpMeta31 = stringAppend(tmpMeta30,_OMC_LIT12);
+          tmpMeta30 = stringAppend(_OMC_LIT23,tmp26);
+          tmpMeta31 = stringAppend(tmpMeta30,_OMC_LIT5);
           fputs(MMC_STRINGDATA(tmpMeta31),stdout);
           goto tmp2_done;
         }
@@ -1999,7 +1833,6 @@ modelica_metatype omc_BaseHashTable_add(threadData_t *threadData, modelica_metat
   modelica_fnptr _keyEqual;
   modelica_metatype _key = NULL;
   modelica_metatype _key2 = NULL;
-  modelica_metatype _val = NULL;
   modelica_metatype _indices = NULL;
   modelica_metatype tmpMeta1;
   modelica_metatype tmpMeta2;
@@ -2033,7 +1866,6 @@ modelica_metatype omc_BaseHashTable_add(threadData_t *threadData, modelica_metat
   // _fntpl has no default value.
   // _key has no default value.
   // _key2 has no default value.
-  // _val has no default value.
   // _indices has no default value.
   /* Pattern-matching assignment */
   tmpMeta1 = _entry;
@@ -2104,7 +1936,6 @@ modelica_metatype omc_BaseHashTable_emptyHashTableWork(threadData_t *threadData,
 {
   modelica_metatype _hashTable = NULL;
   modelica_metatype _arr = NULL;
-  modelica_metatype _lst = NULL;
   modelica_metatype _emptyarr = NULL;
   modelica_integer _szArr;
   modelica_integer _szBucketFixed;
@@ -2115,7 +1946,6 @@ modelica_metatype omc_BaseHashTable_emptyHashTableWork(threadData_t *threadData,
   _tailrecursive: OMC_LABEL_UNUSED
   // _hashTable has no default value.
   // _arr has no default value.
-  // _lst has no default value.
   // _emptyarr has no default value.
   // _szArr has no default value.
   _szBucketFixed = modelica_integer_max((modelica_integer)(_szBucket),(modelica_integer)(((modelica_integer) 1)));

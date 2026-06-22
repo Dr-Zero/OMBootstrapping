@@ -24,8 +24,6 @@ extern struct record_description FCore_Visit_VN__desc;
 
 extern struct record_description FCore_Visited_V__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 
 DLLDirection
 modelica_metatype omc_FVisit_getAvlValue(threadData_t *threadData, modelica_metatype _inValue);

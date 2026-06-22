@@ -19,7 +19,7 @@ extern struct record_description NFBinding_UNBOUND__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NFBinding_RAW__BINDING__desc_added
 #define NFBinding_RAW__BINDING__desc_added
-ADD_METARECORD_DEFINITIONS const char* NFBinding_RAW__BINDING__desc__fields[6] = {"bindingExp","scope","subs","eachType","source","info"};
+ADD_METARECORD_DEFINITIONS const char* NFBinding_RAW__BINDING__desc__fields[7] = {"bindingExp","scope","subs","eachType","source","confidence","info"};
 ADD_METARECORD_DEFINITIONS struct record_description NFBinding_RAW__BINDING__desc = {
   "NFBinding_RAW__BINDING",
   "NFBinding.RAW_BINDING",
@@ -32,7 +32,7 @@ extern struct record_description NFBinding_RAW__BINDING__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NFBinding_UNTYPED__BINDING__desc_added
 #define NFBinding_UNTYPED__BINDING__desc_added
-ADD_METARECORD_DEFINITIONS const char* NFBinding_UNTYPED__BINDING__desc__fields[6] = {"bindingExp","isProcessing","scope","eachType","source","info"};
+ADD_METARECORD_DEFINITIONS const char* NFBinding_UNTYPED__BINDING__desc__fields[7] = {"bindingExp","isProcessing","scope","eachType","source","confidence","info"};
 ADD_METARECORD_DEFINITIONS struct record_description NFBinding_UNTYPED__BINDING__desc = {
   "NFBinding_UNTYPED__BINDING",
   "NFBinding.UNTYPED_BINDING",
@@ -45,7 +45,7 @@ extern struct record_description NFBinding_UNTYPED__BINDING__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NFBinding_TYPED__BINDING__desc_added
 #define NFBinding_TYPED__BINDING__desc_added
-ADD_METARECORD_DEFINITIONS const char* NFBinding_TYPED__BINDING__desc__fields[9] = {"bindingExp","bindingType","variability","purity","eachType","evalState","isFlattened","source","info"};
+ADD_METARECORD_DEFINITIONS const char* NFBinding_TYPED__BINDING__desc__fields[10] = {"bindingExp","bindingType","variability","purity","eachType","evalState","isFlattened","source","confidence","info"};
 ADD_METARECORD_DEFINITIONS struct record_description NFBinding_TYPED__BINDING__desc = {
   "NFBinding_TYPED__BINDING",
   "NFBinding.TYPED_BINDING",
@@ -58,7 +58,7 @@ extern struct record_description NFBinding_TYPED__BINDING__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NFBinding_FLAT__BINDING__desc_added
 #define NFBinding_FLAT__BINDING__desc_added
-ADD_METARECORD_DEFINITIONS const char* NFBinding_FLAT__BINDING__desc__fields[3] = {"bindingExp","variability","source"};
+ADD_METARECORD_DEFINITIONS const char* NFBinding_FLAT__BINDING__desc__fields[4] = {"bindingExp","variability","source","confidence"};
 ADD_METARECORD_DEFINITIONS struct record_description NFBinding_FLAT__BINDING__desc = {
   "NFBinding_FLAT__BINDING",
   "NFBinding.FLAT_BINDING",

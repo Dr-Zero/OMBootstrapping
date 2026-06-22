@@ -26,8 +26,6 @@ extern struct record_description Figaro_Token_OPENTAG__desc;
 
 extern struct record_description Figaro_Token_TEXT__desc;
 
-extern struct record_description Gettext_TranslatableContent_notrans__desc;
-
 
 #define boxptr_Figaro_printToken omc_Figaro_printToken
 

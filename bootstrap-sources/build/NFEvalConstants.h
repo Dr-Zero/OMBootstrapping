@@ -12,11 +12,7 @@ extern "C" {
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NFCeval_EvalTarget_EVAL__TARGET__desc;
-
-extern struct record_description NFEquation_ARRAY__EQUALITY__desc;
 
 extern struct record_description NFEquation_ASSERT__desc;
 
@@ -30,6 +26,8 @@ extern struct record_description NFExpression_CREF__desc;
 
 extern struct record_description NFExpression_IF__desc;
 
+extern struct record_description NFFlatModel_FLAT__MODEL__desc;
+
 extern struct record_description NFFlatten_Prefix_PREFIX__desc;
 
 extern struct record_description NFInstNode_InstNode_EMPTY__NODE__desc;
@@ -37,6 +35,8 @@ extern struct record_description NFInstNode_InstNode_EMPTY__NODE__desc;
 extern struct record_description NFStatement_ASSERT__desc;
 
 extern struct record_description NFStatement_ASSIGNMENT__desc;
+
+extern struct record_description NFVariable_VARIABLE__desc;
 
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 

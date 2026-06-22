@@ -12,6 +12,8 @@ extern "C" {
 
 extern struct record_description DAE_InlineType_AFTER__INDEX__RED__INLINE__desc;
 
+extern struct record_description DAE_InlineType_DEFAULT__INLINE__desc;
+
 extern struct record_description ErrorTypes_Message_MESSAGE__desc;
 
 extern struct record_description ErrorTypes_MessageType_TRANSLATION__desc;
@@ -20,11 +22,13 @@ extern struct record_description ErrorTypes_Severity_ERROR__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NBEquation_Equation_DUMMY__EQUATION__desc;
 
+extern struct record_description NBEquation_IfEquationBody_IF__EQUATION__BODY__desc;
+
 extern struct record_description NBEquation_Iterator_EMPTY__desc;
+
+extern struct record_description NBInline_InlineRating_INLINE__RATING__desc;
 
 extern struct record_description NBSlice_SLICE__desc;
 
@@ -39,6 +43,72 @@ extern struct record_description NFType_INTEGER__desc;
 extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
+DLLDirection
+modelica_metatype omc_NBInline_InlineRating_rateExpression(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype _func_map, modelica_metatype _local_map, modelica_metatype _irp);
+#define boxptr_NBInline_InlineRating_rateExpression omc_NBInline_InlineRating_rateExpression
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBInline_InlineRating_rateExpression,2,0) {(void*) boxptr_NBInline_InlineRating_rateExpression,0}};
+#define boxvar_NBInline_InlineRating_rateExpression MMC_REFSTRUCTLIT(boxvar_lit_NBInline_InlineRating_rateExpression)
+
+
+DLLDirection
+modelica_metatype omc_NBInline_InlineRating_fromFunction(threadData_t *threadData, modelica_metatype _fn, modelica_metatype _func_map);
+#define boxptr_NBInline_InlineRating_fromFunction omc_NBInline_InlineRating_fromFunction
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBInline_InlineRating_fromFunction,2,0) {(void*) boxptr_NBInline_InlineRating_fromFunction,0}};
+#define boxvar_NBInline_InlineRating_fromFunction MMC_REFSTRUCTLIT(boxvar_lit_NBInline_InlineRating_fromFunction)
+
+
+DLLDirection
+modelica_metatype omc_NBInline_InlineRating_addMappedExp(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_integer _i, modelica_metatype _irp, modelica_metatype _local_map);
+DLLDirection
+modelica_metatype boxptr_NBInline_InlineRating_addMappedExp(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype _i, modelica_metatype _irp, modelica_metatype _local_map);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBInline_InlineRating_addMappedExp,2,0) {(void*) boxptr_NBInline_InlineRating_addMappedExp,0}};
+#define boxvar_NBInline_InlineRating_addMappedExp MMC_REFSTRUCTLIT(boxvar_lit_NBInline_InlineRating_addMappedExp)
+
+
+DLLDirection
+modelica_metatype omc_NBInline_InlineRating_addMapped(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fdst, modelica_metatype _src, modelica_metatype _args, modelica_metatype _local_map);
+#define boxptr_NBInline_InlineRating_addMapped omc_NBInline_InlineRating_addMapped
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBInline_InlineRating_addMapped,2,0) {(void*) boxptr_NBInline_InlineRating_addMapped,0}};
+#define boxvar_NBInline_InlineRating_addMapped MMC_REFSTRUCTLIT(boxvar_lit_NBInline_InlineRating_addMapped)
+
+
+DLLDirection
+modelica_metatype omc_NBInline_InlineRating_addConst(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fir);
+#define boxptr_NBInline_InlineRating_addConst omc_NBInline_InlineRating_addConst
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBInline_InlineRating_addConst,2,0) {(void*) boxptr_NBInline_InlineRating_addConst,0}};
+#define boxvar_NBInline_InlineRating_addConst MMC_REFSTRUCTLIT(boxvar_lit_NBInline_InlineRating_addConst)
+
+
+DLLDirection
+modelica_metatype omc_NBInline_InlineRating_multiply(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fir, modelica_integer _i);
+DLLDirection
+modelica_metatype boxptr_NBInline_InlineRating_multiply(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fir, modelica_metatype _i);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBInline_InlineRating_multiply,2,0) {(void*) boxptr_NBInline_InlineRating_multiply,0}};
+#define boxvar_NBInline_InlineRating_multiply MMC_REFSTRUCTLIT(boxvar_lit_NBInline_InlineRating_multiply)
+
+
+DLLDirection
+modelica_metatype omc_NBInline_InlineRating_add(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fdst, modelica_metatype _src);
+#define boxptr_NBInline_InlineRating_add omc_NBInline_InlineRating_add
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBInline_InlineRating_add,2,0) {(void*) boxptr_NBInline_InlineRating_add,0}};
+#define boxvar_NBInline_InlineRating_add MMC_REFSTRUCTLIT(boxvar_lit_NBInline_InlineRating_add)
+
+
+DLLDirection
+modelica_real omc_NBInline_InlineRating_resolve(threadData_t *threadData, modelica_metatype _ir);
+DLLDirection
+modelica_metatype boxptr_NBInline_InlineRating_resolve(threadData_t *threadData, modelica_metatype _ir);
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBInline_InlineRating_resolve,2,0) {(void*) boxptr_NBInline_InlineRating_resolve,0}};
+#define boxvar_NBInline_InlineRating_resolve MMC_REFSTRUCTLIT(boxvar_lit_NBInline_InlineRating_resolve)
+
+
+DLLDirection
+modelica_string omc_NBInline_InlineRating_toString(threadData_t *threadData, modelica_metatype _ir);
+#define boxptr_NBInline_InlineRating_toString omc_NBInline_InlineRating_toString
+static const MMC_DEFSTRUCTLIT(boxvar_lit_NBInline_InlineRating_toString,2,0) {(void*) boxptr_NBInline_InlineRating_toString,0}};
+#define boxvar_NBInline_InlineRating_toString MMC_REFSTRUCTLIT(boxvar_lit_NBInline_InlineRating_toString)
+
+
 #define boxptr_NBInline_getElementList omc_NBInline_getElementList
 
 
@@ -46,6 +116,9 @@ extern struct record_description SourceInfo_SOURCEINFO__desc;
 
 
 #define boxptr_NBInline_createInlinedEquation omc_NBInline_createInlinedEquation
+
+
+#define boxptr_NBInline_bumpShift omc_NBInline_bumpShift
 
 
 #define boxptr_NBInline_inlineCatCall omc_NBInline_inlineCatCall
@@ -69,13 +142,6 @@ DLLDirection
 modelica_metatype boxptr_NBInline_inlineRecordTupleArrayEquation(threadData_t *threadData, modelica_metatype __omcQ_24in_5Feqn, modelica_metatype _iter, modelica_metatype _variables, modelica_metatype _new_eqns, modelica_metatype _set, modelica_metatype _index, modelica_metatype _inlineSimple);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NBInline_inlineRecordTupleArrayEquation,2,0) {(void*) boxptr_NBInline_inlineRecordTupleArrayEquation,0}};
 #define boxvar_NBInline_inlineRecordTupleArrayEquation MMC_REFSTRUCTLIT(boxvar_lit_NBInline_inlineRecordTupleArrayEquation)
-
-
-DLLDirection
-modelica_metatype omc_NBInline_inlineArrayIterator(threadData_t *threadData, modelica_metatype _iter, modelica_metatype _set);
-#define boxptr_NBInline_inlineArrayIterator omc_NBInline_inlineArrayIterator
-static const MMC_DEFSTRUCTLIT(boxvar_lit_NBInline_inlineArrayIterator,2,0) {(void*) boxptr_NBInline_inlineArrayIterator,0}};
-#define boxvar_NBInline_inlineArrayIterator MMC_REFSTRUCTLIT(boxvar_lit_NBInline_inlineArrayIterator)
 
 
 DLLDirection

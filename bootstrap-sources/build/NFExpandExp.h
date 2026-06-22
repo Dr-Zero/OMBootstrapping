@@ -351,17 +351,17 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpandExp_expandCref3,2,0) {(void*) b
 
 
 DLLDirection
-modelica_metatype omc_NFExpandExp_expandCref2(threadData_t *threadData, modelica_metatype _cref, modelica_boolean _backend, modelica_metatype __omcQ_24in_5Fsubs);
+modelica_metatype omc_NFExpandExp_expandCref2(threadData_t *threadData, modelica_metatype _cref, modelica_boolean _backend, modelica_boolean _resize, modelica_metatype __omcQ_24in_5Fsubs);
 DLLDirection
-modelica_metatype boxptr_NFExpandExp_expandCref2(threadData_t *threadData, modelica_metatype _cref, modelica_metatype _backend, modelica_metatype __omcQ_24in_5Fsubs);
+modelica_metatype boxptr_NFExpandExp_expandCref2(threadData_t *threadData, modelica_metatype _cref, modelica_metatype _backend, modelica_metatype _resize, modelica_metatype __omcQ_24in_5Fsubs);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpandExp_expandCref2,2,0) {(void*) boxptr_NFExpandExp_expandCref2,0}};
 #define boxvar_NFExpandExp_expandCref2 MMC_REFSTRUCTLIT(boxvar_lit_NFExpandExp_expandCref2)
 
 
 DLLDirection
-modelica_metatype omc_NFExpandExp_expandCref(threadData_t *threadData, modelica_metatype _crefExp, modelica_boolean _backend, modelica_boolean *out_expanded);
+modelica_metatype omc_NFExpandExp_expandCref(threadData_t *threadData, modelica_metatype _crefExp, modelica_boolean _backend, modelica_boolean _resize, modelica_boolean *out_expanded);
 DLLDirection
-modelica_metatype boxptr_NFExpandExp_expandCref(threadData_t *threadData, modelica_metatype _crefExp, modelica_metatype _backend, modelica_metatype *out_expanded);
+modelica_metatype boxptr_NFExpandExp_expandCref(threadData_t *threadData, modelica_metatype _crefExp, modelica_metatype _backend, modelica_metatype _resize, modelica_metatype *out_expanded);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpandExp_expandCref,2,0) {(void*) boxptr_NFExpandExp_expandCref,0}};
 #define boxvar_NFExpandExp_expandCref MMC_REFSTRUCTLIT(boxvar_lit_NFExpandExp_expandCref)
 
@@ -383,9 +383,9 @@ static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpandExp_expandArray,2,0) {(void*) b
 
 
 DLLDirection
-modelica_metatype omc_NFExpandExp_expand(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_boolean _backend, modelica_boolean *out_expanded);
+modelica_metatype omc_NFExpandExp_expand(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_boolean _backend, modelica_boolean _resize, modelica_boolean *out_expanded);
 DLLDirection
-modelica_metatype boxptr_NFExpandExp_expand(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype _backend, modelica_metatype *out_expanded);
+modelica_metatype boxptr_NFExpandExp_expand(threadData_t *threadData, modelica_metatype __omcQ_24in_5Fexp, modelica_metatype _backend, modelica_metatype _resize, modelica_metatype *out_expanded);
 static const MMC_DEFSTRUCTLIT(boxvar_lit_NFExpandExp_expand,2,0) {(void*) boxptr_NFExpandExp_expand,0}};
 #define boxvar_NFExpandExp_expand MMC_REFSTRUCTLIT(boxvar_lit_NFExpandExp_expand)
 

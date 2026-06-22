@@ -32,15 +32,9 @@ extern struct record_description DAE_Type_T__UNKNOWN__desc;
 
 extern struct record_description Flags_DebugFlag_DEBUG__FLAG__desc;
 
-extern struct record_description Gettext_TranslatableContent_gettext__desc;
-
 extern struct record_description NFArrayConnections_SetEdge_SET__EDGE__desc;
 
 extern struct record_description NFArrayConnections_SetVertex_SET__VERTEX__desc;
-
-extern struct record_description NFEquation_ARRAY__EQUALITY__desc;
-
-extern struct record_description NFEquation_EQUALITY__desc;
 
 extern struct record_description NFEquation_FOR__desc;
 

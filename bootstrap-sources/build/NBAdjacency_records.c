@@ -71,7 +71,7 @@ extern struct record_description NBAdjacency_Matrix_EMPTY__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NBAdjacency_Matrix_FULL__desc_added
 #define NBAdjacency_Matrix_FULL__desc_added
-ADD_METARECORD_DEFINITIONS const char* NBAdjacency_Matrix_FULL__desc__fields[6] = {"equation_names","occurences","dependencies","solvabilities","repetitions","mapping"};
+ADD_METARECORD_DEFINITIONS const char* NBAdjacency_Matrix_FULL__desc__fields[6] = {"equation_names","occurrences","dependencies","solvabilities","repetitions","mapping"};
 ADD_METARECORD_DEFINITIONS struct record_description NBAdjacency_Matrix_FULL__desc = {
   "NBAdjacency_Matrix_FULL",
   "NBAdjacency.Matrix.FULL",
@@ -136,7 +136,7 @@ extern struct record_description NBAdjacency_Matrix_FINAL__desc;
 #ifdef ADD_METARECORD_DEFINITIONS
 #ifndef NBAdjacency_Matrix_FULL__desc_added
 #define NBAdjacency_Matrix_FULL__desc_added
-ADD_METARECORD_DEFINITIONS const char* NBAdjacency_Matrix_FULL__desc__fields[6] = {"equation_names","occurences","dependencies","solvabilities","repetitions","mapping"};
+ADD_METARECORD_DEFINITIONS const char* NBAdjacency_Matrix_FULL__desc__fields[6] = {"equation_names","occurrences","dependencies","solvabilities","repetitions","mapping"};
 ADD_METARECORD_DEFINITIONS struct record_description NBAdjacency_Matrix_FULL__desc = {
   "NBAdjacency_Matrix_FULL",
   "NBAdjacency.Matrix.FULL",
